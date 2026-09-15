@@ -1,0 +1,2286 @@
+Versloot, Arjen P. "Reconstructing the Historical Phonology of Old
+English." English Language and Linguistics 30.1 (2026 [2025]), 103-141.
+doi:10.1017/S1360674324000674
+Open Access (CC BY-NC 4.0).
+
+SOURCE AND METHOD
+-----------------
+Born-digital PDF, extracted with `pdftotext -layout` (poppler) and then
+repaired (see below). No OCR was involved, so no OCR caveat applies: the
+characters below are the publisher's own, not a recognition guess. The PDF
+itself stays untracked under docs/references/ per .gitignore; this text is
+the committed, citable representation.
+
+The text layer was screened for diacritic integrity before use, because a
+text layer's existence is not evidence of its reliability. It passes: ae
+digraph, thorn, eth and macron vowels are all present in plausible numbers
+and correctly encoded. Three characters needed repair.
+
+CHARACTER REPAIRS
+-----------------
+The IPA font maps three SMALL CAPITAL letters into the Unicode private use
+area, where they carry no meaning and cannot be searched. The encoding is
+systematic -- private-use code = 0xF700 + the ASCII code of the base letter
+-- and each was confirmed by rendering its line at 520 dpi and reading it
+off the page:
+
+  U+F769  ->  U+026A  small capital I   "PDE wind [ɪ] (noun) - wind [aɪ] (verb)"   p. 115
+  U+F76C  ->  U+029F  small capital L   "velar sounds, such as *[ʀ] ... or *[ʟ]"   p. 113
+  U+F772  ->  U+0280  small capital R   (same sentence, p. 113)
+
+These are Versloot's notation for the velarized resonants that condition
+breaking, so losing them would silently delete the conditioning environment
+from a paper about breaking.
+
+Two further normalizations improve searchability without changing content:
+typographic ligatures (U+FB00-U+FB06) are decomposed to their letters, so
+"different" and "offers" are findable; and the non-breaking hyphen U+2011
+is replaced by an ASCII hyphen, so Versloot's environment "-rC" is
+findable. Both are one-to-one and context-free.
+
+PAGE NUMBERING
+--------------
+The `=== page NNN ===` markers below are the PRINTED page numbers of the
+publication, not PDF sheet numbers, so a citation taken from this file can
+be given directly as a page reference. The offset is constant: printed
+page N is PDF sheet N - 102. It was verified mechanically: the printed
+folio appears in the running head or foot of 39 of the 39 sheets.
+
+Note one typographic quirk: on pp. 110-119 `pdftotext -layout` kerns the
+running-head folio apart, so p. 113 appears in the body text below as
+"11 3". The page MARKERS are unaffected and remain authoritative; only the
+publisher's own running head is split. Do not mistake this for a missing
+folio, and do not cite from the running head.
+Text never crosses a printed page boundary.
+
+Printed pages 103-141 (39 sheets).
+
+=== page 103 ===
+                  English Language and Linguistics, 30.1: 103–141. © The Author(s), 2025. Published by
+                 Cambridge University Press. This is an Open Access article, distributed under the terms of the
+                    Creative Commons Attribution-NonCommercial licence (http://creativecommons.org/
+                 licenses/by-nc/4.0), which permits non-commercial re-use, distribution, and reproduction in
+                     any medium, provided the original article is properly cited. The written permission of
+                          Cambridge University Press must be obtained prior to any commercial use.
+                                             doi:10.1017/S1360674324000674
+
+                           Reconstructing the historical phonology of Old English
+
+
+
+                                                 ARJEN PIETER VERSLOOT
+                                                             University of Amsterdam
+                                                             University of Groningen
+                                                           Fryske Akademy, Leeuwarden
+
+                     (Received 21 October 2024; revised 17 November 2024; accepted 20 November 2024)
+
+
+
+                      This article offers a new reconstruction of the phonological history of pre-Old English,
+                      building on a potential parallelism between English, Frisian and North Germanic. Pivotal
+                      to the reconstruction is the development of PGmc *a, which is the target of eight different
+                      sound laws in the traditional theory. A combination of a conditional early fronting and
+                      rounding, followed by a gradual i-mutation impact, both with parallels in Frisian, and a
+                      relatively late seventh-century application of breaking before -rC can account for most of
+                      the attested spellings of instances with PGmc *a in the language of the early Épinal and
+                      Erfurt glossaries. This approach is much simpler than the traditional theory and allows
+                      parallelisms to be (re)established between the earliest stages of Old English, Old Frisian
+                      and Old Norse.
+                      Keywords: Old English, breaking, smoothing, chronology, Épinal Glossary, Erfurt
+                      Glossary
+
+
+                                                       1    Introduction and central issue
+
+                       1.1 The current chronology of pre-Old English sound changes and its critics
+                 There is a widely accepted chronology of sound laws in Old English philology, covering
+                 the transition from Proto-West Germanic to Old English, starting with Luick (1921-40)
+                 and later modified by scholars such as Campbell, Brunner, Fulk, Stiles, Hogg and Ringe.
+                 This comprises sound laws such as fronting, breaking, i-mutation and Anglian
+                 Smoothing. I will refer to this theory as the Standard Theory. Extensive overviews and
+                 discussions are given by Campbell (1977: 50–112), Hogg (2011 [1992]: 74–168) and
+                 Ringe & Taylor (2014: 167–336), to mention a few.
+                    Adjustments of the standard chronology have been put forward on various
+                 occasions, such as by Ball & Stiles (1983), who altered the relative chronology of
+                 smoothing and back mutation, and Toon (1987; referring to criticism by Kuhn from
+                 1939) and Toon (1992), claiming that Anglian Smoothing was still active in the oldest
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 104 ===
+                        104                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        attested texts and hence not ‘pre-historical’. Both refinements did not affect the
+                        foundations of the theory.
+                           The crucial features of the Standard Theory are a postulated general fronting of
+                        PGmc *a, except before *w and nasals, which was followed by breaking of the *æ > ea
+                        before *rC, *lC and *x. Furthermore, the fronted, unbroken *æ could be restored to *a
+                        under influence of back vowels in the following syllable. Still, Anglian dialects in
+                        particular show much fewer instances of broken vowels than predicted by these three
+                        steps. This is supposedly the result of i-mutation, turning a broken *ea into e, and
+                        Anglian Smoothing (before -(l/r)k/g/x), with a similar effect (æ). Other vowels, in
+                        particular short *i and *e, could also be broken; the details can be found in the
+                        handbooks. A synoptic overview, also marking the differences between the dialects,
+                        is provided in table 1. This shows the main sound laws as reconstructed by the
+                        Standard Theory up till the earliest attestations, which are older in Northumbrian
+                        and Mercian than in West Saxon. The earliest Northumbrian and Mercian texts will be
+                        the basis of my evaluation of the earliest history of Old English (see section 1.2).
+                           Some authors have raised questions about the plausibility of some of the
+                        reconstructed sound laws, e.g. Howell & Somers (2008) with reference to Anglian
+                        Smoothing. They state that this process is ‘difficult for scholars to adequately explain
+                        in either theoretical or phonetic terms’ and that the breaking-smoothing sequence in
+                        *nēh > *nēoh > nēh ‘near’ is an ‘apparent paradox’ (p. 187). Still, the historical reality
+                        of smoothing is not questioned by the authors.
+                           Krupatkin (1970: 50) is bolder in his criticism when discussing the theory of
+                        restoration of fronted PGmc *a, describing the theory of fronting and restoration as
+                        an implausible ‘zigzag’ a > æ > a’. Doubts have also been raised by Kortlandt (1999,
+
+
+                        Table 1. Sound laws affecting PGmc *a for Early Old English per dialect according
+                        to the Standard Theory with references to the relevant sections in Hogg (2011). Sound
+                                laws that cancel the effect of a previous one, are highlighted in grey.
+
+                                                                                                                                          §§
+                        Northumbrian                            Mercian                                  West Saxon                      Hogg
+                        Rounding /a/ > /ɔ/                      Rounding /a/ > /ɔ/                       Rounding /a/ > /ɑ/              5.3
+                        Fronting /a/ > /æ/,                     Fronting /a/ > /æ/,                      Fronting /a/ > /æ/            5.10–13
+                          except -lC                              except -lC
+                        Breaking                                Breaking                                 Breaking                         5.16
+                        Combinative ‘breaking’ /æ/              Combinative ‘breaking’ /æ/               –                                5.28
+                          > /a/                                   > /a/
+                        Restoration of /a/                      Restoration of /a/                       Restoration of /a/              5.35
+                        (Palatal diphthongisation)              –                                        Palatal                       5.47–55
+                                                                                                            diphthongisation
+                        i-Mutation                              i-Mutation                               i-Mutation                      5.47ff.
+                        Smoothing                               Smoothing                                –                                5.93
+                        c. 725                                  c. 700/775                               c. 900
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 105 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      105
+
+
+
+
+                 2008), who, referring to the various stages as given in Fulk (1998), formulates his
+                 objections against this chronology in the following way (Kortlandt 1999: 46):
+                      The main difficulty with [the Standard Theory]’s chronology is the unmotivated
+                      character of the sound changes: we find backing at stage l, fronting at stage 3, backing
+                      at stage 5, fronting at stage 6, backing at stage 7, fronting at stage 9, and backing at stage
+                      11. What was the driving force behind these alternating developments?
+
+                 The core of the Standard Theory, and – in my view – its most problematic aspect, is the
+                 claimed nearly unconditional fronting of PGmc *a, followed by widespread breaking
+                 or retraction, all of this taking place before the implementation of i-mutation.1 An
+                 earlier attempt at inverting the relative order of i-mutation and breaking, focusing on
+                 West Saxon Old English, was presented by Collier (1987), but it has not been met with
+                 wide enthusiasm and acceptance. An interesting statement is found in Hogg (2011:
+                 92), unfortunately without any further references:
+                      Many recent morphological analyses of OE have assumed that breaking was synchronically
+                      relevant for historic OE, but this assumption has never been adequately proven, ….2
+
+                 Dyvik (1978: 34–5), who revised older theories about breaking and back mutation in
+                 North Germanic, assumed a common basis for the tendency towards breaking in pre-
+                 stages of Old English and Old Norse, which he dated very early, to the times before the
+                 landnam of the Anglo-Saxons.3 The latter aspect seems unlikely in the spirit of the
+                 conclusions from Kuhn (1955), and I will work from the assumption that few to none
+                 of the specific North Sea Germanic innovations should be dated before the Anglo-
+                 Saxon landnam (Nielsen 2000: 271–6; Stiles 2013). Haugen (2004: 56–60) places
+                 i-mutation before breaking in his chronology from Early Runic Scandinavian to Old
+                 Norse. Old Frisian has some limited application of breaking and back mutation
+                 phenomena as well, which are usually dated later than i-mutation (Bremmer Jr
+                 2009: 32–6).
+
+
+                 1
+                   My thinking about the chronology of pre-Old English was triggered by reconstructed developments such as
+                   *sihiþ > *siuhiþ + i-mutation > West Saxon sīhþ ‘sees’, but with smoothing Anglian sīþ, where I can only see
+                   syncope and contraction. Another example is: *alu ‘ale’ > (fronting) *ælu > (retraction) *alu >> (by analogy
+                   with dat.sg. *aluþi) *ælu > (back-umlaut) West Saxon ealu. These examples on their own do not falsify the
+                   Standard Theory but they made me think about potentially easier solutions. For a more extensive criticism of
+                   the Standard Theory, see Versloot (2021).
+                 2
+                   Hogg cannot have referred to Collier’s article, which is concerned with phonological arguments and which is
+                   not in his list of references; ‘synchronically relevant’ implies ‘younger than i-mutation’, because the latter is
+                   considered to be pre-Old English.
+                 3
+                   Dyvik’s description of the Scandinavian breaking and back mutation may sound very familiar to scholars of
+                   Old English (p. 36):
+                      The phonemic surroundings conditioning breaking in long-syllabic forms were the following consonant
+                      clusters: /r/ + consonant, /l/+ consonant and possibly /bn/. Breaking did not take place if the following syllable
+                      contained an unstressed /i/ or if the /e/ was preceded by a consonantal /u/. … The phonemic surroundings
+                      conditioning breaking in short-syllabic forms were the vocalism in the following unstressed syllable, viz.
+                      unstressed /u/ or /ō/. PGmc unstressed /a/ has not led to breaking in any forms.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 106 ===
+                        106                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                           An entirely different approach to the origins of Old English phonology is offered by
+                        Schrijver (2014: 70). He suggests that Celtic substratum influence was the trigger of
+                        many of the Old English vocalic changes, causing a fairly abrupt restructuring of the
+                        vowel system by imposing Celtic pronunciation habits on West Germanic vowels,
+                        with the result looking like the outcome of a complex set of consecutive sound laws
+                        (cf. Nielsen 2015: 274 and Laker 2019).
+
+
+                                                          1.2 Trying an alternative approach
+                        Considering the aforementioned criticism on the current chronology of Old English
+                        sound changes and the proposed chronologies for Old Norse and Old Frisian, one may
+                        consider whether an alternative chronology could be possible. Old English breaking
+                        would appear much later than hitherto assumed, namely after the i-mutation.
+                           The most logical candidate for an alternative chronology is the one postulated for
+                        Old Frisian, which is the closest relative of Old English (Nielsen 1985; Ringe & Taylor
+                        2014: 139). Its earliest reconstructed history is much ‘simpler’ than the Old English
+                        one. A presentation of the generally accepted views on its history can be found in
+                        Bremmer Jr (2009: 21–41). Up till now, a common stage or common chronology for
+                        Old Frisian and Old English has been commonly denied in the traditional approach, for
+                        instance, by Campbell (1977: 52, § 131) or Ringe & Taylor (2014: 171, 181 and
+                        elsewhere), despite the many similarities between the two languages. Stiles (1995:
+                        211) concludes: ‘it is not possible to construct the exclusive common relative
+                        chronology that is necessary in order to be able to establish a[n Anglo-Frisian] node
+                        on a family tree’. Archaeological evidence, however, supports the idea that the
+                        Germanic settlers of Britain and the post-Migration Frisians shared their origin and
+                        maintained close cultural contacts during the first three centuries after the landnam
+                        (e.g. Colleran 2016; Nicolay 2005, 2017; Hines & Behr 2019), suggesting a common
+                        demographic basis for the two Germanic dialects: the fifth-century Frisians and the
+                        Germanic settlers in Britain were the same people.
+                           In this article, I will compare and assess the performance of two theories that aim to
+                        account for pre-Old English phonological developments: (i) the Standard Theory, for
+                        which I will rely on Hogg’s (2011) presentation of the chronology,4 and (ii) a
+                        chronology based on pre-Old Frisian, with the following core concepts: conditional
+                        fronting of PGmc *a, i-mutation, breaking and back mutation, where the relative
+                        chronology of the latter two is also stipulated by the Old Norse evidence. This latter
+                        theory will be referred to as the Anglo-Frisian hypothesis, and the actually
+                        reconstructed chronological series of events as the Anglo-Frisian chronology. I will
+                        develop these chronologies in more detail, when comparing their performance.
+                           The performance of the theories will be tested on the oldest extensive Old English
+                        sources: the few pieces of Early Northumbrian, as well as the Épinal and Erfurt
+
+                        4
+                            Despite some differences in the presentation and interpretation of the developments between e.g. Campbell
+                            (1977), Hogg (2011) or Ringe & Taylor (2014), they all agree on the issue of the nearly unconditional early
+                            fronting and breaking, interacting with retraction tendencies, all taking place before the i-mutation.
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 107 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      107
+
+
+
+
+                 Glossaries, all from the late seventh or early eighth century (for details see section 2). It
+                 makes sense, in my view, to test a reconstruction of prehistoric developments in Old
+                 English on the oldest attestations. I will apply both sets of sound laws to the
+                 reconstructed Proto-Germanic forms with short *a in the attested lexical items from
+                 the aforementioned sources. Either set of sound laws will produce a prediction of an
+                 Early Old English form, which can be compared to the actually attested form. The
+                 analysis will test which of the two sets of sound laws performs better overall and in
+                 terms of specific aspects, such as the prediction of words with and without breaking.
+                    This article concentrates on the pathways of development for PGmc *a in stressed
+                 syllables, for which there is a practical and a theoretical reason: the practical reason is
+                 the obvious length limitation on a journal article. The theoretical point is that it is in
+                 particular the development of PGmc *a that is most complicated in the current
+                 approach: 4 out of 8 sound laws presented in table 1 apply to *a only. A theory that
+                 works for *a stands a good chance of working for the other vowels as well. A couple of
+                 issues will therefore have to be relegated to subsequent studies, in particular:
+
+                 • The development of other vowels than PGmc *a in stressed syllables; relevant for
+                   the understanding of the breaking of PGmc *a may be the development of PGmc
+                   *au, since they emerge as OE ea and ēa respectively. An alternative hypothesis,
+                   assuming a transition from PGmc *au > pre-OE *a > OE ēa would strengthen the
+                   interpretation of short *a in this paper but is not crucial;
+                 • The palatalisation of velars before front vowels (churn, chaff, yard); although
+                   closely related with the development of PGmc *a and relevant for some of the
+                   squestions concerning the relative chronology, this issue would simply require too
+                   much space. Both the timing and phonological conditioning for the palatalisation in
+                   Old English are problematic, including in current theories (see e.g. Stiles 1988).5
+                 • The implications for further developments in late-Old English and Middle English.
+
+                 The sources under consideration are considered to be ‘Anglian’ and therefore my
+                 conclusion can stricto sensu only apply to the non-Saxon branch of Old English.
+                 However, the fundamental steps in the Standard Theory for Anglian are the same as for
+                 Saxon (West Saxon and Kentish), and with the addition of Anglian Smoothing even
+                 more complicated for Anglian than for Saxon. A revision of the ‘Anglian’ prehistoric
+                 sound laws may be an incentive to reconsider the ‘Saxon’ history as well, which will,
+                 however, stay beyond the scope of this article.
+                    The article is organised in the following way. After a discussion of some
+                 methodological issues in section 2, section 3 provides an outline of an alternative
+                 theory of the prehistorical changes in pre-Old English. The predictive power of my
+                 alternative approach is compared to the performance of the Standard Theory
+                 (following Hogg 2011: 74–163) in section 4, based on the material from the two
+
+                 5
+                     ‘The problems surrounding palatalization still lie at the forefront of Old English phonological studies’ (Hogg
+                     1979: 111); see further Laker (2007, 2021) for extensive discussions of various chronological issues.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 108 ===
+                        108                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        Mercian glossaries. Section 5 discusses various sound changes and the performance of
+                        the two theories in more detail, while section 6 considers the Early Northumbrian
+                        material. Section 7 brings together the argumentation in a conclusion.6
+
+
+                                                                  2     Methodological issues
+                        Hogg (1988: 186) points to the – well-known – confusion or overlap between
+                        chronological and dialectal variation in Old English: some dialects are better
+                        attested in particular periods than others and there are wide temporal gaps in the
+                        actual text transmission from many regions such as from Northumbria, with only
+                        ‘early’ and ‘late’ texts (see e.g. Toon 1992: 427).
+                           The Early Northumbrian text corpus that was analysed for the present study
+                        includes Cædmon’s Hymn (CH) and Bede’s Death Song (BD) in their early
+                        Northumbrian shape from the Moore and Leningrad versions, the Leiden Riddle
+                        (LR) (Sweet & Whitelock 1967: 181–3), the text from the Franks Casket
+                        (FC) (Findell 2014: 44–54) and the Ruthwell Cross (RC), although many words
+                        were left out from the latter because of the difficult interpretation of their sound
+                        value. These sources are commonly dated to the late seventh and early eighth
+                        centuries. The Ruthwell Cross is sometimes considered to be somewhat younger
+                        than the other texts (Ball & Stiles 1983: 9).7
+                           The main sources for the analysis are the Épinal and Erfurt Glossaries (EpGl,
+                        ErfGl), constituting the largest of the early Old English sources (Pheifer 1974).8 When
+                        it comes to the dating of the language in the glossaries, we have to consider three
+                        potential time layers: the date of the archetype of the glossary, which is already
+                        complicated by the fact that the glossary was composed from various other
+                        sources;9 the date of the copy from which the attested manuscripts were copied
+                        (assuming that they are not direct copies from the archetype), and the date of the
+                        actually attested manuscripts; see Seiler (2019: 528) for a stemma of the attested
+                        manuscripts. The spelling may have been changed at every step in the transmission.
+                           The fundamental question for a historical-linguistic analysis is to what extent the
+                        manuscripts reflect (aspects of) the language of the time of their production or the
+                        language of the archetype or of any intermediate stage. Ringe & Taylor (2014: 310)
+
+                        6
+                          The complete list of all etymologies of Old English lexemes in the Épinal and Erfurt Glossaries is still being
+                          processed and will be published as a separate publication. All the data from the glossaries and their
+                          interpretations relevant for this article will be published on my personal website: www.uva.nl/profiel/v/e/
+                          a.p.versloot/a.p.versloot.html
+                        7
+                          For an interpretation of the Ruthwell Cross see: www.runesdb.de/find/663 (accessed 3 November 2024).
+                        8
+                          Épinal, Bibliothèque municipale, MS 72 (2), fols. 94–107. Erfurt, Wissenschaftliche Bibliothek, MS
+                          Amplonianus, MS 2o 42, fols. 1–14v. I collated the glosses against the recent online edition by Herren,
+                          Porter & Sauer (2020–4). This resulted in eight modifications in the original data table. None of them turned
+                          out to have an impact on either of the two interpretations discussed in this article, so the calculations were left
+                          unchanged.
+                        9
+                          Seiler (2017) shows that the heterogeneous origin of even the archetype of the Épinal Glossary is reflected in
+                          different spellings.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 109 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      109
+
+
+
+
+                 state ‘the early Mercian glossaries … contain material from different sources of
+                 different dates, inconsistently updated’. The question is: what are the consequences
+                 for the identification of consistent sound laws in the glossaries? The rendering of
+                 PGmc *a before preserved nasals seems to give us some hope. EpGl has only <a> in
+                 those contexts, whereas ErfGl offers a much more diverse picture, with alternating <a>
+                 and <o>, seemingly reflecting a phonological rationale (Toon 1987: 280).10 A
+                 comparison of the rendering of /w/ and /þ/ in EpGl, ErfGl and the Corpus
+                 Glossary11 showed fairly independent spelling preferences per manuscript (Seiler
+                 2019). This increases the likelihood that the language as expressed in the spellings
+                 may to a substantial extent reflect the phonological shape of the language of the
+                 copyist. I therefore believe that taking the manuscript as a single source and treating
+                 variation in a statistical way, rather than considering absolute contrasts or
+                 contradictions, offers a good starting-point until proven otherwise.
+                     Pheifer (1974: lvii, xci) mentions Aldhelm as a potential initiator and Malmesbury
+                 as a potential place for the composition of the archetype around 675, viewing it as a
+                 product of a ‘Mercio-Kentish Kirchensprache’, created under the influence of Irish
+                 monks (Oliver 1998: 105). But Canterbury is also mentioned as a place of origin of the
+                 archetype (Pheifer 1987: 44; Seiler 2019: 535). The year 675 provides a datum post
+                 quem (apart from the date of earlier sub-glossaries). The Épinal Glossary is usually
+                 dated to c. 700 (e.g. Herren & Sauer 2015; Seiler 2017) and the first quarter of the ninth
+                 century is postulated for the Erfurt Glossary, copied from an earlier eighth-century
+                 manuscript (Seiler 2019).
+                     It is a common view that Épinal represents a more archaic language form, while
+                 Erfurt is younger and more corrupted (Chadwick 1889: 189; Toon 1992: 423, 425).
+                 Oliver (1998) claims that, at least with respect to the spelling <d> for /θ/ and /ð/, Erfurt
+                 is a more mechanical copy of the original (which implies it is more archaic), while
+                 Épinal is considered to be more innovative. This last point, however, is not the
+                 conclusion Seiler (2019: 535) arrives at. Tiefenbach (1989) considers some of the
+                 ‘suspicious’ forms in Erfurt as genuine Old High German. However, by labelling them
+                 as ‘Old High German’ one runs the risk of circular reasoning and ignoring some part of
+                 the evidence. Other forms are of a West Saxon or Kentish type, rather than what one
+                 expects in a Mercian source (Pheifer 1974: xci). In the present analysis, I take the data
+                 at face value and include all the material for which I could find a reasonable etymology.
+                 Deviations from the trend may have all kinds of reasons, such as the ones mentioned
+                 before, but also spelling errors by the scribe, errors in the edition, etc. Such
+                 interpretations can be applied afterwards, but not beforehand.
+                     Historical-phonological analyses of EpGl and ErfGl can be found, for instance, in
+                 Kolkwitz (1895) and Chadwick (1889). Especially the latter offers a lot of interesting
+                 and useful data, providing extensive comparison with the Corpus Glossary as well.
+
+                 10
+                    The phenomenon of manuscript-internal variation caused by the scribal process is demonstrated in Klein
+                    (1977), in his analysis of the spelling of unstressed vowels in the Old Saxon Heliand manuscripts.
+                 11
+                    Cambridge, Corpus Christi College, MS 144, fols. 4–64v.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 110 ===
+                        11 0                                     ARJEN PIETER VERSLOOT
+
+
+
+
+                        However, neither provides a translation and both render total numbers, rather than
+                        individual etymologies. For the purpose of the present analysis, a complete dataset was
+                        compiled, offering the possibility of arranging every individual attestation according
+                        to any criterion, such as root vowel, coda consonant, vowel of the following syllable,
+                        both in the proto-form and in the attestation.
+                           As – to the best of my knowledge – no etymological dictionary of the language of
+                        the glossaries is available, a list of etymologies was compiled based on various
+                        dictionaries. Etymological interpretations in Bosworth-Toller (BT) were often taken
+                        as the starting point (Bosworth & Toller 1898/1921). Various items in the glossaries
+                        are explicitly discussed by Ringe & Taylor (2014; R&T). BT frequently refers to Old
+                        Norse/Icelandic cognates, for which the Icelandic etymological dictionary (IOB =
+                        Ásgeir Blöndal Magnússon 1989) offered further interpretations. The Germanic
+                        lexical component of Old English often has cognates in Dutch, whose etymologies
+                        are found in the Nederlands Etymologisch Woordenboek (NEW; Philippa et al. 2003).
+                        This source can easily be searched online, it is relatively up-to-date and, importantly, it
+                        provides a Proto-Germanic reconstruction by default, which is not the case in the
+                        Oxford English Dictionary (OED) (Simpson & Weiner 2004). Additionally, Proto-
+                        Germanic reconstructions were consulted in Kroonen’s (2013) Etymological
+                        Dictionary of Proto-Germanic (KEPG). In a handful of cases, a Proto-Germanic
+                        form was reconstructed by myself, based on the cognates found in the dictionaries.
+                           Still, some cases of doubt and confusion remain, despite all these excellent sources.
+                        A major locus of doubt concerns the quality of the vowels in post-root syllables. One
+                        reason for this is class shifts and the variability in suffix-alternatives in Germanic.
+                        There are also intraparadigmatic alternations, leading to forms with and without
+                        i-mutation or retraction within a paradigm. In some cases, the identification of the
+                        suffix quality, underlying the Old English form, is straightforward as, for example, in
+                        the word haam/ham/hom ‘garment’. According to IOB (s.v. hamur), the PGmc form
+                        was either *hamaz- or *hamiz-. The lack of any sign of i-mutation in the Old English
+                        forms suggests that *hamaz- is the source for the Old English forms. In such fairly
+                        obvious instances, the form is included in the evaluation. But many doubts remain.
+                        Uncertainty about the earlier Proto-Indo-European origin of words was not relevant.
+                        Essential was a reliable reconstruction of the Proto-(West) Germanic form. Instances
+                        with a doubtful root vowel or suffix quality were excluded from the counting in
+                        section 4. Eventually, 303 items out of 336 words with (possibly) a PGmc *a in the root
+                        syllable were considered sufficiently and reliably interpreted to be included in the
+                        further analysis. Sixteen out of the remaining tokens have issues with the (potential) i-
+                        mutation factor, the rest have uncertain etymologies. Importantly, my alternative
+                        chronology of sound changes is based on the exhaustive evidence from the
+                        glossaries and not a hypothesis on the basis of a selection of examples.
+                           The Northumbrian sources and the Mercian glossaries are primarily taken as
+                        ‘earliest attestations’, marking the transition from prehistoric English to historically
+                        attested Old English. The time between the attestation of these earliest sources and the
+                        landnam in the fifth century is the period where the changes supposedly took place.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 111 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      111
+
+
+
+
+                 This prehistoric period of English ends around the year 700. The Standard Theory
+                 makes explicit statements about the application of various sound laws in Cædmon’s
+                 Hymn or the glossaries. Whether these texts really represent the language of
+                 Northumbria or Mercia or any other region is less relevant. The essential question is
+                 whether the chronology of sound laws in the Standard Theory provides an adequate
+                 description of the development from fifth-century West Germanic to the language
+                 attested in these early sources.
+
+
+                               3     A new approach to breaking, retraction, raising and smoothing
+
+                                                             3.1     Proto-Germanic *a
+                 A pivotal role in the reconstruction of the earliest changes in pre-Old English is taken
+                 by PGmc *a. Any alternative reconstruction must find a reasonable solution for its
+                 historical developments, including the lexical distribution of breaking to ea. An
+                 alternative theory will limit the lexical spread of early fronting and breaking, in
+                 order to eliminate retraction and monophthongisation by i-mutation and Anglian
+                 Smoothing. The question is: what alternative pathway of developments can be
+                 reconstructed? This will be the topic of section 3.3.
+                    The building blocks for a new chronology of changes in Old English, working from
+                 an Anglo-Frisian perspective, are the following:
+
+                 1. Early rounding before nasals. A notable feature of EpGl, in contrast to ErfGl, is the
+                    consequent rendering of PGmc *a before nasals as <a>;
+                 2. Some form of phonologically selective fronting, a priori blocked by back vowels
+                    and various consonant combinations;
+                 3. The subsequent i-mutation is supposed to cause raising and/or fronting, rather than
+                    monophthongisation;
+                 4. Breaking is considered a relatively late process, as it is in Frisian and North
+                    Germanic:12 in the earliest sources (traditionally labelled as non-West Saxon)
+                    breaking of PGmc *a is almost completely limited to the context before -rC:
+                    24 out of 29 instances in the database with <ea> in Épinal and 11 out of 15 instances
+                    in Erfurt, where breaking is less widespread.
+
+
+                                                3.2 The lexical distribution of a, æ and ea
+                 The theory involving widespread early breaking and the subsequent sound laws of
+                 retraction and smoothing grew from the following assumption, formulated by
+                 Campbell (1977: 54, §139 fn.1):
+
+                 12
+                      Frisian also shows breaking, but of a different nature: *e > iu /_x+x/s/t : *rext > riucht ‘right’ and *i > iu /_Cw :
+                      *þikwa- > thiuk ‘thick’ (Bremmer Jr 2009: 33–5). For the breaking in Old Norse, see Dyvik (1978) in footnote
+                      3 and Haugen (2004: 59–60).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 112 ===
+                        11 2                                     ARJEN PIETER VERSLOOT
+
+
+
+
+                             That æ and not a was the sound from which the ea … developed … follows from the
+                             assumption … made to account for the phenomenon of breaking: since eo and io arose
+                             from e and i, it is practically certain that æa (written ea) arose from æ. That æ is a previous
+                             stage in the development of a in forms with retraction is not open to proof, but highly
+                             probable, in view of the similarity of the circumstances under which a and ea appear for
+                             PGmc a.
+
+                       The sister language, Old Frisian, has fronting of *a as well, but there it is generally
+                       accepted that fronting only took place in a more restricted set of contexts; see
+                       discussions in Siebs (1901: 1177–89) and Bremmer Jr (2009: 29–30). The early
+                       widespread fronting in Old English, according to the Standard Theory, suggests
+                       entirely different pathways for (nearly) identical Old Frisian and Old English forms.
+                       The result of this interpretation is that there are many more, unattested steps for English
+                       than for Frisian, with exactly the same results; compare the following examples:
+
+
+                        Old English:          PGmc *galōn- ‘(nightin)gale’ > *gælan- (fronting) > galan (restoration in
+                                                obl.cases)
+                        Old Frisian:          PGmc *galōn- ‘(nightin)gale’ > *gala (no fronting for a back vowel in obl.
+                                                cases – evidence from modern varieties)
+                        Old English:          PGmc *harwian- ‘to contempt’ > *hærwian (fronting) > *hearwian
+                                                (breaking) > herwan (Anglian ‘umlaut’)
+                        Old Frisian:          Early Runic arƀijo- ‘heir’ > erva (i-mutation)
+
+
+
+                           A remarkable distributional fact is that breaking is (nearly) absent in a couple of
+                        instances in the glossaries:
+
+                        1. before -rC + i-mutation (n = 6), with the only exception feormat < *farmjan- (instead
+                           of e [Hogg 2011: 118]; see section 5.4). This finds a parallel in the consonantal
+                           conditioning theory of breaking in Old Norse (Dyvik 1978: 11), with breaking of
+                           Proto-Norse e before -rC and -lC, but not when followed by an i-mutation factor.
+                        2. before -rC, with /r/ < PGmc *-z; the vowel is æ/e (n = 7; 3 instances with
+                           i-mutation); otherwise, EpGl has ea before -rC without i-mutation, with four
+                           exceptions (n = 28). The contrast is statistically significant with p < 0.01.13
+                           ErfGl has more <e,ae,ę,a> in the latter contexts, but ea is only found before r <
+                           PGmc *r (apart from a few other instances discussed in section 3.6).
+
+                       This suggests that fronting and not breaking applied when there was a high (semi)
+                       vowel in the second syllable or when the /r/ was dental *[r] < PGmc *z. Breaking rather
+
+                        13
+                             Only instances without i-mutation are included: {4,0} – {4,24}, p = 0.002, http://vassarstats.net/tab2x2.html
+                             (accessed 3 November 2024). Ringe & Taylor (2014: 84–5) discuss the issue of r < *z and support the idea that
+                             they were separate sounds in the pre-Old English period.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 113 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      11 3
+
+
+
+
+                 correlates with velar sounds, such as *[ʀ] (see Ringe & Taylor 2014: 189) or *[ʟ],
+                 which are no obvious environments for fronting.
+                    Broken vowels in dialects with extensive breaking often correlate with a in dialects
+                 with less breaking. Such an alternation is found before -lC: WS eald ‘old’ corresponds
+                 to ald in other dialects, but æld is rarely found. The broken vowel ea alternates with a
+                 in the only instance of breaking of *a in CH, and not with a fronted vowel: -gard ~
+                 -geard and not *-gærd. According to the Standard Theory, the form gard should not
+                 exist at all: the sequence g_rd does not fulfil any of the exceptions to fronting in the
+                 Standard Theory, nor is it targeted by any of the later sound laws in any of its paradigm
+                 forms. One could therefore consider a chronological relationship between the two
+                 forms.14 In the remaining seven Early Northumbrian (eNorth.) words with PGmc *a
+                 before -rC, the eNorth. texts have a (four times with preceding w-), except for
+                 aerigfaerae (LR) ‘flight of arrows’ < *arxwō-. In instances with the same coda
+                 consonants as in the eNorth. dataset (-rd, -rð, -rn, -rƀ, -rp, -rx) and without
+                 i-mutation (n = 12 EpGl, 13 ErfGl), EpGl has 10 times ea, 1 <ae> and 1 <o>
+                 (suorn-). ErfGl has 4 x ea, 5 x a (4 times with preceding w-) but 4 x æ/e. For the
+                 context -rx see section 3.4.15
+                    Finally, an indication for a chronological relation between a and ea without
+                 intervening early fronting to *æ comes from the earliest attested place names and
+                 personal names in Old English. Van der Schee (2015) presents the evidence for
+                 breaking of PGmc *a in names from Latin charters and manuscripts of Bede’s
+                 Historia from the seventh century (see esp. p. 234). The oldest attestations (679)
+                 spell <a> (bernhardi, gudhardi). Also, in the older Bede manuscripts (M, P, B), the
+                 spellings with <a> are dominant (p. 240), only gradually giving way to <ea>-spellings.
+                 There is hardly any trace of æ, and certainly not as an intermediate stage between a and
+                 ea. This supports the idea that ea developed directly from a. Under the Standard
+                 Theory, one has to assume either: (i) that speakers/scribes of a dialect that retained
+                 -arC gave way to speakers/scribes that developed ea from an earlier not attested *æ, or
+                 – as Van der Schee does – (ii) that <a> stands for an ‘underlying’ */ɛa/ and that the
+                 whole alternation is merely a spelling issue. A problem for the first interpretation is
+                 that various attested words (such as -hard- in the onomastic material and gard in Early
+                 Northumbrian) do not represent contexts for retraction in the Standard Theory,
+                 implying that they are not supposed to exist at all in any dialect in the seventh
+                 century. The second interpretation assumes influence from petrified Latin or
+                 Franconian spellings.
+
+                 14
+                    It has to be acknowledged that in terms of chronology, the L-version seems slightly younger than the
+                    M-version; compare M ~ L: hergan ~ herga; hefaen- ~ hefen-; maecti ~ mehti; heben ~ hefen.
+                 15
+                    The issue of the a-forms in Early Northumbrian is addressed in Ringe & Taylor (2014: 181–2). In line with the
+                    Standard Theory, they opt for an interpretation where breaking was exceptionless and where the a-forms were
+                    the outcome of an additional sound law *earC > arC that was not completely applied. In this approach the
+                    form barnum in Cædmon’s Hymn (c. 700) represents the younger form, whereas bearn in the tenth-century
+                    Lindisfarne Gospels would be the more archaic form. This change is labelled as ‘combinative breaking’ in
+                    Hogg (2011: 89–90).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 114 ===
+                        11 4                                     ARJEN PIETER VERSLOOT
+
+
+
+
+                           All things considered, it seems for the most part that the broken diphthong ea <
+                        PGmc *a alternates diachronically and dialectally with a and not with æ. A retention of
+                        the a in breaking contexts is also likely from a comparative Germanic perspective: the
+                        Old English ‘breaking environments’ have a velarising effect in, for example, Old
+                        Frisian and Old High German, as mentioned by Laker (2019: 603).16 This implies that
+                        fronting in these contexts was not the most logical development and that *a may have
+                        formed the input for the breaking. The gard ~ geard-alternation in BD and the seventh-
+                        century names in Bede suggest that breaking only developed in the seventh century and
+                        gradually spread during the eighth century. The widespread al-spellings in early West
+                        Saxon and Kentish sources imply that this process – at least in particular phonological
+                        contexts – was still active in the late ninth century (Versloot 2021: 80–2).
+
+
+                                          3.3 The phonetic conditioning for the breaking of *a to ea
+                        The crucial issue is: how does one get from /a/ to /ɛa/ in a phonologically plausible way
+                        if one does not posit an early widespread fronting of *a > *æ? The ‘prototypical’
+                        context for breaking is the position before -rC and this context must be the prime focus
+                        when searching for a possible explanation for the change.
+                            A solution may lie in lengthening of /a/ before -rC. Such a lengthening is also
+                        assumed for Old East Frisian (Siebs 1901: 1178), especially when the following
+                        consonant is a tautosyllabic d,m,n,v (< *w,f,ƀ). No lengthening takes place before -r
+                        + k,g,s,p. The contexts where EpGl and ErfGl both have ea, and which for that reason
+                        appear to constitute the core of breaking contexts are: -rd, -rđ, -rt, -rb, -rw, -rm and -rr.
+                        There is a large overlap between the contexts sensitive to breaking in Old English and
+                        the contexts sensitive to lengthening in Old East Frisian; contexts without lengthening
+                        in Old East Frisian (-r + k,g,s; there is no *-arp in the data) have no breaking in ErfGl
+                        (n = 5), but all of them have e,æ, one with i-mutation. The contexts -rk, -rg are labelled
+                        as smoothing contexts in the Standard Theory.17
+                            This hypothesis, which will be referred to as the ‘breaking-through-lengthening’
+                        hypothesis, is also supported by Old English itself. It is generally assumed – although
+                        never shown in the spelling – that vowels could be lengthened before -ld, -r + l,n,d,ð,
+                        [z], -mb, -n + d,g (Hogg 2011: 208). The contexts with a nasal do not apply here,
+                        because PGmc *a was rounded in that context. According to Brunner & Johnston
+                        (1970: 9), this lengthening had already taken place in the eighth century, which brings
+                        it close to the date of the breaking as suggested in this article. The context with -ld
+                        constitutes a major dialectal contrast between Saxon and Anglian in terms of breaking.
+                        The context is one of the most robust contexts for lengthening. An explanation for the
+
+                        16
+                           Old Frisian has quite a number of instances with e before -rC, as noted by Ringe & Taylor (2014: 181). The
+                           implications of this observation for Old English will be discussed in section 4.3
+                        17
+                           The details of the process in Frisian need further study. Modern West Frisian shows lengthening in words such as
+                           bears ‘bass (fish)’, bealch ‘belly’ and heal ‘half’ < *bars, *balg, half, compare Wangerooge East Frisian: balg, half
+                           (‘bass’ not attested). These West Frisian contexts compare to the breaking contexts in West Saxon.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 115 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                       11 5
+
+
+
+
+                 lack of breaking in Anglian before -lC will be presented below. The remaining
+                 phonological breaking contexts are very similar to the Frisian lengthening contexts.
+                 The common denominator seems to be r + voiced, non-velar consonant. The details
+                 may differ per language variety and lemma; cf. PDE wind [ɪ] (noun) – wind [aɪ] (verb).
+                 Unfortunately, not every context is equally well represented in every dataset.
+                    The aforementioned lengthening is not controversial, but the transition of
+                 lengthened /a/ to [ɛa] is crucial to the whole debate. It was not without reason
+                 that scholars like Luick and Campbell assumed that fronting had to be a widespread
+                 phenomenon in pre-Old English to find a phonetic rationale for the [ɛa]-quality.
+                    Faroese provides an interesting potential parallel here. Old Norse (ON) had a long
+                 /a:/, which was ‘dark’ and appears as [ɔa] (with breaking!) or [ɔ] in Modern Faroese.
+                 But next to this old long /a:/, Faroese developed a new low long vowel through
+                 lengthening of ON short /a/ in light syllables. The interesting parallel between
+                 Faroese and Old English is that the lengthened ON a is always realised as [ɛa],
+                 but without lengthening it remains [a] (Küspert 1988:207, Þráinsson 2004: 34,395).
+                 Examples can be found within one paradigm, e.g. tak [thɛak] ‘roof (nom.sg.) ~ taks
+                 [thaks] (gen.sg.); spakur [spɛakʊr] ‘calm (masc.nom.sg.)’ ~ spakt [spahkt] (ntr.nom.
+                 sg.). This means that only the lengthened vowel was broken to [ɛa] and that general
+                 fronting of the vowel in its short phase was not a prerequisite for the breaking. A
+                 similar length-conditioned breaking of PGmc *a can be found in West Frisian,
+                 resulting in [ɪˑə] from Middle Frisian a (from OFri. short a with lengthening, but also
+                 from OFri.  a); e.g. Old Frisian nama ‘name’ kept a short vowel, appearing as Modern
+                 West Frisan namme [namə], but in the verb namia ‘to name’, the vowel was lengthened
+                 and subsequently fronted and diphthongised (‘broken’ in the Old English terminology)
+                 to neame [nɪˑəmə].18 The parallelism between the Old English ea and the West Frisian
+                 transition 
+                            a > ea has also been observed by Laker (2007: 179).
+                    The phonetic rationale for breaking suggests that the lengthened vowel was
+                 indeed most likely a phonetically somewhat fronted *[a̟ː] or *[æː]. Present-day
+                 Dutch has a similar phonetic contrast between /a/ = [ɑ] and /a:/ = [a̟ˑ]. The timbre of
+                 the vowel can offer an explanation for the lack of breaking in Anglian before -lC. If
+                 we assume that the Anglian /a/ was darker than in West Saxon (perhaps because there
+                 was a difference between Anglian dark [ʟ] and [l] in West Saxon), this would explain
+                 that Anglian had *[ɑˑ] against *[a̟ˑ] in West Saxon. The West Frisian language offers an
+                 exact parallel to such a contrast. Fifteenth-century charters from the northeast spell the
+                 Old Frisian word ald ‘old’ as <auld>, later <aud>. This comes out as âld [ɔːt] in the
+                 modern language (aud [aˑut] in the northeastern dialect of Schiermonnikoog). Charters
+                 from the southwest spell <aeld>. The southwestern dialect nearly disappeared during
+                 the sixteenth and seventeenth centuries and only survives in the modern dialect of
+
+
+                 18
+                      The term ‘breaking’ is also used in West Frisian linguistics, where it applies to accent shift in diphthongs like
+                      [ɪˑə] to [jɛ] as in beam [bɪˑəm] – beammen [bjɛmən] ‘tree(s)’. In the context of this article, the transition from [ɛː]
+                      > [ɪˑə] is considered a parallel to the Old English breaking.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 116 ===
+                        11 6                                     ARJEN PIETER VERSLOOT
+
+
+
+
+                        Hindeloopen, where the positive degree is aald with [aː], but the comparative and
+                        superlative show breaking to [ɛɔ]: ealder, ealdst.19
+                          Given the following observations:
+
+                        – OE ea through breaking shows a distributional overlap with a in varieties without
+                          breaking, both diatopically and diachronically;
+                        – Broken vowels are nearly absent in contexts where fronted vowels are expected,
+                          such as before i,j in the next syllable or an r [r] from PGmc *z;
+                        – Faroese and West Frisian provide examples of a short a that was only broken/
+                          diphthongised after lengthening;20
+                        – The core-context for breaking, before -rC+voice,-velar, overlaps strongly with
+                          acknowledged contexts for lengthening in Old English, with parallels in Old
+                          Frisian;
+
+                           I, therefore, hypothesise that breaking took place via lengthened pre-Old English *a
+                        and not a short fronted PGmc *a. This lengthened, phonetically somewhat fronted /a/
+                        was diphthongised to ea. The ‘lengthening’ proposed above was not necessarily
+                        phonemic (possibly *[a̟ˑ]), but still enough to allow for some form of glide to
+                        develop into a phonetic diphthong. The phonemic status of <ea> is also open to
+                        various interpretations (for a longer discussion, see Hogg 2011: 16–20). The general
+                        interpretation is that the broken vowels still counted as ‘short’, as evidenced by their
+                        use in verse and their development in Middle English (Brunner & Johnston 1970: 10).
+                        Minkova (2015: 78) concludes that the spelling <ea> for broken short /a/ represents a
+                        phonetic reality [e͝ a] which was a ‘not-yet-integrated semi-contrast’, in an allophonic
+                        relation with [æ]. Whether forms such as PDE arm, hard, OE earm, heard are the result
+                        of some form of a Middle English phonological monophthongisation process (i.e. the
+                        result of the merging of the two semi-phonemes /e͝ a/ and /æ/ with /a/; see Lass & Laing
+                        2012: 76), or come from dialects with little or no breaking (cf. Brunner & Johnston
+                        1970: 12–13) can be left open here. It is not the primary question for a reconstruction of
+                        prehistoric sound changes in Old English.21
+
+                        19
+                           The similarity to English is striking, both in forms and historical development. The West Saxon variety of
+                           English was gradually replaced by northern forms by the end of the Middle Ages, just as the late medieval
+                           southwestern dialect of West Frisian was confined to the town of Hindeloopen. Compare Yorkshire English
+                           [ɔːd] ‘old’ ~ ModWFris. [ɔːt], southern Middle English yeald, yald ~ ModWFris. (Hind.) eald (see: OED,
+                           s.v. old, forms β, γ). A difference in the realisation of the /l/ is not necessarily the reason for this contrast,
+                           neither in Frisian, nor in Old English: one can observe a difference in the timbre of short /a/ in many, even
+                           adjacent varieties, without a clear reason.
+                        20
+                           Breaking has been linked to Celtic influence on various occasions (Schrijver 2014), which has been questioned by
+                           other scholars (Nielsen 2015; Laker 2019). Even when Nielsen and Laker are right that all the processes involved
+                           (fronting, i- and back mutation, breaking) can also be found in other Germanic languages, it is my subjective
+                           impression that the phonological character of especially West Saxon Old English is quite un-‘Continental’. Both the
+                           (south) western varieties of English (Grimmer 2007) and the Nordic variety of the Faroe Islands have a history of
+                           language contact with speakers of Celtic (Lindqvist 2015: 63–5).
+                        21
+                           One may wonder to what extent the contrast between OE <ea> and <eo> from breaking and those from PGmc
+                           *au and *eu was synchronically relevant in Old English. There was hardly any distributional overlap between
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 117 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      11 7
+
+
+
+
+                    The distribution in the earliest attestations suggests that breaking was a fairly young
+                 process that may have started only in the seventh century and was still spreading in the
+                 eighth century. Such an approach avoids the early fronting, the early and widespread
+                 breaking and with it Anglian Smoothing. It stays in line with all the evidence of
+                 unbroken spellings in early sources, does away with unattested intermediate broken
+                 forms and eliminates the necessity to invoke processes like dialect mixture and scribal
+                 confusion to ‘account’ for many actually attested forms.
+
+
+                                           3.4 Breaking before *x and Anglian Smoothing
+                 The PGmc velar fricative *x is in the Standard Theory mentioned as a source of
+                 breaking. The context before *(C)x is also a trigger of so-called Anglian Smoothing,
+                 and forms with attested breaking are only expected in words where *x disappeared
+                 before the vowel could be monophthongised by *x and when it was not
+                 monophthongised by i-mutation, which leaves very few lemmas. *x is consistently
+                 associated with fronting in the glossaries (EpGl): naecht- ‘night’ < *naxt-, aec(h)that
+                 ‘deliberates’ < *axtōþ, fex ‘kelp’ < *faxsa-; and with i-mutation: ambechtae ‘servant,
+                 office’ < *ambaxti-. *x is only preserved in the combination *xt and *xs, but
+                 disappeared in other contexts, e.g. steeli ‘steel’ < PGmc *staxlja-, or eo- (attested in
+                 eorisc ‘water-rush’) < PGmc *axwō-. The monophthong in steeli can be ascribed to
+                 i-mutation, but eo- is considered to be a key-witness for the Standard Theory: ‘*aho >
+                 *æho > (breaking) *eaho > (smoothing) *æho > ǣo’ (Hogg 2011: 79). Breaking and
+                 subsequent smoothing are required in the Standard Theory to avoid retraction: *axu >
+                 *æxu > *axu, eventually leading to **a. This form a, without fronting, is the Old
+                 Frisian form (aha as a name in an even older Latin context), just as e.g. OFri. nacht
+                 ‘night’; apparently *x had the sound value *[x] in Frisian and blocked fronting.
+                    A much simpler scheme for the Old English glossary data is obtained if we assume
+                 that *x was realised as *[ç] in Anglian (pre-)Old English and allowed fronting to
+                 operate. The phoneme /x/ may have had different realisations in pre-Old English and
+                 Old Frisian.22 An Anglian *[ç] also solves the issue of eo-, which can now directly be
+
+
+                    the two sets (Laker 2019: 600). The broken short vowels were largely restricted to positions before CC and the
+                    historical diphthongs hardly ever appeared before CC. Examples of PGmc *au,eu before CC are rare in the
+                    glossaries: OE leoma ‘light’ < PGmc *leuxman- and a few words with diphthongs before -st (beost
+                    ‘beestings’, east-/eust- ‘east’), a combination that tends to function phonologically as a single C (Hogg
+                    2011: 93–9, fn. 2). Kroonen (2013) does not contain any Proto-Germanic word with *-aurC or *-eurC. This
+                    issue of lacking minimal pairs has been raised on various earlier occasions (see e.g. Minkova 2015: 76). A
+                    synchronic shortening of every diphthong before CC in late OE would eliminate the relevance of the
+                    historical-phonological origin of the diphthongs. The PDE pair cheap ~ chapman (= German Kaufmann)
+                    with PGmc *au shows that in shortening contexts this *au can follow the same track as an ea from PGmc short
+                    *a, compare chaff.
+                 22
+                    A similar situation can be found in Dutch and German. Standard High German has the so-called ich-Laut [ç]
+                    after front vowels and ach-Laut [x] after open and back vowels. Swiss High German has [x] or [χ] throughout,
+                    just as northern Dutch. But southern Dutch generalised [ç], producing pairs such as northern Dutch [nɑxt] ~
+                    southern Dutch [naçt] ‘night’.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 118 ===
+                        11 8                                     ARJEN PIETER VERSLOOT
+
+
+
+
+                        derived from earlier *ax(w)ō with fronting before *[ç] and subsequent contraction
+                        after loss of the *x(w): *ax(w)ō- > *æxo > *æo > eo.23
+                           Let us now have a look at the evidence in the glossaries for the effects of i-mutation
+                        and Anglian Smoothing of PGmc *a in words that are supposed to have breaking in the
+                        Standard Theory. The chronology of the processes can be summarised in the following
+                        way:
+
+                        (1)                 i-mutation of supposedly broken vowels:
+                                            ea ! e / _C(C)i/j                                                       (Hogg 2011: § 5.82)
+                        (2)                 Anglian Smoothing:
+                                            ea ! æ / _(l/r)k/g/x                                                    (Hogg 2011: § 5.93/98)
+
+
+                           The actual results in EpGl are shown in table 2.
+                           The Standard Theory’s prediction about ‘monophthongisation-through-i-mutation’
+                        is borne out well. But the complications of fronting and breaking are not needed:
+                        simple i-mutation of *a – or *æ when fronted – will lead to æ or e in the glossaries (see
+                        further section 3.5).
+                           The smoothing is not fully effective (7 out of 11) and the actual distribution in EpGl
+                        can be predicted in a more efficient way by the assumption that /x/ was *[ç] and that in
+                        the contexts of *ax- and *arx, the vowel was fronted and not further affected by any
+                        change. General breaking of non-fronted *a before *rC suffices to predict the
+                        instances of mear(c) ‘mark’ and uuearg-rod ‘gallows’. The improved result of such
+                        a set of sound laws is shown in table 3.
+                           The single exception with a broken vowel instead of a fronted vowel is leax (EpGl),
+                        which appears as lex in ErfGl.; for a discussion see section 5.4.
+                           We can therefore conclude that the actual EpGl attestations in contexts with *x and
+                        other ST-smoothing contexts do not support the complex set of sound laws from the
+                        Standard Theory (fronting, breaking and subsequent monophthongisation by
+                        i-mutation and smoothing), and are better predicted by the application of i-mutation
+                        to unbroken forms, with a subsequent later, restricted application of breaking.24
+
+
+                                                               3.5 The impact of i-mutation
+                        Both EpGl and ErfGl show variation between <ae> and <e> in the i-mutation product
+                        of PGmc *a. Hogg (2011: 118, 123–4) mentions the relevance of the vowel quality:
+                        pre-OE *æ is mutated to <e>, whereas *a and *ɑ become <æ>, although the latter soon
+                        became <e> as well (Ringe & Taylor 2014: 228–9), in particular in light syllable stems
+                        (Hogg 2011: 128). The <ae>-spellings are more prominent in EpGl (43 per cent) than
+
+
+                        23
+                             For the early loss of *w in the combination *xw see Ringe & Taylor (2014: 214).
+                        24
+                             The ST-smoothing includes the monophthongisation of OE ēa from PGmc *au before -k,g,x. In my view, this
+                             sound law would apply to (long/old) diphthongs only; compare Versloot (2021: 96).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 119 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      11 9
+
+
+
+
+                 Table 2. Breaking and smoothing according to the Standard Theory (ST). The theory
+                  predicts the tokens to fall in the grey cells (77 per cent correct for non-i-mutation
+                                                        contexts).
+
+                 EpGl                                                                <e, ae>                                     <ea, eo>
+                 ST: breaking                                                             3                                          21
+                 ST: breaking + smoothing                                                 7                                           4
+                 ST: breaking + i-mutation                                               12                                           1
+
+
+
+                    Table 3. Predicted Anglo-Frisian (A-F) developments in the ST-breaking and
+                  -smoothing contexts from table 2 (91 per cent correct for non-i-mutation contexts)
+
+                 EpGl                                                          <e, ae>                                           <ea, eo>
+                 breaking in *arC                                                   2                                                24
+                 fronted vowels                                                     8                                                 1
+                 i-mutation                                                        12                                                 1
+
+
+
+                 in ErfGl (28 per cent), which is in line with the dates of the manuscripts. Hogg’s criteria
+                 explain c. 80 per cent of the distribution of the spellings in EpGl. Detailed
+                 consideration of various factors shows that the quality of the historical i-mutation
+                 trigger, /i/, /i:/ or /j/, is an additional factor, where /i/ has a weaker effect than /i:/ and /j/.
+                 Such a difference in effect has hitherto not been observed for i-mutation in West
+                 Germanic languages, but see Schulte (2018: 57–8, and especially 1998: 158–73) for a
+                 lengthy discussion of this phenomenon and parallels in North Germanic and other
+                 non-Germanic languages. Vaan (2017: 301–5) highlights the relevance of the trigger
+                 /j/ in Dutch, whereas Dutch in general shows very few traces of i-mutation.
+                     There are differences between the two glossaries in respect to the i-mutation factor.
+                 The input vowel quality is the most important factor in EpGl. This results in a
+                 probabilistic cline, as demonstrated in table 4.
+                     In ErfGL, the quality of the mutating factor is more important, as can be seen from
+                 the cline in table 5.
+
+
+                   Table 4. The impact of the input vowel quality and i-mutation factor on the final
+                    outcome of i-mutation (only unambiguous -i and -ī/j; see the discussion below)
+
+                 Épinal                                       <ae>                                <e>                               %<e>
+                 /æ/ + /i:,j/                                   1                                  9                                 90%
+                 /æ/ + /i/                                     10                                 19                                 66%
+                 /a,ɑ/ + /i:,j/                                 3                                  3                                 50%
+                 /a,ɑ/ + /i/                                    7                                  2                                 22%
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 120 ===
+                        120                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                         Table 5. The impact of the input vowel quality and i-mutation factor on the final
+                          outcome of i-mutation (only unambiguous -i and – ī/j; see the discussion below)
+
+                        Erfurt                                      <ae>                                <e>                               %<e>
+                        /æ/ + /i:,j/                                  2                                   9                                82%
+                        /a,ɑ/ + /i:,j/                                1                                   5                                83%
+                        /æ/ + /i/                                     8                                  18                                69%
+                        /a,ɑ/ + /i/                                   5                                   4                                44%
+
+
+
+                             The features relevant for the final outcome of the i-mutation process are thus:
+
+                        • The quality of the mutated vowel: at the moment that i-mutation was active, PGmc
+                          *a had developed into [æ], [a] or [ɑ] (before nasals). The distinction between [a] or
+                          [ɑ] turns out to be irrelevant for the further development, and it is the contrast with
+                          /æ/ that matters.
+                        • There are three historical i-mutation factors: /i/ has a weaker impact than /i:/ and /j/.
+                        • In various paradigms, there is alternation of the mutating factor, such as in class
+                          1 weak verbs, e.g. inf. *framjan – part.pt. *framid, or in the i-stems, e.g. nom.acc.sg.
+                          *mari, gen.dat.sg. *marī. We can expect analogical levelling here. Scrutiny of the
+                          data shows an effect of root syllable weight with heavy root syllables; these words
+                          ‘behave’ as if they had /i/ as a mutating factor, while after light syllables, the
+                          inclination to raising is stronger. This could be ascribed to Sievers’ Law, which
+                          predicts *-ij- instead of *-j after heavy syllables. However, a similar but weaker
+                          syllable weight effect can also be observed for words with an invariable mutation
+                          factor, so syllable weight should be added as an additional relevant factor that
+                          predicts the height of the mutation product.
+
+                       The detection of these factors explains a lot of the alternations between <e> and <ae>
+                       in the glossaries, even when they cannot easily be converted into discrete sound laws.
+                       A statistical model that factors in manuscript, mutation factor, syllable weight and
+                       input vowel quality can predict 87 per cent of all tokens in both manuscripts correctly.
+                       The details can be found in the Appendix.25
+
+
+                                                  3.6 Palatal diphthongisation or back mutation?
+                        One of the supposedly older developments in Old English that seems to have left
+                        some traces already in the glossaries is what Hogg calls ‘palatal diphthongization’.
+
+                        25
+                             A contrast between the impact of *-i and *-ī is also detectable in Old Frisian, unnoticed in earlier scholarship,
+                             where the alternation between nom.acc.sg. stede ‘place’ < *stædi and dat.sg. stidi < *stædī in the Riustring
+                             Old Frisian dialect is part of a statistically significant alternation pattern that can be linked to the historical
+                             quality and quantity of the i-mutation factor. Old Saxon turns out to be sensitive to a similar contrast with
+                             respect to the implementation of primary mutation: in the Lublin/Wittenberg Psalms (Tiefenbach 2003), the
+                             i-mutation caused by *j is consistently rendered as <e>, whereas <a> appears before short *i.
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 121 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      121
+
+
+
+
+                 The process is ‘controversial or dubious’ in many instances (Hogg 2011: 104ff.) and is
+                 predominantly found in West Saxon and Northumbrian rather than in Mercian. I will
+                 concentrate on positive evidence for this process in the glossaries and the Early
+                 Northumbrian material. Where a digraph can be interpreted as the result of
+                 breaking, it is not considered to be evidence for palatal diphthongisation, such as in
+                 -geardas ‘gardens’, with breaking before -rd. I considered instances with the initial
+                 consonants *k-, *g-, *sk- (no instances with *ja- in the glossaries), followed by PGmc
+                 *a with fronting or i-mutation.
+                    Both glossaries have the same two lemmas (out of 16 relevant tokens) with ea < *a
+                 that cannot be explained as breaking before rC: sceadu ‘shady place’, -sceadan/-ae
+                 ‘damage’. EpGl also has once scaedu- alongside ErfGl sceadu-. The only somewhat
+                 unambiguous context in the glossaries is therefore *skæ- < PGmc *ska-, but the
+                 glossaries have 6 (EpGl) and 4 (ErfGl) examples without <ea>, such as scaet
+                 ‘property’. These instances of sceadu and -sceadan/-ae can therefore better be
+                 explained as ‘back mutation’ (Hogg 2011: 149ff.); see also the discussion in
+                 section 5.4. The Early Northumbrian material has two instances of ea in four
+                 potential candidates for palatal diphthongisation: sceppend (CH) ‘creator’, cæn[d]æ
+                 (LR) ‘knew’, sceal (LR) ‘shall’, geatum (LR) ‘ornaments’. The last one can also be an
+                 instance of back mutation. The data support the idea that palatal diphthongisation was
+                 not common in Mercian and is only found at an initial stage in Early Northumbrian.
+
+
+                                                              3.7 *ax(w)- and *aw-
+                 Seven lemmas with the sequence *aw- and the word eo- ‘water’ (see section 3.4) will
+                 be kept out of the count in section 4 because of their unpredictable inclination to build
+                 diphthongs; compare (snid)streo ‘carline thistle’, str[e?]idae ‘spread out (3.sg.prt)’,
+                 thrauu ‘rebuke, threat’ < *strawa-, *strawid- and *þrawō-. The various developments
+                 are strongly associated with the quality and quantity of the following syllable and must
+                 originally have alternated paradigmatically. The direction of the levelling (which is
+                 difficult to establish for the language of the glossaries because of the limited number of
+                 tokens per lemma) depended probably on the frequency and specific phonology of the
+                 various paradigm forms. These forms can therefore not provide evidence about the
+                 mainstream developments.
+
+
+                                                   4    The new chronology put to the test
+                 The focus of this section is on testing to what extent an alternative chronology of
+                 phonological changes in Old English is borne out and supported by the actually
+                 attested evidence from EpGl and ErfGl. The new chronology is based on the line of
+                 thinking developed in section 3. This alternative chronology stays much closer to the
+                 chronology that can be reconstructed for Frisian and which I for that reason refer to as
+                 the ‘Anglo-Frisian chronology’.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 122 ===
+                        122                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                           The ultimate test of theories is their ability to make predictions about the vowel
+                        qualities in the attested sources. Based on the phonological shape of the reconstructed
+                        etymon (which is based on the comparative method and hence not solely on the
+                        attested Old English forms) and the formulated sound laws, an Old English vowel
+                        quality can be predicted for every word in the dataset. Etymologies with issues, either
+                        in the root or in the quality of the following syllable, are not included. A total number
+                        of 336 lemmas with PGmc (or sometimes Latin) *a has been identified in the
+                        glossaries, and the etymologies of 303 words (90 per cent) were considered
+                        sufficiently transparent to be included in the analysis.
+                           The following sections present the sound laws and their predictive power for the
+                        language of the Mercian glossaries, first as they are applied for PGmc *a in line with
+                        the Standard Theory (Hogg 2011), followed by the Anglo-Frisian sound laws. The
+                        results for both theories will then be compared. In the overviews below, the following
+                        abbreviations are used:
+                           C = any consonant; V = vowel; N = nasal consonant; L = labial consonant
+
+
+                         4.1      Sound laws for PGmc *a for early Mercian according to the Standard Theory
+                        The sound laws for PGmc *a deducible from Hogg (2011), §§ 5.3–5.100, in particular
+                        for the early Mercian sources, are summarised as follows:
+                             § 5.3–5.6: a ! [ɑ] = <a/o> / _N
+                             § 5.13: a ! æ, except / _w, _lVback, _lC
+                             § 5.16–5.18: æ ! ea / _x, _rC; j is not considered as a consonant here (Ringe & Taylor
+                             2014: 181).
+                             § 5.29: æ ! a / L_r or _rL; ‘At all periods, the change is incomplete and there are many
+                             forms with diphthongization …’. According to Campbell, this works in Northumbrian but
+                             Hogg explicitly mentions the early Mercian glossaries as well. The effect of this sound law
+                             was not included in the results presented in table 6, because it is hardly visible in the data
+                             from the glossaries. If implemented consistently, it would lead to 21 wrong predictions for
+                             EpGl.26
+                             § 5.35: æ ! a / _CVback; [æ ! a/æ / _C1C1Vback, /_st/skVback; seems to be absent in the
+                             early Mercian glossaries, e.g. aespae ‘aspen’ < PGmc *aspō-, -laeppan ‘cloth’ < PGmc
+                             *lappan-].
+                             [§ 5.49/52: æ ! ea / j_, gj_, kj_, sk_; this rule was not applied for the Mercian glossaries; see
+                             section 3.6.]
+                             § 5.78: ɑ,a ! æ / _C(C)i/j; this corresponds to the input vowel quality factor in the
+                             i-mutation process, as described in section 3.5.
+                             § 5.80: æ ! e / _ C1(C1)i/j. Additionally: æ ! e/æ / _ C1C2i/j; Hogg (p. 128) mentions this
+                             rule, but for EpGl the <ae> is clearly dominant and as such implemented here; this
+                             corresponds to the syllable weight factor in the i-mutation process, as described in
+                             section 3.5. For ErfGl, the product of i-mutation is <e> in the majority of cases (19 out of
+                             30). Even initially rounded or preserved *a comes out as <e> in ErfGl.
+
+                        26
+                             In Old Frisian, fronting is absent in the sequence *-war- and rare in the sequence *bar- and *far-.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 123 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      123
+
+
+
+
+                      § 5.82: ea ! e / _C(C)i/j
+                      § 5.93/98: ea ! æ / _(l/r)k/g/x
+
+
+                 Ringe & Taylor (2014: 221) mention ‘Second fronting’ for EpGl, but Hogg (2011:
+                 137) says that this is no more than a marginal development in the glossaries and this
+                 was therefore not implemented as a sound law for the language of the glossaries.
+
+
+                                                    4.2 The Anglo-Frisian sound laws
+                 4.2.1 Sound laws for PGmc *a for Épinal
+                 The list of changes consists of only three steps in the Anglo-Frisian chronology:
+
+                 1. split of PGmc *a: a ! æ except /_lC /_Cu/ō /_rCnon-pal (Cpal = x = [ç], Ci,j, [r] < z)
+                 2. i-mutation ‘cline’:
+                    a. a ! æ /_C(C)i and all ja-stems, i-stems, class 1 weak verbs
+                    b. a ! e /_C(C)j,ī
+                    c. æ ! æ /_CCi
+                    d. æ ! e /_C(C)j,ī, Ci and all ja-stems, i-stems and class 1 weak verbs
+                 3. lengthening and breaking: a ! *[aˑ] ! ea / _rC
+
+                 The evaluation of the predictions from the two theories works as follows (examples
+                 from EpGl):
+                 PGmc *spadō(n)- ‘spade’
+                      ST: fronting; no breaking; followed by retraction > *spadan
+                      A-F: no fronting before a single consonant plus back vowel > *spadan
+                      EpGl has <spadan> ) both predictions are correct
+
+                 PGmc *habuk- ‘hawk’
+                      ST: fronting; no breaking; retraction before -Cu- > *habuk
+                      A-F: no fronting before -Cu- > *habuk
+                      EpGl has <hebuc> ) both predictions are wrong
+
+                 PGmc *markō- ‘boundary’
+                      ST: fronting; breaking before *-rC, smoothing > *mærk-
+                      A-F: no fronting; breaking before *-rC > *meark
+                      EpGl has <fristmearc> ‘respite’ ) A-F’s prediction is correct
+
+                 PGmc *hanjō- ‘hen’
+                      ST: rounding to [ɑ]; i-mutation of open vowels > *hænn
+                      A-F: rounding to [ɑ]; strong i-mutation effect in light syllable by *j > *henn
+                      EpGl has <haen> ) ST’s prediction is correct
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 124 ===
+                        124                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        Table 6. Predictive power for the development of PGmc *a in the EpGl, following
+                        the two sets of reconstructed sound laws. Only seven words came out with a different
+                        vowel (a, eo, ē, o, ō) and were excluded from the overview. X-axis = predicted vowel
+                          quality; Y-axis = attested vowel quality. The dark grey cells mark the correctly
+                        predicted tokens. The light grey fields mark the confusion of e and æ in the prediction.
+
+                        Épinal            Prediction ‘Standard Theory’                           Prediction ‘Anglo-Frisian’
+
+                                         a            æ             e           ea           a           æ            e          ea         Sum
+                        a               87             2                                    87            2                                   89
+                        æ                3            79           11            2           3           70          21           1           95
+                        e                3            15           50            1           3           14          51           1           69
+                        ea               4             4                        21           3            2                      24           29
+                        Sum             97           100           61           24          96           88          72          26          282
+                        Correct 237/282 = 84%                                              Correct 232/282 = 82%
+
+
+                       The results of this evaluation are summarised in table 6, which compares the
+                       predictions of the two competing theories with the actually attested spellings in the
+                       Épinal Glossary. The table demonstrates that in the majority of cases both theories
+                       indeed predict the attested spelling, while deviations are found in less than 20 per cent
+                       of forms.
+                          Both approaches are almost equally effective. Note that the performance of the
+                       Standard Theory was enhanced by not implementing the ‘labial retraction rule’ (æ ! a
+                       / L_rL; Hogg § 5.29) and a refinement of the retraction rule (Hogg § 5.35). The
+                       variable application of i-mutation in heavy syllable stems (Hogg § 5.80) was
+                       optimised. This means that in a less lenient interpretation of the Standard Theory,
+                       the score would be lower.27
+                          The interpretation of the Anglo-Frisian hypothesis is based on the (fine-grained)
+                       categorical application of i-mutation, which leads to an accuracy of the prediction for
+                       words with i-mutation of 72 per cent. The purely probabilistic cline provides an
+                       accurate prediction for words with i-mutation in 84 per cent of the forms (see the
+                       Appendix). This corresponds to 12 additional correct items: 244/282 = 87 per cent
+                       correct.
+                          Taking those two considerations into account, the performance of the Anglo-Frisian
+                       Theory comes out as slightly better than that of the Standard Theory. A
+                       methodological advantage of the A-F hypothesis over the Standard Theory is the
+                       lower number of sound laws and in a wider sense the harmonisation of the
+                       developments within the Anglo-Frisian branch of West Germanic. A more detailed
+                       discussion will be offered in section 5.5.
+
+
+
+                        27
+                             Adding ‘combinative breaking’ as a categorical sound law adds 21 wrong predictions (-7%); adding the
+                             contexts of geminates and -sC as retraction contexts, adds 4 wrong predictions (-1%).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 125 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      125
+
+
+
+
+                 Table 7. Predictive power for the development of PGmc *a in the ErfGl, following
+                 the two sets of reconstructed sound laws. Only five words came out with a different
+                  vowel (a, æo, ē, ō) and were excluded from the overview. (See further table 6 for
+                                                       legend.)
+
+                 Erfurt          Prediction ‘Standard Theory’                     Prediction ‘Anglo-Frisian’
+
+                                 a           æ            e          ea           a          ɑ          æ           e        ea       Sum
+                 a              57           5                3        5         42         19           5           3         1        70
+                 o              21           1                                              21           1                              22
+                 æ               4          35            27          5           6                     42         19         4         71
+                 e               6          16            71          3           6          1          23         63         3         96
+                 ea              3           1                       11           2          1           2                   10         15
+                 Sum            91          58          101          24          56         42          64         92        18        274
+                 Correct 195/274 = 71%                                          Correct 197/274 = 72%
+
+
+                 4.2.2 Sound laws for PGmc *a for Erfurt
+                 Chronology of three steps:
+
+                 1. split of PGmc*a: a ! [ɑ] = <a/o> / _N
+                      *a: a ! æ except / w_r / _lC / _Cu/ō /_rCnon-pal (Cpal = x = [ç], Ci,j, [r] < z)
+
+                 2. i-mutation ‘cline’:
+                    a. a [a,ɑ] ! æ (e) / _C(C)i and heavy syllable ja-stems, i-stems and class 1 weak
+                       verbs
+                    b. else: a, æ ! e
+                 3. breaking: (C-w)arC ! *[aˑ] ! ea.
+
+                    Similar analysis steps as for EpGl can be applied to ErfGl. The account given by
+                 Hogg hardly differentiates between the two glossaries. ErfGl has a development to
+                 either <o> or <a> in the position before a nasal (also mentioned by Hogg). Both
+                 outcomes were considered to be correctly predicted in both approaches. ErfGl also has
+                 a tendency to preserve the *a in the sequence *warC.28 It also has a much stronger
+                 inclination to develop every mutated PGmc *a to <e> (Hogg 2011: 123) and,
+                 therefore, the Standard Theory predicts an e as the result of i-mutation for ErfGl
+                 (with good performance). Table 7 summarises the results from the sound laws and their
+                 actual match with the attested word forms in the glossary.
+                    The interpretation of the Anglo-Frisian hypothesis is based on the (fine-grained)
+                 categorical application of the i-mutation, which leads to a prediction accuracy of
+                 70 per cent with i-mutation. The purely probabilistic cline provides an accurate
+
+                 28
+                      Old Norse breaking of Proto-Norse e > ja is blocked by a preceding w (Dyvik 1978: 11). This is part of the
+                      wider ranging ‘combinative breaking’ in the Standard Theory (see also footnotes 26 and 27).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 126 ===
+                        126                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        prediction for words with i-mutation in 91 per cent of the words. This corresponds to
+                        21 additional correct items: 218/274 = 80 per cent correct.
+                           Altogether, the phonological shape of ErfGl is more difficult to predict in both
+                        approaches. As in the EpGl, the largest deviations are found in the interchanging of e
+                        and æ in either prediction or attestation. Part of it has to do with the variability of the
+                        effect of the i-mutation. Further implications of the differences between the two
+                        approaches will be discussed in section 5.
+
+                                               4.3 An alternative account: early fronting after all
+                        Comparison between the initial fronting conditions in Frisian and English leads to an
+                        alternative interpretation for the context *arC. Frisian has fronted vowels in these
+                        contexts, except when preceded by *w, *b and *f, or when followed by a back vowel.
+                        This leaves only few exceptions, such as bern ‘child’ and garda ‘yard’.29 When we
+                        assume a similar early fronting in this specific phonological context (not throughout as
+                        in the Standard Theory), the input vowel to breaking is */æ/ in this approach, without
+                        the intermediate lengthening of *a. This interpretation will be referred to as ‘early-
+                        fronting’ hypothesis.
+                           For EpGl, where breaking is almost entirely restricted to the context *arC, this
+                        scenario requires a general fronting to *æ before any *rC. The i-mutation causes
+                        raising of this *æ to e (4 out of 6); the remaining two instances are feormat and
+                        auuaerdid, the latter with æ after w- (see section 5.4). Breaking is predicted in the
+                        28 instances without i-mutation with assumed *æ (under this approach), and indeed
+                        observed in 24 tokens. One of the exceptions is suornodun with PGmc *a between
+                        *w_r, which represents the context described as ‘combinative breaking’ by Hogg
+                        (2011: 89). Altogether, 29 out of 34 relevant tokens (85 per cent) in the Épinal
+                        Glossary with PGmc *arC are correctly predicted by this set of rules. For the
+                        breaking-through-lengthening theory, this would be 30 (88 per cent), so both
+                        theories perform almost equally well for EpGl.
+                           The alternative theory is particularly fruitful for the interpretation of Erfurt, when
+                        judged by conditions for fronting more similar to Frisian, namely not in the context *war-.
+                        Breaking is then restricted to the contexts before -r + voiced, non-velar consonants, but
+                        not before -rn and -rw. The product of i-mutation is expected to be <e> in the etymons
+                        under consideration (rule 2b in section 4.2.2). This produces 22 correct predictions (out of
+                        34 = 65 per cent) and 27 (79 per cent) if we are tolerant to alternations of <e> and <ae>. In
+                        the earlier presented version of the A-F theory, this was 19 (56 per cent; and 21 with <e> ≈
+                        <ae>). Given variants such as uearte, uaertae and uuertae for ‘wart’ in ErfGl, there is no
+                        way to achieve 100 per cent correctness in any interpretation.
+                           This theory has two advantages when compared to the ‘breaking-through-
+                        lengthening’ hypothesis, described in section 3.3:
+
+                        1. It is more straightforward in terms of the vowel quality for breaking;
+
+                        29
+                             Among the 19 lemmas in the glossary with *arC that can be found (or reliably reconstructed) in Old Frisian,
+                             15 items are correctly predicted by the rules mentioned.
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 127 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      127
+
+
+
+
+                 2. It increases the overlap with developments of fronting in Frisian, which is likely,
+                    because fronting is a very early change and therefore expected to be similar in
+                    Frisian and English and it strengthens the similarity between consonantal breaking
+                    in Old Norse (on /ɛ/) and Old English (on /æ/).
+
+                 Its main disadvantage is that it leaves the observed diachronic and diatopic alternation
+                 of a and ea in the near absence of æ (section 3.2) unexplained. However, in the
+                 glossaries, there is a side-by-side occurrence of broken vowels and front vowels: in the
+                 12 tokens where <ea> appears only in EpGl and not in ErfGl, the latter has 9 fronted
+                 vowels before -r + g,k,n,t: three times <e> and five times <ae>. Three of them have
+                 <a>, all with preceding labial w or b.
+                     An aspect mentioned in this section, which tends to support the ‘breaking-through-
+                 lengthening’ hypothesis as described in section 3.3, is the fact that the instances of
+                 breaking in ErfGl are concentrated in contexts -r + r,ƀ,d,đ,m, which constitute a good
+                 overlap with the lengthening contexts, in particular in Old Frisian. Among the 9 tokens
+                 with a voiceless consonantal cluster, there is only one instance of breaking, strangely
+                 enough after w-: uearte ‘wart’ (next to uaertae and uuertae). The fact that the breaking
+                 in ErfGl is concentrated in the voiced contexts suggests that lengthening of the vowel
+                 may have been part of the process of breaking.
+                     This allows for yet another interpretation of the observed correspondence between
+                 EpGl ea and in particular ErfGl æ: the <ae> may be interpreted as *[æˑ], the
+                 intermediate stage for breaking as described in section 3.3. Vowel length is after all
+                 not rendered in Old English spelling, and <ae> may represent *[æ], *[æˑ] or *[æː].
+                 Breaking is more widespread in EpGl than in ErfGl, and the dialectal origin of EpGl
+                 should be sought nearer to the West Saxon region. The language of ErfGl resembles
+                 rather the early Northumbrian dialect (e.g. with respect to the impact of preceding w-).
+                 If indeed breaking originates in West Saxon and gradually spread to the north and
+                 northeast, the instances with <ae> in ErfGl could reflect the middle step in the chain /a/
+                 > *[æˑ] > [ɛˑa]. Finally, there is so-called ‘Second Fronting’ that might account for
+                 some of the instances of <ae> in ErfGl (see section 5.2), implying an earlier *a.
+                     The conclusion is that both scenarios, the ‘breaking-through-lengthening’
+                 hypothesis and the ‘early fronting’ hypothesis, have their pros and cons. They both
+                 perform well on the data from the glossaries, although the ‘early fronting’ hypothesis
+                 is slightly more flexible in accommodating the variation in the language of ErfGl.
+                 Under any circumstance (including the Standard Theory), we have to assume some
+                 variability in the application of sound changes. The ‘early fronting’ hypothesis also
+                 stays closer to Frisian fronting and Old Norse consonantal breaking, but leaves other
+                 aspects of breaking unexplained, such as the preference for voiced contexts in ErfGl.
+                     However, it is important to notice that both variants of the Anglo-Frisian theory
+                 differ from the Standard Theory in a couple of respects:
+
+                 1. they limit the extent of fronting and operate without the fronting-retraction
+                    movement;
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 128 ===
+                        128                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        2. they apply i-mutation to a stage of the language with unbroken vowels and do not
+                           cause the uncommon effect of i-mutation, entertained in the Standard Theory,
+                           namely monophthongisation;
+                        3. they operate with an implementation of breaking after i-mutation in fairly specific
+                           contexts, without a later correction by i-mutation and a process known in as
+                           Anglian Smoothing.
+
+                       Both scenarios will be considered when discussing changes in words with *arC in
+                       section 5. They both mark a clearly different approach than the chronology of the ST.
+
+
+                            5     Systematic differences: retraction, breaking, i-mutation, smoothing, second
+                                                                  fronting
+
+                                                    5.1 General differences between the theories
+                        The figures in section 4.2 show a very similar level of correct predictions for both
+                        tested theories. Tables 8 and 9 illustrate that both theories also make very similar
+                        predictions on the level of individual tokens: for 92 per cent of the tokens in the Épinal
+                        Glossary, the theories predict the same outcome, which is correct in 86 per cent of
+                        those cases. The figures for ErfGl are 91 and 74 per cent respectively.
+                           This implies that both theories are successful and fail in largely the same stock of
+                        words. The following sections discuss the predictive success of several hypothesised
+                        sound laws in either theory. The situation in the EpGl is taken as default in the
+                        discussion – derivations in ErfGl will sometimes be discussed separately. In
+                        general, both theories have more problems with ErfGl.
+
+
+                         Table 8. Overlap and difference in the performance of the two theories for EpGl
+
+                        Category                                                        Number of tokens: EpGl
+                        Both theories correct                                                        223                               } = 92%
+                        Both theories incorrect                                                       36
+                        A-F chronology correct, ST incorrect                                           9
+                        A-F chronology incorrect, ST correct                                          14
+
+
+                         Table 9. Overlap and difference in the performance of the two theories for ErfGl
+
+                        Category                                                       Number of tokens: ErfGl
+                        Both theories correct                                                        184                               } = 91%
+                        Both theories incorrect                                                       66
+                        A-F chronology correct, ST incorrect                                          13
+                        A-F chronology incorrect, ST correct                                          11
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 129 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      129
+
+
+
+
+                                            5.2 Fronting, ‘second fronting’ and retraction
+                 Both theories are successful in the prediction of developments of words with *aN or
+                 *alC without i-mutation in 97 per cent of cases (n = 70). One exception is heamol
+                 ‘miserly, niggardly’ instead of predicted *hamol. This could be an instance of back
+                 mutation, common in later Mercian sources. ErfGl has healful here, which looks like a
+                 spelling error. The second exception is fealga (not in ErfGl), which shows a ‘West
+                 Saxon’ type of breaking and a violation of the Anglian Smoothing.
+                    Words that go through initial fronting and subsequent retraction in the Standard
+                 Theory (n = 19) are correctly predicted in 11 instances by both theories. Both theories
+                 fail on seven cases, such as -hebuc (ErfGl -haebuc) ‘hawk’ or slęgu (ErfGl slægu)
+                 ‘dross, slag’ < PGmc *slagō- with unexpected lack of retraction (ST) or with ‘Second
+                 Fronting’. The words sceadu ‘shade’ and -sceadan (ErfGl scheadae) ‘damage’ are
+                 best explained as instances of back mutation, rather than palatal diphthongisation (see
+                 discussion in section 3.6) and presuppose Second Fronting as an early development in
+                 the Standard Theory. The A-F chronology has no proper explanation for them either,
+                 other than indeed some form of Second Fronting.30 The dataset contains 31 tokens,
+                 which could show second fronting of æ to e, all of them without i-mutation or Anglian
+                 Smoothing (ST). These words actually have <e> in only two instances in EpGl and six
+                 in ErfGl. Altogether, if there is anything like Second Fronting in the glossaries, its
+                 impact is limited. Such a process of raising would account for the raising of the i-
+                 mutation products to /ɛ/, which is stronger in ErfGl than in EpGl (see section 3.5 and
+                 next section).
+
+
+                                                                   5.3 i-mutation
+                 The categorical interpretation of the i-mutation as found in Hogg (EpGl: *a/ɑ > æ, but
+                 *æ is stem weight sensitive; ErfGl: e throughout) performs equally well as the
+                 categorical rules, based on the probabilistic cline, as they were applied in sections
+                 4.2.1, (2) and 4.2.2., (2). Inevitably 7 errors are always found in both theories in the
+                 context _/g,k, where the distribution in EpGl is exactly 7 <ae> vs 7 <e>. A more
+                 reluctant implementation of i-mutation before a velar consonant is definitely in the
+                 spirit of the A-F i-mutation cline. As a purely probabilistic pattern, the outcome of
+                 i-mutation can be predicted with a higher accuracy by the Anglo-Frisian hypothesis
+                 (sections 3.5 and 4.2).
+                    There are 14 instances in table 8 where the ST makes a correct prediction for EpGl
+                 and where the A-F hypothesis fails. All these 14 instances involve the application of
+                 i-mutation. For ErfGl this proportion is 8 out of 11. Using the probabilistic cline of the
+
+
+                 30
+                      Among the 18 words with expected <a> in both approaches (all with single following consonant) there is a
+                      tendency for words with a synchronic -u/o in the following syllable (such as sadul ) to preserve the <a> while
+                      other contexts allow for more fronted vowels (<e>, <ae,æ>). The contrast is, however, not statistically
+                      significant.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 130 ===
+                        130                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        A-F hypothesis adds 12 more correct predictions for words with i-mutation for EpGl,
+                        which neutralises a large part of the ‘advantage’ of the Standard Theory.
+
+
+                                                               5.4 Breaking and smoothing
+                        Early implementation of breaking is pivotal for the phonological history of pre-Old
+                        English in the approach of the Standard Theory. This comes with various problematic
+                        side-effects, namely:
+
+                        1. The assumed early widespread breaking in words that never appear with broken
+                           vowel in later attestations;
+                        2. The fairly uncommon effect of both breaking and smoothing by the same *x;
+                        3. The atypical monophthongisation effect of i-mutation;
+                        4. The Anglian Smoothing, a process ‘difficult for scholars to adequately explain in
+                           either theoretical or phonetic terms’ (Howell & Somers 2008: 187).
+
+                           The Anglo-Frisian hypothesis posits the beginning of breaking in the late seventh
+                        century and assumes that it gradually spread throughout Old English, both in terms of
+                        dialects and in terms of phonological contexts. The performance of the ST and the A-F
+                        chronology in the prediction of broken forms is, however, not very different, and the
+                        A-F chronology performs in fact even slightly better for both manuscripts, as
+                        illustrated in table 10.
+                           The first category (‘predicted and not attested’) is more numerous in ErfGl, where it
+                        includes four words with -rn.31 Apart from that, breaking in ErfGl is not widespread
+                        when the consonant following the -r is velar or voiceless. The spread of broken vowels
+                        before rC beyond the contexts of voiced alveolar stops, in particular in EpGl, may be
+                        interpreted as an instance of lexical diffusion, defined by Kiparsky (2003: 314) as ‘the
+                        analogical generalization of lexical phonological rules’, with expanding
+                        underspecification of the phonetic constraints to the position before any rC.
+                           The ‘attested and not predicted’ forms in EpGl with ea in both approaches are
+                        fealga, leax, heamol, sceadu and -sceadan. The last three have been identified as early
+                        instances of back mutation (section 5.2). The forms fealga ‘harrows’ and leax
+                        ‘salmon’ are expected to appear as *falga and *læx under both theories. Both words
+                        have phonological parallels in EpGl with <e>: sadulfelgae ‘felly’ (ErfGl idem) and fex
+                        ‘kelp’; ErfGl has also lex ‘salmon’. In the Standard Theory the broken forms ‘fail’,
+                        because here Anglian Smoothing would be in place. Anglian Smoothing is also absent
+                        in mear-/mearc- and uuearg- (see the discussion in section 3.4). Breaking of *a before
+                        *xs can be linked to the lengthening hypothesis: diphthongisation to ea, following the
+                        lengthening of earlier *a before /ks/, as can be found in Modern West Frisian flaaks
+                        ‘flax’, waakse ‘grow’ < OFri. flax, waxa. On the whole, the patterns in EpGl show
+
+                        31
+                             Fronting is not consistently found in the context *arn in Old Frisian: *arn, *farn, *stern, bern; compare
+                             ErfGl: aern-, feran, stærn, barn, in EpGl all four with <ea>.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 131 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      131
+
+
+
+
+                                Table 10. Performance of the theories with respect to breaking
+
+                                                                                   EpGl                                     ErfGl
+
+                                                                           ST                 A-F                  ST                  A-F
+                 <ea> predicted and not attested                            3                   2                  13                    8
+                 <ea> attested and not predicted                            8                   5                   4                    4
+                 Sum incorrect predictions                                 11                   7                  17                   12
+
+
+                 more similarity to those in West Saxon than ErfGl. The breaking in fealga and leax
+                 may be an expression of that nearness. Other parallelisms between the language of
+                 EpGl and West Saxon are: (i) the wider impact of breaking of short vowels before -rC
+                 than in ErfGl; (ii) no blocking of breaking in the context *w_rC (a strong factor in
+                 Early Northumbrian); (iii) the appearance of <ae> for PGmc *ē1 (alongside dominant
+                 <e>); (iv) the consistent spelling of <a> for PGmc *a before nasals, against frequent
+                 <o>-spellings in ErfGl.
+                    The word feormat (not included in the tally in section 4.2 because of the irregular
+                 <eo>) can be interpreted as support for the A-F chronology. Being derived from
+                 *farmjan- ‘to supply’, the word stem is expected to appear as *ferm- both under the
+                 Standard Theory and in the Anglo-Frisian chronology, with initial fronting before
+                 palatalised /rm/ and further raising through ‘j-mutation’ (probability for <e> in this
+                 form is 0.55 in the statistical model). The sequence -erm- is a valid input for breaking
+                 of e to eo before -rm (cf. geormantlab ‘mallow’) in the Anglo-Frisian chronology,
+                 where breaking follows i-mutation. The other six instances with e < *a + i-mutation
+                 before rC in EpGl do not show breaking; they stand before rk or rw, i.e. contexts where
+                 breaking of PGmc *e is not found in the glossary (cf. uuerci, smeruui, teru). The
+                 attested form feormat supports the hypothesis that breaking was later than i-mutation,
+                 because a mutated vowel could apparently still qualify for breaking on the basis of its
+                 newly acquired quality.
+                    Although a treatment of PGmc *e and a systematic comparison with the Corpus
+                 Glossary (CpGl) lie beyond the scope of this article, there is one form that should be
+                 mentioned here, as it supports the interpretation given to feormat in the previous
+                 paragraph and provides compelling evidence for a later date of breaking than in the
+                 Standard Theory. EpGl contains feruuitgeornnis and ErfGl feruitgernis ‘curiosity’
+                 (Pheifer no. 208). The word is a compound of words that appear in West Saxon as
+                 fyrwit ‘curiosity’, lit. ‘pre-knowledge’ and geornness ‘eagerness, desire’. The first part
+                 has cognates in Icelandic forvitni and Old High German firwizzi ‘curiosity’ and a
+                 Gothic verb fariweitjan ‘to investigate’. The Gothic, Old High German and Old
+                 English glossary forms of the compound all point to a PGmc prefix *fer- (IOB).
+                 This implies a morpheme boundary between fer- and -wit in pre-Old English. The
+                 vowel *e stood before single *-r and would not qualify for breaking, which is
+                 confirmed by the forms in EpGl and ErfGl. The corresponding form in the Corpus
+                 Glossary is feorwitgeornis, with feorwit- < ferwit- as the first element of the
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 132 ===
+                        132                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        compound. It seems conceivable that the morpheme structure was no longer
+                        recognisable at the time when the Corpus Glossary was written and the root vowel
+                        developed as with any other short e before -rC, such as in CpGl smeoruue ‘grease’,
+                        EpGl s[m]erwi (ms. sperwi Pheifer no. 769, cf. no. 944 smeruui). This could only
+                        happen at a relatively late date, when the morpheme structure of the word had become
+                        opaque to speakers of Early Old English. This testifies to breaking as an active process
+                        at the time of compilation of the Corpus Glossary. The dates of compilation of EpGl
+                        (c. 700) and CpGl (ninth century) therefore provide roughly the chronological frame
+                        for the historical period of productivity of breaking. An alternative interpretation
+                        would be to assume an error in CpGl in the first syllable, triggered by the <eo> in
+                        geornes or influence from the existing prefix feor- < PGmc *ferra.
+                           In view of the second hypothesis within the Anglo-Frisian chronology, with early
+                        fronting before *rC, we also have to consider instances of unbroken æ or e before
+                        rC. There are four such instances in EpGl with <e> after i-mutation, which appear in
+                        breaking-unfriendly contexts (see the earlier discussion about feormat). Three words
+                        developed <ae> before -rC. The form auuaerdid ‘turned’ may show lack of breaking
+                        after /w/. The word baers ‘perch’ is expected to show breaking under each approach,
+                        whereas faerh ‘farrow’ is expected to show breaking in the ‘early fronting’ theory
+                        (as part of the A-F hypothesis) but not in the Standard Theory. Both baers and faerh
+                        have a voiceless second consonant in the cluster, a criterion that has been identified to
+                        inhibit breaking in ErfGl. The lack of breaking in words with a fronted vowel before
+                        -rC, which goes against the ‘early fronting’ hypothesis, can be interpreted as a result of
+                        the late timing of the process: the words with unbroken vowels fit specific breaking-
+                        unfriendly contexts and had not been broken yet by the time of attestation.
+
+
+                                         5.5 Conclusions regarding the performance of both theories
+                        The Standard Theory and the Anglo-Frisian chronology both perform well and are
+                        confronted by roughly the same stock of ‘problematic’ tokens. Under the applied
+                        categorical implementation of i-mutation, the Standard Theory performs slightly better
+                        for EpGl, but there are good reasons to consider this process as a probabilistic event,
+                        governed by a series of phonological factors. This approach to i-mutation eliminates
+                        almost all instances where the Standard Theory makes better predictions than the Anglo-
+                        Frisian chronology.32
+                           Exactly in contexts where the Standard Theory has its most specific implementation,
+                        namely early breaking, monophthongisation-through-i-mutation and Anglian Smoothing,
+                        the Anglo-Frisian chronology performs slightly better (see tables 2 and 10). When breaking
+                        is understood as a relatively late process, following i-mutation and particularly productive
+
+
+                        32
+                             The performance contrast between the ST and the A-F chronology with probabilistic i-mutation cline is
+                             statistically significant for both manuscripts together, with p < 0.03: ST {432,124} – A-F {462,94} ({correct,
+                             wrong}).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 133 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      133
+
+
+
+
+                 in contexts with /r/ + voiced, non-velar consonants, preferably stops, most of the observed
+                 variation in both glossaries can be explained.
+
+
+                                      6     The early Northumbrian texts: CH, BD, FC, RC, LR
+                 A final aspect to be briefly discussed involves the evidence provided by the early
+                 Northumbrian texts, which offers some further insight into the chronology issue. It
+                 turns out that the vowels in the early Northumbrian texts (section 2) can easily be
+                 explained with the Anglo-Frisian chronology: the sound changes are in fact highly
+                 compatible with the ones reconstructed for ErfGl.
+                      PGmc *a (n = 41) is rounded 9 times before nasals without i-mutation (n = 14), as in mon-
+                      ‘man’ (CH), þonc- ‘thought’ (BD) but can also appear as a (n = 5), as in giþanc (CH) and
+                      and (CH). The forms with a are almost only found in unstressed words: ‘and’, ‘then’,
+                      ‘when’. A similar, although not entirely identical stress-related bias is found in Old
+                      Frisian (Bremmer Jr 2009: 24).
+
+                      Application of the EpGl-rules for i-mutation provides a moderate prediction (10 correct
+                      predictions out of 16 candidates), e.g. sceppend ‘creator’ < *skapjand- or ældu ‘people’
+                      < *aldiō- (cf. OS eldiu) but caestri loc.sg. < *castrī. Three out of the six mismatches are
+                      found in FC with ‘unexpected’ æ before -g or -k. This context is also inconsistent with
+                      respect to fronting/raising in EpGl (see section 5.3).
+
+
+                      When followed by -rC, -lC without i-mutation, or by -Cu, the a is retained (n = 11), as in
+                      fadur ‘father’, all- ‘all’, barnum ‘children’. The word -g(e)ard shows alternation
+                      between a broken and an unbroken vowel a in the two early CH-manuscripts. An
+                      unbroken form in this word is not predicted in any variant of the Standard Theory. Words
+                      with warC are not broken in the Early Northumbrian sources, which is also a tendency in
+                      ErfGl. The remaining words with *rC are barnum ‘children’ and þarf ‘need’. The former is
+                      not broken in ErfGl (-barn) either, and for the latter there is no cognate or comparable
+                      phonological parallel in the glossaries. Both have a labial before or after the vowel. The
+                      Northumbrian data comply better with the ‘breaking-through-lengthening’ hypothesis,
+                      rather than early fronting before -rC, most explicitly evident in the pair gard–geard.
+
+                      The Leiden Riddle has two instances of palatal diphthongisation: sceal, geatum – the
+                      latter may also be an instance of back mutation.
+
+                      In other contexts, the PGmc *a is fronted in Northumbrian to æ (n = 11) as in æfter ‘after’
+                      < PGmc *after, -færæ ‘journey’ < PGmc *farai (dat.sg.).
+
+                 Wrapping up the evidence from these early Northumbrian texts, the relevant processes
+                 are fronting of PGmc *a in non-velar contexts and rounding before nasals in stressed
+                 syllables, and finally i-mutation. All these are exactly the processes reconstructable for
+                 Frisian with large overlaps in the actual conditioning (Bremmer Jr 2009: 24–33).
+                 CH attests to a limited implementation of breaking of PGmc *a before -rd (-g(e)ard).
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 134 ===
+                        134                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        This limited application of breaking fits my interpretation of it being a fairly late,
+                        synchronic process.
+                           The dialect of the earliest Northumbrian sources falls within the limits of variability
+                        of the dialect of ErfGl, with the application of rounding before nasals and an
+                        inclination to retain *a in the sequence war-. Breaking and raising of the i-mutation
+                        product to e are more advanced in the younger ErfGl. It is impossible to say with
+                        certainty whether this difference is a chronological or a dialectal issue, or a matter of
+                        pure chance, given the existing variability also within ErfGl and the small number of
+                        tokens in early Northumbrian.
+
+
+                                                                          7    Conclusion
+                        Criticism has been raised on various occasions against the complicated and dense
+                        sequence of sound laws in the Standard Theory. The key issue in the Standard Theory,
+                        and the focus of this article, is the assumption that the broken vowel ea could only
+                        develop from PGmc *a when it was fronted during the early fronting (Campbell 1977:
+                        54, §139 fn.1) and that breaking was early and general in all dialects. The sound laws
+                        for both fronting and breaking were reconstructed as exceptionless and with few
+                        contextual constraints. The effect is that many words are predicted with a fronted or
+                        broken vowel that was never attested in history, thereby requiring the postulation of
+                        additional sound laws in order to retract fronted vowels or monophthongise broken
+                        diphthongs. One of the implications of the Standard Theory is that even when Old
+                        English and Old Frisian share the same origin and share many later developments and
+                        forms, their reconstructed earliest phonological history was quite different.
+                           This article, based on a full corpus study of the oldest larger sources of English
+                        (i.e. the Épinal and Erfurt Glossaries) supported by an analysis of the earliest
+                        Northumbrian sources, offers a new approach to the phonological history of pre-
+                        and early Old English. It dispenses with the axiomata of the Standard Theory and
+                        posits a fairly late date for breaking, with it unfolding only briefly before and at the
+                        time of the earliest Old English records. Breaking of PGmc *a to ea can be compared
+                        phonetically with lengthening, fronting and breaking developments in West Frisian
+                        and Faroese. Old Frisian attests to lengthening of short a before consonantal clusters
+                        similar to those causing breaking in Old English. Lengthening before such clusters is
+                        also described for Old English itself. Both West Frisian and Faroese show fronting and
+                        breaking (WFri. to [ɪˑə], Faroese to [ɛa]) of a lengthened /a/, without affecting the
+                        vowel quality of the short counterpart, which remains as [a]. As an alternative, it was
+                        hypothesised that PGmc *a was fronted before *rC in many sub-contexts, as was the
+                        case in Frisian, with later breaking of *ærC > earC. Under either approach, breaking
+                        has its core in contexts where the C is [+voice] and [-velar] and often a stop. From these
+                        contexts, it spread through the lexicon by lexical diffusion and rule extension. This
+                        development correlates with a geographical dimension in the application of breaking.
+                        One may hypothesise that breaking had its origins in West Saxon, from where it
+                        gradually spread into the Anglian regions. This seems to be indicated by the nature of
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 135 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      135
+
+
+
+
+                 the evidence from both glossaries, with EpGl located relatively close to West Saxon
+                 and ErfGl exhibiting similarities to the language of the Early Northumbrian texts.
+                    By placing breaking at a later stage in the chronology, and only in those contexts
+                 where it eventually appears in the oldest sources, the history of English phonology can
+                 be freed from sound laws such as ‘retraction’, ‘combinative breaking’ and ‘Anglian
+                 Smoothing’. What is left, are the following changes for PGmc *a, with their
+                 approximate absolute and relative chronology:33
+
+                 1. Rounding of PWGmc *a before nasals – fifth century;
+                 2. Fronting of PWGmc *a in non-velar contexts – late fifth century;
+                 3. (Phonologisation of) i-mutation – not later than 600;
+                 4. Lengthening and breaking of *a before rC from the seventh century onwards;
+                    alternatively breaking of fronted *æ before rC – C is preferably [+voice] and
+                    [-back];
+                 5. Beginning of back mutation – eighth century.
+
+                    This chronology of events runs nearly parallel with the developments in pre-Old
+                 Frisian. Differences are found at stages 2, 4 and 5. The boundary between contexts of
+                 *a which are ‘velar’ or ‘non-velar’ largely overlaps, but differs in a few points in pre-
+                 Old Frisian and pre-Old English. The type of breaking in Old English has no direct
+                 parallel in Old Frisian, and also back mutation is an exclusively Old English
+                 phenomenon, but notice that Old Frisian has its own type of breaking of /e/, in
+                 partly overlapping contexts (-x+x,s,t) as in West Saxon and Kentish. A strong
+                 overlap exists between Old English breaking and back mutation and Old Norse
+                 breaking, as described by Dyvik (1978; see also Haugen 2004: 59–60), with
+                 breaking of Proto Norse e before -rC and -lC clusters and before back vowels in
+                 open syllable.
+                    The two theories (ST and A-F) make similarly good predictions about the expected
+                 Old English vowel qualities in the Épinal and Erfurt Glossaries. The Anglo-Frisian
+                 chronology performs better in the contexts where breaking and smoothing are
+                 supposed to be at stake in the Standard Theory and offers a new, probabilistic
+                 approach to the raising through i-mutation. The application of ‘Occam’s Razor’
+                 should express a preference for the Anglo-Frisian chronology, because it is more
+                 compact and links the developments in Old English, in terms of both chronology and
+                 timing, to those in Old Frisian and Old Norse. The limited Early Northumbrian
+                 evidence fully corroborates the new theory. The language as found in the
+                 Northumbrian material differs marginally from the language of the ErfGl. Finally,
+                 the shape of West Saxon may be understood as a further development on top of the
+                 prehistoric changes in pre-Old English.
+
+                 33
+                      For the runic evidence and dating of various early developments, see the work by Waxenberger (2013, 2019).
+                      The former publication tries to incorporate early breaking by assuming allophonic realisations for single runic
+                      characters, whereas the latter does not mention breaking at all.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 136 ===
+                        136                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        Author’s address:
+                        University of Amsterdam
+                        Spuistraat 134, room 6.07
+                        1012 VB Amsterdam
+                        Netherlands
+                        a.p.versloot@uva.nl
+
+
+
+
+                                                                             References
+                        Ásgeir Blöndal Magnússon. 1989. Íslensk orðsifjabók. [Reykjavík]: Orðabók Háskólans, Mál
+                          og menning.
+                        Ball, Christopher & Patrick Stiles. 1983. The derivation of Old English Geolu ‘yellow’ and the
+                          relative chronology of smoothing and back-mutation. Anglia 101, 5–28.
+                        Bosworth, Joseph & T. Northcote Toller. 1898. An Anglo-Saxon dictionary; Supplement.
+                          Oxford: Clarendon Press. www.bosworthtoller.com (accessed 1 November 2024).
+                        Bremmer Jr, Rolf H. 2009. An introduction to Old Frisian: History, grammar, reader, glossary.
+                          Amsterdam: John Benjamins.
+                        Brunner, Karl & Grahame Johnston. 1970. An outline of Middle English grammar. Oxford:
+                          Blackwell.
+                        Campbell, Alistair. 1977. Old English grammar. Oxford: Clarendon Press.
+                        Chadwick, H. Munro. 1889. Studies in Old English. London: Cambridge University Press.
+                        Colleran, Rebecca A. B. 2016. Keeping it in the family: Disentangling contact and inheritance
+                          in closely related languages. PhD dissertation, University of Edinburgh.
+                        Collier, L. W. 1987. The chronology of i-umlaut and breaking in Pre-Old English. NOWELE:
+                          North-Western European Language Evolution 9(1), 33–45.
+                        Dyvik, Helge. 1978. Breaking in Old Norse and related languages: A reassessment of the
+                          phonological conditions. Arkiv för nordisk filologi 93, 1–37.
+                        Findell, Martin. 2014. Runes. London: The British Museum Press.
+                        Fulk, Robert D. 1998. The chronology of Anglo-Frisian sound changes. In Rolf H. Bremmer Jr,
+                          Thomas Stanley Baker Johnston & Oebele Vries (eds.), Approaches to Old Frisian philology
+                          (Amsterdamer Beiträge zur älteren Germanistik 49), 139–54. Amsterdam and Atlanta, GA: Rodopi.
+                        Grimmer, Martin. 2007. Britons in Early Wessex: The evidence of the Law Code of Ine. In
+                          Nick J. Higham (ed.), Britons in Anglo-Saxon England (Publications of the Manchester
+                          Centre for Anglo-Saxon Studies 7), 102–14. Woodbridge: Boydell Press.
+                        Haugen, Odd Einar. 2004. Frå urnordisk til norrønt språk. In Handbok i norrøn filologi,
+                          additional file online. [Bergen]: Fagbokforlaget. http://folk.uib.no/hnooh/handbok/ekstra/
+                          urnordisk.html (accessed 1 November 2024).
+                        Herren, Michael W & Hans Sauer. 2015. Towards a new edition of the Épinal-Erfurt Glossary:
+                          A sample. Journal of Medieval Latin 26, 125–98.
+                        Herren, Michael W, David W. Porter & Hans Sauer. 2020–4. The Épinal-Erfurt Glossary
+                          Project. The Épinal-Erfurt Glossary Project. www.doe.utoronto.ca/epinal-erfurt/index.html
+                          (accessed 1 November 2024).
+                        Hines, John & Charlotte Behr. 2019. Wer kommt im 4. und 5. Jahrhundert vom Kontinent nach
+                          Britannien, ab wann und warum? In Babette Ludowici (ed.), Saxones: Niedersächsische
+                          Landesausstellung 2019: Landesmuseum Hannover und im Braunschweigischen
+                          Landesmuseum, 141–53. Darmstadt: Theiss.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 137 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      137
+
+
+
+
+                 Hogg, R. 1988. On the impossibility of Old English dialectology. In Kastovsky, Bauer & Fisiak
+                   (eds.), 183–203.
+                 Hogg, Richard M. 1979. Old English palatalization. Transactions of the Philological Society
+                   77(1), 89–113.
+                 Hogg, Richard M. 2011. A grammar of Old English, vol. 1: Phonology. Chichester: Wiley-
+                   Blackwell.
+                 Howell, Robert B. & Wicka Katerina Somers. 2008. A phonetic account of Anglian smoothing.
+                   Folia Linguistica Historica 41(Historica vol. 28,1–2), 187–214.
+                 Kastovsky, Dieter, Gero Bauer & Jacek Fisiak (eds.). 1988. Luick revisited: Papers read at
+                   the Luick-Symposium at Schloß Liechtenstein, 15.–18.9.1985. Tübingen: Gunter Narr.
+                 Kiparsky, Paul. 2003. The phonological basis of sound change. In Brian D. Joseph &
+                   Richard D. Janda (eds.), The handbook of historical linguistics, 313–42. Malden, MA:
+                   Blackwell.
+                 Klein, Thomas. 1977. Studien zur Wechselbeziehung zwischen altsächsischem und
+                   althochdeutschem Schreibwesen und ihrer Sprach- und kulturgeschichtlichen Bedeutung.
+                   Göppingen: A. Kümmerle.
+                 Kolkwitz, M. 1895. Zum Erfurter Glossar. Anglia – Zeitschrift für englische Philologie
+                   1895(17), 452–65.
+                 Kortlandt, Frederik. 1999. The origin of the Old English dialects revisited. Amsterdamer
+                   Beiträge zur Älteren Germanistik 51, 45–51.
+                 Kortlandt, Frederik. 2008. Anglo-Frisian. NOWELE: North-Western European Language
+                   Evolution 54/55, 265–78.
+                 Kroonen, Guus. 2013. Etymological dictionary of Proto-Germanic. Leiden: Brill.
+                 Krupatkin, Yakov B. 1970. From Germanic to English and Frisian. Us Wurk 19, 49–71.
+                 Kuhn, Hans. 1955. Zur Gliederung der germanischen Sprachen. Zeitschrift für deutsches
+                   Altertum und deutsche Literatur 86, 1–47.
+                 Kuhn, Sherman M. 1939. The dialect of the Corpus Glossary. PMLA 54(1), 1–19.
+                 Küspert, Klaus-Christian. 1988. Vokalsysteme im Westnordischen: Isländisch, Färöisch,
+                   Westnorwegisch: Prinzipien der Differenzierung. Tübingen: M. Niemeyer.
+                 Laker, Stephen. 2007. Palatalization of velars: A major link of Old English and Old Frisian.
+                   Amsterdamer Beiträge zur älteren Germanistik 64(1), 165–84.
+                 Laker, Stephen. 2019. Celtic influence on Old English vowels: A review of the phonological
+                   and phonetic evidence. English Language and Linguistics 23(3), 591–620.
+                 Laker, Stephen. 2021. Palatalization and assibilation of /k/ in English and Scottish place-
+                   names. NOWELE: North-Western European Language Evolution 74(1), 80–115.
+                 Lass, Roger & Margaret Laing. 2012. ‘ea’ in early Middle English: From diphthong to digraph.
+                   In David Denison, Ricardo Bermúdez-Otero, Chris McCully & Emma Moore (eds.),
+                   Analysing Older English, 75–117. Cambridge: Cambridge University Press.
+                 Lindqvist, Christer. 2015. Norn im keltischen Kontext. Amsterdam: John Benjamins.
+                 Luick, Karl. 1921. Historische Grammatik der englischen Sprache. Leipzig: B. Tauchnitz.
+                 Minkova, Donka. 2015. Establishing phonemic contrast in written sources. In Patrick
+                   Honeybone & Joseph Salmons (eds.), The Oxford handbook of historical phonology (Oxford
+                   Handbooks), 72–85. Oxford and New York: Oxford University Press.
+                 Nicolay, Johan. 2005. Nieuwe bewoners van het terpengebied en hun rol bij de opkomst van
+                   Fries koningschap: De betekenis van gouden bracteaten en bracteaatachtige hangers uit
+                   Friesland (vijfde-zevende eeuw na Chr.). De Vrije Fries 85, 37–103.
+                 Nicolay, Johan. 2017. Power and identity in the southern North Sea area: The Migration and
+                   Merovingian periods. In Nelleke IJssenagger & John Hines (eds.), Frisians and their North
+                   Sea neighbours, from the fifth century to the Viking age, 75–92. Woodbridge: Boydell and
+                   Brewer.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 138 ===
+                        138                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        Nielsen, Hans Frede. 1985. Old English and the continental Germanic languages: A survey of
+                           morphological and phonological interrelations (Innsbrucker Beiträge zur
+                           Sprachwissenschaft 33), 2nd edn. Innsbruck: Institut für Sprachwissenschaft der Universität
+                           Innsbruck.
+                        Nielsen, Hans Frede. 2000. The Early Runic language of Scandinavia: Studies in Germanic
+                           dialect geography. Heidelberg: C. Winter.
+                        Nielsen, Hans Frede. 2015. The vowel systems of Old English, Old Norse and Old High
+                           German compared. In John Ole Askedal & Hans Frede Nielsen (eds.), Early Germanic
+                           languages in contact, 261–76. Amsterdam: John Benjamins.
+                        Oliver, Lisi. 1998. Irish influence on orthographic practice in early Kent. NOWELE: North-
+                           Western European Language Evolution 33(1), 93–113.
+                        Pheifer, J. D. 1974. Old English glosses in the Épinal-Erfurt glossary. Oxford: Clarendon
+                           Press.
+                        Pheifer, J. D. 1987. Early Anglo-Saxon glossaries and the school of Canterbury. Anglo-Saxon
+                           England 16, 17–44.
+                        Philippa, Marlies, F. Debrabandere, Arend Quak, Tanneke Schoonheim & Nicoline van der
+                           Sijs. 2003. Etymologisch Woordenboek van het Nederlands. Amsterdam: Amsterdam
+                           University Press. www.etymologiebank.nl (accessed 1 November 2024).
+                        Ringe, Don & Ann Taylor. 2014. A linguistic history of English, vol. II: The development of Old
+                           English. New York: Oxford University Press.
+                        Schee, Sanne J. F van der. 2015. Breaking of /æ_rC/ in Early Old English: Personal names and
+                           place-names in Latin charters and manuscripts of Bede’s Historia Ecclesiastica Gentis
+                           Anglorum. Anglia 133(2), 225–56.
+                        Schrijver, Peter. 2014. Language contact and the origins of the Germanic languages
+                           (Routledge Studies in Linguistics 13). New York: Routledge.
+                        Schulte, Michael. 1998. Grundfragen der Umlautphonemisierung: eine strukturelle Analyse
+                           des nordgermanischen i/j-Umlauts unter Berücksichtigung der älteren Runeninschriften.
+                           Berlin: Walter de Gruyter.
+                        Schulte, Michael. 2018. Urnordisch: Eine Einführung (Wiener Studien zur Skandinavistik 26).
+                           Vienna: Praesens Verlag.
+                        Seiler, Annina. 2017. Untangling the strands: The spelling of the Épinal glossary. In Stephan
+                           Dusil, Gerald Schwedler & Raphael Schwitter (eds.), Exzerpieren –Kompilieren –
+                           Tradieren: Transformationen des Wissens zwischen Spätantike und Frühmittelalter, 153–74.
+                           Berlin: De Gruyter.
+                        Seiler, Annina. 2019. The spelling of the Erfurt glossary. In Andreas Nievergelt & Ludwig
+                           Rübekeil (eds.), Raum und Sprache: Festschrift für Elvira Glaser zum 65. Geburtstag, 525–
+                           40. Heidelberg: Universitätsverlag Winter.
+                        Siebs, Theodor. 1901. Geschichte der friesischen Sprache. In Hermann Paul (ed.), Grundriss
+                           Der Germanischen Philologie, 2nd edn, vol. 1, 1152–1464. Strassburg: Trübner.
+                        Simpson, J. A. & E. S. C. Weiner (eds.). 2004. The Oxford English dictionary. www.oed.com
+                           (accessed 1 November 2024).
+                        Stiles, Patrick. 1988. Questions of phonologization and relative chronology, with illustrations
+                           from Old English. In Kastovsky, Bauer & Fisiak (eds.), 335–54.
+                        Stiles, Patrick. 1995. Remarks on the ‘Anglo-Frisian’ thesis. In Volkert F. Faltings, Alastair Walker &
+                           Ommo Wilts (eds.), Friesische Studien II: Beiträge des Föhrer Symposiums zur Friesischen
+                           Philologie vom 7.–8. April 1994 (NOWELE Supplement Series 12), 177–220. [Odense]: Odense
+                           University Press.
+                        Stiles, Patrick V. 2013. The pan-West Germanic isoglosses and the subrelationships of West
+                           Germanic to other branches. NOWELE: North-Western European Language Evolution
+                           66(1), 5–38.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 139 ===
+                           RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH                                                      139
+
+
+
+
+                 Sweet, Henry & Dorothy Whitelock. 1967. Sweet’s Anglo-Saxon reader in prose and verse.
+                   Oxford: Clarendon Press.
+                 Tiefenbach, Heinrich. 1989. Zu den althochdeutschen Glossen im altenglischen Erfurter
+                   Glossar. In Claudia Blank (ed.), Language and civilization: A concerted profusion of essays
+                   and studies, in honour of Otto Hietsch, vol. 1, 114–23. Frankfurt am Main: Lang.
+                 Tiefenbach, Heinrich. 2003. Die altsächsische Psalmenübersetzung im Lublin/Wittenberger
+                   Psalter; mit einer Neuedition des Textes. In Rolf Bergmann (ed.), Volkssprachig-lateinische
+                   Mischtexte und Textensembles in der althochdeutschen, altsächsischen und altenglischen
+                   Überlieferung, 385–465. Heidelberg: Winter.
+                 Toon, Thomas E. 1987. Old English dialects: What’s to explain; what’s an explanation? In
+                   Willem Koopman, Frederike van der Leek, Olga Fischer & Roger Eaton (eds.), Explanation
+                   and linguistic change, 275–93. Amsterdam: John Benjamins.
+                 Toon, Thomas E. 1992. Old English dialects. In Richard M. Hogg (ed.), The Cambridge history
+                   of the English language, vol. 1: The beginnings to 1066, 409–51. Cambridge: Cambridge
+                   University Press.
+                 Vaan, Michiel de. 2017. The dawn of Dutch: Language contact in the western Low Countries
+                   before 1200. Amsterdam: John Benjamins.
+                 Versloot, Arjen P. 2021. The historical phonology of Old English: A critical review. Papers in
+                   Historical Phonology. http://journals.ed.ac.uk/pihph/article/view/6690/ (accessed
+                   1 November 2024).
+                 Waxenberger, Gabriele. 2013. The reflection of pre-Old English sound changes in pre-Old
+                   English runic inscriptions. In Hans Sauer & Gabriele Waxenberger (eds.), Recording
+                   English, researching English, transforming English, 17–64. Frankfurt am Main: Peter Lang.
+                 Waxenberger, Gaby. 2019. Absolute chronology of early sound changes reflected in Pre-Old
+                   English runic inscriptions. NOWELE: North-Western European Language Evolution 72(1),
+                   60–77.
+                 Þráinsson, Höskuldur. 2004. Faroese: An overview and reference grammar. Tórshavn: Føroya
+                   Fródskaparfelag.
+
+
+                                                 Appendix: Statistical model of i-mutation
+                 70 cases have Y=0; 129 cases have Y=1.
+                 Overall model fit… chi square = 39.5008; df = 4; p = 0.00
+                 coefficients, standard errors, odds ratios and 95% confidence limits:
+
+
+                 Variable              Avg         SD           Coeff.         StdErr         p           O.R.         Low         -- High
+                 Vowel                 0.70        0.46          1.45          0.36          0.00        4.26         2.10          8.63
+                 i-Mutation            0.40        0.35          1.31          0.51          0.01        3.71         1.38         10.00
+                 Syllable              0.65        0.48          1.05          0.34          0.00        2.86         1.46          5.61
+                 Manuscript            0.49        0.50          0.81          0.34          0.02        2.25         1.16          4.35
+                 Intercept                                      –1.89          0.48          0.00
+
+                 Avg = average; SD = standard deviation ; Coeff. = coefficient, StdErr = standard error,
+                 p = probability; O.R. = Odd’s Ratio; Low--High = 95% confidence limits of the O.R.
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 140 ===
+                        140                                      ARJEN PIETER VERSLOOT
+
+
+
+
+                        Vowel is a binary variable:                        *a/ɑ = 0 vs *æ = 1
+                        i-Mutation is divided in three stages:             -i = 0, ambiguous (-jan-verbs, ja- and i-stems) = 0.5;
+                                                                           -ī,-j = 1
+                        Syllable is binary:                                Heavy Syllable = 0; Light Syllable = 1
+                        Manuscript is binary:                              Épinal = 0; Erfurt = 1
+
+                           The variables were quantified with value ‘1’ being the feature that favors <e>. Only
+                        instances of <ae> and <e> in the two manuscripts were included, 7 instances <eo/æo>
+                        and <e(e)> = /e:/> were excluded. The Odd’s Ratio expresses the increased likelihood
+                        for the outcome <e> for an item with value ‘1’ compared to an item with value ‘0’,
+                        hence: ‘the chance for a lexical item with a pre-i-mutation vowel *æ to appear as <e> in
+                        the glossaries is 4.26 times bigger than for items with the vowels *a/ɑ’, etc.
+
+
+
+
+                                                      Graphic representation of the model
+                        The impact of the combined factors (X-axis) was computed, using the coefficient values from
+                        the model. Only combinations of features that contained at least five items are shown in the
+                        graph. The dotted line shows the ideal prediction of the model. The model predicts 87 per cent
+                        of the tokens correctly, 84 per cent for Épinal and 91 per cent for Erfurt. https://statpages.info/
+                        logistic.html (accessed 4 November 2024)
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+
+=== page 141 ===
+Downloaded from https://www.cambridge.org/core. University College London (UCL), on 15 Sep 2026 at 06:43:05, subject to the Cambridge Core terms of use, available at
+                                                                                                                                                                                                                  Data i-mutation model
+
+
+
+
+                                                                                                                                                                                                                                                                                         RECONSTRUCTING THE HISTORICAL PHONOLOGY OF OLD ENGLISH
+                                                                                                                                                                                                                                          Pred   Pred   Correct.
+                                                                                                                                                                                 Ms   Vow   Syll   Uml   <ae>   <e>    Obs      Pred      <ae>   <e>     pred.     Accuracy   Strength
+                                                                                                                                                                        Épinal   0     0     0     0      5      0       0%     0.13       4       1       4                   0.00
+                                                                                                                                                                                 0     0     1     0      2      2      50%     0.30       3       1       3                   1.05
+                                                                                                                                                                                 0     0     0     0.5    5      1      17%     0.22       5       1       6                   0.66
+                                                                                                                                                                                 0     0     1     0.5    8      0       0%     0.45       4       4       4                   1.71
+                                                                                                                                                                                 0     0     0     1      1      2      67%     0.36       2       1       2                   1.31
+                                                                                                                                                                                 0     0     1     1      2      1      33%     0.62       1       2       2                   2.36
+                                                                                                                                                                                 0     1     0     0      2      4      67%     0.39       4       2       4                   1.45
+                                                                                                                                                                                 0     1     1     0      8     15      65%     0.65       8      15      23                   2.50
+                                                                                                                                                                                 0     1     0     0.5    8      5      38%     0.55       6       7      11                   2.10
+                                                                                                                                                                                 0     1     1     0.5    1     19      95%     0.78       4      16      17                   3.16
+                                                                                                                                                                                 0     1     0     1      1      2      67%     0.70       1       2       3                   2.76
+
+
+
+
+https://www.cambridge.org/core/terms. https://doi.org/10.1017/S1360674324000674
+                                                                                                                                                                                 0     1     1     1      0      7     100%     0.87       1       6       6         84%       3.81
+                                                                                                                                                                        Erfurt   1     0     0     0      3      2      40%     0.25       4       1       4                   0.81
+                                                                                                                                                                                 1     0     1     0      2      2      50%     0.49       2       2       4                   1.86
+                                                                                                                                                                                 1     0     0     0.5    3      4      57%     0.40       4       3       6                   1.47
+                                                                                                                                                                                 1     0     1     0.5    2      6      75%     0.65       3       5       7                   2.52
+                                                                                                                                                                                 1     0     0     1      0      3     100%     0.56       1       2       2                   2.12
+                                                                                                                                                                                 1     0     1     1      1      2      67%     0.78       1       2       3                   3.18
+                                                                                                                                                                                 1     1     0     0      2      3      60%     0.59       2       3       5                   2.26
+                                                                                                                                                                                 1     1     1     0      6     15      71%     0.81       4      17      19                   3.31
+                                                                                                                                                                                 1     1     0     0.5    4      7      64%     0.74       3       8      10                   2.92
+                                                                                                                                                                                 1     1     1     0.5    2     18      90%     0.89       2      18      20                   3.97
+                                                                                                                                                                                 1     1     0     1      2      1      33%     0.84       0       3       1                   3.57
+                                                                                                                                                                                 1     1     1     1      0      8     100%     0.94       0       8       8         91%       4.62
+                                                                                                                                                                                                                                                                     87%      correct
+                                                                                                                                                                                                                                                                                         141

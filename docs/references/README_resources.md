@@ -86,15 +86,17 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
 
 ## Anglo-Frisian / North Sea Germanic specialist literature
 
-Ingested for the Anglo-Frisian chronology research pass. **Six** of the eight
-were extracted with `pdftotext -layout` from reliable born-digital text
-layers. **One — Campbell 1939 — required the Google Vision OCR route** and carries the
+Ingested for the Anglo-Frisian chronology research pass. **Seven** of the nine
+were extracted with `pdftotext -layout` from born-digital text layers.
+**One — Campbell 1939 — required the Google Vision OCR route** and carries the
 `.vision.txt` suffix. **One — Laker 2007 — required a deterministic
 font-aware rebuild** and keeps the plain `.txt` suffix, since it is not OCR.
+Three of the seven `pdftotext` sources still needed a character repair before
+they were usable; only four were usable as extracted.
 
-An initial screen that measured only characters-per-page passed all eight;
-that screen was wrong, because it measured volume rather than accuracy. A
-second screen on diacritic integrity caught both failures:
+An initial screen that measured only characters-per-page passed all eight of
+the original sources; that screen was wrong, because it measured volume rather
+than accuracy. A second screen on diacritic integrity caught both failures:
 
 - **Campbell 1939** yields zero ae-ligatures, zero macrons and zero thorn
   across thirty pages of Old Frisian vowel history. Its text layer is itself
@@ -186,6 +188,29 @@ chronology.
   Pre-Old English Runic Inscriptions", NOWELE 72.1 (2019), pp. 60-77.
   Absolute, archaeologically anchored dates; to be kept methodologically
   distinct from handbook relative chronologies. 18 printed pages.
+
+- `versloot_2025_reconstructing_historical_phonology_of_oe.txt`
+  Versloot, "Reconstructing the Historical Phonology of Old English",
+  English Language and Linguistics 30.1 (2025), pp. 103-141. Open Access.
+  39 printed pages, 39 of 39 folio-verified. Added to the pass after the
+  first eight. Argues against the "Standard Theory" chronology, replacing
+  the eight traditional sound laws targeting PGmc *a with a smaller set
+  having claimed Frisian parallels, tested against the Epinal and Erfurt
+  glossaries.
+
+  The text layer passes the diacritic screen, but the IPA font maps three
+  SMALL CAPITAL letters into the Unicode private use area: U+F769, U+F76C
+  and U+F772, on the systematic pattern 0xF700 plus the base letter's ASCII
+  code. Each was confirmed by rendering its line at 520 dpi and reading it,
+  and repaired to small capital I, L and R respectively. These are
+  Versloot's notation for the velarized resonants conditioning breaking, so
+  dropping them would have deleted the conditioning environment from a paper
+  about breaking. Ligatures and the non-breaking hyphen were also normalized
+  so that "different" and the environment "-rC" are searchable.
+
+  One quirk to know about: on pp. 110-119 `pdftotext` kerns the running-head
+  folio apart, so p. 113 appears in the body as "11 3". The page markers are
+  unaffected; do not cite from the running head.
 
 ## Other references
 
