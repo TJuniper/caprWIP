@@ -1,0 +1,693 @@
+Kortlandt, Frederik. "Anglo-Frisian." NOWELE 54/55 (2008), 265-278.
+doi:10.1075/nowele.54-55.08kor
+
+SOURCE AND METHOD
+-----------------
+Born-digital PDF, extracted with `pdftotext -layout` (poppler) and then
+REPAIRED (see below). No OCR was involved, so no OCR caveat applies: the
+characters below are the publisher's own, not a recognition guess. The PDF
+itself stays untracked under docs/references/ per .gitignore; this text is
+the committed, citable representation.
+
+ENCODING REPAIR
+---------------
+The embedded text layer was NOT reliable as extracted. The John Benjamins
+house font emits a combining macron as a trailing U+00A4 CURRENCY SIGN, so
+every long vowel in the raw extract came out as e.g. "o¤" for "ō". In an
+article about vowel history that is a loss of exactly the content-bearing
+information, so it was repaired before committing.
+
+The repair is deterministic and context-free — a fixed one-to-one glyph
+substitution followed by NFC composition — not a guess or a reconstruction:
+
+  U+00A4 after a vowel   ->  combining macron U+0304 on that vowel
+  `\` (backslash)          ->  schwa U+0259
+  dotless `ı` U+0131      ->  `i`
+
+It was verified against forms whose value is fixed by the surrounding prose,
+so the check is independent of the substitution itself: `*ēə`, `*īə`, `*ə̄`.
+
+Note for anyone tempted to re-derive this file by OCR: for THIS article
+pdftotext-plus-repair is strictly better than Google Vision. Vision drops
+the schwa character altogether and misreads `*ə̄` as `*ō`, which would
+silently destroy Kortlandt's reconstructions. Neither extraction route is
+globally superior; each source has to be checked on its own.
+
+
+PAGE NUMBERING
+--------------
+The `=== page NNN ===` markers below are the PRINTED page numbers of the
+publication, not PDF sheet numbers, so a citation taken from this file can
+be given directly as a page reference. The offset is constant: printed
+page N is PDF sheet N - 264. It was verified mechanically: the printed
+folio appears in the running head or foot of 14 of the 14 sheets,
+with no exceptions.
+Text never crosses a printed page boundary.
+
+Printed pages 265-278 (14 sheets).
+
+--------------------------------------------------------------------------
+
+=== page 265 ===
+                                  anglo-frisian
+
+
+
+                              Frederik Kortlandt
+
+                            ANGLO-FRISIAN
+
+
+
+Patrick Stiles has argued against the reconstruction of an Anglo-
+Frisian proto-language 'because it is not possible to construct the
+exclusive common relative chronology that is necessary in order to
+be able to establish a node on a family tree' (1995:211). His starting-
+point are the following shared features of Old English and Old Frisian
+(1995:177f.):
+
+ 1.  Front reflex of *ē1 in OE dǣd, dēd, OF dēd(e) 'deed', OHG tāt.
+ 2.  Fronting of *a in OE dæg, OF dei 'day', OHG tag.
+ 3. 	Rounding of *ē1 before a nasal in OE, OF mōna 'moon', OHG māno.
+ 4. 	Rounding of *a before a nasal in OE, OF lond 'land', OHG lant.
+ 5. Loss of nasal with compensatory lengthening before a homorganic
+     spirant in OE, OF tōþ, tōth 'tooth', gōs 'goose', fīf 'five', ūs 'us', OHG
+     zan(d), gans, fimf, uns.
+ 6.  Rounded reflex of *ā~ in OE, OF brōhte 'brought', OHG brāhta.
+ 7. Breaking in OE reoht, OF riucht 'right', OHG reht.
+ 8.  Reflexes of unaccented vowels in OE, OF mōna 'moon', OHG māno
+     and OE, OF sunne 'sun', OHG sunna.
+ 9. Palatalization of velar consonants in E cheese, F ts(j)iis, G Käse,
+     also OE dæg, OF dei 'day', OHG tag.
+10. Uniform plural ending in verbal paradigms, e.g. OE berað, OF
+     berath, OHG berumēs, birit, berant 'we, you, they carry'.
+
+It seems to me that the last point, which is fully shared by Old Saxon,
+is quite irrelevant to the relative chronology to be established and
+must be kept apart. It is well-known that breaking and palatalization
+took place under different conditions in English and Frisian. I have
+argued that the West Saxon front reflex ǣ of *ē1 is an archaism, not
+an innovation (1986, 1999, 2006b).
+   Reconsidering the relative chronology of Anglo-Frisian sound changes,
+Robert Fulk arrived at the following conclusion for the Northumbrian
+dialect of Old English (1998:153):
+
+
+                                       265
+
+=== page 266 ===
+                          frederik kortlandt
+
+
+
+ 1. Backing and nasalization of West Gmc. a, ā before a nasal conso-
+    nant.
+ 2. Loss of n before a spirant, resulting in lengthening and nasaliza-
+    tion of the preceding vowel.
+ 3. Fronting of West Gmc. a, ā to æ, ǣ, including a in the diphthongs
+    ai and au.
+ 4. Palatalization (but not yet phonemicization of palatals).
+ 5. Retraction of æ, ǣ to a, ā due to the influence of neighbouring con-
+    sonants.
+ 6. Non-Saxon (and Frisian) ǣ > ē.
+ 7. Restoration of a before a back vowel of the following syllable; at
+    this time æu was retracted to au in Old Frisian.
+ 8. Breaking; in West Saxon, palatal diphthongization follows.
+ 9. i-mutation, followed by syncope; Old Frisian breaking follows.
+10. Phonemicization of palatals and assibilation, followed by second
+    fronting in part of West Mercia.
+11. Smoothing and back mutation.
+
+In this chronology, English and Frisian begin to diverge at stage 5 and
+tend to diverge widely at stage 7.
+   The main difficulty with Fulk's chronology is the unmotivated char-
+acter of the sound changes: we find backing at stage l, fronting at stage
+3, backing at stage 5, fronting at stage 6, backing at stage 7, fronting
+at stage 9, and backing at stage 11. What was the driving force behind
+these alternating developments? Following Krupatkin's observation
+that 'every time the initial shifts in the field of the long vowels raised
+similar transformations in the field of the short vowels' (1970:63),
+we may look for structural pressure as a determinant factor. In my
+view, the basic element is the Proto-Germanic asymmetry in the low
+vowels between long front ǣ and short back a, which could be resolved
+either by fronting a to æ, as in Anglo-Frisian, or by backing ǣ to ā, as
+in the other languages (except Gothic, where ǣ was raised to ē at an
+early stage). If ǣ had been retracted to ā in West Germanic already,
+the Anglo-Frisian fronting would be entirely unmotivated. Moreover,
+Caesar refers to the Swabians as Suēbi, not **Suābi, which shows
+that we must reconstruct a front vowel for an early stage of Old High
+German. I therefore think that West Saxon ǣ is an archaism and that
+the early retraction of ǣ to ā did not reach Anglo-Frisian.
+
+
+                                   266
+
+=== page 267 ===
+                              anglo-frisian
+
+
+
+   Fulk distinguishes between an early palatalization (stage 4) and a
+later phonemicization of palatals and assibilation (stage 10). This is an
+unfortunate split, not only because the late phonemicization of palatals
+effectively obliterates the explanatory value of the early palataliza-
+tion, but also because it implies that the fronting of velar consonants
+was reversed by the restoration of a following æ to a. When we look
+at other languages (Celtic, Slavic, Indic), we usually perceive a rising
+tide of palatalization, which first affects certain positions and then
+spreads to other environments (e.g., Greene 1974, Kortlandt 1979).
+The similarities and differences between the conditions for palataliza-
+tion in English and Frisian rather suggest that we have to distinguish
+between an early Anglo-Frisian development and a later Old English
+innovation. Such a chronological split is strongly criticized by Hogg, who
+claims that 'the various types of palatalization are prime candidates
+for simultaneous application' (1979:108). On the contrary, it yields a
+much more natural chain of events than the alternating developments
+of fronting and backing listed above.
+   Thus, I would start from a vowel system with long front *ǣ and short
+back *a, a general tendency to retract ǣ to ā, and a local tendency to
+front a to æ. If we want to avoid the assumption that fronted æ was
+again retracted to a, it follows that the Anglo-Frisian fronting of the
+short vowel was blocked by a following l, r, h plus consonant and in
+open syllables by a back vowel in the following syllable (cf. already
+Heuser 1903:1). Since we do not find palatalization before *ai and *au
+in Frisian, it is natural to assume that *ai had been monophthongized
+to ā before the Anglo-Frisian fronting of a to æ and that *au had re-
+mained unchanged. The Anglo-Frisian palatalization then affected k
+and g before front vowels. After the 'Saxon' migration to Britain, the
+fronting of a to æ affected the remaining instances of a in closed syll
+ables, and also *au with a before tautosyllabic u, in the dialect of the
+settlers. This 'Saxon' second fronting was followed by breaking and
+second palatalization, e.g. in eald, cēapian, OFr. ald 'old', kāpia 'buy'.
+In fact, the first stage of breaking can be identified with the 'Saxon'
+fronting because the conditions were largely identical: it appears
+that the process of breaking began as incomplete fronting of a before
+tautosyllabic l, r, h and u and subsequently affected e and i. After the
+'Anglian' migration, these developments spread to the north, leaving
+traces only of the earlier situation.
+
+
+                                    267
+
+=== page 268 ===
+                           frederik kortlandt
+
+
+
+   In the meantime, Anglian shared the development of Frisian on the
+continent, in particular the raising of ǣ to ē, which had been preceded
+by the Anglo-Frisian retraction of ǣ to ā before w (cf. Fulk 1998:141).
+The Kentish raising of ǣ to ē was probably a local development, per-
+haps under the influence of a second invasion in Kent in the sixth
+century. After the 'Anglian' migration, Frisian fronted ā (from *ai) to
+ǣ unless it was followed by a back vowel in the following syllable and
+monophthongized *au to ā. The distinction between ē < *ǣ and ǣ < *ai
+is still preserved in modern dialects (cf. Campbell 1939:101, fn.l). The
+Anglo-Frisian and second English palatalizations preceded umlaut (i-
+mutation) because the umlauted vowels did not palatalize k and g but
+phonemicized the opposition between palatals and velars, so that Old
+Frisian shows palatalization before e < *æ and ē < *ǣ but not before e
+< *ä or ǣ < *ai, e.g. tsetel < *katilaz 'kettle' and tziake < *kǣkōn 'jaw'
+versus kenna < *kannjan 'make known' and kēi, kāi < *kaijō 'key' (cf.
+already van Haeringen 1920:31f.).
+   Krupatkin's observation quoted above explains the fact that the
+'fractured reflexes of i and e have rounded second elements in OE, in
+early OE -u', and possibly 'the second element of the broken reflex of
+æ was also -u at first' (H.F. Nielsen 1984:76). Thus, io, eo, ea were the
+short counterparts of īo, ēo, ēa from the time when these were still u-
+diphthongs. Nielsen can now explain the fact that the reflex of *a is not
+broken in Old Frisian: 'Gmc. au was monophthongized to ā in OFris.,
+and consequently there was no systematic pressure in terms of creat-
+ing another short diphthong in the way that iu (io) was phonemicized
+as a short counterpart of Gmc. eu/iu' (1984:77f.). In Scandinavian,
+'the diphthong arisen by breaking was ia both before a and before u',
+and this diphthong 'is found on the stones of Sparlösa and Rök; by
+u-mutation it passes into ioã in WN, as appears from scaldic rhymes
+and vowel harmony; at the further development into ö in Icelandic,
+boãrn and bioãrn go together. In EN the development into ioã only takes
+place with lost u, a stage which perhaps is expressed in biaurn in the
+runic inscriptions; ioã is developed into io, which appears in the biurn
+of the runic inscriptions and in the biorn of the medieval MSS' (K.M.
+Nielsen 1961:40f.). Since *e was the short counterpart of *ē2 in North
+and West Germanic, we must look into the origin of the latter.
+   As I have pointed out elsewhere (1991, 1994, 2006b), I think that
+original *ē2 developed from disyllabic *ea by monophthongization, first
+
+
+                                    268
+
+=== page 269 ===
+                                   anglo-frisian
+
+
+
+in the Low German area, probably under Romance influence, then in
+Anglo-Frisian and Scandinavian, and eventually in the large majority
+of High German dialects. The primary locus of disyllabic *ea are the
+seventh class strong preterits, where reduplication was replaced by e-
+infixation before the root vowel of the present stem in North and West
+Germanic (cf. Fulk 1987, Kortlandt 1991), e.g. *heait 'called', *hleaup
+'leaped', *feall 'fell', *heald 'held', *speann 'clasped', *geang 'went', *leǣt
+'let', *hreōp 'shouted', *feā~h 'seized'. The monophthongization yielded
+ēo in OE hlēop, fēoll, hēold, spēonn, gēong, hrēop, but ē in hēt, lēt, fēng,
+Northumbrian fēll and ēa, ǣ from *eā in oncnēaw 'knew', gesēaw 'sowed',
+oncnǣw, sǣwe (Campbell 1959:119, fn.l) for WS cnēow, sēow. If we
+take Krupatkin's observation seriously, we can now date the 'Saxon'
+fronting and breaking after the migration to Britain in the 5th century
+but before the monophthongization of *ea to *ē2 and assume that the
+latter development reached the other Anglo-Frisian dialects from the
+Low German area before the 'Anglian' migration in the 6th century.
+It may be useful to distinguish between a-breaking, which created a
+short counterpart to earlier *ea, and u-breaking, which gave rise to a
+short counterpart of original *eu. The first is found in West Saxon and
+Scandinavian while the second affected Anglian and Frisian.
+   Breaking and palatalization were preceded by rounding of *ǣ, *a, *ā~
+in OE, OF mōna 'moon', lond 'land', brōhte 'brought', tōþ, tōth 'tooth', gōs
+'goose', and by loss of a nasal with compensatory lengthening before a
+fricative in the latter words, cf. OHG māno, lant, brāhta, zan(d), gans.
+These had already been preceded by the West Germanic centraliza-
+tion and unrounding of *ō in the endings *-ōn and *-ōns (cf. Kortlandt
+1986:437 and 2006a:5). It appears that the centralization before nasals
+first affected unaccented vowels in final syllables in West Germanic
+and then spread to stressed vowels in Anglo-Frisian, yielding a central
+vowel *ə, *ə̄, where phonetically *ə may have been [ʌ] or [ʌ~]. When
+nasalization was lost in the endings *-ōn, *-ōns in West Germanic,
+these had been delabialized and became OHG -a, -ā, OS -a, subject to
+fronting in OE -e. In stressed syllables, *ə, *ə̄ evidently yielded å, ō in
+Anglo-Frisian, where å denotes the vowel which is written as a or o
+before a nasal, e.g. in OE camb, comb, lamb, lomb, land, lond, lang,
+long, mann, monn, nama, noma, OF lang, long, man, mon, nama, noma.
+West Germanic stressed *e, *o before nasals are reflected as i, u, e.g.
+OE niman 'take', guma 'man', OF nima. These early Anglo-Frisian
+
+
+                                         269
+
+=== page 270 ===
+                             frederik kortlandt
+
+
+
+developments also affected some of the West Germanic dialects which
+were to develop into Old Saxon, which is not a homogeneous linguistic
+entity (cf. Klein 1990).
+  On the basis of these considerations I now arrive at the following
+relative chronology:
+
+WG 0. Centralization of unaccented vowels before nasals in final syll
+ables and subsequent loss of the nasalization in these endings.
+
+AF 1. Centralization of stressed vowels before nasals.
+AF 2. 	Loss of nasalization before f, þ, s, h.
+AF 3. 	 Retraction of *ə̄ to ō.
+AF 4. Monophthongization of *ai to ā.
+AF 5. 	 Retraction of *ǣ to ā before w and before g plus back vowel.
+AF 6. 	 Fronting of *a to æ, which was blocked by a following l, r, h
+        plus consonant and in open syllables by a back vowel in the
+        following syllable.
+AF 7. 	 Palatalization of *k and *g before front vowels, also *g after
+        front vowels.
+AF 8. 	 Analogical restoration of the back vowel in 2sg. *farist, 3sg.
+        *fariþ 'go', 2sg. *slahist, 3sg. *slahiþ 'slay', also OE sc(e)acan
+        'shake', sc(e)afan 'shave' (cf. Campbell 1959:315f., Kortlandt
+        1999:49f.).
+
+WS 9. 	 Breaking of *ǣ to *ǣa and of *ī to *īə before *h and raising
+        of *ea to *ēə, which was simplified to *ē in *hēit, *lēæt, *fēah,
+        *hlēup, *hrēop, *sēau, later hēt, lēt, fēng, hlēop, hrēop, sēow,
+        but not in *fēəll, *hēəld, *spēənn, *gēəng, where *ēə later (at
+        stage E 13) developed into -ēo-.
+WS 10. Development of the West Germanic diphthongs *eu, *iu into
+        *ēu, *īu, later ēo, īo.
+WS 11. Fronting and breaking of *a to short *æa before anteconsonantal
+        l, r, h, u and simplification of *æau to *ǣu.
+WS 12. Breaking of *e to *eə and of *i to *iə before anteconsonantal l,
+        r, h.
+
+AF 9. 	 Monophthongization of *ea to ē, e.g. North. fēll, fēng, also *eā
+        to ēa in cnēaw, sēaw.
+
+
+                                      270
+
+=== page 271 ===
+                               anglo-frisian
+
+
+
+AF 10. 	Raising of *ǣ to ē (this development did not reach Insular
+        North Frisian, cf. Hofmann 1964).
+
+A 11.   Fronting of *a to æ before anteconsonantal r, h, u with break-
+        ing to *eə before r plus non-velar consonant and breaking of
+        *e to *eə and of *i to *iə before r plus non-velar consonant, e.g.
+        North. eorm, WS earm 'arm' (cf. Campbell 1959:117).
+A 12.   Development of the diphthongs *æu, *eu, *iu into *ǣu, *ēu, *īu
+        and monophthongization to ǣ, ē, ī before velar consonants.
+
+K 11. Raising of *æ to e and of *eu to *iu and breaking of *e and *i
+      to *iə before r plus consonant.
+K 12.	Adjustment to developments WS 9-12.
+
+E 13.   Merger of *ǣa, *ēə, *īə with *ǣu, *ēu, *īu into ēa, ēo, īo and
+        development of *æa, *eə, *iə into ea, eo, io.
+E 14.   Palatalization of *k and *g before front vowels.
+E 15.   Palatal diphthongization.
+E 16.   Umlaut (i-mutation).
+
+F 11.   Fronting of *ā to ǣ, which was blocked by a back vowel in the
+        following syllable.
+F 12.   Monophthongization of *au to ā.
+F 13.   Umlaut (i-mutation).
+F 14.   Breaking of *e yielding iu (cf. Boutkan 1998).
+
+In the chronology proposed here, West Saxon separated from Anglo-
+Frisian as a result of the 'Saxon' migration to Britain in the 5th century
+and the break-up of Anglo-Frisian resulted from the 'Anglian' migra-
+tion in the 6th century. The stages AF 1-10 can appropriately be called
+Anglo-Frisian. Kentish sides with Anglian in this chronology.
+
+Postscript. It should be clear from the above that my chronology is an
+improvement on Fulk's, just as Fulk's is an improvement on Stiles's. In
+order to elucidate the differences, it may be useful to compare Stiles's
+chronology (PS 1-9) with Fulk's (RF 1-11) and mine (WG 0, AF 1-10,
+WS 9-12, A 11-12, K 11-12, E 13-16, F 11-14), as will be shown here.
+Note that every development gave rise to at least one isogloss (between
+
+
+                                     271
+
+=== page 272 ===
+                            frederik kortlandt
+
+
+
+groups of speakers who were and who were not affected) and that the
+chronology only holds for the dialects which have actually come down
+to us in the historical record.
+
+PS 1-2 = RF 3 = AF 6 + WS 11 + A 11. In my chronology, ǣ was never
+retracted to ā in West Germanic but provided the asymmetry in the low
+vowels between long front ǣ and short back a which could be resolved
+either by fronting a to æ, as in Anglo-Frisian, or by backing ǣ to ā, as
+in the other languages. If ǣ had been retracted to ā in West Germanic
+already, the Anglo-Frisian fronting would be entirely unmotivated. I
+think that West Saxon ǣ is an archaism and that the early retraction
+of ǣ to ā did not reach Anglo-Frisian. If we want to avoid the assump-
+tion that fronted æ was again retracted to a, it follows that the Anglo-
+Frisian fronting of the short vowel was blocked by a following l, r, h
+plus consonant and in open syllables by a back vowel in the following
+syllable (AF 6). After the 'Saxon' migration to Britain, the fronting of
+a to æ affected the remaining instances of a in closed syllables, and
+also *au with a before tautosyllabic u, in the dialect of the settlers
+(WS 11). This 'Saxon' second fronting was followed by breaking and
+second palatalization, e.g. in eald, cēapian, OFr. ald 'old', kāpia 'buy'.
+After the 'Anglian' migration, these developments spread to the north,
+leaving traces only of the earlier situation (A 11).
+
+PS 3-6 = RF 1-2 = AF 1-3. Breaking and palatalization were preceded
+by rounding of *ǣ, *a, *ā~ in OE, OF mōna 'moon', lond 'land', brōhte
+'brought', tōþ, tōth 'tooth', gōs 'goose', and by loss of a nasal with com-
+pensatory lengthening before a fricative in the latter words. These
+had already been preceded by the West Germanic centralization and
+unrounding of *ō in the endings *-ōn and *-ōns (WG 0). It appears that
+the centralization before nasals first affected unaccented vowels in
+final syllables in West Germanic and then spread to stressed vowels
+in Anglo-Frisian, yielding a central vowel *ə, *ə̄, where phonetically
+*ə may have been [ʌ] or [ʌ~]. When nasalization was lost in the end-
+ings *-ōn, *-ōns in West Germanic, these had been delabialized and
+became OHG -a, -ā, OS -a, subject to fronting in OE -e. These early
+Anglo-Frisian developments also affected some of the West Germanic
+dialects which were to develop into Old Saxon, which is not a homo-
+geneous linguistic entity.
+
+
+                                     272
+
+=== page 273 ===
+                               anglo-frisian
+
+
+
+PS 7 = RF 8 = WS 9-12 + A 11-12 + K 11-12 + F 14. Following Krupat-
+kin's observation that 'every time the initial shifts in the field of the
+long vowels raised similar transformations in the field of the short
+vowels' (1970:63), we may look for structural pressure as a determin
+ant factor. As I have pointed out elsewhere, I think that original *ē2
+developed from disyllabic *ea by monophthongization. If we take
+Krupatkin's observation seriously, we can now date the 'Saxon' front-
+ing and breaking after the migration to Britain in the 5th century but
+before the monophthongization of *ea to *ē2 and assume that the latter
+development reached the other Anglo-Frisian dialects from the Low
+German area before the 'Anglian' migration in the 6th century.
+
+PS 8 = WG 0. I find it difficult to separate this development from the
+same in the other Germanic languages (cf. also Kortlandt 2006a).
+
+PS 9 = RF 4/10 = AF 7 + E 14. The similarities and differences between
+the conditions for palatalization in English and Frisian suggest that
+we have to distinguish between an early Anglo-Frisian development
+and a later Old English innovation. Since we do not find palatalization
+before *ai and *au in Frisian, it is natural to assume that *ai had been
+monophthongized to ā before the Anglo-Frisian fronting of a to æ and
+that *au had remained unchanged. The Anglo-Frisian palatalization
+then affected k and g before front vowels. After the 'Saxon' migration
+to Britain, the fronting of a to æ affected the remaining instances of
+a in closed syllables, and also *au with a before tautosyllabic u, in
+the dialect of the settlers. This 'Saxon' second fronting was followed
+by breaking and second palatalization, e.g. in eald, cēapian, OFr. ald
+'old', kāpia 'buy'.
+
+RF 6 = AF 10. Anglian shared the development of Frisian on the contin
+ent, in particular the raising of ǣ to ē, which had been preceded by the
+Anglo-Frisian retraction of ǣ to ā before w. After the 'Anglian' migration,
+Frisian fronted ā (from *ai) to ǣ unless it was followed by a back vowel
+in the following syllable and monophthongized *au to ā. The distinction
+between ē < *ǣ and ǣ < *ai is still preserved in modern dialects.
+
+RF 9 = E 16 + F 13. After the analogical restoration of back vowels
+(AF 8) had introduced palatal consonants before back vowels and the
+
+
+                                    273
+
+=== page 274 ===
+                           frederik kortlandt
+
+
+
+second fronting (WS 11, A 11) had introduced new velar consonants
+before front vowels which were again palatalized (E 14), the umlaut
+(i-mutation) once again introduced new velar consonants before front
+vowels.
+
+H.F. Nielsen subscribes to Stiles's chronology of the rounding before a
+nasal (PS 3-6 = RF 1-2 = AF 1-3) but not to his early fronting (PS 1-2
+= RF 3 = AF 6) and proposes the following chronology for Old Frisian
+(2001:521):
+
+N 1. 	Monophthongization of *ai to ǣ (AF 4 + F 11) and of *au to ā (F
+      12).
+N 2. 	Fronting of long *ā (< *ē1) to ǣ and of short *a to æ (AF 6).
+N 3. 	Palatalization of *k and *g (AF 7).
+N 4. Umlaut = i-mutation (F 13).
+N 5. Breaking (F 14).
+
+The problem with this chronology is threefold. First, short *æ < *a and
+long *ǣ < *ē1 must be older than * ǣ < *ai because the former palatal-
+ize *k and *g and the latter does not, e.g. tsetel < *katilaz 'kettle' and
+tziake < *kǣkōn 'jaw' versus kēi 'key' (cf. van Haeringen 1920:31f. and
+Campbell 1939:107). It follows that the fronting of *ai (N 1) must be
+more recent than the fronting of *ē1 and *a (N 2) and the palataliza-
+tion of *k and *g (N 3). Second, the fronting of long *ā (< *ē1) to ǣ (N
+2) must be older than the rise of *ā < *au (N 1) because the latter was
+not fronted until the i-mutation (N 4). Third, in the modern dialects
+which preserve the distinction between ē < * ǣ < *ē1 and ǣ < *ai, the
+reflex of *ē1 merges with that of umlauted *ō and *ū and must there-
+fore have been higher than the reflex of *ai, which merges with that
+of umlauted *au (cf. Campbell 1939:101, fn.l). This in fact eliminates
+Nielsen's chronology as a possibility. Indeed, it is precisely the front
+articulation of *ē1 versus the back articulation of *ai which charac-
+teristically distinguishes Anglo-Frisian from German (including Old
+Saxon), the latter displaying back articulation of *ē1 versus front
+articulation of *ai. Since the agreement between English and Frisian
+comprises not only the centralization of stressed vowels before nasals
+with loss of nasalization before fricatives and rounding but also the
+monophthongization of *ai to ā, the limited retraction of *ǣ to ā, the
+
+
+                                   274
+
+=== page 275 ===
+                              anglo-frisian
+
+
+
+fronting of non-breaking *a to æ which was blocked by a back vowel
+in the following syllable, the palatalization of *k and *g by non-broken
+front vowels and the analogical restoration of the back vowel in 2sg.
+*farist, 3sg. *fariþ 'go', 2sg. *slahist, 3sg. *slahiþ 'slay', there can be
+little doubt about a period of common development not shared by
+the German dialects. There is no reason to postulate a whole series
+of back and forth movements in order to unify different varieties of
+fronting, breaking, raising, palatalization and monophthongization in
+the separate languages into sweeping developments which affected all
+possible instances at a stroke. It is much more reasonable to assume a
+gradually widening scope of developments that affected progressively
+more instances under various conditions.
+   According to the explanation put forward here, we must distinguish
+between an earlier, 'Saxon', and a later, 'Anglian' migration. One may
+wonder if there is any historical evidence for this view. H.F. Nielsen
+states that the Saxons lived in present-day Holstein according to
+Ptolemy (2nd century) and 'appear to have been in control of the whole
+region between the Elbe and the Weser from the middle of the third
+century' (1981:265). They reached the Netherlands in the fourth cen-
+tury. The Angles can hardly be separated from the present-day district
+of Angeln in eastern Schleswig. I would suggest that 'Anglian' refers
+to the original Saxons of Angeln, more or less as the French word alle
+mand refers to the original Germans of Alemannia. As Nielsen points
+out (1981:271), Bede does not always observe the distinction between
+Angles and Saxons, and the eventual preference for the term 'Anglian'
+is probably due to its distinctiveness from the continental Saxons. The
+traditional designation for the Germanic invaders in Celtic sources
+is 'Saxons'. This name was evidently established at the first stage of
+the invasion, which can be identified with the period from the time of
+Vortigern (around 450) until the battle of Mount Badon (about 500, cf.
+Jackson 1953:199). There followed almost half a century of peace, the
+'Saxons' having settled in Kent and Sussex. The territory of Essex and
+Middlesex was largely uninhabited at that time. In the north, 'the great
+gateway by which the Angles penetrated into the north Midlands and
+Yorkshire was the estuary of the Humber' (Jackson 1953:207). Though
+in the Yorkshire Wolds and at York itself 'archaeological finds seem
+to indicate a more or less unbroken continuity of occupation between
+the late Roman and pagan Saxon periods' (Jackson 1953:212), there
+
+
+                                   275
+
+=== page 276 ===
+                          frederik kortlandt
+
+
+
+is no historical evidence for a kingdom of Deira before the second half
+of the sixth century. During the latter period Deira must have gained
+considerable strength in view of the spectacular expansion after the
+battle of Catterick about 600 which is described in the Gododdin.
+It seems that the battle of Catterick can be viewed as the northern
+equivalent of the battle of Mount Badon, except for the fact that it
+was won by the other side. Thus, I suggest that the 'Saxon' invasion
+yielded the conquest of Kent and Sussex in the fifth century, whereas
+the 'Anglian' invasion can be connected with the subjugation of the
+north which started around the middle of the sixth century (cf. also
+Alcock 1971:107-121). There is no linguistic evidence for a different
+continental homeland, especially because the shared innovations of
+Anglian and Old Saxon point to geographical contiguity after the early
+migrations. Chronologically, the Kentish invasion can be identified
+with the 'Anglian' invasion. The spread of 'Saxon' features to the north
+can be identified with the West Saxon expansion.
+   It is important to realize that at the time under consideration we
+have to reckon with small numbers of highly mobile people. Milroy &
+Milroy have established that linguistic change is slow to the extent that
+the relevant populations are well established and bound by strong ties,
+whereas it is rapid to the extent that weak ties exist in populations
+(1985:375). They point out that 'societies undergoing social processes
+which entail social and geographical mobility and the dissolution of
+close-knit networks (…) provide the conditions under which innovations
+can be rapidly transmitted along considerable social and geographi-
+cal distances' and that 'in situations of mobility or social instability,
+where the proportion of weak links in a community is consequently
+high, linguistic change is likely to be rapid' (1985:370, 380). These ob-
+servations are fully applicable to the Anglo-Saxon invaders of Britain
+in the 5th and 6th centuries.
+
+
+Cobetstraat 24
+NL-2313 KC Leiden
+
+
+
+
+                                  276
+
+=== page 277 ===
+                               anglo-frisian
+
+
+
+References
+
+Alcock, Leslie. 1971. Arthur's Britain: History and archaeology. New York:
+    St. Martin's Press.
+Boutkan, Dirk. 1998. 'On labial mutation and breaking in Old Frisian'. Ap-
+    proaches to Old Frisian Philology = Amsterdamer Beiträge zur älteren
+    Germanistik 49:77-88.
+Campbell, Alistair. 1939. 'Some Old Frisian sound-changes'. Transactions
+    of the Philological Society 1939, 78-107.
+Campbell, Alistair. 1959. Old English Grammar. Oxford University
+    Press.
+Fulk, Robert D. 1987. 'Reduplicating verbs and their development in north-
+    west Germanic'. Beiträge zur Geschichte der deutschen Sprache und
+    Literatur 109:159-178.
+Fulk, Robert D. 1998. 'The chronology of Anglo-Frisian sound changes'. Ap-
+    proaches to Old Frisian Philology = Amsterdamer Beiträge zur älteren
+    Germanistik 49:139-154.
+Greene, David. 1974. 'The growth of palatalization in Irish'. Transactions of
+    the Philological Society 1973, 127-136.
+Haeringen, C.B. van, 1920. 'Zur friesischen Lautgeschichte'. Beiträge zur
+    Geschichte der deutschen Sprache und Literatur 44:27-53.
+Heuser, Wilhelm. 1903. Altfriesisches Lesebuch. Heidelberg: Carl Winter
+    Universtätsverlag.
+Hogg, Richard M. 1979. 'Old English palatalization'. Transactions of the
+    Philological Society 1979, 89-113.
+Hofmann, Dietrich. 1964. '''Germanisch'' ē2 im Friesischen'. Festschrift für
+    Jost Trier zum 70. Geburtstag. Köln: Böhlau Verlag, 160-185.
+Jackson, Kenneth. 1953. Language and history in early Britain. Edinburgh
+    University Press.
+Klein, Thomas. 1990. 'Die Straubinger Heliand-Fragmente: Altfriesisch oder
+    Altsächsisch?'. Aspects of Old Frisian Philology = Amsterdamer Beiträge
+    zur älteren Germanistik 31-32:197-225.
+Kortlandt, Frederik. 1979. 'The Old Irish absolute and conjunct endings and
+    questions of relative chronology'. Ériu 30:35-53.
+Kortlandt, Frederik. 1986. 'The origin of the Old English dialects'. Linguis-
+    tics across historical and geographical boundaries I. Berlin: Mouton de
+    Gruyter, 437-442.
+Kortlandt, Frederik. 1991. 'The Germanic seventh class of strong verbs'.
+    North-Western European Language Evolution 18:97-100.
+Kortlandt, Frederik. 1994. 'On breaking'. North-Western European Language
+    Evolution 24:15-19.
+Kortlandt, Frederik. 1999. 'The origin of the Old English dialects revisited'.
+    Amsterdamer Beiträge zur älteren Germanistik 51:45-51.
+
+
+                                     277
+
+=== page 278 ===
+                            frederik kortlandt
+
+
+
+Kortlandt, Frederik. 2006a. 'The inflexion of the Germanic n-stems'. North-
+    Western European Language Evolution 48:3-7.
+Kortlandt, Frederik. 2006b. 'Germanic *ē1 and *ē2'. North-Western European
+    Language Evolution 49:51-54.
+Krupatkin, Y.B. 1970. 'From Germanic to English and Frisian'. Us Wurk
+    19/3, 49-71.
+Milroy, James & Milroy, Lesley. 1985. 'Linguistic change, social network and
+    speaker innovation'. Journal of Linguistics 21:339-384.
+Nielsen, Hans F. 1981. Old English and the Continental Germanic languages.
+    Innsbruck: Inst. f. Sprachwiss. d. Univ.
+Nielsen, Hans F. 1984. 'A note on the origin of Old English breaking and back
+    mutation'. Amsterdamer Beiträge zur älteren Germanistik 22:73-81.
+Nielsen, Hans F. 2001. 'Frisian and the grouping of the older Germanic
+    languages'. Handbuch des Friesischen = Handbook of Frisian studies.
+    Tübingen: Max Niemeyer Verlag, 512-523.
+Nielsen, Karl M. 1961. 'Scandinavian breaking'. Acta Philologica Scandi-
+    navica 24:33-45.
+Stiles, Patrick V. 1995. 'Remarks on the ''Anglo-Frisian'' thesis'. Friesische
+    Studien II. Odense: University Press, 177-220.
+
+
+
+
+                                     278

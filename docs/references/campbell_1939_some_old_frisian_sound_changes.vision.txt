@@ -1,0 +1,1451 @@
+A. Campbell, "Some Old Frisian Sound-Changes".
+Transactions of the Philological Society 38.1 (1939), pp. 78-107.
+DOI 10.1111/j.1467-968X.1939.tb00203.x
+
+SOURCE AND METHOD
+-----------------
+The local PDF (untracked under docs/references/ per .gitignore) does carry
+an embedded text layer, but that layer is materially unreliable and was NOT
+used.  It is itself machine-generated from the 1939 letterpress page and it
+destroys precisely the characters that carry the linguistic content: across
+all thirty pages of an article about Old Frisian vowels it yields zero
+instances of ae-ligature, zero macrons and zero thorn, rendering e.g. "ae"
+as "a?", long vowels variously as "8", "5", "B", "Z", "d" and "E", and
+printing the summary chronology of section 12 as "WGerm E > 8 normally, but
+6 before nasals" for "WGerm a-macron > e-macron normally, but o-macron
+before nasals".
+
+The text below was therefore produced with Google Cloud Vision
+DOCUMENT_TEXT_DETECTION over 300 dpi renderings of the PDF pages, one API
+call per page, with language hints en, de, nl, da.  On the section 12
+passage quoted above Vision returns the diacritics correctly.
+
+This supersedes an earlier pdftotext extract of this article, which was
+withdrawn for the reasons just given.
+
+CROSS-VALIDATION
+----------------
+The embedded layer is useless for diacritics but is not random about plain
+letters, so it can still serve as an independent check on the OCR.  Reducing
+both extractions to their letter skeletons (diacritics stripped, ae-ligature
+to "ae", thorn to "th", case folded) and aligning them token by token gives
+90.8% agreement on 12,060 word tokens.  The residue is overwhelmingly the
+embedded layer's own failures on italic cited forms, not Vision's.
+
+Where the two disagree on a cited form, the page image is the arbiter.
+
+PAGE NUMBERING
+--------------
+Markers below use the article's own PRINTED page numbers, not PDF sheet
+numbers.  The offset is constant: printed page N = PDF sheet N - 77.
+It was verified mechanically -- on 29 of the 30 sheets the printed
+folio appears among the first four or last four non-empty OCR lines, i.e.
+in the running head or foot.  (Vision sometimes emits a rule or a hyphen as
+its own line above the running head, so a four-line window is used.)
+The remaining sheet(s) are accounted for individually:
+
+  printed p. 78: no running head/foot recovered; page opens 'SOME OLD FRISIAN SOUND-CHANGES'
+
+OCR CAVEAT
+----------
+Vision recovers ae-ligature, macrons, ogonek and thorn reliably in running
+text.  It is less reliable on (a) the superscript footnote digits, (b) the
+italic cited forms in the Part I comparative tables, and (c) section signs,
+which are sometimes read as "$" or "3".  Any form quoted from the tables on
+pp. 79-82 should be checked against the page image before it is relied on.
+Campbell's own long/short marks on cited Old Frisian forms are printed
+lightly and are the most likely residual OCR loss.
+
+======================================================================
+
+=== page 78 ===
+SOME OLD FRISIAN SOUND-CHANGES
+By A. CAMPBELL
+ALTHOUGH I shall deal almost as much with Old English as
+Old Frisian, I have entitled my paper 1 'Some Old Frisian
+Sound-changes', because I shall have little to say that is
+new about Old English. Since Siebs and others wrote what
+are still the authoritative works on Old Frisian phonology,
+knowledge of Old English has greatly advanced, and my
+purpose is to see if this enables new light to be thrown on
+Old Frisian. My paper falls into two parts. In the first,
+I attempt to decide whether the results of certain early
+Germanic developments, which were not uniform in all the
+prehistoric West Germanic dialects, and which accordingly
+occasioned diversity in the forms of the same word found in
+the historic West Germanic tongues, are so similar in Old
+English and Old Frisian that a very early Anglo-Frisian
+linguistic unity can be assumed. In the second, I attempt to
+discover whether the nature and the chronology of the
+principal early Frisian sound-changes can be illuminated by
+the undoubted tendency of Old English and Old Frisian to
+develop their phonological systems on similar lines. I confine
+my observations to the vowels of accented syllables. The
+points in Old English and Old Frisian phonology which
+I propose to discuss in the first part of my paper are :—
+(1) the distribution of e, i, o, u; (2) the influence of Germ³
+1 This paper was read to the Society at University College, London, on
+February 2, 1939,
+2 Some work in this direction has already been done by C. B. van
+Haeringen in an admirable article Zur friesischen Lautgeschichte,' (Paul
+und Braunes Beiträge xliv. 27 ff.), and by G. Gosses in De Friesche oorkonden
+uit het archief van het St. Anthony-gasthuis te Leeuwarden I (Bolsward 1928),
+a most valuable work which has, unfortunately, not proceeded further
+than the short vowels.
+3 The following abbreviations are used for languages throughout :
+EFris East Frisian; Germ: Germanic; IE: Indo-European; Kt:
+Kentish; LG: Low German; ME: Middle English; Merc: Mercian;
+
+=== page 79 ===
+A. CAMPBELL SOME OLD FRISIAN SOUND-CHANGES
+79
+2 on preceding vowels; (3) the development of Germ ū
+in monosyllables; (4) the development of IE eu; (5) the treat-
+ment of WGerm a before nasal consonants; (6) the fronting
+of WGerm ǎ; the development of Germ ai and au.
+I
+§ 1. In the distribution of e/i and o/u in accented syllables
+it is well known that OSax, OE, and OFris agree in several
+respects against OHG, but the manner in which the sounds
+in question interchange in the various languages does not
+indicate that OE and OFris agree more closely than OE
+and OSax or OSax and OFris. The following are the relevant
+points:
+(1) In a number of words, where forms with both o and
+u are found in WGerm, OHG has a decided preference for
+o, and OE for u, while OSax and OFris vary. The following
+table, while not aiming at completeness, gives a repre-
+sentative selection of such words:
+OHG
+(1) wolf
+OSax
+wolf, wulf
+(2) foll
+fol, ful
+OFris
+wolf, *wulf
+fol, ful
+1
+OE
+wulf
+full
+(3) turi
+doru, duru
+(4) fogal, fugal
+fogal, fugal
+dora, dura
+fugel
+duru
+fugel
+(5) kus
+kos, kus
+kos
+COSS
+(6) durst
+thurst
+*thorst,
+purst
+*thurst 2
+(7) spornan,
+3
+spurnan
+spurna
+spornan,
+spurnan
+spurnan
+(8) obana
+obana
+4
+oua
+ufan
+MKt: Middle Kentish; ModFris: Modern Frisian; ModWFris: Modern
+West Frisian; NFris: North Frisian; OE: Old English; OEFris: Old
+East Frisian; OFris: Old Frisian; OHG: Old High German; OKt:
+Old Kentish; ONFris: Old North Frisian; OSax: Old Saxon; OScand:
+Old Scandinavian; OWFris: Old West Frisian; preGerm: pre-Germanic ;
+PrGerm Primitive Germanic; WFris: West Frisian; WGerm: West
+Germanic; WSax: West Saxon.
+Note also the following abbreviations for works frequently cited :—
+Sweet H. Sweet, Oldest English Texts (Early English Text Society,
+Original Series 83).
+:
+Siebs: Th. Siebs, Geschichte der friesischen Sprache, Pauls Grundriss² I.
+Luick K. Luick, Historische Grammatik der englischen Sprache.
+For footnotes 1-4 see p. 80.
+
+=== page 80 ===
+80
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+It will be seen that OE and OFris do not once agree on
+a form which is not found in OSax also. In 1, 2 and 3 OSax
+and OFris have doublets, OE single forms. In 4 and 5 OE
+and OFris agree on the same single forms, while OSax has
+doublets, but in 6 OE and OSax have the same single form
+against an OFris doublet, in 7 OSax and OFris have the same
+single form against an OE doublet, and in 8, where no
+language has a doublet, OSax and OFris agree against OE.¹
+(2) A decided difference between OFris and OE is that in
+the former the interchange of o and u dealt with under (1)
+also occurs before an intervocalic nasal consonant, but in
+the latter only u is found in such circumstances. In this
+OFris agrees with the other continental WGerm languages,
+though OHG has again a strong preference for o. Examples
+are :-
+OHG
+koman, kuman
+froma, fruma
+gomo
+sunu
+donar
+honag
+wonen
+OSax
+kuman
+froma, fruma
+OFris
+koma, kuma
+froma
+OE
+cuman
+fruma
+gomo, gumo
+goma, *guma ª
+guma
+sunu
+son(e), sunu
+sunu
+not found
+*thoner,
+punor
+*thuner 3
+hunig
+hunig
+wonon, wunon
+sumar
+wonia, unia
+wunian
+sumur, somer
+boneg, huneg
+sumar
+sumor
+Thus in most words OFris has both o- and u-forms, but,
+in the words where OFris, like OE, has u-forms only, such
+forms are also to be found in WGerm outside OFris and OE.
+1 Recorded only as woluen (acc. pl.) in OFris, but Bogerman has vlff
+twice, and the u-form is developed in many dialects (see Siebs 1202).
+2 Saterland torst, WFris toarst, Wangeroog purst, etc. Cf. OFris toerstigh
+(MS Roorda).
+3 Recorded by van Helten, Zur Lexicologie des Altostfriesischen 311;
+it occurs in MS F (see Siebs 1312).
+4 MS R¹: fon oua to uta.
+1 OFris often has u in the past part. of the third class of strong verbs
+(e.g. sturven, kurven, wurpen), while OE and OSax have o, but this is due
+to the influence of the pret. pl.
+2 Although not recorded in OFris, the u-form is well represented in the
+modern dialects (see Siebs 1202). Imel Agena (1632) has both -gum and
+-gom (Paul und Braunes Beiträge 1. 69 f.).
+³ Cf. Middle and ModFris forms quoted by Siebs 1202-3 and OFris
+thunresdei beside thonresdeis.
+
+=== page 81 ===
+A. CAMPBELL- -SOME OLD FRISIAN SOUND-CHANGES
+81
+(3) OE appears to exhibit a change of e to i before m
+similar to that of o to u before m and n dealt with under (2).
+The only certain example is OE niman. OSax has neman
+and niman, and OFris nema and nima, so here again no
+specially close relationship of OE and OFris appears. The
+significance of the distribution of the two forms is, of course,
+the same, whether the i-form be regarded as due to phonetic
+change or analogy.¹
+(4) The results of a Germ change of i to e before an open
+back vowel of the following syllable can be frequently seen
+in OHG (e.g. spec, wehsal beside wihsal, leckon, herot, zwehon,
+quec, skef beside skif, lebara beside libera, etc.), but in OE,
+instances are very rare apart from the universal Germ nest and
+wer: spec occurs beside spic. 2 OSax has more instances than
+OE e.g. spek, wehsal, lekkon beside likkon, herod, twehon, quec
+beside quic. OFris resembles OSax rather than OE, for quite
+a considerable number of e-forms exist, although i-forms are
+generally found beside them. Examples are 3 :-
+OHG
+OSax
+OFris
+OE
+lid
+lid
+leth, lith
+lip
+quec
+quec, quic
+quec, 4 quic
+cwic
+biben
+gafridon
+lebet, libit
+bibon
+bevia, *bivia 5
+bifian
+fridon
+frethia, frithia
+fripian
+lebot, libod
+levath, livath
+lifap
+(3rd sg.)
+1 See Luick 103 and Siebs 1155.
+² Kluge, Urgermanisch³ 121, incorrectly places OE pere here : see,
+however, Luick 193.
+³ OFris past participles of the first class of strong verbs like gleden,
+dreven may be due to the influence of the pret. sg. or of Dutch and Low
+German forms. I have not included the forms for 'silver' in this list, as
+their relationship is extremely obscure: the OScand forms and OHG silabar
+point to a PrGerm form with i, OSax silutar may have original i or e > i
+(owing to change 5 below), while, in OE, the early WSax evidence points
+to i, but the Northumbrian to e. OFris had both e and i forms (see Siebs
+1196). It is difficult to decide the precise connexion of these forms, and the
+possibility of preGerm variant forms cannot be ruled out in view of the
+obscure history of the word.
+* The adj. is recorded with i only, the noun (' cattle ') with i and e.
+5 Cf. irthbiuinge (MS R¹).
+PHILO. TRANS. 1939.
+G
+
+=== page 82 ===
+82
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+1
+(5) OHG and OSax often show a change e > i before u
+of the following syllable: OHG filu, fihu, mitu, beside fehu,
+metu; OSax fihu beside fehu, filu. There are many exceptions
+in both languages. The change cannot be exemplified in
+OE or OFris, and these languages probably represent a form
+of WGerm in which it did not occur. Little can be built on
+this agreement of OE and OFris. In OHG and OSax, the
+change is sporadic and certainly rather late, for it occurs
+before uō, as well as original u, and, accordingly, its
+absence in OE and OFris does not imply that there was
+contact between the latter languages at the time of its
+occurrence.
+2
+4
+§ 2. In OE, Germ z caused a preceding i of the same.
+syllable to become e, if there was no 7 in the following syllable.
+It is difficult to decide if this occurred in OFris also. Forms
+corresponding to OE meord, heord, reord³ do not occur in
+OFris. OE leornian corresponds to OFris lernia and lirnia,
+but OHG has the same variation (lernen, lirnen), which can
+be explained as due to inconsistency in the type of the forma-
+tive suffix. The OE pronouns me and be (OHG mir, dir)
+correspond to mi, thi in OFris, but modern dialects show that
+forms with e also existed. The latter may, however, have been
+unaccented forms: Germ unaccented ĭ of final syllables,
+when preserved, usually appears as e in OFris. The same
+explanation would apply to OFris he (beside hi, OE he) and
+*we (beside wi, OE we), while i, y, etc. (<*ji, OE ge) cannot
+be shown to have had a form with e in OFris. The change
+of i to e before z cannot, therefore, be shown to have been
+Frisian. It may also be noted that the pronominal forms
+me, the, we and he occur beside the i-forms in OSax also,
+and accordingly are not a peculiarity exclusively OE and
+OFris.
+¹ OE sidu, OFris side appears to have common Germ i: OScand siðr,
+OHG situ, OSax sidu.
+* E.g. in the 1st pers. sg. pres. ind.
+* Reord is not, in any case, an example of this sound change: see Mod.
+Lang. Review xxviii. 231.
+4 See Siebs 1351.
+1 See Siebs 1238.
+
+=== page 83 ===
+A. CAMPBELL SOME OLD FRISIAN SOUND-CHANGES
+83
+§ 3. A change of u to o before z, corresponding to that
+of i to e dealt with in the last section, appears in the OE
+prefixes tor- and or- (OHG zur-, ur-). The former prefix does
+not occur in OFris, but the latter occurs as both ur- and or-.1
+Whatever may be the reason for this variation, it is also found
+in OSax, so the existence of the form or- does not connect
+OFris more closely with OE than with OSax. No prefix
+corresponding to OE tor- occurs in OSax.
+§ 4. A change of accented final ō to ū is exemplified by
+OE tu, bu, cu, hu. There are no OFris forms corresponding
+to OE tu and bu. OE cu, however, corresponds to OFris
+ku, but OSax has k(u)o. This is an undoubted case of agree-
+ment between OE and OFris. It is, however, by no means
+certain that the final ū of the OE and OFris form is due to
+a sound-change occurring in those languages: it may be
+the result of a variation already existing in IE.³ OE hu
+corresponds to OEFris hu, but OWFris has, beside hu, generally
+ho. The latter form occurs in U,4 and is the exclusive form in
+Dr. It can hardly be regarded as a later development of
+hu, for Dr preserves final ū (cf. ku, nu), but it is rather from
+*hwo. This suggests that OFris had a double development
+*hwo, hu, and this connects OFris with OSax, which has huo
+and hu, rather than with OE. Accordingly, the changes dis-
+cussed in this and the two preceding sections seem not to
+have occurred in OFris, or, if they did, to have done so in a
+more limited way than in OE, and this limited operation
+might also be assumed for OSax. Therefore no close relation-
+ship of OE and OFris can be established from them.
+§ 5. IE eu seems to have three developments in WGerm,
+distributed as follows: eo was its normal development;
+iu appeared before i/j of the following syllable; eu remained
+1 E.g. urdel, ordel.
+2 See J. H. Gallée, Altsächsische Grammatikª 59.
+* See Indogermanische Forschungen xix. 393 ff.
+4 See W. Steller, Das altwestfriesische Schulzenrecht 100; H. S. E. Bos-van
+der Heide, Het Rudolfsboek 151.
+5 So Siebs 1224.
+
+=== page 84 ===
+84
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+before ŭ of the following syllable, or if it was immediately
+followed by w, and no i/j stood in the next syllable. This
+position is still clearly seen in OSax, though it is much dis-
+turbed by levelling: eu and iu remain, but eo appears as
+eo or io. Hence we have (1) with original eu: hreuwan,
+treuwa, giheu (pret. sg.); (2) with original iu: hriuwi, liudi,
+biudid; (3) with original eo: breost, beodan, leof beside briost,
+biodan, liof. OSax seems to extend the change of e to i before
+u of the following syllable, which was discussed above, to the
+first element of eu: hence 1st pers. sg. biudu but infin. biodan
+or beodan.
+In OFris the development of the three WGerm diphthongs
+derived from IE eu is as follows. The rounding of the second
+element of eo is lost, but that of the second element of iu is
+preserved. The first element of eo is, however, raised to i, so
+falling together with that fiu. Hence we have biada, diap,
+diar but biuth (3rd pers. sg.), diupa, diure, etc. In the diph-
+thong eu, the rounding of the second element was preserved,
+while the first was probably raised to i. Unfortunately the
+material is very limited: OSax treuwa, however, corresponds
+to OFris triuwe, which appears as treuwa (acc. sing.) in the
+oldest of the extant OFris manuscripts.¹
+2
+In OE the development is quite different. iu remains in
+very early texts, but soon developed to io. This to becomes eo
+in Mercian, but becomes e//ỹ in WSax, owing to the influence
+of the following i/j, which originally occasioned the existence
+of the iu from which it arose. In Northumbrian, io remained
+in the OE period. WGerm eo and eu are not generally dis-
+tinguished in OE: both appear in the earliest texts as eu,³
+3
+¹ R¹: treuwa and trewa occur once each (Richthofen 133/11 and 134/18;
+these readings are confirmed by De Haan Hettema's edition, Oude Friesche
+Wetten I. 97–8). Later manuscripts bave spellings with iu and also with o
+and ou: triuwe, triwe, trouwe, trowe. With the o/ou-spellings, which indicate
+a shift of stress in the diphthong to the second element cf. *brouwa (3rd
+pers. sing. pres. ind. brout), and riouwa. According to Jacobs, Vormleer
+van het Oudfriesch werkwoord 70, the latter verb occurs also in the older
+form riuwa, but no references are given.
+2 E.g. piustra, gepiudde in Corpus Glossary (see Sweet 41 and 39).
+3 E.g. steupfaedaer, treulesnis in Epinal Glossary (Sweet 106 and 82).
+
+=== page 85 ===
+-
+A. CAMPBELL SOME OLD FRISIAN SOUND-CHANGES
+85
+and slightly later both became eo. It seems, therefore, evident
+that WGerm eu and eo first fell together in eu, and that this
+eu then became eo. Hence OE hreowan, breowan, treow,
+heow (with WGerm eu) and deor, breost, leof (with WGerm eo)
+have the same diphthong, éo.
+In northern Northumbrian, however, the distinction of
+WGerm eu and eo is well preserved. eu remains, or appears
+as eo, while eo, as in Frisian, unrounds its second element,
+and appears as ea. As noted above, WGerm iu becomes to.
+Accordingly, there is a clear distinction of (1) leaf, deaf,
+dear (with WGerm eo); (2) leofust, hreowniss, treowfæst
+(with WGerm eu); (3) diore, lioda (with WGerm iu).¹ This
+Northumbrian development strikingly resembles that of
+OFris.
+From what has so far been shown, it is evident that the
+usual OE and OFris developments of the WGerm products
+of IE eu are entirely different. OE abandons, while OFris
+accentuates, the distinction of the second elements of WGerm
+eo and iu (OE ēo, io; OFris ia, iu). OE confuses WGerm eu
+and eo (OE eo representing both), but OFris confuses WGerm
+eu and iu (OFris iu representing both). This OFris confusion
+may, if we are able to lay any weight on the form treuwa,
+be late early OFris may have had ea (<eo), eu (<eu),
+iu (<iu), a development which would resemble that of a
+part of the Northumbrian dialect of OE. In any event, the
+Northumbrian distinction of the second elements of WGerm
+eo and eu/iu as a and o respectively is an undoubted parallel
+with the OFris distinction of them as a and u. The parallel is,
+however, interesting rather than significant: no close con-
+nexion of OFris and Northumbrian can be inferred from it.
+A similarity is sometimes claimed for the OFris and OKt
+developments of IE eu, but they are, in fact, radically dis-
+similar. It is true that Kt often has ia for WGerm eo, but
+the stages and the results of the Kt developments of the
+1 Naturally, the purely phonetic development is often disturbed by
+analogy.
+
+=== page 86 ===
+86 TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+three WGerm products of IE eu are different from the Frisian.
+In OKt, as was normal in OE, WGerm eo and iu appear with
+the same second element (i.e. o), while in Frisian their second
+elements are distinguished. The first element of eo was raised
+to i, and hence both eo and iu appear as io, and, later, the
+second element of this io was unrounded to a, irrespective of
+whether it was derived from original eo or iu: e.g. bebiade
+(with WGerm eo), ahriasð (with WGerm iu). MKt forms also
+fail entirely to make any distinction between the two sounds,
+which both appear as ye: e.g. dyep, dyere (OFris diap, diure).
+WGerm eu fell together with WGerm eo in Kt, as was generally
+the case in OE: e.g. getrioulice (Kt Glosses 326). Thus Kt
+abandons all distinction of the three WGerm products of
+IE eu, while OFris certainly keeps original eo and iu distinct,
+and may have kept eu distinct till a late date, as was noted
+above.
+§ 6. So far no points of similarity between OE and OFris
+have been found, except that they appear to lack the tendency
+of OHG and OSax to raise e to i before a following u, that
+they agree in having a ū of doubtful origin in the word for
+cow', and that OFris and a part of the Northumbrian dialect
+of OE distinguish the second elements of WGerm eo and
+iu/eu by unrounding that of the former, and preserving the
+rounding of that of the latter. This is not sufficient to enable
+us to postulate a period in which a form of speech existed
+which was a defined unity within WGerm and from which
+OE and OFris were both derived.
+§ 7. We first come upon a universal and far-reaching
+agreement of OE and OFris when we consider their treatment
+of WGerm a before nasal consonants. Both languages have
+ō for WGerm ā: e.g. OE mona, spon, comon, nomon; OFris
+mona, *spon, komon, nomen. This development is shared
+by WGerm ą (a long nasalized sound, due to the loss of the
+nasal consonant and lengthening of the vowel in the com-
+bination anx) and by 'Ingvaeonic' ā (a similar sound due
+to loss of m, n and lengthening of the vowel in the combina-
+tions amf, anp, ans): e.g. OE broht, poht; soft, top, gos; OFris
+
+=== page 87 ===
+A. CAMPBELL-
+-
+-SOME OLD FRISIAN SOUND-CHANGES
+87
+brocht, thocht; toth, *gos.¹ This ō falls together with ō <
+Germ ō in both languages, though in OE, at least, it did not
+do so immediately. It is, however, clear that OE and OFris
+developed a before nasals and ā to a sound which was dis-
+tinguished from the ā soon to be developed from various
+diphthongs in the two languages and which at an early date
+became identical with ō < Germ ō, and which had practically
+the same mutation as the latter sound.³
+6
+§ 8. In their treatment of Germ a before nasals the
+languages do not resemble each other so closely. OE writes
+in words like mon, long, hond sometimes o and sometimes a :
+the earliest texts have the two symbols side by side. When
+this sound undergoes compensatory lengthening it appears
+as ō,5 but it was, nevertheless, not identified with the product
+of Germ o in OE. The mutations of the two sounds were not
+the same, and before the end of the OE period the sound
+developed from Germ a appears to have lost all traces of
+rounding, except in a limited area in the West. Its product
+before lengthening consonant groups was OE ā, which
+developed to ME §, like OE ā < Germ ai: cf. ME lõnd
+(with Germ a) and gold (with Germ o). When lengthened in
+open syllables it became ME ā, like OE a (cf. ME nāme and
+māken), while OE o became ME ĕ (e.g. ME hōpen, nōse).
+On the other hand, in OEFris and ONFris, Germ a acquired
+a definite degree of rounding before nasal consonants. It is
+written o in the OEFris manuscripts, and in the modern
+East and North Frisian dialects it has the same products as
+Germ o, both when it remains short and when it is lengthened
+before consonant groups and in open syllables. Hence in the
+dialect of the Saterland mon, lound and nôme (with Germ a)
+1 Sporadic cases of ð for‘Ingvaeonic' ḍ occur in OSax: see Gallée, op.
+cit. 43-4.
+* See Luick 124. In OE the identification of the two sounds was later
+than mutation: ibid. 170.
+3 See below, II, § 5 and footnote to II, §7.
+* See A. H. Smith, Three Northumbrian Poems 28.
+5 E.g. ōnettan.
+* See Luick 171 and 169.
+* See Luick 357.
+
+=== page 88 ===
+88
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+have the same sounds as respectively foks, gôªld and nôze
+(with Germ o). Nevertheless, the mutation of the sound,
+when lengthened, is different from that of Germ 5,2 and
+hence it may be concluded that, as in OE, the products of
+Germ a before a nasal and of Germ o were distinct at the time
+of mutation. Subsequently, East and North Frisian identified
+the two sounds, but English restored their complete Germ
+distinction. WFris has a development midway between those
+of North-East Frisian and English. There the sound developed
+from WGerm a before nasals was, at the time of mutation,
+distinguished from the product of Germ o, just as in OE and
+in OEFris and ONFris. Subsequently it became a again,
+and this is the normal spelling in OWFris manuscripts, but
+the restoration of a was later than in OE, in relation to the
+time of the lengthenings before groups and in open syllables.
+In OWFris the sound was still to some degree rounded when
+lengthened, and hence in open syllables it developed to the
+same sound as Germ o in the same circumstances (cf.
+ModWFris hoanne and noas). Before lengthening groups, it
+has not the same product as Germ o, but it nevertheless
+remains a rounded sound: e.g. ModWFris hân, lân; cf.
+OWFris spellings hond, lond, wondelia.³
+From what has been said in this and the preceding section
+1 The NFris dialects exhibit similar developments, though they are
+often obscured by later combinative changes, which arose in the various
+dialects. E.g. in the dialect of Föhr lun ('land') has the same vowel as
+gul (‘gold'), and nõm (‘name') has the same vowel as hōbi (‘hope')
+but, though lõm (‘lame') and god (‘god') had, no doubt, at an earlier,
+period, the same vowel, it was lengthened later before nasals. Cf. Zeitschrift
+für deutsche Philologie xxxix. 17.
+The EFris dialect of Wangeroog resembles that of the Saterland in that
+it identifies the products of Germ a + nasal and Germ o, both when these
+sounds remain short and when they are lengthened in open syllables.
+Hence mon (* man ³) has the same vowel as holt (‘ wood ') and numɔ (‘ name ')
+as kukət (‘cooked', OFris *ekokad). Owing to later changes, however,
+the products of Germ a + nasal and Germ o are generally different before
+lengthening groups: e.g. láun (*' land') and goul ('gold'). Cf. the divergent
+developments of Germ ō according to the following consonant in e.g. báuk
+('book') and goud ('good').
+2. See below, II, §§ 7 and 10.
+* See Siebs 1181.
+
+=== page 89 ===
+A. CAMPBELL-SOME OLD FRISIAN SOUND-CHANGES
+89
+it is evident that OE and OFris developed a before nasals to
+slightly rounded sounds. At the time of mutation, these
+were distinguished from the products of Germ ỗ in OE, and
+the same may be assumed for OFris, though there evidence is
+lacking in the case of the long sound. Subsequently, the two
+languages identified the long sound with the product of
+Germ ō, but English and WFris did not identify the short
+sound with the product of Germ o, though EFris and NFris
+did so. WFris, however, resembles the other branches of
+Frisian rather than OE in that the short sound, when
+lengthened, preserved its rounding. The differences in the
+treatment of Germ ā before a nasal which appear in English
+and Frisian are, accordingly, later than the time when
+mutation took place. There is, accordingly, no objection to
+assuming that the early slight rounding of a before a nasal
+took place simultaneously and to a similar degree in OE and
+OFris.
+§ 9. We now approach the most celebrated point of
+similarity between OE and OFris, the fronting of WGerm ǎ.
+In OE, WGerm ā appears as ē in most dialects, but as ā
+in WSax. In OFris, it appears as ē. The ē of the nonWSax
+OE dialects is known to have developed very early, 1 so
+that, if the first result of the fronting of a was æ, as in WSax,
+the raising of that sound to ē must have followed almost
+immediately. It will appear below 2 that the stage ē must
+have been reached very early in Frisian also, so the develop-
+ment of WGerm ā may be said to be the same in the two
+languages, except in the WSax dialect of OE.
+In OE, Germ a appears as æ. Some dialects have e, but
+this is the result of a later development.³ OFris similarly
+has e, and it will be shown below 4 that this also is a later
+development, and that the fronting first produced æ.
+The problem now to be faced is was the fronting of a a
+1 See Luick 144 and 155.
+2 See II, § 2 and footnote.
+3 See II, § 1.
+4 See II, § 1.
+
+=== page 90 ===
+90
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+development which arose in a period of Anglo-Frisian unity,
+or did it arise separately in OE and OFris? This problem
+can be solved only in the light of the history of the Germ
+diphthongs ai and au in OE and OFris.1
+Germ ai is monophthongized in OE to ā and in OFris
+to ē.² The OE development may be due to loss of the second
+element with compensatory lengthening of the first, or to
+assimilation of the second element to the first and subsequent
+contraction with it into a long vowel. The final stage of this
+process must have been reached after the fronting of WGerm
+ã, or the new ā (< ai) would have been fronted also. On the
+other hand, the monophthongization must have been com-
+pleted before the fronting of Germ a, or the first element of
+the diphthong would have been fronted, and a diphthong
+with æ as its first element could hardly have been monoph-
+thongized to a.³ In Frisian, on the other hand, the
+monophthongization of Germ ai to ē may well have been
+over an intermediate stage æi, which was occasioned by the
+fronting of Germ a to æ. It can be regarded as certain that
+ai did not become ā as in OE, and subsequently share in the
+fronting of WGerm ā, for the ē < ā and the ē < ai were not
+identical in OFris and are still distinguished clearly in many
+living dialects.4
+Since the monophthongization of Germ ai proceeded on
+such different lines in the two languages, it is evident that
+it must have taken place after the dissolution of the Anglo-
+Frisian unity, if such a unity ever existed. Also, since the
+1 In the discussion of the problem which follows, I am much influenced
+by the views of Professor J. R. R. Tolkien, as expressed in his lectures.
+The solution which I advance rests on the assumption that à was fronted
+earlier than a. Cf. C. B. van Haeringen, Paul und Braunes Beiträge xliv. 40 :
+Die palatalisierung des langen à aber ist consequenter und wohl auch
+frühzeitiger durchgeführt worden als diejenige des kurzen a.”
+² The less frequent OFris development to a will be discussed below :
+see II, § 2.
+3 Luick 133 attempts to explain such a development. The explanation
+is so complicated and forced that it serves only to increase the conviction
+that it did not take place.
+• See below, II, § 7.
+
+=== page 91 ===
+A. CAMPBELL SOME OLD FRISIAN SOUND-CHANGES
+91
+fronting of Germ a took place later than the monophthongiza-
+tion in OE, it must have taken place independently in the
+two languages.
+Germ au was clearly not monophthongized in a period of
+Anglo-Frisian unity, for it remains a diphthong in OE. In
+OE, its first element became æ, no doubt when Germ a > æ,
+and later developments show that this remained throughout
+the OE period, while its second element was generally
+unrounded to a. It is generally written ea, but early texts
+often write the first element fully as ae or æ.1 The second
+element appears as o in early texts, but is later unrounded
+to a, except in a part of southern Northumbria, where the
+o remained.
+OFris developed Germ au to ā. Probably the second
+element was developed to a, as in OE, but at an earlier date,
+before the fronting of Germ a could affect the first element.
+Then the resulting aa was contracted to ā. From this it is
+again evident that, if English and Frisian were ever a unity,
+that unity was dissolved before the fronting of Germ a.
+It may at this point be noted that OFris cannot have
+unrounded the second element of WGerm eo (< IE eu)
+at the same time as that of Germ au. The unrounding in the
+case of au must have preceded the change of a to æ, and so
+have allowed the development of ā, before the first element of
+the diphthong could be fronted. But, if the second element
+of eo had been unrounded at the same time, it would have
+undergone the change a > æ, for that change affects
+unaccented as well as accented vowels, and the diphthong
+could not have appeared as ia in historical OFris. Hence,
+the unrounding of the second element of WGerm eo must
+have been later than that of the second element of Germ au.
+Similarly, in OE, while the second element of eo (< WGerm
+eo and eu) is not unrounded, except in a limited Northumbrian
+area, that of æo (< Germ au) is unrounded at an early date,
+except in another area of Northumbria.
+1 E.g. aeodbaldum (Bede: Sweet 134); aeanberhti (Kentish Charter:
+Sweet 428).
+
+=== page 92 ===
+92
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+§ 10. The foregoing study of the early history of the vowel
+systems of OE and OFris has revealed no evidence that the
+two languages ever formed a closely knit unity. It has rather
+suggested that in the earliest times they had no closer contact
+with each other than with OSax, but that, since, at a some-
+what later date, they develop WGerm ā in all circumstances
+and Germ a before nasal consonants in a similar manner,
+there may have been a period in which they formed a loose
+unity. A compact unity is not to be assumed, for the
+previously developed differences of the two languages (e.g.
+the differences in the distribution of i/e and u/o) were not
+levelled away. Subsequently to this period, however, the
+two languages frequently exhibit similar phonological develop-
+ments. Among the first of these is the change of a to æ. This
+change has been shown to have taken place in a period when
+the languages were developing some of their commonest
+sounds so differently, that they cannot any longer be described
+as forming a unity in any sense. This and other points of
+agreement between the two languages may have been due to
+a similarity of articulation developed during the period of
+close contact spoken of as a possibility above.¹ It is, therefore,
+worth while in reconsidering the principal early sound-changes
+of OFris, to see if there are similar ones in OE, which might
+throw light upon them.
+II
+§ 1. It was stated above (I, § 9) that WGerm ā became ē at a
+very early date in most dialects of OE and it was suggested
+that this was also the case in OFris, although the proof was
+reserved for a later section. The fronting of Germ a appears
+1 It is, in fact, by no means improbable that the Saxons, who conquered
+England, had previously been for a time in close contact with the Frisians,
+but had not any ancient relationship with them. See the admirable
+presentation of this view by C. Borchling in De iepening fen de Fryske
+Akademy (Assen 1938), 56 ff.
+
+=== page 93 ===
+A. CAMPBELL-SOME OLD FRISIAN SOUND-CHANGES
+93
+as æ in most dialects of OE, but as e in OFris.1 The question
+now arises is this OFris e a later development of æ, or was
+the Frisian development of e< a an early change, con-
+temporary with that of ē < ā ?
+Certain OE dialects (Kt and a form of Merc) have, like
+Frisian, e as the normal development of Germ a. Satisfactory
+proofs can be advanced that this e is a later development
+of æ the chief one is that in these dialects, as elsewhere in
+OE, the front sound developed from Germ a was frequently
+changed to a when a back vowel followed in the next syllable
+and before certain consonant groups, while before certain
+other consonant groups it developed to æa (written ea).²
+These sounds (a and æa) would develop more easily from æ
+than from e. As a matter of fact, the change of a to e is fairly
+late in Kt, and can be observed creeping in in the extant
+documents: æ (< Germ a) and e (< Germ e) are perfectly
+distinguished in the eighth-century charters and the early
+ninth-century will of Æthelnoth of Eastry.³ The confusion
+of the two symbols is not found till the second decade of the
+ninth century, so the confusion of the sounds cannot reason-
+ably be dated back to the prehistoric period of the language.
+In Merc (a term which is applied for the sake of convenience
+to the dialect of the Vespasian Psalter), the change of a to
+e was certainly much earlier than in Kt, for it affects only
+æ < Germ a, whereas in Kt it also affects æ, the mutations
+of ǎ.5 In any event, this Kt and Merc e (< æ) was not fully
+4
+1 See C. B. van Haeringen in Paul und Braunes Beiträge xliv. 27 ff. for
+proof that the fronting takes place in OFris in open as well as closed
+syllables, and for a final demolition of the view that fronting is later than
+i/j-mutation.
+2 E.g. Kt dagas; Kt and Mere half, heard. In the case of the a restored
+before a back vowel (dagas) Merc has a further development, which obscures
+the change: see below, II, § 4.
+3 Sweet 442.
+4 The earliest ovidence for it is the form et beside æt in a charter (Sweet
+442) which refers to a transaction which took place in 811: there is no
+reason to believe that the extant manuscript is much later than that year.
+5 Hence we may conclude that this raising of æ preceded mutation in
+Merc, where forms like mæltan, ældu, cwælman (with i-mutation of a)
+
+=== page 94 ===
+94
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+identical with e< Germe: there are slight indications of
+this in OE, and in ME it becomes evident, for the sounds
+are ultimately distinguished again (as a and e) in both
+dialects. In Frisian, however, the e developed from Germ a
+became identical with e< Germ e. Nevertheless, this e is
+probably a later development of æ, for OFris redevelops
+a in circumstances greatly resembling those in which a is
+redeveloped in OE, and, as was remarked above, this
+redevelopment is more likely to have been from æ than from e.
+The circumstances under which a was redeveloped in OFris
+are (1) before 1 + consonant 3; (2) more sporadically before
+r + consonant 4; (3) before h + consonant 5; (4) before a
+and ænig, nænig, clæne (with i-mutation of a) are not affected by the change.
+It is, of course, well known that æ, the mutation of ā, becomes ē in Kt,
+and there is little doubt that this change and that of æ > e were due to a
+single movement. This movement also affected æ, the mutation of a.
+In Kt of the ninth century, a and ea are almost equally common in words
+of the type eald (Journal of English and Germanic Philology xxxvii. 147),
+and accordingly we would expect to find a corresponding variation between
+æ (<a + mutation) and e (< ea + mutation) in words of the type eldo
+(WSax ieldo), but e is, in fact, universal in such words (e.g. uuelesces, elfstan,
+-wellan;
+the Surrey documents have both æ and e). Accordingly, it seems
+that every
+was raised in Kt at a date later than that of mutation.
+1 See Luick 165-6 and 176. Luick is, however, not justified in regarding
+the variation between the symbols æ and e found in OKt texts as indicating
+an intermediate sound for it is also found in words with Germ e (e.g. gæfe,
+Sweet 443; gefe, Sweet 446).
+2 See Luick 352-3.
+³ E.g, falla, hals, half. OE has a before 1 + consonant universally in
+the Anglian dialects, and frequently in the earlier WSax and Merc texts.
+• The restoration of a before r + consonant is limited in OE to North-
+umbrian, where it is normal when a labial consonant precedes the vowel or
+follows the r: e.g. barn, parf, warp, sparwa. In OFris, the precise circum-
+stances required for the restoration of a are difficult to determine (see Siebs
+1177-8) and all the instances may not be equally old: the very frequent
+war consonant may sometimes be due to a later change wer > war, which
+also affected Germ e (see note below). It is, however, evident that the a is not
+a late development from e in all cases, for it occasions the retention of
+velar k and g: e.g. the initial consonant of gard (OE geard) and *iern
+(Saterland jéidn, OE gearn) shows that the distinction of the vowels of
+the two words is older than mutation, for the differentiation of the velar
+and palatal consonants is based on the conditions of a stage in the phono-
+logical history of Frisian in which mutation had not yet taken place.
+3 For note 5 see p. 95.
+
+=== page 95 ===
+A. CAMPBELL-SOME OLD FRISIAN SOUND-CHANGES
+95
+back vowel of the following syllable.1 These Frisian a-sounds
+are usually said to be unchanged Germ a, but the a-sounds
+which appear in similar circumstances in OE have been
+conclusively proved to be redeveloped from æ,2 and it seems
+highly probable that the same series of changes (a > æ > a)
+took place in both languages. Accordingly, we may assume
+that, in OFris, Germ a was first fronted to æ, a sound which
+could, under certain influences, be readily retracted to a
+again. This view is strongly supported by the development
+of Germ ai in OFris: it will be shown below that this was
+a sound considerably more open than ē < WGerm ā. Obviously
+the first stage of the development of ai to a very open ĕ-
+sound (i.e. a) is more likely to have been æi than ei, and
+hence the fronting of a was probably in the first place to æ.
+§ 2. The restoration of a before a back vowel of the follow-
+ing syllable is well attested in both OE and OFris. The
+3
+5 E.g. flax, wax, achta, nacht. OE very seldom restored a before h, but
+a few examples are found: the Vespasian Psalter has maht 61/12, mahte
+135/8, maht 144/4; the Surrey Charter has almahtig (Sweet 452); the
+Erfurt Glossary (Sweet 56) and the Lindisfarne Gospels (John. 12/3) have
+respectively thuachl, duahles. All these words have a labial consonant
+before the a: cf. the Northumbrian instances of a before r + consonant.
+1 E.g. fara, draga, and many verbs of the second weak conjugation like
+makia, waria, halia (< *makojan-, etc.). Cf. OE faran, dragan, macian,
+warian, etc. In neither language did a following double consonant disturb
+the process: see Siebs 1188, and Luick 152.
+Cases of OFris a < Germ a, which do not fall under any of the above
+four categories, are later developments of the regular e: e.g. was < *wes ;
+cf. warpa < werpa with Germ e.
+2 See Luick 147 and 155–6.
+³ It might be asked if the OFris a of the four categories under considera-
+tion might not be a later development of a diphthong, and be similar in
+history to the ME a of all, warm, etc. (OE eall, wearm). This is improbable
+because diphthongs developed in OFris generally remain in the extant
+texts (e.g. riucht, siunga). This objection also operates against the assump-
+tion that OFris e (< Germ a and e) is due to monophthongization in forms
+like herm, erthe (cf. OE hearm, eorpe; ME harm, erthe).
+4 See note above for examples. The weak verbs of the second class with
+Germ a in the root syllable always have a in OFris (e.g. batia, biradia,
+ladia, skadia), except when the following consonant is k, g or r: these
+consonants seem sometimes to cause a later change a > e, and, hence, verbs
+like makia, fragia, waria vary between a and e. Otherwise, e is confined to
+the doublets bitalia/bitellia, halia/hellia, which are obviously due to con-
+fusion with bitella and hella. Cf. Gosses, op. cit. 42–3.
+
+=== page 96 ===
+96 TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+change also affected & in WSax, the only OE dialect which
+possessed the sound à before the operation of i/j-mutation,
+though under more narrowly defined circumstances than æ.
+OFris resembled the non-WSax dialects of OE in that it did
+not possess an æ derived from WGerm ā,¹ but, unlike those
+dialects before the i/j-mutation period, it did possess an
+-sound in the normal development of Germ ai. This OFris
+a, like WSax &, was retracted under favourable circumstances
+to ā. These circumstances in both cases resemble those under
+which æ >a in the two languages. The circumstances in
+question in WSax are: before a back vowel of the following
+syllable if the intervening consonant is a liquid, labial or
+velar. E.g. salum (dat. pl. of sæl), swaran (weak inflexion of
+swær), slapan, magas (pl. of mæg). The circumstances in
+which Germ ai appeared as ā in OFris have never been satis-
+factorily defined, but, despite Heinertz, 2 they are of a
+' verdumpfend' nature, such as would be likely to promote
+a change à > ā. Siebs 1228-9 defined them as: (1) in open
+syllables before a back (' dunklem ') vowel or w of the following
+syllable; (2) after w, if i/j-mutation did not intervene.
+E.g. agon, athom, taker (OHG zeihhur), gad (Gothic gaidw);
+wach, *wak. This theory does not explain all forms satis-
+factorily, but there is no doubt that its general method of
+approach is correct. The more elaborate theory, with which
+van Helten endeavoured to replace it, attributes the
+appearance of a to the influence of labial or velar consonants,
+or of back vowels, or of other consonants modified by
+a following u or w. Whatever the precise limits of the
+1 If WGerm a developed to a first, and later to ẽ (cf. I, § 9), it must
+have reached the later stage before æ > a before a back vowel, for
+there would otherwise be every reason to expect a corresponding change
+☎>ā, as in WSax, but there is no trace of such a change in OFris.
+Occasional forms like waren are due to Dutch influence, being confined to
+West Friesland and Hunsigo.
+* Indogermanische Forschungen xxx. 312.
+3 Indogermanische Forschungen xix. 190.
+* Both Siebs and van Helten complicate their theories by regarding
+as instances of ai > à forms in which OFris has a, which is often relengthened
+in WFris. On the true explanation of such forms see below, II, § 6, and
+footnotes.
+
+=== page 97 ===
+A. CAMPBELL—SOME OLD FRISIAN SOUND-CHANGES
+97
+circumstances under which ā appears may be, it is evident
+that they have a strong general resemblance to those under
+which becomes ā in WSax, and, accordingly, the develop-
+ment ai > > ā can fairly be assumed for OFris, just as
+can that of a > æ > ā for WSax.¹
+§ 3. We have concluded that Germ a becomes æ owing
+to early fronting in OFris. To account for the e of our texts
+we have to assume a 'Zweite Aufhellung ',2 similar to that
+of the Merc and Kt dialects of OE, but more drastic, in that it
+resulted in a complete identity of the new e and e < Germ e.
+This change must have overtaken æ before the operation of
+i/j-mutation, for, as will appear below, the æ produced
+by that change had quite a different history. In this OFris
+resembles Merc rather than Kt, where the Zweite Auf-
+hellung was later than mutation and probably affected the
+æ produced by mutation.³ The OFris 'Zweite Aufhellung'
+did not affect æ (< Germ ai), which remained, to fall together
+with the a produced from Germ au by i/j mutation.
+6
+1 See Luick 155-6, for evidence that the ā of WSax slapol, etc., is not
+simply unchanged WGerm ā.
+Recently C. Karstien has advanced the theory that a was the OFris
+development of Germ ai, and that the e-forms are due to LG influence
+(Behrens-Festschrift (1929) 183 ff.). His suggestion is that LG ē was sub-
+stituted for OFris & in words common to both languages, while à was
+retained in words not found in LG. Not only is the mechanical demon-
+stration of the working of the theory, as the author himself has to admit,
+far from perfect, but the whole assumption is little short of absurd. First,
+it overlooks the strong linguistic individualism of the Frisians, which
+renders it impossible to believe that LG influence could have undermined
+a distinctive feature of the phonological structure of Frisian already before
+the period of the oldest manuscripts. Secondly, if the LG influence was so
+strong, why did it manifest itself only in forms with Germai: why was a not
+similarly substituted for ē (< WGerm ā) and ō for å (< Germ au)? Thirdly,
+it is practically certain that the substitution of è for à would have been
+extended to forms where OFris ā did not correspond to LG ē (e.g. those with
+Germ au), for to adopt LG ē (< Germ ai) and no other typical LG sound
+would reflect an inexplicable tendency to introduce the vowel é whenever
+possible. Lastly, the equation of the LG ē with the OFris open, rather than
+the close, e-sound would require further proof, even if the theory were not,
+owing to other considerations, unworthy of acceptance.
+2 The term used by Luick 164.
+3 See above, II, § 1, and footnote.
+PHILO. TRANS. 1939.
+H
+
+=== page 98 ===
+98
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+2
+§ 4. With regard to this OFris ‘Zweite Aufhellung', it
+might be asked if it also affected the a which had been restored
+before back vowels. This is well known to have been the case
+in Merc, where the a in question became æ, which was later
+diphthongized to æa (written ea), unless the following con-
+sonant was a velar.¹ In the majority of forms, if OFris a
+had become æ, that a would very probably have become
+a again at a later date, for that was the usual development
+of æ-sounds of other origin. If OFris etheling corresponds
+exactly in formation to OE ætheling and OScand oolingr,
+it appears probable that the Zweite Aufhellung' did cause
+a change of a to æ. The history of the first e in the OFris
+form would then be: Germ a > æ (early OFris fronting)
+> a (before u in the following syllable) > æ (‘Zweite Aufhel-
+lung ') > e (i-mutation). If the third stage were omitted, the
+a of the second stage would become æ by mutation, and this
+would appear as a, or at least vary between a and e, in our
+texts. The OFris form may, however, correspond to OHG
+ediling, or to some other formation with a vowel other than
+й in the medial syllable, and no form occurs in OFris which
+can be shown with certainty to have had the Germ vocalic
+succession au + i, nor can it be decided if a sound-change
+like the OE secondary' or 'double mutation occurred in
+OFris at all. Accordingly, the question whether a was subject
+to the Zweite Aufhellung in OFris must be left undecided.
+§ 5. The operation of i/j-mutation in OFris must next
+be considered. By that change й and ō became Ễ. The e
+so produced fell together with e from Germ a and e, while the
+ē generally fell together with the ē from Germ ē and WGerm ā.
+The dialects of the northern islands, however, show that ē,
+the mutation of ō (< Germ ō and Ingvaeonic' ā), was at
+first distinguished from the other close ē-sounds, and, in
+some areas, never became identical with them.3 The northern
+1 E.g. heafuc, steapul, feadur; dægas, cwæcung. But a was not affected
+by the 'Zweite Aufhellung' before 1 + consonant: e.g. ald, all, dalf.
+2 See below, II, § 6.
+3 See below, footnote to II, § 7.
+
+=== page 99 ===
+A. CAMPBELL―SOME OLD FRISIAN SOUND-CHANGES
+99
+island dialects also show that the mutation of й was
+originally , and that this sound developed in some areas
+to ň, not to ě.¹ Since æ had become e or a in all positions
+before the operation of mutation, except perhaps in the
+very doubtful cases like etheling discussed above, it is not
+possible to decide if it was raised to e by mutation. e (<
+Germ a) was not affected by mutation. It is not possible to
+decide if this implies that it was still slightly distinguished
+from the product of Germ e at the time of mutation, for there
+is no means of telling whether the latter sound was affected
+by mutation: reformations like bereth may be earlier or later
+than mutation.2 (< Germ ai) and ē (< WGerm ā) were
+not affected by mutation. Lastly, a became a by mutation.
+§ 6. a, the mutation of ā (< au), was identical with the
+older æ (< ai). Its product is still distinguished from that
+of ē (< WGerm ā, and the mutations of ō and u) in the dialects
+of the Saterland and the North Frisian coast. Though they
+have fallen together elsewhere, the two sounds were
+clearly distinguished in all areas at the time of the shortening
+of vowels before consonant groups, for a was shortened to
+æ, but ē to e. The æ was later developed to a, which was
+sometimes relengthened in WFris.³ Hence we find in OFris
+verbal forms like leda/latte (with Germ ai), steta/estat (with
+Germ au mutation), bleda/bled (with Germ ō + mutation),
+*hleda/hlette (with Germ ū + mutation), reda/*red 4 (with
+WGerm ā).5 The similarity of these forms to those of ME,
+1 See Siebs 1207-8 and 1228.
+2 Cf. Luick 176–7.
+3 Hence forms like OFris latte, estat correspond to ModWFris laedde,
+staet. This ā can be due only to a late relengthening, otherwise it would
+become ModWFris ea. See also Indogermanische Forschungen xxx. 313–4.
+OFris thã, dae (< *thai) is due to relengthening, owing to the re-accenting
+of a form which had been shortened in weak stress. The development is
+*thai > *thæ > *the (shortening in weak stress) > tha > thã (lengthening
+in strong stress). an may have a similar history, or it may have the vowel
+of anne, which is to en as latte to leda.
+4 Japicx ret.
+5 On analogical and other disturbances of these normal developments
+see Siebs 1229.
+
+=== page 100 ===
+100
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+where a is the short vowel corresponding to ę (< OE æ),
+but e to e (< OE ē) is striking.¹
+§ 7. A further discussion of the two OFris ē-sounds may
+conveniently be inserted at this point. It has been assumed
+in the preceding sections that ē (< Germ ai) was more open
+than ē (< Germ ā), and accordingly the symbol a has been used
+for the former sound. In view of this assumed open nature
+of a, it was suggested that it must have been developed from
+ai through a stage æi, not ei, and this was regarded as a
+strong reason for supposing that Germ a became æ, not e,
+in the earliest OFris. An open a would retract to ā more
+readily than a close ê, and an attempt was made to explain
+a number of OFris forms by suggesting that the assumed
+OFris & did in fact retract under certain circumstances. It
+is now necessary to prove for this OFris sound the open
+quality, which is so necessary to the view of the early phono-
+logical history of Frisian which has been advanced. The
+proofs are the following:-(1) The sound in question falls
+together with the mutation of a, which would naturally be
+more open than the mutations of ō and u, with which ē
+(< WGerm ā) generally fell together. (2) It also falls together
+with the mutations of OFris a (< Germ a before I followed
+by a consonant) and OFris o (< Germ a before a nasal),
+when these sounds are lengthened.³ Since these products
+of mutation, when not lengthened, are written in OFris
+both as a and as e, and develop in ModFris now to a and
+now to e, it may fairly be assumed that they lay between
+a and e, and that their lengthened form would be an open
+e-sound. (3) The shortening of the sound, like that of a,
+the mutation of a (< Germ au), appears as a in OFris, and
+hence it may be assumed to have been more open than ẽ
+(< WGerm ā, etc.) of which the shortening is e. (4) Those
+4
+1 E.g. Chaucer has blede/bledde, lede/ladde, rede/redde. There is, however,
+great inconsistency in these ME verbal forms, owing to analogy, and to
+divergent developments of the OE dialects.
+2 See above, I, § 9, and II, § 1.
+3 See below, II, §§ 9 and 10.
+* See below, II, §§ 8 and 10.
+
+=== page 101 ===
+A. CAMPBELL-SOME OLD FRISIAN SOUND-CHANGES
+101
+modern dialects, which distinguish OFris & and the various
+products of mutation which fell together with it from OFris
+ē (< WGerm ā, etc.), indicate that the former was a more
+open sound.1
+§ 8. The mutation of a could, of course, take place only
+in those positions in which a existed at the time of mutation,
+that is to say, before 1, r or h followed by a consonant.2 In
+such circumstances, the vowel produced by mutation is
+variously written a or e in OFris manuscripts: e.g. falt/felt,
+machte/mechte.³ This variation indicates an attempt to
+1 See Siebs 1213. The various OFris ē- and -sounds all fall together
+in WFris and the dialect of Wangeroog. In the dialects of the Saterland
+and the North Frisian coast (with the Halligen) the OFris é-sounds are
+distinguished from the a-sounds. E.g. in the dialect of the Karrharde we
+have dil', hīl (with Germ ai), hirǝ (with Germ au + i) but skeip, meil'
+(with WGerm ā), grein, feilə (with Germ ō + i), heid, keiz (with Germ
+ū+i). The corresponding Saterland forms are dél, hêl, hérǝ but sxeip,
+méil, gréin, féila, héid, kéizə. The dialects of the North Frisian islands do
+not distinguish the products of Germ ai and au + i from that of WGerm ā
+but they have a different development of the mutation of Germ ō. Hence
+we have in the dialect of Föhr dial, hial, hiər, mial but gren, fēl and in that of
+Sylt diil, hiil, hiir, miil but green. Föhr has i for Germ ū + i : dīvi (‘ dive ') ;
+on ui in Sylt see E. W. Selmer, Sylterfriesische Studien (Christiania,
+1921) 105.
+The Karrharde forms in this note are derived from O. T. Jabben, Die
+friesische Sprache der Karrharde (Breslau, 1931); the Föhr forms from
+J. Tedsen, "Der Lautstand der föhringischen Mundart," Zeitschrift für
+deutsche Philologie xxxviii and xxxix; the Sylt forms from B. P. Möller,
+Söl'ring Uurterbok (Hamburg, 1916); the Saterland forms from Siebs.
+2 The possible cases of mutation of a + back vowel by i of the third
+syllable have already been discussed (see II, § 4).
+* See the full collection of forms in van Helten's Altostfriesische Grammatik
+31 ff. It is not certain that a was restored before h + consonant when
+i followed, for the usual vowel in the manuscripts in forms with Germ
+-ahti- is e; a is found only in forms and compounds of meht and sleht,
+which may represent the development when i did not follow. The form
+sunderacht is probably not mutated. It is also uncertain if a was ever
+restored before r + cons. + i, for the development of Germ ar + cons.
+is nearly always er + cons. in forms with mutation: e.g. erva, ierde, ferd,
+nera, dern- (OE ierfa, gierd, fierd, nierwan, diern-). It is true that werna
+and werda (OE wiernan, wierdan) have many forms with a, and there are
+a few other instances, but the vowel is practically always preceded by w
+(see van Helten 30), and hence the a may be a late development from e
+(see above, II, § 1, and footnotes). arn (' harvest') seems to be almost
+
+=== page 102 ===
+102
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+express a sound between a and e, and in some areas this was
+developed to a, in others to e: the Saterland has a (halst
+'holdest'); Wangeroog a (halt 'holds'); WFris e (helte
+'half'). The OFris texts are not consistent enough in their
+choice of a or e to be regarded as expressing this variation :
+it is more probable that æ, a very open e-sound, still existed
+as the mutation of a in the OFris period.
+§ 9. When a lengthening group followed upon æ, the
+mutation of a, it developed to a sound which had the same
+subsequent history as a (< Germ ai, and Germ au muta-
+tion). E.g. OFris *heldin (past part. of halda) appears in
+the Saterland as hêldņ, and OFris kelde ('coldness') as
+kêlde, with the same vowel as words like dêl, bên, which had
+Germ ai. In view of this, spellings like OFris kalde (beside
+kelde) must be regarded as due to the influence of forms without
+mutation (e.g. kald).
+a
+§ 10. The mutation of o, the product of Germ a before
+nasals, seems to have been exactly the same sound as that
+of a, the product of Germ a before consonant groups.
+It appears as
+or e in OFris manuscripts: e.g.
+stant/stent (stands'), panning/penning, bikanna/bikenna,
+kampa/kempa. The dialects now have a or e, the latter
+being raised to ¿ in WFris: e.g. Saterland kanə, hanǝ;
+WFris kinne, hinne. Before a lengthening consonant group,
+the mutated vowel fell together with a (< Germ ai, etc.):
+the only OFris a-form with no w before the vowel, and it may be
+unmutated.
+2
+van Helten 31 incorrectly assumes an OFris variation of a and e in the
+Germ combination -asti-: the evidence, however, points to the normal
+development of Germ a to OFris e in that combination (see Siebs 1186).
+1 On the other hand e (< Germ a, e or the mutation of Germ u), when
+lengthened before groups, fell together with the close ē: hence Saterland
+béidn, jeild, axéildə (OFris bern, jeld, skelde) have the same vowel as sxéip
+(OFris skep, with WGerm ā). Similar relationships are seen in NFrisian :
+e.g. in the dialect of the Karrharde hil (' fetter', OFris helde) has the same
+vowel as dil' (‘ part '), but skeil' (OFris skelde) as skeip (' sheep').
+* Owing to the regular spelling of the normal product of Germ a before
+nasals as o in OEFris, relationships like stonda/stant, mon (sg.)/man (pl.) are
+there possible, though often disturbed by analogy, while in OWFris they
+are graphically impossible, though there would be a difference of sound
+there also.
+
+=== page 103 ===
+A. CAMPBELL-SOME OLD FRISIAN SOUND-CHANGES
+103
+e.g. OFris *kemba, enda, senda; Saterland kêmə, êndə, sêndə;
+WFris (Japicx) kieme, eynje, seyne (with special WFris later
+developments); Karrharde kimə, etc.
+§ 11. It appears from the preceding sections that ā under-
+went mutation to an open ē-sound (ā), which, when shortened
+before consonant groups to æ, became a before the period
+of the oldest manuscripts. The mutation of a (and o < a
+before a nasal) was to an open sound (a), which generally
+could arise only before nasals, or before 1 followed by a
+consonant,¹ and which remained in the period of the early
+manuscripts, to become later a or e. If it was lengthened,
+however, it fell together with a (from WGerm ai, or au +
+mutation). The only point in these developments which is
+in any degree surprising is the longer retention of æ before
+1 followed by a consonant, and before nasals, than elsewhere,
+and the variation between a and e as its ultimate product
+in those positions. It may be noted that in English also the
+development of æ, the mutation of Germ a before nasals
+and before I followed by a consonant, is less simple than that
+of æ in other circumstances. Normally, OE æ remained in
+the OE period, to become ME a, but before nasals it became
+e at an early date, except in a limited area where it remained
+to become ME a. Hence, similar to the contrast of Saterland
+kana and WFris kinne (< *kenne), we have in ME normally
+forms like penchen, men, but in a limited area in the South-
+East also forms like panchen, man (pl.).² Before 7 followed
+by a consonant, we have, in the Anglian dialects of OE, as
+in OFris, a as the product of Germ a, and its mutation is æ.
+Just as the mutation of a before I followed by a consonant
+resisted in Frisian the usual change æ > a, and remained æ,
+to become later e or a in the dialects, so the Anglian æ (<a +
+mutation before 1 + consonant) resisted the normal ME
+development æ > a in most areas, to become later e as a
+rule, and a only in the West Midlands. Hence we have forms
+like fallen, baliz, malten beside normal ME fellen, beliz, melten.³
+1 On the uncertain cases before r and h see footnote to II, § 8.
+2 See Luick 347 ff.; R. Jordan, Handbuch der mittelenglischen Gram-
+matik 53.
+3 See Luick 356; Jordan 83–4.
+
+=== page 104 ===
+104
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+The English development before 1, and the Frisian ones before
+both nasals and 7, are all identical: an æ resists a normal
+change to a, to become ultimately a in some areas, e in others.
+The English development before nasals is similar, but not
+identical æ became e at so early a date that it did not
+undergo the usual ME change to a. All these developments
+point to the reluctance of a nasal or 1, through which the
+mutating influence of a following i had passed to a preceding
+vowel, to permit the development of a back vowel, or, in the
+case of OE nasals, even a very low front vowel, before it.
+§ 12. On the basis of what has now been said, the following
+chronology may be suggested for the principal OFris vowel
+changes :-
+(1) WGerm ā > ē normally,¹ but ō before nasals. Germ
+and Ingvaeonic'ą > ō. Germ a >o before nasals, but this
+o did not become identical with Germ o. (See I, §§ 7, 8 and 9.)
+(2) Germ au > ā. (See I, § 9.)
+(3) Germ a > æ, except when it had already become o
+before nasals; in consequence Germ ai became æi, which
+was monophthongized to a before (4). (See I, § 9, and II, § 7.)
+(4) æ (< Germ a) and ã (< Germ ai) became å under
+certain conditions. (See II, §§ 1 and 2.)
+"
+(5) æ (< Germ a) became e, and so fell together, perhaps
+immediately (see II, § 5), with e (< Germ e). (< Germ ai)
+was not affected by this Zweite Aufhellung', for it remained
+distinct from ē (< Germ ē and WGerm ā). a (due to (4)
+above) may have been affected by this movement and have
+become a before consonant + back vowel, but not before
+consonant groups. ā (< Germ au, or due to (4) above) was
+not affected. (See II, §§ 1, 3 and 4.)
+(6) i/j-mutation. (See II, §§ 5-11.)
+(7) Shortening and lengthening of vowels before con-
+sonant groups. (See II, §§ 6, 7, 9 and 10.)
+(8) æ, the shortening of a (< Germ ai) and of the mutation
+of a (< Germ au), became a. (See II, §§ 6, 7 and 11.)
+1 If the fronting was first of all to a, this sound was raised to ē before
+change (4) took place (see I, § 9, and II, § 2 and footnote).
+
+=== page 105 ===
+A. CAMPBELL-SOME OLD FRISIAN SOUND-CHANGES 105
+(9) Some later changes, the order of which cannot be
+determined, may be mentioned together. (< Germ a +
+nasal; WGermā + nasal) becomes identical with ỗ (< Germo)
+later than (6); in WFris this applies only to the long sound.
+(See I, §§ 7 and 8.) The mutations of Germ ō and й fell
+together with ĕ in most areas. (See II, § 5.) a (< Germ ai,
+and various mutations) and ē (< Germ ē, WGerm ā and
+various mutations) fall together in some areas: this occurred
+later than (7). (See II, §§ 6, 7, 9 and 10.) æ, the mutation of
+the products of Germ a before nasals or + cons., when not
+lengthened, became a or e according to dialect: this occurred
+later than (8) and had not yet occurred in the period of the
+oldest manuscripts. (See II, §§ 7, 8, 10 and 11.)
+"
+8
+§ 13. The development of WGerm eo (< IE eu) to ia
+in OFris cannot be placed in chronological relationship to
+the changes dealt with in the last section, but, as was pointed
+out above, the unrounding of its second element must have
+been later than (3). Two important early changes, which
+cannot be chronologically related with the others, are the
+breaking of the products of Germ e, i, i to iu before hs
+and ht, and the development of iu from i before w and u of
+the following syllable. The circumstances of the former
+change are exceptionally obscure, 4 but, if, as is universally
+assumed, it took place only before ht and hs, and not before
+intervocalic h, such forms as siucht ('sees') show that it must
+have taken place låter than i-mutation, for the of the
+3rd pers. sg. pres. indic. was not syncopated till after it had
+caused mutation.5 Forms like siucht also show that the loss
+of intervocalic h was later than the syncope of the i just
+referred to, and hence later than mutation.
+§14. Although this paper has been confined almost
+entirely to vowel changes, the history of initial Germ k and
+1 See above, I, § 9. 2 E.g. riucht, siucht, wiucht. 3 E.g. diunk, siunga.
+* See the full discussion of it by J. M. N. Kapteyn, Festschrift Theodor
+Siebs (1933) 145 ff.
+5 The apparent WFris breakings of e before ld (e.g. fiuld) have a purely
+graphic basis (see Siebs 1190). There appears, however, to be an occasional
+development of i > iu before r (Siebs 1199 and 1260).
+
+=== page 106 ===
+106 TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1939
+g in OFris and OE is connected so intimately with, and throws
+so much light upon, certain vowel changes, that it cannot
+be left entirely out of consideration. In both OFris and OE,
+before front vowels, Germ k became a front stop, which was
+later 'assibilated' (i.e. developed to [tf] or [tsi]), while Germ
+g, a back spirant, became a front spirant, which, at least
+ultimately, fell together with Germ j. This fronting of k and g
+did not occur before front vowels due to the mutation of back
+vowels (e.g. OE celan, cyning, gylden; OFris kela, kening,
+gelden), but it does take place before OE æ and OFris e (< æ,
+see II, § 1), the products of Germ a. It is, accordingly, evident
+that the sensitivity of k and g to the nature of following
+vowels had ceased before mutation occurred. It is not so
+easy to place the beginning of that sensitivity in its chrono-
+logical position. k and g appear as back consonants before the
+restored a which appears before back vowels and certain
+combinations of consonants (e.g. OE calu, cald, gadrian,
+galga; OFris kale, kald, gadria, galga, gard). This may,
+however, indicate, not that k and g had never been fronted
+in such forms, but that, retaining their sensitivity to the
+nature of following vowels, they were retracted when æ
+became a. This view involves the assumption that, when
+Germ g was first fronted, it did not at once fall together with
+Germ j, for, otherwise, when *gælga (with front g) became
+galga (with back g), forms in which j (< Germ j) preceded a
+back vowel would also have retracted their initial consonant
+(e.g. OE iung, OFris iung). This assumption is, however, in
+no way improbable. There is, therefore, nothing to show that
+the sensitivity of k and g to the nature of following vowels
+does not date back to a period when English and Frisian
+were in sufficient contact to develop some common character-
+istics, but it certainly continued long after that period, and
+led to the fronting of the consonants concerned before
+OE (Germ a) and ea (< Germ au) and before OFris
+e (< Germ a). In OE, this sensitivity ceased some time
+before mutation, for the æ which arose from a in Merc
+owing to the 'Zweite Aufhellung', and later became ea owing
+
+=== page 107 ===
+A. CAMPBELL-SOME OLD FRISIAN SOUND-CHANGES
+107
+to the influence of following back vowels,1 has back con-
+sonants before it.² In OFris it appears to have ceased after
+the Zweite Aufhellung'. In the period of sensitivity, there
+were, no doubt, in both languages, not merely front and back
+forms of k and g, but a number of k- and g-sounds, which
+varied according to the precise nature of the following vowels.
+When the sensitivity ceased in OE, these varied sounds fell
+into a back and a front group. The front group consisted of
+all kand g-sounds which preceded vowels which were front
+before the 'Zweite Aufhellung', the back group of those which
+preceded vowels which were back before the "Zweite
+Aufhellung'. In OFris, however, the back group consisted
+of the k- and g-sounds which preceded back vowels or low
+front vowels after the 'Zweite Aufhellung' but before
+mutation, the front group of those which preceded a mid or
+high front vowel at that time. Hence, in OFris, we find front
+k and g before e (< æ by the ‘Zweite Aufhellung '), but back
+k and g before a (< Germ ai, written e). This explains the
+difference in the initial consonants of OFris tsetel (Gothic
+katils), *tsef ³ (German kaff), iet (Dutch gat) on the one hand
+and kei (< *kaigi-, OE cæg), *gest 4 (< *gaist-, OE gast),
+-ger (OE gar), geia (< *gaigi-, see Paul und Braunes Beiträge
+xi. 228; Zeitschrift für deutsche Wortforschung vii. 282-3) on
+the other. Since the fronting of WGerm ā in OFris reached
+the stage ē at an early date, 5 front k and g naturally
+arose before it: *tsese (OHG kasi), ievon (OHG gabun).
+3
+1 See above, II, § 4.
+2 E.g. OE (Merc) *to-gedere, ME (Western) togederes. See Luick 183–4
+§ 198, a. 3; S. T. R. O. d'Ardenne, Liflade ant te passiun of Seinte Iuliene
+(Liège 1936) 182.
+3 Cadovius Müller scheff, Japicx tsæf, Wangeroog sjæf, ModWFris tsjéf.
+4 Cf. gestlic (MS B³, Richthofen 176, footnote to line 8; confirmed by
+van Helten, Altostfriesische Grammatik 23 and 115, from personal inspection
+of the rediscovered original manuscript; see ibid., p. viii, footnote 5). The
+dictionaries (Richthofen, Holthausen, Nauta) give a form iest: the only
+authority for it is the form iestlika in MS R¹ (Richthofen 127). This is due
+to confusion of the symbols g and i: spellings like ger ('year') are
+found in OFris manuscripts.
+5 See above, I, § 9, and II, § 2.
+6 Cadovius Müller tzise, Japicx tsijz, Wangeroog sís, ModWFris tejiis.

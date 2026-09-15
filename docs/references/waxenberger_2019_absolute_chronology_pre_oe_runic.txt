@@ -1,0 +1,820 @@
+Waxenberger, Gaby. "Absolute Chronology of Early Sound Changes
+Reflected in Pre-Old English Runic Inscriptions."
+NOWELE 72.1 (2019), 60-77. doi:10.1075/nowele.00020.wax
+
+SOURCE AND METHOD
+-----------------
+Born-digital PDF with a reliable embedded text layer; extracted with
+`pdftotext -layout` (poppler). No OCR was involved, so no OCR caveat
+applies: the characters below are the publisher's own, not a recognition
+guess. The PDF itself stays untracked under docs/references/ per
+.gitignore; this text is the committed, citable representation.
+
+PAGE NUMBERING
+--------------
+The `=== page NNN ===` markers below are the PRINTED page numbers of the
+publication, not PDF sheet numbers, so a citation taken from this file can
+be given directly as a page reference. The offset is constant: printed
+page N is PDF sheet N - 59. It was verified mechanically: the printed
+folio appears in the running head or foot of 18 of the 18 sheets,
+with no exceptions.
+Text never crosses a printed page boundary.
+
+Printed pages 60-77 (18 sheets).
+
+--------------------------------------------------------------------------
+
+=== page 60 ===
+         Absolute chronology of early sound
+         changes reflected in Pre-Old English
+         runic inscriptions
+         Gaby Waxenberger
+         Ludwig-Maximilians-Universität München & Akademie der
+         Wissenschaften zu Göttingen (RuneS)
+
+
+         This article presents an absolute chronology of the early major sound
+         changes reflected in the Pre-Old English (Pre-OE) runic inscriptions. These
+         inscriptions were written in the Pre-fuþorc, which was still close to the
+         Common Germanic fuþark (= Older fuþark) of 24 characters but was
+         extended and modified during the Pre-OE period (ca. AD 425–610/650).
+         The Caistor-by-Norwich Brooch (ca. AD 610–650) marks the beginning of
+         Old English (OE) because the new and modified runes – ᚩ o, ᚪ a, ᛟ œ, ᚨ æ –
+         with their new phonemic sound-values appear together for the first time.
+         All the relevant sound-changes were completed by then. The Pre-OE and
+         also the Pre-Old Frisian (Pre-OFris.) data reveal four phases of develop-
+         ment. In my proposed chronology phases one and four are straightforward,
+         while phases two and three are more complex, with two scenarios being
+         possible.
+
+
+                                                                                                       For ᚨ ᛖ
+
+1.   Introduction
+
+This article attempts to show the complex processes of the chief Pre-OE1 sound
+changes as they can be observed through the runic looking glass. I will try to
+
+
+
+
+1. The term Pre-OE is used as a label for a prior stage of Old English proper; to what degree the
+actual separation from a North-West Germanic continuum or a possible intermediary stage tra-
+ditionally termed Anglo-Frisian or, more recently, North Sea Germanic had already taken place
+in this phase is still a matter of debate and forms one of the research questions of the RuneS
+project. The same applies to the term Pre-OFris.
+
+         https://doi.org/10.1075/nowele.00020.wax
+         NOWELE 72:1 (2019), pp. 60–77. issn 0108-8416 | e‑issn 2212-9715 © John Benjamins Publishing Company
+
+=== page 61 ===
+     Absolute chronology of early sound changes reflected in Pre-Old English runic inscriptions           61
+
+
+
+establish an absolute chronology for the emergence of Pre-OE /ɔ̃:/,2 Pre-OE /a:/
+(< Gmc */aɪ/) and the phonemic split leading to Pre-OE long /a:/ and /æ:/ as
+well as the one that brought about Pre-OE short /a/ and /æ/. For this purpose, I
+make use of those runic inscriptions known at the present time. Although I am
+aware of the fact that a new find and/or new dating methods may have a great
+impact on my theory, I have, nevertheless, undertaken the venture and looked at
+the material as it is dated and interpreted today. In this article I will not compare
+my chronology with the chronologies of sound changes in Luick (1921), Camp-
+bell (1959), Nielsen (1981, 2000, 2006), and Nedoma (2016), as I have done this
+in detail elsewhere (Waxenberger forthc: chapter 3).
+     In Great Britain runic writing began in Pre-Old English ca. AD 425 (the earli-
+est possible date for the Caistor-by-Norwich Astragalus; see Hines 1990: 442; per-
+sonal communication: 18/9/2018) and lasted until the eleventh century, that is, the
+end of the OE period. At present there are 110 inscriptions. The early inscriptions
+reflect not only the sound changes as such but also give us an insight into their
+chronology.3
+
+
+2.     Relevant corpora
+
+Originally, the starting point for my analysis was the Pre-OE Runes Corpus (Pre-
+OERC). Now, I have also added the relevant inscriptions of the Pre-OFris. Runes
+Corpus (Pre-OFrisRC) inscriptions (see Waxenberger 2017: 98f.; 2013 and esp.
+forthc: chapter 3). The early Pre-OE inscriptions were written in the Pre-fuþorc,
+which was still close to the Common Germanic fuþark (= Older fuþark) of 24
+
+
+2. I posit a nasalized and open /ɔ̃:/ for the time of the Undley Bracteate because the merger
+with /o:/ must have been a longer process: /ɔ̃:/ > /ɔ:/ > /o:/. It should be pointed out that we
+only have evidence of /o:/ both from /o:/ and /ɔ̃:/ from the (middle of the) 7th c. onwards, e.g.,
+Brandon Antler Handle (late 7th to the early 9th c.: wohs < Gmc */o:/; Lindisfarne Stone I (mid
+7th to 8th c.: osgyþ /o:s/ < /ɔ:s/ < /ɔ̃:s-/ < */ã:s-/ < */ans-/); for details see Waxenberger (forthc.
+chapter 3).
+3. The following graphic conventions are used in this article: Runes are transliterated in lower-
+case and bold letters. Uncertain runes are given in italics. Bind-runes are marked by an arc ͡.
+Uncertain runes that allow for more than one interpretation are placed in braces { } and the
+individual interpretations are separated by slashes. Phonemes are put between slashes / /, and
+square brackets [ ] are used for allophones. Graphemes are denoted by angled brackets < >. In
+the narrow transcription [ḵ] is used for the (more) palatalized k. The symbol [å] is used for
+short nasalized a, while short nasalized i is denoted by [ı̊]. The arrows → and ← indicate the
+directions of writing. ] and [ mark the break-off of an inscription on the right-hand or on the
+left-hand side. The word dividers, o and ||, are kept in the transliterations.
+
+=== page 62 ===
+62   Gaby Waxenberger
+
+
+
+     runes but was extended and modified during the period ca. AD 425–650, that
+     is, down to the time of the Caistor-by-Norwich Brooch4 (ca. AD 610–650). This
+     inscription shows the new rune ᚪ /a(:)/ as well as the old runes ᛟ and ᚨ with their
+     new phonemic sound-values /œ(:)/ and /æ(:)/ for the first time. Based on the
+     external dating of this object, I regard the period of ca. AD 610/650 as the begin-
+     ning of OE because all the relevant sound-changes were obviously completed by
+     then (Waxenberger forthc: chapter 3). It is crucial to note that the Pre-OE inscrip-
+     tions directly reflect early sound-changes that had previously only been recon-
+     structed on linguistic principles in handbooks without taking runic inscriptions
+     into account.
+
+
+     2.1 The Pre-OERC: Ca. AD 425–650
+
+     This small corpus has 13 inscriptions (see Waxenberger forthc: chapter 3); of these
+     again only seven, along with the unprovenanced skanomodu solidus (ca. AD
+     575–610: Blackburn 1991: 142), are useful with regard to the early sound changes:5
+     1. Caistor-by-Norwich Astragalus: rᚨᛇhᚨn [råi̊ᚷån] (ca. AD 425–475: Hines
+        1990: 442);
+     2. Undley Bracteate:6              medu7          [ɣa(:) ɣɔ̃: ɣa(:)] or [jæ(:) ɣɔ̃:
+        jæ(:)] (ca. AD 450–500: Hines 1990: 441);
+     3. Spong Hill Urn Stamp:8 ᚨlu alu (ca. AD 450–500: Hills 1991a: 51);9
+
+
+     4. The inscription reads: ludᚪ : gibᛟtᚨsigilᚨ; luda : gibœtæ sigilæ, which is translated as ‘May
+     Luda make compensation by means of the brooch’ by Bammesberger (2003: 135) and ‘Luda
+     repaired the brooch’ by Hines (1991b: 7).
+     5. As the skanomodu solidus is unprovenanced, it is necessary to list it in both the Pre-
+     OFrisRC and the Pre-OERC.
+     6. The provenance of the Undley Bracteate is controversial. The assumption that it might be
+     an import from southern Scandinavia or more probably from Schleswig-Holstein goes back
+     to Hines (1984, 1987: 78ff.) and has been followed by Odenstedt (1987, 1990: 139). Later archae-
+     ological research considers England (Hills 1991b: 150), the southern North Sea area (Nikolay
+     2014: 240) or Sievern (Pesch 2007: 94, 358). In addition to the uncertainty involved in assign-
+     ing the bracteate to a certain area outside of England, it is the diagnostic Anglo-Frisian rune
+     ᚩ (Nielsen 1991: 47) that rules out Scandinavia as the home of the inscription. For more details
+     with regard to this discussion, see Waxenberger (forthc: List of Objects no. 83).
+     7. For       medu, see Waxenberger (2018).
+     8. There are three stamped pots (C1564, C1224, C2167), but as the same stamp was used, they
+     count as one occurrence.
+     9. According to Hills (1991a: 50f., forthc.) the three runic pots from Spong Hill (C1564, C1224,
+     C2167) “can be seen to be local products made and buried in central Norfolk in the fifth century,
+     probably the middle decades of that century.”
+
+=== page 63 ===
+   Absolute chronology of early sound changes reflected in Pre-Old English runic inscriptions       63
+
+
+
+4. Loveden Hill Urn: sᛇþᚨbᚨd || þi{c/u}w || [.]l [.]10[sɪðabæd] or [sɪðæbæd] || ?
+   || ? (ca. AD 450–550: Hills 1991a: 54; Hines 1991a: 65);
+5. Watchfield Purse Mount: hᚨribᛟki : wusᚨ [hεribœ:ḵi] : [wusæ] (ca. AD 500–550;
+   Scull 1986: 127);
+6. Welbeck Hill Bracteate:      ←= lᚨw ? (ca. AD 500–570: Hines 1990: 445);
+7. Chessell Down Scabbard Mount: ᚨkᚩ : kᛟri [akɔ] : [ḵœrɪ] (ca. AD 525–550:
+   Hines 1990: 439);
+8. The unprovenanced (?Pre-OE/?Pre-OFris.) skanomodu solidus: skᚪnᛟmᛟdu
+   (ca. AD 575–610).
+The dominant interpretation of the last inscription is that it is a personal
+(by-)name skanomodu, consisting of *skān-o + mōd-u ‘(having a) beautiful mind’,
+with the first element being derived from the adjective *skaun- ‘beautiful’; the
+monophthongization Gmc *au > ā is exclusively Frisian. Vennemann (forthc.)
+considers the possibility of deriving ā from the Gmc “a grade class I deverbal
+adjective base” Gmc. *skain- ‘visible, shiny’; in this case the monophthongization
+of *ai > ā is “shared by Frisian and Old English, with the consequence that if
+this alternative analysis is accepted, the inscription can no longer be classified as
+exclusively Frisian by this criterion but only as Anglo-Frisian, i.e. Anglo-Saxon or
+Frisian.”11
+
+
+2.2 The Pre-OFrisRC: Ca. AD 5th Century to AD 650
+
+Inscriptions of the period ca. AD 5th c.–900 show what are called the diagnostic
+Anglo-Frisian runes: the new runes ᚩ o and ᚪ a and also the rune ᚫ with the new
+sound value /æ(:)/ transliterated æ. These runes are a clear indication that these in-
+scriptions are no longer written in the original rune-row of the Common Germanic
+fuþark (= Older fuþark), but with the inventory that is here termed the Pre-fuþorc.
+While the new rune ᚪ a is already attested in four inscriptions in the period between
+the fifth cent. and AD 650, the new diagnostic rune ᚩ o is only attested in the later
+period of Early Runic Frisian (from AD 650 onwards; see 3 no. 3).
+    The Pre-OFrisRC (ca. AD 5th cent.–650) has six inscriptions and the unpro-
+venanced skanomodu but only four are relevant with respect to the early sound
+
+
+
+
+10. For the problems of deciphering the second and the third sequences see Waxenberger
+(2016: 354f.).
+11. See Waxenberger (2017: 111) for the scenarios regarding the ending -u. This is not a reliable
+feature for Frisian provenance.
+
+=== page 64 ===
+64   Gaby Waxenberger
+
+
+
+     changes:12 Amay Bone Comb: ]eda (ca. AD 575–625), the Harlingen (hada)
+     and Schweindorf (weladu) solidi (ca. AD 575–625: Blackburn 1991: 142) and the
+     skanomodu solidus (ca. AD 575–610: Blackburn 1991: 142). However, the actual
+     ‘Frisianness’ of these early specimens is by no means certain: the uncertainty of
+     the provenance of the skanomodu solidus has led to its being regarded as both
+     Pre-OFris. or Pre-OE and regarding the other three, Roschdi (forthc.) states that
+     “by the fuþorc-diagnostic occurrence of āc ᚪ, ōs ᚩ” the Amay Bone Comb, the
+     solidi from Schweindorf and Harlingen “can only be placed within a wider North-
+     Sea Germanic context”.
+
+
+     3.   Methodological preliminaries
+
+     3.1 The ‘Anglo-Frisian unity’
+
+     Since the academic discussion on the question of whether or not there was ever
+     an ‘Anglo-Frisian unity’ has been rekindled (see Nielsen 1994 for an overview and
+     also Hines 2017), it seemed methodologically justified to build on the findings for
+     the Pre-OERC and see to what extent the so-called Frisian corpus shows congru-
+     ence with it. To this end, I used the sound-changes of Pre-OE as a framework and
+     examined how the Frisian runes and the sound-values they represent fit into that
+     frame (see Waxenberger 2017). For the purpose at hand I only took the inscrip-
+     tions into account which are relevant for the early sound changes.
+
+
+     3.2 Find-Spot vs. provenance
+
+     Three of the four relevant inscriptions of the Pre-OFrisRC were not found in
+     the modern-day provinces of Friesland and Groningen in the Netherlands, but in
+     England (the skanomodu solidus), in Belgium (the Amay Bone Comb) and Ost-
+     friesland, Germany (the Schweindorf solidus; Looijenga 2003: 317, 325).13 However,
+     the uncertainty of their Pre-OFris. provenance (see also 2.2) is not relevant with
+     regard to the absolute chronology of the early sound changes. The relevant ques-
+     tion here is not where but when the sound changes took place.
+
+
+
+
+     12. If not otherwise stated, I used the datings of Looijenga (2003) and Quak (1990). For the
+     ‘Frisian Corpus’ and its problems see also Düwel/Tempel (1968–1970) and Page (2001).
+     13. For the reasons why I excluded the Bergakker Scabbard-Mount and the Borgharen Belt
+     Buckle from the Pre-OFrisRC: see Waxenberger (2017: 97, 104) and also Roschdi (forthc.).
+
+=== page 65 ===
+     Absolute chronology of early sound changes reflected in Pre-Old English runic inscriptions   65
+
+
+
+3.3 The periodization of Old Frisian compared to Old English14
+
+The attestation of a historical stage of Frisian is relatively late and therefore the
+historical stages of Old English and Old Frisian are not directly comparable. I
+offered the following periodization (Waxenberger 2017: 96) for the runic material:
+
+Table 1. Periodization of Old English and Old Frisian
+Pre-Old English: ca. AD 425–650                 Pre-OFris.: 5th cent.–650
+Early Old English: ca. AD 650–900               Early Runic OFris.: ca. AD 650–900
+
+
+
+4.     The sound-changes and their reflections in Pre-OE
+
+Because of the sound changes discussed below, the grapheme inventory of the
+Common Gmc fuþark had to be enlarged and modified. The new runes ōs ᚩ /ɔ̃:/
+and āc ᚪ were added while the old rune ansuz ᚨfuþark adapted the sound value /æ(:)/
+and changed its position (no. 4 to no. 26: see Figures 1 and 3). Rune ōþil ᛟ (no. 24)
+was affected by i-umlaut and became /œ(:)/ but stayed in slot no. 24 (see Figure 3).
+This intermediary phase marks the transition of the Common Gmc fuþark to the
+OE fuþorc. Complex processes must have been at work until the OE vowel system
+was established and the runes reshuffled. By the middle of the seventh century,
+however, the runic data reveals two new (ᚩ = /o(:)/, ᚪ = /a(:)/) and two reassigned
+(ᚨ = /æ(:)/, ᛟ = /œ(:)/) runes.
+
+
+
+
+Figure 1. The Pre-OE innovations brought about by sound-changes
+
+
+
+
+14. For details see Waxenberger (2017: 96f.).
+
+=== page 66 ===
+66   Gaby Waxenberger
+
+
+
+     4.1 The various steps to an absolute chronology
+         of the Pre-OE sound changes
+
+     4.1.1 The new rune o ᚩ /ɔ̃:/
+     Both the fuþark rune o ᛟfuþarki and the new fuþorc rune o ᚩ /ɔ̃:/ occurred in the
+     Pre-OERC. However, the fuþark rune o ᛟfuþarki appears in the context of i-umlaut
+     whereas the new rune ᚩ /ɔ̃:/ appears in a non-umlaut environment.
+
+     Table 2. The distribution of rune ōþil ᛟfuþark o and rune ōs ᚩ /ɔ̃:/
+     Object                         Inscription   Analysis                          Dating
+     1.   Undley Bracteate                        ᚩ in a non i-umlaut environment   ca. AD
+                                                                                    450–500
+     2.   Chessell Down Scabbard    ᚫkᚩ :         ᚩ in a non i-umlaut environment   ca. AD
+          Mount                                                                     525–550
+                                    kᛟri          ᛟ in an i-umlaut environment
+     3.   Watchfield Purse Mount    hᚫribᛟki      ᛟ in an i-umlaut environment      ca. AD
+                                                                                    500–550
+     4.   skanomodu solidus         s⅄ᚪnᛟmᛟdu     ᛟ in a non i-umlaut environment   ca. AD
+                                                                                    575–610
+
+
+     I drew the following conclusions from this distribution. If, on the one hand, the rune
+     o ᛟfuþark was used for inherited /o:/ (< Gmc */o:/ -modu: Table 2, no. 4) in a non
+     i-umlaut environment while also being used in an i-umlaut context (kᛟri, -bᛟki:
+     Table 2, nos. 2 and 3), this most likely means that i-umlaut was in its allophonic phase
+     (otherwise the resulting umlauted vowel would have been written with a different
+     rune from the non-umlauted sound), hence two o’s of different quality existed. This
+     explains the different use of the new rune o ᚩ and the rune o ᛟfuþark.
+          The new o most likely came about by the following sound-changes (Campbell
+     1959: §§ 119, 121, 127 and fn.1) which probably led to an allophonic Pre-OE *[ã:]
+     first (cf. Hogg 1992: §§ 313, 3.22; Waxenberger forthc: chapter 3) and later to a new
+     phoneme long open and nasalized /ɔ̃:/, represented by the new rune ᚩ.
+     1. Common Gmc Compensatory Lengthening:
+        *[a] followed by */ŋ + χ/ (e.g., */braŋχt-/ > Pre-OE */brɔ̃:xt-/ > OE brōhte
+        ‘brought’)
+     2. Anglo-Frisian Compensatory Lengthening:
+        *[a] followed by nasal + voiceless fricative [f, s, θ] (e.g., *gans- > */gɔ̃:s/ > OE
+        gōs ‘goose’)
+     3. WGmc *[a:] (< PGmc *ǣ) before a nasal consonant (e.g., OE mōna ‘moon’)
+
+=== page 67 ===
+   Absolute chronology of early sound changes reflected in Pre-Old English runic inscriptions   67
+
+
+
+
+    Figure 2. Sound changes which brought about Pre-OE /ɔ̃:/
+
+
+In Pre-OE Phase 1 (ca. AD 425–500), the Common Germanic fuþark must already
+have been enlarged by the new rune ᚩ /ɔ̃:/, as the Undley Bracteate shows; this
+new rune then existed side by side with the rune ansuz ᚫfuþark.
+      This first addition was due to the phonemic split of WGmc /a:/ into Pre-OE
+/ɔ̃:/, represented by the new rune ᚩ, and Pre-OE /a:/, still represented by the rune
+ᚫfuþark (see Figure 3 no.1).
+      In this phase, the rune ansuz ᚫfuþark still denotes the short /a/ and long /a:/
+phonemes, including their allophones ([a(:)], [æ(:)], [å], and possibly umlauted [ε]:
+see 4.1.3, no. 3). Rune ᚫfuþark and rune ᚩ must have shared slot no. 4 in the Pre-fuþorc
+(see Figure 3 no. 1) for a certain time at least until the phonemic split of Pre-OE /a:/
+into /a:/ and /æ:/ (see Figure 3 no. 2a–2b), after which the rune ᚫfuþark was re-used
+as rune æsc for the new phoneme /æ:/. Then it was shifted to position no. 26 (see
+Figure 3 no. 2b). In my opinion, the order of the OE epigraphical rune-row on the
+London Thames scramasax reveals the chronology of this development.
+      My next point is the chronologically very critical monophthongization of
+Gmc */aɪ/, which became Pre-OE /a:/.
+
+4.1.2 The monophthongization of Gmc */aɪ/ > Pre-OE /a:/
+The exact time of this sound change is the least straightforward point in my
+chronology, two scenarios being possible. However, what can be said is that Gmc
+*/aɪ/ was most likely monophthongized after AD 425/475 (because it appears,
+
+=== page 68 ===
+68   Gaby Waxenberger
+
+
+
+
+     Figure 3. Rune ᚫfuþark and the new rune ᚩ /ɔ̃:/
+
+     probably with modified quality, as rᚫᛇhᚫn15 on the Caistor-by-Norwich Astra-
+     galus = terminus post quem; for more details see Waxenberger forthc: chapter 3)
+     and before AD 575/610 (skanomodu on the skanomodu solidus = terminus ante
+     quem, with the monophthong obviously in place, according to all hitherto pro-
+     posed etymologies).
+     4.1.2.1 The monophthongization of Gmc */aɪ/ > Pre-OE /a:/ in scenario 1
+     Bammesberger’s (1996: 21) assumption that Gmc */aɪ/ was already monophthon-
+     gized by ca. AD 500 is the foundation for Scenario 1. In this case, monophthon-
+     gization of Gmc */aɪ/ > Pre-OE /a:/2 led to the creation of the new rune āc ᚪ a for
+     Pre-OE /a:/2 in ca. AD 500. This, however, means that the old rune ᚫfuþark must
+     have covered the old Pre-OE /a:/1 and its allophones ([a:]1; [æ:]) for a relatively
+     long time, i.e. from ca. AD 500 until about ca. AD 575/610.
+         In this case, there would have been two runes denoting two different long
+     ā-phonemes for a few generations (see Figure 3 no. 2a). It is important to emphasize
+
+
+     15. The quality of this diphthong is not clear: Bammesberger (2006: 178) gives two possibilities
+     [råɪxån] or [råexån]. In my view, the second element of the diphthong, namely [ı̊], may also
+     have been nasalized in [råı̊xån]; see Waxenberger (forthc: chapter 3).
+
+=== page 69 ===
+   Absolute chronology of early sound changes reflected in Pre-Old English runic inscriptions        69
+
+
+
+that judging by the fact that it was denoted by a rune of its own, the quality of the
+new monophthong ā must have been clearly different from the Pre-OE ā < WGmc
+*ā16 denoted by the rune ᚫfuþark; this is the reason for my labels /a:/1 and /a:/2.
+     As runic writing does not differentiate between long and short quantities, Pre-
+OE short */a/ including its allophones ([a]; [æ] by fronting; [å] in nasal environ-
+ments) must also still have been represented by rune ansuz ᚫfuþark in this phase.
+     Rune ansuz ᚨfuþark was thus used for Pre-OE /a:1/ ([a:]1, [æ:]) < WGmc */a:/
+and for Pre-OE /a/ ([a], [æ], [å]) < Gmc */a/.
+     Later, the partial merger of the two ā-sounds ([a:]1 < WGmc */a:/ and /a:/2
+< Gmc */aɪ/) and the phonemicization of [æ:] (= the other allophone developed
+from WGmc */a:/) were probably carried through in the period ca. AD 575/610.
+
+
+
+
+Figure 4a. The partial merger of the two ā-sounds
+
+As a consequence of this merger, the remaining allophone [æ:] (< WGmc */a:/)
+was phonemicized.
+
+
+
+
+Figure 4b. The restructuring of the reflexes of WGmc */a:/ and Gmc */aɪ/
+
+After this analysis of the relevant long vowels, I would now like to turn to the
+development of short Gmc */a/.
+
+4.1.3 The development of Gmc */a/
+The phonemic split of Gmc */a/ into Pre-OE /a/ and /æ/ at Pre-OE Phase 2 (ca.
+AD 500–610/650) must have been carried through between ca. AD 550 and ca.
+AD 575/625.
+   This is assumed because ca. AD 550 (Loveden Hill Urn; Watchfield Purse
+Mount; Chessell Down Scabbard Mount: see 2.1) is the latest point in time for the
+
+
+16. For one thing, the old /a:/ was most certainly realized by different allophones, one of which,
+the front allophone [æ:], was later to become phonemicized: see Figure 4b.
+
+=== page 70 ===
+70   Gaby Waxenberger
+
+
+
+     use of the old rune ᚫfuþark (for the allophones [a], [æ], [å], i- umlauted [ɛ]), and
+     ca. AD 575/625 is the earliest point in time for the new rune āc ᚪ a (skanomodu
+     solidus; Amay Bone/Comb; Harlingen and Schweindorf solidi: see 2.2).
+          The following time-line of Pre-OE /a/ ([æ], [a], [å]) < Gmc */a/ and its repre-
+     sentation by the runes ansuz ᚫfuþark and āc ᚪ can be inferred from the attestations
+     in Pre-OE and possibly Pre-OFris. (For details, see Waxenberger forthc: chap-
+     ter 3). The rune ansuz ᚫfuþark was used from ca. AD 425 (= earliest possible point in
+     time for the Caistor-by-Norwich Astragalus) to ca. AD 550 (= latest possible point
+     in time for the Chessell Down Scabbard Mount) and the rune āc ᚪ a is attested
+     from 575 at the earliest onwards (= Harlingen solidus: ca. 575–625/Caistor-by-Nor-
+     wich Brooch: ca. AD 610–650). If the Harlingen solidus is Pre-OFris. linguistically,
+     the first attestation for the new rune āc ᚪ a would then come from a more obvi-
+     ously Frisian language context17 compared to the skanomodu solidus (see 3.2). As
+     I have pointed out in 2.2 and 3.1, the question of an Anglo-Frisian unity and the
+     question of an independent Pre-OFris. corpus has been doubted.
+
+     Table 3. Attestations of Pre-OE (and Pre-OFris.) /a/ by runes ᚫfuþark and āc ᚪ
+     Gmc */a/    rune ansuz ᚫfuþark                          rune āc ᚪ a
+                 ca. 425/475 to ca. 550                      from ca. 575/610
+                 (= Caistor-by-Norwich-Astragalus            (= Harlingen solidus/Caistor-by-Norwich
+                 to                                          Brooch) onwards
+                 Chessell Down Scabbard Mount)
+
+
+     Three examples may suffice to demonstrate that the different allophones were all
+     represented by the rune ᚫfuþark
+     1. Spong Hill Urn Stamps (ca. AD 450–500): ᚫlu = alu
+        Distribution rule as given by grammars: [a] when followed by a back vowel
+     2. Loveden Hill Urn (ca. AD 450–550): -bᚫd = -bæd18 in the second element of
+        the name sᛇþᚫbᚫd
+        Distribution rule as given by grammars: Gmc [a] was fronted to Pre-OE [æ]
+        especially in monosyllabic words.
+
+
+     17. The Harlingen solidus was actually found in Frisia; the original find location of the
+     skanomodu solidus remains unknown.
+     18. Various suggestions have been made for the precursor of -bᚨd: 1. Gmc *baðu (Odenstedt
+     1980: 29,18; 1990: 76; 1991: 373) Gmc *-baduz (Nedoma 1991–1993: 121; 2004: 437); 2. Gmc
+     *baðwa-, ‘battle’ (Parsons 1999: 55f.); 3. Gmc *badwō ‘battle, war’ (Looijenga 2003: 281). Since the
+     noun was already monosyllabic I propose Pre-OE [æ] for the root-vowel. For more details, see
+     Waxenberger (forthc: chapter 3).
+
+=== page 71 ===
+     Absolute chronology of early sound changes reflected in Pre-Old English runic inscriptions   71
+
+
+
+3. Watchfield Purse Mount (ca. AD 500–550)
+   According to the handbooks, Gmc *harja- ‘army’ became *hærja- by fronting.
+   The root vowel then developed on to [ε] by allophonic i-umlaut: h[ε]ri- in
+   hᚫrib[œ:]ki
+The distribution of the allophones of Pre-OE/Pre-OFris. /a/ gives us an insight
+into the further development:
+
+Table 4. Overview of the allophones of Pre-OE /a/ and their distribution
+Distribution of allophones of Pre-OE /a/        Distribution of allophones of Pre-OE */a/
+before the allophonic phase of i-umlaut:        during the allophonic phase of i-umlaut:
+(and in the allophonic phase in
+non-i-umlaut environments):
+[a] by restoration and retraction               > [æ] by i-umlaut
+[æ] by fronting                                 > [ɛ] by i-umlaut
+[å] in a nasal environment                      > [æ] by i-umlaut
+
+
+As the bold-facing in Table 4 indicates, there were three different sources for [æ],
+so that this sound became highly frequent. This picture suggests that the phone-
+mic split of Pre-OE /a/ into /a/ and /æ/ was caused by this ‘overload’ of the allo-
+phone [æ].
+
+
+5.     The absolute chronology of the early sound changes: Two scenarios
+
+Returning to the long vowels: as I have pointed out in 4.1.2, the lack of certainty
+regarding the date of the monophthongization of Gmc */aɪ/ is the reason for
+my two scenarios. Phase no. 1, the emergence of the new phoneme /ɔ̃:/ rendered
+by the new rune ᚩ is the starting point in both scenarios (see Table 5 no. 1). If
+the monophthongization of Gmc */aɪ/ took place ca. AD 500 (Bammesberger
+1996: 21), two different long ā’s should then be posited for the period ca. AD
+500–575/610 (= skanomodu solidus and the earliest date given for the Caistor-
+by-Norwich Brooch): these are the Pre-OE /a:/1 < WGmc /a:/ and Pre-OE /a:/2
+(< Gmc */aɪ/: see Table 5, nos. 2a, 2b). While the old rune ᚫfuþark was still used to
+denote Pre-OE /a:/1 (and also for Pre-OE /a/), the new rune āc ᚪ was created for
+Pre-OE /a:/2 (see Table 5, no. 2a). Things changed ca. AD 575–610. I would like
+to point out that the first date (ca. AD 575) marks the earliest point in the date
+range of the skanomodu solidus, ca. AD 610 marking both the latest point in time
+for this solidus and the earliest date of the date range for the Caistor-by-Norwich
+Brooch. I do not consider the latest date for the Caistor-by-Norwich Brooch (= ca.
+AD 650), because the appearance of Pre-OE short /a/ in an unstressed position
+
+=== page 72 ===
+72   Gaby Waxenberger
+
+
+
+     (luda: see 2 footnote 4) reveals that short /a/ must have been well-established by
+     ca. AD 650 at the latest. This is also confirmed by the Harlingen solidus (ca. AD
+     575–625; see Table 3).
+          Phase no. 3 (ca. AD 575–610; see Table 5, Scenario 1, no. 3) marks the period of
+     the partial merger of the two long ā’s, because from this period onwards the new
+     rune ᚪ is exclusively used for /a(:)/. Closely linked to phase 3 in time, phase no. 4
+     (ca. AD 575–625) sets in when the new ᚪ a was also used for short Pre-OE(/Pre-
+     OFris.) /a/, which means that the phonemic split of Pre-OE(/Pre-OFris.) /a/ into
+     /a/ and /æ/ must have been completed by then), with the rune ᚫ now also denoting
+     the palatal phoneme /æ/ beside /æ:/ (see Table 5, no. 4).
+
+     Table 5. Absolute chronology: Scenarios 1 and 2
+                      Scenario 1                                         Scenario 2
+                                   1. ca. AD 450–500: new rune ᚩ for /ɔ̃:/
+     2a. ca. AD 500   Monophthongization of
+     new rune ᚪ       Gmc * /aɪ/ > Pre-OE /a:/2
+     a = /a:/2
+     2b. ca. AD       Old rune ansuz ᚫfuþark was       2. ca. AD 500–575/    Old rune ansuz ᚫfuþark was
+     500–575/610:     used for:                        610:                  used for:
+     ᚫfuþark          Pre-OE /a:/1 ([a:]1, [æ:])       ᚫfuþark               Pre-OE /a:/ ([a:], [æ:])
+                      (< WGmc * /a:/) and                                    and
+                      Pre-OE /a/ ([a], [æ], [å])                             Pre-OE /a/ ([a], [æ], [å])
+     3. ca. AD 575/   Merger of Pre-OE                 3. shortly prior to   Monophthongization of
+     610:             allophone [a:]1 (< WGmc          AD 575/610:           Gmc * /aɪ/ >
+     ᚪ a = /a:/       * /a:/) and                      new rune ᚪ a = /a:/   Pre-OE /a:/ (= ᚪ)
+                      Pre-OE /a:/2 (< Gmc                                    and ‘incorporation’ of the
+                      * /aɪ/) to                                             Pre-OE allophone [a:]
+                      Pre-OE * /a:/merged                                    (< WGmc * /a:/) to
+                      (= ᚪ a)                                                Pre-OE * /a:/merged
+                                                                             (= ᚪ a)
+     ᚫ æ = /æ:/       accompanied by                   ᚫ æ = /æ:/            accompanied by
+                      phonemicization of the                                 phonemicization of Pre-OE
+                      Pre-OE allophone [æ:]                                  allophone [æ:] (< WGmc
+                      (< Pre-OE /a:/1) to                                    /a:/) to
+                      Pre-OE /æ:/                                            Pre-OE /æ:/
+     ᚪ a = /a/                                      4. ca. AD 575–625
+     ᚫ æ = /æ/                                 (= e.g., Harlingen solidus) *
+                      Phonemicization of i-umlaut of Pre-OE [a] and [å] caused the phonemic split of
+                                           Pre-OE /a/ into Pre-OE /a/ and /æ/.
+     * The Harlingen solidus is an example of phonemicized /a/.
+
+=== page 73 ===
+   Absolute chronology of early sound changes reflected in Pre-Old English runic inscriptions     73
+
+
+
+    Scenario 2 differs in Phases 2 and 3 (see Table 5, Scenario 2):
+The monophthongization of Gmc */aɪ/ is posited shortly before the period AD
+575–610: in this case the allophone [a:] of WGmc */a:/ (cf. WS sāwon) merged with
+Pre-OE /a:/ (< Gmc */aɪ/). The Pre-OE allophone [æ:] (< WGmc /a:/) reached
+phonemic status. At the end of Phase 3 there was a phoneme Pre-OE /a:/ (< Gmc
+*/aɪ/ + WGmc [a:]) and a phoneme /æ:/ (< WGmc [æ:]).
+
+
+
+
+Figure 5. Phoneme and grapheme inventory at the end of Phase 3 in Scenario 2
+
+In both scenarios the point in time of the monophthongization of Gmc */aɪ/ is
+pivotal: In Scenario 1 there were two phonemes /a:/1 and /a:/2 at first, whereas
+in Scenario 2 the new phoneme /a:/ emerged from monophthongization of */aɪ/,
+and in this process ‘incorporated’ allophonic [a:] of Pre-OE /a:/ < WGmc /a:/
+(= Table 5 Scenario 2, no. 3).
+    Although there is no immediate runic evidence for the phonemic split of
+Pre-OE /a/ into /a/ and /æ/ caused by i-umlaut, there is, however, evidence for
+the period of phonemicization of i-umlaut of /o(:)/.19 The phonemicization of
+i-umlaut of /o(:)/ probably happened after ca. AD 550 because this is the latest date
+of runic evidence of still allophonic i-umlaut (i.e. not evidenced in the spelling)
+in both the Watchfield Purse Mount and the Chessell Down Scabbard Mount (see
+Table 6). The first overt attestation of the umlauted phoneme /œ:/ is on the Cais-
+tor-by-Norwich Brooch (ca. AD 610–650; see 2 footnote 4). The runic data thus
+allows for the conclusion that i-umlaut of /o(:)/ was phonemicized in the period
+between ca. AD 550–610/650, which indirectly supports the assumption of the
+roughly parallel period of the phonemic split of Pre-OE(/PreOFris) /a/ into /a/
+and /æ/ (ca. AD 575–625: see Table 5, no. 4) triggered by the overload of the allo-
+phone [æ] which, in turn, was mainly produced by i-umlaut of [a] and [å].
+
+Table 6. Allophonic i-umlaut of /o(:)/
+ca. AD 500–550         Watchfield Purse Mount                          hᚫribᛟki [hɛribœ:ḵɪ]
+ca. AD 525–550         Chessell Down Scabbard Mount                    kᛟri [ḵœrɪ]
+
+
+
+19. This article only takes the runic evidence for i-umlaut in Pre-OE into account but does not
+deal with the theories of its development and phonemicization: see, for example, Schulte (1998)
+and also Liberman (1991).
+
+=== page 74 ===
+74   Gaby Waxenberger
+
+
+
+     6.    Summary and conclusion
+
+     I have attempted to shed more light on the sequence of early sound changes and
+     also on the time when the individual sound changes may have happened. A lack
+     of runic data for the time of the monophthongization of Gmc */aɪ/ makes two
+     scenarios possible, which differ in Phases nos. 2 and 3. As can be inferred from
+     Table 5, Bammesberger’s suggestion that the monophthongization occurred ca.
+     AD 500 (= Scenario 1) is possible. However, this early date calls for the assump-
+     tion that two long ā’s of different qualities existed side by side until they partially
+     merged, the result from that point onwards being exclusively represented by the
+     new rune āc ᚪ a. On the other hand, late monophthongization of Gmc */aɪ/
+     (shortly prior to AD 575/610 = Scenario 2) would mean a development with tem-
+     porarily closely interlinked sound changes. This seems more probable to me.
+         However, one thing can be said in favour of both scenarios. They suggest
+     that, at least for the Pre-OE side, the phonemicization of Pre-OE /a/ (< Gmc
+     */a/) happened, if not parallel to, then at least immediately after the restructuring
+     processes of the Pre-OE reflexes of WGmc /a:/ (see Table 5 and Waxenberger
+     forthc: chapter 3). This is an important observation with regard to the principle
+     of sound changes: when the first change was carried through, the whole system
+     began to move, and once set in motion, the individual changes within this chain
+     reaction followed within a relatively short time aiming at quickly overcoming the
+     temporary imbalance of the system and returning to a stable but partially modi-
+     fied system.20
+
+
+     References
+
+     Bammesberger, A. 1996. Frisian and Anglo-Saxon runes: from the linguistic angle.
+        Amsterdamer Beiträge zur Älteren Germanistik 45. 16–23.
+     Bammesberger, A. 2003. The Harford Farm brooch runic inscription. Neophilologus 87. 133–135.
+          https://doi.org/10.1023/A:1021277926944
+     Bammesberger, A. 2006. Das Futhark und seine Weiterentwicklung in der anglo-friesischen
+        Überlieferung. In A. Bammesberger & G. Waxenberger (eds.). Das fuþark und seine
+        einzelsprachliche Weiterentwicklung, Ergänzungsbände zum Reallexikon der
+        Germanischen Altertumskunde 51, 171–187. Berlin: De Gruyter.
+          https://doi.org/10.1515/9783110922981.171
+
+
+
+
+     20. My sincere thanks go to PD Dr. Kerstin Kazzazi for theoretical discussions, reading the
+     manuscript and making most important suggestions for improvement, and I am also grateful to
+     the two referees for other valuable comments and recommendations.
+
+=== page 75 ===
+   Absolute chronology of early sound changes reflected in Pre-Old English runic inscriptions        75
+
+
+Blackburn, M. 1991. A survey of Anglo-Saxon and Frisian coins with runic inscriptions. In
+     A. Bammesberger (ed.), Old English runes and their Continental background. Anglistische
+     Forschungen 217, 137–189. Heidelberg: Winter.
+Campbell, A. 1959. Old English grammar. Oxford: Clarendon.
+Düwel, K. & W.-D. Tempel. 1968–1970. Knochenkämme und Runeninschriften aus Friesland.
+     Mit einer Zusammenstellung aller bekannten Runenkämme und einem Beitrag zu den
+     friesischen Runeninschriften. Palaeohistoria 14. 353–391.
+Hills, C. 1991a. The archaeological context of runic finds. In A. Bammesberger (ed.). Old
+     English runes and their Continental background, Anglistische Forschungen 217, 41–59.
+     Heidelberg: Winter.
+Hills, C. 1991b. The gold bracteate from Undley, Suffolk: Some further thoughts. In
+     H.-J. Häßler (ed.), Studien zur Sachsenforschung, 7. 145–151. Hildesheim: Lax.
+Hines, J. 1984. The Scandinavian character of Anglian England in the Pre-Viking period. BAR
+     British Series, 124. Oxford: BAR.
+Hines, J. 1987. The Undley Bracteate and its runic inscription: I The Undley Bracteate in the
+     context of other Anglian English bracteate finds. In H.-J. Häßler (ed.), Studien zur
+     Sachsenforschung, 6, 74–84. Hildesheim: Lax.
+Hines, J. 1990. The runic inscriptions of early Anglo-Saxon England. In A. Bammesberger &
+     A. Wollmann (eds.), Britain 400–600: Language and history, Anglistische Forschungen
+     205, 437–455. Heidelberg: Winter.
+Hines, J. 1991a. Some observations on the runic inscriptions of early Anglo-Saxon England. In
+     A. Bammesberger (ed.), Old English runes and their Continental background, Anglistische
+     Forschungen 217, 61–83. Heidelberg: Winter.
+Hines, J. 1991b. A new runic inscription from Norfolk. Nytt om Runer 6. 6–7.
+Hines, J. 2017. The Anglo-Frisian question. In J. Hines & N. IJssennagger (eds.), Frisians and
+     their North Sea neighbours: From the fifth century to the Viking Age, 25–42. Woodbridge:
+     Boydell.
+Hogg, R. M. 1992. A grammar of Old English. Vol. 1 Phonology. Oxford: Blackwell.
+Liberman, A. 1991. Phonologization in Germanic: umlauts and vowel shifts. In E. H. Antonsen
+     & H. H. Hock (eds.), Stæfcræft, Studies in Germanic Linguistics, 125–137. Amsterdam:
+     Benjamins.
+Looijenga, T. 2003. Texts & contexts of the oldest runic inscriptions: The northern world 4, North
+     Europe and the Baltic c. 400–1700 AD, peoples, economics and cultures. Leiden: Brill.
+Luick, K. 1921. Historische Grammatik der englischen Sprache: Band 1., 1. Abteilung. Leipzig:
+     Tauchnitz.
+Nedoma, R. 1991–1993. Zur Runeninschrift auf der Urne A.11/251 von Loveden Hill. Die
+     Sprache 35. 115–124.
+Nedoma, R. 2004. Personennamen in südgermanischen Runeninschriften, Studien zur
+     altgermanischen Namenkunde I,1,1, Indogermanische Bibliothek, 3. Reihe. Heidelberg:
+     Winter.
+Nedoma, R. 2016. The personal names on the Loveden Hill Urn and the Watchfield Case
+     Fitting. NOWELE 69. 3–37. https://doi.org/10.1075/nowele.69.1.01ned
+Nicolay, J. A. 2014. The splendour of power. Early Medieval kingship and the use of gold and
+     silver in the southern North Sea area. Groningen: Barkhuis Publishing and University of
+     Groningen Library.
+
+=== page 76 ===
+76   Gaby Waxenberger
+
+
+     Nielsen, H. F. 1981. Old English and the Continental Germanic languages: A survey of
+          morphological and phonological interrelations, Innsbrucker Beiträge zur
+          Sprachwissenschaft 33. Innsbruck: Institut für Sprachwissenschaft der Universität
+          Innsbruck.
+     Nielsen, H. F. 1991. The Undley Bracteate, ‘Continental Anglian’ and the Early Germanic of
+          Schleswig-Holstein. In J. O. Askedal, H. Bjorvand & E. F. Halvorsen (eds.). Festschrift til
+          Ottar Grønvik på 75 årsdagen den 21. oktober 1991, 33–52. Oslo: Universitetsforlaget.
+     Nielsen, H. F. 1994. Ante-Old Frisian: A review. NOWELE 24. 91–136.
+          https://doi.org/10.1075/nowele.24.07nie
+     Nielsen, H. F. 2000. The early Runic language of Scandinavia: Studies in Germanic dialect
+          geography, Indogermanische Bibliothek, Erste Reihe, Heidelberg: Winter.
+     Nielsen, H. F. 2006. The vocalism of the Undley runes viewed from a North-Sea Germanic
+          perspective. In A. Bammesberger & G. Waxenberger (eds.), Das fuþark und seine
+          einzelsprachliche Weiterentwicklung, Ergänzungsbände zum Reallexikon der
+          Germanischen Altertumskunde 51, 209–215. Berlin: De Gruyter.
+          https://doi.org/10.1515/9783110922981.209
+     Odenstedt, B. 1980. The Loveden Hill runic inscription. Ortnamnssällskapet i Uppsala Årskrift,
+          24–37.
+     Odenstedt, B. 1987. The Undley Bracteate and its runic inscription: II. The runic inscription on
+          the Undley Bracteate. In H.-J. Häßler (ed.), Studien zur Sachsenforschung, 6, 85–94.
+          Hildesheim: Lax.
+     Odenstedt, B. 1990. On the origin and early history of the runic script: typology and graphic
+          variation in the Older Futhark, Acta Academiae Regiae Gustavi Adolphi 59. Uppsala:
+          Ekblad.
+     Odenstedt, B. 1991. A new theory of the origin of the runic script: Richard L. Morris’s Book
+          Runic and Mediterranean Epigraphy. In A. Bammesberger (ed.), Old English runes and
+          their Continental background, Anglistische Forschungen 217, 359–387. Heidelberg: Winter.
+     Page, R. I. 2001. Frisian runic inscriptions. In H. H. Munske et al. (eds.), Handbuch des
+          Friesischen/Handbook of Frisian studies, 523–530. Tübingen: Niemeyer.
+          https://doi.org/10.1515/9783110946925.523
+     Parsons, D. 1999. Recasting the runes: The reform of the Anglo-Saxon Futhorc, Runrön 14.
+          Uppsala: Institutionen för nordiska språk.
+     Pesch, A. 2007. Die Goldbrakteaten der Völkerwanderungszeit – Thema und Variation, RGA
+          Ergänzungsband 36. Berlin: De Gruyter. https://doi.org/10.1515/9783110204315
+     Quak, A. 1990. Runica Frisica. Amsterdamer Beiträge zur älteren Germanistik 31/32. 357–370.
+     Roschdi, L. Forthcoming. Runes across the North Sea from the Migration Period and beyond:
+          an annotated edition of the Old Frisian runic corpus. LMU Munich. (Doctoral
+          dissertation)
+     RuneS Database = http://www.runesdb.de (accessed: 28 July 2018).
+     Scull, Ch. 1986. A sixth-century grave containing a balance and weights from Watchfield,
+          Oxfordshire, England. With contributions by D. Nash, B. Odenstedt & R. I. Page, and a
+          technical appendix by S. Pollard. Germania 64. 105–138.
+     Schulte, M. 1998. Grundfragen der Umlautphonemisierung. Ergänzungsbände zum Reallexikon
+          der Germanischen Altertumskunde 17. Berlin: De Gruyter.
+     Vennemann, Th. Forthcoming. The runic inscription skanomodu: Frisian or Anglo-Frisian? In
+          G. Waxenberger, K. Kazzazi & J. Hines (eds.), Old English runes: Interdisciplinary
+          perspectives on approaches and methodologies.
+
+=== page 77 ===
+   Absolute chronology of early sound changes reflected in Pre-Old English runic inscriptions   77
+
+
+Waxenberger, G. 2013. The reflection of Pre-Old English sound changes in Pre-Old English
+    runic inscriptions. Including a list of all the OE runic inscriptions. In H. Sauer &
+    G. Waxenberger (eds.), Recording English, researching English, transforming English,
+    ICEHL Munich 2008, Studies in English Medieval Language and Literature 41, 17–64.
+    Frankfurt a. Main: Lang.
+Waxenberger, G. 2016. Graphemes: (Re)construction and interpretation. In P. Cotticelli &
+    A. Rizza (eds.), Variation within and among writing systems, concepts and methods in the
+    analysis of ancient written documents, LautSchriftSprache – ScriptandSound 1, 353–370.
+    Wiesbaden: Reichert.
+Waxenberger, G. 2017. How ‘English’ is the Early Frisian runic corpus? The evidence of sounds
+    and forms. In J. Hines & N. IJssennagger (eds.), Frisians and their North Sea neighbours,
+    from the fifth century to the Viking Age, 93–124. Woodbridge: Boydell & Brewer.
+Waxenberger, G. 2018. All good things come in threes: The three sequences on the Undley
+    Brateate. In K. Kazzazi, K. Luttermann, S. Wahl & Th. Fritz (eds.), Worte über Wörter,
+    491–533. Tübingen: Stauffenburg.
+Waxenberger, G. Forthcoming. A phonology of Old English runic inscriptions with a concise
+    edition and analysis of the graphemes, Ergänzungsbände zum Reallexikon der
+    Germanischen Altertumskunde. Berlin: De Gruyter.
+
+
+
+Address for correspondence
+
+Gaby Waxenberger
+Institut für Anglistik
+Ludwig-Maximilians-Universität München
+Schellingstr. 3/RG
+D-80799 München
+Germany
+gaby.waxenberger@anglistik.uni-muenchen.de

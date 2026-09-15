@@ -1,0 +1,1686 @@
+Versloot, Arjen P. "Traces of a North Sea Germanic Idiom in the
+Fifth-Seventh Centuries AD." In: Frisians of the Early Middle Ages,
+ed. John Hines and Nelleke IJssennagger-van der Pluijm.
+Woodbridge: Boydell & Brewer, 2021, 339-374.
+doi:10.1017/9781800101326.012
+
+SOURCE AND METHOD
+-----------------
+Born-digital PDF with a reliable embedded text layer; extracted with
+`pdftotext -layout` (poppler). No OCR was involved, so no OCR caveat
+applies: the characters below are the publisher's own, not a recognition
+guess. The PDF itself stays untracked under docs/references/ per
+.gitignore; this text is the committed, citable representation.
+
+PAGE NUMBERING
+--------------
+The `=== page NNN ===` markers below are the PRINTED page numbers of the
+publication, not PDF sheet numbers, so a citation taken from this file can
+be given directly as a page reference. The offset is constant: printed
+page N is PDF sheet N - 338. It was verified mechanically: the printed
+folio appears in the running head or foot of 34 of the 36 sheets,
+and each of the 2 sheet(s) that does not show its own
+folio was inspected individually and has a reason unrelated to
+the offset:
+  p. 352 -- full-page fig., no running head
+  p. 374 -- blank
+Text never crosses a printed page boundary.
+
+Printed pages 339-374 (36 sheets).
+
+--------------------------------------------------------------------------
+
+=== page 339 ===
+                                          • 12 •
+
+          TRACES OF A NORTH SEA GERMANIC IDIOM
+           IN THE FIFTH–SEVENTH CENTURIES AD
+
+                                   Arjen P. Versloot
+
+
+
+
+T
+       he concept of ‘Anglo-Frisian’ as a common branch on the Germanic lan-
+       guage tree was coined in the nineteenth century and appears prominently in
+       the title of Theodor Siebs’s (1889) dissertation Zur Geschichte der Englisch-frie-
+sischen Sprache (see also Nielsen 1985; Stiles 1995; Hines 2017). Nevertheless, people
+were already aware of the similarity between Frisian and English much earlier, per-
+haps even as early as the time of the Anglo-Saxon mission in Frisia in the seventh and
+eighth centuries. In the late sixteenth century, the language of parts of North-Holland
+is described as Half Vries, half Engels by woorden ghebroken [‘Half Frisian, half English
+with broken words’] (Valcooch 1599, fol. A7r), Franciscus Junius, who was an early Old
+English philologist, visited Friesland in 1646–8 to learn Frisian and study Old Frisian.
+The Tegenwoordige Staat der Vereenigde Nederlanden [‘The current state of the United
+Netherlands’] (Schouten et al. 1785), describing Friesland, contains a West Frisian text
+with a parallel English translation to exhibit the similarities between the languages.
+    Examples of English-Frisian parallels are easy to find, well known and seemingly
+convincing. Some older place-names and dialectal words in traditional western Dutch
+dialects attest to the earlier existence of some form of Anglo-Frisian far beyond the
+present-day western border of the province of Fryslân (Tab. 12.1).
+
+ Table 12.1 Examples of similarities between North Sea Germanic language varieties.
+German       Dutch       English     Frisian (West)            Western Dutch dialects
+Gans         gans        goose       goes                      Goes (place-name)
+brachte      bracht      brought     brocht                    brocht
+Brücke       brug        bridge      brêge, brich              breg, brigge
+ab           af          of          ôf                        of
+
+
+   This paper addresses the following issues. The first part is concerned with the con-
+cept of Anglo-Frisian and how it has been critiqued, and subsequently presents a new
+understanding of the concept. This is made possible by various new results from his-
+torical linguistics, including a new interpretation of the early phonological history of
+English (Versloot forthcoming a; forthcoming b); a close scrutiny of the North Sea
+Germanic traces in western Dutch (De Vaan 2017); fuller understanding of the early
+
+                                            339
+
+=== page 340 ===
+                            Frisians of the Early Middle Ages
+
+history of Frisian (Versloot 2014a; Versloot and de Vaan, in prep.); and better access to
+the dialectal nuances of Old Saxon (Tiefenbach 2010; Versloot and Adamczyk 2017).
+The second part aims at establishing a link between the linguistic and the archaeologi-
+cal evidence. Special emphasis is put on the spatial organization of the linguistic traces
+and the actual speakers of these idioms by an analysis of the geographical patterns in
+the distribution of runic inscriptions, place-names commonly linked to the migration
+of populations in the Early Middle Ages, and some archaeological artefacts associated
+with the early Frisians and Anglo-Saxons.
+
+                           The Anglo-Frisian hypothesis
+
+The deconstruction of the Anglo-Frisian hypothesis
+The ‘old-school’ mode of reasoning about North Sea Germanic (including Anglo-Fri-
+sian commonalities) finds its climax in Schwarz’s (1951) Goten, Nordgermanen,
+Angelsachsen, where various Stämme/Völker (‘tribes/peoples’) with apparently clearly
+distinguishable ethnic and linguistic profiles move around, and ad hoc and in a fairly
+eclectic way exchange linguistic traits and features. Schwarz is very explicit about the
+origins of Anglofriesisch: ‘Es wird mit Recht geschlossen, daß die gemeinsamen Züge
+des Fries. und Ae. bereits auf dem Festlande ausgebildet waren.’ [It will be correctly
+concluded that the common traits of Frisian and Anglo-Saxon had been established
+already on the Continent.].
+   The Anglo-Frisian hypothesis of a common idiom that was taken to England by the
+Germanic invaders was severely criticized in Kuhn’s (1955) seminal article, which was
+in fact an expanded review of Schwarz’s book. He introduced a contrasting scheme,
+arguing for a fairly undifferentiated North-West Germanic language prior to the move-
+ments of the Migration Period. As in many other instances, ideas that later become
+mainstream can often be found long before that time. Chadwick’s (1889) account of
+events is entirely in line with Kuhn’s approach. Chadwick wrote (1889, 264):
+  In saying that none of the existing distinctions between Scandinavian, Anglo-Frisian
+  and West Germanic go back to a period much before the beginning of the fifth cen-
+  tury I do not mean that before that time dialectical differences were entirely wanting.
+  Considering the size of the area over which these languages are (and were even at
+  that time) distributed, this would be improbable. I mean rather that the divisions and
+  dialects, which existed before that time, were probably different from those which
+  appear later. The political events of the fourth and fifth centuries involved a general
+  dislocation of the Germanic world; new groups were formed and old differences
+  would naturally often be obliterated.
+The relationship among and differentiation of the Germanic languages has been care-
+fully analysed in work by Nielsen (1985; 1998; 2000; 2010), revealing a nuanced picture
+of various early changes, gradually deploying into the differentiation between North
+Germanic, North Sea West Germanic and Continental West Germanic, before, during
+and after the landnam of England (adventus Saxonum). A view of this delicate and
+complicated process, without sharp boundaries, but largely taking place in a language
+continuum, where different changes spread over smaller or larger areas, was also devel-
+oped in Stiles (2013). Most of the ‘classical’ North Sea Germanic features fall in the
+
+                                           340
+
+=== page 341 ===
+                                        North Sea Germanic Idiom
+
+period during and after the landnam. Little to nothing is left of an Anglo-Frisian idiom
+on the Continent prior to the year 400.
+    Instead of a pre-landnam Anglo-Frisian on the Continent, Kuhn and others suggest
+the development of a common language in the period during and after c. 400, where
+Frisian and English, with the inclusion of the Dutch coastal region (see Tab. 12.1), largely
+developed in a parallel vein for the next two centuries. But this version of Anglo-Frisian
+is nowadays mostly discarded as well. To quote Stiles (1995, 211):
+     [T]he evidence does not support the notion of an ‘original Anglo-Frisian unity’
+     or sub-protolanguage. This is because it is not possible to construct the exclusive
+     common relative chronology that is necessary in order to be able to establish a node
+     on a family tree.
+What we end up with is a set of features that spread at different times and different pace
+over varying regions around the North Sea. The reconstructed timing of the events is
+often so different that nothing more than a vague common tendency is left. The lack of
+similarity in the chronologies of phonological changes between English and Frisian, as
+mentioned by Stiles, is illustrated in Table 12.2.
+
+
+ Table 12.2 Selected ‘Anglo-Frisian’ sound changes and their relative chronological
+ ordering in English and Frisian according to the current conventional understanding.
+ Sound changes in Old English                   Old English        Sound changes in Old Frisian
+                                                dialects
+ 1. Raising of /æ:/ > /e:/                      Mc, Nh
+ 2. Rounding */a(:)/ > /ɔ(:)/                   [WS], Mc, Ke,      Rounding */a(:)/ > /ɔ(:)/
+                                                Nh
+ 3. Monophthongization of */ai/                 Mc, WS, Ke, Nh
+ 4. Fronting */a/                               Mc, WS, Ke, Nh     Fronting */a/ - restricted
+ 5. Breaking: /i(:), e(:), æ(:)/ > io, eo, ea   WS, Mc, Ke, Nh     Monophthongization of */ai/
+                                                                   - restricted
+ 6. Combinative ‘breaking’ /æ/ > /a/            Mc, Nh             12. Monophthongization of */au/
+ 7. Restoration of /a/                          WS, Mc, Ke, Nh
+ 8. Restoration of /a:/ (partly)                WS
+ 9. Palatal diphthongization: /e(:), æ(:)/      WS, Nh
+ > ie, ea
+ 10. i-Mutation                                 WS, Mc, Ke, Nh     i-Mutation
+ 11. Smoothing <io, eo, ea> > <i, e, æ>         Mc, Nh             13. Labial mutation and breaking
+                                                                   Raising of /æ:/ > /e:/
+ Abbreviations
+ -
+
+
+ Ke = Kentish, Mc = Mercian, Nh = Northumbrian, WS = West Saxon
+ -
+
+
+ Examples OE/OFris: 1. rēd/rēd ‘advice’; 2. mōnað/mōnath ‘month’; 3. clāþ/clāth ‘cloth’; 4. þæt/thet
+ ‘that’; 5. weorc,seax/werk,sax ‘work,knife’; 6. barna/berna ‘children’ (gen.pl.); 7. dagas/*dagar ‘days’;
+ 8. māgas/mēgan ‘kinsmen’; 9. scēap/skēp ‘sheep’; 10. dēman, doeman/dēma ‘to judge’; 11. (cf. 5.)
+ werc,sæx/werk,sax ‘work,knife’; 12. rēad/rād ‘red’; 13. þicce/thiukke ‘thick’.
+
+
+                                                     341
+
+=== page 342 ===
+                                 Frisians of the Early Middle Ages
+
+   Table 12.2 illustrates that there is only a limited overlap in changes between English
+and Frisian and that most of the changes that are common are allocated to different
+places chronologically. The unavoidable conclusion is that, despite the similar out-
+comes, these changes were not ‘common’ in terms of timing and probably then also
+in terms of causation. Kortlandt (1999; 2008) suggests a common basis, with many
+developments actually shared in chronology and time by English and Frisian. Some of
+his ideas are reflected in the suggestions I will make but differ from it in other points.
+A full discussion goes beyond this chapter but some of my arguments can be found in
+Versloot (2017a, 318).
+
+The evidence reconsidered
+The archaeological evidence
+The cumulative archaeological and genetic evidence (for a recent summary, see, e.g.,
+Colleran 2016) points in the direction of a re-settlement of the southern North Sea
+littoral (Frisia) and a landnam by speakers of Germanic languages from a common
+stock of people with origins in the Elbe-Weser Triangle, the southern Jutlandic pen-
+insula (including Angeln), with some further admixture of people from further north
+up into Norway (Nicolay 2005; Higham and Ryan 2015, 70–125). This potentially opens
+up a way back to the ‘old-school’ thinking about a common Anglo-Frisian Continental
+‘tribe’, that took its language to its new homelands. However, we adhere to the lin-
+guistic reconstructions of the last decades in the spirit of Chadwick, Kuhn, Nielsen
+and Stiles and conclude on the basis of their research that these people spoke a fairly
+undifferentiated North-West Germanic at the beginning of the fifth century. The new
+dialectal configuration of post-migration Germanic may incidentally show linguistic
+traces which existed already earlier in restricted parts of the Germanic continuum but
+cannot be pinpointed in a one-to-one relationship to specific homelands.1
+The phonological history of English
+I recently suggested an extensive reform of the earliest phonological history of English
+(Versloot, forthcoming a; forthcoming b). This proposal is based on an in-depth analy-
+sis of the oldest Early Old English records: Cædmon’s Hymn, Bede’s Death Song (Sweet
+and Whitelock 1967, 181–3), the Franks Casket (Findell 2014, 44–54), minor sources
+that are traditionally linked to Northumbria, and the Épinal and Erfurt Glossaries,
+comprising around 1,100 parallel tokens (Pheifer 1974). All of these sources are from
+the late seventh or early eighth centuries; only the Erfurt version of the Glossaries is
+usually dated somewhat later in the eighth century. Together with my analysis of the
+development of Proto-Germanic *ai (Versloot 2017a) they suggest a major change to
+the chronologies shown in Table 12.2.
+    The pivotal issues are the place of the Old English (OE) breaking in the relative
+chronology and the scope of fronting. OE breaking primarily concerns the change of
+short Proto-Germanic (PGmc) *a and e into ea and eo respectively, as in OE weard,
+weorc ‘guard’, ‘work’. Old Frisian (OFris) did not have this type of breaking and its
+
+1   In a similar vein, some traits of American English can be found in dialects in Britain, but there is no
+    direct relation between geographical variation in American English and specific British English dialects
+    (see also Trudgill 2010).
+
+                                                   342
+
+=== page 343 ===
+                                     North Sea Germanic Idiom
+
+cognates of these OE words are therefore ward and werk, preserving the PGmc vowel
+qualities. Anglo-Frisian fronting appears in words such as OE þæt and dæg ‘that’, ‘day’,
+OFris thet, dei; cf. Dutch dat and dag, Old Norse þat and dagr. The current theory,
+which can be found in, for instance, Campbell (1959) and Hogg (2011), works with a
+general implementation of fronting of PGmc *a and a subsequent nearly exceptionless
+breaking of vowels before *rC, *lC and *x.2 The application of these two rules would
+predict, however, many more words with fronted or broken vowels than are in fact
+attested in historical OE texts. To make up for the disparity, a set of additional sound
+laws has been introduced (‘retraction’ and ‘smoothing’; nos. 6, 7 and 11 in Table 12.2) to
+account for the actually attested forms, making the chronology of OE according to the
+current theory extremely complicated and packed with contradictory and sometimes
+phonologically questionable sound changes. There are clear dialectal differences in this
+respect. The dialect of Wessex, commonly referred to as West Saxon, has many more
+broken vowels than the dialects more to the north, commonly labelled Mercian and
+Northumbrian. But even then, many actually attested forms, even in West Saxon, have
+to be ‘explained’ by positing mixtures of spelling traditions, sloppy scribal practices
+such as ‘scribal error(s)’ and ‘scribal confusion’, or otherwise archaic spellings at a time
+when no body of writing in the vernacular existed that people could take these spell-
+ings from.3
+   The following sequences leading from PGmc *a to e in Old English and Old Frisian
+in a similar phonological context, may serve as an example of the extra steps considered
+by the current theory for Old English.
+    -
+Old English:         PGmc *harwian- ‘to abuse, treat with contempt’
+  		                 > *hærwian (fronting)
+  		                 > *hearwian (breaking)
+  		                 > herwan (Anglian i-mutation)
+    -
+
+Old Frisian: PGmc arƀijō- (form attested on the third- or fourth-century Tune
+		  stone, Norway) ‘heir’
+  		 > erva (i-mutation by earlier -ij-)
+    -
+
+The intermediate steps posited for OE *hærw- and *hearw- do not appear in any form
+of early writing. Moreover, the alleged effect of i-mutation in OE, namely *ea > e, is
+phonologically illogical; the normal manifestation of i-mutation is directly from [a] >
+[ɛ]. The ‘Frisian’ scenario is much easier and more straightforward: *a was fronted by
+i-mutation to e and the same could be assumed for pre-OE.
+   In the alternative scenario, suggested by myself and based on the relative order of
+events as reconstructed in Frisian, there is an only partial fronting of PGmc *a in OE,
+
+2   ‘C’ = any consonant; ‘x’ represents Dutch and German <ch> in reconstructed forms.
+3   A typical example is the frequent occurrence of <ald> ‘old’ without breaking in sections of the West
+    Saxon Parker Chronicle from the ninth century, whereas the spelling <eald> with breaking predomi-
+    nates in entries describing events from the tenth century. The current theory ignores this transition in
+    spelling as an indication of a change in pronunciation around the year 900 because breaking is sup-
+    posed to have taken place three or four centuries earlier. Campbell (1977, §143) describes the variation
+    in the chronicle only in terms of changes in ‘spelling’. Hogg (1992, §5.15) assumes that there were two
+    contemporaneous dialects side by side, one with and one without breaking and that the older sections
+    were written by speakers of the dialect without breaking. This equally assumes that breaking is of much
+    earlier date than even the oldest sections of the chronicle.
+
+                                                   343
+
+=== page 344 ===
+                                  Frisians of the Early Middle Ages
+
+under nearly identical conditions as in Frisian, and a much later date for the breaking
+of PGmc *a and *e. An allocation of OE breaking to the late seventh century, deploying
+further in the eighth and ninth centuries both geographically and in respect of phono-
+logical environments, eliminates changes 6, 7, 8 and 11 from the chronology of OE in
+Table 12.2. The relative order of the remaining sound laws can subsequently be adjusted,
+and their relative chronology brought into line with the Frisian chronology.
+The linguistic shape of the Dutch coastal region
+De Vaan (2017) offers the most comprehensive discussion of the potentially North Sea
+Germanic features in the coastal dialects of Dutch. His conclusions are sobering for
+the Anglo-Frisian hypothesis in that many of the features interpreted as residues of an
+earlier North Sea Germanic idiom in the coastal region of the Netherlands, Belgium
+and northern France can just as well or better be interpreted as local developments,
+unrelated to what happened in Frisian and English. This careful scrutiny of the evi-
+dence secures, at the same time, a number of features or relic words (often only in
+place-names), that can be positively identified as relics of a North Sea Germanic idiom.
+For the sake of this research, the latter group is of interest. De Vaan enumerates these
+features and identifies them clearly (2017, 515–22). They are our only access to this vari-
+ety of North Sea Germanic.4
+The shape and extent of the North Sea Germanic idiom
+The ‘slimmed’ OE chronology turns out to fit very well with the developments as recon-
+structed for Frisian. Many of these developments are attested in relic words and place-
+names in the coastal Dutch zone as well; note that almost none of them is an integral
+part of the mainstream phonology of traditional coastal Dutch dialects. Many of these
+developments can also be found in Old Saxon, in particular the central and eastern
+varieties spoken in the river basins of the Weser and Elbe (Versloot and Adamczyk
+2017).
+    The evidence from those four varieties of Germanic (English, Frisian, coastal Dutch
+and Old Saxon) can be combined in a ‘North Sea Germanic tick-list’ containing the
+most prominent North Sea Germanic features. Table 12.3 presents this list and the
+geographical scope of the various developments by mentioning which varieties par-
+ticipated in which sound changes. Where necessary and reconstructable, sub-dialectal
+patterns have been included.
+    Table 12.3 illustrates two important features. First of all, there is a largely shared
+chronology, both relative and absolute, for English and Frisian, including most of the
+Dutch and Flemish coast all the way to Calais, and the North Sea-oriented varieties
+of Old Saxon. This strong linkage remains intact up to i-mutation, which is a gen-
+eral, widespread phenomenon in North Sea Germanic, as opposed to the restricted
+‘primary i-mutation’ of short PGmc *a in the Continental West Germanic varieties
+(Salmons 2018, 130–1). i-mutation is dated around the year 600 for English, perhaps
+with a slight delay in Frisian, and has a much more restricted application in Old Saxon.
+
+4   I have recently identified a 48-line poem from 1643 as a likely specimen of Frisian from North Holland
+    (Versloot 2018). Next to a one-line proverb from the Waterland region near Amsterdam, it seems to be
+    the most extensive witness of Anglo-Frisian locally developed west of the Vlie. As far as attested in this
+    brief text, it shows the Frisian features mentioned in Table 12.3.
+
+                                                    344
+
+=== page 345 ===
+                                             North Sea Germanic Idiom
+
+       Table 12.3 An overview of the dating and geographical spread of prominent North Sea
+       Germanic linguistic developments.
+North Sea Germanic             Date               Examples from          Distribution
+changes                                           modern English/
+                                                  modern West
+                                                  Frisian < Proto-
+                                                  (West) Germanic
+1. Rounding of /a/ and /ā/     fifth century      month/moanne <         OE-AK(S) OF             FZH        EF,[WF]
+                                                  *mānōþ-
+2. Fronting of ā < PGmc        fifth century      sheep/skiep <          OE             OF       FZH        EF
+ē1                                                *skāpa-
+3. Fronting of PGmc /a/        fifth century      tail/teil < *tegl- <   OE             OF       FZH        [EF]
+                                                  *tagla-
+4. Monophthongization          early sixth        toe/tean <             OE             [OF]     [H]/       [EF,
+PGmc /ai/ > ā                  century            *taixwō-                                       [ZF]?      WF]
+5. Monophthongization          early sixth        beam/beam ‘tree’       (OE?)          OF       FZH        [EF,WF]
+PGmc /au/ > ā                  century            < *bauma-
+6. Loss of nasals before       400–600            us/ús < *uns           OE             OF       FZH        EF,WF
+spirants
+7. Palatalization of initial   sixth century      yield,church/          OE             OF       [FZH]      EF
+/g/ and /k/ before front                          jilde,tsjerke <
+vowels                                            *geldan-,*kyrikō-
+8. i-mutation (‘secondary’) c. 600                green/grien <          OE             OF       FZH
+                                                  *grōni-
+9. Rising diphthongs <         early seventh      steer/stjoere <        [OE]           OF       H
+PGmc eu                        century            *steurijan-
+10. OFris. Breaking            seventh century right/rjocht <            [OE-K]         OF       H
+                                               *rexta-
+11. OEng. Breaking             seventh– ninth     heart/hert <           OE
+                               centuries          *hertan-
+12. Shortening of ai > æ       late seventh       ladder/ljedder <                      OF       ZH         EF,WF
+                               century            *hlaidrō-
+13. Raising of ǣ (PGmc         > 700              meadow/miede <         OE-AK          OF-S     FZH        EF
+ē1) > ē                                           *māþwō-
+14. Delabialization of         eighth–tenth       thin/tin < *þunwi- OE                 OF       FZH
+mutated vowels                 centuries
+
+       Abbreviations
+       -
+
+
+       OE = Old English: S = Saxon, A = Anglian, K = Kentish
+       OF = Old Frisian (all dialects): S = ‘South Frisian’ – all varieties, except for Insular North Frisian
+       Traces in Dutch coastal varieties: F = Flanders, Z = Zeeland, H = Holland
+       EF = Eastphalian Old Saxon; WF = Westphalian Old Saxon
+       […] = only under specific phonological conditions or with very little attested evidence.
+
+
+
+
+                                                          345
+
+=== page 346 ===
+                                 Frisians of the Early Middle Ages
+
+Developments 4, 6, 7(?), 8, 9 in Table 12.3 – and also, in a specific North Germanic form,
+10 and 11 – are also found in North Germanic (Haugen 2004, 53–70).
+   This shared chronology is not categorical: already before 600 we can detect differ-
+entiation between English and Frisian in the monophthongization of PGmc *ai and
+possibly also of *au; Old Saxon hardly participates in the fronting events, but evidence
+from the northern part of Saxonia is lacking. In a few instances, there is also dialectal
+differentiation within Old English and Old Frisian. The commonalities in the ‘inner
+circle’ of North Sea Germanic do not end abruptly after 600 but continue into the
+seventh and eighth centuries. This is very much in line with the concept of waves rather
+than a discrete node on the language tree. A hybrid model, combining both shared,
+areal phenomena as well as simultaneous gradual differentiation is sometimes called
+the linkage model (see e.g. Schulte 2018, 20). The coastal language of Zeeland and
+Flanders was not Frisian in a strict sense, perhaps already in the case of PGmc *ai,
+but certainly from the seventh century onwards with the lack of Frisian breaking. The
+whole Dutch coastal zone did, however, participate fully in the wider ‘Anglo-Frisian’
+developments. Especially the varieties of Old Saxon spoken in the river basins of Weser
+and Elbe, which were apparently oriented more towards the North Sea than the speech
+of Saxons in the south-western regions near the Rhine, are involved in various of the
+early changes but hardly in any of the later ones mentioned in this overview.5 A link
+with North Germanic was particularly active from the sixth to the eighth centuries.
+   The North Sea region with strong linguistic links is archaeologically characterized by
+small-scale regionalization. The gradual break-up of the North Sea Germanic dialectal
+continuum since the seventh century goes together with the formation of larger politi-
+cal and cultural units, which can be understood as a period with growing inter-regional
+contrasts and shrinking intra-regional contrasts (for the archaeological evidence, see
+Nicolay 2017, passim and esp. 88): the building of larger territories in England, and
+Frisia and Saxonia becoming a part of the Frankish Empire, with Scandinavia remain-
+ing ‘pagan’ territory beyond those Christian kingdoms.
+   Is there an Anglo-Frisian node in the West Germanic family tree? Not in a strict
+sense, just as little as there was a West Germanic node (see the schema of differentia-
+tion of Germanic in Nielsen 2000, 287–93).6 But there was a period in the history of
+Germanic, roughly between AD 450 and 650, when varieties that later evolved into Fri-
+sian and English shared most of their innovations (see, in a similar vein, Deckers 2017,
+178–9). The innovative power of this region remained active into the ninth century.
+Many of these innovations were at the time also found in the Dutch and Flemish coastal
+regions and extensive parts of present-day northern Germany, but largely disappeared
+from them after 800, leaving Frisian as an increasingly shrinking North Sea Germanic
+
+
+5   Versloot and Adamczyk (2017) provide examples of a few more Old Saxon developments from the
+    seventh and eighth centuries, not discussed in Table 12.3, which Old Saxon shared with Old Frisian
+    and partly with Old English. Old Frisian and Old Saxon also share some morphological innovations
+    not found in English, such as the productivity of the ending ‑u as a marker of the instrumental, the
+    replacement of the nom.sg. ending of the ō-stems by the acc.sg. and the productivity of the i-stems,
+    although much more limited in Frisian than in Saxon.
+6   Even though English and Frisian are typologically definitely West Germanic in many aspects, they share
+    many traits with Scandinavian that Continental West Germanic does not: traits that developed later
+    than the typically West Germanic ones. This implies that there was not one, decisive split; see Euler
+    (2013, 41–58) for an overview of features, with different emphases in his conclusions.
+
+                                                  346
+
+=== page 347 ===
+                                       North Sea Germanic Idiom
+
+relic language area on the Continent (Århammar 1990). As a consequence, Frisian and
+English are the heirs of an ‘Anglo-Frisian’ sub-group of West Germanic which encom-
+passed a much wider geographical area than only England and Friesland at the time of
+its emergence in the Early Middle Ages.
+On the origin of North Frisian
+One of the major questions of Frisian historical linguistics has concerned the rela-
+tionship between the so-called Insular North Frisian dialects, spoken on the islands
+of Sylt, Helgoland, Föhr and Amrum, and the rest of Frisian. The issue boils down to
+the following question: does the Insular North Frisian dialect group represent a branch
+on the Frisian node, the result of migration from ‘South Frisia’, or does it represent
+an – albeit closely related – autochthonous branch of a language spoken by a pre-Mi-
+gration-period population that did not move to Britain or Frisia? Although situated in
+the zone with tidal flats along the southern North Sea, Nordfriesland is historically not
+a continuation of the southern regions: it was part of the Danish kingdom from the
+Early Middle Ages and it is separated from the rest of Frisia by the region of Ditmarsch
+without any historical reference to ‘Frisianness’ or traces of the Frisian language there.
+This spatial interruption is also visible in the map in Figure 12.1, showing an interme-
+diate zone with very few place-names in *haim or *ing, and it implies that the dialects
+of the North Frisian islands are either an archaic relic zone or the result of historical
+colonization from the south.
+    There is quite some research on this topic and excellent discussions and summaries
+can be found in Hofmann (1956) and Århammar (1968; 1990; 1995; 2001). There are
+striking differences between the North Frisian dialects of the coast and the Halligen
+on the one hand and the islands listed above on the other, in historical phonology and
+lexicon (see the references). Moreover, the speakers of the island dialects do not iden-
+tify their speech as ‘Frisian’, contrary to the speakers on the coast and Halligen.7 The
+latter group is historically attested for the first time in the twelfth century and historical
+geographical research points to a settlement from the south in the eleventh century
+(Bantelmann et al. 1995, 62); the ‘Frisianness’ of the coastal and Halligen dialects is
+not disputed in any way. An essential methodological issue is the question in what
+respects the two groups of varieties (Insular North Frisian and all other dialects, here
+referred to as ‘South’ Frisian, including the language of the North Frisian coast and
+Halligen) should be similar or differ in order to consider either of the two hypotheses
+as being refuted or proven. This poses the subsequent question: what makes Frisian
+linguistically unique, compared with all other attested Germanic languages? Such lin-
+guistic features will preferably represent linguist innovations, as archaisms do not prove
+a common stage of development and can be found in any Germanic variety.8 Common
+
+
+7   Although an incentive to open this discussion, this argument bears no weight in practice: the speakers’
+    self-designations of the other Frisian island varieties are not ‘Frisian’ either, but simply the adjectival
+    form of the name of the island or even of ‘islanders (speech)’. Simultaneously, dialects such as ‘Westfries’
+    in North Holland (Netherlands) or ‘Ostfriesisch’ in Lower Saxony (Germany) owe their names to the
+    regions and are varieties of Dutch and Low German respectively, although the regions were historically
+    Frisian speaking.
+8   It should be kept in mind that the application of terms such as ‘language’, ‘dialect’ or ‘variety’ are largely
+    interchangeable in historical linguistics. Germanic is a ‘dialect’ that developed from Proto-Indo Euro-
+    pean, whereas it is often considered to include various ‘languages’, such as English, Dutch, Frisian etc.,
+
+                                                      347
+
+=== page 348 ===
+                                   Frisians of the Early Middle Ages
+
+innovations that are fully and only implemented in one (group of) varieties are hard
+to find: most linguistic innovations spread over larger areas and it is the combination
+of a series of innovations and archaisms that characterize a language (group). Another
+complication is that the varieties under consideration are closely related under both
+hypotheses anyway and have been in constant contact with and influenced by other,
+also related, neighbouring varieties. Last but not least, the dates associated with a
+potential colonization scenario point to a time in history, the eighth century, when the
+Germanic languages were not highly differentiated anyway.
+   This hints at another aspect to take into consideration. The idea of an autochthonous
+population on the islands, speaking some form of North Sea Germanic, was brought
+forward based on the assumption that many of the typical North Sea Germanic features
+had already developed on the Continent before the Migration Period (see Schwarz
+1951, discussed above). If that were correct, the island dialects could be truly relics
+of an otherwise vanished (emigrated) language of the southern Jutlandic peninsula.
+However, the current interpretation works from the reconstruction that most of these
+features only developed between the fifth and eighth centuries. If the island dialects
+developed largely parallel but not identical to Frisian and English during that period,
+why, for instance, did Ditmarsch or other parts of Jutland not participate, whereas the
+North Frisian Islands did? This consideration weakens the ‘autochthonous’ hypothesis
+substantially.
+   Every interpretation starts from the well-founded observation that the Insular
+North Frisian dialects’ closest genetic relatives are the ‘South’ Frisian dialects.9 This
+narrows the question to be answered down to: is there a considerable body of inno-
+vative features that are fully and only implemented in ‘South’ Frisian in comparison
+with any third Germanic language and which are also found in Insular North Frisian?
+The answer is ‘yes’. Key witnesses can be found in phonology, but also morphology and
+lexicon (Århammar 1995, 73–7; 2001, 533):
+    -
+    1. The differentiation in the monophthongization of PGmc *ai (c. 500) as demon-
+       strated by the following examples:
+    		PGmc *klaiþ- ‘cloth, dress’ > OE clāþ > ModE cloth; OFris clāth(ar) (pl.) >
+       ModWFris klean, ModINFris (Föhr) kluaser ‘clothes’; ModDu. kleed;
+    		PGmc *staina- ‘stone’> OE stān ‘stone’ > ModE stone; OFris stēn > ModWFris
+       stien, ModINFris (Föhr) stian; ModDu. steen.
+
+
+
+
+    each with its own ‘dialects’. So, ‘dialect’ primarily refers to a genetic and diachronic relationship whereas
+    ‘language’ refers to a group of linguistically closely related dialects. All are ‘varieties’ of language. The
+    use of these terms here should not be confused with their sociolinguistic application, where ‘language’
+    is mostly associated with a codified, normalized and standardized language variety with high prestige
+    in the society while the term ‘dialect’ is mostly applied to spoken vernaculars.
+9   This is not to be confused with the linguistic distance among the present-day Frisian varieties. Most
+    of these are not mutually intelligible and the distances between them are greater than among the three
+    Scandinavian languages Danish, Norwegian and Swedish, or between Dutch and Afrikaans (Swarte et
+    al. 2013, 297–8). Both among and even within the two North Frisian subgroups, mutual intelligibility
+    is not obvious (Århammar 1975). The strong contrast between the modern Frisian variants (e.g. under
+    1., immediately below) attests to the disparate development of the varieties of Frisian varieties since the
+    Early Middle Ages.
+
+                                                      348
+
+=== page 349 ===
+                                North Sea Germanic Idiom
+
+The lexical distribution of forms pointing to an earlier *ā or *ē is nearly identical across
+‘South’ Frisian and Insular North Frisian (Versloot 2017a, 304–5).
+   -
+
+   2. The breaking of PGmc *e before *xt to iu, as in OFris riucht < *rexta- and instances
+      of breaking by following *u/w as in OFris niugen < *nigun < *niun, ModWFris
+      rjocht, njoggen, ModINFris (Föhr) rocht, njüügen ‘right’, ‘nine’. These breaking
+      phenomena are also found in some varieties of Old English (e.g. incidental reoht,
+      niogen alongside dominant riht, nigon) as well as in Old Norse, but the phono-
+      logical conditioning and the actual lexical distribution of breaking phenomena is
+      unique across all Frisian varieties.
+   3. Generalization of the fronting of PGmc *a in the feminine ō-stems, e.g. PGmc
+      *talō-, OE talu, ModDu. taal, OFris tele > ModWFris tel(tsje), ModINFris (Sylt)
+      tial ‘story’.
+   4. The ending -ar in the nominative plural of the masculine a-stems, OFris bāmar
+      ‘trees’, ModINFris (Föhr) buumer, cf. OE bēamas, Old Saxon boumas. Frisian is
+      the only West Germanic language with this ending (Versloot 2014b; 2017b). The
+      ending is common in Old Norse, but in a different distribution than in Frisian.
+      Its morphological distribution is unique for Frisian, where it appears also in the
+      s-stems, e.g. Föhr ai – aier ‘egg(s)’, but where it is absent in Old Norse: egg (sg. and
+      pl.).
+   5. The semantic shift of PGmc *texxō- ‘group, community’, OE tiohh, ModHG
+      Zeche, to the fieldname OFris *tiuche ‘land parcel’, found on Föhr as Tjüüch, in
+      the place-name Tjuchem (prov. Groningen) and the historical fieldname ‘t Joch
+      (near Leiden in Holland) (Hofmann 1972).
+   -
+The aggregated evidence leads to a common reconstructable ancestor for all Frisian
+varieties, including Insular North Frisian, that can be dated to the period somewhere
+between 650 and 850. This dating is based on runic inscriptions and names in early
+medieval Latin texts (Gysseling 1962; Versloot 2014a). The timeframe matches the
+archaeological evidence concerning new or strongly extended settlements in the North
+Frisian Islands (see Majchczack, this vol.).
+
+
+            The speakers of Anglo-Frisian: origins and distribution
+The demographic and societal context
+Assuming that the proposed reform of the Old English phonological history fits, and
+that Table 12.3 is an adequate interpretation of the attested linguistic facts, one may
+wonder whether there was any reconstructable historical reality that supports the idea
+that language changes were able to spread so easily and in many instances so com-
+pletely across the North Sea. The reconstruction given in Table 12.3 suggests in fact
+that the speakers on either side of the North Sea made up one speech community, with
+only minor dialectal differences, for at least two hundred years (c. AD 450–650) (for
+archaeological evidence of such a common zone, see Nicolay 2005; 2014). This pre-
+supposes intensive language contacts. These contacts may have run primarily through
+close contacts at various levels and among specific groups in the society, such as trading
+communities, or elite and warrior classes in these early societies, including marriages
+(Bos and Brouwer 2005); see Deckers (2017) and Kauhanen (2017) for a modelwise
+
+                                             349
+
+=== page 350 ===
+                            Frisians of the Early Middle Ages
+
+underpinning of such processes. One may assume that in a pre-feudal belligerent
+landnam society, more people were involved in overseas contacts than at later dates,
+comparable with the differences we can observe in geographical and social mobility
+between Viking-age Iceland and late- and post-medieval Iceland.
+    When considering the people speaking Anglo-Frisian, a relevant question is: where
+exactly did these people live and where did they come from? The Frisian marshlands
+were in the process of being repopulated from the late fourth century, a process that
+lasted until the seventh century for the easternmost region of Land Wursten (Aufder-
+haar 2017). The innovative, developing Proto-Frisian spread from west to east. The
+various stages of migrations are visible in the place-name landscape: in most of Frisia,
+compounds containing PGmc. *‑haim are dominant, but in the east (Wangerland,
+Butjadingen, Land Wursten) names in *‑ing- are more numerous (see also Fig. 12.1),
+although both exist side by side (Versloot 2011, 133–4).
+    In a similar vein, the anglicization of England will have taken some time, but this
+took place in a country with a population present. The character of the process of angli-
+cization (the ‘how’, the speed, the numbers) is still heavily disputed (Higham and Ryan
+2015, 70–125). The estimations of percentages of Germanic immigrants vary consider-
+ably. A recent study estimates ‘the proportion of Saxon ancestry in Cent./S England as
+very likely to be under 50%, and most likely in the range of 10–40%’ (Leslie et al. 2015,
+313). Note that Leslie et al. use the term ‘Saxon’ for people associated both with northern
+Germany and Denmark, not distinguishing between the potential regions of origin of
+Angles, Saxons and Jutes (cf. below). Some studies suggest a strong gender bias among
+the settlers: the proportion of male DNA may have touched the mentioned upper limit,
+the female DNA rather the lower limit (Vonderach 2015, 284). This interpretation sup-
+ports the classical view as presented, for example, in Gildas’s chronicle (Higham and
+Ryan 2015, 57–62) that especially the first wave of Anglo-Saxon immigrants consisted
+primarily of bands of male warriors, subjugating Britain and its inhabitants by mili-
+tary force. More research, in particular based on contemporaneous genetic material,
+is needed.
+    The warrior-like behaviour and the overall confined (not necessarily small) number
+of the invaders make it unlikely that the whole of what we later call England was directly
+Germanic-speaking from the outset of the Anglo-Saxon invasion. A period of conquest
+was probably followed by a much longer period of cultural and linguistic anglicization
+of the remaining population.
+Linguistic evidence of the first Anglo-Frisian settlers
+An indication of the concentration of populations speaking Anglo-Frisian varieties
+may come from various sources, both archaeological and linguistic. Place-names are
+often mentioned as an indication of earlier demographic movements, such as settle-
+ment and colonization. It is generally accepted that place-names using the PGmc suf-
+fixes *haim ‘house, village’ and *ing ‘belonging to’, often with a proper name as the first
+element, mark Germanic settlement from the period of the Great Migrations (Berger
+1993, 13–15). Apart from those two suffixes, a few more suffixes are commonly asso-
+ciated with Germanic-speaking settlers of the fifth and sixth centuries: the names in
+leben/-lev ‘remains, legacy’, with high densities in Thüringen; place-names containing
+PGmc *stadi- ‘spot, locality’; and names in court and ville in France, with counterparts
+in hofen and wihl,weil(er) and more in German (Nielsen 2000, 303–12; König 2001, 58).
+
+                                           350
+
+=== page 351 ===
+                               North Sea Germanic Idiom
+
+The elements court, ville/wihl etc. are of Romance origin. Place-names containing any
+of these suffixes have been gathered from a digital gazetteer and regions with dominant
+patterns computed (for a technical account of the sources and selection filters applied,
+see Appendix). The result is shown in Figure 12.1.
+   The special focus of Figure 12.1 is on the relation between the locations of runic
+finds from the fourth to sixth centuries and the place-names commonly associated with
+the Migration Period. Most of the latter are located south-west of the former Roman
+Limes, including Britain. The coloured areas in Figure 12.1 cover 20% of the territories
+of the UK, the Benelux countries, Germany and Austria, whereas 69% of all runic finds
+are found against the background of one of these name-types. People able to write
+(West Germanic) runic texts lived predominantly in those regions which place-name
+evidence would associate with new settlers.
+
+
+
+
+Fig. 12.1 A range of name-types commonly held (predominantly) to represent settlements
+from the Early Middle Ages, together with the distribution of runic finds. The mapping
+identifies the dominant variant among the six name-types in a particular region, and picks
+out regions where the sum of names of these six types is higher than the median.
+
+                                           351
+
+=== page 352 ===
+Fig. 12.2 The relative proportions of the name-types in Figure 12.1 (grey: ‘overall’) and the
+distribution of runic finds of the third–eighth centuries correlated with the name-types.
+Areas and runic finds that are not associated with any of the six name-types (32 out of 103)
+are not included.
+
+
+
+
+Fig. 12.3 The correlation between the Anglo-Frisian and Continental runic finds of the
+third–eighth centuries and the various name-types. Runic finds not associated with any of
+the six names analysed (32 out of 103) are not included.
+
+=== page 353 ===
+                               North Sea Germanic Idiom
+
+   The comparison with the six different name-types also reveals another special cor-
+relation: among these name types, the *haim and *ing names show the closest asso-
+ciation with the runic finds. Figure 12.2 shows that, while the *haim and *ing are the
+most frequent types in the map among the six types investigated, the runic finds are
+even more strongly associated with these two name-types than following a random
+distribution over the six types. However, names with the *haim and *ing suffixes are
+not evenly associated with the various sub-groups of inscriptions. There is a clear link
+between Anglo-Frisian runes and *haim names on the one hand and between Conti-
+nental runes and *ing names on the other, as illustrated in Figure 12.3. This correlates
+with the uneven geographical spread of the *haim and *ing suffixes.
+   This analysis confirms and underlines the close relationship between the settlers of
+the Migration Period and the production of runic inscriptions outside Scandinavia.
+Apart from Frisia, which was newly settled from the fifth century after the hiatus in
+the fourth century (Nicolay 2005; Nieuwhof 2016), almost all inscriptions are found
+on former Roman territory. Why the geographical association between runic finds and
+place-names is almost exclusively restricted to names with the *haim and *ing, and
+appears to a much lesser extent with other names that are usually considered to date
+to the same period, is not easy to answer. In addition, there is the question why the use
+of runes seems to be so heavily restricted to newly settled regions and much less to the
+
+
+
+
+Fig. 12.4 Evidence of Germanic settlement and the distribution of early runic inscriptions
+of the fifth and sixth centuries (© author, using coordinates for Continental runes from
+Findell 2012).
+
+                                           353
+
+=== page 354 ===
+                              Frisians of the Early Middle Ages
+
+regions the Germanic peoples settled before. Note that the few Continental inscriptions
+north of the Limes are mostly found in or near to regions with a clear presence of one
+or more of the six name types investigated.
+   Following these observations concerning the six name-types studied, the focus was
+narrowed to names with the suffixes *haim and *ing, whose spread was combined in the
+map in Figure 12.4, again as the background to the distribution of runic finds of the fifth
+and sixth centuries. This distribution map confirms the observations made on the basis
+
+
+
+
+Fig. 12.5 (above) The
+overall areal proportion
+of names ending in
+*-haim or *-ing in the
+West Germanic speaking
+countries: UK (GB),
+the Netherlands (NL),
+Belgium (B), Luxembourg
+(L), Germany (D) and
+Austria (A); (below) the
+proportional correlation of
+these points with a runic
+find. The y-axis represents
+the number of map-pixels;
+the x-axis represents
+ranges of proportions
+for the specific names
+amongst all other names
+within the given area. Note
+that >= 0 means >0–0.09
+and the ranges of the bars
+are exclusive.
+
+                                            354
+
+=== page 355 ===
+                                    North Sea Germanic Idiom
+
+of Figure 12.1: there are high concentrations of names with the suffixes *haim and *ing in
+the regions south and west of the Roman Limes (in present-day Flanders, south-western
+Germany and Alsace), in Friesland and in eastern England. They confirm their inter-
+pretation as settler names from the fifth and sixth centuries. The over-representation of
+runic finds in regions with these name types is illustrated diagrammatically in Figure
+12.5. The figure shows that runic finds are often located in regions with 10–50% *haim and
+*ing place-names, whereas such regions are altogether a rarity in the Germanic-speaking
+western European countries (lower bar chart).10
+   The mapped evidence in this section implies that we now have two independent
+sources about language use, that are in strong agreement with each other: people writ-
+ing runic texts (mostly brief inscriptions) lived in regions where many villages had
+a Germanic Migration Period settlement name, in particular with the suffixes *haim
+and *ing. This again poses the question why we have inscriptions from just these
+places but not (to the same degree) from other regions. People elsewhere apparently
+did not feel the need or were not able to write runic inscriptions. This makes sense for
+England and Continental regions south of the Limes, where many places were most
+likely still inhabited by the descendants of the Roman-period populations that had
+been living there before the arrival of Germanic-speaking groups. This hypothesis
+may particularly apply to the names in *villa, which is a Latin suffix after all. In the
+case of the regions north of the Limes, it has been claimed that these witnessed high
+levels of mobility and demographic relocation, producing relatively low population
+densities in northern Germany for longer or shorter periods (Siegmund 2003, 77–83;
+Meier 2003, 49; Dörfler 2003, 143). It seems that the elites in particular left the region
+in the period of the fifth–seventh centuries (Siegmund 2003, 90). Major factors were
+probably migrations to Frisia, Britain and the former Roman Empire as well as cli-
+matic circumstances (the Late Antique Little Ice Age, LALIA: Büntgen et al. 2016).
+Note also Bede’s remark about Anglia (Angeln) still being deserted in the seventh cen-
+tury (Bede, HE, I, 15).
+Combining linguistic and archaeological evidence
+This section will concentrate on the Anglo-Frisian settlers in Frisia and Britain, iden-
+tified by Anglo-Frisian runic inscriptions. The hypothesis of a specific regional spread
+of ‘Anglo-Saxon’ migrants in the fifth and sixth centuries can be compared with archae-
+ological evidence. We have compared the spread of Migration Period place-names
+and runic inscriptions with the locations of various types of brooch dated to the fifth
+century. One such object-type is the cruciform brooch, an object of daily use in female
+clothing (Nicolay 2005, 74–5; Martin 2015). The earliest specimens were produced in the
+homelands and relatively long preserved as ‘souvenirs’ from home (Bos and Brouwer
+
+
+10 A caveat is due. The map is based on modern place-names and it is well known from diachronic evalua-
+   tions of the onomastic landscape that there have been some substantial changes. Blok (1968) shows that
+   the southern part of Holland – entirely white in Figures 12.1 and 12.4 – may have had around 25% ‑haim
+   names in the Early Middle Ages but many of these names simply disappeared as a result of changes in
+   the landscape. Such drastic changes are in particular likely where dramatic changes in the landscape
+   occurred. Holland is such a region but far greater stability can be assumed for many other regions.
+   Another complication is the exchange of suffixes, such as in the place-name Dokkum (Fryslân), counted
+   here as a name with the ending *‑haim, but historically attested as Dockinga, which would qualify it as
+   a member of the *‑ing group.
+
+                                                   355
+
+=== page 356 ===
+                            Frisians of the Early Middle Ages
+
+
+
+
+Fig. 12.6 The distribution of early cruciform brooches, c. AD 380–450 (after Nicolay 2005,
+74) and fifth-century Saxon-style brooches (after Nicolay 2017, 78), against the background
+of Migration-period place-names (© author).
+
+
+
+2005, 20–2, 30). Another type of brooch, the ‘Saxon’ jewellery, is usually associated
+with the formation of power (Nicolay 2005, 76–8, 87; see also Higham and Ryan 2015,
+85–6, 107). Both types are shown against the background of the Migration Period place-
+names in Figure 12.6.
+    The distribution of the brooches in Frisia and Britain is closely linked to the
+­Migration-Period place-names, as were the runic inscriptions. Stray finds of both types
+ of artefact and *haim and *ing names are found in Flanders, as well as an Anglo-Frisian
+runic inscription from Amay (Looijenga 2003, 303; see Fig. 12.4). This inscription, from
+a grave near Liège, is considered to be Anglo-Frisian because it contains a specifically
+Anglo-Frisian runic character, but it is not necessarily Frisian in any narrower linguis-
+tic, ethnic or cultural sense. It may represent a local community that migrated there
+from the same area as the other ‘Anglo-Frisians’ and shared linguistic features, place-
+name types and artefacts with the nascent Frisian and Anglo-Saxon populations.
+    However, the *haim and *ing names are notoriously absent from the regions of
+origin of the settlers, where such brooches are also found. The villages from which the
+settlers of Frisia and Britain came apparently had different names, or were deserted – as
+Bede describes for Angeln – and their original names have not been preserved due
+to a hiatus in habitation (Siegmund 2003, 80–1). This mismatch in place-names was
+extensively studied by Udolph, who concluded that the Schleswig-Holstein region in
+
+                                           356
+
+=== page 357 ===
+                                      North Sea Germanic Idiom
+
+particular could not be considered a region of origin of the Anglo-Saxons, given the
+lack of onomastic links between that region and England (Udolph 2006, 338). However,
+he did not consider the possibility of a break in habitation. After the Migration Period,
+Angeln was taken over by the Danes, who brought now-Germanized Scandinavian
+place-names to the region, such as: Tastrop, Gelting, Böklund, Schuby. The low popu-
+lation level in this region correlates with the absence of runic inscriptions from these
+regions from the sixth (Fig. 12.4) and seventh centuries.
+    We have extended the scope for Britain by including two additional layers of infor-
+mation. In the first place, we have included furnished Anglo-Saxon cemeteries from
+the fifth–seventh centuries. We also included a set of place-names with a Celtic suffix,
+namely place-names in don or dun, such as in Swindon.11 These names are relatively
+frequent in England but not in the western Celtic regions Wales and Cornwall. The set
+of names in don or dun therefore seems to continue an earlier layer of British place-
+names. The result is shown in Figure 12.7.
+    The map and the underlying map calculations show that the concentration of names
+in haim and ing on the one hand and names in don or dun on the other are geographi-
+cally complementary. The colours in the map are potential markers of the geographical
+spread of ethnicities in England in that period. The map again shows the distribution
+of Anglo-Saxon runic inscriptions of the fifth to seventh centuries.
+    The spatial correlation between the linguistic/onomastic evidence and the archae-
+ological evidence of cemeteries is clearly very low (Dodgson 1966). There is positive
+agreement in Kent, East Anglia and Sussex, and negative agreement (no Anglo-Saxon
+place-names, no Anglo-Saxon graves and no runic inscriptions) in Hertfordshire. But
+there are also large mismatches, for example, in Oxfordshire, Warwickshire and near
+surroundings. At this point, it is not possible to give an explanation. It would be good
+to have a further differentiation in time of the cemeteries. It may be interpreted in a
+way that the archaeological information shows us the progress of acculturalization of
+the British population to the Anglo-Saxons’ burial practices. This acculturalization or
+assimilation of Britons to Anglo-Saxon society was essential for the former to be able
+to function on an equal footing with the newcomers (Higham and Ryan 2015, 109–10).
+The contrast with the spread of the runic finds would imply that material and custom-
+ary culture were adopted earlier than the language, which is in line with processes of
+culture and language shifts in many other places in the world.
+
+                          Excursus I: ‘Angles’, ‘Jutes’ and ‘Saxons’
+The earlier inclination to treat the populations discussed as cultural, political and lin-
+guistic unities, in the way it is applied by, inter alios, Schwarz (1951) as an example of an
+earlier paradigm of scholarship (see also Higham and Ryan 2015, 71), has been aban-
+doned over the last decades. The author of the Anglo-Saxon Chronicle from the late
+
+11 Gelling and Cole (2000) interpret Celtic *dūno- as ‘fortified place’ while dūn in English place-names
+   occurs ‘as a generic in village names in regions where there are clusters of level-topped hills suitable for
+   settlement sites’. The lack of fortifications at English places with dūn names persuades Gelling and Cole
+   that dūn and *dūno cannot be associated. However, Celtic fortified oppida were situated on hill tops so
+   that a semantic shift from ‘fortified site on a hill top’ to ‘settlement on a hill top’ is hardly implausible
+   (cf. the semantic spread of Germanic *tūna- to German Zaun ‘fence’, Dutch tuin ‘garden’, Icelandic tún
+   ‘meadow’ and English ‘town’).
+
+                                                     357
+
+=== page 358 ===
+                           Frisians of the Early Middle Ages
+
+
+
+
+Fig. 12.7 Possible evidence of Anglo-Saxon and British populations in England during the
+fifth–seventh centuries. The distribution of place-names is based on a modern gazetteer
+(see Appendix). Using place-name databases with onomastic etymologies might improve,
+or even alter, the picture. (© author; distribution of cemeteries after Higham and Ryan
+2015, 80).
+
+                                          358
+
+=== page 359 ===
+                               North Sea Germanic Idiom
+
+ninth century is said to have ‘had no reliable sources for the fifth century’ (Higham and
+Ryan 2015, 72). Higham and Ryan are reasonably representative of current mainstream
+opinion in archaeology. Bede (HE, I, 15) is the classical source for a tripartition of
+England between Angles, Saxons and Jutes, an account that is currently interpreted as
+having been ‘framed according to the geopolitics of the present’ (i.e., Bede’s time), with
+‘little historical validity’ (Higham and Ryan 2015, 75). Bede’s eighth-century description
+of the three peoples, settling in Britain in the fifth century, is nowadays considered ‘too
+late to be a useful primary source’ (Higham and Ryan 2015, 72). Bede himself, how-
+ever, is recognized as having ‘believed that the major kingships of the seventh century
+had their origins in the settlements of different Germanic tribes in the fifth century’
+(Higham and Ryan 2015, 137).
+    The concept of clearly distinguishable peoples is replaced by the concept of occa-
+sional coalitions of ethnically diverse people, united under a leader for the purpose of a
+military campaign (e.g. Todd 2004, 29, 202–3). Archaeology traditionally distinguishes
+between Saxon and Anglian artefacts, but Higham and Ryan consistently put those
+designations in quotation marks, to stress their relativity (2015, 78–82). Although they
+acknowledge a strong correlation between ‘Anglian’ areas and cremation, and ‘Saxon’
+areas and inhumation, they stress that those patterns are becoming more and more
+blurred with new data being available. This is supported by their maps (ibid., 80), show-
+ing different types of ‘Anglian’ and ‘Saxon’ artefacts with some geographical inclination
+but a large spatial overlap as well. And despite the affinity between ‘Saxon’ artefacts and
+practices and those found in the Elbe-Weser triangle, against overlap between ‘Anglian’
+items and artefacts found north and east of the Elbe, they state that ‘these styles were
+already mixing on the Continent by the late fourth century, and the degree of regional
+conformity in England is less than was once suggested. Such is the diversity of artefacts
+that to date no Anglo-Saxon cemetery has been definitively tied to a specific place of
+origin in Germany as if the result of migration en bloc to Britain.’ (ibid., 82).
+    Given all these misgivings, the pattern displayed in Figure 12.8 is astonishing. It
+demonstrates that nearly all the runic inscriptions from the fifth–seventh centuries,
+except for Watchfield but including the two that are mostly considered to be of Fri-
+sian origin (Hamwic and Folkestone), have been found in or very near the territories
+identified by Bede as Anglian and Jutish. This spatial correlation provides independ-
+ent evidence – unknown to Bede (!) – for the geographical tripartition along the lines
+described by Bede in the eighth century.
+    The implications of this correlation work in two directions. On the one hand, we
+may have to reconsider the refutation of Bede’s tripartition for the fifth and sixth cen-
+turies. Bede’s sketch may have more ‘historical validity’ than currently assigned to it
+and its rejection seems to be an example of over-application of ‘critical theory’ in the
+interpretation of historical sources and the relativization of their historical accuracy. A
+clear ethnic, ‘tribal’ or national (whichever term one prefers) identity for a settler com-
+munity does not presuppose the uniform origin of all its members, but rather a clear
+destination territory in combination with a substantial founder community. Examples
+are found in countries such as New Zealand, Australia, Canada and the United States.
+We do not need full regional conformity nor en bloc migration from one place in order
+to end up with fairly distinct cultural provinces or nations in the new settlements.
+    The correlation shown in Figure 12.8 also implies that the Saxons did not use/know
+the runic script, whereas the Angles and Jutes did. Given the dominant regions of
+
+                                           359
+
+=== page 360 ===
+                             Frisians of the Early Middle Ages
+
+
+
+
+Fig. 12.8 The find spots of Anglo-Frisian runic inscriptions of the fifth–seventh centuries
+against the background of a traditional ethno-political map of England in the sixth
+century. The base map ‘England in 584’ has been taken from A School Atlas of English, ed.
+Samuel Rawson Gardiner 1907 (London).
+
+
+
+                                            360
+
+=== page 361 ===
+                                North Sea Germanic Idiom
+
+origin of these groups, south-west and north-east of the Elbe respectively, it suggests
+that the runic script was not much used in regions south-west of the Elbe before the
+Migration Period. It also implies that there was a substantial Anglian and/or Jutish
+contribution in the settlement of the Frisian marshlands, where runic inscriptions have
+been found. Figure 12.6 shows indeed various ‘Anglian’ cruciform brooches in the west-
+ern Frisian terp region. Scandinavian cultural ‘input’ is particularly noticeable from the
+late fifth century and sixth centuries (Nicolay 2005, 78), which overlaps exactly with
+the increased production of runic texts in the Frisian region (see further, Excursus II,
+below).
+   The Saxons and (western) Franks apparently did not know the runic alphabet, or at
+least did not use it extensively on inscriptions. The majority of the Continental runes
+are found in the Alemannic region, and the core of this population is generally associ-
+ated with the Elbe-Germanic region (Quak 2016, 316–17). This means that the origins
+of the West Germanic peoples making extensive use of the runic alphabet between the
+fourth and eighth centuries can all be associated with a region of origin roughly north
+and north-east of the Elbe, contiguous with Scandinavia. This geographical bias is sup-
+ported by a diachronic bias: whereas runic finds are relatively common in Scandinavia
+from before 400, the bulk of the West Germanic inscriptions are from the fifth and
+especially the sixth century. Still, all this may be not that simple: first, it is question-
+able to what extent a concept such as ‘Elbe-Germanic’ is still supported by modern
+archaeologys secondly, the Alemannic people are already mentioned near the Rhine
+and Danube in the late third century, which is three hundred years before the bulk of
+the ‘South Germanic’ inscriptions in the sixth century.
+
+                Excursus II: thi koning Redbad fan Danemercum
+The late-medieval Frisian text sources include a remarkable piece, known as the
+‘Legend of Charlemagne and Redbad’ (Vries 2007, 50, 74–7; Bremmer 2009, 174–6; for
+a recently improved reconstruction of the oldest version in Codex Unia, see http://tdb.
+fryske-akademy.eu/temp/karel-en-redbad/). The story begins with:
+   Tha thi koning Karle and thi koning Redbad fan Danemercum in that land comen …
+   When King Charles and King Redbad from Denmark came into the country …
+and tells of the victory of Charles over Redbad (Radbod) and subsequently the origin
+of Frisian law. ‘Karle’ is generally conceived of as being Charlemagne, who is also oth-
+erwise mentioned as the benefactor of Frisian law and Frisian freedom in the medieval
+Frisian tradition (Noomen 2001). In reality, it was his grandfather Charles Martel who
+fought a battle with the Frisian king Radbod in 716 and eventually initiated the con-
+quest of the western parts of Frisia after Radbod’s death. Radbod is often associated
+with the ‘North’ as in the addition ‘fan Danemercum’. The seventh statute of the ‘Seven-
+teen Statutes’ (version U: Sytsema 2012) states:
+   That jef him thi koning Karle that truch se Cristen worden, and henzich, and herich tha
+   sutherna koninge […] hwand alle Fresan er nord herden an tha grimma hirna.
+
+
+
+
+                                            361
+
+=== page 362 ===
+                                Frisians of the Early Middle Ages
+
+   This [privilege] gave King Charles them [= the Frisians], because they became Chris-
+   tians, and obedient, and dependent on the southern King [of the Franks] … because
+   all Frisians earlier belonged to the north in the dark outskirts [of civilization].
+The ‘North’ is repeatedly mentioned in medieval sources as the origin of the Vikings
+and their attacks on Frisia (IJssennagger 2012, 38–40) and another OFris passage in
+R1 (Buma and Ebel 1963, 36–7) explicitly associates Redbad with the violent attack-
+ers from the north: thet wi er north herdon Redbate tha unfrethemonne ‘because we
+earlier belonged to the violent, northern [king] Redbad’ (see Popkema 2013, 197). So,
+the legend seems to contain a double anachronism: ‘Karle’ is both Charles Martel and
+Charlemagne while the Frisian king Redbad is associated with the Viking raids, which
+post-dated the reign of Charlemagne.
+   Noomen (2001, 15) stated that De sêge is dêrmei gjin selsstannige boarne foar de
+kennis fan dy wrald, ‘the legend cannot be taken as an independent source of knowl-
+edge about the world [of the Early Middle Ages]’, but it may echo real events from
+earlier times. The ruling classes in Frisia in the second part of the fifth and early sixth
+centuries had close ties to Scandinavia (Jutland and Norway) and felt and maintained
+them well into the seventh century (Nicolay 2005, 78–85; 2017, 87).12 This brings us
+chronologically close to the appearance of Radbod in history. The collocation Redbad
+fan Danemercum may, therefore, not (only) reflect a late-medieval confusion between
+seventh-/eighth-century pagan Frisians and ninth-/tenth-century pagan Vikings, but
+just as well echo the self-purported Scandinavian link or even origin of the sixth- and
+seventh-century Frisian rulers.
+
+                                 Discussion and conclusions
+We conclude that the North Sea region witnessed the formation of the Anglo-Frisian
+idiom by a series of shared innovative linguistic changes, which at that time mostly
+also included the coastal zone of the Low Countries and parts of the continental
+Saxon region. The heydays of these developments fall in the fifth–seventh centuries.
+The geographical spread of these changes was not monolithic and differed per feature:
+some spread wider than the North Sea Germanic area, including sometimes (parts of)
+North Germanic, sometimes also parts of the Franconian regions, others encompassed
+only parts of this ‘Anglo-Frisian’ Sprachbund. The question about a separate branch on
+the Germanic language tree or a matter of convergence is actually superfluous under
+a more subtle interpretation of the developments: after a period of strong linguistic
+convergence, divergent tendencies became more prominent from the seventh century,
+although common innovations could still develop in the following centuries (Hines
+1995; Deckers 2017).
+   The Anglo-Frisian speakers were dispersed over Frisia (in its widest sense down
+to Calais), the (north)eastern parts of the Continental Saxon region (compare the
+Eastphalian involvement in most of the early sound changes in Table 12.3) and in Brit-
+ain, in particular the eastern parts, in regions close to the North Sea. The language
+area was – certainly to begin with – no solid geographical territory, although spatial
+
+
+12 In Nicolay (2005) this is attributed to a separate wave of immigration, but Nicolay (pers. comm.) now
+   considers it rather to be a cultural phenomenon.
+
+                                                 362
+
+=== page 363 ===
+                                North Sea Germanic Idiom
+
+concentrations existed. Anglo-Frisian in England was concentrated in some areas but
+otherwise rather a sociolect or ethnolect, whose speakers were foremost connected by
+their political and military power and their common ethnicity, including their reli-
+gion (compare the position of the Goths in Italy and Spain and the Vandals in North
+Africa). It is revealing to see that, at least in the fifth and sixth centuries, regions such
+as Mercia and Wessex, later considered to be constituting the OE dialect landscape and
+well represented on the map with Anglo-Saxon cemeteries, seem barely to have been
+inhabited by speakers of Anglo-Saxon idioms, but remained numerically dominated
+by Romano-British descendants during the first two centuries after the landnam (cf.
+Grimmer 2007).
+    The Frisian region was largely resettled in the same period as Britain, but here the
+settlers found a nearly empty region. Both regions are strongly marked by the topo-
+nymic landscape and their inhabitants knew how to write runic texts. This contrasts
+strongly with the Elbe-Weser region from where those populations had come. There
+are very few *haim and *ing names there, and basically no runic inscriptions after the
+fifth century (Sievern, Fallward, Heide and Geltorf II are all from the fifth century). A
+clearer picture of the historical-geographical landscape of those days of present-day
+northern Germany may help us to better understand the dynamics of Anglo-Frisian
+on the Continent.
+
+                 Appendix: Sources for the place-name mapping
+The maps with place-names are based on the Geonames gazetteer:
+https://www.geonames.org/
+   -
+
+The data were analysed and mapped using ILWIS 3.31 Academic GIS-software:
+https://www.itc.nl/ilwis/download/ilwis33/
+   -
+
+The following text filters were applied:
+   -
+TypeFilter
+-court/-hofen: *hofen,*hoven,*court
+*-haim: *heim,*um,*hem,*ham,*gem,*hjem
+*-ingi: *ing,*ingen,*inghen,*ingh,*ingi,*inge,*ange; *ens (only for Frisia)
+-leben, -lev: *leben,*lev
+*stadi: *sted,*stedt,*stett,*stede,*stead,*stätten,*städten
+*villa: *ville,*viller,*vijl*,*weil,*weiler,*wihl*
+   -
+
+In total, 13,430 points were selected.
+   -
+
+The map in Figure 12.1 was smoothed using a moving window of 13 x 13 pixels. Before
+smoothing the image, those pixels with a summed proportion of any of the six name-
+types >12% were selected. This is the sum of the average proportion in the entire map
+area plus one standard deviation. The average proportion was computed for a moving
+window of 21 x 21 pixels. Every pixel corresponds to one square kilometre.
+
+
+
+
+                                            363
+
+=== page 364 ===
+                                  Frisians of the Early Middle Ages
+
+                                               Discussion
+HINES Is there any place in your model for Peter Schrijver’s ideas that Celtic
+  substrates were present and had a significant influence on both Old Frisian and
+  Old English?
+VERSLOOT I can imagine Celtic influence in England, because of the population
+  situation when speakers of Germanic arrived. But Frisia was largely depopulated.
+  I don’t dispute the case that Frisia could have been Celtic-speaking in the Roman
+  Period. But I find his arguments a bit far-fetched. I very much admire his creativity
+  and his ability to open new windows, but on some points he is too bold. However,
+  breaking in English could well be Celtic-influenced. Breaking is more prevalent in
+  West Saxon than in Northumbrian Old English and Celtic influence was probably
+  greater in the west.13
+HINES Without going too deeply into details of the chronology of sound changes,
+  one of the immediate problems that appears is that the reason why breaking is put
+  before i-mutation is because we have i-mutated broken diphthongs. How do you
+  get around that? Do you propose that breaking is not a single process? Could there
+  have been a West Saxon breaking that is early, and potentially Celtic-influenced?
+  You have both primary and secondary i-mutation too.
+VERSLOOT Yes, it does require very lengthy analysis. The earliest evidence I can
+  use is non-West Saxon. This is a problem of the evidence we have. The West Saxon
+  situation is a specific problem, but that would have been spoken very far to the
+  west, deep into a linguistic contact zone. I see its features as a bit of a side-track,
+  rather than central to Old English. In Northumbria and Mercia, the i-mutation
+  product of a so-called broken vowel is a monophthong.
+HINES The Old English runic inscriptions are overwhelmingly ‘Anglian’ in terms
+  of geography. Those from Kent and the Isle of Wight are particularly challenging
+  in terms of legibility and intelligibility. From the heart of the Saxon area there
+  is only the Watchfield inscription from the sixth century, and in fact that
+  whole assemblage looks strikingly Kentish in key respects. On the whole, the
+  runic inscriptions give us really valuable evidence for Anglian dialect areas of
+  East Anglia, Lincolnshire, and subsequently Northumbria, but very much less
+  information outside of that zone.
+VERSLOOT In Anglian dialects, it was assumed there was widespread breaking that
+  was later undone, but I’d like to see evidence of that. There is none. There is rather
+  much to suggest there was no early breaking.
+DE LANGEN When you discussed North Frisian you said you saw influence from
+  the south. Where is that? And is that area ‘monolithic’?
+VERSLOOT Yes, from the features listed, it is a monolith.
+DE LANGEN And it includes the Rhineland?
+VERSLOOT It includes North-Holland.
+
+13 The chronology of sound changes reconstructed for Gallo-Romance in the period AD 400–700 is
+   revealing – including: 1. fronting of a/ā; 2. palatalization of velars before fronted vowels; 3. retraction
+   of æ > a before w, n (among other things); 4. diphthongization of e when following a palatal consonant
+   (≈ palatal diphthongization) (Kerkhof 2018, 120). The close resemblance of these to the developments
+   in pre-Old English sheds new light on the areal distribution of so-called ‘North Sea Germanic develop-
+   ments’ and their potential sources. APV
+
+                                                    364
+
+=== page 365 ===
+                              North Sea Germanic Idiom
+
+DE LANGEN Where is the boundary?
+VERSLOOT Somewhere south of the Oude Rijn (near Leiden).
+DE LANGEN That is interesting!
+VERSLOOT I may perhaps mention that up to now there has been no Frisian text
+  identified from North-Holland, but I found one that was already known which
+  can be reinterpreted as originating from there. It is about love; it has been in the
+  newspapers. Salacious stories attract attention! That is the first piece we have
+  (Versloot 2018). It’s also different from West Frisian, spoken in the province
+  of Fryslân. But in terms of the early features, it shares all of those. In terms of
+  linguistic features, the boundary between the Maas and the IJ is much more
+  important than the Vlie.
+DE LANGEN A little bit more about the Rhineland. How much difference is there:
+  when do the language dialects part?
+VERSLOOT Up to a given point (Tab. 12.3, point 9) we have relic features in
+  Flanders, Zeeland and Holland. This appears to be early seventh-century to me.
+  After that Zeeland and Flanders no longer follow, but it doesn’t mean they can’t
+  share in innovations afterwards. The wave model allows for variability. But up to
+  that point there seems to be a single linguistic zone, except for some differentiation
+  a little earlier on (see the Old Saxon column in Table 12.3). Later on, it gets more
+  problematic, when the Westphalian region diverges, but in the eighth/ninth
+  centuries there are still common elements in Frisian and Eastphalian. The model is
+  flexible.
+DE LANGEN The boundaries inland are clear?
+VERSLOOT We have very little data.
+DE LANGEN I’m particularly interested in the central river area.
+VERSLOOT There’s practically nothing there, except very early and difficult runic
+  inscriptions (Bergakker and Borgharen: see Looijenga, this vol., Ch. 13), which do
+  not contain Anglo-Frisian traces.
+DE LANGEN How much data do you really have? When a new find comes, do you
+  see new boundaries?
+VERSLOOT Not really boundaries, but I’m sure new finds will improve the
+  chronology. Much of it is the result of recent scrutiny of the available linguistic and
+  onomastic material dating from c. 800 and later, including modern dialects.
+MOL Do you distinguish South- and North-Holland?
+VERSLOOT No, Holland is taken as one. The boundary between Zeeland and
+  Holland is around the Maas.
+DE LANGEN But you see Holland as one?
+VERSLOOT Yes: it’s just that Frisian disappears from South-Holland much earlier
+  than it does from North-Holland. When you take the single relics in place-names,
+  though, Holland is nicely in line.
+FLIERMAN Is this diagram the totality of changes or a selection?
+VERSLOOT No, it’s a representative selection, which concentrates on vowels, which
+  are most prominent in historical reconstructions of Germanic languages. There is
+  more, but this is the core for the Anglo-Frisian varieties.
+LOOIJENGA In runic inscriptions, we have famous instances of the Frisian combs
+  with, variously, kabu and kobu. How do you explain that?
+
+
+                                           365
+
+=== page 366 ===
+                           Frisians of the Early Middle Ages
+
+VERSLOOT The development of the a+nasal consonant to o is as a
+  gradual/‘reluctant’ change. In Old English too, it is a tendency rather than a full
+  change: for example, we have Modern English long but also hang; comb but lamb.
+  It’s therefore unproblematic to have both spellings.
+LOOIJENGA They’re from very close to each other, with only one river between
+  them.
+VERSLOOT I don’t think the contrast should be interpreted in terms of a
+  dialectal difference; it rather reflects the fact that the phonological status of this
+  development was very weak.
+LOOIJENGA And the ending -u? How do you explain that?
+VERSLOOT I see it as an approximation of a schwa-like sound (cf. Nedoma 2018).
+NIJDAM When we move into Old Frisian, there are only a few phonological changes
+  that are exclusive to the language, in particular eht-breaking (reht > riucht) and
+  w-breaking (singwan > siunga), which are also found in Insular North Frisian.
+  There aren’t many distinctive features.
+VERSLOOT Indeed; but also the differentiation of ai into ē and ā is important (e.g.
+  English toe, stone; Dutch teen, steen; Old Frisian tāne, stēn). Some developments
+  differ from Old Saxon and Old English only in the details. It is the total mix of
+  features, some shared with Old English, some with Old Saxon, some with Old
+  Norse, that characterizes Frisian.
+NIJDAM That is my question, based on Roger Lass (1994) etc.: you say riuht appears
+  just after 600. I thought it would only be in the late eighth century that it would
+  have appeared. But you now see a North Sea Germanic continuum in which
+  Frisian is distinct from the seventh century onwards?
+VERSLOOT The concept of ‘Frisian’ is imposed from hindsight. I think a Germanic
+  speaker of c. 700 would have had difficulty identifying something as ‘Frisian’;
+  someone from the northern part of Saxonia would speak a very similar language.
+  In hindsight we can see the changes becoming part of a ‘language’. It has to do
+  with the family-tree model. With Franconian, there could have been a perceptible
+  difference by about 700.
+NIJDAM With things like final devoicing and loss of h etc.?
+VERSLOOT Final devoicing is typical of Continental Germanic and much later in
+  coastal areas – even in the nineteeth/twentieth centuries in Frisian.
+NIJDAM Can you give us examples of how Frankish and Frisian differed?
+VERSLOOT In all these things (Tab. 12.3), Frankish does not participate. Franconian
+  is a very archaic language variant. What we find in Lex Salica is basically proto-
+  West Germanic in form. Nothing seems to have happened. That’s also remarkable.
+NICOLAY I wonder what you can say about the difference west and east of the
+  former Vlie (between present-day Friesland and North-Holland), in relation to
+  the habitation hiatus in the fifth century, and the sources of repopulation from the
+  south (Frankish area) rather than the east (Anglo-Saxon Germany)? Does this fit
+  with your model?
+VERSLOOT What perhaps it does is to confirm the idea that the changes took place
+  in situ and had nothing to do with where people came from. They came in with
+  a quite undifferentiated West Germanic language, and once settled they began to
+  participate in a North Sea Germanic configuration. It doesn’t matter where they
+  came from. This confirms Kuhn’s idea that the innovations took place during and
+
+                                          366
+
+=== page 367 ===
+                                North Sea Germanic Idiom
+
+  after the Migration Period. It’s an interesting oxymoron that immigration seems to
+  have involved markedly distinctive groups in the archaeology while the linguistic
+  picture is very different: more of a blank slate to start with.
+DE LANGEN At the same time, you also stressed that you have a need for a certain
+  amount of time for a change. But up to 600 the languages stayed together and then
+  diverged. Does that give us enough time?
+VERSLOOT Between c. 400 and 600 these languages share a couple of innovations.
+DE LANGEN They have to accelerate at a certain stage.
+VERSLOOT Basically, yes.
+DE LANGEN You also stressed a boundary with the hinterland, which made me
+  wonder where the new settlers came from to join in so quickly.
+VERSLOOT I don’t really see the problem.
+DE LANGEN We have a hinterland which speaks one language, and people join in
+  from somewhere.
+NICOLAY In the western Netherlands you mean?
+DE LANGEN As I read this as an archaeologist, by the fifth century they had already
+  joined up. And then they split up. But when did they join up?
+VERSLOOT Between 400 and 450 we have the start of settlement in Frisia and
+  England, and they were in contact with one another.
+DE LANGEN …but not in Holland.
+VERSLOOT OK. That means that they would have to catch up in a way, through a
+  sort of course of integration.
+DE LANGEN But you also need time. And then they split up again. My question is,
+  how much time do you need?
+VERSLOOT The split-up is not a problem. You need them to stay in contact.
+DE LANGEN But when did they join up?
+VERSLOOT 400, 450? Up to 500? That’s what I get from the archaeological story.
+  Joining up didn’t require them to sit down together. The Anglo-Saxons were
+  already in England, and you need North Sea Germanic contact and networks. We
+  hear a lot about those. I’m interested also in the sociolinguistic reality of it. It’s true
+  that there are rapid changes between 450 and 700, which we see often in languages
+  in a dynamic situation. It’s possible for that then to freeze subsequently. It’s not
+  a single linear thing. We see the same thing in Frisian in the fifteenth century.
+  Around 1400 the language is typologically similar to late Old English; around 1500
+  it’s like the modern language.
+HINES The answer to the questions on your slide, is that we should wait and see.
+  Archaeology is developing very rapidly, and ancient DNA (aDNA) data are now
+  becoming available as a source of study on past demography. Advances in stable
+  isotope analysis and interpretation are proceeding in an encouraging way too. We
+  shall be able to study population mobility much better in the course of the next ten
+  to fifteen years, and just for now we have to be patient.
+		 Nevertheless, the distributions of artefacts do show connected networks, and
+  those networks absolutely presuppose contacts between people. I would draw
+  attention to the fact that a concept that quite rapidly came to the fore in historical
+  linguistics/language history about twenty years ago was the idea of ‘convergence’
+  between languages in contact as a major factor. Languages do not just split and
+  diverge but can become more similar too. A more sociolinguistic viewpoint would
+
+                                             367
+
+=== page 368 ===
+                          Frisians of the Early Middle Ages
+
+   emphasize that the practical circumstances have to be right for particular modes of
+   development to take place: whether that is the movement of people or just contact
+   is an interesting point.
+FLIERMAN I deal mostly with Latin. Can we postulate the absence or presence of a
+   written culture as a major factor? Can a literary tradition affect innovations?
+VERSLOOT Written language is definitely a stabilizing factor nowadays. Thus rapid
+   changes are more likely to take place in primarily oral language circumstances. We
+   don’t really see that stabilizing influence until the modern era.
+FLIERMAN So, you wouldn’t use it to compare the less innovative situation in
+   Franconia with the north.
+VERSLOOT Too little was written in the vernacular in Franconia then to make a
+   difference.
+KNOL In relation to changes in the fifteenth century, I was expecting something very
+   different. In Groningen and Ostfriesland then, Frisian was completely replaced by
+   Saxon. Less than a century was required for complete language replacement. You
+   could ask the same questions of that situation, but only some can be answered.
+   Subsistence and social organization did not change in Groningen then. Frisian
+   Freedom remains in Groningen. But the language changed, except for place and
+   personal names. This would be a very interesting point of comparison.
+VERSLOOT I have given this some thought. I don’t have clear answers yet as to what
+   was going on. In light of the Frisian Freedom, external political changes cannot be
+   identified as the cause.
+KNOL I wasn’t aware of a change in Frisian in Friesland then, although now I hear
+   that the Frisian language changed there too.
+VERSLOOT It was an internal change, but towards something much closer to Middle
+   Dutch in type. There must have been widespread bilingualism, and this explains
+   why the cities switched to Dutch. But I don’t think it’s exactly the same. Looking
+   at the spread of linguistic innovations or fashions of pronunciation in the Early
+   Middle Ages is different from the fifteenth century when it’s a matter of language-
+   shift and strong contact situations. I hadn’t though thought about the relationship
+   between the internal changes in Frisian and the concurrent language-shift in
+   Groningen. The same phenomenon should underlie them.
+LOOIJENGA I think the situation involves a lot more than Frisians and Anglo-
+   Saxons alone. Britain was not an unpopulated place. There were lots of contacts
+   with France/Gaul too. I don’t know what language they would have had. This
+   makes the situation very complicated, and that must have sociolinguistic
+   consequences too. It could also help explain why it was so innovative, and
+   interesting fashions spread.
+VERSLOOT Yes, you are right. It’s an interesting consideration; thank you (cf. fn. 13,
+   above).
+IJSSENNAGGER-VAN DER PLUIJM Does population size matter and can you take
+   that into account?
+VERSLOOT The smaller the group, the easier it is for changes to spread. There
+   are interesting network-model analyses of this: depending on the number of
+   participants and the form of the network, changes can spread quickly.
+IJSSENNAGGER-VAN DER PLUIJM So, could it be that because the networks were
+   originally small, in the early phase, innovations would spread more quickly?
+
+                                         368
+
+=== page 369 ===
+                               North Sea Germanic Idiom
+
+VERSLOOT Yes.
+DE LANGEN It could also be that they switched language.
+VERSLOOT At that time, switching language basically meant switching accent.
+NIEUWHOF That answers my question: why was the Frankish language so stable,
+  then? It is probably because it was a large population.
+VERSLOOT Yes, otherwise we’re talking about a mobile situation with small
+  numbers. The comparison with Saxon is important. Old Saxon is the most
+  conservative form in the eighth/ninth centuries. In Franconian you do get the High
+  German consonant-shift. Saxony remains very stable.
+NIEUWHOF …while the fifth-century Frisian area had a new population forming,
+  and so was very flexible.
+
+                                      References
+
+
+                               (including Discussion)
+
+Primary sources
+A School Atlas of English History. Ed. Samuel Rawson Gardiner 1907 (London).
+Bede, Ecclesiastical History, Volume I: Books 1–3. Trans. J. E. King 1930, Loeb Classical
+   Library 246 (Cambridge, MA).
+R1 = Rüstringer Recht. Eds. Wybren Jan Buma and Wilhelm Ebel 1963, Das Rüstringer Recht.
+   Altfriesische Rechtsquellen. Texte und Übersetzungen 1 (Göttingen).
+U = Codex Unia. Ed. Johanneke Sytsema 2012, ‘Diplomatic Edition Codex Unia’ (via http://
+   tdb.fryske-akademy.eu/tdb/index-unia-en.html#).
+Sweet, Henry and Dorothy Whitelock 1967, Sweet’s Anglo-Saxon Reader in Prose and Verse
+   (Oxford).
+Valcooch, Dirck Adriaensz 1599, Chronijcke van Leeuwenhorn (Hoorn) (via https://dbnl.
+   org/tekst/valc007chro01_01/valc007chro01s_01_0001.php , accessed 22 August 2018).
+
+Secondary sources
+Århammar, Nils R. 1968, ‘Die Herkunft des Inselnordfriesischen im Lichte der Wortgeogra-
+  phie’, Philologia Frisica anno 1966 (Grins), 49–76.
+— 1975, ‘Historisch-soziolinguistische Aspekte der nordfriesischen Mehrsprachigkeit’,
+  Zeitschrift für Dialektologie und Linguistik (2), 129–45.
+— 1990, ‘Friesisch und Sächsisch. Zur Problematik ihrer gegenseitigen Abgrenzung im
+  Früh- und Hochmittelalter’, In Aspects of Old Frisian Philology, eds. R. H. Bremmer, G.
+  van der Meer and O. Vries, Amsterdamer Beiträge zur älteren Germanistik 31–32 (Gro-
+  ningen–Amsterdam–Atlanta), 1–25.
+— 1995, ‘Zur Vor- und Frühgeschichte der Nordfriesen und des Nordfriesischen’, In Frie-
+  sische Studien II. Beiträge des Föhrer Symposiums zur Friesischen Philologie vom 7.–8.
+  April 1994, eds. Volkert F. Faltings, Alastair G. H. Walker and Ommo Wilts (Odense),
+  63–96.
+— 2001, ‘Die Herkunft der Nordfriesen und des Nordfriesischen’, In Handbuch des Frie-
+  sischen / Handbook of Frisian Studies, ed. Horst Haider Munske (Tübingen), 531–7.
+Aufderhaar, Iris 2017, ‘Between Sievern and Gudendorf. Enclosed sites in the north-western
+
+                                           369
+
+=== page 370 ===
+                            Frisians of the Early Middle Ages
+
+   Elbe-Weser triangle and their significance in respect of society, communication and
+   migration during the Roman Iron Age and Migration Period’. In Frisians and their North
+   Sea Neighbours. From the Fifth Century to the Viking Age, eds. J. Hines and N. IJssennag-
+   ger (Woodbridge), 149–72.
+Bantelmann, Albert, Albert Panten, Rolf Kuschert and Thomas Steensen 1995, Geschichte
+   Nordfrieslands (Heide).
+Berger, Dieter 1993, Duden: Geographische Namen in Deutschland: Herkunft und Bedeutung
+   der Namen, Duden-Taschenbücher 25 (Mannheim–Leipzig–Wien–Zürich).
+Blok, D. P. 1968, ‘Plaatsnamen in Westfriesland’, Philologia Frisica anno 1966., 11–19.
+Bos, J. M. and E. W. Brouwer 2005, ‘De kruisvormige fibulae van Friesland: een nieuwe
+   benadering in het onderzoek naar de herkomst van de eerste migranten vanaf AD
+   380/400 en de culturele oriëntatie van het Friese terpengebied tot ca. AD 550’, De Vrije
+   Fries 85, 9–36.
+Bremmer Jr, Rolf H. 2009, An Introduction to Old Frisian: History, Grammar, Reader, Glos-
+   sary (Amsterdam).
+Büntgen, Ulf, Vladimir S. Myglan, Fredrik Charpentier Ljungqvist et al. 2016, ‘Cooling and
+   societal change during the Late Antique Little Ice Age from 536 to around 660 AD’,
+   Nature Geoscience 9 (3), 231–6.
+Campbell, Alistair 1959 (2nd edn 1977), Old English Grammar (Oxford).
+Chadwick, H. Munro 1889, Studies in Old English (London).
+Colleran, Rebecca A. B. 2016, ‘Keeping it in the family; disentangling contact and inher-
+   itance in closely related languages’ (Ph.D. thesis, University of Edinburgh) https://era.
+   ed.ac.uk/handle/1842/25919
+De Vaan, Michiel 2017, The Dawn of Dutch. Language Contact in the Western Low Countries
+   before 1200 (Amsterdam).
+Deckers, Pieterjan 2017, ‘Cultural convergence in a maritime context’. In Frisians and their
+   North Sea Neighbours. From the Fifth Century to the Viking Age, eds. J. Hines and N.
+   IJssennagger (Woodbridge), 175–92.
+Dodgson, John McN. 1966, ‘The significance of the distribution of the English place-name
+   in -ingas, -inga- in south-east England’, Medieval Archaeology, 10, 1–29.
+Dörfler, Walter 2003, ‘Rural economy of the Continental Saxons from the Migration Period
+   to the tenth century’. In The Continental Saxons from the Migration Period to the Tenth
+   Century: An Ethnographic Perspective, eds. Dennis Howard Green and Frank Siegmund,
+   Studies in Historical Archaeoethnology (Woodbridge), 133–57.
+Euler, Wolfram 2013, Das Westgermanische: von der Herausbildung im 3. bis zur Aufglied-
+   erung im 7. Jahrhundert; Analyse und Rekonstruktion (Berlin).
+Findell, Martin 2012, Phonological Evidence from the Continental Runic Inscriptions
+   (Berlin–Boston).
+— 2014, Runes (London).
+Gelling, Margaret and Ann Cole 2000, The Landscape of Place-Names (Stamford).
+Grimmer, Martin 2007, ‘Britons in early Wessex: The evidence of the Law Code of Ine’. In
+   Britons in Anglo-Saxon England, ed. Nick J. Higham, Publications of the Manchester
+   Centre for Anglo-Saxon Studies 7 (Woodbridge), 102–14.
+Gysseling, Maurits 1962, ‘Het oudste Fries’, It Beaken 24, 1–26.
+Haugen, Odd Einar 2004, ‘Frå urnordisk til norrønt språk’. In Handbok i norrøn filologi,
+   additional file online (http://folk.uib.no/hnooh/handbok/ekstra/urnordisk.html)
+   (Bergen).
+
+                                            370
+
+=== page 371 ===
+                                North Sea Germanic Idiom
+
+Higham, Nicholas J. and Martin J. Ryan 2015, The Anglo-Saxon World (New Haven–London).
+Hines, John 1995, ‘Focus and boundary in linguistic varieties in the north-west Germanic
+   continuum’. In Friesische Studien II. Beiträge des Föhrer Symposiums zur Friesischen Phi-
+   lologie vom 7.–8. April 1994, eds. Volkert F. Faltings, Alastair G. H. Walker and Ommo
+   Wilts (Odense), 35–62.
+— 2017, ‘The Anglo-Frisian question’. In Frisians and their North Sea Neighbours. From the
+   Fifth Century to the Viking Age, eds. J. Hines and N. IJssennagger (Woodbridge), 25–42.
+Hofmann, Dietrich 1956, ‘Probleme der nordfriesischen Dialektforschung’, Zeitschrift für
+   Mundartforschung 24 (2), 78–112.
+— 1972, ‘Fries “tiuche”, deutsch “zeche”, griech “dikè” und Verwandte’, Us Wurk 21–2,
+   55–80.
+Hogg, Richard M. 2011, A grammar of Old English Vol. 1, Phonology (Chichester).
+IJssennagger, Nelleke 2012, ‘Vriend, vazal en vijand? Contacten tussen Friezen en Scandina-
+   viërs in de Vikingtijd: Teksten en objecten’, De Vrije Fries 92, 37–59.
+Kauhanen, Henri 2017, ‘Neutral change’, Journal of Linguistics 53 (2), 327–58.
+Kerkhof, Peter Alexander 2018, ‘Language, law and loanwords in early medieval Gaul’
+   (Ph.D. thesis, Leiden University).
+König, Werner 2001, Dtv-Atlas Deutsche Sprache (München).
+Kortlandt, Frederik 1999, ‘The origin of the Old English dialects revisited’, Amsterdamer
+   Beiträge zur Älteren Germanistik 51 (Amsterdam), 45–51.
+— 2008, ‘Anglo-Frisian’, NOWELE. North-Western European Language Evolution 54/55,
+   265–78.
+Kuhn, Hans 1955, ‘Zur Gliederung der germanischen Sprachen’, Zeitschrift für deutsches
+   Altertum und deutsche Literatur 86, 1–47.
+Lass, Roger 1994, Old English. A Historical Linguistic Companion (Cambridge).
+Leslie, Stephen, Bruce Winney, Garrett Hellenthal et al. 2015, ‘The fine-scale genetic struc-
+   ture of the British population’, Nature 519 (7543), 309–14.
+Looijenga, Tineke 2003, Texts and Contexts of the Oldest Runic Inscriptions (Leiden–Boston).
+Martin, Toby F. 2015, The Cruciform Brooch and Anglo-Saxon England (Woodbridge).
+Meier, Dirk 2003, ‘The North Sea coastal area: Settlement history from Roman to early
+   medieval times’. In The Continental Saxons from the Migration Period to the Tenth Cen-
+   tury: An Ethnographic Perspective, eds. Dennis Howard Green and Frank Siegmund,
+   Studies in Historical Archaeoethnology (Woodbridge), 37–76.
+Nedoma, Robert 2018, ‘Voralfriesisch -u im Nominativ und Akkusativ Singular der
+   maskulinen a-Stämme’. In Directions for Old Frisian Philology, eds. R. H. Bremmer Jr,
+   S. Laker and O. Vries, Amsterdamer Beiträge zur älteren Germanistik 73 (Amsterdam),
+   343–68.
+Nicolay, Johan A. W. 2005, ‘Nieuwe bewoners van het terpengebied en hun rol bij de opkomst
+   van Fries Koningschap. De betekenis van gouden bracteaten en bracteaatachtige hangers
+   uit Friesland (vijfde-zevende eeuw na Chr.)’, De Vrije Fries 85, 37–103.
+— 2014, The Splendour of Power: Early Medieval Kingship and the Use of Gold and Silver in
+   the Southern North Sea Area (5th to 7th century AD), Groningen Archaeological Studies
+   28 (Groningen).
+— 2017, ‘Power and identity in the southern North Sea area: the Migration and Merovin-
+   gian Periods’. In Frisians and their North Sea Neighbours. From the Fifth Century to the
+   Viking Age, eds. J. Hines and N. IJssennagger (Woodbridge), 75–92.
+Nielsen, Hans Frede 1985, Old English and the Continental Germanic Languages: A Survey of
+
+                                            371
+
+=== page 372 ===
+                              Frisians of the Early Middle Ages
+
+    Morphological and Phonological Interrelations, Innsbrucker Beiträge zur Sprachwissen-
+    schaft 33, 2nd edition (Innsbruck).
+— 1998, The Continental Backgrounds of English and its Insular Development until 1154.
+    (Odense–Portland OR)
+— 2000, The Early Runic Language of Scandinavia: Studies in Germanic Dialect Geogra-
+    phy (Heidelberg).
+— 2010, ‘The early runic language of Scandinavia: proto-Norse or north-west Germanic?’
+    In Zentrale Probleme bei der Erforschung der älteren Runen: Akten einer internationalen
+    Tagung an der Norwegischen Akademie der Wissenschaften, eds. John Ole Askedal, Harald
+    Bjorvand, James E. Knirk and Otto Erlend Nordgreen (Frankfurt am Main.), 95–114.
+Nieuwhof, Annet 2016, ‘De lege vierde eeuw’. In Van Wierhuizen tot Achlum. Honderd Jaar
+    Archeologisch Onderzoek in Terpen en Wierden, ed. A Nieuwhof, Jaarverslagen van de
+    Vereniging voor Terpenonderzoek 98 (Groningen), 83–98.
+Noomen, Paul N. 2001, ‘Hachens en Wachens. Feit en fiksje yn midsieusk Fryslân’. In Spec-
+    ulum Frisicum: Stúdzjes oanbean oan Philippus H. Breuker, eds. Rolf H. Bremmer Jr,
+    Lammert G. Jansma and Piet Visser (Leeuwarden–Leiden).
+Pheifer, Joseph J. M. D. 1974, Old English Glosses in the Épinal-Erfurt Glossary (Oxford).
+Popkema, Anne T. 2013, ‘On the origin of all evil: The Old Frisian collocation grimme herne
+    and its modern use’. In Twenty-nine smiles for Alastair: Freundesgabe für Dr. Alastair G.
+    H. Walker zu seinem Abschied von der Nordfriesischen Wörterbuchstelle der Christian-Al-
+    brechts-Universität zu Kiel am 4. Juli 2013, ed. J. Hoekstra (Kiel–Groningen), 195–207.
+Quak, Arend 2016, ‘Urgermanisches e1 im Kontinentalgermanischen’. In From Variation to
+    Iconicity (Festschrift for Olga Fischer), eds. A. Bannink and W. Honselaar (Amsterdam),
+    311–30.
+Salmons, Joseph 2018, A History of German: What the Past Reveals about Today’s Language.
+    2nd edition (Oxford).
+Schouten, P., J. de Groot, G. Warnars, S. Luchtmans, J. Luchtmans, A. Blusse and P. Blusse
+    1785, Tegenwoordige Staat der Vereenigde Nederlanden; dertiende deel; vervattende eenen
+    aanvang der beschryving van Friesland (Amsterdam).
+Schulte, Michael 2018, Urnordisch: eine Einführung, Wiener Studien zur Skandinavistik 26
+    (Wien).
+Schwarz, E. 1951, Goten, Nordgermanen, Angelsachsen. Studien zur Ausgliederung der ger-
+    manischen Sprachen (Bern–München).
+Siebs, Theodor 1889, Zur Geschichte der englisch-friesischen Sprache (Halle an der Saale).
+Siegmund, Frank 2003, ‘Social relations among the Old Saxons’. In The Continental Saxons
+    from the Migration Period to the Tenth Century: An Ethnographic Perspective, eds. Dennis
+    Howard Green and Frank Siegmund, Studies in Historical Archaeoethnology (Wood-
+    bridge), 77–95.
+Stiles, Patrick 1995, ‘Remarks on the “Anglo-Frisian” thesis’. In Friesische Studien II. Beiträge
+    des Föhrer Symposiums zur Friesischen Philologie vom 7.–8. April 1994, eds. Volkert F.
+    Faltings, Alastair G. H. Walker and Ommo Wilts (Odense), 177–220.
+Stiles, Patrick V. 2013, ‘The pan-West Germanic isoglosses and the subrelationships of West
+    Germanic to other branches’, NOWELE. North-Western European Language Evolution
+    66 (1), 5–38.
+Swarte, Femke, Nanna Haug Hilton and Charlotte Gooskens 2013, ‘Onderlinge verstaan-
+    baarheid tussen Noord- en Westerlauwers Fries’, Us Wurk 62 (1–2), 21–46.
+Tiefenbach, Heinrich 2010, Altsächsisches Handwörterbuch / A Concise Old Saxon Dictionary
+
+                                              372
+
+=== page 373 ===
+                                 North Sea Germanic Idiom
+
+   (Berlin).
+Todd, Malcolm 2004, The Early Germans (Malden–Oxford).
+Trudgill, Peter 2010, Investigations in Sociohistorical Linguistics: Stories of Colonisation and
+   Contact (New York–Cambridge).
+Udolph, Jürgen 2006, ‘England und der Kontinent: Ortsnamenparallelen’. In Language and
+   Text: Current Perspectives on English and Germanic Historical Linguistics and Philology,
+   eds. A. J. Johnston, F. von Mengden and S. Thim (Heidelberg), 317–43.
+Van Berkel, Gerald and Kees Samplonius 2018, Nederlandse plaatsnamen verklaard
+   (Amstelveen).
+Versloot, Arjen Pieter 2011, ‘Frisian place-names and place-names in Friesland’, Onoma 46,
+   127–50.
+— 2014a, ‘The Runic Frisian vowel system: the earliest history of Frisian and Proto-Insu-
+   lar North Frisian’, Amsterdamer Beiträge zur älteren Germanistik 72, 35–62.
+—2014b, ‘Die –ar-Plurale im Altwestfriesischen mit einem Exkurs über die sächlichen
+   Plurale im Westfriesischen’, Us Wurk 63, 93–114.
+— 2017a, ‘Proto-Germanic ai in North and West Germanic’, Folia Linguistica 51 (s38),
+   281–324.
+—2017b, ‘The Riustring Old Frisian -ar plurals: borrowed or inherited?’. In Frisian
+   Through the Ages. Festschrift für Rolf Bremmer, eds. M. de Vaan and S. Laker, Amster-
+   damer Beiträge zur älteren Germanistik 77 (Leiden–Boston), 442–56.
+—2018, ‘Frysk út Noard-Hollân út de 17e iuw?’, Us Wurk 67, 1–37.
+— forthcoming a, ‘Reconstructing the historical phonology of Old English I’, English
+   Language and Linguistics.
+— forthcoming b, ‘The historical phonology of Old English: a critical review’, Papers in
+   Historical Phonology.
+Versloot, Arjen Pieter and Elżbieta Adamczyk 2017, ‘Geography and dialects in Old Saxon:
+   river-basin communication networks and the distributional patterns of North Sea Ger-
+   manic features in Old Saxon’. In Frisians and their North Sea Neighbours. From the Fifth
+   Century to the Viking Age, eds. J. Hines and N. IJssennagger (Woodbridge), 125–48.
+Versloot, Arjen Pieter and Michiel de Vaan in preparation, A Grammar of Proto-Frisian; the
+   Beginnings of the Frisian Language.
+Vonderach, Andreas 2015, Anthropologie Europas: Völker, Typen und Gene vom Neander-
+   taler bis zur Gegenwart, 2nd edition (Graz).
+Vries, Oebele 2007, Asega, is het Dingtijd? De Hoogtepunten van de Oudfriese Tekstoverlev-
+   ering (Leeuwarden).
+
+
+
+
+                                              373
+
+=== page 374 ===
+

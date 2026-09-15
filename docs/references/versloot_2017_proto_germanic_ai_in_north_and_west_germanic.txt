@@ -1,0 +1,2340 @@
+Versloot, Arjen P. "Proto-Germanic *ai in North and West Germanic."
+Folia Linguistica Historica 38 (2017), 281-324.
+doi:10.1515/flih-2017-0010
+
+SOURCE AND METHOD
+-----------------
+Born-digital PDF with a reliable embedded text layer; extracted with
+`pdftotext -layout` (poppler). No OCR was involved, so no OCR caveat
+applies: the characters below are the publisher's own, not a recognition
+guess. The PDF itself stays untracked under docs/references/ per
+.gitignore; this text is the committed, citable representation.
+
+PAGE NUMBERING
+--------------
+The `=== page NNN ===` markers below are the PRINTED page numbers of the
+publication, not PDF sheet numbers, so a citation taken from this file can
+be given directly as a page reference. The offset is constant: printed
+page N is PDF sheet N - 280. It was verified mechanically: the printed
+folio appears in the running head or foot of 44 of the 44 sheets,
+with no exceptions.
+Text never crosses a printed page boundary.
+
+Printed pages 281-324 (44 sheets).
+
+--------------------------------------------------------------------------
+
+=== page 281 ===
+                                              Folia Linguistica Historica 2017; 38: 281–324
+
+
+
+Arjen P. Versloot*
+Proto-Germanic ai in North and West
+Germanic
+https://doi.org/10.1515/flih-2017-0010
+
+Abstract: Proto-Germanic (PGmc.) ai in stressed syllables shows varied outcomes
+in Germanic languages (ā, ē, ei), with many of these developments being con-
+ditioned by different phonological contexts. This article presents a reconstruc-
+tion that unifies this variation by assuming that the monophthongisation spread
+over ‘Germania’ in two waves with different scopes and directions. The first
+wave expanded from north to south and was primarily limited to the contexts
+before -h and -r. A second wave, affecting the remaining instances of PGmc. ai,
+did not reach Old High German and Old West Nordic. The whole process covered
+the time between 400 and 900. The monophthongisation of PGmc. ai does not
+reflect any structural contrast among the Germanic languages, but the results
+had a differentiating impact on their vowel systems. The presented reconstruc-
+tion is consistent with the information from runic inscriptions. It supposes a
+geographical configuration of tribes in a post-Migration setting.
+
+Keywords: Proto-Germanic, *ai, monophthongisation, Old Frisian, Old Saxon,
+Old English
+
+
+1 Introduction
+The development of Proto-Germanic (PGmc.) ai in stressed syllables is rather varied
+in the attested Old Germanic languages (ā, ē, ei), and it is conditioned by widely
+varied phonological contexts. Monophthongisation was completed before the first
+attestations of Old English (OE; 7th century), e.g. stān ‘stone’ < PGmc. *stain-, and is
+also found in the earliest Old Saxon (OS; 9th century), Old Low Franconian (except
+for some specific phonological contexts; OLF = Old Dutch; 10th century) and Old
+Frisian (OF; 12th century) – all three stēn. In contrast, Old (West) Nordic (ON), Old
+High German (OHG), and to a lesser degree Old Low Franconian, retain the
+diphthong to varying degrees, cf. ON steinn, OHG stein ‘stone’, OLF leidon ‘to
+lead’ < PGmc. *laiđjan. These divergent developments of PGmc. ai contributed to
+the subsequent emergence of the individual Germanic languages.
+
+*Corresponding author: Arjen P. Versloot, Modern Foreign Languages and Cultures, German,
+Scandinavian and Frisian Languages, University of Amsterdam, 1012 WX Amsterdam, The
+Netherlands, E-mail: a.p.versloot@uva.nl
+
+
+
+
+                                          Brought to you by | University of Gothenburg
+                                                                         Authenticated
+                                                   Download Date | 11/20/17 1:04 AM
+
+=== page 282 ===
+282         Arjen P. Versloot
+
+
+
+     According to Stiles (1995: 198–200) and Bremmer (2008: 287), the diverging
+development of PGmc. ai in Old Frisian and Old English is among the oldest
+differences between these two representatives of the North Sea Germanic dialect
+group. Recently, Kortlandt (2008) has postulated that monophthongisation of ai
+to ā was a common Anglo-Frisian development but that Frisian later fronted this
+ā to ǣ under certain phonological conditions (De Vaan 2011). This would imply
+that these two languages split up much later in time than assumed by Stiles and
+Bremmer (Kortlandt 2008: 270–271). Nielsen (2001: 516), in turn, concludes that
+“[…] the monophthongisation of Gmc. ai […] took place independently in each of
+the three languages [Old Saxon, Old English and Old Frisian].”
+     A quite different approach is taken by Voyles (1992: 104,141,169,190,205)
+who tries to date the developments, considering what he calls “areal changes”,
+developments that cover various Germanic dialects, without them being part of a
+common pre-stage (Voyles 1992: 4). Voyles signals an early monophthongisation
+in only a few phonological contexts in Old Nordic around 450 AD. He gives no
+dates for Old English and Old Frisian, but he assumes that the development to ā
+may be a shared feature. He also assumes a shared development for Old Saxon
+and Old High German, with the monophthongisation spreading from Old Saxon
+into Old High German in the 7th century. The reconstruction proposed in this
+article is in line with these observations, but will go further by integrating all the
+developments into 3 related areal changes: two waves of monophthongisation
+and a gradual assimilation of the two components of the diphthong ai.
+     Another intriguing point in the development of PGmc. ai is the position of
+Dutch. All Germanic dialects with a diversified development of PGmc. ai, i.e.
+North Germanic, Frisian and High German, evince phonological conditioning for
+the diversification based on the (semi-)consonants, e.g. Old High German has ē
+before r, h, and w but otherwise ei (see the detailed overview in the subsequent
+section). Frisian does not only develop ā < PGmc. ai before r, h – as in Old High
+German – but also before g and velar vowels in the following syllable. In Dutch,
+however, the preservation of the diphthong ei is conditioned by the palatal
+(semi-)vowels i, j. In all other contexts, Dutch has ē (Bree 1987: 100). The impact
+of the following i, j is generally interpreted as i-mutation in the Germanic
+languages. However, a typical feature of Dutch is the lack of i-mutation effects
+on long vowels (Buccini 1995), which makes it surprising that i-mutation would
+suddenly play a role in conditioning the monophthongisation of PGmc. ai in
+Dutch. According to recent views on the history of Dutch, its origins are attrib-
+uted primarily to language contact between ‘Anglo-Frisian’ in the coastal
+regions and some form of inland Franconian (Buccini 2003; De Vaan 2012).
+The i-mutation does not play a role in conditioning the monophthongisation of
+PGmc. ai in either of them.
+
+
+
+                                      Brought to you by | University of Gothenburg
+                                                                     Authenticated
+                                               Download Date | 11/20/17 1:04 AM
+
+=== page 283 ===
+                              Proto-Germanic ai in North and West Germanic         283
+
+
+    This article offers a new, holistic interpretation of the development of PGmc.
+ai in the North and West Germanic languages, which unifies the observed
+variation both between and within the various Germanic branches. The recon-
+struction presented here builds upon the principles of language change as
+observed in dialectology, such as the gradual and diversified spread of changes
+in different phonological contexts (‘waves’). Moreover, it takes into account the
+inferences that can be made about the earliest history of Germanic languages
+from runic evidence and early attested place-names.
+    This paper is organised as follows. Section 2 briefly sketches the develop-
+ments of PGmc. ai in the various Germanic dialects as sketched in the hand-
+books. In Subsection 3, I present my two-wave model. Section 4 probes both the
+runic and early place-name evidence which can be used to support this model.
+Section 5 discusses two languages with complex and diversified developments:
+Old Frisian and Old Saxon. Section 6 gives a diachronic synopsis which is fine-
+tuned to the insights gained from Sections 4 and 5. Section 7 will offer a
+discussion and conclusion.
+    A few remarks on the technicalities and spelling conventions are in order
+prior to the analysis proper. Vowels are generally not treated in a strict phono-
+logical way and are therefore spelled in italics, such as ā and ē, which appear as
+products of the monophthongisation of PGmc. ai. The phonetic details of these
+two (and other) sounds can vary. It must be assumed that in many languages ē
+had the sound value [εː] for some time rather than [eː]. Also the ā may vary in
+time and space from [æː] to [ɑː] or even [ɔː]. The italic characters æ/ǣ are used in
+the historical-linguistic way as sounds close to [ε(ː)]. Only when phonetic or
+phonological details are at stake, is a more precise description provided, respect-
+ing the IPA conventions. Transliterations of runic inscriptions are given in bold
+typeface, while < … > can be used to refer to the purely graphematic representa-
+tion level. In order not to overload the text with ‘*’, I have chosen to apply ‘*’
+only to full words which are not attested. That various sounds, phonemes or
+pronunciations are reconstructions is inherent to the topic.
+    As to the designation of the languages, several conventions will be applied
+which need a brief commentary here. It must be emphasised that these names
+do not function as benchmarks in any ideological or theoretical sense but are
+only used for practical purposes. I use the terms Old English, Old Frisian, Old
+Low Franconian, Old Saxon, Old High German and Old Nordic as generic
+labels, without being specific about the time frame, to refer to the historical
+stages of the English, Frisian, Dutch, German and Scandinavian languages. In
+general, they refer to the oldest attested forms of these languages, apart from
+the often scant runic attestations. Note that Old Low Franconian is here
+considered to be a continental West Germanic variety. The language of the
+
+
+
+                                        Brought to you by | University of Gothenburg
+                                                                       Authenticated
+                                                 Download Date | 11/20/17 1:04 AM
+
+=== page 284 ===
+284         Arjen P. Versloot
+
+
+
+Dutch coastal regions was a North Sea Germanic variety in the Early Middle
+Ages. The current varieties of Holland, Zeeland and Flanders are the product of
+inland Franconian being adopted by speakers of these North Sea Germanic
+varieties (De Vaan 2012).
+     The common language that the Old Germanic dialects derive from is called
+Proto-Germanic (PGmc.), without any subdivision into ‘Common Germanic’,
+‘North-West Germanic’, etc. These subtleties are not relevant to the present
+discussion, because I operate with absolute datings and not with periodization
+labels. The following terminology is applied to refer to the specific language
+forms as attested in the runic attestations. I use ‘Early Runic’ for the language in
+Scandinavia in the period 200–500 AD, which is a form of Germanic very close
+to (late-)Proto-Germanic, attested in inscriptions from the area that is nowadays
+North Germanic speaking territory (Nielsen 2000: 295). The later stages will
+simply be referred to as Old Nordic. In England, the runic inscriptions cover a
+time from ca. 400–1000 AD (Page 2006: 21), which overlaps the period of
+otherwise written Old English sources, starting in the 7th century. For the early
+runic attestations from England, I use the term ‘Anglo-Saxon (runes)’. For
+Frisian, there is a wide gap between the language of the runic inscriptions
+from the 6th to 9th century, which I will call ‘Runic Frisian’ (Versloot 2014a,
+2016) and Old Frisian, which is only attested after 1250. The term Proto-Frisian is
+sometimes used for earlier, reconstructed stages of the language. There are no
+relevant inscriptions corresponding to the Old Low Franconian or Old Saxon
+language area. The language of the inscriptions from the Continent, mostly from
+the present-day High German language area, is called ‘Continental Runic’
+(Findell 2012a).
+
+
+
+2 The development of PGmc. ai in Old Germanic
+  dialects
+This section provides a brief overview of the development of PGmc. ai in the
+individual languages. PGmc. ai has different reflexes in the various Germanic
+dialects. This study concentrates on the stressed syllables. In addition, there are
+a few other contexts where ai appeared in PGmc., which are of marginal interest
+in this paper. Unstressed PGmc. word final -ai was monophthongised, a devel-
+opment that can in Early Runic be dated to the period between ca. 200 and 500
+AD, where PGmc. ai became -ē (Boutkan 1995: 42,361). Old Nordic attests to a
+monophthongisation to ā in secondary stressed syllables (Nielsen 1983: 162),
+while Old Frisian shows the result of a shortening to æ in stressed syllables
+
+
+
+                                     Brought to you by | University of Gothenburg
+                                                                    Authenticated
+                                              Download Date | 11/20/17 1:04 AM
+
+=== page 285 ===
+                                   Proto-Germanic ai in North and West Germanic                285
+
+
+before consonant clusters (De Vaan 2011: 309–312; Hoekstra and Tigchelaar
+2014: 188; Kümmel 2014a: 38). These developments, though important for the
+individual languages, stay beyond the scope of this article.
+
+
+
+2.1 Nordic
+There is a contrast between ei in Old West Nordic (OWN) and ē in Old East Nordic
+(OEN), but both branches show ā before PGmc. r, h: Icelandic steinn, tár, Danish
+sten, tå, ‘stone, toe’ < PGmc. *staina-, *taihwō-. The ā becomes ǣ as a result of i-
+mutation: Icelandic læra, Danish lære < PGmc. *laizjan (Heusler 1967: 26). Note also
+that the monophthongisation almost only took place before r deriving from PGmc.
+r (e.g. ON sár < PGmc. *saira-). In contrast, monophthongisation was rare before r
+deriving from PGmc. z (e.g. ON meira ‘more’ < PGmc. *maiza-), indicating that the
+rhotacism of PGmc. z must have occurred sometime after the time of monophthon-
+gisation.1 Still, there are exceptions, such as ON læra ‘to learn’ < PGmc. *laizjan
+(cf. Gothic laisjan). PGmc. ai becomes ǣ before PGmc. w (Heusler 1967: 27), but
+i-mutation could be involved in most of the examples as well.
+
+
+
+2.2 English
+
+PGmc. ai always becomes ā in Old English, which in turn developed into ǣ
+when affected by i-mutation, e.g. stān, Modern English stone < PGmc. *staina-,
+lǣdan, Modern English to lead < PGmc. *laiđjan.
+
+
+
+2.3 Frisian
+
+Old Frisian splits PGmc. ai into ǣ ( > ē) and ā. This split is lexically (almost) the
+same in all Frisian varieties (Århammar 1969: 109,114). This makes the lexical
+
+
+1 It is sometimes assumed that /r/ was uvular [r] in PGmc., but that the /r/ < /z/ was an apical
+trill [r], which is the standard realisation in the more archaic Germanic varieties. A uvular /r/ in
+PGmc. would fit nicely and make ‘velarity’ a uniform phonological trigger. In a word such as
+Proto-NWGerm. *lairjan < PGmc. *laizjan, the /r/ must have been an apical trill. However, [r] can
+be a trigger for monophthongisation as well. Denton (2003) analyses the whole complex,
+presenting synchronic phonetic arguments and concludes that /r/ was an apical trill from the
+very beginning in Germanic, a sound that can phonetically be responsible for the ‘velar’ effects,
+such as in the monophthongisation process of PGmc. ai or in Old English ‘breaking’. I will
+henceforth use the term ‘velar’ in quotation marks.
+
+
+
+
+                                               Brought to you by | University of Gothenburg
+                                                                              Authenticated
+                                                        Download Date | 11/20/17 1:04 AM
+
+=== page 286 ===
+286          Arjen P. Versloot
+
+
+
+distribution of ē and ā an outstanding marker of Frisian: it most likely antedates
+the colonisation of the North Frisian Islands (7th/8th century) and it sets Frisian
+apart from the other North Sea Germanic languages, i.e. Old English (always ā)
+and Old Saxon (always ē). The exact phonological conditioning for the two
+developments has long been unclear, but recently De Vaan (2011) has come out
+in support of an earlier hypothesis by Siebs that ā appears before PGmc. r, h, g
+and velar (semi)vowels, e.g. stēn ‘stone’ < PGmc. *staina-, āga ‘to owe’ < *aig-.
+There are, however, quite a few exceptions to this rule, such as rāp
+‘rope’ < PGmc. *raipa- with unexpected ā, sēr ‘wound’ < PGmc. *saira-, with unex-
+pected ē, and there are some doublets, e.g. āth ~ ēth ‘oath’ < PGmc. *aiþa-,
+lāre ~ lēre < PGmc. *laizō- ‘teaching’. The i-mutation always turned a potential ā
+into ē, such as in lēra ‘to learn’ < PGmc. *laizjan. In contrast to Old Nordic, Frisian
+shows no difference in the behaviour of PGmc. ai before r < PGmc. z or r, e.g.
+ērest, ārist ‘first’ < PGmc. *airist-, lāre, lēre ‘doctrine’ < PGmc. *laizō-, which
+implies that the merger of the two types of r had already taken place. The results
+of an in-depth analysis are presented in Subsection 5.1.
+
+
+
+2.4 High German
+
+High German has ei in roughly the same words as West Nordic but ē before r, h, w:
+Stein ‘stone’, mehr ‘more’, Zehe ‘toe’, See ‘sea’ < PGmc. *staina-, *mair, *taihwō-,
+*saiwi- (Braune and Reiffenstein 2004: § 43 & 44). Note that the phonological
+context for monophthongisation to ē is the same as the Nordic context for mono-
+phthongisation to ā/ǣ.2 Old High German is the only Old Germanic language
+where the monophthongisation is partly captured in the earliest attestations.
+Braune and Reiffenstein (2004: §44) date it to the 7th century.
+
+
+
+2.5 Dutch
+
+Dutch, too, testifies to a split development of PGmc. ai. It developed into a
+monophthong ē in most instances, but when followed by i or j it was not
+
+
+2 I would like to thank Michiel de Vaan for directing me to this fact. His discussion of ai in
+Frisian made me aware of the common factor of ‘velarity’ for Old Frisian and Old Nordic, and
+his remark concerning Old High German was the missing link in my understanding of the
+developments. He also commented on an earlier version of this paper. I would further like to
+thank Elżbieta Adamczyk (Wuppertal, Germany), Stephen Laker (Fukuoka, Japan), Patrick Stiles
+(London, UK) and two anonymous reviewers for valuable remarks and suggestions for the
+content of this paper.
+
+
+
+
+                                          Brought to you by | University of Gothenburg
+                                                                         Authenticated
+                                                   Download Date | 11/20/17 1:04 AM
+
+=== page 287 ===
+                                   Proto-Germanic ai in North and West Germanic              287
+
+
+monophthongised and appears as ei: steen ‘stone’, leiden ‘to lead’ < PGmc.
+*staina-, *laiđjan. In Dutch, i-mutation seems to block monophthongisation.
+However, when the consonantal conditions that work in Old High German and
+Old Nordic compete with i-mutation in Dutch, monophthongisation is applied,
+as in Modern Dutch leren < PGmc. *laizjan ‘to learn’ and not *leiren, cf. German
+lehren (Bree 1987: 100). Hollandish dialects show a few instances of retention of
+the diphthong ei before alveolar consonants: vleis ‘meat’, scheiden ‘to
+separate’ < PGmc. *flaisk-, *skaiþan, (Bree 1987: 103). Flemish, on the other
+hand, went through a stage with only monophthongs, as evidenced by
+Flemish Middle Dutch cleen, Standard Dutch klein ‘small’ < PGmc. *klaini-.
+     Apart from this alternation between Dutch ei and ē, Hollandish dialects have
+ā or ō in a few words, such as aak ‘type of tree’ (cognate of Standard Dutch eik
+‘oak’) < PGmc. *aik- and toon ‘toe’ (Standard Dutch teen) < PGmc. *taihwō- (cf. OF
+tāne). These words are generally considered to be Ingvæonic relics (Miedema
+1970; De Vaan 2011).3 Note that some of these words have parallels with ā in
+Frisian, though others do not. The details of the development of PGmc. ai in
+Dutch coastal dialects deserves a separate treatment, but is marginally men-
+tioned in the discussion of Frisian in Subsection 5.1. The complicated evidence
+from North Sea Germanic relics in these dialects does not provide independent
+support for my reconstruction of events that will be presented in Section 3.
+
+
+
+2.6 Saxon/Low German
+
+Old Saxon generally shows ē in all contexts. Hofmann suggested a split into two
+different ē-phonemes, parallel with Old Frisian, but this idea is rejected by
+Nielsen (2001: 515–516) and Krogh (1996: 283). Apart from ē, other reflexes of
+PGmc. ai are found in some Old Saxon texts, namely: ā, ǣ and ei (Gallée 1910:
+70–74). The ā, ǣ represent more open vowels than the common Old Saxon reflex
+
+
+3 A reconstructed *aikō (Philippa et al. 2003) implies an OF *āke. Griepentrog (1995: 17–23)
+shows that the word was originally a root noun PGmc. *aiks, which follows from attestations in
+Old Nordic and Old English. In this case, one may expect OF *ēk or *āk (see Subsection 5.1). The
+word is only attested in the dat.sg. as < eke > in Old Frisian, and the ē is confirmed by evidence
+from all modern Frisian dialects (Stiles 1995: 186). In Dutch coastal dialects (former Frisian
+speaking regions) it appears as aak, denoting another tree species. Griepentrog (1995: 22)
+mentions the transition to the ō-stems in Old Saxon and Old Low Franconian and possibly
+also Old High German. Old Frisian is more likely to stay on the side of Old English. Modern
+Dutch has an unexpected eik instead of *eek (but eekhoorn ‘squirrel’). The Dutch form is
+explained through analogy with the adjective ‘oaken’ PGmc. *aikina-, with i in the following
+syllable (Bree 1987: 101).
+
+
+
+
+                                              Brought to you by | University of Gothenburg
+                                                                             Authenticated
+                                                       Download Date | 11/20/17 1:04 AM
+
+=== page 288 ===
+288         Arjen P. Versloot
+
+
+
+ē and resemble in this respect Old Frisian and Old English ā. The ei is the
+common reflex in Old High German. There are no lemmas that only appear with
+ā, ǣ or ei < PGmc. ai; words are always attested with regular ē as well. The
+implication of these few exceptions are discussed in Subsection 5.2.
+    Given the wide variety of developments of PGmc. ai in the various Germanic
+dialects, it comes as no surprise that these developments – to the best of my
+knowledge – have not been treated as one process up till now.
+
+
+
+3 The two-wave model
+
+3.1 The geographical spread of the monophthongisation
+Despite the differences between individual Germanic dialects, various common
+patterns emerge from a comparison of the developments described in Section 2:
+1. In every language with a split development of PGmc. ai, the same group of
+    contexts pops up, even in Old Low Franconian: monophthongisation is the
+    rule before r, h, and often w. The common feature of h and w is that they are
+    both velar: h = [χ], w = [w]. The velar h = [χ] is also in Old Frisian a condition-
+    ing factor for the monophthongisation to ā, alongside the voiced velar g =
+    [γ], rounded back vowels, such as u and ō, and w following a consonant.
+2. The ā, by whatever condition, is found in a contiguous region of geographi-
+    cally adjacent languages, basically around the North Sea: Old Nordic, Old
+    English, Old Frisian and some reflexes in Old Saxon as well as in modern
+    western Dutch dialects, relics from the earlier North Sea Germanic language
+    in the Dutch coastal zone. On the other hand, ē prevails in the south: Old
+    High German, Old Saxon, Old Low Franconian. In Old Frisian and Old East
+    Nordic, ē competes with ā.
+3. In languages with partial monophthongisation, High German and West
+    Nordic, there is always a monophthong in the ‘velar’ context but not in
+    the other contexts: OHG stein ~ sēr; ON steinn ~ sár ‘stone, sore’. The same
+    ‘velar’-criterion marks the difference between ā and ē in Old Frisian and Old
+    East Nordic. The monophthongisation is restricted to the ‘velar’ context in
+    High German and West Nordic and this fact can be taken as an indication
+    that it reflects the oldest stage of the process. This implies that also in Old
+    Frisian and Old East Nordic, the monophthongisation in ‘velar’ contexts, i.e.
+    to ā, was most likely older than in other contexts. For Old East Nordic this is
+    widely acknowledged, based on evidence from the younger runic inscrip-
+    tions (Bandle 2012: 65, 66).
+
+
+
+                                       Brought to you by | University of Gothenburg
+                                                                      Authenticated
+                                                Download Date | 11/20/17 1:04 AM
+
+=== page 289 ===
+                                 Proto-Germanic ai in North and West Germanic            289
+
+
+4.   In the light of the complete monophthongisation of PGmc. ai in Old English,
+     Old Frisian and Old Saxon and the observed impact of ‘velar’ contexts, the
+     Old Low Franconian situation with lack of monophthongisation before i,j,
+     presents the ultimate form of the ‘velarity’ condition: Old Low Franconian
+     has monophthongisation in all contexts but the most non-‘velar’ one,
+     namely, instances with palatal i,j in the next syllable. That ‘velarity’ is the
+     decisive feature here is inferred from the observation that a directly follow-
+     ing r, h, or w nullifies the impact of non-velar i,j in the next syllable. The
+     incidental retention of ei before alveolar consonants in Hollandish fits into
+     the same ‘velarity’ scale.
+
+These observations lead to the following interpretation: the monophthongisation
+is oldest in ‘velar’ contexts. Languages with two different monophthongs
+(Old Frisian and Old East Nordic ā and ē, some marginal reflexes in Old
+Saxon) went through two stages of the monophthongisation process, where ā
+represents the product of the first stage. The ‘velarity’ condition was most
+restricted in Old Nordic and Old High German, somewhat more extended in
+Old Frisian, and totally absent in Old English with unrestricted monophthongi-
+sation to ā. In Old Low Franconian, only the extreme mirror-context of ‘velarity’,
+i.e. the i-mutation context, blocked monophthongisation.
+
+
+
+3.2 The phonological dispositions towards
+    monophthongisation
+
+Monophthongisation of ai can be accomplished in two ways: mutual assimila-
+tion of the two elements [a] and [i], where the outcome is a kind of phonetic
+compromise [eː] of [εː], or either of the two elements disappears or is absorbed
+while the other element shows compensatory lengthening. Regarding the second
+scenario, only the loss of the second element of PGmc. ai is at stake, hence
+ai > ā.4 Monophthongisation is a widespread phenomenon in many languages.
+French, for instance, shows monophthongisation through the assimilation of Old
+French ai > εi (12th century) > ε (13th century) (Allières 1988: 38,39), and English
+witnesses a near-monophthongisation of Middle English ai to [ei], as in day,
+eight, through an intermediate stage of assimilation, [εːi] (Ekwall 1975: 18).
+
+
+
+4 Slavic exhibits a series of monophthongisations of Proto-Indo European diphthongs where
+the first element was lost, such as PIE ei and oi > Old Church Slavonic i, PIE au > Old Church
+Slavonic u (Fortson 2010: 423).
+
+
+
+
+                                            Brought to you by | University of Gothenburg
+                                                                           Authenticated
+                                                     Download Date | 11/20/17 1:04 AM
+
+=== page 290 ===
+290          Arjen P. Versloot
+
+
+
+      A realisation [ai] of the diphthong in PGmc. is widely supported by runic
+evidence (cf. Section 4) and the comparative method. The attested Old Germanic
+languages that retain a diphthong, at least in some contexts (West Nordic, Old
+Low Franconian, Old High German), have ei, probably representing [εɪ].5 This
+suggests a gradual development [ai] > [æɪ] > [εɪ], where a monophthongisation at
+the stage of [ai] leads to [aː] = ā, but [æɪ] and [εɪ] will lead to [εː] > ē. A direct
+transition directly from ai > ā, as in Old Norse and Old English, suggests the
+absorption scenario. However, an assimilation scenario is possible as well for
+the [ai] > [aː] transition. The ‘velar’ context may have triggered a transition of
+[ai] > [aɪ] > [ae] > [aε] > [aæ] > [aː]. One step in a similar shift is visible in Scots [aˑe]
+in e.g. tied (Wells 1982: 405; in the morpheme or syllable auslaut). Such a
+scenario still presumes the transition of [ai] > [εɪ] for those varieties that show
+monophthongisation to ē.
+      A point that is frequently raised, is the relation between the fronting of a in
+the diphthong ai and the so-called Anglo-Frisian fronting of short a. Various
+authors want to connect these two and consider the difference between OE
+stān ‘stone’ < *ai and read ‘red’ < *æu against OF stēn < *æi and rād < *au a
+reason to assume different chronologies for fronting and monophthongisation
+in the two North Sea Germanic languages (see for discussions and further
+references e.g. Stiles (1995: 197–200), Kortlandt (2008)). I want to mention
+two examples, which show that this link is not a necessity. Unstressed PGmc.
+word final -ai was monophthongised to -ē in Early Runic (between ca. 200 and
+500 AD), without any general fronting of short a (Boutkan 1995: 42,361). The
+other example can be observed synchronically in my personal Dutch: I tend to
+pronounce the short /a/ in the diphthong /au/ as [a]: [au], while a single short
+/a/ sounds rather [ɑ] or [ɔ]. Stroop (1998: 33) describes the raising of short /e/
+[ɛ] in Modern Dutch towards [e] in isolation but its lowering to [æ] or even [a]
+in the diphthong /ei/. Altogether, I see ample reasons to free the discussion
+about the chronology of sound changes in Old English and Old Frisian from
+this link between vowels in isolation and diphthongs.
+      The shift in the phonetic realisation of the diphthong is the most proble-
+matic and speculative part of this theory. That basically ‘everything goes’ is
+illustrated by the development of Middle Dutch /εi/ in 20th century North
+Hollandish dialects (Figure 1). The map shows monophthongisation of Middle
+
+
+5 This diphthong is often rendered as [εi], rather than [εɪ]. One often finds [ɪ] as the second
+element of the diphthong in descriptions of English pronunciation (e.g. Wells 1982: 308).
+According to my own perception of Dutch < ei > , which I find confirmed in Cohen et al. (1971:
+Fig. 11; cf. p.72), the second element is indeed not the extremely closed [i]. This may of course
+vary across speakers and language varieties.
+
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 291 ===
+                                 Proto-Germanic ai in North and West Germanic              291
+
+
+
+
+Figure 1: The development of Middle Dutch /εɪ/ in 20th century Hollandish dialects in North
+Holland.
+Data taken from (Goeman et al. 1980), item ‘meisje’ (girl)
+[è] = [ε], [ò] = [ɔ]
+
+
+Dutch /εi/ to [aː] and [εː] on the one hand and dissimilation to [ɔi] on the other in
+close geographical vicinity. The geographical adjacency of forms suggests both
+[aː] < [ai] as well as [aː] < [εː] < [εɪ]. There are obvious theoretical advantages in
+reconstructing a gradual development [ai] > [æɪ] > [εɪ] in early Germanic, but the
+underpinning of this development with the attested runic data is problematic.
+Some, although ambiguous, evidence comes from the Continental Runic inscrip-
+tions and will be discussed in Subsection 4.4. The topic will be taken up again in
+Subsection 6.1.
+
+
+3.3 The two waves of monophthongisation
+The observation that ai is older than ei and that monophthongisation in ‘velar’
+contexts is older than in the other ones implies that the monophthongisation
+started in ‘velar’ contexts and in the north, where the outcome was ā. As Old
+Saxon shows only scarce reflexes of ā and Old High German not at all, this ‘velar’
+
+
+
+                                            Brought to you by | University of Gothenburg
+                                                                           Authenticated
+                                                     Download Date | 11/20/17 1:04 AM
+
+=== page 292 ===
+292            Arjen P. Versloot
+
+
+
+monophthongisation cannot have reached the south before the transition ai > æi
+had taken place there. A second wave of monophthongisation in ‘non-velar’
+contexts produced ē everywhere, also in the north, such as in Old Frisian and
+Old East Nordic. From these facts, the following relative chronologies can be
+established:
+
+      ‘North’: 1) ai > ā in velar contexts; 2) ai > æi; 3) æi > ē in other contexts (Old Frisian Old East
+      Nordic).
+      ‘South’: 1) ai > æi; 2) æi > ē in velar contexts (Old High German); 3) æi > ē in other contexts
+      (Old Saxon, Old Low Franconian).
+
+These chronologies can be the result of the following scenario of two waves of
+monophthongisation, crossing the spread of assimilation in the diphthong:
+1) a first wave of monophthongisation in ‘velar’ contexts, spreading from north
+   to south;
+2) a second wave of monophthongisation, only affecting some languages in
+    the ‘centre’;
+3) the simultaneous spread of ai > æi from south to north.
+
+The two waves of monophthongisation cross chronologically with the assimila-
+tion of the diphthong ai > æi which moves from south to north. The reconstructed
+developments and geographical configurations can be captured in the following
+schematic chart.
+
+
+
+
+Figure 2: The monophthongisation of PGmc. ai in two waves, under a south-north trend of
+ai > æi. Old Saxon is a ‘black box’ here, cf. discussion Subsection 5.2.
+
+
+
+                                               Brought to you by | University of Gothenburg
+                                                                              Authenticated
+                                                        Download Date | 11/20/17 1:04 AM
+
+=== page 293 ===
+                                Proto-Germanic ai in North and West Germanic          293
+
+
+     This first monophthongisation was limited to the ‘velar’ context and resulted in
+ā in the north (Nordic, Frisian, Anglo-Saxon) and ē in the south (Franconian,
+Saxon, High German). This contrast reflects the northern advance of the ai > æi
+transition: the realisation [ai] developed into ā in Nordic and the North Sea
+Germanic languages, while the south already shows the more closed realisation
+[æɪ], producing [æː] or [εː] > ē. Subsequently, the transition [ai] > [æɪ] > [εɪ] proceeded
+towards the north. The monophthongisation trend spread to more contexts, but this
+second wave did not affect all languages: Old Low Franconian, Old High German
+and West Nordic were not subject to this stage of the process, while Old Frisian, Old
+Saxon and Old East Nordic were affected. PGmc. ai had in the meanwhile turned
+into æi everywhere and the result of monophthongisation was now [εː] > ē. In Old
+English and Old Saxon, the two waves of monophthongisation cannot be separated
+properly. In Old English, the second wave came so quickly after the first one that
+the south-north movement of ai > æi did not reach England before that time. Old
+Saxon witnesses to exactly the reverse situation of Old English. The transition
+ai > æi was basically already completed before the first wave of monophthongisa-
+tion entered the region and monophthongisation almost always led to ē (at least in
+the dialects that underlie the major Old Saxon texts). Old Frisian, which is situated
+between those two languages, shows both ā and ē, providing evidence for the
+theory that there were indeed two subsequent waves of monophthongisation. There
+is some marginal variation in Old Saxon that can be interpreted in the same way, as
+will be discussed in Subsection 5.2. The configuration in the North-Sea Germanic
+languages – Old English, Old Frisian and Old Saxon – indicates that the two waves
+were almost simultaneous in this central region. In the north, the time gap between
+them was larger and hence the resulting patterns were more clear-cut.
+
+
+
+4 Runic evidence and dating
+The aim of this section is to investigate evidence from runic attestations, mostly
+before the year 800 and from place names from the Low Countries and the western
+Saxon regions, where runic evidence is absent. The runic attestations allow a dating
+of the monophthongisation of PGmc. ai in some cases. Otherwise, the attested
+linguistic facts should at least be reconcilable with the proposed scenario.
+
+
+
+4.1 Nordic runes
+The notion of two waves of monophthongisation is well established in Nordic
+philology. Haugen (1982: 200) dates the first wave (ai > ā) to the 6th or 7th
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 294 ===
+294           Arjen P. Versloot
+
+
+
+century and the second wave (OEN ei > ē) to the 10th century. The 10th century
+applies to Denmark, while the process spread only gradually northwards into
+Sweden and parts of Norway even until the 16th century (Bandle 2012: 65, 66,
+Sandøy 1993: 114). The Early Runic inscriptions from Scandinavia offer a
+somewhat earlier dating for the first wave than the one mentioned by
+Haugen, as can be seen in Table 1. The table presents the attestations of the
+verb faihan ‘to do’ with PGmc. ai before /h/, which is relatively well attested in
+Early Runic from Scandinavia:
+
+Table 1: The development of PGmc. ai before h in Early Runic.
+
+
+Inscription     faih-/fāh   Date
+
+. Vetteland   faihido     Stone, no archaeological date / c. - AD
+. Einang      faihido     Stone, between ca. - / c. - AD
+. Rö          fahido      Stone, no archaeological date / c. - AD
+. Åsum       fahi        Bracteate-type C (IK ), between ca. - / Phase ,
+                            c. - AD
+. Väsby      f[a]hidu    Bracteate-type F (IK ,), between ca. - / Phase III,
+                            c. - AD
+. Noleby      fahi        Stone, no archaeological date; linguistic date - / c. -
+                            AD
+
+Legend: the numbering is taken from Krause (1966), the first dates are from the Kiel Rune
+Project (Marold and Zimmermann), behind ‘/’ from Imer (2011: 175). The Noleby stone can be
+dated to the period between ca. 400 and 600 based on linguistic features: it has the word toje
+[k]a = ‘give I’, with a monophthong from earlier /au/, which is an innovation from the transi-
+tional period towards Old Norse (Ralph 2002: 710); the use of the jar-rune for /j/ instead of /a/,
+which is still rendered by the ans-rune, is an archaic feature (Haugen 2004: 65).
+
+
+
+
+This word is relatively frequent (6 attestations), unambiguous in its interpretation,
+and the archaeological dating provides a consistent picture: one instance with-
+ < ai > is dated before 440 AD, two instances with < a > to ca. 400 AD or later. Table
+1 indicates that in the position before h, PGmc. ai had been monophthongised in
+Early Runic by ca. 440 AD. There is even evidence pointing to an earlier dating of
+the process, namely, the Nydam II-inscription. It reads ahti, which is interpreted
+as being derived from PGmc. *aih-ti-z f. ‘possession’ and is dated ca. 250–320 AD
+(Looijenga 2003: 157).6 In both circumstances, the monophthongisation is earlier
+
+
+6 Boutkan (1995: 361) signals the possibility of dialectal differences in the timing of the
+monophthongisation in unstressed word-final syllables. Such differences are of course also
+possible in this case, where the forms with ai in Table 1 originate in south-west Norway and the
+
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 295 ===
+                                  Proto-Germanic ai in North and West Germanic             295
+
+
+than the date given by Haugen. I will henceforth operate with the year 400 AD
+(see Nielsen 2000: 165 for a similar conclusion). It is noteworthy that the Rö
+inscription contains s[a]ir- ‘wound’ next to fahido, potentially indicating a gra-
+dual spread of the monophthongisation to the various phonological contexts: first
+before /h/, later before /r/.
+
+
+
+4.2 Anglo-Saxon runes
+Anglo-Frisian runes exhibit a set of three additional runes which reflect
+changes in the phonology (Parsons 1996; Looijenga 2003: 121, Waxenberger
+2013). One of these runes is the so-called āc-rune, meaning ‘oak’. The name of
+the rune comes from PGmc. *aik- (cf. footnote 3) and it testifies to the mono-
+phthongisation of PGmc. ai > OE ā. The oldest attestation of the āc-rune in
+Anglo-Saxon runes is from the first half of the 7th century (Waxenberger 2013:
+36–39). This provides a datum-ante-quem of ca. 600 for the monophthongisa-
+tion. The Skanomodu-inscription, which is generally considered to be of Frisian
+origin, contains the āc-rune and is dated as early as the late-6th century
+(Looijenga 2003: 308).7
+     A very interesting inscription is the one from Caistor-by-Norwich found on a
+bone (astragalus) from a roe-deer, leaving little doubt about its interpretation. It
+reads raïhan ‘roe’, OE rāha < PGmc. *raihan-. The word is especially interesting
+for two reasons:
+1) the word contains the ultimate monophthongisation context, i.e. before /h/;
+2) the word is written with a digraph.
+
+This very archaic word form is dated to ca. 425–475 (Waxenberger 2013: 45,
+also; Page 2006: 179–180, 229). Both Looijenga (2003: 67,139) and Page (2006:
+18,229) consider a Scandinavian origin for the inscription, because of the
+single-barred h. However, Page makes it clear that the single-barred h is also
+found in other inscriptions from England, such as Watchfield (see also
+Looijenga 2003: 137). On account of the original location, the inscription
+
+
+
+others in Sweden. The form ahti is from Jutland (DK). Grünzweig (2004, in: Marold &
+Zimmermann) considers an entirely different interpretation of the word, which would eliminate
+this specific problem in the argumentation.
+7 An interpretation of the Loveden Hill inscription, where a monophthongised PGmc. ai would
+be rendered by the ans-rune goes against the whole interdependency between the monophthon-
+gisation of ai and the introduction of the āc-rune. See Waxenberger (2013: 43,44) for a further
+discussion of the Loveden Hill inscription
+
+
+
+
+                                            Brought to you by | University of Gothenburg
+                                                                           Authenticated
+                                                     Download Date | 11/20/17 1:04 AM
+
+=== page 296 ===
+296          Arjen P. Versloot
+
+
+
+from Caistor-by-Norwich is by default affiliated with the Anglo-Saxon lan-
+guage. Moreover, a Scandinavian origin is explicitly unlikely because of the
+conclusion reached in the previous section that Early Runic already had
+monophthongs before /h/ by the year 400.
+    Therefore, I conclude that the language of the Anglo-Saxons still had a
+diphthong in all contexts in the middle of the 5th century. With 600 as a
+datum-ante-quem, the monophthongisation of ai > ā in Proto-Old English must
+have taken place in the late 5th or the 6th century, before the i-mutation, which
+affected ā < PGmc. ai.
+
+
+
+4.3 Frisian runes
+
+Most of the Frisian runic inscriptions are from the 8th century, and so they are
+essentially contemporaneous with the earliest attestations of Old English and Old
+High German.8 Old Frisian is in the heart of the crossing ‘waves’ of the hypothesis
+and shows, contrary to Old English and Old Saxon, contrasting outcomes of the
+monophthongisation process of PGmc. ai: ē and ā. The Frisian runes are not always
+easy to interpret. They contain 5 to 7 instances of words with PGmc. ai, depending
+on the interpretation. An exhaustive analysis of the Runic Frisian vowel system,
+including the developments of PGmc. ai, leads to the following interpretation (see
+Versloot 2014a for a detailed discussion of the interpretation of all instances). Runic
+Frisian had a long /a:/ < PGmc. au, which was phonetically probably somewhat
+retracted, [ɑː], as in adujislu ‘Audgisl (PN)’ (Westeremden A). In ‘velar’ contexts,
+Runic Frisian testifies to a long vowel /æ:/, probably phonetic [aː] or [æː] (hence-
+forth [aː]). This /æ:/ is attested e.g. in äh (Westeremden B) ‘has’ < PGmc. *aih-
+(Versloot 2014a: 43–45, see also; Looijenga 2003: 312–314 for a discussion of the
+entire inscription). These two vowels merged into /a:/ in all later varieties of Frisian,
+including the attested Old Frisian. There are possibly two representations of PGmc.
+ai in ‘non-velar’ contexts. One is a monophthong /ɛ:/, e.g. u[n]mædit (Rasquert)
+‘not-mad’(?) < PGmc. *-maiđiđ-, the other is a diphthong /ai/: aib (Oostum) ‘Eeb’,
+interpreted as a personal name, equivalent to late-Old Frisian < eeb > (Oosterhout
+1964: 50) and a runic inscription from southern Germany (aebi, Schwangau).9
+
+
+
+8 Many of the Frisian inscriptions are so-called terp-findings, discovered during the commercial
+excavation of mediaeval dwelling mounds. The archaeological context is lost, which makes
+them difficult to date accurately. Several objects dated to the 8th century may just as well come
+from the 7th century. (p.c. Egge Knol, Groninger Museum).
+9 Even if one leaves the interpretation of aib and aebi as a name open, but considers them as
+the same etymon, an etymology with PGmc ai is the most likely interpretation.
+
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 297 ===
+                              Proto-Germanic ai in North and West Germanic            297
+
+
+    Taking all this evidence into account, I conclude that Runic Frisian
+had completed the first wave of the monophthongisation, resulting in /æ:/,
+which remained for the time being a distinct sound, merging with /a:/ < PGmc.
+au only at a later stage, while the second wave of the monophthongisation,
+resulting in /ε:/, was still on its way in the 8th century, testified by the
+double attestation of u[n]mædit and aib. The hypothesis about the transition
+of ai > æi as a pre-stage to the monophthongisation to ē is not confirmed by
+the Frisian runes; one would expect to see a spelling *æib or *aeb. All
+key-attestations are from the 8th century, which means that they do not
+provide information about the dating of the first wave. The emigration of
+Frisians to the North Frisian Islands in the 7th and 8th century forms a
+datum-ante-quem for the monophthongisation of the first wave (see
+Subsection 5.1).
+
+
+
+4.4 Continental Runic inscriptions and Old High German
+
+Aside from the Frisian sources, there exist ten more southerly Continental
+Germanic inscriptions with potential reflexes of PGmc. ai (Findell 2012b;
+Looijenga 2003). One of them seems to be of Langobardic origin (Aquincum,
+Findell 2012a: 366, where also other origins are considered) and there are
+various interpretations of the text (Findell 2012a: 74,75). Two words contain-
+ < e > (feha ‘coulourful (?)’, Weingarten I; klef ‘sticked to (?)’, Neudingen-Baar),
+three spell < ai > , three < ae > and one < aï > (aïlrun ‘Ailrūn’ (PN), Pforzen I,
+which is not certain: (Findell 2012a: 447). The most secure case is the word
+*wrait, the past tense of *wrītan, ‘to write’. It appears twice with < ai > , urait,
+once as wraet. Note that all instances do not yet show the High German
+Consonant Shift.
+      Looijenga (2003: 262,268) discusses the interpretation of < ae > in terms of
+the monophthongisation of PGmc. ai, interpreting the < ae > as the beginning of
+this process, as in aergu[n]þ Aergu(n)þ (PN), a nom.sg. fem. jō-stem with ai
+before r. This does not explain the appearance of < ae > in non-monophthongi-
+sation contexts, such as in wraet ‘wrote’ and aebi ‘Aebi’ (PN), (cf. the Frisian
+Oostum inscription: aib). Findell (2012a: 94, 2012b: 50) concludes that the
+spelling ae “cannot be united or fitted into any model of the monophthongisa-
+tion”. It does not fit the evidence from early Old High German glosses and
+names in Latin charters with a correlation between the spelling < ae > and
+monophthongisation contexts in Old High German (Braune and Reiffenstein
+2004: §§ 43–44). The spelling < ae > represents [εː] < PGmc. ai in the 8th century.
+The spelling < e > becomes dominant in these contexts from the late 8th century
+
+
+
+                                       Brought to you by | University of Gothenburg
+                                                                      Authenticated
+                                                Download Date | 11/20/17 1:04 AM
+
+=== page 298 ===
+298          Arjen P. Versloot
+
+
+
+onwards.10 The monophthongisation itself is supposed to have taken
+place before 700. In § 44. Anm.4 of the Old High German Grammar (Braune
+and Reiffenstein 2004) it is mentioned that spellings with < e > appear also
+beyond the well-known monophthongisation contexts, such as
+in < sten > ‘stone’, < flesc > ‘meat’. The phenomenon, which is not rare (“nicht
+selten”), could be interpreted in a way that the inclination towards mono-
+phthongisation had a broader scope and that the modern distribution in
+High German emerged only gradually from the original situation with some
+form of allophonic variation with a geographical component. A few words
+‘survived’ from this broader scope of monophthongisation in Old
+High German: wēnag ‘few’, Modern wenig, bēde ~ beide ‘both’, zwēne ‘two’. If
+this is the case, the runic instances with < ae > could indeed represent the
+beginning of monophthongisation, also in words such as wraet, which did
+not survive in later stages of the language. See also Findell (2012a: 21,22,80,81)
+for extensive considerations on the Continental Germanic material with further
+references.
+     However, my competing hypothesis is that ae marks the beginning of the
+assimilation between /a/ and /i/: ai = [ai] > æi [æɪ], a development leading to Old
+High German, MDu ( = Middle Dutch) and ON < ei > . My reconstruction of events
+uses a general transition from ai > æi before the monophthongisation in Old High
+German (and Old Saxon and Old Low Franconian), because the reflex of mono-
+phthongisation is ē < æi and not ā < ai. This interpretation implies that we can
+expect < ae > in every context, which is confirmed by the attested forms, such as
+in the mentioned instance of wraet and aebi (Findell 2012b: 49). All relevant
+inscriptions are dated between the early 6th century and the beginning of the 7th
+century. There may be a contrast between the first and the second half of the 6th
+century according to some datings, with ai/aï being the oldest stage and ae the
+younger (Looijenga 2003: 268). However, this interpretation is very fragile. Other
+datings leave a chronological contrast undecided, but that does not falsify the
+hypothesis that the 6th century witnessed the transition from ai > æi. In my
+interpretation, the development to æi = ae should be dated to the 6th century
+and forms a prerequisite for the later transition from æi > ǣ > ē. The spelling ae
+does not mark a monophthong as such.
+
+
+
+10 I checked some fragments from Abrogans and Vocabularius Sancti Galli, two 8th century
+southern texts, and further Isidor, Reichenau Glossary, Mon(d)see Fragments from the early 9th
+century (Sonderegger 1974: 69), as edited in Braune et al. (1979). The former group, from the 8th
+century, shows indeed a correlation between < ae > in monophthongisation contexts and < ai > in
+non-monophthongisation contexts, while the latter group shows < e > and < ei > respectively.
+
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 299 ===
+                                  Proto-Germanic ai in North and West Germanic              299
+
+
+     The discontinuity between the runic spelling < ae > and the same spelling in
+Old High German, where it positively marks ǣ, can be explained by the
+influence from Latin. In mediaeval Latin, the spelling < ae > was an established
+digraph with a fixed sound value, which could not be used for anything like
+[æɪ]. Then the digraph < ai > was still the best approximation. This may explain
+why the 8th century Old High German sources from monasteries show the
+spelling < ai > , even when it possibly sounded [æɪ]. Only later, when the first
+element was further raised, did the spelling < ei > become a useful alternative.
+Braune and Reiffenstein (2004: § 44) sketch the spread of the transition
+from < ai > to < ei > , starting off in Franconian and completed there at least
+before ca. 750, subsequently spreading towards the south to be completed
+there by ca. 800.
+     This assimilation of the diphthong has to be separated from the actual
+monophthongisation in only a few contexts in Old High German. The alleged
+form klef ‘sticked to (?)’ (Neudingen-Baar I; Findell 2012b: 48,49) is unclear in
+reading and interpretation. To assume that the form derives from PGmc. *klaiƀ-
+(3rd sg.pret.) is problematic not only because of the vowel but also because of
+the consonant: Old High German does not have monophthongs before /b/ or /f/,
+and neither Old High German nor Continental Runic have < f > for PGmc. *ƀ
+(Findell 2012a: 249,256,257), so there are reasons independent of my two-wave
+model to consider it as an inconclusive item here.11 Findell (2012b: 49) gives
+another instance of monophthongisation in the context before h ( = wave 1 in my
+theory) from the same 6th century for the Continental Runic: feha ‘colourful (?)’
+in Weingarten I from the very south of Baden-Württemberg.12 This monophthong
+contrasts with the spelling < ae > in aergu[n]þ in the same inscription, which
+testifies to another monophthongisation context, i.e. before r. Findell (2012a: 93)
+mentions the possibility that the monophthongisation proceeded gradually,
+which complies with the model proposed here, and first covered the context
+before h and only later the context before r. This matches the developments
+observed in Old Nordic and Old Frisian, where the monophthongisation is
+regular before h but variable before r, e.g. ON meira, sár, OF lēre ~ lāre, and
+the observation that the oldest attestations of Old High German from ca. 700
+show some instances of < ai > before r (Braune and Reiffenstein 2004: 44). An
+instance of monophthongisation before r from a 7th century Merovingian coin
+
+
+
+11 The options are: 1) it should be read entirely differently, 2) its provenance lies more to the
+north, in the Old Saxon area, where both the vowel and the consonant would fit.
+12 Findell (2012b: 49) gives various interpretations, most of them with PGmc. ai. He ranks it
+under the “possible, though less certain, witnesses”.
+
+
+
+
+                                             Brought to you by | University of Gothenburg
+                                                                            Authenticated
+                                                      Download Date | 11/20/17 1:04 AM
+
+=== page 300 ===
+300         Arjen P. Versloot
+
+
+
+showing the name Geroaldo < *Gaira- can be added. This attestation comes from
+Gondorf near Trier, located in the middle of Germany (Findell 2012a: 20) where
+the monophthongisation probably came from.
+     Altogether, there is some evidence that the monophthongisation of what is
+called here wave 1 is on its way in Continental Runic around 600, first before h
+and later before r, matching the observation that in the context before r
+diphthongs are still sometimes found around 700. The transition ai > [æɪ] that
+is used here to account for the outcome ē < ǣ, instead of ā which is found in the
+north, could be dated to (the middle of) the 6th century. Important in this dating
+scheme is that the monophthongisation before h took place prior to the con-
+sonant shift of PGmc. k > h in word internal positions, which is dated to the 7th/
+8th century (Sonderegger 1974: 157), cf. HG Zehe ‘toe’ < PGmc. *taihwō- vs.
+Zeichen < PGmc. *taikn- ‘token’.
+     To sum up: The Continental Runic and the early Old High German attestations
+cannot be easily reconciled in one smooth reconstruction. However, if one is
+willing to accept a contrast between runic < ae > = [æɪ] against early Old High
+German/Latin < ae > = [ɛː], based on Latin spelling conventions, Continental Runic
+provides support for – or is at least not contradictory to – the two-wave model:
+– the transition ai > æi takes place in the 6th century and facilitates ǣ [ɛː] as the
+     outcome of the monophthongisation process instead of ā;
+– monophthongisation in the context before h takes place before the
+     Consonant Shift; the runic evidence suggests the late 6th century;
+– monophthongisation in the context before r seems to go back to the 7th
+     century and to have proceeded from north to south;
+– in Old High German, this ǣ changes into ē not later than the beginning of
+     the 8th century;
+– the transition from early Old High German < ai > ( = æi) > ei comes from the
+     north in the 8th century (Franconian).
+
+
+
+4.5 Onomastic evidence from the Low Countries
+
+Due to the absence of runic evidence for PGmc. ai from the Low Countries, a
+closer look at the attested place-names may shed some light on the dating of the
+monophthongisation process. Gysseling (1960a: 79) dates the entire transition of
+“ai > ei > ē” to the 8th century, based on evidence from that century with the
+spellings < ai > (726), < ei > (776) and < e > (745). The process is supposed to have
+been completed before the year 800.
+     A careful examination of the data (Gysseling 1960b) concerning the suffix
+*-haim, however, reveals a somewhat different picture. The < ai > spelling
+
+
+
+                                      Brought to you by | University of Gothenburg
+                                                                     Authenticated
+                                               Download Date | 11/20/17 1:04 AM
+
+=== page 301 ===
+                                   Proto-Germanic ai in North and West Germanic             301
+
+
+appears in the name Marithhaim, a place in Guelders, which is not the core
+Low Franconian territory. It is also the only attested instance of < ai > in the
+Low Countries. The oldest attestation of a place name in *-haim is
+Machingahem (Modern: Makegem) from 690, although it should be kept in
+mind that it is attested in a 10th century copy (Diplomatica Belgica). Limiting
+the search in Gysseling’s data to the actual core of the Low Franconian language
+region (Holland: 2 present-day provinces; Zeeland; Utrecht; Flanders: 2 present-
+day provinces in Belgium and parts of Nord and Pas de Calais in France;
+Brabant: 5 present-day administrative units without any attestations) in the
+timeframe 690–800, results in identifying 5 places in -heim and 4 in -hem,
+while none in -haim or -ha(a)m. The place names in -heim are all from sources
+in Germany (Echternach, Fulda), while the ones in -hem are from ‘local’ sources.
+My conclusion, different from that of Gysseling, is that only the monophthon-
+gised form is local and is found in the earliest onomastic material, i.e. from 690
+onwards.
+    The suffix -ha(a)m appears in historical Flanders in the 9th century in 13% of
+the cases (only compared with -hēm; in total n = 90), without any statistically
+significant regional sub-division. The absence of this suffix in the 8th century is
+not statistically significant either, given the low frequencies. Gysseling (1962: 12)
+considers these spellings to be a reflex of Romance influence, but it is not
+confined to the regions that were later to be Romanised (the current French
+departments Nord and Pas de Calais).13 A form with ā is corroborated by the
+place name Haamstede in Zeeland.14 I assume that these spellings reflect a form
+-hām in the south-west of the Dutch language area.
+    This evaluation procedure was also applied to the Low German regions:
+Gelderland, Overijssel, Drenthe, Lower Saxony and Westphalia (Gysseling
+1960b).15 From the period up to 900, nine places in the corpus show -heim
+and 8 have -hem. However, 6 instances with -heim are from an archive in
+Lorsch, in the middle Rhine region, and may reflect High German influence.
+Two of the remaining three are from Werden. The only instance with < ai > in
+the corpus that is Low Franconian or Low German in origin is the earlier-
+mentioned Marithhaim (Modern Merm) from the year 726 (but in a 10th century
+copy). All the other mentioned Low German instances are from around AD 800.
+
+
+
+13 The assumption of French influence on names in the 9th century seems to be an anachron-
+ism, given the fact that romanisation in the region had started by then only in the very south of
+the region (Ryckeboer 1997: 183ff.).
+14 De Vaan (2017) proposes a different etymology of the haam- element, with a PGmc. short a.
+15 Tiefenbach (2010: 490–497) does not contain any relevant old example with -hēm.
+
+
+
+
+                                             Brought to you by | University of Gothenburg
+                                                                            Authenticated
+                                                      Download Date | 11/20/17 1:04 AM
+
+=== page 302 ===
+302          Arjen P. Versloot
+
+
+
+It can be concluded that the toponyms from the Low German regions point to
+the year 800 as a datum ante quem for the monophthongisation of PGmc. ai.
+
+
+
+5 The ‘mixed’ developments in Frisian
+  and Low German
+
+5.1 The position of Old Frisian
+
+In order to verify and enhance the understanding of the distribution of ē and ā
+in Old Frisian, a set of 105 lemmas with a fairly certain etymology with PGmc.16
+ai was analysed.17 The vowel was most likely shortened before a consonant
+cluster in thirteen of them, such as in OF flæsk ‘flesh’ (Mod. West Frisian
+flêsk < Early Mod. WF flesk, Wangerooge East Frisian flask) and fætt
+‘fat’ < PGmc. *faitida- (Mod. West Frisian fet, Wangerooge Frisian fat) (De
+Vaan 2011: 309–312; Hoekstra and Tigchelaar 2014: 188; Kümmel 2014a:
+38,39). In some of these forms, such as fætt or OF aththa ‘civil
+servant’ < PGmc. *aiþiþan, a consonant cluster only arose after syncope of the
+middle vowel, indicating that syncope antedated monophthongisation in
+Proto-Frisian and certainly i-mutation. There is most likely an i-mutation factor
+in the next syllable in 29 forms, which always led to ē in Old Frisian. Just as in
+Old English, the i-mutation is most likely younger than the ā < PGmc. ai (see
+discussions about dating in Section 4). 31 of the remaining 62 lemmas are only
+attested with ē in Old Frisian, 20 only with ā and 11 appear both with ā and ē.
+De Vaan mentions the following contexts for Old Frisian ā18:
+1. before Proto-Frisian -Cu-, -CwV-, -Cō-;
+2. before the velar fricatives -g- and -h-;
+
+
+
+16 This section relies partly on a discussion in Versloot (2014a).
+17 The dataset was compiled from: De Vaan (2011), Spenter (1968), Löfstedt (1928, 1931).
+Whether a word with ai followed by a consonant cluster had a long or a short vowel in Old
+Frisian, was decided using evidence from modern dialects, e.g.: OF marra ‘more, bigger’ is mear
+in Mod. West Frisian and moo in Wangerooge Frisian (an extinct East Frisian dialect, attested in
+the 19th century: Ehrentraut (1849, 1854), Ehrentraut and Versloot (1996). Both modern varieties
+show the regular continuation of an Old Frisian long ā and therefore the word was considered
+to have a long vowel, despite the double consonant.
+18 It should be kept in mind that De Vaan (2011: 393) considers the split between ā and ē to be
+the result of a partial fronting of ā, which in his account was blocked in the two mentioned
+contexts.
+
+
+
+
+                                          Brought to you by | University of Gothenburg
+                                                                         Authenticated
+                                                   Download Date | 11/20/17 1:04 AM
+
+=== page 303 ===
+                                     Proto-Germanic ai in North and West Germanic            303
+
+
+Words complying with rule 1 show ā in 68% of the cases in my dataset (n = 20;
+words with both vowels are scored as half). Rule 2 is effective in 79% of the
+lemmas (n = 7), but it should be kept in mind that in three lemmas the ā can just
+as well be explained based on rule 1. The overall percentage ā among the
+lemmas without i-mutation is 41, which is substantially lower than the percen-
+tages 68 and 79 for the two mentioned contexts for monophthongisation to ā.
+Despite the high predictive power of the rules, they together explain only 19 out
+of the 31 items (61%) with (also) ā in my dataset. The other 12 items are found in
+other phonological contexts. In Old Norse and Old High German, also r and
+(directly following) w trigger monophthongisation. One finds ē before a follow-
+ing w in Frisian, except in ā- ‘law’ (in asega ‘law speaker’) which appears next to
+ē(we) ‘law’.19 Before r < PGmc. r or z there is (also) ā in 7 out of 10 lemmas and,
+moreover, in 5 out of 9 lemmas with k. In all these instances, the impact of the
+following consonant and the vowel in the next syllable may interact. The result
+of this interaction is shown in Figure 3.
+
+           Consonant Coda and Following Vowel
+
+
+
+
+100%
+
+ 80%
+
+ 60%
+
+ 40%                                                         h/g: 79%
+
+  20%                                                       k/r: 50%
+
+   0%                                                     rest: 29%
+           a/Ø: 29%         ō: 54%
+                                           u/w: 100%
+
+Figure 3: The trend towards monophthongisation to ā in a corpus of 62 (Old) Frisian lemmas
+with PGmc. ai without i-mutation.
+Legend: The graph shows the interaction of the quality of the following consonant with the
+quality of the (semi-)vowel in the following syllable. Lemmas with both ē and ā are counted as
+half. Compare e.g. Labov (1981: 280–284, 301) for theoretical considerations about such
+‘gradual’ sound laws.
+
+
+19 As the word was feminine in Old Frisian, it seems to go back to *aiwō-, where the -ō could be
+held responsible for the development ai > ā rather than the -w-. Old Frisian lost non-initial w in
+most instances: compare OE nom.sg. cneo(w) dat.sg. cneowe ‘knee’ to OF knē (both case forms).
+
+
+
+
+                                              Brought to you by | University of Gothenburg
+                                                                             Authenticated
+                                                       Download Date | 11/20/17 1:04 AM
+
+=== page 304 ===
+304           Arjen P. Versloot
+
+
+
+     Figure 3 demonstrates that both the consonantal impact of h, g and a
+following u, w in the next syllable are on their own (almost) sufficient triggers
+for the monophthongisation of PGmc. ai to ā. A following k, r ( < PGmc. r or z)
+and ō have a moderate impact on the monophthongisation. Note that the
+combination of these two factors does not enforce each other. This additional
+analysis refines some of the conclusions by De Vaan, reformulating his rules:
+1. Monophthongisation of PGmc. ai > ā is (nearly) categorical before Proto-
+     Frisian -g-, -h- and -Cu-, -CwV-;
+2. Monophthongisation of PGmc. ai > ā is common before -k-, -r- and -Cō-.
+
+The characterisation of the phonological context that triggered Old Frisian ā as
+‘velar’ is confirmed by this refinement.
+     An analysis of lemmas in the database with an alternation between long ā
+and ē reveals a geographical bias in the Old Frisian manuscripts, which is
+confirmed by the evidence from modern dialects: forms with ā are more common
+in the west, forms with ē in the east, including the Insular North Frisian dialects,
+e.g. Old West Frisian bākne (dat.sg.), ārist- ‘beacon, first’, Old East Frisian bēken,
+ērost, Mod. West Frisian beaken, earst, meast ‘beacon, first, most’ ( < OF ā) ~
+Wangerooge Frisian eerst, meist ( < OF ē), cf. Insular North Frisian (Föhr) biike-,
+iarst, miast.20 The word ‘rope’, West Frisian reap, Wangerooge Frisian rooep is
+attested in Old East Frisian as rāp, but appears in the Insular North Frisian
+dialect of Föhr as riap < OF *rēp. The word does not contain any of the
+
+An early loss of w could form an explanation for the lacking monophthongisation to ā.
+However, Runic Frisian still seems to show w in some instances; compare acc.sg. i ‘yew’
+(Britsum) < PGmc. *īwaz, loc.sg. iwi (Westeremden B) < *īwī, which makes this explanation less
+likely, unless one evokes paradigmatic levelling from forms with early loss of w.
+20 One of the words generally mentioned as an ā-ē pair is the nom.sg.masc. form of the numeral
+‘one’: ēn/ān, e.g. Bremmer (2009: 67). This is independent from the acc.sg. of the same paradigm
+with a shortened vowel before a consonant cluster, ăn(n)e < Proto-Frisian *ain-ne < Proto-Germanic
+*ain-anōn. The nom. sg. masc. form ān, however, seems to be a ghost form. The form < an > only
+appears once as a nom. sg. masc. form, in the Second Emsingo Manuscript from ca. 1450, Section
+5.1: “[ … ] hwersa hir an mon anna otherne mortheth [ … ]” ‘whenever here a man kills another one’.
+The Third Emsingo Manuscript, also from ca. 1450, has an once as a dat.sg., while the form is
+found twice as an acc.sg. (instead of an(n)e) in the Fivelgo Manuscript (Sjölin 1970: 134) from the
+second quarter of the 15th century. These instances are all relatively late and from the Ems region.
+They rather represent a form with a short vowel that developed from the acc.sg. form through
+schwa-apocope. This form was generalised as the general masculine form after the loss of
+different case forms in the modern Ems Frisian dialect of Saterland: aan, just as in Mainland
+North Frisian aan, åån (etc.) that is supposed to be derived from Ems Old East Frisian through
+migration. The vowel qualities in the modern varieties reflect an OF /a/ that was later lengthened.
+Conclusively, one may say that an Old Frisian form nom. sg. masc. **ān is a ghost word. (Thanks
+to Rolf Bremmer and Anne Popkema for providing me with the Emsingo examples.)
+
+
+
+
+                                            Brought to you by | University of Gothenburg
+                                                                           Authenticated
+                                                     Download Date | 11/20/17 1:04 AM
+
+=== page 305 ===
+                                  Proto-Germanic ai in North and West Germanic              305
+
+
+aforementioned triggers for ā. It is attested as a Frisian relic word in Holland:
+roop, attesting also there to a former *rāp.
+     To sum up: the lemmas with pan-Frisian OF ā comply almost 100% with
+the rules as reformulated above from De Vaan. Instances with OF ā beyond
+these contexts are more common in the west (= closer to Old English with ā).
+Even further to the (south) west, in Dutch coastal dialects, we find several
+instances with ā < PGmc. ai in words that have only ē in all attested varieties of
+Frisian, e.g.: aak- ‘oak’, OF ēk-; Haam(stede) (prov. Zeeland), Old Frisian hēm
+‘home’; haal ‘afterbirth’, Insular North Frisian (Föhr) hialing < OF *hēl- (but cf.
+De Vaan 2017).
+     The two processes, the monophthongisation of PGmc. ai and the assimilation of
+the diphthong from [ai] > [æɪ], may have spread through the language (phonologi-
+cal) context-by-context and even lemma-by-lemma, as is visualised in Figure 3, in
+line with what Kiparsky (2003: 314) describes as ‘lexical diffusion’.21 One can
+observe a similar diffusion in the context before r in Old Nordic, with meira ~ sár.
+Also in Old High German the monophthongisation seems earlier before h than
+before r (Findell 2012b: 93; cf. Subsection 4.4). Part of these doublets and exceptions
+to the rules may be the result of paradigmatic levelling. The earlier mentioned
+sound-‘laws’ for the monophthongisation certainly produced a lot of intra-paradig-
+matic variation with alternation of [aː] and [εː]. The pair cleth (nom.sg.) < PGmc.
+*klaiþaz/-iz ~ clathar (nom.pl.) < PGmc. *klaiþ(a)zō ‘cloth(es)’ in the Old Frisian
+Codex Hunsingo (Hoekstra 1950: 195) may echo this earlier alternation. The word
+hämu ‘home’ < PGmc. *haimō (loc.sg.) seems to be attested in the Westeremden B
+inscription, with the same vowel as äh ‘(he) owes’ < PGmc. *aih-, with ā ( = [aː])
+before PGmc. ō and h, while Old Frisian only shows the variant with ē: hēm < PGmc.
+*haima- (nom.acc.sg.) (Versloot 2014a: 44). Also the pair of ēth-/āth- ‘oath’ can be
+explained from earlier paradigmatic alternation (Versloot, forthcoming).
+     Conclusions regarding relative chronology and geography:
+1. The rules for monophthongisation to ā work fairly well when considering
+     the Proto-Germanic quality of the unstressed syllables, such as in tāne
+     ‘toe’ < PGmc. *taihwō- or frāse ‘danger’ < Proto-Frisian *frāsæ < PGmc.
+     *fraisōn. This points to an early date of monophthongisation to ā.
+
+
+
+
+21 The west-east cline in the stock of words with OF ā can be interpreted in three ways: 1) a
+more narrow rule, more similar to the Nordic situation, was gradually extended while moving to
+the west, to become unconditioned when reaching Great Britain; 2) wave 1 came from the west
+and gradually faded away towards the east; 3) the development of ai > æi was earlier in the east
+than the west. The limited data hamper a definite answer.
+
+
+
+
+                                             Brought to you by | University of Gothenburg
+                                                                            Authenticated
+                                                      Download Date | 11/20/17 1:04 AM
+
+=== page 306 ===
+306          Arjen P. Versloot
+
+
+
+2.    This early date is confirmed by the general application of i-mutation, also in
+      a word such as OF lēna ‘to borrow, to lend’ < PGmc. *laih(w)njan, with both h
+      and w a strong candidate for ā.
+3.    The monophthongisation to ā was stronger in the west than in the east and
+      seems to have been even stronger further south-west along the present-day
+      Dutch coast, including some words with ā in other contexts than the ones
+      reformulated from De Vaan. This suggests that there was a continuum from
+      monophthongisation of ai > ā in wave 1 in the fairly strict ‘velar’ conditions
+      in East Frisian, extending to more and more words and phonological con-
+      texts towards the west, through West Frisian and the North Sea Germanic
+      idioms of Holland and Zeeland to the exceptionless monophthongisation in
+      Old English.
+
+To sum up, one can conclude that Old Frisian has predominantly ā triggered
+by ‘velar’ contexts which must be early and can be assigned to the first wave,
+while ē is the product of monophthongisation in the second wave. This
+suggests that between the two waves, the ai-æi-isogloss moved over Frisia.
+The analysis of Runic Frisian indicates that the values of the two sounds from
+these two waves, which later in Old Frisian appear as < a > and < e > , were
+initially [aː] and [εː]. Runic Frisian ā [aː] < PGmc. ai probably merged with ā
+[ɑː] < PGmc. au before the beginning of the earliest Old Frisian attestations in
+the 12th century.22
+      The two-wave model sheds more light on a long-standing problem in the
+history of Frisian, raised by Hofmann (1964). Frisian consists of 4 groups of
+dialects, which show contrasts in their phonological systems going back to the
+time at least before the year 1100: West Frisian, Ems East Frisian with Mainland
+North Frisian, Weser East Frisian and Insular North Frisian. The North Frisian
+dialects are the result of migration: the North Frisian Islands were settled by
+Frisians in the 7th and 8th century, and the North Frisian Mainland in the 10th
+and 11th century (Århammar 2001a). Hofmann noticed that, except for Insular
+North Frisian, the vowel systems of all Frisian dialects can be deduced from one
+reconstructed stage of Proto-Frisian, which entailed the operation of
+
+
+
+
+22 It should be noticed that even when the Old Frisian manuscripts use the spelling < e > , the
+reconstruction of the 13th century Old Frisian vowel system suggests a sound value [ɛː] rather
+than [eː] as the outcome of wave 2 (Hofmann 1964). The merger of Runic Frisian [aː] < PGmc. ai
+with [ɑː] < PGmc. au before 1200 is in fact an assumption. Secured is only that no modern Frisian
+dialect evinces different developments according to the origin of the /a:/.
+
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 307 ===
+                                Proto-Germanic ai in North and West Germanic             307
+
+
+monophthongisation and unrounding of i-mutated vowels. Insular North Frisian
+cannot be deduced from the same common stage.
+     The main contrast between the reconstructed long vowel system of Insular
+North Frisian on the one hand, and the other Frisian varieties on the other,
+comes from the developments of PGmc. ai (wave 2), ō + i-mutation, and ē1 and
+ē2. In Insular North Frisian, ō + i-mutation merges with ē2 but ē1 merges with
+ai. In the other Frisian dialects, ē1 merges with ē2 and ō + i-mutation, while the
+product of PGmc. ai (and au + i-mutation) remains a separate phoneme.23
+Hofmann proposed the following relative order of developments, following a
+thorough structuralist analysis: 1) i-mutation, 2) delabialisation, 3) mono-
+phthongisation of PGmc. ai and au (Hofmann 1964: 182–185).24 In his view,
+Proto-Insular North Frisian already had i-mutation, but did not yet have
+monophthongisation or delabialisation. This hypothesis has so far only been
+acknowledged by Århammar (1995: 75). Other scholars place the monophthon-
+gisation before i-mutation and delabialisation (e.g. Versloot 2001: 767–768;
+Nielsen, 2001: 515,516; Kortlandt, 2008: 270,271). Nielsen’s main counter-
+arguments to Hofmann’s hypothesis are: “(1) the early runic Fr. attestation of
+ā < Gmc. au. [….] and (2) the fact that Gmc. ai has two reflexes distributed on
+virtually the same words in all Fr. dialects, which suggests that the phonemic
+split must be Common Fr. […]”.
+     Both Hofmann and his opponents operate with the monophthongisation of
+PGmc. au and ai as one process, under the assumption that developments in
+vowel systems are symmetrical. The Skanomodu runic text from the late 6th
+century with ā < PGmc. au and the largely common lexical distribution of
+ā < PGmc. ai in all Frisian dialects, are strong evidence for early completion of
+the monophthongisation process before the departure of Frisians from the south-
+ern North Sea littoral, i.e. in the 7th/8th century.
+     However, if we desert the assumption that the monophthongisation of
+PGmc. ai and au was a monolithic process, the positions of Hofmann and his
+opponents can be reconciled. Consider the following reconstructed order of
+events:
+1. PGmc. au > Runic Frisian [ɑː]), OF ā,
+2. PGmc. ai in ‘velar’ contexts > Runic Frisian [aː], OF ā,
+
+
+
+
+23 See for a transparent overview and comparison of all Frisian and Old English varieties
+Kümmel (2014b: 246).
+24 His reconstruction holds on the premises that a vowel system may not be too crowded
+because it otherwise will lead to mergers in the system (Hofmann 1964: 180).
+
+
+
+
+                                          Brought to you by | University of Gothenburg
+                                                                         Authenticated
+                                                   Download Date | 11/20/17 1:04 AM
+
+=== page 308 ===
+308          Arjen P. Versloot
+
+
+
+3.    PGmc. ai in other contexts > late-Runic Frisian [εː], OF ē, next to attested
+      ai (aib).
+
+Stage 1 and 2 have to be common-Frisian, the first because of the runic evidence,
+the second and the first because of the shared lexical distribution. Stage 3 is
+dialect-specific and marks the contrast between Proto-Insular North Frisian on
+the one hand, and the other dialects on the other. In Hofmann’s reconstruction,
+the divergent developments of PGmc. ē1, ē2 and the delabialisation (Insular
+North Frisian ȳ, y > ī, i, other dialects ȳ, y > ē, e) took place after the migration
+of the Island North Frisians and before stage 3.
+     In this way, both Hofmann’s crucial point (PGmc. ai > Proto-Frisian [εː] post-
+dates delabialisation) and the objections against Hofmann’s reconstruction are
+acknowledged. This reconstructed order of events fits well into the two-wave
+model. The timing is supported by the external evidence:
+– Stage 1, PGmc. au > Runic Frisian ā, is attested by the late 6th century
+    Skanomodu-inscription;
+– Stage 2, PGmc. ai > Runic Frisian [aː], corresponds to wave 1 in the two-wave
+    model and was dated to the 6th century in Old English, to the 6th/7th century
+    in Old High German;
+– The emigration of the Island North Frisians has an archaeological dating to
+    the 7th/8th century;
+– The delabialisation of mutated (long) vowels can be dated to the 8th century
+    (Gysseling, 1962: 17);
+– Stage 3, PGmc. ai > Runic Frisian [εː], corresponds to wave 2 in the two-wave
+    model and is possibly only partly attested in the Runic Frisian material of
+    the 8th century.
+
+Wave 2 is shared by Old Frisian, Old Saxon and Old East Nordic, and this wave
+of monophthongisation may just as well have taken place in the new homeland
+of the Island North Frisians in the 8th century.25 It is only wave 1 (ai > ā) that has
+a specific conditioning for all Frisian varieties and should therefore be dated
+before the emigration of the Insular North Frisians in the 7th/8th century. This
+
+
+25 It is attractive to assume a synchronic dating for the monophthongisation of PGmc. ai in a
+non-‘velar’ context in Insular North Frisian and Danish as Hofmann (1964: 181) suggests as well.
+However, there are loanwords in Insular Nfr. from Danish that were borrowed with the
+diphthong ai and were not monophthongised in Insular North Frisian, suggesting that the
+monophthongisation in Insular North Frisian was still older than in Danish, e.g. Nfr.
+skaas < ON skeið, instead of *skias, cf. skias ‘to separate’ < PGmc. *skaiþjan (Nfr. examples
+from the Föhr-Amrum dialect; so: Århammar 1995: 85, 90). Phonological parallels show that
+the ON ei in this word was treated as Old Frisian ei and ai from sources other than PGmc. ai,
+
+
+
+
+                                          Brought to you by | University of Gothenburg
+                                                                         Authenticated
+                                                   Download Date | 11/20/17 1:04 AM
+
+=== page 309 ===
+                                     Proto-Germanic ai in North and West Germanic                  309
+
+
+leads to the following reconstruction of the chronology of phonological devel-
+opments in Frisian and the migration of its speakers:
+1a) before ca. 600: monophthongisation of PGmc. au > /a:/ ( = [ɑː])
+1b) before ca. 600: monophthongisation of PGmc. ai in velar contexts > /æ:/
+     ( = [aː])
+2) late 6th/early 7th century: i-mutation; /a:/ and /æ:/ + i-mutation > /ε:/
+3) 7th/8th century: colonisation of the North Frisian Islands by Frisians
+4a) 8th century: delabialisation of i-mutated long vowels /ø:/ and /y:/
+4b) 8th/9th century: monophthongisation of the remaining /ai/
+
+Alternative reconstructions assume a monophthongisation of PGmc. ai as one
+event, with a subsequent split into a fronted and a retracted variant, similar to
+the retraction of æ and ǣ in Old English (Campbell 1977: 60–62): one is from
+Kortlandt and recently presented in De Vaan (2011: 313), the other is put forward
+by Kümmel (2014a: 40,41). The chronology by Kortland/De Vaan has various
+flaws. One that explicitly relates to the questions of relative chronology is the
+fact that it supposes a common Anglo-Frisian raising of PGmc. ē1 > ǣ > ē, which
+does not fit the observation that this sound develops in Insular North Frisian in a
+different way than in the other Frisian dialects (let alone the dialectal variation
+in Old English). Kümmel prefers to reconstruct the sound value [æː] < PGmc. ai
+with later retraction in velar contexts. In his view, the monophthongisation of
+PGmc. ai runs parallel with the monophthongisation of PGmc. au (6th century).
+This implies a tight series of Proto-Frisian long vowels, with the following Proto-
+Germanic origin: /e:/ < ē2, /ε:/ < ē1, /æ:/ < ai, /a:/ < au. An early monophthongisa-
+tion of PGmc. ai in all contexts in both approaches would still leave the
+structural problems of the Insular North Frisian long vowel system for which
+Hofmann’s reconstruction brought a possible solution, unsolved.26 See further
+the discussion in Section 7.
+
+
+
+
+such as ai + j, e.g. Nfr. ai ‘egg’ - or eg, e.g. Nfr. braanj ‘brain’ < *bregen (Århammar 2001b: 755). It
+should be noted that various other loanwords from Danish show the expected sound ia/ii in
+Insular Nfr., such as wiafte < ON weifta ‘to wave’ or stiike < ON steikja ‘to roast’. These words
+could also have been borrowed after the monophthongisation in Nfr. and Danish.
+26 In my reconstruction, including the evidence from Runic Frisian (Versloot 2014a: 50–53),
+there are /e:/ < ē2, /ε:/ < ē1, [a:] < ai + ’velar’, [ɑ:] < au, the latter two with a common allophone
+[æː] in i-mutation contexts. The separation of [a:] and [ɑː] is based on the runic evidence and
+was a weak distinction, as evinced by their merger in all later varieties of Frisian. This also
+somewhat tight series of vowels only arose after the implementation of i-mutation around 700
+and was solved already before 900. It does not presuppose a long-standing separation of /e:/,
+
+
+
+
+                                                 Brought to you by | University of Gothenburg
+                                                                                Authenticated
+                                                          Download Date | 11/20/17 1:04 AM
+
+=== page 310 ===
+310          Arjen P. Versloot
+
+
+
+5.2 The position of Old Saxon
+
+Old Saxon has ē from PGmc. ai in nearly all the instances. Even if Old Saxon
+indeed went through two more or less separate waves of monophthongisation,
+the details of the process remain largely hidden because of the identical out-
+come of the two waves. The oldest regular attestations of Old Saxon come from
+the 9th century (Gallée 1910: 3) and there are no older runic inscriptions from the
+region that offer any additional information (cf. Section 4). The onomastic
+material contained one interesting instance, i.e. Marithhaim from 726, containing
+a word which would fit wave 2. Given the fact that Old Saxon shows ē in all
+contexts, the diphthong had probably already arrived at the stage of [æɪ] when
+the first wave of monophthongisation reached it.
+    Even when most of the words show ē in Old Saxon, there are some words
+with < a > and < æ > , such as lāro ‘doctrine’ or hǣlago ‘holy’ but also words
+with < ei > , e.g. beidero ‘both (gen.pl.). The < æ > represents a more open vowel
+than the default < e > , so an < æ > will be treated here together with an even more
+open sound, represented by < a > , in contrast to the default < e > . The forms
+with < a > and < æ > resemble the developments in Old Nordic and Old Frisian
+(and Old English), whereas the forms with < ei > look like Old High German
+forms. The development of PGmc. ai > ā is limited to ‘velar’ contexts in Old
+Nordic and Old Frisian and is supposed to be early because it took place before
+the transition of ai > æi. The words in Old Saxon containing < a > and < æ > could
+therefore reflect the first wave of monophthongisation.
+    The analysis of 27 tokens from 20 lemmas enumerated in Gallée (1910: 70–
+74) indeed reveals a preference for < a > or < æ > in ‘velar’ contexts, while the
+words with < ei > are restricted to ‘non-velar’ contexts.27 Some examples are:
+æschiadh, OF āskiath ‘demand’, saragmuod ‘sorrowful’, ON sár ‘sore’, against:
+beidero, OF bēthe, Dutch beide; meinda ‘meant’, OF mēna, early-Middle Dutch
+meinen/meenen. Some instances are difficult to judge, e.g. the forms gast and
+halogen in the Palatine Baptismal are attributed to Anglo-Saxon influence; the
+word saragmuod fits ON sár, but Old Frisian shows sēre; some words, such as
+
+
+
+
+/ε:/ and /æ:/ as in Kümmel’s theory, which could only be solved after the split-off of the Insular
+North Frisian branch, but must go back to a very early date, given the fact that the ‘velarity’
+condition only works well for a very archaic, basically Proto West Germanic stage of the
+unstressed syllables.
+27 All examples found in Gallée were checked in Tiefenbach (2012), which led to the exclusion
+of some examples with < ei > as they can be ascribed to Old High German influence. Onomastic
+evidence was largely omitted, mostly because of its etymological ambiguity.
+
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 311 ===
+                                   Proto-Germanic ai in North and West Germanic              311
+
+
+æschiadh, have a cognate with ā in Old Frisian but do not fulfil the ‘velarity’
+criterion. In the following counting, both < a > and < ae > spellings are considered
+as ‘velar’ realisations. Conditioning contexts are those which either fulfil the
+velarity conditions as found in Old Frisian or otherwise have an Old Frisian
+cognate with ā (Table 2):
+
+
+Table 2: The distribution of deviating spellings for
+PGmc. ai in Old Saxon.
+
+
+                      ‘velar’             ‘non-velar’
+
+< a,æ >                                           
+< ei >                                            
+
+Legend: The table is based on 18 items with a fairly
+clear etymology and without the suspicion of being
+Old English affected. This contrast is statistically
+significant: Fisher’s Exact Test, 2-sided, p = 0.029.
+
+
+Gallée (1910: 74) mentions that personal names with < a > and < æ > are frequently
+found in sources from Corvey in Engrian, on the border of West- and Eastphalia.
+Eastphalian and Engrian sources show more North Sea Germanic features in
+general (Klein 1990: 201,202). The ‘Anglo-Frisian’ ā < PGmc. ai matches this
+trend. However, the 27 instances with < a > and < æ > -spellings cannot be parti-
+cularly assigned to eastern locations, using the locations of the sources as found
+in Tiefenbach (2010).
+     The amount of evidence is too limited (only 27 tokens) for firm conclusions
+to be based on it alone. However, the two-wave model offers an adequate
+interpretation for most of these deviating spellings. If we try to interpret these
+findings, we may assume that the monophthongisation of PGmc. ai in Old Saxon
+took place in two waves as well, just as in Old Frisian and Old Nordic, but that
+the two waves were very close in time. The process started in velar contexts at a
+time when the [ai] > [æɪ]-wave had not yet reached every corner of the Old Saxon
+area and in some Old Saxon regions the realisation of PGmc. ai was still [ai] –
+most likely in Eastphalia and Engria. This resulted in words with ǣ and ā. In
+other parts of the Old Saxon language area – and soon everywhere – the
+realisation of PGmc. ai was [æɪ] or [εɪ] and the resulting monophthong was ē.
+Gradually, the process affected more and more contexts, also the non-velar
+ones, as part of the second wave. This second wave lost momentum and did
+not reach Old High German at all. Its fading power could fit as an explanation
+for the remaining < ei > -spellings in Old Saxon.
+
+
+
+                                              Brought to you by | University of Gothenburg
+                                                                             Authenticated
+                                                       Download Date | 11/20/17 1:04 AM
+
+=== page 312 ===
+312           Arjen P. Versloot
+
+
+
+
+6 Synopsis
+
+6.1 Phonological synopsis
+The conditions for the operation of wave 1 have been described as ‘velar con-
+texts’. Ranking the contexts by extent and relative geographical position, we
+gain a coherent and nearly contiguous distribution as in Table 3.
+
+Table 3: Synopsis of the phonological conditioning of wave 1.
+
+
+Language                   h      r         w        g,Cu/w       k,Cō       Ca         Ci/j
+
+Old Nordic                 ā      ā/ǣ       ǣ
+Old Frisian                ā      ā/ē                ā            ā/ē
+Old English                ā      ā         ā        ā            ā          ā          ā>ǣ
+Old Low Franconian         ē      ē         ē        ē            ē          ē
+Old High German            ē      ē         ē
+
+
+
+The context before h is the one where the monophthongisation is applied most
+consistently and in most languages. The monophthongisation before r is weaker,
+with quite some notable exceptions in Old Nordic and Old Frisian. There are
+indications that the monophthongisation before r was applied somewhat later
+than before h in Old High German. A similar order is suggested for Old Nordic by
+the Early Runic Rö-stone inscription. Such details are lacking for Old Frisian, but the
+variation of ā/ē before r in Old Frisian can be interpreted in such a way that the
+monophthongisation before r was only gradually implemented and ultimately over-
+taken by the transition of ai > æi. Old English, Old Saxon (not in the table) and Old
+Low Franconian have the most widely defined contexts for monophthongisation:
+roughly in the middle of ‘Germania’ and on the border of the ai/æi-isogloss at the
+time of wave 1. This can also be interpreted in a more dynamic way in the sense that
+wave 1 and wave 2 are chronologically adjacent/continuous in that region.
+    Another outstanding feature is the similarity between the ‘velar’ contexts
+and the ones for ‘breaking’ and retraction of the fronted a in Old English.
+Breaking and retraction take place before l, r, h, and w, while fronted back
+vowels are restored before a, o, and u in the next syllable (Campbell 1977: 54,
+60). There is also some overlap with the contexts for Old Frisian breaking: /χt/
+riucht < *reht- ‘right’, /Cw/ siunga < *singwan ‘to sing’. A third parallel set of
+phonological contexts are the phonological blocking environments for primary
+i-mutation in various Upper High German varieties: h, h + C, l + C, r + C, C + w
+
+
+
+                                         Brought to you by | University of Gothenburg
+                                                                        Authenticated
+                                                  Download Date | 11/20/17 1:04 AM
+
+=== page 313 ===
+                              Proto-Germanic ai in North and West Germanic            313
+
+
+(Braune and Reiffenstein 2004: § 27). All these contexts, apart from r which has a
+very particular influence on its surrounding, have [-palatal] and hence velarity as
+a common phonological feature.
+     To sum up: the evidence testifies to one more or less gradual phonological
+scale, confirmed by other phonological processes in Old Germanic languages,
+causing a gradual application of monophthongisation in terms of spatial dimen-
+sions and with traces of a gradual application along the same phonological scale
+in the languages where monophthongisation was applied.
+     Especially the data from Old Saxon and Old Low Franconian – even though
+they show ē in most cases – provide information about the actual direction and
+speed of the transition [ai] > [æɪ]. Starting off in Old High German in the middle
+of the 6th century, the transition spread northwards. Wave 1 can be dated back to
+the 6th century, relying on the evidence from Old Frisian. Assuming that the
+monophthongisation was contemporaneous in Old Low Franconian, it is implied
+that [æɪ] had by then reached large parts of the Low Countries, except for the
+actual coastal zone, which shows ā < ai in relic words. Old Frisian was already
+affected by the transition [ai] > [εɪ] when it went through the second wave in the
+8th century. The ā- and ǣ-relics in Old Saxon names point in the direction of
+south-east Old Saxon (Eastphalia). The picture emerging from these distributions
+is one of the spread of [æɪ] from the south, down through the Rhine-valley,
+affecting the Old Low Franconian and south-western Old Saxon, but leaving
+south-eastern Old Saxon, Old Frisian and the Dutch coastal strip untouched for
+some time. The geographical spread of [æɪ] is illustrated in Figure 4.
+
+
+
+
+                                                                Figure 4: The spread
+                                                                of [æɪ] < [ai] in the 6th
+                                                                century.
+
+
+
+
+                                       Brought to you by | University of Gothenburg
+                                                                      Authenticated
+                                                Download Date | 11/20/17 1:04 AM
+
+=== page 314 ===
+314             Arjen P. Versloot
+
+
+
+     Theoretically, rather than constituting a discrete ‘wave 3ʹ (ai > æi), this part
+of the whole process of monophthongisation may have been phonetically of a
+more gradual nature. The reconstruction of the Runic Frisian vowel system
+shows that the monophthongisation product of PGmc. ai in the first wave
+produced an ‘a’-like sound, which did not directly merge with the ā < PGmc.
+au. For Old Saxon, both the spellings < a > and < æ > in ‘velar’ contexts are
+attested, suggesting the phonetic value [æː] rather than [aː]. For Old High
+German, the reconstructions point to [εː] as the first stage of monophthongisa-
+tion. For Old Nordic or Old English, there are no indications of a quality different
+than [aː]. This results in a gradual distribution of [εː] in the south (Old High
+German), [æː]/[aː] in the intermediate zone with Old Saxon (in relics) and Old
+Frisian, and [aː] in the north (Old Nordic) and west (Old English). It was only the
+later phonologisation of the product of wave 1 that led to /e:/ or /a:/, e.g. in Old
+Saxon vs. Old Frisian.28
+
+
+6.2 Diachronic and diatopic synopsis
+
+A diachronic reconstruction can be attempted from the runic and early textual
+evidence, acknowledging the dating of attestations as indications of data ante or
+post quem. Table 4 builds upon the attested evidence and provides a chronological
+reconstruction. Forms which can neither be secured through runic evidence in the
+form of parallel attestations nor datum ante quem or datum post quem indications
+are put in […]. The changes in the consonantal structure are only indicative and
+based on datings in the handbooks. Forms with monophthongisation appear green
+
+
+Table 4: Synopsis of the developments of PGmc. ai in the main Old Germanic dialects.
+
+
+      –            –             –           –            –            –        –
+
+ON    taihwō - stainaz   tāhwō - stainaz     tāhwō - stainar   tā – stainn        tā – stæinn        tā - steinn    tā - stēn
+
+OE    taihwō - staina    taihwō - staina     [tāhu – stān]      tā – stān         tā - stān          tā - stān      tā - stān
+
+OF    taihwō - staina    [taihwō - staina]   [tāhu – stainə]   tā –stæin (ē)      tāna –stēn (æi) tānæ - stēn       tāne - stēn
+
+OS    taihwō - staina    [taihwō - staina]   [taiha - stain]   [tēha (ā)-stæin]   [tē – stēn (æi)]   tē - stēn      tē - stēn
+
+OHG   taihwō - staina    taihwō - staina     tæiha - stæin     tǣha – stæin       zǣha–stein         zēha – stein   zēha – stein
+
+
+
+
+28 The entire process can be easily analysed within a structuralist framework, with Germ. ē1 as
+the key factor. In Old English and Old Frisian, ē1 was a rather fronted vowel [εː], while in OS and
+Old High German it was a more central [aː]. The monophthongisation product of PGmc. ai takes
+exactly the opposite phonological position in both groups.
+
+
+
+
+                                                          Brought to you by | University of Gothenburg
+                                                                                         Authenticated
+                                                                   Download Date | 11/20/17 1:04 AM
+
+=== page 315 ===
+                               Proto-Germanic ai in North and West Germanic             315
+
+
+(wave 1: ‘velar’ contexts) or yellow (wave 1 & 2). The red line marks the spread of the
+transition of ai > æi.
+    Comments on the 7 stages:
+
+–:      This is the common-Germanic stage with the original diphthong
+              (blue). The Frienstedt inscription attests to the loss of the final -z in
+              West Germanic by that time (Schmidt et al. );
+–:      The first wave of monophthongisation (green) is attested in the
+              Early Runic inscriptions from Scandinavia in forms of the verb
+              *faihan ‘to do’; Anglo-Saxon raïhan constitutes a datum post quem
+              for the monophthongisation in Old English;
+–:      The monophthongisation (wave  & ) in Old English in the th century
+              follows from the previous datum post quem, the th century attestation
+              of the āc-rune and the i-mutation of the new ā, which is dated to the
+              late th century (Buccini : , ). For Old Frisian, the common
+              distribution of ā < PGmc. ai in ‘velar contexts’ in all Frisian dialects
+              makes the colonisation of the North Frisian Islands from the th century
+              onwards a datum ante quem for wave . The ai-ae-spellings in
+              Continental Runic in the th century (may) attest to the beginning of an
+              assimilation of the two elements of the diphthong (red line);
+–:      The Old Saxon relics with <a> and <æ> suggest that the
+              assimilation of the diphthong was only on its way in Old Saxon in
+              the th century. Wave  reaches Old High German not later than by
+              the beginning of the th c (feha) and progresses from the context
+              before -h to other contexts (Findell a: ). Wave ,
+              particularly in the context before -h, may have been implemented
+              in West Germanic in the period between  and . The
+              beginning of wave  in Old Frisian in the course of this century is
+              impressionistic and relies on the conclusion that in the Dutch
+              coastal region (which was partly ‘Frisian’) place-names indicate an
+              implementation of wave  by the end of the th c;
+–:      The transition of ai > æi (and > ei in the th century) cannot be
+              clearly dated in Old Nordic, because of the limited phonological
+              value of the Younger Futhark inscriptions. If the interpretation of
+              Runic Frisian aib is correct, the implementation of wave  took some
+              time in the Frisian regions. The monophthongisation in Old Saxon
+              follows from the interpolation from Old Frisian and Old High
+              German, and the first Old Saxon attestations from ca.  with fully
+              implemented monophthongisation. For the transition æi > ei in Old
+              High German, see Braune and Reiffenstein (: § .,);
+
+
+
+                                         Brought to you by | University of Gothenburg
+                                                                        Authenticated
+                                                  Download Date | 11/20/17 1:04 AM
+
+=== page 316 ===
+316        Arjen P. Versloot
+
+
+
+
+–:  Wave  of the monophthongisation was supposedly completed in
+          Old Frisian by ;
+–: The monophthongisation in the southern parts of Old East Nordic
+          was completed by the end of the Viking period.
+
+The two examples in Table 4 are typical for the early-monophthongisation
+context (taihwō ‘toe’) and for a ‘non-velar’ context (staina(z) ‘stone’). The first
+traces of monophthongisation of PGmc. ai > ā, wave 1, are found in Early Runic
+in the position before -h and can be dated to ca. 400. The monophthongisation
+in other contexts may be a somewhat later development. From there, the
+tendency spreads to English and Frisian. For English, the process is dated
+between ca. 450 and the implementation of i-mutation in the late 6th century,
+which applies to all instances of ā < ai. It is possible that also in Old English, the
+spread to phonological contexts was gradual (450–600) as in Old High German,
+although there is no evidence for this.
+     There is no reason to assume that wave 1 developed substantially earlier in
+Frisian than in English. The process, which in Frisian was more limited in scope
+than in English but wider than in Old Nordic, was completed before the depar-
+ture of Frisians to the North Frisians Islands after ca. 650. For both Frisian and
+English, the 6th century seems to be the locus. In this same 6th century, the
+transition of ai > æi started off in southern Germany. The monophthongisation in
+Old High German began towards the end of that century as well, at least
+before -h. Old Saxon lacks any explicit dating other than the regular textual
+tradition from the 9th century which already presents a static situation. The
+reconstructions suggest that especially the application of wave 1 and the transi-
+tion of ai > æi were almost synchronic in Old Saxon and their dating partly
+different per region/dialect. Therefore ‘(ā)’ is mentioned in the 7th century to
+indicate the earliest application of wave 1 in Old Saxon at a time when the
+transition ai > æi was only on its way from the south and wave 1, moving in from
+the north, somewhat later than in Old Frisian. The core of the developments of
+wave 2 in Old Saxon must be dated to the 8th century, and their completion
+before the end of that century, when still some relics with ei were left in regions
+close to the Old High German regions.
+
+
+
+
+7 Discussion and conclusion
+It was mentioned in the introduction that several authors concluded that “[t]he
+monophthongisation of Gmc. ai and au and the fronting and rounding of the
+
+
+
+                                      Brought to you by | University of Gothenburg
+                                                                     Authenticated
+                                               Download Date | 11/20/17 1:04 AM
+
+=== page 317 ===
+                                   Proto-Germanic ai in North and West Germanic              317
+
+
+reflexes of WGmc. ā (and Gmc. a) took place independently in each of the three
+languages [Old Saxon, Old English and Old Frisian].” (Nielsen 2001: 516).
+     Stiles (1995) concluded in his chronologies that the monophthongisation of
+PGmc. ai was an independent process in Old English and Old Frisian. He treats
+the process in terms of ‘relative chronology’ and does not give any precise dating
+nor geographical location. Finally, he proposes an alternative model with waves
+spreading through a dialect continuum (Stiles 1995: 205–207). He does not
+discuss all developments in detail in his wave model, but in general, the
+model refers to the situation on the Continent, prior to the departure of the
+Anglo-Saxons.29 As he considers the monophthongisation in Frisian to be more
+closely related to the one in Old Saxon than that in Old English (Stiles 1995:
+200–201), it may – in his opinion – have taken place after the migration of the
+Anglo-Saxons.
+     In Kortlandt’s (2008) chronology of North Sea Germanic developments, the
+monophthongisation of PGmc. ai is an early common English-Frisian develop-
+ment, that took place on the Continent before the 5th century, prior to the
+emigration of the Anglo-Saxons (Kortlandt 2008: 271,273).
+     The kind of reasoning, such as applied by Nielsen and Kortlandt, builds on
+the assumption that similar or identical developments following language-specific
+ones are by definition not shared developments (Versloot 2014b: 24). This stands
+in sharp contrast to what can be observed in language-geography: lexical,
+syntactic, morphological and phonological changes spread not only through
+language continua but even across more distantly related languages, such as
+in Sprachbund-like constellations, where the common origin of developments in
+adjacent, even unrelated languages seems to be beyond dispute (e.g.
+Haspelmath 2001). From this I conclude that differences between the, at that
+time, very closely-related Germanic dialects in a structural-phonological sense
+should not prohibit the appreciation of the communalities in the monophthon-
+gisation process of PGmc. ai. This matches what Voyles (1992: 4) describes as
+“areal changes”.30
+
+
+
+
+29 Confirmed in personal communication between Patrick Stiles and this author.
+30 The developments as sketched by Voyles are pretty straightforward for most Germanic
+dialects. For Frisian, his reconstructed course of events is rather complicated (Voyles 1992:
+169–170). He assumes – for reasons not clear to me – that the monophthongisation in Frisian
+started in open syllables. The development to Old Frisian ā is therefore split into two different
+stages, where most of the instances of ā are a result of the retraction of æ̅, which complies with
+Kortlandt’s and Kümmels’s theories.
+
+
+
+
+                                              Brought to you by | University of Gothenburg
+                                                                             Authenticated
+                                                       Download Date | 11/20/17 1:04 AM
+
+=== page 318 ===
+318          Arjen P. Versloot
+
+
+
+     Another assumption that has prohibited a comprehensive view on the
+development of PGmc. ai is the postulated monolithic nature of the sound
+changes: the monophthongisations of PGmc. ai in Old English and Old Frisian
+are often considered to be two independent processes because of their different
+outcomes (e.g. Campbell 1977: 53).31 Also here, language-geography offers var-
+ious counterexamples, one of the most prominent being the High German
+Consonant Shift, which is everything but monolithic in phonological condition-
+ing and geographical spread and still considered as one process.
+     The reconstruction in the present paper builds upon principles that have
+typological parallels in language change in more recent and better attested
+periods, and unifies and reconciles various observations on older Germanic
+languages. It builds upon a wave-like spread of phonological changes with a
+gradual implementation on the phonological and lexical level. This contrasts
+with more static, structuralist reasoning, such as that PGmc. au and ai should
+have become monophthongs at the same time (e.g. Århammar 1995: 75, follow-
+ing Hofmann 1964), or that the monophthongisation of PGmc. ai in various
+Germanic languages can only be taken as one process if the outcome is structu-
+rally the same. The various phonological conditioning contexts for the mono-
+phthongisation of PGmc. ai in all Germanic dialects were brought together into
+one phonetically meaningful scale, with parallels in other developments in early
+Germanic (cf. Subsection 6.1). The different dates of the monophthongisation in
+the various Germanic dialects are brought together in a logical chrono-geogra-
+phical configuration (Subsection 6.2).
+     The approach adopted in the present study matches a post-Great Migration
+distribution of the Germanic peoples. Placing the Anglo-Saxons somewhere
+east of the Frisians, between Old Nordic and Old Saxon, would totally disturb
+the gradual dialect-geographical picture of Figure 2. Kortlandt’s (2008) chron-
+ology must be rejected. His reconstruction of developments, which posits a
+common “Anglo-Frisian” monophthongisation of PGmc. ai > ā in the period
+before the Great Migrations, lacks any positive support from early linguistic
+evidence and is contradictory to the evidence from raïhan (Caistor-by-Norwich-
+inscription) and – if well interpreted – from the Frisian Oostum inscription aib.
+Kümmel’s (2014a) reconstruction, with an early overall monophthongisation in
+Frisian of ai > ǣ runs into various problems: the very dense vowel system,
+Hofmann’s solution for the Insular North Frisian vowel system (both discussed
+
+
+
+31 This idea is implicitly followed by Kortlandt, when he restores the ‘Anglo-Frisian’ hypothesis
+by assuming that English and Frisian had an earlier common stage with the same product of
+monophthongisation.
+
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 319 ===
+                              Proto-Germanic ai in North and West Germanic            319
+
+
+in Subsection 5.1), the potential counter evidence from aib, and finally the
+timing of the retraction to ā, which requires a pretty archaic stage of the
+language with preserved post-consonantal -w- in unstressed syllables, such
+as in PGmc. *gaidwa- > OF gād ‘need’, or -hw- in PGmc. *taihwō- > OF tāne ‘toe’
+(cf. Ins. North Frisian tuan < Proto-Insular North Frisian *tān-). Kümmels line of
+argumentation is built on the development of shortened PGmc. ai, which can
+appear either as a or e in Modern Frisian dialects, from which he concludes a
+Proto-Frisian æ < ǣ < PGmc. ai. I agree with Kümmel that the first wave of
+monophthongisation produced a sound different from the monophthongisa-
+tion of PGmc. au, hence [aː] against [ɑː] < PGmc. au. A more detailed analysis of
+the words with short æ < PGmc. ai shows that most of them do not qualify for a
+monophthongisation in wave 1 and are therefore unlikely to represent the
+order ai > ǣ > æ. A closer scrutiny of the shortened instances in Frisian exceeds
+the scope of this article.
+     The situation in Dutch deserves some further consideration. Old Low
+Franconian proper attests to a strong monophthongisation tendency with ē
+except in the most non-velar context, i.e. when followed by i or j in the next
+syllable but not when r, w or h is the coda consonant. We can observe a similar
+interaction of the coda consonant and the quality of (semi-)vowels of the
+following syllable as in Frisian. The Flemish region has monophthongisation
+without exception, just as near-by Old English. The main contrast between Old
+English and Old Low Franconian is that most of the Lower Rhine region – but
+not the coastal strip – may already have been affected by the transition [ai] > [æɪ]
+at the moment of monophthongisation, while Old English and Old Frisian were
+not. The incidental relic words with ā and ō < ā in the coastal region of Holland
+and Zeeland and the Flemish place-names in -ham imply that this region still
+had [ai] (just as Old English and Old Frisian) when the first wave of mono-
+phthongisation affected the region.
+     Altogether, I conclude that the monophthongisation of PGmc. ai was a
+gradual process that covered 500 years and spread over the Germanic speaking
+regions in two waves. Even when somewhat fragmentary, the process can be
+traced using runic evidence and onomastic and dialectal relic items. The
+controversy whether it was an independent development or a common innova-
+tion becomes superfluous: the waves take place over a continuous time span
+and spread over contiguous geographical areas, without being monolithic in
+application or contemporaneous in every place. This matches the dialect-
+geographical reality that we know from later phonological developments,
+such as the diphthongisation of PGmc. ī and ū in the Late Middle Ages
+(König 2001: 146,147). The proposed model also solves some other problems,
+such as the varied lexical distribution in Old Frisian and the emergence of the
+
+
+
+                                       Brought to you by | University of Gothenburg
+                                                                      Authenticated
+                                                Download Date | 11/20/17 1:04 AM
+
+=== page 320 ===
+320          Arjen P. Versloot
+
+
+
+specific Insular Frisian vowel system, the < a > and < æ > spellings in Old Saxon
+and the curious phonological conditioning of the distribution of ē and ei in
+Dutch.
+
+
+
+References
+Allières, Jacques. 1988. La formation de la langue française. (Que sais-je? 1907). Paris: Presses
+      universitaires de France.
+Århammar, Nils R. 1969. Die Amringer Sprache; Die Amringer Literatur. Mit e. Anh. über d.
+      Amringer Pflanzen- u. Vogelnamen/Nils Århammar, 2nd edn. Itzehoe-Münsterdorf: Hansen
+      & Hansen.
+Århammar, Nils R. 1995. Zur Vor- und Frühgeschichte der Nordfriesen und des Nordfriesischen.
+      In Volkert F. Faltings, Alastair G. H. Walker & Ommo Wilts (eds.), Friesische Studien II.
+      Beiträge des Föhrer Symposiums zur Friesischen Philologie vom 7.-8. April 1994. Odense:
+      Odense University Press.
+Århammar, Nils R. 2001a. Die Herkunft der Nordfriesen und des Nordfriesischen (50). In Horst
+      Haider Munske (ed.), Handbuch des Friesischen = Handbook of Frisian Studies, 531–537.
+      Tübingen: Max Niemeyer.
+Århammar, Nils R. 2001b. Gründzüge nordfriesischer Sprachgeschichte (75). In Horst Haider
+      Munske (ed.), Handbuch des Friesischen = Handbook of Frisian Studies, 744–765.
+      Tübingen: Max Niemeyer.
+Bandle, Oskar. 2012. Die Gliederung des Nordgermanischen. Reprint der Erstauflage mit einer
+      Einführung von Kurt Braunmüller, Vol. 47. (Beitrage Zur Nordischen Philologie). Tübingen
+      & Basel: A. Francke Verlag.
+Boutkan, Dirk. 1995. The Germanic “Auslautgesetze.” Amsterdam; Atlanta, GA: Rodopi.
+Braune, Wilhelm, Karl Helm & Ernst A. Ebbinghaus. 1979. Althochdeutsches Lesebuch.
+      Tübingen: Max Niemeyer.
+Braune, Wilhelm & Ingo Reiffenstein. 2004. Althochdeutsche Grammatik. 15th edn. (Sammlung
+      kurzer Grammatiken germanischer Dialekte 5/1). Tübingen: Max Niemeyer.
+Bree, Cor van. 1987. Historische grammatica van het Nederlands. Dordrecht: Foris Publications.
+Bremmer, Rolf H. 2008. North-Sea Germanic at the Cross-Roads: The Emergence of Frisian and
+      Hollandish. NOWELE: North-Western European language evolution 54–55. 279–308.
+Bremmer, Rolf H. 2009. An introduction to Old Frisian: History, grammar, reader, glossary.
+      Amsterdam: John Benjamins.
+Buccini, Anthony F. 1995. Ontstaan en vroegste ontwikkeling van het Nederlandse taal-
+      landschap. Taal en tongval 8. 8–66.
+Buccini, Anthony F. 2003. »Ab errore liberato«. The northern expansion of frankish power in the
+      Merovingian period and the genesis of the Dutch language. Amsterdamer Beiträge zur
+      älteren Germanistik 57. 183–220.
+Campbell, Alistair. 1977. Old English grammar. Oxford: Clarendon Press.
+Cohen, A., C. L. Ebeling, K. Fokkema & A.G.F. Van Holk. 1971. Fonologie van het Nederlands en
+      het Fries: inleiding tot de moderne klankleer. ’s-Gravenhage: Nijhoff.
+Denton, Jeannette Marshall. 2003. Reconstructing the articulation of Early Germanic *r.
+      Diachronica 20(1). 11–43.
+
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 321 ===
+                                   Proto-Germanic ai in North and West Germanic             321
+
+
+Ehrentraut, Heinrich Georg. 1849. Friesisches Archiv. Eine Zeitschrift für friesische Geschichte
+     und Sprache, Vol. I. Oldenburg: Rudolf Schwarz.
+Ehrentraut, Heinrich Georg. 1854. Friesisches Archiv. Beiträge zur Geschichte der Friesen und
+     ihrer Sprache, auch der Grafschaften Oldenburg und Delmenhorst, Vol. II. Oldenburg:
+     Rudolf Schwarz.
+Ehrentraut, Heinrich Georg & Arjen Pieter Versloot (ed.). 1996. Mittheilungen aus der Sprache der
+     Wangeroger. Ljouwert (Leeuwarden)/Aurich: Fryske Akademy/Ostfriesische Landschaft.
+Ekwall, Eilert. 1975. A history of modern English sounds and morphology. (Trans.) Alan Ward.
+     Oxford: Basil Blackwell.
+Findell, Martin. 2012a. Phonological evidence from the continental runic inscriptions. Berlin;
+     Boston: Walter de Gruyter.
+Findell, Martin. 2012b. The Germanic diphthongs in the continental runic inscriptions. Futhark:
+     International Journal of Runic Studies 3. 45–58.
+Fortson, Benjamin W. 2010. Indo-european language and culture: an introduction. Chichester,
+     U.K.; Malden, MA: Wiley-Blackwell.
+Gallée, Johan Hendrik. 1910. Altsächsische Grammatik Laut- und Formlehre. Tübingen: Max
+     Niemeyer.
+Goeman, A. C. M., Johan Taeldeman & Piet van Reenen. 1980. MAND database. http://www.
+     meertens.knaw.nl/mand/database/ (accessed 9 October 2011).
+Griepentrog, Wolfgang. 1995. Die Wurzelnomina des Germanischen und ihre Vorgeschichte.
+     Innsbruck: Institut für Sprachwissenschaft der Universität Innsbruck.
+Grünzweig, Friedrich E. 2004. Runeninschriften auf Waffen: Inschriften vom 2. Jahrhundert n.
+     Chr. bis ins Hochmittelalter. Wien: Edition Praesens.
+Gysseling, Maurits. 1960a. Chronologie van enkele klankverschijnselen in het oudste Fries.
+     In K. Dykstra et al. (eds.), Fryske Stúdzjes oanbean oan Prof. Dr. J.H. Brouwer..., 77–80.
+     Assen: Van Gorcum.
+Gysseling, Maurits. 1960b. Toponymisch woordenboek van België, Nederland, Luxemburg,
+     Noord-Frankrijk en West-Duitsland (vóór 1226). Brussel: Belgisch Interuniversitair Centrum
+     voor Neerlandistiek. http://www.wulfila.be/tw/ (accessed 28 July 2017).
+Gysseling, Maurits. 1962. Het oudste Fries. It Beaken 24. 1–26.
+Haspelmath, Martin. 2001. The European linguistic area: Standard average European. In Martin
+     Haspelmath, Ekkehard König, Wulf Oesterreicher & Wolfgang Raible (eds.), Language
+     typology and language universals. An International Handbook., Vol. 2/2, 1492–1510.
+     Berlin; New York: Walter de Gruyter.
+Haugen, Einar. 1982. The Scandinavian languages. Madison, WI: Dept. of Scandinavian
+     Studies, University of Wisconsin.
+Haugen, Odd Einar. 2004. Frå urnordisk til norrønt språk. Handbok i norrøn filologi, additional
+     file online. [Bergen]: Fagbokforlaget. http://folk.uib.no/hnooh/handbok/ekstra/urnordisk.
+     html (accessed 28 July 2017).
+Heusler, Andreas. 1967. Altisländisches Elementarbuch. Heidelberg: C. Winter
+     Universitätsverlag.
+Hoekstra, Jarich & Geart Tigchelaar. 2014. kenna - kanna. The e/a-variation in Old Frisian and
+     its Modern Frisian reflexes. In Rolf H. Bremmer, Stephen Laker & Oebele Vries (eds),
+     Amsterdamer Beiträge zur älteren Germanistik. Directions for Old Frisian Philology 73.
+     185–200. Amsterdam; New York: Rodopi.
+
+
+
+
+                                             Brought to you by | University of Gothenburg
+                                                                            Authenticated
+                                                      Download Date | 11/20/17 1:04 AM
+
+=== page 322 ===
+322          Arjen P. Versloot
+
+
+
+Hoekstra, Jelle. 1950. De eerste en de tweede Hunsinger codex. ’s-Gravenhage: Martinus Nijhoff.
+Hofmann, Dietrich. 1964. “Germanisch” e2 im Friesischen. In William Foerste & Karl Heinz Borck
+     (eds.), Festschrift für Jost Trier zum 70. Geburtstag, 160–185. Köln: Böhlau.
+Imer, Lisbeth M. 2011. The oldest runic monuments in the North: dating and distribution.
+     Nowele NOWELE 62–63(1–2). 169–212.
+Kiparsky, Paul. 2003. The phonological basis of sound change. In Brian D. Joseph & Richard D.
+     Janda (eds.), The handbook of historical linguistics, 313–342. Malden, MA: Blackwell Pub.
+Klein, Thomas. 1990. Die Straubinger Heliand-Fragemente: Altfriesisch oder Altsächsisch? In
+     Rolf H. Bremmer, Oebele Vries & Geart van der Meer (eds.), Aspects of old frisian philology,
+     197–225. (Amsterdamer Beiträge zur älteren Germanistik 31–32). Groningen, Amsterdam &
+     Atlanta: Rodopi.
+König, Werner. 2001. Dtv-Atlas Deutsche Sprache. München: Deutscher Taschenbuch Verlag.
+Kortlandt, Frederik. 2008. Anglo-Frisian. NOWELE: North-Western European language evolution
+     54/55. 265–278.
+Krause, Wolfgang. 1966. Die Runeninschriften im älteren Futhark. Göttingen: Vandenhoeck u.
+     Ruprecht.
+Krogh, Steffen. 1996. Die Stellung des Altsächsischen im Rahmen der germanischen Sprachen.
+     Göttingen: Vandenhoeck & Ruprecht.
+Kümmel, Martin Joachim. 2014a. Über die Relevanz des Inselnordfriesischen für die
+     Sprachgeschichte: Zur Entwicklung von voraltfriesisch *ai. Dialekte, Konzepte, Kontakte.
+     Ergebnisse des Arbeitstreffens der Gesellschaft für Sprache und Sprachen, 31. Mai - 1. Juni
+     2013 in Freiburg/Breisgau = Sonderheft 2014 Sprache & Sprachen: Zeitschrift der
+     Gesellschaft für Sprache und Sprachen. 35–45.
+Kümmel, Martin Joachim. 2014b. Zur Rekonstruktion der altinselnordfriesischen Phonolgie. In
+     Rolf H. Bremmer, Stephen Laker & Oebele Vries (eds.), Amsterdamer Beiträge zur älteren
+     Germanistik Directions for Old Frisian Philology 73, 243–260.
+Labov, William. 1981. Resolving the neogrammarian controversy. Language 57(2). 267–308.
+Löfstedt, Ernst. 1928. Die nordfriesische Mundart des Dorfes Ockholm und der Halligen, (I).
+     Lund: Gleerup.
+Löfstedt, Ernst. 1931. Nordfriesische Dialektstudien. (MOH ( = Löfstedt 1928) II). Lund; Leipzig:
+     Gleerup; Harrassowitz.
+Looijenga, Tineke. 2003. Texts & contexts of the oldest Runic inscriptions. Leiden; Boston: Brill.
+Marold, Edith & Christiane Zimmermann. Runenprojekt Kiel. Runenprojekt Kiel -
+     Sprachwissenschaftliche Datenbank der Runeninschriften im älteren Futhark. http://www.
+     runenprojekt.uni-kiel.de/ (accessed 24 March 2014).
+Miedema, Hendrikus T. J. 1970. Vroegoudfriese relicten met a voor oergerm. ai in Holland en
+     Zeeland. Naamkunde 1–2. 1–12.
+Nielsen, Hans Frede. 1983. Germanic ai in Old Frisian, Old English and Old Norse.
+     Indogermanische Forschungen (1983) 88. 156–164.
+Nielsen, Hans Frede. 2000. The early runic language of Scandinavia: studies in Germanic
+     dialect geography. Heidelberg: C. Winter.
+Nielsen, Hans Frede. 2001. Frisian and the Grouping of the Older Germanic Languages. In Horst
+     Haider Munske (ed.), Handbuch des Friesischen = Handbook of Frisian Studies, 512–523.
+     Tübingen: Max Niemeyer.
+Oosterhout, Meinte. 1964. Nammeregister op de Snitser Recesboeken 1490–1517. Assen: Van
+     Gorcum & Comp., N.V.
+
+
+
+
+                                           Brought to you by | University of Gothenburg
+                                                                          Authenticated
+                                                    Download Date | 11/20/17 1:04 AM
+
+=== page 323 ===
+                                   Proto-Germanic ai in North and West Germanic              323
+
+
+Page, Ray I. 2006. An introduction to English runes. Woodbridge, UK; Rochester, NY: Boydell
+     Press.
+Parsons, David. 1996. The origins and chronology of the “Anglo-Frisian” additional runes. In
+     Tineke Looijenga & Arend Quak (eds.), Frisian runes and neighbouring traditions : pro-
+     ceedings of the First International Symposium on Frisian Runes at the Fries Museum,
+     Leeuwarden, 26–29 January 1994, 151–170. Amsterdam: Rodopi.
+Philippa, Marlies, F. Debrabandere, Arend Quak, Tanneke Schoonheim & Nicoline Van Der Sijs.
+     2003. Etymologisch Woordenboek van het Nederlands. Amsterdam: Amsterdam University
+     Press. http://www.etymologiebank.nl/ (accessed 28 July 2017).
+Ralph, Bo. 2002. 81. Phonological and graphematic developments from Ancient Nordic to Old
+     Nordic. In Oskar Bandle (ed.), The Nordic languages: an international handbook of the
+     history of the North Germanic languages, Vol. 1, 703–719. (Handbücher Zur Sprach- Und
+     Kommunikationswissenschaft 22). Berlin; New York: Walter de Gruyter.
+Ryckeboer, Hugo. 1997. Het Nederlands in Noord-Frankrijk: sociolinguïstische, dialectologische
+     en contactlinguïstische aspecten. Gent: Vakgroep Nederlandse Taalkunde, Universiteit Gent.
+Sandøy, Helge. 1993. Talemål. Oslo: Novus.
+Schmidt, Christoph G, Robert Nedoma & Klaus Düwel. 2010. Die Runeninschrift auf dem Kamm
+     von Frienstedt, Stadt Erfurt. Die Sprache. 49(2). 123.
+Sjölin, B. 1970. Die “Fivelgoer” Handschrift. Den Haag: Martinus Nijhoff.
+Sonderegger, Stefan. 1974. Althochdeutsche Sprache und Literatur: eine Einf. in d. älteste Dt.;
+     Darstellung u. Grammatik. Berlin; New York: Walter de Gruyter.
+Spenter, Arne. 1968. Der Vokalismus der akzentuierten Silben in der Schiermonnikooger
+     Mundart: Eine geschichtliche Studie des autochthonen westfriesischen Inseldialekts.
+     Kopenhagen: Munksgaard.
+Stiles, Patrick. 1995. Remarks on the “Anglo-Frisian” thesis. In Föhrer Symposium zur Friesische
+     Philologie, Volkert F Faltings, Alastair Walker & Ommo Wilts (eds.), NOWELE: North-
+     Western European language evolution, 177–220. Odense: Odense University Press.
+Stroop, Jan. 1998. Poldernederlands: waardoor het ABN verdwijnt. Amsterdam: Bakker.
+Tiefenbach, Heinrich. 2010. Altsächsisches Handwörterbuch. Berlin & New York: De Gruyter Mouton.
+De Vaan, Michiel. 2011. West-Germanic *ai in Frisian. In Erika Langbroek, Harry Perridon &
+     Annelies Roeleveld (eds.), Thi Timit Lof Festschrift für Arend Quak zum 65. Geburtstag,
+     301–314. Amsterdam; New York: Rodopi.
+De Vaan, Michiel. 2012. Taalcontact in Noord-Holland: een inleiding. It Beaken 74(1/2). 77–84.
+De Vaan, Michiel. 2017. The Dawn of Dutch. Language contact in the western Low Countries
+     before 1200. Amsterdam: Benjamins.
+Versloot, Arjen Pieter. 2001. Vergleichende Aspekte friesischer Lantgeschichte (76). In Horst
+     Haider Munske (ed.), Handbuch des Friesischen = Handbook of Frisian Studies, 767–775.
+     Tübingen: Max Niemeyer.
+Versloot, Arjen Pieter. 2014a. The Runic Frisian vowel system: the earliest history of Frisian and
+     Proto-Insular North Frisian. Amsterdamer Beiträge zur älteren Germanistik 72. 35–62.
+Versloot, Arjen Pieter. 2014b. Methodological reflections on the emergence of Old Frisian.
+     NOWELE: Unity and Diversity in West Germanic III 67(1). 23–49.
+Versloot, Arjen Pieter. 2016. Unstressed vowels in Runic Frisian. The history of Frisian in the
+     light of the Germanic ‘Auslautgesetze’. Us Wurk 65: 1–39.
+Versloot, Arjen Pieter. forthcoming. Mith frethe to wasane ‘to be in peace’: remnants of the
+     instrumental case in 13th and 14th century Old Frisian morphology. Filologia Germanica–
+     Germanic Philology 9.
+
+
+
+
+                                              Brought to you by | University of Gothenburg
+                                                                             Authenticated
+                                                       Download Date | 11/20/17 1:04 AM
+
+=== page 324 ===
+324          Arjen P. Versloot
+
+
+
+Voyles, Joseph B. 1992. Early Germanic grammar: pre-, proto-, and post-Germanic languages.
+     San Diego: Academic Press.
+Waxenberger, Gabriele. 2013. The reflection of pre-Old English sound changes in pre-Old
+     English runic inscriptions. In Hans Sauer & Gabriele Waxenberger (eds.), Recording
+     English, researching English, transforming English, 17–64. Frankfurt am Main: Peter Lang.
+Wells, John Corson. 1982. Accents of English 2, The Britsh Isles. Cambridge: Cambridge
+     University Press.
+
+
+
+
+                                          Brought to you by | University of Gothenburg
+                                                                         Authenticated
+                                                   Download Date | 11/20/17 1:04 AM
