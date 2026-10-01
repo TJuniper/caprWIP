@@ -23,9 +23,10 @@ Each substitution was established three ways: by font membership; by
 token-by-token alignment against an independent Google Cloud Vision OCR of
 300 dpi renderings of the same pages; and, where any doubt remained, by
 rendering the line at 500 dpi and reading it off the page.  The restored
-forms are self-validating -- they are OE lexemes with exactly the expected
+forms also pass a lexical plausibility check -- they are OE lexemes with expected
 palatal spellings (ecg, secg, hecg, hrycg, dic, ric, wic, ceorl, wrecca,
-stycce, wicce, mece, flicce), which a wrong table could not produce.
+stycce, wicce, mece, flicce). This agreement is corroboration; the printed
+glyphs, not lexical expectations, determine the substitution table.
 
 Substitutions applied:
   WPMultinationalARomanOOE:  k -> c-dot,  U+0081 -> g-dot,
@@ -50,6 +51,9 @@ PAGE NUMBERING
 Markers below use the article's own PRINTED page numbers, not PDF sheet
 numbers.  The offset is constant: printed page N = PDF sheet N + 164.
 The article occupies pp. 165-184, one PDF sheet per printed page.
+An independent PDF-edge folio check confirmed 19 of 20 sheets; the
+exception is p. 165, the opening title page without a recovered folio.
+Its identity follows from the article's page range and following p. 166.
 
 Map 1 (p. 171) is an image; its argument is given in the surrounding prose.
 

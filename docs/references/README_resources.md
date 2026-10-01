@@ -138,10 +138,10 @@ Every file in this group uses the `=== page NNN ===` marker convention with
 opens with a header recording the citation, the extraction method, the
 mechanically verified pdf-sheet-to-printed-folio offset, and an itemised
 account of every sheet that did not self-confirm its folio (opening pages
-with drop titles, full-page figures, blanks). Across the group 202 of 210
-sheets confirmed their folio directly; all 8 exceptions are individually
-classified in the file that contains them. These totals describe the original
-eight-source packet; the ninth source adds 39 directly verified sheets.
+with drop titles, full-page figures, blanks). The nine-source packet comprises
+245 printed pages. An independent PDF-edge check confirmed 241 folios; the
+four exceptions are Campbell p. 78 and Laker p. 165 (opening pages),
+and Versloot 2021 pp. 352 (full-page figure) and 374 (blank).
 
 Research use of these sources is organised in
 `Germanic/docs/sound_changes/literature_dossiers/anglo_frisian/`, whose
