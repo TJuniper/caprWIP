@@ -28,9 +28,9 @@ off the page:
   U+F76C  ->  U+029F  small capital L   "velar sounds, such as *[ʀ] ... or *[ʟ]"   p. 113
   U+F772  ->  U+0280  small capital R   (same sentence, p. 113)
 
-These are Versloot's notation for the velarized resonants that condition
-breaking, so losing them would silently delete the conditioning environment
-from a paper about breaking.
+The small capitals L and R are Versloot's notation for the velar resonants
+that condition breaking; small capital I instead represents a vowel. Losing
+L and R would obscure the proposed conditioning environment.
 
 Two further normalizations improve searchability without changing content:
 typographic ligatures (U+FB00-U+FB06) are decomposed to their letters, so
@@ -43,7 +43,7 @@ PAGE NUMBERING
 The `=== page NNN ===` markers below are the PRINTED page numbers of the
 publication, not PDF sheet numbers, so a citation taken from this file can
 be given directly as a page reference. The offset is constant: printed
-page N is PDF sheet N - 102. It was verified mechanically: the printed
+page = one-based PDF sheet + 102. It was verified mechanically: the printed
 folio appears in the running head or foot of 39 of the 39 sheets.
 
 Note one typographic quirk: on pp. 110-119 `pdftotext -layout` kerns the

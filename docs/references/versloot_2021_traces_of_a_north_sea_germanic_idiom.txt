@@ -17,7 +17,7 @@ PAGE NUMBERING
 The `=== page NNN ===` markers below are the PRINTED page numbers of the
 publication, not PDF sheet numbers, so a citation taken from this file can
 be given directly as a page reference. The offset is constant: printed
-page N is PDF sheet N - 338. It was verified mechanically: the printed
+page = one-based PDF sheet + 338. It was verified mechanically: the printed
 folio appears in the running head or foot of 34 of the 36 sheets,
 and each of the 2 sheet(s) that does not show its own
 folio was inspected individually and has a reason unrelated to
@@ -1683,4 +1683,3 @@ Vries, Oebele 2007, Asega, is het Dingtijd? De Hoogtepunten van de Oudfriese Tek
                                               373
 
 === page 374 ===
-

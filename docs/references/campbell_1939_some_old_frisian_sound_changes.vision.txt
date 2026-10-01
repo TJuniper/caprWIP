@@ -29,15 +29,16 @@ The embedded layer is useless for diacritics but is not random about plain
 letters, so it can still serve as an independent check on the OCR.  Reducing
 both extractions to their letter skeletons (diacritics stripped, ae-ligature
 to "ae", thorn to "th", case folded) and aligning them token by token gives
-90.8% agreement on 12,060 word tokens.  The residue is overwhelmingly the
-embedded layer's own failures on italic cited forms, not Vision's.
+90.8% agreement on 12,060 word tokens. This corroborates much of the plain
+letter text, but does not establish which extraction is correct at any
+disagreement, or validate vowel length and other stripped diacritics.
 
 Where the two disagree on a cited form, the page image is the arbiter.
 
 PAGE NUMBERING
 --------------
 Markers below use the article's own PRINTED page numbers, not PDF sheet
-numbers.  The offset is constant: printed page N = PDF sheet N - 77.
+numbers. The offset is constant: printed page = one-based PDF sheet + 77.
 It was verified mechanically -- on 29 of the 30 sheets the printed
 folio appears among the first four or last four non-empty OCR lines, i.e.
 in the running head or foot.  (Vision sometimes emits a rule or a hyphen as

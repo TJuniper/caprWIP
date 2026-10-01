@@ -32,7 +32,7 @@ PAGE NUMBERING
 The `=== page NNN ===` markers below are the PRINTED page numbers of the
 publication, not PDF sheet numbers, so a citation taken from this file can
 be given directly as a page reference. The offset is constant: printed
-page N is PDF sheet N - 278. It was verified mechanically: the printed
+page = one-based PDF sheet + 278. It was verified mechanically: the printed
 folio appears in the running head or foot of 30 of the 30 sheets,
 with no exceptions.
 Text never crosses a printed page boundary.

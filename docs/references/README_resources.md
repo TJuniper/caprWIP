@@ -91,8 +91,8 @@ were extracted with `pdftotext -layout` from born-digital text layers.
 **One — Campbell 1939 — required the Google Vision OCR route** and carries the
 `.vision.txt` suffix. **One — Laker 2007 — required a deterministic
 font-aware rebuild** and keeps the plain `.txt` suffix, since it is not OCR.
-Three of the seven `pdftotext` sources still needed a character repair before
-they were usable; only four were usable as extracted.
+Four of the seven `pdftotext` sources still needed character repairs before
+they were usable; three were usable as extracted.
 
 An initial screen that measured only characters-per-page passed all eight of
 the original sources; that screen was wrong, because it measured volume rather
@@ -119,10 +119,11 @@ than accuracy. A second screen on diacritic integrity caught both failures:
   survives correctly. Each substitution was established three ways: by font
   membership; by token-by-token alignment against an independent Vision OCR of
   the same pages; and, where doubt remained, by rendering the line at 500 dpi
-  and reading it off the page. The restored forms are self-validating — they
-  are OE lexemes with exactly the expected palatal spellings (`eċġ`, `seċġ`,
+  and reading it off the page. The restored forms also supply a lexical
+  plausibility check, with expected palatal spellings (`eċġ`, `seċġ`,
   `hryċġ`, `dīċ`, `rīċe`, `wīċ`, `ċeorl`, `wreċċa`, `styċċe`, `wiċċe`,
-  `mēċe`, `fliċċe`), which a wrong table could not produce.
+  `mēċe`, `fliċċe`). That agreement is corroboration, not a substitute for
+  checking the printed glyphs.
 
 Three further files (Bremmer, Kortlandt, Repanšek) had a *recoverable*
 defect: the John Benjamins house font emits combining macrons as a trailing
@@ -139,7 +140,8 @@ mechanically verified pdf-sheet-to-printed-folio offset, and an itemised
 account of every sheet that did not self-confirm its folio (opening pages
 with drop titles, full-page figures, blanks). Across the group 202 of 210
 sheets confirmed their folio directly; all 8 exceptions are individually
-classified in the file that contains them.
+classified in the file that contains them. These totals describe the original
+eight-source packet; the ninth source adds 39 directly verified sheets.
 
 Research use of these sources is organised in
 `Germanic/docs/sound_changes/literature_dossiers/anglo_frisian/`, whose
@@ -148,8 +150,9 @@ chronology.
 
 - `campbell_1939_some_old_frisian_sound_changes.vision.txt`
   Campbell, "Some Old Frisian Sound-Changes", TPS 38.1 (1939), pp. 78-107.
-  The classic statement of an Anglo-Frisian unity period; the baseline that
-  later work argues with. 30 printed pages.
+  A classic argument against inherited short-*a* fronting in a unitary
+  Anglo-Frisian period, using competing English and Frisian diphthong
+  chronologies (pp. 90-91). 30 printed pages.
 
 - `bremmer_2008_north_sea_germanic_at_the_cross_roads.txt`
   Bremmer, "North-Sea Germanic at the Cross-Roads: The Emergence of Frisian
@@ -191,7 +194,8 @@ chronology.
 
 - `versloot_2025_reconstructing_historical_phonology_of_oe.txt`
   Versloot, "Reconstructing the Historical Phonology of Old English",
-  English Language and Linguistics 30.1 (2025), pp. 103-141. Open Access.
+  English Language and Linguistics 30.1 (2026; first published 2025),
+  pp. 103-141. Open Access; bibliography key `Versloot2025`.
   39 printed pages, 39 of 39 folio-verified. Added to the pass after the
   first eight. Argues against the "Standard Theory" chronology, replacing
   the eight traditional sound laws targeting PGmc *a with a smaller set
