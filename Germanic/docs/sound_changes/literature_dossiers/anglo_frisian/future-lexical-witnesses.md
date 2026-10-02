@@ -37,13 +37,13 @@ alternatives rather than feeding an invented consensus protoform.
 
 ## Prioritized shortlist
 
-The 13 entries are research items/pairs, not 13 promised corpus additions.
+The 17 entries are research items/pairs, not 17 promised corpus additions.
 “Ready to investigate” means a source locator and relevant machinery
 exist; it does not mean validated derivation.
 
 | Priority / witness | Input status and exact source reflexes | Alternative/order tested; what it establishes | CAPR next step / gap |
 |---|---|---|---|
-| 1. Buy/trade | **Loan**, not invented inherited PGmc: Latin *caupo* in Laker's discussion; OE **ċeapian**, OFris **kapia**, no macrons (Laker2007 pp. 177–178). Kortlandt's **cēapian/kāpia** are his separate notation (p. 267). | Au/fronting/palatalization and possible reversal. Final k contrast does not uniquely choose shared-fronted-then-backed versus late-English-fronted histories (Laker pp. 178–180). | Investigate SC030/SC052/umlaut, but establish actual borrowed input, suffix and adaptation stratum before any derivation. |
+| 1. Buy/trade | **Loan**, not invented inherited PGmc: Latin *caupo* in Laker's discussion; OE **ċeapian**, OFris **kapia**, no macrons (Laker2007 pp. 177–178). Kortlandt's **cēapian/kāpia** are his separate notation (p. 267). | Au/fronting/palatalization and possible reversal. Initial velar contrast does not uniquely choose shared-fronted-then-backed versus late-English-fronted histories (Laker pp. 178–180). | Investigate SC030/SC052/umlaut, but establish actual borrowed input, suffix and adaptation stratum before any derivation. |
 | 2. Cuckoo | Fulk2018 §4.12 **printed p.73** directly gives OE **gēac**, OFris **gāk**, palatal English initial; reference text marker 090 is a sheet locator, not printed p.90. Ringe & Taylor2014 **printed p.206** gives PNWGmc *gaukaz* and OE reflex (text sheet marker 221). | Second au witness with g, not Laker's example. Tests whether buy's k distribution generalizes; does not itself reveal a lost intermediate. | SC030/SC052 machinery exists. Input *gaukaz* is source-backed, but selected CAPR paradigm/input unverified. Check page glyphs before exact phonetic transcription. |
 | 3. Key versus kettle/jaw | Kortlandt's *kaijō* → OFris **kēi/kāi**; *katilaz* → **tsetel**; *kǣkōn* → **tziake** (pp. 268, 274). Campbell compares **kei** with OE **cæg**, and **tsetel** with Gothic **katils** (p. 107; length marks subject to card01 caveat). | Ai/front-vowel strata versus inherited ē1/short a at palatalization. Fits shared ai→ā then later fronting **or** retained diphthong during early palatalization; finals do not uniquely attest ā. | SC004/SC043/SC052 relevant. Verify exact protoform cells and unstressed-vowel history; no asserted kettle/jaw run. |
 | 4. Stone and cloth | Source-backed *staina-* → OFris **stēn**, WFris **stien**, Föhr **stian**; *klaiþ-* → OE **clāþ**, OFris **clāth(ar)**, WFris **klean**, Föhr **kluaser** (Versloot2021 p. 348). | Unconditioned shared contraction plus secondary fronting versus context-sensitive Frisian paths. Distribution links Frisian dialects but does not show the disputed intermediate. | SC004/umlaut relevant only after paradigm controls. Insular evidence is comparative, not executable target availability. |
@@ -56,6 +56,10 @@ exist; it does not mean validated derivation.
 | 11. Ja-stem doublets | OFris **wigge/widze**, **wreke/wretse**, **breke/bretse**, **egge/edze**; source reconstructions *wegja-*, *wrakja-*, *brukja-*, *egjō-* (Laker2007 p. 183). | Palatalization conditions versus subsequent leveling after j-loss. Paradigm-wide variation can mask productive history; doublets do not by themselves prove inherited common origin (pp. 182–184). | SC052 and j/gemination/mutation machinery exist. Require singular/plural inputs and actual witnesses; lexical optionality is not an exceptionless rewrite. |
 | 12. Seeing versus lying/right/rain | OFris **siuht(h)** < *sehiþ*, **leith/līth** < *legiþ*, **riucht/riocht** < *reht-*, **rein** < *regna-* (Laker pp. 176–177). Campbell **siucht** 'sees' chronology (p. 105). | Distinct h versus g behavior; mutation/syncope creates breaking context. Does not establish breaking<h-loss. | SC045/052 and breaking/mutation are relevant English comparators, **not** validated Frisian transducers. Keep verb/person inputs separate. |
 | 13. Feormat and negative fit controls | English **feormat** < *farmjan-*; **feruuitgeornnis/feruitgernis** versus Corpus **feorwitgeornis** (Versloot2025 pp. 131–132). **Spadan** < *spadō(n)-*, **hebuc** < *habuk-*, **haen** < *hanjō-* (p. 123). | Mutation-created e could feed late breaking; later opacity could enable breaking. Spadan fits both histories, hebuc fails both, haen favors categorical ST. These controls prevent selective “simpler account wins” inference. | SC043/044/046/umlaut investigation possible; glossary spelling/loan/morphology assumptions unverified. No Frisian counterparts supplied here; acquire them rather than invent them. |
+| 14. Key/day oblique paradigms | Hogg's source reconstructions **\*kaijai**, **\*dagai**; OE dative **cǣġe**, **dæġe** (Hogg1979 pp. 105–108). No matching Frisian paradigm supplied by this article. | Inherited j versus newly palatalized g→j yields opposed palatalization/mutation requirements under Hogg's merger and syllabification premises. Tests an actual chronology contradiction, not only final palatal spelling. | Ai, fronting, palatalization and mutation machinery exists, but input stage, case endings, j treatment and positional merger proxy need explicit control. Do not assume bare source reconstructions are normalized CAPR inputs. |
+| 15. Restored versus secondary front vowels | OE **calan, galan** versus West Mercian **gætu, cæfurtūn** (Hogg1979 pp. 90–91, 96–97; p. 112 n. 5). Source gives hypothetical reversible allophony, not a complete selected PGmc input for every form. | Restoration before operative P versus earlier reversible sensitivity; secondary æ after productive P cutoff. West Mercian second fronting is not English au-fronting. | SC043/046/052 relevant; the Mercian continuation is not automatically available in the West Saxon target chain. Control dialect, onset/phonologization and later back-mutation spellings. |
+| 16. Frisian metathesis/closure controls | **Briocht** from **\*berht > \*breht**; **gerso** retains an ending because its earlier stem was light (Bremmer2009 pp. 34–35, 40). These are source-local intermediates, not certified PGmc selected inputs. | Briocht: relevant metathesis < breaking. Gerso: heavy-stem u-loss < the relevant metathesis. Discriminates multiple episodes from one undated universal “metathesis.” | No Frisian cascade exists; exact paradigm/quantity and precursor forms must be specified. Neither example authorizes a new English metathesis rule. |
+| 17. Mutated ai/au and gravity controls | Frisian **hēla, hēra** from source **\*hailjan, \*haurjan** (Bremmer2009 pp. 28, 33); Nielsen's **rāp/māra** versus **stēn/brēd**, with **hēra** (Nielsen2001 p. 514). Preserve source stage/notation; an English input is not supplied here. | Nielsen's gravity split < mutation versus alternatives; monophthongization-before-mutation versus diphthong mutation/contraction. Convergent hēla/hēra alone does not prove identical ai/au events. | Complete grave environments and intermediate quantities are missing; no lexeme-selective output rule. A future paired English test requires directly supported cognate/input cells, not manufactured reconstructions. |
 
 ## How to use the queue
 
@@ -68,6 +72,21 @@ fronting ([@Luick1914, pp. 130–132, §§118–120; @Campbell1939, pp. 91,
 Final buy/cuckoo outcomes cannot alone establish that tentative stage or
 its consonant consequences; §637 remains unverified. The synthesis owns
 the comparative tree implications.
+
+Add Goblirsch's **direct** shared-ēa/stress-shift alternative to those
+au comparisons. Kentish **djāf/-lyās** versus Frisian
+**dāf/lās/kās/brād** suggests a glide-loss mechanism, but the Frisian
+glide is reconstructed, not attested. His eu-derived jā forms are
+analogues, not au witnesses. Final-output equivalence cannot choose
+between this route and a direct contraction without further evidence
+([@Goblirsch1991, pp. 17, 20–21]).
+
+For item 12, Bremmer supplies **siucht/siā** and the specific
+i-apocope/closed-syllable argument. Keep χ-to-h weakening apart from
+h-deletion: his p. 35 remark favors, with uncertainty, h-loss **before**
+breaking, while p. 37 warns against a general link. Do not replace
+Campbell's qualified discussion with a spurious secure opposite edge
+([@Bremmer2009, pp. 34–35, 37]).
 
 Final forms often cannot distinguish competing histories: “never front”
 and “front then restore” converge; early palatalization plus reversal and
@@ -83,5 +102,6 @@ usage is not shared sound-change proof; short [æ] is not automatically
 
 **Readiness limit:** relevant English machinery inspected; no candidate
 input, live firing, intermediate or final output verified. Frisian
-implementation remains a future task requiring source acquisition and
-an explicit alternative-chain decision.
+implementation remains a future task requiring an explicit
+alternative-chain decision and exact source-backed component laws.
+Missing Stiles/Fulk copies are not a general prerequisite.

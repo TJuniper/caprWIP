@@ -634,13 +634,13 @@ following may be cited as the underlying author's own evidence — only as
   reports as direct Luick citations.
 - **Hogg 1979, "Old English Palatalization"** — cited for the *h / breaking
   problem and the "no satisfactory solution" remark (pp. 165–166, 176, 177
-  n. 37). Now held; direct review pending.
+  n. 37). Directly reviewed separately in card 13; this remains Laker's report.
 - **Nielsen, "Frisian and the Grouping of the Older Germanic Languages"** —
   named as an independence-thesis proponent (pp. 165–166) but his specific
   arguments are not spelled out by Laker. The 2001 chapter is now held;
-  direct review pending.
+  directly reviewed separately in card 11.
 - **Goblirsch 1991** (*au scenario 1, *Akzentumsprung*, p. 178) —
-  now held; direct review pending. Laker's report remains a report here.
+  directly reviewed separately in card 12. Laker's report remains a report here.
 - **Also not held, load-bearing at specific points:** Kortlandt 1999
   (critique of Fulk's *au, p. 179); Page 1961 (*au scenario 3, p. 179); Krupatkin
   1970 (*au scenario 4, the "not dependent on fronting of short *a" claim,

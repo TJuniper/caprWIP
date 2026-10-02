@@ -43,9 +43,10 @@ node (pp. 166, 172–173, 184).
    vowel histories (pp. 177–180, 184). His criticisms of Stiles are not
    his own independent-palatalization thesis.
 
-Stiles1995 and Fulk1998 remain missing direct works. Hogg1979,
-Goblirsch1991 and Nielsen2001 have subsequently been acquired, but their
-positions in this note are still known through reports pending direct review.
+Stiles1995 and Fulk1998 remain unavailable direct works, not global
+prerequisites. Hogg1979, Goblirsch1991, Nielsen2001 and Bremmer2009
+now have direct reviews (cards 10–13), integrated in the synthesis.
+Laker's reports remain his reports, not retroactively direct evidence.
 Hogg1992 and Luick are held, but cannot silently replace
 those distinct works or unverified cited passages.
 
@@ -76,6 +77,19 @@ different vowel-history passages have been checked.
 - **Versloot2025:** late-breaking reconstruction challenges the vowel
   framework, but expressly defers velar palatalization and au (p. 107).
   Its spelling fit does not resolve consonant-stage identity.
+- **Bremmer2009 / Nielsen2001:** separate daughter developments are
+  preferred, but on different and partly opposed chronological premises.
+  Bremmer's §42a/§44 ai order is internally opposed; Nielsen's exclusion
+  depends on daughter-local monophthongization-driven fronting
+  (Bremmer pp. 30–33; Nielsen pp. 514–516, 519–521; synthesis §2).
+- **Goblirsch1991:** positively proposes common au > ēa then Frisian
+  stress shift/contraction. This supplies neither an independently
+  observed consonant reversal nor plain-a/au process identity
+  (pp. 17–21; synthesis §2).
+- **Hogg1979:** retained English operative P follows breaking/restoration,
+  but first reversible sensitivity is separate and P/U remains
+  contradictory. No Frisian chain establishes comparative scope here
+  (pp. 90–97, 102–111; synthesis §2).
 
 ## Tree test and stage caution
 
@@ -85,6 +99,12 @@ fronting preceding an English late palatalization cannot identify that
 late event with the earlier Frisian one (Kortlandt pp. 267, 271).
 Conversely, eliminating a supposed breaking-before-palatalization edge
 removes an obstacle, not proves inheritance (Laker pp. 175, 184).
+Hogg's breaking argument concerns at least phonologization; it is not
+automatically a date for first allophonic onset. Bremmer's clause
+“palatalization is demonstrably later than breaking as a phonemic change”
+is retained without resolving the modifier's attachment. Their labels
+must not be flattened into an unqualified shared chronology
+(Hogg pp. 90–91; Bremmer p. 35).
 
 Frisian-only earlier au-contraction followed by alleged shared fronting
 fails that inherited **shared-event assignment**, even if it predicts the surface consonants;

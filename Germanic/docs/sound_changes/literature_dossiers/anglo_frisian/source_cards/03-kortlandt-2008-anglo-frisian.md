@@ -279,11 +279,11 @@ for current holdings; later acquisition does not upgrade this card's reported po
 - **Kortlandt's own prior papers** (the chronology's backbone; heavy self-reliance): 1986 "Origin of the OE dialects"; 1991 "Germanic seventh class of strong verbs"; 1994 "On breaking"; 1999 "Origin of the OE dialects revisited" (AF 8 restoration data); 2006a "Inflexion of the Germanic n-stems" (WG 0); 2006b "Germanic *ē1 and *ē2" (the ǣ-archaism / *ē2 theses). *If these fall, the ǣ-archaism thesis (§2) and the *ē2/*ea account (AF 9 dating) are unsupported here.*
 - **Stiles 1995** "Remarks on the 'Anglo-Frisian' thesis" — the target chronology (PS 1–9) and the 10-feature list; needed to check Kortlandt's mapping.
 - **Fulk 1998** "The chronology of Anglo-Frisian sound changes" (RF 1–11, quoted p. 266); **Fulk 1987** (reduplicating verbs, underpins *ē2 argument).
-- **H.F. Nielsen 2001** (Frisian chronology N 1–5, rejected) — now held, direct review pending; **Nielsen 1981** (migration history) and **Nielsen 1984** (breaking/back-mutation u-diphthongs) remain missing.
+- **H.F. Nielsen 2001** (Frisian chronology N 1–5, rejected) — directly reviewed separately in card 11; Kortlandt's numbering remains his reconstruction of Nielsen's account. **Nielsen 1981** (migration history) and **Nielsen 1984** (breaking/back-mutation u-diphthongs) remain missing.
 - **van Haeringen 1920** (Frisian palatalization diagnostic, pp. 268, 274).
 - **Heuser 1903** *Altfriesisches Lesebuch* (AF 6 blocking condition, p. 267).
 - **Krupatkin 1970** (structural-pressure principle driving the whole re-analysis).
-- **Hogg 1979** (palatalization-simultaneity claim, attacked, p. 267) — now held, direct review pending.
+- **Hogg 1979** (palatalization-simultaneity claim, attacked, p. 267) — directly reviewed separately in card 13; this remains Kortlandt's reading of Hogg.
 - **K.M. Nielsen 1961** (Scandinavian breaking + runic forms); **Boutkan 1998** (OFris breaking, F 14); **Hofmann 1964** (Insular North Frisian ǣ>ē, AF 10 exception); **Klein 1990** (OS not homogeneous); **Greene 1974** (Irish palatalization typology).
 - Historical/archaeological: **Jackson 1953**, **Alcock 1971**, **Milroy & Milroy 1985** — support §6 dating and the wave/mobility framing only.
 

@@ -5,7 +5,7 @@ any synthesis was written.
 
 ## Why this file exists
 
-The nine sources ingested in this pass depend heavily on a smaller set of
+The specialist sources ingested in this pass depend heavily on a smaller set of
 earlier works, and they frequently disagree about what those earlier works
 established. Where CAPR does not hold a work directly, the only honest
 record is *"author A reports that author B argued P"*. That is a weaker
@@ -18,8 +18,14 @@ The standing rule for this research area is therefore:
 > is **not** direct evidence from the scholar reported, and it may not be
 > cited as such in any CAPR memo.
 
-Nothing in this file blocks the *research architecture*. It blocks *final
-adjudication* of the questions listed against each item.
+This file records coverage and premise-level limits, not blanket acquisition
+gates. Stiles 1995 and Fulk 1998 will not be obtained for this programme.
+Use the thirteen held works to evaluate independently supported constraints,
+compare their explicitly attributed reports, and complete the book.
+Only a conclusion that genuinely requires an otherwise unverified premise
+must be deferred; no missing title automatically blocks every uncertain
+feature or every production recommendation. Proposed scientific changes
+still require direct source support and separate user approval.
 
 ## Method
 
@@ -70,14 +76,14 @@ substitutes.
 
 ## Status table
 
-| Source | Held? | Priority | What it blocks |
+| Source | Held? | Review/coverage status | Specific limit |
 |---|---|---|---|
-| Stiles 1995, "Remarks on the 'Anglo-Frisian' Thesis" | **No** | **Critical** | The central chronological argument of the whole controversy |
-| Bremmer 2009, *An Introduction to Old Frisian* | **Complete PDF parts and Vision text held** | Review next | A baseline pre-Old Frisian ordered chain |
-| Fulk 1998, "The Chronology of Anglo-Frisian Sound Changes" | **No** | High | Direct, dedicated treatment of the exact question |
-| Hogg 1979, "Old English Palatalization" | **PDF and Vision text held** | Review next | Direct-source review of the palatalization chronology Laker argues with |
-| Nielsen 2001; other cited treatments | **2001 chapter PDF and Vision text held; other titles not held** | Review next | Independent assessment of the feature list |
-| Goblirsch 1991 on Germanic *ai/*au in Anglo-Frisian | **PDF and Vision text held** | Review next | Direct-source review of the *au side of SC030/SC043 |
+| Stiles 1995, "Remarks on the 'Anglo-Frisian' Thesis" | **No** | Unavailable; no acquisition prerequisite | Cannot verify his original argument directly; assess independently supported premises and attribute reports |
+| Bremmer 2009, *An Introduction to Old Frisian* | **Complete PDF parts and Vision text held** | Direct card 10 and synthesis complete | Opposed ai-order passages; qualified h chronology; unresolved ai conditioner |
+| Fulk 1998, "The Chronology of Anglo-Frisian Sound Changes" | **No** | Unavailable; no acquisition prerequisite | Cannot assess the original dedicated argument directly; Fulk 2018 and reports are distinct evidence |
+| Hogg 1979, "Old English Palatalization" | **PDF and Vision text held** | Direct card 13 and synthesis complete | Unresolved English palatalization/mutation contradiction; no Frisian chain |
+| Nielsen 2001; other cited treatments | **2001 chapter PDF and Vision text held; other titles not directly reviewed** | Direct card 11 and synthesis complete | Structural causal premises versus diagnostic edges; earlier cited works remain reports |
+| Goblirsch 1991 on Germanic *ai/*au in Anglo-Frisian | **PDF and Vision text held** | Direct card 12 and synthesis complete | Unobserved Frisian ēa/eā; incomplete ai conditioning; reported mechanism/date dependencies |
 | Siebs, *Geschichte der friesischen Sprache* / Grundriss article | **No** | Medium | The classic pro-shared-palatalization position |
 | Luick, relevant passages | **Partial** | Medium | §§118–120 located by printed headings; §637 and exact corrupted glyphs still unverified |
 
@@ -85,7 +91,8 @@ substitutes.
 
 ### Stiles 1995, "Remarks on the 'Anglo-Frisian' Thesis"
 
-**Not held in any form.** This is the most damaging absence in the pass.
+**Not held in any form; not an acquisition prerequisite.** This remains an
+important limitation on evaluating Stiles's original argument.
 
 Bremmer 2008, Laker 2007, Kortlandt 2008 and Repanšek 2012 all engage
 Stiles's chronological argument, and they do not all report it identically.
@@ -97,12 +104,14 @@ Stiles's argument is exactly of the form the CAPR tree test is designed to
 consume — a claim about which ordering edges the traditional Anglo-Frisian
 feature list can and cannot support. CAPR's Anglo-Frisian node is a fixed
 modelling requirement; the open question is which innovations can precede
-that node on the common stem. Final disputed placements must not be settled
-from second-hand reports by authors who are in some cases arguing against
-Stiles.
+that node on the common stem. Do not settle a disputed placement solely by
+treating a second-hand report as direct Stiles evidence. Test whether its
+load-bearing premises are independently supported in held sources.
 
-**Blocks:** final adjudication of every `U`-class feature in the synthesis;
-in particular the SC030/SC043 identity question.
+**Limit:** direct assessment or refutation of Stiles's own argument is not
+possible. SC030/SC043 and other features can still be compared under direct
+held evidence and stated alternatives. An essential unsupported premise
+requires localized DEFER, not global suspension of the comparison.
 
 ### Bremmer 2009, *An Introduction to Old Frisian*
 
@@ -114,16 +123,18 @@ text layer has materially faulty phonetic-font mappings, so every part
 was processed with the established asynchronous Vision PDF runner.
 Bremmer 2008 is a separate article, not a substitute for this handbook.
 
-This is the standard student/reference handbook for Old Frisian and the
-natural source for a baseline ordered pre-Old Frisian chain. The synthesis
-dossier's Frisian chains are consequently assembled from specialist
-articles, each of which addresses only part of the sequence. That is why
-the Frisian chain in the synthesis is presented as *alternatives* rather
-than as one sequence with gaps filled in.
+**Direct review complete:** card 10 reads the history, relevant phonology,
+dialectology and runic discussions. The handbook supplies a much fuller
+Frisian inventory, not an automatically coherent adjudicated chain:
+§42a and §44 give opposed ai/palatalization orders, initial palatalization
+may be before mutation or only before unrounding, and ai conditioning
+remains unresolved ([@Bremmer2009, pp. 27–35]).
 
-**Review still required:** a complete pre-Old Frisian chain; therefore a
-future Frisian CAPR implementation. Acquisition does not supply an adjudicated
-chain or resolve contradictions between the handbook's proposed constraints.
+The synthesis preserves these alternatives and separates χ-weakening from
+h-deletion: p. 35's negative statement favors, with uncertainty,
+**h-loss before breaking**, not the reversed edge; p. 37 cautions against
+a general link ([@Bremmer2009, pp. 35, 37]). Later implementation still
+requires an explicit choice of component events, contexts and dialect.
 
 ### Fulk 1998, "The Chronology of Anglo-Frisian Sound Changes"
 
@@ -138,8 +149,9 @@ dedicated to precisely the question this research area exists to answer.
 Citing Fulk 2018 as though it were that paper would be exactly the
 substitution this file forbids.
 
-**Blocks:** confidence that the synthesis has canvassed the main
-chronological positions.
+**Limit:** the synthesis cannot claim direct or exhaustive assessment of
+Fulk's 1998 position. This does not prevent testing the directly available
+accounts or defending a model within that explicit coverage boundary.
 
 ### Hogg 1979, "Old English Palatalization"
 
@@ -151,17 +163,19 @@ asynchronous Google Vision PDF runner succeeded; the searchable text is
 `docs/references/hogg_1979_old_english_palatalization.vision.txt`, with
 printed-page markers 89–113 and documented image-verified repairs.
 The earlier synchronous-image resource errors did not require a billing
-change. Until source review is completed, the source
-cards' reports of Hogg through Laker are still reports, not verified
-readings of Hogg.
+change. Card 13 now directly reviews all pp. 89–113. Other authors'
+reports of Hogg remain their reports, not retroactively direct evidence.
 
 **Adjacent holding that is not a substitute:** Hogg 1992, *A Grammar of Old
 English* vol. 1, is held and treats palatalization. The 1979 article is a
 specific argument that Laker engages with directly; the handbook is not
 that argument.
 
-**Blocks:** the palatalization research note's assessment of which
-pro-shared arguments actually fail.
+**Remaining evidential limit:** Hogg supplies an English operative bracket,
+but leaves palatalization/mutation contradictory and gives no Frisian
+derivational chain. The direct review separates first sensitivity,
+phonologization, merger and final vocalization; it does not decide shared
+origin by itself ([@Hogg1979, pp. 90–97, 102–111]).
 
 ### Nielsen
 
@@ -170,10 +184,12 @@ pro-shared arguments actually fail.
 printed pp. 512–523, bibliography key `Nielsen2001`. The scan was processed
 with the established asynchronous Vision PDF runner; the neighbouring
 chapter's opening on p. 523 is excluded from Nielsen's text.
-Other Nielsen works on Germanic dialect relations and on the
-Anglo-Frisian feature list remain missing where cited. Which
-specific Nielsen titles are load-bearing is recorded in the individual
-source cards (§13 of each).
+Card 11 directly reviews all pp. 512–523. His daughter-local
+monophthongization-driven restructuring is distinct from the earlier
+nasal package and conflicts with the long-fronting-before-contraction
+account ([@Nielsen2001, pp. 514–517, 520–521]).
+Other Nielsen works remain reported-only where cited. Exact dependent
+titles and their roles are recorded in the source cards (§13).
 
 ### Goblirsch on Germanic *ai/*au in Anglo-Frisian
 
@@ -184,9 +200,17 @@ It is scanned, with materially unreliable embedded OCR. The established
 asynchronous Google Vision PDF runner succeeded; the searchable text is
 `docs/references/goblirsch_1991_germanic_ai_and_au_in_anglo_frisian.vision.txt`,
 with printed-page markers 17–23 and documented image-verified repairs.
-Direct review remains a separate task. Relevant specifically to the *au side of the SC030/SC043 question,
-where Laker locates a genuinely unresolved argument. Acquisition alone does
-not verify Laker's interpretation.
+Card 12 directly reviews all pp. 17–23. Goblirsch advocates shared
+au > ēa followed by Frisian stress shift/contraction; that does not
+establish plain-a/au fronting identity or a consonant reversal
+([@Goblirsch1991, pp. 17–21]).
+
+**Localized dependencies:** Bennett 1953 and Gysseling 1960/1962 underpin
+the proposed mechanism and dating. The direct review did not locate them
+in its author/title filename inventory; this is not an exhaustive metadata
+audit. Bennett 1950 is a different held work, not a substitute. These
+claims remain Goblirsch's reports; missing originals are not a global
+blocker ([@Goblirsch1991, pp. 20–22]).
 
 ### Siebs
 
@@ -232,17 +256,24 @@ Ge[meinschaft]" refers to §637 [@Laker2007, p. 165, n. 2]. That section was
 not located in the held text. Its wording and printed-page locator remain
 unverified; do not treat the §§118–120 lookup as verification of §637.
 
-## Recommended acquisition order
+## Parked holdings and active review
 
-1. **Stiles 1995** — unblocks the most.
-2. **Bremmer 2009** — complete PDF parts and Vision text acquired; review
-   the baseline handbook against which the partial Frisian
-   chains can be assessed.
-3. **Fulk 1998** — directly on topic.
-4. **Hogg 1979** — PDF and Vision text acquired; complete direct review.
-5. Acquire/identify the **Luick** page images and missing §637; selected
-   §§118–120 printed-page locators are now established, but glyph-level
-   confirmation and the palatalization passage remain outstanding.
-6. **Goblirsch 1991** — PDF and Vision text acquired; complete direct review.
-7. **Nielsen 2001** — chapter acquired; complete direct review. Other
-   specifically load-bearing Nielsen treatments and Siebs still need acquisition.
+1. **Stiles 1995** — unavailable; keep reported claims attributed and use
+   independent direct support where it exists. No acquisition task on the
+   project's critical path.
+2. **Bremmer 2009** — direct card and comparative integration complete;
+   retain its opposed/qualified constraints rather than treating it as
+   an automatic baseline.
+3. **Fulk 1998** — unavailable; the original is not interchangeable with
+   Fulk 2018 or other authors' reports. Not a completion prerequisite.
+4. **Hogg 1979** — direct review complete; English operative P/U remains
+   unresolved and no independent Frisian chain is supplied.
+5. **Luick** — selected §§118–120 printed-page locators are established;
+   page-image confirmation and §637 remain coverage limits. Do not infer
+   missing glyphs or treat those limits as a general acquisition gate.
+6. **Goblirsch 1991** — direct review complete; shared-diphthong mechanism
+   remains reconstructed, with premise-specific coverage limits.
+7. **Nielsen 2001** — direct review complete. Other Nielsen
+   treatments and Siebs remain reported-only where cited. A conclusion
+   depending uniquely on them needs localized DEFER, not an automatic
+   collection campaign.

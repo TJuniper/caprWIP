@@ -518,7 +518,8 @@ against the synthesis.
 
 Cross-reference `../missing-direct-sources.md` for current holdings.
 Bremmer 2009, Nielsen 2001 and Goblirsch 1991 have subsequently been
-acquired, but direct review remains pending; Stiles 1995 is still missing.
+acquired and directly reviewed separately in cards 10–12; Stiles 1995
+remains unavailable, not a global acquisition prerequisite.
 Per the standing rule there, Versloot's *report* of any of these is
 evidence about **Versloot's reading**, not the source itself.
 
@@ -530,13 +531,13 @@ evidence about **Versloot's reading**, not the source itself.
 - **Nielsen 1983 / 2000 / 2001** — the "independent in each language" thesis and
   the Early Runic dating Versloot leans on (e.g. Nielsen 2000:165 for the 400 AD
   date; Nielsen 2001:515–516 for rejecting Hofmann's OS split) (pp. 282,
-  287–288, 295, 306–307). The 2001 chapter is now held, direct review pending;
+  287–288, 295, 306–307). The 2001 chapter is directly reviewed in card 11;
   the 1983 and 2000 works remain missing.
 - **Goblirsch on Germanic *ai/*au** — not cited by Versloot by name here, but the
   `*au` side of his de-coupling argument (pp. 307–309, 318) is exactly the
-  material `../missing-direct-sources.md` flags Goblirsch for; needed before
-  CAPR can test the `*ai`/`*au` symmetry claim. Goblirsch 1991 is now held;
-  its direct review remains pending.
+  material `../missing-direct-sources.md` flags Goblirsch for. Direct
+  card 12 now supplies his account for comparative testing; it does not
+  upgrade an argument attributed to a different source.
 - **De Vaan 2011** ("West-Germanic *ai in Frisian") — the entire OF ā/ē
   conditioning that Versloot reformulates statistically (§5.1) rests on De Vaan's
   data and rules (pp. 286, 302–304). **De Vaan 2017** (*The Dawn of Dutch*) and

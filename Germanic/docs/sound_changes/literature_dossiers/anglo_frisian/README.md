@@ -11,8 +11,9 @@ work with that formalism, and it is applied in the literature to at least
 four different kinds of claim. Before CAPR can decide questions such as
 whether SC030 and SC043 are one change, or whether Old English and Old
 Frisian palatalization is one innovation, the Frisian side of the
-comparison has to exist as an explicit ordered chain. It currently does
-not.
+comparison must specify coherent daughter histories and their conditions.
+Source-local partial chains are already recorded here; a single adjudicated
+Frisian cascade does not yet exist.
 
 This area holds the evidence architecture for that future adjudication. It
 is **research state, not executable science.** Nothing here licenses a
@@ -96,7 +97,7 @@ fronted allophone [æ] is not the same event as the phonemicization of /æ/.
 
 | File | Role |
 |---|---|
-| `source_cards/` | Nine reviewed specialist sources. Four subsequently acquired works await direct-source cards and comparative review. |
+| `source_cards/` | Source-specific direct readings; the holdings audit distinguishes completed reviews from work in progress. |
 | `missing-direct-sources.md` | Cited-but-absent sources, with what each blocks. |
 | `anglo-frisian-chronology.synthesis.md` | Cross-source, proposition-by-proposition comparison; the ordered pre-OE and pre-OFris chains; the four-way classification. **Authority for this area.** |
 | `palatalization-research-note.md` | Shared-vs-independent palatalization, unadjudicated. |
@@ -104,9 +105,35 @@ fronted allophone [æ] is not the same event as the phonemicization of /æ/.
 | `research-pass.record.md` | Protocol record, unchanged executable scope, and deferred decisions. |
 
 Hogg 1979, Goblirsch 1991, Bremmer 2009 and Nielsen 2001 are now held
-with page-preserving reference texts. Acquisition does not upgrade an
-existing card's report of them into a direct reading. The central holdings
-audit records their status and the remaining Stiles 1995 / Fulk 1998 gaps.
+with page-preserving reference texts. All thirteen specialist sources now
+have direct cards and comparative integration. Acquisition or a later direct
+review does not retroactively upgrade another author's report into direct evidence.
+The central holdings audit records review status and the remaining
+Stiles 1995 / Fulk 1998 gaps.
+
+## Available-evidence programme
+
+Stiles 1995 and Fulk 1998 are not expected to be acquired for this programme.
+Their absence is a coverage limit, not a prerequisite for completing the
+comparative work or the book. Do not repeatedly request or search for them.
+The four held additions have now been directly reviewed; the comparison uses
+all thirteen specialist works.
+
+Claims must distinguish direct held evidence, a held author's report of an
+unavailable work, and CAPR's own inference under explicit premises. Compare
+the reports without pretending to have checked the originals. Where a
+constraint has independent direct support, assess it on that support; where
+an essential premise cannot be checked, defer that point rather than every
+other feature.
+
+Recommendations may defend retention, a directly supported change, an
+explicit source-backed working reconstruction, or a localized DEFER.
+Non-uniqueness must remain visible; it does not license unsupported sound
+laws. Publication can give a complete account of the defended model and its
+limits without claiming exhaustive assessment of unavailable alternatives.
+
+Every proposed production scientific change requires separate user approval.
+Research comparisons and isolated experiments do not change that requirement.
 
 ### A note on Versloot 2025
 

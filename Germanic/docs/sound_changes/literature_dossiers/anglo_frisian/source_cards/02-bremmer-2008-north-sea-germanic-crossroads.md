@@ -415,7 +415,7 @@ Load-bearing works this card's claims rest on, with current acquisition status
   Proto-Old Frisian chronology. CAPR still lacks Stiles's own chronological
   argument at first hand.
 - **Nielsen 2001, "Frisian and the Grouping of the Older Germanic
-  Languages"** — now held; direct review pending. Nielsen 1985 remains
+  Languages"** — directly reviewed separately in card 11. Nielsen 1985 remains
   missing. Here Nielsen is reported as endorsing Stiles's
   chronology "on the whole" (p. 286) and for the mixed-community
   markedness claim (p. 296).

@@ -276,9 +276,9 @@ Fulk1998 appears in the criticism's background (p. 105); Hogg1979 is
 quoted only for the open palatalization problem (p. 107 n. 5).
 Nielsen's settlement/subgrouping framework is reported, not independently
 reviewed evidence in this card (pp. 105–106). Bremmer2009, Hogg1979
-and Nielsen2001 have subsequently been acquired, but their direct review
-is pending. Goblirsch is not a direct dependency argued here; Goblirsch1991
-is now held for the larger diphthong question, also awaiting direct review.
+and Nielsen2001 have subsequently been acquired and directly reviewed
+separately in cards 10, 13 and 11. Goblirsch is not a direct dependency
+argued here; direct card 12 covers the larger diphthong question.
 
 Other source-dependent elements are Siebs's Frisian lengthening,
 Van der Schee's names, Dyvik's Norse chronology, Pheifer/Seiler's manuscript

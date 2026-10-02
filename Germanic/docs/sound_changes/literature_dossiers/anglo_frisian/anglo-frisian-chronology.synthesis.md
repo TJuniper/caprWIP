@@ -39,10 +39,11 @@ but do not logically invalidate stem compatibility by themselves
 Evidence levels: **O** observed spelling/reflex; **D** diagnostic ordering
 argument; **R** reconstructed/systemic or numbered order; **A** absolute
 anchor through interpretation. D does not certify every premise.
-Stiles1995 and Fulk1998 remain missing direct works. Hogg1979,
-Goblirsch1991, Bremmer2009 and Nielsen2001 have subsequently been acquired;
-their positions in this synthesis remain **second-hand** until their
-direct-source cards and comparative review are completed. Hogg1992, Luick,
+Stiles1995 and Fulk1998 remain unavailable direct works, not acquisition
+prerequisites. All thirteen specialist works now have direct source cards,
+including Bremmer2009, Nielsen2001, Goblirsch1991 and Hogg1979 (cards
+10–13). An earlier author's report of another work remains a report even
+after that work is separately reviewed. Hogg1992, Luick,
 Campbell1939, Bremmer2008 and Kortlandt2008 are held; holdings alone do not
 verify every quoted passage or corrupted glyph.
 
@@ -117,6 +118,103 @@ verified intermediate, or establish the palatalization behavior needed to
 explain every surviving consonant. Campbell's earlier-Frisian-contraction
 configuration still fails that shared-fronting tree test.
 
+### Direct Goblirsch alternative: shared diphthong, daughter continuation
+
+Goblirsch's own proposal is shared `ai > ā` and `au > ēa`, with the
+Frisian continuation explicitly printed as `ēa > eā > ā`
+([@Goblirsch1991, pp. 17, 21]). English/Kentish comparisons supply a
+possible stress-shift/glide-loss mechanism; Frisian eu-derived jā supplies
+an analogue, **not attestation of a Frisian au-derived intermediate**
+([@Goblirsch1991, pp. 20–21]).
+
+```text
+Proposed common events: ai > ā; au > ēa (their mutual order unspecified)
+Frisian: au > ēa < stress shift ēa > eā < contraction eā > ā
+```
+
+This reverses the relevant placement problem in Campbell's account:
+Frisian contraction is a **follower** of Goblirsch's proposed shared event,
+not a daughter-only predecessor. The sequence is H-compatible under its
+premises, but no independently attested Frisian ēa/eā or dated pre-split
+event establishes inheritance. Kentish's comparable later development
+must not be erased by saying all English retained ēa unchanged
+([@Goblirsch1991, pp. 17, 20–21]).
+
+Goblirsch does **not** establish SC030 = SC043. His tentative p. 18
+explanation literally prints `ā > æ`, with unmarked æ; p. 19 entertains
+a diphthong-system account independent of short-a fronting. Neither
+licenses silently correcting the notation into a particular general
+fronting law. He supplies no own obligatory order between plain-a
+fronting, velar palatalization, mutation and the au shift/contraction
+([@Goblirsch1991, pp. 18–21]). His Campbell and Krupatkin chronologies
+remain **reported alternatives**, not components to splice into his
+preferred shared-diphthong proposal.
+
+### Direct Frisian controls: Bremmer's handbook versus Nielsen
+
+These are incompatible source packages, not a consensus Frisian chain:
+
+```text
+Bremmer2009, §44-preferred:
+long/short fronting < palatalization < ai-monophthongization < mutation < breaking
+long-ā fronting < au-monophthongization < mutation
+
+Nielsen2001, preferred structural account:
+ai/au-monophthongization ≤ long-system restructuring < short fronting
+short fronting < palatal/affricated treatment < mutation
+ai-derived gravity split < mutation
+```
+
+Here `≤` expressly allows co-occurrence; it is **not a strict chronology
+edge**. Bremmer's initial-palatalization argument also permits the weaker
+`palatalization < unrounding`, rather than securely fixing it before
+mutation. Nielsen does not give a Frisian breaking/mutation order
+([@Bremmer2009, pp. 27–35; @Nielsen2001, pp. 514–517, 519–521]).
+
+Bremmer's handbook itself requires alternatives: §42a describes initial
+palatalization after ai/au monophthongization, whereas §44 and its
+Remark 1 explicitly place it **before ai**, using unpalatalized initials
+including gēr and kēi. Do not combine these opposed edges into one chain.
+Nor substitute Bremmer2008's contraction-before-short-fronting numbering
+for the handbook's fronting-before-palatalization-before-ai sequence
+([@Bremmer2008, pp. 286–288; @Bremmer2009, pp. 29–33]).
+
+Nielsen's long-system restructuring follows or co-occurs with
+daughter-local monophthongization, contrary to Bremmer's inherited
+long-ā-fronting-before-contraction order. His short split is structurally
+secondary to that long contrast. Under **those causal and daughter-only
+premises**, common-stem identification of the consequent fronting and
+fronting-dependent palatal treatment fails the tree test. Neither the
+causal reconstruction nor its event identity is forced by final
+correspondences alone; earlier nasal/oral differentiation remains
+shared-compatible and must not be conflated with the later independent
+long-system restructuring ([@Nielsen2001, pp. 514–517, 520–521]).
+
+### Direct Hogg: operative palatalization versus earlier sensitivity
+
+Hogg retains `breaking/restoration < operative palatalization < West
+Mercian second fronting`. His initial breaking argument concerns **at
+least phonologization**, not a proved date for the first articulatory
+tendency. A reversible earlier allophonic onset is discussed, although
+he prefers the simpler later chronology
+([@Hogg1979, pp. 89–97, 111]).
+
+His source does **not** settle `palatalization < mutation`: unrounded
+negative witnesses favor that order, while cǣġe/dæġe under his
+early-merger and syllabification premises demand the opposite. He calls
+the relation unresolved and rejects proposed repairs. These are rival
+diagnostic arguments, not two edges to merge into a historical chain.
+Nor does he supply a matching Frisian chain establishing comparative
+scope ([@Hogg1979, pp. 102–110]).
+
+Under independently established English-only breaking/restoration,
+Hogg's **operative** event cannot be inherited on the common stem.
+That conditional consequence does not exclude an earlier shared
+sensitivity or prove that all palatalization layers were independent.
+His West Mercian second fronting is a **different event** from
+English au-fronting; the phrase “second fronting” cannot identify SC030
+by itself ([@Hogg1979, pp. 90–91, 96–97, 111]).
+
 ### Required-node reconstruction: competing states, not a consensus protoform
 
 The following are **CAPR conditional placements** derived from the cited
@@ -129,6 +227,10 @@ rows into a synthetic node inventory.
 | Source-specific alternative | Candidate state at the required AF node | Conditioning and daughter assignment still to resolve |
 |---|---|---|
 | Campbell | If the differing contractions and ordinary short frontings are daughter events, retain short a, ai and au at the node; early nasal/long-vowel changes may precede it | Nasal versus non-nasal and short versus long vowels remain separate. English ai-contraction then short fronting; Frisian au-contraction then short fronting/proposed ai-fronting-contraction. Do not move either daughter-only predecessor above the node merely to share later fronting (pp. 86–91, 104). |
+| Goblirsch | Under his shared-event hypothesis a post-change node can contain ai-derived ā and au-derived ēa, with Frisian stress shift/contraction below it | No mutual ai/au order, complete conditioning inventory or independent split date is established. Short-a fronting and consonant palatalization cannot be assigned to this node merely from the diphthong proposal (pp. 17–21). |
+| Bremmer2009 | Early nasal and inherited-long-vowel components remain candidates above/on the stem; the handbook does not determine a complete node inventory | Distinguish long-ā from short-a fronting and the ai/au products. Separate daughter palatalizations are asserted, but the exact English-only precursor is unnamed; the ai/palatalization order has opposed passages (pp. 23–35, 126–128). |
+| Nielsen2001 | A cut before the independent monophthongization-driven daughter restructurings can retain the earlier nasal/oral package without inheriting the later fronting package | Early broad scope may place components above the AF node. Long fronting and early nasal differentiation are different events; causal push-chain premises and co-occurrence remain explicit assumptions (pp. 514–517, 520–521). |
+| Hogg1979 | No independently reconstructed Frisian inventory; an early reversible sensitivity is a possible node component, not his demonstrated shared innovation | His preferred operative English palatalization follows breaking/restoration. English-only scope is an additional comparative premise; mutation/merger contradictions remain unresolved (pp. 90–97, 103–111). |
 | Direct Luick | A common non-nasal fronting state may include participation of au's first component, after nasal darkening has begun | Frisian assimilation is a tentative later daughter step; exact au intermediate cannot be transcribed from the corrupt glyph. Node palatalization is not established by §§118–120 (pp. 130–132); §637 remains unverified. |
 | Kortlandt | At the earliest all-descendant cut after AF8, ai is ā, au unchanged, short a fronts only in AF6-permitted contexts, and AF7/AF8 have operated | Fronting blocked by l/r/h+C and open-syllable following back vowel. WS-first separation and later AF9–10 are part of the source's topology; mapping to CAPR's daughter subtrees must be explicit. If all English dialects are required to form one exclusive subtree, Anglian-plus-Frisian AF9–10 cannot simply be inherited on that subtree; revise placement or use parallel daughter events without diffusion (pp. 267, 270–271, 273). |
 | Repanšek | A node after the broader shared nasal-loss extension and long-vowel/allophonic split but before the independent symmetry responses can retain ai/au and short-a allophony | Broad Ingvaeonic distribution may require the triggers above the AF node. Short fronting can be stem or branch only under its explicitly uncertain identity; no automatic shared diphthong fronting follows from short-vowel symmetry (pp. 79–84). |
@@ -214,6 +316,10 @@ with a tentative later Frisian assimilation route
 ([@Luick1914, pp. 130–132, §§118–120]); this is an additional
 shared-process candidate, not corroboration of Campbell's reversed order.
 SC030/SC043 remain provisional separate identities; no merger follows.
+Goblirsch's direct account strengthens the need to separate **shared au
+development** from **one English plain-a/au fronting process**: he argues
+for the first but does not establish the second
+([@Goblirsch1991, pp. 17–19, 21]).
 
 ### 3.5 *ai
 
@@ -240,6 +346,11 @@ H* for Kortlandt's shared event; P* for Campbell's daughter events;
 Versloot's velar subset only H-compatible. Frisian late contraction
 after Frisian-specific delabialization cannot be one inherited
 all-context event also found in English. Overall U.
+Goblirsch advocates common ai > ā, but records non-umlaut Frisian ē
+that cannot all be explained by i/j. His contact/structural alternatives
+do not provide a complete exceptionless conditioner or an independently
+demonstrated contraction/mutation order
+([@Goblirsch1991, pp. 17–19]).
 
 ### 3.6 *au
 
@@ -264,6 +375,9 @@ fronting, English offglide unrounding in the seventh century and tentative
 Frisian regressive assimilation; the corrupt Frisian intermediate remains
 unusable as an implementation input
 ([@Luick1914, pp. 130–132, §§119–120]).
+Direct Goblirsch supplies a separate shared-ēa/stress-shift alternative,
+not a claim of common plain-a fronting or independently evidenced
+consonant depalatalization (pp. 17–21; §2 above).
 **Diagnostics/tree:** ċeapian/kapia establishes initial velar contrast,
 not uniquely the vowel at one shared palatalization moment if subsequent
 depalatalization is possible. Intermediate evidence is needed (Laker
@@ -331,7 +445,23 @@ short-a history but retains unexplained forms/limited second fronting
 H* only for precisely limited Kortlandt candidates. No calendar date
 for a unitary general Frisian restoration is established.
 
-### 3.10 i-mutation
+### 3.10 Direct additions: proposition-level agreements and disagreements
+
+| Proposition | Direct comparison | Consequence / limit |
+|---|---|---|
+| Long ē₁/ā history | Bremmer2009 long-ā fronting precedes ai/au contraction; Nielsen2001's independent long restructuring follows or co-occurs with it (Bremmer pp. 27–29; Nielsen pp. 514–516, 521). | Genuine opposed premises. Distinguish earlier nasal allophony from the later chain response; no consensus order. |
+| Nasal package / nasal loss | Bremmer separates prior nasalization, loss/lengthening and later leveling; Nielsen accepts an earlier broad nasal/oral package (Bremmer pp. 24–27; Nielsen pp. 517, 520–521). | Broad early shared compatibility survives; final rounding/denasalization and morphological leveling are not one indivisible sound law. |
+| Short-a fronting | Bremmer's Frisian fronting also affects open syllables and survives following back vowels; Nielsen models the short contrast on daughter-local long restructuring (Bremmer pp. 29–32; Nielsen pp. 514–515, 521). | Exact law domains and causal history differ. Similar output is not proof of a stem event. |
+| ai | Bremmer's §44 pre-ai palatalization conflicts with §42a; Nielsen retains a gravity split before mutation; Goblirsch's common ā leaves non-umlaut ē unresolved (Bremmer pp. 30–33; Nielsen p. 514; Goblirsch pp. 17–19). | Identify contraction, subsequent quality split and trigger status separately; no lexical output list is an acceptable general law. |
+| au | Goblirsch common ēa then stress shift competes with Nielsen daughter contraction before/with restructuring; Bremmer orders contraction after inherited long fronting and before mutation (Goblirsch pp. 17, 20–21; Nielsen pp. 514–516, 521; Bremmer pp. 27–33). | A shared-ēa alternative remains compatible, not proven. None settles SC030/SC043 process identity. |
+| Palatalization | Bremmer explicitly separates daughter changes; Nielsen's independence relies on daughter-local fronting; Hogg establishes an English operative bracket but no Frisian chain (Bremmer pp. 31–32; Nielsen pp. 519–521; Hogg pp. 90–97, 111). | Distinct conditional exclusions, not one cumulative proof. Keep onset, productive treatment, phonologization and affrication distinct. |
+| Breaking | Bremmer gives Frisian mutation/apocope/metathesis before breaking; Nielsen gives English fronting < breaking < mutation but no Frisian mutation/breaking edge (Bremmer pp. 34–35, 40; Nielsen p. 517). | Do not manufacture agreement by transferring an English edge to Frisian. |
+| Retraction / restoration | Bremmer contrasts English retraction with Frisian retention; Nielsen supplies a contrast, not a restoration law; Hogg prefers restoration before operative P (Bremmer pp. 29–30; Nielsen pp. 514–515; Hogg pp. 90–91, 96). | Shared fronting plus English retraction remains possible; different blockers/extensions and “never front” remain competing interpretations. |
+| Mutation / unrounding | Bremmer permits pre-mutation or weaker pre-unrounding initial P; Hogg's rounded negatives establish only the weaker edge, while key/day leaves P/U unresolved (Bremmer pp. 31–33; Hogg pp. 100–110). | This weaker diagnostic agrees across the discussions; it does not fix all palatalization before mutation. |
+| h chronology | Bremmer asserts breaking < χ-to-h weakening, but **prefers, with uncertainty, medial-h loss < breaking**; §56 cautions against a general link (Bremmer pp. 35, 37). | Correct the reversed h-loss reading. Do not collapse positional weakening and deletion or infer a universal chain without resolving their scope and the siucht/siā argument. |
+| Absolute anchors | Bremmer's island-settlement projection and Nielsen's skanomodu/rune/migration arguments remain conditional; Hogg supplies no independent calendar chronology (Bremmer pp. 6, 33, 41, 127–128; Nielsen pp. 515, 517, 520–521; Hogg pp. 89–91, 104). | Keep object dates, migration inference, phonetic reading and event identity separate. These are not mutually independent dates for one shared process. |
+
+### 3.11 i-mutation
 
 **Outputs:** fronted/raised vowels, subsequent unrounding, trigger/input/
 paradigm differences. Campbell has Frisian second raising < mutation <
@@ -349,7 +479,7 @@ umlaut by about 550 from phonemicization by 610–650 (pp. 66, 71–73).
 U overall; typological similarity and statistical fit do not prove
 single inherited identity.
 
-### 3.11 Other diagnostics
+### 3.12 Other diagnostics
 
 | Evidence | What it establishes; limitation |
 |---|---|
@@ -370,7 +500,11 @@ separate from these relative chains.
 |---|---|---|
 | Luick1914, directly checked §§118–120 only | onset of nasal darkening < non-nasal fronting; au first component participates in fronting < subsequent offglide unrounding | Common-fronting claim and tentative subsequent assimilation account for au→ā/ō (pp. 130–132). Continental beginnings asserted; English offglide unrounding assigned seventh century. No full Frisian chain or verified intermediate glyph; §637 unverified. |
 | Campbell1939 | long fronting < ai-contraction < short fronting | nasal/long changes < au-contraction < short fronting/proposed ai-fronting-contraction < restoration < second raising < mutation < quantity changes (pp. 90–91, 104–105); reconstructed, partly hedged. |
+| Goblirsch1991 | Shared ai>ā and au>ēa proposed; au>ao>æo>æa is an offered exemplar whose intermediate order may vary; Kentish stress shift < glide loss | Proposed common au>ēa < Frisian ēa>eā < eā>ā (pp. 17–21). Stress mechanism reconstructed by comparison, not observed Frisian intermediate; no own complete plain-a/palatalization/mutation chain. |
 | Bremmer2008 | **No independent ordered English chain** | nasal rounding < loss < long raising < contraction < short fronting < palatalization < mutation < breaking < unrounding (pp. 286–288); adopted Stiles-attributed numbering. Individually argued edges rounding<loss, fronting<palatalization, mutation<unrounding (pp. 288–291). |
+| Bremmer2009 | fronting < retraction; breaking < palatalization asserted, with the phrase “as a phonemic change” not assigned unambiguously to a component here | §44-preferred fronting < palatalization < ai-contraction < mutation < breaking; long-ā fronting < au-contraction < mutation. §42a gives the opposed ai/palatalization order; pre-unrounding is a weaker alternative to pre-mutation initial P. siucht/apocope, Briocht/metathesis and gerso constrain particular events (pp. 27–35, 40). |
+| Nielsen2001 | ai-derived new ā ≤ long-system restructuring < short contrast; short fronting < breaking < mutation; fronting < palatal treatment < mutation | ai/au contraction ≤ long-system restructuring < short contrast < palatal treatment < mutation; gravity split < mutation. Systemic causal reconstruction and preferred early contraction, not a printed numbered chain; no Frisian breaking/mutation edge (pp. 514–517, 519–521). |
+| Hogg1979 | breaking/restoration < operative P < West Mercian second fronting; P versus mutation remains contradictory under the diagnostic premises | **No independent Frisian chain.** Similar outcomes do not require common onset; no comparative evidence here settles the required predecessor's daughter-only scope (pp. 90–97, 102–111). |
 | Kortlandt2008 | AF1–8; WS9–12 versus A11–12/K11–12; E13 merger < E14 palatalization < E15 palatal diphthongization < E16 mutation | AF1–8 < AF9 contraction < AF10 raising < F11 ā-fronting < F12 au-contraction < F13 mutation < F14 breaking (pp. 270–271). WS split fifth century after AF8; remaining AF split sixth century after AF10. Later English convergence is not automatically inheritance. |
 | Laker2007 | productive palatalization < mutation; breaking < palatal diphthongization; palatalization/breaking not decided | productive palatalization < mutation; au/palatalization open (pp. 168–172, 174–180). Preferred continental onset, not proved. |
 | Repansek2012 | long split < short fronting < ai-contraction; independent au restructuring; raising onset before mutation | long split < short fronting < Proto-Frisian ai/au-contraction < later raising; mutation against raising system (pp. 78–84, 88). Shared triggers versus largely parallel systemic responses. |
@@ -410,6 +544,33 @@ extrapolation to unverified sections):
 | Frisian au monophthong versus English diphthong | S for attested output comparison; U for the exact corrupt intermediate/assimilation mechanism (pp. 131–132, §120) | Neither normalize the glyph nor count the surface contrast as a chronology proof. |
 | Shared palatalization from §637 | U: passage unverified; no direct proposition extracted here | Does not upgrade Laker's report or resolve the palatalization matrix. |
 
+**Supplement: four additional direct reviews** (cards 10–13). Together
+with the original matrix these cover all thirteen specialist works;
+their interpretations are not votes.
+
+| Feature | B09 | N01 | G91 | H79 |
+|---|---|---|---|---|
+| Non-nasal ē₁/ā history | H* early compatibility | P* later structural response | U | — |
+| Nasal a/ā package | H* early components | H* early components | S | — |
+| Nasal-spirant extension/loss | H* broad compatibility | H* broad compatibility | S | — |
+| Ordinary a-fronting | H* possible; exact identity U | P* under daughter push-chain premises | U | — |
+| All-context ai contraction | U; opposed order passages and unresolved conditioner | P* under daughter contraction premise | H* proposed common ā; conditioner unresolved | — |
+| Shared au development | U | P* under daughter contraction premise | H* proposed ēa before Frisian continuation | — |
+| Plain-a fronting = au-fronting | U | U | U | — |
+| Early velar palatalization | P* under asserted daughter precursors | P* under independent fronting premise | — | U; operative-event exclusion conditional on comparative scope |
+| Whole assibilation distribution | U; differing domains | P* preferred daughter developments | — | —; outside investigation |
+| Unitary OE–Frisian breaking | P* distinct laws | P* explicitly independent | — | —; no Frisian chain |
+| General restoration/retraction | U; English retraction versus Frisian retention | —; no restoration law extracted | — | U comparative scope; English operative order supplied |
+| Mutation as one inherited event | U | P* preferred independence | U; own order incomplete | —; English P/U problem not a comparative mutation verdict |
+
+Page support is in §3.10 and the four direct cards. Nielsen's P* cells
+record his conditional structural reconstruction, not additional
+independent chronology proofs (pp. 514–517, 519–521). Bremmer's
+daughter-palatalization assertion leaves the exact English precursor
+unnamed (pp. 31–32); Hogg supplies no Frisian chain (pp. 91, 110).
+Goblirsch's H* cells do not certify a pre-split date or the unobserved
+Frisian intermediate (pp. 17–21).
+
 The page support for each cell is the corresponding feature discussion in
 §3 and source-specific chain in §4, not an independent uncited judgment.
 In particular Laker's H* records surviving compatibility, not proof from
@@ -428,6 +589,12 @@ parameters; no typed historical positions or implementation authorization.
 | Nasal package | long ā→ō before N, close ē elsewhere; short a→distinct rounded o | Early Frisian; before Campbell contraction/fronting; later mergers post-mutation | Campbell pp. 86–89, 104–105; distinguish length/allophony/branch mergers. |
 | Nasal loss | V+N+s/f/þ→long V, a-series ō | Broad NSG; rounding<loss | Bremmer pp. 287–289; feeding argument, direct Stiles absent. |
 | Campbell au | au→ā, proposed via aa | Frisian; au-contraction<short fronting | pp. 91, 104; “Probably”; this daughter-specific predecessor blocks inherited shared later fronting. |
+| Goblirsch au continuation | Proposed ēa→eā→ā, via stress shift and loss of initial glide | Below proposed common au→ēa; relative order against mutation/palatalization not established | pp. 17, 20–21; reconstructed mechanism, no attested Frisian au-derived glide. Kentish dental/l glide retention cannot automatically become a Frisian conditioner. |
+| Bremmer2009 short fronting | a→æ in open/closed stressed syllables, including following back vowel; nasal, (-)warC, h(C), lC blockers; some rC cases unresolved | Before palatalization/mutation in the preferred chain; final æ/e merger postponed beyond breaking conditionally | pp. 29–32; do not fill the problematic rC items with lexical exceptions or treat an English retraction as Frisian. |
+| Bremmer2009 initial palatalization | g→j, k→kʲ→tʲ→ts before inherited/fronted front vowels; sk unaffected | Preferred after fronting, before ai contraction; §42a conflicts; before mutation or at least before unrounding | pp. 30–33; initial, medial and final domains differ. Precise layer and conditioner must be chosen before implementation. |
+| Bremmer2009 breaking / metathesis | short e/i→iu before tautosyllabic velar clusters; next-syllable u/w mutation separate | mutation and specific i-apocope/metathesis before breaking; heavy-stem u-loss before gers-metathesis | pp. 33–36, 40; church/illness/six require source-specific controls, not free exceptions or one universal metathesis rule. |
+| Nielsen2001 gravity and restructuring | ai-derived long front vowel splits in “grave” contexts; au-derived ā mutates to a front reflex | Preferred daughter contraction ≤ long-system response < short contrast; gravity split < mutation | pp. 514–516, 521; complete gravity environments and phonemic intermediate qualities are not supplied. |
+| Hogg1979 | No source-local Frisian input/output/context package | English component-event distinctions only | pp. 91, 110; do not transfer the English P/U/merger chain to Frisian. |
 | Campbell a/ai | a→æ outside nasal; ai→proposed æi→open long front vowel | First fronting; au-contraction<fronting<ai-contraction<restoration | pp. 90, 104; intermediate “may well.” |
 | Campbell restoration | short æ→a; open long-front→ā in back-vowel/l/r/h contexts | Frisian; fronting<restoration<raising/mutation | pp. 94–98, 104; underdefined environments, separate quantities. |
 | Campbell second raising | short æ→e, not open ai-long vowel | Frisian; restoration<raising<mutation | pp. 97–98, 104; restored-a participation open. |
@@ -444,9 +611,11 @@ parameters; no typed historical positions or implementation authorization.
 | Repanšek system response | nasal-loss extension→long phonemicization→ē1 split, then parallel symmetry responses | Broad early base then daughter stages | pp. 79–84, 88; systemic rather than fully lexically pinned edges. |
 | Versloot2025 comparison | restricted a-fronting, graded mutation, different e-breaking | Comparative pre-OFris; fronting<mutation<breaking | pp. 111–112, 120 n. 25, 126, 135; not new full Frisian grammar. |
 
-Still needed: direct baseline handbook, dialect/selected paradigm choice,
-stress and cluster states, glyph confirmation where load-bearing, and
-independent palatalization/assibilation specifications. Modern namia >
+The baseline handbook is now directly reviewed, not still missing.
+Still needed for implementation: a coherent choice among its opposed
+constraints and the other accounts, dialect/selected paradigm choice,
+stress and cluster states, and independently supported component-law
+specifications. Unreviewed glyphs remain image-check items. Modern namia >
 neame is **not** a pre-OFris inventory event (Versloot2025 p. 115).
 
 ## 7. Absolute evidence and unresolved questions
@@ -487,3 +656,24 @@ required AF node**; they are not a proposal to delete it. No single
 consensus node-state reconstruction or categorical shared conditioning
 has been established in this documentation pass.
 No newer or simpler account receives automatic priority.
+
+For Goblirsch, the localized gaps are the unobserved Frisian au
+intermediate, the completeness of the ai conditioner and independent
+verification of the Bennett/Gysseling mechanisms and dating he reports.
+Gysseling's eighth-century onomastic dating is **reported evidence**,
+not a date independently established here from the named documents.
+Neither gap turns a feasible common-diphthong model into proof or makes
+the missing Stiles/Fulk papers prerequisites for evaluating it
+([@Goblirsch1991, pp. 17–21]).
+
+**Changed by the four direct reviews:** Nielsen supplies a daughter-local
+causal chain opposed to the handbook's long-fronting-before-contraction
+account; Bremmer supplies a much fuller Frisian inventory but also
+opposed ai-order passages and qualified h chronology; Goblirsch supplies
+a positively shared-compatible diphthong alternative without proving
+plain-a/au identity; Hogg supplies English component diagnostics and an
+unresolved P/U contradiction, not a ready consensus palatalization chain.
+No author is adopted wholesale, and none of these changes in research
+coverage constitutes an executable-science decision
+([@Bremmer2009, pp. 27–40; @Nielsen2001, pp. 514–521;
+@Goblirsch1991, pp. 17–21; @Hogg1979, pp. 90–111]).
