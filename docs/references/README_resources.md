@@ -5,8 +5,15 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
 ## Old English grammars and historical phonology
 
 - `hogg_vol1.txt`  
-  Hogg, *A Grammar of Old English*, Vol. 1: Phonology (1992).  
-  Primary OE grammar. ~23,600 lines.
+  Hogg (ed.), *The Cambridge History of the English Language*, Vol. 1:
+  *The Beginnings to 1066* (1992).
+  Multi-author volume, not Hogg's separate grammar; cite the relevant
+  chapter author. ~23,600 lines.
+
+- `hogg_fulk_2011_grammar_old_english_vol1_phonology.txt`
+  Hogg alone, *A Grammar of Old English*, Vol. 1: *Phonology*
+  (1992; reissue 2011). The legacy filename's inclusion of Fulk is misleading:
+  this is not the Hogg & Fulk morphology volume.
 
 - `ringe_taylor_linguistic_history_vol2.txt`  
   Ringe & Taylor, *A Linguistic History of English*, Vol. 2: From Proto-Indo-European to Proto-Germanic (2014).  
@@ -86,7 +93,7 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
 
 ## Anglo-Frisian / North Sea Germanic specialist literature
 
-Ingested for the Anglo-Frisian chronology research pass. **Seven** of the nine
+The original nine-source Anglo-Frisian chronology packet: **seven** of the nine
 were extracted with `pdftotext -layout` from born-digital text layers.
 **One — Campbell 1939 — required the Google Vision OCR route** and carries the
 `.vision.txt` suffix. **One — Laker 2007 — required a deterministic
@@ -157,7 +164,7 @@ chronology.
 - `bremmer_2008_north_sea_germanic_at_the_cross_roads.txt`
   Bremmer, "North-Sea Germanic at the Cross-Roads: The Emergence of Frisian
   and Hollandish", NOWELE 54/55 (2008), pp. 279-308.
-  Includes the fullest locally available report of Stiles 1995, which CAPR
+  Includes a substantial locally available report of Stiles 1995, which CAPR
   does not hold directly. 30 printed pages.
 
 - `kortlandt_2008_anglo_frisian.txt`
@@ -216,6 +223,56 @@ chronology.
   folio apart, so p. 113 appears in the body as "11 3". The page markers are
   unaffected; do not cite from the running head.
 
+### Additional specialist sources: Google Vision PDF OCR
+
+These two requested works are now held as local, ignored PDFs and searchable
+Vision texts. Both are scans with unreliable old embedded OCR, not born digital.
+Their embedded layers were rejected rather than published as reference texts.
+
+| Committed reference text | Bibliographic identity | Printed-page preservation |
+|---|---|---|
+| `hogg_1979_old_english_palatalization.vision.txt` | Richard M. Hogg, "Old English Palatalization", TPS 77.1 (1979); key `Hogg1979`; DOI 10.1111/j.1467-968X.1979.tb00855.x | 89–113, 25 sheets; printed folio = sheet + 88; 24 numbered running heads confirmed; opening p. 89 anchored by the publication range and following p. 90 |
+| `goblirsch_1991_germanic_ai_and_au_in_anglo_frisian.vision.txt` | Kurt Gustav Goblirsch, "Germanic ai and au in Anglo-Frisian", ABaG 33 (1991); key `Goblirsch1991`; DOI 10.1163/18756719-033-01-90000004 | 17–23, 7 sheets; printed folio = sheet + 16; six numbered running heads confirmed; opening p. 17 anchored by the publication range and following p. 18 |
+
+The established runner at `Code/Vision/ocr.py` successfully processed both
+original PDFs with `asyncBatchAnnotateFiles` / `DOCUMENT_TEXT_DETECTION`
+and its existing staging-bucket configuration. Earlier synchronous image
+requests failed with resource-exhaustion errors, but the normal PDF runner
+worked without changing billing or credentials. No Google account repair
+was needed.
+
+The new texts use `=== page NNN ===` printed-folio markers throughout.
+Raw JSON, 300 dpi comparison images, independent Tesseract output and the
+old embedded OCR are retained in the ignored cache. Mean per-page plain-letter
+skeleton agreement with Tesseract is 96.9% for Hogg and 95.4% for Goblirsch;
+this does not establish diacritic accuracy. Image-verified repairs and residual
+linguistic-symbol cautions are documented in each text's header. The original
+nine texts plus these additions cover **277 printed pages**; **271** folios
+are confirmed at page edges, with six explicitly recorded exceptions.
+Acquisition and OCR do not themselves adjudicate either author's chronology.
+
+### Further acquisitions: Bremmer 2009 and Nielsen 2001
+
+| Committed reference text | Identification and method | Page preservation |
+|---|---|---|
+| `bremmer_2009_introduction_old_frisian.vision.txt` | Bremmer, *An Introduction to Old Frisian: History, Grammar, Reader, Glossary* (2009); the supplied ebook is the **corrected 2011 reprint**, identified on its copyright page. Seventeen born-digital exports have materially wrong special-font mappings, so all parts were sent through the established asynchronous Vision PDF runner rather than publishing the corrupted layer. | Complete 250-sheet sequence: i–xii, then 1–238. Roman frontmatter remains roman. All 228 displayed running-head folios independently checked; 22 suppressed opening/blank folios explicitly recorded, including five PDF-confirmed blank pages. |
+| `nielsen_2001_frisian_and_grouping_older_germanic_languages.vision.txt` | Hans Frede Nielsen, chapter 48, "Frisian and the Grouping of the Older Germanic Languages", in Munske (ed.), *Handbuch des Friesischen / Handbook of Frisian Studies* (2001). Scanned article; processed through the same Vision PDF runner. | Twelve consecutive printed pages, 512–523; every folio independently checked against the page images. The adjacent chapter 49 opening on p. 523 is excluded, not attributed to Nielsen. |
+
+The PDFs are retained locally as
+`bremmer_2009_introduction_old_frisian_part_01.pdf` through
+`bremmer_2009_introduction_old_frisian_part_17.pdf`, and
+`nielsen_2001_frisian_and_grouping_older_germanic_languages.pdf`.
+They remain ignored, as do raw OCR JSON and comparison images. Each text
+records PDF hashes and exact sheet-to-folio mappings. Bremmer's repeated
+ebook-access watermarks are excluded by their coordinates, without truncating
+body text when Vision reads a footer before it. Special notation, diagrams and
+tables still require image checks for load-bearing quotations.
+
+Hogg's fricative misread as digit `3` is now transcribed as `ȝ` / `ȝ'`,
+preserving his explicitly non-IPA notation (p. 103; p. 111, note 1).
+The text header explains the modern IPA equivalents `[ɣ]` / `[ʝ]`;
+lost palatal primes were restored from the images, not guessed.
+
 ## Other references
 
 - `oe_sound_change_index.md`  
@@ -236,17 +293,17 @@ full audit, including what each one blocks, is in
 - **Stiles 1995**, "Remarks on the 'Anglo-Frisian' Thesis". *Highest
   priority.* Bremmer, Laker, Kortlandt and Repansek all engage his
   chronological argument; CAPR currently knows it only at second hand.
-- **Bremmer 2009**, *An Introduction to Old Frisian*. The standard handbook
-  chronology of Old Frisian; its absence is the main reason CAPR cannot yet
-  state a baseline pre-Old Frisian chain.
 - **Fulk 1998**, "The Chronology of Anglo-Frisian Sound Changes". Directly on
   the question at issue. (Fulk 2018, *A Comparative Grammar of the Early
   Germanic Languages*, is held, but is not a substitute.)
-- **Hogg 1979**, "Old English Palatalization". Load-bearing for Laker.
-  (Hogg 1992 is held and covers palatalization, but is not this argument.)
-- **Nielsen**, the treatments cited by Stiles, Laker and Bremmer.
-- **Goblirsch** on Germanic *ai/*au in Anglo-Frisian.
+- **Nielsen's other treatments**, where specifically load-bearing; the
+  requested 2001 chapter is now held, but does not substitute for his monographs.
 - **Siebs**, cited by Laker as a proponent of shared palatalization.
+
+Hogg 1979, Goblirsch 1991, Bremmer 2009 and Nielsen 2001 are now held as
+PDFs and page-preserving Vision texts. Their direct-source research review
+is separate from ingestion. Stiles 1995 and Fulk 1998 are the two remaining
+priority acquisitions.
 
 `luick_historische_grammatik.txt` is held, but its page markers are pdf
 **sheet** numbers (`--- PAGE n ---`), not printed folios, so a folio offset

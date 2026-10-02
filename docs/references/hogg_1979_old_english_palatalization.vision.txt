@@ -1,0 +1,1090 @@
+Richard M. Hogg, "Old English Palatalization".
+Transactions of the Philological Society 77.1 (1979), pp. 89-113.
+DOI 10.1111/j.1467-968X.1979.tb00855.x
+
+SOURCE AND METHOD
+-----------------
+The local, gitignored PDF is scanned, not born digital. Its old embedded
+OCR corrupts linguistic characters and was not used as the reference text.
+Google Cloud Vision asyncBatchAnnotateFiles, DOCUMENT_TEXT_DETECTION,
+was run on the original PDF through the established Code/Vision/ocr.py
+runner and its existing staging-bucket configuration (language hint en).
+The synchronous image endpoint failed with resource exhaustion; the
+established asynchronous PDF runner succeeded without a billing change.
+Raw structured results are cached locally in .cache/anglo-frisian/.
+Text is NFC-normalized. Independent embedded-text and Tesseract extracts
+from 300 dpi images are retained locally for cross-checking, not substituted
+for Vision by majority vote. Agreement of letter skeletons does not verify
+diacritics, superscripts, phonetic symbols or reconstructed intermediate forms.
+Check a load-bearing linguistic glyph against the retained PDF page image.
+
+PAGE NUMBERING
+--------------
+Printed pages 89-113; 25 consecutive sheets.
+Printed folio = one-based PDF sheet + 88.
+Expected folio independently found at OCR page edges: 24/25.
+Unconfirmed edge folios: 89.
+The opening folio is established by the publication range and next sheet;
+all non-opening unconfirmed folios require page-image checking.
+Mean per-page Vision/Tesseract skeleton agreement: 96.9%.
+Local PDF SHA256: 12e227b6a544ca285d51504dea2c50f9b2dbae07f8298d78ab196b608ae8332d
+
+RESIDUAL LIMITATIONS
+--------------------
+Macrons and ae-ligatures can be lost or confused with tilde/breve marks.
+Special fricative symbols, palatal primes and raised note numbers need
+particular care. No global tilde-to-macron or phonetic-symbol replacement
+is applied from historical expectations. Image-verified repairs, if any,
+are listed here rather than silently altering the cached raw OCR.
+
+IMAGE-VERIFIED REPAIRS
+---------------------
+p. 89: OCR (✗') -> printed [x']. p. 90: Luick's combined short/long
+ae mark is transcribed as ǣ̆ (ae-macron plus breve), not the OCR ǎ;
+sawon -> sāwon and final a -> æ in that quotation. The missing arrow
+in the following illustrative derivation is restored.
+pp. 89-111: the fricative glyph misread as digit 3 is transcribed as
+ȝ (U+021D), with ȝ' for the palatal counterpart. This preserves Hogg's
+non-IPA notation rather than silently modernizing the source. Hogg
+explicitly explains this choice on p. 103 and p. 111, note 1; the
+modern IPA equivalents of his described velar and palatal fricatives
+are [ɣ] and [ʝ], respectively, not postalveolar [ʒ].
+Image checks restore lost palatal primes in the p. 93 derivation,
+the p. 103 merger statement, and p. 111 conclusion and note 1.
+Digits in section numbers, note numbers, dates and page references
+are unchanged. The other source-specific notation remains subject
+to the residual limitations above.
+The quotation is Hogg's report of Luick, not a direct Luick page locator.
+
+=== page 89 ===
+OLD ENGLISH PALATALIZATION*
+By RICHARD M. HOGG
+1 INTRODUCTION
+By the time of the earliest recorded texts, the Germanic velar
+consonants *g, *k, *h had developed into Old English as the voiced
+palatal fricative [ȝ'], the voiceless palatal stop [k'] and the voiceless
+palatal fricative [x'] respectively.' These changes are collectively
+known as palatalization and they take place whenever an original
+velar is, if initial, followed by a front vowel, if final, preceded by a
+front vowel, and if medial, preceded and followed by a front vowel;
+for further details see Campbell, 1959:§§ 426-9. The purpose of this
+paper is to re-examine the nature of the sounds which change and the
+relative chronology of the changes under discussion.² In the former
+case we shall be most especially concerned with the phonological
+status of Germanic *g; in the latter we shall consider the relation of
+palatalization to other changes, actual or alleged, during the period in
+question, notably breaking, restoration of a, palatal diphthongi-
+zation, second fronting and (i-)umlaut. But we shall proceed simply
+by considering palatalization in relation to each of these other
+changes one by one; the question of the phonological status of the
+sounds under discussion will be dealt with only in that context.
+Finally, the reader is warned not to expect any major resolution of
+problems; indeed, a major purpose of this paper is to suggest that
+earlier scholarship has unfortunately glossed over several difficult
+issues.
+2 BREAKING AND RESTORATION OF a
+There are two apparently contradictory views concerning the chro-
+nology of palatalization. Luick (1964:§ 637 A.8) writes:
+
+=== page 90 ===
+90
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+Die Palatalisierung trat ein, als bereits die anglofriesische
+Aufhellung des a-Lautes, sowohl in betonter als auch in unbetonter
+Silbe, die Brechung, die Velarisierung des ǣ̆-Lautes an Stelle der
+Brechung (cald, sāwon) und die Einwirkung dunkler Folgevokale
+auf ǣ̆ (dagas, lāgon) sich vollzogen hatten; sie ist aber früher als der
+i-Umlaut und der urenglische Schwund von æ, e, i, u.
+On the other hand, Campbell (1959:§ 486) states:
+The sensitivity of k and ȝ to the nature of following
+sounds. . . doubtless began in the continental period, for it is a
+major link of OE and OFris[ian], and continued through the
+periods of Anglo-Frisian fronting, breaking, and retraction before
+consonant groups and before back vowels . . . Soon afterwards this
+sensitivity ceased, for when back vowels were changed to front ones
+by second fronting and i-umlaut, k and ȝ appear before these new
+front vowels.
+It would seem, therefore, that whereas Luick believes palatalization
+to be later than breaking and restoration of a, Campbell believes it to
+be earlier. Yet Luick and Campbell could be in agreement, but talking
+in different terms. It would seem that Luick is attempting to date the
+phonologization of the change while Campbell is discussing a low-
+level phonetic or sub-phonemic alternation,³ similar to, say, the [g']-
+[g] alternation in Modern English get-got. This becomes clearer if we
+consider words such as calan 'be cold' and galan ‘sing', where stressed
+a is due to restoration. Campbell's remarks imply the following
+developments:
+*[kalan]>*[k'ælan]>[kalan]
+*[ȝalan] > *[ȝ'ælan] > [ȝalan]
+Such evidence leads to the conclusion that the two descriptions are
+quite compatible.
+But the question is worth pursuing, and in order to do so we need
+only consider Campbell's position there can be no doubt that,
+leaving aside the particular problems of this paper, Luick is correct
+from the phonological point of view. As can clearly be seen from
+Campbell, 1939:§ 14, his claim is an attempt to explain why both Old
+
+=== page 91 ===
+R. HOGG OLD ENGLISH PALATALIZATION
+91
+English and Old Frisian, but only these two Germanic dialects, cf.
+Prokosch, 1939: § 31, show extensive palatalization and why the two
+dialects show the change in almost identical form. But it is somewhat
+unconvincing to assume that this shared behaviour must necessarily
+have commenced in a period of linguistic unity; in contrast we may
+cite the occurrence of the Zweite Aufhellung (second fronting) in both
+Frisian and West Mercian, which must have occurred long after the
+linguistic unity was severed. We may agree with Campbell (1939:78)
+that there was an ‘undoubted tendency of Old English and Old
+Frisian to develop their phonological systems on similar lines',
+without being forced into an early date for palatalization.
+In other words, Campbell's position may be unnecessarily com-
+plicated and we should prefer the relative simplicity of Luick. But if
+we consider a form such as feoh ‘money', it begins to look as if
+Campbell may even be wrong. Feoh is to be derived from earlier
+*feh [fex], and Campbell's theory would predict an early fronting to
+*[fex']. But there are two arguments against this: firstly, the standard
+Old English forms and later history show that palatalization was not
+effective here, for the final consonant remains as [x]; secondly, *feh is
+subject to breaking and it is absolutely essential for breaking that the
+following consonant should be velar or velarized, thus it must not be
+palatal or palatalized, see below for further comment. Campbell
+partly recognizes these facts, for he states (1959:§ 442 fn. 4) that
+breaking of a front vowel was prior to palatalization, but he is
+unwilling to draw the natural conclusion, that (at least) the phonolo-
+gization of palatalization must have been later than breaking. It
+seems natural, therefore, to agree with Luick that palatalization was
+later than restoration of a, as in calan.
+But we cannot yet leave the subject of breaking, for although the
+relative chronology of breaking and palatalization seems clear, there
+remains the problem of to what extent velar consonants induce
+breaking. Here, unfortunately, the majority of the standard hand-
+books are most unhelpful. Thus the statements in Brunner
+(1965:§ 83), Campbell (1959:§ 139) and Luick (1964:§ 133) all boil
+down to what is no more than a spelling rule, that breaking occurs
+before h, 1+consonant, r+consonant and w. And that yields
+virtually no information about why, for example, breaking occurs
+before h but not before k or g. Much more useful, therefore, is the
+statement by Quirk and Wrenn (1957:§ 201) that 'the front
+
+=== page 92 ===
+92
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+vowels. . . were diphthongized ... when immediately followed by
+velar or velarized consonants or consonant groups', cf. Girvan,
+1931:§ 51 for a similar statement.
+This is still not quite precise enough, for it does not explain the clear
+failure of breaking before k, e.g. bæc ‘back', fred 'bold'. To exclude
+such forms it is necessary to restrict breaking to non-syllabic,4
+continuant environments, i.e. approximants, liquids and fricatives.
+Even so, we are not home and dry. It will be recalled that the result of
+palatalization of *g is the voiced palatal fricative [ȝ']. This implies that
+the *g which is palatalized is in fact a velar fricative [ȝ]. Historically *g
+has two sources, Indo-European *gh and Indo-European *k by
+Verner's Law, and theoretically this should give the velar fricative [ȝ].
+In later Germanic, however, *g develops in certain environments as
+the stop [g]. The exact environments are controversial, see Moulton,
+1954:1 for a summary and references. Most recent scholars, e.g.
+Moulton (1954:24-5), Brunner (1965:§ 206.8), Wagner (1969:163)
+and Kuhn (1970:27-8), agree that the development to [g] occurs after
+a nasal, in gemination and initially. In contrast, Campbell
+(1959:§ 50.4) claims that initially the fricative remained. Lass and
+Anderson (1975:134) suggest that fricative [ȝ] is found only between
+back vowels, which implies an earlier situation where the stop [g]
+occurred everywhere, except intervocalically. For the moment we
+shall accept Campbell's position, with a minimal distribution of [g],
+but we return to the question below, although only with respect to
+initial g.
+The problem that arises more immediately is revealed by the forms
+dagas ‘days' and slēan ‘slay'. At the time of breaking the forms would
+have been *[dæzas] and *[slæxan] respectively. Now in the latter case
+breaking and loss of (✗] combine to give slēan=[slæ: an], but there is
+no breaking in the former case. In other words, [ȝ] and [x] contrast in
+terms of breaking. Thus we would seem to have to restrict breaking so
+that it does not occur before the voiced velar fricative. Bearing in
+mind that supported / and r cause breaking, we could, in distinctive
+feature terms, restrict the breaking environment to [a sonorant, a
+voice] segments. But that is no explanation - at best it is a statement of
+fact. And even on that score it seems dubious, for there seems to be no
+good phonetic reason why (✗) should permit and [ȝ] inhibit the
+change.
+In fact it is most doubtful that any further investigation of phonetic
+
+=== page 93 ===
+R. HOGG OLD ENGLISH PALATALIZATION
+93
+circumstances would help us here; rather, we must consider the
+phonemic properties of the sounds concerned. The term 'phonemic'
+here merely means ‘structural, systemic or phonological', for structu-
+ralist and generative approaches to the problem are equally relevant.
+Whatever their disagreements about the position in later Old English,
+the structuralist phonemicists Moulton and Kuhn are in agreement
+about the existence of a phonemic contrast between /x/ and /ȝ/ at the
+time of breaking. Moulton (1954:26) cites minimal pairs such as
+*[sealx] 'willow' giving Old English sealh and *[dro: ȝ] 'he drew' giving
+Old English drög. It is clear that the contracted verbs with an h/g
+alternation due to Verner's Law provide further evidence of the
+contrast.
+Following on from this both Moulton and Kuhn suggest that [ȝ]
+and [g] form an allophonic pair, which again is clearly correct; more
+crucial is the designation of the phoneme of which the allophones are
+the members. For Moulton (1954:26) the phoneme is clearly /g/, but
+for Kuhn the position seems a little more complex, since he suggests
+(1970:27-8) that in Germanic the phoneme was /ȝ/ but that in
+Primitive Old English it was /g/. But exactly what Moulton intends by
+/g/ is unclear, for although he states (1954:3-4 fn. 7) that we can
+'reconstruct both the phonemes and the distinctive features which
+comprise them', he never states explicitly whether /g/ is
+[+continuant] or [-continuant]. His symbolization, of course,
+suggests the latter. Kuhn's position is clearer but more complex, since
+he posits a change of /ȝ/ > /g/ at a very early date. Two assumptions
+can be seen behind this move: firstly, he assumes (1970:18) that 'the
+allophone which occurs in initial position is regarded as primary and
+determines the designation of the phoneme'; secondly, he suggests
+(1970:27) that Germanic *g became [g] initially. If these assumptions
+are correct, then the shift to /g/ is inevitable.
+But why should we believe that they are correct? Thus, if the first
+were accepted there would seem to be a strong case for claiming that
+in Modern English there is a series of voiceless aspirated stop
+phonemes/ph, th, kh, on the basis of pat=[pæt], etc. Secondly, the
+postulation of an early change of initial [ȝ]> [g] in Old English is
+unconvincing, despite the majority agreement noted above. Since
+Germanic *gat- develops to Old English ġeat ‘gate' with initial [ȝ'],
+an early change of [ȝ] >[g] would imply the later development
+[g]>[ȝ]>[ȝ']. In other words the original fricative would become a
+
+=== page 94 ===
+94
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+stop and then revert to a fricative, cf. here Luick, 1964:§ 633. Such a
+train of events seems implausible and Campbell's position
+(1959:§ 50.4), which avoids it, seems preferable. We should also note
+that, pace Lass and Anderson, 1975:134, Moulton's assumption
+(1954:24 fn. 58) of stop articulation here 'because that is what we find
+as far back as we can trace the pronunciation from modern times' is
+irrelevant. Of course initial [ȝ] eventually became [g], but at one time it
+must have been [ȝ]. The Old English evidence suggests that the change
+was later than palatalization, because that gives us the simplest
+account, and hence the change was also later than breaking. Thus
+there seems to be some justification for suggesting, against both
+Moulton and Kuhn, that at the time of breaking [ȝ] was an allophone
+of the phoneme /ȝ/. A further argument here is that [ȝ] was by far the
+more common of the two allophones, occurring as it did everywhere
+except after nasals and in gemination.
+Three reasons can still be given to support the analysis with a /g/
+phoneme. Two of these are largely structural. Firstly, as Moulton
+(1954:27) shows, this will permit three complete series of phonemes
+distinguished by labial, dental and velar articulation: (a) voiceless
+stops; (b) voiced stops; (c) voiceless fricatives. But if we postulate /ȝ/
+rather than /g/, then the voiced stop series will be incomplete and
+there will be a single (velar) member of a fourth series, namely voiced
+fricatives. This is undeniably unfortunate. Secondly, it is generally
+recognized that /ȝ/ is more ‘marked' than /g/, that is to say, one would
+not normally expect a language to have a /ȝ/ phoneme but not a /g
+phoneme. But both these arguments are vitiated by a usefully close
+parallel, namely Modern Dutch, where there is a /ȝ/ phoneme but no
+/g/phoneme, [g] being an allophone of /k/, see Cohen et al., 1961:32-
+33. Also relevant here is the position in Modern Standard Frisian,
+where [g] is found initially, [ȝ] intervocalically and [x] finally; further,
+[ȝ] and [x] contrast, cf. Cohen et al., 1961: 122-3. The solution Cohen
+et al. adopt is to suggest two phonemes: /x/, with one allophone [x],
+and /g/, with two allophones [g] and [ȝ]. The solution with /g/ specified
+neither as a stop nor as a fricative is intrinsically unsatisfactory, but
+nevertheless we can surely conclude that for Old English to have had
+the phoneme /ȝ/ but not the phoneme /g/ is not at all unexpected
+typologically.
+The third reason for assuming /g/ rather than /ȝ/ is that then our
+problems with regard to breaking would disappear. We have already
+
+=== page 95 ===
+R. HOGG OLD ENGLISH PALATALIZATION
+95
+observed that breaking failed before stops, for otherwise bæc, etc.
+would show the change. If *dagas were analysed as /dægas/, then
+breaking would fail there too. Unfortunately this argument proves
+either nothing or very little, being merely a notational device without
+explanatory power. Furthermore, unless one believes that we cannot
+recover sub-phonemic alternations, the analysis is not even poten-
+tially helpful, for it does not matter to what phoneme [ȝ] belonged, its
+phonetic quality ought to have been sufficient to cause breaking, just
+as [}] caused breaking but (1) did not, despite their common
+membership of /l/, cf. Hogg, 1971:61–65. Therefore we appear to
+have to conclude that there is no fully satisfactory explanation of why
+[ȝ] did not act as an environment for breaking.
+Since the theory of generative phonology is allegedly more
+powerful than the structuralist approach, it is useful to consider if any
+progress can be made by considering recent work in that area. Luckily
+there are two full-length studies of Old English generative phonology:
+Lass and Anderson, 1975 and Wagner, 1969; even better, they adopt
+quite opposing solutions. There is, of course, the constant problem
+here that generative phonology is allegedly synchronic, whereas we
+are concerned with the interpretation of diachronic events; but this
+seems to raise no major issues in the relatively narrow area of our
+discussion. Lass and Anderson (1975:134–5, 146–7) claim that the
+development of [ȝ'] is from a velar stop which is fronted and then
+becomes a fricative, i.e. /g/>/g'/>[ȝ']. But this has the same faults as
+the parallel structuralist analysis, and it is not clear that there is any
+justification for postulating underlying /g/. Their case relies on the
+assumption that the Old English alternation between [bb] and [f] (as
+in hæbbe 'I have' vs. hæfþ ‘he has') was synchronically recoverable and
+further that the behaviour of labials and velars in Germanic was
+essentially parallel. Lass and Anderson do not consider the kind of
+evidence from Dutch and Frisian mentioned above and which ought
+to be no less compelling (for a synchronic analysis) than any historical
+parallelism of behaviour between labials and velars. Also, their
+arguments involve the claim that /g'/>[ȝ'] and /g/>[ȝ] are quite
+different processes, which is scarcely acceptable. But if the two
+processes are not kept apart, then instances of initial [ȝ'] are left
+unexplained by Lass and Anderson. Thus the case for assuming
+/dægas/ rather than /dæzas/ at the time of breaking remains
+uncertain.
+
+=== page 96 ===
+96
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+Wagner (1969:163-7) assumes that the systematic phonemes for
+Old English voiced stops were in fact /ẞ, Ỗ, ȝ/, on grounds remarkably
+similar to those for Lass and Anderson's contrary choice. We have
+already observed that the choice of (at least) /ȝ/ rather than /g/ is
+probably to be commended, but it raises the question of how to avoid
+breaking before /ȝ/. Here, regrettably, Wagner (1969:210–14) avoids
+the issue, since he arbitrarily excludes /ȝ/ from the breaking
+environment. This pinpoints the problem with the /ȝ/ analysis, but
+does not provide any kind of solution.
+To summarize so far, we may claim that palatalization must have
+followed breaking and restoration of a, agreeing with Luick (1964),
+disagreeing with Campbell (1939, 1959). But we have not found any
+satisfactory solution to the problem of why [ȝ], unlike [x], did not
+cause breaking. The most obvious solution, that [ȝ] was phonologi-
+cally the stop /g/, has considerable attraction, but none of the
+evidence, historical, comparative or synchronic, is as compatible with
+that analysis as one might wish. The problem is therefore unresolved.
+3 SECOND FRONTING
+Having established, although perhaps not as firmly as one might have
+wished, that palatalization was a later change than either breaking or
+restoration of a, we can now turn to a consideration of two changes or
+alleged changes which palatalization must have preceded, second
+fronting and palatal diphthongization. It matters little which we
+consider first, since second fronting is exclusively West Mercian, and
+palatal diphthongization did not apparently occur in any Mercian
+dialect. Therefore the choice of second fronting is purely arbitrary
+and without chronological implication.
+Second fronting is the name given to a change by which ǎ>ĕ and
+ǎ > ǎ in most environments, and the change provides a useful terminus
+ad quem just as restoration of a provides a terminus a quo. It will be
+recalled that forms such as calan and galan (see § 2) show no
+palatalization. Now since the stressed a of these verbs is due to
+restoration of a from earlier *æ and since palatalization occurs before
+all front vowels including æ, palatalization must be later than
+restoration of a, cf. above. Now where a is due to second fronting of a
+restored a, e.g. *gætu‘gates', *cæfurtun ‘hall',5 palatalization does not
+
+=== page 97 ===
+R. HOGG OLD ENGLISH PALATALIZATION
+97
+occur. Therefore palatalization must have occurred before second
+fronting shifted a to æ in such forms, in other words, palatalization
+must have been earlier than second fronting.
+This would be as useful as it first appears to be if we were certain of
+the relative chronology of second fronting, but that is a matter which
+is clearly sub judice. A sampling of opinion shows that d'Ardenne
+(1961) and Ball (1962), on rather different grounds, plead for a very
+early dating, certainly no later than restoration of a, whereas Luick
+(1964) and Campbell (1959) consider the change to have been
+immediately prior to umlaut, and finally Girvan (1931) and Kuhn
+(1939) suggest a dating later than umlaut. Elsewhere (Hogg, 1977) I
+have argued that the change most probably occurred after umlaut,
+and there is no need for me to repeat those arguments here. Clearly, a
+precise dating of second fronting would be extremely helpful, but our
+present state of knowledge makes that impossible.
+4 PALATAL DIPHTHONGIZATION
+In West Saxon (and Northumbrian in the case of a), where e or æ
+would be expected after a palatal consonant, one finds instead ie or ea
+respectively. This change, affecting long and short vowels equally, is
+known as palatal diphthongization, and it occurs, inter alia, after
+velar consonants which have been palatalized. The standard view is
+that the change results in diphthongs identical to those represented
+by, in the first case, ie as the umlaut of an earlier diphthong, or, in the
+second case, ea as the result of breaking or from Germanic *au.
+Although there is justification for this view in the light of later
+identical developments thus just as seah 'saw'>seh and heah
+'high'>heh, so ġeat 'gate'> ġet and ġear ‘year'>ģēr, cf. Luick
+(1964:§§ 278–80), there has been much criticism of this position on
+the grounds that it presents nothing more than a spelling rule which
+has little phonetic plausibility. Let us therefore firstly examine this
+question of phonetic plausibility.
+The shift **>te, e.g. *ġetan ‘get'> ġietan, *ģēt ‘yet' > ġiet, presents
+no difficulty, for the influence of a palatal fricative on the following
+vowel would be to raise that vowel, incomplete assimilation giving a
+diphthong, as here. Without considering the precise phonetic values
+represented by ie, it is worth mentioning that there is hardly any need
+
+=== page 98 ===
+98
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+to assume that the second element was [e] or [ɛ]. In fact, given the
+general nature of Old English diphthongs one might expect e here to
+represent a sound somewhere along or near to the diagonal joining [ǝ]
+and [u]. Much greater difficulty arises with the change of *æ>ea. If
+this change is to parallel that of *e> ie, then the result must have been
+a partial raising of *æ accompanied by diphthongization, the second
+element being low central or back. The raising need only have been
+partial, since there is good reason to suppose that Old English e was a
+fairly close sound, and hence the shift from *e>i would only have
+been a small one. But there are two problems connected with the
+diphthongization of *æ: (a) why was the result ea rather than eo? (b)
+why was ea used both for the result of palatal diphthongization of *æ
+and for the result of breaking of *æ?
+The answer to the first question is perfectly straightforward and
+needs no elaboration; it is that the raising can have been of no greater
+order than [æ]>[ɛ], see above, and hence eo would be inappropriate.
+The second question is trickier, for we are faced with the puzzle that
+assimilation of *a to a following velar segment and assimilation of *æ
+to a preceding palatal segment, which are directly opposing shifts,
+resulted in the same orthographic answer. Yet we ought to remember
+that although the movements were in opposite directions, they were
+not great, so that the maximum difference must have been something
+like [ɛə] in ġeat against [aa] in seah, with [ɛ] and [a] both being
+allophones of /æ/ and the second element in seah being prone to
+reduction. Further, the Old English scribes had only a limited number
+of orthographic devices and they were in the position, after palatal
+diphthongization, of having to decide whether the vocalic nucleus of
+ġeat, etc. was better represented by e, æ, eo or ea. Of these, only æ or ea
+seem acceptable and it was the latter which was chosen in West Saxon
+and Northumbrian. If this argument is satisfactory, I see no phonetic
+objection to treating palatal diphthongization as a genuine sound
+change.
+Those who cannot accept the phonetic plausibility of palatal
+diphthongization must fall back on the claim that i in ie and e in ea
+were diacritics signalling the palatal nature of the sounds represented
+by ġ, ĉ and sċ, e.g. ģīest ‘guest' vs. gēs ‘geese'. This view was first
+suggested by Daunt (1939) and was further developed by Stockwell
+and Barritt (1951), for further arguments and a recent example of this
+view see Lass and Anderson, 1975: App. 3. But we need only accept
+
+=== page 99 ===
+R. HOGG OLD ENGLISH PALATALIZATION
+99
+that view if the sound change were phonetically implausible, which it
+is not, or if we could not accept that Old English scribes would be
+willing to make a four-way distinction between, for example, ǎ, ā, ĕa
+and ĕa. I see no reason to suppose they were not, see further Kuhn and
+Quirk, 1953, 1955.
+But the controversy is of interest here because it raises the question
+of the relative chronology of palatal diphthongization. Did palatal
+diphthongization precede umlaut or not? Clearly, if one believes that
+palatal diphthongization was not a sound change but only an
+orthographic convention, there is no sense in which it could be said to
+have preceded umlaut. Therefore adherents of the sound change
+theory have striven to demonstrate that palatal diphthongization
+must have preceded umlaut. This is of interest to us, since if palatal
+diphthongization preceded umlaut, then so too must palatalization
+have done.
+Since the facts are well-known, cf. the references above for further
+details, we need only bear in mind the point that the only type of
+example which will establish the chronology of the changes one way
+or another is one where West Saxon a₁ stands after a palatal and in an
+umlauting environment. In such cases the order palatal diphthongi-
+zation umlaut will give ie, the reverse order will give ea, by the
+following series:
+-
+1
+palatal diphthongization
+umlaut
+*J1
+ā
+* 1
+éa umlaut
+ie
+palatal dipthongization
+ea
+In all other cases both orders give the same result, the difference here
+being due to the failure of ā, to umlaut. The problem is that there is
+only one relevant example, late West Saxon cỹse 'cheese' from Latin
+cāseus. That suggests a pre-Old English form *käsi and since ĉỹse
+must be from earlier *ciese, the view that palatal diphthongization
+was the earlier change is clearly supported. Opponents of that view
+have been forced to resort either to unsupported postulation of a
+'new' sound change, as in Stockwell and Barritt, 1955:383, cf. Kuhn
+and Quirk, 1955:397, or to treat cỹse as an exception, as in Lass and
+Anderson, 1975:382. Of such alternative explanations, only that by
+Samuels (1952:36), who suggests that the change may have been due
+
+=== page 100 ===
+100
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+'to the combined influence of the initial palatal consonant and
+“umlaut”, seems to me to have much plausibility.
+All other things being equal, we would be forced into accepting cyse
+as the product of a genuine series of West Saxon sound changes. But
+the problem is that not all other things are equal. So far we have found
+no evidence to justify the standard ordering of palatalization before
+umlaut, except the evidence from palatal diphthongization. It is not
+very attractive to use the form cỹse as the sole determinant of the
+order palatalization - umlaut. On the other hand, if there is other
+evidence to prove that palatalization preceded umlaut, then I think
+we ought to accept the order palatal diphthongization - umlaut as
+well, for it is entirely plausible. Referring back to § 3, it will be recalled
+that one possibility for a more precise ordering the relative
+chronology of second fronting - is too dubious to be of any significant
+help. Therefore let us leave the status of cỹse open for the present, and
+proceed with the question of the interaction of palatalization and
+umlaut.
+-
+5 UMLAUT
+Umlaut is the name given to a set of changes in Old English by which
+back vowels are fronted and short front vowels raised when [i] or [j]
+stands in the following syllable. The umlaut occurred regardless of
+intervening consonant (although some consonant clusters could
+cause failure of the change) and, crucial for our purposes, it occurred
+even when no consonant intervened, e.g. dep 'he does' <*dōiþ, cf. fēt
+'feet'<*fotiz.
+It has regularly been maintained that palatalization must have
+preceded umlaut, for *ȝ and *k were not palatalized before front
+vowels which were the product of umlaut. This results in minimal
+pairs such as cēn ‘torch’<*kēn vs. cēne ‘bold’<*kōnjaz. But the
+situation is not quite as clearcut as it first appears to be. The back
+vowels subject to umlaut are *ň, *ð, *ǎ and their umlauts are,
+respectively, i, o, ǎ. Only at a later stage was ỗ unrounded to ĕ and,
+later still, changed to in most cases. The unroundings are distinct
+from the umlaut. Thus, in order to show that palatalization was
+earlier than umlaut it is insufficient to cite minimal pairs such as ĉēn
+and cēne, for that only shows that palatalization preceded unround-
+
+=== page 101 ===
+R. HOGG OLD ENGLISH PALATALIZATION
+101
+ing of ỗ. Rather, one must show either that palatalization would be
+expected before ỷ and ỗ or that palatalization did not take place
+before the ǎ which was the product of umlaut.
+From the point of view of theoretical phonetics, there is no reason
+to suppose that palatalization would have occurred before [y] or [ø].
+Certainly, they are front vowels, but the assimilation process could
+plausibly have been inhibited by the [+grave] quality of such rounded
+vowels. Velar consonants are also [+grave], in contrast to the
+[-grave] palatal consonants. Put another way, the labialization
+inherent in rounded vowels is phonetically similar to velarization and
+dissimilar from palatalization, and thus lip-rounding is the kind of
+feature most likely to prevent palatalization. In support of this we
+may note that in the history of Romance it is reasonable to explain the
+development of French cul<culum without palatalization as due to
+the failure of palatalization before [y], although in this case the
+evidence is insufficient to allow us to assume that this must be the
+explanation, cf. Nyrop, 1935:§ 187 for the alternative view which
+must deny that the early shift of [u]>[y] was due to substrate
+influence. This evidence, such as it is, suggests that it would be foolish
+to rely on forms such as cēne or gēs ‘geese' as an indication of the
+relative chronology of palatalization and umlaut.
+Therefore we must consider the forms in which the umlaut is *ǎ>ă.
+But before doing so, it is worth noting that even where ǎ is earlier than
+umlaut it is not always certain that palatalization takes place, e.g.
+early Northumbrian cæster ‘city' against late Northumbrian and
+West Saxon ĉeaster. What exactly is happening here is unclear, but it
+would be natural to suspect that palatalization would occur least
+regularly before æ, the lowest of the front vowels. Supporting
+evidence for this is the failure of assibilation in forms such as bac
+'back', cf. pic 'pitch'. Whatever the explanation of these failures to
+carry out the change thoroughly, it may be that we should expect one
+or two exceptional forms to remain unpalatalized, whatever the
+ordering might be. But we shall not exploit this potential loophole.
+The umlauts of *ǎ and *ã are of a slightly different character and
+best treated separately. *ǎ is usually found only before nasals, and
+after umlaut to *ǎ, that *ă usually develops to ĕ. All the forms with
+umlaut of *ă show no palatalization, e.g. cempa ‘warrior', genġan
+'go', and this suggests that palatalization had stopped before the
+umlaut took place. However, *ǎ before a nasal seems to have
+
+=== page 102 ===
+102
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+represented a slightly rounded vowel, perhaps close to [b], and
+therefore we may be dealing with a case parallel to the umlauts of *ň
+and *ð, from which, as we saw, the relative dating of palatalization
+and umlaut cannot be determined.
+Thus we are left almost solely with the development *ā>ā, i.e. ā₂
+by monophthongization and umlaut from Germanic *ai, as certain
+evidence for the relative dating of our two sound changes. At least in
+this case the evidence is quite secure, for there is no question of
+unrounding to muddy the waters and the Kentish development of
+ā¿>ē is a clear indicator that ä₂ was a front vowel and not, for
+example, a low central vowel. The number of forms in which an
+original velar precedes 2 is low, but a fair sample would include the
+following: cag 'key', galan 'hinder', gäst 'spirit', gap 'he goes', gāt
+'goats'. As can be seen, all the forms have an initial velar, indicating
+that no palatalization has taken place. But the forms are not equally
+unambiguous. Thus gāþ and gāt are members of paradigms where
+the velar consonant is predictable on analogical grounds, possible
+analogical bases being the infinitive gän or gä ‘I go' in the case of gap,
+and the nominative singular gāt in the case of gāt. In the case of gast
+we are dealing with a variant form of the more normal gāst, where the
+variation is due to morphological class transfer. Again we could
+assume that the initial velar of the more common gäst has been
+transferred to gäst. In the other two cases, however, the lack of
+palatalization must be genuine, apparently implying that palatali-
+zation preceded umlaut.
+Before further investigating these implications, we ought at least to
+note a number of forms in which a velar precedes an o which is the
+result of umlaut but which is not followed by a nasal. The majority of
+such forms are Latin loans, e.g. cæfester ‘halter', cæren ‘wine', calc
+'cup'. Calc is Northumbrian and may simply parallel cæster, cf.
+above, but cæfester and cæren, compare here cyren with palatali-
+zation, diphthongization and umlaut, are more certain indicators of
+an early date for palatalization. Similarly, the native form gædeling
+‘companion'<*gaduling by double umlaut lacks palatalization.
+To sum up, we have been able to observe that a number of forms
+confirm a relatively early date for palatalization. The smallness of
+that number ought not to be disconcerting, for it is a product of the
+severe restrictions necessary in order to obtain unambiguous results.
+But one general reservation should be made, which is that it is far
+
+=== page 103 ===
+R. HOGG OLD ENGLISH PALATALIZATION
+103
+from easy to determine whether or not some of the forms show
+palatalization. This is because Old English scribes regularly failed to
+distinguish the palatal and velar series: only in the runic alphabet and
+possibly the Mercian section of the Rushworth Gospels is there any
+attempt at consistent distinction, cf. Campbell, 1959: 173, and the
+runic inscriptions present their own difficulties, although see Page,
+1968: 128 for runic evidence possibly identifying the palatalization of
+*g as at least very close to a high front vowel. In the main, however, we
+have to rely on vowel diacritics or the intervention of graphically-
+marked sound changes if we are to be certain of the status of c and g.
+Where doubt still persists, as in cæġ, Middle and Modern English
+evidence (cf. key with an initial (slightly palatalized) velar and the
+indication of vocalization of the final (original) palatal) must be used.
+Elsewhere the status of c or g has to be determined theoretically with
+reference to the chronology of the Old English sound changes, which
+of course begs the question. Here we have accepted the traditional
+classification of, for example, gālan, which may distort the evidence
+slightly in favour of the standard chronology.
+So far we have only considered one half of the problem, namely the
+evidence suggesting that palatalization was not caused by a front
+vowel which was the product of umlaut. And there is another half to
+the problem, which concerns the interaction of palatalization of *g
+and umlaut. We have symbolized the palatalization of *g as [ȝ'] to
+represent a voiced palatal fricative. But this symbol is not in the IPA
+alphabet, where the voiced palatal fricative and the palatal ap-
+proximant are indifferently represented by [j]. The omission of a
+distinctive symbol for the fricative is noteworthy, although of course
+it does not imply that there is no phonetic (or even phonemic)
+distinction between the two sounds; indeed, Wells (1975:54–5) points
+out that a phonemic contrast between [j] (= approximant) and [ȝ']
+(=fricative) appears to exist in several languages. Of course such
+facts are only of relevance to Old English in so far as they provide an
+ad hoc indication that [j] and [ȝ'] might be expected to fall together.
+It is indisputable that there was in Germanic an approximant [j],
+which caused gemination, e.g. Old Saxon *sitjan> sittjan 'sit', cf. Old
+English sittan, and later caused umlaut, e.g. *bæddja>bedd ‘'bed'.
+Further, the great majority of Old English scholars agree that in Old
+English [ȝ'] fell together with [j]. Campbell (1959:§ 427) writes:6
+
+=== page 104 ===
+104
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+Palatal ȝ was a spirant which coincided with the sound derived
+from Primitive Germanic į.
+And Sprockel (1965:144) states:
+The phonemic split of Germanic/v/ was completed when its palatal
+allophone /8/ merged with the reflex of Primitive Germanic /j/.
+The same conclusion is expressed in generative phonological terms by
+Lass and Anderson (1975:138):
+It seems that the reflexes of underlying /j/ in Old English overlap
+completely with those of palatalized /g/.
+The majority opinion that the palatalized reflex of *g merged with
+Germanic *jas /j/ is confirmed by some orthographic evidence in Old
+English, notably forms such as wei ‘way', grei 'grey', popei 'poppy',
+compared with the more common weġ, grāġ, popeg. The i-forms
+are found in the earliest Mercian glosses and early Kentish texts,
+and their very early appearance disconfirms the claim of Lass
+and Anderson (1975:139) that the merger of [j] and [ȝ'] was a
+relatively late Old English phenomenon. Nor are the spellings
+indicative simply of phonemic merger, rather they show that even in
+early Old English [ȝ'] finally after a vowel was liable to vocalization,
+producing diphthongs such as ei, æi. Naturally, vocalization and
+diphthongization did not occur across syllable boundaries, and hence
+weges ‘way' g.sg., etc. showed neither process until the Middle
+English period; but we must assume that loss of friction, being an
+essential prerequisite to vocalization and diphthongization, was
+carried out equally in all positions. The reason for this is that we can
+expect that vocalization and diphthongization, as they are both
+processes crucially dependent on syllable structure, would be more
+restricted on a priori grounds than loss of friction, which is
+independent of syllable structure.
+The argument so far, therefore, suggests that in all probability
+palatalization of *g resulted in [j] by a very early date. Thus, for
+example, even for early Old English we should assume a pro-
+nunciation [dæje] for dage 'day' d.sg.<Germanic *dagai. Now let us
+compare the development of dæge - which is an exemplary and by
+
+=== page 105 ===
+R. HOGG
+-
+OLD ENGLISH PALATALIZATION
+105
+no means unusual form - with the development of caġe, the dative
+singular of cāġ, see above. Cāġ is a jō-stem noun, with the formative
+element -j-, and so the -ġ- spelling undoubtedly represents an original
+Germanic palatal approximant. If Luick (1964:§ 373 A. 5) and, more
+especially, Campbell (1959:§ 439) are correct, then in inflected forms
+where a back vowel follows this [j] changes to [ȝ], cf. căga ‘keys',
+which would confirm the merger of [j] and [ȝ'] in quite startling
+fashion.
+The form cage is to be derived from Germanic *kaijai, which
+develops regularly to *kāja in Primitive Old English. Now, as we have
+already noted, the failure of *k to palatalize here is one of the few
+unambiguous pieces of evidence to show that palatalization preceded
+umlaut. We may therefore assume that the first sound change to
+operate potentially on *kāja will be palatalization and that it will in
+fact have no effect. Then umlaut operates to produce ā₂, *kājæ, and
+the later reduction of unstressed æ gives us the standard Old English
+form căģe.
+If we allow a parallel development for dæġe (<*dagai), then the
+form immediately prior to palatalization should be *daza. Then
+palatalization changes *ȝ>ȝ'. All the evidence we have been able to
+assess points to the merger of [ȝ'] and [j], at the very least
+phonemically, and therefore an accurate representation of the result
+of palatalization would seem to be given by *dæje. Since palatali-
+zation is assumed to have preceded umlaut, *dæje should now be
+potentially subject to the latter change. Indeed, since stressed æ is
+followed by /j/, just as stressed ā in *kājæ is followed by /j/, umlaut
+should occur, giving *deja. After vowel reduction we would expect
+the form represented by *dege. Such a form does occur in Old English,
+but only where a further change intervenes, such as second fronting,
+cf. § 3. But the more standard form is dæġe, without umlaut.
+Thus we are faced with a major contradiction, posed by the
+contrasting (and near-minimal pair) forms cäġe and dæġe. The
+former quite clearly shows that palatalization must have preceded
+umlaut, for otherwise the initial consonant would have been
+palatalised to [k'] (later [tf]). The latter equally clearly shows that
+palatalization must have followed umlaut, for otherwise a would
+have been umlauted by the following [ȝ'], the palatalization of *g and
+an allophone of, if not identical to, /j/. In other words, we have
+demonstrated that neither rule can precede the other.
+
+=== page 106 ===
+106
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+The most obvious solution to this contradiction is to claim that the
+changes must have been simultaneous. The type of phonological
+theory which allows the maximum simultaneity of application of
+rules is the so-called 'unordered rule hypothesis' of Koutsoudas et al.
+(1974). But even if we applied that hypothesis here, it would be of little
+help, for we would have a case of mutual counter-feeding, that is to
+say, since palatalization would not precede umlaut the result of
+palatalization would not feed umlaut with additional cases (such as
+dæge), and exactly the same would hold for umlaut, which would not
+precede palatalization. But the unordered rule hypothesis is so
+constructed that what would happen is that in the case of caġe umlaut
+would apply first, followed, incorrectly, by palatalization, and in the
+case of dæġe the reverse order would apply, also incorrectly. This is
+because the unordered rule hypothesis favours feeding orders.
+Whether or not the unordered rule hypothesis could be amended to
+avoid this situation is, however, of little relevance here, for that
+hypothesis supposes that there is no extrinsic ordering of rules, and
+that is only appropriate to a synchronic description. But our problem
+is a diachronic one, for we are attempting to establish the relative
+chronology of two sound changes. And in a diachronic study sound
+changes are by definition ordered, for they must have taken place in
+real time. Now in extrinsically-ordered cases, current phonological
+theory only allows simultaneity if the two changes can be collapsed by
+some accepted notational convention. Thus, for example, the umlaut
+changes by which back vowels are fronted and front vowels raised, at
+first sight separate processes, can be collapsed into one change by the
+use of braces or angled brackets. This, of course, is no more than
+traditional linguistics has always assumed. And it is clear that this
+would not allow umlaut and palatalization to be collapsed, and
+therefore they cannot be simultaneous. We must look for another
+answer.
+There would appear to be five possible solutions to this con-
+tradiction, two of which concern palatalization, the other three of
+which relate to umlaut. Let us consider those relating to palatali-
+zation first. We have already discussed the relative chronology of the
+merger of [j] and [ȝ'], and our conclusion was that this was most
+probably so early a change as to make it unlikely that only the former
+would cause umlaut. But let us now suppose that the merger was
+much later. If this is so, we might well be able to claim that only [j]
+
+=== page 107 ===
+R. HOGG OLD ENGLISH PALATALIZATION
+107
+would cause umlaut. But can this suggestion be equated with the
+phonetic reality? Since [j] which causes umlaut is normally found only
+in prevocalic position, it would appear most likely that it had a
+[+ consonantal] value, cf. Lass and Anderson, 1975:9-14 for a
+detailed argument in favour of this view. In that case, the only
+distinction between [j] and [ȝ'] will be that the latter is that slight
+degree closer which would induce friction. Would this fricative
+quality be sufficient to prevent umlaut? It could be argued that, since
+umlaut is a process closely related to vowel harmony, this might well
+be so, but recall that normally [j] is also [+consonantal] when it
+induces umlaut. Therefore that argument seems unlikely. We might
+note here that the sonorant-obstruent contrast between (j) and [ȝ'] is
+little more than a sign of the relative closeness of the sounds. Readers
+who are still convinced that the assumed phonetic difference would
+prevent umlaut before [ȝ'] should recall the slightly later southern Old
+English change, by which, inter alia, e is raised before a palatal
+fricative. Campbell (1959:§ 311) states that the change 'was ap-
+parently due to a palatalization of the groups xs, xt, xp... which
+enabled them to exert an influence on eo, io, e similar to i-umlaut'.
+Whatever the degree of similarity may have been, it is clear that [ȝ']
+could be expected to have an effect very like that of [j] in that it too
+would cause front vowels to be raised. Therefore to differentiate
+between [j] and [ȝ'] is not a solution to our difficulty.
+The other solution relating to palatalization is directly chronologi-
+cal. Although we have established as firmly as we can that in forms
+such as cēne, gēs, cāġ palatalization must have preceded umlaut, the
+forms all display initial palatalization and the same might not hold for
+medial palatalization. Now if medial palatalization in, say, dæge, was
+later than initial palatalization, then it might be that it was later than
+umlaut, and the contradiction would be wiped out. The evidence
+concerning medial palatalization is rather meagre from the chro-
+nological point of view, and is confined to weak class II verbs, where
+the stem is followed by thematic -oj- in which the -o- is umlauted by
+the -j- and later develops (under conditions irrelevant here) to i, with
+subsequent loss of j. Appropriate examples of such verbs are syngian
+'sin'<*sunigojan, myngian ‘remind'<*munigojan, wērgian 'grow
+weary' <*wērāgojan. All these verbs have unpalatalized [ȝ] (or [g])
+before the umlauted i, cf. Luick, 1964:§ 637.2; Campbell, 1959:§ 429,
+and would thus seem to show that medial palatalization occurred at
+
+=== page 108 ===
+108
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+the same time as initial palatalization. But it could be that in these
+cases the velar is purely analogical, based on past tense forms such as
+syngode ‘he sinned', where the o remains unmutated. Support for this
+theory can be found in the analogical u of swugian 'be silent', which is
+based on the preterite form swugode 'he was silent'. But to claim that
+medial palatalization was later than initial palatalization not only
+necessitates the invocation of an analogical change, it also means that
+we have an awkward structure and chronology for palatalization
+which involves splitting the process into two, one part of which affects
+initial velars and occurs before umlaut, the other affecting medial
+velars and occurring after umlaut. Unlike the proposed union of
+palatalization and umlaut, see above, the various types of palatali-
+zation are prime candidates for simultaneous application, and the
+price of splitting them up is surely more than one should be willing to
+pay for a solution to our problem.
+It therefore seems impossible to make any amendments which
+resolve the ordering contradiction to our description of palatali-
+zation, and so we should now move on to a reconsideration of umlaut.
+The first proposal rests on the fact that for umlaut to occur the
+umlauting and umlauted segments must apparently be in different
+syllables. This is fairly clear and is due to two separate facts of Old
+English. Firstly, there are no diphthongs in Old English (at the time of
+umlaut) of which the second element is [i] or [i], except word-finally.
+Secondly, [j] only occurs in prevocalic environments, and thus must
+be in a different syllable from the umlauted vowel. Given this different
+syllable constraint, could we not claim that in dæġe (etc.) the [ȝ']
+belongs to the first, not the second, syllable, and that therefore umlaut
+fails? This would seem impossible for two reasons. Firstly, we have
+already discussed the syllable-sensitive rules of vocalization and
+diphthongization, which apply to dæġ (giving [dæi]) but not to dæġe,
+clearly indicating that the syllable boundary was before ġ in the
+inflected form but not in the nominative where there is zero inflection.
+Secondly, the form cage is identical in basic syllable structure to dæġe,
+and thus if the ġ of dæġe were in the first syllable, so too would be the ġ
+of cage. Thus there is no case for claiming that umlaut failed in dæġe
+because the ġ belonged to the first syllable.
+More hopeful than the same syllable restriction, perhaps, is a
+morphological restriction. Let us suppose that umlaut was mor-
+phologically sensitive in that it operated only across morpheme
+
+=== page 109 ===
+R. HOGG
+-
+OLD ENGLISH PALATALIZATION
+109
+boundaries. Then the failure of umlaut in dæġe is explained, as the
+only internal morpheme boundary is between ġ and e and so æ and ġ
+are in the same morpheme, although in different syllables. This
+solution looks hopeful, since all instances of umlauting [j] are
+historically separated from the umlauted vowel by a morpheme
+boundary. This is a reflection of the status of Germanic *j, which,
+except initially, cf. ģēar ‘year', was always a morphological formative.
+[j] did not occur postvocalically in the stem of any word.
+But there are three difficulties to be overcome. Firstly, umlauting [i]
+had a freer distribution than [j] and it is commonly found in the same
+morpheme as the umlauted vowel, e.g. yfel 'evil'<*ufil, and many
+other disyllabic forms. Secondly, as we saw above with syngian, etc., a
+weak class II verb such as lufian 'love' is derived from earlier *lufojan
+by umlaut of *o and various other processes. We stated above that -oj-
+was thematic, but is -oj- really a single morpheme in Old English? The
+question is difficult to answer because historically the Old English
+verbs are morphologically impure, cf. Campbell, 1959:§ 756;
+Prokosch, 1939: § 54k. For Old English, however, it would seem best
+to analyse -oj- as a single morpheme. But in so doing we uncover
+another violation of the morphological restriction. The third dif-
+ficulty takes us back again to căġ. Cæġ is a jō-stem noun, see above,
+and thus the morpheme boundary should be between a and ġ, so
+contrasting with the various forms of dæġ. But compare now the
+paradigms at the time of umlaut of lär 'learning', a long-syllable ō-
+stem, and cāġ, a long-syllable jō-stem. We cite here only the singular,
+but the plural forms show the same situation. Various analogical
+shifts have been silently incorporated.
+Nom.
+lār
+cæj
+Acc.
+lāræ
+cājæ
+Gen.
+lāræ
+cāja
+Dat.
+lāra
+cājæ
+As Campbell (1959:§ 591) states:
+When the root syllable is long, it is possible to distinguish ō-stems
+from jō-stems only when the root vowel can show i-mutation, or
+when the final consonant of the root can be assibilated.
+
+=== page 110 ===
+110
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+It seems certain that there would be tremendous pressure to reanalyse
+caġ so that it was identical morphologically to lar, for then a
+morphological sub-class which was (in this case, at least) in-
+distinguishable from the major class would have been dispensed with.
+But if this did happen, then the morpheme structures of dæġ and cāġ
+would show no distinction in the essential feature with which the
+proposed morphological restriction is concerned. Taken together,
+these three difficulties do suggest that this solution, like the others so
+far, is inapplicable.
+For the fifth solution, we must return to a more theoretical
+standpoint. Suppose that umlaut was a very early phonetic change,
+which would help to explain the generality of the change in North-
+West Germanic, but that the umlauted vowels only became phonemic
+after palatalization. Although this would not agree with the parallel
+shift in Frisian, it would agree with the distribution of the umlauted
+vowels in Primitive Old English, where *i and *j generally remain, as
+against the position in the written period, where *i and *j largely
+disappear or are reduced, creating the environments for phonemic as
+opposed to allophonic contrast. But this type of approach is ruled out
+of court by Penzl (1947), who shows that the palatal consonants only
+became phonemic by virtue of the phonemicization of umlaut. In any
+case, it is difficult to see how the umlaut of, for example, */a:/ could
+have resulted in anything other than /æ:/ immediately, since the
+phonetic change was [a:]>[æ:].
+To conclude this part of our discussion, we must accept that we are
+still faced with a contradiction. Forms such as cāġ, where the initial
+velar remains before a 2, and perhaps cyse (see § 4), where, if palatal
+diphthongization is accepted as a genuine change, that diphthongi-
+zation must have been prior to umlaut, convincingly show that
+palatalization preceded umlaut. On the other hand, we have seen that
+the palatalization of *g merged with Germanic *j, but that only the
+latter caused umlaut. On all normal criteria this equally convincingly
+shows that umlaut preceded palatalization. And there appears to be
+no way in which either palatalization or umlaut can be amended to
+resolve the contradiction. The problem of their relative chronology is
+therefore quite unsolved.
+
+=== page 111 ===
+R. HOGG
+-
+OLD ENGLISH PALATALIZATION
+6 CONCLUSION
+111
+This paper has been primarily concerned with the relative chronology
+of Old English palatalization and secondarily concerned with the
+nature of the sounds palatalized, yet it is on the latter score that we
+have more cause for satisfaction. The most vexatious change is that of
+Germanic *g, and we have been able to show that originally this was
+most probably the voiced velar fricative [ȝ] and that [ȝ] was
+palatalized to [ȝ'] which quickly merged with [j] from Germanic *j.
+This, of course, does not hold for geminate *gg or *g after nasals, but
+they were of no relevance to our principal concerns.
+The relative chronology of palatalization was less happily dealt
+with. Four changes during the Primitive Old English period were of
+crucial importance: breaking, second fronting, palatal diphthongi-
+zation and umlaut. We were able to establish that palatalization was
+later than breaking, although in itself that causes problems, since the
+failure of breaking to occur before [ȝ] is unexplained. We also
+determined that palatalization was earlier than second fronting, but
+that was not too helpful since the chronology of second fronting is
+itself uncertain. Further, we offered very little new evidence in favour
+of or against the difficult change known as palatal diphthongization.
+Therefore the onus of establishing a terminus ad quem for palatali-
+zation lay on the evidence provided by umlaut. And that evidence was
+hopelessly contradictory. This paper, therefore, can claim only to
+show that the problems surrounding palatalization still lie at the
+forefront of Old English phonological studies.
+University of Lancaster
+NOTES
+§ 5 of this paper was read to the October 1977 meeting of the Philological Society
+and also to the Departments of English at the Universities of Utrecht and Nijmegen. I
+am grateful to all three audiences for their comments, and I owe a special debt of
+gratitude to the following colleagues for their advice, comment and criticism: C. J. E.
+Ball, C. E. Bazell, Paul van Buren, Gerry Knowles, W. F. Koopman, Roger Lass,
+Anne Squires, Nigel Vincent and A. R. Warner. But the errors which remain are mine.
+1. [ȝ] and [ȝ'] are used in preference to the standard IPA symbols, both in order to
+avoid prejudice in favour of certain phonetic analyses to be discussed below and
+because of the failure of the IPA alphabet to distinguish clearly between the palatal
+approximant (here [j]) and the voiced palatal fricative (here [ȝ']). In orthographic
+examples a superscript dot over c or g represents a palatalized consonant.
+
+=== page 112 ===
+112
+TRANSACTIONS OF THE PHILOLOGICAL SOCIETY 1979
+2. But the palatalization of *sk and the assibilation of [k'] and [g'g'] will not be dealt
+with here.
+3. In this context Campbell's discussion should be distinguished from the structu-
+ralist approach of Penzl (1947).
+4. The claim of Stockwell and Barritt (1951:10) that in breaking environments rand
+/ were 'approaching syllabic quality' is both unnecessary and misleading.
+5. For *gætu and *cafurtûn the Vespasian Psalter has geatu, ceafurtun, where ea is
+due to back mutation of *a.
+6. Since Campbell's į is a palatal approximant, his statement here is so elliptical as
+to be virtually contradictory.
+REFERENCES
+BALL, C. J. E., 1962. 'Mercian "second fronting”, ArchL 14, 130–45.
+BRUNNER, K., 1965. Altenglische Grammatik. Tübingen: Niemeyer.
+CAMPBELL, A., 1939. 'Some Old Frisian sound changes', TPS 1939, 78–107.
+CAMPBELL, A., 1959. Old English grammar. Oxford: Clarendon Press.
+COHEN, A., EBELING, C. L., Fokkema, K. and van Holk, A. G. F., 1961. Fonologie van
+het Nederlands en van het Fries.² 's-Gravenhage: Nijhoff.
+D'ARDENNE, S. T. R. O., 1961. pe liflade ant te passiun of Seinte Iuliene. London: Early
+English Text Society, 248.
+Daunt, M., 1939. “Some Old English sound changes reconsidered in relation to scribal
+tradition and practice', TPS 1939, 108–37.
+GIRVAN, R., 1931. Angelsaksisch handboek, tr. E. L. Deuschle. Haarlem: Tjeenk
+Willink.
+HOGG, R. M., 1971. 'Gemination, breaking and reordering in the synchronic
+phonology of Old English', Lingua 28, 48–69.
+HOGG, R. M., 1977. 'The chronology and status of second fronting', ArchL N.s. 8, 70–
+81.
+KOUTSOUDAS, A., Sanders, G. and NOLL, C., 1974. 'The application of phonological
+rules', Lg 50, 1–28.
+KUHN, S. M., 1939. 'The dialect of the Corpus Glossary', PMLA 54, 1–19.
+Kuhn, S. M., 1970. 'On the consonantal phonemes of Old English', in J. L. ROSIER
+(ed.), Philological Essays in Honour of Herbert Dean Merritt, The Hague: Mouton,
+16-49.
+KUHN, S. M. and Quirk, R., 1953. 'Some recent interpretations of Old English digraph
+spellings', Lg 29, 143–56.
+KUHN, S. M. and Quirk, R., 1955. ‘The Old English digraphs: a reply', Lg 31, 372–89.
+Lass, R. and ANDERSON, J. M., 1975. Old English Phonology. Cambridge: Cambridge
+University Press.
+Luick, K., 1964. Historische Grammatik der Englischen Sprache. Oxford: Blackwell.
+MOULTON, W. G., 1954. 'The stops and spirants of early Germanic', Lg 30, 1-42.
+NYROP, K., 1935. Grammaire historique de la langue française, Iª Copenhagen:
+Gyldendalske Boghandel.
+Page, R. I., 1968. 'The Old English rune, eoh, ih "yew tree", Maev 37, 125–36.
+Penzl, H., 1947. 'The phonemic split of Germanic k in Old English', Lg 23, 34–42.
+PROKOSCH, E., 1939. A comparative Germanic grammar. Philadelphia: LSA.
+QUIRK, R. and Wrenn, C. L., 1957. An Old English grammar.² London: Methuen.
+Samuels, M. L., 1952. 'The study of Old English phonology', TPS 1952, 15–47.
+SPROCKEL, C., 1965. The language of the Parker Chronicle, I: phonology and accidence.
+The Hague: Nijhoff.
+
+=== page 113 ===
+R. HOGG
+-
+OLD ENGLISH PALATALIZATION
+113
+STOCKWELL, R. and BARRITT, C., 1951. Some Old English graphemic - phonemic
+correspondences: æ, ea and a. Washington: Studies in Linguistics, Occasional Papers,
+4.
+WAGNER, K. H., 1969. Generative grammatical studies in the Old English language.
+Heidelberg: Groos.
+WELLS, J. C., 1975. 'The Association's alphabet', JIPA 5, 52–8.

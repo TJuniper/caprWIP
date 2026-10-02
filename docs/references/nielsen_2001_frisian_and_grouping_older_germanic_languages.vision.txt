@@ -1,0 +1,1302 @@
+Hans Frede Nielsen, "Frisian and the Grouping of the Older Germanic Languages".
+In Horst Haider Munske (ed.), Handbuch des Friesischen / Handbook of
+Frisian Studies (Tubingen: Max Niemeyer, 2001), pp. 512-523, chapter 48.
+
+SOURCE AND METHOD
+-----------------
+Local ignored PDF: scanned pages with an old embedded OCR layer.
+The scan was processed through the established Code/Vision/ocr.py
+asyncBatchAnnotateFiles / DOCUMENT_TEXT_DETECTION PDF runner.
+The two-column reading order is that of Vision's structured page output.
+Raw OCR JSON and the original PDF remain local and ignored.
+On p. 523 only Nielsen's concluding bibliography and author signature
+are retained; the adjacent opening of chapter 49 is excluded.
+Text is NFC-normalized; linguistic symbols must be image-checked
+before a load-bearing quotation. No speculative glyph repairs.
+
+PAGE NUMBERING
+--------------
+12 consecutive sheets; printed folio = sheet + 511 (512-523).
+Folios outside the first/last six Vision lines: [513, 515, 517, 519, 521, 523].
+All twelve printed folios independently confirmed in the PDF headers
+and a page-image contact sheet (including those six OCR-order cases).
+Markers name printed pages, not PDF sheet numbers.
+Local PDF SHA256: 210fbc2b2853edd8a90884eee01bb8c8a55b309f071307d71e75cb146eb9f9d5
+
+=== page 512 ===
+512
+48. Frisian and the Grouping of the
+Older Germanic Languages
+1.
+1. A Brief Survey of Research History
+2. The Old Frisian Sound System in a
+North Sea Germanic Perspective
+3. Further Chronological Deliberations
+4. Bibliography
+A Brief Survey of Research History
+1.1. The Place of Frisian within the
+Macrogroups of Germanic
+In the major models proposed to illustrate
+the earliest dialectal splits within Ger-
+manic, Frisian has been classified as a
+West Gmc. language. This holds true of
+Schleicher's family-tree diagram from
+1860 where, in Streitberg's terminology
+(1896), the Proto-Gmc. trunk branched
+out into East Gmc. (Goth.), West Gmc.
+(OHG, OS, OE, OFr. and ODu.) and
+North Gmc. (Nordic). The inspiration for
+this model was clearly a geographical one
+in view of the distribution of the earliest
+attested Gmc. languages. Another hypo-
+thesis, which took Gothic emigration from
+present-day Sweden (cf. place-names like
+Göt(a)land and Gotland) as its point of
+departure, posited a Gotho-Nordic
+branch of Gmc. prior to the beginning of
+our era, contrasting with what in our first
+model was labelled as WGmc. Adherents
+of this theory were Lehmann (1966) and
+especially Schwarz in a book from 1951.
+Much in this hypothesis came to depend
+on the assumption that the Goths really
+did come from Scandinavia, which is not
+at all certain. A third model was proposed
+by Kuhn (1955) in reaction to Schwarz's
+book. Kuhn thought that on their depar-
+ture from northern Europe, the Goths still
+spoke Proto-Gmc., and that the remaining
+Nordic-West Gmc. area stayed linguisti-
+cally uniform till the mid-5th century AD,
+after which a split between North and
+West Gmc. occurred owing to the depar-
+ture of the Anglo-Saxons from the Conti-
+nent and the Danish colonization of Jut-
+land. By virtue of its linguistic arguments,
+Kuhn's model (now known as the North-
+West Gmc. theory) has won the approval
+of many present-day historical linguists.
+III.1. Vor- und Frühgeschichte des Friesischen
+However, the concept of WGmc. has
+not been accepted in all quarters. Thus
+Maurer (1952), by including evidence pro-
+vided by archaeology and the classical his-
+torians, replaced WGmc. with as many as
+three primary groups: North Sea Gmc.
+(the predecessor of Fr., Saxon and Eng.),
+Weser-Rhine Gmc. (which developed into
+Franconian etc.) and Elbe Gmc. (which
+later became Upper Ger.). Despite its du-
+bious methodology, Maurer's model has
+had tremendous impact on the handbooks
+of Ger. historical linguistics.
+For an overview of the research history
+of Gmc. dialect grouping, see Nielsen
+(1989, 67–107).
+1.2. Anglo-Frisian and
+North Sea Germanic
+A knotty problem in early Gmc. dialect
+geography is the subdivision of WGmc.
+(cf. Nielsen 1985, 40-65). It is beyond
+question that because of the High Ger-
+man Consonant Shift, OHG should be
+placed at one end of the WGmc. linguistic
+continuum and OFr. and OE (with shared
+features of their own) at the other. But
+does this entitle us to operate with a
+specifically Fr.-Eng. subgroup or does OS,
+another northern dialect, join in, cf. the
+languages listed by Maurer as descending
+from North Sea Gmc.?
+Although long before the latter half of
+the 19th century scholars considered Fr.
+and Eng. to be particularly closely related
+(cf. Bremmer 1982, 79-81; 1989), there is
+some justification in regarding Sweet as
+the father of the Anglo-Frisian hypothesis
+(cf. Sjölin 1973, 329), because Sweet
+(1877, 162) was the first linguist to claim
+that Anglo-Fr. was the common ancestor
+of Eng. and Fr., and of the idiom spoken
+both by the Anglo-Saxon invaders of Brit-
+ain and by those who stayed behind.
+Sweet received support in the Low Coun-
+tries from Sipma (1913, 1-3) and in Ger-
+many from Bremer (1900, 809f), who had
+no hesitation in operating with an Anglo-
+Fr. language unity in view of all the lin-
+guistic features shared by OE and OFr.
+(1900, 843). However, Siebs dissociated
+himself from Sweet's term, preferring in-
+
+=== page 513 ===
+48. Frisian and the Grouping of the Older Germanic Languages
+stead the more modest label englisch-frie-
+sisch, (cf. 1889, 7; 1901, 1154; 1930, 70), a
+designation which referred only to the to-
+tality of phonological features common to
+the Anglo-Saxon and Fr. dialects prior to
+the colonization of Britain. (For the lon-
+gevity of the concept of »Anglo-Frisian<<
+see e.g. Nielsen (1985, 42 n. 1, 46);
+cf. also Robinson (1992, 12f; 248 and Kis-
+bye (1992, 19). Siebs's view is immediately
+reflected in Streitberg (1896, 4) and
+Steller (1928, 1) and has perhaps also in-
+fluenced Hoops (1911–13, 87) and Luick
+(1921, 1f))
+The first linguist to offer a plausible ex-
+planation for assigning OS to the northern
+group, and thereby to counter Siebs's
+more restricted Eng.-Fr. model, was
+Morsbach (1897), who, in accordance with
+the principles of dialect geography, attri-
+buted innovations shared by OFr., OE
+and OS to geographical proximity on the
+Continent prior to the Anglo-Saxon emi-
+gration. Morsbach employed neither the
+tribal term Ingvaeonic nor the geographi-
+cal designation North Sea Germanic to re-
+fer to his dialect group, expressions which
+were later to be used by Rooth and Dal
+respectively. Both of these last-mentioned
+scholars believed that, in addition to OFr.
+and OE, OS belonged to an Ingvaeonic/
+North Sea Gmc. Sprachkreis which had
+come into existence prior to the Anglo-
+Saxon exodus (cf. Dal 1983, 88; 78), and
+that the features which OS shared solely
+with OHG, were secondary. But while
+Rooth (1932, 40; 54) thought that the Ger.
+element in the OS manuscripts was a re-
+flection of Franconian scribal influence,
+Dal interpreted it as a genuine influx of
+High German linguistic forms. Together
+Rooth and Dal represent the mainstream
+view of the dialectal position of OS within
+WGmc. A scholar to have come out re-
+cently in favour of the same hypothesis is
+Århammar (1990), who presupposes the
+existence of an Ingvaeonic continuum
+comprising Proto-OFr., Proto-OE, Proto-
+OS and Proto-OLF (1990, 10). Fr. became
+an independent language through innova-
+tions of its own (1990, 21f), but even more
+so through the deingvaeonicization of LG,
+which started no later than at the time of
+513
+the subjugation of the Saxons by Charle-
+magne. Arhammar also points to the
+deingvaeonicization of Old and early
+Middle Du. (1990, 13), and is thus in line
+with the view held by specialists on Du.
+historical dialectology such as Frings,
+Kloeke and Schönfeld who believed that
+the autochthonous Gmc. language in the
+Low Countries was Ingvaeonic and that
+the mixed character of Du. was due to
+Franconian linguistic influence, especially
+after 700. In the north, Ingvaeonic was re-
+tained and developed into Fr. (cf.
+Schönfeld/van Loey 1970, XXIV-V;
+XXXIII; Frings 1944; 1957; Vleeskruyer
+1948).
+The considerable degree of resem-
+blance between OFr. and OE is also ex-
+plained in terms of »their status as
+Ingvæonic relict areas« by Stiles (1995,
+212); but as descendants from a dialect
+continuum their shared development did
+not reach beyond the fronting of WGmc.
+ā (1995, 198-200; cf. also 2.1.). Stiles'
+well-argued paper thus becomes an at-
+tempt >>to nail down the coffin lid«< (1995,
+184) on the Anglo-Fr. thesis. In a very re-
+cent paper, Fulk has tried to pull out some
+of the coffin nails by claiming that the
+fronting of WGmc. short a and palataliza-
+tion (cf. below, 2.3.) were also shared in-
+novations implemented before OFr. and
+OE began to diverge (cf. 1998, 153). Since
+the determination of the place of Fr.
+within WGmc. has come to depend heav-
+ily on phonological issues, the next section
+will be devoted to a discussion of the his-
+torical development of the OFr. sound
+system. And the final section (3.) will deal
+more comprehensively with the chrono-
+logical aspects involved.
+For links between OFr. and ON, see
+Nielsen (1994, 109–111).
+2.
+The Old Frisian Sound System in a
+North Sea Germanic Perspective
+2.1. Accented Vowels
+The OFr. manuscripts exhibit an accented
+vowel system with five short monoph-
+thongs and five long ones (Sjölin 1969,
+19-22; Boutkan 1996, 8–22; cf. also Hof-
+mann 1964, 162):
+
+=== page 514 ===
+514
+III.1. Vor- und Frühgeschichte des Friesischen
+e
+a
+u
+ī
+ū
+ē
+б
+а
+0
+By comparison, OE had both Ĕ and y in
+addition to monophthongs identical with
+that of the OFr. system, a fact which was
+due to the fronting of ǎ and i-umlaut of
+й. Similar processes occurred in OFr., but
+here the fronted reflex of short Gmc. a
+(cf. stef 'staff') and the i-mutated product
+of short Gmc. u (cf. fella 'to fill’; OE fyl-
+lan) both merged with the reflex of Gmc.
+e (cf. bera 'to bear'). In the OFr. long sys-
+tem of monophthongs, no less than six
+Gmc. vowels are reflected by OFr. ē, viz.
+Gmc. ē¹ (> WGmc. ā, cf. dēd(e) ‘deed'), ē²
+(cf. mēde 'rent'), ai (cf. sten ‘stone'), au +
+i, j (cf. hēra ‘to hear'), ō + i, j (cf. fēda ‘to
+feed') and ū + i, j (cf. hēd 'skin'), corre-
+sponding to six different vowel phonemes
+in (early) OE (cf. dad (fronting), mēd,
+stān, hīeran, fœdan and hỹd (i-umlaut)). It
+should be noted that a split plus merger
+took place in OFr. in the development of
+Gmc. e² (WGmc. ā), a change parallelled
+by OE, cf. dēd(e), mōna ‘moon', OE dad,
+mōna vs. OHG tāt, māno. Further, a split
+of Gmc. ai into ē and ā occurred in OFr.
+as shown by stēn and māra, where, e.g.,
+OE has only one reflex, cf. stān and māra.
+Gmc. au was monophthongized to ā in
+OFr. but retained as a diphthong (ēa) in
+OE, cf. OFr. hāch 'high', OE hēah. Note
+that Gmc. ē² is reflected as both ī and ē
+in OFr., cf. mīde, mēde; hīr, hēr ‘here' (cf.
+Hofmann 1964).
+Not all scholars have taken at face value
+the evidence of the manuscripts on the ba-
+sis of which the OFr. system of vowel pho-
+nemes has been posited. Hofmann (1964,
+162) suggests that the OFr. orthographic
+rendering of e perhaps conceals a phone-
+mic distinction between /e:/ and /æ:/, a
+viewpoint supported by Spenter (1970,
+312; cf. also 1968, 190–193; 204-207).
+Taking both northern and southern
+Fr. dialectal evidence into account, Jør-
+gensen (1946, 109f) reconstructs the
+following system of long monophthongs
+for Proto-OFr. prior to the introduction
+of i-mutated long vowels, i.e. a system
+which had no currency beyond the 8th
+century:
+I
+ē
+æ
+ū
+б
+а
+Gmc. ē² has here merged with the reflexes
+of Gmc, ī and ē¹ (/i:/ and /e:/), and /æ:/
+anda: were added to the system due to
+the monophthongisation of Gmc. ai and
+au, cf. above.
+Stiles (1995, 199f) and several investiga-
+tors before him have assumed that the
+fronting of WGmc. ā (< Gmc. ē¹) in OFr.
+preceded the monophthongisation of
+Gmc. ai and au, seeing that the reflex of,
+e.g., au would otherwise have become ē in
+OFr. The obvious phonological analysis of
+the changes would be to see a chain shift
+in the monophthongisation processes and
+the fronting of WGmc. ā in consequence
+of either a drag- or a push-chain mecha-
+nism (cf. Lass 1994, 39–41). In the light
+of the fronted (cf. dēd(e)) and back
+rounded (cf. mōna) reflexes of WGmc. ā
+(< Gmc. ē²), a Proto-OFr. push-chain shift
+triggered by the monophthongisation of
+Gmc. ai and au is likely to have restricted
+the phonological space in the open front
+and back areas considerably. Except in
+the position before a nasal (where a nasal-
+ized back allophone had arisen that
+eventually merged with ō (as in OE), cf.
+OFr. (OE) mōna), the reflex of Gmc. ē¹
+was confined to the mid-front area, ē²
+merging partly with Gmc. 7, partly with
+Gmc. ē¹. Before i-mutated ã < Gmc. au
+joined the ā (< ai) phoneme, & was ex-
+posed to a phonemic split in that its allo-
+phones in »grave« environments coa-
+lesced with ā, cf. OFr. rāp ‘rope', māra
+'more' vs. stěn ‘stone', brēd 'broad' (OE
+rāp, māra, stān, brād). Had i-umlaut ante-
+dated »gravity<< assimilation, i-mutated ā
+(< Gmc. au) would not have come out
+consistently as a (spelt (e) in OFr., e.g.
+hēra 'to hear'), cf. Nielsen 1983.
+As for OE, the fronting of WGmc. ā (<
+Gmc. ē¹) has traditionally been assumed
+to antedate the monophthongisation of ai
+to ā since otherwise the reflex of ai would
+have become a in OE. Further, the mon-
+ophthongisation is thought to have oc-
+curred prior to the fronting of short a (cf.
+below) because the first element of ai
+would otherwise have become æ (*æi),
+
+=== page 515 ===
+48. Frisian and the Grouping of the Older Germanic Languages
+which could not have developed into ā.
+Because of its front first element, the OE
+diphthong ēa (< Gmc. au) is supposed to
+have evolved contemporaneously with the
+fronting of short Gmc. a. This is the rela-
+tive chronology offered by Campbell
+(1959, § 132) and repeated in several re-
+cent works, e.g. in Hogg (1992, 100f);
+1992a, 79f; and Stiles (1995, 198f). How-
+ever, a push-chain mechanism like the
+one we posited for OFr. would seem to be
+the more plausible scenario also for OE:
+in addition to restricting the extensive
+phonological space occupied by the reflex
+of Gmc. ē in the open and half-open
+areas, the introduction of ā (< Gmc. ai)
+led to a phonemic split (plus merger) in
+which an open front-back correlation
+arose between a (< ē¹ ) and ā (< ai) and
+the nasalized a reflex of e¹ eventually
+merged with ō (cf. above and Krupatkin
+1970; cf. also Nielsen 1995, 25f). As al-
+ready mentioned, the reflex of Gmc. au
+remained a diphthong (ēa) in OE.
+In both OFr. and OE a split of short
+Gmc. a into e/æ vs. a was modelled on,
+and therefore secondary in relation to, the
+front-back contrast established in the
+front and back open area of the long sys-
+tem, cf. OFr. stef ‘staff', OE stæf vs. OFr.
+fara 'to go', OE faran.
+Vowel monophthongisations in Proto-
+OFr. and pre-OE may thus have sparked
+off split-plus-merger developments as re-
+gards the fate of Gmc. ĕ in the two lan-
+guages, but as mutually independent pro-
+cesses.
+Jørgensen's hypothesis (cf. above and
+1946, 109f) that the monophthongisation
+of au and ai preceded i-umlaut in
+Fr., was anticipated by Campbell (1939,
+104f) in the relative chronology he pos-
+ited for the same events. The Jørgensen/
+Campbell model receives empirical sup-
+port from several inscriptions belonging
+to the so-called Fr. runic corpus which
+evidence the shift of Gmc. au to ā. The
+earliest item is the 6th-century London
+gold solidus, which bears the runic legend
+skanomodu skānomōdu < *skaunamōd-
+'Schönmut'. The name of the rune (F) de-
+noting a ā was āc ‘oak' in OE, a name
+deriving from Gmc. *aik-. In runic Fr.,
+515
+there is no evidence of the use of F for ā <
+Gmc. ai, and according to the acrophonic
+principle (by which the runes had the
+sound value of the first letter of their
+names) the rune is therefore likely to
+have been invented in England and been
+exported from there to Frisia (Stiles 1995,
+186; Parsons 1996; cf. also Quak 1991,
+291), where Gmc. ai became a (cf. OFr.
+ēk ‘oak'), and where for phonetic reasons,
+but contrary to the acrophonic principle,
+the runic letter was used with the sound
+value ā, e.g. to denote ā < Gmc. au. The
+circumstance that F is attested in runic
+Eng. only from the 7th century may be
+fortuitous in view of the paucity of early
+extant inscriptions.
+In three papers published in 1964, 1979
+and 1995, Dietrich Hofmann reverses the
+relative chronology of monophthongisa-
+tion and i-umlaut in Fr., assigning the
+monophthongisation of Gmc. ai and au to
+the 8th century. Hofmann originally ar-
+rived at this result as a by-product of his
+attempt to account for the reflexes of
+Gmc. ² in Insular NFr. and Weser Fr. »re-
+duplicating<< preterites (1964, 164–182).
+In a paper from 1993, I questioned Hof-
+mann's chronology, focusing chiefly on
+two points: (1) the early runic Fr. attesta-
+tion of a < Gmc. au (cf. the legend on the
+London gold solidus); and (2) the fact that
+Gmc. ai has two reflexes distributed on
+virtually the same words in all Fr. dialects,
+which suggests that the phonemic split
+must be Common Fr. (Nielsen 1993, 81f;
+cf. Århammar 1969, 5; 1990, 22 and
+the relative chronology and the initial
+stage of monophthongization - 1995, 75);
+in other words, the phonemic split is likely
+to have occurred prior to the Fr. coloniza-
+tion of the NFr. islands (Sylt, Föhr and
+Amrum) from the 7th century (Jankuhn
+1957, 168-186; 1960, 11-17). Hofmann
+has countered my item no. (2) by linking
+the phonemic split of Gmc. ai in Fr. to
+that which came to affect the open & re-
+flex of Gmc. ai in the north of Germany.
+With reference to Wortmann (1960, 16–
+19), Hofmann (1995, 28) notes that the
+LG dialect area in which the phonemic
+split of ę occurs, comprises not just north-
+ern Germany (Eastphalia and fair chunks
+-
+on
+
+=== page 516 ===
+516
+of Westphalia) but also the northern part
+of the Low Countries adjacent to West
+Frisia. Hofmann consequently sees a con-
+tact relationship in the phonemic split of
+Gmc. ai (and its diffusion) in Fr. and LG.
+But despite all Hofmann's endeavours
+(which cannot be given full credit here),
+two facts remain: (1) the distribution of
+words exhibiting the phonemic split in LG
+does not tally with the uniform lexical dis-
+tribution patterns applying to all Fr. dia-
+lects; (2) no date is offered for the LG
+split of ę (< Gmc. ai) into two vowels >>die
+irgendwann mit ihren Nachbarlauten zu-
+sammenfielen« (Hofmann 1995, 28). And
+to this should be added that the strong
+(formerly reduplicated) class VII preter-
+ites in ē² in the North and West Gmc. lan-
+guages were lexical additions to the new
+² phoneme rather than its starting point
+(v. Coetsem 1994, 99–102). Hofmann may
+therefore have overrated the explanatory
+power of his material and its conse-
+quences for the development of the ac-
+cented vocalism of Fr. (and North Sea
+Gmc.).
+But no matter whether i-umlaut is as-
+sumed to have preceded monophthongi-
+sation or vice versa, the effect of the
+emergence of new open monophthong-
+ized vowels in the early Fr. and Eng. long
+vowel systems was to restrict the phono-
+logical space of the respective reflexes of
+Gmc. ē (cf. Hofmann 1979, 15), making
+the fronting of WGmc. a secondary in re-
+lation to monophthongisation.
+In the OS long vowel system there was
+no fronting or rounding of WGmc. ā (<
+Gmc. ē¹), cf. OS dād ‘deed', māno ‘moon’;
+and Gmc. ai and au were monophthong-
+ized to ē and ō, cf. OS stēn 'stone' and hōh
+'high'. In the light of the events determin-
+ing the development of the systems of the
+OFr. and OE long vowels, it is easy to see
+that the introduction of ē and ō (< Gmc.
+ai and au) in OS reduced the phonological
+space in the half-open area, preventing ā
+from undergoing a split-plus-merger pro-
+cess which an open monophthongized
+vowel might have triggered.
+But there are clear traces of a vowel
+system in OS characterized by North Sea
+Gmc. evolutionary features. A case in
+III.1. Vor- und Frühgeschichte des Friesischen
+point is the Straubing version of the
+Heliand epic (cf. Klein 1990), where
+fronted reflexes of WGmc. ā as well as
+Gmc. a are found (cf. uuĕrun ‘were'; creht
+'power'); where ā before a nasal may
+come out as ō (cf. sōn ‘at once'); and
+where Gmc. au is reflected as ā (cf. thāh
+'though'). Finally, short Gmc. a before a
+nasal is often reflected as o instead of a in
+the Straubing fragments, cf. monn 'man'
+vs. land 'land' (Taeger 1982, 25; Nielsen
+1991, 255f), OFr./OE mon, man.
+Perhaps the eventual split of OS ę (cf.
+above) and merger with the reflexes of
+-
+(1) Gmc. 2 and (2) the i-mutated allo-
+phone of WGmc. ā (which was kept apart
+from the non-mutated reflex of WGmc.
+ā) is easier to comprehend if an OS
+vowel system is posited in which WGmc.
+ā is seen within a North Sea Gmc. frame-
+work (Klein 1977, 516). This would make
+the split of OS e comparable to that of
+ā (< Gmc. ai) in Fr., but it must be
+stressed that such a parallel between OS
+and Fr. is structurally conditioned, requir-
+ing no explanation in terms of shared ori-
+gin and diffusion by contact (cf. Hofmann
+1995).
+However that may be, Klein thinks that,
+apart from southern Westphalian, North
+Sea Gmc. vocalism (split-plus-merger of
+WGmc. ā/Gmc. a) may have occurred
+anywhere in the OS speech area, »wenn
+wir auch über ihre dialektale Verbreitung
+und ihre genauen phonetischen Bedin-
+gungen kaum Sicheres wissen« (1977,
+523).
+The evolution of the accented vowel
+systems of OFr., OE and OS showed a
+number of similarities but, as we have
+seen, the monophthongisation of Gmc. ai
+and au and the fronting and rounding of
+the reflexes of WGmc. ā (and Gmc. a)
+took place independently in each of the
+three languages. We may repeat here that
+Gmc. au was not even monophthongized
+in OE.
+But did the North Sea Gmc. languages
+exhibit any specific shifts of accented
+vowels shared only by them and assign-
+able to a period preceding (or co-occur-
+ring with) the Anglo-Saxon colonization
+of England? Presumably there is only one
+
+=== page 517 ===
+48. Frisian and the Grouping of the Older Germanic Languages
+plausible candidate for such a shift, and
+that is nasalized long and short ã.
+The earliest find in Frisia or England to
+show any of the new runic letters included
+in the extended »Anglo-Fr.<< futhorc is the
+Undley bracteate (East Anglia) from the
+late 5th century, which has F. In the fu-
+thorc as attested in England, & was rune
+no. 4 and was called ōs, a reflex of *ansuz
+'god'. In Scandinavia, the same name was
+used for F, which was the fourth rune in
+the older futhark with the sound value a.
+After fronting, and under the name of æsc
+‘ash', & came to designate æ in OE. In the
+futhorc, the æsc rune was relegated to po-
+sition no. 26, the āc rune (F) being no. 25.
+Apparently, the & rune denotes an ac-
+cented vowel in the Undley legend where
+it is transliterated as o, by Odenstedt
+(1983) as a rendering of long o and by
+Eichner (1990) as a representation of the
+short vowel.
+In my view, it is worth considering
+whether could not at first have been de-
+signed to represent the nasalized reflexes
+of long and short a respectively. Accord-
+ing to Krupatkin (1970, 54–56), the events
+leading up to this were that in the North
+Sea Gmc. dialects the reflex of WGmc. ā
+(< Gmc. ē¹) split into nasalized »ā^« and
+non-nasalized »ā³«, ā” occurring before
+nasals and merging with the reflexes of
+Gmc. a nasal before voiceless fricatives
+(*anh, *ans, *anf, *anþ), and that Gmc. a,
+to restore systemic equilibrium, split into
+short a and a". The advantage to the
+vowel system was that long and short vow-
+els remained qualitatively equivalent. The
+eventual shift to ō was triggered by the in-
+trusion of the new monophthongized
+vowel ā, which obviated the non-nasal-
+ity nasality opposition, a front-back
+contrast developing with the fronting of
+WGmc. ā. The by now isolated nasalized
+vowel ā” merged with ō, and in the short
+system the opposition a"-a" was replaced
+by a front-back contrast modelled on the
+long system. After a" was denasalized, it
+was represented by both a and o spellings
+(Krupatkin 1970, 59-69). Both the long
+and short vowels thus ended up with a
+three-tier system with a front-back con-
+trast also in the open area.
+517
+In any case, Krupatkin's scenario opens
+up the possibility that a split into ẵ³–ẵn
+was an early, shared North Sea Gmc. shift,
+the phonemic distinction being expressed
+graphemically by the contrast between ▸
+and the new rune. In a paper published
+in 1995, I »emended«< Eichner's interpre-
+tation of the Undley rune & as o(n) to a”,
+otherwise retaining his reading of the
+inscription (Nielsen 1995, 29f). Although
+I believe that Krupatkin's model has
+much to be said in its favour, I now think
+that there is internal evidence to suggest
+that Undley had come to denote o, even
+if originally the rune was devised for a"
+(Nielsen forthcoming).
+As for the later vocalic changes, the
+OFr. breaking of Gmc. i, e > iu occurred
+before ch(t), chs and rch (Boutkan 1998;
+cf. also Stiles 1995, 195; 213f), cf. riucht
+'right', tiuche 'team', *miuchs ‘dung' and
+thriuch 'through' (with metathesis, cf.
+Goth. pairh). Further, Gmc. i became iu
+before Gmc. (n)kw, ngw, cf. thiukke
+'thick', siunga 'to sing', cf. ODan./OSwed.
+thiukkær/-er, siungæ/-a. That these diph-
+thongisations developed independently in
+Fr. cannot be questioned, cf. also the fact
+that the fronted reflex of Gmc. a was not
+broken as in OE (see below and Nielsen
+1984, 77f). It may be added that the ef-
+fects of i-mutation on the phonemic level
+may not have come into being in OFr. un-
+til the 8th century (cf. Gysseling 1962, 17).
+In OE, there can be no doubt about
+the relative chronology of i-umlaut and
+breaking in relation to the fronting of
+Gmc. a: OE forms like seah ‘(he) saw' and
+nieht ‘night' show that Gmc. a must have
+been exposed to fronting before breaking
+and to breaking before i-umlaut, cf. Gmc.
+*sah > pre-OE *sæh > OE seah; Gmc.
+*nahti- > pre-OE *næhti > *neahti > OE
+nieht, cf. also Hogg (1992, 102–115). As
+we have already noted, fronting is likely
+to be an independent Eng. change. The
+OE i-umlaut is dated by Luick (1921,
+§201) to the 6th century.
+2.2. Unaccented Vowels
+As Sjölin (1969, 22) points out, nearly all
+OFr. manuscripts render the vowels of the
+
+=== page 518 ===
+518
+unaccented syllables graphically by means
+of e in free variation with a, i, o and u.
+Nevertheless, in the most archaic of the
+major OFr. texts, the first Riustring manu-
+script (R1) from c. 1300, there are signs
+of a triangular unaccented vowel system
+represented graphemically by (i, e), (a)
+and (u, o), in which i and u would seem
+to occur in complementary distribution
+with e and o, cf. dat.sg.m. godi ‘God',
+nom.pl.n. skipu 'ships' where i and u are
+used after short stem vowels. If the stem
+is long/polysyllabic or the stem vowel is
+e (or o), the spelling of the unaccented
+vowels is e and o instead, cf. e.g. dat.sg.m.
+hōue 'hoof', nom. / acc. / dat.sg.m. kere
+'statute' (cf. Boutkan 1996, 9; 27). Exam-
+ples of words ending in -a are gen.pl.m.
+kininga 'kings' and nom.sg.m. n-stem skel-
+tata 'legal magistrate'. See also Siebs
+(1901, 1237–1242; 1370–1371) and van
+Helten (1890, § 55-61; § 73–78).
+The unaccented vowel system of the
+first Riustring manuscript closely resem-
+bles that of 9th-century OE which has two
+back-vowel phonemes (u, a, cf. OE sunu
+'son', guma 'man') but no front-vowel dis-
+tinction, cf. the R1 forms drochten 'Lord',
+gen.sg.m. godis 'God's' vs. OE dryhten,
+godes. However, the earliest extant OE
+manuscripts exhibit a system with four un-
+accented phonemes (Hogg 1992, 119–
+122), two back (u, a) and two front vowels
+(i, æ), cf. early Northumbrian dryctin,
+gen.sg.m./n. -œs.
+The earliest OE system has quadrangu-
+lar counterparts in OS where all texts
+have unaccented -i (cf. wini ‘friend', droh-
+tin 'Lord') and -u (cf. sunu 'son'). But one
+group of texts, the most prominent mem-
+bers of which are the Lublin psalm-frag-
+ments and the Straubing Heliand-frag-
+ments (S; cf. Klein 1990, 209f), prefer -e
+and a (cf. OFr. and OE), where other
+texts, e.g. the Cotton Heliand-manuscript
+(C), exhibit -a and -o (cf. OHG). The
+Heliand S n-stem forms nom.sg.f. thiorne
+‘maiden, virgin' and nom.sg.m. uuillia
+'will' as opposed to Heliand C thiorna and
+uuilleo illustrate this dichotomy.
+Geographically, the OS texts with -e, -a
+spellings derive from Eastphalia and En-
+gern, whereas the -a, -o group texts stem
+III.1. Vor- und Frühgeschichte des Friesischen
+largely from Westphalia. According to
+Klein (1977, 529), the phonological sys-
+tems of the two groups are /-i, -æ, -a, -u/
+and /-i, -a, -o, -u/ respectively, which in
+Klein's view are both later reflections of
+an early OS system consisting of the four
+phonemes /-i, -æ, -ɔ, -u/. This system is
+attested basically only in the Monacensis-
+manuscript (M) of the Heliand (Klein
+1977, 416), which combined -0/-ɔ/ with a
+great deal of orthographic variation be-
+tween -a and -e to render /-æ/. The reason
+for this variation should be attributed to
+the fact that in the OHG mother tongue
+of the scribes there were five unaccented
+short vowels/-i, -e, -a, -o, -u/ as against
+four in the OS language which the scribes
+were supposed to put down in writing
+(Klein 1977, 390f).
+Decisive for this difference in the
+number of unaccented (short) vowels be-
+tween OHG and OS was the North Sea
+Gmc. fronting of -a to -æ, whereby the
+vowel merged with -e /-æ/ < Gmc. *-ai, cf.
+dat.sg.m. a-stem OHG kuninge, OE cyn-
+inge, OFr. (R1) kininge ‘king', the -e suf-
+fixes of which derive from *-ai (Gmc.
+*kuningai). The merger between the re-
+flexes of Gmc. *-ai and *-a took place in
+all of the OS speech area, the merged
+phoneme being rendered chiefly as -e in
+the -e, -a texts and as -a in the -a, -o group,
+cf. the variation between OS dat.sg.m.
+cuninge (Heliand S) and cuninga (Heliand
+C 696) ‘king' corresponding roughly to
+that between thiorne and thiorna ‘maiden,
+virgin'.
+In the -e, -a group, however, the front-
+ing of Gmc. *-a was followed by a shift
+of -o to -a, giving this brand of OS the
+same type of unaccented vocalism as that
+of early OE and pre-OFr., cf. above. It is
+thus possible to posit a common North
+Sea Gmc. unaccented vowel system, but it
+is clear that such a system could not have
+come about until the fronted reflex of *-a
+had coalesced with the monophthongized
+descendant of *-ai. The fronting process
+must have followed in the wake of the
+fronting of long and short a in accented
+syllables which, as we saw in 2.1., is likely
+to have occurred independently in the
+various North Sea Gmc. dialects. As for
+
+=== page 519 ===
+48. Frisian and the Grouping of the Older Germanic Languages
+the shift of -o to -a, this is best interpreted
+as a (late) drag-chain process.
+The coalescence of the reflexes of Gmc.
+*-a and *-ai in the North Sea Gmc. lan-
+guages must thus have been preceded by
+an unaccented system consisting of five
+vowels: -i, -æ, -a, -o, -u/.
+It might be added that, like OHG, OLF
+had been exposed to no merger between
+*-a (cf. nom.sg.f. n-stem tunga) and *-ai
+(cf. dat.sg.m. a-stem dage). Old (West)
+Flemish, on the other hand, seems to have
+joined the North Sea Gmc. group as sug-
+gested by, e.g., nom.sg.m. n-stem and
+gen.pl. a-stem forms in -a, cf. the Old
+West Flemish names Sassa (nom.sg.m.)
+and Erniga[-ham] (gen.pl.). In both in-
+stances the OLF suffix would be -o, cf.
+namo 'name', dago 'days' (Schönfeld/
+v. Loey 1970, § 107; § 100; Quak 1992, 85;
+83). A drag-chain shift of -o to -a would
+thus appear to have taken place in Old
+(West) Flemish, cf. Klein (1977, 536).
+2.3. Consonants
+In OFr., the number of consonant pho-
+nemes was increased through the palatali-
+sation and affrication of the Gmc. velar
+stops /k/ and /g/: /k/ became /ts/ before
+original front vowels and j, cf. tsiāsa 'to
+choose', lētza ‘doctor'; and /g/ changed
+to /d²/ when geminated before j, cf. ledza
+'to lay', or when occurring between n
+and i, cf. keninze (< *kuningi- ) ‘king'. /k/
+was not palatalized and affricated before
+i-mutated vowels, cf. kenn (< Gmc.
+*kunja-) ‘kin', which shows that i-umlaut
+postdated the palatalisation and affrica-
+tion of /k/ (and /g/). Another important
+change pertains to the allophonic varia-
+tion among fricatives in OFr. Except in
+the case of /s/ # /z/ voice was not a dis-
+tinctive feature as regards the Proto-Gmc.
+fricatives, *[b, ð, g] being allophones of
+*/b, d, g/ (± */f, 0, x/). In West Gmc., [ð]
+coalesced with /d/, and in OFr., [b]
+merged with the voiceless fricative /f/,
+which like the other voiceless fricatives
+became voiced in medial position ([v]).
+/f/, /0/ and /s/ have the following allo-
+phonic distribution in OFr.: [f] fisk ‘fish',
+gref ‘grave', [v] greva 'to dig'; [0] thonkia
+519
+'to thank', beth ‘bath', [ð] wertha ‘to be-
+come'; and [s] sunu ‘son', hus ‘house', [z]
+wesa 'to be'. It should be added that the
+velar voiceless fricative disappeared in
+medial position in OFr., perhaps as a fur-
+ther stage in the voicing process, cf. OFr.
+tia 'to pull', pret. tāch (Goth. tiuhan,
+tauh).
+In OE, palatalized and affricated stops
+developed in much the same way as in
+OFr., cf. OE cēosan 'to choose', lāce 'doc-
+tor', both with /tf/; and lecgan 'to lay',
+sengan 'to singe', both with /d3/. As in
+OFr., a phonemic split of the old /k/ pho-
+neme (as well as /g/) arose when, in the
+wake of i-umlaut, palatalised/tf/ came to
+contrast with non-palatalised /k/ in mini-
+mal pairs, e.g. OE ċēn (< *kēna-) ‘torch'
+and cēne (< *kōni-) ‘keen'. The OE frica-
+tive system and the relationship between
+fricatives and stops are more or less iden-
+tical to what we found in OFr., e.g. OE
+fisc 'fish', grōf 'dug' with [f] vs. grafan ‘to
+dig' with [v]. Similarly, the velar voiceless
+fricative was lost in medial position, cf.
+OE tēon 'to pull', pret. tēah.
+A significant difference between the OS
+and the OFr./OE consonant systems is
+the absence of affricated stop phonemes
+in OS, cf. OS kiosan 'to choose', lāki ‘doc-
+tor' and leggian 'to lay'. Another differ-
+ence is the retention of the fricative /h/
+in medial position where it disappeared in
+OFr. and OE, cf. OS tiohan 'to pull'. The
+remaining OS fricatives (/f/, /0/, /s/) are
+treated in the same way as the OFr. and
+OE ones, e.g. [f] fisk ‘fish', graf ‘grave', [v]
+bigraban 'to bury'.
+The reorganization of the obstruent
+structure in the North Sea Gmc. lan-
+guages, whereby a complementary (non-
+phonemic) distribution of voiceless and
+voiced fricatives arose, occurred before
+the emergence of the earliest manuscripts.
+But in runic Fr., the contrast between
+Gmc. */b/ [b] and */f/ [f] has been
+retained graphemically in, respectively,
+(Oostum comb, c. 800) habuku ‘hawk' (<
+Gmc. nom.sg.m. *habukaz) and the per-
+sonal name (Folkstone tremissis, c. 600)
+æniwulufu (< Gmc. nom.sg.m. *wulfaz
+'wolf'). In terms of relative chronology,
+the voicing of -s- and -þ- in medial posi-
+
+=== page 520 ===
+520
+tion postdated, respectively, the change of
+medial Gmc. *z to r and that of *Ŏ to d
+(WGmc.).
+As for the palatalisation and affrication
+of Gmc. *k and *g, these changes affected
+the phonemic systems only of OFr. and
+OE where the initial plosives retained in,
+e.g., OFr. kenn and OE cynn ‘kin' (< Gmc.
+*kunja-) show that the new phonemes
+must have come about in the two lan-
+guages before the operation of i-umlaut.
+But since, e.g., *k- is affected also before
+the fronted reflexes of Gmc. a and
+WGmc. à in OFr. and OE, cf. OFr. tsetel
+'kettle' (< Lat. *catīnus, catīllus), tzīse
+'cheese' (< Lat. *cāseus) and OE ceaf
+‘chaff', cēace ‘cheek', it can safely be as-
+sumed that the new affricated phonemes
+arose independently in the two languages.
+Nevertheless, Fulk has now come out in
+favour of the view (1998, 153; cf. 1998,
+145-148) that palatalisation, but not the
+phonemicization of »palatals«<, antedated
+the split between Eng. and Fr., conceding
+at the same time that »there is no compel-
+ling reason to date palatalisation [...] so
+early, aside from the desire to make it
+an Anglo-Frisian development« (1998,
+154)! (For the chronology of fronting, see
+above, 2.1.) There is textual evidence in
+OS to suggest that palatalisation occurred
+also there, at least with regard to k, cf.
+the following forms of antk(i)ennian ‘to
+understand', a weak class I vb. (< Gmc. *-
+kanjan-): Hel. M antkiennien, Hel. S
+untkiende (Nielsen 1991, 259). But these
+examples should not be linked to the OFr.
+and OE developments because the OS
+palatalized stop appears before a vowel
+fronted through i-umlaut. And signifi-
+cantly, i-mutation was implemented later
+in OS than in OE and OFr. (Krogh 1996,
+210-212; cf. also Gysseling 1962, 17).
+-
+-
+3. Further Chronological Deliberations
+Unlike Dal and others (cf. 1.2.), Kuhn be-
+lieved partly for ethnographic and ar-
+chaeological reasons (1955, 41f; 26) – that
+North Sea Gmc. came into being only at
+the same time as or after the 5th-century
+Anglo-Saxon emigration to Britain. The
+linguistic innovations that came to pre-
+III.1. Vor- und Frühgeschichte des Friesischen
+vail, originated along the shores of the
+southern North Sea region, from where
+they spread into the LG and Low Franco-
+nian hinterland (1955, 36–44; 46). Later
+investigators have tended to accept that a
+number of the North Sea Gmc. innova-
+tions postdate the emigration, but main-
+tain that the earliest correspondences
+arose on the Continent. This holds true
+of Nielsen (1985, 102-154); of Markey
+(1976, 36-71) whose inventory of 36 »typ-
+ically Ingvæonic« (1976, 44) parallels con-
+tained three features thought to have de-
+veloped before 450: (1) loss of nasals be-
+fore fricatives, (2) uniform verbal pl.
+endings and (3) loss of -r in monosyllabic
+pronouns; and of Stiles who, in addition
+to the development of a back timbre and
+nasalisation in long and short a (1995,
+198f, cf. also 2.1.), and the fronting of
+WGmc. long ā (cf. 1.2., 2.1.) accepted
+Markey's items (1) and (2) as pre-invasion
+shifts.
+Except for the fronting of ā, I have no
+problems in assigning the contrast between
+(what Krupatkin (cf. 2.1.) designated as) ǎ
+and an, the loss of nasals before fricatives
+(whereby a" occurring before nasals
+merged with the reflexes of Gmc. a in the
+sequences *anh, *ans, *anf, *anþ, cf. 2.1.),
+and the uniform 1./2./3. pres. pl. endings
+in, e.g., OFr. nemat(h) ‘take', OE drīfaþ,
+OS drībath/drībad 'drive' (which had as
+their starting point the loss of -n- in
+3. pres. pl. *-anþi) to the period preceding
+the Anglo-Saxon exodus (cf. also Markey
+1976, 48f; 70; Krogh 1996, 331–336; Niel-
+sen 1985, 118f; 149-151; for a different
+view, see Kuhn 1955, 35). I agree, too, that
+the loss of -r in monosyllabic pronouns
+such as OFr./OS hi/he '‘he', wi ‘we', mi
+‘me', OLF hě, ui, mi, OE hě, wě, mě, is a
+pre-invasion change in view of the loss of
+Gmc. *-z in unaccented position in
+WGmc., which led to variation between
+unaccented monosyllabic pronouns exhib-
+iting consonantal loss and accented ones
+retaining -r, the accented reflex of *-z.
+Subsequent levellings brought about a
+generalization of - forms in OHG (cf. er,
+wir, mir) and forms without a final conso-
+nant in North Sea Gmc. Further, I believe
+that the addition of h- to the nom.sg.m.
+
+=== page 521 ===
+48. Frisian and the Grouping of the Older Germanic Languages
+forms of the 3. sg. pers.pron. '‘he' in OFr.,
+OS, OLF and OE (cf. above) was a pre-
+invasion innovation (cf. Krogh 1996, 319–
+322; 401), which was also an indirect con-
+sequence of the WGmc. loss of unac-
+cented *-z. In OHG the accented reflex
+of Gmc. *iz, *ez 'he' was selected (er), but
+in the North Sea Gmc. languages, where
+the unaccented form (*i, *e) was general-
+ized, a phonologico-semantic remedy was
+required, and initial h- was available as
+raw material (cf. OS hiudu ‘today', OHG
+hiutu; Goth. (dat.sg.m.) himma (daga)).
+However, the intraparadigmatic extension
+of h- to other case and gender forms in
+OFr., OE and MDu. probably occurred
+independently in the languages concerned
+(Nielsen 1985, 98).
+Among the phonological items dis-
+cussed in section 2, the following OFr.
+changes were interpreted as independent
+innovations: the monophthongisation of
+ai and au; the fronting of long and short
+a; the palatalisation and affrication of k
+and g; i-mutation; and breaking. The all-
+important difference between this model
+and that proposed by Stiles is the relative
+position of the fronting of long ā, an
+»Ingvaeonic« change preceding the mon-
+ophthongisation of ai and au according to
+Stiles (1995, 199f), but seen by me as an
+independent (Proto-OFr.) innovation
+postdating (or co-occurring with) the
+monophthongisation processes.
+4. Bibliography
+Århammar, Nils (1969), Die Amringer Sprache.
+Die Amringer Literatur (Sonderdruck aus
+Amrum Geschichte und Gestalt einer Insel,
+eds. Margot & Nico Hansen), 2nd edn. Itze-
+hoe-Münsterdorf.
+Århammar, Nils (1990), Friesisch und Säch-
+sisch. Zur Problematik ihrer gegenseitigen
+Abgrenzung im Früh- und Hochmittelalter.
+In: Aspects, 1-25.
+Århammar, Nils (1995), Zur Vor- und Frühge-
+schichte der Nordfriesen und des Nordfriesi-
+schen. In: Fries. Stud. II, 63-96.
+Boutkan, Dirk (1996), A Concise Grammar of
+the Old Frisian Dialect of the First Riustring
+Manuscript. Odense (Nowele Suppl. 16).
+Boutkan, Dirk (1998), On Labial Mutation and
+Breaking in Old Frisian. In: Approaches, 77–
+88.
+521
+Bremer, Otto (1900), Ethnographie der germa-
+nischen Stämme. In: Grundriß der germani-
+schen Philologie, ed. Hermann Paul, 2nd
+edn., Strasbourg, Vol. III, 735-950.
+Bremmer Jr, Rolf H. (1982), Old English-Old
+Frisian: The Relationship Reviewed. In: Phil.
+Fris. Anno 1981, 79–90.
+Bremmer Jr, Rolf H. (1989), Late Medieval and
+Early Modern Opinions on the Affinity bet-
+ween English and Frisian: The Growth of a
+Commonplace. In: Folia Linguistica Historica
+9, 167-191.
+Campbell, Alistair (1939), Some Old Frisian
+Sound-Changes. In: Transactions of the Philo-
+logical Society, 78–107.
+Campbell, Alistair (1959), Old English Gram-
+mar. Oxford.
+Coetsem, Frans van(1994), The Vocalism of the
+Germanic Parent Language. Heidelberg.
+Dal, Ingerid (1983), 2.1. Altniederdeutsch und
+seine Vorstufen. In: Handbuch zur nieder-
+deutschen Sprach- und Literaturwissenschaft,
+eds. Gerhard Cordes/Dieter Möhn, Berlin,
+69-97.
+Eichner, Heiner (1990). Die Ausprägung der
+linguistischen Physiognomie des Englischen
+anno 400 bis 600 n. Chr. In: Britain 400-600:
+Language and History, eds. Alfred Bammes-
+berger/Alfred Wollmann, Heidelberg, 307-
+333.
+Frings, Theodor (1944), Die Stellung der Nie-
+derlande im Aufbau des Germanischen.
+Halle.
+Frings, Theodor (1957), Grundlegung einer
+Geschichte der deutschen Sprache, 3rd edn.
+Halle.
+Fulk, Robert D. (1998), The Chronology of An-
+glo-Frisian Sound Changes. In: Approaches,
+139-154.
+Gysseling, Maurits (1962), Het oudste Fries. In:
+IB 24, 1-26.
+Helten, Willem L. van (1890), Altostfriesische
+Grammatik. Leeuwarden (reprinted Wiesba-
+den 1970).
+Hofmann, Dietrich (1964), 'Germanisch' ē² im
+Friesischen. In: Festschrift für Jost Trier zum
+70. Geburtstag, eds. William Foerste / Karl
+Heinz Borck, Köln/Graz, 160-185. Also in:
+Hofmann, Schriften, II, 165-190.
+Hofmann, Dietrich (1979), Die Entwicklung des
+Nordfriesischen. In: Friesisch heute, eds. Ala-
+stair Walker / Ommo Wilts, Sankelmark
+(Schriftenreihe der Akademie, Neue Folge
+45/46), 11-28. Also in: Hofmann, Schriften,
+II, 449-466.
+Hofmann, Dietrich (1995), Zur Monophthon-
+gierung von germanisch ai und au im Altfrie-
+sischen und in seinen Nachbarsprachen. In:
+Lingua Theodisca, Beiträge zur Sprach- und
+
+=== page 522 ===
+522
+Literaturwissenschaft. Jan Goossens zum 65.
+Geburtstag, eds. José Cajot/Ludger Kremer/
+Hermann Niebaum, Münster, 23–35.
+Hogg, Richard H. (1992), Phonology and Mor-
+phology. In: The Cambridge History of the
+English Language, I: The Beginnings to 1066,
+ed. Richard H. Hogg, Cambridge, 67–167.
+Hogg, Richard H. (1992a), A Grammar of Old
+English, I: Phonology. Oxford.
+Hoops, Johannes (1911/13), Angelsachsen. In:
+Reallexikon der Germanischen Altertums-
+kunde, ed. Johannes Hoops, Strasbourg, vol.
+I, 87-95.
+Jankuhn, Herbert (1957), Die Frühgeschichte
+(Geschichte Schleswig-Holsteins, III). Neu-
+münster.
+Jankuhn, Herbert (1960), Zur Frage der friesi-
+schen Einwanderung in Nordfriesland. In:
+Phil. Fris. Anno 1959, 11–19.
+Jørgensen, Peter (1946), Über die Herkunft der
+Nordfriesen. København.
+Kisbye, Torben (1992), A Short History of the
+English Language. Aarhus.
+Klein, Thomas (1977), Studien zur Wechselbe-
+ziehung zwischen altsächsischem und althoch-
+deutschem Schreibwesen und ihrer Sprach-
+und kulturgeschichtlichen Bedeutung. Göp-
+pingen.
+Klein, Thomas (1990), Die Straubinger Heliand-
+Fragmente: altfriesisch oder altsächsisch? In:
+Aspects, 197-225.
+Krogh, Steffen (1996), Die Stellung des Altsäch-
+sischen im Rahmen der germanischen Spra-
+chen. Göttingen.
+Krupatkin, Y. B. (1970), From Germanic to
+English and Frisian. In: UW 19, 49-71.
+Kuhn, Hans (1955), Zur Gliederung der germa-
+nischen Sprachen. In: ZDA 86, 1–47.
+Lass, Roger (1994), Old English. A Historical
+Linguistic Companion. Cambridge.
+Lehmann, Winfred P. (1966), The Grouping of
+the Germanic Languages. In: Ancient Indo-
+European Dialects, eds. Henrik Birnbaum /
+Jaan Puhvel, Berkeley/Los Angeles, 13-27.
+Luick, Karl (1921), Historische Grammatik der
+englischen Sprache, I.1. Leipzig.
+Markey, Thomas L. (1976), Germanic Dialect
+Grouping and the Position of Ingvæonic.
+Innsbruck.
+Maurer, Friedrich (1952), Nordseegermanen
+und Alemannen. Studien zur germanischen
+und frühdeutschen Sprachgeschichtte, Stam-
+mes- und Volkskunde. Bern/München.
+Morsbach, Lorenz (1897), rev. of O. F. Emer-
+son, The History of the English Language
+(1894). In: Beiblatt zur Anglia 7, 321-338.
+Nielsen, Hans F. (1983), Germanic ai in Old Fri-
+sian, Old English and Old Norse. In: IF 88,
+156-164.
+III.1. Vor- und Frühgeschichte des Friesischen
+Nielsen, Hans F. (1984), A Note on the Origin
+of Old English Breaking and Back Mutation.
+In: ABäG 22, 73-81.
+Nielsen, Hans F. (1985), Old English and the
+Continental Germanic Languages, 2nd edn.
+Innsbruck.
+Nielsen, Hans F. (1989), The Germanic Lan-
+guages. Origins and Early Dialectal Interrela-
+tions. Tuscaloosa/London.
+Nielsen, Hans F. (1991), The Straubing Heliand-
+Fragment and the Old English Dialects. In:
+Language Contact in the British Isles, eds. Per
+Sture Ureland/George Broderick, Tübingen,
+243-273.
+Nielsen, Hans F. (1993), Runic Frisian skano-
+modu and aniwulufu and the Relative Chro-
+nology of Monophthongization and i-Muta-
+tion. In: NOWELE 21/22, 81-88.
+Nielsen, Hans F. (1994), Ante-Old Frisian: A
+Review. In: NOWELE 24, 91-136.
+Nielsen, Hans F. (1995), The Emergence of the
+os and ac Runes in the Runic Inscriptions of
+England and Frisia: A Linguistic Assessment.
+In: Fries. Stud. II, 19–34.
+Odenstedt, Bengt (1983), The Inscription on the
+Undley Bracteate and the Beginnings of Eng-
+lish Runic Writing. Umeå (Umeå Papers in
+English 5).
+Parsons, David (1996), The Origins and Chro-
+nology of the Anglo-Frisian Additional
+Runes. In: Frisian Runes and Neighbouring
+Traditions, eds. Tineke Looijenga / Arend
+Quak (= ABäG 45), Amsterdam, 151–170.
+Quak, Arend (1991), Altfriesische und altengli-
+sche Runen. In: Old English Runes and their
+Continental Background, ed. Alfred Bam-
+mesberger, Heidelberg, 287–298.
+Quak, Arend (1992), Versuch einer Formen-
+lehre des Altniederländischen auf der Basis
+der Wachtendonckschen Psalmen. In: Zur
+Phonologie und Morphologie des Altnieder-
+ländischen, eds. Rolf H. Bremmer Jr./Arend
+Quak, Odense (Nowele Suppl. 7), 81–123.
+Robinson, Orrin W. (1992), Old English and Its
+Closest Relatives. London.
+Rooth, Erik (1932), Die Sprachform der Merse-
+burger Quellen. In: Niederdeutsche Studien
+(Festschrift für Conrad Borchling), Neumün-
+ster, 24-54.
+Schleicher, August (1860), Die deutsche Spra-
+che. Stuttgart.
+Schönfeld's Historische Grammatica van het Ne-
+derlands. 1970. 8th edn. prepared by Adolphe
+van Loey. Zutphen.
+Schwarz, Ernst (1951), Goten, Nordgermanen,
+Angelsachsen. Studien zur Ausgliederung der
+germanischen Sprachen. Bern/München.
+Siebs, Theodor (1889), Zur Geschichte der eng-
+lisch-friesischen Sprache. Halle.
+
+=== page 523 ===
+Siebs, Theodor (1901), Geschichte der friesi-
+schen Sprache. In: Grundriß der germani-
+schen Philologie, ed. Hermann Paul, 2nd edn.
+Strasbourg, Vol. I, 1152–1464.
+Siebs, Theodor (1930), Die Friesen und die
+nächstverwandten Stämme. In: Mitteilungen
+der schlesischen Gesellschaft für Volkskunde
+31, 44-84.
+Sipma, Pieter (1913), Phonology and Grammar
+of Modern West Frisian with Phonetic Texts
+and Glossary. Oxford.
+Sjölin, Bo (1969), Einführung in das Friesische.
+Stuttgart.
+Sjölin, Bo (1973), Anglofriesisch. In: Reallexi-
+kon der Germanischen Altertumskunde, 2nd
+edn., Berlin, Vol. I, 329-331.
+Spenter, Arne (1968), Der Vokalismus der ak-
+zentuierten Silben in der Schiermonnikooger
+Mundart. Kopenhagen.
+Spenter, Arne (1970), rev. of Bo Sjölin, Einfüh-
+rung in das Friesische, Stuttgart 1969. In:
+PBB 92, 310–314.
+523
+Steller, Walther (1928), Abriß der altfriesischen
+Grammatik. Halle.
+Stiles, Patrick V. (1995), Remarks on the 'Anglo-
+Frisian' Thesis. In: Fries. Stud. II, 177–220.
+Streitberg, Wilhelm (1974 [1896]), Urgermani-
+sche Grammatik, 4th edn. Heidelberg.
+Sweet, Henry (1877), Dialects and Prehistoric
+Forms of Old English. In: Transactions of the
+Philological Society 1875/76, 543–569.
+Taeger, Burkhard (1979–84), Das Straubinger
+Heliand-Fragment. Philologische Untersu-
+chungen. In: PBB 101 (1979), 181-228; 103
+(1981), 402-424; 104 (1982), 10-43; 106
+(1984), 365-389.
+Vleeskruyer, Rudolf (1948), A. Campbell's
+Views on Inguaeonic. In: Neophilologus 32,
+173-183.
+Wortmann, Felix (1960), Zur Geschichte der
+langen ê- und ô-Laute in Niederdeutschland,
+besonders in Westfalen. In: Niederdeutsche
+Studien 6, 1-23.
+Hans Frede Nielsen, Odense
