@@ -10,23 +10,23 @@ Protected scientific conclusions:
     gemination of *w before *j, restoring the diphthong: PNWGmc *awj >
     PWGmc *[aw'w'] > pre-OE *[auj] (Ringe and Taylor p. 53 §3.1.3, "it was
     reversible"; Campbell §120.2 p. 46, "auj > auuj > auj").
-  * SC030 is NOT an independent Old English fronting. It is Anglo-Frisian
-    brightening applied to the first element of the diphthong *au
+  * The retained handbook analysis describes SC030 as brightening applied
+    to the first element of the diphthong *au
     (Campbell §132 p. 52 lists "West Gmc. a > OE ae; West Gmc. au > OE aeu"
     as one and the same ordered step; Fulk §4.12 p. 73, "This fronting of a
     applied also to the diphthong au in OE").
-  * SC030's scope is English, not Anglo-Frisian: Old Frisian has a with no
-    fronting (OE eac, eage, beam : OFris ak, age, bam), and OE geac has a
-    palatalized initial where OFris gak has none (Fulk §4.12 p. 73).
+  * SC030's retained executable scope is English. Its historical identity
+    relative to SC043 remains unresolved pending the full English/Frisian
+    chronology; different surface outcomes alone do not establish independence.
   * They are TWO changes and SC029 feeds SC030: "These new *au also
     underwent the development to ea" (Ringe and Taylor p. 173).
   * SC030's historical identity comes from INHERITED *au, which supplies 16
     of its 18 live firings. `hay` and `strew` are 2 further inputs and must
     never be treated as defining the rule.
   * The old registry claim that SC029/SC030 are "post-AF-brightening"
-    developments placed too early is RETRACTED. SC030 is contemporaneous
-    with SC043, and their domains are provably disjoint, so the executable
-    order is free and no reorder is required.
+    developments placed too early is RETRACTED. The executable domains of
+    SC030 and SC043 are disjoint, so that interaction does not require a
+    reorder; disjointness does not establish their historical contemporaneity.
   * Verdict RETAIN for both: no rule change, no move, no output change.
 
 The complete firing populations are deliberately NOT frozen here; they come
@@ -153,8 +153,8 @@ class Sc029Sc030AdjudicationTests(unittest.TestCase):
         EAFBrightening targets only the plain low-vowel digraphs, and every
         member of EnglishStarConsonant begins with '*', so no clause can find
         its context inside `{*áu}`, where the segment after `*á` is a bare
-        `u`. This is why SC030 may execute long before SC043 even though the
-        sources make them contemporaneous (memo §7).
+        `u`. This establishes executable non-interaction, not historical
+        contemporaneity or common-stem identity (memo §7.1).
         """
         for clause in ("EAFBrighteningUnstressed", "EAFBrighteningStressed",
                        "EAFBrighteningLongFinal"):
@@ -311,13 +311,21 @@ class Sc029Sc030AdjudicationTests(unittest.TestCase):
         for needle in (
             "reversal of the West Germanic",
             "it was reversible",
-            "Anglo-Frisian brightening applied to the first element",
+            "handbook interpretation used in this adjudication",
+            "brightening applied to the first element",
             "These new *au also underwent",
             "no such fronting in the development of au in OFris",
             "provably non-interacting",
         ):
             self.assertIn(needle, self.memo_flat,
                           f"memo must record: {needle!r}")
+
+    def test_memo_defers_the_comparative_identity_without_merging_rules(self):
+        self.assertIn(
+            "identity of SC030 and SC043 remains unresolved pending the full "
+            "English/Frisian relative chronology",
+            self.memo_flat)
+        self.assertIn("The registry therefore keeps two rows", self.memo_flat)
 
     def test_memo_keeps_the_inherited_au_population_central(self):
         self.assertIn("sixteen of the eighteen witnesses", self.memo_flat)

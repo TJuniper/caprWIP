@@ -19,21 +19,34 @@ placement problem in the registry.
    [@RingeTaylor2014, p. 53, §3.1.3; @Campbell1959, p. 46, §120.2].
    The display name is corrected; the Foma identifier rename is deferred.
 
-2. SC030 is not an independent Old English change either. It is **Anglo-Frisian
-   brightening applied to the first element of the diphthong *au**, and it is
-   restricted to English. Campbell, Fulk and Ringe and Taylor all say so
+2. The handbook interpretation used in this adjudication describes SC030 as
+   **brightening applied to the first element of the diphthong *au*** in
+   English. Campbell, Fulk and Ringe and Taylor support that description
    [@Campbell1959, p. 52, §132; @Fulk2018, p. 73, §4.12; @RingeTaylor2014, p. 172].
 
 3. They are genuinely two changes, and SC029 genuinely feeds SC030.
 
 4. The registry's standing claim that SC029 and SC030 "are historically
    post-AF-brightening OE diphthong developments" is **false** and is retracted.
-   SC030 *is* brightening, at the same stage, not after it.
+   The original adjudication treated SC030 as brightening at the same stage.
+   This historical identity/stage inference is now provisional: §7.1 records
+   competing analyses without changing the registry.
 
 5. **No executable reorder is required.** The domains of SC030 and SC043 are
    provably disjoint, and the current position of SC029/SC030 immediately after
    SC004 reproduces Campbell's own relative chronology. The anticipated
    SC031--SC034 / SC043 corridor problem does not exist.
+
+6. **Revised 2026:** point 2's claim that SC030 is restricted to English is a
+   statement about the executable scope of the *English* rule and stands. But
+   §7.1 originally went further and declared SC030 and SC043 historically
+   distinct events. That verdict is **withdrawn and replaced by "unresolved"**;
+   the argument it rested on does not hold, and the Frisian specialist
+   literature is openly divided. Points 2 and 4's historical interpretation
+   must therefore be read as provisional, not a settled common-stem placement.
+   The registry still keeps two rows, and no executable behaviour changes.
+   See §7.1 and the
+   Anglo-Frisian synthesis dossier.
 
 ## 1. What the executable rules actually do
 
@@ -374,44 +387,155 @@ retracted as resting on a misidentification of SC030.
 
 ### 7.1 Do SC030 and SC043 share one canonical historical identity?
 
-No, and the distinction matters. They are the same phonetic process, but not
-the same historical event, and they must not be merged into one registry
-identity.
+**Unresolved.** The registry keeps two rows, but provisionally, and the reason
+is weaker than this section originally claimed.
+
+> **Revised 2026 (Anglo-Frisian source pass).** This subsection previously
+> answered "No, and the distinction matters", and rested that answer on the
+> premise that a single change cannot have two isoglosses. Direct consultation
+> of the Frisian literature shows the premise does not hold, and that the
+> question is actively controversial among specialists. The original argument
+> is retained below with its defect marked, because the executable consequence
+> — two registry rows — is unchanged, and only the justification moves. The
+> comparative chronology is now maintained in
+> `../literature_dossiers/anglo_frisian/anglo-frisian-chronology.synthesis.md`,
+> which is the single authority for it; this memo defers to that file and
+> should not be read as independently settling the identity question.
 
 Fulk states the relation in one sentence. Having defined the fronting of plain
 \emph{*a} and named it, "This fronting is commonly referred to as Anglo-Frisian
 Brightening", he continues: "This fronting of *a* applied also to the diphthong
 *au* in OE, producing *ēa*" [@Fulk2018, p. 73, §4.12]. The wording is precise
-and worth keeping. Brightening is one process; SC043 is its operation on the
+and worth keeping. On Fulk's description, brightening is one process; SC043 represents its operation on the
 plain vowel, and SC030 is its application to the first element of the
 diphthong.
 
-Three things follow.
+The earlier argument and its limitations are recorded below.
 
-**They are one process.** Nothing distinguishes the two phonetically. Both
+**A unified phonetic description.** Both
 front a low back vowel to a low front one, and the executable clauses differ
-only in what follows the vowel. Any account that treats SC030 as a wholly
-unrelated change misses what Fulk says plainly.
+only in what follows the vowel. Fulk's wording supports this interpretation,
+but does not uniquely establish one historical event.
 
-**They are two events.** Their isoglosses differ, and that is a historical
+**The withdrawn two-event inference.** Their surface distributions differ,
+and that is an observational
 fact, not a modelling convenience. Brightening of plain \emph{*a} is
 Anglo-Frisian: OE *fæder*, *dæg*, *læt* against OFris. *feder*, *dei*, *let*.
 Brightening of the diphthong is English only, because Old Frisian took the
 diphthong somewhere else entirely, monophthongizing \emph{au} to \emph{ā}
-[@Fulk2018, p. 73, §4.12]. A single change cannot have two isoglosses.
+[@Fulk2018, p. 73, §4.12]. ~~A single change cannot have two isoglosses.~~
+
+> **The struck sentence does not follow, and the conclusion it supports is not
+> established.** A differing isogloss has at least two available explanations,
+> and this section considered only one of them.
+>
+> The alternative is ordinary bleeding. If Old Frisian contracted the
+> diphthong *before* the fronting applied, then the fronting simply had no
+> diphthong left to operate on in Frisian, and its absence there is a
+> consequence of relative order rather than evidence of a distinct historical
+> change. An earlier Frisian contraction followed by fronting predicts the
+> attested surface distribution. It does **not**, under CAPR's tree test,
+> permit that later fronting to be inherited from a shared stem: a
+> Frisian-specific contraction preceding it would already require the split.
+>
+> This is not a hypothetical repair. It is Campbell's own account — the same
+> Alistair Campbell cited elsewhere in this memo as @Campbell1959, here in his
+> earlier and much more explicit treatment of the Frisian side: "OFris
+> developed Germ au to ā. Probably the second element was developed to a, as
+> in OE, but at an earlier date, **before the fronting of Germ a could affect
+> the first element**. Then the resulting aa was contracted to ā"
+> [@Campbell1939, p. 91]. His summary chronology for Old Frisian orders the
+> changes accordingly, with "(2) Germ au > ā" preceding "(3) Germ a > æ"
+> [@Campbell1939, p. 104, §12].
+>
+> Thus the surface distribution alone does not determine the identity of the
+> English frontings represented by SC030 and SC043. Once Campbell's
+> daughter-specific ordering is accepted, however, the common-stem placement
+> of short-*a* fronting fails the tree test. These are separate questions:
+> whether two English applications constitute one process, and whether its
+> English and Frisian applications constitute one inherited innovation.
+>
+> Campbell nevertheless reaches a separatist conclusion, but by a different
+> and much stronger route: he argues that the relative order of
+> \emph{*ai}-monophthongization and \emph{*a}-fronting is *reversed* between
+> the two languages. In English the monophthongization "must have been
+> completed before the fronting of Germ a, or the first element of the
+> diphthong would have been fronted"; in Frisian it "may well have been over
+> an intermediate stage æi, **which was occasioned by the fronting of Germ a
+> to æ**" [@Campbell1939, p. 90]. Two changes cannot be inherited in one
+> order and also in its reverse, so he concludes the monophthongization "must
+> have taken place after the dissolution of the Anglo-Frisian unity, if such a
+> unity ever existed" [@Campbell1939, p. 90].
+>
+> The Frisian intermediate is proposed with "may well", not demonstrated
+> directly by an attested *æi* stage. That argument, if sound, bears on SC043
+> as much as on SC030 and would make
+> the fronting itself a parallel innovation. It is also directly contradicted
+> by Kortlandt, who places \emph{*ai} > \emph{ā}, the fronting, and
+> palatalization all on the shared stem in that order [@Kortlandt2008, p. 270].
+> Adjudicating between them requires the full Frisian chain and
+> is explicitly out of scope here; see the synthesis dossier.
 
 **The scope difference has an independent diagnostic.** It does not rest on the
 direct reflexes alone. Old English *gēac* 'cuckoo' has a palatalized initial,
 which requires that a front vowel followed it; Old Frisian *gāk* has none
 [@Fulk2018, p. 73, §4.12]. The palatalization is a later change reading the
 output of the fronting, so it witnesses the fronting even where the vowel
-itself has since been obscured. That is why the scope claim is secure enough
-to carry a confidence A.
+itself has since been obscured. ~~That is why the scope claim is secure enough
+to carry a confidence A.~~
 
-The registry therefore keeps two rows. SC043 is Anglo-Frisian Brightening;
-SC030 is the application of that fronting to the diphthong in English. Neither
-is a duplicate of the other, and §7 above shows that their executable domains
-are provably disjoint, so nothing is lost by keeping them apart.
+> **What *gēac* shows, and what it does not.** The diagnostic is real and the
+> observation is sound, but it is weaker than the struck sentence claims,
+> because it is predicted equally by both competing analyses.
+>
+> What it establishes is an *English* ordering: the fronting of the first
+> element preceded palatalization, since the palatal initial must have been
+> conditioned by a front vowel. That is a genuine and useful result.
+>
+> What it does not establish is that the diphthong fronting is a separate
+> historical event from SC043. The Frisian half of the contrast is silent on
+> that question. Under the bleeding account above, Old Frisian had already
+> contracted the diphthong to \emph{ā} before any fronting applied, so the
+> velar in *gāk* stood before a back vowel and could not palatalize — exactly
+> the attested outcome, with no separate fronting change required. Both
+> analyses predict OFris. *gāk*, so the pair does not discriminate between
+> them.
+>
+> Kortlandt makes the same point structurally, deriving the Frisian absence
+> of palatalization from ordering rather than from a distinct fronting: since
+> "we do not find palatalization before *ai and *au", he proposes that
+> \emph{*ai} had already become back \emph{ā}, whereas \emph{*au} remained
+> unchanged [@Kortlandt2008, p. 267]. His Frisian monophthongization of
+> \emph{*au} (F 12) accordingly falls after the
+> shared palatalization (AF 7) [@Kortlandt2008, pp. 270–271]. He cites the same
+> contrast type — OE *cēapian* against OFris. *kāpia* 'buy' — in precisely
+> this role [@Kortlandt2008, p. 267]. His prose and numbered sequence agree:
+> \emph{*ai} and \emph{*au} are at different stages when AF 7 applies.
+>
+> The registry confidence field is **not** changed here. Changing scope,
+> stage, or confidence to match one source is out of scope for this pass, and
+> the executable behaviour is unaffected either way. This note records that
+> the stated justification for the value is narrower than the memo claimed,
+> which is a matter for the eventual adjudication rather than for now.
+
+The registry therefore keeps two rows — **provisionally**. Under the handbook
+analysis originally followed here, SC043 represents ordinary brightening
+and SC030 its application to the diphthong in English; that process identity
+is now one competing interpretation, not a settled verdict. §7 above shows
+that their executable domains are
+provably disjoint, so nothing is lost by keeping them apart, and keeping them
+apart prejudges nothing: two rows can always be merged later if the identity
+is established, whereas a premature merger would silently destroy the
+distinction.
+
+What would settle it is not whether English and Frisian look similar. It is
+whether one and the same fronting innovation can be placed before the
+English/Frisian split while respecting every securely established
+daughter-specific chronological edge. The Frisian chain needed for that test
+does not yet exist in CAPR. Until it does, the honest statement of CAPR's
+position is that **the identity of SC030 and SC043 remains unresolved pending
+the full English/Frisian relative chronology**, and the surviving competing
+analyses are enumerated in the synthesis dossier rather than here.
 
 ## 8. Relation to SC032
 
