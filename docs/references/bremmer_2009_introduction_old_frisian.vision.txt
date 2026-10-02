@@ -36,6 +36,9 @@ p. 30: the palatalization diagram's raised j marks, misread as digits
 3, are transcribed as ʲ; the length mark as ː. The fricative glyph
 misread as y is transcribed as ɣ, not the rounded vowel [y].
 These are source-transcription repairs, not changes to any FST rule.
+p. 29: §38 Remark restored the two missing long-vowel outcomes ā and ē
+from the page image; no change to the author's unresolved conditioning.
+p. 126: §221's OCR telephone symbol restored to ǣ from the page image.
 
 PAGE NUMBERING
 --------------
@@ -1655,7 +1658,7 @@ zation product a does not undergo fronting. OFris ā < *au was also later than r
 ing of WGmc ā before nasal, because they do not fall together. Monophthongization
 precedes i-mutation.
 REMARK
-The dual outcome of *ai as a and is Proto-Frisian, since this outcome is also reflected in North
+The dual outcome of *ai as ā and ē is Proto-Frisian, since this outcome is also reflected in North
 Frisian, cf. Århammar (1990: 22), Hofmann (1995).
 (5) Fronting of WGmc *a > PFris *æ
 §39 Process
@@ -6482,7 +6485,7 @@ lish is more closely linked to Old Frisian than any other Germanic language' (Ni
 1985: 273; cf. Bremmer 1982).
 §221 Some striking phonological parallels include: nasalization and rounding of a,
 both short and long, before nasals (§28); loss of nasal before voiceless fricative plus
-compensatory lengthening (§30); fronting of West Germanic ā > ☎ (§33); monoph-
+compensatory lengthening (§30); fronting of West Germanic ā > ǣ (§33); monoph-
 thongization of Gmc *ai > ā (§36); fronting of a > æ (§37); palatalization and assibila-
 tion of *g and *k before front vowels (§42), and breaking of short e and i before certain
 velar consonant clusters (§48).

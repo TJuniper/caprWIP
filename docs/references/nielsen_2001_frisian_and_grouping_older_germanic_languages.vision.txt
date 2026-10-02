@@ -241,20 +241,14 @@ mann 1964, 162):
 === page 514 ===
 514
 III.1. Vor- und Frühgeschichte des Friesischen
-e
-a
-u
-ī
-ū
-ē
-б
-а
-0
-By comparison, OE had both Ĕ and y in
+i     u          ī     ū
+e     o          ē     ō
+   a                ā
+By comparison, OE had both ǣ̆ and ȳ̆ in
 addition to monophthongs identical with
 that of the OFr. system, a fact which was
-due to the fronting of ǎ and i-umlaut of
-й. Similar processes occurred in OFr., but
+due to the fronting of ā̆ and i-umlaut of
+ū̆. Similar processes occurred in OFr., but
 here the fronted reflex of short Gmc. a
 (cf. stef 'staff') and the i-mutated product
 of short Gmc. u (cf. fella 'to fill’; OE fyl-
@@ -263,16 +257,16 @@ e (cf. bera 'to bear'). In the OFr. long sys-
 tem of monophthongs, no less than six
 Gmc. vowels are reflected by OFr. ē, viz.
 Gmc. ē¹ (> WGmc. ā, cf. dēd(e) ‘deed'), ē²
-(cf. mēde 'rent'), ai (cf. sten ‘stone'), au +
+(cf. mēde 'rent'), ai (cf. stēn ‘stone'), au +
 i, j (cf. hēra ‘to hear'), ō + i, j (cf. fēda ‘to
 feed') and ū + i, j (cf. hēd 'skin'), corre-
 sponding to six different vowel phonemes
-in (early) OE (cf. dad (fronting), mēd,
-stān, hīeran, fœdan and hỹd (i-umlaut)). It
+in (early) OE (cf. dǣd (fronting), mēd,
+stān, hīeran, fēdan and hȳd (i-umlaut)). It
 should be noted that a split plus merger
 took place in OFr. in the development of
-Gmc. e² (WGmc. ā), a change parallelled
-by OE, cf. dēd(e), mōna ‘moon', OE dad,
+Gmc. ē¹ (WGmc. ā), a change parallelled
+by OE, cf. dēd(e), mōna ‘moon', OE dǣd,
 mōna vs. OHG tāt, māno. Further, a split
 of Gmc. ai into ē and ā occurred in OFr.
 as shown by stēn and māra, where, e.g.,
@@ -300,15 +294,12 @@ for Proto-OFr. prior to the introduction
 of i-mutated long vowels, i.e. a system
 which had no currency beyond the 8th
 century:
-I
-ē
-æ
-ū
-б
-а
+ī     ū
+ē     ō
+ǣ     ā
 Gmc. ē² has here merged with the reflexes
 of Gmc, ī and ē¹ (/i:/ and /e:/), and /æ:/
-anda: were added to the system due to
+and /a:/ were added to the system due to
 the monophthongisation of Gmc. ai and
 au, cf. above.
 Stiles (1995, 199f) and several investiga-
@@ -325,7 +316,7 @@ of either a drag- or a push-chain mecha-
 nism (cf. Lass 1994, 39–41). In the light
 of the fronted (cf. dēd(e)) and back
 rounded (cf. mōna) reflexes of WGmc. ā
-(< Gmc. ē²), a Proto-OFr. push-chain shift
+(< Gmc. ē¹), a Proto-OFr. push-chain shift
 triggered by the monophthongisation of
 Gmc. ai and au is likely to have restricted
 the phonological space in the open front
@@ -335,23 +326,23 @@ ized back allophone had arisen that
 eventually merged with ō (as in OE), cf.
 OFr. (OE) mōna), the reflex of Gmc. ē¹
 was confined to the mid-front area, ē²
-merging partly with Gmc. 7, partly with
-Gmc. ē¹. Before i-mutated ã < Gmc. au
-joined the ā (< ai) phoneme, & was ex-
+merging partly with Gmc. ī, partly with
+Gmc. ē¹. Before i-mutated ā < Gmc. au
+joined the ǣ (< ai) phoneme, ǣ was ex-
 posed to a phonemic split in that its allo-
 phones in »grave« environments coa-
 lesced with ā, cf. OFr. rāp ‘rope', māra
-'more' vs. stěn ‘stone', brēd 'broad' (OE
+'more' vs. stēn ‘stone', brēd 'broad' (OE
 rāp, māra, stān, brād). Had i-umlaut ante-
 dated »gravity<< assimilation, i-mutated ā
 (< Gmc. au) would not have come out
-consistently as a (spelt (e) in OFr., e.g.
+consistently as ǣ (spelt ⟨e⟩ in OFr., e.g.
 hēra 'to hear'), cf. Nielsen 1983.
 As for OE, the fronting of WGmc. ā (<
 Gmc. ē¹) has traditionally been assumed
 to antedate the monophthongisation of ai
 to ā since otherwise the reflex of ai would
-have become a in OE. Further, the mon-
+have become ǣ in OE. Further, the mon-
 ophthongisation is thought to have oc-
 curred prior to the fronting of short a (cf.
 below) because the first element of ai
@@ -373,12 +364,12 @@ one we posited for OFr. would seem to be
 the more plausible scenario also for OE:
 in addition to restricting the extensive
 phonological space occupied by the reflex
-of Gmc. ē in the open and half-open
+of Gmc. ē¹ in the open and half-open
 areas, the introduction of ā (< Gmc. ai)
 led to a phonemic split (plus merger) in
 which an open front-back correlation
-arose between a (< ē¹ ) and ā (< ai) and
-the nasalized a reflex of e¹ eventually
+arose between ǣ (< ē¹) and ā (< ai) and
+the nasalized ā̃ reflex of ē¹ eventually
 merged with ō (cf. above and Krupatkin
 1970; cf. also Nielsen 1995, 25f). As al-
 ready mentioned, the reflex of Gmc. au
@@ -393,7 +384,7 @@ fara 'to go', OE faran.
 Vowel monophthongisations in Proto-
 OFr. and pre-OE may thus have sparked
 off split-plus-merger developments as re-
-gards the fate of Gmc. ĕ in the two lan-
+gards the fate of Gmc. ē¹ in the two lan-
 guages, but as mutually independent pro-
 cesses.
 Jørgensen's hypothesis (cf. above and
@@ -421,7 +412,7 @@ names) the rune is therefore likely to
 have been invented in England and been
 exported from there to Frisia (Stiles 1995,
 186; Parsons 1996; cf. also Quak 1991,
-291), where Gmc. ai became a (cf. OFr.
+291), where Gmc. ai became ǣ (cf. OFr.
 ēk ‘oak'), and where for phonetic reasons,
 but contrary to the acrophonic principle,
 the runic letter was used with the sound
@@ -438,12 +429,12 @@ monophthongisation of Gmc. ai and au to
 the 8th century. Hofmann originally ar-
 rived at this result as a by-product of his
 attempt to account for the reflexes of
-Gmc. ² in Insular NFr. and Weser Fr. »re-
+Gmc. ē² in Insular NFr. and Weser Fr. »re-
 duplicating<< preterites (1964, 164–182).
 In a paper from 1993, I questioned Hof-
 mann's chronology, focusing chiefly on
 two points: (1) the early runic Fr. attesta-
-tion of a < Gmc. au (cf. the legend on the
+tion of ā < Gmc. au (cf. the legend on the
 London gold solidus); and (2) the fact that
 Gmc. ai has two reflexes distributed on
 virtually the same words in all Fr. dialects,
@@ -459,12 +450,12 @@ Amrum) from the 7th century (Jankuhn
 1957, 168-186; 1960, 11-17). Hofmann
 has countered my item no. (2) by linking
 the phonemic split of Gmc. ai in Fr. to
-that which came to affect the open & re-
+that which came to affect the open ę̄ re-
 flex of Gmc. ai in the north of Germany.
 With reference to Wortmann (1960, 16–
 19), Hofmann (1995, 28) notes that the
 LG dialect area in which the phonemic
-split of ę occurs, comprises not just north-
+split of ę̄ occurs, comprises not just north-
 ern Germany (Eastphalia and fair chunks
 -
 on
@@ -483,14 +474,14 @@ words exhibiting the phonemic split in LG
 does not tally with the uniform lexical dis-
 tribution patterns applying to all Fr. dia-
 lects; (2) no date is offered for the LG
-split of ę (< Gmc. ai) into two vowels >>die
+split of ę̄ (< Gmc. ai) into two vowels >>die
 irgendwann mit ihren Nachbarlauten zu-
 sammenfielen« (Hofmann 1995, 28). And
 to this should be added that the strong
 (formerly reduplicated) class VII preter-
 ites in ē² in the North and West Gmc. lan-
 guages were lexical additions to the new
-² phoneme rather than its starting point
+ē² phoneme rather than its starting point
 (v. Coetsem 1994, 99–102). Hofmann may
 therefore have overrated the explanatory
 power of his material and its conse-
@@ -504,8 +495,8 @@ emergence of new open monophthong-
 ized vowels in the early Fr. and Eng. long
 vowel systems was to restrict the phono-
 logical space of the respective reflexes of
-Gmc. ē (cf. Hofmann 1979, 15), making
-the fronting of WGmc. a secondary in re-
+Gmc. ē¹ (cf. Hofmann 1979, 15), making
+the fronting of WGmc. ā secondary in re-
 lation to monophthongisation.
 In the OS long vowel system there was
 no fronting or rounding of WGmc. ā (<
@@ -528,7 +519,7 @@ III.1. Vor- und Frühgeschichte des Friesischen
 point is the Straubing version of the
 Heliand epic (cf. Klein 1990), where
 fronted reflexes of WGmc. ā as well as
-Gmc. a are found (cf. uuĕrun ‘were'; creht
+Gmc. a are found (cf. uuērun ‘were'; creht
 'power'); where ā before a nasal may
 come out as ō (cf. sōn ‘at once'); and
 where Gmc. au is reflected as ā (cf. thāh
@@ -537,18 +528,18 @@ nasal is often reflected as o instead of a in
 the Straubing fragments, cf. monn 'man'
 vs. land 'land' (Taeger 1982, 25; Nielsen
 1991, 255f), OFr./OE mon, man.
-Perhaps the eventual split of OS ę (cf.
+Perhaps the eventual split of OS ę̄ (cf.
 above) and merger with the reflexes of
 -
-(1) Gmc. 2 and (2) the i-mutated allo-
+(1) Gmc. ē² and (2) the i-mutated allo-
 phone of WGmc. ā (which was kept apart
 from the non-mutated reflex of WGmc.
 ā) is easier to comprehend if an OS
 vowel system is posited in which WGmc.
 ā is seen within a North Sea Gmc. frame-
 work (Klein 1977, 516). This would make
-the split of OS e comparable to that of
-ā (< Gmc. ai) in Fr., but it must be
+the split of OS ę̄ comparable to that of
+ǣ (< Gmc. ai) in Fr., but it must be
 stressed that such a parallel between OS
 and Fr. is structurally conditioned, requir-
 ing no explanation in terms of shared ori-
@@ -583,7 +574,7 @@ of England? Presumably there is only one
 === page 517 ===
 48. Frisian and the Grouping of the Older Germanic Languages
 plausible candidate for such a shift, and
-that is nasalized long and short ã.
+that is nasalized long and short ā̆.
 The earliest find in Frisia or England to
 show any of the new runic letters included
 in the extended »Anglo-Fr.<< futhorc is the
@@ -611,13 +602,13 @@ of long and short a respectively. Accord-
 ing to Krupatkin (1970, 54–56), the events
 leading up to this were that in the North
 Sea Gmc. dialects the reflex of WGmc. ā
-(< Gmc. ē¹) split into nasalized »ā^« and
-non-nasalized »ā³«, ā” occurring before
+(< Gmc. ē¹) split into nasalized »āⁿ« and
+non-nasalized »āᵛ«, āⁿ occurring before
 nasals and merging with the reflexes of
 Gmc. a nasal before voiceless fricatives
 (*anh, *ans, *anf, *anþ), and that Gmc. a,
 to restore systemic equilibrium, split into
-short a and a". The advantage to the
+short aᵛ and aⁿ. The advantage to the
 vowel system was that long and short vow-
 els remained qualitatively equivalent. The
 eventual shift to ō was triggered by the in-
@@ -626,10 +617,10 @@ vowel ā, which obviated the non-nasal-
 ity nasality opposition, a front-back
 contrast developing with the fronting of
 WGmc. ā. The by now isolated nasalized
-vowel ā” merged with ō, and in the short
-system the opposition a"-a" was replaced
+vowel āⁿ merged with ō, and in the short
+system the opposition aᵛ–aⁿ was replaced
 by a front-back contrast modelled on the
-long system. After a" was denasalized, it
+long system. After aⁿ was denasalized, it
 was represented by both a and o spellings
 (Krupatkin 1970, 59-69). Both the long
 and short vowels thus ended up with a
@@ -637,20 +628,20 @@ three-tier system with a front-back con-
 trast also in the open area.
 517
 In any case, Krupatkin's scenario opens
-up the possibility that a split into ẵ³–ẵn
+up the possibility that a split into ā̆ᵛ–ā̆ⁿ
 was an early, shared North Sea Gmc. shift,
 the phonemic distinction being expressed
 graphemically by the contrast between ▸
 and the new rune. In a paper published
 in 1995, I »emended«< Eichner's interpre-
-tation of the Undley rune & as o(n) to a”,
+tation of the Undley rune & as o(n) to aⁿ,
 otherwise retaining his reading of the
 inscription (Nielsen 1995, 29f). Although
 I believe that Krupatkin's model has
 much to be said in its favour, I now think
 that there is internal evidence to suggest
 that Undley had come to denote o, even
-if originally the rune was devised for a"
+if originally the rune was devised for aⁿ
 (Nielsen forthcoming).
 As for the later vocalic changes, the
 OFr. breaking of Gmc. i, e > iu occurred
@@ -658,7 +649,7 @@ before ch(t), chs and rch (Boutkan 1998;
 cf. also Stiles 1995, 195; 213f), cf. riucht
 'right', tiuche 'team', *miuchs ‘dung' and
 thriuch 'through' (with metathesis, cf.
-Goth. pairh). Further, Gmc. i became iu
+Goth. þairh). Further, Gmc. i became iu
 before Gmc. (n)kw, ngw, cf. thiukke
 'thick', siunga 'to sing', cf. ODan./OSwed.
 thiukkær/-er, siungæ/-a. That these diph-
@@ -724,7 +715,7 @@ manuscripts exhibit a system with four un-
 accented phonemes (Hogg 1992, 119–
 122), two back (u, a) and two front vowels
 (i, æ), cf. early Northumbrian dryctin,
-gen.sg.m./n. -œs.
+gen.sg.m./n. -æs.
 The earliest OE system has quadrangu-
 lar counterparts in OS where all texts
 have unaccented -i (cf. wini ‘friend', droh-
@@ -753,7 +744,7 @@ an early OS system consisting of the four
 phonemes /-i, -æ, -ɔ, -u/. This system is
 attested basically only in the Monacensis-
 manuscript (M) of the Heliand (Klein
-1977, 416), which combined -0/-ɔ/ with a
+1977, 416), which combined -o /-ɔ/ with a
 great deal of orthographic variation be-
 tween -a and -e to render /-æ/. The reason
 for this variation should be attributed to
@@ -827,10 +818,10 @@ thus appear to have taken place in Old
 In OFr., the number of consonant pho-
 nemes was increased through the palatali-
 sation and affrication of the Gmc. velar
-stops /k/ and /g/: /k/ became /ts/ before
+stops /k/ and /g/: /k/ became /tˢ/ before
 original front vowels and j, cf. tsiāsa 'to
 choose', lētza ‘doctor'; and /g/ changed
-to /d²/ when geminated before j, cf. ledza
+to /dᶻ/ when geminated before j, cf. ledza
 'to lay', or when occurring between n
 and i, cf. keninze (< *kuningi- ) ‘king'. /k/
 was not palatalized and affricated before
@@ -840,17 +831,17 @@ postdated the palatalisation and affrica-
 tion of /k/ (and /g/). Another important
 change pertains to the allophonic varia-
 tion among fricatives in OFr. Except in
-the case of /s/ # /z/ voice was not a dis-
+the case of /s/ ≠ /z/ voice was not a dis-
 tinctive feature as regards the Proto-Gmc.
-fricatives, *[b, ð, g] being allophones of
-*/b, d, g/ (± */f, 0, x/). In West Gmc., [ð]
-coalesced with /d/, and in OFr., [b]
+fricatives, *[ƀ, ð, ǥ] being allophones of
+*/b, d, g/ (≠ */f, θ, x/). In West Gmc., [ð]
+coalesced with /d/, and in OFr., [ƀ]
 merged with the voiceless fricative /f/,
 which like the other voiceless fricatives
 became voiced in medial position ([v]).
-/f/, /0/ and /s/ have the following allo-
+/f/, /θ/ and /s/ have the following allo-
 phonic distribution in OFr.: [f] fisk ‘fish',
-gref ‘grave', [v] greva 'to dig'; [0] thonkia
+gref ‘grave', [v] greva 'to dig'; [θ] thonkia
 519
 'to thank', beth ‘bath', [ð] wertha ‘to be-
 come'; and [s] sunu ‘son', hus ‘house', [z]
@@ -862,12 +853,12 @@ tia 'to pull', pret. tāch (Goth. tiuhan,
 tauh).
 In OE, palatalized and affricated stops
 developed in much the same way as in
-OFr., cf. OE cēosan 'to choose', lāce 'doc-
-tor', both with /tf/; and lecgan 'to lay',
-sengan 'to singe', both with /d3/. As in
+OFr., cf. OE cēosan 'to choose', lǣce 'doc-
+tor', both with /tʃ/; and lecgan 'to lay',
+sengan 'to singe', both with /dʒ/. As in
 OFr., a phonemic split of the old /k/ pho-
 neme (as well as /g/) arose when, in the
-wake of i-umlaut, palatalised/tf/ came to
+wake of i-umlaut, palatalised /tʃ/ came to
 contrast with non-palatalised /k/ in mini-
 mal pairs, e.g. OE ċēn (< *kēna-) ‘torch'
 and cēne (< *kōni-) ‘keen'. The OE frica-
@@ -886,7 +877,7 @@ tor' and leggian 'to lay'. Another differ-
 ence is the retention of the fricative /h/
 in medial position where it disappeared in
 OFr. and OE, cf. OS tiohan 'to pull'. The
-remaining OS fricatives (/f/, /0/, /s/) are
+remaining OS fricatives (/f/, /θ/, /s/) are
 treated in the same way as the OFr. and
 OE ones, e.g. [f] fisk ‘fish', graf ‘grave', [v]
 bigraban 'to bury'.
@@ -897,7 +888,7 @@ phonemic) distribution of voiceless and
 voiced fricatives arose, occurred before
 the emergence of the earliest manuscripts.
 But in runic Fr., the contrast between
-Gmc. */b/ [b] and */f/ [f] has been
+Gmc. */b/ [ƀ] and */f/ [f] has been
 retained graphemically in, respectively,
 (Oostum comb, c. 800) habuku ‘hawk' (<
 Gmc. nom.sg.m. *habukaz) and the per-
@@ -909,7 +900,7 @@ the voicing of -s- and -þ- in medial posi-
 === page 520 ===
 520
 tion postdated, respectively, the change of
-medial Gmc. *z to r and that of *Ŏ to d
+medial Gmc. *z to r and that of *ð to d
 (WGmc.).
 As for the palatalisation and affrication
 of Gmc. *k and *g, these changes affected
@@ -921,7 +912,7 @@ must have come about in the two lan-
 guages before the operation of i-umlaut.
 But since, e.g., *k- is affected also before
 the fronted reflexes of Gmc. a and
-WGmc. à in OFr. and OE, cf. OFr. tsetel
+WGmc. ā in OFr. and OE, cf. OFr. tsetel
 'kettle' (< Lat. *catīnus, catīllus), tzīse
 'cheese' (< Lat. *cāseus) and OE ceaf
 ‘chaff', cēace ‘cheek', it can safely be as-
@@ -987,9 +978,9 @@ Markey's items (1) and (2) as pre-invasion
 shifts.
 Except for the fronting of ā, I have no
 problems in assigning the contrast between
-(what Krupatkin (cf. 2.1.) designated as) ǎ
-and an, the loss of nasals before fricatives
-(whereby a" occurring before nasals
+(what Krupatkin (cf. 2.1.) designated as) ā̆ᵛ
+and ā̆ⁿ, the loss of nasals before fricatives
+(whereby aⁿ occurring before nasals
 merged with the reflexes of Gmc. a in the
 sequences *anh, *ans, *anf, *anþ, cf. 2.1.),
 and the uniform 1./2./3. pres. pl. endings
@@ -1011,7 +1002,7 @@ unaccented monosyllabic pronouns exhib-
 iting consonantal loss and accented ones
 retaining -r, the accented reflex of *-z.
 Subsequent levellings brought about a
-generalization of - forms in OHG (cf. er,
+generalization of -r forms in OHG (cf. er,
 wir, mir) and forms without a final conso-
 nant in North Sea Gmc. Further, I believe
 that the addition of h- to the nom.sg.m.

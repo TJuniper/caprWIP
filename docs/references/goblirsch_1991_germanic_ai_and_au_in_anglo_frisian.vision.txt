@@ -50,6 +50,24 @@ and iu/eo/aa -> īu/ēo/ēa in the listed long-vowel series.
 p. 21: ĕa -> ēa in the concluding au statement.
 These are typographic readings, not corrections to the author's analysis.
 Other short/long ae notation and fine phonetic glyphs remain image-check items.
+Full direct rereading against all seven sheets, with enlarged passages:
+p. 17–18: Gothic daups/daupjan -> dauþs/dauþjan.
+p. 18: the author's tentative au explanation prints ā > æ (the æ has NO
+macron); restored this against the earlier over-repair to ǣ. Siebs's
+reported ai > ǣ, subsequent ǣ > ā and English ǣ > ā restored; the first
+æ in "Frisian shifted æ > ē" is unmarked in print and is retained.
+p. 19: the timbre-gliding series prints īu, ēo, ǣa, not īu, ēo, ēa;
+restored the final ligature against the earlier over-repair. Restored
+Hockett's /ə/, /ɨ/, [æw] and the macrons in dēad, dēop, līode.
+p. 20: restored printed lengths throughout the ME/OE
+comparisons (gigoð/gioguð -> gigōð/giogūð),
+ON jǫ/jǫfurr (ogonek, not underbar), and the lost l after "dental stops".
+The p. 20 féawe/féwe OCR accents are printed macrons (fēawe/fēwe).
+p. 21: ēa restored in both the common-state and concluding innovation
+statements; ā -> ǣ in the WGmc. fronting list; ag/ai -> æg/æi;
+the onomastic comparandum *daupu- -> printed *dauþu-.
+These local corrections leave all previously verified repairs intact
+except the specifically rechecked, unmarked æ on p. 18 and ǣa on p. 19.
 
 === page 17 ===
 GERMANIC AI AND AU IN ANGLO-FRISIAN*
@@ -57,10 +75,10 @@ by Kurt Gustav Goblirsch - Minneapolis
 The development of ai and au in Anglo-Frisian runs counter to the Germanic trend
 of monophthongization to the front and back mid vowels ē and ō; in addition it is
 not uniform within itself: ai is monophthongized to ā, which sometimes appears as
-ē in Frisian, whereas au is maintained as the diphthong ea in Old English and
+ē in Frisian, whereas au is maintained as the diphthong ēa in Old English and
 monophthongized to ā in Old Frisian. Even if it is true that the Anglo-Frisian
 system of long vowels motivated the changes ai > ā and au > ēa in Old English, we
-are left with the question of au > ā in Old Frisian. Only the idea of stress shift in ea
+are left with the question of au > ā in Old Frisian. Only the idea of stress shift in ēa
 (ēa > eā > ā) can account for the difference in the development of au in Old Frisian
 and Old English. The change ai > ā has been considered common Anglo-Frisian, but
 the development au > ēa > ā allows us to view both developments ai > ā and au > ēa
@@ -88,8 +106,8 @@ monophthongization of au > ā. I will attempt to explain this discrepancy
 in the diphthongs, arguing Anglo-Frisian unity anew, and investigate
 the special development.
 In Frisian the normal reflex of au is ā as in āge (Go. augo) 'eye', dād
-(Go. daups) 'dead', except in umlaut, when the result is ē as in dēpa
-(Go. daupjan) 'baptize', hēra (Go. hausjan) 'hear'. The normal
+(Go. dauþs) 'dead', except in umlaut, when the result is ē as in dēpa
+(Go. dauþjan) 'baptize', hēra (Go. hausjan) 'hear'. The normal
 development of ai is also to ā as in twā (Go. twai) 'two', māra (Go.
 maiza) 'more, greater', and to short a before consonantclusters as in
 askia (OHG eiscōn) 'demand, ask'. Frisian ē from ai appears not only
@@ -129,8 +147,8 @@ process of fronting, dissimilation and regressive assimilation (ai > æe >
 æ > æa > ā; Luick 1921, 133). In any case Frisian seems to have
 shared the same development. But we can perhaps reconstruct the
 details of the change au > ēa as in ēage (Go. augo) 'eye', dēad (Go.
-daups) 'dead'. The evolution of au > ēa, isolated in Germanic, could be
-the result of the Anglo-Frisian fronting of ā > ǣ and lowering of the
+dauþs) 'dead'. The evolution of au > ēa, isolated in Germanic, could be
+the result of the Anglo-Frisian fronting of ā > æ and lowering of the
 second element. This lowering is paralleled to some extent by the
 development of Gmc. eu > ēo. Sometimes the stages are repeated in a
 different order, but the basic process is: au > ao > æo > æa (cf. Luick
@@ -140,9 +158,9 @@ Various attempts have been made to explain the divergent
 developments of ai and au within Anglo-Frisian and its conditions that
 are at variance with the rest of Germanic. Siebs (1889, 255-56, 274)
 viewed the Frisian transmission as being closer to the Anglo-Frisian
-state and posited ai > æ, au > ā for the common development.
+state and posited ai > ǣ, au > ā for the common development.
 Subsequently, he thought, Frisian shifted æ > ē in certain cases (see
-above) and > a otherwise, and English shifted a > ā. For au, he
+above) and ǣ > ā otherwise, and English shifted ǣ > ā. For au, he
 thought, Frisian maintained ā in every case, while English shifted ā>
 ēa. Campbell (1939, 89-91), on the other hand, believed that relative
 chronology would explain the divergent history of the two languages.
@@ -170,7 +188,7 @@ before nasals and ǣ otherwise. Krupatkin has also pointed out that the
 development to ēa may not depend upon the fronting of short a, but
 rather on the Old English development of all the Gmc. diphthongs in -
 u, which are incorporated into the system of long vowels as the series
-of front-back ('timbre gliding') phonemes īu, ēo, ēa. Although
+of front-back ('timbre gliding') phonemes īu, ēo, ǣa. Although
 Krupatkin's conclusions about OE ā, ēa seem plausible, OE ēa and OF
 ā < au are left unreconciled.
 It has also been proposed, however, that au was a monophthong in
@@ -181,14 +199,14 @@ Vespasian glosses (mid ninth century) ea, eo, io represented long and
 short phonemes, distinct from the front vowels /æ/, /e/, /i/. He thought
 that just as the digraphs ae, oe, ui had been used to designate umlauts,
 so too had the spellings ea, eo, io represented both lip and tongue
-position, consecutively, in the unrounded back vowels /a/, //, //. These
+position, consecutively, in the unrounded back vowels /a/, /ə/, /ɨ/. These
 vowels would then merely have been retracted rather than
 diphthongized. Hockett also believed that the same symbols were used
 for corresponding long vowels from the WGmc. diphthongs in words
-such as dead 'dead', deop 'deep', liode 'people', which he presumed to
+such as dēad 'dead', dēop 'deep', līode 'people', which he presumed to
 be monophthongized at the time of the Vespasian documents or not
 long thereafter. According to this reconstruction, the diphthongs ea, eo,
-io, phonetically [aw], [ew], [iw] in Pre-Old English, were affected by
+io, phonetically [æw], [ew], [iw] in Pre-Old English, were affected by
 a sort of internal velar umlaut when the first element of each diphthong
 was retracted before the second element [w], which then became
 unrounded and allowed the monophthongization of the sequence. The
@@ -209,14 +227,14 @@ via Middlesex University
 long and short diphthongs. The best known example is that of vowels
 after initial palatals. In most cases these digraphs originally represented
 rising diphthongs which became falling diphthongs already in Old
-English. Words such as West Saxon (WS) gear 'year', sceap 'sheep'
-show front vowels in Middle English (3ēr, schep). If stress had not
+English. Words such as West Saxon (WS) gēar 'year', scēap 'sheep'
+show front vowels in Middle English (ȝēr, schēp). If stress had not
 shifted, these words would have had back vowels. Further proof that
 the digraphs were diphthongs in Old English and that stress could fall
 on either element before monophthongization comes from the variation
-of forms in Middle English: OE sceadan > ME scheden/schōden
-'separate'; cēosan > chesen/chosen 'choose', leosan > lesen/lōsen
-'lose', féawe > féwelfōwe 'few', scēawian > schewen/schōwen 'look',
+of forms in Middle English: OE scēadan > ME schēden/schōden
+'separate'; cēosan > chēsen/chōsen 'choose', lēosan > lēsen/lōsen
+'lose', fēawe > fēwe/fōwe 'few', scēawian > schēwen/schōwen 'look',
 ceald > cheld/chold 'cold' (Kuhn 1961). Evidence also comes from
 Middle English place names from southwestern England (Bohman
 1944, Hallqvist 1948, Kuhn/Quirk 1953). Many spellings seem to
@@ -228,13 +246,13 @@ Akzentumsprung in the Old English period. The process is disputed
 (Campbell 1959, 66-67; cf. Speedie 1971), yet it seems that the rare
 combinations iú ió, not to be confused with the reflexes of Gmc. eu,
 underwent a stress shift in particular instances. Examples include
-Northumbrian ging <giung 'young', gigoð < gioguð 'youth', Early
+Northumbrian ging <giung 'young', gigōð < giogūð 'youth', Early
 WS gind <giond 'through', gingra, gingiest 'younger, youngest'.
 Attention has also been drawn to the similarity of Old English
 breaking and velar umlaut to the process of Old Norse (ON) breaking,
 which undoubtedly shows diphthongs with stress shift (Dyvik 1978;
 cf. Nielsen 1984). ON e > ea, eo before a, u, respectively, then ea, eo
-> ja, jo̟ as in djarfr 'bold', jofurr 'prince'. Stress shift is also the rule in
+> ja, jǫ as in djarfr 'bold', jǫfurr 'prince'. Stress shift is also the rule in
 the corresponding long diphthongs from Gmc. eu: éu > eú > jú, jó as
 in djúpr 'deep', bjóða 'offer'. Though the relationship of Old Norse
 breaking to the events in Old English cannot be proven, the similarity of
@@ -245,13 +263,13 @@ with the clue to understanding the divergent developments of Gmc. au
 in Anglo-Frisian. In Old Kentish (OKt.) the diphthong ea underwent a
 shift of stress to become the rising diphthong ja. A subsequent
 weakening and loss of the initial glide, which survived longer after
-dental stops and is also apparent. This is evidenced by the following
-examples: OKt. djāf /WS deaf 'deaf', -lyās/-lēas '-less', gecās/cēas
-'chose', brad/bread 'bread'. In a little known but very significant work,
+dental stops and l is also apparent. This is evidenced by the following
+examples: OKt. djāf /WS dēaf 'deaf', -lyās/-lēas '-less', gecās/cēas
+'chose', brād/brēad 'bread'. In a little known but very significant work,
 Bennett (1953) has pointed out that the same process may also have
 occurred in Old Frisian where the glide was lost before the written
 records, dating from the late thirteenth century. Such a shift of stress,
-with loss of the initial glide, apparently took place in OF daf, lās, kās,
+with loss of the initial glide, apparently took place in OF dāf, lās, kās,
 brād. Yet based on onomastic material, Gysseling (1960, 1962) posited
 Downloaded from Brill.com11/13/2020 01:27:28PM
 via Middlesex University
@@ -259,7 +277,7 @@ via Middlesex University
 === page 21 ===
 21
 the Frisian monophthongization of Gmc. au, along with ai, to the
-eighth century, citing examples such as Datnesta (Gmc. *daupu-
+eighth century, citing examples such as Datnesta (Gmc. *dauþu-
 'dead'), Franlo (Gmc. *frauna- 'glorious'). Even if Bennett was not
 correct in assuming that the monophthongization of au in Frisian
 developed in contact with the Akzentumsprung in Old Norse and
@@ -270,7 +288,7 @@ Germanic. It is known in Old English, as was shown above, and in Old
 Frisian in other instances: a stress shift can be seen in the OF reflex of
 Gmc. eu, appearing in orthography as jā (kjāsa 'choose', thjāf 'thief',
 ljāga 'lie', djāp 'deep'). The Frisian monophthongization of au must be
-considered merely a further development of Anglo-Frisian ea, which
+considered merely a further development of Anglo-Frisian ēa, which
 remained unchanged in Old English.
 The development of diphthongs is, however, but one of the factors
 considered in determining Anglo-Frisian unity. In attempting to prove
@@ -281,17 +299,17 @@ group of dialects (Old English, Old Frisian, and Old Saxon), we would
 consider the following list of parallels: 1. Merger of first and second
 person accusative and dative personal pronouns; 2. Merger of plural
 verb forms; 3. Loss of r (< z) in personal pronouns; 4. Loss of nasals
-before f, s, þ; 5. Fronting of a > æ, e and WGmc. ā (< ē¹) > ā, ē ; 6.
+before f, s, þ; 5. Fronting of a > æ, e and WGmc. ā (< ē¹) > ǣ, ē ; 6.
 Retraction of a > o and WGmc. ā > ō before nasals. This common
 development lasted from the sixth to the tenth century, with the center
 of innovation on both sides of the North Sea in southern England and
 western Frisian territory (Kuhn 1956, 23ff.). If we thus posit a closer
 relationship between Old English and Old Frisian, we are supported by
 the following list of correspondences: 1. Unrounding of ö, ü> e, i (e);
-2. Change of eg (ag) > ei (ai) word-finally and before consonants; 3.
+2. Change of eg (æg) > ei (æi) word-finally and before consonants; 3.
 Lengthening of vowels before mb, nd, ld, rd, rn ; 4.
 Monophthongization of ai > ā. Based on the foregoing arguments, the
-change of au > ea must be added to this list, making allowance for the
+change of au > ēa must be added to this list, making allowance for the
 subsequent monophthongization of ēa > ā in Old Frisian as a result of
 Akzentumsprung.
 Works cited
