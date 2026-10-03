@@ -22,6 +22,8 @@ from capr_runtime import check_build_manifest, layout, sha256_of  # noqa: E402
 from oe_pipeline import (  # noqa: E402,F401
     PROTO_STRIP_RE,
     apply_down,
+    display_form,
+    evaluation_input,
     load_rows,
     normalize_proto,
     run_stage,
@@ -272,11 +274,13 @@ def bucket_entry(proto_norm: str, out: str, expected: str) -> str:
     return bucket
 
 
-def trace_lexeme(proto_norm: str, bin_dir: Path) -> List[Tuple[str, List[str]]]:
+def trace_lexeme(proto_norm: str, bin_dir: Path,
+                 stage_outputs: Dict[str, List[str]] | None = None) -> List[Tuple[str, List[str]]]:
     trace: List[Tuple[str, List[str]]] = []
     last_outputs: List[str] | None = None
     for label, bin_name in STAGES:
-        outputs = run_stage(bin_dir, bin_name, proto_norm)
+        outputs = (run_stage(bin_dir, bin_name, proto_norm) if stage_outputs is None
+                   else stage_outputs[bin_name])
         usable = [out for out in outputs if out != "+?"]
         if not usable:
             # Stage rejected the input: keep showing the previous stage's form
@@ -310,6 +314,8 @@ def provenance_lines(tsv_path: Path, bin_path: Path, fsts_dir: Path,
         ("germanic.txt", fsts_dir / "germanic.txt"),
         ("old_english_sandbox.txt", fsts_dir / "old_english_sandbox.txt"),
         ("germanic-aligned-final.tsv", tsv_path),
+        ("entry_context_metadata.tsv", tsv_path.with_name("entry_context_metadata.tsv")),
+        ("oe_input_context.py", layout().bin_dir / "oe_input_context.py"),
     ]:
         lines.append(f"{label} sha256: {sha256_of(path)}")
     lines.append(f"old_english.bin sha256 (informational): {sha256_of(bin_path)}")
@@ -376,12 +382,16 @@ def trace_provenance_problems(text: str) -> List[str]:
         "germanic.txt": rt.germanic_fst,
         "old_english_sandbox.txt": rt.sandbox_fst,
         "germanic-aligned-final.tsv": rt.corpus_tsv,
+        "entry_context_metadata.tsv": rt.data_dir / "entry_context_metadata.tsv",
+        "oe_input_context.py": rt.bin_dir / "oe_input_context.py",
     }
     for label, path in live.items():
         if label not in recorded:
             problems.append(f"trace PROVENANCE lacks a hash for {label}")
         elif recorded[label] != sha256_of(path):
             problems.append(f"trace report is STALE w.r.t. {label}")
+        if label in {"entry_context_metadata.tsv", "oe_input_context.py"}:
+            continue
         manifest_label = f"manifest:{label}"
         if manifest_label not in recorded:
             problems.append(f"trace PROVENANCE lacks {manifest_label} "
@@ -420,14 +430,24 @@ def write_report(
     trace_all: bool = False,
     provenance: List[str] | None = None,
 ) -> None:
+    from sound_change_order_sensitivity import batch_apply_down
+
+    rows = list(rows)
+    forms = list(dict.fromkeys(evaluation_input(row) for row in rows))
+    stage_cache = {
+        bin_name: dict(zip(forms, batch_apply_down(bin_dir / bin_name, forms)))
+        for _, bin_name in STAGES
+    }
+    final_cache = dict(zip(forms, batch_apply_down(bin_path, forms)))
     buckets: Dict[str, List[Dict[str, str]]] = defaultdict(list)
     stage_fires: Dict[str, List[str]] = defaultdict(list)
     fronted_rows: List[str] = []; unfronted_rows: List[str] = []; fronting_correct: List[str] = []; fronting_unfronting_correct: List[str] = []; fronting_unfronting_incorrect: List[str] = []
     for row in rows:
-        afb = run_stage(bin_dir, "old_english_sandbox_after_eaf_brightening.bin", row["proto_norm"]); ar = run_stage(bin_dir, "old_english_sandbox_after_oe_a_restoration.bin", row["proto_norm"])
+        afb = stage_cache["old_english_sandbox_after_eaf_brightening.bin"][evaluation_input(row)]
+        ar = stage_cache["old_english_sandbox_after_oe_a_restoration.bin"][evaluation_input(row)]
         afb_out = next((o for o in afb if o != "+?"), ""); ar_out = next((o for o in ar if o != "+?"), "")
         fronted = is_a_fronting_context(row["proto_norm"]) and oe_first_is_front(afb_out); unfronted = fronted and oe_first_is_back(ar_out)
-        outputs = apply_down(bin_path, row["proto_norm"])
+        outputs = final_cache[evaluation_input(row)]
         expected = row["counterpart"]
         if fronted:
             summary = f"{row['concept']} | {row['proto']} | exp {expected} | afb {afb_out or '+?'} | ar {ar_out or '+?'}"
@@ -490,12 +510,19 @@ def write_report(
         for row in items:
             lines.append(f"--- {row['concept']} ---")
             lines.append(f"PROTO: {row['proto']}")
+            lines.append(
+                f"INPUT_CONTEXT: SC098; stress={row.get('word_stress', 'stressed')}; "
+                f"finality={row.get('phonological_finality', 'final')}"
+            )
             lines.append(f"EXPECTED: {row['counterpart']}")
             lines.append(f"OUTPUTS: {row['outputs']}")
             lines.append("")
             prev_outputs: List[str] | None = None
             lexeme_label = f"{row['concept']} :: {row['proto']}"
-            for label, outputs in trace_lexeme(row["proto_norm"], bin_dir):
+            for label, outputs in trace_lexeme(evaluation_input(row), bin_dir, {
+                bin_name: stage_cache[bin_name][evaluation_input(row)]
+                for _, bin_name in STAGES
+            }):
                 base_label = label.split(" [", 1)[0]
                 header = STAGE_HEADERS.get(base_label)
                 if header is not None:
@@ -505,7 +532,7 @@ def write_report(
                 if prev_outputs is not None and outputs != prev_outputs:
                     stage_fires[base_label].append(lexeme_label)
                 prev_outputs = outputs
-                pretty = ", ".join(outputs)
+                pretty = ", ".join(display_form(form) for form in outputs)
                 lines.append(f"{label}: {pretty}")
             lines.append("")
         lines.append("")

@@ -1,0 +1,485 @@
+{
+  "schema_version": 1,
+  "baseline_fst_sha256": "9016feefda56ca204cb71b8d426f1ace2486bbbd4d2334dc8440dce5cef811d0",
+  "baseline_corpus_sha256": "358549ed343c2640bda2374f7275667de80394f3f431e8c1d0f9534756a6e99e",
+  "baseline_context_sha256": "6a69a8d450a0ad5898bed7150136dc70e5731422c29803608825cdefc6b0f914",
+  "baseline_context_helper_sha256": "b770b83ffc2bd863c9cd5dec6bcae67ecda60efe8ce0af7fa8cdf136e077b961",
+  "fixture_file": "oe_adopted_glide_fixtures.tsv",
+  "recipes": [
+    {
+      "id": "identity",
+      "description": "Current complete production wrapper, with no intervention.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [],
+      "assumptions": "Technical equivalence only.",
+      "limitations": "No historical inference."
+    },
+    {
+      "id": "d-adopted-controls",
+      "description": "Current production glides/apocope domains and selected contexts; no intervention.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [
+        {
+          "key": "RingeTaylor2014",
+          "pages": "41-42,55,57-58,65-66,171-175"
+        },
+        {
+          "key": "Campbell1959",
+          "pages": "45-47,283"
+        },
+        {
+          "key": "Fulk2018",
+          "pages": "117"
+        }
+      ],
+      "assumptions": "Declared component and suffix predictions from the approved coupled account; staged forms are not PGmc corpus admissions.",
+      "limitations": "Retained-i you is model-only; shadow quantity is qualified; the late ww+j operation is support, not a new sound-law verdict.",
+      "component_checks": [
+        {
+          "id": "a-ww",
+          "component": "OEWWSimplification",
+          "input": "*a*w*w",
+          "expected": "*au*w"
+        },
+        {
+          "id": "acute-a-ww",
+          "component": "OEWWSimplification",
+          "input": "*á*w*w",
+          "expected": "*áu*w"
+        },
+        {
+          "id": "e-ww",
+          "component": "OEWWSimplification",
+          "input": "*e*w*w",
+          "expected": "*eu*w"
+        },
+        {
+          "id": "acute-e-ww",
+          "component": "OEWWSimplification",
+          "input": "*é*w*w",
+          "expected": "*éu*w"
+        },
+        {
+          "id": "i-ww",
+          "component": "OEWWSimplification",
+          "input": "*i*w*w",
+          "expected": "*iu*w"
+        },
+        {
+          "id": "acute-i-ww",
+          "component": "OEWWSimplification",
+          "input": "*í*w*w",
+          "expected": "*íu*w"
+        },
+        {
+          "id": "homorganic-u-ww",
+          "component": "OEWWSimplification",
+          "input": "*s*k*u*w*w*ô",
+          "expected": "*s*k*ū*w*ô"
+        },
+        {
+          "id": "acute-u-ww",
+          "component": "OEWWSimplification",
+          "input": "*ú*w*w",
+          "expected": "*ū*w"
+        },
+        {
+          "id": "long-v-ww-negative",
+          "component": "OEWWSimplification",
+          "input": "*ā*w*w",
+          "expected": "*ā*w*w"
+        },
+        {
+          "id": "o-ww-outside-reconstructed-domain",
+          "component": "OEWWSimplification",
+          "input": "*o*w*w",
+          "expected": "*o*w*w"
+        },
+        {
+          "id": "parallel-jj-unchanged",
+          "component": "OEWWSimplification",
+          "input": "*i*j*j",
+          "expected": "*i*j*j"
+        },
+        {
+          "id": "singleton-unchanged",
+          "component": "OEWWSimplification",
+          "input": "*á*w*j",
+          "expected": "*á*w*j"
+        },
+        {
+          "id": "merger-ww-side",
+          "component": "OEWWSimplification",
+          "input": "*a*w*w*i",
+          "expected": "*au*w*i"
+        },
+        {
+          "id": "merger-atomic-side",
+          "component": "OEWWSimplification",
+          "input": "*au*w*i",
+          "expected": "*au*w*i"
+        },
+        {
+          "id": "adopted-strong-ww-negative",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*a*w*w*i",
+          "expected": "*a*w*w*i"
+        },
+        {
+          "id": "old-proxy-atomic-side",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*au*w*i",
+          "expected": "*au*w*i"
+        },
+        {
+          "id": "unstressed-heavy-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*g*a*s*t*i",
+          "expected": "*g*a*s*t"
+        },
+        {
+          "id": "stressed-heavy-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*g*á*s*t*i",
+          "expected": "*g*á*s*t*i"
+        },
+        {
+          "id": "stressed-ww-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*í*w*w*i",
+          "expected": "*í*w*w*i"
+        },
+        {
+          "id": "unstressed-light-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*b*a*r*i",
+          "expected": "*b*a*r*i"
+        },
+        {
+          "id": "unstressed-long-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*f*ū*r*i",
+          "expected": "*f*ū*r"
+        },
+        {
+          "id": "unstressed-long-hiatus-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*k*ū*i",
+          "expected": "*k*ū"
+        },
+        {
+          "id": "stressed-long-hiatus-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*k*ū*i",
+          "expected": "*k*ū*i"
+        },
+        {
+          "id": "stressed-long-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*f*ū*r*i",
+          "expected": "*f*ū*r*i"
+        },
+        {
+          "id": "unstressed-heavy-u",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*g*a*s*t*u",
+          "expected": "*g*a*s*t"
+        },
+        {
+          "id": "stressed-heavy-u",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*g*á*s*t*u",
+          "expected": "*g*á*s*t*u"
+        },
+        {
+          "id": "unstressed-light-u",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*b*a*r*u",
+          "expected": "*b*a*r*u"
+        },
+        {
+          "id": "proclitic-heavy-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᶜ*u*m*b*i",
+          "expected": "*u*m*b*i*ᶜ"
+        },
+        {
+          "id": "medial-high-i",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*g*a*s*t*i*n",
+          "expected": "*g*a*s*t*i*n"
+        },
+        {
+          "id": "long-final-i-negative",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*g*a*s*t*ī",
+          "expected": "*g*a*s*t*ī"
+        },
+        {
+          "id": "you-final-context",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*iu*w*i",
+          "expected": "*iu*w"
+        },
+        {
+          "id": "you-proclitic-context",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᶜ*iu*w*i",
+          "expected": "*iu*w*i*ᶜ"
+        },
+        {
+          "id": "you-stressed-context",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*iu*w*i",
+          "expected": "*iu*w*i"
+        },
+        {
+          "id": "and-final-context",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*a*n*d*i",
+          "expected": "*a*n*d"
+        },
+        {
+          "id": "and-proclitic-context",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᶜ*a*n*d*i",
+          "expected": "*a*n*d*i*ᶜ"
+        },
+        {
+          "id": "around-final-counterfactual",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*ᵘ*u*m*b*i",
+          "expected": "*u*m*b"
+        },
+        {
+          "id": "later-proclitic-retention",
+          "component": "OEHighVowelApocope",
+          "input": "*y*m*b*i*ᶜ",
+          "expected": "*y*m*b*i"
+        },
+        {
+          "id": "later-final-apocope",
+          "component": "OEHighVowelApocope",
+          "input": "*y*m*b*i",
+          "expected": "*y*m*b"
+        },
+        {
+          "id": "j-created-i-residual",
+          "component": "OEJWWSimplification",
+          "input": "*i*w*w*j*a",
+          "expected": "*i*w*j*a"
+        },
+        {
+          "id": "j-created-promoted-residual",
+          "component": "OEJWWSimplification",
+          "input": "*ēo*w*w*j*ą",
+          "expected": "*ēo*w*j*ą"
+        },
+        {
+          "id": "long-ww-not-silently-deleted",
+          "component": "OEJWWSimplification",
+          "input": "*ā*w*w*a",
+          "expected": "*ā*w*w*a"
+        },
+        {
+          "id": "settled-awwj",
+          "component": "OEAwwjResolution",
+          "input": "*á*w*w*j*a",
+          "expected": "*áu*j*a"
+        },
+        {
+          "id": "settled-iwwj-negative",
+          "component": "OEAwwjResolution",
+          "input": "*i*w*w*j*a",
+          "expected": "*i*w*w*j*a"
+        },
+        {
+          "id": "long-iu-realization",
+          "component": "OEDiphthongLeveling",
+          "input": "*iu*w",
+          "expected": "*ēo*w"
+        },
+        {
+          "id": "split-iu-quantity",
+          "component": "OEDiphthongLeveling",
+          "input": "*i*u*w",
+          "expected": "*eo*w"
+        },
+        {
+          "id": "split-stressed-i-no-invented-clause",
+          "component": "OEDiphthongLeveling",
+          "input": "*í*u*w",
+          "expected": "*í*u*w"
+        },
+        {
+          "id": "adopted-ordinary-high-i",
+          "component": "OEWsPalatalDiphthongization",
+          "input": "*ʤ*í*f*t*i",
+          "expected": "*ʤ*í*f*t*i"
+        },
+        {
+          "id": "adopted-mutation",
+          "component": "OEIUmlaut",
+          "input": "*ʤ*ea*s*t*i",
+          "expected": "*ʤ*ie*s*t*i"
+        },
+        {
+          "id": "adopted-late-sheath",
+          "component": "OELatePalatalDiphthong",
+          "input": "*ʃ*ǣ*θ*i",
+          "expected": "*ʃ*ēa*θ*i"
+        }
+      ],
+      "staged_checks": [
+        {
+          "id": "and-source-selected-sandhi",
+          "stage": "PWGmcUnstressedWordFinalIApocope",
+          "side": "before",
+          "input": "*ᵘ*a*n*d*i",
+          "expected": "and",
+          "evidence": "RingeTaylor2014 pp.57-58: source andi, supplied as PWGmc-level starred input, final unstressed context is CAPR's adopted explanation."
+        },
+        {
+          "id": "around-source-proclitic",
+          "stage": "PWGmcUnstressedWordFinalIApocope",
+          "side": "before",
+          "input": "*ᶜ*u*m*b*i",
+          "expected": "ymbe",
+          "evidence": "RingeTaylor2014 pp.57-58: source umbi; proclisis is the source's proposed explanation, not an attested PGmc reconstruction or new corpus row."
+        },
+        {
+          "id": "you-source-weak",
+          "stage": "PWGmcUnstressedWordFinalIApocope",
+          "side": "before",
+          "input": "*ᵘ*iu*w*i",
+          "expected": "ēow",
+          "evidence": "RingeTaylor2014 pp.41-42,57-58: iuwi to iuw; Campbell1959 p.283: selected WS outcome."
+        },
+        {
+          "id": "you-retained-i-counterfactual",
+          "stage": "PWGmcUnstressedWordFinalIApocope",
+          "side": "before",
+          "input": "*iu*w*i",
+          "expected": "īei",
+          "evidence": "RingeTaylor2014 pp.41-42,57-58 supplies iuwi and the lack-of-mutation argument. The source requires mutation, not an attested strong OE spelling: the incumbent suffix first deletes w before i (SC054), then mutates the diphthong. Its model-only terminal spelling is ie-long plus i, NOT an attested source target."
+        },
+        {
+          "id": "guest-source-stressed-negative",
+          "stage": "PWGmcUnstressedWordFinalIApocope",
+          "side": "before",
+          "input": "*g*á*s*t*i",
+          "expected": "ġiest",
+          "evidence": "RingeTaylor2014 p.55: stressed heavy disyllables retain final i through mutation; source gastiz is supplied at the post-z-loss checkpoint, not fed through a fabricated PGmc prefix."
+        },
+        {
+          "id": "fire-source-stressed-negative",
+          "stage": "PWGmcUnstressedWordFinalIApocope",
+          "side": "before",
+          "input": "*f*ū*r*i",
+          "expected": "fȳr",
+          "evidence": "RingeTaylor2014 p.55; existing SC098 dossier's furi control. Root long-vowel notation does not encode sentence stresslessness."
+        },
+        {
+          "id": "homorganic-source-suffix",
+          "stage": "PWGmcCoronalWAssimilation",
+          "side": "after",
+          "input": "*s*k*u*w*w*ô",
+          "expected": "sċūwa",
+          "evidence": "RingeTaylor2014 p.66: short-u plus inherited ww and the preferred long-u shadow account; supplied as a starred stage control, not an invented PGmc corpus input."
+        }
+      ],
+      "context_audit": {
+        "component": "PWGmcUnstressedWordFinalIApocope",
+        "probe": "before_sc098"
+      }
+    }
+  ],
+  "probes": [
+    {
+      "id": "before_early",
+      "stage": "PWGmcCoronalWAssimilation",
+      "side": "after"
+    },
+    {
+      "id": "after_early",
+      "stage": "OEWWSimplification",
+      "side": "after"
+    },
+    {
+      "id": "before_sc098",
+      "stage": "PWGmcUnstressedWordFinalIApocope",
+      "side": "before"
+    },
+    {
+      "id": "after_sc098",
+      "stage": "PWGmcUnstressedWordFinalIApocope",
+      "side": "after"
+    },
+    {
+      "id": "before_sc033",
+      "stage": "OEEwLongDiphthong",
+      "side": "before"
+    },
+    {
+      "id": "after_sc033",
+      "stage": "OEEwLongDiphthong",
+      "side": "after"
+    },
+    {
+      "id": "before_sc031",
+      "stage": "OEJWWSimplification",
+      "side": "before"
+    },
+    {
+      "id": "after_sc031",
+      "stage": "OEJWWSimplification",
+      "side": "after"
+    },
+    {
+      "id": "before_sc032",
+      "stage": "OEDiphthongLeveling",
+      "side": "before"
+    },
+    {
+      "id": "after_sc032",
+      "stage": "OEDiphthongLeveling",
+      "side": "after"
+    },
+    {
+      "id": "before_sc034",
+      "stage": "OEAwLongDiphthong",
+      "side": "before"
+    },
+    {
+      "id": "after_sc034",
+      "stage": "OEAwLongDiphthong",
+      "side": "after"
+    },
+    {
+      "id": "before_ordinary",
+      "stage": "OEWsPalatalDiphthongization",
+      "side": "before"
+    },
+    {
+      "id": "after_ordinary",
+      "stage": "OEWsPalatalDiphthongization",
+      "side": "after"
+    },
+    {
+      "id": "after_mutation",
+      "stage": "OEIUmlaut",
+      "side": "after"
+    },
+    {
+      "id": "after_late",
+      "stage": "OELatePalatalDiphthong",
+      "side": "after"
+    }
+  ]
+}

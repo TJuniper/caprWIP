@@ -18,7 +18,7 @@ DERIVATION_CLASS: regular
 
 ### Reconstruction and comparative evidence
 
-The selected input is the dative(-accusative) plural of the second-person plural pronoun, PGmc [ízwiz]{.iv .recon lang=pgmc sort=izwiz role=selected_input} 'you (dat. pl.)' (Gothic [izwis]{.iv lang=goth sort=izwis role=comparison_form} 'you'). Ringe and Taylor print the development in full: "PGmc \*izwiz 'you (dat. pl.)' (Goth. izwis) > \*iwwi > PWGmc \*iuwi ~ \*iuw (see 3.1.4) > OE īow, OF iū, OS, OHG iu" [@RingeTaylor2014, pp. 41--42], following Stiles's demonstration of the coronal-w assimilation [@Stiles1985, pp. 89--94]. Fulk corroborates the \*-zw- > \*-ww- assimilation [@Fulk2018, §8.3, pp. 204--205]. The oblique plural is the cell that survives as the Old English pronoun *ēow*; the modern English word continues this oblique form.
+The selected input is the dative(-accusative) plural of the second-person plural pronoun, PGmc [ízwiz]{.iv .recon lang=pgmc sort=izwiz role=selected_input} 'you (dat. pl.)' (Gothic [izwis]{.iv lang=goth sort=izwis role=comparison_form} 'you'). Ringe and Taylor print the development in full: "PGmc \*izwiz 'you (dat. pl.)' (Goth. izwis) > \*iwwi > PWGmc \*iuwi ~ \*iuw (see 3.1.4) > OE īow, OF iū, OS, OHG iu" [@RingeTaylor2014, pp. 41--42], following Stiles's demonstration of the coronal-w assimilation [@Stiles1985, pp. 89--94]. Fulk's discussion of inherited geminate glides after short vowels supplies the wider reanalysis context, not a replacement citation for that assimilation [@Fulk2018, p. 117]. The oblique plural is the cell that survives as the Old English pronoun *ēow*.
 
 ### Old English evidence
 
@@ -26,8 +26,34 @@ West Saxon [ēow]{.iv lang=oe sort=eow role=target_form} 'you' beside early West
 
 ### Development to Old English
 
-Four historical steps carry the form. (1) Coronal-w assimilation: [ízwiz]{.iv .recon lang=pgmc sort=izwiz role=selected_input} 'you' > [íwwiz]{.iv .recon lang=pwgmc sort=iwwiz role=evidence_form} 'you' [@RingeTaylor2014, pp. 41--42; @Stiles1985, pp. 89--94]. (2) Proto-West Germanic loss of word-final \*-z in unstressed syllables: > [íwwi]{.iv .recon lang=pwgmc sort=iwwi role=evidence_form} 'you' [@RingeTaylor2014, pp. 44--45]. (3) Early apocope in unstressed words: > [íww]{.iv .recon lang=pwgmc sort=iww role=evidence_form} 'you', the apocopated member of Ringe and Taylor's PWGmc doublet \*iuwi ~ \*iuw; the absence of i-umlaut in the Old English reflex is Ringe and Taylor's own proof that the trigger vowel fell before umlaut [@RingeTaylor2014, pp. 57--58]. (4) Vocalization of the geminate \*ww to the long diphthong, dated by Ringe and Taylor to Proto-West Germanic itself (\*fewwar > \*feuwar), followed by geminate simplification: > OE [ēow]{.iv lang=oe sort=eow role=target_form} 'you' [@RingeTaylor2014, pp. 41--42; @Fulk2018, §8.3, pp. 204--205].
+Coronal-w assimilation first supplies the geminate in
+\emph{*ízwiz} > \emph{*íwwiz}. Early inherited-glide reanalysis then
+gives an \emph{*iu} nucleus with retained consonantal \emph{*w}, rather
+than an already completed English long diphthong. Final-z loss exposes
+the last high vowel, and weak-final apocope selects the apocopated member
+of Ringe and Taylor's PWGmc \emph{*iuwi} / \emph{*iuw} doublet.
+The later English realization gives *ēow* without an i-mutation trigger
+[@RingeTaylor2014, pp. 41--42, 44--45, 57--58, 171--175].
+
+The selected sentence context is weak and phonologically final at early
+apocope. It is recorded independently of the unchanged PGmc reconstruction
+and independently of the root accent: the acute is not a sentence-stress
+mark. Under a retained-i context the present model produces predicted
+[*īei*]{.pred}, because w-loss before i intervenes before mutation.
+That is a computational negative control, not an attested strong Old
+English spelling. Proclitic *ymbe* 'around', weak-final *and* 'and', and
+stressed *ġiest* 'guest' / *fȳr* 'fire' test the boundary and stress
+contrasts; no pronoun-specific or lexeme-ID sound-law condition is used
+[@RingeTaylor2014, pp. 55, 57--58].
 
 ### Why this row is in the corpus
 
-This row is a chronology witness of unusual power for basic vocabulary. It forces coronal-w assimilation (SC008) to precede rhotacism (SC003): had rhotacism applied first, \*izwiz would have become [*irwiz*]{.pred}, from which *ēow* is underivable. It is the corpus witness for SC098, the early apocope in unstressed words, and for its bleeding of i-umlaut (SC055), and it fixes the order of geminate-w vocalization (SC033) before degemination (SC031). See `docs/sound_changes/audits/corpus-maturation-01-candidate-adjudication.md` §2 and `docs/sound_changes/audits/sc098-dossier-unstressed-word-final-i-apocope.md`.
+The word supplies the assimilation input to
+[SC031 OEWWSimplification](#rule-OEWWSimplification) and the selected
+weak-final context for
+[SC098 PWGmcUnstressedWordFinalIApocope](#rule-PWGmcUnstressedWordFinalIApocope).
+It demonstrates loss of the mutation trigger, not a late English
+vocalization-before-degemination order. That older interpretation belonged
+to the superseded ww proxy. The independently justified assimilation
+feeder and the prosodic condition now remain separate
+[@RingeTaylor2014, pp. 41--42, 55, 57--58].

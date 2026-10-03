@@ -10,9 +10,9 @@ No broader environment for \emph{*ō} is attested.
 ## SC007. Lowering of final bimoric \emph{*ō} before \emph{*r} (`PWGmcFinalOrLowering`) {#rule-PWGmcFinalOrLowering}
 
 ```foma
-define PWGmcFinalOrLowering [
+define PWGmcFinalOrLowering Ctx([
     {*ō} -> {*a} || _ {*r} .#.
-];
+]);
 ```
 
 OE *wæter* ‘water’ reveals why lowering must precede [SC043 EAFBrightening](#rule-EAFBrightening). If [SC007 PWGmcFinalOrLowering](#rule-PWGmcFinalOrLowering) is delayed until afterwards, PGmc [wátōr]{.recon} ‘water’ yields [*water*]{.pred} rather than expected OE *wæter* ‘water’: brightening can affect the vowel only after lowering has created its input. Moving the change earlier within the tested range alters no output.

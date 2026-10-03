@@ -12,7 +12,7 @@ refs_bib="${repo_root}/docs/refs.bib"
 
 cd "${repo_root}"
 
-python3 "${script_dir}/build_full_lexical_volume.py"
+python3 Germanic/tools/adjudicate.py --refresh
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "pandoc not found; regenerated ${assembled_md##*/} only. Skipping ${assembled_tex##*/} and ${assembled_pdf##*/}." >&2

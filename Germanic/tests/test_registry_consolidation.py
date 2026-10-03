@@ -13,8 +13,10 @@ import importlib.util
 import json
 import re
 import sys
+import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 TOOLS = REPO_ROOT / "Germanic/tools"
@@ -186,38 +188,73 @@ class ReadingListTests(unittest.TestCase):
 
 
 class NextScTests(unittest.TestCase):
+    def route(self, rows, start="SC020"):
+        with tempfile.TemporaryDirectory() as directory:
+            policy = Path(directory) / "programme.json"
+            policy.write_text(json.dumps({"start_sc": start}), encoding="utf-8")
+            with patch.object(adjudicate, "PROGRAMME", policy), \
+                    patch.object(adjudicate, "read_tsv", return_value=rows):
+                return adjudicate.next_sc()
+
+    def row(self, sc, status="unadjudicated", lifecycle="active",
+            entry_type="sound_change"):
+        return {"sc_id": sc, "adjudication_status": status,
+                "lifecycle_status": lifecycle, "entry_type": entry_type}
+
     def test_next_sc_derives_from_registry_state(self):
         reg = views.read_tsv(views.SC_REGISTRY)
         nxt = adjudicate.next_sc()
-        self.assertIsNotNone(nxt)
+        self.assertEqual(nxt, "SC032")
         row = {r["sc_id"]: r for r in reg}[nxt]
         self.assertEqual(row["lifecycle_status"], "active")
         self.assertNotEqual(row["adjudication_status"], "adjudicated")
-        # The governing threshold is the highest end of a contiguous
-        # adjudicated run with pending SCs above it — not the global max,
-        # which may be an out-of-band identity (e.g. SC101 from the SC024
-        # e1-complex split) adjudicated ahead of the mainline sequence.
-        adjudicated = sorted(
-            adjudicate.sc_num(r["sc_id"])
-            for r in reg
-            if r["adjudication_status"] == "adjudicated"
-        )
-        run_ends = [
-            n
-            for i, n in enumerate(adjudicated)
-            if i + 1 == len(adjudicated) or adjudicated[i + 1] != n + 1
-        ]
-        threshold = max(
-            n for n in run_ends if n < adjudicate.sc_num(nxt)
-        )
-        self.assertGreater(adjudicate.sc_num(nxt), threshold)
-        # No active unadjudicated SC between the governing threshold and
-        # the next target may be skipped.
-        for r in reg:
-            n = adjudicate.sc_num(r["sc_id"])
-            if threshold < n < adjudicate.sc_num(nxt):
-                if r["adjudication_status"] != "adjudicated":
-                    self.assertNotEqual(r["lifecycle_status"], "active", r["sc_id"])
+        self.assertNotEqual(row["entry_type"], "support_stage")
+
+    def test_scoped_and_out_of_band_verdicts_cannot_skip_pending_work(self):
+        rows = [self.row("SC020", "adjudicated"), self.row("SC021"),
+                self.row("SC056", "adjudicated"), self.row("SC057")]
+        rows += [self.row(f"SC{n:03}", "adjudicated") for n in range(101, 105)]
+        rows.append(self.row("SC105", entry_type="support_stage"))
+        self.assertEqual(self.route(list(reversed(rows))), "SC021")
+
+    def test_support_and_retired_entries_are_skipped(self):
+        rows = [self.row("SC020", "adjudicated"),
+                self.row("SC021", entry_type="support_stage"),
+                self.row("SC022", lifecycle="retired"), self.row("SC023")]
+        self.assertEqual(self.route(rows), "SC023")
+
+    def test_sequential_progress_and_pending_start(self):
+        rows = [self.row("SC020"), self.row("SC021"), self.row("SC022")]
+        self.assertEqual(self.route(rows), "SC020")
+        rows[0]["adjudication_status"] = "adjudicated"
+        self.assertEqual(self.route(rows), "SC021")
+        rows[1]["adjudication_status"] = "adjudicated"
+        self.assertEqual(self.route(rows), "SC022")
+
+    def test_programme_start_excludes_backlog_without_changing_verdicts(self):
+        rows = [self.row("SC001"), self.row("SC020"), self.row("SC021")]
+        self.assertEqual(self.route(rows), "SC020")
+        self.assertEqual(self.route(rows, start="SC021"), "SC021")
+        self.assertTrue(all(r["adjudication_status"] == "unadjudicated" for r in rows))
+
+    def test_exhausted_programme_does_not_fall_back_to_earlier_backlog(self):
+        rows = [self.row("SC001"), self.row("SC020", "adjudicated"),
+                self.row("SC105", entry_type="support_stage")]
+        self.assertIsNone(self.route(rows))
+
+    def test_invalid_policy_fails_explicitly(self):
+        with tempfile.TemporaryDirectory() as directory:
+            policy = Path(directory) / "programme.json"
+            with patch.object(adjudicate, "PROGRAMME", policy), \
+                    patch.object(adjudicate, "read_tsv",
+                                 return_value=[self.row("SC020")]):
+                with self.assertRaises(FileNotFoundError):
+                    adjudicate.next_sc()
+                for value in ([], {}, {"start_sc": 20}, {"start_sc": "SC020",
+                              "extra": True}, {"start_sc": "SC999"}):
+                    policy.write_text(json.dumps(value), encoding="utf-8")
+                    with self.subTest(value=value), self.assertRaises(ValueError):
+                        adjudicate.next_sc()
 
     def test_current_state_does_not_hardcode_next_sc(self):
         text = (REPO_ROOT / "Germanic/docs/CURRENT_STATE.md").read_text(encoding="utf-8")
@@ -278,6 +315,10 @@ class FingerprintGuardTests(unittest.TestCase):
         # the unchanged output.
         self.assertEqual(
             data["outputs_sha256"],
+            "fe55aa8b39467e318b3a9997c2c48009c057dfbfc2bf877bf7be49b9f89a510e",
+        )
+        self.assertEqual(
+            data["lexical_outputs_sha256"],
             "5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f",
         )
         self.assertEqual(

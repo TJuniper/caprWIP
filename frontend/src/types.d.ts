@@ -34,6 +34,7 @@ export interface Syllable {
     syllable: string,
     syllables: string[],
     wordId: string
+    inputContext?: Word['inputContext']
 }
 
 export interface Word {
@@ -43,6 +44,11 @@ export interface Word {
     glossid: string,
     syllables: string[],
     syllables_parsed?: [string, string][]
+    inputContext?: {
+        checkpoint: 'SC098',
+        wordStress: 'stressed' | 'unstressed',
+        phonologicalFinality: 'final' | 'nonfinal'
+    }
 }
 
 export interface FstComparison {

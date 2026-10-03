@@ -5,7 +5,8 @@
   "matched": 380,
   "mismatched": 7,
   "ambiguous_outputs": 0,
-  "outputs_sha256": "5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f",
+  "outputs_sha256": "fe55aa8b39467e318b3a9997c2c48009c057dfbfc2bf877bf7be49b9f89a510e",
+  "lexical_outputs_sha256": "5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f",
   "legacy_subset_count": 380,
   "legacy_subset_sha256": "04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac852c409"
 }

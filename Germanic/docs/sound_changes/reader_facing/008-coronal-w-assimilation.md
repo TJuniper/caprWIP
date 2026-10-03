@@ -9,12 +9,12 @@ The historical support rests on a small witness set. Both coronal inputs assimil
 ## SC008. Assimilation of coronal consonants before \emph{*w} (`PWGmcCoronalWAssimilation`) {#rule-PWGmcCoronalWAssimilation}
 
 ```foma
-define PWGmcCoronalWAssimilation [
+define PWGmcCoronalWAssimilation Ctx([
     {*d} -> {*w} || _ {*w},
     {*z} -> {*w} || _ {*w}
-];
+]);
 ```
 
-OE *fēower* ‘four’ exposes a feeding relation: coronal assimilation must create \emph{*ww} while simplification can still reduce it. If [SC008 PWGmcCoronalWAssimilation](#rule-PWGmcCoronalWAssimilation) is delayed until after [SC031 OEWWSimplification](#rule-OEWWSimplification), PGmc [fédwōr]{.recon} ‘four’ yields [*fēowwer*]{.pred} rather than expected OE *fēower* ‘four’. Earlier placements alter no output.
+OE *fēower* ‘four’ exposes a feeding relation: coronal assimilation creates the \emph{*ww} input of the early reanalysis in [SC031 OEWWSimplification](#rule-OEWWSimplification), yielding the diphthongal intermediate before later English realization. Ringe and Taylor explicitly give the coronal-assimilation and glide-reanalysis sequence [@RingeTaylor2014, pp. 41--42]. The earlier displacement result belonged to the superseded late \emph{*ww}-deletion proxy and does not by itself predict the result of displacing the reformulated early operation.
 
 The numeral fixes that relative order. The pronoun now fixes a second one: assimilation must precede rhotacism ([SC003 EAFRhotacism](#rule-EAFRhotacism)). The \emph{*z} of \emph{*izwiz} stands between vowel and \emph{*w}; had rhotacism applied first, it would have produced [*irwiz*]{.pred}, from which OE *ēow* 'you' can never be derived. The executable cascade composes the assimilation well before rhotacism, and the corpus derivation of *ēow* 'you' fails if the two are reversed. 'Four' remains the sole \emph{*dw} witness and the sole source of the coronal-assimilation → *ww*-simplification ordering constraint. The earlier boundary of the assimilation remains undetermined.

@@ -16,11 +16,11 @@ The change supplies the final vowel of forms such as *nosu* 'nose', *sċofl*
 ## SC019. Raising of final unstressed long \emph{*ō} (`PNWGmcFinalLongORaising`) {#rule-PNWGmcFinalLongORaising}
 
 ```foma
-define PNWGmcFinalLongORaising [
+define PNWGmcFinalLongORaising Ctx([
     {*ō} -> {*u}
         || EnglishStarVocalic
            [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.
-];
+]);
 ```
 
 Two groups of witnesses confine final unstressed long \emph{*ō} > \emph{*u}. The forms *nosu* 'nose', *sċofl* 'shovel', and *sorg* 'sorrow' fix its lower boundary.

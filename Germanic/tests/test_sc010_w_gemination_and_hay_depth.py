@@ -120,7 +120,7 @@ class WGeminationRepairTests(unittest.TestCase):
         vowel.
         """
         def define(name: str) -> str:
-            found = re.search(r"define\s+%s\s*\[(.*?)\];" % name,
+            found = re.search(r"define\s+%s\s*(?:Ctx\()?\[(.*?)\]\)?;" % name,
                               cls.uncommented, re.DOTALL)
             assert found, f"{name} not found in germanic.txt"
             return found.group(1)
@@ -138,10 +138,13 @@ class WGeminationRepairTests(unittest.TestCase):
                           % ("".join(preceding), "".join(short), "|".join(members)))
 
     def define_body(self, identifier: str) -> str:
-        match = re.search(r"define\s+%s\s*\[(.*?)\];" % re.escape(identifier),
+        match = re.search(r"define\s+%s\s*(?:Ctx\()?\[(.*?)\]\)?;" % re.escape(identifier),
                           self.uncommented, re.DOTALL)
         self.assertIsNotNone(match, f"rule {identifier} not found in germanic.txt")
-        return match.group(1)
+        body = match.group(1).strip()
+        if "Ctx(" in match.group(0) and body.startswith("[") and body.endswith("]"):
+            body = body[1:-1]
+        return body
 
     def protoforms(self, concept: str) -> set[str]:
         forms = {r["PROTOFORM"] for r in self.corpus if r["CONCEPT"] == concept}

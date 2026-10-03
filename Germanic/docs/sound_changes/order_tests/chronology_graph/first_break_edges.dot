@@ -21,7 +21,7 @@ digraph first_break_chronology {
   "SC028" [label="SC028\nNorthern West Germanic *xs-Cluster Simplification"];
   "SC029" [label="SC029\nPre-OE resolution of *awj to *auj"];
   "SC030" [label="SC030\nEnglish brightening of *au to *æu"];
-  "SC031" [label="SC031\nOE WW Simplification"];
+  "SC031" [label="SC031\nInherited short-Vww reanalysis"];
   "SC032" [label="SC032\nOE Diphthong Leveling"];
   "SC033" [label="SC033\nOE Ew Long Diphthong"];
   "SC034" [label="SC034\nOE Aw Long Diphthong"];
@@ -118,14 +118,9 @@ digraph first_break_chronology {
   "SC029" -> "SC030" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
   "SC030" -> "SC029" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
   "SC030" -> "SC032" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
-  "SC031" -> "PWGmcChanges" [label="technical_computational", color="#718096", fontcolor="#718096", style=dashed];
-  "SC031" -> "SC034" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
+  "SC008" -> "SC031" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC032" -> "SC030" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
   "SC032" -> "SC040" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
-  "SC033" -> "PWGmcChanges" [label="technical_computational", color="#718096", fontcolor="#718096", style=dashed];
-  "SC033" -> "SC044" [label="broad_far_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
-  "SC034" -> "SC031" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
-  "SC034" -> "SC043" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC035" -> "PWGmcChanges" [label="runner_limited_boundary", color="#c05621", fontcolor="#c05621", style=dashed];
   "SC035" -> "SC043" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC036" -> "SC019" [label="broad_far_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];

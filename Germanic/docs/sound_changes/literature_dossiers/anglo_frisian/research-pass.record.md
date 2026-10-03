@@ -12,6 +12,252 @@ Later continuation sections distinguish implementation from the preserved
 earlier research dispositions. No global AF adoption or SC098 expansion
 is implied.
 
+## Coupled glide/apocope implementation continuation
+
+### Current adopted disposition
+
+The following diagnosis and candidate report preserve the pre-adoption
+research record. The user has since approved the exact context/input
+transition. Production now implements SC031's early reanalysis, SC098's
+genuine prosodic condition and visible SC106 support residual. Separate
+canonical memos are `sc031-glide-reanalysis-adjudication.md` and
+`sc098-context-apocope-adjudication.md`; both standard finalization checks
+pass. The active evaluator baseline is adopted with its prior bytes
+archived, every selected final unchanged, and lexical reconstruction and
+entry stage independent of context.
+
+Shared ingestion, comparison and refishing carry selected context without
+displaying its annotations. Source readers, Chapters 3/4 and existing
+dew/hew/four/you/hue lexical discussions reflect the new path. The current
+post-adoption controls are distinct from the preserved historical recipes.
+The integrated suite passes 673 tests and 6,073 subtests. The serial
+protected post-adoption run independently passes all 49 component, seven
+staged and 28 intermediate controls over 387 unchanged finals, protecting
+active/archived baselines and registries as well as runtime artifacts.
+The complete unbypassed build and inspection of the final 291-page PDF
+are complete. The canonical memos record the printed-page locations and
+the remaining qualified homorganic/residual claims; the wider programme
+is not adjudicated by this landing.
+
+### Identity and question
+
+SC031 with SC032–034 and SC098; SC063 is implicated only by phonological
+finality, not reopened as a new vowel-loss history. Base `afdf85b2`, branch
+`update`. The user authorized completing this coupled case, including
+minimal genuine prosodic representation if necessary. The rejected
+ai/fronting diversion is not an authorization.
+
+Falsifiable question: can inherited-glide reanalysis precede genuine
+unstressed-word apocope without losing the stressed/nonfinal negatives,
+the later j-created paths, or any selected final? An all-corpus output
+match without those negatives would not confirm the account.
+
+### Pre-adoption state
+
+Production SC098 still deletes final i after literal ww; its fresh canonical
+census is one of 387 selected inputs, you: `*í*w*w*i → *í*w*w`. The six
+SC031 firings are chew, dew, four, hew, you and hue. The gift/ordinary-PD
+delivery remains adopted and unchanged. No new corpus entry is authorized.
+
+### Diagnosis
+
+The new hash-pinned `oe_glide_apocope_recipes.json` specifies a complete
+coupled private candidate, not the old wider segment matcher. Four exact
+component predictions demonstrate the representation collision: `a+ww+i`
+and atomic `au+w+i` merge under reanalysis although the incumbent apocope
+distinguishes them. This is a formal hypothetical counterexample, not an
+attested word or independent historical edge.
+
+The first executed candidate passed its component predictions but failed
+the full source-level around suffix: early retention alone yielded *ymb*,
+not *ymbe*. This is a boundary-representation defect, not a refutation of
+the source's proclisis account. The repaired candidate transfers nonfinality
+to a right-boundary mark through the later apocope corridor, then removes
+it before vowel reduction and surface rendering. It does not exempt umbi
+or branch on a lexical identity.
+
+Context annotations are carried outside each mechanically derived
+pre-SC098 operation. That lifting preserves the operation's ordinary root
+and end anchors: inserting an annotation into the segment string and
+hoping that existing anchors ignore it is not transparent.
+
+The next execution exposed two further representation defects. Wildcard
+transport admitted alternate raw-character parses of the starred context
+mark; typed starred-alphabet transport removed that ambiguity. The right
+boundary mark then encountered the alphabet filter in
+`OEVelarFricativePalatalization`. Extending the private alphabet, while
+excluding annotations from the transported segment domain, preserved the
+nonfinal input through that filter. Neither repair changes a historical
+condition or adds a lexical exception.
+
+### Literature
+
+Ringe and Taylor supply the assimilation-created histories
+(pp. 41–42), stressed-disyllable negatives (p. 55), early apocope and
+the proposed proclisis explanation, explicitly including later apocope
+(pp. 57–58), inherited and homorganic glide reanalysis with the qualified
+long-vowel shadow argument (pp. 65–66), and later English realization
+(pp. 171–175). Campbell supplies the j-created contrasts and singleton/
+contraction paths (pp. 45–47) and the WS you target (p. 283)
+([@RingeTaylor2014, pp. 41–42, 55, 57–58, 65–66, 171–175;
+@Campbell1959, pp. 45–47, 283]).
+
+Fulk explicitly describes inherited geminate glides after short vowels;
+the original PDF sheet 134, printed p. 117, was visually checked. A
+hypothetical pre-existing long-Vww input is not promoted to a reconstructed
+PGmc positive or given invented parallel clauses
+([@Fulk2018, p. 117]).
+
+### Historical analysis and modelling decisions
+
+The candidate separates inherited/coronal-created a/e/i+ww reanalysis,
+homorganic uww quantity, and later English realization. Its insertion
+before j-gemination is a representative serialization premise, not a
+new independently demonstrated strict chronology. Settled SC029,
+singleton/contraction paths and the distinct atomic/split SC032 clauses
+are preserved. The late j-created ww+j operation is explicitly a retained
+representation residual, not a newly discovered historical law. Hue reaches
+that operation with an already promoted long diphthong; its actual
+`*x*ēo*w*w*j*ą` input therefore cannot be guarded by a short-e/i left
+context.
+
+Sentence stress and phonological finality are independent of lexical
+accent, reconstruction and entry stage. The private runner explicitly
+selects stressed final citation context as its ordinary evaluation
+convention, with the already source-discussed weak final context for you.
+It does not infer stresslessness from an absent acute. All other corpus
+forms eligible under a hypothetical weak context are audited at the
+actual SC098 checkpoint, rather than hidden behind you's identity.
+
+The annotations are computational, not reconstructed segments. Their
+context applies from the SC098 checkpoint; they are not claims about an
+utterance persisting unchanged from PGmc to OE. Nonfinality is retained
+through later apocope as the cited explanation requires. The same
+segmental input can be evaluated in strong, weak-final and proclitic
+contexts without altering its lexical identity.
+
+Staged fixtures enter the mechanically derived suffix, never the PGmc
+prefix. And and around remain non-corpus witnesses, and the retained-i
+you output is a counterfactual prediction, not an attested strong form.
+
+### Executed diagnostic evidence
+
+The component-only compilation passed all 49 exact component predictions.
+A separate stage-by-stage evaluation of the mechanically derived candidate
+preserved all 387 production finals, with no rejected or ambiguous
+diagnostic state. All seven staged controls passed: weak-final and gives
+*and*, nonfinal around gives *ymbe*, weak-final you gives *ēow*, stressed
+guest/fire remain *ġiest*/*fȳr*, and the homorganic shadow suffix gives
+*sċūwa*. The retained-i you counterfactual gives model-only *īei*: incumbent
+SC054 removes w before i, after which mutation operates. It is not an
+attested strong spelling or an independently source-backed terminal target.
+
+The diagnostic census has one early-apocope application (you), two SC033
+applications (knee and hue), one retained ww+j simplification (hue), 32
+SC032 applications, and four SC034 applications. These are measured
+candidate populations, not canonical verdicts. The fully composed protected
+assay then independently passed all 49 component checks, seven staged
+controls and 28 intermediate assertions over all 387 rows. Identity
+equivalence and protected-artifact preservation passed; no final changed,
+no output was missing or ambiguous, and the same seven old mismatches
+remain. The context audit found 62 hypothetically eligible forms: you
+selects weak-final context and the other 61 select the explicit strong-final
+citation convention. Their eligibility is not hidden or converted into
+an unsupported weak-context assignment.
+
+The initial full-composition attempt exhausted its 600-second compilation
+limit while rebuilding identical suffixes for six controls. Sharing bins
+only for identical derived entry points removed that duplication; the
+complete rerun succeeded without relaxing the timeout or dropping checks.
+Distinct before/after checkpoints remain separately compiled and tested.
+
+### Pre-adoption proposal and subsequent approval
+
+No canonical verdict or `Registry-verdict` line yet. Production rules,
+registries, corpus and frozen fingerprints remain unchanged. The private
+context encoding changes the evaluated input string for row2326, not
+PROTO or PROTOFORM. The proposed evaluator input is `ᵘízwiz` rather than
+`ízwiz`, with unchanged final *ēow*. Recomputing the existing sorted
+input/output projection with that one contextual evaluator input yields
+`fe55aa8b39467e318b3a9997c2c48009c057dfbfc2bf877bf7be49b9f89a510e`.
+The unchanged lexical-input projection remains
+`5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f`.
+Row2326 is not in the original 380-row archive; no archived reconstruction
+or existing gift migration changes. These calculated consequences are not
+a refreeze. The user subsequently approved this exact context/evaluator
+baseline change in the combined decision form (response: `approve`).
+The shared contract must distinguish lexical
+normalization from explicit contextual input assembly and protect both,
+rather than silently making normalization corpus-dependent.
+
+### Residue
+
+The composed run and all affected-population/eligibility audits are complete.
+The single concrete context/baseline decision required by the approved
+plan has been approved. Canonical implementation, lexical/reader/chapter
+propagation and actual publication remain in progress; a private
+candidate is not a published production repair.
+
+## Post-adoption routing, freshness and D specification continuation
+
+### Identity and question
+
+Base `afdf85b2`, branch `update`. This is approved research/tooling and
+current-summary synchronization, not a new scientific adjudication.
+Questions: can scoped verdicts advance `--next` over pending sequential
+work; can direct publication consume stale lexical histories; and which
+source domains are missing from the historical D subset?
+
+### Current state and diagnosis
+
+The old contiguous-run queue selected SC105. Filtering support entries
+alone selected SC057, still skipping SC031 after scoped SC056. No existing
+registry field encoded programme intent. The user explicitly chose an
+administrative programme start at SC020. The new SOURCE policy selects
+the first pending active non-support identity in that programme; earlier
+backlog remains explicitly accessible. No historical status was changed.
+
+Publication wrappers previously invoked individual assembly builders.
+They now enter through canonical refresh before checking or rendering;
+failures stop the build, and fresh runtime evidence is reused. Regression
+tests exercise every entry with successful and failed refreshes, input/
+output freshness and invalid routing policies.
+
+### Literature and historical analysis
+
+Direct rereading of Ringe and Taylor pp. 41–42, 57–58, 65–66, 170–175
+and Campbell pp. 45–47 separates inherited/nonhomorganic, homorganic,
+j-created and singleton/contraction domains. The existing SC031–034
+dossier section 16 records that table, the bounded au-completion interface
+for F, and unresolved quantity/prosody/phonological-word premises
+([@RingeTaylor2014, pp. 41–42, 57–58, 65–66, 170–175;
+@Campbell1959, pp. 45–47]).
+No FST name, literal matcher or output score supplies a historical domain.
+
+### Verdict and propagation
+
+No canonical verdict or `Registry-verdict` line. Production FST, corpus,
+entry stages, historical metadata/edges and frozen fingerprints are
+unchanged. Current synthesis/navigation statements now distinguish the
+adopted U package from historical recipes and unresolved component work.
+Historical recipes, fixtures and results retain their original source pins.
+
+The adopted control now has separate hash-pinned fixtures: twelve exact
+gift/guest/sheath checkpoints alongside seven component checks. Its
+protected run preserved all 387 final outputs, with the same seven old
+mismatches and no missing/ambiguous results or canonical-artifact changes.
+The maintenance suite passed 646 tests; the complete unbypassed book
+build exercised the hardened entries and rendered a 290-page PDF.
+
+### Residue
+
+The new D table specifies evidence boundaries, not a completed
+full-domain historical law or an approved representation. Fresh D variants,
+full prosodic controls and individual D/SC098 decisions remain necessary.
+A/F/P/B, late sheath conditioning and the full node selection remain
+separately tracked; no corpus admission, commit or push is authorized
+by this continuation.
+
 ## Identity
 
 - Subjects: comparative pre-OE/pre-Old-Frisian chronology; SC030/SC043

@@ -5,10 +5,16 @@ in the canonical registry; do not duplicate them here.
 
 ## Current phase
 
-Sequential per-SC adjudication of the sound-change cascade on branch
-`sc001-sc020-chronology-audit`, one SC per instructed task.
-The next SC is derived from the registry, never stated here:
+Sequential per-SC adjudication, with separately instructed scoped research
+and implementation decisions. The next SC is derived from the registry
+and the explicit programme policy, never stated here:
 `python3 Germanic/tools/adjudicate.py --next`
+
+`registry/adjudication_programme.json` owns the administrative programme
+start. Scoped verdicts cannot skip earlier pending work, and technical
+support stages are excluded. Earlier pending cases and support stages
+remain accessible through explicit SC commands; routing is not historical
+stage, chronology or executable order.
 
 Method: `Germanic/docs/RESEARCH_ADJUDICATION_PROTOCOL.md` +
 `Germanic/docs/sound_changes/audits/ADJUDICATION_TEMPLATE.md` are mandatory
@@ -35,12 +41,22 @@ and pinned by `Germanic/tests/test_cascade_baseline.py`:
 - active original-380 identity fingerprint (`legacy_subset_sha256`):
   `04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac852c409`
 - selected-387 corpus fingerprint (`outputs_sha256`):
+  `fe55aa8b39467e318b3a9997c2c48009c057dfbfc2bf877bf7be49b9f89a510e`
+- unchanged lexical-input projection (`lexical_outputs_sha256`):
   `5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f`
 
 The immutable legacy380 archive still hashes to
 `fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf`.
 The SC056 adjudication explicitly migrates only gift's input by stable row ID;
 all other legacy fields and every final output remain protected.
+
+The SC031/SC098 context adoption separately changes only you's assembled
+evaluator input; its lexical reconstruction and every final are unchanged.
+The previous selected387 snapshot is preserved as `*_pre_sc031_sc098.*`.
+Context selection lives in `Germanic/data/entry_context_metadata.tsv`;
+an absent annotation explicitly selects strong-final citation context.
+Routine refresh never refreezes the baseline. The approved transition uses
+`python3 Germanic/tools/adjudicate.py SC098 --adopt-context-baseline`.
 
 A fingerprint may change only as the explicit, row-level-diagnosed
 consequence of an adjudication verdict (protocol step 13), never as a

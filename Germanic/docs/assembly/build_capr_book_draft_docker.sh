@@ -35,11 +35,15 @@ if ! docker info >/dev/null 2>&1; then
   exit 1
 fi
 
+python3 Germanic/tools/adjudicate.py --refresh
+
 bash Germanic/docs/sound_changes/reader_facing/build_reader_facing_local_section_20_docker.sh
 bash Germanic/docs/assembly/build_full_lexical_volume_docker.sh
 
-python3 Germanic/tools/build_index_verborum.py ${strict_flag}
-python3 "${script_dir}/build_capr_book_draft.py"
+if [[ -n "${strict_flag}" ]]; then
+  python3 Germanic/tools/build_index_verborum.py ${strict_flag}
+  python3 Germanic/tools/adjudicate.py --refresh
+fi
 # semantic regression suite (fixtures + corpus integrity checks)
 if command -v pandoc >/dev/null 2>&1; then
   python3 Germanic/tools/check_reader_facing_semantics.py

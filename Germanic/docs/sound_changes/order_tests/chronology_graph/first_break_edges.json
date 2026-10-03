@@ -178,13 +178,13 @@
     },
     {
       "change_id": "SC031",
-      "display_name": "OE WW Simplification",
+      "display_name": "Inherited short-Vww reanalysis",
       "lifecycle_status": "active",
       "rule_name": "OEWWSimplification",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC031-oe-ww-simplification.md",
-      "card_type": "mixed",
-      "has_reciprocal_boundary": "yes",
-      "short_summary": "Earlier computational break crosses bundled PWGmcChanges and is technical/scaffolding; later boundary reciprocates SC034 earlier around dew and hew."
+      "card_type": "source_partial_chain",
+      "has_reciprocal_boundary": "no",
+      "short_summary": "Coronal assimilation feeds early glide reanalysis (Ringe-Taylor pp.41-42). Pre-j placement is a representative serialization, not a new strict historical edge. Old late ww proxy displacement boundaries are superseded."
     },
     {
       "change_id": "SC032",
@@ -202,9 +202,9 @@
       "lifecycle_status": "active",
       "rule_name": "OEEwLongDiphthong",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC033-oe-ew-long-diphthong.md",
-      "card_type": "mixed",
+      "card_type": "boundary_observation",
       "has_reciprocal_boundary": "no",
-      "short_summary": "Earlier computational break crosses bundled PWGmcChanges and is technical/scaffolding; later boundary is an ordinary chronology boundary but broad/far across SC044."
+      "short_summary": "Current population knee/hue; old chew/four displacement witnesses and four/PWGmc boundary superseded by early SC031 reanalysis. Retained knee boundary observation is not an independently established historical edge."
     },
     {
       "change_id": "SC034",
@@ -212,9 +212,9 @@
       "lifecycle_status": "active",
       "rule_name": "OEAwLongDiphthong",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC034-oe-aw-long-diphthong.md",
-      "card_type": "reciprocal_or_near_reciprocal",
-      "has_reciprocal_boundary": "yes",
-      "short_summary": "Earlier boundary reciprocates SC031 later; later boundary is a broader six-row ordinary chronology relation across SC043."
+      "card_type": "boundary_observation",
+      "has_reciprocal_boundary": "no",
+      "short_summary": "Current population four singleton show/straw forms; old dew/hew witnesses and reciprocal SC031 boundary superseded. Retained displacement observations are not independently established historical edges."
     },
     {
       "change_id": "SC035",
@@ -1275,32 +1275,18 @@
       "notes": "Feeding. The historical direction comes from the sources, not from the displacement probe: R/T p.172 say *au was 'first tensed and fronted to æu ... later the offglide was unrounded and lowered', and the second step operates on a segment the first creates. The intermediate itself has documentary support: Fulk 2018 §4.12 p.73 says the fronting produced ēa 'at first a diphthong with a rounded off-glide, as shown by early spellings, e.g. (aeodbald) (i.e. Eadbald, name) in Bede, with rounding persisting in late Northumbrian'. The no-output set produced by displacing SC030 after SC032 must NOT be read as historical evidence. It arises because *aeu has no surface realization in the model: with SC032 first there is nothing for it to consume, and the *aeu that SC030 then creates survives to the surface and is rejected. The probe demonstrates that *aeu is a non-surface intermediate of CAPR's own; the historical interval is established by R/T p.172 and the early spellings reported by Fulk. See sc029-sc030-awj-resolution-and-au-fronting-adjudication.md §8."
     },
     {
-      "source_change_id": "SC031",
-      "target_change_id": "PWGmcChanges",
-      "relation_type": "technical_computational",
-      "direction_basis": "earlier_boundary",
-      "evidence_basis": "technical",
-      "witness_role": "",
-      "representative_lexemes": "four; hay",
-      "representative_forms": "PGmc `*fédwōr` yields expected OE `fēower`, but the earlier-shifted variant yields `fēowwer`; PGmc `*xáwją` likewise yields `hēai` instead of expected `hīeġ`",
-      "strength": "bundled_stage",
-      "interpretation_category": "technical_computational",
-      "reciprocal_group_id": "",
-      "notes": "Earlier computational break crosses bundled PWGmcChanges and is technical/scaffolding; later boundary reciprocates SC034 earlier around dew and hew."
-    },
-    {
-      "source_change_id": "SC031",
-      "target_change_id": "SC034",
-      "relation_type": "reciprocal_chronology",
+      "source_change_id": "SC008",
+      "target_change_id": "SC031",
+      "relation_type": "one_sided_chronology",
       "direction_basis": "later_boundary",
       "evidence_basis": "independently_demonstrated",
-      "witness_role": "displacement_witness",
-      "representative_lexemes": "dew; hew",
-      "representative_forms": "PGmc `*dáwwō` yields expected OE `dēaw`, but the later-shifted variant yields `dawu`; PGmc `*xáwwaną` likewise yields `hawan` instead of expected `hēawan`",
+      "witness_role": "feeding",
+      "representative_lexemes": "four; you",
+      "representative_forms": "Coronal+w assimilation supplies ww, and short-Vww reanalysis supplies eu/iu plus retained w.",
       "strength": "tight_local",
-      "interpretation_category": "reciprocal_or_near_reciprocal",
-      "reciprocal_group_id": "RG07_SC031_SC034",
-      "notes": "Earlier computational break crosses bundled PWGmcChanges and is technical/scaffolding; later boundary reciprocates SC034 earlier around dew and hew."
+      "interpretation_category": "one_sided_chronology",
+      "reciprocal_group_id": "",
+      "notes": "RingeTaylor2014 pp.41-42 independently presents the assimilation feeding reanalysis. The current canonical trace verifies both feeders; no strict pre-j edge is inferred from serialization. Old late-deletion boundaries remain historical records in the frozen chronology cards and are superseded by sc031-glide-reanalysis-adjudication.md."
     },
     {
       "source_change_id": "SC032",
@@ -1329,62 +1315,6 @@
       "interpretation_category": "one_sided_chronology",
       "reciprocal_group_id": "",
       "notes": "Earlier boundary reciprocates SC030 later, and the 18-row earlier failure set should be narrated as no-output (`+?`) derivations rather than as surface forms."
-    },
-    {
-      "source_change_id": "SC033",
-      "target_change_id": "PWGmcChanges",
-      "relation_type": "technical_computational",
-      "direction_basis": "earlier_boundary",
-      "evidence_basis": "technical",
-      "witness_role": "",
-      "representative_lexemes": "four",
-      "representative_forms": "PGmc `*fédwōr` yields expected OE `fēower`, but the earlier-shifted variant yields `feower`",
-      "strength": "bundled_stage",
-      "interpretation_category": "technical_computational",
-      "reciprocal_group_id": "",
-      "notes": "Earlier computational break crosses bundled PWGmcChanges and is technical/scaffolding; later boundary is an ordinary chronology boundary but broad/far across SC044."
-    },
-    {
-      "source_change_id": "SC033",
-      "target_change_id": "SC044",
-      "relation_type": "broad_far_chronology",
-      "direction_basis": "later_boundary",
-      "evidence_basis": "independently_demonstrated",
-      "witness_role": "displacement_witness",
-      "representative_lexemes": "chew; four; knee",
-      "representative_forms": "PGmc `*kéwwaną` yields expected OE `ċēowan`, but the later-shifted variant yields `ċeowan`; PGmc `*fédwōr` likewise yields `feower` instead of expected `fēower`; PGmc `*knéwą` yields `cneow` instead of `cnēow`",
-      "strength": "broad_far",
-      "interpretation_category": "broad_far",
-      "reciprocal_group_id": "",
-      "notes": "Earlier computational break crosses bundled PWGmcChanges and is technical/scaffolding; later boundary is an ordinary chronology boundary but broad/far across SC044."
-    },
-    {
-      "source_change_id": "SC034",
-      "target_change_id": "SC031",
-      "relation_type": "reciprocal_chronology",
-      "direction_basis": "earlier_boundary",
-      "evidence_basis": "independently_demonstrated",
-      "witness_role": "displacement_witness",
-      "representative_lexemes": "dew; hew",
-      "representative_forms": "PGmc `*dáwwō` yields expected OE `dēaw`, but the earlier-shifted variant yields `dawu`; PGmc `*xáwwaną` likewise yields `hawan` instead of expected `hēawan`",
-      "strength": "tight_local",
-      "interpretation_category": "reciprocal_or_near_reciprocal",
-      "reciprocal_group_id": "RG07_SC031_SC034",
-      "notes": "Earlier boundary reciprocates SC031 later; later boundary is a broader six-row ordinary chronology relation across SC043."
-    },
-    {
-      "source_change_id": "SC034",
-      "target_change_id": "SC043",
-      "relation_type": "one_sided_chronology",
-      "direction_basis": "later_boundary",
-      "evidence_basis": "independently_demonstrated",
-      "witness_role": "displacement_witness",
-      "representative_lexemes": "dew; hew; show; show (3sg); show (iptv.2sg)",
-      "representative_forms": "PGmc `*skáwōjaną` yields expected OE `sċēawian`, but the later-shifted variant yields `sċawian`; PGmc `*skáwōθi` likewise yields `sċawaþ` instead of expected `sċēawaþ`; PGmc `*stráwą` yields `stræw` instead of expected `strēaw`",
-      "strength": "one_sided",
-      "interpretation_category": "one_sided_chronology",
-      "reciprocal_group_id": "",
-      "notes": "Earlier boundary reciprocates SC031 later; later boundary is a broader six-row ordinary chronology relation across SC043."
     },
     {
       "source_change_id": "SC035",

@@ -11,9 +11,9 @@ The reconstruction of the intermediate value is disputed. The objection is an ol
 ## SC024. Lowering of stressed long \emph{ē} (`PNWGmcLongELowering`) {#rule-PNWGmcLongELowering}
 
 ```foma
-define PNWGmcLongELowering [
+define PNWGmcLongELowering Ctx([
     {*ḗ} -> {*ā}
-];
+]);
 ```
 
 The rule reads the stressed tier \emph{*ḗ} only, in keeping with the stress restriction; unstressed \emph{*ē}, as in \emph{*fadēr} 'father', is left for the unstressed-shortening rules of the Old English stage and never lowers. No segmental environment is imposed: nasal forms such as [mḗnōþz]{.recon} 'month' and [spḗnuz]{.recon} 'spoon' pass through \emph{*mānōþ-} and \emph{*spānuz} on their way to *mōnaþ* 'month' and *spōn* 'spoon', exactly as reconstructed by Ringe and Taylor [@RingeTaylor2014, p. 11].

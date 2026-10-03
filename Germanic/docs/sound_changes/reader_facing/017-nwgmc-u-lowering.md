@@ -24,7 +24,7 @@ survived [@SieversBrunner1965, pp. 64--65, §92.1].
 ## SC017. Lowering of \emph{*u} before following non-high vowels (`PNWGmcULowering`) {#rule-PNWGmcULowering}
 
 ```foma
-define PNWGmcULowering [
+define PNWGmcULowering Ctx([
     {*u} -> {*o}
         || .#. EnglishStarConsonant* _
            [EnglishStarConsonantNoJ - EnglishStarNasal]
@@ -33,7 +33,7 @@ define PNWGmcULowering [
         || .#. EnglishStarConsonant* _
            [EnglishStarConsonantNoJ - EnglishStarNasal]
            EnglishStarConsonantNoJ* EnglishStarNonHighVowel
-];
+]);
 ```
 
 Lowering of \emph{u} to \emph{o} is fixed on both sides by *ġeoc* 'yoke',

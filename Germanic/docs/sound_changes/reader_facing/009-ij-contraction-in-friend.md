@@ -9,10 +9,10 @@ The change concerns a rare sequence attested only in the \emph{*frijōnd-} etymo
 ## SC009. \emph{ij}-contraction in \emph{friend} (`PWGmcIjContraction`) {#rule-PWGmcIjContraction}
 
 ```foma
-define PWGmcIjContraction [
+define PWGmcIjContraction Ctx([
     {*i} {*j} {*ō} -> {*iu} || _ EnglishStarConsonant,
     {*í} {*j} {*ō} -> {*íu} || _ EnglishStarConsonant
-];
+]);
 ```
 
 Only the \emph{*frijōnd-} etymon tests this contraction. If the rare \emph{*ijō} sequence survives until after [SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling), PGmc [fríjōndz]{.recon} ‘friend’ yields [*friund*]{.pred} rather than expected OE *frēond* 'friend'; moving contraction earlier within the tested range changes no output.

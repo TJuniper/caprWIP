@@ -10,9 +10,9 @@ lexical family.
 ## SC013. Dental hardening (`PWGmcDentalHardening`) {#rule-PWGmcDentalHardening}
 
 ```foma
-define PWGmcDentalHardening [
+define PWGmcDentalHardening Ctx([
     {*ð} -> {*d}
-];
+]);
 ```
 
 Dental hardening has systemic scope: voiced fricative \emph{*ð} became stop \emph{*d} throughout early West Germanic. Moving [SC013 PWGmcDentalHardening](#rule-PWGmcDentalHardening) earlier or later changes no output.

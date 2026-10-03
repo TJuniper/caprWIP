@@ -10,9 +10,9 @@ Germanic, not as an unqualified pan-PWGmc development.
 ## SC012. Northern West Germanic \emph{lþ}-voicing (`EAFLThVoicing`) {#rule-EAFLThVoicing}
 
 ```foma
-define EAFLThVoicing [
+define EAFLThVoicing Ctx([
     {*θ} -> {*d} || {*l} _
-];
+]);
 ```
 
 The `field`, `fold`, `gold`, and `wold` families preserve \emph{*lþ} to \emph{*ld}, but none dates the change against a neighboring rule. Every output remains unchanged when the voicing is moved in either direction.

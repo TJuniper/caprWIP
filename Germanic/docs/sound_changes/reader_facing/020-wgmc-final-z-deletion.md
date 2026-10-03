@@ -13,13 +13,13 @@ At the boundary with Chapter 2's Northwest Germanic sequence, the derivation of 
 ## SC020. West Germanic final \emph{*z}-deletion (`EAFFinalZDeletion`) {#rule-EAFFinalZDeletion}
 
 ```foma
-define EAFFinalZDeletion [{*z} -> 0 ||
+define EAFFinalZDeletion Ctx([{*z} -> 0 ||
     .#. ?* EnglishStarVocalic
         [EnglishStarConsonant | EnglishPalatalConsonant]+
         EnglishStarVocalic ?* _ .#.,
     .#. [EnglishStarConsonant | EnglishPalatalConsonant]*
         EnglishStarVocalic+
-        [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.];
+        [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.]);
 ```
 
 The rule deletes word-final \emph{*z} in unstressed syllables, stated through two environments. The first clause covers polysyllables, where the final syllable of these corpus forms is unstressed: this is the ordinary case, with 110 corpus derivations, such as PGmc [bárdaz]{.recon} 'beard' on its way to OE *beard* 'beard' and [rástōz]{.recon} 'rest' on its way to *ræste* 'rest'. The second clause covers post-consonantal \emph{*z} in monosyllables. By the time this rule runs, [SC096 RootNounNomZLoss](#rule-RootNounNomZLoss) has already removed the genuine root-noun nominative endings, so the only form reaching the second clause is [fríjōndz]{.recon} 'friend', contracted to monosyllabic \emph{*fríundz} by [SC009 PWGmcIjContraction](#rule-PWGmcIjContraction); its ending, like that of \emph{*fadurz}, stood in an unstressed syllable when the Proto-West Germanic change applied and so belongs here rather than to the root-noun development [@RingeTaylor2014, pp. 44--45, §3.1.1]. Stressed monosyllables ending in vowel plus \emph{*z} meet neither clause and are left for [SC097 MonosyllabicFinalZLoss](#rule-MonosyllabicFinalZLoss).

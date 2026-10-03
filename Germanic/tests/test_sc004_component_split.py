@@ -191,7 +191,7 @@ class ProductionCascadeTests(unittest.TestCase):
 
     def test_sc014_body_is_unrestricted_unstressed_ai(self):
         m = re.search(
-            r"define PNWGmcUnstressedAiMonophthongization \[\s*\n\s*(.*?)\n\s*\];",
+            r"define PNWGmcUnstressedAiMonophthongization Ctx\(\[\s*\[\s*(.*?)\s*\]\s*\]\);",
             self.src)
         self.assertIsNotNone(m, "cannot find SC014 define")
         body = m.group(1).strip()

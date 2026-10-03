@@ -10,9 +10,9 @@ Its input is final \emph{*ō} in a stressed monosyllable.
 ## SC018. Raising of final stressed monosyllabic \emph{*ō} (`PNWGmcStressedMonosyllableORaising`) {#rule-PNWGmcStressedMonosyllableORaising}
 
 ```foma
-define PNWGmcStressedMonosyllableORaising [
+define PNWGmcStressedMonosyllableORaising Ctx([
     {*ō} -> {*ū} || .#. [EnglishStarConsonant | EnglishPalatalConsonant]* _ .#.
-];
+]);
 ```
 
 Campbell's *cū* 'cow', *hū* 'how', and *tū* 'two' establish final stressed monosyllabic \emph{*ō} > \emph{*ū}.

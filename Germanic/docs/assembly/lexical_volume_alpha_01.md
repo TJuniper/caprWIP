@@ -27,7 +27,7 @@ Four objects must be distinguished in every derivation: the citation reconstruct
 
 The lexical catalogue is ordered by seven derivation classes in the current manifest. Counts in this alpha are:
 
-- Regular derivations: 79
+- Regular derivations: 82
 - Attested variants: 4
 - Early analogy: 36
 - Late analogy: 27
@@ -988,6 +988,76 @@ Campbell states that Primitive Germanic _ē_ appears as West Saxon _ǣ_ but in o
 
 From inherited [dēdiz]{.recon} 'deed', loss of final _-z_ and the West Saxon lowering of stressed long _ē_ yield _dǣd_ 'deed'; Anglian _dēd_ 'deed' preserves the non-West-Saxon outcome [@Campbell1959; @SieversBrunner1965]. The development treated here is therefore the regular West Saxon line.
 
+### dew — OE _dēaw_
+
+Derivation: _\*dáwwō_ > _dēaw_ (regular).
+
+#### Derivation trace
+
+Proto input: _\*dáwwō_
+
+\begingroup
+\setlength{\fboxsep}{6pt}
+\noindent\fbox{%
+\begin{minipage}{0.97\linewidth}
+\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Earlier Germanic changes}\par
+\vspace{0.35em}
+\raggedright
+\centering\textbf{Northwest and West Germanic}\par
+\raggedright
+\vspace{0.2em}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{OE WW Simplification} & \emph{*dáuwō} \\
+\mbox{PNWGmc Final Long O Raising} & \emph{*dáuwu} \\
+\end{tabularx}
+\vspace{0.6em}
+\centering\textbf{Early Anglo-Frisian}\par
+\raggedright
+\vspace{0.2em}
+\raggedright [no change]\par
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Old English changes}\par
+\vspace{0.35em}
+\raggedright
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{OE Au Brightening} & \emph{*dáeuwu} \\
+\mbox{OE Diphthong Leveling} & \emph{*dēawu} \\
+\mbox{OE High Vowel Apocope} & \emph{*dēaw} \\
+\end{tabularx}
+\end{minipage}
+\\
+\end{tabular}
+\end{minipage}%
+}
+\endgroup
+
+Old English form: _dēaw_
+
+#### Reconstruction and development
+
+The selected PGmc \emph{*dáwwō} gives OE *dēaw* 'dew'.
+Its inherited geminate is reanalyzed early: short \emph{*a} plus
+\emph{*ww} becomes \emph{*au} with retained consonantal \emph{*w}.
+The nucleus subsequently undergoes English fronting and offglide
+realization. Early reanalysis must therefore be distinguished from the
+later long English surface diphthong
+[@RingeTaylor2014, pp. 65--66, 171--175; @Campbell1959, pp. 45--47].
+
+The current path is
+[SC031 OEWWSimplification](#rule-OEWWSimplification), then
+[SC030 OEAuBrightening](#rule-OEAuBrightening), then
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling).
+The unchanged reconstruction and final form no longer depend on a late
+unconditional ww deletion followed by singleton-aw lengthening.
+The selected evaluation uses the explicitly declared strong-final
+citation context; lexical accent does not infer sentence stress
+[@RingeTaylor2014, pp. 55, 57--58].
+
 ### door — OE _dor_
 
 Derivation: _\*dúrą_ > _dor_ (regular).
@@ -1506,6 +1576,76 @@ As a base-form comparison, the simplex infinitive is _lēosan_ 'lose', while the
 #### Development to Old English
 
 From [léusaną]{.recon} 'lose', Old English diphthong leveling gives [lēosaną]{.recon} 'lose', and later nasal apocope and weak-tail reduction yield _lēosan_ 'lose' [@RingeTaylor2014]. The prefixed forms follow the same verbal base with added _for-_.
+
+### four — OE _fēower_
+
+Derivation: _\*fédwōr_ > _fēower_ (regular).
+
+#### Derivation trace
+
+Proto input: _\*fédwōr_
+
+\begingroup
+\setlength{\fboxsep}{6pt}
+\noindent\fbox{%
+\begin{minipage}{0.97\linewidth}
+\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Earlier Germanic changes}\par
+\vspace{0.35em}
+\raggedright
+\centering\textbf{Northwest and West Germanic}\par
+\raggedright
+\vspace{0.2em}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{PWGmc Final Or Lowering} & \emph{*fédwar} \\
+\mbox{PWGmc Coronal W Assimilation} & \emph{*féwwar} \\
+\mbox{OE WW Simplification} & \emph{*féuwar} \\
+\end{tabularx}
+\vspace{0.6em}
+\centering\textbf{Early Anglo-Frisian}\par
+\raggedright
+\vspace{0.2em}
+\raggedright [no change]\par
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Old English changes}\par
+\vspace{0.35em}
+\raggedright
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{OE Diphthong Leveling} & \emph{*fēowar} \\
+\mbox{EAF Brightening} & \emph{*fēowær} \\
+\mbox{OE Unstressed AE Merger} & \emph{*fēower} \\
+\end{tabularx}
+\end{minipage}
+\\
+\end{tabular}
+\end{minipage}%
+}
+\endgroup
+
+Old English form: _fēower_
+
+#### Reconstruction and development
+
+The selected PGmc \emph{*fédwōr} gives OE *fēower* 'four'.
+Coronal-w assimilation creates the geminate; short \emph{*e} plus
+\emph{*ww} is then reanalyzed as an \emph{*eu} nucleus with retained
+consonantal \emph{*w}. Ringe and Taylor explicitly use this history
+alongside the oblique plural pronoun *ēow* 'you'
+[@RingeTaylor2014, pp. 41--42].
+
+Thus [SC008 PWGmcCoronalWAssimilation](#rule-PWGmcCoronalWAssimilation)
+feeds [SC031 OEWWSimplification](#rule-OEWWSimplification).
+The earlier product reaches English long-diphthong realization through
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling), rather than
+receiving an English surface vowel in the West Germanic reanalysis
+[@RingeTaylor2014, pp. 65--66, 171--175].
+The selected context is the ordinary strong-final citation convention,
+not the weak-final selection of the pronoun. No reconstruction or final
+target has changed.
 
 ### gang — OE _gang_
 
@@ -2524,6 +2664,77 @@ From [xélpaną]{.recon} ‘help’, no special repair is needed beyond the ordi
 #### Form note
 
 Noun [_help_]{.iv lang=oe sort=help role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2071-help-helpan.model.md:33" occ_id="Germanic/docs/lexeme_reports/model_entries/2071-help-helpan.model.md:33:1"} 'help' belongs to a separate lexical line and should not replace verbal [_helpan_]{.iv lang=oe sort=helpan role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2071-help-helpan.model.md:33" occ_id="Germanic/docs/lexeme_reports/model_entries/2071-help-helpan.model.md:33:2"} 'help' as the target here [@ClarkHall1960; @BosworthToller1898, 542].
+
+### hew — OE _hēawan_
+
+Derivation: _\*xáwwaną_ > _hēawan_ (regular).
+
+#### Derivation trace
+
+Proto input: _\*xáwwaną_
+
+\begingroup
+\setlength{\fboxsep}{6pt}
+\noindent\fbox{%
+\begin{minipage}{0.97\linewidth}
+\footnotesize
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.339\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.630\linewidth}@{}}
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Earlier Germanic changes}\par
+\vspace{0.35em}
+\raggedright
+\centering\textbf{Northwest and West Germanic}\par
+\raggedright
+\vspace{0.2em}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.18\linewidth}@{\hspace{0.25em}}}
+\mbox{OE WW Simplification} & \emph{*xáuwaną} \\
+\end{tabularx}
+\vspace{0.6em}
+\centering\textbf{Early Anglo-Frisian}\par
+\raggedright
+\vspace{0.2em}
+\raggedright [no change]\par
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Old English changes}\par
+\vspace{0.35em}
+\raggedright
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.22\linewidth}@{\hspace{0.25em}}}
+\mbox{OE Au Brightening} & \emph{*xáeuwaną} \\
+\mbox{OE Diphthong Leveling} & \emph{*xēawaną} \\
+OE Velar Fricative Palatalization & \emph{*çēawaną} \\
+OE Heavy Syllable Nasal Apocope & \emph{*çēawan} \\
+\mbox{OE Secondary Nasalization} & \emph{*çēawąn} \\
+\mbox{OE Weak Tail Reduction} & \emph{*çēawan} \\
+\end{tabularx}
+\end{minipage}
+\\
+\end{tabular}
+\end{minipage}%
+}
+\endgroup
+
+Old English form: _hēawan_
+
+#### Reconstruction and development
+
+PGmc \emph{*xáwwaną} gives OE *hēawan* 'hew'. Its inherited
+short-vowel-plus-geminate sequence yields \emph{*au} plus retained
+consonantal \emph{*w} in the earlier West Germanic reanalysis.
+English fronting and realization then produce the long diphthong.
+The geminate is not simply deleted at the later English checkpoint
+[@RingeTaylor2014, pp. 65--66, 171--175; @Campbell1959, pp. 45--47].
+
+Together with dew, this word follows
+[SC031 OEWWSimplification](#rule-OEWWSimplification),
+[SC030 OEAuBrightening](#rule-OEAuBrightening), and
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling).
+It contrasts with the j-created geminates of hay and reconstructed
+West Saxon strew, which retain their independently governed resolution.
+The earlier and later components are separate even though the final
+spelling is unchanged [@Campbell1959, pp. 45--47;
+@RingeTaylor2014, pp. 53, 173].
 
 ### hind — OE _hind_
 
@@ -5310,7 +5521,7 @@ Proto input: _\*ízwiz_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.582\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.388\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.611\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.359\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -5320,8 +5531,9 @@ Proto input: _\*ízwiz_
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{PWGmc Coronal W Assimilation} & \emph{*íwwiz} \\
-\mbox{EAF Final Z Deletion} & \emph{*íwwi} \\
-PWGmc Unstressed Word Final I Apocope & \emph{*íww} \\
+\mbox{OE WW Simplification} & \emph{*íuwiz} \\
+\mbox{EAF Final Z Deletion} & \emph{*íuwi} \\
+PWGmc Unstressed Word Final I Apocope & \emph{*íuw} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -5335,8 +5547,7 @@ PWGmc Unstressed Word Final I Apocope & \emph{*íww} \\
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Ew Long Diphthong} & \emph{*ēoww} \\
-\mbox{OE WW Simplification} & \emph{*ēow} \\
+\mbox{OE Diphthong Leveling} & \emph{*ēow} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -5349,7 +5560,7 @@ Old English form: _ēow_
 
 #### Reconstruction and comparative evidence
 
-The derivational input is the dative(-accusative) plural of the second-person plural pronoun, PGmc [ízwiz]{.iv .recon lang=pgmc sort=izwiz role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:21:1"} 'you (dat. pl.)' (Gothic [izwis]{.iv lang=goth sort=izwis role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:21:2"} 'you'). Ringe and Taylor print the development in full: "PGmc \*izwiz 'you (dat. pl.)' (Goth. izwis) > \*iwwi > PWGmc \*iuwi ~ \*iuw (see 3.1.4) > OE īow, OF iū, OS, OHG iu" [@RingeTaylor2014, pp. 41--42], following Stiles's demonstration of the coronal-w assimilation [@Stiles1985, pp. 89--94]. Fulk corroborates the \*-zw- > \*-ww- assimilation [@Fulk2018, §8.3, pp. 204--205]. The oblique plural is the cell that survives as the Old English pronoun *ēow*; the modern English word continues this oblique form.
+The derivational input is the dative(-accusative) plural of the second-person plural pronoun, PGmc [ízwiz]{.iv .recon lang=pgmc sort=izwiz role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:21:1"} 'you (dat. pl.)' (Gothic [izwis]{.iv lang=goth sort=izwis role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:21:2"} 'you'). Ringe and Taylor print the development in full: "PGmc \*izwiz 'you (dat. pl.)' (Goth. izwis) > \*iwwi > PWGmc \*iuwi ~ \*iuw (see 3.1.4) > OE īow, OF iū, OS, OHG iu" [@RingeTaylor2014, pp. 41--42], following Stiles's demonstration of the coronal-w assimilation [@Stiles1985, pp. 89--94]. Fulk's discussion of inherited geminate glides after short vowels supplies the wider reanalysis context, not a replacement citation for that assimilation [@Fulk2018, p. 117]. The oblique plural is the cell that survives as the Old English pronoun *ēow*.
 
 #### Old English evidence
 
@@ -5357,11 +5568,37 @@ West Saxon [ēow]{.iv lang=oe sort=eow role=target_form source_ref="Germanic/doc
 
 #### Development to Old English
 
-Four historical steps carry the form. (1) Coronal-w assimilation: [ízwiz]{.iv .recon lang=pgmc sort=izwiz role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29:1"} 'you' > [íwwiz]{.iv .recon lang=pwgmc sort=iwwiz role=evidence_form source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29:2"} 'you' [@RingeTaylor2014, pp. 41--42; @Stiles1985, pp. 89--94]. (2) Proto-West Germanic loss of word-final \*-z in unstressed syllables: > [íwwi]{.iv .recon lang=pwgmc sort=iwwi role=evidence_form source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29:3"} 'you' [@RingeTaylor2014, pp. 44--45]. (3) Early apocope in unstressed words: > [íww]{.iv .recon lang=pwgmc sort=iww role=evidence_form source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29:4"} 'you', the apocopated member of Ringe and Taylor's PWGmc doublet \*iuwi ~ \*iuw; the absence of i-umlaut in the Old English reflex is Ringe and Taylor's own proof that the trigger vowel fell before umlaut [@RingeTaylor2014, pp. 57--58]. (4) Vocalization of the geminate \*ww to the long diphthong, dated by Ringe and Taylor to Proto-West Germanic itself (\*fewwar > \*feuwar), followed by geminate simplification: > OE [ēow]{.iv lang=oe sort=eow role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:29:5"} 'you' [@RingeTaylor2014, pp. 41--42; @Fulk2018, §8.3, pp. 204--205].
+Coronal-w assimilation first supplies the geminate in
+\emph{*ízwiz} > \emph{*íwwiz}. Early inherited-glide reanalysis then
+gives an \emph{*iu} nucleus with retained consonantal \emph{*w}, rather
+than an already completed English long diphthong. Final-z loss exposes
+the last high vowel, and weak-final apocope selects the apocopated member
+of Ringe and Taylor's PWGmc \emph{*iuwi} / \emph{*iuw} doublet.
+The later English realization gives *ēow* without an i-mutation trigger
+[@RingeTaylor2014, pp. 41--42, 44--45, 57--58, 171--175].
+
+The selected sentence context is weak and phonologically final at early
+apocope. It is recorded independently of the unchanged PGmc reconstruction
+and independently of the root accent: the acute is not a sentence-stress
+mark. Under a retained-i context the present model produces predicted
+[*īei*]{.pred source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:42" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:42:1"}, because w-loss before i intervenes before mutation.
+That is a computational negative control, not an attested strong Old
+English spelling. Proclitic *ymbe* 'around', weak-final *and* 'and', and
+stressed *ġiest* 'guest' / *fȳr* 'fire' test the boundary and stress
+contrasts; no pronoun-specific or lexeme-ID sound-law condition is used
+[@RingeTaylor2014, pp. 55, 57--58].
 
 #### Why this row is in the corpus
 
-This row is a chronology witness of unusual power for basic vocabulary. It forces coronal-w assimilation (SC008) to precede rhotacism (SC003): had rhotacism applied first, \*izwiz would have become [*irwiz*]{.pred source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:33" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:33:1"}, from which *ēow* is underivable. It is the corpus witness for SC098, the early apocope in unstressed words, and for its bleeding of i-umlaut (SC055), and it fixes the order of geminate-w vocalization (SC033) before degemination (SC031). See `docs/sound_changes/audits/corpus-maturation-01-candidate-adjudication.md` §2 and `docs/sound_changes/audits/sc098-dossier-unstressed-word-final-i-apocope.md`.
+The word supplies the assimilation input to
+[SC031 OEWWSimplification](#rule-OEWWSimplification) and the selected
+weak-final context for
+[SC098 PWGmcUnstressedWordFinalIApocope](#rule-PWGmcUnstressedWordFinalIApocope).
+It demonstrates loss of the mutation trigger, not a late English
+vocalization-before-degemination order. That older interpretation belonged
+to the superseded ww proxy. The independently justified assimilation
+feeder and the prosodic condition now remain separate
+[@RingeTaylor2014, pp. 41--42, 55, 57--58].
 
 ### thought — OE _þōhte_
 
@@ -5467,7 +5704,7 @@ Proto input: _\*xéwją_
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.18\linewidth}@{\hspace{0.25em}}}
 \mbox{OE Ew Long Diphthong} & \emph{*xēowwją} \\
-\mbox{OE WW Simplification} & \emph{*xēowją} \\
+\mbox{OE JWW Simplification} & \emph{*xēowją} \\
 OE Velar Fricative Palatalization & \emph{*çēowją} \\
 OE Heavy Syllable Nasal Apocope & \emph{*çēowj} \\
 \mbox{OE I Umlaut} & \emph{*çīewj} \\
@@ -5484,7 +5721,7 @@ Old English form: _hīew_
 
 #### Reconstruction and comparative evidence
 
-The derivational input is the Proto-Germanic neuter *ja*-stem noun 'visible layer, appearance'. Kroonen reconstructs [heuja-]{.iv .recon lang=pgmc sort=heuja role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21:1"} on the comparative set Gothic [hiwi]{.iv lang=goth sort=hiwi role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21:2"} 'surface appearance, complexion', ON [hý]{.iv lang=on sort=hy role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21:3"} 'down on plants', Nw. *hy*, both of the down on plants, OE *hīw*, *hēow* 'shape, form, hue, colour', ME *hue*, and traces it to a *quasi*-PIE \*kieh₁-u-io- [@Kroonen2013, p. 224]. CAPR writes the prevocalic \*-u- of the diphthong as \*w, following the convention already used in *knee* \*knéwą and *chew* \*kéwwaną, so the input form is \*xéwją. The Proto-Germanic raising of \*e to \*i before \*j is modelled inside the cascade rather than assumed in the reconstruction, which is why the input is entered with \*é.
+The derivational input is the Proto-Germanic neuter *ja*-stem noun 'visible layer, appearance'. Kroonen reconstructs [heuja-]{.iv .recon lang=pgmc sort=heuja role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21:1"} on the comparative set Gothic [hiwi]{.iv lang=goth sort=hiwi role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21:2"} 'surface appearance, complexion', ON [hý]{.iv lang=on sort=hy role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21:3"} 'down on plants', Nw. *hy*, both of the down on plants, OE *hīw*, *hēow* 'shape, form, hue, colour', ME *hue*, and traces it to a *quasi*-PIE \*kieh₁-u-io- [@Kroonen2013, p. 224]. CAPR writes the prevocalic \*-u- of the diphthong as \*w, following the convention already used in *knee* \*knéwą and *chew* \*kéwwaną, so the input form is \*xéwją. This is a disclosed representation convention, not a complete phonetic reconstruction of every intermediate. The executed path retains \*é through West Germanic gemination, then proceeds through \*ēo and later mutation to \*īe; it does not separately implement early \*e-to-\*i raising in this word. The matching final therefore does not establish that omitted early intermediate.
 
 Campbell reconstructs the same stem shape in the traditional \*i-notation, \*niwja- beside the parallel words, and states the West Germanic law that governs it: "auj > auuj > auj, and iuj > iuuj > iuj" [@Campbell1959, §120.2, p. 46]. Ringe and Taylor supply the comparative warrant for the geminate independently of the disputed \*awj cases, reconstructing PWGmc \*[niwwa-], \*[siwwian] and \*[gliwwias] beside singleton-\*w nominatives [@RingeTaylor2014, p. 53].
 
@@ -5496,11 +5733,21 @@ Campbell prints [hīew]{.iv lang=oe sort=hiew role=target_form source_ref="Germa
 
 Campbell's decisive observation is that the \*awj and \*iwj types share the gemination and then part company: "the u of auuj is lost, so that the final result is ēg or ieg, but the j of iuuj is lost, so that the result is iow or iew" [@Campbell1959, §120.2, p. 46]. The cascade reproduces both halves of that statement. West Germanic gemination doubles the \*w before \*j, giving \*xéwwją. The \*ew diphthong is then lengthened to \*ēo, the geminate is simplified, the initial dorsal fricative is palatalized, the nasal-final syllable loses its ending, *i*-umlaut raises \*ēo to \*īe, and the \*j is lost after the now heavy syllable, leaving *hīew* with the \*w intact.
 
+This geminate is created after the modeled early inherited-glide
+reanalysis and does not enter that short-Vww operation. Its later
+long-diphthong path remains at
+[SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong), followed by the
+separately disclosed [SC106 OEJWWSimplification](#rule-OEJWWSimplification)
+residual before j. The residual is a technical representation, not a newly
+adjudicated historical law; the representative before-j placement of the
+earlier reanalysis is not a newly proved strict chronology
+[@Campbell1959, pp. 45--47; @RingeTaylor2014, pp. 53, 65--66, 171--175].
+
 The contrast with *hay* \*xáwją is exact. The two inputs differ in a single segment, both geminate, and thereafter the low-vowel word loses its \*w and keeps its \*j to give *hīeġ*, while this word loses its \*j and keeps its \*w. The resolution rule that converts the geminate to a diphthong is restricted to the low-vowel type and does not apply here, nor does the fronting of the resulting diphthong.
 
 #### Why this row is in the corpus
 
-The \*w branch of West Germanic *j*-gemination was witnessed only by *hay* and *strew*, both of which immediately undergo the later English resolution of \*awwj. The branch and the resolution were therefore witnessed by the same two words, and nothing in the corpus showed that the gemination is the broader change. This row separates them. It is a positive witness for gemination of \*w before \*j after a short front vowel, and a negative control for the resolution rule, whose domain is the low-vowel type alone. It also gives the West Saxon simplification of the geminate its first witness outside the inherited \*ww words. See `docs/sound_changes/audits/sc010-w-gemination-and-hay-depth-adjudication.md`.
+The \*w branch of West Germanic *j*-gemination was witnessed only by *hay* and *strew*, both of which immediately undergo the later English resolution of \*awwj. The branch and the resolution were therefore witnessed by the same two words, and nothing in the corpus showed that the gemination is the broader change. This row separates them. It is a positive witness for gemination of \*w before \*j after a short front vowel, and a negative control for the resolution rule, whose domain is the low-vowel type alone. It also gives the West Saxon simplification of the geminate its first witness outside the inherited \*ww words. The earlier operation is discussed with [SC010 PWGmcJGemination](#rule-PWGmcJGemination).
 
 \clearpage
 

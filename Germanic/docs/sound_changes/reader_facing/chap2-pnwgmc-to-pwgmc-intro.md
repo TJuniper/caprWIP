@@ -53,11 +53,30 @@ They feed a large proportion of the distinctive consonant clusters of Old
 English. Handbooks vary in exactly how they group and name these changes
 [@Campbell1959, §§ 404, 406; @HoggGrammar1992, §4.11].
 
+Coronal assimilation also supplies the geminate in *fēower* 'four' and
+*ēow* 'you', before inherited short-vowel-plus-geminate-glide reanalysis.
+[SC031 OEWWSimplification](#rule-OEWWSimplification) now represents that
+earlier development, not an unrestricted late deletion. The resulting
+diphthong-plus-glide sequence is inherited by later English realization;
+j-created and singleton paths remain distinct
+[@RingeTaylor2014, pp. 41--42, 65--66; @Campbell1959, pp. 45--47].
+
+The quoted definitions use `Ctx(...)` to carry selected sentence context
+outside the segmental operation. It is computational transport, not a
+reconstructed segment or an additional sound law. Lexical accent,
+sentence stress and phonological-word finality are separate: the early
+high-vowel-loss account requires a heavy syllable in a sentence-unstressed,
+phonologically final word, not simply the absence of an acute. Ordinary
+evaluation selects strong-final citation context; the explicit weak-final
+selection for *ēow* is discussed with
+[SC098 PWGmcUnstressedWordFinalIApocope](#rule-PWGmcUnstressedWordFinalIApocope)
+[@RingeTaylor2014, pp. 55, 57--58].
+
 The nasal spirant corridor (SC026–SC027), treated in Chapter 3 at its cascade
 position, illustrates a type of change common
 in historical grammars of the "Ingvaeonic" or "North Sea Germanic" area:
 nasals disappear before voiceless fricatives, with compensatory vowel
-lengthening [@Campbell1959, §§ 462--463; @HoggGrammar1992, §§3.13--3.14]. The CAPR model
+lengthening [@Campbell1959, §§ 462--463; @HoggGrammar1992, p. 56, §3.14 (held 2011 reissue)]. The CAPR model
 splits this into two ordered steps to make the vowel effect computationally
 tractable; the book prose explains that split against the handbook tradition,
 which typically presents the change as a single process.
@@ -108,7 +127,8 @@ research specifically argues for Anglo-Frisian or English-specific placement.
 
 ## Rule names
 
-The CAPR rules in this chapter carry names beginning with `NWGmc` or `PWGmc`.
+Most CAPR rules in this chapter carry names beginning with `NWGmc` or `PWGmc`;
+the reformulated inherited-glide rule retains its older `OE` identifier.
 These names are stable internal identifiers. A name beginning with `NWGmc` does
 not guarantee that the change is exclusive to Northwest Germanic, and a name
 beginning with `PWGmc` does not guarantee that it is absent from North Germanic.

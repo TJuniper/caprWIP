@@ -15,6 +15,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
+from oe_pipeline import evaluation_input, load_rows as load_contextual_rows
 
 # Note: Hyphen (-) is NOT stripped because compounds use it (e.g., *regnă-bugô)
 PROTO_STRIP_RE = re.compile(r"[{}*\s/()]")
@@ -186,28 +187,7 @@ def normalize_proto(raw: str) -> str:
 
 
 def load_rows(tsv_path: Path) -> List[Dict[str, str]]:
-    rows: List[Dict[str, str]] = []
-    with tsv_path.open(encoding="utf-8") as handle:
-        reader = csv.DictReader(handle, delimiter="\t")
-        for row in reader:
-            if row.get("DOCULECT") != "Old_English":
-                continue
-            proto = (row.get("PROTOFORM") or "").strip()
-            counterpart = (row.get("COUNTERPART") or "").strip()
-            if not proto or not counterpart or counterpart == "-":
-                continue
-            norm = normalize_proto(proto)
-            if not norm:
-                continue
-            rows.append(
-                {
-                    "concept": row.get("CONCEPT", ""),
-                    "proto": proto,
-                    "proto_norm": norm,
-                    "counterpart": counterpart,
-                }
-            )
-    return rows
+    return load_contextual_rows(tsv_path)
 
 
 def load_known_problems(ledger_path: Path) -> Dict[str, Dict[str, str]]:
@@ -908,7 +888,7 @@ def build_report(
     buckets: Dict[str, List[Tuple[str, str, str]]] = defaultdict(list)
     other_subs: Dict[str, List[Tuple[str, str, str]]] = defaultdict(list)
     for row in rows:
-        outputs = apply_down(bin_path, row["proto_norm"])
+        outputs = apply_down(bin_path, evaluation_input(row))
         expected = row["counterpart"]
         if not outputs:
             buckets["no_output"].append((row["proto"], "+?", expected))

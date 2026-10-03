@@ -18,6 +18,7 @@ import csv
 import re
 from pathlib import Path
 from typing import Dict, List
+from oe_pipeline import display_form, evaluation_input, load_rows as load_contextual_rows
 
 from oe_full_trace_report import (
     STAGE_HEADERS,
@@ -43,6 +44,7 @@ DERIVATION_ORDER = [
 
 def load_rows(tsv_path: Path) -> List[Dict[str, str]]:
     rows: List[Dict[str, str]] = []
+    contexts = iter(load_contextual_rows(tsv_path))
     with tsv_path.open(encoding="utf-8") as handle:
         reader = csv.DictReader(handle, delimiter="\t")
         for row in reader:
@@ -56,12 +58,12 @@ def load_rows(tsv_path: Path) -> List[Dict[str, str]]:
             if not norm:
                 continue
             klass = (row.get("DERIVATION_CLASS") or "").strip() or "unclassified"
+            contextual = next(contexts)
+            if contextual["proto"] != proto or contextual["counterpart"] != counterpart:
+                raise ValueError("derivation-class selection disagrees with shared OE input assembly")
             rows.append(
                 {
-                    "concept": row.get("CONCEPT", ""),
-                    "proto": proto,
-                    "proto_norm": norm,
-                    "counterpart": counterpart,
+                    **contextual,
                     "derivation_class": klass,
                     "note": (row.get("NOTE") or "").strip(),
                 }
@@ -77,7 +79,7 @@ def write_report(
 ) -> None:
     buckets: Dict[str, List[Dict[str, str]]] = {k: [] for k in DERIVATION_ORDER}
     for row in rows:
-        outputs = apply_down(bin_path, row["proto_norm"])
+        outputs = apply_down(bin_path, evaluation_input(row))
         row_copy = dict(row)
         row_copy["outputs"] = ", ".join(outputs) if outputs else "+?"
         bucket = row["derivation_class"]
@@ -102,7 +104,7 @@ def write_report(
                 lines.append(f"NOTE: {row['note']}")
             lines.append("")
             prev_outputs: List[str] | None = None
-            for label, outputs in trace_lexeme(row["proto_norm"], bin_dir):
+            for label, outputs in trace_lexeme(evaluation_input(row), bin_dir):
                 base_label = label.split(" [", 1)[0]
                 header = STAGE_HEADERS.get(base_label)
                 if header is not None:
@@ -110,7 +112,7 @@ def write_report(
                     lines.append(header)
                     lines.append("")
                 prev_outputs = outputs
-                pretty = ", ".join(outputs)
+                pretty = ", ".join(display_form(form) for form in outputs)
                 lines.append(f"{label}: {pretty}")
             lines.append("")
         lines.append("")
@@ -125,14 +127,14 @@ def project_full_trace(rows: List[Dict[str, str]], full_trace: Path) -> str:
     if problems:
         raise ValueError("stale full trace: " + "; ".join(problems))
     pattern = re.compile(
-        r"^--- (.*?) ---\nPROTO: ([^\n]*)\nEXPECTED: ([^\n]*)\n"
+        r"^--- (.*?) ---\nPROTO: ([^\n]*)\n(?:INPUT_CONTEXT: ([^\n]*)\n)?EXPECTED: ([^\n]*)\n"
         r"OUTPUTS: ([^\n]*)\n(.*?)(?=^--- |^=== |\Z)", re.M | re.S)
     evidence = {}
     for match in pattern.finditer(text):
-        key = match.group(1, 2, 3)
+        key = match.group(1, 2, 4)
         if key in evidence:
             raise ValueError(f"duplicate full-trace identity: {key}")
-        evidence[key] = match.group(4, 5)
+        evidence[key] = match.group(5, 6, 3)
     buckets = {name: [] for name in DERIVATION_ORDER}
     selected = set()
     for row in rows:
@@ -142,6 +144,12 @@ def project_full_trace(rows: List[Dict[str, str]], full_trace: Path) -> str:
         selected.add(key)
         if key not in evidence:
             raise ValueError(f"missing full-trace identity: {key}")
+        if "word_stress" in row:
+            expected_context = (
+                f"SC098; stress={row['word_stress']}; finality={row['phonological_finality']}"
+            )
+            if evidence[key][2] != expected_context:
+                raise ValueError(f"full-trace selected context mismatch: {key}")
         bucket = row["derivation_class"]
         buckets[bucket if bucket in buckets else "unclassified"].append(row)
     if len(evidence) != len(rows):
@@ -152,7 +160,7 @@ def project_full_trace(rows: List[Dict[str, str]], full_trace: Path) -> str:
             continue
         lines.extend([f"=== DERIVATION_CLASS: {bucket} ({len(items)}) ===", ""])
         for row in sorted(items, key=lambda r: r["concept"]):
-            outputs, body = evidence[(row["concept"], row["proto"], row["counterpart"])]
+            outputs, body, _ = evidence[(row["concept"], row["proto"], row["counterpart"])]
             lines.extend([f"--- {row['concept']} ---", f"PROTO: {row['proto']}",
                           f"EXPECTED: {row['counterpart']}", f"OUTPUTS: {outputs}"])
             if row["note"]:

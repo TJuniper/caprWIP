@@ -827,7 +827,7 @@ English Proto Input: *kéwwaną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *kēowwaną<br>OE WW Simplification: *kēowaną<br>OE Heavy Syllable Nasal Apocope: *kēowan<br>OE Secondary Nasalization: *kēowąn<br>OE Velar Palatalization: *ʧēowąn<br>OE Weak Tail Reduction: *ʧēowan |
+| **Northwest and West Germanic**<br>OE WW Simplification: *kéuwaną<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Diphthong Leveling: *kēowaną<br>OE Heavy Syllable Nasal Apocope: *kēowan<br>OE Secondary Nasalization: *kēowąn<br>OE Velar Palatalization: *ʧēowąn<br>OE Weak Tail Reduction: *ʧēowan |
 
 
 
@@ -1088,7 +1088,7 @@ English Proto Input: *dáwwō
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PNWGmc Final Long O Raising: *dáwwu<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE WW Simplification: *dáwu<br>OE Aw Long Diphthong: *dḗawu<br>OE High Vowel Apocope: *dḗaw |
+| **Northwest and West Germanic**<br>OE WW Simplification: *dáuwō<br>PNWGmc Final Long O Raising: *dáuwu<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Au Brightening: *dáeuwu<br>OE Diphthong Leveling: *dēawu<br>OE High Vowel Apocope: *dēaw |
 
 
 
@@ -1871,7 +1871,7 @@ English Proto Input: *fédwōr
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PWGmc Final Or Lowering: *fédwar<br>PWGmc Coronal W Assimilation: *féwwar<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *fēowwar<br>OE WW Simplification: *fēowar<br>EAF Brightening: *fēowær<br>OE Unstressed AE Merger: *fēower |
+| **Northwest and West Germanic**<br>PWGmc Final Or Lowering: *fédwar<br>PWGmc Coronal W Assimilation: *féwwar<br>OE WW Simplification: *féuwar<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Diphthong Leveling: *fēowar<br>EAF Brightening: *fēowær<br>OE Unstressed AE Merger: *fēower |
 
 
 
@@ -2818,13 +2818,13 @@ English Proto Input: *xáwwaną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE WW Simplification: *xáwaną<br>OE Aw Long Diphthong: *xḗawaną<br>OE Velar Fricative Palatalization: *çḗawaną<br>OE Heavy Syllable Nasal Apocope: *çḗawan<br>OE Secondary Nasalization: *çḗawąn<br>OE Weak Tail Reduction: *çḗawan |
+| **Northwest and West Germanic**<br>OE WW Simplification: *xáuwaną<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Au Brightening: *xáeuwaną<br>OE Diphthong Leveling: *xēawaną<br>OE Velar Fricative Palatalization: *çēawaną<br>OE Heavy Syllable Nasal Apocope: *çēawan<br>OE Secondary Nasalization: *çēawąn<br>OE Weak Tail Reduction: *çēawan |
 
 
 
 ### Orthography & surface
 
-Old English Orthography: h*ḗawan
+Old English Orthography: h*ēawan
 Outcome: hēawan
 
 
@@ -3064,7 +3064,7 @@ English Proto Input: *xéwją
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PWGmc J Gemination: *xéwwją<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *xēowwją<br>OE WW Simplification: *xēowją<br>OE Velar Fricative Palatalization: *çēowją<br>OE Heavy Syllable Nasal Apocope: *çēowj<br>OE I Umlaut: *çīewj<br>OE J Loss After Heavy: *çīew |
+| **Northwest and West Germanic**<br>PWGmc J Gemination: *xéwwją<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *xēowwją<br>OE JWW Simplification: *xēowją<br>OE Velar Fricative Palatalization: *çēowją<br>OE Heavy Syllable Nasal Apocope: *çēowj<br>OE I Umlaut: *çīewj<br>OE J Loss After Heavy: *çīew |
 
 
 
@@ -7388,7 +7388,7 @@ English Proto Input: *ízwiz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PWGmc Coronal W Assimilation: *íwwiz<br>EAF Final Z Deletion: *íwwi<br>PWGmc Unstressed Word Final I Apocope: *íww<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *ēoww<br>OE WW Simplification: *ēow |
+| **Northwest and West Germanic**<br>PWGmc Coronal W Assimilation: *íwwiz<br>OE WW Simplification: *íuwiz<br>EAF Final Z Deletion: *íuwi<br>PWGmc Unstressed Word Final I Apocope: *íuw<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Diphthong Leveling: *ēow |
 
 
 
@@ -7396,7 +7396,7 @@ English Proto Input: *ízwiz
 
 Outcome: ēow
 
-NOTE: Second-person plural pronoun, dat.(-acc.) pl. PGmc *izwiz (Goth. izwis) > *iwwi by coronal-w assimilation (SC008; Stiles 1985-6; R/T 2014: 41-42; Fulk §8.3 pp.204-205) > PWGmc *iuw with apocope in unstressed words (SC098, R/T 2014: 57-58): the absence of i-umlaut proves the *-i fell before umlaut. Geminate-w vocalization is PWGmc (*fewwar > *feuwar), so SC033 precedes degemination (SC031). WS ēow beside eWS/Nb īow: Campbell §702 p.283 note. Chronology witness: SC008 must precede rhotacism (SC003) — rhotacized *irwiz could never yield ēow.
+NOTE: Second-person plural pronoun, dat.(-acc.) pl. PGmc *izwiz (Goth. izwis) > *iwwi by coronal-w assimilation (SC008; R/T 2014 pp.41-42), then early inherited-glide reanalysis (SC031) > *iuwi. Selected weak-final context at SC098 gives *iuw by heavy-syllable apocope before mutation (R/T 2014 pp.55,57-58); lexical accent does not encode sentence stress. Later English realization uses SC032, not SC033. WS ēow beside eWS/Nb īow: Campbell 1959 §702 p.283 note. The context annotation is separate from PROTO/PROTOFORM; the retained-i terminal counterfactual is model-only, not an attested strong spelling.
 
 
 

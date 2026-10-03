@@ -18,7 +18,9 @@ Generator: `Germanic/tools/generate_registry_views.py`.
 | SC028 | Northern West Germanic *xs-Cluster Simplification | active | RETAIN/REORDER | `Germanic/docs/sound_changes/audits/sc028-xs-cluster-simplification-adjudication.md` |
 | SC029 | Pre-OE resolution of *awj to *auj | active | RETAIN | `Germanic/docs/sound_changes/audits/sc029-sc030-awj-resolution-and-au-fronting-adjudication.md` |
 | SC030 | English brightening of *au to *æu | active | RETAIN | `Germanic/docs/sound_changes/audits/sc029-sc030-awj-resolution-and-au-fronting-adjudication.md` |
+| SC031 | Inherited short-Vww reanalysis | active | SPLIT/REORDER | `Germanic/docs/sound_changes/audits/sc031-glide-reanalysis-adjudication.md` |
 | SC056 | Ordinary West Saxon palatal diphthongization | active | SPLIT/REORDER | `Germanic/docs/sound_changes/audits/sc056-ordinary-palatal-diphthongization-adjudication.md` |
+| SC098 | Early apocope in unstressed words | active | REFORMULATE | `Germanic/docs/sound_changes/audits/sc098-context-apocope-adjudication.md` |
 | SC101 | EAF Long A Fronting | active | SPLIT/RESTRICT | `Germanic/docs/sound_changes/audits/sc024-sc025-sc101-e1-complex-adjudication.md` |
 | SC102 | EAF Generalization of Hiatus-Breaking W | active | SPLIT | `Germanic/docs/sound_changes/audits/sc024-sc025-sc101-e1-complex-adjudication.md` |
 | SC103 | Proto-Germanic nasal loss before *x | active | SPLIT/REORDER | `Germanic/docs/sound_changes/audits/sc025-sc104-nasalized-low-vowel-adjudication.md` |

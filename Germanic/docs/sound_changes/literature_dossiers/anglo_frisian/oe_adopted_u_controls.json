@@ -1,5 +1,8 @@
 {
   "schema_version": 1,
+  "baseline_fst_sha256": "8437fb2b64289140458d895d7d1e24592df920960b74c5e781ca6791ff9cc47b",
+  "baseline_corpus_sha256": "a08df28912bd957452fdcbe83d49ee398cd21db171c0f85113f7d6ca575a5ac8",
+  "fixture_file": "oe_adopted_u_fixtures.tsv",
   "recipes": [
     {
       "id": "identity",

@@ -10,6 +10,7 @@ import subprocess
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
+from oe_pipeline import evaluation_input, load_rows
 
 PROTO_STRIP_RE = re.compile(r"[{}*\s\-/()]")
 
@@ -27,31 +28,6 @@ BREAKING_DIPHTHONGS = ("ēa", "ēo", "īe", "ea", "eo", "ie")
 
 def normalize_proto(raw: str) -> str:
     return PROTO_STRIP_RE.sub("", raw or "")
-
-
-def load_rows(tsv_path: Path) -> List[Dict[str, str]]:
-    rows: List[Dict[str, str]] = []
-    with tsv_path.open(encoding="utf-8") as handle:
-        reader = csv.DictReader(handle, delimiter="\t")
-        for row in reader:
-            if row.get("DOCULECT") != "Old_English":
-                continue
-            proto = (row.get("PROTO") or "").strip()
-            counterpart = (row.get("COUNTERPART") or "").strip()
-            if not proto or not counterpart or counterpart == "-":
-                continue
-            norm = normalize_proto(proto)
-            if not norm:
-                continue
-            rows.append(
-                {
-                    "concept": row.get("CONCEPT", ""),
-                    "proto": proto,
-                    "proto_norm": norm,
-                    "counterpart": counterpart,
-                }
-            )
-    return rows
 
 
 def apply_down(bin_path: Path, form: str) -> List[str]:
@@ -149,7 +125,7 @@ def bucket_mismatches(
 ) -> Dict[str, List[Tuple[str, str, str]]]:
     buckets: Dict[str, List[Tuple[str, str, str]]] = defaultdict(list)
     for row in rows:
-        outputs = apply_down(bin_path, row["proto_norm"])
+        outputs = apply_down(bin_path, evaluation_input(row))
         expected = row["counterpart"]
         if not outputs:
             buckets["no_output"].append((row["proto"], "+?", expected))

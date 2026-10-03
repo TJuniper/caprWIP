@@ -15,10 +15,10 @@ This change is distinct from the two later final-\emph{*z} developments. It was 
 ## SC096. Root-noun nominative \emph{*-z} loss (`RootNounNomZLoss`) {#rule-RootNounNomZLoss}
 
 ```foma
-define RootNounNomZLoss [{*z} -> 0 ||
+define RootNounNomZLoss Ctx([{*z} -> 0 ||
     .#. [EnglishStarConsonant | EnglishPalatalConsonant]*
         EnglishStarVocalic+
-        [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.];
+        [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.]);
 ```
 
 The rule deletes word-final \emph{*z} after a consonant in a monosyllable. Three claims of different kinds meet here and must be kept apart. The historical claim is morphological: the nominative-singular ending was lost in the athematic root-noun class, so that this one paradigm cell came to lack its marker — a development complete before Proto-West Germanic [@RingeTaylor2014, p. 118, §3.4]. The lexical claim belongs to the dictionaries: Orel's citation forms, which supply the corpus inputs, print that marker explicitly as \emph{-z} in \emph{*bōkz}, \emph{*flauxz}, \emph{*ǥansz}, and \emph{*lūsz} [@Orel2003, pp. 52, 105, 126, 252]. The executable statement is neither of these but a computational proxy for them: 'delete word-final \emph{*z} after a consonant in a monosyllable'. It is not proposed as a Proto-Germanic sound law; it earns its place only because every form the corpus submits to the morphological development is a consonant-final monosyllable, so the narrow phonological statement covers the class exactly. Four corpus derivations witness the rule, each yielding its expected Old English outcome: PGmc [bōkz]{.recon} 'book' yields OE *bōc* 'book', [gánsz]{.recon} 'goose' yields *gōs* 'goose', [lūsz]{.recon} 'louse' yields *lūs* 'louse', and [fláuxz]{.recon} 'flea' yields *flēah* 'flea'. Should the corpus ever acquire a consonant-final monosyllable in \emph{*-z} that is not a root-noun nominative, the proxy and the morphology would come apart, and the rule would need to be re-scoped; the project's regression tests pin the firing population to exactly these four words so that any fifth firing forces that adjudication rather than passing silently.

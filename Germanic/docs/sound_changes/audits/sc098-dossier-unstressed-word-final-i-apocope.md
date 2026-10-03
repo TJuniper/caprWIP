@@ -67,9 +67,9 @@ untouched.
    *ēow* shows no umlaut [@RingeTaylor2014, pp. 57–58]. SC098 **bleeds**
    SC055 for this word.
 
-## 4. Implementation and its honest limits
+## 4. Original implementation and its honest limits (superseded)
 
-Adopted rule (composed in `EnglishProtoToOE` immediately after
+Original proxy (superseded by the SC031/SC098 context adjudication; composed in `EnglishProtoToOE` immediately after
 `EAFFinalZDeletion`):
 
 ```foma
@@ -145,3 +145,40 @@ programme; SC058 and SC077 are retired, not free). Proposed foma name:
 `PWGmcUnstressedWordFinalIApocope`. Reader-facing name: "Early apocope in
 unstressed words". Note: rule names are historic labels; numbering and
 renaming across the cascade will be regularized later (author instruction).
+
+## 8. Adopted context-aware reformulation
+
+Sections 4–7 record the original proxy and its original validation, not
+the current formalization. The coupled SC031/SC098 adjudication replaces
+literal ww conditioning with the source-backed heavy-syllable,
+sentence-unstressed, phonologically-final short-i/u condition
+([@RingeTaylor2014, pp. 55, 57–58]).
+Inherited/coronal-created short-Vww reanalysis now precedes that loss;
+the loss no longer depends on retaining an obsolete consonantal spelling.
+The separate homorganic uww quantity premise and later English realization
+are explained in the SC031 memo and the 031–034 dossier
+([@RingeTaylor2014, pp. 41–42, 65–66, 171–175; @Fulk2018, p. 117]).
+
+`entry_context_metadata.tsv` selects row2326 as weak-final at SC098.
+PROTO and PROTOFORM remain `*ízwiz`; root accent and selected sentence
+stress are independent. All other selected forms use the explicit
+strong-final citation convention. The full audit found 62 checkpoint
+forms eligible in a hypothetical weak-final context, not a you-only
+phonological domain. Proclitic finality is transported through unchanged
+SC063 vowel clauses and then removed; annotations never become lexical
+segments or displayed reconstructed forms.
+
+The protected composed assay passes 49 component, seven staged and 28
+intermediate controls. Weak-final and, proclitic ymbe, weak-final ēow,
+stressed ġiest/fȳr and homorganic sċūwa test the condition and quantity
+premises. The retained-i you result is model-only īei, not an attested
+strong spelling ([@RingeTaylor2014, pp. 41–42, 55, 57–58, 66;
+@Campbell1959, p. 283]).
+
+The production evaluator reproduces all 387 previous finals and the same
+seven mismatches. The explicitly approved baseline transition preserves
+the previous selected387 snapshot and unchanged lexical/original380/
+archival380 projections. Only the assembled evaluator input of row2326
+changes. This is a context contract, not a lexeme-conditioned sound law.
+The current decision is `sc098-context-apocope-adjudication.md`;
+full publication and integrated propagation checks remain required.

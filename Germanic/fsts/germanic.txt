@@ -1064,12 +1064,19 @@ define EnglishPalatalConsonant [{*ʧ} | {*ʤ} | {*ʃ} | {*ç} | {*ʒ} | {*j}];
 
 # Broaden sigma for early OE rules to avoid rejecting symbols not referenced in a rule.
 define EnglishStarAlphabet [
+    {*ᶜ} |
     EnglishStarVocalic |
     EnglishStarConsonant |
     EnglishPalatalConsonant |
     {*Kn} | {*Gn} |
     {*ǭ} |
     {*ô}
+];
+
+# Context annotations are outside each early rule's segmental domain.
+define Ctx(T) [
+    [{*ᵘ}|{*ᶜ}|0]
+    [[EnglishStarAlphabet - [{*ᵘ}|{*ᶜ}]]* .o. T]
 ];
 
 define EnglishIUmlautIntervening [EnglishStarConsonantNoJ | EnglishPalatalConsonant]*;
@@ -1172,7 +1179,9 @@ define EAFRhotacism [
 # operating on the suffix-accented mo-stems: PIE *deuk-mó- → *teuxmo- → *teugmo-
 # (Verner) → *taugma- → *tauma- (this rule).
 # This is an early PGmc change; no daughter language shows *-gm-.
-define PGmcGmSimplification [{*g} -> 0 || _ {*m}];
+define PGmcGmSimplification Ctx([
+    [{*g} -> 0 || _ {*m}]
+]);
 
 # PGmc final *-z deletion. R/T vol.2 §3.3.1 (p.98): z-loss preceded
 # rhotacism — final *-z was never rhotacized.
@@ -1237,9 +1246,11 @@ define PGmcGmSimplification [{*g} -> 0 || _ {*m}];
 #        friend *fríjōndz → *fríundz, whose final syllable was
 #        unstressed when this change applied (adjudication memo §5:
 #        friend/milk/month belong to SC020, per R/T 2014: 44 *fadurz).
-define EAFFinalZDeletion [{*z} -> 0 ||
+define EAFFinalZDeletion Ctx([
+    [{*z} -> 0 ||
     .#. ?* EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ EnglishStarVocalic ?* _ .#.,
-    .#. [EnglishStarConsonant | EnglishPalatalConsonant]* EnglishStarVocalic+ [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.];
+    .#. [EnglishStarConsonant | EnglishPalatalConsonant]* EnglishStarVocalic+ [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.]
+]);
 define EAFFinalZLoss EAFFinalZDeletion;
 
 # SC098: PWGmc apocope of word-final short high vowels after heavy
@@ -1254,15 +1265,22 @@ define EAFFinalZLoss EAFFinalZDeletion;
 # unstressed variant, as its lack of i-umlaut proves. Distinct from
 # SC006 third-syllable i-apocope: stressed disyllables keep final *-i
 # and umlaut (R/T 2014: 55; *gastiz > giest, *fūri > fȳr untouched).
-# The corpus transcription does not mark word-level stresslessness, so
-# the FST states the law through the proxy environment "final *-i after
-# the geminate *ww created by SC008", which in this corpus is exactly
-# coextensive with the law's unstressed-word domain (cf. the SC096 proxy
-# convention). Fed by SC020 (z-loss makes the *-i final); bleeds SC055
-# i-umlaut. See
+# Sentence context is separate SOURCE metadata, not lexical accent.
+# *ᵘ selects weak-final context; *ᶜ selects weak-nonfinal context.
+# Nonfinality survives as a right-boundary annotation until SC063 has
+# applied; its cleanup does not change SC063's vowel-loss clauses.
+# Fed by SC020 (z-loss makes the *-i final); bleeds SC055 i-umlaut. See
 # docs/sound_changes/audits/sc098-dossier-unstressed-word-final-i-apocope.md.
 define PWGmcUnstressedWordFinalIApocope [
-    {*i} -> 0 || {*w} {*w} _ .#.
+    [ [{*i}|{*u}] -> 0 || .#. {*ᵘ} ?* [
+        [EnglishStarLongVowel | EnglishStarLongDiphthong] EnglishStarConsonant*
+        | EnglishStarShortVowel EnglishStarConsonant EnglishStarConsonant+
+    ] _ .#. ]
+    .o. [{*ᵘ} -> 0]
+    .o. [
+        [{*ᶜ}:0 [EnglishStarAlphabet - {*ᶜ}]* 0:{*ᶜ}]
+        | [EnglishStarAlphabet - {*ᶜ}]*
+    ]
 ];
 
 # SC096: consonant-stem (root-noun) nominative *-z loss. Historically a
@@ -1284,7 +1302,9 @@ define PWGmcUnstressedWordFinalIApocope [
 # tests/test_final_z_firing_populations.py: any fifth firing (or any
 # new TSV protoform matching the proxy environment) fails the suite
 # and forces historical adjudication.
-define RootNounNomZLoss [{*z} -> 0 || .#. [EnglishStarConsonant | EnglishPalatalConsonant]* EnglishStarVocalic+ [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.];
+define RootNounNomZLoss Ctx([
+    [{*z} -> 0 || .#. [EnglishStarConsonant | EnglishPalatalConsonant]* EnglishStarVocalic+ [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.]
+]);
 
 # SC097: northern WGmc loss of word-final *-z in stressed monosyllables,
 # with compensatory lengthening of a short nucleus (R/T 2014: 86-87:
@@ -1623,9 +1643,11 @@ define EnglishLongVowelRealisation [
 #          corpus witnesses incl. loam *láimą (stressed *ái by its PROTOFORM),
 #          stone *stáinaz, soul *sáiwalō. No nonfinal unstressed root *ai remains
 #          in the corpus, so no {*ai}->{*ā} branch is needed.
-define PNWGmcUnstressedAiMonophthongization [
+define PNWGmcUnstressedAiMonophthongization Ctx([
+    [
     {*ai} -> {*ē}
-];
+]
+]);
 define EAFAiMonophthongization [
     {*ái} -> {*ā}
 ];
@@ -1645,9 +1667,11 @@ define PWGmcAiMonophthongization [
 #   PGmc *fedwōr 'four' (Go. fidwōr) → PWGmc *fedwar → OE fēower
 #   PGmc *watōr 'water' (Go. wato) → PWGmc *watar → OE wæter
 # Gothic preserves *ō; WGmc shows *a outcome. Stiles 1985-6 is the key source.
-define PWGmcFinalOrLowering [
+define PWGmcFinalOrLowering Ctx([
+    [
     {*ō} -> {*a} || _ {*r} .#.
-];
+]
+]);
 
 # PWGmc: Coronal fricative assimilation before *w (R/T vol.2 §3.1.1, pp.56-57).
 # R/T: "The intervocalic sequences *zw and *dw were assimilated to *ww."
@@ -1655,10 +1679,28 @@ define PWGmcFinalOrLowering [
 #   PGmc *fedwor 'four' (Goth. fidwor) → *fewwar → PWGmc *feuwar → OE fēower
 #   PGmc *izwiz 'you dat.pl.' (Goth. izwis) → *iwwi → PWGmc *iuwi → OE ēow
 # Stiles 1985-6, NOWELE 6: 89-94.
-define PWGmcCoronalWAssimilation [
+define PWGmcCoronalWAssimilation Ctx([
+    [
     {*d} -> {*w} || _ {*w},
     {*z} -> {*w} || _ {*w}
-];
+]
+]);
+
+# SC031: inherited/coronal-created short-Vww reanalysis (R/T pp.41-42,
+# 65-66; Fulk p.117). The retained identifier is not a stage claim.
+# Homorganic uww follows R/T p.66's preferred, qualified long-u account.
+define OEWWSimplification Ctx([
+    [
+    {*a} {*w} {*w} -> {*au} {*w},
+    {*á} {*w} {*w} -> {*áu} {*w},
+    {*e} {*w} {*w} -> {*eu} {*w},
+    {*é} {*w} {*w} -> {*éu} {*w},
+    {*i} {*w} {*w} -> {*iu} {*w},
+    {*í} {*w} {*w} -> {*íu} {*w},
+    {*u} {*w} {*w} -> {*ū} {*w},
+    {*ú} {*w} {*w} -> {*ū} {*w}
+]
+]);
 
 # PWGmc: Denasalization of word-final nasal vowels (R/T §3.1.4, line 3960).
 # In PWGmc, word-final nasal vowels lost their nasalization: *ą → *a, *ę → *e, etc.
@@ -1690,9 +1732,11 @@ define PWGmcDenasalization [
 #   *gebōmiz → giefum (no *a, doesn't fire), *winimiz/*gastimiz/
 #   *sunumiz (no *a, doesn't fire), *beramiz → †berum (regular outcome;
 #   OE -aþ is analogical from pret.pl., per Campbell §331(6) as quoted).
-define PNWGmcAToUBeforeM [
+define PNWGmcAToUBeforeM Ctx([
+    [
     {*a} -> {*u} || EnglishStarVocalic EnglishStarConsonant+ _ {*m} ({*i})? ({*z})? .#.
-];
+]
+]);
 
 # PWGmc Early i-Apocope (Brunner §145, R/T vol.2 p.141)
 # Final *-i lost in 3rd/4th syllables from stress, BEFORE i-umlaut.
@@ -1730,10 +1774,12 @@ define PGmcStarStressedVowel [
     # included here; *áu, *éu, *íu may still be present).
     {*áu} | {*éu} | {*íu}
 ];
-define PWGmcEarlyIApocope [
+define PWGmcEarlyIApocope Ctx([
+    [
     {*i} -> 0 || PGmcStarStressedVowel PGmcStarConsonant+ PGmcStarVocalic PGmcStarConsonant+ _ .#.,
     {*i} -> 0 || PGmcStarStressedVowel PGmcStarConsonant+ PGmcStarVocalic PGmcStarConsonant+ _ {*z} .#.
-];
+]
+]);
 
 # PWGmc: *ijō contraction (R/T §3.1.5, p. 62; Luick 1914-40: 118).
 # R/T: "A roughly similar change of *ijo to *iu appears to have occurred in
@@ -1743,21 +1789,25 @@ define PWGmcEarlyIApocope [
 # Example: PGmc *frijōnd- → PWGmc *friund → OE frēond
 # Only *frijōndz has this sequence in our dataset. See DEV_NOTES.md for
 # relationship to PWGmcSyllabicJ and expert review flags.
-define PWGmcIjContraction [
+define PWGmcIjContraction Ctx([
+    [
     {*i} {*j} {*ō} -> {*iu} || _ EnglishStarConsonant,
     # Stressed variant (stress preserved):
     {*í} {*j} {*ō} -> {*íu} || _ EnglishStarConsonant
-];
+]
+]);
 
 # PWGmc: Syllabic *j after loss of final *-a (R/T §3.1.2, p. 46).
 # R/T: "Upon the loss of unstressed *a and *ą, preceding postconsonantal *j and *w
 # became syllabic *i and *u respectively"
 # Examples: *harjaz > *hari, *rikija > *riki, *bazją > *bazja > *bazi
 # Light syllable = short vowel + single consonant.
-define PWGmcSyllabicJ [
+define PWGmcSyllabicJ Ctx([
+    [
     {*j} {*a} -> {*i} || EnglishStarShortVowel EnglishStarConsonant _ .#.,
     {*j} {*ą} -> {*i} || EnglishStarShortVowel EnglishStarConsonant _ .#.
-];
+]
+]);
 
 # NWGmc/PWGmc: Word-internal *lþ → *ld (R/T §5.1.3, pp. 170-171).
 # R/T: "it does seem that word-internal *lþ became *ld by regular sound
@@ -1766,9 +1816,11 @@ define PWGmcSyllabicJ [
 #   *wulþraz → *wuldr → OE wuldor; *gulþinaz → *guldin → OE gylden
 # Note: *gulþa-/*gulda- and *felþu-/*feldu- may alternatively reflect Verner's
 # Law alternation, but *lþ→ld gives the same result.
-define EAFLThVoicing [
+define EAFLThVoicing Ctx([
+    [
     {*θ} -> {*d} || {*l} _
-];
+]
+]);
 
 # PWGmc: Dental fricative hardening (R/T vol.2 p.43).
 # R/T: "In PWGmc the non-coronal voiced obstruents continued to exhibit that
@@ -1776,9 +1828,11 @@ define EAFLThVoicing [
 # PGmc *ð (voiced dental fricative) → PWGmc *d (stop) universally.
 # This affects Verner's Law forms where *þ was voiced to *ð (e.g., past participles).
 # Examples: *funðanaz → *fundanaz (ptp. of 'find'), *weorðan → *werdan
-define PWGmcDentalHardening [
+define PWGmcDentalHardening Ctx([
+    [
     {*ð} -> {*d}
-];
+]
+]);
 
 # NOTE: PWGmcPreFinalRShortening was here but has been consolidated into
 # PWGmcFinalOrLowering (line ~1175) to avoid duplication. Both rules did
@@ -1798,7 +1852,8 @@ define PWGmcDentalHardening [
 #
 # Per Fulk §7.11: Both geminated (betti) and non-geminated (beti) forms attest,
 # but gemination is the regular WGmc outcome.
-define PWGmcJGemination [
+define PWGmcJGemination Ctx([
+    [
     {*p} -> {*p} {*p} || EnglishStarShortVowel _ {*j},
     {*b} -> {*b} {*b} || EnglishStarShortVowel _ {*j},
     {*t} -> {*t} {*t} || EnglishStarShortVowel _ {*j},
@@ -1820,7 +1875,8 @@ define PWGmcJGemination [
     # SC029 later resolves. Fulk §4.10 n. 1 dissents; see
     # audits/sc010-w-gemination-and-hay-depth-adjudication.md.
     {*w} -> {*w} {*w} || EnglishStarShortVowel _ {*j}
-];
+]
+]);
 
 # Combine West Germanic rules in chronological order per R/T §3.1, §5.1.3.
 # Order: monophthongization, CORONAL-W-ASSIMILATION, ij-contraction, J-GEMINATION, syllabic j, lþ-voicing, dental hardening.
@@ -1870,9 +1926,11 @@ define PWGmcJGemination [
 # inside it; PNWGmcILowering/ULowering and the ō-raisers still follow
 # the PWGmc block outside it); only SC024's own placement is corrected
 # here.
-define PNWGmcLongELowering [
+define PNWGmcLongELowering Ctx([
+    [
     {*ḗ} -> {*ā}
-];
+]
+]);
 
 # SC028 Northern West Germanic *xs-cluster simplification (adjudicated 2026:
 # sc028-xs-cluster-simplification-adjudication.md).
@@ -1919,9 +1977,11 @@ define PNWGmcLongELowering [
 # earlier. Before the 2026 adjudication this rule sat after the North Sea
 # Germanic nasal-spirant law, which inverted the two stages; the move is
 # output-equivalent.
-define PNWGmcPreconsonantalXLoss [
+define PNWGmcPreconsonantalXLoss Ctx([
+    [
     {*x} -> 0 || _ {*s} EnglishStarConsonant
-];
+]
+]);
 
 define EarlyEnglishLineChanges [ # capr:bundle
     PNWGmcUnstressedAiMonophthongization
@@ -1932,6 +1992,8 @@ define EarlyEnglishLineChanges [ # capr:bundle
     .o. PWGmcEarlyIApocope  # Early i-apocope: loss of final -i in 3rd/4th syllable
     .o. PWGmcFinalOrLowering
     .o. PWGmcCoronalWAssimilation
+    # Representative serialization, not a new strict chronology edge.
+    .o. OEWWSimplification
     .o. PWGmcIjContraction
     .o. PWGmcJGemination
     .o. PWGmcSyllabicJ
@@ -2102,17 +2164,17 @@ define OEDiphthongLeveling [
     {*i} {*u} -> {*eo}
 ];
 
-define OEWWSimplification [
-    {*w} {*w} -> {*w}
+# SC106: retained j-created representation residual, not a new sound law.
+define OEJWWSimplification [
+    {*w} {*w} -> {*w} || _ {*j}
 ];
 
 # Promote inherited *ew/*iw clusters to the long diphthong tier when the
 # glide stays vocalic (cf. Hogg 1992 §3.3.1 on OE ēo). The word-final
-# geminate alternative ({*w} .#.) admits the *-ww left by SC098 early
-# apocope: R/T date the geminate-w vocalization to PWGmc itself (*fewwar >
-# PWGmc *feuwar; *iwwi > PWGmc *iuwi ~ *iuw, R/T 2014: 41-42), and OE ēow
-# continues word-final *iuw (cf. Campbell §120.2-3 pp.44-47 on WGmc *iuu >
-# OE iow/eow). See book_dossiers/031-034-west-saxon-diphthong-chain.
+# geminate alternative is retained for independently governed j-created
+# inputs, including hue. Inherited ww now vocalizes at SC031; its atomic
+# eu/iu realizes at SC032, not this singleton/j-created approximation
+# (R/T pp.41-42,171-175; Campbell pp.45-47).
 define OEEwLongContext [
     {*w} EnglishWeakTailVowel |
     EnglishWeakTailVowel |
@@ -2297,11 +2359,13 @@ define EnglishStarNonHighVowel [
 # no vowel precedes the *u being lowered (i.e., *u must be in the first syllable).
 # This fixes *widuwōn → widuwe (not ×widowe): the second *u is unstressed and
 # should not lower.
-define PNWGmcULowering [
+define PNWGmcULowering Ctx([
+    [
     {*u} -> {*o} || .#. EnglishStarConsonant* _ [EnglishStarConsonantNoJ - EnglishStarNasal] EnglishStarConsonantNoJ* EnglishStarNonHighVowel,
     # Stressed variant (stress preserved):
     {*ú} -> {*ó} || .#. EnglishStarConsonant* _ [EnglishStarConsonantNoJ - EnglishStarNasal] EnglishStarConsonantNoJ* EnglishStarNonHighVowel
-];
+]
+]);
 
 # NWGmc *i → *e lowering before non-high vowels (Campbell §114, Fulk §4.3).
 # Campbell: "i > e before mid and low vowels. In OE this change is shown only by
@@ -2332,11 +2396,13 @@ define PNWGmcULowering [
 # This prevents lowering of UNSTRESSED medial *i (which triggers i-umlaut).
 define EnglishStarNonVelar [EnglishStarAlphabet - EnglishStarVelar];
 define EnglishStarNonVelarConsonant [EnglishStarConsonant - EnglishStarVelar];
-define PNWGmcILowering [
+define PNWGmcILowering Ctx([
+    [
     {*i} -> {*e} || .#. EnglishStarNonVelarConsonant* _ EnglishStarCoronal+ EnglishStarNonHighVowel,
     # Stressed variant (stress preserved):
     {*í} -> {*é} || .#. EnglishStarNonVelarConsonant* _ EnglishStarCoronal+ EnglishStarNonHighVowel
-];
+]
+]);
 
 # N-stem final -n loss with nasalization (R/T vol.2 §3.1.4, §3.3.1).
 # §17.12: The former PNWGmcUnstressedAiMonophthongization ({*ăi} -> {*ē}) no-op
@@ -2400,9 +2466,11 @@ define NWGmcInStemNLoss [{*n} -> 0 || {*ī} _ .#.];
 # `.#. C* _ .#.`. By Germanic root-stress, the only stressed syllable
 # is the first; a word with no preceding vowel is by definition a
 # stressed monosyllable.
-define PNWGmcStressedMonosyllableORaising [
+define PNWGmcStressedMonosyllableORaising Ctx([
+    [
     {*ō} -> {*ū} || .#. [EnglishStarConsonant | EnglishPalatalConsonant]* _ .#.
-];
+]
+]);
 
 # R/T vol.2 p.267: "word-final bimoric non-nasalized long *-ō became
 # short *-u in unstressed syllables in PNWGmc."
@@ -2415,9 +2483,11 @@ define PNWGmcStressedMonosyllableORaising [
 # Brunner §§143-149), apocope/shortening rules require a preceding
 # (un)stressed nucleus. Stressed monosyllables are handled by
 # PNWGmcStressedMonosyllableORaising above.
-define PNWGmcFinalLongORaising [
+define PNWGmcFinalLongORaising Ctx([
+    [
     {*ō} -> {*u} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.
-];
+]
+]);
 
 # SC021 PNWGmcUnstressedORaising RETIRED (sc021-adjudication.md, 2026).
 # The former NWGmc *o → *u raising before *ų (Fulk §7.31/§5.5 "commonly said")
@@ -3165,7 +3235,8 @@ define OEWsPalatalUmlaut [
 # Brunner §67 p. 59 says nasalized *ī merged with old *ī "nach Aufgabe der
 # Nasalierung". Their nasalization has no independent consequence, so
 # representing it would add unused states. See the adjudication memo.
-define PGmcNasalLossBeforeX [
+define PGmcNasalLossBeforeX Ctx([
+    [
     {*a} -> {*ã} || _ EnglishStarNasal {*x},
     {*i} -> {*ī} || _ EnglishStarNasal {*x},
     {*u} -> {*ū} || _ EnglishStarNasal {*x},
@@ -3174,7 +3245,8 @@ define PGmcNasalLossBeforeX [
     {*ú} -> {*ū} || _ EnglishStarNasal {*x}
 ] .o. [
     EnglishStarNasal -> 0 || _ {*x}
-];
+]
+]);
 
 # SC026 North Sea Germanic nasal-spirant law, step 1 of 2:
 # nasalization and compensatory lengthening of the vowel.
@@ -3394,7 +3466,7 @@ define OEHighVowelApocope [
     {*u} -> 0 || {*x} _ .#.,
     {*ų} -> 0 || {*x} _ .#.,
     {*i} -> 0 || {*x} _ .#.
-];
+] .o. [{*ᶜ} -> 0];
 
 # Apocope of word-final neuter *-ą. Unlike *i/*u apocope, this appears to be
 # unconditional (not restricted to heavy syllables). The original system's
@@ -3654,14 +3726,10 @@ define EnglishProtoToOE ( # capr:bundle
     .o. EAFAiMonophthongization  # SC004 general *ai/*ái → *ā (EAF / North Sea Germanic), moved here from the head; see sc004_split_movement_proofs.md
     .o. OEAwwjResolution
     .o. OEAuBrightening
-    # SC033 before SC031/SC032: R/T date geminate-w vocalization to PWGmc
-    # itself (*fewwar > PWGmc *feuwar, R/T 2014: 41-42; Fulk §8.3
-    # pp.204-205), so *ew/*iw promotion to the long-diphthong tier must
-    # see the geminate *ww (word-final in *iww < *izwiz) BEFORE
-    # degemination destroys it. Output-neutral for all 380 legacy rows;
-    # required for ēow. See 031-034-west-saxon-diphthong-chain dossier.
+    # Retained singleton/j-created realization; inherited reanalysis is
+    # already complete at early SC031. SC106 discloses the hue residual.
     .o. OEEwLongDiphthong
-    .o. OEWWSimplification
+    .o. OEJWWSimplification
     .o. OEDiphthongLeveling
     .o. OEAwLongDiphthong
     # EARLY PREFIX REDUCTION: Unstressed prefix vowels must reduce to *e BEFORE
@@ -3805,7 +3873,9 @@ define EnglishProtoToOE ( # capr:bundle
     .o. OERMetathesis
 );
 
-define EnglishProtoInput pgrmWord;
+define EnglishProtoInput [
+    [{ᵘ}:{*ᵘ} | {ᶜ}:{*ᶜ} | 0] pgrmWord
+];
 
 define OldEnglishCore EnglishProtoInput # capr:bundle
     .o. EarlyGermanicConsonantPipeline

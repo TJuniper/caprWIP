@@ -53,7 +53,7 @@ class RuleBodyTests(unittest.TestCase):
         cls.text = FST.read_text(encoding="utf-8")
 
     def _define(self, name):
-        m = re.search(r"define\s+" + name + r"\s*\[(.*?)\];", self.text, re.S)
+        m = re.search(r"define\s+" + name + r"\s*(?:Ctx\()?\[(.*?)\]\)?;", self.text, re.S)
         self.assertIsNotNone(m, f"define {name} not found")
         return re.sub(r"(?m)^\s*#.*$", "", m.group(1))
 

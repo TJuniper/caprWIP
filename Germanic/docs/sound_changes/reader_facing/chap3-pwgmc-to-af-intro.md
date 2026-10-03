@@ -134,7 +134,7 @@ be inherited at this cut without being exclusively Anglo-Frisian innovations.
 | Stressed ai | Retained diphthong before completed English contraction | Secondary back long vowel, eligible for later mutation | Runic interpretation and any limited ancestral onset |
 | Ordinary short non-nasal a | Unfronted at this conservative cut | Ordinary English fronting | Daughter contraction before fronting |
 | Inherited au | Not identified with completed English or Frisian outcome | English front element and later offglide development | Identity with ordinary short fronting |
-| Supported inherited Vww classes | Earlier West Germanic reanalysis may already be present | Later English quantity and diphthong realization | Full quantity/glide domain and prosody |
+| Supported inherited Vww classes | Adopted West Germanic a/e/i-ww reanalysis; separate homorganic uww quantity | Later English diphthong realization, not inherited English surface vowels | Qualified long-u shadow account; j-created classes remain separate |
 | Velars and palatal tendencies | No blanket completed assibilation is stipulated | Class-specific daughter histories | Articulation, cutoff and merger are distinct |
 
 The evidence underlying these qualifications is component-specific
@@ -142,6 +142,20 @@ The evidence underlying these qualifications is component-specific
 @Versloot2017, pp. 295–297, 318; @Laker2007, pp. 167–184].
 The table does not assign inherited-short fronting to the stem merely
 because the node is called Anglo-Frisian.
+
+The inherited-glide component is now implemented rather than left as a
+possible future decomposition.
+[SC031 OEWWSimplification](#rule-OEWWSimplification) belongs to the earlier
+West Germanic account discussed in Chapter 2: short nonhomorganic
+\emph{*Vww} gives \emph{*Vuw}, with retained consonantal \emph{*w};
+homorganic \emph{*uww} separately gives long \emph{*ūw}.
+The latter follows Ringe and Taylor's preferred but qualified shadow
+analysis. These earlier products can be inherited at the Anglo-Frisian
+node without placing the later English long diphthongs there.
+The selected sentence context for early apocope is independent of the
+segmental reconstruction and of lexical accent
+[@RingeTaylor2014, pp. 41--42, 55, 57--58, 65--66, 171--175;
+@Fulk2018, p. 117].
 
 ## Alternative cuts and their tree consequences
 

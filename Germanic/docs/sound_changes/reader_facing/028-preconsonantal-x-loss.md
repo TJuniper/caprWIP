@@ -92,9 +92,9 @@ Gothic *bi-niuhsjan* ‘to spy out’ and *saihsta* instead.
 ## SC028. Simplification of \emph{*xs} before a consonant (`PNWGmcPreconsonantalXLoss`) {#rule-PNWGmcPreconsonantalXLoss}
 
 ```foma
-define PNWGmcPreconsonantalXLoss [
+define PNWGmcPreconsonantalXLoss Ctx([
     {*x} -> 0 || _ {*s} EnglishStarConsonant
-];
+]);
 ```
 
 The \emph{*s} in the structural description carries the whole weight of the

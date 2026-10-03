@@ -174,7 +174,7 @@ class E1ComplexAdjudicationTests(unittest.TestCase):
 
     def test_change_a_is_unconditioned_stressed_lowering_to_a(self):
         match = re.search(
-            r"define\s+PNWGmcLongELowering\s*\[\s*\{\*ḗ\}\s*->\s*\{\*ā\}\s*\];",
+            r"define\s+PNWGmcLongELowering\s*Ctx\(\[\s*\[\s*\{\*ḗ\}\s*->\s*\{\*ā\}\s*\]\s*\]\);",
             self.uncommented,
         )
         self.assertIsNotNone(

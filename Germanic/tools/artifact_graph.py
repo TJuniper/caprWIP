@@ -106,6 +106,8 @@ ARCHIVE_PATHS = tuple(
         "cascade_baseline/cascade_baseline_outputs_legacy380.tsv",
         "cascade_baseline/cascade_baseline_outputs_pre_sc056.tsv",
         "cascade_baseline/cascade_baseline_summary_pre_sc056.json",
+        "cascade_baseline/cascade_baseline_outputs_pre_sc031_sc098.tsv",
+        "cascade_baseline/cascade_baseline_summary_pre_sc031_sc098.json",
         "registry/archival_orders.tsv",
         "order_tests/chronology_cards/chronology_card_index.tsv",
         "order_tests/chronology_cards/chronology_graph_nodes.tsv",
@@ -202,6 +204,8 @@ def _lexical_outputs() -> list:
 def _lexical_input_hashes() -> dict:
     inputs = [layout().corpus_tsv, SANDBOX_FST, FULL_TRACE,
               REPO_ROOT / "Germanic/data/entry_stage_metadata.tsv",
+              REPO_ROOT / "Germanic/data/entry_context_metadata.tsv",
+              REPO_ROOT / "backend/oe_input_context.py",
               ASSEMBLY / "section_introductions_draft.md",
               ASSEMBLY / "build_class_manifests.py",
               ASSEMBLY / "build_full_lexical_volume.py",

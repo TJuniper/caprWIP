@@ -37,7 +37,7 @@ chapter on the rounding of the long nasalized low vowel.
 ## SC103. Proto-Germanic nasal loss before \*x (`PGmcNasalLossBeforeX`) {#rule-PGmcNasalLossBeforeX}
 
 ```foma
-define PGmcNasalLossBeforeX [
+define PGmcNasalLossBeforeX Ctx([
     {*a} -> {*ą̄} || _ EnglishStarNasal {*x},
     {*i} -> {*ī} || _ EnglishStarNasal {*x},
     {*u} -> {*ū} || _ EnglishStarNasal {*x},
@@ -46,7 +46,7 @@ define PGmcNasalLossBeforeX [
     {*ú} -> {*ū} || _ EnglishStarNasal {*x}
 ] .o. [
     EnglishStarNasal -> 0 || _ {*x}
-];
+]);
 ```
 
 The rule performs the three parts of the change together: it lengthens the

@@ -13,6 +13,8 @@ assembled_pdf="${script_dir}/reader_facing_local_section_20.pdf"
 
 cd "${repo_root}"
 
+python3 Germanic/tools/adjudicate.py --refresh
+
 python3 Germanic/docs/sound_changes/reader_facing/check_reader_facing_style.py
 python3 Germanic/docs/sound_changes/reader_facing/check_reader_facing_citations.py
 python3 Germanic/docs/sound_changes/reader_facing/check_reader_facing_foma_width.py
@@ -20,11 +22,6 @@ python3 Germanic/docs/sound_changes/reader_facing/check_reader_facing_section_or
 python3 Germanic/docs/sound_changes/reader_facing/check_reader_facing_generated_prose.py
 python3 Germanic/docs/sound_changes/reader_facing/check_reader_facing_crossrefs.py
 python3 Germanic/docs/sound_changes/reader_facing/check_reader_facing_chronology_evidence.py
-
-# The assembled section is driven by the GENERATED registry/reader_manifest.tsv
-# (sources: registry/reader_chapters.tsv + reader_files.tsv + sc_registry.tsv +
-# oe_pipeline). This script holds no file list or chapter boundaries.
-python3 Germanic/tools/build_reader_book.py
 
 python3 Germanic/tools/check_sound_change_heading_wrapping.py --markdown-path "${assembled_md}"
 

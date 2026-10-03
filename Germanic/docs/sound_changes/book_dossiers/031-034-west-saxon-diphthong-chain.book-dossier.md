@@ -1,5 +1,12 @@
 # SC031-SC034: West Saxon Diphthong Chain
 
+Current disposition is in section 16: approved early inherited-glide
+reanalysis and genuine prosodic apocope are implemented; SC032–034 retain
+their later operations and SC106 exposes the j-created residual.
+Sections 1–15 preserve the earlier scaffold, incumbent observations and
+private trials. Their old composition statements, displacement witnesses
+and approval gates are historical, not current executable authority.
+
 ## 1. Role in the book
 
 The older outline below records an editorial scaffold proposal. The current
@@ -440,3 +447,154 @@ source unstressed-word account and earlier reanalysis remain separately
 supported phenomena [@RingeTaylor2014, pp. 41–42, 57–58, 65–66].
 No stress condition is inferred from the hypothetical string or from an
 FST identifier.
+
+## 16. Post-adoption source-domain specification and fronting interface
+
+This continuation starts from the adopted gift/ordinary-PD baseline,
+`afdf85b2`, not the source pinned by the historical D recipes. It adds no
+canonical verdict, rule, stage assignment or corpus input. Sections 12
+and 14 retain their original experimental populations and results; a
+fresh identity/control against production is not a rerun of those variants.
+
+### Source domains, not one unrestricted deletion law
+
+Direct rereading distinguishes the following domains. “Supported” means
+that the cited source supplies the process or contrast, not that a complete
+CAPR implementation has been approved.
+
+| Domain | Source-supported specification | Executable consequence / outstanding boundary |
+|---|---|---|
+| Inherited nonhomorganic Vww | Reanalysis of the first glide as the offglide of a diphthong; inherited a/e examples and assimilation-created e/i examples are explicit (Ringe and Taylor pp. 41–42, 65–66; Campbell pp. 45–46) | Supported early a/e/i subset. Keep the second glide; ww deletion alone is not this mapping |
+| Coronal-created ww | The assimilation feeds reanalysis in four and you (Ringe and Taylor pp. 41–42) | Supported feeder relation. It does not establish the relative position of every later j-created cluster |
+| Homorganic ijj/uww | The high-vowel-plus-geminate cases receive separate treatment, including the quantity discussion for the shadow word (Ringe and Taylor p. 66) | The coupled candidate separately implements uww > long-u+w under their preferred, qualified shadow account. Parallel jj remains independently governed; it is not reopened |
+| Inherited jj after a nonhomorganic vowel | First-member vocalization supplies an i-diphthong (Ringe and Taylor pp. 65–66; Campbell p. 45) | Source-supported parallel history, not an application of SC031's w-only network. Its mapping and subsequent ai history require a separate component decision |
+| Later j-created awwj | Gemination and subsequent resolution supply au+j; the later product shares English au development (Campbell p. 46; Ringe and Taylor p. 173) | Preserve settled SC029. The historical early recipe's exclusion is an insertion premise, not proof that every j-created ww class was historically exempt from vocalization |
+| Later j-created iwj | Campbell explicitly gives a different glide-survival outcome from the a-path and distinguishes non-West-Saxon from West-Saxon vowels (Campbell p. 46) | Hue is not evidence for unconditional inherited-Vww identity. Do not replace this path with SC029 or infer fricative-to-j merger from its spelling |
+| Singleton Vw and contraction-created Vu | Endingless forms and loss/contraction create diphthongs independently of inherited ww; later levelling can obscure the regular outputs (Campbell pp. 46–47; Ringe and Taylor pp. 172–174) | Audit SC033's knee application and SC034's non-ww applications separately. Their long output does not date all singleton Vw sequences to early reanalysis |
+| Pre-existing long V before a geminate | Fulk explicitly describes inherited geminate glides after short vowels (p. 117); these sources do not establish an additional inherited long-Vww class | Hypothetical long-Vww inputs are negative domain controls, not reconstructed positives or an invitation to duplicate short-vowel clauses |
+| Acute versus unmarked vowels | These are CAPR stress encodings in the existing recipe; neither notation means sentence-level stresslessness | Paired notation coverage is technical. Historical prosody must come from independently represented evidence, not the accent or lexeme ID |
+| Atomic eu/iu versus split e+u/i+u | The English handbooks describe historical diphthongs, not CAPR token boundaries | Preserve the distinct incumbent quantity/stress outputs until an explicit representation equivalence is established. No source here licenses adding the missing split stressed-i clause |
+
+Ringe and Taylor locate their later English diphthong tensing and
+offglide developments separately from PWGmc reanalysis. Their account
+allows temporal overlap in ai completion and inherited-long fronting
+and treats the diphthongs as units rather than deriving every nucleus
+change from ordinary short-a fronting
+([@RingeTaylor2014, pp. 170–175]).
+Consequently the proposed Campbell/Luick ordinary-a/au episode remains
+a separately attributed F premise; it is not a conclusion of this D table.
+
+### Bounded completion interface for F
+
+The minimum interface is an explicit offglide-bearing input, its quantity,
+and the presence or absence of a remaining consonantal glide. The ordinary
+au path and secondary SC029 au+j path both require their completion to
+remain downstream of any proposed au-fronting operation. In current CAPR
+notation this means that atomic au/áu supplied to SC030 must still reach
+the SC032 aeu/áeu realization clauses afterwards. That constraint describes
+the representation, not a newly demonstrated historical edge.
+
+SC032's eu/iu clauses are not a prerequisite for moving ordinary short-a
+fronting merely because they occur in the same definition. They are
+independent controls unless a proposed variant changes their inputs.
+SC033/034's singleton, geminate and j-created populations must remain
+accounted for: they cannot be globally removed when only the inherited
+subset has been replaced. An F variant therefore needs either a relative
+move with all affected completion preserved, or a privately separated
+au-completion component. It must not move SC030 past the sole consumer
+of its aeu product. No production decomposition follows from this
+interface alone
+([@Campbell1959, pp. 45–47; @RingeTaylor2014, pp. 172–175]).
+
+### Prosodic prerequisite and its adopted resolution
+
+The source's unstressed-word apocope discussion explicitly raises
+phonological-word finality and possible proclisis; it does not state
+an exceptionless rule conditioned by literal ww. Its account also allows
+variation, which cannot be imported as lexical optionality into CAPR.
+Sentence stress and phonological-word boundaries are separate axes,
+and neither is supplied by the acute stress mark in you's current input
+([@RingeTaylor2014, pp. 57–58]).
+
+Thus the earlier output-restoring matcher remains a technical control.
+The adopted SC098 resolution specifies source-backed heavy/light and
+phonologically final/nonfinal contexts under the defended exceptionless
+account. The computational annotations are CAPR's explicit implementation
+choice, not notation supplied by the sources. No lexical-ID or grammatical
+condition is used.
+
+Those requirements have now been executed in a distinct current-baseline
+coupled candidate. Its private representation and measured consequences
+are specified below. The combined context gate has since been approved,
+the production FST and selected-input contract implemented, and the exact
+baseline transition validated. Both finalization checks, the integrated
+673-test suite and the distinct protected production controls pass.
+The full unbypassed build produced an inspected 291-page book; early
+reanalysis, prosodic apocope and the retained j-created residual appear
+on printed pp.22, 40–41 and 65 respectively.
+
+### Executed coupled candidate and approved production adoption
+
+The candidate places inherited/coronal-created short a/e/i+ww reanalysis
+after coronal assimilation and before j-gemination. That serialization
+separates the two sources of ww; it is not a newly demonstrated strict
+historical edge. Homorganic uww has a separate long-u+w mapping. The later
+English realization clauses, SC029 and singleton/contraction paths remain
+in place. Hue's remaining ww+j simplification is a disclosed technical
+residual, not a newly established sound law. Its input already contains a
+long diphthong, so an apparent short-e/i left guard would reject the actual
+path ([@RingeTaylor2014, pp. 41–42, 65–66, 171–175;
+@Campbell1959, pp. 45–47; @Fulk2018, p. 117]).
+
+Early apocope now tests short final i/u after a heavy syllable in an
+explicitly sentence-unstressed, phonologically final context. Lexical
+accent does not supply either condition. An independently encoded nonfinal
+context preserves the vowel through later high-vowel apocope; its temporary
+boundary annotation is then removed. This realizes the defended prosodic/
+proclisis account, rather than a ww or lexeme-ID condition
+([@RingeTaylor2014, pp. 55, 57–58]).
+
+The fully composed protected assay passed all 49 component predictions,
+seven staged suffix controls and 28 intermediate assertions. All 387
+selected finals, including the seven existing mismatches, are identical to
+production, and every protected canonical artifact is unchanged.
+
+| Component | Incumbent population | Coupled candidate population |
+|---|---|---|
+| Early short-Vww reanalysis | No separate operation | chew, dew, four, hew, you |
+| SC098 | you, under the ww proxy | you, under explicit weak-final prosody |
+| SC033 | chew, four, knee, you, hue | knee, hue |
+| Late ww simplification | chew, dew, four, hew, you, hue | hue, in the retained ww+j residual |
+| SC032 | 27 rows | 32 rows: original population plus chew, dew, four, hew, you |
+| SC034 | dew, hew and four singleton show/straw forms | The same four singleton forms |
+
+The staged controls yield weak-final *and*, proclitic *ymbe*, weak-final
+*ēow*, stressed *ġiest*/*fȳr*, and homorganic *sċūwa*. The retained-i you
+counterfactual yields model-only *īei*, not an attested strong OE spelling:
+incumbent w-loss before i intervenes before mutation. The controls test
+source-discussed contexts and quantity premises; they do not admit these
+fixtures as new PGmc corpus entries or treat that counterfactual output as
+a source target ([@RingeTaylor2014, pp. 41–42, 55, 57–58, 66;
+@Campbell1959, p. 283]).
+
+The full context-domain audit identifies 62 checkpoint forms that would
+lose i/u under a hypothetical weak-final context. Only you selects that
+context; the other 61 explicitly select strong-final citation context.
+This is a declared evaluation convention, not an inference about their
+sentence histories or a classification from absent accents.
+
+The approved shared input contract is:
+keep you's PGmc PROTO/PROTOFORM unchanged, record its selected weak-final
+context separately, assemble the annotated evaluator input without
+altering lexical normalization, and propagate that contract through
+canonical evidence and inverse/display consumers. The evaluated-input
+fingerprint changes despite identical finals. The production evaluator
+reproduces all 387 previous finals and the same seven mismatches, with
+evaluator digest `fe55aa8b39467e318b3a9997c2c48009c057dfbfc2bf877bf7be49b9f89a510e`
+and unchanged lexical digest
+`5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f`.
+The previous selected387 files are preserved as the pre-SC031/SC098 archive.
+Ordinary API comparisons/refishing select the word's declared context,
+rather than pooling stressed and unstressed relations; inverse forms are
+lexical and annotation-free. This implements the account, but does not
+by itself certify integrated propagation or a freshly rendered book.

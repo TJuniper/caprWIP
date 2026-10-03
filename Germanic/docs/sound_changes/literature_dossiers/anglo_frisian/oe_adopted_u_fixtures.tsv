@@ -1,0 +1,13 @@
+fixture_id	row_id	family	selected_input	input_stage	normalized_input	target	target_status	witness_role	probe	baseline_prediction	variant_prediction	recipe	source_key	printed_pages	readiness
+adopted-gift-before	2040	U	*gíftiz	pgmc	gíftiz	ġift	corpus_regular	inherited_high_vowel_negative	before_ordinary	*ʤ*í*f*t*i	*ʤ*í*f*t*i	u-adopted-controls	Ringe2017	135,151-153	adopted_domain_control
+adopted-gift-ordinary	2040	U	*gíftiz	pgmc	gíftiz	ġift	corpus_regular	inherited_high_vowel_negative	after_ordinary	*ʤ*í*f*t*i	*ʤ*í*f*t*i	u-adopted-controls	Ringe2017	135,151-153	adopted_domain_control
+adopted-gift-mutation	2040	U	*gíftiz	pgmc	gíftiz	ġift	corpus_regular	no_late_raising_required	after_mutation	*ʤ*í*f*t*i	*ʤ*í*f*t*i	u-adopted-controls	RingeTaylor2014	220	adopted_domain_control
+adopted-gift-late	2040	U	*gíftiz	pgmc	gíftiz	ġift	corpus_regular	late_layer_negative	after_late	*ʤ*í*f*t*i	*ʤ*í*f*t*i	u-adopted-controls	RingeTaylor2014	220,235	adopted_domain_control
+adopted-guest-before	2049	U	*gástiz	pgmc	gástiz	ġiest	corpus_regular	ordinary_front_vowel_input	before_ordinary	*ʤ*æ*s*t*i	*ʤ*æ*s*t*i	u-adopted-controls	RingeTaylor2014	215-217	adopted_domain_control
+adopted-guest-ordinary	2049	U	*gástiz	pgmc	gástiz	ġiest	corpus_regular	ordinary_pd_before_mutation	after_ordinary	*ʤ*ea*s*t*i	*ʤ*ea*s*t*i	u-adopted-controls	RingeTaylor2014	215-217	adopted_domain_control
+adopted-guest-mutation	2049	U	*gástiz	pgmc	gástiz	ġiest	corpus_regular	ordinary_pd_feeds_mutation	after_mutation	*ʤ*ie*s*t*i	*ʤ*ie*s*t*i	u-adopted-controls	RingeTaylor2014	222	adopted_domain_control
+adopted-guest-late	2049	U	*gástiz	pgmc	gástiz	ġiest	corpus_regular	late_layer_negative	after_late	*ʤ*ie*s*t*i	*ʤ*ie*s*t*i	u-adopted-controls	RingeTaylor2014	235	adopted_domain_control
+adopted-sheath-before	2178	U	*skáiθiz	pgmc	skáiθiz	sċēaþ	corpus_regular	secondary_back_long_negative	before_ordinary	*ʃ*ā*θ*i	*ʃ*ā*θ*i	u-adopted-controls	Campbell1959	68-69	retained_approximation_not_conditioner
+adopted-sheath-ordinary	2178	U	*skáiθiz	pgmc	skáiθiz	sċēaþ	corpus_regular	ordinary_pd_negative	after_ordinary	*ʃ*ā*θ*i	*ʃ*ā*θ*i	u-adopted-controls	Campbell1959	68-69	retained_approximation_not_conditioner
+adopted-sheath-mutation	2178	U	*skáiθiz	pgmc	skáiθiz	sċēaþ	corpus_regular	mutation_creates_late_input	after_mutation	*ʃ*ǣ*θ*i	*ʃ*ǣ*θ*i	u-adopted-controls	RingeTaylor2014	235	retained_approximation_not_conditioner
+adopted-sheath-late	2178	U	*skáiθiz	pgmc	skáiθiz	sċēaþ	corpus_regular	retained_late_proxy_positive	after_late	*ʃ*ēa*θ*i	*ʃ*ēa*θ*i	u-adopted-controls	RingeTaylor2014	235	retained_approximation_not_conditioner

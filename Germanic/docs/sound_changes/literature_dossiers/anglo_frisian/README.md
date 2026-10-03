@@ -126,9 +126,10 @@ fronted allophone [æ] is not the same event as the phonemicization of /æ/.
 | `anglo-frisian-chronology.synthesis.md` | Cross-source, proposition-by-proposition comparison; the ordered pre-OE and pre-OFris chains; the four-way classification. **Authority for this area.** |
 | `palatalization-research-note.md` | Shared-vs-independent palatalization, unadjudicated. |
 | `future-lexical-witnesses.md` | Candidate discriminating witnesses. No corpus rows. |
-| `research-pass.record.md` | Protocol record, unchanged executable scope, and deferred decisions. |
+| `research-pass.record.md` | Historical protocol record plus explicitly bounded subsequent implementation and deferred decisions. |
 | `historical_constraints.tsv` | Research SOURCE: selected D/A/F/P/U/B premises in ten separately attributed alternatives; explicit gaps, not canonical edges. |
 | `oe_diagnostic_fixtures.tsv` | Forty-two exact intermediate assertions across all six cases, reusing twenty-five live OE rows; bounded D/U variants and explicitly incumbent A/F/P/B diagnostics, not new corpus rows. |
+| `oe_adopted_u_controls.json`, `oe_adopted_u_fixtures.tsv` | Post-adoption FST/corpus-hash-pinned controls: seven component checks and twelve gift/guest/sheath checkpoint assertions. Separate from historical fixtures; the late clause is retained, not historically resolved. |
 | `node_state_candidates.tsv` | Relevant-class inventories for a conservative working cut and two separately attributed alternatives; no selected canonical node state. |
 
 The host-runnable research checker is
@@ -161,11 +162,28 @@ cut and explicitly mark unassigned classes. They are not scope assignments
 in the production registry. A row's presence is neither an approved common
 event nor evidence that every quantity or consonant class is specified.
 
-`oe_experiment_recipes.json` is the research SOURCE for isolated recipes.
-Run, after the normal container/provenance checks:
-`docker compose exec -T backend python3 /usr/app/tools/anglo_frisian_experiments.py --recipe d-aei-ww`.
-The other IDs are `identity`, `d-aei-ww-proxy-control`, `u-gift-input`,
+`oe_experiment_recipes.json` and `oe_diagnostic_fixtures.tsv` preserve
+the pre-adoption isolated recipes and predictions. Their FST/corpus hashes
+are historical pins: these recipes intentionally reject the current source.
+Do not update their hashes or substitute current inputs. Their IDs are
+`identity`, `d-aei-ww`, `d-aei-ww-proxy-control`, `u-gift-input`,
 `u-ordinary` and `u-ordinary-gift`.
+
+For the current adopted-domain control, after the normal
+container/provenance checks, run:
+
+```bash
+docker compose exec -T backend python3 /usr/app/tools/anglo_frisian_experiments.py \
+  --recipes /usr/app/docs/sound_changes/literature_dossiers/anglo_frisian/oe_adopted_u_controls.json \
+  --recipe u-adopted-controls
+```
+
+This compares all 387 current runnable rows, checks seven positive/negative
+component domains and twelve exact gift/guest/sheath checkpoints, and
+protects canonical artifacts. It is not a new scientific variant. New
+D/A/F/P/B experiments require distinct current-baseline recipes and
+fixtures, not reuse of the old source pins. The optional `fixture_file`
+selects a separate local TSV; omitting it preserves the historical default.
 The runner prints JSON containing all selected stable row IDs, final outputs,
 baseline mismatches, intermediate states and protected-artifact hashes.
 Optional `input_overrides` are private, source-cited PGmc replacements
@@ -188,7 +206,37 @@ their manifest. The protected-artifact check correctly rejects that race;
 run these operations serially rather than relaxing the check.
 Recipe citations are checked against the bibliography by the host tests.
 
-The first D subset exposes SC098's representation-dependent apocope proxy:
+The adopted glide/apocope implementation has a distinct current-baseline
+control recipe and fixture file:
+
+```bash
+docker compose exec -T backend python3 /usr/app/tools/anglo_frisian_experiments.py \
+  --recipes /usr/app/docs/sound_changes/literature_dossiers/anglo_frisian/oe_adopted_glide_controls.json \
+  --recipe d-adopted-controls
+```
+
+Its fully composed protected run passed 49 component checks, seven staged
+suffix controls and 28 intermediate assertions over all 387 selected rows.
+Every final and the seven existing mismatches remain unchanged. The user
+approved the context/input-baseline decision; production now implements
+early reanalysis, genuine prosodic apocope and the disclosed SC106 residual.
+The historical candidate recipe remains pinned to its pre-adoption source
+and must not be repinned or run against production. Integrated validation,
+the distinct protected post-adoption controls and the full unbypassed
+291-page book build now pass; the changed chapter, rule, lexical and index
+pages have been inspected. See section 16 of the SC031–034 book dossier.
+
+`citation_context` declares the ordinary evaluation convention separately
+from lexical accent; `context_overrides` validates the exact selected input
+before assigning an explicitly different context. `staged_checks` enter a
+trusted checkpoint in the derived suffix, not the PGmc prefix. Controls
+sharing an identical suffix reuse its compiled bin; distinct entry points
+remain distinct. `context_audit` tests the whole selected population under
+strong-final, weak-final and weak-nonfinal conditions. No context assignment
+or reconstructed form is inferred from a mismatch, missing accent or
+grammatical category.
+
+The historical first D subset exposes SC098's representation-dependent apocope proxy:
 only you changes. The explicitly technical proxy control restores every
 baseline output. The SC031–034 dossier records why neither result selects
 history by score or licenses a production rule; other glide classes and
@@ -204,7 +252,7 @@ and reports their IDs. A missing probe, different atomic boundary, missing
 output or ambiguous intermediate fails the assertion rather than counting
 as a historical success.
 
-The fixture table records nine D assertions across eight existing
+The historical fixture table records nine D assertions across eight existing
 rows, including the separately labelled SC098 technical control, sixteen
 incumbent A/F/P/U/B assertions, and seventeen new U input/order assertions.
 The complete table uses twenty-five existing rows. Predictions
@@ -215,20 +263,22 @@ etymological adjudication of every selected input. The eight D rows have
 identical PROTO/PROTOFORM at the existing PGmc input convention; cow/lung
 use their separately recorded PGmc paradigm/stem inputs. No later intermediate
 has been relabelled as a PGmc input. Strew is explicitly reconstructed OE,
-not an attested positive, and gift's current input claim is expressly not
-endorsed. Guest's incumbent ordering is a diagnostic of the known source/model
-discrepancy, not a source-supported chronology. Additional dialect and
+not an attested positive. That table's old gift input was not endorsed,
+and its old guest ordering diagnosed the then-existing source/model
+discrepancy; neither is the current production state. Additional dialect and
 non-corpus fixtures remain readiness work. No corpus admission is proposed.
 
-The U input-only trial privately uses Ringe's PGmc giftiz with the existing
+The historical U input-only trial privately uses Ringe's PGmc giftiz with the existing
 acute-stress notation. The ordinary-first trials separate six ordinary
 non-high-front mappings before mutation from the unchanged long-low-front
 clause retained afterwards. That latter clause remains an explicitly
 unadjudicated broad proxy, not a newly proved later-sc conditioner.
 The original-input trial exposes gift alone; the combined trial preserves
 all baseline finals while guest follows the source intermediate history.
-Gift reconstruction disagreements and the original input's provenance must
-be audited before a production proposal
+The completed gift audit preserves the published e-vowel alternatives,
+dating qualifications and original import-provenance limitation. The
+approved production increment now uses that i-input and ordinary-first
+order, while retaining the literal late clause as SC105
 ([@Ringe2017, p. 135, pp. 151–153; @RingeTaylor2014, pp. 215–217, 220, 235;
 @Campbell1959, pp. 68–69, 173–174]).
 

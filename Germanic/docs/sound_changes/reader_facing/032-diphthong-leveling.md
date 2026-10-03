@@ -10,6 +10,17 @@ than any single textbook label [@Campbell1959, pp. 95--96, §§223--227].
 The evidence for [SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling) is less
 self-contained than that for the *dēaw* 'dew' / *hēawan* 'hew' developments.
 
+The atomic \emph{*aeu}, \emph{*eu} and \emph{*iu} clauses complete English
+realization, including products of earlier
+[SC031 OEWWSimplification](#rule-OEWWSimplification).
+They are not the earlier West Germanic vocalization itself. Dew and hew
+arrive through fronted \emph{*au}, whereas chew, four and you arrive through
+\emph{*eu} or \emph{*iu}; the following consonantal glide survives.
+The split-symbol clauses remain separate representation paths and do not
+license arbitrary short-to-long mappings. The current operation changes
+32 selected forms, rather than the previous 27
+[@RingeTaylor2014, pp. 41--42, 65--66, 171--175].
+
 ## SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling}
 
 ```foma
@@ -26,4 +37,13 @@ define OEDiphthongLeveling [
 ];
 ```
 
-The two edges of this interval fail differently. Before [SC030 OEAuBrightening](#rule-OEAuBrightening), PGmc [galáubijaną]{.recon} ‘believe’, [báug]{.recon} ‘bow’, and [bráudą]{.recon} ‘bread’ produce no output (\emph{+?}) instead of expected OE *ġelīefan* ‘believe’, *bēag* ‘bow’, and *brēad* ‘bread’, alongside fifteen other failed derivations. After [SC040 OEMedUnstressedULowering](#rule-OEMedUnstressedULowering), PGmc [xáubudą]{.recon} ‘head’ yields [*hēafud*]{.pred} rather than expected *hēafod* ‘head’. Absence at the lower edge places diphthong leveling after fronting; the wrong surface form at the upper edge places it before medial unstressed-\emph{u} lowering.
+Fronting must supply its product before the offglide changes realize it:
+Ringe and Taylor explicitly distinguish these two developments
+[@RingeTaylor2014, p. 172].
+Earlier displacement tests that left \emph{*aeu} unrealized produced
+\emph{+?}, a rejection by the computational representation rather than an
+attested linguistic outcome. They therefore cannot independently establish
+the historical interval. The input of *hēafod* 'head' also requires the
+remaining medial unstressed vowel to reach its lowering rule; this is a
+distinct dependency, not evidence that every clause above is one historical
+sound law.

@@ -12,12 +12,55 @@ The diagnostic witness is the second-person plural pronoun. Ringe and Taylor pri
 
 ```foma
 define PWGmcUnstressedWordFinalIApocope [
-    {*i} -> 0 || {*w} {*w} _ .#.
+    [ [{*i}|{*u}] -> 0 || .#. {*ᵘ} ?* [
+        [EnglishStarLongVowel | EnglishStarLongDiphthong] EnglishStarConsonant*
+        | EnglishStarShortVowel EnglishStarConsonant EnglishStarConsonant+
+    ] _ .#. ]
+    .o. [{*ᵘ} -> 0]
+    .o. [
+        [{*ᶜ}:0 [EnglishStarAlphabet - {*ᶜ}]* 0:{*ᶜ}]
+        | [EnglishStarAlphabet - {*ᶜ}]*
+    ]
 ];
 ```
 
-The corpus transcription does not mark the absence of word stress, so the rule states the law through a proxy environment: word-final \emph{*-i} after the geminate \emph{*ww} created by coronal-w assimilation, which in the present corpus is exactly coextensive with the law's unstressed-word domain. The same convention serves [SC096 RootNounNomZLoss](#rule-RootNounNomZLoss), where a development whose true conditioning the notation cannot yet express is likewise implemented over an exactly coextensive segmental environment.
+Sentence stress and phonological finality are now explicit, independently
+selected context. They do not alter the PGmc reconstruction, the selected
+segmental input or its historical stage. The computational marks in the
+rule distinguish weak-final context from weak-nonfinal context; they are
+not reconstructed phonemes and are absent from displayed forms. Ordinary
+evaluation explicitly chooses strong-final citation context. You selects
+the independently source-discussed weak-final variant, not an unstressed
+classification inferred from a pronoun label or missing acute.
 
-The corpus witness is 'you': \emph{*izwiz} → \emph{*iwwiz} (assimilation) → \emph{*iwwi} (final \emph{*z}-loss) → \emph{*iww} (this rule) → OE *ēow* 'you'. The chronology is fixed on both sides. The rule is fed by the loss of final \emph{*z} ([SC020 EAFFinalZDeletion](#rule-EAFFinalZDeletion)), since only that loss makes the \emph{*-i} word-final; and it must precede i-umlaut ([SC055 OEIUmlaut](#rule-OEIUmlaut)) — that ordering is Ringe and Taylor's own dating argument, for an unapocopated [iwwi]{.recon} 'you' surviving to the umlaut period would yield an umlauted diphthong and a form other than the attested *ēow* 'you'. The rule applies within Proto-West Germanic, before the later northern loss of final \emph{*z} in stressed monosyllables ([SC097 MonosyllabicFinalZLoss](#rule-MonosyllabicFinalZLoss)): Ringe and Taylor treat the apocope among the Proto-West Germanic final-syllable developments and print the apocopated variant as a Proto-West Germanic form [@RingeTaylor2014, pp. 41--42, 57--58]. Fully stressed disyllables are untouched, as the history requires: \emph{*gastiz} and \emph{*fūri} pass through unchanged and duly umlaut to *ġiest* 'guest' and *fȳr* 'fire'.
+The worked history is \emph{*izwiz} → \emph{*iwwiz} by assimilation →
+\emph{*iuwiz} by [SC031 OEWWSimplification](#rule-OEWWSimplification) →
+\emph{*iuwi} by final \emph{z}-loss → weak-final \emph{*iuw} by this
+rule → OE *ēow*. The operation requires a heavy syllable and a
+phonologically final short high vowel: long vowel/diphthong weight or a
+short vowel followed by a closing consonant cluster, not literal
+\emph{ww}. Its condition therefore survives glide reanalysis.
+Loss of final \emph{z} still feeds it, and removal of \emph{i} bleeds
+[SC055 OEIUmlaut](#rule-OEIUmlaut). Its PWGmc placement precedes the
+later northern loss of stressed-monosyllabic final \emph{z}
+([SC097 MonosyllabicFinalZLoss](#rule-MonosyllabicFinalZLoss))
+([@RingeTaylor2014, pp. 41--42, 55, 57--58]).
 
-The surviving word-final geminate \emph{*ww} is then vocalized to a long diphthong ([SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong)) before geminate simplification ([SC031 OEWWSimplification](#rule-OEWWSimplification)) can destroy it — Ringe and Taylor date that vocalization to Proto-West Germanic itself (\emph{*fewwar} → PWGmc \emph{*feuwar}) [@RingeTaylor2014, pp. 41--42, §3.1.1; @Fulk2018, §8.3, pp. 204--205] — giving \emph{*ēoww}, simplified to \emph{*ēow}, the attested Old English form.
+The staged strong contexts retain the high vowel in the histories of
+*ġiest* 'guest' and *fȳr* 'fire'. A weak-final and context yields *and* 'and', whereas
+the proposed proclitic context retains the vowel in *ymbe* through the
+later apocope corridor. The right-boundary annotation is removed only
+after [SC063 OEHighVowelApocope](#rule-OEHighVowelApocope) has had the
+opportunity to apply. These controls implement the defended exceptionless
+account; they do not claim direct observation of prehistoric sentence
+stress or lexical optionality ([@RingeTaylor2014, pp. 55, 57--58]).
+
+The corresponding English realization of \emph{iu+w} belongs to
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling), not a late
+vocalization of retained \emph{ww}. The model's retained-i counterfactual
+produces an umlauted result after intervening w-loss; its exact terminal
+spelling is a computational prediction, not an attested strong OE form.
+The attested weak-final target and the source's mutation argument must
+not be replaced by that counterfactual
+([@RingeTaylor2014, pp. 41--42, 57--58, 173--175;
+@Campbell1959, p. 283]).

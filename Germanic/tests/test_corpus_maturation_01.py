@@ -100,7 +100,7 @@ class RuleBodyTests(unittest.TestCase):
         cls.text = FST.read_text(encoding="utf-8")
 
     def _define(self, name):
-        m = re.search(r"define\s+" + name + r"\s*\[(.*?)\];", self.text, re.S)
+        m = re.search(r"define\s+" + name + r"\s*(?:Ctx\()?\[(.*?)\]\)?;", self.text, re.S)
         self.assertIsNotNone(m, f"define {name} not found")
         # Strip whole-line comments only; ".#." must survive.
         return re.sub(r"(?m)^\s*#.*$", "", m.group(1))
@@ -108,7 +108,11 @@ class RuleBodyTests(unittest.TestCase):
     def test_sc098_body(self):
         body = re.sub(r"\s+", " ", self._define(
             "PWGmcUnstressedWordFinalIApocope")).strip()
-        self.assertEqual(body, "{*i} -> 0 || {*w} {*w} _ .#.")
+        self.assertIn("[{*i}|{*u}] -> 0", body)
+        self.assertIn(".#. {*ᵘ}", body)
+        self.assertIn("EnglishStarLongVowel | EnglishStarLongDiphthong", body)
+        self.assertIn("EnglishStarShortVowel EnglishStarConsonant EnglishStarConsonant+", body)
+        self.assertNotIn("{*w} {*w} _", body)
 
     def test_brightening_long_final_is_narrowed(self):
         """Campbell §125 p.49: *hwǣ does not exist. The long-final clause
@@ -159,12 +163,15 @@ class CompositionOrderTests(unittest.TestCase):
         self._before("PWGmcUnstressedWordFinalIApocope", "OEIUmlaut",
                      "ēow shows no umlaut: the trigger fell first (R&T 57-58)")
 
-    def test_geminate_w_vocalizes_before_degemination(self):
-        self._before("OEEwLongDiphthong", "OEWWSimplification",
-                     "PWGmc *fewwar > *feuwar: vocalization precedes "
-                     "degemination or *iww strands as *iw")
+    def test_early_reanalysis_and_late_j_residual_are_separate(self):
+        self._before("PWGmcCoronalWAssimilation", "OEWWSimplification",
+                     "coronal assimilation feeds the adopted early reanalysis")
+        self._before("OEWWSimplification", "OEEwLongDiphthong",
+                     "early reanalysis is distinct from English long realization")
+        self._before("OEEwLongDiphthong", "OEJWWSimplification",
+                     "the disclosed j-created residual retains its late slot")
 
-    def test_partial_order_edges_recorded(self):
+    def test_archived_partial_order_edges_recorded(self):
         edges = {(r["earlier_sc"], r["later_sc"])
                  for r in _read_tsv(PARTIAL_ORDER)}
         for edge in [("SC008", "SC003"), ("SC020", "SC098"),

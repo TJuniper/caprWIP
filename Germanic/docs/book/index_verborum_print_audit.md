@@ -1,9 +1,9 @@
 # Index verborum print audit
 
-- Internal production occurrences: 2440
-- Internal production unique forms: 1116
-- Printed main occurrences: 2352
-- Printed main unique forms: 1106
+- Internal production occurrences: 2441
+- Internal production unique forms: 1115
+- Printed main occurrences: 2353
+- Printed main unique forms: 1105
 - Printed excluded occurrences: 88
 - Printed excluded unique forms: 69
 
@@ -15,10 +15,10 @@
 
 | Language | Occurrences | Unique forms |
 | --- | ---: | ---: |
-| Old English | 1237 | 467 |
-| Proto-Germanic | 966 | 536 |
+| Old English | 1239 | 469 |
+| Proto-Germanic | 968 | 536 |
 | Proto-Northwest Germanic | 2 | 1 |
-| Proto-West Germanic | 17 | 9 |
+| Proto-West Germanic | 14 | 6 |
 | Northern West Germanic | 8 | 4 |
 | Pre-Old English / prehistoric English | 19 | 10 |
 | Old Norse | 26 | 17 |
@@ -36,11 +36,11 @@
 
 | Role | Occurrences |
 | --- | ---: |
-| target_form | 391 |
-| source_protoform | 342 |
-| selected_input | 550 |
+| target_form | 393 |
+| source_protoform | 345 |
+| selected_input | 549 |
 | comparison_form | 845 |
-| evidence_form | 224 |
+| evidence_form | 221 |
 
 ## Internal-only rows by reason
 
@@ -53,19 +53,19 @@
 
 ## Reader-facing example rows by role
 
-- `diagnostic_comparator`: 170
-- `example_input`: 98
-- `expected_output`: 115
-- `model_stage`: 119
-- `notation_or_segment`: 728
-- `yielded_output`: 87
+- `diagnostic_comparator`: 178
+- `example_input`: 86
+- `expected_output`: 100
+- `model_stage`: 112
+- `notation_or_segment`: 723
+- `yielded_output`: 75
 
-- Reader-facing include_in_example_index=yes: 589
-- Reader-facing include_in_example_index=no: 728
+- Reader-facing include_in_example_index=yes: 551
+- Reader-facing include_in_example_index=no: 723
 
 ## Print-unique entry audit
 
-- Unique printed entries: 1125
+- Unique printed entries: 1124
 - Print anomaly rows: 51
 - Hard print anomalies: 0
 
@@ -124,9 +124,6 @@
 | Language | Display | Sort key | Occurrences | Roles |
 | --- | --- | --- | ---: | --- |
 | pwgmc | `*bakan` | bakan | 1 | comparison_form |
-| pwgmc | `*íww` | iww | 1 | evidence_form |
-| pwgmc | `*íwwi` | iwwi | 1 | evidence_form |
-| pwgmc | `*íwwiz` | iwwiz | 1 | evidence_form |
 | pwgmc | `*júgunθ` | jugunth | 5 | selected_input; source_protoform |
 | pwgmc | `*nábulô` | nabulo | 4 | selected_input; source_protoform |
 | pwgmc | `*skuldru` | skuldru | 1 | comparison_form |
@@ -157,37 +154,37 @@
 
 ### Included rows by role
 
-- `diagnostic_comparator`: 170
-- `example_input`: 98
-- `expected_output`: 115
-- `model_stage`: 119
-- `yielded_output`: 87
+- `diagnostic_comparator`: 178
+- `example_input`: 86
+- `expected_output`: 100
+- `model_stage`: 112
+- `yielded_output`: 75
 
 ### Included rows by inferred language
 
-- `unknown`: 69
+- `unknown`: 71
 - `goth`: 17
 - `nsgmc`: 4
-- `oe`: 62
+- `oe`: 66
 - `ofris`: 4
 - `ohg`: 7
 - `on`: 10
 - `os`: 3
-- `pgmc`: 200
+- `pgmc`: 184
 - `pie`: 5
 - `pnwgmc`: 3
-- `preoe`: 167
-- `pwgmc`: 38
+- `preoe`: 143
+- `pwgmc`: 34
 
 ### Included rows by main-index overlap
 
-- `no`: 392
-- `yes`: 197
+- `no`: 370
+- `yes`: 181
 
-- Included whole-form rows with asterisks: 474
-- Included whole-form rows without asterisks: 115
+- Included whole-form rows with asterisks: 433
+- Included whole-form rows without asterisks: 118
 - Included rows inferred_language=oe with leading asterisk: 25
-- Included rows inferred_language=pgmc but OE-output-like form shape: 34
+- Included rows inferred_language=pgmc but OE-output-like form shape: 32
 
 ## Included main-index rows (sample)
 
@@ -228,11 +225,11 @@ _None._
 
 ## Reader-facing example rows (sample)
 
+- `*ā` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:1014)
+- `*ai` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:1015)
+- `*æe > *æə > *æa > *ā` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:1033)
 - `*a` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:104)
 - `*i` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:104)
 - `*u` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:104)
-- `*déuzaz` (, diagnostic_comparator; include=yes; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:1044)
-- `*r` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:1044)
-- `*z` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:1044)
-- `*xúrdaz` (, diagnostic_comparator; include=yes; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:1045)
-- `*líznōjaną` (, diagnostic_comparator; include=yes; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:1046)
+- `*e` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:105)
+- `*i` (, notation_or_segment; include=no; Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:105)

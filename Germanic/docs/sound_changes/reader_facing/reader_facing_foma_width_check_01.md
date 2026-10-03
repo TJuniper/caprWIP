@@ -4,7 +4,7 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 
 ## Summary
 
-- Foma blocks checked: 93.
+- Foma blocks checked: 94.
 - Blocks over the conservative 90-character threshold: 13.
 - Width-safe rendering protocol: `ReaderFacingFoma` uses `fvextra`/`Verbatim` with `breaklines=true`, `breakanywhere=true`, and `fontsize=\small` in the Docker XeLaTeX build.
 
@@ -14,33 +14,34 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 | 004-pwgmc-ai-monophthongization.md | SC004. Anglo-Frisian ai-monophthongization (`EAFAiMonophthongization`) {#rule-EAFAiMonophthongization} | 36 | 32 | no |
 | 005-unstressed-a-raising-before-final-m.md | SC005. Unstressed \emph{*a}-raising before final \emph{*m} (`PNWGmcAToUBeforeM`) {#rule-PNWGmcAToUBeforeM} | 12 | 87 | no |
 | 006-early-i-apocope.md | SC006. Early i-apocope (`PWGmcEarlyIApocope`) {#rule-PWGmcEarlyIApocope} | 11 | 103 | yes |
-| 007-final-o-lowering-before-r.md | SC007. Lowering of final bimoric \emph{*ō} before \emph{*r} (`PWGmcFinalOrLowering`) {#rule-PWGmcFinalOrLowering} | 12 | 30 | no |
-| 008-coronal-w-assimilation.md | SC008. Assimilation of coronal consonants before \emph{*w} (`PWGmcCoronalWAssimilation`) {#rule-PWGmcCoronalWAssimilation} | 11 | 34 | no |
+| 007-final-o-lowering-before-r.md | SC007. Lowering of final bimoric \emph{*ō} before \emph{*r} (`PWGmcFinalOrLowering`) {#rule-PWGmcFinalOrLowering} | 12 | 33 | no |
+| 008-coronal-w-assimilation.md | SC008. Assimilation of coronal consonants before \emph{*w} (`PWGmcCoronalWAssimilation`) {#rule-PWGmcCoronalWAssimilation} | 11 | 38 | no |
 | 009-ij-contraction-in-friend.md | SC009. \emph{ij}-contraction in \emph{friend} (`PWGmcIjContraction`) {#rule-PWGmcIjContraction} | 11 | 54 | no |
 | 010-west-germanic-j-gemination.md | SC010. West Germanic j-gemination (`PWGmcJGemination`) {#rule-PWGmcJGemination} | 11 | 54 | no |
 | 011-syllabic-j-after-final-vowel-loss.md | SC011. Syllabic \emph{*j} after final-vowel loss (`PWGmcSyllabicJ`) {#rule-PWGmcSyllabicJ} | 13 | 74 | no |
 | 012-lth-voicing.md | SC012. Northern West Germanic \emph{lþ}-voicing (`EAFLThVoicing`) {#rule-EAFLThVoicing} | 12 | 26 | no |
-| 013-dental-hardening.md | SC013. Dental hardening (`PWGmcDentalHardening`) {#rule-PWGmcDentalHardening} | 12 | 29 | no |
-| 014-015-opening-vowel-prelude.md | SC014. Monophthongization of unstressed \emph{*ai} (`PNWGmcUnstressedAiMonophthongization`) {#rule-PNWGmcUnstressedAiMonophthongization} | 13 | 45 | no |
+| 013-dental-hardening.md | SC013. Dental hardening (`PWGmcDentalHardening`) {#rule-PWGmcDentalHardening} | 12 | 33 | no |
+| 014-015-opening-vowel-prelude.md | SC014. Monophthongization of unstressed \emph{*ai} (`PNWGmcUnstressedAiMonophthongization`) {#rule-PNWGmcUnstressedAiMonophthongization} | 13 | 49 | no |
 | 014-015-opening-vowel-prelude.md | SC015. Leveling of early unstressed front vowels (`PNWGmcILowering`) {#rule-PNWGmcILowering} | 29 | 55 | no |
 | 016-west-saxon-palatal-glide.md | SC016. West Saxon palatal-glide spelling before back vowels (`OEWsPalatalGlide`) {#rule-OEWsPalatalGlide} | 45 | 30 | no |
 | 017-nwgmc-u-lowering.md | SC017. Lowering of \emph{*u} before following non-high vowels (`PNWGmcULowering`) {#rule-PNWGmcULowering} | 26 | 60 | no |
 | 018-stressed-monosyllable-o-raising.md | SC018. Raising of final stressed monosyllabic \emph{*ō} (`PNWGmcStressedMonosyllableORaising`) {#rule-PNWGmcStressedMonosyllableORaising} | 12 | 79 | no |
 | 019-nwgmc-final-long-o-raising.md | SC019. Raising of final unstressed long \emph{*ō} (`PNWGmcFinalLongORaising`) {#rule-PNWGmcFinalLongORaising} | 18 | 66 | no |
-| 020-wgmc-final-z-deletion.md | SC020. West Germanic final \emph{*z}-deletion (`EAFFinalZDeletion`) {#rule-EAFFinalZDeletion} | 15 | 65 | no |
+| 020-wgmc-final-z-deletion.md | SC020. West Germanic final \emph{*z}-deletion (`EAFFinalZDeletion`) {#rule-EAFFinalZDeletion} | 15 | 66 | no |
 | 022-mn-dissimilation.md | SC022. Dissimilation of adjacent \emph{mn} (`PNWGmcMnDissimilation`) {#rule-PNWGmcMnDissimilation} | 24 | 36 | no |
 | 023-n-stem-n-loss.md | SC023. Loss of word-final \emph{*n} after \emph{*ō} (`PNWGmcNStemNLoss`) {#rule-PNWGmcNStemNLoss} | 11 | 30 | no |
-| 024-long-e-lowering.md | SC024. Lowering of stressed long \emph{ē} (`PNWGmcLongELowering`) {#rule-PNWGmcLongELowering} | 13 | 28 | no |
+| 024-long-e-lowering.md | SC024. Lowering of stressed long \emph{ē} (`PNWGmcLongELowering`) {#rule-PNWGmcLongELowering} | 13 | 32 | no |
 | 025-long-a-nasal-rounding.md | SC025. Nasalization of long \emph{ā} before nasals (`EAFLongANasalRounding`) {#rule-EAFLongANasalRounding} | 37 | 39 | no |
 | 026-027-nasal-spirant-changes.md | SC026. North Sea Germanic nasal-spirant law, first step (`EAFNasalSpirantLengthening`) {#rule-EAFNasalSpirantLengthening} | 70 | 64 | no |
 | 026-027-nasal-spirant-changes.md | SC027. North Sea Germanic nasal-spirant law, second step (`EAFNasalSpirantLoss`) {#rule-EAFNasalSpirantLoss} | 113 | 54 | no |
 | 028-preconsonantal-x-loss.md | SC028. Simplification of \emph{*xs} before a consonant (`PNWGmcPreconsonantalXLoss`) {#rule-PNWGmcPreconsonantalXLoss} | 94 | 44 | no |
 | 029-030-awj-glide-and-au-fronting.md | SC029. Resolution of \emph{*awj} to \emph{*auj} (`OEAwwjResolution`) {#rule-OEAwwjResolution} | 72 | 38 | no |
 | 029-030-awj-glide-and-au-fronting.md | SC030. Brightening of \emph{*au} to \emph{*æu} (`OEAuBrightening`) {#rule-OEAuBrightening} | 128 | 24 | no |
-| 031-ww-simplification.md | SC031. Simplification of \emph{*ww} sequences (`OEWWSimplification`) {#rule-OEWWSimplification} | 12 | 27 | no |
-| 032-diphthong-leveling.md | SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling} | 15 | 28 | no |
-| 033-long-eow-diphthong.md | SC033. Long \emph{ēow} before following vowels and weak endings (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | 27 | 49 | no |
-| 034-long-eaw-diphthong.md | SC034. Long \emph{ēaw} before following vowels (`OEAwLongDiphthong`) {#rule-OEAwLongDiphthong} | 12 | 61 | no |
+| 031-ww-simplification.md | SC031. Inherited short-Vww reanalysis (`OEWWSimplification`) {#rule-OEWWSimplification} | 33 | 33 | no |
+| 032-diphthong-leveling.md | SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling} | 26 | 28 | no |
+| 033-long-eow-diphthong.md | SC033. Long \emph{ēow} before following vowels and weak endings (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | 34 | 49 | no |
+| 033-long-eow-diphthong.md | SC106. Retained j-created glide residual (`OEJWWSimplification`) {#rule-OEJWWSimplification} | 53 | 31 | no |
+| 034-long-eaw-diphthong.md | SC034. Long \emph{ēaw} before following vowels (`OEAwLongDiphthong`) {#rule-OEAwLongDiphthong} | 22 | 61 | no |
 | 035-037-prefix-and-compound-adjustments.md | SC035. Reduction of prefixal \emph{*a} (`OEPrefixAReduction`) {#rule-OEPrefixAReduction} | 17 | 59 | no |
 | 035-037-prefix-and-compound-adjustments.md | SC036. Raising of medial \emph{*a} between stress peaks (`OEInterStressRaising`) {#rule-OEInterStressRaising} | 36 | 54 | no |
 | 035-037-prefix-and-compound-adjustments.md | SC037. Syncope of compound linking vowels (`OECompoundLinkingSyncope`) {#rule-OECompoundLinkingSyncope} | 58 | 47 | no |
@@ -71,7 +72,7 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 | 059-oe-back-mutation.md | SC059. Back mutation before labials and liquids (`OEBackMutation`) {#rule-OEBackMutation} | 15 | 90 | no |
 | 060-ws-palatal-umlaut-note.md | SC060. West Saxon palatal umlaut before \emph{*h}-clusters (`OEWsPalatalUmlaut`) {#rule-OEWsPalatalUmlaut} | 14 | 56 | no |
 | 061-weak-tail-nasal-loss-note.md | SC061. Reduction of final nasal weak-tail endings (`OEWeakTailNasalLoss`) {#rule-OEWeakTailNasalLoss} | 14 | 31 | no |
-| 063-high-vowel-apocope.md | SC063. High-vowel apocope after heavy syllables and in trisyllables (`OEHighVowelApocope`) {#rule-OEHighVowelApocope} | 14 | 118 | yes |
+| 063-high-vowel-apocope.md | SC063. High-vowel apocope after heavy syllables and in trisyllables (`OEHighVowelApocope`) {#rule-OEHighVowelApocope} | 23 | 118 | yes |
 | 064-065-post-apocope-tail.md | SC064. Loss of stem-final \emph{*n} after long \emph{*ī} (`NWGmcInStemNLoss`) {#rule-NWGmcInStemNLoss} | 16 | 50 | no |
 | 064-065-post-apocope-tail.md | SC065. Medial syncope before dentals after heavy syllables (`OEMedialSyncope`) {#rule-OEMedialSyncope} | 44 | 93 | yes |
 | 066-068-syncope-and-degemination-corridor.md | SC066. L-adjacent syncope in medial syllables (`OELAdjacentSyncope`) {#rule-OELAdjacentSyncope} | 18 | 62 | no |
@@ -96,9 +97,9 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 | 085-086-h-loss-and-contraction.md | SC085. Loss of intervocalic \emph{*h} (`OEHLoss`) {#rule-OEHLoss} | 16 | 56 | no |
 | 085-086-h-loss-and-contraction.md | SC086. Contraction of the resulting hiatus (`OEContraction`) {#rule-OEContraction} | 33 | 24 | no |
 | 087-r-metathesis.md | SC087. Metathesis of \emph{*r} with a following short vowel (`OERMetathesis`) {#rule-OERMetathesis} | 18 | 63 | no |
-| 096-root-noun-nominative-z-loss.md | SC096. Root-noun nominative \emph{*-z} loss (`RootNounNomZLoss`) {#rule-RootNounNomZLoss} | 17 | 65 | no |
+| 096-root-noun-nominative-z-loss.md | SC096. Root-noun nominative \emph{*-z} loss (`RootNounNomZLoss`) {#rule-RootNounNomZLoss} | 17 | 66 | no |
 | 097-monosyllabic-final-z-loss.md | SC097. Northern monosyllabic final \emph{*z}-loss (`MonosyllabicFinalZLoss`) {#rule-MonosyllabicFinalZLoss} | 15 | 64 | no |
-| 098-early-apocope-in-unstressed-words.md | SC098. Early apocope in unstressed words (`PWGmcUnstressedWordFinalIApocope`) {#rule-PWGmcUnstressedWordFinalIApocope} | 13 | 41 | no |
+| 098-early-apocope-in-unstressed-words.md | SC098. Early apocope in unstressed words (`PWGmcUnstressedWordFinalIApocope`) {#rule-PWGmcUnstressedWordFinalIApocope} | 13 | 79 | no |
 | 101-long-a-fronting.md | SC101. Fronting of long \emph{ā} outside nasal and \emph{w} environments (`EAFLongAFronting`) {#rule-EAFLongAFronting} | 13 | 71 | no |
 | 102-hiatus-w-insertion.md | SC102. Generalized hiatus-breaking \emph{w} after long \emph{ā} (`EAFHiatusWInsertion`) {#rule-EAFHiatusWInsertion} | 17 | 45 | no |
 | 103-pgmc-nasal-loss-before-x.md | SC103. Proto-Germanic nasal loss before \*x (`PGmcNasalLossBeforeX`) {#rule-PGmcNasalLossBeforeX} | 39 | 45 | no |
@@ -128,7 +129,7 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 
 - `109` chars — `    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]`
 
-### 063-high-vowel-apocope.md:14 — SC063. High-vowel apocope after heavy syllables and in trisyllables (`OEHighVowelApocope`) {#rule-OEHighVowelApocope}
+### 063-high-vowel-apocope.md:23 — SC063. High-vowel apocope after heavy syllables and in trisyllables (`OEHighVowelApocope`) {#rule-OEHighVowelApocope}
 
 - `98` chars — `    {*i} -> 0 || EnglishStarLongVowel OEAnyConsonant+ EnglishStarShortVowel OEAnyConsonant+ _ .#.,`
 - `98` chars — `    {*u} -> 0 || EnglishStarLongVowel OEAnyConsonant+ EnglishStarShortVowel OEAnyConsonant+ _ .#.,`

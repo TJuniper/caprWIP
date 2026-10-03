@@ -28,6 +28,7 @@ fst_index = {
     "Dutch": "dutch",
     "English": "english",
     "Proto-Germanic": "proto-germanic",
+    "Old_English": "old_english",
 }
 
 # Basic imports
@@ -37,6 +38,7 @@ import json
 import csv
 from functools import reduce
 from collections import Counter
+from oe_input_context import board_context, lexical_apply_up, lexical_fst
 from tabulate import tabulate
 
 ##### ROUTINES #####
@@ -144,7 +146,8 @@ def back_reconstruct_list(syllable_ids, fsts, words):
             first_form = ipa
         if doculect in fsts:
             the_syl = replace_diacritics(ipa)
-            rec = list(fsts[doculect].apply_up(the_syl))
+            rec = list(lexical_apply_up(fsts[doculect], the_syl,
+                                       board_context(words[word_id].get("inputContext"))))
             if rec:
                 # only record reconstructions when something *is* reconstructed
                 at_least_one = True
@@ -235,7 +238,7 @@ def refish(jsonfile, csvfile="lexicon.tsv", fstfile="refishing-fst2.txt"):
                 continue
             bin_path = fst_path + ".bin"
             if os.path.isfile(bin_path):
-                fsts_new[doculect_name] = FST.load(bin_path)
+                fsts_new[doculect_name] = lexical_fst(FST.load(bin_path), doculect_name)
             else:
                 eprint(f"[refish] Skipping {doculect_name}: missing {bin_path}")
         os.chdir(script_path)
@@ -309,7 +312,10 @@ def refish(jsonfile, csvfile="lexicon.tsv", fstfile="refishing-fst2.txt"):
             syllable = input_syllables[syllable_id]
             if syllable["doculect"] in fsts_new:
                 the_syl = replace_diacritics_up(syllable["syllable"])
-                reconstructions = list(fsts_new[syllable["doculect"]].apply_up(the_syl))
+                reconstructions = list(lexical_apply_up(
+                    fsts_new[syllable["doculect"]], the_syl,
+                    board_context(syllable.get("inputContext")),
+                ))
                 for rec in reconstructions:
                     if (rec, syllable["glossid"]) not in first_column_of_gr:
                         first_column_of_gr[(rec, syllable["glossid"])] = column_id
@@ -367,7 +373,10 @@ def refish(jsonfile, csvfile="lexicon.tsv", fstfile="refishing-fst2.txt"):
 
             if syllable["doculect"] in fsts_new:
                 the_syl = replace_diacritics_up(syllable["syllable"])
-                rec = list(fsts_new[syllable["doculect"]].apply_up(the_syl))
+                rec = list(lexical_apply_up(
+                    fsts_new[syllable["doculect"]], the_syl,
+                    board_context(syllable.get("inputContext")),
+                ))
 
                 if rec:
                     # Now at least one syllable-form in the cognate set has a reconstruction!

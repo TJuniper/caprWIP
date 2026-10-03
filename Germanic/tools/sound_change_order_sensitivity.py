@@ -40,7 +40,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import oe_pipeline  # noqa: E402
 from capr_runtime import check_build_manifest, layout  # noqa: E402
-from oe_pipeline import apply_down, load_rows  # noqa: E402
+from oe_pipeline import apply_down, evaluation_input, load_rows  # noqa: E402
 
 
 RESUME_STEPS_RE = re.compile(r"resume_steps=(\d+)")
@@ -424,13 +424,13 @@ def baseline_note(outputs: Sequence[str], expected: str) -> str:
 
 def evaluate_rows_rowwise(rows: Sequence[Dict[str, str]], bin_path: Path) -> List[Dict[str, object]]:
     return [
-        build_evaluated_row(row, apply_down(bin_path, row["proto_norm"]))
+        build_evaluated_row(row, apply_down(bin_path, evaluation_input(row)))
         for row in rows
     ]
 
 
 def evaluate_rows_batch(rows: Sequence[Dict[str, str]], bin_path: Path) -> List[Dict[str, object]]:
-    outputs_by_row = batch_apply_down(bin_path, [row["proto_norm"] for row in rows])
+    outputs_by_row = batch_apply_down(bin_path, [evaluation_input(row) for row in rows])
     return [
         build_evaluated_row(row, outputs)
         for row, outputs in zip(rows, outputs_by_row)
@@ -587,6 +587,7 @@ def build_evaluated_row(row: Dict[str, str], outputs: Sequence[str]) -> Dict[str
         "lexical_item": row["concept"],
         "protoform": row["proto"],
         "proto_norm": row["proto_norm"],
+        "fst_input": evaluation_input(row),
         "expected_counterpart": expected,
         "outputs": list(outputs),
         "outputs_text": format_outputs(outputs),

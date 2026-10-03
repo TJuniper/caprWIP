@@ -6,6 +6,7 @@ from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "Germanic/tools"))
 import oe_derivation_class_trace_report as report
+import oe_full_trace_report as full_report
 
 
 class LexicalProjectionTests(unittest.TestCase):
@@ -48,6 +49,29 @@ class LexicalProjectionTests(unittest.TestCase):
         other = self.text.replace("--- gift ---", "--- other ---")
         with self.assertRaisesRegex(ValueError, "duplicate corpus identity"):
             self.project(self.text + other, [self.row, self.row])
+
+    def test_selected_context_header_is_checked_without_becoming_a_segment(self):
+        text = self.text.replace(
+            "EXPECTED:", "INPUT_CONTEXT: SC098; stress=stressed; finality=final\nEXPECTED:"
+        )
+        row = {**self.row, "word_stress": "stressed", "phonological_finality": "final"}
+        result = self.project(text, [row])
+        self.assertIn("PROTO: *gíftiz", result)
+        self.assertNotIn("INPUT_CONTEXT:", result)
+        with self.assertRaisesRegex(ValueError, "context mismatch"):
+            self.project(text.replace("stress=stressed", "stress=unstressed"), [row])
+
+    def test_cached_outputs_preserve_scalar_rejection_and_no_change_behavior(self):
+        stages = [("First", "first.bin"), ("Rejected", "reject.bin"), ("Same", "same.bin")]
+        with patch.object(full_report, "STAGES", stages), \
+                patch.object(full_report, "run_stage", side_effect=[["*a"], ["+?"], ["*a"]]):
+            scalar = full_report.trace_lexeme("a", Path("."))
+        with patch.object(full_report, "STAGES", stages), \
+                patch.object(full_report, "run_stage", side_effect=AssertionError("must use batch")):
+            cached = full_report.trace_lexeme(
+                "a", Path("."), {"first.bin": ["*a"], "reject.bin": [], "same.bin": ["*a"]},
+            )
+        self.assertEqual(cached, scalar)
 
 
 if __name__ == "__main__":

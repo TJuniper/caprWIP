@@ -107,32 +107,52 @@ created later before j. These inputs must be distinguished before assigning
 one date to their long-vowel outputs. Ringe and Taylor describe inherited
 glide reanalysis separately from the English realization of its products
 [@RingeTaylor2014, pp. 41–42, 65–66, 171–173].
-The model currently telescopes parts of that history.
+The model now separates the earlier reanalysis from English realization.
 
-| Witness | Earlier disputed checkpoint | Later English outcome | What it tests |
+| Witness | Adopted earlier checkpoint | Later English outcome | What it tests |
 |---|---|---|---|
-| Four | Assimilated ww can be reanalyzed as eu plus w | fēower ‘four’ | Assimilation feeder and retained glide |
-| Hew | Inherited a plus ww can give au plus w | hēawan ‘hew’ | Reanalysis distinct from English realization |
+| Four | Assimilated ww is reanalyzed as eu plus w | fēower ‘four’ | Assimilation feeder and retained glide |
+| Hew | Inherited a plus ww gives au plus w | hēawan ‘hew’ | Reanalysis distinct from English realization |
 | You | Vocalized iu plus w with a surviving final i before apocope | ēow ‘you’ | Prosody/apocope compatibility, not merely quantity |
 | Hue | Later j-gemination creates a distinct glide input | hīew ‘hue’ | Negative control for the earlier inherited-ww subset |
 | Hay | Later awj history remains separate | hīeġ ‘hay’ | Gemination and secondary glide resolution |
 
-These are intermediate questions rather than new corpus admissions.
+These are existing lexical witnesses, not new corpus admissions.
 The current spelling differences also require their actual dialectal
 interpretation [@Campbell1959, pp. 44–47;
 @RingeTaylor2014, pp. 41–42, 57–58, 171–173].
 The reconstructed West Saxon strew target is a computational control,
 not an additional attested form.
 
-An isolated early-reanalysis experiment exposes a genuine representation
-dependency. Once the first w is vocalized, the present apocope proxy no
-longer recognizes its consonantal-ww context in the pronoun. An explicitly
-technical recognition control restores its output, but that success does
-not make vocalized segments the historical condition for apocope.
-The source account depends on word-level stresslessness and early loss
-of the high vowel [@RingeTaylor2014, pp. 41–42, 57–58].
-Any historical decomposition must account for that prosody instead of
-rejecting an early history because a later proxy expects another encoding.
+The completed decomposition replaces the old consonantal-ww apocope
+proxy with the historical condition: a short final high vowel after a
+heavy syllable in a sentence-unstressed, phonologically final word.
+You selects that weak-final context independently of its unchanged PGmc
+reconstruction. Thus \emph{*iuwi} loses the final vowel to give
+\emph{*iuw} before mutation. A proclitic context retains the vowel, as
+in *ymbe* 'around'; weak-final *and* 'and' and stressed *ġiest* 'guest' /
+*fȳr* 'fire' check the positive and negative conditions
+[@RingeTaylor2014, pp. 41--42, 55, 57--58; @Campbell1959, p. 283].
+
+The computational retained-i counterfactual for you yields a predicted
+[*īei*]{.pred}, not a source-backed strong Old English spelling: the
+existing w-loss before i intervenes before mutation. It tests the
+represented alternative context, not an additional attestation.
+Unmarked evaluation explicitly selects strong-final citation context;
+absence of an acute is never used to infer sentence stress.
+All selected final outputs remain unchanged.
+
+The later realization paths are now explicit. Chew, dew, four, hew and
+you complete their earlier products through
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling).
+[SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong) retains knee and hue;
+[SC034 OEAwLongDiphthong](#rule-OEAwLongDiphthong) retains the singleton
+show/straw forms. Hue's remaining ww before j is simplified by the
+separately disclosed [SC106 OEJWWSimplification](#rule-OEJWWSimplification),
+a technical residual rather than a newly established sound law.
+The before-j placement of early reanalysis is a representative
+serialization, not a new strict historical chronology claim
+[@Campbell1959, pp. 45--47; @RingeTaylor2014, pp. 65--66, 171--175].
 
 ## Ordinary fronting, breaking and restoration
 

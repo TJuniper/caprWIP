@@ -15,6 +15,7 @@ are GENERATED or ARCHIVE.
 |---|---|---|
 | `registry/sc_registry.tsv` | machine-state | SC identity, lifecycle status, executable identifier, display names, historical stage/scope, confidence, adjudication status/verdict, memo path, document pointers (evidence dossiers, chronology card, reader-facing chapter). It carries NO order-valued columns: executable positions are derived at read time from the executable model (`tools/oe_pipeline.py`) and published in the generated `registry/current_sc_state.tsv`; the legacy inventory/staging order spaces are frozen in `registry/archival_orders.tsv` (ARCHIVE) |
 | `registry/chronology_edges.tsv` | machine-state | Chronology relations: relation type, evidence basis (stage-entailed vs independently demonstrated), witnesses, witness roles |
+| `registry/adjudication_programme.json` | machine-state | Explicit administrative programme start (`start_sc`). `adjudicate.py --next` selects the first active, unadjudicated non-support entry at or above it in SC-ID order. Scoped verdicts never skip pending earlier work. This is neither historical chronology nor executable order; earlier cases and support stages remain explicitly addressable |
 | `registry/reader_chapters.tsv` | machine-state | Reader book chapters: chapter id, title, intro file. Chapter order is the chapter id |
 | `registry/reader_files.tsv` | machine-state | Reader file -> chapter assignment (one row per reader-facing chapter file; no order column — book order is derived from cascade position) |
 | `registry/sc_inventory_notes.tsv` | source | HUMAN JUDGEMENTS ONLY: plain-language draft descriptions, order-sensitivity classification, editorial `illustrative_lexemes`, notes, review flags |
@@ -24,6 +25,9 @@ are GENERATED or ARCHIVE.
 | `reader_facing/*.md`, `book_dossiers/*.md` | publication-prose | Reader-facing chapters and grouped book dossiers; `adjudicate.py SCNNN --prepare` lists the ones relevant to a given SC |
 | `cascade_baseline/cascade_baseline_summary.json` | machine-state | Frozen fingerprints (change only via the explicit adjudication/refreeze procedure) |
 | `cascade_baseline/approved_input_migrations.tsv` | machine-state | Exact approved old/new input mapping by stable OE row ID, concept and counterpart, with adjudication pointer. Does not authorize output drift or archival rewrites |
+| `Germanic/data/entry_context_metadata.tsv` | machine-state | Separately sourced selected sentence stress/finality at SC098; never changes PROTO/PROTOFORM or infers stress from accent |
+| `backend/oe_input_context.py` | executable source | Shared context validation/assembly and annotation-free, selected-context API projections |
+| `cascade_baseline/approved_context_migration.json` | machine-state | Exact approved evaluator-input delta and independent evaluator/lexical/legacy fingerprints. Applied only by `adjudicate.py SC098 --adopt-context-baseline`, never routine refresh |
 | `Germanic/docs/CURRENT_STATE.md` | publication-prose | Current phase and standard commands (the next SC is derived: `adjudicate.py --next`) |
 | `Germanic/docs/README.md`, `sound_changes/README.md` | publication-prose | Navigation |
 | `Germanic/docs/RESEARCH_ADJUDICATION_PROTOCOL.md`, `audits/ADJUDICATION_TEMPLATE.md` | publication-prose | Method |
@@ -80,11 +84,25 @@ Docker):
 | `debug_snapshots/oe_full_trace_report.txt` | PROVENANCE block checked by `oe_full_trace_report.trace_provenance_problems` |
 | `cascade_baseline/cascade_interaction_matrix.tsv` | `cascade_baseline/cascade_interaction_provenance.json` — hash over harness source, the stage-derived pair list, and the executable_facts definition closure of every participating network. Pure cascade reorders do not invalidate the matrix; editing a participating rule does. The matrix is CURRENT-STATE analysis, not a frozen snapshot |
 
+The standard reader, full lexical-volume and combined-book shell entry
+points run the canonical `adjudicate.py --refresh` before their checks or
+rendering. Thus direct publication also validates runtime/trace provenance
+and regenerates lexical manifests, compact traces and the joint draft/index
+projection. A failed refresh stops publication; a no-op refresh does not
+recompile the FST. The graph's builders do not invoke these render wrappers.
+
 ## ARCHIVE / RECORD (historical; never current authority)
 
+- `cascade_baseline/historical_partial_order.tsv` preserves the old
+  Phase-3 constraint snapshot, including the superseded late ww proxy.
+  Current independently supported interaction constraints come from
+  `registry/chronology_edges.tsv`, not that snapshot.
 - `cascade_baseline/cascade_baseline_outputs_legacy380.tsv` remains the immutable
   original 380-identity snapshot. Its archive digest is distinct from the active
   legacy-subset digest after an approved input migration.
+- `cascade_baseline/cascade_baseline_{outputs,summary}_pre_sc031_sc098.*`
+  preserve the selected387 baseline before the approved context transition;
+  refresh and finalization protect them against mutation.
 - `cascade_baseline/cascade_baseline_outputs_pre_sc056.tsv` and
   `cascade_baseline_summary_pre_sc056.json` preserve the selected387 state before
   the gift/ordinary-PD adjudication; never refreshed or repointed.

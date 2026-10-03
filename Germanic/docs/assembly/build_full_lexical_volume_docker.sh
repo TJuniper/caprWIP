@@ -10,7 +10,7 @@ build_log="${script_dir}/lexical_volume_alpha_01_build.log"
 
 cd "${repo_root}"
 
-python3 "${script_dir}/build_full_lexical_volume.py"
+python3 Germanic/tools/adjudicate.py --refresh
 
 if ! command -v docker >/dev/null 2>&1; then
   echo "docker not found; cannot run Docker-based render." >&2

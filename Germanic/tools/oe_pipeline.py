@@ -37,12 +37,19 @@ from __future__ import annotations
 import csv
 import re
 import subprocess
+import sys
 from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 from typing import Dict, List, Tuple
 
 from capr_runtime import layout
+
+sys.path.insert(0, str(layout().bin_dir))
+from oe_input_context import (
+    CITATION_CONTEXT, ContextEntry, METADATA_FILENAME, context_for_row, display_form,
+    load_context_metadata, validate_context_rows,
+)
 
 ROOT_IDENTIFIER = "OldEnglish"
 BUNDLE_MARKER = "capr:bundle"
@@ -498,9 +505,25 @@ def normalize_proto(raw: str) -> str:
     return normalized.replace("þ", "θ")
 
 
+def contexts_for_tsv(tsv_path: Path) -> dict[str, ContextEntry]:
+    path = tsv_path.with_name(METADATA_FILENAME)
+    if not path.exists() and tsv_path.resolve() != layout().corpus_tsv.resolve():
+        return {}
+    return load_context_metadata(path)
+
+
+def evaluation_input(row: Dict[str, str]) -> str:
+    if "fst_input" in row:
+        return row["fst_input"]
+    if "word_stress" in row or "phonological_finality" in row:
+        raise ValueError("contextual row lacks its assembled evaluator input")
+    return CITATION_CONTEXT.encode(row["proto_norm"])
+
+
 def load_rows(tsv_path: Path) -> List[Dict[str, str]]:
     """Selected Old English corpus rows (attested counterpart present)."""
     rows: List[Dict[str, str]] = []
+    contexts = contexts_for_tsv(tsv_path)
     with tsv_path.open(encoding="utf-8") as handle:
         for row in csv.DictReader(handle, delimiter="\t"):
             if row.get("DOCULECT") != "Old_English":
@@ -512,12 +535,19 @@ def load_rows(tsv_path: Path) -> List[Dict[str, str]]:
             norm = normalize_proto(proto)
             if not norm:
                 continue
+            row_id = row.get("ID", "")
+            context = context_for_row(row_id, proto, contexts)
             rows.append({
+                "row_id": row_id,
                 "concept": row.get("CONCEPT", ""),
                 "proto": proto,
                 "proto_norm": norm,
+                "fst_input": context.encode(norm),
+                "word_stress": context.word_stress,
+                "phonological_finality": context.phonological_finality,
                 "counterpart": counterpart,
             })
+    validate_context_rows(contexts, {row["row_id"] for row in rows})
     return rows
 
 

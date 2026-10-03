@@ -91,7 +91,7 @@ def main() -> int:
     sandbox_final = rt.bin_dir / final_stage.snapshot_bin
 
     rows = oe_pipeline.load_rows(rt.corpus_tsv)
-    forms = [row["proto_norm"] for row in rows]
+    forms = [oe_pipeline.evaluation_input(row) for row in rows]
     prod_out = batch_outputs(production, forms)
     sand_out = batch_outputs(sandbox_final, forms)
 

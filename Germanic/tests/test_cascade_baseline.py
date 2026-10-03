@@ -81,9 +81,9 @@ class BaselineArtifactTests(unittest.TestCase):
         self.assertEqual(ambiguous, self.summary["ambiguous_outputs"])
 
     def test_rows_are_deterministically_sorted(self):
-        keys = [(r["proto_norm"], r["counterpart"], r["concept"]) for r in self.rows]
+        keys = [(r["fst_input"], r["counterpart"], r["concept"]) for r in self.rows]
         self.assertEqual(keys, sorted(keys),
-                         "baseline rows must be sorted by (proto_norm, counterpart, concept)")
+                         "baseline rows must be sorted by (fst_input, counterpart, concept)")
 
 
 class LegacySubsetTests(unittest.TestCase):

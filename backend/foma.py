@@ -50,6 +50,17 @@ class FSTstruct(Structure):
     ]
 
 
+class Sigmastruct(Structure):
+    pass
+
+
+Sigmastruct._fields_ = [
+    ("number", c_int),
+    ("symbol", c_char_p),
+    ("next", POINTER(Sigmastruct)),
+]
+
+
 foma_fsm_parse_regex = foma.fsm_parse_regex
 foma_fsm_parse_regex.restype = POINTER(FSTstruct)
 foma_apply_init = foma.apply_init
@@ -134,6 +145,17 @@ class FSTfunctiondefinitions(object):
 class FST(object):
     networkdefinitions = FSTnetworkdefinitions()
     functiondefinitions = FSTfunctiondefinitions()
+
+    def alphabet(self):
+        if not self.fsthandle:
+            raise ValueError('Undefined FST')
+        symbols = set()
+        node = cast(self.fsthandle.contents.sigma, POINTER(Sigmastruct))
+        while node:
+            if node.contents.symbol:
+                symbols.add(self.decode(node.contents.symbol))
+            node = node.contents.next
+        return symbols
 
     @classmethod
     def define(cls, definition, name):

@@ -54,6 +54,9 @@ import re
 import json
 import csv
 from typing import Optional
+from oe_input_context import (
+    CITATION_CONTEXT, board_context, lexical_apply_down, lexical_apply_up, lexical_fst,
+)
 
 from numpy import equal
 from functools import reduce
@@ -161,7 +164,8 @@ def back_reconstruct_list(syllable_ids, fsts, words):
             first_form = ipa
         if doculect in fsts:
             the_syl = replace_diacritics(ipa)
-            rec = list(fsts[doculect].apply_up(the_syl))
+            rec = list(lexical_apply_up(fsts[doculect], the_syl,
+                                       board_context(word.get("inputContext"))))
             if rec:
                 # only record reconstructions when something *is* reconstructed
                 at_least_one = True
@@ -229,7 +233,9 @@ def read_transducer(input_json, old_new, errors):
 
         for doculect_name in fst_index:
             if os.path.isfile(fst_index[doculect_name] + '.bin'):
-                ret[doculect_name] = FST.load(fst_index[doculect_name] + '.bin')
+                ret[doculect_name] = lexical_fst(
+                    FST.load(fst_index[doculect_name] + '.bin'), doculect_name
+                )
         os.chdir(script_path)
         eprint('FSTs loaded:', ', '.join(ret))
     return ret
@@ -417,13 +423,16 @@ def compare_fst(input_json):
                         sylls[position][doculect][sound] = []
                         senses[position][doculect][sound] = []
                     cnt[position][doculect][sound] += 1
-                    sylls[position][doculect][sound].append(ipa)
+                    sylls[position][doculect][sound].append(
+                        (ipa, board_context(word.get("inputContext")))
+                    )
                     senses[position][doculect][sound].append(gloss)
 
             for position in cnt:
                 # generate the information needed for displaying a corr. chart
                 description = []
                 most_common_ipas = []
+                most_common_contexts = []
                 shared_senses = []
 
                 # Some flags that impact display
@@ -438,13 +447,17 @@ def compare_fst(input_json):
                             any_non_last_doculect_present = True
 
                         most_common_sound = cnt[position][doculect].most_common()[0][0]
-                        most_common_ipa = Counter(sylls[position][doculect][most_common_sound]).most_common()[0][0]
+                        most_common_ipa, selected_context = Counter(
+                            sylls[position][doculect][most_common_sound]
+                        ).most_common()[0][0]
                         description.append(most_common_sound)
                         most_common_ipas.append(most_common_ipa)
+                        most_common_contexts.append(selected_context)
                         shared_senses.extend(senses[position][doculect][most_common_sound])
                     else:
                         description.append('-')
                         most_common_ipas.append('--')
+                        most_common_contexts.append(CITATION_CONTEXT)
                 description = ':'.join(description)
 
                 most_common_gloss = '?'
@@ -454,6 +467,7 @@ def compare_fst(input_json):
                 column_info = {'column_id': column_id,
                         'most_common_gloss': most_common_gloss,
                         'most_common_ipas': most_common_ipas,
+                        'most_common_contexts': most_common_contexts,
                         'last_doculect_present': last_doculect_present,
                         'any_non_last_doculect_present': any_non_last_doculect_present,
                         'old_fst_reconstructions': (inferred_reconstructions, strict_reconstructions),
@@ -504,7 +518,9 @@ def compare_fst(input_json):
                     rec = []
                     if doculect in fsts_old and column['most_common_ipas'][i] != '--':
                         the_syl = replace_diacritics(column['most_common_ipas'][i])
-                        rec = list(set(fsts_old[doculect].apply_up(the_syl)))
+                        rec = list(set(lexical_apply_up(
+                            fsts_old[doculect], the_syl, column['most_common_contexts'][i]
+                        )))
 
                     if rec:
                         rec_strs = []
@@ -523,7 +539,9 @@ def compare_fst(input_json):
                             # forward projection for the language under study
                             fwd_recs = []
                             for w in inferred_reconstructions:
-                                fwd_recs.extend(list(fsts_old[doculect].apply_down(w)))
+                                fwd_recs.extend(lexical_apply_down(
+                                    fsts_old[doculect], w, column['most_common_contexts'][i]
+                                ))
                             fwd_recs = [replace_diacritics_forward(w) for w in set(fwd_recs)]
                             row[-1] = r'≠ †%s' % (', '.join(fwd_recs))
 
@@ -544,7 +562,9 @@ def compare_fst(input_json):
                     rec = []
                     if doculect in fsts_new and column['most_common_ipas'][i] != '--':
                         the_syl = replace_diacritics(column['most_common_ipas'][i])
-                        rec = list(set(fsts_new[doculect].apply_up(the_syl)))
+                        rec = list(set(lexical_apply_up(
+                            fsts_new[doculect], the_syl, column['most_common_contexts'][i]
+                        )))
 
                     if rec:
                         rec_strs = []
@@ -563,7 +583,9 @@ def compare_fst(input_json):
                             # forward projection for the language under study
                             fwd_recs = []
                             for w in inferred_reconstructions:
-                                fwd_recs.extend(list(fsts_new[doculect].apply_down(w)))
+                                fwd_recs.extend(lexical_apply_down(
+                                    fsts_new[doculect], w, column['most_common_contexts'][i]
+                                ))
                             fwd_recs = [replace_diacritics_forward(w) for w in set(fwd_recs)]
                             row[-1] = r'≠ †%s' % (', '.join(fwd_recs))
 

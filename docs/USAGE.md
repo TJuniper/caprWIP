@@ -13,6 +13,20 @@ If you have an FST that should be generating boards (and it is properly configur
 
 If you are starting from a blank FST (or one that generates no boards), loading the data while on the board page may throw an error (and freeze the page). Assuming you have not written an FST, it's best to follow the FST debug workflow below.
 
+### Old English selected context
+
+Reload `germanic-aligned-final.tsv` after adopting the glide/apocope update.
+Previously saved boards lack the new `inputContext` metadata and explicitly
+use strong-final citation context; reloading attaches the selected weak-final
+context for 'you' to both its word and syllable records. Board JSON persistence,
+comparison and refishing retain this metadata. It is independent of the
+lexical reconstruction, root accent and input stage, and its computational
+annotations are not displayed as reconstructed segments.
+
+The native Old English transducer produces orthographic forms, whereas some
+TSV IPA fields contain phonetic notation. Context selection does not convert
+between these existing representations or add a general prosody editor.
+
 ## FST debugging workflow
 
 Starting a new FST? Trying to find out why a sound change isn't working like it should be? You can now use the FST editor to do basic FST debugging. 

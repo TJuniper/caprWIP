@@ -33,7 +33,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import oe_pipeline  # noqa: E402
 from capr_runtime import MIN_BIN_BYTES, layout, sha256_of  # noqa: E402
-from oe_pipeline import apply_down, load_rows  # noqa: E402
+from oe_pipeline import apply_down, display_form, evaluation_input, load_rows  # noqa: E402
 
 # Stage truth comes from the shared executable model (oe_pipeline), which
 # uses canonical Foma identifiers throughout — no alias table.
@@ -129,11 +129,11 @@ def main():
     firings = []
     witness_lines = []
     for row in rows:
-        before = apply_down(prev_bin, row["proto_norm"])
-        after = apply_down(target_bin, row["proto_norm"])
+        before = apply_down(prev_bin, evaluation_input(row))
+        after = apply_down(target_bin, evaluation_input(row))
         line = (f"{row['concept']}\t{row['proto']}\t"
-                f"{' | '.join(before) or '(no output)'}\t"
-                f"{' | '.join(after) or '(no output)'}\t"
+                f"{' | '.join(display_form(form) for form in before) or '(no output)'}\t"
+                f"{' | '.join(display_form(form) for form in after) or '(no output)'}\t"
                 f"attested: {row['counterpart']}")
         if before != after:
             firings.append(line)

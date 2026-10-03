@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Invariants for the supported historical partial order (Phase 3).
+"""Archived Phase-3 structure and current canonical interaction constraints.
 
-Host-runnable. Verifies the curated partial-order edges use controlled
-vocabularies, that every edge is satisfied positionally by the current
-executable order, and that the edges are acyclic. Since the 2026 rhotacism
+Host-runnable. Verifies the archived partial-order edges use controlled
+vocabularies and are acyclic. Current independently supported interaction
+edges come from the canonical registry, not the old proxy snapshot.
+Since the 2026 rhotacism
 move (EAFRhotacism composed after MonosyllabicFinalZLoss inside
 EnglishProtoToOE) the executable cascade honours every evidence-backed
 historical constraint by genuine ordering: no edge may rely on context-scoping
@@ -24,6 +25,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[2]
 SC_DIR = REPO_ROOT / "Germanic/docs/sound_changes"
 PARTIAL_ORDER = SC_DIR / "cascade_baseline/historical_partial_order.tsv"
+CURRENT_EDGES = SC_DIR / "registry/chronology_edges.tsv"
 ORDER_MANIFEST = SC_DIR / "cascade_baseline/cascade_order_manifest.tsv"
 INVENTORY = SC_DIR / "sound_change_inventory.tsv"
 
@@ -82,13 +84,25 @@ class PartialOrderTests(unittest.TestCase):
                          f"edge endpoints without a manifest position: {missing}")
 
     def test_cascade_edges_hold_in_current_order(self):
-        """Every edge must be satisfied by genuine executable ordering.
-        No scoping escape and no position-0 escape is permitted."""
+        """Check current independently supported interactions, not archived
+        proxy edges or reciprocal displacement observations."""
+        lines = [line for line in CURRENT_EDGES.read_text(encoding="utf-8").splitlines()
+                 if not line.startswith("#")]
+        current = [edge for edge in csv.DictReader(lines, delimiter="\t")
+                   if edge["evidence_basis"] == "independently_demonstrated"
+                   and edge["witness_role"] in {
+                       "feeding", "bleeding", "counterfeeding_negative",
+                       "counterbleeding_negative",
+                   }]
+        self.assertTrue(current)
         violations = []
-        for e in self.edges:
-            a, b = self.pos[e["earlier_sc"]], self.pos[e["later_sc"]]
+        for edge in current:
+            earlier, later = edge["source_change_id"], edge["target_change_id"]
+            if edge["direction_basis"] == "earlier_boundary":
+                earlier, later = later, earlier
+            a, b = self.pos[earlier], self.pos[later]
             if not (0 < a < b):
-                violations.append((e["earlier_sc"], e["later_sc"], a, b))
+                violations.append((earlier, later, a, b))
         self.assertEqual(violations, [],
                          f"current cascade violates supported historical edges: {violations}")
 

@@ -3,7 +3,8 @@
 
     python3 Germanic/tools/adjudicate.py --next
         Report the next SC to adjudicate, derived from the canonical
-        registry (first active SC after the highest adjudicated SC).
+        registry and explicit programme start (first pending historical
+        change in the programme, excluding technical support stages).
 
     python3 Germanic/tools/adjudicate.py SC024 --prepare
         Assemble a compact packet from canonical sources: registry row, rule
@@ -73,6 +74,7 @@ from generate_registry_views import (  # noqa: E402
 
 import artifact_graph  # noqa: E402
 from capr_runtime import run_in_runner  # noqa: E402
+import cascade_baseline  # noqa: E402
 
 SC_DIR = REPO_ROOT / "Germanic/docs/sound_changes"
 FST = REPO_ROOT / "Germanic/fsts/germanic.txt"
@@ -82,6 +84,7 @@ ORDER_MANIFEST = SC_DIR / "cascade_baseline/cascade_order_manifest.tsv"
 BASELINE_SUMMARY = SC_DIR / "cascade_baseline/cascade_baseline_summary.json"
 TEMPLATE = SC_DIR / "audits/ADJUDICATION_TEMPLATE.md"
 PROTOCOL = REPO_ROOT / "Germanic/docs/RESEARCH_ADJUDICATION_PROTOCOL.md"
+PROGRAMME = SC_DIR / "registry/adjudication_programme.json"
 # ONE artifact graph (Germanic/tools/artifact_graph.py) owns every generated
 # artifact: its authority, freshness check and builder. There are no other
 # builder lists. ARCHIVE/FROZEN artifacts (historical_audit_table.tsv,
@@ -218,36 +221,29 @@ def sc_num(sc_id):
 
 
 def next_sc():
-    """Next SC to adjudicate: first active, unadjudicated SC after the
-    contiguous run of adjudicated SCs in the canonical registry.
+    """First pending historical change at or after the explicit programme start.
 
-    Out-of-band identities adjudicated ahead of sequence (e.g. SC101,
-    created and settled by the SC024 e1-complex split) must not raise
-    the threshold past the pending mainline SCs: the threshold is the
-    highest end of a contiguous adjudicated run that still has pending
-    SCs above it, not the global maximum."""
+    Scoped verdicts cannot advance past earlier pending work. Programme
+    order is an administrative SC-ID sequence, not executable or historical order.
+    """
     rows = read_tsv(SC_REGISTRY)
-    adjudicated = sorted(
-        sc_num(r["sc_id"]) for r in rows if r["adjudication_status"] == "adjudicated"
-    )
-    # Ends of each contiguous adjudicated run, e.g. {16,17,23,24,25,101}
-    # -> [17, 25, 101].
-    run_ends = [
-        n
-        for i, n in enumerate(adjudicated)
-        if i + 1 == len(adjudicated) or adjudicated[i + 1] != n + 1
-    ]
+    policy = json.loads(PROGRAMME.read_text(encoding="utf-8"))
+    if (not isinstance(policy, dict) or set(policy) != {"start_sc"}
+            or not isinstance(policy["start_sc"], str)
+            or not re.fullmatch(r"SC\d{3}", policy["start_sc"])):
+        raise ValueError(f"{PROGRAMME}: expected exactly one start_sc (SCNNN)")
+    start = policy["start_sc"]
+    if not any(r["sc_id"] == start for r in rows):
+        raise ValueError(f"{PROGRAMME}: programme start {start} is not registered")
     pending = sorted(
         (sc_num(r["sc_id"]), r["sc_id"])
         for r in rows
         if r["lifecycle_status"] == "active"
         and r["adjudication_status"] != "adjudicated"
+        and r["entry_type"] != "support_stage"
+        and sc_num(r["sc_id"]) >= sc_num(start)
     )
-    for threshold in reversed(run_ends or [0]):
-        candidates = [(n, sc) for n, sc in pending if n > threshold]
-        if candidates:
-            return candidates[0][1]
-    return pending[0][1] if pending and not run_ends else None
+    return pending[0][1] if pending else None
 
 
 def refresh() -> int:
@@ -481,10 +477,45 @@ def check(sc_id) -> int:
 
 def main() -> int:
     args = sys.argv[1:]
+    if len(args) == 2 and args[1] == "--adopt-context-baseline":
+        approval_path = BASELINE_SUMMARY.with_name("approved_context_migration.json")
+        approval = json.loads(approval_path.read_text(encoding="utf-8"))
+        if args[0] != approval["adjudication"]:
+            print("BASELINE FAILED: command does not name the approved adjudication", file=sys.stderr)
+            return 2
+        code = (
+            "import sys,json;sys.path.insert(0,'tools');"
+            "from pathlib import Path;"
+            "from capr_runtime import layout,check_build_manifest;"
+            "from cascade_baseline import build_baseline;"
+            "import oe_pipeline;"
+            "rt=layout();"
+            "errors=check_build_manifest(oe_pipeline.expected_snapshot_bins()+['old_english.bin'],rt);\n"
+            "if errors: raise RuntimeError('; '.join(errors))\n"
+            "print(json.dumps(build_baseline(rt.corpus_tsv,rt.bin_dir/'old_english.bin')))"
+        )
+        result = run_in_runner("python3 -c " + shlex.quote(code),
+                               capture_output=True, text=True)
+        if result.returncode:
+            print("BASELINE FAILED: " + result.stderr.strip(), file=sys.stderr)
+            return 1
+        try:
+            cascade_baseline.adopt_context_baseline(
+                json.loads(result.stdout), BASELINE_SUMMARY.parent, approval,
+            )
+        except (OSError, ValueError, KeyError) as exc:
+            print("BASELINE FAILED: " + str(exc), file=sys.stderr)
+            return 1
+        print("Approved context baseline adopted; lexical finals and both legacy protections unchanged.")
+        return 0
     if args == ["--next"]:
-        nxt = next_sc()
+        try:
+            nxt = next_sc()
+        except (OSError, ValueError) as exc:
+            print(f"QUEUE FAILED: {exc}", file=sys.stderr)
+            return 2
         if nxt is None:
-            print("no unadjudicated active SC remains after the highest adjudicated SC")
+            print("no pending active historical change remains in the adjudication programme")
             return 1
         print(nxt)
         return 0

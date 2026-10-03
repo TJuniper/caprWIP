@@ -13,6 +13,8 @@ import tempfile
 from pathlib import Path
 
 import oe_pipeline
+from oe_input_context import CITATION_CONTEXT, InputContext
+from oe_input_context import METADATA_FILENAME
 from capr_runtime import check_build_manifest, layout
 from sound_change_order_sensitivity import (
     batch_apply_down,
@@ -26,13 +28,24 @@ def load_recipes(path: Path) -> dict:
     data = json.loads(path.read_text(encoding="utf-8"))
     if not isinstance(data, dict) or data.get("schema_version") != 1 or not isinstance(data.get("recipes"), list):
         raise ValueError("unsupported experiment recipe schema")
+    fixture_file = data.get("fixture_file", "oe_diagnostic_fixtures.tsv")
+    if not isinstance(fixture_file, str) or not re.fullmatch(r"[a-z][a-z0-9_]*\.tsv", fixture_file):
+        raise ValueError("fixture_file must be a local TSV filename")
+    for field in ("baseline_fst_sha256", "baseline_corpus_sha256",
+                  "baseline_context_sha256", "baseline_context_helper_sha256"):
+        if field in data and (not isinstance(data[field], str)
+                              or not re.fullmatch(r"[0-9a-f]{64}", data[field])):
+            raise ValueError(f"invalid {field}")
     ids = set()
     for recipe in data["recipes"]:
         if not isinstance(recipe, dict):
             raise ValueError("recipe must be an object")
         required = {"id", "description", "definitions", "insert_after", "insert_rule", "replace",
                     "sources", "assumptions", "limitations"}
-        if not required <= set(recipe) or set(recipe) - required - {"input_overrides", "component_checks"} or not all(
+        if not required <= set(recipe) or set(recipe) - required - {
+            "input_overrides", "component_checks", "input_replacement",
+            "citation_context", "context_overrides", "staged_checks", "context_audit",
+        } or not all(
             isinstance(recipe[key], str) for key in required - {"sources", "replace"}
         ):
             raise ValueError("invalid experiment recipe fields")
@@ -47,6 +60,34 @@ def load_recipes(path: Path) -> dict:
         definitions = recipe["definitions"]
         if re.search(r"\b(source|save|load|quit|system|clear|regex)\b", definitions):
             raise ValueError(f"{name}: definitions contain non-definition commands")
+        input_replacement = recipe.get("input_replacement", "")
+        if not isinstance(input_replacement, str) or (
+            input_replacement and not re.fullmatch(r"AF[A-Za-z0-9]{1,12}", input_replacement)
+        ):
+            raise ValueError(f"{name}: invalid input replacement")
+        context = recipe.get("citation_context")
+        if context is not None and context != {
+            "word_stress": "stressed", "phonological_finality": "final",
+        }:
+            raise ValueError(f"{name}: citation context must explicitly select a stressed final word")
+        context_overrides = recipe.get("context_overrides", [])
+        if not isinstance(context_overrides, list):
+            raise ValueError(f"{name}: context overrides must be a list")
+        context_ids = set()
+        for override in context_overrides:
+            if not isinstance(override, dict) or set(override) != {
+                "row_id", "baseline_input", "word_stress", "phonological_finality",
+            } or not all(isinstance(value, str) and value for value in override.values()):
+                raise ValueError(f"{name}: invalid context override fields")
+            identifier = override["row_id"]
+            if not identifier.isascii() or not identifier.isdecimal() or identifier in context_ids:
+                raise ValueError(f"{name}: invalid/duplicate context row ID")
+            context_ids.add(identifier)
+            InputContext(override["word_stress"], override["phonological_finality"])
+        if (context is not None or context_overrides) and not input_replacement:
+            raise ValueError(f"{name}: context encoding requires an input replacement")
+        if input_replacement and context is None:
+            raise ValueError(f"{name}: input replacement requires an explicit citation context")
         overrides = recipe.get("input_overrides", [])
         if not isinstance(overrides, list):
             raise ValueError(f"{name}: input overrides must be a list")
@@ -92,11 +133,43 @@ def load_recipes(path: Path) -> dict:
                     char.isalpha() or char in "*-" for char in value
                 ):
                     raise ValueError(f"{name}: invalid component {field}")
+        staged_checks = recipe.get("staged_checks", [])
+        if not isinstance(staged_checks, list):
+            raise ValueError(f"{name}: staged checks must be a list")
+        for check in staged_checks:
+            if not isinstance(check, dict) or set(check) != {
+                "id", "stage", "side", "input", "expected", "evidence",
+            } or not all(isinstance(value, str) and value for value in check.values()):
+                raise ValueError(f"{name}: invalid staged check fields")
+            if not re.fullmatch(r"[a-z][a-z0-9-]*", check["id"]) or check["id"] in check_ids:
+                raise ValueError(f"{name}: invalid/duplicate staged check ID")
+            check_ids.add(check["id"])
+            if not re.fullmatch(r"[A-Za-z][A-Za-z0-9]*", check["stage"]) or check["side"] not in {
+                "before", "after",
+            }:
+                raise ValueError(f"{name}: invalid staged entry checkpoint")
+            if not check["input"].startswith("*") or not all(
+                char.isalpha() or char in "*-" for char in check["input"]
+            ):
+                raise ValueError(f"{name}: invalid staged input")
+        audit = recipe.get("context_audit")
+        if audit is not None and (
+            not isinstance(audit, dict) or set(audit) != {"component", "probe"}
+            or not all(isinstance(value, str) and value for value in audit.values())
+            or audit["component"] not in {check["component"] for check in component_checks}
+            or (context is None and not (
+                data.get("baseline_context_sha256") and data.get("baseline_context_helper_sha256")
+            ))
+        ):
+            raise ValueError(f"{name}: context audit requires a checked component and explicit context")
+        if context is not None and audit is None:
+            raise ValueError(f"{name}: context encoding requires an explicit context audit checkpoint")
         if name == "identity":
-            if composition_edits or overrides or component_checks or recipe["sources"]:
+            if (composition_edits or overrides or component_checks or recipe["sources"]
+                    or input_replacement or context is not None or context_overrides or staged_checks or audit):
                 raise ValueError("identity recipe must make no scientific intervention")
         else:
-            if not recipe["sources"] or not (composition_edits or overrides or component_checks):
+            if not recipe["sources"] or not (composition_edits or overrides or component_checks or staged_checks):
                 raise ValueError(f"{name}: scientific intervention must cite sources")
             if composition_edits:
                 rule = recipe["insert_rule"]
@@ -105,7 +178,13 @@ def load_recipes(path: Path) -> dict:
                 if not re.fullmatch(r"(?:\s*define AF[A-Za-z0-9]{1,12}\s+\[[\s\S]*?\];)+\s*", definitions):
                     raise ValueError(f"{name}: expected short-name bracket definitions")
                 declared = re.findall(r"\bdefine (AF[A-Za-z0-9]{1,12})\b", definitions)
+                if input_replacement and any(
+                    re.fullmatch(r"AFK\d{3}|AFContextRoot", identifier) for identifier in declared
+                ):
+                    raise ValueError(f"{name}: definition collides with generated context wrappers")
                 expected = {rule} | set(recipe["replace"].values())
+                if input_replacement:
+                    expected.add(input_replacement)
                 if len(declared) != len(set(declared)) or set(declared) != expected:
                     raise ValueError(f"{name}: definitions must match relative edits")
         if not isinstance(recipe["sources"], list):
@@ -133,6 +212,9 @@ def load_recipes(path: Path) -> dict:
         if not re.fullmatch(r"[a-z][a-z0-9_]*", probe["id"]) or probe["id"] in probe_ids:
             raise ValueError("invalid/duplicate intermediate probe ID")
         probe_ids.add(probe["id"])
+    for recipe in data["recipes"]:
+        if recipe.get("context_audit") and recipe["context_audit"]["probe"] not in probe_ids:
+            raise ValueError(f"{recipe['id']}: context audit probe missing")
     return data
 
 
@@ -158,6 +240,7 @@ def corpus_rows(path: Path) -> list[dict[str, str]]:
                 and row.get("PROTOFORM", "").strip()
                 and row.get("COUNTERPART", "").strip() not in {"", "-"}]
     rows = []
+    contextual = {row["row_id"]: row for row in oe_pipeline.load_rows(path)}
     ids = set()
     for row in selected:
         identifier = row.get("ID", "")
@@ -167,10 +250,13 @@ def corpus_rows(path: Path) -> list[dict[str, str]]:
         normalized = oe_pipeline.normalize_proto(row["PROTOFORM"])
         if not normalized:
             raise ValueError(f"{identifier}: empty normalized selected input")
-        rows.append({"id": identifier, "concept": row["CONCEPT"], "reconstruction": row.get("PROTO", ""),
-                     "proto": row["PROTOFORM"],
-                     "proto_norm": normalized, "counterpart": row["COUNTERPART"]})
-    if [row["proto_norm"] for row in rows] != [row["proto_norm"] for row in oe_pipeline.load_rows(path)]:
+        rows.append({**contextual[identifier], "id": identifier,
+                     "reconstruction": row.get("PROTO", ""),
+                     "input_context": {
+                         "word_stress": contextual[identifier]["word_stress"],
+                         "phonological_finality": contextual[identifier]["phonological_finality"],
+                     }})
+    if [row["proto_norm"] for row in rows] != [row["proto_norm"] for row in contextual.values()]:
         raise ValueError("stable-ID corpus selection disagrees with oe_pipeline.load_rows")
     return rows
 
@@ -189,15 +275,74 @@ def apply_input_overrides(rows: list[dict[str, str]], recipe: dict) -> list[dict
                              "separately staged inputs need explicit support")
         row["proto"] = override["variant_input"]
         row["proto_norm"] = oe_pipeline.normalize_proto(row["proto"])
+        context = InputContext(
+            row.get("word_stress", CITATION_CONTEXT.word_stress),
+            row.get("phonological_finality", CITATION_CONTEXT.phonological_finality),
+        )
+        row["fst_input"] = context.encode(row["proto_norm"])
     return [modified[row["id"]] for row in rows]
 
 
-def probe_appendix(recipe: dict, probes: list[dict]) -> tuple[str, dict[str, str]]:
+def encode_context(form: str, context: dict) -> str:
+    return InputContext(context["word_stress"], context["phonological_finality"]).encode(form)
+
+
+def apply_context_overrides(rows: list[dict[str, str]], recipe: dict) -> list[dict[str, str]]:
+    if "citation_context" not in recipe:
+        return rows
+    overrides = {context["row_id"]: context for context in recipe.get("context_overrides", [])}
+    missing = set(overrides) - {row["id"] for row in rows}
+    if missing:
+        raise ValueError(f"context override rows missing: {sorted(missing)}")
+    result = []
+    for row in rows:
+        context = overrides.get(row["id"], recipe["citation_context"])
+        if "baseline_input" in context and context["baseline_input"] != row["proto"]:
+            raise ValueError(f"{row['id']}: context override baseline disagrees with selected input")
+        result.append({
+            **row, "input_context": {
+                key: context[key] for key in ("word_stress", "phonological_finality")
+            }, "word_stress": context["word_stress"],
+            "phonological_finality": context["phonological_finality"],
+            "fst_input": encode_context(row["proto_norm"], context),
+        })
+    return result
+
+
+def complete_variant_order(recipe: dict) -> list[str]:
     original = [
         stage.inline_text if stage.kind == "inline" else stage.foma_identifier
         for stage in oe_pipeline.stages()
     ]
     order = inserted_order(original, recipe)
+    if recipe.get("input_replacement"):
+        if order.count("EnglishProtoInput") != 1:
+            raise ValueError("input replacement target must occur exactly once")
+        order[order.index("EnglishProtoInput")] = recipe["input_replacement"]
+    return order
+
+
+def context_lifted_order(recipe: dict, order: list[str]) -> tuple[list[str], str]:
+    if not recipe.get("input_replacement"):
+        return order, ""
+    context_stage = recipe["context_audit"]["component"]
+    if order.count(context_stage) != 1 or order[0] != recipe["input_replacement"]:
+        raise ValueError("context entry must occur once after the input adapter")
+    stop = order.index(context_stage)
+    lifted, definitions = list(order), []
+    for number in range(1, stop):
+        name = f"AFK{number:03d}"
+        definitions.append(
+            f"define {name} [ [{{*ᵘ}}|{{*ᶜ}}|0] "
+            f"[[EnglishStarAlphabet - [{{*ᵘ}}|{{*ᶜ}}]]* .o. {order[number]}] ];"
+        )
+        lifted[number] = name
+    return lifted, "\n".join(definitions)
+
+
+def probe_appendix(recipe: dict, probes: list[dict]) -> tuple[str, dict[str, str]]:
+    order = complete_variant_order(recipe)
+    rendered, _ = context_lifted_order(recipe, order)
     lines, bins = [], {}
     for number, probe in enumerate(probes):
         stage = probe["stage"]
@@ -210,13 +355,39 @@ def probe_appendix(recipe: dict, probes: list[dict]) -> tuple[str, dict[str, str
         if endpoint == 0:
             raise ValueError(f"empty probe composition: {probe['id']}")
         name, filename = f"AFT{number:02d}", f"af_probe_{number:02d}.bin"
-        lines.extend([f"define {name} " + "\n    .o. ".join(order[:endpoint]) + ";",
+        lines.extend([f"define {name} " + "\n    .o. ".join(rendered[:endpoint]) + ";",
                       "clear stack", f"regex {name};", f"save stack {filename}"])
         bins[probe["id"]] = filename
     return "\n".join(lines), bins
 
 
-def compile_isolated(source: Path, recipe: dict, probes: list[dict], directory: Path) -> dict[str, Path]:
+def staged_appendix(recipe: dict) -> tuple[str, dict[str, str]]:
+    order = complete_variant_order(recipe)
+    rendered, _ = context_lifted_order(recipe, order)
+    lines, bins = [], {}
+    compiled_suffixes = {}
+    for number, check in enumerate(recipe.get("staged_checks", [])):
+        stage = recipe["replace"].get(check["stage"], check["stage"])
+        if order.count(stage) != 1:
+            raise ValueError(f"staged entry checkpoint missing or duplicated: {stage}")
+        start = order.index(stage) + (check["side"] == "after")
+        if start == 0 or start == len(order):
+            raise ValueError(f"staged check requires a nonempty starred-input suffix: {check['id']}")
+        if start in compiled_suffixes:
+            bins[f"staged:{check['id']}"] = compiled_suffixes[start]
+            continue
+        filename = f"af_staged_{number:02d}.bin"
+        compiled_suffixes[start] = filename
+        lines.extend([f"define AFS{number:02d} " + "\n    .o. ".join(rendered[start:]) + ";",
+                      "clear stack", f"regex AFS{number:02d};", f"save stack {filename}"])
+        bins[f"staged:{check['id']}"] = filename
+    return "\n".join(lines), bins
+
+
+def compile_isolated(
+    source: Path, recipe: dict, probes: list[dict], directory: Path, *, components_only: bool = False,
+    diagnostic_stages: list[str] | None = None,
+) -> dict[str, Path]:
     source_text = source.read_text(encoding="utf-8")
     for command, filename in re.findall(r"(?m)^\s*(save stack|source)\s+([^;\n]+)", source_text):
         path = Path(filename.strip())
@@ -224,20 +395,42 @@ def compile_isolated(source: Path, recipe: dict, probes: list[dict], directory: 
             raise ValueError(f"unsafe {command} destination in source: {filename}")
         if command == "source":
             raise ValueError("new source includes require explicit isolated-copy support")
+    source_text = context_source_text(source_text, recipe)
     base = parse_english_proto_to_oe_order(source)
     expanded = expand_pwgmc_changes(base, source)
     order = inserted_order(expanded, recipe)
-    probe_text, bins = probe_appendix(recipe, probes)
+    probe_text, bins = ("", {}) if components_only else probe_appendix(recipe, probes)
+    staged_text, staged_bins = ("", {}) if components_only else staged_appendix(recipe)
+    bins.update(staged_bins)
     component_lines = []
     components = sorted({check["component"] for check in recipe.get("component_checks", [])})
     for number, component in enumerate(components):
         filename = f"af_component_{number:02d}.bin"
         component_lines.extend(["clear stack", f"regex {component};", f"save stack {filename}"])
         bins[f"component:{component}"] = filename
+    allowed_stages = set(context_lifted_order(recipe, complete_variant_order(recipe))[0])
+    for number, stage in enumerate(diagnostic_stages or []):
+        if stage not in allowed_stages:
+            raise ValueError(f"diagnostic stage is not in the derived candidate: {stage}")
+        filename = f"af_diagnostic_{number:03d}.bin"
+        component_lines.extend(["clear stack", f"regex {stage};", f"save stack {filename}"])
+        bins[f"diagnostic:{number}"] = filename
+    variant_text = build_variant_appendix(order, source)
+    if recipe.get("input_replacement"):
+        complete, definitions = context_lifted_order(recipe, complete_variant_order(recipe))
+        variant_text = (
+            definitions + "\ndefine AFContextRoot " + "\n    .o. ".join(complete)
+            + ";\nclear stack\nregex AFContextRoot;\nsave stack old_english_variant.bin\n"
+        )
+        if components_only:
+            variant_text = definitions
+    elif components_only:
+        variant_text = ""
     script = directory / "experiment.foma"
     script.write_text(
         source_text + "\n" + recipe["definitions"] + "\n"
-        + build_variant_appendix(order, source) + "\n" + probe_text + "\n"
+        + variant_text + "\n" + probe_text + "\n"
+        + staged_text + "\n"
         + "\n".join(component_lines) + "\nquit\n",
         encoding="utf-8",
     )
@@ -246,12 +439,21 @@ def compile_isolated(source: Path, recipe: dict, probes: list[dict], directory: 
     log = result.stdout + "\n" + result.stderr
     if result.returncode or re.search(r"(?im)\b(error|syntax error|not defined)\b", log):
         raise RuntimeError("isolated Foma compilation failed:\n" + log[-6000:])
-    outputs = {"final": directory / "old_english_variant.bin"}
+    outputs = {} if components_only else {"final": directory / "old_english_variant.bin"}
     outputs.update({name: directory / filename for name, filename in bins.items()})
     missing = [str(path) for path in outputs.values() if not path.is_file() or path.stat().st_size == 0]
     if missing:
         raise RuntimeError(f"isolated compiler did not produce required bins: {missing}")
     return outputs
+
+
+def context_source_text(source_text: str, recipe: dict) -> str:
+    if not recipe.get("input_replacement"):
+        return source_text
+    anchor = "define EnglishStarAlphabet ["
+    if source_text.count(anchor) != 1:
+        raise ValueError("context alphabet anchor must occur exactly once")
+    return source_text.replace(anchor, anchor + "\n    {*ᶜ} |", 1)
 
 
 def digest(path: Path) -> str:
@@ -260,7 +462,8 @@ def digest(path: Path) -> str:
 
 def intermediate_outputs(bins: dict[str, Path], forms: list[str]) -> dict[str, list[list[str]]]:
     return {name: batch_apply_down(path, forms)
-            for name, path in bins.items() if name != "final" and not name.startswith("component:")}
+            for name, path in bins.items()
+            if name != "final" and not name.startswith(("component:", "staged:", "diagnostic:"))}
 
 
 def check_component_predictions(recipe: dict, bins: dict[str, Path]) -> list[dict]:
@@ -271,6 +474,40 @@ def check_component_predictions(recipe: dict, bins: dict[str, Path]) -> list[dic
             raise ValueError(f"{check['id']}: component prediction {[check['expected']]!r} != {outputs!r}")
         checked.append({**check, "outputs": outputs})
     return checked
+
+
+def check_staged_predictions(recipe: dict, bins: dict[str, Path]) -> list[dict]:
+    checked = []
+    for check in recipe.get("staged_checks", []):
+        outputs = batch_apply_down(bins[f"staged:{check['id']}"], [check["input"]])[0]
+        if outputs != [check["expected"]]:
+            raise ValueError(f"{check['id']}: staged prediction {[check['expected']]!r} != {outputs!r}")
+        checked.append({**check, "outputs": outputs})
+    return checked
+
+
+def audit_context_domain(recipe: dict, bins: dict[str, Path], intermediate: dict, rows: list[dict]) -> list[dict]:
+    audit = recipe.get("context_audit")
+    if not audit:
+        return []
+    states = intermediate[audit["probe"]]
+    if any(len(state) != 1 for state in states):
+        raise ValueError("context audit requires unambiguous checkpoint states")
+    bare = [state[0].replace("*ᵘ", "").replace("*ᶜ", "") for state in states]
+    component = bins[f"component:{audit['component']}"]
+    stressed = batch_apply_down(component, bare)
+    final = batch_apply_down(component, ["*ᵘ" + form for form in bare])
+    nonfinal = batch_apply_down(component, ["*ᶜ" + form for form in bare])
+    if stressed != [[form] for form in bare] or nonfinal != [[form + "*ᶜ"] for form in bare]:
+        raise ValueError("context audit changed a stressed or nonfinal negative")
+    if any(len(outputs) != 1 for outputs in final):
+        raise ValueError("context audit has missing/ambiguous unstressed outputs")
+    return [
+        {"row_id": row["id"], "concept": row["concept"], "checkpoint_input": form,
+         "unstressed_final_output": output[0],
+         "selected_context": row["input_context"]}
+        for row, form, output in zip(rows, bare, final) if output != [form]
+    ]
 
 
 def check_fixture_predictions(report: dict, fixtures: list[dict[str, str]]) -> list[str]:
@@ -301,7 +538,9 @@ def run(recipe_data: dict, requested: str) -> dict:
     if not shutil.which("foma") or not shutil.which("flookup"):
         raise RuntimeError("backend container lacks foma/flookup")
     for field, path in (("baseline_fst_sha256", runtime.germanic_fst),
-                        ("baseline_corpus_sha256", runtime.corpus_tsv)):
+                        ("baseline_corpus_sha256", runtime.corpus_tsv),
+                        ("baseline_context_sha256", runtime.data_dir / METADATA_FILENAME),
+                        ("baseline_context_helper_sha256", runtime.bin_dir / "oe_input_context.py")):
         if field in recipe_data and recipe_data[field] != digest(path):
             raise ValueError("historical recipe baseline changed; preserve the recorded "
                              "experiment and prepare a new current-baseline recipe")
@@ -312,26 +551,40 @@ def run(recipe_data: dict, requested: str) -> dict:
     if requested not in recipes:
         raise ValueError(f"unknown recipe: {requested}")
     protected = [runtime.germanic_fst, runtime.sandbox_fst, runtime.corpus_tsv,
+                 runtime.data_dir / METADATA_FILENAME, runtime.bin_dir / "oe_input_context.py",
                  runtime.build_manifest, runtime.bin_dir / "old_english.bin"]
     protected.extend(runtime.bin_dir / name for name in oe_pipeline.expected_snapshot_bins())
+    baseline_dir = runtime.docs_dir / "sound_changes/cascade_baseline"
+    protected.extend(sorted(baseline_dir.glob("cascade_baseline_outputs*.tsv")))
+    protected.extend(sorted(baseline_dir.glob("cascade_baseline_summary*.json")))
+    protected.extend(runtime.docs_dir / "sound_changes/registry" / name for name in (
+        "sc_registry.tsv", "chronology_edges.tsv", "sc_inventory_notes.tsv",
+    ))
     before = {str(path): digest(path) for path in protected}
     rows = corpus_rows(runtime.corpus_tsv)
-    forms = [row["proto_norm"] for row in rows]
-    variant_rows = apply_input_overrides(rows, recipes[requested])
-    variant_forms = [row["proto_norm"] for row in variant_rows]
+    forms = [oe_pipeline.evaluation_input(row) for row in rows]
+    variant_rows = apply_context_overrides(apply_input_overrides(rows, recipes[requested]), recipes[requested])
+    variant_forms = [oe_pipeline.evaluation_input(row) for row in variant_rows]
     baseline = batch_apply_down(runtime.bin_dir / "old_english.bin", forms)
     if any(len(outputs) != 1 for outputs in baseline):
         raise RuntimeError("baseline has missing/ambiguous outputs; experiment cannot proceed")
     with tempfile.TemporaryDirectory(prefix="capr_af_identity_") as temporary:
-        bins = compile_isolated(runtime.germanic_fst, recipes["identity"], recipe_data["probes"], Path(temporary))
+        control_only = not any(recipes[requested].get(field) for field in (
+            "definitions", "insert_after", "insert_rule", "replace",
+            "input_overrides", "input_replacement", "citation_context", "context_overrides",
+        ))
+        identity_recipe = recipes[requested] if control_only else recipes["identity"]
+        bins = compile_isolated(runtime.germanic_fst, identity_recipe, recipe_data["probes"], Path(temporary))
         identity = batch_apply_down(bins["final"], forms)
         if identity != baseline:
             changed = [row["id"] for row, old, new in zip(rows, baseline, identity) if old != new]
             raise RuntimeError(f"identity control disagrees with live production rows: {changed}")
-        if requested == "identity":
+        if control_only:
             variant = identity
             intermediate = intermediate_outputs(bins, forms)
             component_checks = check_component_predictions(recipes[requested], bins)
+            staged_checks = check_staged_predictions(recipes[requested], bins)
+            context_audit = audit_context_domain(recipes[requested], bins, intermediate, variant_rows)
         else:
             with tempfile.TemporaryDirectory(prefix="capr_af_variant_") as variant_temporary:
                 variant_bins = compile_isolated(runtime.germanic_fst, recipes[requested],
@@ -339,6 +592,10 @@ def run(recipe_data: dict, requested: str) -> dict:
                 variant = batch_apply_down(variant_bins["final"], variant_forms)
                 intermediate = intermediate_outputs(variant_bins, variant_forms)
                 component_checks = check_component_predictions(recipes[requested], variant_bins)
+                staged_checks = check_staged_predictions(recipes[requested], variant_bins)
+                context_audit = audit_context_domain(
+                    recipes[requested], variant_bins, intermediate, variant_rows,
+                )
         baseline_intermediate = intermediate_outputs(bins, forms)
     after = {str(path): digest(path) for path in protected}
     changed_artifacts = [path for path, checksum in before.items() if after[path] != checksum]
@@ -352,7 +609,9 @@ def run(recipe_data: dict, requested: str) -> dict:
             **row, "baseline_outputs": old, "variant_outputs": new,
             "variant_proto": variant_rows[index]["proto"],
             "variant_proto_norm": variant_rows[index]["proto_norm"],
-            "input_changed": row["proto_norm"] != variant_rows[index]["proto_norm"],
+            "variant_fst_input": oe_pipeline.evaluation_input(variant_rows[index]),
+            "variant_input_context": variant_rows[index].get("input_context"),
+            "input_changed": oe_pipeline.evaluation_input(row) != oe_pipeline.evaluation_input(variant_rows[index]),
             "baseline_match": old == [row["counterpart"]], "variant_match": new == [row["counterpart"]],
             "changed": old != new,
             "intermediates": {name: {"baseline": baseline_intermediate[name][index], "variant": outputs[index]}
@@ -368,6 +627,8 @@ def run(recipe_data: dict, requested: str) -> dict:
         "changed_ids": [row["id"] for row in report_rows if row["changed"]],
         "input_changed_ids": [row["id"] for row in report_rows if row["input_changed"]],
         "checked_component_fixtures": component_checks,
+        "checked_staged_fixtures": staged_checks,
+        "context_domain_audit": context_audit,
         "rows": report_rows,
     }
 
@@ -379,8 +640,11 @@ def main() -> int:
                         "sound_changes/literature_dossiers/anglo_frisian/oe_experiment_recipes.json")
     args = parser.parse_args()
     try:
-        report = run(load_recipes(args.recipes), args.recipe)
-        with args.recipes.with_name("oe_diagnostic_fixtures.tsv").open(
+        recipe_data = load_recipes(args.recipes)
+        report = run(recipe_data, args.recipe)
+        with args.recipes.with_name(
+            recipe_data.get("fixture_file", "oe_diagnostic_fixtures.tsv")
+        ).open(
             encoding="utf-8", newline=""
         ) as handle:
             fixtures = list(csv.DictReader(handle, delimiter="\t"))

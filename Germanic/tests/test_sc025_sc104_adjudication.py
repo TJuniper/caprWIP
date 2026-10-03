@@ -119,7 +119,7 @@ class NasalizedLowVowelAdjudicationTests(unittest.TestCase):
 
     def define_body(self, name: str) -> str:
         match = re.search(
-            r"define\s+" + re.escape(name) + r"\s*\[(.*?)\n\];",
+            r"define\s+" + re.escape(name) + r"\s*(?:Ctx\()?\[(.*?)\n\]\)?;",
             self.uncommented, re.S)
         self.assertIsNotNone(match, f"missing define {name}")
         return match.group(1)

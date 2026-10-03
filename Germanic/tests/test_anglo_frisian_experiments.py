@@ -38,6 +38,55 @@ class ExperimentTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "duplicate"):
             self.load_modified(self.data)
 
+    def test_fixture_file_and_baseline_hashes_are_validated(self):
+        for filename in ("../fixtures.tsv", "/tmp/fixtures.tsv", "", None):
+            with self.subTest(filename=filename), self.assertRaisesRegex(ValueError, "fixture_file"):
+                self.load_modified({**self.data, "fixture_file": filename})
+        for field in ("baseline_fst_sha256", "baseline_corpus_sha256"):
+            for value in ("bad", None, "A" * 64):
+                with self.subTest(field=field, value=value), self.assertRaisesRegex(ValueError, field):
+                    self.load_modified({**self.data, field: value})
+
+    def test_post_gift_controls_preserve_their_distinct_historical_baseline(self):
+        path = RECIPES.with_name("oe_adopted_u_controls.json")
+        data = experiments.load_recipes(path)
+        self.assertEqual(data["baseline_fst_sha256"],
+                         "8437fb2b64289140458d895d7d1e24592df920960b74c5e781ca6791ff9cc47b")
+        self.assertEqual(data["baseline_corpus_sha256"],
+                         "a08df28912bd957452fdcbe83d49ee398cd21db171c0f85113f7d6ca575a5ac8")
+        self.assertNotEqual(data["fixture_file"], "oe_diagnostic_fixtures.tsv")
+        with path.with_name(data["fixture_file"]).open(encoding="utf-8", newline="") as handle:
+            fixtures = list(csv.DictReader(handle, delimiter="\t"))
+        self.assertEqual(len(fixtures), 12)
+        self.assertEqual(len({f["fixture_id"] for f in fixtures}), 12)
+        corpus = {row["id"]: row for row in experiments.corpus_rows(layout().corpus_tsv)}
+        keys = chronology.bibliography_keys(chronology.ROOT / "docs/refs.bib")
+        for fixture in fixtures:
+            row = corpus[fixture["row_id"]]
+            self.assertEqual((fixture["selected_input"], fixture["normalized_input"], fixture["target"]),
+                             (row["proto"], row["proto_norm"], row["counterpart"]))
+            self.assertIn(fixture["source_key"], keys)
+            self.assertRegex(fixture["printed_pages"], r"^\d+(?:[-,]\d+)*$")
+        self.assertEqual({f["row_id"] for f in fixtures}, {"2040", "2049", "2178"})
+
+    def test_post_glide_controls_pin_the_selected_context_contract(self):
+        path = RECIPES.with_name("oe_adopted_glide_controls.json")
+        data = experiments.load_recipes(path)
+        for field, source in (
+            ("baseline_fst_sha256", layout().germanic_fst),
+            ("baseline_corpus_sha256", layout().corpus_tsv),
+            ("baseline_context_sha256", layout().data_dir / "entry_context_metadata.tsv"),
+            ("baseline_context_helper_sha256", layout().bin_dir / "oe_input_context.py"),
+        ):
+            self.assertEqual(data[field], experiments.digest(source))
+        recipe = data["recipes"][1]
+        self.assertEqual(len(recipe["component_checks"]), 49)
+        self.assertEqual(len(recipe["staged_checks"]), 7)
+        with path.with_name(data["fixture_file"]).open(encoding="utf-8") as handle:
+            fixtures = list(csv.DictReader(handle, delimiter="\t"))
+        self.assertEqual(len(fixtures), 28)
+        self.assertTrue(all(row["baseline_prediction"] == row["variant_prediction"] for row in fixtures))
+
     def test_identity_cannot_make_an_intervention(self):
         self.data["recipes"][0]["insert_rule"] = "AFBad"
         with self.assertRaisesRegex(ValueError, "identity"):
@@ -329,6 +378,230 @@ class ExperimentTests(unittest.TestCase):
         self.assertIn("EarlyGermanicConsonantPipeline", appendix)
         self.assertIn("OldEnglishSurface", appendix)
         self.assertIn("PWGmcCoronalWAssimilation", appendix)
+
+    def coupled_recipe(self):
+        data = experiments.load_recipes(RECIPES.with_name("oe_glide_apocope_recipes.json"))
+        return data, data["recipes"][1]
+
+    def test_context_annotation_preserves_reconstruction_and_original_rows(self):
+        _, recipe = self.coupled_recipe()
+        rows = experiments.corpus_rows(layout().corpus_tsv)
+        original = copy.deepcopy(rows)
+        annotated = experiments.apply_context_overrides(rows, recipe)
+        self.assertEqual(rows, original)
+        self.assertEqual([row["id"] for row in annotated], [row["id"] for row in rows])
+        changes = [(old, new) for old, new in zip(rows, annotated)
+                   if old["fst_input"] != new["fst_input"]]
+        self.assertEqual(changes, [])
+        strong_you = next(row for row in rows if row["id"] == "2326")
+        strong_you.update(fst_input=strong_you["proto_norm"], word_stress="stressed")
+        annotated = experiments.apply_context_overrides(rows, recipe)
+        changes = [(old, new) for old, new in zip(rows, annotated)
+                   if old["fst_input"] != new["fst_input"]]
+        self.assertEqual([old["id"] for old, _ in changes], ["2326"])
+        old, new = changes[0]
+        self.assertEqual((new["proto"], new["reconstruction"]), (old["proto"], old["reconstruction"]))
+        self.assertEqual(new["proto_norm"], "ízwiz")
+        self.assertEqual(new["fst_input"], "ᵘízwiz")
+        self.assertEqual(new["input_context"],
+                         {"word_stress": "unstressed", "phonological_finality": "final"})
+
+    def test_context_is_independent_of_lexical_accent_and_identity(self):
+        for form in ("ízwiz", "fūri", "gástiz"):
+            for stress, finality, prefix in (
+                ("stressed", "final", ""), ("unstressed", "final", "ᵘ"),
+                ("unstressed", "nonfinal", "ᶜ"),
+            ):
+                with self.subTest(form=form, stress=stress, finality=finality):
+                    context = {"word_stress": stress, "phonological_finality": finality}
+                    self.assertEqual(experiments.encode_context(form, context), prefix + form)
+        for context in (
+            {"word_stress": "unknown", "phonological_finality": "final"},
+            {"word_stress": "stressed", "phonological_finality": "unknown"},
+            {"word_stress": "stressed", "phonological_finality": "nonfinal"},
+        ):
+            with self.subTest(context=context), self.assertRaises(ValueError):
+                experiments.encode_context("fūri", context)
+        with self.assertRaisesRegex(ValueError, "unannotated"):
+            experiments.encode_context("ᵘízwiz",
+                                       {"word_stress": "unstressed", "phonological_finality": "final"})
+
+    def test_context_overrides_fail_on_missing_or_stale_identity(self):
+        _, recipe = self.coupled_recipe()
+        rows = experiments.corpus_rows(layout().corpus_tsv)
+        for field, value, message in (("row_id", "999999", "missing"),
+                                      ("baseline_input", "*wrong", "baseline")):
+            modified = copy.deepcopy(recipe)
+            modified["context_overrides"][0][field] = value
+            with self.subTest(field=field), self.assertRaisesRegex(ValueError, message):
+                experiments.apply_context_overrides(rows, modified)
+
+    def test_context_schema_requires_explicit_convention_and_input_adapter(self):
+        data, _ = self.coupled_recipe()
+        for field, value in (
+            ("citation_context", None),
+            ("citation_context", {"word_stress": "unknown", "phonological_finality": "final"}),
+            ("input_replacement", ""),
+            ("input_replacement", "quit"),
+            ("context_overrides", None),
+        ):
+            modified = copy.deepcopy(data)
+            modified["recipes"][1][field] = value
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                self.load_modified(modified)
+        modified = copy.deepcopy(data)
+        modified["recipes"][1]["context_overrides"] *= 2
+        with self.assertRaisesRegex(ValueError, "duplicate"):
+            self.load_modified(modified)
+
+    def test_input_adapter_is_mirrored_into_final_and_all_prefix_probes(self):
+        data, recipe = self.coupled_recipe()
+        original = experiments.complete_variant_order(recipe)
+        order, definitions = experiments.context_lifted_order(recipe, original)
+        probes, _ = experiments.probe_appendix(recipe, data["probes"])
+        self.assertEqual(order[0], "AFInput")
+        self.assertEqual(order[-1], "OldEnglishSurface")
+        self.assertIn(".o. PWGmcCoronalWAssimilation", definitions)
+        self.assertIn(".o. AFVww", definitions)
+        self.assertNotIn(".o. AFIAp", definitions)
+        self.assertIn("[EnglishStarAlphabet - [{*ᵘ}|{*ᶜ}]]* .o.", definitions)
+        stop = original.index("AFIAp")
+        self.assertEqual(order[stop:], original[stop:])
+        self.assertNotIn("EnglishProtoInput", probes)
+        self.assertEqual(probes.count(" AFInput\n"), len(data["probes"]))
+
+    def test_staged_checks_use_derived_suffix_not_pgmc_prefix(self):
+        _, recipe = self.coupled_recipe()
+        appendix, bins = experiments.staged_appendix(recipe)
+        self.assertEqual(len(bins), len(recipe["staged_checks"]))
+        self.assertIn("define AFS00 AFIAp", appendix)
+        self.assertIn("OEIUmlaut", appendix)
+        self.assertIn("OldEnglishRemoveStars", appendix)
+        self.assertIn("OldEnglishSurface", appendix)
+        self.assertNotIn("EnglishProtoInput", appendix)
+        self.assertNotIn("AFInput", appendix)
+        self.assertNotIn("EarlyGermanicConsonantPipeline", appendix)
+        self.assertNotIn(".o. PWGmcCoronalWAssimilation", appendix)
+        bad = copy.deepcopy(recipe)
+        bad["staged_checks"][0]["stage"] = "NoSuchCheckpoint"
+        with self.assertRaisesRegex(ValueError, "missing"):
+            experiments.staged_appendix(bad)
+
+    def test_staged_checks_share_only_identical_derived_suffixes(self):
+        _, recipe = self.coupled_recipe()
+        appendix, bins = experiments.staged_appendix(recipe)
+        self.assertEqual(len(bins), len(recipe["staged_checks"]))
+        self.assertEqual(len(set(bins.values())), 2)
+        self.assertEqual(appendix.count("define AFS"), 2)
+        self.assertEqual(bins["staged:and-source-selected-sandhi"],
+                         bins["staged:around-source-proclitic"])
+        self.assertNotEqual(bins["staged:and-source-selected-sandhi"],
+                            bins["staged:homorganic-source-suffix"])
+        changed = copy.deepcopy(recipe)
+        changed["staged_checks"][1]["side"] = "after"
+        appendix, bins = experiments.staged_appendix(changed)
+        self.assertEqual(appendix.count("define AFS"), 3)
+        self.assertNotEqual(bins["staged:and-source-selected-sandhi"],
+                            bins["staged:around-source-proclitic"])
+
+    def test_staged_checks_fail_on_wrong_missing_or_ambiguous_outputs(self):
+        check = {"id": "and", "input": "*ᵘ*a*n*d*i", "expected": "and"}
+        bins = {"staged:and": Path("staged.bin")}
+        with patch.object(experiments, "batch_apply_down", return_value=[["and"]]):
+            self.assertEqual(experiments.check_staged_predictions({"staged_checks": [check]}, bins),
+                             [{**check, "outputs": ["and"]}])
+        for outputs in ([], ["wrong"], ["and", "other"]):
+            with self.subTest(outputs=outputs), \
+                    patch.object(experiments, "batch_apply_down", return_value=[outputs]), \
+                    self.assertRaisesRegex(ValueError, "staged prediction"):
+                experiments.check_staged_predictions({"staged_checks": [check]}, bins)
+        with patch.object(experiments, "batch_apply_down", return_value=[["*state"]]) as apply:
+            self.assertEqual(experiments.intermediate_outputs(
+                {"tap": Path("tap.bin"), **bins}, ["form"]), {"tap": [["*state"]]})
+            apply.assert_called_once()
+
+    def test_staged_schema_rejects_unsafe_or_duplicate_entries(self):
+        data, _ = self.coupled_recipe()
+        for field, value in (("stage", "quit;"), ("side", "middle"), ("input", "andi"),
+                             ("evidence", ""), ("expected", None)):
+            modified = copy.deepcopy(data)
+            modified["recipes"][1]["staged_checks"][0][field] = value
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                self.load_modified(modified)
+        modified = copy.deepcopy(data)
+        modified["recipes"][1]["staged_checks"] *= 2
+        with self.assertRaisesRegex(ValueError, "duplicate"):
+            self.load_modified(modified)
+
+    def test_context_audit_reports_eligible_forms_not_just_selected_you(self):
+        _, recipe = self.coupled_recipe()
+        contexts = [
+            {"word_stress": "unstressed", "phonological_finality": "final"},
+            {"word_stress": "stressed", "phonological_finality": "final"},
+        ]
+        rows = [{"id": "2326", "concept": "you", "input_context": contexts[0]},
+                {"id": "2000", "concept": "fire", "input_context": contexts[1]}]
+        states = {"before_sc098": [["*ᵘ*íu*w*i"], ["*f*ū*r*i"]]}
+        bins = {"component:AFIAp": Path("apocope.bin")}
+        outputs = [
+            [["*íu*w*i"], ["*f*ū*r*i"]],
+            [["*íu*w"], ["*f*ū*r"]],
+            [["*íu*w*i*ᶜ"], ["*f*ū*r*i*ᶜ"]],
+        ]
+        with patch.object(experiments, "batch_apply_down", side_effect=outputs):
+            audit = experiments.audit_context_domain(recipe, bins, states, rows)
+        self.assertEqual([record["row_id"] for record in audit], ["2326", "2000"])
+        self.assertEqual(audit[1]["selected_context"], contexts[1])
+        self.assertEqual(audit[1]["unstressed_final_output"], "*f*ū*r")
+        for position, bad in (
+            (0, [["*íu*w"], ["*f*ū*r*i"]]),
+            (1, [["*íu*w", "*other"], ["*f*ū*r"]]),
+            (2, [["*íu*w*ᶜ"], ["*f*ū*r*i*ᶜ"]]),
+        ):
+            altered = copy.deepcopy(outputs)
+            altered[position] = bad
+            with self.subTest(position=position), \
+                    patch.object(experiments, "batch_apply_down", side_effect=altered), \
+                    self.assertRaisesRegex(ValueError, "context audit"):
+                experiments.audit_context_domain(recipe, bins, states, rows)
+
+    def test_context_audit_schema_rejects_unchecked_component_or_missing_probe(self):
+        data, _ = self.coupled_recipe()
+        for field, value in (("component", "NoSuchComponent"), ("probe", "no_such_probe")):
+            modified = copy.deepcopy(data)
+            modified["recipes"][1]["context_audit"][field] = value
+            with self.subTest(field=field), self.assertRaisesRegex(ValueError, "context audit"):
+                self.load_modified(modified)
+
+    def test_component_only_assay_does_not_build_candidate_root_or_probes(self):
+        data, recipe = self.coupled_recipe()
+        components = sorted({check["component"] for check in recipe["component_checks"]})
+        with tempfile.TemporaryDirectory() as directory:
+            def fake_compile(args, *, cwd, **kwargs):
+                text = (Path(cwd) / "experiment.foma").read_text(encoding="utf-8")
+                self.assertNotIn("define AFContextRoot", text)
+                self.assertNotIn("define AFT00", text)
+                self.assertNotIn("define AFS00", text)
+                self.assertIn("define AFK001", text)
+                for number in range(len(components)):
+                    (Path(cwd) / f"af_component_{number:02d}.bin").write_bytes(b"test")
+                return experiments.subprocess.CompletedProcess(args, 0, "", "")
+            with patch.object(experiments.subprocess, "run", side_effect=fake_compile):
+                bins = experiments.compile_isolated(
+                    layout().germanic_fst, recipe, data["probes"], Path(directory), components_only=True,
+                )
+            self.assertEqual(set(bins), {f"component:{component}" for component in components})
+
+    def test_alphabet_extension_is_private_and_does_not_make_mark_a_segment(self):
+        data, recipe = self.coupled_recipe()
+        source = layout().germanic_fst.read_text(encoding="utf-8")
+        extended = experiments.context_source_text(source, recipe)
+        self.assertEqual(extended.count("define EnglishStarAlphabet [\n    {*ᶜ} |"), 1)
+        self.assertEqual(experiments.context_source_text(source, data["recipes"][0]), source)
+        self.assertEqual(layout().germanic_fst.read_text(encoding="utf-8"), source)
+        for text in ("", source + source):
+            with self.subTest(text_length=len(text)), self.assertRaisesRegex(ValueError, "alphabet anchor"):
+                experiments.context_source_text(text, recipe)
 
     def test_host_execution_is_rejected_before_compiling(self):
         with patch.object(experiments, "layout", return_value=layout()), \

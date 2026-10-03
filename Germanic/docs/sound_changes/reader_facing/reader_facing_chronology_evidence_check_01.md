@@ -4,8 +4,8 @@ _Generated from the current SC-numbered rule sections in the reader-facing chapt
 
 ## Summary
 
-- Sections checked: 93.
-- Sections with warnings: 62.
+- Sections checked: 94.
+- Sections with warnings: 64.
 
 | File | Rule section | Move wording | Expected form | Wrong output/result | SC-plus-rule ref | Verbal boundary wording | Limitation wording | Symbolic `<` notation | Warnings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -14,7 +14,7 @@ _Generated from the current SC-numbered rule sections in the reader-facing chapt
 | 005-unstressed-a-raising-before-final-m.md | SC005. Unstressed \emph{*a}-raising before final \emph{*m} (`PNWGmcAToUBeforeM`) {#rule-PNWGmcAToUBeforeM} | yes | yes | yes | yes | no | no | no | missing explicit verbal boundary conclusion |
 | 006-early-i-apocope.md | SC006. Early i-apocope (`PWGmcEarlyIApocope`) {#rule-PWGmcEarlyIApocope} | yes | yes | yes | yes | yes | yes | no | — |
 | 007-final-o-lowering-before-r.md | SC007. Lowering of final bimoric \emph{*ō} before \emph{*r} (`PWGmcFinalOrLowering`) {#rule-PWGmcFinalOrLowering} | yes | yes | yes | yes | yes | no | no | — |
-| 008-coronal-w-assimilation.md | SC008. Assimilation of coronal consonants before \emph{*w} (`PWGmcCoronalWAssimilation`) {#rule-PWGmcCoronalWAssimilation} | yes | yes | yes | yes | yes | no | no | — |
+| 008-coronal-w-assimilation.md | SC008. Assimilation of coronal consonants before \emph{*w} (`PWGmcCoronalWAssimilation`) {#rule-PWGmcCoronalWAssimilation} | no | no | no | yes | yes | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording |
 | 009-ij-contraction-in-friend.md | SC009. \emph{ij}-contraction in \emph{friend} (`PWGmcIjContraction`) {#rule-PWGmcIjContraction} | yes | yes | yes | yes | yes | no | no | — |
 | 010-west-germanic-j-gemination.md | SC010. West Germanic j-gemination (`PWGmcJGemination`) {#rule-PWGmcJGemination} | no | yes | yes | yes | yes | no | no | missing move-condition wording |
 | 011-syllabic-j-after-final-vowel-loss.md | SC011. Syllabic \emph{*j} after final-vowel loss (`PWGmcSyllabicJ`) {#rule-PWGmcSyllabicJ} | yes | yes | yes | yes | yes | no | no | — |
@@ -37,10 +37,11 @@ _Generated from the current SC-numbered rule sections in the reader-facing chapt
 | 028-preconsonantal-x-loss.md | SC028. Simplification of \emph{*xs} before a consonant (`PNWGmcPreconsonantalXLoss`) {#rule-PNWGmcPreconsonantalXLoss} | no | no | no | no | no | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing explicit verbal boundary conclusion |
 | 029-030-awj-glide-and-au-fronting.md | SC029. Resolution of \emph{*awj} to \emph{*auj} (`OEAwwjResolution`) {#rule-OEAwwjResolution} | no | no | no | yes | yes | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording |
 | 029-030-awj-glide-and-au-fronting.md | SC030. Brightening of \emph{*au} to \emph{*æu} (`OEAuBrightening`) {#rule-OEAuBrightening} | no | no | no | yes | no | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing explicit verbal boundary conclusion |
-| 031-ww-simplification.md | SC031. Simplification of \emph{*ww} sequences (`OEWWSimplification`) {#rule-OEWWSimplification} | no | yes | yes | yes | yes | no | no | missing move-condition wording |
-| 032-diphthong-leveling.md | SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling} | no | yes | yes | yes | yes | no | no | missing move-condition wording |
-| 033-long-eow-diphthong.md | SC033. Long \emph{ēow} before following vowels and weak endings (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | no | yes | yes | yes | yes | no | no | missing move-condition wording |
-| 034-long-eaw-diphthong.md | SC034. Long \emph{ēaw} before following vowels (`OEAwLongDiphthong`) {#rule-OEAwLongDiphthong} | no | yes | yes | yes | yes | no | no | missing move-condition wording |
+| 031-ww-simplification.md | SC031. Inherited short-Vww reanalysis (`OEWWSimplification`) {#rule-OEWWSimplification} | no | no | no | yes | no | yes | no | missing move-condition wording |
+| 032-diphthong-leveling.md | SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling} | no | no | no | no | yes | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing SC-plus-rule reference in chronology prose |
+| 033-long-eow-diphthong.md | SC033. Long \emph{ēow} before following vowels and weak endings (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | no | no | no | no | no | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing explicit verbal boundary conclusion |
+| 033-long-eow-diphthong.md | SC106. Retained j-created glide residual (`OEJWWSimplification`) {#rule-OEJWWSimplification} | no | no | no | yes | no | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing explicit verbal boundary conclusion |
+| 034-long-eaw-diphthong.md | SC034. Long \emph{ēaw} before following vowels (`OEAwLongDiphthong`) {#rule-OEAwLongDiphthong} | no | no | no | no | no | yes | no | missing move-condition wording |
 | 035-037-prefix-and-compound-adjustments.md | SC035. Reduction of prefixal \emph{*a} (`OEPrefixAReduction`) {#rule-OEPrefixAReduction} | no | yes | yes | yes | yes | no | no | missing move-condition wording |
 | 035-037-prefix-and-compound-adjustments.md | SC036. Raising of medial \emph{*a} between stress peaks (`OEInterStressRaising`) {#rule-OEInterStressRaising} | no | yes | yes | yes | yes | no | no | missing move-condition wording |
 | 035-037-prefix-and-compound-adjustments.md | SC037. Syncope of compound linking vowels (`OECompoundLinkingSyncope`) {#rule-OECompoundLinkingSyncope} | no | yes | yes | yes | no | no | no | missing move-condition wording; missing explicit verbal boundary conclusion |
