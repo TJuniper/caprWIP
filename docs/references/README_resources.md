@@ -15,13 +15,25 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
   (1992; reissue 2011). The legacy filename's inclusion of Fulk is misleading:
   this is not the Hogg & Fulk morphology volume.
 
-- `ringe_taylor_linguistic_history_vol2.txt`  
-  Ringe & Taylor, *A Linguistic History of English*, Vol. 2: From Proto-Indo-European to Proto-Germanic (2014).  
+- `ringe_taylor_linguistic_history_vol2.txt`
+  Ringe & Taylor, *A Linguistic History of English*, Vol. 2: *The Development of Old English* (2014).
   Primary reference for sound change chronology and PGmc→OE derivation. ~38,800 lines.
+  Cite the printed running-head page, not the extract's `PAGE` sheet label:
+  the stressed-ai discussion is printed pp. 170–171, under labels 185–186.
 
-- `luick_historische_grammatik.txt`  
-  Luick, *Historische Grammatik der englischen Sprache* (1914–40).  
-  Major German-language OE/ME historical grammar. ~29,750 lines.
+- `ringe_vol1_pie_to_pgmc.txt`
+  Ringe, *From Proto-Indo-European to Proto-Germanic*, second edition (2017).
+  Both the retained PDF's title page and the searchable text identify the
+  second edition; cite `Ringe2017` and its printed pages, not first-edition
+  pagination under `Ringe2006`. The text preserves printed page headers.
+
+- `luick_historische_grammatik_part1.vision.txt` and `luick_historische_grammatik_part2.vision.txt`
+  Luick, *Historische Grammatik der englischen Sprache*, first volume,
+  first division (held 1921 printing) and second division (1940, edited
+  posthumously by Friedrich Wild and Herbert Koziol). Complete Google Vision
+  texts with printed-page markers; use these holdings for verification.
+  The older `luick_historische_grammatik.txt` is retained as a legacy extract,
+  not the pagination or glyph authority for the new scans.
 
 - `bulbring_altenglisches_elementarbuch.txt`  
   Bülbring, *Altenglisches Elementarbuch*, I: Lautlehre (1902).  
@@ -31,9 +43,12 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
   Kaluza, *Historische Grammatik der englischen Sprache* (1900–01).  
   Two-volume historical grammar of English. OCR from page images (720 pages); first ~800 lines are frontmatter/OCR artefacts, real content starts ~line 794. ~29,575 lines.
 
-- `fulk_comparative_grammar_early_germanic.txt`  
+- `fulk_comparative_grammar_early_germanic.vision.txt`
   Fulk, *A Comparative Grammar of the Early Germanic Languages* (2018).  
   Modern comparative grammar covering phonology, morphology of all early Germanic languages. Good for cross-branch comparisons. ~34,884 lines.
+  Its `=== page NNN ===` markers count PDF sheets, not printed pages.
+  Use the printed running heads for citations: §4.12 is printed pp. 72–73
+  (sheet markers 089–090), not §5.2 or the marker numbers.
 
 ## Proto-Germanic and Germanic etymological dictionaries
 
@@ -305,10 +320,52 @@ PDFs and page-preserving Vision texts. Their direct-source research review
 is separate from ingestion. Stiles 1995 and Fulk 1998 are the two remaining
 priority acquisitions.
 
-`luick_historische_grammatik.txt` is held, but its page markers are pdf
-**sheet** numbers (`--- PAGE n ---`), not printed folios, so a folio offset
-must be established before any Luick passage is cited by printed page in this
-area.
+### Luick: complete scans and printed-page verification
+
+Both downloaded scans were processed successfully by the established
+asynchronous Google Vision PDF runner, using its configured English hint.
+All 1,212 sheets have ordered raw responses and page-marked reference text;
+no job or page-error response occurred. The ignored PDFs retain their
+original hashes; raw responses are cached under `.cache/anglo-frisian/luick/`.
+The text headers record the hashes, method and exceptional folios.
+
+| Holding | PDF sheets | Printed-page map |
+| --- | --- | --- |
+| First division, 1921 | 568 | Sheets 17–564 = pp. 1–548 (sheet − 16) |
+| Second division, 1940 | 644 | Sheets 23–270 = pp. 549–796 (sheet + 526); 279–414 = pp. 797–932 (sheet + 518); 423–639 = pp. 933–1149 (sheet + 510) |
+
+Inserted editorial matter, frontmatter and terminal sheets retain explicit
+unnumbered-sheet labels. Do not apply a single offset to the second division.
+Eighteen no-text sheets were visually checked as blank/cover sheets; the
+first division's sheet 110 is the blank verso at numbered position p. 94.
+Seventeen numbered positions lack a matching edge token in Vision OCR.
+Their image audit distinguishes five displayed folios missed by the edge
+check, one clipped running head (p. 733), and eleven suppressed folios
+anchored by neighboring printed pages. No body sheet was omitted.
+
+Printed pp. 130–133 (first division, sheets 146–149) were visually checked
+for §§118–123. Section 637 is now directly located and visually read at
+pp. 835–841 (second division, sheets 317–323), including the chronology
+in note 8 on p. 841 and its transition to §638. These checks replace the
+previous “§637 unlocated” limitation; they do not adjudicate Luick's
+historical premises. Follow-on images verify p. 129 (§117), pp. 157–163
+(§§168–176, with the start of §177), and pp. 842–848 (§§638–639).
+The §639 continuation ends on p. 848; §640 starts on p. 849.
+The enlarged p. 133 conjectural chain reads æe > æə > æa > ā:
+its middle offglide is schwa, not the digit 3. The g-shaped letter in
+consonant discussions is not a licence to replace OCR `3` by one IPA
+symbol throughout the texts.
+
+Relevant errata were visually checked in first-division sheet 15 and
+second-division pp. 1142 and 1145. The corrections to pp. 132 and 162
+are grammatical, not retractions of the chronological argument.
+The addition of “, altfriesisch” to p. 832 is recorded but does not
+independently adjudicate common-stem event identity. These are bounded
+checks of relevant passages, not an exhaustive errata incorporation.
+OCR remains unreliable for specialist glyphs elsewhere.
+Use the original page images, not a guessed normalization, for exact
+phonetic quotations; the complete text remains an explicitly uncorrected
+OCR witness rather than a diplomatic edition.
 
 ## Not yet OCRed
 

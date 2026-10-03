@@ -46,7 +46,7 @@ FST_SOURCE = REPO_ROOT / "Germanic/fsts/germanic.txt"
 # the corpus may grow (whole-corpus outputs_sha256 changes with each approved
 # addition), but the original 380 rows must reproduce this hash exactly
 # (summary key legacy_subset_sha256; see cascade_baseline_outputs_legacy380.tsv).
-FROZEN_OUTPUTS_SHA = "fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf"
+FROZEN_OUTPUTS_SHA = "04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac852c409"
 
 
 def _read_tsv(path: Path) -> list[dict[str, str]]:

@@ -40,7 +40,7 @@ German *Faust*, belongs to the earlier change and not to the North Sea law at al
 
 Where the vowel was [a]{.recon}, the long nasalized vowel that this law produced
 was afterwards rounded to *ō* in Anglo-Frisian, which is why Old English has
-*gōs*, *tōþ* ‘tooth’ and *ōþer* ‘other’. That rounding is a third change again,
+*gōs* ‘goose’, *tōþ* ‘tooth’ and *ōþer* ‘other’. That rounding is a third change again,
 and it is the same rounding that gives *fōn* ‘seize’ and *þōhte* ‘thought’ from
 the common Germanic law and *mōna* ‘moon’ and *spōn* ‘chip’ from inherited long
 *ā* before a surviving nasal; Campbell states that it reached all three sources
@@ -95,16 +95,16 @@ outcomes of [i]{.recon} and [u]{.recon} are written [ī]{.recon} and [ū]{.recon
 their nasality having no further consequence [@Campbell1959, p. 47, §121].
 
 Two witnesses apply in the present corpus. PGmc [gánsz]{.recon} ‘goose’ becomes
-[gą̄ns]{.recon}, and PGmc [júgunθ]{.recon} ‘youth’ becomes [júgūnθ]{.recon}. In
-*ġeoguþ* the syllable carrying the lengthened vowel is unstressed, and the length
+[gą̄ns]{.recon} ‘goose’, and PGmc [júgunθ]{.recon} ‘youth’ becomes [júgūnθ]{.recon} ‘youth’. In
+*ġeoguþ* ‘youth’ the syllable carrying the lengthened vowel is unstressed, and the length
 is given up again by the later shortening of unstressed syllables; Sievers and
-Brunner note the same course in *beraþ* ‘they carry’ from [beranþi]{.recon}
-through [berōþ]{.recon} [@SieversBrunner1965, p. 176, §186.1 Anm. 3;
+Brunner note the same course in *beraþ* ‘they carry’ from [beranþi]{.recon} ‘they carry’
+through [berōþ]{.recon} ‘they carry’ [@SieversBrunner1965, p. 176, §186.1 Anm. 3;
 @Luick1914, p. 276, §301.1].
 
-If the rule is stated after the loss of the nasal, PGmc [gánsz]{.recon} yields
-[*ġeas*]{.pred} in place of *gōs*, and PGmc [júgunθ]{.recon} yields
-[*ġeogoþ*]{.pred} in place of *ġeoguþ*. This shows only that the vowel must be
+If the rule is stated after the loss of the nasal, PGmc [gánsz]{.recon} ‘goose’ yields
+[*ġeas*]{.pred} in place of *gōs* ‘goose’, and PGmc [júgunθ]{.recon} ‘youth’ yields
+[*ġeogoþ*]{.pred} in place of *ġeoguþ* ‘youth’. This shows only that the vowel must be
 adjusted before its conditioning nasal is removed. It does not establish a date
 for either operation, and no earlier or later boundary is claimed here.
 
@@ -117,7 +117,7 @@ define EAFNasalSpirantLoss [
 ```
 
 The nasal is removed in the environment that conditioned the lengthening, giving
-[gą̄s]{.recon} and [júgūθ]{.recon}. The rule completes the statement of the single
+[gą̄s]{.recon} ‘goose’ and [júgūθ]{.recon} ‘youth’. The rule completes the statement of the single
 change begun in
 [SC026 EAFNasalSpirantLengthening](#rule-EAFNasalSpirantLengthening); the two are
 not independent sound laws. The converse test, stating the loss first, merely

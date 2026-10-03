@@ -520,10 +520,16 @@ class RealCorpusInvariantTests(unittest.TestCase):
             # added earlier without one, received the same pair. Neither lexeme
             # is in the assembly manifest yet, so every new occurrence falls
             # outside the book and the book counts are unchanged.
-            "production_occurrences": 2429,
-            "production_unique_forms": 1210,
-            "print_main_occurrences": 2341,
-            "unique_printed_entries": 1121,
+            # +1 occurrence / unique form / printed entry: the Anglo-Frisian
+            # umlaut discussion explicitly indexes Ringe2017 p.135 *giftiz.
+            # This is a cited comparison, not a changed corpus protoform.
+            # Gift's comparative lexical entry adds ten occurrences and three
+            # unique forms; the approved input correction is counted separately
+            # from the immutable scientific baseline.
+            "production_occurrences": 2440,
+            "production_unique_forms": 1214,
+            "print_main_occurrences": 2352,
+            "unique_printed_entries": 1125,
             "print_excluded_occurrences": 88,
         }
         forms = self._rows("index_verborum_forms.tsv")
@@ -928,13 +934,17 @@ class OccurrenceModelHardeningTests(unittest.TestCase):
         # +19 vs the previous snapshot: the hue (2332) and thought (2330)
         # model entries. Both fall outside the assembly manifest, so the
         # book occurrence and emission counts are unchanged.
-        self.assertEqual(len(pm), 2341)
+        # The reader's source-backed PGmc *giftiz comparison adds one
+        # explicit occurrence and emission to the corpus and assembled book.
+        # The fresh lexical projection also brings previously unassembled
+        # model-entry spans into the book: +27 occurrences, +24 emissions.
+        self.assertEqual(len(pm), 2352)
         self.assertEqual(len(et), len(pm))
         source_not_in_book = sum(1 for r in et if (r.get("in_book") or "") != "1")
-        self.assertEqual(source_not_in_book, 248)
+        self.assertEqual(source_not_in_book, 231)
         self.assertEqual(len(bo), len(pm) - source_not_in_book)
-        self.assertEqual(len(bo), 2093)
-        self.assertEqual(len(be), 1920)
+        self.assertEqual(len(bo), 2121)
+        self.assertEqual(len(be), 1945)
         self.assertTrue(all("collapsed_into" in r for r in et))
         self.assertTrue(any((r.get("collapsed_into") or "").strip() for r in et if (r.get("source_scope") or "") != "explicit_tag"))
         self.assertEqual(
@@ -990,17 +1000,19 @@ class OccurrenceModelHardeningTests(unittest.TestCase):
         # (PGmc -> PNWGmc) intro citing *draugma- and *taugma- again.
         # +19 vs the previous snapshot: the hue (2332) and thought (2330)
         # model entries, none of whose spans are in the assembly manifest.
-        self.assertEqual(len(pm), 2341, "corpus occurrence count")
-        source_not_in_book = 2341 - 2093
+        # +1 corpus/book occurrence, emission and unique entry for the
+        # Ringe2017 p.135 *giftiz comparison in the umlaut discussion.
+        self.assertEqual(len(pm), 2352, "corpus occurrence count")
+        source_not_in_book = 2352 - 2121
         self.assertEqual(len(bo), len(pm) - source_not_in_book, "corpus = book + not_in_book")
-        self.assertEqual(len(be), 1920, "book emission count")
+        self.assertEqual(len(be), 1945, "book emission count")
         # +10 corpus / +14 book unique entries vs the pre-z-split snapshot: the
         # three-way SC020 split (SC096/SC020/SC097) and the four new root-noun
         # model entries (book, flea, goose, louse) introduce new indexed headwords.
         # +12 corpus / +12 book unique entries after corpus-maturation pass 01.
         # +18 unique corpus entries from the same two model entries.
-        self.assertEqual(len(pu), 1121, "unique corpus entries")
-        self.assertEqual(len(bu), 875, "unique book entries")
+        self.assertEqual(len(pu), 1125, "unique corpus entries")
+        self.assertEqual(len(bu), 895, "unique book entries")
 
         # Algebraic reconciliations
         self.assertEqual(len(pm), len(bo) + source_not_in_book)
@@ -1033,7 +1045,9 @@ class OccurrenceModelHardeningTests(unittest.TestCase):
         # and *taugma- spans entered the manifest-driven book.
         # +14 after the hue (2332) and thought (2330) model entries, whose
         # protoform, target and comparison spans are all explicit .iv tags.
-        self.assertEqual(printable_explicit, 1471, "printable explicit occurrences")
+        # +1 for the source-backed *giftiz comparison in the umlaut discussion.
+        # +4 explicit comparison/selected-input spans in gift's lexical entry.
+        self.assertEqual(printable_explicit, 1476, "printable explicit occurrences")
 
         excluded_explicit = sum(1 for r in pe if (r.get("source_scope") or "") == "explicit_tag")
         self.assertEqual(excluded_explicit, 79, "excluded explicit occurrences")
@@ -1282,6 +1296,37 @@ class AuditValidationTests(unittest.TestCase):
         errors = vcc(et, actual)
         self.assertTrue(errors, "duplicate command should produce errors")
         self.assertTrue(any("DUPLICATE" in e for e in errors))
+
+
+class BookTexExplicitScopeTests(unittest.TestCase):
+    def test_introduction_preserves_historical_chapter_numbers(self):
+        intro = (REPO_ROOT / "Germanic/docs/assembly/capr_book_intro_alpha_01.md").read_text(
+            encoding="utf-8"
+        )
+        headings = [line for line in intro.splitlines() if line.startswith("#")]
+        self.assertTrue(headings)
+        self.assertEqual(headings[0], "# Introduction {.unnumbered}")
+        self.assertTrue(all(line.endswith("{.unnumbered}") for line in headings))
+
+    def test_only_assembled_explicit_sites_are_required(self):
+        from check_book_draft_tex_indexes import explicit_emission_counts
+        rows = [
+            {"index_command": "shared", "in_book": "1", "emission_path": "explicit_tag"},
+            {"index_command": "shared", "in_book": "1", "emission_path": "explicit_tag"},
+            {"index_command": "shared", "in_book": "0", "emission_path": "explicit_tag"},
+            {"index_command": "absent", "in_book": "0", "emission_path": "explicit_tag"},
+            {"index_command": "heading", "in_book": "1", "emission_path": "heading"},
+        ]
+        self.assertEqual(explicit_emission_counts(rows), Counter({"shared": 2}))
+
+    def test_production_nonbook_spans_do_not_raise_book_counts(self):
+        from check_book_draft_tex_indexes import explicit_emission_counts
+        from index_verborum_emission import build_emission_table, load_model_entry_headings, load_print_main
+        rows = build_emission_table(load_print_main(), load_model_entry_headings())
+        active = [row for row in rows if row["in_book"] == "1" and row["emission_path"] == "explicit_tag"]
+        self.assertTrue(active)
+        self.assertEqual(explicit_emission_counts(rows), explicit_emission_counts(active))
+        self.assertEqual(sum(explicit_emission_counts(rows).values()), len(active))
 
 
 if __name__ == "__main__":

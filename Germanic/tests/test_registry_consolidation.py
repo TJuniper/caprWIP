@@ -278,11 +278,11 @@ class FingerprintGuardTests(unittest.TestCase):
         # the unchanged output.
         self.assertEqual(
             data["outputs_sha256"],
-            "4c7854c06948b1f63456d0726c48e9bb26ac1049491300ad22f6206ecb2e3bf8",
+            "5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f",
         )
         self.assertEqual(
             data["legacy_subset_sha256"],
-            "fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf",
+            "04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac852c409",
         )
 
 

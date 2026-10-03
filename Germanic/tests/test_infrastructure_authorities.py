@@ -57,9 +57,9 @@ CARD_INDEX = (SC_DIR / "order_tests/chronology_cards"
 # added hue row, and the matched/mismatched split is unchanged at 7
 # documented mismatches.
 EXPECTED_OUTPUTS_SHA256 = (
-    "4c7854c06948b1f63456d0726c48e9bb26ac1049491300ad22f6206ecb2e3bf8")
+    "5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f")
 EXPECTED_LEGACY_SUBSET_SHA256 = (
-    "fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf")
+    "04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac852c409")
 EXPECTED_ROW_COUNT = 387
 
 
@@ -895,6 +895,7 @@ class ArtifactGraphTests(unittest.TestCase):
         "registry_views": "projection",
         "coverage_census": "projection",
         "reader_book": "projection",
+        "lexical_sources": "runtime",
         "book_draft": "projection",
         "index_verborum": "regen",
         "interaction_matrix": "runtime",
@@ -951,6 +952,33 @@ class ArtifactGraphTests(unittest.TestCase):
         self.assertEqual(set(outs), set(self.REQUIRED_NODES))
         for name, paths in outs.items():
             self.assertTrue(paths, f"node {name} declares no outputs")
+
+    def test_book_index_join_converges_in_one_refresh(self):
+        from unittest.mock import patch
+        ag = _load("artifact_graph")
+        state = {"book": "old", "index": "old"}
+
+        def book_build():
+            if state["book"] == state["index"]:
+                return []
+            state["book"] = state["index"]
+            return ["book"]
+
+        def index_build():
+            if state["index"] == "new":
+                return []
+            state["index"] = "new"
+            return ["index"]
+
+        graph = (
+            ag.Node("book_draft", "projection", "fixture", lambda: [],
+                    book_build, lambda: []),
+            ag.Node("index_verborum", "regen", "fixture", lambda: [],
+                    index_build, lambda: []),
+        )
+        with patch.object(ag, "nodes", return_value=graph):
+            ag.refresh(printer=lambda message: None)
+        self.assertEqual(state, {"book": "new", "index": "new"})
 
     def test_archives_are_never_node_outputs(self):
         """ARCHIVE artifacts are frozen records: no refresh/build path may

@@ -32,10 +32,15 @@ Recorded in
 `Germanic/docs/sound_changes/cascade_baseline/cascade_baseline_summary.json`
 and pinned by `Germanic/tests/test_cascade_baseline.py`:
 
-- legacy-380 corpus fingerprint (`legacy_subset_sha256`):
-  `fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf`
+- active original-380 identity fingerprint (`legacy_subset_sha256`):
+  `04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac852c409`
 - selected-387 corpus fingerprint (`outputs_sha256`):
-  `4c7854c06948b1f63456d0726c48e9bb26ac1049491300ad22f6206ecb2e3bf8`
+  `5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f`
+
+The immutable legacy380 archive still hashes to
+`fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf`.
+The SC056 adjudication explicitly migrates only gift's input by stable row ID;
+all other legacy fields and every final output remain protected.
 
 A fingerprint may change only as the explicit, row-level-diagnosed
 consequence of an adjudication verdict (protocol step 13), never as a

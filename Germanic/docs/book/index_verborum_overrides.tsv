@@ -36,3 +36,10 @@ ignore			*bāną				Germanic/docs/lexeme_reports/model_entries/1954-bone-bān.mo
 ignore			*fláux				Germanic/docs/lexeme_reports/model_entries/2018-flea-flēah.model.md:56	Intermediate developmental stage in derivational prose, not a cited evidence form.
 ignore			*skúldramiz				Germanic/docs/assembly/capr_book_intro_alpha_01.md:33	Display-attribute duplicate of the indexed .iv span on the same line; already indexed at this ref.
 ignore			*wér-uldu				Germanic/docs/lexeme_reports/model_entries/2302-world-weorold.model.md:50	Intermediate developmental stage in derivational prose, not a cited evidence form.
+ignore			cascade				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:167	Ordinary English description of the computational pipeline, not a historical form.
+ignore			date				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:150	Ordinary English discussion of historical dating, not a reconstructed form.
+ignore			date				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:212	Ordinary English discussion of historical dating, not a reconstructed form.
+ignore			gift				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:19	English gloss of the explicitly indexed giftiz reconstruction on the same line, not an additional historical form.
+ignore			mutation				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:202	Sound-change process label in English prose, not a lexical form.
+ignore			mutation				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:227	Sound-change process label in English prose, not a lexical form.
+ignore			down				Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21	English gloss of the explicitly indexed Old Norse hý comparison, not a Gothic form.

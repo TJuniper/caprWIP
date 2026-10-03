@@ -4,14 +4,14 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 
 ## Summary
 
-- Foma blocks checked: 92.
-- Blocks over the conservative 90-character threshold: 12.
+- Foma blocks checked: 93.
+- Blocks over the conservative 90-character threshold: 13.
 - Width-safe rendering protocol: `ReaderFacingFoma` uses `fvextra`/`Verbatim` with `breaklines=true`, `breakanywhere=true`, and `fontsize=\small` in the Docker XeLaTeX build.
 
 | File | Rule section | Start line | Longest line | Over threshold under old rendering |
 | --- | --- | --- | --- | --- |
 | 003-west-germanic-rhotacism.md | SC003. West Germanic rhotacism (`EAFRhotacism`) {#rule-EAFRhotacism} | 11 | 42 | no |
-| 004-pwgmc-ai-monophthongization.md | SC004. Anglo-Frisian ai-monophthongization (`EAFAiMonophthongization`) {#rule-EAFAiMonophthongization} | 13 | 32 | no |
+| 004-pwgmc-ai-monophthongization.md | SC004. Anglo-Frisian ai-monophthongization (`EAFAiMonophthongization`) {#rule-EAFAiMonophthongization} | 36 | 32 | no |
 | 005-unstressed-a-raising-before-final-m.md | SC005. Unstressed \emph{*a}-raising before final \emph{*m} (`PNWGmcAToUBeforeM`) {#rule-PNWGmcAToUBeforeM} | 12 | 87 | no |
 | 006-early-i-apocope.md | SC006. Early i-apocope (`PWGmcEarlyIApocope`) {#rule-PWGmcEarlyIApocope} | 11 | 103 | yes |
 | 007-final-o-lowering-before-r.md | SC007. Lowering of final bimoric \emph{*ō} before \emph{*r} (`PWGmcFinalOrLowering`) {#rule-PWGmcFinalOrLowering} | 12 | 30 | no |
@@ -35,8 +35,8 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 | 026-027-nasal-spirant-changes.md | SC026. North Sea Germanic nasal-spirant law, first step (`EAFNasalSpirantLengthening`) {#rule-EAFNasalSpirantLengthening} | 70 | 64 | no |
 | 026-027-nasal-spirant-changes.md | SC027. North Sea Germanic nasal-spirant law, second step (`EAFNasalSpirantLoss`) {#rule-EAFNasalSpirantLoss} | 113 | 54 | no |
 | 028-preconsonantal-x-loss.md | SC028. Simplification of \emph{*xs} before a consonant (`PNWGmcPreconsonantalXLoss`) {#rule-PNWGmcPreconsonantalXLoss} | 94 | 44 | no |
-| 029-030-awj-glide-and-au-fronting.md | SC029. Glide formation in \emph{*awj} (`OEAwwjResolution`) {#rule-OEAwwjResolution} | 17 | 38 | no |
-| 029-030-awj-glide-and-au-fronting.md | SC030. Fronting of \emph{*au} (`OEAuBrightening`) {#rule-OEAuBrightening} | 38 | 21 | no |
+| 029-030-awj-glide-and-au-fronting.md | SC029. Resolution of \emph{*awj} to \emph{*auj} (`OEAwwjResolution`) {#rule-OEAwwjResolution} | 72 | 38 | no |
+| 029-030-awj-glide-and-au-fronting.md | SC030. Brightening of \emph{*au} to \emph{*æu} (`OEAuBrightening`) {#rule-OEAuBrightening} | 128 | 24 | no |
 | 031-ww-simplification.md | SC031. Simplification of \emph{*ww} sequences (`OEWWSimplification`) {#rule-OEWWSimplification} | 12 | 27 | no |
 | 032-diphthong-leveling.md | SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling} | 15 | 28 | no |
 | 033-long-eow-diphthong.md | SC033. Long \emph{ēow} before following vowels and weak endings (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | 27 | 49 | no |
@@ -48,7 +48,7 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 | 039-040-medial-unstressed-vowel-changes.md | SC040. Lowering of medial unstressed \emph{*u} (`OEMedUnstressedULowering`) {#rule-OEMedUnstressedULowering} | 32 | 68 | no |
 | 041-final-bare-a-loss.md | SC041. Loss of final bare \emph{*a} (`PWGmcFinalBareALoss`) {#rule-PWGmcFinalBareALoss} | 12 | 28 | no |
 | 042-surviving-bimoric-o-unrounding.md | SC042. Unrounding of the surviving bimoric \emph{*ō} (`PWGmcSurvivingBimoricOUnrounding`) {#rule-PWGmcSurvivingBimoricOUnrounding} | 18 | 94 | yes |
-| 043-anglo-frisian-brightening.md | SC043. Fronting of low \emph{*a} outside nasal environments (`EAFBrightening`) {#rule-EAFBrightening} | 11 | 41 | no |
+| 043-anglo-frisian-brightening.md | SC043. Fronting of low \emph{*a} outside nasal environments (`EAFBrightening`) {#rule-EAFBrightening} | 22 | 41 | no |
 | 044-045-breaking-and-velar-fricative-palatalization.md | SC044. Breaking before \emph{h}, \emph{rC}, and \emph{lC} (`OEBreaking`) {#rule-OEBreaking} | 17 | 29 | no |
 | 044-045-breaking-and-velar-fricative-palatalization.md | SC045. Palatalization of velar fricatives beside front vowels (`OEVelarFricativePalatalization`) {#rule-OEVelarFricativePalatalization} | 27 | 44 | no |
 | 046-048-restoration-and-nasal-tail-changes.md | SC046. Restoration of \emph{*a} before following back vowels (`OEARestoration`) {#rule-OEARestoration} | 11 | 63 | no |
@@ -61,11 +61,12 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 | 052-velar-palatalization.md | SC052. Velar palatalization before front vowels (`OEVelarPalatalization`) {#rule-OEVelarPalatalization} | 73 | 74 | no |
 | 053-054-pre-umlaut-bridge-and-w-loss.md | SC053. Loss of \emph{*w} after velars (`OEPostVelarWLoss`) {#rule-OEPostVelarWLoss} | 21 | 28 | no |
 | 053-054-pre-umlaut-bridge-and-w-loss.md | SC054. Loss of \emph{*w} before final \emph{*i} (`OEWLossBeforeI`) {#rule-OEWLossBeforeI} | 31 | 46 | no |
-| 055-056-i-umlaut-core.md | SC055. Fronting under i-umlaut (`OEIUmlautFronting`) {#rule-OEIUmlautFronting} | 44 | 70 | no |
-| 055-056-i-umlaut-core.md | SC055. Raising under i-umlaut (`OEIUmlautRaising`) {#rule-OEIUmlautRaising} | 68 | 69 | no |
-| 055-056-i-umlaut-core.md | SC055. Diphthongal outcomes under i-umlaut (`OEIUmlautDiphthong`) {#rule-OEIUmlautDiphthong} | 86 | 72 | no |
-| 055-056-i-umlaut-core.md | SC055. The composite i-umlaut rule (`OEIUmlaut`) {#rule-OEIUmlaut} | 113 | 34 | no |
-| 055-056-i-umlaut-core.md | SC056. West Saxon palatal diphthongization (`OEWsPalatalDiphthongization`) {#rule-OEWsPalatalDiphthongization} | 127 | 110 | yes |
+| 055-056-i-umlaut-core.md | SC056. West Saxon palatal diphthongization (`OEWsPalatalDiphthongization`) {#rule-OEWsPalatalDiphthongization} | 76 | 110 | yes |
+| 055-056-i-umlaut-core.md | SC055. Fronting under i-umlaut (`OEIUmlautFronting`) {#rule-OEIUmlautFronting} | 104 | 70 | no |
+| 055-056-i-umlaut-core.md | SC055. Raising under i-umlaut (`OEIUmlautRaising`) {#rule-OEIUmlautRaising} | 139 | 69 | no |
+| 055-056-i-umlaut-core.md | SC055. Diphthongal outcomes under i-umlaut (`OEIUmlautDiphthong`) {#rule-OEIUmlautDiphthong} | 162 | 72 | no |
+| 055-056-i-umlaut-core.md | SC055. The composite i-umlaut rule (`OEIUmlaut`) {#rule-OEIUmlaut} | 194 | 34 | no |
+| 055-056-i-umlaut-core.md | Retained late palatal-diphthongization approximation {#rule-OELatePalatalDiphthong} | 215 | 109 | yes |
 | 057-j-cluster-coalescence.md | SC057. Coalescence of velar + \emph{*j} clusters (`OEJClusterCoalescence`) {#rule-OEJClusterCoalescence} | 16 | 30 | no |
 | 059-oe-back-mutation.md | SC059. Back mutation before labials and liquids (`OEBackMutation`) {#rule-OEBackMutation} | 15 | 90 | no |
 | 060-ws-palatal-umlaut-note.md | SC060. West Saxon palatal umlaut before \emph{*h}-clusters (`OEWsPalatalUmlaut`) {#rule-OEWsPalatalUmlaut} | 14 | 56 | no |
@@ -99,7 +100,7 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 | 097-monosyllabic-final-z-loss.md | SC097. Northern monosyllabic final \emph{*z}-loss (`MonosyllabicFinalZLoss`) {#rule-MonosyllabicFinalZLoss} | 15 | 64 | no |
 | 098-early-apocope-in-unstressed-words.md | SC098. Early apocope in unstressed words (`PWGmcUnstressedWordFinalIApocope`) {#rule-PWGmcUnstressedWordFinalIApocope} | 13 | 41 | no |
 | 101-long-a-fronting.md | SC101. Fronting of long \emph{ā} outside nasal and \emph{w} environments (`EAFLongAFronting`) {#rule-EAFLongAFronting} | 13 | 71 | no |
-| 102-hiatus-w-insertion.md | SC102. Hiatus-filling \emph{w} after long \emph{ā} (`EAFHiatusWInsertion`) {#rule-EAFHiatusWInsertion} | 13 | 45 | no |
+| 102-hiatus-w-insertion.md | SC102. Generalized hiatus-breaking \emph{w} after long \emph{ā} (`EAFHiatusWInsertion`) {#rule-EAFHiatusWInsertion} | 17 | 45 | no |
 | 103-pgmc-nasal-loss-before-x.md | SC103. Proto-Germanic nasal loss before \*x (`PGmcNasalLossBeforeX`) {#rule-PGmcNasalLossBeforeX} | 39 | 45 | no |
 | 104-nasalized-low-vowel-rounding.md | SC104. Rounding of the long nasalized low vowel (`EAFNasalizedLowRounding`) {#rule-EAFNasalizedLowRounding} | 58 | 32 | no |
 
@@ -114,7 +115,7 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 
 - `94` chars — `    {*ō} -> {*ā} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.`
 
-### 055-056-i-umlaut-core.md:127 — SC056. West Saxon palatal diphthongization (`OEWsPalatalDiphthongization`) {#rule-OEWsPalatalDiphthongization}
+### 055-056-i-umlaut-core.md:76 — SC056. West Saxon palatal diphthongization (`OEWsPalatalDiphthongization`) {#rule-OEWsPalatalDiphthongization}
 
 - `110` chars — `    {*æ} -> {*ea} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],`
 - `110` chars — `    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],`
@@ -122,6 +123,10 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 - `110` chars — `    {*ē} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],`
 - `110` chars — `    {*é} -> {*íe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],`
 - `109` chars — `    {*ḗ} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]`
+
+### 055-056-i-umlaut-core.md:215 — Retained late palatal-diphthongization approximation {#rule-OELatePalatalDiphthong}
+
+- `109` chars — `    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]`
 
 ### 063-high-vowel-apocope.md:14 — SC063. High-vowel apocope after heavy syllables and in trisyllables (`OEHighVowelApocope`) {#rule-OEHighVowelApocope}
 

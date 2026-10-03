@@ -50,14 +50,18 @@ Laker's reports remain his reports, not retroactively direct evidence.
 Hogg1992 and Luick are held, but cannot silently replace
 those distinct works or unverified cited passages.
 
-The synthesis now incorporates **direct** Luick §§118–120, printed
-pp.130–132: common a-fronting, au first-component participation and a
-tentative Frisian regressive-assimilation alternative
-([@Luick1914, pp. 130–132]). This verifies selected vowel-history prose,
-**not §637's palatalization claim**, which remains unlocated. The corrupt
-Frisian intermediate glyph is not reconstructed; do not promote Laker's
-Luick/Goblirsch palatalization/reversal scenario merely because those
-different vowel-history passages have been checked.
+The newly supplied scans directly verify Luick §§118–123 at printed
+pp. 130–133 and §637 at pp. 835–841. Its opening attributes palatalization
+to the Anglo-Frisian community, while note 8 brackets it after fronting,
+breaking and the back-vowel effects on æ, but before mutation and early
+vowel loss ([@Luick1914, pp. 835–841, especially p. 841, note 8]).
+These are Luick's reconstructed placements, not independently observed
+prehistoric phonetics or an inherited-event verdict. The source's separate
+initial, medial and final conditions must not become one unrestricted
+CAPR rewrite ([@Luick1914, pp. 836–839]).
+The synthesis owns the interpretation; no missing-PDF or unlocated-§637
+limitation remains. Other exact phonetic quotations still require their
+specific image check.
 
 ## Competing histories to preserve
 

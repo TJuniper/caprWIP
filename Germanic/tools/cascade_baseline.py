@@ -27,6 +27,7 @@ container (where foma/flookup and the freshly compiled bins live).
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
 import json
 import re
@@ -61,12 +62,67 @@ def load_oe_rows(tsv_path: Path) -> list[dict[str, str]]:
             if not norm:
                 continue
             rows.append({
+                "row_id": row["ID"],
                 "concept": (row.get("CONCEPT") or "").strip(),
                 "proto": proto,
                 "proto_norm": norm,
                 "counterpart": counterpart,
             })
     return rows
+
+
+def legacy_subset(records: list[dict], legacy_rows: list[dict],
+                  migrations: list[dict]) -> list[dict]:
+    """Resolve frozen identities, permitting only documented input migrations."""
+    by_key = {}
+    by_id = {}
+    for record in records:
+        key = (record["proto_norm"], record["counterpart"], record["concept"])
+        if key in by_key or record["row_id"] in by_id:
+            raise ValueError(f"duplicate baseline identity: {key}")
+        by_key[key] = record
+        by_id[record["row_id"]] = record
+    approved = {}
+    for migration in migrations:
+        if set(migration) != {"row_id", "concept", "counterpart", "old_proto",
+                              "new_proto", "adjudication_memo"} or not all(migration.values()):
+            raise ValueError("invalid approved input migration")
+        key = (normalize_proto(migration["old_proto"]),
+               migration["counterpart"], migration["concept"])
+        if key in approved or any(m["row_id"] == migration["row_id"] for m in approved.values()):
+            raise ValueError("duplicate approved input migration")
+        if migration["old_proto"] == migration["new_proto"]:
+            raise ValueError("input migration must change the input")
+        approved[key] = migration
+    selected = []
+    used = set()
+    seen = set()
+    for old in legacy_rows:
+        key = (old["proto_norm"], old["counterpart"], old["concept"])
+        if key in seen:
+            raise ValueError(f"duplicate frozen identity: {key}")
+        seen.add(key)
+        migration = approved.get(key)
+        if migration:
+            if old["proto"] != migration["old_proto"]:
+                raise ValueError(f"migration old input mismatch: {key}")
+            current = by_id.get(migration["row_id"])
+            if current is None or any(current[field] != migration[value] for field, value in (
+                ("proto", "new_proto"), ("concept", "concept"), ("counterpart", "counterpart")
+            )) or current["proto_norm"] != normalize_proto(migration["new_proto"]):
+                raise ValueError(f"migration current identity mismatch: {key}")
+            used.add(key)
+        else:
+            current = by_key.get(key)
+            if current is None or current["proto"] != old["proto"]:
+                raise ValueError(f"unapproved legacy input drift: {key}")
+        for field in ("accepted", "output_count", "match", "outputs"):
+            if current[field] != old[field]:
+                raise ValueError(f"unapproved legacy {field} drift: {key}")
+        selected.append(current)
+    if used != set(approved):
+        raise ValueError("migration does not resolve a frozen legacy identity")
+    return sorted(selected, key=lambda r: (r["proto_norm"], r["counterpart"], r["concept"]))
 
 
 def apply_batch(bin_path: Path, forms: list[str]) -> dict[str, list[str]]:
@@ -123,6 +179,7 @@ def build_baseline(tsv_path: Path, bin_path: Path) -> dict[str, object]:
         if len(outs) > 1:
             ambiguous += 1
         records.append({
+            "row_id": r["row_id"],
             "concept": r["concept"],
             "proto": r["proto"],
             "proto_norm": r["proto_norm"],
@@ -139,11 +196,8 @@ def build_baseline(tsv_path: Path, bin_path: Path) -> dict[str, object]:
         hasher.update((r["proto_norm"] + "\x1f" + r["outputs"] + "\x1e").encode("utf-8"))
     outputs_sha256 = hasher.hexdigest()
 
-    # Legacy-380 subset invariant (corpus-maturation baseline policy): the
-    # original 380-row corpus is a frozen legacy subset. Its fingerprint is
-    # recomputed here over the live records restricted to the frozen keys, so
-    # corpus EXPANSION changes the whole-corpus hash while any drift in a
-    # legacy row still changes (and thereby fails) the legacy-subset hash.
+    # Archived inputs remain immutable; approved migrations select the same
+    # original identities under their explicitly documented current inputs.
     legacy_subset_sha256 = ""
     legacy_subset_count = 0
     legacy_path = tsv_path.parent.parent / "docs/sound_changes/cascade_baseline/cascade_baseline_outputs_legacy380.tsv"
@@ -151,17 +205,16 @@ def build_baseline(tsv_path: Path, bin_path: Path) -> dict[str, object]:
         # container layout: /usr/app/data + /usr/app/docs
         legacy_path = Path("docs/sound_changes/cascade_baseline/cascade_baseline_outputs_legacy380.tsv")
     if legacy_path.exists():
-        import csv as _csv
         with legacy_path.open(encoding="utf-8") as handle:
-            legacy_keys = {
-                (row["proto_norm"], row["counterpart"], row["concept"])
-                for row in _csv.DictReader(handle, delimiter="\t")
-            }
+            legacy_rows = list(csv.DictReader(handle, delimiter="\t"))
+        migration_path = legacy_path.with_name("approved_input_migrations.tsv")
+        with migration_path.open(encoding="utf-8") as handle:
+            migrations = list(csv.DictReader(handle, delimiter="\t"))
+        selected = legacy_subset(records, legacy_rows, migrations)
         legacy_hasher = hashlib.sha256()
-        for r in records:
-            if (r["proto_norm"], r["counterpart"], r["concept"]) in legacy_keys:
-                legacy_hasher.update((r["proto_norm"] + "\x1f" + r["outputs"] + "\x1e").encode("utf-8"))
-                legacy_subset_count += 1
+        for r in selected:
+            legacy_hasher.update((r["proto_norm"] + "\x1f" + r["outputs"] + "\x1e").encode("utf-8"))
+            legacy_subset_count += 1
         legacy_subset_sha256 = legacy_hasher.hexdigest()
 
     summary = {
@@ -181,7 +234,7 @@ def build_baseline(tsv_path: Path, bin_path: Path) -> dict[str, object]:
 def write_outputs(baseline: dict[str, object], out_dir: Path) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     records = baseline["records"]  # type: ignore[index]
-    fields = ["concept", "proto", "proto_norm", "counterpart", "accepted", "output_count", "match", "outputs"]
+    fields = ["row_id", "concept", "proto", "proto_norm", "counterpart", "accepted", "output_count", "match", "outputs"]
     tsv_lines = ["\t".join(fields)]
     for r in records:  # type: ignore[assignment]
         tsv_lines.append("\t".join(str(r[f]) for f in fields))

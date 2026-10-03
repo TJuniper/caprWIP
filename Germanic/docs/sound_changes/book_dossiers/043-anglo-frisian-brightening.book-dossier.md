@@ -149,3 +149,161 @@ These links show why SC043 is better treated as a **cluster-organizing** chapter
 7. **Restoration and the partial retreat from brightening**
 8. **What the local chronology shows, and what it does not show**
 9. **Open historiographical cautions**
+
+## 11. F component packet: three domains, three decision boundaries
+
+### Identity and question
+
+SOURCE-only research packet, 2026-10-03, base `67a18cfb`, branch
+`update`. No canonical adjudication or adoption is
+made here. The literal incumbent identifier is **EAFBrightening**, not
+the older `AngloFrisianBrightening` spelling quoted in the scaffold above.
+The Anglo-Frisian synthesis §8.4 remains the comparative authority.
+
+Question: does one English stressed short-a/au episode justify placing all
+three SC043 clauses together? Confirmation would require independently
+matching source domains and chronology for the unstressed and long-final
+members. Different quantity/input histories or absent exact conditioners
+refute the whole-bundle inference. English episode identity and inherited
+common-stem identity must be tested separately.
+
+### Current state and literal component inventory
+
+The prepared registry characterization is `oe`, `english_specific`,
+unadjudicated. Its staging prose still calls this the defining Anglo-Frisian
+change; that tension is an object of research, not silently corrected here.
+Executable composition is unstressed, stressed, then long-final:
+
+| Component | Literal incumbent rewrite/condition | Source-backed target and disposition |
+|---|---|---|
+| F-short-stressed | `{*á} -> {*æ} || _ [EnglishStarConsonant - EnglishStarNasal \| .#.]` | Ordinary nonnasal short fronting; working English episode shared with au treatment, not automatically common-stem. **RETAIN control / DEFER placement or identity edit**. |
+| F-short-unstressed | `{*a} -> {*æ} || _ [EnglishStarConsonant - EnglishStarNasal]` | Unaccented a fronting, with a tautosyllabic-nasal exception and a distinct heterosyllabic-nasal history. **RETAIN control / DEFER exact syllabic/stress decomposition and dating**. |
+| F-long-final | `{*ā} -> {*ǣ} || EnglishStarVocalic [EnglishStarConsonant \| EnglishPalatalConsonant]+ _ .#.` | Surviving bimoric final-vowel path in polysyllables, not ordinary short-a fronting. **RETAIN nucleus guard and incumbent control / DEFER event identity or reassignment**. |
+
+The first two networks remain separately composed: parallel replacement
+context-union is a known implementation hazard. `EnglishStarNasal` is m/n.
+The unstressed member excludes final bare a; earlier PWGmc loss means it is
+not an extant generic input at this point. The long-final preceding-nucleus
+guard is not optional and must not be dropped to simplify a research recipe.
+
+### Diagnosis: complete live census and witness roles
+
+`SC043 --evidence`, serialized on 2026-10-03 after verifying backend health,
+`/usr/app/fsts`, foma and flookup, reports **90/387** changed selected rows.
+The literal token replacements partition those observations into **80
+stressed-short**, **12 unstressed-short**, **1 long-final** row applications.
+These overlap: berry1946 and water2274 change both short members;
+rest2152 changes stressed-short and long-final. Thus 93 member applications
+are not 93 distinct corpus rows.
+
+Complete stressed-short firing population:
+
+```text
+1934 bake; 1938 bast; 1939 bath; 1940 beard; 1945 belly; 1946 berry;
+1975 calf; 1981 craft; 1984 dale; 1985 day; 2002 fall; 2003 fare;
+2004 fast; 2005 father; 2008 fern; 2016 flask; 2017 flax; 2025 fold;
+2037 gall; 2045 grass; 2046 grave; 2049 guest; 2050 hail; 2052 hall;
+2056 harm; 2057 harvest; 2058 have; 2059 haw; 2060 hawk; 2062 hazel;
+2069 hedge; 2077 hold; 2088 lade; 2090 lap; 2092 laugh; 2117 make;
+2118 malt; 2120 march; 2121 mast; 2125 might; 2130 nail; 2132 nave;
+2133 navel; 2138 net; 2139 nettle; 2140 night; 2141 nightmare;
+2149 raven; 2152 rest; 2165 sake; 2166 salt; 2167 salve; 2168 sap;
+2173 set; 2175 shaft; 2195 slay; 2204 spar; 2205 spare; 2212 staff;
+2216 stem; 2226 stretch; 2234 swallow; 2240 tap; 2245 thatch;
+2266 wade; 2267 wain; 2268 wake; 2269 warp; 2271 wart; 2272 wash;
+2273 wasp; 2274 water; 2275 wax (noun); 2276 wax (verb); 2284 whale;
+2289 wield; 2297 wold; 2305 yarn; 2309 make (iptv.2sg); 2310 make (3sg).
+```
+
+Complete unstressed-short population:
+
+```text
+1936 ban; 1946 berry; 1965 brand; 2029 four; 2053 hammer; 2079 honey;
+2119 man; 2230 summer; 2235 swan; 2250 thistle; 2274 water; 2296 withy.
+```
+
+Complete long-final population: **2152 rest**.
+
+All ninety changed rows also belong to legacy-380; its member counts
+are likewise 80/12/1, with the same overlap.
+
+All are live applications of their literal clause. The census does not
+show that every surviving a was historically eligible at one event:
+the unstressed clause blocks all m/n contexts while later SC048 and
+unstressed-fronting machinery handle parts of the syllabic distinction.
+This representation interface is unresolved, not a newly diagnosed
+out-of-domain historical repair. The long-final witness is a narrow
+corpus-visible proxy, not the full historical unstressed system.
+
+| Stable control | Observed pre/post or prerequisite | Evidential role |
+|---|---|---|
+| day1985 | `*dág > *dæg` | Live stressed fronting; final dotted spelling is not a merger chronology. |
+| land2089 | a before n is outside the stressed rule | Negative nasal control; not an application witness. |
+| hammer2053 | `*xámaras > *xámæræs` | Internal unstressed applications; stressed root is blocked by m. |
+| rest2152 | `*rástā > *ræstǣ` | Live short and long changes; SC042 feeds the final component. |
+| who2322 | Stressed monosyllabic ā must not match the long-final guard | Protected out-of-domain negative, never a repair target. |
+| fare2003 | `*fáraną > *færaną`, later restoration | Live fronting/restoration, but final equivalence cannot decide restored versus never-fronted histories. |
+
+### Literature and historical analysis
+
+Campbell links ordinary short fronting and au-first-element fronting;
+Nielsen describes their traditional contemporaneity; Luick's account
+contains a separate earlier offglide premise
+[@Campbell1939, p. 91; @Nielsen2001, pp. 514–515;
+@Luick1914, pp. 130–133, §§119–120]. Conditional daughter-English
+ai contraction before fronting excludes the identified ordinary event
+from the common stem; the premise does not establish the dates of
+the other clauses. Rival common-au and restricted-fronting histories
+remain comparative alternatives [@Goblirsch1991, pp. 17, 20–21;
+@Kortlandt2008, pp. 267–268; @Repansek2012, p. 82].
+
+For unstressed a, Campbell states normal fronting except before nasals
+and explicitly separates heterosyllabic nasals
+[@Campbell1959, pp. 140–141, §§333–334]. That supports a historical
+unstressed fronting, not CAPR's context-free assignment of the entire
+syllabic history to the stressed event. Earlier bare-a loss is independently
+described [@RingeTaylor2014, pp. 45–46].
+
+For long-final material, the surviving-bimoric path and later shortening
+have direct support [@RingeTaylor2014, pp. 58–59, 299–300].
+The who negative is source-backed: *hwā*, not *hwǣ*
+[@RingeTaylor2014, p. 86; @Campbell1959, p. 49, §125;
+@SieversBrunner1965, p. 129, §137 Anm. 1].
+Encoding retained quantity as ā then ǣ is a CAPR proxy for that path.
+The short-a/au identity evidence cannot date it.
+
+Chronology classification: SC042 < F-long-final is a model-local feeding
+interface; ordinary fronting < conventional breaking/restoration is the
+working historical reconstruction. No new edge is promoted here. The
+old total “43–43 window” above describes displacement behavior, not
+independent historical dating for all three components.
+
+### Recommendations, propagation boundary and residue
+
+Exact production diff: **none**. Retain all incumbent clauses as controls.
+Defer the three production decisions separately: stressed English event
+identity/placement; unstressed syllabic conditioner and layer; long-final
+event identity/placement. None inherits approval from another.
+
+Prerequisite checklist:
+
+1. Identity/full-corpus assay on 387 stable rows, preserving the seven
+   existing mismatches and all 380 legacy outputs unless an exact change
+   is separately approved.
+2. Paired day1985/land2089; bread1966/stone2220; fare2003/day1985;
+   actual original-front inputs versus mutation-created fronts.
+3. Unstressed hammer2053/thistle2250 positives; before-nasal and final
+   bare-a negatives; heterosyllabic -anaz versus coda -an controls with
+   source-verified cell/input stage. Check SC047/048 and later fronting
+   interfaces rather than inventing a grammatical exception.
+4. Rest2152 positive at both SC042 and final fronting; who2322
+   negative; preserve the required preceding nucleus and downstream
+   quantity shortening. Source-only fixtures for other final quantities
+   require input/readiness verification, not corpus admission.
+
+No new test fixture, corpus row, registry verdict, FST or generator edit
+is approved. The parent owns final regeneration and publication.
+Unresolved conditions are localized: stressed inherited identity depends
+on the ai premise; exact unstressed syllabification and historical layering
+remain unspecified; the long-final proxy must remain quantity/domain
+distinct even if the English short-a/au episode is later adopted.

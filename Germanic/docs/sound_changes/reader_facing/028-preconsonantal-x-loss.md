@@ -6,7 +6,7 @@ The change treated here is narrow. When \emph{*x} stood before \emph{*s} and
 that \emph{*s} was itself followed by a further consonant, the \emph{*x} was
 lost and the cluster was reduced. Campbell states the rule in exactly these
 terms, that when a consonant follows, \emph{*xs} becomes *s*, and he illustrates
-it with *wæstm* ‘growth’ and *wæsma* beside *weaxan* ‘to grow’, and with
+it with *wæstm* ‘growth’ and *wæsma* ‘growth’ beside *weaxan* ‘to grow’, and with
 Northumbrian *sesta* ‘sixth’ beside West Saxon *siexta*
 [@Campbell1959, p. 170, §417]. Brunner gives the same statement and adds that
 the following consonant may be *j* as well as a true obstruent, citing
@@ -35,15 +35,15 @@ The change is not Proto-Germanic. Gothic keeps the \emph{*h} of this cluster in
 *bi-niuhsjan* ‘to spy out’ and *saihsta* ‘sixth’, so the loss must be later than
 the separation of Gothic [@RingeTaylor2014, pp. 157--158]. Campbell reports the
 loss from the whole West Germanic area and from North Germanic as well, citing
-Old Norse *ísl* ‘axle’ and *nýsa*, Old Saxon *weslon* ‘to exchange’, *wastum*
+Old Norse *ísl* ‘axle’ and *nýsa* ‘to investigate’, Old Saxon *weslon* ‘to exchange’, *wastum*
 ‘growth’ and *niustan*, and Old High German *niusen* ‘to try’
 [@Campbell1959, p. 170, §417]. Ringe and Taylor set out the same comparative
 material and reach a more guarded conclusion. They derive Proto-Germanic
 \emph{*niuhsijaną} through Proto-West Germanic \emph{*niusjan} to Old English
-*nēosan*, and \emph{*sehstō} to Northumbrian *sesta*, and they take the Old
+*nēosan* ‘to seek out, to visit’, and \emph{*sehstō} to Northumbrian *sesta*, and they take the Old
 Saxon agreement in *wastum*, *thisla* and *niusian* to show a shared northern
-West Germanic change. Against that they weigh the competition between *þixl*
-and *þīsl* in early Mercian, the survival of \emph{*x} in *eaxl* ‘shoulder’ from
+West Germanic change. Against that they weigh the competition between *þixl* ‘pole’
+and *þīsl* ‘pole’ in early Mercian, the survival of \emph{*x} in *eaxl* ‘shoulder’ from
 \emph{*ahslu}, and the retention in Old High German *sehsto* and *dihsala*.
 Their conclusion is that the \emph{*h} was lost, possibly variably and possibly
 only in some dialects, when two or more consonants followed, and that the loss
@@ -56,7 +56,7 @@ Two chronological anchors are available. Ringe and Taylor place the loss after
 the Proto-West Germanic syncope of \emph{*-CijV-}, since it is that syncope
 which brings the \emph{*s} and the \emph{*j} of \emph{*niuhsjan} together
 [@RingeTaylor2014, p. 157]. They place it before breaking, observing that the
-undiphthongized vowels of *wæstm* and *þīsl* can be accounted for only by
+undiphthongized vowels of *wæstm* ‘growth’ and *þīsl* ‘pole’ can be accounted for only by
 supposing that these \emph{*h} were lost before breaking took place
 [@RingeTaylor2014, p. 158]. The rule is stated between those two points.
 
@@ -66,8 +66,8 @@ having been produced by the Proto-Germanic loss of a nasal before \emph{*x}
 described in [SC103 PGmcNasalLossBeforeX](#rule-PGmcNasalLossBeforeX). The
 cluster \emph{*xst} is then reduced to \emph{*st}, and the word continues to Old
 English *fȳst* ‘fist’. The comparative set for this particular word is West
-Germanic throughout, with Old Frisian *fēst*, Old Saxon and Old High German
-*fūst*, Dutch *vuist* and German *Faust*
+Germanic throughout, with Old Frisian *fēst* ‘fist’, Old Saxon and Old High German
+*fūst* ‘fist’, Dutch *vuist* and German *Faust*
 [@Kroonen2013, p. 160; @Orel2003, p. 157]. Neither Gothic nor Old Norse
 preserves a reflex of it, so the word bears on the domain of the change rather
 than on its date.
@@ -83,11 +83,11 @@ the West Germanic languages.
 The relation between the two rules should not be overstated. The earlier rule
 does supply the cluster that this one simplifies, but the order of the two is
 established by their stages and not by any word in this collection. If the
-present rule were stated first, *fist* would still reach *fȳst*, because
+present rule were stated first, *fist* would still reach *fȳst* ‘fist’, because
 removing the \emph{*x} from \emph{*funxstiz} leaves a nasal before *s*, and that
 nasal is removed with compensatory lengthening by the North Sea Germanic
 nasal-spirant law. The outcome is overdetermined, and the chronology rests on
-Gothic *bi-niuhsjan* and *saihsta* instead.
+Gothic *bi-niuhsjan* ‘to spy out’ and *saihsta* instead.
 
 ## SC028. Simplification of \emph{*xs} before a consonant (`PNWGmcPreconsonantalXLoss`) {#rule-PNWGmcPreconsonantalXLoss}
 

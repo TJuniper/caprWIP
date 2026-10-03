@@ -6,6 +6,17 @@ Anglo-Frisian Brightening or First Fronting turns low \emph{*a} into fronted \em
 
 Brightening creates the input to [SC044 OEBreaking](#rule-OEBreaking), while [SC046 OEARestoration](#rule-OEARestoration) later partly reverses its outcome before back vowels.
 
+The traditional name does not itself establish one inherited event.
+Under Campbell's premise that the daughter contractions precede ordinary
+fronting, comparable English and Frisian outcomes require separate
+daughter frontings in the strict tree. Chapter 3 develops that conditional
+argument without removing the ancestral node
+[@Campbell1939, pp. 90–91].
+The present network also contains unstressed-short and long-final
+components; evidence dating stressed-short fronting does not automatically
+date those other clauses. The current computational control is retained
+while their historical identity is assessed separately.
+
 ## SC043. Fronting of low \emph{*a} outside nasal environments (`EAFBrightening`) {#rule-EAFBrightening}
 
 ```foma

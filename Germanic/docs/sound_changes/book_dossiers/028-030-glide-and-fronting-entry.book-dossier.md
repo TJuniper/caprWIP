@@ -198,3 +198,123 @@ Prepared for chapter-shape review. The present dossier does not recommend
 immediate promotion, but it does reduce the uncertainty to one main question:
 keep one cautious grouped entry bridge, or later split SC028 off so SC029-SC030
 can carry the local prose center.
+
+## 12. F component specification: English au fronting
+
+### Identity and question
+
+SOURCE-only research packet, 2026-10-03, branch
+`update`, base `67a18cfb`; no new canonical verdict.
+The existing joint SC029/030 adjudication remains in force. This section,
+not the superseded editorial scaffold above, supplies the bounded current
+specification. The comparative authority is the Anglo-Frisian chronology
+synthesis §8.4 and its component ledger.
+
+The falsifiable claim is that ordinary short-a and au-first-element fronting
+can represent one English episode without being one inherited common-stem
+event. Confirming evidence must establish matching English conditioning and
+a coherent au continuation; a daughter-only prerequisite would refute
+common-stem placement of the identified event, not English episode identity.
+
+### Current state and literal incumbent
+
+The prepared registry packet calls SC030 `preoe`, `english_specific`, RETAIN.
+The executable is exactly:
+
+```foma
+define OEAuBrightening [
+    {*au} -> {*aeu},
+    {*áu} -> {*áeu}
+];
+```
+
+There is no consonantal, nasal, quantity or word-boundary context in either
+clause. These are representation/stress variants, not two demonstrated
+historical laws. The plain-au branch is unwitnessed in the selected corpus.
+SC029 supplies two secondary au inputs; the other sixteen are inherited au.
+SC032 currently realizes atomic `aeu/áeu > ēa`. Moving SC030 after that
+completion without also specifying the completion would strand its product.
+The existing ew/iw/aw and inherited-j paths are independent controls, not
+permission to move the whole diphthong bundle.
+
+### Diagnosis: complete current firing census
+
+Serial `SC030 --evidence` on 2026-10-03 rebuilt container stage bins and
+verified production/sandbox equivalence over all 387 selected runnable rows.
+SC030 changes **18/387**, all stressed `áu > áeu`. Complete stable-ID census:
+
+```text
+1944 believe; 1961 bow (verb); 1962 bow (noun); 1966 bread;
+1995 dream; 2018 flea; 2061 hay; 2063 head; 2094 leaf; 2097 leek;
+2116 lye; 2135 need; 2151 reek; 2170 seam; 2184 shove; 2225 stream;
+2227 strew; 2241 team.
+```
+
+The legacy-380 subset has the same eighteen applications, selected by
+the frozen `(proto, counterpart, concept)` membership keys.
+
+These are live applications of the executable first-element operation;
+hay/strew are additionally SC029-feeding witnesses. They are not eighteen
+independent proofs of inheritance or of the æu intermediate's date.
+Bread 1966 passes `*bráudą > *bráeudą` at this rule; hay 2061 passes
+`*xáują > *xáeują`. Stone 2220 has an ai-derived back long vowel,
+not an au input, and is a negative control. Current selected inputs do not
+represent the cēapian/gēac contrast that bears on initial velars.
+
+### Literature and historical analysis
+
+Campbell explicitly connects the first-element fronting to ordinary English
+fronting; the early aeodbaldum/aeanberhti spellings support a front element
+and a distinct offglide, not an exact absolute date
+[@Campbell1939, p. 91 and n. 1; @Campbell1959, p. 52, §132].
+Nielsen describes contemporaneity as traditional
+[@Nielsen2001, pp. 514–515]. Luick connects the two while placing an
+earlier offglide lowering in his own reconstruction
+[@Luick1914, pp. 130–131, §119]. These support the working English episode
+identity; choosing CAPR's atomic `aeu` is a modelling realization.
+
+English identity is separate from the comparative stem claim. Under
+daughter-English completed ai contraction before ordinary fronting, ordinary
+fronting belongs in the daughter history. Campbell's Frisian au-contraction
+mechanism and fronted-ai intermediate are qualified, not directly observed
+[@Campbell1939, pp. 90–91, 104]. Goblirsch's proposed shared fronted au
+with later Frisian continuation is compatible with a tree, but the Frisian
+intermediate is not demonstrated [@Goblirsch1991, pp. 17, 20–21].
+Kortlandt's restricted early fronting/later extension is a rival component
+history, not a ready restriction inferred from cēapian/kāpia alone
+[@Kortlandt2008, pp. 267–268]. Repanšek's separated diphthong and short-a
+events remain an explicit rival [@Repansek2012, p. 82].
+
+The proposed English co-occurrence is a weak identity/episode constraint,
+not a strict chronology edge. SC029 < SC030 < au completion is an executable
+feeding requirement for current inputs. No source-backed common-stem verdict
+or new canonical edge follows from these firings.
+
+### Recommendation, exact assays and approval boundary
+
+**RETAIN the incumbent control; DEFER production merger or relocation.**
+The target is one English stressed-a/au episode with coherent au completion,
+not a whole-SC043 merger. Unstressed and long-final SC043 are outside that
+identity claim. Exact proposed production diff in this packet: **none**.
+
+Required before a different production proposal:
+
+1. Identity assay over all 387 runnable rows with stable IDs, complete
+   wrappers and the seven existing mismatches kept separate.
+2. F episode assay: bread1966 must enter the episode as au and leave as a
+   fronted diphthong; day1985 must leave with æ; land2089 and stone2220
+   must remain negative. Record an intermediate after au completion as well
+   as the final output; equivalence alone does not prove event identity.
+3. Preserve hay2061/strew2227 SC029 feeding and dew1989/hew2074/you2326
+   ew/iw/aw interfaces. Do not claim success from a stranded aeu product.
+4. Initial-k cēapian and initial-g gēac assays require source-verified
+   input stage, quantity, cell and dialect first. They are research fixtures,
+   not approved corpus additions.
+
+Any proposed semantics/order, component identity, stage/scope or chronology
+edge needs separate explicit approval with its full row-level consequences.
+Approval of stressed English identity cannot authorize the two other SC043
+clauses or corpus edits. No production, registry, input, baseline or bin
+source was edited for this packet; parent-owned regeneration follows the
+research integration. Residue: inherited identity remains premise-dependent,
+and the exact one-episode realization has not been experimentally established.

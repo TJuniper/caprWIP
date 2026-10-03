@@ -131,3 +131,142 @@ directions:
    3. Why the pair still centers on `SC052`
    4. How the pair leads into the promoted umlaut core
    5. Why the chapter must still avoid duplicating `SC051`
+
+## 11. P component specification: class, cutoff and representation
+
+### Identity and falsifiable question
+
+SOURCE-only research packet, 2026-10-03, branch `update`, base `67a18cfb`.
+`--prepare` routes SC052 here; canonical OE/English-specific metadata and
+the incumbent rule remain unchanged. The comparative authority is the
+Anglo-Frisian synthesis §8.6. No canonical verdict is asserted.
+
+Question: can the current k/g marker bundle distinguish productive initial
+cutoff, fricative articulation/merger and stop-class assibilation? Confirmation
+requires source-matched original-front positives, mutation-created negatives,
+and separately staged fricative/stop inputs. A dotted spelling or common
+`ʤ` output cannot confirm phonetic identity. Key/day remains a potentially
+contradictory pair rather than an exception to suppress.
+
+### Current state: literal incumbent components
+
+For every clause below `FV = EnglishStarFrontVowel`. The source actually
+contains two networks and separately composed k/g blocks, not one parallel
+replacement rule. Stress-marked i is separately admitted as ḯ.
+
+| Component | Literal incumbent condition/output | Source target / disposition |
+|---|---|---|
+| Initial k | `k -> ʧ || .#. _ FV` | Original qualifying front vowel/j history; **RETAIN control**, prefer cutoff before mutation; **DEFER any revised cutoff/date**. |
+| Noninitial k | `k -> ʧ || _ [i\|ī]` and `_ ḯ`; `[i\|ī] _ FV` and `ḯ _ FV`; `[i\|ī] _ .#.` and `ḯ _ .#.` | Position-specific eligibility, not “all k adjacent to a front vowel”; **RETAIN**. |
+| kk/j interface | `k k -> ʧ ʧ || _ j`, then `k -> ʧ || _ j` | Deterministic feeding handling; **RETAIN**, independent of a phonetic assibilation date. |
+| g before front | `g -> ʤ || _ FV`; `g -> ʤ || FV _ FV` | Current before-any-front clause is broader than Ringe–Taylor's noninitial before-i/ī statement; **RETAIN control / DEFER class/context restriction**. |
+| g after front | `g -> ʤ || FV _ .#.`; `g -> ʤ || FV _ [EnglishStarConsonant - j]` | Word-final/preconsonantal front conditioning, with j separate; **RETAIN control**, not proof of fricative-to-j merger. |
+| gg/j interface | `g g -> ʤ ʤ || _ j`, then `g -> ʤ || _ j` | Geminate stop-class trigger pathway; **RETAIN deterministic control / DEFER historical marker split**. |
+| ng | No separate ng rule: the g clauses operate on any matching g, including after n | Postnasal stop identity must be explicit; **DEFER independent ng conditioner/marker proposal**. |
+
+The literal `FV` helper includes non-high vowels, stressed equivalents,
+rounded front vowels and front-initial diphthongs. There is no provenance
+tag saying “original front” versus “mutation-created front”; current
+serialization supplies the productive cutoff. The output symbols ʧ/ʤ
+collapse stages of articulation and later reflex representation. `g` at
+this point is not a reliable declaration that every input is a voiced stop:
+fricative allophony and geminate/postnasal stops require an input audit.
+
+### Diagnosis: complete current firing census
+
+The fresh serial `SC052 --evidence` run on 2026-10-03 rebuilt container
+bins and checked equivalence over all 387 selected runnable rows.
+SC052 changes **32/387**: **7 k rows**, **25 g rows**, disjoint here.
+All thirty-two are also legacy-380 members; the 7/25 partition is unchanged.
+
+```text
+k (7): 1969 breeches; 1975 calf; 1976 chew; 1996 drench; 2171 seek;
+2226 stretch; 2248 think.
+g (25): 1943 begin; 1944 believe; 1945 belly; 1961 bow (verb);
+1985 day; 2027 follow; 2037 gall; 2040 gift; 2041 give; 2049 guest;
+2050 hail; 2069 hedge; 2079 honey; 2130 nail; 2147 rain;
+2148 rainbow; 2163 rye; 2164 sail; 2191 singe; 2228 string;
+2243 thane; 2267 wain; 2277 way; 2296 withy; 2305 yarn.
+```
+
+These are complete applications of the executable symbols, not a source-
+validated census of distinct phonetic classes. All changed rows need
+class/input review before a proposed restriction; none is declared a
+new historical exception on the strength of this list.
+
+| Stable witness | Actual local observation | Role / caveat |
+|---|---|---|
+| day1985 | `*dæg > *dæʤ` | Live marker change; nominative is not Hogg's dative/oblique fixture. |
+| gift2040 | `*géfti > *ʤéfti` | Live initial marker; selected e is an early-raising input problem, not PD chronology. |
+| stretch2226 | `*strækkjąn > *stræʧʧjąn` | Live deterministic geminate/j feeding; assert one result, not kʧj/ʧʧj ambiguity. |
+| singe2191 | `*sángjąn > *sánʤjąn` | Live postnasal/g+j class; no fricative-to-j inference. |
+| lung2114 | `*lúngannju` unchanged | Negative current palatalization; mutation downstream is a different operation. |
+| cow1980 | Selected dative input `*kūi` has no initial front vowel | Negative cutoff control; not a diphthong-mutation witness. |
+
+### Literature and historical analysis
+
+Ringe–Taylor provide four position-specific conditions: initial k/g before
+front vowels; noninitial before i/ī; intervocalic g between fronts but k
+only with preceding i/ī; final/preconsonantal g after fronts but final k only
+after i/ī. They separately describe initial palatal stops, later affrication,
+fricative g, gg and ng [@RingeTaylor2014, pp. 203–204].
+Their medial-g before-any-front mismatch with CAPR is real specification
+residue, not authorization to impose a new rule from a table.
+
+Verified Luick gives original-front versus mutation-created initial
+conditioning, positional examples and a distinct chronology note
+[@Luick1914, pp. 835–841, §637, especially pp. 836–838 and p. 841 n. 8].
+His common-stem assignment is his historical proposal, not a stage inferred
+from an FST prefix. Laker separates k, fricative g and gg/ng histories
+[@Laker2007, pp. 167–168, 175–184]. These support a class inventory,
+not a single inherited-palatalization adoption.
+
+Hogg's unrounded key dative is stronger productive-cutoff evidence than
+rounded kyn: a rounded result alone can bound cutoff before unrounding
+rather than before mutation [@Hogg1979, pp. 100–103;
+@Laker2007, pp. 167–168]. But day dative retains æ where new medial
+j would cause mutation if already equivalent to inherited j.
+Hogg discusses delayed merger and separate positional chronologies without
+resolving the contradiction [@Hogg1979, pp. 102–110].
+Ringe–Taylor's later merger account [@RingeTaylor2014, p. 204] is a
+source-backed competing solution, not permission to present Hogg as
+having endorsed it. **DEFER effective-new-j merger/cutoff reconciliation.**
+
+SC045 has no live ɣ input firings in the fresh census; its x changes do not
+validate this g history. SC057 gj/kj coalescence is a distinct inherited
+cluster process, not the missing fricative merger. SC016/017's settled
+orthographic boundary must not be reopened for marker convenience.
+
+### Exact assays and recommendations
+
+Exact production proposal: **none**. RETAIN incumbent k/g and deterministic
+geminate interfaces as the baseline; DEFER class-specific production
+decomposition, especially fricative/new-j trigger equivalence and ng.
+No global inherited-palatalization conclusion or new canonical edge follows.
+
+Required assays before a production recommendation:
+
+1. Initial original-front positive (reuse calf1975/chew1976, keeping
+   breaking/inherited-diphthong inputs explicit) versus cow1980,
+   lung2114 and source key dative negative. Key is a source fixture,
+   not a new approved corpus row; audit exact unrounded target/cell.
+2. Day1985 nominative control plus source daege oblique fixture:
+   compare inherited-j positive mutation against new medial-palatal
+   nontrigger. Record both mutation and merger checkpoints. Do not
+   manufacture a delayed-merger answer merely to pass the pair.
+3. Geminate stop wicg fixture versus fricative daeg/segl fixtures;
+   source-backed ng positive and back-vowel/postnasal negative.
+   Verify allophony, selected stage and paradigm cells before compiling.
+4. Stretch2226 must retain one deterministic kk/j result; seek2171
+   and singe2191 must preserve intended cluster inputs. Plain singleton
+   and inherited-j negatives must not enter SC057 accidentally.
+5. Any new marker requires alphabet, consonant/vowel helper, mutation
+   intervener, weight/reduction, cleanup, orthographic and API-no-leakage
+   checks before a 387-row old/new comparison. A glyph match is not
+   a phonetic identity assertion.
+
+Approval is separate for each changed class/condition, event identity,
+stage/scope/edge, selected input and representation interface. No corpus
+addition is approved. Parent owns regeneration and reader synchronization.
+Remaining uncertainty is exact class eligibility and timing, not whether
+OE palatalization occurred; this packet does not promise its resolution.

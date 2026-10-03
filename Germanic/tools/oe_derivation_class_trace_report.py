@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import re
 from pathlib import Path
 from typing import Dict, List
 
@@ -24,6 +25,7 @@ from oe_full_trace_report import (
     apply_down,
     normalize_proto,
     trace_lexeme,
+    trace_provenance_problems,
 )
 
 DERIVATION_ORDER = [
@@ -114,6 +116,49 @@ def write_report(
         lines.append("")
 
     output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def project_full_trace(rows: List[Dict[str, str]], full_trace: Path) -> str:
+    """Regroup fresh canonical evidence without repeating transducer lookups."""
+    text = full_trace.read_text(encoding="utf-8")
+    problems = trace_provenance_problems(text)
+    if problems:
+        raise ValueError("stale full trace: " + "; ".join(problems))
+    pattern = re.compile(
+        r"^--- (.*?) ---\nPROTO: ([^\n]*)\nEXPECTED: ([^\n]*)\n"
+        r"OUTPUTS: ([^\n]*)\n(.*?)(?=^--- |^=== |\Z)", re.M | re.S)
+    evidence = {}
+    for match in pattern.finditer(text):
+        key = match.group(1, 2, 3)
+        if key in evidence:
+            raise ValueError(f"duplicate full-trace identity: {key}")
+        evidence[key] = match.group(4, 5)
+    buckets = {name: [] for name in DERIVATION_ORDER}
+    selected = set()
+    for row in rows:
+        key = (row["concept"], row["proto"], row["counterpart"])
+        if key in selected:
+            raise ValueError(f"duplicate corpus identity: {key}")
+        selected.add(key)
+        if key not in evidence:
+            raise ValueError(f"missing full-trace identity: {key}")
+        bucket = row["derivation_class"]
+        buckets[bucket if bucket in buckets else "unclassified"].append(row)
+    if len(evidence) != len(rows):
+        raise ValueError("full-trace/corpus identity count mismatch")
+    lines = []
+    for bucket, items in buckets.items():
+        if not items:
+            continue
+        lines.extend([f"=== DERIVATION_CLASS: {bucket} ({len(items)}) ===", ""])
+        for row in sorted(items, key=lambda r: r["concept"]):
+            outputs, body = evidence[(row["concept"], row["proto"], row["counterpart"])]
+            lines.extend([f"--- {row['concept']} ---", f"PROTO: {row['proto']}",
+                          f"EXPECTED: {row['counterpart']}", f"OUTPUTS: {outputs}"])
+            if row["note"]:
+                lines.append(f"NOTE: {row['note']}")
+            lines.extend([body.rstrip(), ""])
+    return "\n".join(lines) + "\n"
 
 
 def main() -> None:

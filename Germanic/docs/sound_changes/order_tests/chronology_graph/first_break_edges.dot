@@ -45,7 +45,7 @@ digraph first_break_chronology {
   "SC053" [label="SC053\nOE Post Velar W Loss"];
   "SC054" [label="SC054\nOE W Loss Before I"];
   "SC055" [label="SC055\nOE I Umlaut"];
-  "SC056" [label="SC056\nOE Ws Palatal Diphthongization"];
+  "SC056" [label="SC056\nOrdinary West Saxon palatal diphthongization"];
   "SC057" [label="SC057\nOE J Cluster Coalescence"];
   "SC058" [label="SC058\nOE Nasal Dissimilation", fillcolor="#71809622", color="#718096"];
   "SC059" [label="SC059\nOE Back Mutation"];
@@ -165,9 +165,6 @@ digraph first_break_chronology {
   "SC054" -> "SC020" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC054" -> "SC063" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC055" -> "SC052" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
-  "SC055" -> "SC056" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
-  "SC056" -> "SC055" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
-  "SC056" -> "SC087" [label="no_break_search_boundary", color="#c05621", fontcolor="#c05621", style=dashed];
   "SC057" -> "SC052" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC057" -> "SC087" [label="no_break_search_boundary", color="#c05621", fontcolor="#c05621", style=dashed];
   "SC058" -> "PWGmcChanges" [label="runner_limited_boundary", color="#c05621", fontcolor="#c05621", style=dashed];
@@ -224,4 +221,5 @@ digraph first_break_chronology {
   "SC086" -> "SC087" [label="no_break_search_boundary", color="#c05621", fontcolor="#c05621", style=dashed];
   "SC087" -> "SC044" [label="broad_far_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC087" -> "RUNNER_LIMIT" [label="runner_limited_boundary", color="#c05621", fontcolor="#c05621", style=dashed];
+  "SC056" -> "SC055" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
 }

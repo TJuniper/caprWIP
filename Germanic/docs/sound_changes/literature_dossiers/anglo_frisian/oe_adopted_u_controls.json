@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "identity",
+      "description": "Current production equivalence control.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [],
+      "assumptions": "No intervention.",
+      "limitations": "No historical inference from equality."
+    },
+    {
+      "id": "u-adopted-controls",
+      "description": "Production component positives and negatives; no input or order changes.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [
+        {"key": "Fulk2018", "pages": "74"},
+        {"key": "RingeTaylor2014", "pages": "215-217,222,235"},
+        {"key": "Ringe2017", "pages": "135,151-153"}
+      ],
+      "assumptions": "Hypothetical symbol strings test the adopted match domains, not corpus admissions.",
+      "limitations": "Retained late matcher is not a complete historical conditioner.",
+      "component_checks": [
+        {"id": "simple-e-positive", "component": "OEWsPalatalDiphthongization", "input": "*ʧ*e*r*l", "expected": "*ʧ*ie*r*l"},
+        {"id": "split-eo-negative", "component": "OEWsPalatalDiphthongization", "input": "*ʧ*e*o*r*l", "expected": "*ʧ*e*o*r*l"},
+        {"id": "atomic-eo-negative", "component": "OEWsPalatalDiphthongization", "input": "*ʧ*eo*r*l", "expected": "*ʧ*eo*r*l"},
+        {"id": "gift-high-i-negative", "component": "OEWsPalatalDiphthongization", "input": "*ʤ*í*f*t*i", "expected": "*ʤ*í*f*t*i"},
+        {"id": "mutation-ea-positive", "component": "OEIUmlaut", "input": "*ʤ*ea*s*t*i", "expected": "*ʤ*ie*s*t*i"},
+        {"id": "late-sheath-positive", "component": "OELatePalatalDiphthong", "input": "*ʃ*ǣ*θ*i", "expected": "*ʃ*ēa*θ*i"},
+        {"id": "late-ordinary-negative", "component": "OELatePalatalDiphthong", "input": "*ʤ*e*s*t*i", "expected": "*ʤ*e*s*t*i"}
+      ]
+    }
+  ],
+  "probes": [
+    {"id": "before_ordinary", "stage": "OEWsPalatalDiphthongization", "side": "before"},
+    {"id": "after_ordinary", "stage": "OEWsPalatalDiphthongization", "side": "after"},
+    {"id": "after_mutation", "stage": "OEIUmlaut", "side": "after"},
+    {"id": "after_late", "stage": "OELatePalatalDiphthong", "side": "after"}
+  ]
+}

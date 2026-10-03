@@ -7,7 +7,7 @@ centrally the vowel produced from \emph{*ē₁} by the Northwest Germanic loweri
 — was nasalized when a nasal consonant followed and survived. The nasalized
 vowel was afterwards rounded in Anglo-Frisian, which is why Old English has
 *mōna* ‘moon’, *mōnaþ* ‘month’ and *spōn* ‘spoon’ against Old High German
-*māno*, *mānōd*, *spān* and Old Norse *máni*, *mánaðr*, *spánn*. Campbell
+*māno* ‘moon’, *mānōd* ‘month’, *spān* ‘spoon’ and Old Norse *máni* ‘moon’, *mánaðr* ‘month’, *spánn* ‘spoon’. Campbell
 describes the split of Germanic \emph{ǣ¹} before nasals in these terms and
 identifies the vowel that the rounding operated on as a nasalized and unrounded
 [ą̄]{.recon} [@Campbell1959, p. 50, §127; p. 50, §128 n. 1]. Fulk places the
@@ -43,8 +43,8 @@ define EAFLongANasalRounding [
 The rule consumes the \emph{*ā} created by
 [SC024 PNWGmcLongELowering](#rule-PNWGmcLongELowering): displacing the lowering
 after this rule leaves the nasalization without an input, and [mḗnōθz]{.recon}
-‘month’ surfaces as [*mānaþ*]{.pred} in place of OE *mōnaþ*, [spḗnuz]{.recon}
-‘spoon’ as [*spān*]{.pred} in place of *spōn*. Its output is consumed in turn by
+‘month’ surfaces as [*mānaþ*]{.pred} in place of OE *mōnaþ* ‘month’, [spḗnuz]{.recon}
+‘spoon’ as [*spān*]{.pred} in place of *spōn* ‘spoon’. Its output is consumed in turn by
 [SC104 EAFNasalizedLowRounding](#rule-EAFNasalizedLowRounding), which supplies
 the rounded vowel that the two words actually show.
 

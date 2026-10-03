@@ -1,6 +1,6 @@
-# Introduction
+# Introduction {.unnumbered}
 
-## From sound law to derivation
+## From sound law to derivation {.unnumbered}
 
 Historical linguists ordinarily test an etymology by carrying a reconstructed form through the sound changes that separate it from its alleged reflex. Most such derivations remain implicit. A scholar knows that Proto-Germanic \emph{*p} yields Old English \emph{f}, that West Germanic \emph{*z} became \emph{r} under the appropriate conditions, and that one change must have preceded another because the reverse order produces the wrong form. For a single word this mental arithmetic presents little difficulty. Across hundreds of words and scores of interacting changes it becomes treacherous. Each step may look familiar while the derivation as a whole is false.
 
@@ -10,7 +10,7 @@ No new principle is involved. The Neogrammarians already demanded exceptionless 
 
 I apply this method to the development of Proto-Germanic and early West Germanic forms into Old English. Germanic makes a severe test. Its historical grammar rests on two centuries of philological labor, while Old English offers abundant but orthographically and dialectally varied testimony [@Campbell1959; @HoggGrammar1992; @RingeTaylor2014; @Fulk2018]. A computational account cannot plead scarcity of evidence. It must reproduce familiar developments, identify the evidence for their order, and explain why its input sometimes differs from the headword printed in an etymological dictionary.
 
-## The formal claim
+## The formal claim {.unnumbered}
 
 A sound change defines a relation between strings. For each etymology I supply a reconstructed input to an ordered series of such relations and compare the result with an Old English form. Kaplan and Kay demonstrated that the familiar rewrite rules of phonology admit a finite-state interpretation [@KaplanKay1994]; Foma gives that interpretation executable form [@Hulden2009]. A toy rule deleting final \emph{*z} may be written:
 
@@ -24,7 +24,7 @@ Order gives the cascade its historical content. An early change may create the e
 
 Backward reconstruction requires a further restriction. An unrestricted inverse transducer will propose formally possible strings that no Germanic language could have inherited. I therefore restrict backward reconstruction with an inventory and a statement of permissible ancestral forms. Reconstruction always combines correspondences with a theory of what could count as a word in the \emph{Grundsprache}; this restriction states that theory rather than leaving it tacit.
 
-## Inputs, targets, and success
+## Inputs, targets, and success {.unnumbered}
 
 I compare a selected earlier Germanic form with a selected Old English target. Neither selection is innocent. Dictionaries cite lexemes, but sound change operates on word-forms. The ancestor of an Old English plural, preterite, or oblique case may differ from the reconstructed lemma in precisely the material on which a later sound law acts. Kroonen and Orel provide indispensable lexical reconstructions, while the grammars often supply the paradigm history needed to choose the actual input [@Orel2003; @Kroonen2013; @RingeTaylor2014].
 
@@ -36,7 +36,7 @@ The target also requires judgment. Old English spelling varies by date, dialect,
 
 Within these limits a successful derivation has three senses. It succeeds formally when the output string matches the target. It succeeds philologically when the chosen input and comparator are the proper forms to compare. It succeeds historically when the proposed path agrees with the wider Germanic evidence. The first kind of success is cheap. The argument of the book concerns the conjunction of all three.
 
-## The evidence of failure
+## The evidence of failure {.unnumbered}
 
 Regular sound change makes irregularity legible. If an inherited form refuses to pass through an otherwise successful cascade, the mismatch demands a name. Analogy may have replaced the expected reflex with a form drawn from another paradigm cell. Borrowing may have introduced the word after the relevant changes. A dialectal form may lie outside the modeled West Saxon path. The target may be late, corrupt, or normalized beyond what the manuscript evidence warrants. Finally, either the reconstruction or the rule may be wrong.
 
@@ -44,7 +44,7 @@ These possibilities should not be suppressed by narrow, lexeme-specific “sound
 
 This treatment follows the original Burmish CAPR work, in which resistant forms often disclosed loans or mistaken cognate assignments. Old English shifts the balance toward morphology and analogy, but the methodological advantage remains the same. Failure concentrates inquiry. It tells us which assumption—input, target, environment, order, or lexical history—must bear the explanation.
 
-## Evidence for relative chronology
+## Evidence for relative chronology {.unnumbered}
 
 The chronology chapters combine three kinds of evidence. First come the statements of the standard historical grammars. These establish the received description and often the broad order of developments [@Campbell1959; @HoggGrammar1992; @RingeTaylor2014; @Fulk2018]. Second come individual witness words. A derivation that succeeds under one order and fails under the reverse order supplies direct lexical evidence for that relation. Third come exhaustive order tests across the active dataset. These reveal whether an apparently decisive relation is local, whether other words contradict it, and how far a rule can move without disturbing any output.
 
@@ -54,7 +54,7 @@ A note on notation: a superscript dagger placed immediately before an italicized
 
 Sims-Williams argues for mechanizing precisely this kind of reasoning [@SimsWilliams2018]. Computation does not replace the historical argument; it makes the extent of that argument measurable. A traditional chronology may prove correct but less tightly constrained than its customary presentation suggests. A relation described as local may in fact rest only on a broad terminus. Such negative results are salutary. They separate what the data demonstrate from what a convenient exposition merely presupposes.
 
-## Rules and words
+## Rules and words {.unnumbered}
 
 The book accordingly moves twice through the same history. Part I begins with the ordered rules. For each development it states the historical problem, gives the rule in formal notation, and examines the evidence for placement. The code appears because it is part of the claim, but the code-name is never an explanation. `OEIUmlaut`, for example, is only a rule name; its linguistic content lies in the stated environment, the historical discussion, and the words whose derivations depend upon it.
 
@@ -62,7 +62,7 @@ Part II begins with the words. Each entry identifies the reconstruction, the sel
 
 The reader can thus move in either direction. A chronology chapter names the lexical witnesses that constrain a rule; their entries display the complete derivations. A lexical entry invokes a change; the corresponding chapter explains its formulation and place in the cascade. The index verborum provides a third route through the material, gathering reconstructed and attested forms by language.
 
-## Reproducibility and disagreement
+## Reproducibility and disagreement {.unnumbered}
 
 An executable derivation identifies the exact point of disagreement. One reader may accept a sound change but reject its environment; another may accept the rule and dispute its order; a third may object to the selected paradigm cell or to the normalization of the Old English target. Each objection addresses a recorded decision. Given the same inputs, rules, and order, the stated outputs follow. Reproducibility here concerns those consequences, not the surrender of philological judgment to an algorithm.
 
@@ -70,7 +70,7 @@ Prose can sound settled while concealing several incompatible derivations. Code 
 
 The converse danger is false precision. A deterministic cascade may tempt the reader to mistake exact strings for exact history. Every result still depends on choices about segmentation, symbol inventory, reconstruction, morphology, dialect, chronology, and orthography. I therefore cite the philological sources, display the selected forms, preserve unresolved exceptions, and distinguish tested order from source-based order. Those choices remain accountable to philology.
 
-## The argument
+## The argument {.unnumbered}
 
 A book must advance an argument. Mine is that traditional rule-based reconstruction becomes clearer when every proposed derivation can be executed, every rule must face the whole lexicon, and every failure is reported. The Germanic-to-Old-English case shows both the power and the boundary of that claim. Much of the history admits a coherent ordered account. The residue does not disappear: it resolves into morphology, analogy, variation, borrowing, imperfect attestation, and a small number of genuine problems.
 

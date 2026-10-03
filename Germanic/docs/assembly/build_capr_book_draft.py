@@ -189,7 +189,7 @@ def transform_chronology(text: str) -> str:
             # Historical chapter heading
             if not seen_chapter and preamble:
                 # Emit accumulated preamble as an unnumbered chapter so it
-                # sits visibly between the \part heading and Chapter 2
+                # sits visibly between the \part heading and the first historical chapter
                 # without consuming a chapter counter number.
                 out.append("# Sound-change overview {.unnumbered}")
                 for p in preamble:

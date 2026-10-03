@@ -80,6 +80,9 @@ BOOK_DIR = REPO_ROOT / "Germanic/docs/book"
 INDEX_BUILDER = TOOLS / "build_index_verborum.py"
 INDEX_HEADER = ASSEMBLY / "book_draft_index_registry.tex"
 BOOK_DRAFT_BUILDER = ASSEMBLY / "build_capr_book_draft.py"
+LEXICAL_TRACE = FULL_TRACE.with_name("oe_derivation_class_trace_report.txt")
+LEXICAL_COMPACT = FULL_TRACE.with_name("oe_derivation_class_trace_report.compact.md")
+LEXICAL_PROVENANCE = ASSEMBLY / "lexical_source_provenance.json"
 
 MATRIX = BASELINE_DIR / "cascade_interaction_matrix.tsv"
 MATRIX_PROVENANCE = BASELINE_DIR / "cascade_interaction_provenance.json"
@@ -100,6 +103,9 @@ ARCHIVE_PATHS = tuple(
     SC_DIR / rel for rel in (
         "cascade_baseline/historical_audit_table.tsv",
         "cascade_baseline/rename_migration_manifest.tsv",
+        "cascade_baseline/cascade_baseline_outputs_legacy380.tsv",
+        "cascade_baseline/cascade_baseline_outputs_pre_sc056.tsv",
+        "cascade_baseline/cascade_baseline_summary_pre_sc056.json",
         "registry/archival_orders.tsv",
         "order_tests/chronology_cards/chronology_card_index.tsv",
         "order_tests/chronology_cards/chronology_graph_nodes.tsv",
@@ -183,6 +189,60 @@ def _render_book_draft() -> dict:
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return {mod.OUTPUT_PATH: mod.build_book_markdown()}
+
+
+def _lexical_outputs() -> list:
+    names = ("regular", "attested_variant", "early_analogy", "late_analogy",
+             "reconstructed_oe", "known_unmodelled", "unexplained", "all_by_class")
+    return [LEXICAL_TRACE, LEXICAL_COMPACT, ASSEMBLY / "manifest_summary.md",
+            ASSEMBLY / "lexical_volume_alpha_01.md"] + [
+                ASSEMBLY / f"manifest_{name}.tsv" for name in names]
+
+
+def _lexical_input_hashes() -> dict:
+    inputs = [layout().corpus_tsv, SANDBOX_FST, FULL_TRACE,
+              REPO_ROOT / "Germanic/data/entry_stage_metadata.tsv",
+              ASSEMBLY / "section_introductions_draft.md",
+              ASSEMBLY / "build_class_manifests.py",
+              ASSEMBLY / "build_full_lexical_volume.py",
+              TOOLS / "oe_derivation_class_trace_report.py",
+              TOOLS / "oe_full_trace_report.py", TOOLS / "compact_trace_report.py",
+              TOOLS / "artifact_graph.py"] + sorted(
+                  (REPO_ROOT / "Germanic/docs/lexeme_reports/model_entries").glob("*.model.md"))
+    return {_rel(p): hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs}
+
+
+def _lexical_verify() -> list:
+    if not LEXICAL_PROVENANCE.exists():
+        return [f"missing lexical source provenance; {REFRESH_HINT}"]
+    recorded = json.loads(LEXICAL_PROVENANCE.read_text(encoding="utf-8"))
+    if recorded.get("inputs") != _lexical_input_hashes():
+        return [f"lexical sources changed; {REFRESH_HINT}"]
+    for p in _lexical_outputs():
+        if not p.exists() or recorded["outputs"].get(_rel(p)) != hashlib.sha256(p.read_bytes()).hexdigest():
+            return [f"stale lexical output {_rel(p)}; {REFRESH_HINT}"]
+    return []
+
+
+def _lexical_build() -> list:
+    import oe_derivation_class_trace_report as lexical_trace
+    LEXICAL_TRACE.write_text(lexical_trace.project_full_trace(
+        lexical_trace.load_rows(layout().corpus_tsv), FULL_TRACE), encoding="utf-8")
+    for command in (
+        [sys.executable, str(TOOLS / "compact_trace_report.py"),
+         str(LEXICAL_TRACE), "-o", str(LEXICAL_COMPACT)],
+        [sys.executable, str(ASSEMBLY / "build_class_manifests.py")],
+        [sys.executable, str(ASSEMBLY / "build_full_lexical_volume.py")],
+    ):
+        result = subprocess.run(command, cwd=REPO_ROOT, capture_output=True, text=True)
+        if result.returncode:
+            raise GraphError(f"lexical builder failed: {result.stderr or result.stdout}")
+    LEXICAL_PROVENANCE.write_text(json.dumps({
+        "inputs": _lexical_input_hashes(),
+        "outputs": {_rel(p): hashlib.sha256(p.read_bytes()).hexdigest()
+                    for p in _lexical_outputs()},
+    }, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return [_rel(p) for p in _lexical_outputs()] + [_rel(LEXICAL_PROVENANCE)]
 
 
 # --------------------------------------------------------------------------
@@ -420,6 +480,10 @@ def nodes() -> tuple:
                     "reader SOURCE files + reader_manifest.tsv via "
                     "build_reader_book",
                     build_reader_book.render),
+        _runtime("lexical_sources",
+                 "corpus + model entries + fresh bins via lexical builders",
+                 _lexical_verify, _lexical_build,
+                 lambda: _lexical_outputs() + [LEXICAL_PROVENANCE]),
         _projection("book_draft",
                     "assembly sources via build_capr_book_draft",
                     _render_book_draft),
@@ -496,6 +560,20 @@ def refresh(printer: Callable[[str], None] = print,
                 raise GraphError(
                     "registry_views/coverage_census did not reach a fixed "
                     "point; a generator is nondeterministic")
+        if name in ("book_draft", "index_verborum"):
+            if name == "index_verborum":
+                continue
+            for _ in range(_MAX_FIXED_POINT_PASSES):
+                pass_changed = len(changed)
+                run(graph["book_draft"])
+                run(graph["index_verborum"])
+                if len(changed) == pass_changed:
+                    break
+            else:
+                raise GraphError(
+                    "book_draft/index_verborum did not reach a fixed point; "
+                    "check the assembly and index authorities")
+            continue
         run(graph[name])
     return changed
 

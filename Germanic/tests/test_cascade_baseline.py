@@ -94,6 +94,7 @@ class LegacySubsetTests(unittest.TestCase):
 
     LEGACY_TSV = BASELINE_DIR / "cascade_baseline_outputs_legacy380.tsv"
     LEGACY_SHA = "fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf"
+    ACTIVE_SHA = "04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac852c409"
 
     def setUp(self):
         self.assertTrue(self.LEGACY_TSV.exists(), f"missing {self.LEGACY_TSV}")
@@ -115,22 +116,53 @@ class LegacySubsetTests(unittest.TestCase):
                          "frozen legacy380 file no longer reproduces the frozen fingerprint")
 
     def test_every_legacy_row_persists_identically_in_current_baseline(self):
-        current_by_key = {
-            (r["proto_norm"], r["counterpart"], r["concept"]): r
-            for r in self.current_rows
-        }
-        for legacy in self.legacy_rows:
-            key = (legacy["proto_norm"], legacy["counterpart"], legacy["concept"])
-            self.assertIn(key, current_by_key,
-                          f"legacy row {key} missing from current baseline")
-            current = current_by_key[key]
-            for field in ("proto", "accepted", "output_count", "match", "outputs"):
-                self.assertEqual(current[field], legacy[field],
-                                 f"legacy row {key} drifted in field {field!r}")
+        mod = _load_module("cascade_baseline", TOOLS / "cascade_baseline.py")
+        with (BASELINE_DIR / "approved_input_migrations.tsv").open(encoding="utf-8") as handle:
+            migrations = list(csv.DictReader(handle, delimiter="\t"))
+        selected = mod.legacy_subset(self.current_rows, self.legacy_rows, migrations)
+        self.assertEqual(len(selected), 380)
+        self.assertEqual([m["row_id"] for m in migrations], ["2040"])
+        import hashlib
+        digest = hashlib.sha256()
+        for row in selected:
+            digest.update((row["proto_norm"] + "\x1f" + row["outputs"] + "\x1e").encode())
+        self.assertEqual(digest.hexdigest(), self.ACTIVE_SHA)
 
     def test_summary_records_legacy_subset_invariant(self):
         self.assertEqual(self.summary["legacy_subset_count"], 380)
-        self.assertEqual(self.summary["legacy_subset_sha256"], self.LEGACY_SHA)
+        self.assertEqual(self.summary["legacy_subset_sha256"], self.ACTIVE_SHA)
+
+    def test_migration_rejects_unapproved_or_ambiguous_drift(self):
+        import copy
+        mod = _load_module("cascade_baseline", TOOLS / "cascade_baseline.py")
+        with (BASELINE_DIR / "approved_input_migrations.tsv").open(encoding="utf-8") as handle:
+            migrations = list(csv.DictReader(handle, delimiter="\t"))
+        for case in ("missing", "duplicate", "output", "wrong_input", "wrong_old", "unapproved"):
+            current, old, approved = copy.deepcopy((self.current_rows, self.legacy_rows, migrations))
+            gift = next(r for r in current if r["row_id"] == "2040")
+            if case == "missing":
+                current.remove(gift)
+            elif case == "duplicate":
+                current.append(copy.deepcopy(gift))
+            elif case == "output":
+                gift["outputs"] = "ġieft"
+            elif case == "wrong_input":
+                gift["proto"] = "*gēftiz"
+            elif case == "wrong_old":
+                approved[0]["old_proto"] = "*gēftiz"
+            else:
+                approved = []
+            with self.subTest(case=case), self.assertRaises(ValueError):
+                mod.legacy_subset(current, old, approved)
+
+    def test_all_pre_sc056_selected_outputs_are_preserved(self):
+        mod = _load_module("cascade_baseline", TOOLS / "cascade_baseline.py")
+        with (BASELINE_DIR / "cascade_baseline_outputs_pre_sc056.tsv").open(encoding="utf-8") as handle:
+            old = list(csv.DictReader(handle, delimiter="\t"))
+        with (BASELINE_DIR / "approved_input_migrations.tsv").open(encoding="utf-8") as handle:
+            migrations = list(csv.DictReader(handle, delimiter="\t"))
+        self.assertEqual(len(old), 387)
+        self.assertEqual(len(mod.legacy_subset(self.current_rows, old, migrations)), 387)
 
 
 class OrderManifestTests(unittest.TestCase):

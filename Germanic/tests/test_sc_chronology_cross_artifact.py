@@ -45,7 +45,7 @@ ALLOWED_STAGE_LABELS = {
     "preoe": {"Old English"},
     "oe": {"Old English"},
     "oe_ws": {"Old English"},
-    "ws_oe": {"Old English"},
+    "ws_oe": {"Old English", "West Saxon"},
     "": {"", "Old English", "Orthography & surface", "Proto-Germanic",
          "Technical"},
 }

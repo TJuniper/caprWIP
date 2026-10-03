@@ -27,7 +27,7 @@ Four objects must be distinguished in every derivation: the citation reconstruct
 
 The lexical catalogue is ordered by seven derivation classes in the current manifest. Counts in this alpha are:
 
-- Regular derivations: 76
+- Regular derivations: 79
 - Attested variants: 4
 - Early analogy: 36
 - Late analogy: 27
@@ -65,8 +65,9 @@ Proto input: _\*nḗdrōn_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{PNWGmc N Stem N Loss} & \emph{*nḗdrǭ} \\
-\mbox{PNWGmc Long E Lowering} & \emph{*nǣdrǭ} \\
+\mbox{PNWGmc Long E Lowering} & \emph{*nādrōn} \\
+\mbox{PNWGmc N Stem N Loss} & \emph{*nādrǭ} \\
+\mbox{EAF Long A Fronting} & \emph{*nǣdrǭ} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -322,8 +323,9 @@ Proto input: _\*bḗrō_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{PNWGmc Final Long O Raising} & \emph{*bḗru} \\
-\mbox{PNWGmc Long E Lowering} & \emph{*bǣru} \\
+\mbox{PNWGmc Long E Lowering} & \emph{*bārō} \\
+\mbox{PNWGmc Final Long O Raising} & \emph{*bāru} \\
+\mbox{EAF Long A Fronting} & \emph{*bǣru} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -711,7 +713,7 @@ Proto input: _\*báugijaną_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.26\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Au Fronting} & \emph{*báeugijaną} \\
+\mbox{OE Au Brightening} & \emph{*báeugijaną} \\
 \mbox{OE Diphthong Leveling} & \emph{*bēagijaną} \\
 OE Heavy Syllable Nasal Apocope & \emph{*bēagijan} \\
 \mbox{OE Secondary Nasalization} & \emph{*bēagijąn} \\
@@ -938,7 +940,7 @@ Proto input: _\*dḗdiz_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.582\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.388\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -947,8 +949,9 @@ Proto input: _\*dḗdiz_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{EAF Final Z Deletion} & \emph{*dḗdi} \\
-\mbox{PNWGmc Long E Lowering} & \emph{*dǣdi} \\
+\mbox{PNWGmc Long E Lowering} & \emph{*dādiz} \\
+\mbox{EAF Final Z Deletion} & \emph{*dādi} \\
+\mbox{EAF Long A Fronting} & \emph{*dǣdi} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -1317,7 +1320,7 @@ Proto input: _\*fláuxz_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Au Fronting} & \emph{*fláeux} \\
+\mbox{OE Au Brightening} & \emph{*fláeux} \\
 \mbox{OE Diphthong Leveling} & \emph{*flēax} \\
 \end{tabularx}
 \end{minipage}
@@ -1567,6 +1570,275 @@ This entry concerns the noun [_gang_]{.iv lang=oe sort=gang role=comparison_form
 
 From [gángaz]{.recon} ‘gang’, loss of final _-z_ gives [gánga]{.recon} ‘gang’, and later loss of final bare _-a_ yields [_gang_]{.iv lang=oe sort=gang role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2038-gang-gang.model.md:33" occ_id="Germanic/docs/lexeme_reports/model_entries/2038-gang-gang.model.md:33:1"} 'going, way'. The development is therefore regular: _\*gángaz_ > _gang_.
 
+### gift — OE _ġift_
+
+Derivation: _\*gíftiz_ > _ġift_ (regular).
+
+#### Derivation trace
+
+Proto input: _\*gíftiz_
+
+\begingroup
+\setlength{\fboxsep}{6pt}
+\noindent\fbox{%
+\begin{minipage}{0.97\linewidth}
+\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Earlier Germanic changes}\par
+\vspace{0.35em}
+\raggedright
+\centering\textbf{Northwest and West Germanic}\par
+\raggedright
+\vspace{0.2em}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{EAF Final Z Deletion} & \emph{*gífti} \\
+\end{tabularx}
+\vspace{0.6em}
+\centering\textbf{Early Anglo-Frisian}\par
+\raggedright
+\vspace{0.2em}
+\raggedright [no change]\par
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Old English changes}\par
+\vspace{0.35em}
+\raggedright
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{OE Velar Palatalization} & \emph{*ʤífti} \\
+\mbox{OE High Vowel Apocope} & \emph{*ʤíft} \\
+\end{tabularx}
+\end{minipage}
+\\
+\end{tabular}
+\end{minipage}%
+}
+\endgroup
+
+Old English form: _ġift_
+
+#### A. The selected reconstruction and the question it answers
+
+Old English *ġift* 'gift' is a small word with unusually important
+chronological consequences. A simple high vowel follows an initial
+palatal consonant, whereas *ġiefan* 'give' shows the diphthongal treatment
+associated with that consonant. To explain the difference we must ask
+which vowel was present when ordinary palatal diphthongization operated,
+not simply which order of rules can reproduce the final spellings.
+Campbell lists the short-i gift headword among his initial-palatal
+examples [@Campbell1959, pp. 173–174, §427].
+
+We select PGmc [giftiz]{.recon .iv lang=pgmc sort=giftiz source_ref="Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:19" occ_id="Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:19:1"} 'gift' following
+Ringe's explicit reconstruction [@Ringe2017, p. 135].
+Our acute root-stress convention does not add a different vowel or
+claim that the source prints an accent. Both the comparative reconstruction
+and the selected computational input use the raised vowel. This is a
+regular inherited derivation, not a late analogical substitute input.
+The decision is nevertheless not a claim that every etymological source
+prints the same reconstruction. A substantial e-form tradition must be
+explained and preserved rather than suppressed.
+
+#### B. Orel: the full e-vowel noun reconstruction
+
+Orel's noun entry gives an e-vowel reconstruction, normalized here as
+[geftiz]{.recon .iv lang=pgmc sort=geftiz role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:32" occ_id="Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:32:1"} 'gift',
+and connects it with the verb 'give' [@Orel2003, p. 130].
+It has the full iz ending, not merely a bare root or a stem ending in a
+hyphen. His evidence includes the Old English gift headword and the Old
+Frisian counterpart *jeft* 'gift, privilege', alongside the wider inherited
+formation. The e is plainly printed in the original page: it is not an
+OCR accident or a vowel introduced by our transcription.
+Only the initial velar sign is normalized to g here; no argument about
+stop versus fricative history is drawn from that typographic normalization.
+
+Orel thus provides genuine published support for the older e-input used
+in our model. However, the entry does not explain why e is reconstructed
+despite the high-vowel reflex, identify a specific later raising date, or
+argue against the early raising account. Its derivation from 'give' supplies
+an etymological relationship; that alone does not demonstrate that the
+noun's realized root vowel remained identical to the verb's at every
+historical stage. The cited bibliography points to morphology and verbal
+etymology treatments, including Bammesberger and Seebold, considered below
+[@Orel2003, p. 130]. Those references are evidence of the scholarly
+tradition behind the entry, not a license to attribute an unstated
+phonological argument to Orel.
+
+#### C. Kluge–Seebold: an e-vowel feminine stem
+
+Kluge–Seebold gives
+[gefti-]{.recon .iv lang=pgmc sort=gefti role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:57" occ_id="Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:57:1"} 'gift',
+explicitly a Germanic feminine stem, and relates the noun to 'give'
+[@KlugeSeebold2011, p. 359]. This is independent confirmation that an
+e-vowel etymological presentation is established in major reference works.
+It is not the same printed object as Orel's full nominative reconstruction.
+We must not silently append z and then present the expanded form as a
+quotation from Kluge–Seebold.
+
+The entry cites the Old English gift headword and the Old Frisian form
+*jeft(e)* 'gift' within the inherited family
+[@KlugeSeebold2011, p. 359]. Its principal discussion concerns the word's
+semantic history; it does not supply a worked chronology of root-vowel
+raising versus palatal diphthongization. Consequently the entry establishes
+the stem and its etymological affiliation more directly than it establishes
+the vowel quality at a narrowly dated phonological node. This does not
+prove that the stem notation is purely abstract. It means that such an
+interpretation, if adopted, would require an argument beyond the entry.
+
+#### D. Bammesberger: the e-grade derivational analysis
+
+Bammesberger places the formation among ti-stems built on an e-grade
+verbal root and prints a segmented e-vowel form
+[@Bammesberger1990, p. 142, §5.4.2].
+His discussion relates the noun to the Germanic root of 'give' and treats
+the consonantal sequence ft as regular in the ti-abstract formed from a
+labial-final root. On the same page the formation also participates in
+his explanation of the structural pattern of other abstracts.
+The continuation lists further e-grade formations with Old English
+i-vowel reflexes [@Bammesberger1990, pp. 142–143].
+
+This is a substantive reason for retaining e in the derivational analysis:
+the noun belongs to an e-grade formation, not an arbitrarily invented
+high-vowel root. But derivational grade and realized surface quality
+after a regular conditioned sound change are different questions.
+An e-grade formation can have a later i-reflex without becoming a
+zero-grade formation. The passage supports the morphological analysis;
+it does not itself decide that the inherited e survived until Old
+English mutation or state a competing date for raising.
+We therefore retain its e-grade evidence in the deeper explanation
+without using it alone to override a separately argued phonological
+reconstruction [@Bammesberger1990, pp. 142–143].
+
+#### E. Seebold: segmented forms and the limits of notation
+
+Seebold prints a segmented e-vowel formation with the full nominal
+ending and supplies more differentiated Old English evidence than a
+single normalized citation [@Seebold1970, p. 218].
+He distinguishes *giftu* 'wedding', explicitly plural,
+*gyft* 'marriage', and *feoh-gift* 'gift of money'. A separate homonymous
+noun associated with 'food' belongs to a different formation and must
+not be recruited as attestation for the noun treated here.
+These distinctions matter: the formation's identity is well supported,
+but a plural or compound citation is not automatically evidence for
+a particular singular manuscript token.
+
+His methodological introduction also makes clear that the reconstructed
+notation is not uniformly a direct transcription of one phonological
+moment. Earlier states are reconstructed for selected developments,
+including the development of ei to long i
+[@Seebold1970, p. 35]. The symbols for stem classes are modelled on
+common-Germanic forms without claiming exact phonetic reproduction
+[@Seebold1970, pp. 35–36].
+These explicit cautions make it particularly important not to read every
+segment mechanically as an input to a later sound-change cascade.
+They do not, however, specifically explain the root e in this noun:
+the warning about stem-class endings cannot be generalized into proof
+that all reconstructed root vowels are abstract morphological labels.
+We leave that interpretive limit visible rather than declaring the
+e/i discrepancy merely notational.
+
+#### F. Ringe: the realized PGmc i-form and its phonological rationale
+
+Ringe explicitly gives PGmc [giftiz]{.recon .iv lang=pgmc sort=giftiz source_ref="Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:129" occ_id="Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:129:1"}
+'gift' as the nominal formation associated with the verb 'give'
+[@Ringe2017, p. 135]. His discussion places it in the broader treatment
+of productive nominal formation and consonantal developments.
+The Old English comparison is plural *ġifta* 'wedding', with a change
+of stem class. We do not turn that plural into a claim that Ringe
+attests our normalized singular target.
+
+The vowel has a separate phonological explanation. Ringe states that
+e was raised to i when a high front vocalic followed in the same or
+immediately succeeding syllable [@Ringe2017, pp. 151–152].
+The noun's following i supplies precisely such an environment.
+This explains how an etymological e-grade formation can be represented
+with i in a realized phonological reconstruction. It is not a lexical
+exception, a grammatical condition on nouns, or a repair licensed
+only because this one word otherwise produces an unwanted diphthong.
+
+Ringe is more cautious about the exact ancestral dating than a bare
+reconstruction might suggest. The merger of stressed e and i in Gothic
+prevents direct demonstration of the raising there. His indirect
+argument depends on raising preceding j-loss and subsequent contraction,
+particularly the history of the numeral 'three'. He calls a PGmc date
+the most probable hypothesis, not completely certain
+[@Ringe2017, pp. 152–153].
+That qualification belongs in our account. It concerns the placement
+of the change in the deeper ancestry; it must not be misrepresented
+as doubt that his noun entry actually prints an i-vowel reconstruction.
+
+Ringe and Taylor independently insist on separating this inherited
+raising from Old English front mutation: the older change occurred
+hundreds of years earlier, and alleged later repetitions are rare and
+doubtful [@RingeTaylor2014, p. 220].
+Their discussion therefore supplies an important chronological check
+against explaining this noun's inherited high vowel by the general
+Old English mutation rule.
+
+#### G. Why we choose i, and what changes in the derivation
+
+For the input to a PGmc-to-OE cascade we prefer the explicitly staged
+phonological reconstruction, rather than carrying an earlier etymological
+e-grade representation forward until a convenient later rule can
+correct it. Ringe's noun and regular raising account together supply
+that reconstruction [@Ringe2017, p. 135, pp. 151–153].
+The competing reference forms remain part of the evidence: we neither
+count dictionary spellings as votes nor conclude that their authors
+were wrong merely because they did not give a worked chronology.
+
+With earlier i already present, the noun undergoes the inherited
+consonantal and ending developments, then initial palatalization.
+Ordinary palatal diphthongization does not change its high vowel, and
+Old English mutation need not raise an e that is no longer there.
+Loss of the final high vowel and surface spelling yield *ġift* 'gift'.
+Our earlier implementation instead allowed a selected e-input to reach
+late mutation and used that correction to justify putting all palatal
+diphthongization afterward. The right final spelling concealed the
+wrongly conflated histories.
+
+The independent ordinary chronology is breaking, then palatal
+diphthongization, then mutation
+[@Fulk2018, p. 74; @RingeTaylor2014, pp. 215–217, 222].
+The worked contrast is *ġiest* 'guest': its low-front vowel first becomes
+ea after the palatal, and ea then becomes ie under mutation. Gift's
+earlier i is a negative control on ordinary diphthongization, not an
+independent proof of that relative order.
+The later treatment of *sċēaþ* 'sheath' is separately retained after
+mutation; its mutation-derived long vowel does not require ordinary
+diphthongization as a whole to be late
+[@Campbell1959, pp. 68–69; @RingeTaylor2014, p. 235].
+The complete conditioning of that later treatment remains unresolved.
+
+#### H. Confidence and the remaining alternatives
+
+Our confidence is strongest in the distinction between inherited raising
+and later OE mutation, and in the independently supported ordinary
+diphthongization chronology. The choice of Ringe's i-input is well
+motivated as an explicit working phonological reconstruction, but is
+not advertised as unanimous: Orel's e-form, Kluge–Seebold's e-stem and
+the e-grade derivational presentations remain genuine alternatives
+[@Orel2003, p. 130; @KlugeSeebold2011, p. 359;
+@Bammesberger1990, pp. 142–143; @Seebold1970, p. 218].
+We have not established that every one of those forms denotes exactly
+the same historical phonological checkpoint as Ringe's input.
+
+Confidence in the precise PGmc date is qualified by Ringe's own indirect
+evidence [@Ringe2017, pp. 152–153]. Confidence in our normalized target
+as a headword is distinct from certification of a diplomatic paradigm
+cell [@Campbell1959, pp. 173–174].
+Variant spellings alone do not establish a different exceptionless
+sound law, lexical diffusion, or an analogical history; those explanations
+would need their own evidence. We make no such new claim here.
+
+The computational comparison is deliberately secondary. The adopted
+input and ordinary chronology preserve every previously generated final
+form, while realizing the source sequence for guest and leaving sheath's
+derivation unchanged. That demonstrates compatibility of the selected
+account with the present corpus, not its historical truth by output score.
+If stronger evidence eventually requires an e-vowel at the input node,
+the necessary earlier regular raising must be specified and tested as
+such; it must not be silently delegated again to late OE mutation.
+
 ### give — OE _ġiefan_
 
 Derivation: _\*gébaną_ > _ġiefan_ (regular).
@@ -1719,8 +1991,9 @@ Proto input: _\*gánsz_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-EAF Nasal Spirant Lengthening & \emph{*gōns} \\
-\mbox{EAF Nasal Spirant Loss} & \emph{*gōs} \\
+EAF Nasal Spirant Lengthening & \emph{*gãns} \\
+\mbox{EAF Nasal Spirant Loss} & \emph{*gãs} \\
+\mbox{EAF Nasalized Low Rounding} & \emph{*gōs} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -1892,8 +2165,8 @@ Proto input: _\*gástiz_
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{EAF Brightening} & \emph{*gæsti} \\
 \mbox{OE Velar Palatalization} & \emph{*ʤæsti} \\
-\mbox{OE I Umlaut} & \emph{*ʤesti} \\
-OE Ws Palatal Diphthongization & \emph{*ʤiesti} \\
+OE Ws Palatal Diphthongization & \emph{*ʤeasti} \\
+\mbox{OE I Umlaut} & \emph{*ʤiesti} \\
 \mbox{OE High Vowel Apocope} & \emph{*ʤiest} \\
 \end{tabularx}
 \end{minipage}
@@ -1934,7 +2207,7 @@ Proto input: _\*xḗrą_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -1943,7 +2216,8 @@ Proto input: _\*xḗrą_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{PNWGmc Long E Lowering} & \emph{*xǣrą} \\
+\mbox{PNWGmc Long E Lowering} & \emph{*xārą} \\
+\mbox{EAF Long A Fronting} & \emph{*xǣrą} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -2532,7 +2806,7 @@ Proto input: _\*líznōjaną_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.22\linewidth}@{\hspace{0.25em}}}
-\mbox{Rhotacism} & \emph{*lírnōjaną} \\
+\mbox{EAF Rhotacism} & \emph{*lírnōjaną} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -2919,8 +3193,8 @@ Proto input: _\*mélukz_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Med Unstressed U Lowering} & \emph{*mélok} \\
-\mbox{OE Back Mutation} & \emph{*méolok} \\
+\mbox{OE Back Mutation} & \emph{*méoluk} \\
+\mbox{OE Med Unstressed U Lowering} & \emph{*méolok} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -2968,9 +3242,7 @@ Proto input: _\*mōdēr_
 \centering\textbf{Northwest and West Germanic}\par
 \raggedright
 \vspace{0.2em}
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{PNWGmc Long E Lowering} & \emph{*mōdǣr} \\
-\end{tabularx}
+\raggedright [no change]\par
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
 \raggedright
@@ -2983,8 +3255,7 @@ Proto input: _\*mōdēr_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-OE Unstressed Long Vowel Shortening & \emph{*mōdær} \\
-\mbox{OE Unstressed AE Merger} & \emph{*mōder} \\
+OE Unstressed Long Vowel Shortening & \emph{*mōder} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -3220,7 +3491,7 @@ Proto input: _\*skḗpą_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -3229,7 +3500,8 @@ Proto input: _\*skḗpą_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{PNWGmc Long E Lowering} & \emph{*skǣpą} \\
+\mbox{PNWGmc Long E Lowering} & \emph{*skāpą} \\
+\mbox{EAF Long A Fronting} & \emph{*skǣpą} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -3420,7 +3692,7 @@ Proto input: _\*slḗpaną_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -3429,7 +3701,8 @@ Proto input: _\*slḗpaną_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.18\linewidth}@{\hspace{0.25em}}}
-\mbox{PNWGmc Long E Lowering} & \emph{*slǣpaną} \\
+\mbox{PNWGmc Long E Lowering} & \emph{*slāpaną} \\
+\mbox{EAF Long A Fronting} & \emph{*slǣpaną} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -4643,7 +4916,7 @@ Proto input: _\*wḗpną_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -4652,7 +4925,8 @@ Proto input: _\*wḗpną_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{PNWGmc Long E Lowering} & \emph{*wǣpną} \\
+\mbox{PNWGmc Long E Lowering} & \emph{*wāpną} \\
+\mbox{EAF Long A Fronting} & \emph{*wǣpną} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -5089,6 +5363,145 @@ Four historical steps carry the form. (1) Coronal-w assimilation: [ízwiz]{.iv .
 
 This row is a chronology witness of unusual power for basic vocabulary. It forces coronal-w assimilation (SC008) to precede rhotacism (SC003): had rhotacism applied first, \*izwiz would have become [*irwiz*]{.pred source_ref="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:33" occ_id="Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:33:1"}, from which *ēow* is underivable. It is the corpus witness for SC098, the early apocope in unstressed words, and for its bleeding of i-umlaut (SC055), and it fixes the order of geminate-w vocalization (SC033) before degemination (SC031). See `docs/sound_changes/audits/corpus-maturation-01-candidate-adjudication.md` §2 and `docs/sound_changes/audits/sc098-dossier-unstressed-word-final-i-apocope.md`.
 
+### thought — OE _þōhte_
+
+Derivation: _\*θánxtē_ > _þōhte_ (regular).
+
+#### Derivation trace
+
+Proto input: _\*θánxtē_
+
+\begingroup
+\setlength{\fboxsep}{6pt}
+\noindent\fbox{%
+\begin{minipage}{0.97\linewidth}
+\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Earlier Germanic changes}\par
+\vspace{0.35em}
+\raggedright
+\centering\textbf{Northwest and West Germanic}\par
+\raggedright
+\vspace{0.2em}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{EAF Nasalized Low Rounding} & \emph{*θōxtē} \\
+\end{tabularx}
+\vspace{0.6em}
+\centering\textbf{Early Anglo-Frisian}\par
+\raggedright
+\vspace{0.2em}
+\raggedright [no change]\par
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Old English changes}\par
+\vspace{0.35em}
+\raggedright
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+OE Unstressed Long Vowel Shortening & \emph{*θōxte} \\
+\end{tabularx}
+\end{minipage}
+\\
+\end{tabular}
+\end{minipage}%
+}
+\endgroup
+
+Old English form: _þōhte_
+
+#### Reconstruction and comparative evidence
+
+The derivational input is the class I weak preterite third singular of the verb 'think', PGmc [θánxtē]{.iv .recon lang=pgmc sort=thanhte role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21:1"} 'thought' (traditionally \*þanhtē). Ringe gives the principal parts in full as \*þankijaną, \*þanhtē, \*þanhtaz, with the comparative set Gothic [þagkjan]{.iv lang=goth sort=thagkjan role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21:2"} 'think', [þāhta]{.iv lang=goth sort=thahta role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21:3"} 'thought', ON [þekkja]{.iv lang=on sort=thekkja role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21:4"} 'think', [þátti]{.iv lang=on sort=thatti role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21:5"} 'thought', OE *þenċan*, *þōhte*, *þōht*, OHG [denken]{.iv lang=ohg sort=denken role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21:6"} 'think', [dāhta]{.iv lang=ohg sort=dahta role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:21:7"} 'thought' [@Ringe2017, p. 281]. The preterite stem is reconstructed a second time, independently of the paradigm list, among the past participles that show pre-\*t devoicing: post-PIE \*tong- gives PGmc \*þank- in \*þankijaną beside \*þanhtaz 'thought' [@Ringe2017, p. 136]. In both passages the Proto-Germanic form carries the nasal before the dorsal fricative. The nasal is therefore present in the derivational input and its loss is derived by the cascade instead of being built into the reconstruction.
+
+The corpus already holds the present stem of the same verb as *think*, PGmc [θánkijaną]{.iv .recon lang=pgmc sort=thankijana role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:23" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:23:1"} 'think'. The preterite is entered as a separate row because the two stems have entirely different vowel histories, and only the preterite passes through the nasal-loss complex.
+
+#### Old English evidence
+
+West Saxon [þōhte]{.iv lang=oe sort=thohte role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:27" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:27:1"} 'thought' is the standard preterite singular of *þenċan* [@ClarkHall1960; @BosworthToller1898]. Fulk names this exact form as the Anglo-Frisian witness for the rounding of the lengthened nasalized low vowel: the lengthened vowels "may have remained nasalized for a considerable time, well past the close of the NWGmc. period, since \*ą̄ produced this way developed to ō in Anglo-Frisian (as in OE pret. sg. þōhte, OFris. thochte 'thought') and did not fall together with OE ā < ai or OFris. ā < ai, au" [@Fulk2018, §4.1, p. 55]. The Old Frisian counterpart [thochte]{.iv lang=ofris sort=thochte role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:27" occ_id="Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md:27:2"} 'thought' confirms that the development is Anglo-Frisian and not an English innovation.
+
+#### Development to Old English
+
+The derivation has two firing stages and no others. Loss of the nasal before the dorsal fricative nasalizes and lengthens the preceding vowel, so \*θánxtē becomes \*θãxtē; the Anglo-Frisian rounding of the nasalized low vowel then gives \*θōxtē, which surfaces as *þōhte* with the fricative written *h* [@Ringe2017, p. 281; @Fulk2018, §4.1, p. 55].
+
+Three non-firings matter as much as the firings. The Ingvaeonic nasal-spirant law does not apply, correctly, because the dorsal fricative is not one of the \*f, \*þ, \*s spirants that law governs. Preconsonantal loss of the dorsal fricative does not apply either, so the fricative survives to the surface; this is what makes the preterite a cleaner diagnostic than *fist* [@Ringe2017, p. 281]. Finally the rounding does not touch ordinary long low vowels of other origin, as *stone* and *home* show.
+
+#### Why this row is in the corpus
+
+The nasal-loss rule has a high-vowel branch and a low-vowel branch. Before this row only the high-vowel branch had a corpus witness, in *fist* \*fúnxstiz, whose input vowel is \*u and which never reaches the rounding rule at all. The low-vowel pathway \*aNx > \*ą̄x > \*ōx rested on the handbooks alone. This row supplies an attested instance of it, and with it the feeding relation between the nasal loss and the rounding, which was thereby promoted from stage entailment to an independently demonstrated ordering. See `docs/sound_changes/audits/sc025-sc104-nasalized-low-vowel-adjudication.md` §12.
+
+### hue — OE _hīew_
+
+Derivation: _\*xéwją_ > _hīew_ (regular).
+
+#### Derivation trace
+
+Proto input: _\*xéwją_
+
+\begingroup
+\setlength{\fboxsep}{6pt}
+\noindent\fbox{%
+\begin{minipage}{0.97\linewidth}
+\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.339\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.630\linewidth}@{}}
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Earlier Germanic changes}\par
+\vspace{0.35em}
+\raggedright
+\centering\textbf{Northwest and West Germanic}\par
+\raggedright
+\vspace{0.2em}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{PWGmc J Gemination} & \emph{*xéwwją} \\
+\end{tabularx}
+\vspace{0.6em}
+\centering\textbf{Early Anglo-Frisian}\par
+\raggedright
+\vspace{0.2em}
+\raggedright [no change]\par
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Old English changes}\par
+\vspace{0.35em}
+\raggedright
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.18\linewidth}@{\hspace{0.25em}}}
+\mbox{OE Ew Long Diphthong} & \emph{*xēowwją} \\
+\mbox{OE WW Simplification} & \emph{*xēowją} \\
+OE Velar Fricative Palatalization & \emph{*çēowją} \\
+OE Heavy Syllable Nasal Apocope & \emph{*çēowj} \\
+\mbox{OE I Umlaut} & \emph{*çīewj} \\
+\mbox{OE J Loss After Heavy} & \emph{*çīew} \\
+\end{tabularx}
+\end{minipage}
+\\
+\end{tabular}
+\end{minipage}%
+}
+\endgroup
+
+Old English form: _hīew_
+
+#### Reconstruction and comparative evidence
+
+The derivational input is the Proto-Germanic neuter *ja*-stem noun 'visible layer, appearance'. Kroonen reconstructs [heuja-]{.iv .recon lang=pgmc sort=heuja role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21:1"} on the comparative set Gothic [hiwi]{.iv lang=goth sort=hiwi role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21:2"} 'surface appearance, complexion', ON [hý]{.iv lang=on sort=hy role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21:3"} 'down on plants', Nw. *hy*, both of the down on plants, OE *hīw*, *hēow* 'shape, form, hue, colour', ME *hue*, and traces it to a *quasi*-PIE \*kieh₁-u-io- [@Kroonen2013, p. 224]. CAPR writes the prevocalic \*-u- of the diphthong as \*w, following the convention already used in *knee* \*knéwą and *chew* \*kéwwaną, so the input form is \*xéwją. The Proto-Germanic raising of \*e to \*i before \*j is modelled inside the cascade rather than assumed in the reconstruction, which is why the input is entered with \*é.
+
+Campbell reconstructs the same stem shape in the traditional \*i-notation, \*niwja- beside the parallel words, and states the West Germanic law that governs it: "auj > auuj > auj, and iuj > iuuj > iuj" [@Campbell1959, §120.2, p. 46]. Ringe and Taylor supply the comparative warrant for the geminate independently of the disputed \*awj cases, reconstructing PWGmc \*[niwwa-], \*[siwwian] and \*[gliwwias] beside singleton-\*w nominatives [@RingeTaylor2014, p. 53].
+
+#### Old English evidence
+
+Campbell prints [hīew]{.iv lang=oe sort=hiew role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:27" occ_id="Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:27:1"} 'form' beside *hīow* in the very section that derives this stem type, alongside *nīowe*, *nīewe* 'new' and *glīow*, *glīw* 'mirth' [@Campbell1959, §120.2, p. 46]. He states the dialect distribution explicitly: the resulting *iu*- "appears as io- in nW-S, ie- in W-S". The project targets West Saxon, so *hīew* is the selected counterpart; *hīw*, *hīow* and *hēow* are the commoner spellings across the corpus of Old English and are recorded by the dictionaries [@ClarkHall1960; @BosworthToller1898] and by Kroonen [@Kroonen2013, p. 224].
+
+#### Development to Old English
+
+Campbell's decisive observation is that the \*awj and \*iwj types share the gemination and then part company: "the u of auuj is lost, so that the final result is ēg or ieg, but the j of iuuj is lost, so that the result is iow or iew" [@Campbell1959, §120.2, p. 46]. The cascade reproduces both halves of that statement. West Germanic gemination doubles the \*w before \*j, giving \*xéwwją. The \*ew diphthong is then lengthened to \*ēo, the geminate is simplified, the initial dorsal fricative is palatalized, the nasal-final syllable loses its ending, *i*-umlaut raises \*ēo to \*īe, and the \*j is lost after the now heavy syllable, leaving *hīew* with the \*w intact.
+
+The contrast with *hay* \*xáwją is exact. The two inputs differ in a single segment, both geminate, and thereafter the low-vowel word loses its \*w and keeps its \*j to give *hīeġ*, while this word loses its \*j and keeps its \*w. The resolution rule that converts the geminate to a diphthong is restricted to the low-vowel type and does not apply here, nor does the fronting of the resulting diphthong.
+
+#### Why this row is in the corpus
+
+The \*w branch of West Germanic *j*-gemination was witnessed only by *hay* and *strew*, both of which immediately undergo the later English resolution of \*awwj. The branch and the resolution were therefore witnessed by the same two words, and nothing in the corpus showed that the gemination is the broader change. This row separates them. It is a positive witness for gemination of \*w before \*j after a short front vowel, and a negative control for the resolution rule, whose domain is the low-vowel type alone. It also gives the West Saxon simplification of the geminate its first witness outside the inherited \*ww words. See `docs/sound_changes/audits/sc010-w-gemination-and-hay-depth-adjudication.md`.
+
 \clearpage
 
 ## Part II. Attested variants and comparison forms
@@ -5212,8 +5625,8 @@ Proto input: _\*téxun_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Med Unstressed U Lowering} & \emph{*téxon} \\
-\mbox{OE Breaking} & \emph{*téoxon} \\
+\mbox{OE Breaking} & \emph{*téoxun} \\
+\mbox{OE Med Unstressed U Lowering} & \emph{*téoxon} \\
 \mbox{OE H Loss} & \emph{*téoon} \\
 \mbox{OE Contraction} & \emph{*tḗon} \\
 \end{tabularx}
@@ -6318,10 +6731,10 @@ Proto input: _\*xébun_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Med Unstressed U Lowering} & \emph{*xébon} \\
-OE Velar Fricative Palatalization & \emph{*çébon} \\
-\mbox{PGmc B Allophony} & \emph{*çéβon} \\
-\mbox{OE Back Mutation} & \emph{*çéoβon} \\
+OE Velar Fricative Palatalization & \emph{*çébun} \\
+\mbox{PGmc B Allophony} & \emph{*çéβun} \\
+\mbox{OE Back Mutation} & \emph{*çéoβun} \\
+\mbox{OE Med Unstressed U Lowering} & \emph{*çéoβon} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -7048,11 +7461,11 @@ Proto input: _\*nábulô_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Med Unstressed U Lowering} & \emph{*nábolô} \\
-\mbox{EAF Brightening} & \emph{*næbolô} \\
-\mbox{OE A Restoration} & \emph{*nabolô} \\
-\mbox{PGmc B Allophony} & \emph{*naβolô} \\
-OE Unstressed Long Vowel Shortening & \emph{*naβola} \\
+\mbox{EAF Brightening} & \emph{*næbulô} \\
+\mbox{OE A Restoration} & \emph{*nabulô} \\
+\mbox{PGmc B Allophony} & \emph{*naβulô} \\
+OE Unstressed Long Vowel Shortening & \emph{*naβula} \\
+\mbox{OE Med Unstressed U Lowering} & \emph{*naβola} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -7217,9 +7630,10 @@ Proto input: _\*nḗðlō_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{PWGmc Dental Hardening} & \emph{*nḗdlō} \\
-\mbox{PNWGmc Final Long O Raising} & \emph{*nḗdlu} \\
-\mbox{PNWGmc Long E Lowering} & \emph{*nǣdlu} \\
+\mbox{PNWGmc Long E Lowering} & \emph{*nāðlō} \\
+\mbox{PWGmc Dental Hardening} & \emph{*nādlō} \\
+\mbox{PNWGmc Final Long O Raising} & \emph{*nādlu} \\
+\mbox{EAF Long A Fronting} & \emph{*nǣdlu} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -7259,7 +7673,7 @@ The development discussed here follows the Ringe-Taylor alternant framework.
 Clark Hall records the attested citation form _nǣdl_ 'needle' [@ClarkHall1960, 210].
 Campbell lists _nédl_ 'needle' among the expected unbroken forms after _t_ and _d_
 [@Campbell1959, §367]. Hogg also includes _nidi_ / _nǣdl_ 'needle' in the same broader
-cluster history [@HoggGrammar1992].
+cluster history [@HoggPhonology1992].
 
 The target is therefore an attested citation form. No oblique-cell substitution
 is involved in this entry.
@@ -8718,9 +9132,9 @@ Proto input: _\*wíràldu_
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.20\linewidth}@{\hspace{0.25em}}}
 \mbox{OE Inter Stress Raising} & \emph{*wéruldu} \\
-\mbox{OE Med Unstressed U Lowering} & \emph{*wéroldu} \\
-\mbox{OE Back Mutation} & \emph{*wéoroldu} \\
-\mbox{OE High Vowel Apocope} & \emph{*wéorold} \\
+\mbox{OE Back Mutation} & \emph{*wéoruldu} \\
+\mbox{OE High Vowel Apocope} & \emph{*wéoruld} \\
+\mbox{OE Med Unstressed U Lowering} & \emph{*wéorold} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -8993,7 +9407,7 @@ Proto input: _\*bázjas_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{Rhotacism} & \emph{*bárjas} \\
+\mbox{EAF Rhotacism} & \emph{*bárjas} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -9089,7 +9503,7 @@ Proto input: _\*báug_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Au Fronting} & \emph{*báeug} \\
+\mbox{OE Au Brightening} & \emph{*báeug} \\
 \mbox{OE Diphthong Leveling} & \emph{*bēag} \\
 \end{tabularx}
 \end{minipage}
@@ -9550,7 +9964,7 @@ Proto input: _\*xábēθi_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -9560,7 +9974,6 @@ Proto input: _\*xábēθi_
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{PWGmc Early I Apocope} & \emph{*xábēθ} \\
-\mbox{PNWGmc Long E Lowering} & \emph{*xábǣθ} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -9574,11 +9987,10 @@ Proto input: _\*xábēθi_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{EAF Brightening} & \emph{*xæbǣθ} \\
-OE Velar Fricative Palatalization & \emph{*çæbǣθ} \\
-\mbox{PGmc B Allophony} & \emph{*çæβǣθ} \\
-OE Unstressed Long Vowel Shortening & \emph{*çæβæθ} \\
-\mbox{OE Unstressed AE Merger} & \emph{*çæβeθ} \\
+\mbox{EAF Brightening} & \emph{*xæbēθ} \\
+OE Velar Fricative Palatalization & \emph{*çæbēθ} \\
+\mbox{PGmc B Allophony} & \emph{*çæβēθ} \\
+OE Unstressed Long Vowel Shortening & \emph{*çæβeθ} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -9648,7 +10060,7 @@ Proto input: _\*líbēθi_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -9658,7 +10070,6 @@ Proto input: _\*líbēθi_
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{PWGmc Early I Apocope} & \emph{*líbēθ} \\
-\mbox{PNWGmc Long E Lowering} & \emph{*líbǣθ} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -9672,9 +10083,8 @@ Proto input: _\*líbēθi_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{PGmc B Allophony} & \emph{*líβǣθ} \\
-OE Unstressed Long Vowel Shortening & \emph{*líβæθ} \\
-\mbox{OE Unstressed AE Merger} & \emph{*líβeθ} \\
+\mbox{PGmc B Allophony} & \emph{*líβēθ} \\
+OE Unstressed Long Vowel Shortening & \emph{*líβeθ} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -9839,7 +10249,7 @@ Proto input: _\*mízdai_
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 PNWGmc Unstressed Ai Monophthongization & \emph{*mízdē} \\
 \mbox{PNWGmc I Lowering} & \emph{*mézdē} \\
-\mbox{Rhotacism} & \emph{*mérdē} \\
+\mbox{EAF Rhotacism} & \emph{*mérdē} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -10215,7 +10625,7 @@ Proto input: _\*skáub_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Au Fronting} & \emph{*skáeub} \\
+\mbox{OE Au Brightening} & \emph{*skáeub} \\
 \mbox{OE Diphthong Leveling} & \emph{*skēab} \\
 \mbox{PGmc B Allophony} & \emph{*skēaβ} \\
 \mbox{OE Sk Palatalization} & \emph{*ʃēaβ} \\
@@ -10527,7 +10937,7 @@ Proto input: _\*mákōθi_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -10552,7 +10962,8 @@ Proto input: _\*mákōθi_
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{EAF Brightening} & \emph{*mækōθ} \\
 \mbox{OE A Restoration} & \emph{*makōθ} \\
-\mbox{OE Late O Shortening} & \emph{*makaθ} \\
+\mbox{OE Late O Shortening} & \emph{*makoθ} \\
+OE Final Unstressed O Lowering & \emph{*makaθ} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -10735,7 +11146,8 @@ Proto input: _\*búrōθi_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Late O Shortening} & \emph{*bóraθ} \\
+\mbox{OE Late O Shortening} & \emph{*bóroθ} \\
+OE Final Unstressed O Lowering & \emph{*bóraθ} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -10810,7 +11222,7 @@ Proto input: _\*líznô_
 \raggedright
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{Rhotacism} & \emph{*lírnô} \\
+\mbox{EAF Rhotacism} & \emph{*lírnô} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -10904,7 +11316,7 @@ Proto input: _\*líznōθi_
 \vspace{0.2em}
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{PWGmc Early I Apocope} & \emph{*líznōθ} \\
-\mbox{Rhotacism} & \emph{*lírnōθ} \\
+\mbox{EAF Rhotacism} & \emph{*lírnōθ} \\
 \end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
@@ -10919,7 +11331,8 @@ Proto input: _\*líznōθi_
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.18\linewidth}@{\hspace{0.25em}}}
 \mbox{OE Breaking} & \emph{*líornōθ} \\
-\mbox{OE Late O Shortening} & \emph{*líornaθ} \\
+\mbox{OE Late O Shortening} & \emph{*líornoθ} \\
+OE Final Unstressed O Lowering & \emph{*líornaθ} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -11066,7 +11479,7 @@ Proto input: _\*líkkōθi_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -11089,7 +11502,8 @@ Proto input: _\*líkkōθi_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Late O Shortening} & \emph{*líkkaθ} \\
+\mbox{OE Late O Shortening} & \emph{*líkkoθ} \\
+OE Final Unstressed O Lowering & \emph{*líkkaθ} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -11212,7 +11626,7 @@ Proto input: _\*skáwōθi_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -11237,7 +11651,8 @@ Proto input: _\*skáwōθi_
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.18\linewidth}@{\hspace{0.25em}}}
 \mbox{OE Aw Long Diphthong} & \emph{*skḗawōθ} \\
 \mbox{OE Sk Palatalization} & \emph{*ʃḗawōθ} \\
-\mbox{OE Late O Shortening} & \emph{*ʃḗawaθ} \\
+\mbox{OE Late O Shortening} & \emph{*ʃḗawoθ} \\
+OE Final Unstressed O Lowering & \emph{*ʃḗawaθ} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -11410,7 +11825,7 @@ Proto input: _\*ráukaz_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Au Fronting} & \emph{*ráeuka} \\
+\mbox{OE Au Brightening} & \emph{*ráeuka} \\
 \mbox{OE Diphthong Leveling} & \emph{*rēaka} \\
 \mbox{PWGmc Final Bare A Loss} & \emph{*rēak} \\
 \end{tabularx}
@@ -11467,7 +11882,7 @@ Proto input: _\*stráwjaną_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \footnotesize
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.339\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.630\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -11475,7 +11890,9 @@ Proto input: _\*stráwjaną_
 \centering\textbf{Northwest and West Germanic}\par
 \raggedright
 \vspace{0.2em}
-\raggedright [no change]\par
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.24\linewidth}@{\hspace{0.25em}}}
+\mbox{PWGmc J Gemination} & \emph{*stráwwjaną} \\
+\end{tabularx}
 \vspace{0.6em}
 \centering\textbf{Early Anglo-Frisian}\par
 \raggedright
@@ -11488,8 +11905,8 @@ Proto input: _\*stráwjaną_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.26\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Awj Glide Formation} & \emph{*stráujaną} \\
-\mbox{OE Au Fronting} & \emph{*stráeujaną} \\
+\mbox{OE Awwj Resolution} & \emph{*stráujaną} \\
+\mbox{OE Au Brightening} & \emph{*stráeujaną} \\
 \mbox{OE Diphthong Leveling} & \emph{*strēajaną} \\
 OE Heavy Syllable Nasal Apocope & \emph{*strēajan} \\
 \mbox{OE Secondary Nasalization} & \emph{*strēająn} \\

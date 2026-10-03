@@ -6,6 +6,18 @@ verdict follows. Source cards preserve the detailed readings; the
 palatalization note and witness queue defer here rather than maintaining
 independent chronologies.
 
+## Adopted U increment
+
+The user authorized implementing the gift/ordinary-PD package on 2026-10-03.
+The controlling SC056 adjudication now places ordinary PD before mutation,
+selects Ringe's PGmc giftiz for OE row2040 and retains the unchanged late
+clause as a visible support approximation. The lexical gift entry compares
+the published e-forms, e-grade presentations and Ringe's phonological
+argument, including confidence and dating qualifications.
+These are bounded adopted decisions, not adoption of every recommendation
+or ancestral inventory in this comparative synthesis. SC098 is unchanged.
+The private pre-adoption recipes/results below remain historical evidence.
+
 ## 1. Governing test and notation
 
 **Governing CAPR topology:** a strictly tree-like history **with an
@@ -55,13 +67,15 @@ are Hogg alone, *A Grammar of Old English*, Volume 1, *Phonology*
 volume (1992), not that grammar. Neither filename establishes a holding
 of Hogg & Fulk's Volume 2.
 
-**Direct Luick evidence:** local adjacent printed headings establish only
-the mappings sheet 177→p.129, 178→p.130, 179→p.131 and 180→p.132 in
-`docs/references/luick_historische_grammatik.txt`. These are not a
-whole-book offset or certification of the extract's vowel glyphs.
-The following §§118–120 citations are direct readings, not reports
-through Laker. Luick's §637 palatalization passage remains unlocated and
-unverified; no page image has confirmed the corrupt intermediate notation.
+**Direct Luick evidence:** both first-volume divisions are now held as
+complete scans and page-marked Vision texts (1921 and posthumous 1940).
+The resource index records their piecewise pagination; the old extract's
+sheet offsets are not transferable. Printed pp. 130–133, §§118–123, and
+pp. 835–841, §637 including note 8, were visually reviewed.
+These are direct readings, not reports through Laker. Source pages now
+resolve the former missing-PDF/unlocated-§637 limits. They do not turn
+Luick's conjectural intermediates into observations or a source-proven
+CAPR rule. The complete OCR remains uncorrected outside the checked passages.
 
 ## 2. Central competing histories
 
@@ -106,17 +120,31 @@ unrounding is assigned to the seventh century
 
 For Frisian au→ā, with ō also in North/East Frisian, he tentatively
 suggests regressive assimilation: **“Vielleicht”**, not demonstrated
-([@Luick1914, pp. 131–132, §120]). The intermediate glyph in that
-sentence is corrupt; it is deliberately neither reproduced as a phonetic
-form nor normalized. The legible prose permits a **shared-fronting
+([@Luick1914, pp. 131–132, §120]). The supplied page image now verifies
+his proposed *æa* intermediate on p. 132; this is a hypothetical form,
+not an attested Frisian stage. The argument permits a **shared-fronting
 possibility followed by Frisian assimilation**, contrasting with
 Campbell's Frisian contraction **before** fronting (pp. 91, 104).
 These are rival histories, not interchangeable surface explanations.
 Luick's possibility is H-compatible only if the common-stem placement and
 subsequent daughter sequence hold; it does not prove inheritance, supply a
-verified intermediate, or establish the palatalization behavior needed to
+demonstrated intermediate, or establish the palatalization behavior needed to
 explain every surviving consonant. Campbell's earlier-Frisian-contraction
 configuration still fails that shared-fronting tree test.
+
+**Direct palatalization passage.** Section 637 opens on p. 835 by placing
+the development within the Anglo-Frisian community. Its initial, medial
+and final conditions are separately described on pp. 836–839; the initial
+mutation-created fronts are negative controls on p. 837.
+Note 8 explicitly orders palatalization after fronting, breaking and
+the effects of following back vowels on æ, but before mutation and early
+vowel loss. It infers a late-fourth/early-fifth-century beginning
+([@Luick1914, pp. 835–841, especially p. 841, note 8]).
+This is a reconstructed chronology and continental/shared interpretation,
+not an inscription-observed onset or proof of event identity. Note 5
+also separates later palatal-g-to-j development from the earlier conditioning
+([@Luick1914, p. 840, note 5]). It therefore does not license identifying
+SC057 cluster coalescence with that merger.
 
 ### Direct Goblirsch alternative: shared diphthong, daughter continuation
 
@@ -231,7 +259,7 @@ rows into a synthetic node inventory.
 | Bremmer2009 | Early nasal and inherited-long-vowel components remain candidates above/on the stem; the handbook does not determine a complete node inventory | Distinguish long-ā from short-a fronting and the ai/au products. Separate daughter palatalizations are asserted, but the exact English-only precursor is unnamed; the ai/palatalization order has opposed passages (pp. 23–35, 126–128). |
 | Nielsen2001 | A cut before the independent monophthongization-driven daughter restructurings can retain the earlier nasal/oral package without inheriting the later fronting package | Early broad scope may place components above the AF node. Long fronting and early nasal differentiation are different events; causal push-chain premises and co-occurrence remain explicit assumptions (pp. 514–517, 520–521). |
 | Hogg1979 | No independently reconstructed Frisian inventory; an early reversible sensitivity is a possible node component, not his demonstrated shared innovation | His preferred operative English palatalization follows breaking/restoration. English-only scope is an additional comparative premise; mutation/merger contradictions remain unresolved (pp. 90–97, 103–111). |
-| Direct Luick | A common non-nasal fronting state may include participation of au's first component, after nasal darkening has begun | Frisian assimilation is a tentative later daughter step; exact au intermediate cannot be transcribed from the corrupt glyph. Node palatalization is not established by §§118–120 (pp. 130–132); §637 remains unverified. |
+| Direct Luick | A common non-nasal fronting state may include participation of au's first component, after nasal darkening has begun | Frisian assimilation of proposed *æa* is tentative, not observed (pp. 130–132). Section 637 assigns palatalization to the community and brackets it after fronting/breaking/back-vowel effects but before mutation (pp. 835–841); these source premises remain to be tested for tree compatibility. |
 | Kortlandt | At the earliest all-descendant cut after AF8, ai is ā, au unchanged, short a fronts only in AF6-permitted contexts, and AF7/AF8 have operated | Fronting blocked by l/r/h+C and open-syllable following back vowel. WS-first separation and later AF9–10 are part of the source's topology; mapping to CAPR's daughter subtrees must be explicit. If all English dialects are required to form one exclusive subtree, Anglian-plus-Frisian AF9–10 cannot simply be inherited on that subtree; revise placement or use parallel daughter events without diffusion (pp. 267, 270–271, 273). |
 | Repanšek | A node after the broader shared nasal-loss extension and long-vowel/allophonic split but before the independent symmetry responses can retain ai/au and short-a allophony | Broad Ingvaeonic distribution may require the triggers above the AF node. Short fronting can be stem or branch only under its explicitly uncertain identity; no automatic shared diphthong fronting follows from short-vowel symmetry (pp. 79–84). |
 | Laker | A candidate node may contain early k/g palatalization or sensitivity, without identifying every later assibilation/phonemicization event | Exclude mutation-created front vowels from the productive palatalizing layer. Au state and reversal versus later English extension remain open; loan substitution and paradigm leveling are not node-state evidence by themselves (pp. 168–172, 178–184). |
@@ -372,8 +400,8 @@ Versloot2025 suggests an au > long a > ēa route as potentially
 supportive but **deferred and not crucial** (p. 107).
 Direct Luick instead offers participation of au's first component in
 fronting, English offglide unrounding in the seventh century and tentative
-Frisian regressive assimilation; the corrupt Frisian intermediate remains
-unusable as an implementation input
+Frisian regressive assimilation; his image-verified *æa* remains a
+hypothetical stage, not an automatically admissible implementation input
 ([@Luick1914, pp. 130–132, §§119–120]).
 Direct Goblirsch supplies a separate shared-ēa/stress-shift alternative,
 not a claim of common plain-a fronting or independently evidenced
@@ -498,7 +526,7 @@ separate from these relative chains.
 
 | Source | English | Frisian; stage and evidential qualification |
 |---|---|---|
-| Luick1914, directly checked §§118–120 only | onset of nasal darkening < non-nasal fronting; au first component participates in fronting < subsequent offglide unrounding | Common-fronting claim and tentative subsequent assimilation account for au→ā/ō (pp. 130–132). Continental beginnings asserted; English offglide unrounding assigned seventh century. No full Frisian chain or verified intermediate glyph; §637 unverified. |
+| Luick1914, §§118–123 and §637 visually checked | onset of nasal darkening < non-nasal fronting; au first component participates in fronting < offglide unrounding; fronting/breaking/back-vowel effects < P < mutation/early vowel loss | Common-process claims and tentative Frisian *æa* assimilation (pp. 130–133); class/position-specific P, later palatal-g-to-j treatment and reconstructed continental onset (pp. 835–841). No complete independently established Frisian chain. |
 | Campbell1939 | long fronting < ai-contraction < short fronting | nasal/long changes < au-contraction < short fronting/proposed ai-fronting-contraction < restoration < second raising < mutation < quantity changes (pp. 90–91, 104–105); reconstructed, partly hedged. |
 | Goblirsch1991 | Shared ai>ā and au>ēa proposed; au>ao>æo>æa is an offered exemplar whose intermediate order may vary; Kentish stress shift < glide loss | Proposed common au>ēa < Frisian ēa>eā < eā>ā (pp. 17–21). Stress mechanism reconstructed by comparison, not observed Frisian intermediate; no own complete plain-a/palatalization/mutation chain. |
 | Bremmer2008 | **No independent ordered English chain** | nasal rounding < loss < long raising < contraction < short fronting < palatalization < mutation < breaking < unrounding (pp. 286–288); adopted Stiles-attributed numbering. Individually argued edges rounding<loss, fronting<palatalization, mutation<unrounding (pp. 288–291). |
@@ -541,8 +569,8 @@ extrapolation to unverified sections):
 |---|---|---|
 | Non-nasal a-fronting | H* on the author's common-process placement; nasal darkening precedes onset (p. 130, §118) | Keeps a shared alternative live; overall U against Campbell's competing ordering premises. |
 | Au first-component fronting with ordinary a | H* candidate; proposed Frisian assimilation later, explicitly tentative (pp. 130–132, §§119–120) | Overall U; compatibility does not prove that shared fronting occurred or explain later consonant histories. |
-| Frisian au monophthong versus English diphthong | S for attested output comparison; U for the exact corrupt intermediate/assimilation mechanism (pp. 131–132, §120) | Neither normalize the glyph nor count the surface contrast as a chronology proof. |
-| Shared palatalization from §637 | U: passage unverified; no direct proposition extracted here | Does not upgrade Laker's report or resolve the palatalization matrix. |
+| Frisian au monophthong versus English diphthong | S for attested comparison; U for reality of hypothetical *æa* and assimilation (pp. 131–132, §120) | The image resolves notation, not the historical intermediate or chronology. |
+| Shared palatalization from §637 | H* on Luick's community placement and reconstructed bracket (pp. 835–841, especially p. 841 note 8) | Directly verifies the attributed passage; does not prove common event identity or resolve the overall palatalization matrix. |
 
 **Supplement: four additional direct reviews** (cards 10–13). Together
 with the original matrix these cover all thirteen specialist works;
@@ -585,7 +613,7 @@ parameters; no typed historical positions or implementation authorization.
 
 | Candidate | Input/output; conditioning | Scope / stage / edges | Evidence / uncertainty |
 |---|---|---|---|
-| Luick common-fronting/Frisian assimilation alternative | Non-nasal a fronts; au first component participates; Frisian au ultimately ā, also ō in N/E; no recoverable intermediate specification | Proposed common fronting after onset of nasal darkening; Frisian assimilation tentatively subsequent; no full daughter cascade | pp. 130–132, §§118–120; “Vielleicht”; glyph-level specification and palatalization consequences unresolved. |
+| Luick common-fronting/Frisian assimilation alternative | Non-nasal a fronts; au first component participates; proposed Frisian *æa* ultimately ā, also ō in N/E | Common fronting after nasal-darkening onset; tentative subsequent assimilation; no full daughter cascade | pp. 130–132, §§118–120; “Vielleicht”; source notation verified, historical reality and consonant consequences unresolved. |
 | Nasal package | long ā→ō before N, close ē elsewhere; short a→distinct rounded o | Early Frisian; before Campbell contraction/fronting; later mergers post-mutation | Campbell pp. 86–89, 104–105; distinguish length/allophony/branch mergers. |
 | Nasal loss | V+N+s/f/þ→long V, a-series ō | Broad NSG; rounding<loss | Bremmer pp. 287–289; feeding argument, direct Stiles absent. |
 | Campbell au | au→ā, proposed via aa | Frisian; au-contraction<short fronting | pp. 91, 104; “Probably”; this daughter-specific predecessor blocks inherited shared later fronting. |
@@ -647,10 +675,11 @@ skanomodu etymology/provenance; allophonic-to-phonemic timing; direct
 arguments in the missing specialist sources (Campbell p. 90;
 Kortlandt pp. 267–271; Laker pp. 178–184; Versloot2017 pp. 307–309;
 Versloot2025 pp. 107, 126–128, 131–135; Waxenberger pp. 63–74).
-For directly read Luick, the missing evidence is specifically the
-intermediate glyph/page image and unlocated §637, **not** the held
-grammar or the locally verified §§118–120 prose
-([@Luick1914, pp. 130–132]).
+The new Luick scans resolve the missing page images and §637 locator.
+The remaining question is the historical force of the conjectural
+intermediates and reconstructed common-process chronology, not whether
+the source passage can be read
+([@Luick1914, pp. 130–133, 835–841]).
 These unknowns constrain **stem/branch allocation and the state of the
 required AF node**; they are not a proposal to delete it. No single
 consensus node-state reconstruction or categorical shared conditioning
@@ -677,3 +706,558 @@ No author is adopted wholesale, and none of these changes in research
 coverage constitutes an executable-science decision
 ([@Bremmer2009, pp. 27–40; @Nielsen2001, pp. 514–521;
 @Goblirsch1991, pp. 17–21; @Hogg1979, pp. 90–111]).
+
+## 8. Evidence-led assessment and implementation targets
+
+This continuation assesses history before formalization. The conventional
+handbook account is a starting hypothesis, not an author adopted wholesale.
+Source-supported conditioning and chronology decide the historical target;
+successful outputs then test its implementation, not select the history.
+These recommendations do not change canonical verdicts, identities, stages,
+edges, corpus inputs or FSTs. Individual production approval remains required.
+
+### 8.1 D: the diphthong corridor is not four uniformly West Saxon events
+
+**Observation and source-supported ordering.** Ringe and Taylor explicitly
+derive *fewwar > PWGmc feuwar* and *iwwi > PWGmc iuwi/iuw*, and state that
+coronal assimilation feeds *Vww > Vuw*. Their general discussion also puts
+geminate-glide reanalysis at PWGmc: *hawwaną > hauwan > OE hēawan*
+([@RingeTaylor2014, pp. 41–42, 65–66]). English *au* then undergoes the
+distinct tensing/fronting and offglide development; *hēawan* illustrates the
+same au outcome, not an independently dated WS-only vowel law
+([@RingeTaylor2014, pp. 171–173]).
+
+```text
+coronal dw/zw > ww < PWGmc Vww > Vuw < English diphthong realization
+PGmc hawwaną > PWGmc hauwan > OE hēawan
+```
+
+**Preferred historical specification.** Separate the earlier conditioned
+glide reanalysis from the later English realization of the resulting
+diphthongs. This is better supported than the blanket WS label: it has
+comparative daughter reflexes and an explicit feeder sequence, not merely a
+modern distribution label. It is not permission to restage every existing
+network to PWGmc. The source's palatalized w/j-gemination products also need
+their own treatment; Ringe and Taylor describe their later pre-OE resolution
+separately ([@RingeTaylor2014, p. 173]; [@Campbell1959, pp. 44–47]).
+
+**Current formalization and discrepancy.** SC033 already outputs the English
+long-vowel tier; SC031 then deletes one w, and SC034 handles aw with a
+remaining glide. Those operations jointly approximate a history which the
+source separates into earlier *Vww > Vuw* and later diphthong treatment.
+SC032 also combines au, eu/iu and split-symbol paths; "leveling" is not proof
+that they constitute one independently dated historical law.
+
+The fresh SC031 census has six applications: chew, dew, four, hew, you and
+hue. Hay is unchanged at SC031, having already traversed the separate
+aww/j resolution. Dew/hew supply the stored displacement boundary; four/you
+are source-supported assimilation-to-vocalization feeders; hue controls
+j-conditioned behavior. This is the complete live population, not six
+independent proofs of one WS chronology. Strew's selected WS target is
+explicitly reconstructed in the corpus, not an attested positive control.
+
+**Next scientific decision.** Start SC031 with SC032–034 context and propose
+member-by-member mappings from historical events to executable components.
+Test the source-faithful PWGmc au/eu/iu intermediates before deciding whether
+an early shared network and later daughter networks must replace the present
+bundles. Do not simply move SC033 early and call its already-English output
+a PWGmc phonetic state. Existing six firings and the earlier j-path controls
+provide a sufficient initial witness set; no new word is required.
+
+### 8.1.1 Controlled early-reanalysis result
+
+The isolated a/e/i + inherited ww subset has now been tested over all 387
+runnable rows after a complete identity/wrapper control. Its representative
+early placement preserves the separate later j-created ww paths. Four,
+hew, dew and chew complete to their incumbent outputs; only you changes,
+because SC098's literal ww-based final-i deletion no longer recognizes
+the vocalized *iuwi* sequence. The source supports *iuwi ~ iuw* and a
+prosodic apocope account ([@RingeTaylor2014, pp. 41–42, 57–58, 65–66]).
+
+A representation-adjusted SC098 control restores all baseline final outputs.
+That is a diagnosis of a formal dependency, not a historical law inferred
+from match count. All seven existing mismatches remain; no missing or
+ambiguous output and no canonical artifact changes occurred. The complete
+packet is in the existing SC031–034 dossier's section 12.
+Production readiness now explicitly includes SC098's prosodic/proxy interface,
+in addition to the unspecific high homorganic and other glide/quantity
+classes. No extra corpus item is needed for this particular discrimination.
+
+### 8.2 U: ordinary palatal diphthongization and the later sc layer
+
+**Direct handbook evidence.** Fulk states that ordinary diphthongization by
+initial palatals precedes front umlaut but not breaking
+([@Fulk2018, p. 74]). Ringe and Taylor derive guest, kettle and cheese
+through palatal diphthongization before mutation and begin their mutation
+account after the earlier changes, with a qualification for Mercian second
+fronting ([@RingeTaylor2014, pp. 215–217, 222]).
+This is positive source support for an order, not a majority vote among names.
+
+The newly image-verified Luick discussion supplies a compatible, more
+explicitly layered account. His §174 says that the first elements of existing
+diphthongs were unaffected, which presupposes breaking before ordinary
+palatal diphthongization; §176 places that diphthongization before i-umlaut.
+His §175 explicitly denies that similar Frisian outcomes must be the same
+English/Frisian development ([@Luick1914, pp. 162–163, §§174–176]).
+The speculative articulation/glide mechanism and transferred-palatal
+analogies in the preceding discussion remain author proposals, not
+additional CAPR sound laws ([@Luick1914, pp. 157–162, §§168–173]).
+The grammatical errata to p. 162 do not reverse these ordering statements
+([@Luick1914, p. 1142]).
+
+**The apparent sheath counterexample is a different layer.** Campbell
+separates a small class of glide developments before mutation products after
+sc (§184) from the ordinary front-vowel process (§185), with sheath
+*sċēaþ* beside *sċǣþ*. Ringe and Taylor explicitly give subsequent sc
+diphthongization of the ai-derived mutation product, including sheath,
+while recording surviving nondiphthongized examples
+([@Campbell1959, pp. 68–69]; [@RingeTaylor2014, p. 235]).
+The description of alternate outcomes does not supply CAPR with a
+lexically optional rewrite; its exact conditioner/layer still needs adjudication.
+
+```text
+ordinary WS non-high-front palatal diphthongization < OE mutation
+OE mutation of ai-derived ā < later sc treatment of its ǣ product
+```
+
+There is no contradiction between these two constraints unless the two
+diphthongization layers are first identified as the same event. The current
+SC056 bundles their outputs, so moving it wholesale cannot test the first
+history while preserving the independently evidenced second.
+
+**Gift is an early-input problem, not a late chronology proof.** The held
+Ringe volume-one text and PDF are the second edition. It explicitly
+reconstructs PGmc *giftiz* with OE plural *ġifta* and separately describes
+raising *e > i* under following high front vocalics before the daughter
+histories ([@Ringe2017, p. 135, pp. 151–153]).
+Fulk distinguishes this early raising from subsequent front mutation
+([@Fulk2018, pp. 58–59, 61]); Ringe and Taylor explicitly warn that it
+occurred hundreds of years earlier and that later repetitions are rare and
+doubtful ([@RingeTaylor2014, p. 220]).
+
+The stored row 2040 instead feeds *géftiz*, and the fresh trace shows
+`*ʤéfti > *ʤifti` at SC055. SC056 leaves it unchanged. A displaced
+general diphthongization rule consumes this model's still-unraised e,
+but that failure does not refute the source's history of *giftiz*.
+Do not change the target to *ġieft* merely to fit a moved rule, or silently
+repair the input in a research pass. Reconstruct the actual PGmc input and
+any paradigm shift before separately seeking approval to correct it.
+
+**Published reconstruction differences.** The e-form is not an invented
+project-only reconstruction. Orel's noun entry has e, normalized here as
+*geftiz* with only his initial velar sign rendered as g; Kluge–Seebold
+prints the Germanic feminine stem *gefti-*
+([@Orel2003, p. 130]; [@KlugeSeebold2011, p. 359]).
+Both were verified in the original PDF images. Kluge's stem is not
+silently expanded into a quoted nominative, and the failed extraction of
+Orel's consonant sign is not treated as a digit 3 or an IPA claim.
+These forms differ from Ringe's explicitly PGmc *giftiz*
+([@Ringe2017, p. 135]).
+
+The entries establish a published difference, not yet an explicit
+authored debate or an explanation of whether etymological stem conventions
+account for it. Do not simply relabel their e-forms as pre-PGmc to remove
+the conflict. Ringe's account explicitly discusses earlier raising
+([@Ringe2017, pp. 151–153]); the dictionary entries do not themselves
+resolve that phonological interpretation. Ringe qualifies the PGmc dating
+as most probable but not completely certain: Gothic's e/i merger removes
+direct evidence, and his argument depends on the earlier raising's
+relationship to j-loss and contraction
+([@Ringe2017, pp. 152–153]). His explicit i-reconstruction and confidence
+in the ancestral date must not be collapsed into one claim. This neither
+demonstrates a rival date nor explains away the dictionary e-forms.
+The bounded follow-up confirms Bammesberger's e-grade ti-stem presentation
+([@Bammesberger1990, pp. 142–143]) and Seebold's segmented gef-ti-z
+([@Seebold1970, p. 218]) in original page images. Seebold explicitly
+reconstructs earlier states for selected changes and uses non-exact
+stem-class symbols ([@Seebold1970, pp. 35–36]); those methodological
+qualifications do not specifically explain gift's root e.
+
+The working recommendation is Ringe's explicitly PGmc i-form for both
+row2040 reconstruction and selected input, with CAPR stress retained,
+because its regular phonological history and stage are stated explicitly
+([@Ringe2017, p. 135, pp. 151–153; @RingeTaylor2014, p. 220]).
+This is an attributed model choice, not a dismissal of the published
+e-forms or an assertion of unanimity. The bounded TSV-history check
+confirms that e predates the accent migration but does not identify a
+specific scholarly upstream source behind its Wiktionary-template note.
+Preserve that provenance limit. Document the alternatives and
+justify the adopted input/stage in the adjudication and lexical entry. Its generic
+source note does not prove which publication supplied the original input.
+
+**Preferred historical target.** Ordinary WS palatal diphthongization before
+OE mutation, a distinct later sc/mutation-product treatment, and inherited
+gift with its earlier vowel history. This is a concrete historically preferred
+account, not a proposed retain-the-current-order compromise. The exact law
+for the later class remains unresolved. The approved ordinary order and
+gift input are implemented; the incumbent later clause is separately
+registered as the unadjudicated SC105 support approximation.
+
+**Applications and limits.** The pre-adoption census had 68 SC055 firings
+and eight composite SC056 firings. Ordinary SC056 now covers give, guest,
+shaft, shear, sheep, shield and year; sheath belongs to the retained SC105
+clause. Gift is a negative application at ordinary SC056. The old guest
+path raised a simple vowel before diphthongizing it; the adopted path
+diphthongizes before mutation. Both yield *ġiest*, illustrating why final
+agreement cannot choose history ([@RingeTaylor2014, p. 216]).
+The four composite displacement controls do not independently date each
+SC055 component: neither cow nor gift tests diphthongal mutation.
+
+**Discriminating witnesses and next decision.** Reuse guest and sheath to
+separate the ordinary and later layers, with give/shear/shaft and sheep/year
+as mutation-free controls; audit gift's actual input. Cheese/kettle are
+source-backed additional fixtures if their intermediate mutation histories
+add coverage not supplied by guest ([@RingeTaylor2014, p. 216]).
+No canonical admission is required. The user approved the coupled ordinary
+order, source-led gift correction and exact input-baseline migration;
+the later historical conditioner remains a separate unresolved question.
+
+**Executed private continuation.** The input-only giftiz trial changes
+only gift's experimental input and preserves all 387 baseline finals.
+The ordinary-before-mutation trial with the old input changes only gift
+to ġieft; combining ordinary PD with the source-raised candidate restores
+all baseline finals. Guest follows æ > ea > ie, and sheath retains
+ā > ǣ > ēa. The later long-low-front clause is explicitly retained with
+its incumbent broad triggers, not certified as the complete historical
+sc conditioner. The 055–056 dossier section 12 records exact checkpoints,
+input-sensitive fingerprint consequences and the source disagreement.
+These results test Ringe's specified input account together with the
+source-supported ordinary order; they do not select a reconstruction by
+output score or authorize a production edit
+([@Ringe2017, p. 135, pp. 151–153; @Fulk2018, p. 74;
+@RingeTaylor2014, pp. 215–217, 222, 235]).
+
+### 8.3 A: inherited long-vowel history and English ai contraction
+
+**Conventional account and diagnostic premise.** Campbell's English chain is
+oral inherited long fronting < stressed ai contraction < ordinary short
+fronting. Nielsen identifies this as the traditional account before proposing
+his own contrary reconstruction ([@Campbell1939, pp. 90–91];
+[@Nielsen2001, pp. 514–515]).
+
+```text
+inherited oral ā > ǣ < English stressed ai > ā < ordinary short a > æ
+```
+
+The inherited-long versus secondary-long contrast, illustrated by *dǣd*
+and *stān*, supports the first boundary if both kinds of oral ā would
+otherwise have been equally eligible. It more securely constrains when
+the secondary vowel became available than proves non-overlapping durations
+of gradual changes. Pre-nasal developments and unstressed ai are separate
+domains, not exceptions to this specification
+([@Campbell1939, p. 90]; [@Nielsen2001, p. 514]).
+
+**Alternatives change premises, not just positions.** Kortlandt retains an
+inherited front long vowel instead of reconstructing back ā followed by
+re-fronting ([@Kortlandt2008, p. 266]). Fulk likewise argues for retained
+NWGmc front vocalism; Ringe and Taylor defend the back-vowel reconstruction.
+The earliest input is disputed independently of the English secondary-ā
+contrast ([@Fulk2018, pp. 60–61]; [@RingeTaylor2014, pp. 10–13]).
+Nielsen's daughter push chain has contraction **≤** long restructuring,
+then short differentiation; his allowance for co-occurrence must not become
+a strict edge ([@Nielsen2001, pp. 514–516, 521]).
+Luick conjectures a fronted ai intermediate which can ultimately yield
+back ā, expressly admitting that the path cannot clearly be recovered.
+Campbell rejects it, but rejection is not proof of phonetic impossibility
+([@Luick1914, pp. 132–133, §122]; [@Campbell1939, p. 90 and n. 3]).
+The supplied image confirms that this is expressly a conjecture, not an
+attested chain or a sufficient specification for a new rule. The enlarged
+p. 133 image reads the proposed path as *æe > æə > æa > ā*, with a
+schwa offglide, not the digit 3 ([@Luick1914, p. 133, §122]).
+The separately verified §117 discusses inherited-long fronting and the
+West Saxon versus non-West-Saxon vowel outcomes; those dialect outcomes
+must not be conflated with this conjectural ai path
+([@Luick1914, p. 129, §117]).
+
+**Working recommendation.** Retain the conventional inherited-ā account
+provisionally, with its fronting before English secondary ā becomes
+available. AF-stem placement of that inherited-long development remains
+compatible, not uniquely proved by the contrast. The retained-front
+alternative and its different node inventory remain explicit; no settled
+SC101 decision is silently reopened by this comparison.
+
+For **completed all-context stressed ai > ā**, prefer daughter-English
+placement. Versloot's *raïhan* interpretation gives retention even before
+h in a fifth-century inscription; his conditional interpretation of
+Frisian *aib* gives later non-velar retention
+([@Versloot2017, pp. 295–297, 318]). This evidence is usable without
+adopting his wave account, but depends on reading, etymology, provenance,
+graphemic interpretation and the assumed conditioning hierarchy.
+A narrower ancestral onset is not thereby disproved or demonstrated.
+It is not identical to the entire English all-context event.
+
+**Diagnostics.** Reuse sheep, deed and stone; deed's later mutation means
+it cannot be the sole inherited-long timing witness. Sheep supplies an
+inherited-long input without a following i/j, but its eventual vowel also
+passes through palatal diphthongization. Neither final output is an
+unmediated observation of the early vowel. The existing roe row has no
+attested target; the spear row has a different etymon from the gaiz-derived
+Frisian comparandum. Neither should be promoted to a positive control.
+
+### 8.4 F: one English episode does not entail one inherited event
+
+**Preferred English reconstruction.** Treat ordinary non-nasal short
+a-fronting and fronting of au's first element as one English phonetic
+episode, followed by the further offglide development:
+
+```text
+ordinary a > æ and au > æu (or ao > æo) : one proposed English episode
+fronted diphthong > æa : subsequent diphthong realization
+```
+
+Campbell explicitly connects the fronting of the first element to ordinary
+fronting; Nielsen reports contemporaneity as traditional. Early *aeodbaldum*
+and *aeanberhti* support the distinct front element and offglide
+([@Campbell1939, p. 91 and n. 1]; [@Nielsen2001, p. 515]).
+Contemporaneity is a supported reconstruction, not a measured date.
+Luick also connects the two, while reconstructing earlier offglide
+lowering ([@Luick1914, pp. 130–131, §119]).
+
+**Tree consequence of the defended English premises.** If completed English
+ai contraction is daughter-only and precedes ordinary fronting, then ordinary
+fronting cannot occupy the common stem:
+
+```text
+daughter-English ai > ā < English ordinary fronting
+therefore ordinary English/Frisian fronting is parallel under these premises
+```
+
+This positive working choice does not require endorsing every detail of
+Campbell's Frisian chain. His additional Frisian au contraction < short
+fronting provides another obstruction, but its aa mechanism is qualified;
+the fronted ai intermediate is likewise conjectural
+([@Campbell1939, pp. 90–91, 104]).
+Rejecting daughter placement or demonstrating Luick's alternative ai history
+would require reconsidering this consequence.
+
+**Live alternatives, not manufactured consensus.** Repanšek separates
+diphthong restructuring from short fronting and prefers short fronting before
+ai contraction. The contrasting ai/au outcomes do not by themselves prove
+separate process identity: earlier ai contraction also explains them
+([@Repansek2012, p. 82]). Goblirsch's common au > ēa followed by Frisian
+stress shift/contraction is tree-compatible, but the proposed Frisian
+fronted-au intermediate is not demonstrated. His eu > jā comparanda are
+analogies, not au witnesses ([@Goblirsch1991, pp. 17, 20–21]).
+Kortlandt instead combines restricted ancestral fronting with a later
+English extension, including au. The *eald/cēapian* versus *ald/kāpia*
+distributions do not establish his entire topology or chronology
+([@Kortlandt2008, pp. 267–268]).
+
+**Implementation boundary.** Keep SC030/SC043 separately represented pending
+approval. English phonetic episode identity neither proves inherited identity
+nor licenses treating every current SC043 clause as one event. Its unstressed
+short and long-final clauses require separate source/input audits; the stressed
+short-a argument does not date them. A source-faithful experiment must also
+retain a coherent diphthong realization after first-element fronting, rather
+than strand a product by moving SC030 alone.
+
+Reuse day/land, bread/stone and fare. Fare is an output-equivalent control
+for never-fronted versus fronted-then-restored histories, not a discriminator
+([@Nielsen2001, p. 515]). A properly sourced *cēapian* fixture could add
+initial-k evidence absent from the simple inherited-au controls
+([@Kortlandt2008, p. 267]); no corpus admission follows.
+
+### 8.5 B: conventional reconstruction and localized late-breaking rivals
+
+**Working baseline.** For the relevant short-a environments retain:
+
+```text
+ordinary fronting < breaking < restoration < mutation
+```
+
+This is the conventional reconstructed chain, not a manuscript-observed
+series. Versloot's presentation of the Standard Theory preserves dialect
+differences; it cannot supply one universal breaking environment
+([@Versloot2025, p. 104, table 1]).
+Hogg's *calan/galan* support restoration before effective palatalization
+under regular front-vowel conditioning, but do not uniquely prove an
+earlier fronting event ([@Hogg1979, pp. 90–91, 96]).
+Versloot's *spadan* likewise allows either restoration or original blocking
+([@Versloot2025, p. 123]).
+
+**Substantive alternative.** Versloot retains both a lengthening path
+`a > [aˑ] > ea / _rC` and selective fronting with mutation before
+breaking. His manuscript/dialect conditioners differ: relevant following
+back vowels, labials, lC, voiced nonvelar rC environments and excluded
+rn/rw contexts must remain explicit. He does not adjudicate all stressed
+vowels or velar palatalization ([@Versloot2025, pp. 107, 123, 126–128,
+134–135]). A shorter or less "zigzagging" formalization is not evidence
+that it is historically correct.
+
+**High-value discriminator.** His *farmjan- > ferm- > feorm-* analysis
+of *feormat* would establish mutation before that e-breaking if its etymology
+and reading are accepted. Mutation-created e before rk/rw remains unbroken
+in the cited *uuerci/smeruui/teru* controls. The unusual example was
+excluded from his main tally; it does not establish mutation before every
+breaking component ([@Versloot2025, pp. 131–132]).
+The *feruuitgeornnis/feruitgernis > feorwitgeornis* comparison tests
+later productivity or opaque compound conditioning, but scribal influence
+and the existing *feor-* sequence remain alternatives on those pages.
+CAPR must not turn that analysis into grammatical conditioning.
+
+**Comparative Frisian specificity.** Bremmer's short e/i > rising iu
+before tautosyllabic χχ/χs/χt in closed syllables is not English rC
+breaking. He favors medial h-loss before breaking weakly, while separately
+placing breaking before intervocalic χ > h weakening
+([@Bremmer2009, pp. 33–35, 37]). These are not one universal h chronology.
+Distinct conditioning supports distinct daughter events; making both
+breakings postmutation would not prove event identity.
+
+**Recommendation.** Retain conventional English breaking/restoration as
+the working baseline, with Versloot's late, restricted Anglian components
+as explicit rivals. Test their actual manuscript/vowel domains, not a
+wholesale relocation of SC044. No new generic ea word is needed.
+
+### 8.6 P: distinguish articulation, cutoff, merger and assibilation
+
+**Working event inventory.** Initial k, fricative g, gg/ng stops, h/χ and
+sk do not form one demonstrated chronological event. Nor are articulatory
+onset, productive cutoff, phonemic contrast, merger and assibilation
+interchangeable ([@Laker2007, pp. 167–168, 175–184]).
+
+| Component | Historical specification or diagnostic | Working constraint and limitation |
+|---|---|---|
+| Initial k | Qualifying original front vowels/j versus secondary fronts; key's unrounded mutation vowel is more diagnostic than rounded kyn | Prefer productive cutoff before mutation; rounded products alone establish only cutoff before unrounding (Hogg pp. 100–103; Laker pp. 167–168). |
+| Fricative g | [ɣ] > [ʝ] > [j], distinct from geminate/postnasal stops | Separate palatal articulation, merger and final vocalization. Hogg's early final evidence is stronger than his extension to all positions (pp. 103–105, 111). |
+| gg/ng | Palatal stop-class reflexes, ultimately assibilated, not the fricative-to-j path | Laker separates the classes; the precise OE ng triggers/order need handbook specification (pp. 167–168). |
+| h/χ | Velar breaking trigger versus proposed later palatal treatment | Feoh does not date all voiced/voiceless velars together (Hogg pp. 91, 96, 111; Laker pp. 176–177). |
+| sk | Separate consonantal history from later sc vowel treatment | Bremmer's Frisian sk remains unaffected; Hogg excludes sk from this investigation. Those facts do not specify the OE law (Bremmer p. 30; Hogg p. 112 n. 2). |
+
+The table's citations refer to Hogg 1979, Laker 2007 and Bremmer 2009
+([@Hogg1979, pp. 91, 96, 100–105, 111–112];
+[@Laker2007, pp. 167–168, 176–177]; [@Bremmer2009, p. 30]).
+Laker's *ċeorl* establishes breaking before ordinary palatal
+diphthongization, not uniquely breaking before consonantal palatalization:
+both `B < P < PD` and `P < B < PD` give that outcome
+([@Laker2007, p. 175]).
+
+**Key/day contradiction remains localized and real.**
+
+```text
+key dative: retained initial k + unrounded mutation-created ǣ
+            supports initial productive cutoff < mutation
+day dative: new medial j would trigger mutation if equivalent to inherited j
+            retained æ supports mutation < creation of that effective trigger
+```
+
+Hogg considers but does not endorse delayed merger, separate initial/medial
+chronologies and other repairs; his conclusion is unresolved. Separating
+cutoff from medial merger identifies the problem, not a source-proven solution
+([@Hogg1979, pp. 102–110]). SC057's gj/kj coalescence is not that
+fricative merger. Dotted-g output likewise cannot identify all its input
+phonetic classes as the same sound.
+
+**Frisian ai ambiguity.** Bremmer §§42a/44 give opposed ai/P statements.
+Unpalatal *kēi* constrains availability of the front ai product, not every
+earlier back monophthongization. Preserve the contradiction and the weaker
+pre-unrounding option instead of silently inventing two source episodes
+([@Bremmer2009, pp. 30–32]).
+Laker weakens several arguments against inherited palatalization, but
+removing an obstacle establishes compatibility, not inheritance. His au
+problem remains open; *cēapian/kāpia* does not exclude every reversal
+history ([@Laker2007, pp. 175–184]).
+
+**Runic layers.** Waxenberger's *hærja* interpretation places allophonic
+mutation around AD 500–550; the later phonemicization arguments concern
+different rune/vowel evidence. She explicitly lacks immediate runic evidence
+for short-a phonemic splitting. Inscription dates, phonetic readings and
+phonemic interpretations are separate premises, not a date for every P/U
+event ([@Waxenberger2019, pp. 71–73]).
+
+**Recommendation.** Prefer the conventional initial productive-cutoff account
+with explicit unrounded controls, but leave medial merger/trigger equivalence
+unresolved. Specify stop, fricative, h and sk components independently.
+A daughter-only predecessor excludes only the identified component from
+the common stem; it does not adjudicate every earlier palatal tendency.
+Do not issue an inherited-palatalization verdict from this assessment.
+
+### 8.7 Decision sequence and chapter argument
+
+The reviewed material supports a working history, not adoption of one author's
+entire package. Use Campbell/Ringe–Taylor for the conventional English
+scaffold, the specialist papers to test particular premises, and the direct
+Frisian accounts to test inherited-event identity. Keep the competing
+retained-front long-vowel input, ai histories, au intermediate and late-breaking
+components visible where the evidence does not uniquely exclude them.
+
+| Next case | Exact scientific deliverable before production approval |
+|---|---|
+| D / SC031 with SC032–034 | Map early glide reanalysis and later English realization to component laws; preserve all six live SC031 applications and separate j-derived paths. |
+| A / SC004 with SC101 context | Specify inherited versus secondary long-vowel inputs and the proposed daughter placement of completed stressed ai contraction; do not silently reopen settled long-fronting decisions. |
+| F / SC030–043 | Test one English fronting episode with coherent diphthong completion; audit unstressed/long-final clauses separately; keep inherited identity conditional on the ai chronology. |
+| P / SC045–052, SC057 context | Specify consonant classes and productive cutoff; key/day fixtures must preserve both outcomes without pretending coalescence solves the merger problem. |
+| U / SC055–056 | Realize ordinary diphthongization before mutation, retain separately evidenced later sc treatment, and diagnose gift's early input in an isolated variant. |
+| B / SC044–046 | Compare conventional and documented late Anglian components with positive/negative vowel/context controls; no global breaking reversal. |
+
+Chapter 3 should argue for the required node while distinguishing its
+stipulated existence from its evidentially reconstructed inventory. Present
+the long-vowel/ai premise dispute and a worked tree consequence: under
+daughter-English contraction < ordinary fronting, corresponding short
+frontings are parallel. Goblirsch's follower-based alternative demonstrates
+why tree compatibility is not proof of a fronted Frisian intermediate
+([@Campbell1939, pp. 90–91]; [@Versloot2017, pp. 295–297, 318];
+[@Goblirsch1991, pp. 17, 20–21]).
+
+Chapter 4 should develop the English partial chains rather than claim a
+uniquely established total order: the early glide feeders, ordinary
+fronting/breaking/restoration, class-specific palatal layers, ordinary
+diphthongization before mutation, and separately later sc treatment.
+Work guest/sheath/gift as distinct evidential cases and key/day as a
+localized unsolved merger question. Explain why successful final outputs
+do not vindicate the present intermediate serialization
+([@RingeTaylor2014, pp. 41–42, 215–217, 220, 235];
+[@Hogg1979, pp. 102–110]).
+The expanded introductions now implement these arguments, including
+conditional ancestral inventories, author-specific alternatives and the
+guest/sheath/gift comparison. They describe the working account and its
+limits, not newly adopted production histories. The SOURCE node table
+records fourteen relevant-class rows across the conservative, Luick and
+Goblirsch cuts; it is not a complete phoneme inventory. Ten separately
+attributed constraint models preserve unresolved premises explicitly.
+
+## 9. Component implementation and publication ledger
+
+This is the single cross-thread action ledger, not another production
+registry. **Assessed** means source comparison is complete, not that the
+law has been approved or implemented. **Conditioning gap** names a missing
+specification which must be resolved before a runnable scientific variant.
+Experiments and approvals are pending unless explicitly recorded below.
+All production FSTs, canonical metadata/edges and selected corpus inputs
+remain unchanged.
+
+| Component | Historical target or outstanding specification | Evidence / diagnostic | Existing dossier and reader surface | State / next action |
+|---|---|---|---|---|
+| SC031 ww simplification | Distinguish literal deletion proxy from earlier Vww > Vuw reanalysis | RingeTaylor2014 pp. 41–42, 65–66; six-row census; nine D fixture assertions across eight current rows | 031-034 book dossier §§11–13; 031 reader | Exact incumbent clause mapped; a/e/i subset experimentally checked on all 387 rows; RETAIN control / DEFER full production decomposition |
+| SC033 e/i+w | Early reanalysis versus later English long diphthong realization; no wholesale PWGmc restaging | RingeTaylor2014 pp. 41–42, 171–173; four/you/chew/hue | 031-034 dossier; 033 reader | Early subset recipe checked with incumbent completion; full member law and stage split pending |
+| SC034 a+w | Quantity and retained glide, including secondary ww; exclude separately resolved j paths | RingeTaylor2014 pp. 65–66, 171–173; dew/hew, hay/strew controls | 031-034 dossier §13; 034 reader | Incumbent a/á, quantity and following-symbol conditions mapped; full-domain split deferred |
+| SC032 atomic diphthongs | Separate au completion from eu/iu realization; not automatically one leveling law | RingeTaylor2014 pp. 171–173; bread and eu/iu controls | 031-034 dossier §13; 032 reader | Every incumbent atomic clause mapped; source-domain decomposition remains deferred |
+| SC032 split e/i+u | Determine representation equivalence and short/long/stress outcomes | Existing executable clauses; source mapping required, not inferred from notation | 031-034 dossier §13; 032 reader | Split e/é/i clauses mapped, including absent parallel í clause; historical equivalence not established |
+| SC029 awwj | Contextual control; preserve settled domain unless specifically challenged | RingeTaylor2014 p. 173; hay/strew versus hue | Existing SC029/030 memo; 028-030 dossier; 029-030 reader | Retain incumbent as control, not a new verdict |
+| SC098 apocope interface | Distinguish unstressed-word high-vowel loss from literal ww proxy; require prosodic/representation compatibility with early reanalysis | RingeTaylor2014 pp. 41–42, 57–58; you intermediate versus hay/hue/strew negatives | Existing SC098 dossier; 031-034 packet §12 | Technical proxy control restores all baseline outputs; historical conditioning and separate production approval pending |
+| SC004 stressed ai | Prefer daughter placement of completed contraction; no automatic semantic reorder | Campbell1939 pp. 90–91; RingeTaylor2014 pp. 170–171; Versloot2017 pp. 295–297, 318; fresh 23-row census, stone/sheep/deed | Existing 004 dossiers and source-led A packet; 004 reader | Component/census/source packet prepared; retained rewrite baseline, conditional metadata/node decision and approval pending |
+| SC101 inherited oral long | Conventional working input versus retained-front rival; no automatic reopening | RingeTaylor2014 pp. 10–13; Fulk2018 pp. 60–61; inherited versus secondary long controls | Existing SC024/025/101 memo; 101 reader | Settled incumbent preserved; specific new-premise challenge needed |
+| SC030 au first element | One proposed English episode with ordinary short-a fronting, completion kept coherent | Campbell1939 p. 91; Luick1914 pp. 130–131; bread/stone and j-derived controls | SC029/030 memo; completed 028-030 packet; 029-030 reader | All 18 selected firings recorded; RETAIN incumbent control / DEFER identity or placement change |
+| SC043 stressed short | Parallel daughter placement conditional on daughter ai contraction preceding it | Campbell1939 pp. 90–91; day/land/fare | Completed 043 and 042-048 packets; 043 reader | 80 stressed-short applications mapped; 90 composite rows; conditional daughter recommendation, not approved metadata |
+| SC043 unstressed short | Independent stress/domain/input-history audit | Current clause; earlier bare-final-a loss and internal/nasal controls | Completed 043 and 042-048 packets; 043 reader | 12 applications mapped; overlaps preserved; historical identity remains deferred |
+| SC043 long final | Surviving bimoric vowel proxy versus ordinary short fronting | RingeTaylor2014 pp. 58–59, 299–300; rest/SC042 feeder and who negative | Completed 043 and 042-048 packets; 043 reader | Literal guard and sole rest2152 application mapped; RETAIN control / DEFER historical identity |
+| SC044 A/E/I breaking | Conventional baseline; compare only specified late Anglian components | Versloot2025 pp. 104, 107, 123, 126–128, 131–135; feormat and negative e controls | Completed 042-048 packet; 044-045 reader | All 48 selected firings, A29/E16/I3, mapped; conventional control retained, global late-breaking reversal rejected |
+| SC046 restoration | General fronting/restoration versus original blocking, not output-fit selection | Hogg1979 pp. 90–97; fare/calan/galan | Completed 042-048 packet; 046-048 reader | All 20 selected firings mapped; incumbent helper/tail control retained; unsupported alternative not implemented |
+| SC047/048 neighbors | Protect existing nasal/apocope interfaces; reopen only if implicated | Actual variant traces, not a presumed AF controversy | 042-048 dossier; 046-048 reader | Context only; no proposed science change |
+| SC045 h/voiced fricative | Separate articulation, merger and vocalization; h need not share g chronology | Hogg1979 pp. 103–105, 111; Laker2007 pp. 176–177; feoh/segl/key-day | Completed 042-048 packet; 044-045 reader | All 24 live changes are x→ç; zero literal voiced-fricative firings; fricative-g history and new-j equivalence remain deferred |
+| SC052 k | Source-conditioned original fronts/j, productive cutoff versus later assibilation | Hogg1979 pp. 100–110; Luick1914 pp. 836–841; key unrounded negative | Completed 052 hinge packet; 052 reader | All 32 composite applications mapped; literal class/cutoff control retained; key/day merger remains unresolved |
+| SC052 g/gg/ng | Fricative versus stop-class representation and ng triggers | Hogg1979 pp. 103–111; Laker2007 pp. 167–168; day/wicg and source ng controls | Completed 052 hinge packet; 052 reader | Class and marker audit completed; ng historical eligibility still deferred; coalescence does not prove merger |
+| SC051 sk | Independent OE consonantal law, not the later vowel layer | Campbell1959 pp. 140–141; RingeTaylor2014 pp. 203–204; Bremmer2009 p. 30 contrasts Frisian | Completed 051 packet; 051 reader | Literal clauses and all 18 firings mapped against OE handbook conditions; RETAIN control, no fabricated scope change |
+| SC057 gj/kj | Preserve cluster identity, not fricative-to-j merger | Actual cluster clauses; Hogg1979 pp. 103–111 and Luick1914 p. 840 concern a different merger | 057 reader; new routed memo only if science proposed | Context only; no merger repair by relabeling |
+| SC055 fronting/raising/diphthongs | Distinct member laws/inputs, not independently dated by composite displacement | Fulk2018 pp. 58–59, 61; RingeTaylor2014 pp. 220–222; fresh census 68 | Completed 055-056 packet and reader | All 68 firings and literal member inputs mapped; RETAIN control, source-history decomposition not approved |
+| SC056 ordinary PD | Best-supported history before OE mutation | Fulk2018 p. 74; RingeTaylor2014 pp. 215–217; guest/sheep/year | SC056 adjudication, 055-056 dossier and current reader | Approved ordinary-before-mutation production split; guest realizes ae > ea > ie; original late clause remains separately visible as SC105 support approximation |
+| SC056 later sc | Separate treatment of ai-derived mutation product | Campbell1959 pp. 68–69; RingeTaylor2014 p. 235; sheath versus genuine negatives | 055-056 dossier §12 and current reader | Sheath unchanged in the private incremental comparison; incumbent broad long-low-front clause remains an unadjudicated control, not a resolved historical conditioner |
+| Gift selected input | Ringe's earlier-raised input versus published e-vowel reconstructions | Ringe2017 pp. 135, 151–153; Orel2003 p. 130; KlugeSeebold2011 p. 359; Bammesberger1990 pp. 142–143; Seebold1970 pp. 35–36, 218 | Gift lexical model, SC056 adjudication and 055-056 dossier | Approved PROTO = PROTOFORM = *gíftiz; ample author-by-author lexical explanation preserves e-forms, dating qualification and provenance limits. Original baseline archives remain immutable; explicit migration protects the same identities |
+| Required AF node | Coherent inventory and common-prefix/daughter assignments under explicit premises | Sections 2 and 8; Luick direct bracket is one source package, not forced history | Chapter 3 and node_state_candidates.tsv | Three relevant-class candidate cuts specified; conservative working exposition implemented; canonical selection not authorized |
+| English partial chains | Detailed worked arguments, not one author adopted wholesale | Section 8 and ten source-local constraint models | Expanded Chapter 4 and affected local readers | Worked guest vowel checkpoints, sheath late-layer distinction and gift input diagnosis implemented; no production adoption implied |
+| Publication pipeline | Correct source citations/crossrefs, refresh views, rebuild lexical volume and render | Hogg dialect pages 3–8 verified; semantic drift individually audited; all 123 older omissions source-backed and repaired | SOURCE readers → manifest/section20 → lexical aggregate/index/book | Full unbypassed pipeline passed; new PDF rendered; zero gloss/citation/index violations; historical chapter numbers verified |
+
+Before a row advances to experimentally checked, it needs exact conditions,
+positive/negative intermediate expectations and an isolated full-corpus
+comparison. Before it advances to implemented, its component-specific
+production proposal needs approval and normal protocol propagation.
+The book's adopted-law exposition cannot advance ahead of that state.

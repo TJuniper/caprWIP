@@ -68,10 +68,13 @@ treating Laker's report as the only access: Luick links au first-component
 fronting to ordinary a-fronting and tentatively proposes later Frisian
 regressive assimilation; Campbell instead contracts Frisian au before
 fronting ([@Luick1914, pp. 130–132, §§118–120; @Campbell1939, pp. 91,
-104]). Luick's corrupt intermediate glyph is not an input candidate.
-Final buy/cuckoo outcomes cannot alone establish that tentative stage or
-its consonant consequences; §637 remains unverified. The synthesis owns
-the comparative tree implications.
+104]). The new scans permit direct glyph verification; Luick's tentative
+intermediate is still not a demonstrated corpus input.
+Final buy/cuckoo outcomes cannot alone establish that stage or its consonant
+consequences. Section 637 has now been visually read, including its source
+chronology in note 8 ([@Luick1914, pp. 835–841]).
+The synthesis owns the comparative tree implications; the verified passage
+does not license an inherited-palatalization decision.
 
 Add Goblirsch's **direct** shared-ēa/stress-shift alternative to those
 au comparisons. Kentish **djāf/-lyās** versus Frisian
@@ -100,8 +103,12 @@ phonetic interpretation, phonemicization and chronology. Shared rune
 usage is not shared sound-change proof; short [æ] is not automatically
 /æ/ (Waxenberger pp. 63–74).
 
-**Readiness limit:** relevant English machinery inspected; no candidate
-input, live firing, intermediate or final output verified. Frisian
-implementation remains a future task requiring an explicit
-alternative-chain decision and exact source-backed component laws.
+**Readiness limit:** the later diagnostic programme reuses twenty existing
+OE rows and verifies twenty-five exact intermediate assertions, including
+incumbent stone, day, cow, lung and palatal/mutation controls. It does not
+certify the alternative source inputs, paradigm cells or paired daughter
+histories in this queue. No new candidate is admitted. The operative work
+remains OE-only; Frisian forms supply comparative evidence, not an implemented
+target chain. A future Frisian implementation would require its own explicit
+scope decision, alternative-chain choice and source-backed component laws.
 Missing Stiles/Fulk copies are not a general prerequisite.

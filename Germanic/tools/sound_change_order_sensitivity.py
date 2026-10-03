@@ -79,7 +79,7 @@ class ChangeInfo:
 class NeighborInfo:
     change_id: str
     display_name: str
-    inventory_order: int  # archival inventory/chronology-experiment order space
+    inventory_order: int | None  # absent for post-archive registered stages
     rule_name: str
     entry_type: str
 
@@ -242,7 +242,7 @@ def load_inventory(
 
 
 def inventory_rule_lookup(ordered: Sequence[ChangeInfo]) -> Dict[str, NeighborInfo]:
-    return {
+    lookup = {
         item.rule_name: NeighborInfo(
             item.change_id,
             item.display_name,
@@ -253,6 +253,15 @@ def inventory_rule_lookup(ordered: Sequence[ChangeInfo]) -> Dict[str, NeighborIn
         for item in ordered
         if item.rule_name
     }
+    lines = [line for line in repo_paths()["registry"].read_text(encoding="utf-8").splitlines()
+             if line and not line.startswith("#")]
+    for row in csv.DictReader(lines, delimiter="\t"):
+        rule_name = row.get("fst_identifier", "").strip()
+        if rule_name and rule_name not in lookup:
+            lookup[rule_name] = NeighborInfo(
+                row["sc_id"], row["display_name"], None, rule_name,
+                row["entry_type"])
+    return lookup
 
 
 def placeholder_neighbor(rule_name: str, fallback_order: int) -> NeighborInfo:

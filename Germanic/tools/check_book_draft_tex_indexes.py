@@ -5,6 +5,7 @@ import argparse
 import csv
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 
@@ -110,6 +111,11 @@ def normalized_index_token(value: str) -> str:
     return value.casefold().lstrip("*").strip("`.,;:!?()[]{}\"' ")
 
 
+def explicit_emission_counts(emission_rows: list[dict[str, str]]) -> Counter[str]:
+    return Counter(row["index_command"] for row in emission_rows
+                   if row["in_book"] == "1" and row["emission_path"] == "explicit_tag")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--tex-path", type=Path, default=DEFAULT_TEX_PATH)
@@ -206,8 +212,6 @@ def main() -> None:
     )
 
     # ── Shared emission planner (single source of policy) ─────────────────────
-    from collections import Counter
-
     planner_main_rows = load_print_main()
     emission_rows = build_emission_table(planner_main_rows, load_model_entry_headings())
     expected_command_set: set[str] = {row["index_command"] for row in emission_rows}
@@ -270,12 +274,8 @@ def main() -> None:
     #
     # Semantic occurrence parity (occurrence_id parity) is handled by
     # check_book_occ_id_parity.py. This check verifies that every expected
-    # command body (aggregated by identity) appears in the generated TeX.
-    explicit_expected_counter: Counter[str] = Counter()
-    for row in main_rows:
-        if (row.get("source_scope") or "").strip() != "explicit_tag":
-            continue
-        explicit_expected_counter[index_command(row)] += 1
+    # assembled command body appears; corpus-only sites are not book emissions.
+    explicit_expected_counter = explicit_emission_counts(emission_rows)
 
     # Lower bound: every expected explicit occurrence must appear at least once.
     explicit_missing = [

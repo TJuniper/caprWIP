@@ -33,7 +33,7 @@ High German *niuwi* and *siuwen*. Gemination was reversible, since it merged
 nothing and altered no underlying form, so the sequence Northwest Germanic
 \emph{*awj} to West Germanic \emph{*[aw'w']} to pre-Old English \emph{*[auj]}
 can have run its course and then undone itself. Their derivations give
-Proto-Germanic \emph{*hawja} through \emph{*hauj-} to *hīeġ*, and
+Proto-Germanic \emph{*hawja} through \emph{*hauj-} to *hīeġ* ‘hay’, and
 Proto-Germanic \emph{*strawjaną} through \emph{*straujan} to Anglian
 *strēgan* ‘strew’ [@RingeTaylor2014, p. 173].
 
@@ -41,7 +41,7 @@ The strongest comparative argument for the doubled stage comes from paradigms
 in which some cells had \emph{*j} in the ending and others had \emph{*i}. Only
 the first group could double, and the two outcomes then sat side by side. Old
 High German has *hewi* ‘hay’ beside *houwi*, and Old English itself preserves
-both in one word, *glīg* ‘mirth’ from the undoubled nominative beside *glīowes*
+both in one word, *glīg* ‘mirth’ from the undoubled nominative beside *glīowes* ‘of mirth’
 in the genitive [@RingeTaylor2014, p. 53, §3.1.3]. The continental forms *houwi*
 and *gistrouwen* ‘bestrew’, and Old Saxon *hoi* ‘hay’, point to the same West
 Germanic stage, which English alone went on to resolve [@RingeTaylor2014,
@@ -55,8 +55,8 @@ company, since the \emph{u} of \emph{auuj} is generally lost while the \emph{j}
 of \emph{iuuj} is lost [@Campbell1959, p. 46, §120.2]. Old English *hīeġ* ‘hay’
 and *hīew* ‘form, hue’ begin from shapes that differ in a single vowel and end
 with different survivors. *Hīeġ* keeps its \emph{*j}, written *ġ*, while *hīew*
-keeps its \emph{*w}. Campbell’s other examples of the second type are *nīowe*,
-*nīewe* ‘new’ and *glīow*, *glīw* ‘mirth’.
+keeps its \emph{*w}. Campbell’s other examples of the second type are *nīowe* ‘new’,
+*nīewe* ‘new’ and *glīow* ‘mirth’, *glīw* ‘mirth’.
 
 One qualification belongs in the record. Fulk holds that \emph{*w} was never
 consonantal here, so that Proto-Germanic already had \emph{*straujaną} with
@@ -79,12 +79,13 @@ define OEAwwjResolution [
 The change is confined to the \emph{*a} type. PGmc [xáwją]{.recon} ‘hay’ is
 doubled to \emph{*xáwwją} by the West Germanic law and then resolved to
 \emph{*xáują}, and PGmc [stráwjaną]{.recon} ‘strew’ is doubled to
-\emph{*stráwwjaną} and resolved to \emph{*stráujaną}, yielding *hīeġ* and
-*strīeġan* once the later diphthong changes and \emph{i}-umlaut have applied.
+\emph{*stráwwjaną} and resolved to \emph{*stráujaną}, yielding *hīeġ* ‘hay’ and
+*strīeġan* ‘strew’ once the later diphthong changes and \emph{i}-umlaut have applied.
 PGmc [xéwją]{.recon} ‘form, hue’ is doubled by the same law, and there the
-doubling holds: it passes through this change untouched and surfaces as *hīew*.
+doubling holds: it passes through this change untouched and surfaces as *hīew* ‘form, hue’.
 
-The resolution has to precede the fronting of SC030, since the fronting needs a
+The resolution has to precede
+[SC030 OEAuBrightening](#rule-OEAuBrightening), since the fronting needs a
 diphthong to work on. Ringe and Taylor state the same dependence when they
 observe that these new instances of \emph{*au} went on to share the ordinary
 development [@RingeTaylor2014, p. 173].
@@ -115,10 +116,10 @@ of the whole sequence is the *ēa* of *dēaþ* ‘death’, *ēage* ‘eye’ an
 The geographical reach of the diphthongal fronting is narrower than that of the
 plain one. Old Frisian shows no such fronting and has \emph{ā}, so that Old
 English *ēac* ‘also’, *ēage* ‘eye’ and *bēam* ‘tree’ stand against Old Frisian
-*āk*, *āge* and *bām* [@Fulk2018, p. 73, §4.12; @RingeTaylor2014, p. 172]. A
+*āk* ‘also’, *āge* ‘eye’ and *bām* ‘tree’ [@Fulk2018, p. 73, §4.12; @RingeTaylor2014, p. 172]. A
 later change supplies independent confirmation. Old English *gēac* ‘cuckoo’ has
 a palatalized initial, which requires a front vowel to have followed it, while
-Old Frisian *gāk* has none [@Fulk2018, p. 73, §4.12]. Brightening of plain
+Old Frisian *gāk* ‘cuckoo’ has none [@Fulk2018, p. 73, §4.12]. Brightening of plain
 \emph{*a} is shared with Frisian; brightening of the first element of
 \emph{*au} is English.
 
@@ -132,20 +133,22 @@ define OEAuBrightening [
 ```
 
 Most of the words that pass through the change carry \emph{*au} inherited
-straight from Proto-Germanic. PGmc [láubą]{.recon} ‘leaf’ gives *lēaf*, PGmc
-[stráumaz]{.recon} ‘stream’ gives *strēam*, PGmc [bráudą]{.recon} ‘bread’
-gives *brēad*, and PGmc [dráugmaz]{.recon} ‘dream’ gives *drēam*. Where a
+straight from Proto-Germanic. PGmc [láubą]{.recon} ‘leaf’ gives *lēaf* ‘leaf’, PGmc
+[stráumaz]{.recon} ‘stream’ gives *strēam* ‘stream’, PGmc [bráudą]{.recon} ‘bread’
+gives *brēad* ‘bread’, and PGmc [dráugmaz]{.recon} ‘dream’ gives *drēam* ‘dream’. Where a
 following \emph{*j} or \emph{*i} survives long enough to cause \emph{i}-umlaut,
 the *ēa* appears in West Saxon as *īe*, as in *ġelīefan* ‘believe’ from PGmc
-[galáubijaną]{.recon} and *nīed* ‘need’ from PGmc [náudiz]{.recon}
-[@Campbell1959, p. 46, §120.2]. The two words supplied by SC029, *hīeġ* and
-*strīeġan*, join this second group.
+[galáubijaną]{.recon} ‘believe’ and *nīed* ‘need’ from PGmc [náudiz]{.recon} ‘need’
+[@Campbell1959, p. 46, §120.2]. The two words supplied by
+[SC029 OEAwwjResolution](#rule-OEAwwjResolution), *hīeġ* ‘hay’ and
+*strīeġan* ‘strew’, join this second group.
 
 The proportions matter for what the rule is. This is the general Old English
 treatment of \emph{*au}, to which the resolution of \emph{*awj} contributes two
-further inputs; the history of *hīeġ* and *strīeġan* does not define it.
+further inputs; the history of *hīeġ* ‘hay’ and *strīeġan* ‘strew’ does not define it.
 
 The fronted \emph{*æu} has no independent life. It is taken up at once by the
-diphthong leveling of SC032, which lowers the offglide and delivers *ēa*.
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling), which lowers
+the offglide and delivers *ēa*.
 Ringe and Taylor give that order explicitly when they place the tensing and
 fronting first and the unrounding and lowering later [@RingeTaylor2014, p. 172].

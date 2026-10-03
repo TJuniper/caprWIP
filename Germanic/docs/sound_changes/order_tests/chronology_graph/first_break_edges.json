@@ -154,7 +154,7 @@
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC028-nwgmc-preconsonantal-x-loss.md",
       "card_type": "negative_boundary",
       "has_reciprocal_boundary": "no",
-      "short_summary": "Post-Proto-Germanic (Gothic bi-niuhsjan, saihsta retain the *h) and pre-breaking (R/T p.158: the undiphthongized vowels of waestm and thisl \"can be accounted for only by supposing that these *h were lost before breaking took place\"). R/T p.157 place it after the PWGmc *-CijV- syncope, which is what creates the *sj of *niuhsjan, so it is now composed immediately after PWGmcSyllabicJ. Fed by SC103 PGmcNasalLossBeforeX, which creates the *xst cluster of fist (*funxstiz > *fuxstiz); the two are separate historical changes, since Gothic underwent SC103 but not this one. Restaged out of the North Sea Germanic corridor, where it had wrongly followed the Ingvaeonic nasal-spirant law."
+      "short_summary": "\"Post-Proto-Germanic (Gothic bi-niuhsjan, saihsta retain the *h) and pre-breaking (R/T p.158: the undiphthongized vowels of waestm and thisl \"\"can be accounted for only by supposing that these *h were lost before breaking took place\"\"). R/T p.157 place it after the PWGmc *-CijV- syncope, which is what creates the *sj of *niuhsjan, so it is now composed immediately after PWGmcSyllabicJ. Fed by SC103 PGmcNasalLossBeforeX, which creates the *xst cluster of fist (*funxstiz > *fuxstiz); the two are separate historical changes, since Gothic underwent SC103 but not this one. Restaged out of the North Sea Germanic corridor, where it had wrongly followed the Ingvaeonic nasal-spirant law.\""
     },
     {
       "change_id": "SC029",
@@ -412,19 +412,19 @@
       "lifecycle_status": "active",
       "rule_name": "OEIUmlaut",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC055-oe-i-umlaut.md",
-      "card_type": "reciprocal_or_near_reciprocal",
-      "has_reciprocal_boundary": "yes",
-      "short_summary": "-"
+      "card_type": "source_partial_chain",
+      "has_reciprocal_boundary": "no",
+      "short_summary": "Ordinary SC056 precedes mutation; SC105 is a retained postmutation approximation. Legacy gift/sheath composite displacement argument is superseded by sc056-ordinary-palatal-diphthongization-adjudication.md."
     },
     {
       "change_id": "SC056",
-      "display_name": "OE Ws Palatal Diphthongization",
+      "display_name": "Ordinary West Saxon palatal diphthongization",
       "lifecycle_status": "active",
       "rule_name": "OEWsPalatalDiphthongization",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC056-oe-ws-palatal-diphthongization.md",
-      "card_type": "reciprocal_or_near_reciprocal",
-      "has_reciprocal_boundary": "yes",
-      "short_summary": "Later side found no real break before the runner boundary at SC087; do not narrate this as a positive must-precede constraint."
+      "card_type": "source_partial_chain",
+      "has_reciprocal_boundary": "no",
+      "short_summary": "Ordinary diphthongization follows breaking and precedes mutation (Fulk 2018 p.74; Ringe-Taylor 2014 pp.215-217,222). Guest follows ae > ea > ie. Old gift/sheath composite displacement boundaries are superseded, not ordinary-law dates."
     },
     {
       "change_id": "SC057",
@@ -1827,12 +1827,12 @@
       "direction_basis": "later_boundary",
       "evidence_basis": "independently_demonstrated",
       "witness_role": "displacement_witness",
-      "representative_lexemes": "shaft; shear; sheath; sheep; shield",
+      "representative_lexemes": "shaft; shear; sheep; shield",
       "representative_forms": "PGmc `*skáftą` yields expected OE `sċeaft`, but the later-shifted variant yields `sċæft`; PGmc `*skéraną` likewise yields `sċeran` instead of expected `sċieran`",
       "strength": "one_sided",
       "interpretation_category": "one_sided_chronology",
       "reciprocal_group_id": "",
-      "notes": "-"
+      "notes": "Ordinary palatal diphthongization still requires the palatal feeder. Displacement outputs record the pre-split experiment; sheath belongs to the retained SC105 approximation and is not an ordinary SC056 witness."
     },
     {
       "source_change_id": "SC052",
@@ -1931,48 +1931,6 @@
       "interpretation_category": "reciprocal_or_near_reciprocal",
       "reciprocal_group_id": "RG13_SC052_SC055",
       "notes": "-"
-    },
-    {
-      "source_change_id": "SC055",
-      "target_change_id": "SC056",
-      "relation_type": "reciprocal_chronology",
-      "direction_basis": "later_boundary",
-      "evidence_basis": "independently_demonstrated",
-      "witness_role": "displacement_witness",
-      "representative_lexemes": "gift; sheath",
-      "representative_forms": "PGmc `*géftiz` yields expected OE `ġift`, but the later-shifted variant yields `ġieft`; PGmc `*skáiθiz` likewise yields `sċǣþ` instead of expected `sċēaþ`",
-      "strength": "tight_local",
-      "interpretation_category": "reciprocal_or_near_reciprocal",
-      "reciprocal_group_id": "RG14_SC055_SC056",
-      "notes": "-"
-    },
-    {
-      "source_change_id": "SC056",
-      "target_change_id": "SC055",
-      "relation_type": "reciprocal_chronology",
-      "direction_basis": "earlier_boundary",
-      "evidence_basis": "independently_demonstrated",
-      "witness_role": "displacement_witness",
-      "representative_lexemes": "gift; sheath",
-      "representative_forms": "PGmc `*géftiz` yields expected OE `ġift`, but the earlier-shifted variant yields `ġieft`; PGmc `*skáiθiz` likewise yields `sċǣþ` instead of expected `sċēaþ`",
-      "strength": "tight_local",
-      "interpretation_category": "reciprocal_or_near_reciprocal",
-      "reciprocal_group_id": "RG14_SC055_SC056",
-      "notes": "Later side found no real break before the runner boundary at SC087; do not narrate this as a positive must-precede constraint."
-    },
-    {
-      "source_change_id": "SC056",
-      "target_change_id": "SC087",
-      "relation_type": "no_break_search_boundary",
-      "direction_basis": "later_boundary",
-      "evidence_basis": "boundary_observation",
-      "witness_role": "",
-      "representative_lexemes": "",
-      "representative_forms": "`none — no later real break was found before the runner boundary`",
-      "strength": "search_boundary",
-      "interpretation_category": "search_boundary",
-      "reciprocal_group_id": "",
-      "notes": "Later side found no real break before the runner boundary at SC087; do not narrate this as a positive must-precede constraint."
     },
     {
       "source_change_id": "SC057",
@@ -2757,6 +2715,20 @@
       "interpretation_category": "runner_boundary",
       "reciprocal_group_id": "",
       "notes": "Earlier boundary is far away across SC044 rather than a tight local adjacency claim; later search reaches the current runner limit with no real break."
+    },
+    {
+      "source_change_id": "SC056",
+      "target_change_id": "SC055",
+      "relation_type": "one_sided_chronology",
+      "direction_basis": "later_boundary",
+      "evidence_basis": "independently_demonstrated",
+      "witness_role": "feeding",
+      "representative_lexemes": "guest",
+      "representative_forms": "ae > ea by ordinary PD; ea > ie by mutation",
+      "strength": "one_sided",
+      "interpretation_category": "one_sided_chronology",
+      "reciprocal_group_id": "",
+      "notes": "Fulk 2018 p.74; Ringe-Taylor 2014 pp.215-217,222. Old gift/sheath composite displacement argument superseded; gift early i is outside PD, sheath belongs to retained SC105 approximation."
     }
   ]
 }

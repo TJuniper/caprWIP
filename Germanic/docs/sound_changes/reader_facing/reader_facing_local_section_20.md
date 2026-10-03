@@ -92,8 +92,8 @@ priority over the rule-name prefix for historical organization purposes.
 The oldest change treated in this book is common to the whole family. In the
 group [-nx-]{.recon} the nasal consonant was lost, the preceding vowel was
 lengthened in compensation, and that lengthened vowel was nasalized. Its results
-are shared by every daughter language: Gothic *þeihan*, *brāhta*, *þūhta* stand
-beside Old High German *dīhan*, *brāhta*, *fūht* and Old English *þēon* ‘thrive’,
+are shared by every daughter language: Gothic *þeihan* ‘thrive’, *brāhta* ‘brought’, *þūhta* ‘seemed’ stand
+beside Old High German *dīhan* ‘thrive’, *brāhta*, *fūht* ‘damp’ and Old English *þēon* ‘thrive’,
 *brōhte* ‘brought’, *þūhte* ‘seemed’, *fūht* ‘damp’
 [@Campbell1959, p. 44, §119; @Fulk2018, p. 55, §4.1;
 @Ringe2017, pp. 149--150, §3.2.7]. Because no daughter keeps the nasal, the
@@ -145,20 +145,20 @@ no further consequence: they go on to develop exactly as the inherited long
 low vowel is carried forward because its later fate depends on it.
 
 The corpus witnesses both branches of the rule. The high branch is
-[fúnxstiz]{.recon} ‘fist’, which becomes [fū́xsti]{.recon} and, after the loss of
+[fúnxstiz]{.recon} ‘fist’, which becomes [fū́xsti]{.recon} ‘fist’ and, after the loss of
 [x]{.recon} before the cluster in
 [SC028 PNWGmcPreconsonantalXLoss](#rule-PNWGmcPreconsonantalXLoss), gives Old
-English *fȳst* ‘fist’. The long vowel of Old High German *fūst*, Dutch *vuist*
+English *fȳst* ‘fist’. The long vowel of Old High German *fūst* ‘fist’, Dutch *vuist*
 and German *Faust* shows that the word belongs here and to no later law
 [@Kroonen2013, p. 160]. The rule also supplies the [xst]{.recon} cluster on
 which the loss of [x]{.recon} before a consonant operates, so the two stand in a
 feeding relation.
 
-The low branch is [θánxtē]{.recon}, the preterite of the verb ‘to think’, whose
-principal parts are reconstructed as [þankijaną]{.recon}, [þanhtē]{.recon},
-[þanhtaz]{.recon} with the nasal still standing before the fricative
+The low branch is [θánxtē]{.recon} ‘thought’, the preterite of the verb ‘to think’, whose
+principal parts are reconstructed as [þankijaną]{.recon} ‘to think’, [þanhtē]{.recon} ‘thought’,
+[þanhtaz]{.recon} ‘thought (past participle)’ with the nasal still standing before the fricative
 [@Ringe2017, p. 281; @Ringe2017, p. 136]. Here the rule yields
-[θą̄xtē]{.recon}, and the nasalized low vowel is later rounded by
+[θą̄xtē]{.recon} ‘thought’, and the nasalized low vowel is later rounded by
 [SC104 EAFNasalizedLowRounding](#rule-EAFNasalizedLowRounding) to give Old
 English *þōhte* ‘thought’. This is the form the handbooks themselves cite for
 the Anglo-Frisian rounding of the vowel produced here [@Fulk2018, p. 55, §4.1]. It does not enter the loss of [x]{.recon} before a
@@ -388,9 +388,9 @@ Here the witness word and the comparative evidence serve different purposes. If 
 
 ## Historical discussion
 
-Proto-Germanic \emph{*ē₁} (the long mid vowel of PIE origin, as against the later \emph{*ē₂}) split East Germanic from the rest of the family. Gothic keeps a mid vowel, written ⟨e⟩, in *gadēþs* 'deed', *slēpan* 'to sleep', *mēna* 'moon', and *jēr* 'year', while Norse and all of West Germanic show a low vowel, as in Old Norse *ráða*, *láta*, *ár*, *nál*, Old High German *tāt*, *slāfan*, *jār*, *māno*, Old Saxon *dād*, *slāpan*, *jār*. Ringe and Taylor assemble the comparative set and reconstruct a Northwest Germanic sound change \emph{*ē₁} > \emph{*ā} [@RingeTaylor2014, pp. 11--13]. The change is directly dated by the earliest epigraphy. The Early Runic accusative \emph{mākija} 'sword' (beside Gothic *mēkeis*) already shows ⟨a⟩ in the second half of the second century AD [@RingeTaylor2014, p. 12], and the a-rune likewise writes the stressed reflex in the Opedal stone's *swestar* 'sister' [@Stiles2017, p. 4]. Loanwords borrowed into Sami from early Proto-Scandinavian point the same way. Lid showed that the root vowel of Sami *mānno* 'moon', Proto-Germanic \emph{*ē} as in Gothic *mēna*, "had gone over to \emph{ā} before the word was borrowed into Sami", and adduced the parallel Sami *saððo* beside Proto-Nordic \emph{*sāðō} from \emph{*sēðō-}, Old Norse *sáð* [@Lid1952, p. 238]. This is Sami borrowing from Proto-Scandinavian, so it dates and localizes the \emph{ā} stage in the North; its application to West Germanic rests on the daughter correspondences above.
+Proto-Germanic \emph{*ē₁} (the long mid vowel of PIE origin, as against the later \emph{*ē₂}) split East Germanic from the rest of the family. Gothic keeps a mid vowel, written ⟨e⟩, in *gadēþs* 'deed', *slēpan* 'to sleep', *mēna* 'moon', and *jēr* 'year', while Norse and all of West Germanic show a low vowel, as in Old Norse *ráða* 'to consider, to advise', *láta* 'to let go, to allow', *ár* 'year', *nál* 'needle', Old High German *tāt* 'deed', *slāfan* 'to sleep', *jār* 'year', *māno* 'moon', Old Saxon *dād* 'deed', *slāpan* 'to sleep', *jār*. Ringe and Taylor assemble the comparative set and reconstruct a Northwest Germanic sound change \emph{*ē₁} > \emph{*ā} [@RingeTaylor2014, pp. 11--13]. The change is directly dated by the earliest epigraphy. The Early Runic accusative \emph{mākija} 'sword' (beside Gothic *mēkeis* 'sword') already shows ⟨a⟩ in the second half of the second century AD [@RingeTaylor2014, p. 12], and the a-rune likewise writes the stressed reflex in the Opedal stone's *swestar* 'sister' [@Stiles2017, p. 4]. Loanwords borrowed into Sami from early Proto-Scandinavian point the same way. Lid showed that the root vowel of Sami *mānno* 'moon', Proto-Germanic \emph{*ē} as in Gothic *mēna*, "had gone over to \emph{ā} before the word was borrowed into Sami", and adduced the parallel Sami *saððo* 'bran' beside Proto-Nordic \emph{*sāðō} from \emph{*sēðō-}, Old Norse *sáð* 'bran' [@Lid1952, p. 238]. This is Sami borrowing from Proto-Scandinavian, so it dates and localizes the \emph{ā} stage in the North; its application to West Germanic rests on the daughter correspondences above.
 
-The change affected stressed syllables only. Ringe and Taylor restrict it explicitly: unstressed \emph{*ē} did not lower but was eventually shortened, as in \emph{*fadēr} > \emph{*fader} 'father' [@RingeTaylor2014, p. 13, and p. 147]; in the runic material the unstressed final vowel of *faþiR* has already merged with \emph{*-i} [@Stiles2017, p. 4]. Within stressed syllables, however, the lowering was unconditioned: it applied before nasals exactly as elsewhere, and Ringe and Taylor accordingly print the intermediates \emph{*mānō} 'moon', \emph{*mānōþ-} 'month', and \emph{*spānuz} 'spoon' [@RingeTaylor2014, p. 11]. The later, dialectally narrower fates of this \emph{*ā} — fronting in the North Sea area when oral, rounding when nasalized — are separate sound changes treated in their own chapters.
+The change affected stressed syllables only. Ringe and Taylor restrict it explicitly: unstressed \emph{*ē} did not lower but was eventually shortened, as in \emph{*fadēr} > \emph{*fader} 'father' [@RingeTaylor2014, p. 13, and p. 147]; in the runic material the unstressed final vowel of *faþiR* 'father' has already merged with \emph{*-i} [@Stiles2017, p. 4]. Within stressed syllables, however, the lowering was unconditioned: it applied before nasals exactly as elsewhere, and Ringe and Taylor accordingly print the intermediates \emph{*mānō} 'moon', \emph{*mānōþ-} 'month', and \emph{*spānuz} 'spoon' [@RingeTaylor2014, p. 11]. The later, dialectally narrower fates of this \emph{*ā} — fronting in the North Sea area when oral, rounding when nasalized — are separate sound changes treated in their own chapters.
 
 The reconstruction of the intermediate value is disputed. The objection is an old one: Bennett observed that the received account obliges Gothic to move \emph{ē} to \emph{ǣ} and back to \emph{ē}, and the non-West-Saxon dialects and Old Frisian to run through \emph{ē > ǣ > ā > ǣ > ē}, "with no apparent agreement among the languages and no discernible phonological trend", and that the Proto-Germanic \emph{ǣ} is on that account preserved directly nowhere [@Bennett1950, pp. 232--233, 235]. In its place he proposed that the backing to \emph{ā} began in the north of the Germanic homeland and spread southward, never reaching Gothic in the east or Anglian and Frisian in the west, so that West Saxon \emph{ǣ} is a retention of the intermediate stage rather than a re-fronting [@Bennett1950, pp. 234--235]. Fulk argues in the same direction on modern evidence: the Northwest Germanic vowel was a low front \emph{*ǣ}, retained unchanged in Anglo-Frisian, with the backing to \emph{ā} of Norse and inner West Germanic a separate areal development spreading northward from Upper German territory; on that reading the runic ⟨a⟩ spellings write a front [æː] for which the futhark had no better grapheme [@Fulk2018, pp. 60--61, §4.6]. Campbell is deliberately noncommittal, finding the \emph{*ā} stage "tempting to assume, though not definitely demonstrable" [@Campbell1959, pp. 50--51, §§128--129]. Ringe and Taylor answer with the lengthened place-adverbs *þǣr* 'there' and *hwǣr* 'where', whose front vowels are most naturally the output of fronting applied to a back \emph{*ā} [@RingeTaylor2014, pp. 13--14]. The present model adopts the two-step reconstruction while recording that the alternative remains live. Campbell is deliberately noncommittal, finding the \emph{*ā} stage "tempting to assume, though not definitely demonstrable" [@Campbell1959, pp. 50--51, §§128--129]. Ringe and Taylor answer with the lengthened place-adverbs *þǣr* 'there' and *hwǣr* 'where', whose front vowels are most naturally the output of fronting applied to a back \emph{*ā} [@RingeTaylor2014, pp. 13--14]. The present model adopts the two-step reconstruction while recording that the alternative remains live.
 
@@ -402,9 +402,9 @@ define PNWGmcLongELowering [
 ];
 ```
 
-The rule reads the stressed tier \emph{*ḗ} only, in keeping with the stress restriction; unstressed \emph{*ē}, as in \emph{*fadēr} 'father', is left for the unstressed-shortening rules of the Old English stage and never lowers. No segmental environment is imposed: nasal forms such as [mḗnōþz]{.recon} 'month' and [spḗnuz]{.recon} 'spoon' pass through \emph{*mānōþ-} and \emph{*spānuz} on their way to *mōnaþ* and *spōn*, exactly as reconstructed by Ringe and Taylor [@RingeTaylor2014, p. 11].
+The rule reads the stressed tier \emph{*ḗ} only, in keeping with the stress restriction; unstressed \emph{*ē}, as in \emph{*fadēr} 'father', is left for the unstressed-shortening rules of the Old English stage and never lowers. No segmental environment is imposed: nasal forms such as [mḗnōþz]{.recon} 'month' and [spḗnuz]{.recon} 'spoon' pass through \emph{*mānōþ-} and \emph{*spānuz} on their way to *mōnaþ* 'month' and *spōn* 'spoon', exactly as reconstructed by Ringe and Taylor [@RingeTaylor2014, p. 11].
 
-The rule stands near the head of the cascade, before the genuinely West Germanic innovations such as early \emph{i}-apocope, \emph{*ij}-contraction, and \emph{j}-gemination — the placement follows from the dating: the second-century runic evidence puts the lowering among the earliest Northwest Germanic developments, well before the changes that separate West Germanic from Norse. Its output \emph{*ā} is consumed much later in the cascade by [SC102 EAFHiatusWInsertion](#rule-EAFHiatusWInsertion), [SC025 EAFLongANasalRounding](#rule-EAFLongANasalRounding), and [SC101 EAFLongAFronting](#rule-EAFLongAFronting): if the lowering is instead displaced after those rules, [mḗnōθz]{.recon} yields [*mānaþ*]{.pred} rather than OE *mōnaþ* 'month', [skḗpą]{.recon} yields [*sċāp*]{.pred} rather than *sċēap* 'sheep', and [sḗaną]{.recon} 'to sow' never acquires the hiatus-filling \emph{w} of *sāwan*. Within the cascade no earlier boundary has been demonstrated; the second-century runic attestation supplies the absolute dating.
+The rule stands near the head of the cascade, before the genuinely West Germanic innovations such as early \emph{i}-apocope, \emph{*ij}-contraction, and \emph{j}-gemination — the placement follows from the dating: the second-century runic evidence puts the lowering among the earliest Northwest Germanic developments, well before the changes that separate West Germanic from Norse. Its output \emph{*ā} is consumed much later in the cascade by [SC102 EAFHiatusWInsertion](#rule-EAFHiatusWInsertion), [SC025 EAFLongANasalRounding](#rule-EAFLongANasalRounding), and [SC101 EAFLongAFronting](#rule-EAFLongAFronting): if the lowering is instead displaced after those rules, [mḗnōθz]{.recon} 'month' yields [*mānaþ*]{.pred} rather than OE *mōnaþ* 'month', [skḗpą]{.recon} 'sheep' yields [*sċāp*]{.pred} rather than *sċēap* 'sheep', and [sḗaną]{.recon} 'to sow' never acquires the hiatus-filling \emph{w} of *sāwan* 'to sow'. Within the cascade no earlier boundary has been demonstrated; the second-century runic attestation supplies the absolute dating.
 
 \newpage
 
@@ -567,7 +567,7 @@ The change treated here is narrow. When \emph{*x} stood before \emph{*s} and
 that \emph{*s} was itself followed by a further consonant, the \emph{*x} was
 lost and the cluster was reduced. Campbell states the rule in exactly these
 terms, that when a consonant follows, \emph{*xs} becomes *s*, and he illustrates
-it with *wæstm* ‘growth’ and *wæsma* beside *weaxan* ‘to grow’, and with
+it with *wæstm* ‘growth’ and *wæsma* ‘growth’ beside *weaxan* ‘to grow’, and with
 Northumbrian *sesta* ‘sixth’ beside West Saxon *siexta*
 [@Campbell1959, p. 170, §417]. Brunner gives the same statement and adds that
 the following consonant may be *j* as well as a true obstruent, citing
@@ -596,15 +596,15 @@ The change is not Proto-Germanic. Gothic keeps the \emph{*h} of this cluster in
 *bi-niuhsjan* ‘to spy out’ and *saihsta* ‘sixth’, so the loss must be later than
 the separation of Gothic [@RingeTaylor2014, pp. 157--158]. Campbell reports the
 loss from the whole West Germanic area and from North Germanic as well, citing
-Old Norse *ísl* ‘axle’ and *nýsa*, Old Saxon *weslon* ‘to exchange’, *wastum*
+Old Norse *ísl* ‘axle’ and *nýsa* ‘to investigate’, Old Saxon *weslon* ‘to exchange’, *wastum*
 ‘growth’ and *niustan*, and Old High German *niusen* ‘to try’
 [@Campbell1959, p. 170, §417]. Ringe and Taylor set out the same comparative
 material and reach a more guarded conclusion. They derive Proto-Germanic
 \emph{*niuhsijaną} through Proto-West Germanic \emph{*niusjan} to Old English
-*nēosan*, and \emph{*sehstō} to Northumbrian *sesta*, and they take the Old
+*nēosan* ‘to seek out, to visit’, and \emph{*sehstō} to Northumbrian *sesta*, and they take the Old
 Saxon agreement in *wastum*, *thisla* and *niusian* to show a shared northern
-West Germanic change. Against that they weigh the competition between *þixl*
-and *þīsl* in early Mercian, the survival of \emph{*x} in *eaxl* ‘shoulder’ from
+West Germanic change. Against that they weigh the competition between *þixl* ‘pole’
+and *þīsl* ‘pole’ in early Mercian, the survival of \emph{*x} in *eaxl* ‘shoulder’ from
 \emph{*ahslu}, and the retention in Old High German *sehsto* and *dihsala*.
 Their conclusion is that the \emph{*h} was lost, possibly variably and possibly
 only in some dialects, when two or more consonants followed, and that the loss
@@ -617,7 +617,7 @@ Two chronological anchors are available. Ringe and Taylor place the loss after
 the Proto-West Germanic syncope of \emph{*-CijV-}, since it is that syncope
 which brings the \emph{*s} and the \emph{*j} of \emph{*niuhsjan} together
 [@RingeTaylor2014, p. 157]. They place it before breaking, observing that the
-undiphthongized vowels of *wæstm* and *þīsl* can be accounted for only by
+undiphthongized vowels of *wæstm* ‘growth’ and *þīsl* ‘pole’ can be accounted for only by
 supposing that these \emph{*h} were lost before breaking took place
 [@RingeTaylor2014, p. 158]. The rule is stated between those two points.
 
@@ -627,8 +627,8 @@ having been produced by the Proto-Germanic loss of a nasal before \emph{*x}
 described in [SC103 PGmcNasalLossBeforeX](#rule-PGmcNasalLossBeforeX). The
 cluster \emph{*xst} is then reduced to \emph{*st}, and the word continues to Old
 English *fȳst* ‘fist’. The comparative set for this particular word is West
-Germanic throughout, with Old Frisian *fēst*, Old Saxon and Old High German
-*fūst*, Dutch *vuist* and German *Faust*
+Germanic throughout, with Old Frisian *fēst* ‘fist’, Old Saxon and Old High German
+*fūst* ‘fist’, Dutch *vuist* and German *Faust*
 [@Kroonen2013, p. 160; @Orel2003, p. 157]. Neither Gothic nor Old Norse
 preserves a reflex of it, so the word bears on the domain of the change rather
 than on its date.
@@ -644,11 +644,11 @@ the West Germanic languages.
 The relation between the two rules should not be overstated. The earlier rule
 does supply the cluster that this one simplifies, but the order of the two is
 established by their stages and not by any word in this collection. If the
-present rule were stated first, *fist* would still reach *fȳst*, because
+present rule were stated first, *fist* would still reach *fȳst* ‘fist’, because
 removing the \emph{*x} from \emph{*funxstiz} leaves a nasal before *s*, and that
 nasal is removed with compensatory lengthening by the North Sea Germanic
 nasal-spirant law. The outcome is overdetermined, and the chronology rests on
-Gothic *bi-niuhsjan* and *saihsta* instead.
+Gothic *bi-niuhsjan* ‘to spy out’ and *saihsta* instead.
 
 ## \CAPRRuleHeading{SC028. Simplification of \emph{*xs} before a consonant}{PNWGmcPreconsonantalXLoss} {#rule-PNWGmcPreconsonantalXLoss}
 
@@ -837,8 +837,10 @@ Before [SC017 PNWGmcULowering](#rule-PNWGmcULowering), PGmc [núsō]{.recon} 'no
 This chapter covers the sound changes that occurred after the Proto-West Germanic
 period and before, or during the emergence of, the specifically English line. The
 starting reconstruction is Proto-West Germanic; the end point is the
-Proto-Anglo-Frisian stage — or more precisely, the cluster of innovations that
-define the English and Frisian branch within West Germanic.
+Anglo-Frisian ancestor required by the model's historical tree. Its existence
+and the identification of its innovations are separate questions. Its inventory
+must be reconstructed from conditioned laws and daughter chronologies, not
+from the traditional subgroup label alone.
 
 ## A necessary terminological caution
 
@@ -853,7 +855,7 @@ period:
   narrowly, Old English and Old Frisian only). The innovations associated with
   this label — especially the nasal spirant changes and certain vowel
   developments — are sometimes described as diffusion rather than shared
-  inheritance [@Campbell1959, §§ 1--3].
+  inheritance [@Bremmer2009, pp. 24–27, 126–128].
 * Anglo-Frisian: a label used specifically for the Old English / Old Frisian
   branch, or for innovations shared between the two languages. Its use presupposes
   a tighter relationship between English and Frisian than between either and
@@ -863,14 +865,177 @@ period:
   This is the position of Ringe and Taylor, who reconstruct a PAF stage between
   Proto-West Germanic and Proto-Old-English [@RingeTaylor2014, pp. 54--68].
 
-CAPR does not commit to a universally accepted discrete PAF node. The chapter
-title uses "Anglo-Frisian" because the key changes of this period — especially
-West Germanic rhotacism (SC003), word-final `*z` deletion (SC020), and
-Anglo-Frisian brightening (SC043) — are most prominently associated with that
-label in the handbook literature. But the analysis does not require that every
-change passed through a single genealogical PAF stage. Some changes may be
-West Germanic broadly; others may reflect areal diffusion. The existing CAPR
-dossiers record the source-by-source picture where these distinctions matter.
+CAPR requires a discrete Anglo-Frisian ancestral node. This does not guarantee
+that every traditionally associated innovation is inherited from it, or exclusive
+to English and Frisian. A broader innovation can already be present in its
+input; similar daughter outcomes can also result from independent events.
+Authors' diffusion interpretations remain accurately attributed, but they
+cannot resolve an incompatible chronology within CAPR's ordered tree
+[@Versloot2017, pp. 302--319; @Bremmer2008, pp. 284, 292--293].
+
+## A worked historical tree test
+
+If a supposed shared innovation obligatorily follows a daughter-only change
+in Frisian which English never underwent, it cannot occupy the common stem
+under those premises. Either the ordering or scope premise must change,
+the innovation happened independently, or the apparently identical events
+are historically different. The required ancestor is not removed.
+
+Campbell reconstructs Frisian au contraction before ordinary fronting;
+Goblirsch instead proposes a shared diphthong followed by Frisian stress shift
+and contraction [@Campbell1939, pp. 91, 104; @Goblirsch1991, pp. 17, 20--21].
+The daughter-only event is a predecessor in the first account and a follower
+in the second. The second is compatible with sharing, but does not attest
+the reconstructed Frisian intermediate. Surface agreement, compatibility
+with inheritance, compelled parallelism under premises, and unresolved history
+must therefore remain distinct judgments.
+
+## The working account and why it is used
+
+The English reconstruction adopted as a working scaffold is the conventional
+account developed by Campbell and critically refined by Ringe and Taylor.
+It distinguishes inherited long vowels from the long vowels produced by
+diphthong contraction, and it treats fronting, breaking, restoration and
+mutation as conditioned phonological developments. That scaffold is useful
+because it specifies contrasting inputs and intermediate states, not because
+one author's authority decides the history
+[@Campbell1959, pp. 52–53, 60–72; @RingeTaylor2014, pp. 170–173, 215–237].
+
+The comparative specialists test particular load-bearing premises.
+Campbell's argument about English and Frisian fronting, Versloot's runic
+interpretations and Goblirsch's proposed lost Frisian diphthong do not form
+one automatically compatible package
+[@Campbell1939, pp. 90–91, 104; @Versloot2017, pp. 295–297, 318;
+@Goblirsch1991, pp. 17–21]. Where an alternative changes the inherited
+inventory or the identity of an event, it must be evaluated as that
+alternative, not inserted into the conventional chain without its premises.
+
+CAPR implements regular sound laws. Prosodic and phonological conditions
+may distinguish environments, but lexical diffusion, grammatical categories
+and individually selected exceptions cannot repair a contradiction.
+Paradigm remodeling and borrowing may affect which historical form a
+lexical entry represents; they are not thereby conditions on a sound law.
+This methodological choice is distinct from faithfully reporting an author's
+different theoretical account.
+
+## Long vowels, diphthongs and the ancestral inventory
+
+The inherited-long contrast is central. On the conventional reconstruction,
+inherited oral long \emph{*ā} has already acquired a front quality when
+English stressed \emph{*ai} completes its development to a new back
+\emph{*ā}. Otherwise the new vowel should share the inherited vowel's
+fronting. Ringe and Taylor formulate this as a relation between temporal
+milestones: inherited-long fronting must be well under way before
+contraction completes. They allow overlap; a serial implementation is not
+proof that the changes occupied disjoint periods
+[@Campbell1939, p. 90; @RingeTaylor2014, p. 170].
+
+The inherited vowel itself is disputed. Fulk's retained-front reconstruction
+does not require precisely the same earlier backing and re-fronting as
+Ringe and Taylor's account. That is a disagreement about the input
+inventory, not a small adjustment to the position of an otherwise identical
+rule [@Fulk2018, pp. 60–61; @RingeTaylor2014, pp. 10–13].
+Nielsen also proposes a different causal relation between contraction and
+long-vowel restructuring, allowing co-occurrence rather than imposing the
+conventional strict sequence [@Nielsen2001, pp. 514–516, 521].
+
+Luick's proposed fronted-ai path is a further alternative, not an observed
+intermediate series. His conjecture is \emph{*æe > *æə > *æa > *ā};
+the middle offglide is schwa. Campbell rejects that explanation, but the
+rejection is not an independent observation that such a phonetic path is
+impossible [@Luick1914, pp. 132–133; @Campbell1939, p. 90, n. 3].
+The inherited-long and secondary-long histories must consequently remain
+separate even where later mutation makes their final vowels converge.
+
+Nasal environments require another distinction. Nasalization, loss of a
+nasal with compensatory lengthening, rounding and eventual merger are not
+one event. The nasalized input can escape an oral-fronting law before its
+later rounded outcome is established. A shared final vowel therefore does
+not place every substep at the same ancestral node
+[@Bremmer2009, pp. 24–27; @RingeTaylor2014, pp. 142–146].
+
+The following table specifies the relevant inventory questions at a
+conservative ancestral cut. It is a working reconstruction, not a newly
+adjudicated full phoneme inventory. Earlier West Germanic developments can
+be inherited at this cut without being exclusively Anglo-Frisian innovations.
+
+| Input class | Conservative working ancestral state | English daughter consequence | Remaining premise |
+|---|---|---|---|
+| Inherited oral long vowel | Front long vowel under the conventional account | Subsequent dialectal and palatal treatment | Earlier back versus retained-front input |
+| Nasal long vowel | Distinguished from the oral long vowel | Rounding and merger must be dated separately | Which nasal substeps precede the cut |
+| Stressed ai | Retained diphthong before completed English contraction | Secondary back long vowel, eligible for later mutation | Runic interpretation and any limited ancestral onset |
+| Ordinary short non-nasal a | Unfronted at this conservative cut | Ordinary English fronting | Daughter contraction before fronting |
+| Inherited au | Not identified with completed English or Frisian outcome | English front element and later offglide development | Identity with ordinary short fronting |
+| Supported inherited Vww classes | Earlier West Germanic reanalysis may already be present | Later English quantity and diphthong realization | Full quantity/glide domain and prosody |
+| Velars and palatal tendencies | No blanket completed assibilation is stipulated | Class-specific daughter histories | Articulation, cutoff and merger are distinct |
+
+The evidence underlying these qualifications is component-specific
+[@RingeTaylor2014, pp. 41–42, 65–66, 170–173;
+@Versloot2017, pp. 295–297, 318; @Laker2007, pp. 167–184].
+The table does not assign inherited-short fronting to the stem merely
+because the node is called Anglo-Frisian.
+
+## Alternative cuts and their tree consequences
+
+A more expansive common-stem reconstruction is possible only with different
+premises. In Luick's account, participation of the diphthong nucleus in
+fronting can coexist with a conjectured later Frisian development.
+In Goblirsch's account, a common fronted au diphthong precedes Frisian
+stress shift and contraction. Both require historical intermediates whose
+existence must be argued, not obtained from the name of the subgroup
+[@Luick1914, pp. 130–133; @Goblirsch1991, pp. 17, 20–21].
+
+| Proposed common-stem content | Required premise | Conditional consequence |
+|---|---|---|
+| Inherited-long restructuring, but retained ai and short a | Completed English contraction is later | Compatible conservative cut |
+| Ordinary short fronting | Its secure predecessors can also occur before the split | Excluded if daughter-only English contraction obligatorily precedes it |
+| Shared fronted-au development | Frisian stress shift/contraction follows that development | Compatible in Goblirsch's account, not proof of inheritance |
+| Shared consonantal palatalization | Corresponding consonant classes and necessary predecessors are genuinely identical | Unresolved; apparent similarities do not settle all layers |
+
+Campbell's English chain makes the second row especially consequential:
+if completed contraction is English-only and ordinary fronting must follow
+it, the latter cannot be inherited from the common stem. The corresponding
+English and Frisian frontings are then parallel under those premises.
+Changing a disputed premise can change that conclusion, but cannot remove
+the required ancestor [@Campbell1939, pp. 90–91;
+@Versloot2017, pp. 295–297, 318].
+
+## Palatalization is not a single subgroup character
+
+A palatal articulation can precede phonemic contrast, and the productive
+cutoff of a conditioning process can precede its eventual assibilated
+reflex. Fricative-g merger with j is different again. Geminate and
+postnasal stops, singleton fricatives, k, h and sk must not be treated as
+one dated change simply because later spellings look palatal
+[@Hogg1979, pp. 100–111; @Laker2007, pp. 167–168, 175–184].
+
+The shared-palatalization hypothesis must therefore identify which layer
+is inherited. A daughter-specific predecessor can exclude a completed
+component from the stem without excluding every earlier articulatory
+tendency. Conversely, removing an argument against sharing establishes
+compatibility, not that one common event actually occurred
+[@Laker2007, pp. 175–184].
+The vowel diphthongization following initial palatals is another event;
+Luick explicitly distinguishes the similar Frisian and English outcomes
+[@Luick1914, pp. 162–163].
+
+## What the runes date
+
+An inscription dates a written object. A sound-change terminus additionally
+requires the reading, etymology, linguistic affiliation and relation of the
+grapheme to phonetic or phonemic structure. The interpretation of the
+Caistor inscription as retaining ai and the interpretation of Frisian
+retention are consequential but conditional
+[@Versloot2017, pp. 295–297, 318].
+Waxenberger likewise distinguishes early allophonic mutation from later
+phonemicization and lacks immediate runic evidence for every short-vowel
+split [@Waxenberger2019, pp. 63–74].
+
+No one calendar date is therefore attached here to every change described
+as Anglo-Frisian. The English discussion that follows starts from the
+working inventory and makes its necessary daughter developments explicit.
+Canonical classification, preferred reconstruction and an unresolved
+component are kept distinct until individual adjudication.
 
 ## Major changes and their historical basis
 
@@ -907,8 +1072,7 @@ had generalized endingless nominatives before Proto-West Germanic (SC096,
 Chapter 2). Later, and only in the north, `*z` was lost in stressed
 monosyllables with compensatory lengthening (SC097, this chapter); the
 southern dialects instead retained and rhotacized it. The standard handbooks
-confirm the West Germanic deletion in general terms: Campbell notes that
-`*z` is "later lost or changed to `r`" [@Campbell1959]; Bammesberger gives a clean
+confirm the West Germanic deletion in general terms: Bammesberger gives a clean
 statement that Germanic `*z` is generally lost in final position
 [@Bammesberger1992, p. 39]; the three-way division refines those summaries rather
 than contradicting them.
@@ -923,20 +1087,21 @@ fate of every remaining `*z`.
 
 ### Anglo-Frisian ai-monophthongization (SC004)
 
-The monophthongization of stressed/root `*ái` to `*ā`, seen in the soul
-derivation, is a North Sea Germanic
-areal development. Versloot argues that it spread in successive waves through a
-dialect continuum, with Old English among the widest to carry it, so the change
-is better read as an areal diffusion through the continuum than as a single
-dated node [@Versloot2017, pp. 281--324]. The resulting `*ā` is later fronted to
-`ǣ` in the relevant Old English environments.
+The English outcome of stressed/root \emph{*ai} is \emph{*ā}. Versloot
+distinguishes an early velar-conditioned Frisian contraction from later
+non-velar treatment, with mutation and delabialization intervening
+[@Versloot2017, pp. 302--309, 316]. His wave account is an author's
+interpretation, not CAPR's own genealogy. Each component must instead be
+tested for common-stem versus daughter placement.
 
-The CAPR rule is named `EAFAiMonophthongization` and executes at cascade
-position 28. That position is CAPR's operational home for a North Sea Germanic
-areal change on the English line; it is a modelling choice, not a claim that the
-change passed through a discrete Proto-Anglo-Frisian node. The one usable
-chronological anchor is the `soul` derivation, which requires the
-monophthongization to precede OE interstress raising (SC036).
+The current [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization)
+models English contraction after
+[SC101 EAFLongAFronting](#rule-EAFLongAFronting). The new ai-derived
+\emph{*ā} escaped the earlier fronting of inherited oral \emph{*ā};
+Campbell states that inference and Ringe and Taylor retain it
+[@Campbell1959, pp. 52--53, §132; @RingeTaylor2014, pp. 169--170].
+Soul provides another implementation boundary at interstress raising, not
+the sole historical argument or proof of inherited contraction.
 
 The unstressed development `*ai > *ē` (in final and nonfinal syllables) is a
 separate and earlier Proto-Northwest Germanic change (SC014), discussed in
@@ -946,21 +1111,24 @@ Chapter 2; its corpus witnesses are the dative-singular endings of `span`
 
 ### Anglo-Frisian brightening (SC043, treated in Chapter 4)
 
-The fronting of low `*a` to `*æ` outside nasal environments is the defining
-Anglo-Frisian change. It executes later in the cascade than the changes of
+The fronting of low \emph{*a} to \emph{*æ} outside nasal environments is
+traditionally called Anglo-Frisian brightening. The name does not establish
+one inherited event. It executes later in the cascade than the changes of
 this chapter, so its full section appears in Chapter 4; it is introduced here
 because it anchors the "Anglo-Frisian" label that names this period. Campbell
 gives the classical statement: "By a very early change Prim. Gmc. `a > æ` in
 OE and OFris. when not followed by a nasal consonant"
-[@Campbell1959, §§ 163--165].
-Hogg gives the most familiar modern label pair: "This vowel normally fronted
-to /ae/ by the sound change of Anglo-Frisian Brightening (or First Fronting)"
-[@HoggGrammar1992, §5.10].
+[@Campbell1959, p. 52, §131].
+The traditional name also appears in modern comparative treatments; it
+does not independently establish a shared event [@Fulk2018, pp. 72–73].
 
 The change is notable for what follows it: OE Breaking presupposes the fronted
 input; OE a-Restoration partially undoes it in back-vowel environments. The
-three-change sequence (brightening, breaking, restoration) is one of the clearest
-relative-chronology chains in the Old English historical grammar.
+three-change sequence is the conventional English working account, but its
+components and conditioning remain individually arguable. Versloot proposes
+restricted early fronting and late e-breaking; final forms can coincide under
+front-and-restore and never-front histories
+[@Versloot2025, pp. 123, 125--128, 131--135].
 
 Campbell notes that English and Frisian may not simply reflect one
 undifferentiated shared prehistoric event, and Ringe and Taylor leave open
@@ -969,28 +1137,28 @@ or in Britain [@RingeTaylor2014, pp. 60--62]. CAPR's implementation treats the
 change as a single rule; the book prose acknowledges the uncertainty about its
 exact geographical scope.
 
-The current CAPR inventory has this change labeled "Old English" in the pipeline
-taxonomy (no separate Anglo-Frisian bucket previously existed). The historical
-staging map places its section in Chapter 4, at its executable cascade position.
+The current canonical historical classification is early Anglo-Frisian with
+Anglo-Frisian scope, while the section is presented in Chapter 4. It remains
+the incumbent pending adjudication, not an answer to the comparative controversy.
+English plain-a/au process identity is distinct from inherited stem identity.
+Their executable rules remain provisional separate representations.
 
 ## Cascade vs. historical order in this chapter
 
-The changes in this chapter are presented in the order in which they apply in
-the executable cascade, which models the reconstructed chronology itself: first
-word-final `*z` deletion in unstressed syllables (SC020), then the later
-northern monosyllabic `*z`-loss (SC097) that completes the final-`*z` story,
-then West Germanic rhotacism (SC003), which turns every surviving `*z` into
-`*r` only after the deletions have run their course. There follow the
-unstressed `*ō` raising (SC021), the `*mn` dissimilation and n-stem `*n`
-loss (SC022–SC023), the long-`*ē` developments (SC024–SC025), the
-nasal-spirant corridor (SC026–SC027),
-and finally Anglo-Frisian ai-monophthongization (SC004, the North Sea areal
-vowel change) closing the chapter.
+The sections follow executable serialization so that derivations are inspectable.
+That order is not an independently demonstrated total historical chronology.
+The broader final-z loss, later northern loss and rhotacism are distinguished
+by their actual environments [@RingeTaylor2014, pp. 44--45;
+@Crist2002, pp. 1, 4].
 
-Book order, cascade order, and reconstructed historical order coincide here:
-in particular, the deletions of final `*z` precede rhotacism both in the
-sources and in the executable derivation, so no form ever meets rhotacism
-with a word-final sibilant intact.
+Earlier-stage proxies remain in this editorial corridor. The cluster change
+represented by [SC022 PNWGmcMnDissimilation](#rule-PNWGmcMnDissimilation)
+and final-n loss represented by
+[SC023 PNWGmcNStemNLoss](#rule-PNWGmcNStemNLoss) are classified as
+Common Germanic/Proto-Germanic despite retained name prefixes
+[@Fulk2018, p. 121; @Ringe2017, pp. 101--103].
+The retired unstressed-o raising is not an active member. Book order,
+computational position and historical stage must remain separate.
 
 # West Germanic final \emph{*z}-deletion
 
@@ -1217,7 +1385,7 @@ German *Faust*, belongs to the earlier change and not to the North Sea law at al
 
 Where the vowel was [a]{.recon}, the long nasalized vowel that this law produced
 was afterwards rounded to *ō* in Anglo-Frisian, which is why Old English has
-*gōs*, *tōþ* ‘tooth’ and *ōþer* ‘other’. That rounding is a third change again,
+*gōs* ‘goose’, *tōþ* ‘tooth’ and *ōþer* ‘other’. That rounding is a third change again,
 and it is the same rounding that gives *fōn* ‘seize’ and *þōhte* ‘thought’ from
 the common Germanic law and *mōna* ‘moon’ and *spōn* ‘chip’ from inherited long
 *ā* before a surviving nasal; Campbell states that it reached all three sources
@@ -1272,16 +1440,16 @@ outcomes of [i]{.recon} and [u]{.recon} are written [ī]{.recon} and [ū]{.recon
 their nasality having no further consequence [@Campbell1959, p. 47, §121].
 
 Two witnesses apply in the present corpus. PGmc [gánsz]{.recon} ‘goose’ becomes
-[gą̄ns]{.recon}, and PGmc [júgunθ]{.recon} ‘youth’ becomes [júgūnθ]{.recon}. In
-*ġeoguþ* the syllable carrying the lengthened vowel is unstressed, and the length
+[gą̄ns]{.recon} ‘goose’, and PGmc [júgunθ]{.recon} ‘youth’ becomes [júgūnθ]{.recon} ‘youth’. In
+*ġeoguþ* ‘youth’ the syllable carrying the lengthened vowel is unstressed, and the length
 is given up again by the later shortening of unstressed syllables; Sievers and
-Brunner note the same course in *beraþ* ‘they carry’ from [beranþi]{.recon}
-through [berōþ]{.recon} [@SieversBrunner1965, p. 176, §186.1 Anm. 3;
+Brunner note the same course in *beraþ* ‘they carry’ from [beranþi]{.recon} ‘they carry’
+through [berōþ]{.recon} ‘they carry’ [@SieversBrunner1965, p. 176, §186.1 Anm. 3;
 @Luick1914, p. 276, §301.1].
 
-If the rule is stated after the loss of the nasal, PGmc [gánsz]{.recon} yields
-[*ġeas*]{.pred} in place of *gōs*, and PGmc [júgunθ]{.recon} yields
-[*ġeogoþ*]{.pred} in place of *ġeoguþ*. This shows only that the vowel must be
+If the rule is stated after the loss of the nasal, PGmc [gánsz]{.recon} ‘goose’ yields
+[*ġeas*]{.pred} in place of *gōs* ‘goose’, and PGmc [júgunθ]{.recon} ‘youth’ yields
+[*ġeogoþ*]{.pred} in place of *ġeoguþ* ‘youth’. This shows only that the vowel must be
 adjusted before its conditioning nasal is removed. It does not establish a date
 for either operation, and no earlier or later boundary is claimed here.
 
@@ -1294,7 +1462,7 @@ define EAFNasalSpirantLoss [
 ```
 
 The nasal is removed in the environment that conditioned the lengthening, giving
-[gą̄s]{.recon} and [júgūθ]{.recon}. The rule completes the statement of the single
+[gą̄s]{.recon} ‘goose’ and [júgūθ]{.recon} ‘youth’. The rule completes the statement of the single
 change begun in
 [SC026 EAFNasalSpirantLengthening](#rule-EAFNasalSpirantLengthening); the two are
 not independent sound laws. The converse test, stating the loss first, merely
@@ -1307,15 +1475,15 @@ boundary for the loss.
 
 ## Historical discussion
 
-The small class of Germanic strong verbs whose roots ended in a vowel, the \emph{verba pura}, reached Northwest Germanic with a morphologically expected hiatus. Ringe and Taylor reconstruct Proto-Germanic \emph{*sēaną} 'to sow' (Gothic *saian*), which the Northwest Germanic lowering of \emph{*ē₁} carried to \emph{*sāaną}; the West Germanic languages then "exhibit innovative consonants that eliminated" the hiatus [@RingeTaylor2014, p. 12]. The repair differs by branch, and the difference dates and localizes the change. Old English and Old Frisian inserted \emph{w}, as in Old English *sāwan* 'to sow' and Old Frisian *sāwinge* beside *grōwinge* 'growth', while Old Saxon and Old High German used \emph{j} (*sāian*, *sāen*, *sājen*) [@RingeTaylor2014, pp. 12, 151]. The insertion of \emph{w} is therefore an Anglo-Frisian development and the consonant of *sāwan* is not inherited; it must not be projected back into the protoform.
+The small class of Germanic strong verbs whose roots ended in a vowel, the \emph{verba pura}, reached Northwest Germanic with a morphologically expected hiatus. Ringe and Taylor reconstruct Proto-Germanic \emph{*sēaną} 'to sow' (Gothic *saian*), which the Northwest Germanic lowering of \emph{*ē₁} carried to \emph{*sāaną}; the West Germanic languages then "exhibit innovative consonants that eliminated" the hiatus [@RingeTaylor2014, p. 12]. The repair differs by branch, and the difference dates and localizes the change. Old English and Old Frisian inserted \emph{w}, as in Old English *sāwan* 'to sow' and Old Frisian *sāwinge* 'sowing' beside *grōwinge* 'growth', while Old Saxon and Old High German used \emph{j} (*sāian* 'to sow', *sāen* 'to sow', *sājen* 'to sow') [@RingeTaylor2014, pp. 12, 151]. The insertion of \emph{w} is therefore an Anglo-Frisian development and the consonant of *sāwan* is not inherited; it must not be projected back into the protoform.
 
 The origin of that \emph{w} is neither inherited nor morphological. Þórhallsdóttir, in the standard treatment of the problem, rejects in turn the derivation of the West Germanic \emph{w} from a Proto-Indo-European \emph{u}-perfect [@Thorhallsdottir1993, pp. 115--117], from a \emph{*ue/o}-present [@Thorhallsdottir1993, pp. 117--119], and from the transfer of a preterite \emph{w} into the present [@Thorhallsdottir1993, pp. 121--122]. The \emph{w} "rather has an inner-Germanic phonological explanation" [@Thorhallsdottir1993, p. 136]. It began as an ordinary phonetic glide filling the hiatus, and it began in one narrow environment, before \emph{*u}. The cells in question, as Bremer had already seen, are the first singular and first plural of the present indicative together with the plural of the reduplicated preterite in \emph{*-um}, \emph{*-uþ}, \emph{*-un} [@Thorhallsdottir1993, p. 120]. Þórhallsdóttir sets out the pre-Old English present indicative with the hiatus still intact, first singular \emph{*sā'u}, second \emph{*sā'is}, third \emph{*sā'iþ}, first plural \emph{*sā'um}, second plural \emph{*sā'iþ}, third plural \emph{*sā'anþ}, and observes that "the glide \emph{w} was a natural hiatus filler before the \emph{u} of the endings of the 1st person singular and plural" [@Thorhallsdottir1993, p. 127]. The preterite stem \emph{*seuwun} arose by the same insertion before the \emph{*u} of the plural endings [@Thorhallsdottir1993, p. 126].
 
 From those few cells the \emph{w} was carried through the whole paradigm by analogy. Three forces converge. Levelling proceeded out of the \emph{*u}-cells themselves; the preterite stem \emph{*seuw}, \emph{*seuwun} "would have assisted in extending the new \emph{w} to all forms of the present paradigm" and to the preterite participle; and verbs with an etymological \emph{*w}, above all *flōwan* 'to flow' from the root \emph{*pleu-}, exerted their own attraction [@Thorhallsdottir1993, p. 127]. The result, complete already in pre-Old English, is the uniform pattern \emph{*sāwan}, \emph{*seuw}, \emph{*seuwun}, \emph{*sāwan-} [@Thorhallsdottir1993, p. 136]. Old Frisian inherits the same generalized type, so that its \emph{w} and the Old English \emph{w} are one Anglo-Frisian event [@Thorhallsdottir1993, pp. 130, 134]. The scattered \emph{w}-forms of Old High German are a separate and later inner-German development and are not to be identified with it [@Thorhallsdottir1993, pp. 119, 123].
 
-This layering matters for how the rule below should be read. Old English citation forms are infinitives, and the infinitive \emph{*sā'an} is precisely one of the cells that never received \emph{w} by the phonological rule, so the \emph{w} of *sāwan* is analogical. The rule therefore models the outcome of the generalization, and its environment, any vowel after \emph{ā}, is a citation-form proxy for a paradigm-wide result. It is not a reconstruction of the conditioning of the original insertion.
+This layering matters for how the rule below should be read. Old English citation forms are infinitives, and the infinitive \emph{*sā'an} is precisely one of the cells that never received \emph{w} by the phonological rule, so the \emph{w} of *sāwan* 'to sow' is analogical. The rule therefore models the outcome of the generalization, and its environment, any vowel after \emph{ā}, is a citation-form proxy for a paradigm-wide result. It is not a reconstruction of the conditioning of the original insertion.
 
-The chronology is fixed on both sides by Ringe and Taylor. The \emph{w} must postdate the West Germanic loss of intervocalic \emph{*w}, or the new glide would itself have been swept away [@RingeTaylor2014, p. 151, n. 9]; and it "must have occurred early enough to prevent fronting of \emph{*ā}" in pre-Old English [@RingeTaylor2014, p. 151]. The whole reason *sāwan*, *cnāwan* 'to know', *blāwan* 'to blow', and *māwan* 'to mow' keep their back vowel is that the \emph{w} was already in place when the North Sea Germanic fronting applied. Since it is the generalized \emph{w} that stands in the infinitive, this later boundary constrains the generalization itself. The rule accordingly stands before the fronting in the cascade, even though on the present corpus the two orders happen to produce the same outputs, since the fronting rule as implemented does not touch a prevocalic \emph{ā} in any case; the ordering encodes the historical chronology, and no corpus-internal contrast demonstrates it. That chronology rests on Ringe and Taylor alone, for Þórhallsdóttir's chapter nowhere discusses the fronting of \emph{*ā} and supplies no independent evidence for the order.
+The chronology is fixed on both sides by Ringe and Taylor. The \emph{w} must postdate the West Germanic loss of intervocalic \emph{*w}, or the new glide would itself have been swept away [@RingeTaylor2014, p. 151, n. 9]; and it "must have occurred early enough to prevent fronting of \emph{*ā}" in pre-Old English [@RingeTaylor2014, p. 151]. The whole reason *sāwan* 'to sow', *cnāwan* 'to know', *blāwan* 'to blow', and *māwan* 'to mow' keep their back vowel is that the \emph{w} was already in place when the North Sea Germanic fronting applied. Since it is the generalized \emph{w} that stands in the infinitive, this later boundary constrains the generalization itself. The rule accordingly stands before the fronting in the cascade, even though on the present corpus the two orders happen to produce the same outputs, since the fronting rule as implemented does not touch a prevocalic \emph{ā} in any case; the ordering encodes the historical chronology, and no corpus-internal contrast demonstrates it. That chronology rests on Ringe and Taylor alone, for Þórhallsdóttir's chapter nowhere discusses the fronting of \emph{*ā} and supplies no independent evidence for the order.
 
 ## \CAPRRuleHeading{SC102. Generalized hiatus-breaking \emph{w} after long \emph{ā}}{EAFHiatusWInsertion} {#rule-EAFHiatusWInsertion}
 
@@ -1325,9 +1493,9 @@ define EAFHiatusWInsertion [
 ];
 ```
 
-The rule is fed by [SC024 PNWGmcLongELowering](#rule-PNWGmcLongELowering), which creates the \emph{ā}-initial hiatus it repairs; [sḗaną]{.recon} 'to sow' passes through \emph{*sāaną} to \emph{*sāwaną} on its way to *sāwan*. Displaced before the lowering, the rule can never apply, since the root vowel is still \emph{*ē} and no hiatus after \emph{ā} exists, and the derivation loses its consonant altogether.
+The rule is fed by [SC024 PNWGmcLongELowering](#rule-PNWGmcLongELowering), which creates the \emph{ā}-initial hiatus it repairs; [sḗaną]{.recon} 'to sow' passes through \emph{*sāaną} to \emph{*sāwaną} on its way to *sāwan* 'to sow'. Displaced before the lowering, the rule can never apply, since the root vowel is still \emph{*ē} and no hiatus after \emph{ā} exists, and the derivation loses its consonant altogether.
 
-Its output in turn feeds the blocking environment of [SC101 EAFLongAFronting](#rule-EAFLongAFronting): the inserted \emph{w} is precisely what shields the \emph{ā} of *sāwan* from fronting, as treated in that chapter. The corpus carries *sāwan* as the diagnostic witness of the class; *cnāwan*, *blāwan*, *māwan*, *wāwan*, and *þrāwan* instantiate the same derivation [@RingeTaylor2014, p. 151].
+Its output in turn feeds the blocking environment of [SC101 EAFLongAFronting](#rule-EAFLongAFronting): the inserted \emph{w} is precisely what shields the \emph{ā} of *sāwan* 'to sow' from fronting, as treated in that chapter. The corpus carries *sāwan* as the diagnostic witness of the class; *cnāwan* 'to know', *blāwan* 'to blow', *māwan* 'to mow', *wāwan* 'to blow (of wind)', and *þrāwan* 'to turn' instantiate the same derivation [@RingeTaylor2014, p. 151].
 
 \newpage
 
@@ -1340,7 +1508,7 @@ centrally the vowel produced from \emph{*ē₁} by the Northwest Germanic loweri
 — was nasalized when a nasal consonant followed and survived. The nasalized
 vowel was afterwards rounded in Anglo-Frisian, which is why Old English has
 *mōna* ‘moon’, *mōnaþ* ‘month’ and *spōn* ‘spoon’ against Old High German
-*māno*, *mānōd*, *spān* and Old Norse *máni*, *mánaðr*, *spánn*. Campbell
+*māno* ‘moon’, *mānōd* ‘month’, *spān* ‘spoon’ and Old Norse *máni* ‘moon’, *mánaðr* ‘month’, *spánn* ‘spoon’. Campbell
 describes the split of Germanic \emph{ǣ¹} before nasals in these terms and
 identifies the vowel that the rounding operated on as a nasalized and unrounded
 [ą̄]{.recon} [@Campbell1959, p. 50, §127; p. 50, §128 n. 1]. Fulk places the
@@ -1376,8 +1544,8 @@ define EAFLongANasalRounding [
 The rule consumes the \emph{*ā} created by
 [SC024 PNWGmcLongELowering](#rule-PNWGmcLongELowering): displacing the lowering
 after this rule leaves the nasalization without an input, and [mḗnōθz]{.recon}
-‘month’ surfaces as [*mānaþ*]{.pred} in place of OE *mōnaþ*, [spḗnuz]{.recon}
-‘spoon’ as [*spān*]{.pred} in place of *spōn*. Its output is consumed in turn by
+‘month’ surfaces as [*mānaþ*]{.pred} in place of OE *mōnaþ* ‘month’, [spḗnuz]{.recon}
+‘spoon’ as [*spān*]{.pred} in place of *spōn* ‘spoon’. Its output is consumed in turn by
 [SC104 EAFNasalizedLowRounding](#rule-EAFNasalizedLowRounding), which supplies
 the rounded vowel that the two words actually show.
 
@@ -1468,22 +1636,22 @@ form at all for its witnesses.
 
 Four lexemes in the present corpus reach Old English through this rule, and
 between them they witness all three sources.
-[gánsz]{.recon} ‘goose’ arrives as [gą̄s]{.recon} from the North Sea Germanic
-law and gives *gōs*; [mḗnōθz]{.recon} ‘month’ arrives as [mą̄nōþ]{.recon} and
-gives *mōnaþ*; [spḗnuz]{.recon} ‘spoon’ arrives as [spą̄nu]{.recon} and gives
-*spōn*. The Proto-Germanic law contributes [θánxtē]{.recon}, the preterite of
-the verb ‘to think’, which arrives as [θą̄xtē]{.recon} and gives *þōhte*
+[gánsz]{.recon} ‘goose’ arrives as [gą̄s]{.recon} ‘goose’ from the North Sea Germanic
+law and gives *gōs* ‘goose’; [mḗnōθz]{.recon} ‘month’ arrives as [mą̄nōþ]{.recon} ‘month’ and
+gives *mōnaþ* ‘month’; [spḗnuz]{.recon} ‘spoon’ arrives as [spą̄nu]{.recon} ‘spoon’ and gives
+*spōn* ‘spoon’. The Proto-Germanic law contributes [θánxtē]{.recon} ‘thought’, the preterite of
+the verb ‘to think’, which arrives as [θą̄xtē]{.recon} ‘thought’ and gives *þōhte*
 ‘thought’. That is the very form cited for this rounding, beside Old Frisian
 *thochte*, and it is the evidence that the vowel did not fall together with the
-*ā* of *stān* [@Fulk2018, p. 55, §4.1; @Campbell1959, p. 44, §119]. The other
+*ā* of *stān* ‘stone’ [@Fulk2018, p. 55, §4.1; @Campbell1959, p. 44, §119]. The other
 firing of the Proto-Germanic law, the high vowel of *fȳst* ‘fist’, does not
 reach this rule at all.
 
 The counterpart is what the rule leaves alone. [stáinaz]{.recon} ‘stone’ and
 [xáimaz]{.recon} ‘home’ acquire their long *ā* from
 [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization), which follows
-this rule, and their vowel was never nasalized; they surface as *stān* and
-*hām*. Placing the monophthongization before the nasalization and the rounding
+this rule, and their vowel was never nasalized; they surface as *stān* ‘stone’ and
+*hām* ‘home’. Placing the monophthongization before the nasalization and the rounding
 makes that vowel eligible and the cascade then yields [*stōn*]{.pred} and
 [*hōm*]{.pred}, which is the chronological inference Campbell draws for the
 treatments of the old low vowel generally
@@ -1495,9 +1663,9 @@ treatments of the old low vowel generally
 
 ## Historical discussion
 
-Long after the Northwest Germanic lowering of \emph{*ē₁} to \emph{*ā}, the dialects of the North Sea coast fronted the surviving oral \emph{*ā} to a low front vowel: West Saxon \emph{ǣ} in *dǣd* 'deed', *slǣpan* 'to sleep', *lǣtan* 'to let', *rǣdan* 'to read', and *mǣl* 'meal', against Anglian, Kentish, and Old Frisian \emph{ē} (*dēd*, *slēpa*, *jēr*) [@RingeTaylor2014, pp. 146--150; @Campbell1959, pp. 50--51, §128]. Old Saxon and Old High German keep the back vowel (Old Saxon *dād*, Old High German *tāt*, *slāfan*, *lāzan*), but sporadic Old Saxon spellings in ⟨e⟩ show that the fronting lapped unevenly into Old Saxon territory [@RingeTaylor2014, p. 150]. The change is therefore a North Sea Germanic development rather than an exclusively Anglo-Frisian one, though only Old English and Old Frisian carry it through systematically.
+Long after the Northwest Germanic lowering of \emph{*ē₁} to \emph{*ā}, the dialects of the North Sea coast fronted the surviving oral \emph{*ā} to a low front vowel: West Saxon \emph{ǣ} in *dǣd* 'deed', *slǣpan* 'to sleep', *lǣtan* 'to let', *rǣdan* 'to read', and *mǣl* 'meal', against Anglian, Kentish, and Old Frisian \emph{ē} (*dēd* 'deed', *slēpa* 'to sleep', *jēr* 'year') [@RingeTaylor2014, pp. 146--150; @Campbell1959, pp. 50--51, §128]. Old Saxon and Old High German keep the back vowel (Old Saxon *dād* 'deed', Old High German *tāt* 'deed', *slāfan* 'to sleep', *lāzan* 'to let'), but sporadic Old Saxon spellings in ⟨e⟩ show that the fronting lapped unevenly into Old Saxon territory [@RingeTaylor2014, p. 150]. The change is therefore a North Sea Germanic development rather than an exclusively Anglo-Frisian one, though only Old English and Old Frisian carry it through systematically.
 
-The fronting affected stressed, non-nasalized \emph{*ā}; nasalized \emph{*ą̄} was instead rounded, as treated in the rounding chapter. Ringe and Taylor further establish a conditioning by a following \emph{*w}. Before \emph{*w} plus a back or non-high vowel the \emph{*ā} was retained: the clearest witnesses are the *verba pura* — *sāwan* 'to sow', *cnāwan* 'to know', *blāwan* 'to blow', *māwan* 'to mow', *þrāwan* 'to turn' — together with *clāwu* 'claw' [@RingeTaylor2014, p. 151]; the simplest hypothesis, which Ringe and Taylor adopt from Hogg, is that fronting never occurred in that environment [@RingeTaylor2014, p. 151; @HoggGrammar1992, p. 81]. Before \emph{*w} plus a high front vocalic, by contrast, the fronting did apply: \emph{*lēwijaną} 'to betray' (Gothic *lēwjan*, Old High German *gilāen*) yields West Saxon *lǣwan*, and the same environment appears in *eltǣwe* 'entire' and *brǣw* 'eyelid' [@RingeTaylor2014, p. 150]. Both sides of the condition are encoded in the rule below and witnessed in the corpus. Bennett states the retaining environment independently from the West Saxon evidence alone, and slightly more broadly: West Saxon "shows \emph{ǣ} as a regular isolative development of IE \emph{ē} but has \emph{ā} before \emph{w} or \emph{g} plus a back vowel", with the paradigmatic alternation *wǣg* 'wave' beside plural *wāgas* [@Bennett1950, p. 235, n. 6]. The rule below encodes the \emph{w} environment, for which the corpus supplies witnesses on both sides; the parallel \emph{g} environment is left for separate treatment.
+The fronting affected stressed, non-nasalized \emph{*ā}; nasalized \emph{*ą̄} was instead rounded, as treated in the rounding chapter. Ringe and Taylor further establish a conditioning by a following \emph{*w}. Before \emph{*w} plus a back or non-high vowel the \emph{*ā} was retained: the clearest witnesses are the *verba pura* — *sāwan* 'to sow', *cnāwan* 'to know', *blāwan* 'to blow', *māwan* 'to mow', *þrāwan* 'to turn' — together with *clāwu* 'claw' [@RingeTaylor2014, p. 151]; the simplest hypothesis, which Ringe and Taylor adopt from Hogg, is that fronting never occurred in that environment [@RingeTaylor2014, p. 151; @HoggGrammar1992, p. 81]. Before \emph{*w} plus a high front vocalic, by contrast, the fronting did apply: \emph{*lēwijaną} 'to betray' (Gothic *lēwjan* 'to betray', Old High German *gilāen* 'to betray') yields West Saxon *lǣwan* 'to betray', and the same environment appears in *eltǣwe* 'entire' and *brǣw* 'eyelid' [@RingeTaylor2014, p. 150]. Both sides of the condition are encoded in the rule below and witnessed in the corpus. Bennett states the retaining environment independently from the West Saxon evidence alone, and slightly more broadly: West Saxon "shows \emph{ǣ} as a regular isolative development of IE \emph{ē} but has \emph{ā} before \emph{w} or \emph{g} plus a back vowel", with the paradigmatic alternation *wǣg* 'wave' beside plural *wāgas* 'waves' [@Bennett1950, p. 235, n. 6]. The rule below encodes the \emph{w} environment, for which the corpus supplies witnesses on both sides; the parallel \emph{g} environment is left for separate treatment.
 
 Whether this fronting restored a front vowel that had earlier been backed, or whether — as Fulk argues — the North Sea dialects simply retained an old front \emph{*ǣ} that was never backed at all, is the same dispute recorded in the lowering chapter [@Fulk2018, pp. 60--61, §4.6; @Campbell1959, pp. 50--51, §§128--129]. On the retention analysis this chapter's change dissolves into the non-event of staying put; the present model follows Ringe and Taylor's two-step reconstruction, on the strength of the runic evidence for an early [aː] and the place-adverbs *þǣr* 'there' and *hwǣr* 'where' [@RingeTaylor2014, pp. 13--14].
 
@@ -1510,8 +1678,8 @@ define EAFLongAFronting [
 ];
 ```
 
-The first clause fronts \emph{*ā} before any oral consonant other than \emph{*w}; the second admits the fronting before \emph{*w} exactly when a high front vocalic follows. The two corpus witnesses of the \emph{w} condition form a minimal contrast. [sḗaną]{.recon} 'to sow', whose hiatus-filling \emph{w} is supplied by [SC102 EAFHiatusWInsertion](#rule-EAFHiatusWInsertion), reaches this rule as \emph{*sāwaną} and is left unfronted, surfacing as *sāwan*; were the \emph{w}-block removed, the cascade would deliver [*sǣwan*]{.pred} instead. [lḗwijaną]{.recon} 'to betray', whose inherited \emph{w} is followed by \emph{*i}, is fronted by the second clause to \emph{*lǣwijaną} at this rule's own stage — before, and independently of, the much later i-umlaut — and surfaces as *lǣwan*.
-The rule consumes the \emph{*ā} created by [SC024 PNWGmcLongELowering](#rule-PNWGmcLongELowering); displaced before the lowering, it has nothing to front, and [skḗpą]{.recon} 'sheep' surfaces as [*sċāp*]{.pred} rather than OE *sċēap*, [jḗrą]{.recon} 'year' as [*ġār*]{.pred} rather than *ġēar*, [slḗpaną]{.recon} 'to sleep' as [*slāpan*]{.pred} rather than *slǣpan*.
+The first clause fronts \emph{*ā} before any oral consonant other than \emph{*w}; the second admits the fronting before \emph{*w} exactly when a high front vocalic follows. The two corpus witnesses of the \emph{w} condition form a minimal contrast. [sḗaną]{.recon} 'to sow', whose hiatus-filling \emph{w} is supplied by [SC102 EAFHiatusWInsertion](#rule-EAFHiatusWInsertion), reaches this rule as \emph{*sāwaną} and is left unfronted, surfacing as *sāwan* 'to sow'; were the \emph{w}-block removed, the cascade would deliver [*sǣwan*]{.pred} instead. [lḗwijaną]{.recon} 'to betray', whose inherited \emph{w} is followed by \emph{*i}, is fronted by the second clause to \emph{*lǣwijaną} at this rule's own stage — before, and independently of, the much later i-umlaut — and surfaces as *lǣwan* 'to betray'.
+The rule consumes the \emph{*ā} created by [SC024 PNWGmcLongELowering](#rule-PNWGmcLongELowering); displaced before the lowering, it has nothing to front, and [skḗpą]{.recon} 'sheep' surfaces as [*sċāp*]{.pred} rather than OE *sċēap* 'sheep', [jḗrą]{.recon} 'year' as [*ġār*]{.pred} rather than *ġēar* 'year', [slḗpaną]{.recon} 'to sleep' as [*slāpan*]{.pred} rather than *slǣpan* 'to sleep'.
 
 Two later boundaries carry real historical content. First, the fronting must precede the completion of [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization): the \emph{ā} that arose from \emph{*ai} was never fronted — *stān* 'stone', *hām* 'home', *lāþ* 'hostile', *rāp* 'rope', *tācn* 'token', *gāst* 'spirit' all keep the back vowel. Campbell draws exactly this chronological inference [@Campbell1959, pp. 52--53, §132], and Ringe and Taylor endorse it as cogent [@RingeTaylor2014, pp. 169--170]; in the present cascade the inference is enforced by rule order, and displacing the fronting after the monophthongization wrongly yields [*lǣþ*]{.pred}, [*rǣp*]{.pred}, [*tǣcn*]{.pred}, [*sǣwol*]{.pred}, and [*ġēast*]{.pred}. Historically the two changes may well have overlapped in time; the discrete ordering is the grammar's way of stating that inherited \emph{ā} had been fronted before the new \emph{ā} arose.
 
@@ -1523,11 +1691,34 @@ Second, the fronting must precede [SC056 OEWsPalatalDiphthongization](#rule-OEWs
 
 ## Historical discussion
 
-Inherited stressed \emph{*ái} monophthongized to \emph{*ā} across the North Sea Germanic area. Ringe and Taylor place the monophthongization of \emph{*ai} among the widespread early vowel developments of the English line [@RingeTaylor2014, pp. 40--41]. Versloot shows that the stressed development spread in successive waves through a dialect continuum, with Old English among the widest to carry it [@Versloot2017, pp. 281--324]. The Old English \emph{*ā} is later fronted to \emph{ǣ} in the relevant environments.
+Inherited stressed \emph{*ái} yields \emph{*ā} in English. Ringe and Taylor
+discuss this development separately from the earlier unstressed contraction.
+The distinction between inherited long vowels and new \emph{*ā} requires
+inherited-long fronting to have been well under way before contraction
+completed; it does not prove that the two developments could not overlap
+[@RingeTaylor2014, pp. 170–171]. Campbell gives the stricter conventional
+sequence and places contraction before ordinary short-vowel fronting
+[@Campbell1959, pp. 52–53]. Later i-mutation of the new long vowel is a
+separate conditioned development, not that ordinary fronting
+[@Campbell1959, p. 69].
 
-The change is areal in character. It is shared with Frisian, and its spread through the continuum gives it a range of dates and no single sharp moment.
+Versloot proposes a wave account of the regional outcomes, but CAPR does
+not adopt diffusion as a solution to the comparative tree problem.
+His readings of early English and Frisian inscriptions are relevant
+evidence independently of that mechanism, conditional on their provenance,
+etymology and phonetic interpretation
+[@Versloot2017, pp. 295–297, 318]. The required Anglo-Frisian ancestral node
+is retained. Whether completed English contraction belongs after it is
+distinct from the possibility of an earlier conditioned onset on the
+common stem; the current operational corridor does not settle that question.
 
-All twenty-four corpus witnesses carry stressed \emph{*ái}; loam \emph{*láimą} 'loam' is one of them, stressed in its Old English protoform. The unstressed development \emph{*ai > *ē} is the separate earlier change [SC014 PNWGmcUnstressedAiMonophthongization](#rule-PNWGmcUnstressedAiMonophthongization).
+The live selected-corpus census has twenty-three applications, all carrying
+stressed \emph{*ái}. Loam's selected \emph{*láimą} 'loam' is explicitly a
+pre-Old-English model input, not an independent Proto-Germanic witness.
+The raw corpus's additional roe reconstruction has no attested target and
+is excluded from that census. The unstressed development \emph{*ai > *ē}
+is the separate earlier change
+[SC014 PNWGmcUnstressedAiMonophthongization](#rule-PNWGmcUnstressedAiMonophthongization).
 
 ## \CAPRRuleHeading{SC004. Anglo-Frisian ai-monophthongization}{EAFAiMonophthongization} {#rule-EAFAiMonophthongization}
 
@@ -1548,18 +1739,21 @@ The unstressed development \emph{*ai > *ē} in final and nonfinal syllables is a
 
 ## Historical interval
 
-This chapter covers the sound changes that occurred within the Old English period:
-the changes that produced attested Old English from the prehistoric English forms
-that emerged from the Anglo-Frisian stage. The starting point is the end of the
-Anglo-Frisian changes of Chapter 3; the ending point is attested West Saxon Old
-English, the primary dialect of the CAPR corpus.
+This chapter follows the English daughter from the required Anglo-Frisian
+ancestor through prehistoric English to attested Old English. It includes
+changes earlier than the manuscript period, not merely changes within it.
+West Saxon is the principal target; each comparison still requires its actual
+dialect, paradigm cell and evidential status.
 
 ## Scope and dialect variation
 
 Not every change in this chapter has pan-Old-English scope. Some changes — most
-notably West Saxon palatal umlaut (SC060), the back-mutation rules (SC059), and
-the West Saxon diphthong chain (SC031–SC034) — are specifically West Saxon or
-more broadly southern Old English phenomena. (The West Saxon palatal-glide
+notably ordinary West Saxon palatal diphthongization and parts of the
+back-mutation history — are specifically West Saxon or more broadly southern
+Old English phenomena. The diphthong corridor also represents earlier West
+Germanic feeders; a West Saxon final outcome does not date every feeder to
+West Saxon [@RingeTaylor2014, pp. 41--42, 65--66, 171--173, 215--217].
+(The West Saxon palatal-glide
 spellings, SC016, belong to the written surface of Old English and are treated
 in Chapter 5.)
 
@@ -1568,9 +1762,10 @@ comparator. Changes that belong to other dialects, or that are absent from West
 Saxon, may appear in lexical entries as comparanda rather than as derivational
 steps.
 
-The existing reader-facing sound-change sections record which changes have
-pan-Old-English scope and which are specifically West Saxon or Anglian
-[@Campbell1959, §§ 1--10; @HoggGrammar1992, §§1.1--1.15].
+The distinction between West Saxon and Anglian comparanda requires the
+actual text and dialect, not merely a regional label. Hogg discusses the
+limits of the traditional divisions and the evidence for the principal
+textual varieties [@HoggGrammar1992, pp. 3--8, §§1.5--1.12].
 
 ## Chapter structure
 
@@ -1580,23 +1775,34 @@ though the boundaries between them are not always sharp:
 Early Old English changes linked to the Anglo-Frisian inheritance:
 Changes that feed directly on, or are closely related to, Anglo-Frisian
 brightening (SC043), whose section opens the vowel corridor of this chapter.
-The `*awj` glide formation (SC029), `*au` fronting (SC030), and
-the West Saxon diphthong chain (SC031–SC034) all operate on the vowel inventory
-shaped by Anglo-Frisian brightening. OE Breaking (SC044) and
-a-Restoration (SC046) similarly presuppose the fronted `*æ` input.
+The \emph{*awj} resolution, \emph{*au} fronting and diphthong operations
+currently execute before ordinary-a brightening. They cannot be described as
+consuming its output. Their histories combine earlier glide reanalysis with
+English diphthong realization [@Campbell1959, pp. 44--47;
+@RingeTaylor2014, pp. 65--66, 171--173].
+The conventional breaking/restoration account instead presupposes fronted
+\emph{*æ}. English plain-a/au process identity and inherited stem identity
+remain separate questions.
 
 Old English consonantal changes:
 Velar palatalization (SC052), palatalization of `*sk` (SC051), j-cluster
 coalescence (SC057), and related changes produce the characteristically
 Old English consonant phonemes. Hogg discusses these as OE consonant changes
-that are not broadly West Germanic [@HoggGrammar1992, §§7.18--7.23].
+with class-specific conditions and chronology [@Hogg1979, pp. 90–111].
 
 Old English i-umlaut and its context:
-The i-umlaut (SC055) is one of the most productive changes in the Old English
-nominal and verbal morphology. Its relative chronology in relation to breaking,
-palatalization, and back-mutation is carefully documented in the existing
-CAPR chronology evidence audit and individual dossiers
-[@Campbell1959, §§ 193--204; @HoggGrammar1992, §§5.79--5.85].
+The i-umlaut changes vowels under a following high front vocoid; paradigm
+alternations are evidence for that phonological conditioning, not grammatical
+conditions on the law [@Campbell1959, pp. 69--72, §§190--197;
+@RingeTaylor2014, p. 222]. Ordinary West Saxon palatal diphthongization
+precedes mutation in the handbook account, while the later treatment of some
+mutation products after *sċ* follows it [@Fulk2018, p. 74;
+@Campbell1959, pp. 68--69; @RingeTaylor2014, pp. 215--217, 235].
+The adopted cascade now places the ordinary component before mutation and
+retains the late approximation afterward. Gift enters with the earlier-raised
+vowel, following Ringe's explicitly PGmc reconstruction
+[@Ringe2017, p. 135, pp. 151–153]. Its lexical section discusses the
+published e-alternatives and the confidence in this choice.
 
 Late Old English syllabic reduction and apocope:
 High-vowel apocope (SC063), medial syncope (SC065), and the cluster of
@@ -1604,13 +1810,219 @@ late unstressed-vowel changes (SC069–SC078) represent the later stage of Old
 English phonological history, when the syllabic structure of the language
 began to shift toward the more reduced profile of Middle English.
 
-## Cascade positions and historical order
+## The English partial chains
 
-Chapters in this part of the book follow the executable cascade order, which
-models the reconstructed chronology, so every section in this chapter appears
-at its cascade position. A few rules presented here carry stage labels from
-earlier periods; their individual sections discuss the label and its history,
-and a later renaming pass will resolve the residue:
+The working historical scaffold has several connected chains, not one
+uniquely demonstrated total order. Their evidential strength differs.
+An explicit handbook derivation, a contrast between original and secondary
+vowels, and the survival of a modeled output are not interchangeable
+arguments [@RingeTaylor2014, pp. 170–173, 215–237;
+@Hogg1979, pp. 100–110].
+
+| Historical relation | Evidence and interpretation | Limitation |
+|---|---|---|
+| Coronal assimilation before inherited ww reanalysis | Four and the second-person pronoun have assimilated inputs to vocalization | Does not date every j-created geminate |
+| Inherited-long restructuring before completed ai contraction | New ai-derived long a escapes inherited-long fronting | Temporal overlap is possible |
+| Completed ai contraction before ordinary short fronting | Conventional Campbell chain | Depends on the diphthong-nucleus premise |
+| Ordinary fronting before breaking/restoration | Conventional English reconstruction | Never-fronted and restored outputs can coincide |
+| Breaking before ordinary palatal diphthongization before mutation | Broken inputs and worked handbook vowel histories | Does not date every consonantal palatal layer |
+| Mutation before the later sc treatment | Ai-derived mutation products such as sheath | Exact later conditioner remains unresolved |
+| Initial productive palatal cutoff before mutation-created fronts | Unrounded mutation vowels are the stronger controls | Medial fricative merger is a separate problem |
+
+The first three relations are supported and qualified by the earlier
+vowel accounts [@RingeTaylor2014, pp. 41–42, 65–66, 170–173;
+@Campbell1939, pp. 90–91]. The palatal and mutation relations require
+their own evidence [@Luick1914, pp. 162–163; @Fulk2018, p. 74;
+@RingeTaylor2014, pp. 215–217, 235; @Hogg1979, pp. 100–110].
+The table states the defended historical targets; it does not claim that
+every present executable proxy already realizes them faithfully.
+
+## Early glide history and the English outcome
+
+The diphthong corridor includes inherited ww, assimilated ww and geminates
+created later before j. These inputs must be distinguished before assigning
+one date to their long-vowel outputs. Ringe and Taylor describe inherited
+glide reanalysis separately from the English realization of its products
+[@RingeTaylor2014, pp. 41–42, 65–66, 171–173].
+The model currently telescopes parts of that history.
+
+| Witness | Earlier disputed checkpoint | Later English outcome | What it tests |
+|---|---|---|---|
+| Four | Assimilated ww can be reanalyzed as eu plus w | fēower ‘four’ | Assimilation feeder and retained glide |
+| Hew | Inherited a plus ww can give au plus w | hēawan ‘hew’ | Reanalysis distinct from English realization |
+| You | Vocalized iu plus w with a surviving final i before apocope | ēow ‘you’ | Prosody/apocope compatibility, not merely quantity |
+| Hue | Later j-gemination creates a distinct glide input | hīew ‘hue’ | Negative control for the earlier inherited-ww subset |
+| Hay | Later awj history remains separate | hīeġ ‘hay’ | Gemination and secondary glide resolution |
+
+These are intermediate questions rather than new corpus admissions.
+The current spelling differences also require their actual dialectal
+interpretation [@Campbell1959, pp. 44–47;
+@RingeTaylor2014, pp. 41–42, 57–58, 171–173].
+The reconstructed West Saxon strew target is a computational control,
+not an additional attested form.
+
+An isolated early-reanalysis experiment exposes a genuine representation
+dependency. Once the first w is vocalized, the present apocope proxy no
+longer recognizes its consonantal-ww context in the pronoun. An explicitly
+technical recognition control restores its output, but that success does
+not make vocalized segments the historical condition for apocope.
+The source account depends on word-level stresslessness and early loss
+of the high vowel [@RingeTaylor2014, pp. 41–42, 57–58].
+Any historical decomposition must account for that prosody instead of
+rejecting an early history because a later proxy expects another encoding.
+
+## Ordinary fronting, breaking and restoration
+
+The preferred conventional account identifies ordinary non-nasal short-a
+fronting and fronting of au's first element as one English episode.
+The later offglide development is distinct. Early spellings record the
+fronted element, but do not measure the simultaneity of two laws
+[@Campbell1939, p. 91; @Campbell1959, pp. 52–53;
+@Luick1914, pp. 130–131].
+English episode identity is not inherited Anglo-Frisian event identity.
+Nor does it identify the stressed-short process with every unstressed
+or long-final clause in the present model.
+
+Breaking then has vowel, quantity, consonantal and dialectal conditions.
+Restoration in a following back-vowel environment can remove a previously
+fronted vowel. A final restored vowel alone cannot distinguish that history
+from original blocking of fronting
+[@Hogg1979, pp. 90–97; @Versloot2025, pp. 104, 123].
+The conventional account is retained as the working baseline because of
+the combined argument, not because the more elaborate intermediate path
+is inherently preferable.
+
+Versloot's late Anglian alternatives must be compared in their exact domains.
+His mutation-created e argument and the unbroken neighboring environments
+are relevant to a restricted e-breaking component, not to a wholesale
+postmutation relocation of every West Saxon breaking law
+[@Versloot2025, pp. 126–128, 131–135].
+A different dialectal target cannot be silently substituted for a West
+Saxon lexical target. Similarly, Frisian closed-syllable breaking is not
+English rC breaking merely because both are called breaking
+[@Bremmer2009, pp. 33–35, 37].
+
+## Palatal consonants and the key–day problem
+
+The useful chronological contrast is between original conditioning fronts
+and front vowels created by mutation. Rounded mutation products alone
+may support a weaker conclusion, a cutoff before later unrounding.
+Unrounded mutation-created fronts more directly test whether initial
+velar palatalization was still productive
+[@Hogg1979, pp. 100–103; @Laker2007, pp. 167–168].
+This cutoff does not by itself date assibilation or every earlier
+articulatory tendency.
+
+Hogg's key and day paradigms make the remaining problem explicit.
+The initial key consonant survives a mutation-created unrounded front
+vowel; the day paradigm does not show the mutation that would follow
+if its new medial palatal element were already equivalent to inherited j.
+These statements concern particular historical cells, not arbitrary
+exceptions to a sound law [@Hogg1979, pp. 102–110].
+
+| Diagnostic | Required distinction | What is not established |
+|---|---|---|
+| Key oblique vowel | Original fronts versus mutation-created fronts | Date of all palatal articulation |
+| Day oblique vowel | Inherited j versus a newly effective medial trigger | A proven delayed-merger solution |
+| Geminate/postnasal g | Stop-class history versus singleton fricative | One universal g-to-j change |
+| h | Breaking trigger versus subsequent palatal/weakening history | Identity with voiced-fricative chronology |
+| sk | Own consonantal law versus later sc vowel treatment | A single combined palatalization event |
+
+Hogg considers several resolutions without endorsing one as demonstrated
+[@Hogg1979, pp. 103–110]. The unresolved merger question is therefore
+retained locally. Cluster coalescence and a dotted written reflex cannot
+be used to solve it by identifying different input consonants as one
+historical sound [@Laker2007, pp. 167–168].
+
+## Three different mutation and diphthongization arguments
+
+Guest, sheath and gift do not establish the same chronological relation.
+The guest derivation passes through ordinary palatal diphthongization
+before mutation in both the handbook account and the adopted model.
+The former model raised a simple vowel before diphthongizing it. Both paths reach
+*ġiest* 'guest', so their final agreement does not select the earlier path
+[@RingeTaylor2014, p. 216].
+
+The following worked comparison abstracts from consonant notation and
+retains the vocalic trigger where it matters. For guest, the source starts
+with PGmc \emph{*gastiz} 'guest', continued as PWGmc \emph{*gasti} 'guest'.
+The vowel history is \emph{*a > *æ > *ea > *ie}; final loss of the
+trigger follows the mutation it caused
+[@RingeTaylor2014, pp. 216, 287].
+
+| Checkpoint | Handbook and adopted guest path | Superseded modeled guest path |
+|---|---|---|
+| Ordinary fronting | Short a becomes æ | Short a becomes æ |
+| After palatal conditioning is established | Original front vowel is available to ordinary PD | Original front vowel is available, but PD remains later |
+| First disputed vowel operation | æ becomes ea by ordinary PD | æ becomes e at mutation |
+| Second disputed vowel operation | ea becomes ie at mutation | e becomes ie in the bundled PD proxy |
+| Written result | ġiest ‘guest’ | ġiest ‘guest’ |
+
+The agreement in the last row is precisely why the intermediate rows
+must be tested. This table does not treat the implementation's
+palatal-consonant symbol as proof of a uniquely dated phonetic merger
+[@Hogg1979, pp. 103–110].
+
+| Witness | Source-supported distinction | Present model consequence |
+|---|---|---|
+| Guest | Ordinary palatal diphthongization feeds mutation | Adopted æ > ea > ie replaces the output-equivalent old path |
+| Sheath | Ai-derived ā mutates; a later sc layer can affect its product | Its unchanged late clause is separately retained as an approximation |
+| Gift | Earlier inherited e-to-i raising is distinct from English mutation | Selected PGmc i is outside ordinary diphthongization |
+| Sheep/year | Ordinary palatal diphthongization without a mutation trigger | Controls for the ordinary component |
+| Cow/lung | Mutation changes the productive consonantal environment | Controls for cutoff, not diphthongal mutation |
+
+For sheath, *sċēaþ* 'sheath' beside *sċǣþ* 'sheath' belongs to the
+separately described later group. Reporting both outcomes does not
+authorize lexical optionality in the law; the exact phonological layer
+and conditioner still require a defended specification
+[@Campbell1959, pp. 68–69; @RingeTaylor2014, p. 235].
+The incremental repair preserves the literal late clause as a visible
+approximation, not a lexical exception or a newly established conditioner.
+
+The sheath comparison instead follows the ai-derived long vowel:
+\emph{*ai > *ā > *ǣ}, with the final step supplied by mutation.
+The separately discussed later sc treatment can then give
+\emph{*ēa}. The vowel available to the earlier ordinary process and
+the vowel created later by mutation are therefore different historical
+inputs, which the adopted model now separates
+[@Campbell1959, pp. 68–69; @RingeTaylor2014, p. 235].
+
+For gift, Ringe reconstructs PGmc \emph{*giftiz} 'gift', with the Old
+English plural *ġifta* 'wedding', and describes the earlier raising separately
+[@Ringe2017, p. 135, pp. 151–153].
+Ringe and Taylor explicitly distinguish that early change from the much
+later English vowel history [@RingeTaylor2014, p. 220].
+The selected input now follows that earlier-raised reconstruction. The
+choice is lexical and source-led, not a new raising rule justified by
+output fit. Orel and Kluge–Seebold print e-vowel alternatives
+[@Orel2003, p. 130; @KlugeSeebold2011, p. 359];
+the lexical section compares their evidence with the e-grade presentations
+and Ringe's qualified PGmc dating rather than claiming unanimous agreement.
+
+## Quantity, reduction and the written surface
+
+Later apocope and syncope depend on prosody and syllable structure;
+earlier input conventions and surviving triggers must be inspected before
+their effects are used as dates for other changes. Morphological cells
+provide evidence for such environments, not grammatical conditions on
+phonological rules [@RingeTaylor2014, pp. 57–59, 299–300].
+Inherited quantity, compensatory lengthening, diphthong quantity and
+later shortening must likewise remain separate dimensions.
+
+The transition to Chapter 5 is a transition to the written surface, not
+proof that an orthographic change is a newly dated sound change.
+A single spelling can represent different historical consonant inputs,
+and a changed spelling need not change the phonetic derivation.
+The source discussions and worked lexical entries distinguish implemented
+laws from working reconstructions and localized unresolved components.
+
+## Executable serialization and unresolved interfaces
+
+Sections follow executable order to make derivations inspectable, not because
+that serialization proves a unique total history. Final agreement can conceal
+different intermediate paths. Some proxies execute here with earlier historical
+classifications; renaming identifiers would not resolve that substantive
+distinction:
 
 * SC041 (PWGmc Final Bare-`*a` Loss) and SC042 (Surviving Bimoric `*ō`
   Unrounding) carry Proto-West Germanic labels but execute in this stretch of
@@ -1622,13 +2034,13 @@ and a later renaming pass will resolve the residue:
 ## Sources
 
 Campbell's *Old English Grammar* is the primary source for the dating and
-scope of individual changes in this chapter [@Campbell1959].
-Hogg's *Grammar of Old English* provides modern reassessments and additional
-relative-chronology evidence [@HoggGrammar1992]. Ringe and Taylor supply the most
+scope of individual changes in this chapter [@Campbell1959, pp. 52–72].
+Hogg provides critical reassessments of palatal conditioning and its
+relative chronology [@Hogg1979, pp. 90–112]. Ringe and Taylor supply the most
 detailed relative-chronology analysis for the earlier portion of the chapter,
-through back-mutation [@RingeTaylor2014, pp. 70--160]. Fulk's *Comparative
-Grammar* provides additional coverage for morphological conditioning
-[@Fulk2018]. For individual changes, source-specific citations appear in the
+through back-mutation [@RingeTaylor2014, pp. 169--173, 215--237]. Fulk's *Comparative
+Grammar* provides additional coverage for phonological conditioning
+[@Fulk2018, pp. 58–61, 72–74]. For individual changes, source-specific citations appear in the
 relevant sound-change sections.
 
 # Awj resolution and the English brightening of au
@@ -1666,7 +2078,7 @@ High German *niuwi* and *siuwen*. Gemination was reversible, since it merged
 nothing and altered no underlying form, so the sequence Northwest Germanic
 \emph{*awj} to West Germanic \emph{*[aw'w']} to pre-Old English \emph{*[auj]}
 can have run its course and then undone itself. Their derivations give
-Proto-Germanic \emph{*hawja} through \emph{*hauj-} to *hīeġ*, and
+Proto-Germanic \emph{*hawja} through \emph{*hauj-} to *hīeġ* ‘hay’, and
 Proto-Germanic \emph{*strawjaną} through \emph{*straujan} to Anglian
 *strēgan* ‘strew’ [@RingeTaylor2014, p. 173].
 
@@ -1674,7 +2086,7 @@ The strongest comparative argument for the doubled stage comes from paradigms
 in which some cells had \emph{*j} in the ending and others had \emph{*i}. Only
 the first group could double, and the two outcomes then sat side by side. Old
 High German has *hewi* ‘hay’ beside *houwi*, and Old English itself preserves
-both in one word, *glīg* ‘mirth’ from the undoubled nominative beside *glīowes*
+both in one word, *glīg* ‘mirth’ from the undoubled nominative beside *glīowes* ‘of mirth’
 in the genitive [@RingeTaylor2014, p. 53, §3.1.3]. The continental forms *houwi*
 and *gistrouwen* ‘bestrew’, and Old Saxon *hoi* ‘hay’, point to the same West
 Germanic stage, which English alone went on to resolve [@RingeTaylor2014,
@@ -1688,8 +2100,8 @@ company, since the \emph{u} of \emph{auuj} is generally lost while the \emph{j}
 of \emph{iuuj} is lost [@Campbell1959, p. 46, §120.2]. Old English *hīeġ* ‘hay’
 and *hīew* ‘form, hue’ begin from shapes that differ in a single vowel and end
 with different survivors. *Hīeġ* keeps its \emph{*j}, written *ġ*, while *hīew*
-keeps its \emph{*w}. Campbell’s other examples of the second type are *nīowe*,
-*nīewe* ‘new’ and *glīow*, *glīw* ‘mirth’.
+keeps its \emph{*w}. Campbell’s other examples of the second type are *nīowe* ‘new’,
+*nīewe* ‘new’ and *glīow* ‘mirth’, *glīw* ‘mirth’.
 
 One qualification belongs in the record. Fulk holds that \emph{*w} was never
 consonantal here, so that Proto-Germanic already had \emph{*straujaną} with
@@ -1712,12 +2124,13 @@ define OEAwwjResolution [
 The change is confined to the \emph{*a} type. PGmc [xáwją]{.recon} ‘hay’ is
 doubled to \emph{*xáwwją} by the West Germanic law and then resolved to
 \emph{*xáują}, and PGmc [stráwjaną]{.recon} ‘strew’ is doubled to
-\emph{*stráwwjaną} and resolved to \emph{*stráujaną}, yielding *hīeġ* and
-*strīeġan* once the later diphthong changes and \emph{i}-umlaut have applied.
+\emph{*stráwwjaną} and resolved to \emph{*stráujaną}, yielding *hīeġ* ‘hay’ and
+*strīeġan* ‘strew’ once the later diphthong changes and \emph{i}-umlaut have applied.
 PGmc [xéwją]{.recon} ‘form, hue’ is doubled by the same law, and there the
-doubling holds: it passes through this change untouched and surfaces as *hīew*.
+doubling holds: it passes through this change untouched and surfaces as *hīew* ‘form, hue’.
 
-The resolution has to precede the fronting of SC030, since the fronting needs a
+The resolution has to precede
+[SC030 OEAuBrightening](#rule-OEAuBrightening), since the fronting needs a
 diphthong to work on. Ringe and Taylor state the same dependence when they
 observe that these new instances of \emph{*au} went on to share the ordinary
 development [@RingeTaylor2014, p. 173].
@@ -1748,10 +2161,10 @@ of the whole sequence is the *ēa* of *dēaþ* ‘death’, *ēage* ‘eye’ an
 The geographical reach of the diphthongal fronting is narrower than that of the
 plain one. Old Frisian shows no such fronting and has \emph{ā}, so that Old
 English *ēac* ‘also’, *ēage* ‘eye’ and *bēam* ‘tree’ stand against Old Frisian
-*āk*, *āge* and *bām* [@Fulk2018, p. 73, §4.12; @RingeTaylor2014, p. 172]. A
+*āk* ‘also’, *āge* ‘eye’ and *bām* ‘tree’ [@Fulk2018, p. 73, §4.12; @RingeTaylor2014, p. 172]. A
 later change supplies independent confirmation. Old English *gēac* ‘cuckoo’ has
 a palatalized initial, which requires a front vowel to have followed it, while
-Old Frisian *gāk* has none [@Fulk2018, p. 73, §4.12]. Brightening of plain
+Old Frisian *gāk* ‘cuckoo’ has none [@Fulk2018, p. 73, §4.12]. Brightening of plain
 \emph{*a} is shared with Frisian; brightening of the first element of
 \emph{*au} is English.
 
@@ -1765,21 +2178,23 @@ define OEAuBrightening [
 ```
 
 Most of the words that pass through the change carry \emph{*au} inherited
-straight from Proto-Germanic. PGmc [láubą]{.recon} ‘leaf’ gives *lēaf*, PGmc
-[stráumaz]{.recon} ‘stream’ gives *strēam*, PGmc [bráudą]{.recon} ‘bread’
-gives *brēad*, and PGmc [dráugmaz]{.recon} ‘dream’ gives *drēam*. Where a
+straight from Proto-Germanic. PGmc [láubą]{.recon} ‘leaf’ gives *lēaf* ‘leaf’, PGmc
+[stráumaz]{.recon} ‘stream’ gives *strēam* ‘stream’, PGmc [bráudą]{.recon} ‘bread’
+gives *brēad* ‘bread’, and PGmc [dráugmaz]{.recon} ‘dream’ gives *drēam* ‘dream’. Where a
 following \emph{*j} or \emph{*i} survives long enough to cause \emph{i}-umlaut,
 the *ēa* appears in West Saxon as *īe*, as in *ġelīefan* ‘believe’ from PGmc
-[galáubijaną]{.recon} and *nīed* ‘need’ from PGmc [náudiz]{.recon}
-[@Campbell1959, p. 46, §120.2]. The two words supplied by SC029, *hīeġ* and
-*strīeġan*, join this second group.
+[galáubijaną]{.recon} ‘believe’ and *nīed* ‘need’ from PGmc [náudiz]{.recon} ‘need’
+[@Campbell1959, p. 46, §120.2]. The two words supplied by
+[SC029 OEAwwjResolution](#rule-OEAwwjResolution), *hīeġ* ‘hay’ and
+*strīeġan* ‘strew’, join this second group.
 
 The proportions matter for what the rule is. This is the general Old English
 treatment of \emph{*au}, to which the resolution of \emph{*awj} contributes two
-further inputs; the history of *hīeġ* and *strīeġan* does not define it.
+further inputs; the history of *hīeġ* ‘hay’ and *strīeġan* ‘strew’ does not define it.
 
 The fronted \emph{*æu} has no independent life. It is taken up at once by the
-diphthong leveling of SC032, which lowers the offglide and delivers *ēa*.
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling), which lowers
+the offglide and delivers *ēa*.
 Ringe and Taylor give that order explicitly when they place the tensing and
 fronting first and the unrounding and lowering later [@RingeTaylor2014, p. 172].
 
@@ -2067,6 +2482,17 @@ The single *ræste* ‘rest’ derivation carries the chronology of bimoric \emp
 Anglo-Frisian Brightening or First Fronting turns low \emph{*a} into fronted \emph{*æ}-type outcomes outside nasal environments. Later Old English developments presuppose this fronted stage even where they partly conceal it. Campbell gives the classical statement of the change, Hogg supplies the standard modern labels, and Ringe and Taylor establish its local chronology with breaking and restoration [@Campbell1959, p. 52, §131; @HoggPhonology1992, pp. 102, 105; @RingeTaylor2014, pp. 157--158, 189--190; @Fulk2018, pp. 73--74, §§4.12--4.13].
 
 Brightening creates the input to [SC044 OEBreaking](#rule-OEBreaking), while [SC046 OEARestoration](#rule-OEARestoration) later partly reverses its outcome before back vowels.
+
+The traditional name does not itself establish one inherited event.
+Under Campbell's premise that the daughter contractions precede ordinary
+fronting, comparable English and Frisian outcomes require separate
+daughter frontings in the strict tree. Chapter 3 develops that conditional
+argument without removing the ancestral node
+[@Campbell1939, pp. 90–91].
+The present network also contains unstressed-short and long-final
+components; evidence dating stressed-short fronting does not automatically
+date those other clauses. The current computational control is retained
+while their historical identity is assessed separately.
 
 ## \CAPRRuleHeading{SC043. Fronting of low \emph{*a} outside nasal environments}{EAFBrightening} {#rule-EAFBrightening}
 
@@ -2461,6 +2887,67 @@ Taylor and Fulk distinguish from it a narrower West-Saxon process affecting
 words after initial palatals. The two changes act in different environments and
 produce different lexical consequences.
 
+Two further distinctions are essential to their relative chronology. First,
+the raising of inherited Germanic \emph{*e} to \emph{*i} before a following
+high front vocoid is much earlier than Old English i-umlaut. Ringe reconstructs
+PGmc [giftiz]{.recon .iv lang=pgmc sort=giftiz} 'gift', with OE plural *ġifta*
+'wedding', and discusses that earlier raising separately
+[@Ringe2017, p. 135, pp. 151--153]. Ringe and Taylor likewise caution that
+raising of inherited \emph{*e} occurred hundreds of years before the Old
+English changes; a later repetition is rare and doubtful
+[@RingeTaylor2014, p. 220]. The selected gift input now has the earlier-raised vowel. Its lack of
+ordinary diphthongization therefore does not date the general West Saxon
+process. Published e-reconstructions remain genuine alternatives
+[@Orel2003, p. 130; @KlugeSeebold2011, p. 359]; the lexical discussion
+compares their evidence and explains the attributed working choice.
+
+Second, the ordinary diphthongization of inherited/fronted non-high vowels
+must be distinguished from the later treatment of some mutation products
+after *sċ*. Campbell separates that small group from his general front-vowel
+diphthongization: the group includes *sċēaþ* 'sheath' beside *sċǣþ* 'sheath'
+[@Campbell1959, pp. 68--69, §§184--185]. Ringe and Taylor explicitly place
+the treatment of the ai-derived mutation product after mutation, giving the
+same two sheath outcomes [@RingeTaylor2014, p. 235]. Their ordinary
+West Saxon derivations, including *ġiest* 'guest' and *ċytel* 'kettle',
+instead pass through palatal diphthongization before mutation
+[@RingeTaylor2014, pp. 215--217, 222].
+
+The historically preferred working account therefore has ordinary palatal
+diphthongization before Old English mutation, with the separately evidenced
+later *sċ* treatment after it. The adopted cascade separates these operations: ordinary diphthongization
+precedes mutation, and the unchanged late approximation follows it.
+The sources' alternate spellings do not by themselves supply an
+exceptionless conditioning law for the later group; its full conditioner
+remains unresolved.
+
+## \CAPRRuleHeading{SC056. West Saxon palatal diphthongization}{OEWsPalatalDiphthongization} {#rule-OEWsPalatalDiphthongization}
+
+```foma
+define OEWsPalatalDiphthongization [
+    {*æ} -> {*ea} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*e} -> {*ie} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*ē} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*é} -> {*íe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*ḗ} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
+];
+```
+
+West Saxon *gieldan* ‘pay’, *scield* ‘shield’, and *scieppan* ‘create’ show diphthongization after an already palatal consonant [@RingeTaylor2014, pp. 215--216, §6.5.1]. Their dialectal and phonological restriction separates this development from system-wide i-umlaut.
+
+Hogg's *giefan* ‘give’ and *sceap* ‘sheep’ belong to the same palatal-consonant environment [@HoggPhonology1992, p. 112]. Fulk likewise assigns this diphthongization a place before front mutation and distinguishes the two processes [@Fulk2018, p. 74, §4.13].
+
+The ordinary live applications comprise *ġiefan* 'give', *ġiest* 'guest',
+*sċeaft* 'shaft', *sċieran* 'shear', *sċēap* 'sheep',
+*sċield* 'shield' and *ġēar* 'year'. Gift is unchanged at this rule because
+its selected vowel already reflects earlier raising. Sheath changes from the mutation product
+\emph{*ǣ} to \emph{*ēa}; it supplies evidence for the later *sċ* layer, not
+the date of the ordinary treatment represented by the other examples.
+
+The adopted ordinary process precedes mutation and preserves the split-
+diphthong and high-i negative controls. The reported absence of a later
+displacement failure supplies no positive historical terminus.
+
 ## SC055. Fronting under i-umlaut (`OEIUmlautFronting`) {#rule-OEIUmlautFronting}
 
 ```foma
@@ -2481,9 +2968,20 @@ define OEIUmlautFronting [
 
 The breadth of i-umlaut appears in lexical classes that share only a following high front vocoid. The forms *fylgan* ‘follow’, *gylden* ‘golden’, *wyrm* ‘worm’, and *giest* ‘guest’ exemplify the same `i`- or `j`-conditioned fronting across different vowels [@RingeTaylor2014, p. 222, §6.6.1; @Campbell1959, pp. 69--72, §§190--191].
 
-The cow and lung forms establish the lower boundary. If fronting precedes velar palatalization, PGmc [kūi]{.recon} ‘cow’ yields [*ċȳ*]{.pred} rather than expected OE *cȳ* 'cows', and [lúnganjō]{.recon} ‘lungs’ yields [*lunġen*]{.pred} rather than expected OE *lungen* 'lungs'. The consonantal change must therefore precede fronting.
+The selected cow and lung inputs are negative controls on the present
+palatalization rule. Moving the composite umlaut rule before that rule yields
+[*ċȳ*]{.pred} and [*lunġen*]{.pred} instead of *cȳ* 'cow' and *lungen* 'lung'. This
+constrains the current rule's productive domain; it does not assign every
+consonantal layer the same date. In particular the selected *cȳ* is a
+dative-singular input, not evidence from an assumed generic plural.
 
-The gift and sheath forms establish the upper boundary. If West Saxon palatal diphthongization precedes fronting, PGmc [géftiz]{.recon} ‘gift’ yields [*ġieft*]{.pred} rather than expected OE *ġift* 'gift', and [skáiθiz]{.recon} ‘sheath’ yields [*sċǣþ*]{.pred} rather than expected *sċēaþ* 'sheath'. Fronting consequently follows velar palatalization and precedes the West Saxon change; the other components of i-umlaut share those bounds.
+The stored gift and sheath displacement failures constrain the current
+serialization, not a universal historical upper boundary. The former gift input
+left an earlier raising to this late rule; sheath represents the later
+*sċ* treatment of a mutation product. Moving the entire palatal-diphthongization
+bundle earlier strands sheath and diphthongizes the model's still-unraised
+gift vowel. Neither failure overturns the independently supported ordinary
+palatal-diphthongization-before-mutation account.
 
 ## SC055. Raising under i-umlaut (`OEIUmlautRaising`) {#rule-OEIUmlautRaising}
 
@@ -2495,7 +2993,12 @@ define OEIUmlautRaising [
 
 Raising of umlauted `æ` to `e` continues the same assimilatory event as fronting and therefore shares the chronology of general i-umlaut.
 
-The same four forms fix both boundaries. If raising precedes velar palatalization, [kūi]{.recon} ‘cow’ yields [*ċȳ*]{.pred} instead of expected *cȳ* 'cows' and [lúnganjō]{.recon} ‘lungs’ yields [*lunġen*]{.pred} instead of expected *lungen* 'lungs'. If West Saxon palatal diphthongization precedes raising, [géftiz]{.recon} ‘gift’ yields [*ġieft*]{.pred} rather than expected *ġift* 'gift', and [skáiθiz]{.recon} ‘sheath’ yields [*sċǣþ*]{.pred} rather than expected *sċēaþ* 'sheath'. These forms place raising after velar palatalization and before West Saxon palatal diphthongization.
+The four displacement controls concern the composite rule. They are not
+independent tests of this raising component: for example, the cow vowel
+changes in the fronting component, not in this \emph{*æ}-raising clause.
+Component chronology must follow the source-supported assimilatory event,
+with ordinary palatal diphthongization and the later *sċ* extension kept
+distinct.
 
 The sources do not describe umlaut as simple fronting alone. Campbell notes that
 the low front vowel
@@ -2527,7 +3030,13 @@ handbooks, including *giest* ‘guest’, *giefan* ‘give’, and *hierde*
 [@Campbell1959, pp. 69--72, 78--80, §§190--191, 248--251; @HoggPhonology1992, pp. 113--114]. These diphthongal outcomes form a distinct part of the general
 umlautal development alongside simple fronting.
 
-The chronology comes from the cow/lung and gift/sheath contrasts. Placed before velar palatalization, diphthongal mutation over-palatalizes [kūi]{.recon} ‘cow’ and [lúnganjō]{.recon} ‘lungs’; placed after West Saxon palatal diphthongization, it yields [*ġieft*]{.pred} and [*sċǣþ*]{.pred} instead of expected *ġift* 'gift' and *sċēaþ* 'sheath'. These failures place diphthongal mutation after velar palatalization and before West Saxon palatal diphthongization.
+Those composite displacement controls do not isolate diphthongal mutation:
+neither the cow input nor the gift input has a diphthong here. In the
+conventional history, diphthongs produced by ordinary palatal diphthongization
+can be mutated, as in the source derivation of *ġiest* 'guest'
+[@RingeTaylor2014, p. 216]. The adopted derivation now follows that ea-to-ie source path. The former
+simple-vowel route converged on the same final form, showing why final
+agreement alone could not establish the relative chronology.
 
 ## SC055. The composite i-umlaut rule (`OEIUmlaut`) {#rule-OEIUmlaut}
 
@@ -2539,30 +3048,31 @@ define OEIUmlaut OEIUmlautFronting
 
 The literature presents fronting, raising, and diphthongal mutation as effects of one historical development. They consequently occupy a single place in the Old English chronology.
 
-The lower boundary is consonantal. If general umlaut precedes velar palatalization, PGmc [kūi]{.recon} ‘cow’ yields [*ċȳ*]{.pred} rather than expected *cȳ* 'cows', and PGmc [lúnganjō]{.recon} ‘lungs’ yields [*lunġen*]{.pred} rather than expected *lungen* 'lungs'. These over-palatalized forms place general umlaut after velar palatalization.
+The cow/lung displacement results require the present productive
+palatalization rule not to consume those mutation-created environments.
+The historical interpretation still depends on the relevant consonantal
+layer and inherited versus secondary front-vowel conditions.
 
-The upper boundary separates general umlaut from the narrower West Saxon process. If West Saxon palatal diphthongization precedes umlaut, PGmc [géftiz]{.recon} ‘gift’ yields [*ġieft*]{.pred} rather than expected OE *ġift* 'gift', and [skáiθiz]{.recon} ‘sheath’ yields [*sċǣþ*]{.pred} rather than expected *sċēaþ* 'sheath'. Together the two witness pairs place general umlaut after velar palatalization and before the West Saxon process.
+There is no single source-supported upper boundary at the entire West
+Saxon bundle. Ordinary palatal diphthongization precedes mutation in the
+handbook account; the later *sċ* treatment of some mutation products follows
+it. The former gift input and sheath's later layer explained the old bundled
+serialization, not a date for every historical palatal process.
 
-## \CAPRRuleHeading{SC056. West Saxon palatal diphthongization}{OEWsPalatalDiphthongization} {#rule-OEWsPalatalDiphthongization}
+## Retained late palatal-diphthongization approximation {#rule-OELatePalatalDiphthong}
 
 ```foma
-define OEWsPalatalDiphthongization [
-    {*æ} -> {*ea} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*e} -> {*ie} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*ē} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*é} -> {*íe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*ḗ} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
+define OELatePalatalDiphthong [
+    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
 ];
 ```
 
-West Saxon *gieldan* ‘pay’, *scield* ‘shield’, and *scieppan* ‘create’ show diphthongization after an already palatal consonant [@RingeTaylor2014, pp. 215--216, §6.5.1]. Their dialectal and phonological restriction separates this development from system-wide i-umlaut.
-
-Hogg's *giefan* ‘give’ and *sceap* ‘sheep’ belong to the same palatal-consonant environment [@HoggPhonology1992, p. 112]. Fulk likewise assigns this diphthongization a place before front mutation and distinguishes the two processes [@Fulk2018, p. 74, §4.13].
-
-The forms *ġift* ‘gift’ and *sċēaþ* ‘sheath’ fix the lower boundary. If West Saxon palatal diphthongization precedes general i-umlaut, PGmc [géftiz]{.recon} ‘gift’ yields [*ġieft*]{.pred} rather than expected *ġift*, and PGmc [skáiθiz]{.recon} ‘sheath’ yields [*sċǣþ*]{.pred} rather than expected *sċēaþ*. These witnesses place West Saxon palatal diphthongization after general umlaut; no tested lexical item supplies a later terminus ante quem.
-
-The one-sided chronology reflects the difference in scale. General umlaut reorganizes the vowel system, whereas West Saxon palatal diphthongization affects a narrower dialectal class after palatal consonants. Its exact later placement remains undemonstrated by the present lexicon.
+This support operation retains exactly the former postmutation long-vowel
+clause. Its sole current application is *sċēaþ* 'sheath'. The four initial
+triggers are an unchanged approximation, not a source-proven complete
+historical conditioner. Campbell and Ringe–Taylor distinguish the later
+class [@Campbell1959, pp. 68–69; @RingeTaylor2014, p. 235];
+the incremental implementation does not claim to have resolved it.
 
 \newpage
 

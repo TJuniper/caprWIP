@@ -72,22 +72,22 @@ form at all for its witnesses.
 
 Four lexemes in the present corpus reach Old English through this rule, and
 between them they witness all three sources.
-[gánsz]{.recon} ‘goose’ arrives as [gą̄s]{.recon} from the North Sea Germanic
-law and gives *gōs*; [mḗnōθz]{.recon} ‘month’ arrives as [mą̄nōþ]{.recon} and
-gives *mōnaþ*; [spḗnuz]{.recon} ‘spoon’ arrives as [spą̄nu]{.recon} and gives
-*spōn*. The Proto-Germanic law contributes [θánxtē]{.recon}, the preterite of
-the verb ‘to think’, which arrives as [θą̄xtē]{.recon} and gives *þōhte*
+[gánsz]{.recon} ‘goose’ arrives as [gą̄s]{.recon} ‘goose’ from the North Sea Germanic
+law and gives *gōs* ‘goose’; [mḗnōθz]{.recon} ‘month’ arrives as [mą̄nōþ]{.recon} ‘month’ and
+gives *mōnaþ* ‘month’; [spḗnuz]{.recon} ‘spoon’ arrives as [spą̄nu]{.recon} ‘spoon’ and gives
+*spōn* ‘spoon’. The Proto-Germanic law contributes [θánxtē]{.recon} ‘thought’, the preterite of
+the verb ‘to think’, which arrives as [θą̄xtē]{.recon} ‘thought’ and gives *þōhte*
 ‘thought’. That is the very form cited for this rounding, beside Old Frisian
 *thochte*, and it is the evidence that the vowel did not fall together with the
-*ā* of *stān* [@Fulk2018, p. 55, §4.1; @Campbell1959, p. 44, §119]. The other
+*ā* of *stān* ‘stone’ [@Fulk2018, p. 55, §4.1; @Campbell1959, p. 44, §119]. The other
 firing of the Proto-Germanic law, the high vowel of *fȳst* ‘fist’, does not
 reach this rule at all.
 
 The counterpart is what the rule leaves alone. [stáinaz]{.recon} ‘stone’ and
 [xáimaz]{.recon} ‘home’ acquire their long *ā* from
 [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization), which follows
-this rule, and their vowel was never nasalized; they surface as *stān* and
-*hām*. Placing the monophthongization before the nasalization and the rounding
+this rule, and their vowel was never nasalized; they surface as *stān* ‘stone’ and
+*hām* ‘home’. Placing the monophthongization before the nasalization and the rounding
 makes that vowel eligible and the cascade then yields [*stōn*]{.pred} and
 [*hōm*]{.pred}, which is the chronological inference Campbell draws for the
 treatments of the old low vowel generally

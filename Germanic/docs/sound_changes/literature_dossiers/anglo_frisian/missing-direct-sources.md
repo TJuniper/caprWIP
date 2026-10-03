@@ -85,7 +85,7 @@ substitutes.
 | Nielsen 2001; other cited treatments | **2001 chapter PDF and Vision text held; other titles not directly reviewed** | Direct card 11 and synthesis complete | Structural causal premises versus diagnostic edges; earlier cited works remain reports |
 | Goblirsch 1991 on Germanic *ai/*au in Anglo-Frisian | **PDF and Vision text held** | Direct card 12 and synthesis complete | Unobserved Frisian ēa/eā; incomplete ai conditioning; reported mechanism/date dependencies |
 | Siebs, *Geschichte der friesischen Sprache* / Grundriss article | **No** | Medium | The classic pro-shared-palatalization position |
-| Luick, relevant passages | **Partial** | Medium | §§118–120 located by printed headings; §637 and exact corrupted glyphs still unverified |
+| Luick, relevant passages | **Both complete scans and Vision texts held** | §§118–123 and §637 visually reviewed | Source glyphs elsewhere remain OCR, not a diplomatic edition; direct chronology is reconstructed, not adjudicated |
 
 ## Detail
 
@@ -219,12 +219,14 @@ of *-k(k)-* and *-g(g)-* belongs to "der englisch-friesischen, das heißt der
 kontinentalen Periode". CAPR knows this position only through Laker's
 quotation.
 
-### Luick — held; selected printed-page locators now established
+### Luick — complete scans held; selected passages image-verified
 
-`docs/references/luick_historische_grammatik.txt` is held (~29,750 lines).
-Its page markers are of the form `--- PAGE n ---` and are **pdf sheet
-numbers, not printed folios**. It also predates the marker convention used
-by the newer extracts.
+The supplied first-volume scans are now held as ignored PDFs and complete
+`luick_historische_grammatik_part1.vision.txt` /
+`luick_historische_grammatik_part2.vision.txt`. Their title pages identify
+the 1921 first division and posthumous 1940 second division. The retained
+older extract has PDF-sheet markers, not printed folios, and is not the
+new holdings' page authority.
 
 The continuation pass inspected the local text itself, not just reports of
 Luick. Adjacent explicit printed headings establish these local locators:
@@ -246,15 +248,22 @@ Load-bearing direct passages:
   alternative to Campbell's early contraction, not secure intermediate-state
   evidence [@Luick1914, pp. 131–132, §120].
 
-The legacy extract corrupts several linguistic glyphs; no matching local PDF
-was located. Consequently this pass uses the legible prose and printed
-headings, **not** a reconstructed reading of the corrupted intermediate
-diphthong. Exact quoted phonetic forms still require page-image confirmation.
+The new first division directly verifies printed pp. 130–133 on sheets
+146–149. The second division has inserted editorial matter, requiring the
+piecewise mapping in the resource index rather than one global offset.
+Section 637 begins on printed p. 835 (sheet 317) and ends on p. 841
+(sheet 323); its opening, conditioning and chronology were visually read.
+Luick directly attributes palatalization to the Anglo-Frisian community;
+note 8 places it after fronting, breaking and the back-vowel effects on æ,
+but before mutation and early vowel loss
+([@Luick1914, pp. 835–841, §637, especially p. 841, note 8]).
+This verifies the passage reported by Laker, not its genealogical proof
+([@Laker2007, p. 165, n. 2]).
 
-Laker's report of palatalization "noch zur Zeit der anglofriesischen
-Ge[meinschaft]" refers to §637 [@Laker2007, p. 165, n. 2]. That section was
-not located in the held text. Its wording and printed-page locator remain
-unverified; do not treat the §§118–120 lookup as verification of §637.
+The exact source pages are now available for glyph verification. No
+unlocated-§637 or missing-PDF gate remains. The complete Vision text is
+not a fully corrected diplomatic edition; check specialist notation against
+the images instead of copying corrupt OCR.
 
 ## Parked holdings and active review
 
@@ -268,9 +277,9 @@ unverified; do not treat the §§118–120 lookup as verification of §637.
    Fulk 2018 or other authors' reports. Not a completion prerequisite.
 4. **Hogg 1979** — direct review complete; English operative P/U remains
    unresolved and no independent Frisian chain is supplied.
-5. **Luick** — selected §§118–120 printed-page locators are established;
-   page-image confirmation and §637 remain coverage limits. Do not infer
-   missing glyphs or treat those limits as a general acquisition gate.
+5. **Luick** — both scans and complete Vision texts now held; §§118–123
+   and §637 visually reviewed. Remaining unreviewed passages/glyphs are
+   bounded reading work, not an acquisition or page-location obstacle.
 6. **Goblirsch 1991** — direct review complete; shared-diphthong mechanism
    remains reconstructed, with premise-specific coverage limits.
 7. **Nielsen 2001** — direct review complete. Other Nielsen

@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "recipes": [
+    {
+      "id": "identity",
+      "description": "Derived production composition and complete parent wrappers; no scientific intervention.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [],
+      "assumptions": "Technical equivalence control, not historical evidence.",
+      "limitations": "No component hypothesis is tested."
+    },
+    {
+      "id": "d-aei-ww",
+      "description": "Separate early a/e/i + inherited ww reanalysis from the later English completion already present in the incumbent corridor.",
+      "definitions": "define AFVww [\n    {*a} {*w} {*w} -> {*au} {*w},\n    {*á} {*w} {*w} -> {*áu} {*w},\n    {*e} {*w} {*w} -> {*eu} {*w},\n    {*é} {*w} {*w} -> {*éu} {*w},\n    {*i} {*w} {*w} -> {*iu} {*w},\n    {*í} {*w} {*w} -> {*íu} {*w}\n];",
+      "insert_after": "PWGmcCoronalWAssimilation",
+      "insert_rule": "AFVww",
+      "replace": {},
+      "sources": [
+        {
+          "key": "RingeTaylor2014",
+          "pages": "41-42,65-66,171-173"
+        },
+        {
+          "key": "Campbell1959",
+          "pages": "44-47"
+        }
+      ],
+      "assumptions": "Coronal assimilation feeds reanalysis. Insertion before subsequent j-gemination is a representative decomposition separating inherited ww from later j-created palatal glide sequences, not a newly established total-order edge. Atomic au/eu/iu spell vowel-plus-offglide sequences, not an added vowel nucleus.",
+      "limitations": "Only the explicitly represented a/e/i subset is tested; high homorganic uww and jj, other vowel quantities/stresses and the source's separate palatal glide history are not specified. SC031-034 remain incumbent completion/proxy controls. This is not a production-ready full Vww law or a proposed registry verdict."
+    },
+    {
+      "id": "d-aei-ww-proxy-control",
+      "description": "The same early reanalysis, with a representation-only SC098 control exposing the incumbent ww-based apocope proxy's dependency.",
+      "definitions": "define AFVww [\n    {*a} {*w} {*w} -> {*au} {*w},\n    {*á} {*w} {*w} -> {*áu} {*w},\n    {*e} {*w} {*w} -> {*eu} {*w},\n    {*é} {*w} {*w} -> {*éu} {*w},\n    {*i} {*w} {*w} -> {*iu} {*w},\n    {*í} {*w} {*w} -> {*íu} {*w}\n];\ndefine AFIAp [ {*i} -> 0 || [{*w} {*w} | [{*au}|{*áu}|{*eu}|{*éu}|{*iu}|{*íu}] {*w}] _ .#. ];",
+      "insert_after": "PWGmcCoronalWAssimilation",
+      "insert_rule": "AFVww",
+      "replace": {
+        "PWGmcUnstressedWordFinalIApocope": "AFIAp"
+      },
+      "component_checks": [
+        {
+          "id": "d-incumbent-vuw",
+          "component": "PWGmcUnstressedWordFinalIApocope",
+          "input": "*s*au*w*i",
+          "expected": "*s*au*w*i"
+        },
+        {
+          "id": "d-expanded-vuw",
+          "component": "AFIAp",
+          "input": "*s*au*w*i",
+          "expected": "*s*au*w"
+        }
+      ],
+      "sources": [
+        {
+          "key": "RingeTaylor2014",
+          "pages": "41-42,57-58,65-66,171-173"
+        }
+      ],
+      "assumptions": "The SC098 executable ww proxy is experimentally extended to its newly vocalized representation. This controls the formal dependency without pretending that ww or diphthong+w encodes sentence stress. Source-backed iuwi~iuw and the unstressed-word apocope account remain distinct from this technical proxy.",
+      "limitations": "Not a proposed historical conditioner or approved SC098 change. The paired component-only s+au+w+i probes are hypothetical symbolic controls, not attested lexemes or PGmc reconstructions; they expose the broader literal match domain, not a historical chronology. A productive full law requires explicit prosodic representation and negative controls beyond this corpus; no lexical optionality or grammatical conditioning is introduced. The other limitations of d-aei-ww still apply."
+    },
+    {
+      "id": "u-gift-input",
+      "description": "Privately supply Ringe's PGmc giftiz with CAPR's existing root-stress notation; preserve production order and the selected gift target.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "input_overrides": [
+        {
+          "row_id": "2040",
+          "baseline_input": "*géftiz",
+          "variant_input": "*gíftiz",
+          "input_stage": "pgmc"
+        }
+      ],
+      "sources": [
+        {
+          "key": "Ringe2017",
+          "pages": "135,151-153"
+        },
+        {
+          "key": "RingeTaylor2014",
+          "pages": "220"
+        },
+        {
+          "key": "Campbell1959",
+          "pages": "173-174"
+        }
+      ],
+      "assumptions": "Ringe reconstructs PGmc giftiz; the acute accent retains CAPR's selected-input convention rather than claiming author notation. Campbell's gift headword supports the existing short-i target; Ringe's OE gifta citation is explicitly plural and is not recast as a singular attestation.",
+      "limitations": "Input-only research assay, not an approved PROTO/PROTOFORM correction or baseline migration. No manuscript-level selected-cell certification, ordinary-PD reorder or resolution of the later sc conditioner is implied."
+    },
+    {
+      "id": "u-ordinary",
+      "description": "Place the incumbent ordinary non-high-front mappings before mutation; preserve the literal long-low-front postmutation clause as an explicitly unresolved legacy control.",
+      "definitions": "define AFPDOrd [\n    {*æ} -> {*ea} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*e} -> {*ie} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*ē} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*é} -> {*íe} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*ḗ} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.]\n];\ndefine AFPDLate [ {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.] ];",
+      "insert_after": "OEWLossBeforeI",
+      "insert_rule": "AFPDOrd",
+      "replace": {
+        "OEWsPalatalDiphthongization": "AFPDLate"
+      },
+      "component_checks": [
+        {
+          "id": "u-split-breaking",
+          "component": "AFPDOrd",
+          "input": "*ʧ*e*o*r*l",
+          "expected": "*ʧ*e*o*r*l"
+        },
+        {
+          "id": "u-original-front",
+          "component": "AFPDOrd",
+          "input": "*ʧ*e*r*l",
+          "expected": "*ʧ*ie*r*l"
+        },
+        {
+          "id": "u-high-i",
+          "component": "AFPDOrd",
+          "input": "*ʤ*í*f*t*i",
+          "expected": "*ʤ*í*f*t*i"
+        }
+      ],
+      "sources": [
+        {
+          "key": "Fulk2018",
+          "pages": "74"
+        },
+        {
+          "key": "RingeTaylor2014",
+          "pages": "215-217,222,235"
+        },
+        {
+          "key": "Campbell1959",
+          "pages": "68-69"
+        }
+      ],
+      "assumptions": "Relative insertion immediately before mutation implements the source ordinary order with the existing selected-input/stress convention. The late network retains exactly the incumbent long-low-front clause, including its broad initial-palatal triggers; this is an unchanged representation control, not a source-proven sc-specific conditioner.",
+      "limitations": "The original gift input is intentionally retained to expose its earlier-raising defect. Component-only inputs are hypothetical symbol controls of the cited vowel domain, not new lexical histories or corpus rows. Existing palatal/stress proxies and later-sc conditioning are not adjudicated. No production semantics/order, historical edge, corpus or baseline is approved."
+    },
+    {
+      "id": "u-ordinary-gift",
+      "description": "The same ordinary-before-mutation decomposition with source-raised gift input, testing whether guest can follow its source history without disturbing sheath.",
+      "definitions": "define AFPDOrd [\n    {*æ} -> {*ea} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*e} -> {*ie} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*ē} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*é} -> {*íe} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n    {*ḗ} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.]\n];\ndefine AFPDLate [ {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.] ];",
+      "insert_after": "OEWLossBeforeI",
+      "insert_rule": "AFPDOrd",
+      "replace": {
+        "OEWsPalatalDiphthongization": "AFPDLate"
+      },
+      "component_checks": [
+        {
+          "id": "u-split-breaking",
+          "component": "AFPDOrd",
+          "input": "*ʧ*e*o*r*l",
+          "expected": "*ʧ*e*o*r*l"
+        },
+        {
+          "id": "u-original-front",
+          "component": "AFPDOrd",
+          "input": "*ʧ*e*r*l",
+          "expected": "*ʧ*ie*r*l"
+        },
+        {
+          "id": "u-high-i",
+          "component": "AFPDOrd",
+          "input": "*ʤ*í*f*t*i",
+          "expected": "*ʤ*í*f*t*i"
+        }
+      ],
+      "input_overrides": [
+        {
+          "row_id": "2040",
+          "baseline_input": "*géftiz",
+          "variant_input": "*gíftiz",
+          "input_stage": "pgmc"
+        }
+      ],
+      "sources": [
+        {
+          "key": "Fulk2018",
+          "pages": "74"
+        },
+        {
+          "key": "RingeTaylor2014",
+          "pages": "215-217,220,222,235"
+        },
+        {
+          "key": "Ringe2017",
+          "pages": "135,151-153"
+        },
+        {
+          "key": "Campbell1959",
+          "pages": "68-69,173-174"
+        }
+      ],
+      "assumptions": "The only experimental corpus-input change is gift2040 with CAPR root stress. Ordinary PD has the source order; the exact incumbent long-low-front clause remains the unadjudicated late control. Neither unchanged finals nor a sheath match proves a complete later historical law.",
+      "limitations": "Pending positive/negative component and full-corpus evaluation, individual input/law approvals and disclosed baseline migration. No lexical exceptions, new admission or claimed resolution of stress/new-j/ng/later-sc uncertainties."
+    }
+  ],
+  "probes": [
+    {
+      "id": "after_coronal",
+      "stage": "PWGmcCoronalWAssimilation",
+      "side": "after"
+    },
+    {
+      "id": "after_early_reanalysis",
+      "stage": "$inserted",
+      "side": "after"
+    },
+    {
+      "id": "after_j_gemination",
+      "stage": "PWGmcJGemination",
+      "side": "after"
+    },
+    {
+      "id": "before_sc098",
+      "stage": "PWGmcUnstressedWordFinalIApocope",
+      "side": "before"
+    },
+    {
+      "id": "after_sc098",
+      "stage": "PWGmcUnstressedWordFinalIApocope",
+      "side": "after"
+    },
+    {
+      "id": "before_sc033",
+      "stage": "OEEwLongDiphthong",
+      "side": "before"
+    },
+    {
+      "id": "after_sc033",
+      "stage": "OEEwLongDiphthong",
+      "side": "after"
+    },
+    {
+      "id": "before_sc031",
+      "stage": "OEWWSimplification",
+      "side": "before"
+    },
+    {
+      "id": "after_sc031",
+      "stage": "OEWWSimplification",
+      "side": "after"
+    },
+    {
+      "id": "before_sc032",
+      "stage": "OEDiphthongLeveling",
+      "side": "before"
+    },
+    {
+      "id": "after_sc032",
+      "stage": "OEDiphthongLeveling",
+      "side": "after"
+    },
+    {
+      "id": "before_sc034",
+      "stage": "OEAwLongDiphthong",
+      "side": "before"
+    },
+    {
+      "id": "after_sc034",
+      "stage": "OEAwLongDiphthong",
+      "side": "after"
+    },
+    {
+      "id": "before_sc004",
+      "stage": "EAFAiMonophthongization",
+      "side": "before"
+    },
+    {
+      "id": "after_sc004",
+      "stage": "EAFAiMonophthongization",
+      "side": "after"
+    },
+    {
+      "id": "before_sc030",
+      "stage": "OEAuBrightening",
+      "side": "before"
+    },
+    {
+      "id": "after_sc030",
+      "stage": "OEAuBrightening",
+      "side": "after"
+    },
+    {
+      "id": "before_sc043",
+      "stage": "EAFBrightening",
+      "side": "before"
+    },
+    {
+      "id": "after_sc043",
+      "stage": "EAFBrightening",
+      "side": "after"
+    },
+    {
+      "id": "before_sc044",
+      "stage": "OEBreaking",
+      "side": "before"
+    },
+    {
+      "id": "after_sc044",
+      "stage": "OEBreaking",
+      "side": "after"
+    },
+    {
+      "id": "before_sc045",
+      "stage": "OEVelarFricativePalatalization",
+      "side": "before"
+    },
+    {
+      "id": "after_sc045",
+      "stage": "OEVelarFricativePalatalization",
+      "side": "after"
+    },
+    {
+      "id": "before_sc046",
+      "stage": "OEARestoration",
+      "side": "before"
+    },
+    {
+      "id": "after_sc046",
+      "stage": "OEARestoration",
+      "side": "after"
+    },
+    {
+      "id": "before_sc051",
+      "stage": "OESkPalatalization",
+      "side": "before"
+    },
+    {
+      "id": "after_sc051",
+      "stage": "OESkPalatalization",
+      "side": "after"
+    },
+    {
+      "id": "before_sc052",
+      "stage": "OEVelarPalatalization",
+      "side": "before"
+    },
+    {
+      "id": "after_sc052",
+      "stage": "OEVelarPalatalization",
+      "side": "after"
+    },
+    {
+      "id": "before_sc055",
+      "stage": "OEIUmlaut",
+      "side": "before"
+    },
+    {
+      "id": "after_sc055",
+      "stage": "OEIUmlaut",
+      "side": "after"
+    },
+    {
+      "id": "before_sc056",
+      "stage": "OEWsPalatalDiphthongization",
+      "side": "before"
+    },
+    {
+      "id": "after_sc056",
+      "stage": "OEWsPalatalDiphthongization",
+      "side": "after"
+    },
+    {
+      "id": "before_sc057",
+      "stage": "OEJClusterCoalescence",
+      "side": "before"
+    },
+    {
+      "id": "after_sc057",
+      "stage": "OEJClusterCoalescence",
+      "side": "after"
+    }
+  ],
+  "baseline_fst_sha256": "516c409a0072d3a262a42bf7cad9b9f1289c2ac4c0e86fb0d897ef2e507d1b95",
+  "baseline_corpus_sha256": "e5c5af3b9c4cc16170c8f3a5650cb4b8be9e2d5e0e52c97893052186532b40c3"
+}

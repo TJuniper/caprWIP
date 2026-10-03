@@ -3285,7 +3285,7 @@ define OEVelarPalatalization [
 # After initial velars and *sk had been palatalized, following stressed
 # non-high front vowels were diphthongized: *æ→ea, *ǣ→ēa, *e→ie, *ē→īe.
 # Triggers: initial ʧ (< *k), ʤ (< *g), ʃ (< *sk), j.
-# ~40 lexemes affected; examples: *jērą → géar, *skaftą → sceaft.
+# Ordinary process before i-mutation (Fulk 2018:74; R/T 2014:215-217).
 # NOTE: {*e} must not match inside diphthongs {*ea}/{*eo} — use right context
 # to exclude sequences where {*e} is followed by {*a}/{*o}.
 define OEWsPalatalDiphthongization [
@@ -3298,6 +3298,12 @@ define OEWsPalatalDiphthongization [
     # §17.46 stressed long *ḗ — same diphthongization, stress dropped on output
     # (no *ī́e this branch).
     {*ḗ} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
+];
+
+# Retained late approximation, not an adjudicated complete sc-conditioner.
+# R/T 2014:235; Campbell 1959:68-69 distinguish this from ordinary PD.
+define OELatePalatalDiphthong [
+    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
 ];
 
 define OEVelarFricativePalatalization [
@@ -3737,11 +3743,9 @@ define EnglishProtoToOE ( # capr:bundle
     # Loss of *w before unstressed *i (R/T §6.7.1): *saiwiz > *sāi > sǣ
     .o. OEWLossBeforeI
     # NOTE: PWGmcEarlyIApocope now in EarlyEnglishLineChanges (Stage 2), not here.
-    # I-umlaut must precede WS palatal diphthongization: *skaiθiz → *skǣθ (i-umlaut)
-    # → sċēaþ (WS palatal diph of ǣ → ēa after ʃ). Campbell §185 confirms both
-    # sċǣþ and sċēaþ exist; the ēa form requires i-umlauted ǣ as input.
-    .o. OEIUmlaut
     .o. OEWsPalatalDiphthongization
+    .o. OEIUmlaut
+    .o. OELatePalatalDiphthong
     .o. OEJClusterCoalescence
     .o. OEBackMutation
     .o. OEWsPalatalUmlaut

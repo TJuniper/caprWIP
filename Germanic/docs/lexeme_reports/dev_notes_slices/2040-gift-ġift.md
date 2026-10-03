@@ -11,11 +11,17 @@ linked_research_memo_file:
 linked_dossier_or_analysis_files:
   - Germanic/docs/debug_snapshots/oe_derivation_class_trace_report.with_lexeme_reports.publish.md
   - Germanic/docs/debug_snapshots/oe_full_trace_report_2026-03-11.txt
-current_status: current
+current_status: historical_superseded
 needs_literature_agent: no
 ---
 
 # DEV_NOTES material — 2040 gift / ġift
+
+This slice is retained as historical project evidence, not current row policy.
+The approved SC056 adjudication supersedes its gift/sheath chronology argument
+and selected e-input. Current source discussion is
+`Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md`;
+the live input is now `*gíftiz`. The archival quotations below are unchanged.
 
 ## Current row state
 

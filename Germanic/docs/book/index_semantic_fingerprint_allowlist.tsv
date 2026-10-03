@@ -1,1 +1,34 @@
 action	language	form	form_role	source_scope	source_ref	note
+add	pgmc	giftiz	evidence_form	explicit_tag	Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md	Source-backed PGmc comparison added to the SC055/056 historical discussion (Ringe2017 p.135); publication evidence indexing only, not an OE corpus admission or scientific rebaseline.
+add	goth	hiwi	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Existing committed hue comparison (Kroonen2013 p.224); first fresh lexical-volume publication against the older snapshot.
+add	goth	þagkjan	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed thought paradigm comparison (Ringe2017 p.281); publication propagation only.
+add	goth	þāhta	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed thought paradigm comparison (Ringe2017 p.281); publication propagation only.
+add	oe	hīew	target_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Existing committed hue target (Campbell1959 p.46); publication propagation only.
+add	oe	þōhte	target_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed thought target (Fulk2018 p.55); publication propagation only.
+add	ofris	thochte	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed thought comparison (Fulk2018 p.55); comparative prose indexing, not a runtime Frisian row.
+add	ohg	denken	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed cited paradigm spelling (Ringe2017 p.281); index propagation only, no non-OE runtime analysis.
+add	ohg	dāhta	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed cited paradigm spelling (Ringe2017 p.281); index propagation only, no non-OE runtime analysis.
+add	on	hý	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Existing committed cited hue comparison (Kroonen2013 p.224); index propagation only.
+add	on	þekkja	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed cited thought paradigm (Ringe2017 p.281); index propagation only.
+add	on	þátti	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed cited thought paradigm (Ringe2017 p.281); index propagation only.
+add	pgmc	*lḗwijaną	selected_input	trace_proto_input	betray — OE lǣwan	Current committed TSV selected input projected by the fresh full trace/lexical assembly; no new corpus or stage change.
+add	pgmc	*sḗaną	selected_input	trace_proto_input	sow — OE sāwan	Current committed TSV selected input projected by the fresh full trace/lexical assembly; no new corpus or stage change.
+add	pgmc	*wúndōdē	selected_input	trace_proto_input	wound — OE wundude	Current committed TSV selected input projected by the fresh full trace/lexical assembly; no new corpus or stage change.
+add	pgmc	*xáwją	selected_input	trace_proto_input	hay — OE hīeġ	Current committed singleton-w hay input; j-gemination is derived, as documented in sc010-w-gemination-and-hay-depth-adjudication.md.
+add	pgmc	*xéwją	selected_input	trace_proto_input	hue — OE hīew	Current committed hue input and model entry; first fresh lexical-volume trace projection, not a new corpus admission.
+add	pgmc	*θánxtē	selected_input	trace_proto_input	thought — OE þōhte	Current committed thought input and model entry; first fresh lexical-volume trace projection, not a new corpus admission.
+add	pgmc	heuja-	selected_input	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Existing committed source reconstruction (Kroonen2013 p.224); author notation retained in the model entry.
+add	pgmc	θánkijaną	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed present-stem comparison (Ringe2017 p.281); publication propagation only.
+add	pgmc	θánxtē	selected_input	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed preterite input evidence (Ringe2017 pp.136,281); publication propagation only.
+remove	pgmc	*xáwwją	selected_input	trace_proto_input	hay — OE hīeġ	Obsolete pre-geminated snapshot spelling, superseded by the committed singleton-w input and explicit SC010 gemination; not a new corpus correction.
+add	oe	hīew	target_form	lexical_heading	hue — OE hīew	Existing committed model entry now included by the freshness-controlled lexical assembly; no new corpus admission.
+add	oe	þōhte	target_form	lexical_heading	thought — OE þōhte	Existing committed model entry now included by the freshness-controlled lexical assembly; no new corpus admission.
+add	pgmc	*xéwją	source_protoform	lexical_protoform	hue — OE hīew	Existing committed PGmc reconstruction now projected into the fresh lexical volume.
+add	pgmc	*θánxtē	source_protoform	lexical_protoform	thought — OE þōhte	Existing committed PGmc reconstruction now projected into the fresh lexical volume.
+add	oe	ġift	target_form	lexical_heading	gift — OE ġift	New ample gift lexical discussion; unchanged selected OE target (SC056 adjudication).
+add	pgmc	*gíftiz	selected_input	trace_proto_input	gift — OE ġift	Exact approved row2040 input migration, following Ringe2017 p.135, pp.151-153; every final output preserved.
+add	pgmc	*gíftiz	source_protoform	lexical_protoform	gift — OE ġift	Exact approved row2040 PGmc reconstruction, attributed to Ringe2017 p.135, pp.151-153; published alternatives retained.
+remove	pgmc	*géftiz	selected_input	trace_proto_input	gift — OE ġift	Former selected input superseded by the explicit SC056 adjudication and approved_input_migrations.tsv; preserved in immutable archives.
+add	pgmc	gefti-	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md	Published stem comparison, KlugeSeebold2011 p.359; no nominative ending silently appended.
+add	pgmc	geftiz	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md	Published e-vowel comparison, Orel2003 p.130; initial sign normalization disclosed.
+add	pgmc	giftiz	evidence_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md	Source-backed working reconstruction, Ringe2017 p.135, pp.151-153; ample rationale and qualified confidence in the new lexical entry.
