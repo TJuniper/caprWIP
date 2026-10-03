@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "baseline_fst_sha256": "38213e869276ef5887316553a20bf3f018ee5eace66819dee6bfb4b817ba7cc7",
+  "baseline_corpus_sha256": "358549ed343c2640bda2374f7275667de80394f3f431e8c1d0f9534756a6e99e",
+  "baseline_context_sha256": "6a69a8d450a0ad5898bed7150136dc70e5731422c29803608825cdefc6b0f914",
+  "baseline_context_helper_sha256": "b770b83ffc2bd863c9cd5dec6bcae67ecda60efe8ce0af7fa8cdf136e077b961",
+  "fixture_file": "oe_adopted_palatal_fixtures.tsv",
+  "recipes": [
+    {
+      "id": "identity", "description": "Adopted class-distinct full-wrapper identity.",
+      "definitions": "", "insert_after": "", "insert_rule": "", "replace": {},
+      "sources": [], "assumptions": "Technical wrapper control.", "limitations": "No historical inference."
+    },
+    {
+      "id": "adopted-palatal-controls",
+      "description": "Current production classes, native key/day and retained fronting/PD consumers.",
+      "definitions": "", "insert_after": "", "insert_rule": "", "replace": {},
+      "sources": [
+        {"key": "Hogg1979", "pages": "102-111"},
+        {"key": "RingeTaylor2014", "pages": "203-214,215-217,228,334-335"},
+        {"key": "Fulk2018", "pages": "130-132"},
+        {"key": "Campbell1959", "pages": "49,52-53"},
+        {"key": "HoggGrammar2011", "pages": "283-286"}
+      ],
+      "assumptions": "Source author checkpoints are trusted staged inputs; hypothetical components are not admissions. Singleton fricative and stop proxies are distinct.",
+      "limitations": "Merger holding zone is computational; broad eligibility and stop realization dates are qualified. Residual j normalization is not one physical VjV law.",
+      "component_checks": [
+        {"id": "initial-fricative", "component": "OEVelarPalatalization", "input": "*g*æ*s*t*i", "expected": "*ʝ*æ*s*t*i"},
+        {"id": "medial-fricative", "component": "OEVelarPalatalization", "input": "*d*æ*g*æ", "expected": "*d*æ*ʝ*æ"},
+        {"id": "geminate-stop", "component": "OEVelarPalatalization", "input": "*w*i*g*g*j*a", "expected": "*w*i*ʤ*ʤ*j*a"},
+        {"id": "postnasal-stop", "component": "OEVelarPalatalization", "input": "*s*á*n*g*j*ą*n", "expected": "*s*á*n*ʤ*j*ą*n"},
+        {"id": "postnasal-back-negative", "component": "OEVelarPalatalization", "input": "*l*ú*n*g*a*n*n*j*u", "expected": "*l*ú*n*g*a*n*n*j*u"},
+        {"id": "key-original-back", "component": "OEVelarPalatalization", "input": "*k*ā*j*æ", "expected": "*k*ā*j*æ"},
+        {"id": "original-front-k", "component": "OEVelarPalatalization", "input": "*k*e*n", "expected": "*ʧ*e*n"},
+        {"id": "back-k-negative", "component": "OEVelarPalatalization", "input": "*k*a*n", "expected": "*k*a*n"},
+        {"id": "geminate-k", "component": "OEVelarPalatalization", "input": "*s*t*r*æ*k*k*j*ą*n", "expected": "*s*t*r*æ*ʧ*ʧ*j*ą*n"},
+        {"id": "inherited-j-mutation", "component": "OEIUmlaut", "input": "*k*ā*j*æ", "expected": "*k*ǣ*j*æ"},
+        {"id": "fricative-not-trigger", "component": "OEIUmlaut", "input": "*d*æ*ʝ*æ", "expected": "*d*æ*ʝ*æ"},
+        {"id": "fricative-transparent", "component": "OEIUmlaut", "input": "*b*æ*ʝ*i", "expected": "*b*e*ʝ*i"},
+        {"id": "merger", "component": "OEPalatalFricativeMerger", "input": "*d*æ*ʝ*æ", "expected": "*d*æ*j*æ"},
+        {"id": "long-ae-j-retained", "component": "OEIntervocalicJVocalization", "input": "*k*ǣ*j*æ", "expected": "*k*ǣ*j*æ"},
+        {"id": "long-e-j-retained", "component": "OEIntervocalicJVocalization", "input": "*b*ē*j*e", "expected": "*b*ē*j*e"},
+        {"id": "high-j-positive", "component": "OEIntervocalicJVocalization", "input": "*θ*r*i*j*e", "expected": "*θ*r*i*i*e"},
+        {"id": "weak-suffix-positive", "component": "OEIntervocalicJVocalization", "input": "*b*o*r*e*j*a*n", "expected": "*b*o*r*e*i*a*n"},
+        {"id": "voiceless-positive", "component": "OEVelarFricativePalatalization", "input": "*f*e*x*u", "expected": "*f*e*ç*u"},
+        {"id": "voiced-not-early-j", "component": "OEVelarFricativePalatalization", "input": "*d*æ*ɣ*æ", "expected": "*d*æ*ɣ*æ"},
+        {"id": "late-suffix-positive", "component": "OELateUnstressedAgSuffix", "input": "*x*ú*n*e*ʝ", "expected": "*x*ú*n*i*ʝ"},
+        {"id": "late-final-g-positive", "component": "OELateUnstressedAgSuffix", "input": "*x*ú*n*e*g", "expected": "*x*ú*n*i*ʝ"},
+        {"id": "late-ag-chain-positive", "component": "OELateUnstressedAgSuffix", "input": "*x*ú*n*a*g", "expected": "*x*ú*n*i*ʝ"},
+        {"id": "late-back-vowel-negative", "component": "OELateUnstressedAgSuffix", "input": "*m*o*n*e*g*u*m", "expected": "*m*o*n*e*g*u*m"},
+        {"id": "ordinary-fronting", "component": "EAFBrightening", "input": "*d*á*g", "expected": "*d*æ*g"},
+        {"id": "nasal-fronting-negative", "component": "EAFBrightening", "input": "*l*á*n*d", "expected": "*l*á*n*d"},
+        {"id": "rest-quantity", "component": "EAFBrighteningLongFinal", "input": "*r*æ*s*t*ā", "expected": "*r*æ*s*t*ǣ"},
+        {"id": "who-negative", "component": "EAFBrighteningLongFinal", "input": "*x*w*ā", "expected": "*x*w*ā"},
+        {"id": "guest-ordinary-pd", "component": "OEWsPalatalDiphthongization", "input": "*ʝ*æ*s*t*i", "expected": "*ʝ*ea*s*t*i"},
+        {"id": "gift-high-negative", "component": "OEWsPalatalDiphthongization", "input": "*ʝ*í*f*t*i", "expected": "*ʝ*í*f*t*i"},
+        {"id": "split-diphthong-negative", "component": "OEWsPalatalDiphthongization", "input": "*ʝ*e*o*r*l", "expected": "*ʝ*e*o*r*l"},
+        {"id": "late-sheath-retained", "component": "OELatePalatalDiphthong", "input": "*ʃ*ǣ*θ", "expected": "*ʃ*ēa*θ"}
+      ],
+      "staged_checks": [
+        {"id": "key-mutation", "stage": "OEVelarPalatalization", "side": "before", "stop_after": "OEIUmlaut", "input": "*k*ā*j*æ", "expected": "*k*ǣ*j*æ", "evidence": "Hogg1979 p.105: pre-palatal author checkpoint, not a PGmc input."},
+        {"id": "day-mutation", "stage": "OEVelarPalatalization", "side": "before", "stop_after": "OEIUmlaut", "input": "*d*æ*ɣ*æ", "expected": "*d*æ*ʝ*æ", "evidence": "Hogg1979 p.105; adopted delayed merger from RingeTaylor2014 p.204."},
+        {"id": "hypothetical-long-ending", "stage": "OEVelarPalatalization", "side": "before", "stop_after": "OEIUmlaut", "input": "*d*æ*ɣ*ǣ", "expected": "*d*æ*ʝ*ǣ", "evidence": "Hypothetical interface, prompted by RingeTaylor2014 pp.212,299, not a diplomatic source checkpoint."},
+        {"id": "key-native", "stage": "OEVelarPalatalization", "side": "before", "input": "*k*ā*j*æ", "expected": "cǣġe", "evidence": "Hogg1979 p.105: source native target."},
+        {"id": "day-native", "stage": "OEVelarPalatalization", "side": "before", "input": "*d*æ*ɣ*æ", "expected": "dæġe", "evidence": "Hogg1979 p.105: source native target."},
+        {"id": "rest-native", "stage": "EAFBrighteningUnstressed", "side": "before", "input": "*r*á*s*t*ā", "expected": "ræste", "evidence": "RingeTaylor2014 pp.58-59,299-300: carried model quantity, not an attested long vowel."},
+        {"id": "who-native", "stage": "EAFBrighteningUnstressed", "side": "before", "input": "*x*w*ā", "expected": "hwā", "evidence": "Campbell1959 p.49: stressed monosyllabic negative."}
+      ]
+    }
+  ],
+  "probes": [
+    {"id": "after_fronting", "stage": "OEBreaking", "side": "before"},
+    {"id": "after_palatal", "stage": "OEVelarPalatalization", "side": "after"},
+    {"id": "after_mutation", "stage": "OEIUmlaut", "side": "after"},
+    {"id": "after_merger", "stage": "OEPalatalFricativeMerger", "side": "after"}
+  ]
+}

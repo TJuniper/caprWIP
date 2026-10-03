@@ -172,9 +172,9 @@
       "lifecycle_status": "active",
       "rule_name": "OEAuBrightening",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC030-oe-au-fronting.md",
-      "card_type": "reciprocal_or_near_reciprocal",
+      "card_type": "source_partial_chain",
       "has_reciprocal_boundary": "yes",
-      "short_summary": "Anglo-Frisian brightening applied to the first element of the diphthong *au, restricted to English. Campbell §132 p.52 groups 'West Gmc. a > OE æ; West Gmc. au > OE æu' in one ordered step; Fulk §4.12 p.73 makes it one fronting; R/T p.172 supply the *æu intermediate that CAPR encodes as *aeu. Scope is English, not Anglo-Frisian: OFris has ā with no fronting (OE ēac, ēage, bēam : OFris āk, āge, bām), and OE gēac has a palatalized initial where OFris gāk has none (Fulk §4.12 p.73; R/T p.172). Fed by SC029; feeds SC032, where R/T p.172's 'first tensed and fronted to æu ... later the offglide was unrounded and lowered' gives the historical direction."
+      "short_summary": "English au first-element fronting, fed by SC029 and completed in SC032. Campbell 1939 p.91, Campbell 1959 pp.52-53 and Fulk 2018 p.73 connect it with ordinary English short-a fronting; Ringe-Taylor 2014 pp.170-175 qualifies nucleus identity."
     },
     {
       "change_id": "SC031",
@@ -288,13 +288,13 @@
     },
     {
       "change_id": "SC043",
-      "display_name": "Anglo-Frisian brightening",
+      "display_name": "Ordinary English stressed a-fronting",
       "lifecycle_status": "active",
       "rule_name": "EAFBrightening",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC043-anglo-frisian-brightening.md",
-      "card_type": "reciprocal_or_near_reciprocal",
+      "card_type": "source_partial_chain",
       "has_reciprocal_boundary": "yes",
-      "short_summary": "-"
+      "short_summary": "Stressed fronting feeds breaking and precedes restoration; old prefix/final-quantity boundaries belong to retained support components."
     },
     {
       "change_id": "SC044",
@@ -308,13 +308,13 @@
     },
     {
       "change_id": "SC045",
-      "display_name": "OE Velar Fricative Palatalization",
+      "display_name": "Voiceless velar-fricative palatal articulation",
       "lifecycle_status": "active",
       "rule_name": "OEVelarFricativePalatalization",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC045-oe-velar-fricative-palatalization.md",
       "card_type": "reciprocal_or_near_reciprocal",
       "has_reciprocal_boundary": "yes",
-      "short_summary": "-"
+      "short_summary": "Breaking protects its velar trigger in fee/fight displacement negatives; these are not live voiced-merger witnesses."
     },
     {
       "change_id": "SC046",
@@ -378,13 +378,13 @@
     },
     {
       "change_id": "SC052",
-      "display_name": "OE Velar Palatalization",
+      "display_name": "Class-distinct English velar palatalization",
       "lifecycle_status": "active",
       "rule_name": "OEVelarPalatalization",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC052-oe-velar-palatalization.md",
-      "card_type": "reciprocal_or_near_reciprocal",
+      "card_type": "source_partial_chain",
       "has_reciprocal_boundary": "yes",
-      "short_summary": "-"
+      "short_summary": "Articulation/cutoff and later merger/affrication are separate layers; key/day distinguish inherited j from the new fricative at mutation."
     },
     {
       "change_id": "SC053",
@@ -658,13 +658,13 @@
     },
     {
       "change_id": "SC082",
-      "display_name": "OE Intervocalic J Vocalization",
+      "display_name": "Bounded inherited-j normalization",
       "lifecycle_status": "active",
       "rule_name": "OEIntervocalicJVocalization",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC082-oe-intervocalic-j-vocalization.md",
       "card_type": "reciprocal_or_near_reciprocal",
       "has_reciprocal_boundary": "yes",
-      "short_summary": "Earlier boundary reciprocates SC081 later, and later boundary reciprocates SC083 earlier."
+      "short_summary": "Retains SC081/083 consumer chain; excludes preceding non-high long front monophthongs to preserve source key."
     },
     {
       "change_id": "SC083",
@@ -1332,17 +1332,17 @@
     },
     {
       "source_change_id": "SC035",
-      "target_change_id": "SC043",
-      "relation_type": "one_sided_chronology",
+      "target_change_id": "SC107",
+      "relation_type": "technical_computational",
       "direction_basis": "later_boundary",
-      "evidence_basis": "independently_demonstrated",
+      "evidence_basis": "technical",
       "witness_role": "displacement_witness",
       "representative_lexemes": "believe",
-      "representative_forms": "PGmc `*galáubijaną` yields expected OE `ġelīefan`, but the later-shifted variant yields `ġealīefan`",
+      "representative_forms": "Old composite displacement: PGmc `*galáubijaną` yields expected OE `ġelīefan`, but the later-shifted variant yields `ġealīefan`",
       "strength": "one_sided",
-      "interpretation_category": "one_sided_chronology",
+      "interpretation_category": "component_reclassified",
       "reciprocal_group_id": "",
-      "notes": "No earlier ordinary chronology break was found before bundled PWGmcChanges; later side is a one-sided chronology boundary across SC043."
+      "notes": "Prefix reduction concerns the unstressed helper, not a date for ordinary stressed SC043. Historical composite card preserved; technical reclassification in sc043-adjudication.md."
     },
     {
       "source_change_id": "SC036",
@@ -1500,31 +1500,31 @@
     },
     {
       "source_change_id": "SC042",
-      "target_change_id": "SC043",
-      "relation_type": "reciprocal_chronology",
+      "target_change_id": "SC108",
+      "relation_type": "technical_computational",
       "direction_basis": "later_boundary",
-      "evidence_basis": "independently_demonstrated",
+      "evidence_basis": "technical",
       "witness_role": "displacement_witness",
       "representative_lexemes": "rest",
-      "representative_forms": "PGmc `*rástōz` yields expected OE `ræste`, but the later-shifted variant yields `rasta`",
+      "representative_forms": "Old composite displacement: PGmc `*rástōz` yields expected OE `ræste`, but the later-shifted variant yields `rasta`",
       "strength": "tight_local",
-      "interpretation_category": "reciprocal_or_near_reciprocal",
-      "reciprocal_group_id": "RG09_SC042_SC043",
-      "notes": "-"
+      "interpretation_category": "component_reclassified",
+      "reciprocal_group_id": "RG09_SC042_SC108",
+      "notes": "SC042 feeds the carried final quantity, not the stressed root fronting. This reciprocal displacement record is not two strict historical before-edges."
     },
     {
-      "source_change_id": "SC043",
+      "source_change_id": "SC108",
       "target_change_id": "SC042",
-      "relation_type": "reciprocal_chronology",
+      "relation_type": "technical_computational",
       "direction_basis": "earlier_boundary",
-      "evidence_basis": "independently_demonstrated",
+      "evidence_basis": "technical",
       "witness_role": "displacement_witness",
       "representative_lexemes": "rest",
-      "representative_forms": "PGmc `*rástōz` yields expected OE `ræste`, but the earlier-shifted variant yields `rasta`",
+      "representative_forms": "Old composite displacement: PGmc `*rástōz` yields expected OE `ræste`, but the earlier-shifted variant yields `rasta`",
       "strength": "tight_local",
-      "interpretation_category": "reciprocal_or_near_reciprocal",
-      "reciprocal_group_id": "RG09_SC042_SC043",
-      "notes": "-"
+      "interpretation_category": "component_reclassified",
+      "reciprocal_group_id": "RG09_SC042_SC108",
+      "notes": "Historical composite card preserved; component-local quantity dependency, not a date for ordinary stressed SC043."
     },
     {
       "source_change_id": "SC043",

@@ -1,4 +1,4 @@
-# Anglo-Frisian ai-monophthongization
+# English stressed ai contraction
 
 ## Historical discussion
 
@@ -19,9 +19,13 @@ His readings of early English and Frisian inscriptions are relevant
 evidence independently of that mechanism, conditional on their provenance,
 etymology and phonetic interpretation
 [@Versloot2017, pp. 295–297, 318]. The required Anglo-Frisian ancestral node
-is retained. Whether completed English contraction belongs after it is
-distinct from the possibility of an earlier conditioned onset on the
-common stem; the current operational corridor does not settle that question.
+is retained. CAPR places completed English contraction on the daughter
+branch, while leaving a possible earlier conditioned onset on the common
+stem distinct. This is the defended working placement under the cited
+runic and comparative premises, not proof against every ancestral onset
+[@Campbell1939, pp. 90–91; @Versloot2017, pp. 295–297, 318].
+The inherited-long relation permits temporal overlap; the retained
+executable order does not assert a strict order between entire events.
 
 The live selected-corpus census has twenty-three applications, all carrying
 stressed \emph{*ái}. Loam's selected \emph{*láimą} 'loam' is explicitly a
@@ -31,7 +35,7 @@ is excluded from that census. The unstressed development \emph{*ai > *ē}
 is the separate earlier change
 [SC014 PNWGmcUnstressedAiMonophthongization](#rule-PNWGmcUnstressedAiMonophthongization).
 
-## SC004. Anglo-Frisian ai-monophthongization (`EAFAiMonophthongization`) {#rule-EAFAiMonophthongization}
+## SC004. English stressed ai contraction (`EAFAiMonophthongization`) {#rule-EAFAiMonophthongization}
 
 ```foma
 define EAFAiMonophthongization [

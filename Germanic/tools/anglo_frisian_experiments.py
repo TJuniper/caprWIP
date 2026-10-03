@@ -43,7 +43,7 @@ def load_recipes(path: Path) -> dict:
         required = {"id", "description", "definitions", "insert_after", "insert_rule", "replace",
                     "sources", "assumptions", "limitations"}
         if not required <= set(recipe) or set(recipe) - required - {
-            "input_overrides", "component_checks", "input_replacement",
+            "input_overrides", "component_checks", "input_replacement", "phonetic_symbols",
             "citation_context", "context_overrides", "staged_checks", "context_audit",
         } or not all(
             isinstance(recipe[key], str) for key in required - {"sources", "replace"}
@@ -58,6 +58,12 @@ def load_recipes(path: Path) -> dict:
             raise ValueError(f"invalid/duplicate recipe ID: {name}")
         ids.add(name)
         definitions = recipe["definitions"]
+        symbols = recipe.get("phonetic_symbols", [])
+        if (not isinstance(symbols, list)
+                or not all(isinstance(symbol, str) and len(symbol) == 1
+                           and symbol.isalpha() for symbol in symbols)
+                or len(symbols) != len(set(symbols))):
+            raise ValueError(f"{name}: phonetic symbols must be unique single-codepoint letters")
         if re.search(r"\b(source|save|load|quit|system|clear|regex)\b", definitions):
             raise ValueError(f"{name}: definitions contain non-definition commands")
         input_replacement = recipe.get("input_replacement", "")
@@ -137,8 +143,10 @@ def load_recipes(path: Path) -> dict:
         if not isinstance(staged_checks, list):
             raise ValueError(f"{name}: staged checks must be a list")
         for check in staged_checks:
-            if not isinstance(check, dict) or set(check) != {
+            if not isinstance(check, dict) or not {
                 "id", "stage", "side", "input", "expected", "evidence",
+            } <= set(check) or set(check) - {
+                "id", "stage", "side", "input", "expected", "evidence", "stop_after",
             } or not all(isinstance(value, str) and value for value in check.values()):
                 raise ValueError(f"{name}: invalid staged check fields")
             if not re.fullmatch(r"[a-z][a-z0-9-]*", check["id"]) or check["id"] in check_ids:
@@ -148,6 +156,9 @@ def load_recipes(path: Path) -> dict:
                 "before", "after",
             }:
                 raise ValueError(f"{name}: invalid staged entry checkpoint")
+            if "stop_after" in check and not re.fullmatch(
+                    r"[A-Za-z][A-Za-z0-9]*", check["stop_after"]):
+                raise ValueError(f"{name}: invalid staged stopping checkpoint")
             if not check["input"].startswith("*") or not all(
                 char.isalpha() or char in "*-" for char in check["input"]
             ):
@@ -166,7 +177,7 @@ def load_recipes(path: Path) -> dict:
             raise ValueError(f"{name}: context encoding requires an explicit context audit checkpoint")
         if name == "identity":
             if (composition_edits or overrides or component_checks or recipe["sources"]
-                    or input_replacement or context is not None or context_overrides or staged_checks or audit):
+                    or input_replacement or symbols or context is not None or context_overrides or staged_checks or audit):
                 raise ValueError("identity recipe must make no scientific intervention")
         else:
             if not recipe["sources"] or not (composition_edits or overrides or component_checks or staged_checks):
@@ -178,8 +189,10 @@ def load_recipes(path: Path) -> dict:
                 if not re.fullmatch(r"(?:\s*define AF[A-Za-z0-9]{1,12}\s+\[[\s\S]*?\];)+\s*", definitions):
                     raise ValueError(f"{name}: expected short-name bracket definitions")
                 declared = re.findall(r"\bdefine (AF[A-Za-z0-9]{1,12})\b", definitions)
-                if input_replacement and any(
-                    re.fullmatch(r"AFK\d{3}|AFContextRoot", identifier) for identifier in declared
+                if any(
+                    identifier == "AFContextRoot" or (
+                        input_replacement and re.fullmatch(r"AFK\d{3}", identifier))
+                    for identifier in declared
                 ):
                     raise ValueError(f"{name}: definition collides with generated context wrappers")
                 expected = {rule} | set(recipe["replace"].values())
@@ -371,14 +384,21 @@ def staged_appendix(recipe: dict) -> tuple[str, dict[str, str]]:
         if order.count(stage) != 1:
             raise ValueError(f"staged entry checkpoint missing or duplicated: {stage}")
         start = order.index(stage) + (check["side"] == "after")
+        stop = recipe["replace"].get(check.get("stop_after"), check.get("stop_after"))
+        if stop is not None and order.count(stop) != 1:
+            raise ValueError(f"staged stopping checkpoint missing or duplicated: {stop}")
+        end = len(order) if stop is None else order.index(stop) + 1
         if start == 0 or start == len(order):
             raise ValueError(f"staged check requires a nonempty starred-input suffix: {check['id']}")
-        if start in compiled_suffixes:
-            bins[f"staged:{check['id']}"] = compiled_suffixes[start]
+        if end <= start:
+            raise ValueError(f"staged stopping checkpoint precedes entry: {check['id']}")
+        interval = (start, end)
+        if interval in compiled_suffixes:
+            bins[f"staged:{check['id']}"] = compiled_suffixes[interval]
             continue
         filename = f"af_staged_{number:02d}.bin"
-        compiled_suffixes[start] = filename
-        lines.extend([f"define AFS{number:02d} " + "\n    .o. ".join(rendered[start:]) + ";",
+        compiled_suffixes[interval] = filename
+        lines.extend([f"define AFS{number:02d} " + "\n    .o. ".join(rendered[start:end]) + ";",
                       "clear stack", f"regex AFS{number:02d};", f"save stack {filename}"])
         bins[f"staged:{check['id']}"] = filename
     return "\n".join(lines), bins
@@ -396,9 +416,6 @@ def compile_isolated(
         if command == "source":
             raise ValueError("new source includes require explicit isolated-copy support")
     source_text = context_source_text(source_text, recipe)
-    base = parse_english_proto_to_oe_order(source)
-    expanded = expand_pwgmc_changes(base, source)
-    order = inserted_order(expanded, recipe)
     probe_text, bins = ("", {}) if components_only else probe_appendix(recipe, probes)
     staged_text, staged_bins = ("", {}) if components_only else staged_appendix(recipe)
     bins.update(staged_bins)
@@ -415,17 +432,14 @@ def compile_isolated(
         filename = f"af_diagnostic_{number:03d}.bin"
         component_lines.extend(["clear stack", f"regex {stage};", f"save stack {filename}"])
         bins[f"diagnostic:{number}"] = filename
-    variant_text = build_variant_appendix(order, source)
-    if recipe.get("input_replacement"):
-        complete, definitions = context_lifted_order(recipe, complete_variant_order(recipe))
+    complete, definitions = context_lifted_order(recipe, complete_variant_order(recipe))
+    if components_only:
+        variant_text = definitions
+    else:
         variant_text = (
             definitions + "\ndefine AFContextRoot " + "\n    .o. ".join(complete)
             + ";\nclear stack\nregex AFContextRoot;\nsave stack old_english_variant.bin\n"
         )
-        if components_only:
-            variant_text = definitions
-    elif components_only:
-        variant_text = ""
     script = directory / "experiment.foma"
     script.write_text(
         source_text + "\n" + recipe["definitions"] + "\n"
@@ -448,6 +462,13 @@ def compile_isolated(
 
 
 def context_source_text(source_text: str, recipe: dict) -> str:
+    symbols = recipe.get("phonetic_symbols", [])
+    if symbols:
+        anchor = "define EnglishPalatalConsonant ["
+        if source_text.count(anchor) != 1:
+            raise ValueError("palatal alphabet anchor must occur exactly once")
+        extension = " | ".join("{*" + symbol + "}" for symbol in symbols) + " | "
+        source_text = source_text.replace(anchor, anchor + extension, 1)
     if not recipe.get("input_replacement"):
         return source_text
     anchor = "define EnglishStarAlphabet ["

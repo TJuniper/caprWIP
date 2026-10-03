@@ -40,7 +40,7 @@ SC102	EAFHiatusWInsertion	historical_sound_change	Early Anglo-Frisian	EAF Genera
 SC025	EAFLongANasalRounding	historical_sound_change	Early Anglo-Frisian	North Sea Germanic nasalization of long a before a nasal	eaf	north_sea_germanic	B	adjudicated	SPLIT/REFORMULATE	31	29
 SC104	EAFNasalizedLowRounding	historical_sound_change	Early Anglo-Frisian	Anglo-Frisian rounding of the long nasalized low vowel	eaf	anglo_frisian	A	adjudicated	SPLIT	32	30
 SC101	EAFLongAFronting	historical_sound_change	Early Anglo-Frisian	EAF Long A Fronting	eaf	north_sea_germanic	B	adjudicated	SPLIT/RESTRICT	33	31
-SC004	EAFAiMonophthongization	historical_sound_change	Early Anglo-Frisian	EAF Ai Monophthongization	eaf	north_sea_germanic	B	unadjudicated		34	32
+SC004	EAFAiMonophthongization	historical_sound_change	Old English	English stressed ai contraction	preoe	english_specific	B	adjudicated	REFORMULATE	34	32
 SC029	OEAwwjResolution	historical_sound_change	Old English	Pre-OE resolution of *awj to *auj	preoe	english_specific	B	adjudicated	RETAIN	35	33
 SC030	OEAuBrightening	historical_sound_change	Old English	English brightening of *au to *æu	preoe	english_specific	A	adjudicated	RETAIN	36	34
 SC033	OEEwLongDiphthong	historical_sound_change	Old English	OE Ew Long Diphthong	ws_oe	west_saxon	A	unadjudicated		37	35
@@ -54,58 +54,61 @@ SC038	OEStripSecondaryStress	technical_marker	Old English	OE Strip Secondary Str
 SC039	OEWICombinativeUUmlaut	historical_sound_change	Old English	OE WI Combinative U Umlaut	oe	english_specific	A	unadjudicated		45	43
 SC041	PWGmcFinalBareALoss	historical_sound_change	Old English	PWGmc Final Bare A Loss	pwgmc	pan_wgmc	B	unadjudicated		46	44
 SC042	PWGmcSurvivingBimoricOUnrounding	historical_sound_change	Old English	PWGmc Surviving Bimoric O Unrounding	pwgmc	pan_wgmc	B	unadjudicated		47	45
-SC043	EAFBrightening	historical_sound_change	Old English	Anglo-Frisian brightening	eaf	anglo_frisian	A	unadjudicated		48	46
-SC044	OEBreaking	historical_sound_change	Old English	OE Breaking	oe	english_specific	A	unadjudicated		49	47
-SC045	OEVelarFricativePalatalization	historical_sound_change	Old English	OE Velar Fricative Palatalization	oe	english_specific	A	unadjudicated		50	48
-SC046	OEARestoration	historical_sound_change	Old English	OE A Restoration	oe	english_specific	A	unadjudicated		51	49
-SC047	OEHeavySyllableNasalApocope	historical_sound_change	Old English	OE Heavy Syllable Nasal Apocope	oe	english_specific	A	unadjudicated		52	50
-SC048	OESecondaryNasalization	historical_sound_change	Old English	OE Secondary Nasalization	oe	english_specific	A	unadjudicated		53	51
-SC049	PGmcBAllophony	historical_sound_change	Old English	PGmc B Allophony	pgmc	pan_germanic	A	unadjudicated		54	52
-SC050	SieversLawSyncope	historical_sound_change	Old English	Sievers Law Syncope	pwgmc	pan_wgmc	B	unadjudicated		55	53
-SC051	OESkPalatalization	historical_sound_change	Old English	OE Sk Palatalization	oe	english_specific	A	unadjudicated		56	54
-SC052	OEVelarPalatalization	historical_sound_change	Old English	OE Velar Palatalization	oe	english_specific	A	unadjudicated		57	55
-SC053	OEPostVelarWLoss	historical_sound_change	Old English	OE Post Velar W Loss	oe	english_specific	A	unadjudicated		58	56
-SC054	OEWLossBeforeI	historical_sound_change	Old English	OE W Loss Before I	oe	english_specific	A	unadjudicated		59	57
-SC056	OEWsPalatalDiphthongization	historical_sound_change	Old English	Ordinary West Saxon palatal diphthongization	ws_oe	west_saxon	A	adjudicated	SPLIT/REORDER	60	58
-SC055	OEIUmlaut	historical_sound_change	Old English	OE I Umlaut	oe	english_specific	A	unadjudicated		61	59
-SC105	OELatePalatalDiphthong	support_stage	Old English	Retained late palatal approximation				unadjudicated		62	60
-SC057	OEJClusterCoalescence	historical_sound_change	Old English	OE J Cluster Coalescence	oe	english_specific	A	unadjudicated		63	61
-SC059	OEBackMutation	historical_sound_change	Old English	OE Back Mutation	oe	english_specific	A	unadjudicated		64	62
-SC060	OEWsPalatalUmlaut	historical_sound_change	Old English	OE Ws Palatal Umlaut	ws_oe	west_saxon	A	unadjudicated		65	63
-SC061	OEWeakTailNasalLoss	historical_sound_change	Old English	OE Weak Tail Nasal Loss	oe	english_specific	A	unadjudicated		66	64
-SC062	OEWeightMarkers	technical_marker	Old English	OE Weight Markers				unadjudicated		67	65
-SC063	OEHighVowelApocope	historical_sound_change	Old English	OE High Vowel Apocope	oe	english_specific	A	unadjudicated		68	66
-SC064	NWGmcInStemNLoss	historical_sound_change	Old English	NWGmc In Stem N Loss	nwgmc	pan_nwgmc	C	unadjudicated		69	67
-SC065	OEMedialSyncope	historical_sound_change	Old English	OE Medial Syncope	oe	english_specific	A	unadjudicated		70	68
-SC066	OELAdjacentSyncope	historical_sound_change	Old English	OE L Adjacent Syncope	oe	english_specific	A	unadjudicated		71	69
-SC067	OEDentalAssimilation	historical_sound_change	Old English	OE Dental Assimilation	oe	english_specific	A	unadjudicated		72	70
-SC068	OEPreconsonantalDegemination	historical_sound_change	Old English	OE Preconsonantal Degemination	oe	english_specific	A	unadjudicated		73	71
-SC069	OEEarlyOShortening	historical_sound_change	Old English	OE Early O Shortening	oe	english_specific	A	unadjudicated		74	72
-SC070	OEUnstressedFrontingEarly	historical_sound_change	Old English	OE Unstressed Fronting Early	oe	english_specific	A	unadjudicated		75	73
-SC071	OELateOShortening	historical_sound_change	Old English	OE Late O Shortening	oe	english_specific	A	unadjudicated		76	74
-SC099	OEMedUnstressedORaising	historical_sound_change	Old English	OE medial unstressed *o*-raising	oe	west_saxon	A	unadjudicated		77	75
-SC100	OEFinalUnstressedOLowering	historical_sound_change	Old English	OE final unstressed *o*-lowering	oe	english_specific	A	unadjudicated		78	76
-SC072	OEUnstressedLongVowelShortening	historical_sound_change	Old English	OE Unstressed Long Vowel Shortening	oe	english_specific	A	unadjudicated		79	77
-SC073	OEUnstressedAEMerger	historical_sound_change	Old English	OE Unstressed AE Merger	oe	english_specific	A	unadjudicated		80	78
-SC074	OEMedUnstressedILowering1	historical_sound_change	Old English	OE Med Unstressed I Lowering1	oe	english_specific	A	unadjudicated		81	79
-SC075	OEMedUnstressedILowering	historical_sound_change	Old English	OE Med Unstressed I Lowering	oe	english_specific	A	unadjudicated		82	80
-SC040	OEMedUnstressedULowering	historical_sound_change	Old English	OE Med Unstressed U Lowering	oe	english_specific	A	unadjudicated		83	81
-SC076	OEPrefixIReduction	historical_sound_change	Old English	OE Prefix I Reduction	oe	english_specific	A	unadjudicated		84	82
-SC078	OEWeakTailReduction	historical_sound_change	Old English	OE Weak Tail Reduction	oe	english_specific	A	unadjudicated		85	83
-SC079	OEJLossAfterHeavy	historical_sound_change	Old English	OE J Loss After Heavy	oe	english_specific	A	unadjudicated		86	84
-SC080	OEFinalGeminateSimplification	historical_sound_change	Old English	OE Final Geminate Simplification	oe	english_specific	A	unadjudicated		87	85
-SC081	OEJStrengtheningAfterFrontDiphthong	historical_sound_change	Old English	OE J Strengthening After Front Diphthong	oe	english_specific	A	unadjudicated		88	86
-SC082	OEIntervocalicJVocalization	historical_sound_change	Old English	OE Intervocalic J Vocalization	oe	english_specific	A	unadjudicated		89	87
-SC083	OEUnstressedEIContraction	historical_sound_change	Old English	OE Unstressed EI Contraction	oe	english_specific	A	unadjudicated		90	88
-SC084	OEWeightCleanup	technical_marker	Old English	OE Weight Cleanup				unadjudicated		91	89
-SC085	OEHLoss	historical_sound_change	Old English	OE H Loss	oe	english_specific	A	unadjudicated		92	90
-SC086	OEContraction	historical_sound_change	Old English	OE Contraction	oe	english_specific	A	unadjudicated		93	91
-SC087	OERMetathesis	historical_sound_change	Old English	OE R Metathesis	oe	english_specific	A	unadjudicated		94	92
-SC088	OEEpentheticVowel	historical_sound_change	Old English	OE Epenthetic Vowel				unadjudicated		95	93
-SC089	OELateUnstressedAgSuffix	historical_sound_change	Old English	OE Late Unstressed Ag Suffix				unadjudicated		96	94
-SC090	OECjCleanup	orthography_surface	Old English	OE Cj Cleanup				unadjudicated		97	95
-SC091	OEXsMerge	orthography_surface	Old English	OE Xs Merge				unadjudicated		98	96
-SC092	OldEnglishOrthography	orthography_surface	Orthography & surface	Old English Orthography				unadjudicated		99	97
-SC016	OEWsPalatalGlide	orthography_surface	Orthography & surface	OE Ws Palatal Glide	oe_ws	west_saxon	A	adjudicated	REFORMULATE/REORDER	100	98
-SC094	OldEnglishRemoveStars	orthography_surface	Orthography & surface	Old English Remove Stars				unadjudicated		101	99
-SC095	OldEnglishSurface	support_stage	Orthography & surface	Old English Surface				unadjudicated		102	
+SC107	EAFBrighteningUnstressed	support_stage	Old English	Retained early unstressed fronting component				unadjudicated		48	46
+SC043	EAFBrightening	historical_sound_change	Old English	Ordinary English stressed a-fronting	preoe	english_specific	A	adjudicated	REFORMULATE/SPLIT	49	47
+SC108	EAFBrighteningLongFinal	support_stage	Old English	Retained final-vowel quantity component				unadjudicated		50	48
+SC044	OEBreaking	historical_sound_change	Old English	OE Breaking	oe	english_specific	A	unadjudicated		51	49
+SC045	OEVelarFricativePalatalization	historical_sound_change	Old English	Voiceless velar-fricative palatal articulation	oe	english_specific	A	adjudicated	RESTRICT/SPLIT	52	50
+SC046	OEARestoration	historical_sound_change	Old English	OE A Restoration	oe	english_specific	A	unadjudicated		53	51
+SC047	OEHeavySyllableNasalApocope	historical_sound_change	Old English	OE Heavy Syllable Nasal Apocope	oe	english_specific	A	unadjudicated		54	52
+SC048	OESecondaryNasalization	historical_sound_change	Old English	OE Secondary Nasalization	oe	english_specific	A	unadjudicated		55	53
+SC049	PGmcBAllophony	historical_sound_change	Old English	PGmc B Allophony	pgmc	pan_germanic	A	unadjudicated		56	54
+SC050	SieversLawSyncope	historical_sound_change	Old English	Sievers Law Syncope	pwgmc	pan_wgmc	B	unadjudicated		57	55
+SC051	OESkPalatalization	historical_sound_change	Old English	OE Sk Palatalization	oe	english_specific	A	unadjudicated		58	56
+SC052	OEVelarPalatalization	historical_sound_change	Old English	Class-distinct English velar palatalization	preoe	english_specific	A	adjudicated	REFORMULATE/SPLIT	59	57
+SC053	OEPostVelarWLoss	historical_sound_change	Old English	OE Post Velar W Loss	oe	english_specific	A	unadjudicated		60	58
+SC054	OEWLossBeforeI	historical_sound_change	Old English	OE W Loss Before I	oe	english_specific	A	unadjudicated		61	59
+SC056	OEWsPalatalDiphthongization	historical_sound_change	Old English	Ordinary West Saxon palatal diphthongization	ws_oe	west_saxon	A	adjudicated	SPLIT/REORDER	62	60
+SC055	OEIUmlaut	historical_sound_change	Old English	OE I Umlaut	oe	english_specific	A	unadjudicated		63	61
+SC105	OELatePalatalDiphthong	support_stage	Old English	Retained late palatal approximation				unadjudicated		64	62
+SC057	OEJClusterCoalescence	historical_sound_change	Old English	OE J Cluster Coalescence	oe	english_specific	A	unadjudicated		65	63
+SC059	OEBackMutation	historical_sound_change	Old English	OE Back Mutation	oe	english_specific	A	unadjudicated		66	64
+SC060	OEWsPalatalUmlaut	historical_sound_change	Old English	OE Ws Palatal Umlaut	ws_oe	west_saxon	A	unadjudicated		67	65
+SC061	OEWeakTailNasalLoss	historical_sound_change	Old English	OE Weak Tail Nasal Loss	oe	english_specific	A	unadjudicated		68	66
+SC062	OEWeightMarkers	technical_marker	Old English	OE Weight Markers				unadjudicated		69	67
+SC063	OEHighVowelApocope	historical_sound_change	Old English	OE High Vowel Apocope	oe	english_specific	A	unadjudicated		70	68
+SC064	NWGmcInStemNLoss	historical_sound_change	Old English	NWGmc In Stem N Loss	nwgmc	pan_nwgmc	C	unadjudicated		71	69
+SC065	OEMedialSyncope	historical_sound_change	Old English	OE Medial Syncope	oe	english_specific	A	unadjudicated		72	70
+SC066	OELAdjacentSyncope	historical_sound_change	Old English	OE L Adjacent Syncope	oe	english_specific	A	unadjudicated		73	71
+SC067	OEDentalAssimilation	historical_sound_change	Old English	OE Dental Assimilation	oe	english_specific	A	unadjudicated		74	72
+SC068	OEPreconsonantalDegemination	historical_sound_change	Old English	OE Preconsonantal Degemination	oe	english_specific	A	unadjudicated		75	73
+SC069	OEEarlyOShortening	historical_sound_change	Old English	OE Early O Shortening	oe	english_specific	A	unadjudicated		76	74
+SC070	OEUnstressedFrontingEarly	historical_sound_change	Old English	OE Unstressed Fronting Early	oe	english_specific	A	unadjudicated		77	75
+SC071	OELateOShortening	historical_sound_change	Old English	OE Late O Shortening	oe	english_specific	A	unadjudicated		78	76
+SC099	OEMedUnstressedORaising	historical_sound_change	Old English	OE medial unstressed *o*-raising	oe	west_saxon	A	unadjudicated		79	77
+SC100	OEFinalUnstressedOLowering	historical_sound_change	Old English	OE final unstressed *o*-lowering	oe	english_specific	A	unadjudicated		80	78
+SC072	OEUnstressedLongVowelShortening	historical_sound_change	Old English	OE Unstressed Long Vowel Shortening	oe	english_specific	A	unadjudicated		81	79
+SC073	OEUnstressedAEMerger	historical_sound_change	Old English	OE Unstressed AE Merger	oe	english_specific	A	unadjudicated		82	80
+SC074	OEMedUnstressedILowering1	historical_sound_change	Old English	OE Med Unstressed I Lowering1	oe	english_specific	A	unadjudicated		83	81
+SC075	OEMedUnstressedILowering	historical_sound_change	Old English	OE Med Unstressed I Lowering	oe	english_specific	A	unadjudicated		84	82
+SC040	OEMedUnstressedULowering	historical_sound_change	Old English	OE Med Unstressed U Lowering	oe	english_specific	A	unadjudicated		85	83
+SC076	OEPrefixIReduction	historical_sound_change	Old English	OE Prefix I Reduction	oe	english_specific	A	unadjudicated		86	84
+SC078	OEWeakTailReduction	historical_sound_change	Old English	OE Weak Tail Reduction	oe	english_specific	A	unadjudicated		87	85
+SC079	OEJLossAfterHeavy	historical_sound_change	Old English	OE J Loss After Heavy	oe	english_specific	A	unadjudicated		88	86
+SC080	OEFinalGeminateSimplification	historical_sound_change	Old English	OE Final Geminate Simplification	oe	english_specific	A	unadjudicated		89	87
+SC081	OEJStrengtheningAfterFrontDiphthong	historical_sound_change	Old English	OE J Strengthening After Front Diphthong	oe	english_specific	A	unadjudicated		90	88
+SC082	OEIntervocalicJVocalization	historical_sound_change	Old English	Bounded inherited-j normalization	oe	english_specific	B	adjudicated	RESTRICT/REFORMULATE	91	89
+SC083	OEUnstressedEIContraction	historical_sound_change	Old English	OE Unstressed EI Contraction	oe	english_specific	A	unadjudicated		92	90
+SC084	OEWeightCleanup	technical_marker	Old English	OE Weight Cleanup				unadjudicated		93	91
+SC085	OEHLoss	historical_sound_change	Old English	OE H Loss	oe	english_specific	A	unadjudicated		94	92
+SC086	OEContraction	historical_sound_change	Old English	OE Contraction	oe	english_specific	A	unadjudicated		95	93
+SC087	OERMetathesis	historical_sound_change	Old English	OE R Metathesis	oe	english_specific	A	unadjudicated		96	94
+SC088	OEEpentheticVowel	historical_sound_change	Old English	OE Epenthetic Vowel				unadjudicated		97	95
+SC089	OELateUnstressedAgSuffix	historical_sound_change	Old English	Late unstressed ag-suffix raising	oe	english_specific	B	adjudicated	REFORMULATE	98	96
+SC109	OEPalatalFricativeMerger	support_stage	Old English	Postmutation palatal-fricative merger serialization				unadjudicated		99	97
+SC090	OECjCleanup	orthography_surface	Old English	OE Cj Cleanup				unadjudicated		100	98
+SC091	OEXsMerge	orthography_surface	Old English	OE Xs Merge				unadjudicated		101	99
+SC092	OldEnglishOrthography	orthography_surface	Orthography & surface	Old English Orthography				unadjudicated		102	100
+SC016	OEWsPalatalGlide	orthography_surface	Orthography & surface	OE Ws Palatal Glide	oe_ws	west_saxon	A	adjudicated	REFORMULATE/REORDER	103	101
+SC094	OldEnglishRemoveStars	orthography_surface	Orthography & surface	Old English Remove Stars				unadjudicated		104	102
+SC095	OldEnglishSurface	support_stage	Orthography & surface	Old English Surface				unadjudicated		105	

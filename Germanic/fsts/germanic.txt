@@ -1060,7 +1060,7 @@ define EnglishStarVelarOrLabial [EnglishStarVelar | EnglishStarLabial];
 # Excludes *j (which blocks as semivowel) and nasals (which block by separate rule).
 define EnglishStarCoronal [EnglishStarConsonant - EnglishStarVelarOrLabial - {*j} - EnglishStarNasal];
 
-define EnglishPalatalConsonant [{*ʧ} | {*ʤ} | {*ʃ} | {*ç} | {*ʒ} | {*j}];
+define EnglishPalatalConsonant [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*ç} | {*ʒ} | {*j}];
 
 # Broaden sigma for early OE rules to avoid rejecting symbols not referenced in a rule.
 define EnglishStarAlphabet [
@@ -1637,10 +1637,11 @@ define EnglishLongVowelRealisation [
 #          head of EarlyEnglishLineChanges. Corpus witnesses: the dat.sg endings
 #          *spánnai (span -> spanne) and *mízdai (meed -> meorde).
 #
-#   SC004  EAFAiMonophthongization : stressed/root *ái -> *ā (Early Anglo-Frisian /
-#          North Sea Germanic, later, areally diffused; Versloot 2017). Executes in
-#          the EAF corridor, after SC028 PNWGmcPreconsonantalXLoss. 24 stressed
-#          corpus witnesses incl. loam *láimą (stressed *ái by its PROTOFORM),
+#   SC004  EAFAiMonophthongization : completed English stressed/root *ái -> *ā.
+#          Daughter placement: Campbell 1939 pp.90-91; R/T pp.170-171;
+#          Versloot 2017 pp.295-297,318 (runic interpretation qualified).
+#          Stable identifier and composition retained; no diffusion mechanism.
+#          23 selected corpus witnesses incl. loam *láimą (pre-OE input),
 #          stone *stáinaz, soul *sáiwalō. No nonfinal unstressed root *ai remains
 #          in the corpus, so no {*ai}->{*ā} branch is needed.
 define PNWGmcUnstressedAiMonophthongization Ctx([
@@ -2201,7 +2202,10 @@ define OEAwLongDiphthong [
     {*á} {*w} -> {*ḗa} {*w} || _ [EnglishStarVocalic | {*ô}]
 ];
 
-# Anglo-Frisian Brightening (First Fronting): */a/ > */æ/ except before nasals.
+# SC043 ordinary English stressed fronting (Campbell 1939:90-91;
+# Campbell 1959:52-53). Earlier restricted ancestral tendencies remain open.
+# SC107/108 retain the separately visible unstressed/quantity representations;
+# SC070 independently supplies the later syllabic unstressed-fronting domain.
 # CHRONOLOGY (see DEV_NOTES §17.10.13): per R/T vol.2 §3.1.2 pp. 45-46,
 # word-final short *-a was already lost in PWGmc (before AFB). Hence AFB
 # does not apply to unstressed *a word-finally — no such segment existed
@@ -2239,9 +2243,7 @@ define EAFBrighteningLongFinal [
     {*ā} -> {*ǣ} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.
 ];
 define EAFBrightening [
-    EAFBrighteningUnstressed .o.
-    EAFBrighteningStressed .o.
-    EAFBrighteningLongFinal
+    EAFBrighteningStressed
 ];
 
 # A-restoration: */æ/ > */a/ before a back vowel (or AFB-fronted *a) in the following syllable.
@@ -2988,7 +2990,7 @@ define OEEpentheticVowel OEEpentheticInsertion
     .o. OEEpentheticFront
     .o. OEGLInsertion;
 
-# R/T §6.9.6 (pp.349-350): Late unstressed *-ag(-) → -ig(-).
+# R/T §6.9.6 (printed pp.334-335): Late unstressed *-ag(-) → -ig(-).
 # Chain: medial *a → *e (general unstressed fronting) → *g palatalizes after *e
 # → *e raises to *i next to palatal. R/T: "inherited *a adjacent to palatals
 # eventually became i. Most strikingly, the inherited derivational suffix
@@ -3001,10 +3003,10 @@ define OELateUnstressedAgSuffix (
     [{*a} -> {*e} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ {*g}]
     .o.
     # Step 2: palatalize *g after *e at word boundary (not before back V; cf. monegum)
-    [{*g} -> {*ʤ} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ {*e} _ .#.]
+    [{*g} -> {*ʝ} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ {*e} _ .#.]
     .o.
-    # Step 3: raise *e → *i next to palatal ʤ (medial unstressed only)
-    [{*e} -> {*i} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ {*ʤ}]
+    # Late raising is distinct from prehistoric i-mutation.
+    [{*e} -> {*i} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [{*ʝ}|{*ʤ}]]
 );
 
 define OEIUmlautFronting [
@@ -3130,7 +3132,10 @@ define OEJStrengtheningAfterFrontDiphthong [
 # Intervocalic *j vocalization: *j → *i between vowels.
 # In OE class II weak verbs (*-ōjan-), *j surfaces as part of the -ian suffix.
 define OEIntervocalicJVocalization [
-    {*j} -> {*i} || EnglishStarVocalic _ EnglishStarVocalic
+    # Hogg 1979:105 preserves key's *kǣjæ. Residual weak-suffix e-j
+    # normalization telescopes later raising/contraction (R/T 2014:228);
+    # this is not a generic physical VjV vocalization law.
+    {*j} -> {*i} || [EnglishStarVocalic - [{*ǣ}|{*ē}|{*ḗ}]] _ EnglishStarVocalic
 ];
 
 # R/T vol.2 p.228: In class II weak verb presents, *-ōj- → *-œj- (i-umlaut)
@@ -3331,19 +3336,24 @@ define OEVelarPalatalizationKFront [
     {*k} -> {*ʧ} || _ {*j}
 ] ;
 
-define OEVelarPalatalization [
+# Singleton g is fricative, unlike gg/ng (Fulk 2018:130-132).
+# Retain broad eligibility; R/T 2014:203-204 has a narrower medial table.
+define OEGFricativePalatal [
+    [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ EnglishStarFrontVowel,
+    [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ .#.,
+    [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ [EnglishStarConsonant - [{*j}|{*g}]]
+] .o. [
+    [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ {*j}
+];
+
+# Stop ʧ/ʤ values telescope eventual reflexes, not early affrication.
+define OEVelarPalatalizationStops [
     OEVelarPalatalizationKFront
 ] .o. [
-    # *g — R/T §6.4.1 rules 1-4, narrowed per DEV_NOTES §17.50.4:
-    # Rule 1+3 (left): any front V on the right palatalises *g
+    # Retained stop-proxy contexts; singleton fricatives have left this domain.
     {*g} -> {*ʤ} || _ EnglishStarFrontVowel,
-    # Rule 4a: *g word-final after a front V (Campbell §428: weġ, dæġ)
     {*g} -> {*ʤ} || EnglishStarFrontVowel _ .#.,
-    # Rule 3 (right) / Campbell §429: *g intervocalic between two front Vs
     {*g} -> {*ʤ} || EnglishStarFrontVowel _ EnglishStarFrontVowel,
-    # Rule 4b: *g preconsonantal after a front V (R/T §6.4.1 rule 4;
-    # Bülbring §494: bregdan, sægde, regnes, wægnes; Campbell §429:
-    # nægl, segl, regn, wegn). Excludes *g {*j} which is the next clause.
     {*g} -> {*ʤ} || EnglishStarFrontVowel _ [EnglishStarConsonant - {*j}],
     # *gg before *j must feed the singleton *g→*ʤ / _ *j rule rather than
     # compete with it, parallel to the *kk handling above.
@@ -3353,38 +3363,45 @@ define OEVelarPalatalization [
     {*g} -> {*ʤ} || _ {*j}
 ];
 
+define OEVelarPalatalization [
+    OEGFricativePalatal .o. OEVelarPalatalizationStops
+];
+
+# R/T 2014:204: postmutation merger; Hogg 1979:102-111 disputes it.
+# SC109 exposes a late serialization zone, not an exact historical date.
+define OEPalatalFricativeMerger [
+    {*ʝ} -> {*j}
+];
+
 # R/T vol.2 §6.5.1: West Saxon diphthongization by initial palatals.
 # After initial velars and *sk had been palatalized, following stressed
 # non-high front vowels were diphthongized: *æ→ea, *ǣ→ēa, *e→ie, *ē→īe.
-# Triggers: initial ʧ (< *k), ʤ (< *g), ʃ (< *sk), j.
+# Triggers: stop-reflex proxies, singleton fricative ʝ, ʃ (< *sk), j.
 # Ordinary process before i-mutation (Fulk 2018:74; R/T 2014:215-217).
 # NOTE: {*e} must not match inside diphthongs {*ea}/{*eo} — use right context
 # to exclude sequences where {*e} is followed by {*a}/{*o}.
 define OEWsPalatalDiphthongization [
-    {*æ} -> {*ea} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*e} -> {*ie} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*ē} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*æ} -> {*ea} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*e} -> {*ie} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*ē} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
     # Stressed variant (stress preserved):
-    {*é} -> {*íe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*é} -> {*íe} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
     # §17.46 stressed long *ḗ — same diphthongization, stress dropped on output
     # (no *ī́e this branch).
-    {*ḗ} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
+    {*ḗ} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
 ];
 
 # Retained late approximation, not an adjudicated complete sc-conditioner.
 # R/T 2014:235; Campbell 1959:68-69 distinguish this from ordinary PD.
 define OELatePalatalDiphthong [
-    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
+    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
 ];
 
 define OEVelarFricativePalatalization [
     {*x} -> {*ç} || _ EnglishStarFrontVowel,
-    {*ɣ} -> {*j} || _ EnglishStarFrontVowel,
     {*x} -> {*ç} || EnglishStarFrontVowel _,
-    {*ɣ} -> {*j} || EnglishStarFrontVowel _,
-    {*x} -> {*ç} || _ {*j},
-    {*ɣ} -> {*j} || _ {*j}
+    {*x} -> {*ç} || _ {*j}
 ]
     .o. EnglishStarAlphabet*;
 
@@ -3769,7 +3786,9 @@ define EnglishProtoToOE ( # capr:bundle
     # Output kept LONG (*-ā) so length is preserved through AFB; shortening
     # happens at R/T's dated OE stage (§6.8.3). See DEV_NOTES §17.10.23.
     .o. PWGmcSurvivingBimoricOUnrounding
+    .o. EAFBrighteningUnstressed
     .o. EAFBrightening
+    .o. EAFBrighteningLongFinal
     .o. OEBreaking
     # Ringe/Taylor order: velar fricative palatalization precedes a-restoration.
     .o. OEVelarFricativePalatalization
@@ -3908,6 +3927,7 @@ define OldEnglishAfterEpenthesis OldEnglishCore # capr:bundle
 
 define OldEnglishRules OldEnglishAfterEpenthesis # capr:bundle
     .o. OELateUnstressedAgSuffix
+    .o. OEPalatalFricativeMerger
     .o. OECjCleanup
     .o. OEXsMerge
     .o. OldEnglishOrthography

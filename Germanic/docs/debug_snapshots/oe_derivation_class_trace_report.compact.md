@@ -204,7 +204,7 @@ English Proto Input: *bigínnaną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *bigínnan<br>OE Secondary Nasalization: *bigínnąn<br>OE Velar Palatalization: *biʤínnąn<br>OE Prefix I Reduction: *bĕʤínnąn<br>OE Weak Tail Reduction: *bĕʤínnan |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *bigínnan<br>OE Secondary Nasalization: *bigínnąn<br>OE Velar Palatalization: *biʝínnąn<br>OE Prefix I Reduction: *bĕʝínnąn<br>OE Weak Tail Reduction: *bĕʝínnan<br>OE Palatal Fricative Merger: *bĕjínnan |
 
 
 
@@ -230,7 +230,7 @@ English Proto Input: *galáubijaną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Au Brightening: *galáeubijaną<br>OE Diphthong Leveling: *galēabijaną<br>OE Prefix A Reduction: *gĕlēabijaną<br>OE Heavy Syllable Nasal Apocope: *gĕlēabijan<br>OE Secondary Nasalization: *gĕlēabijąn<br>PGmc B Allophony: *gĕlēaβijąn<br>Sievers Law Syncope: *gĕlēaβjąn<br>OE Velar Palatalization: *ʤĕlēaβjąn<br>OE I Umlaut: *ʤĕlīeβjąn<br>OE Weak Tail Reduction: *ʤĕlīeβjan<br>OE J Loss After Heavy: *ʤĕlīeβan |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Au Brightening: *galáeubijaną<br>OE Diphthong Leveling: *galēabijaną<br>OE Prefix A Reduction: *gĕlēabijaną<br>OE Heavy Syllable Nasal Apocope: *gĕlēabijan<br>OE Secondary Nasalization: *gĕlēabijąn<br>PGmc B Allophony: *gĕlēaβijąn<br>Sievers Law Syncope: *gĕlēaβjąn<br>OE Velar Palatalization: *ʝĕlēaβjąn<br>OE I Umlaut: *ʝĕlīeβjąn<br>OE Weak Tail Reduction: *ʝĕlīeβjan<br>OE J Loss After Heavy: *ʝĕlīeβan<br>OE Palatal Fricative Merger: *jĕlīeβan |
 
 
 
@@ -254,7 +254,7 @@ English Proto Input: *bálgiz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *bálgi<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *bælgi<br>OE Breaking: *bealgi<br>OE Velar Palatalization: *bealʤi<br>OE I Umlaut: *bielʤi<br>OE High Vowel Apocope: *bielʤ |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *bálgi<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *bælgi<br>OE Breaking: *bealgi<br>OE Velar Palatalization: *bealʝi<br>OE I Umlaut: *bielʝi<br>OE High Vowel Apocope: *bielʝ<br>OE Palatal Fricative Merger: *bielj |
 
 
 
@@ -565,7 +565,7 @@ English Proto Input: *báugijaną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Au Brightening: *báeugijaną<br>OE Diphthong Leveling: *bēagijaną<br>OE Heavy Syllable Nasal Apocope: *bēagijan<br>OE Secondary Nasalization: *bēagijąn<br>Sievers Law Syncope: *bēagjąn<br>OE Velar Palatalization: *bēaʤjąn<br>OE I Umlaut: *bīeʤjąn<br>OE Weak Tail Reduction: *bīeʤjan<br>OE J Loss After Heavy: *bīeʤan |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Au Brightening: *báeugijaną<br>OE Diphthong Leveling: *bēagijaną<br>OE Heavy Syllable Nasal Apocope: *bēagijan<br>OE Secondary Nasalization: *bēagijąn<br>Sievers Law Syncope: *bēagjąn<br>OE Velar Palatalization: *bēaʝjąn<br>OE I Umlaut: *bīeʝjąn<br>OE Weak Tail Reduction: *bīeʝjan<br>OE J Loss After Heavy: *bīeʝan<br>OE Palatal Fricative Merger: *bīejan |
 
 
 
@@ -993,7 +993,7 @@ English Proto Input: *dágaz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *dága<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *dág<br>EAF Brightening: *dæg<br>OE Velar Palatalization: *dæʤ |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *dága<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *dág<br>EAF Brightening: *dæg<br>OE Velar Palatalization: *dæʝ<br>OE Palatal Fricative Merger: *dæj |
 
 
 
@@ -1871,7 +1871,7 @@ English Proto Input: *fédwōr
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PWGmc Final Or Lowering: *fédwar<br>PWGmc Coronal W Assimilation: *féwwar<br>OE WW Simplification: *féuwar<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Diphthong Leveling: *fēowar<br>EAF Brightening: *fēowær<br>OE Unstressed AE Merger: *fēower |
+| **Northwest and West Germanic**<br>PWGmc Final Or Lowering: *fédwar<br>PWGmc Coronal W Assimilation: *féwwar<br>OE WW Simplification: *féuwar<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Diphthong Leveling: *fēowar<br>EAF Brightening Unstressed: *fēowær<br>OE Unstressed AE Merger: *fēower |
 
 
 
@@ -2058,7 +2058,7 @@ English Proto Input: *gíftiz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *gífti<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Velar Palatalization: *ʤífti<br>OE High Vowel Apocope: *ʤíft |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *gífti<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Velar Palatalization: *ʝífti<br>OE High Vowel Apocope: *ʝíft<br>OE Palatal Fricative Merger: *jíft |
 
 
 
@@ -2084,7 +2084,7 @@ English Proto Input: *gébaną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *géban<br>OE Secondary Nasalization: *gébąn<br>PGmc B Allophony: *géβąn<br>OE Velar Palatalization: *ʤéβąn<br>OE Ws Palatal Diphthongization: *ʤíeβąn<br>OE Weak Tail Reduction: *ʤíeβan |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *géban<br>OE Secondary Nasalization: *gébąn<br>PGmc B Allophony: *géβąn<br>OE Velar Palatalization: *ʝéβąn<br>OE Ws Palatal Diphthongization: *ʝíeβąn<br>OE Weak Tail Reduction: *ʝíeβan<br>OE Palatal Fricative Merger: *jíeβan |
 
 
 
@@ -2276,7 +2276,7 @@ English Proto Input: *gástiz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *gásti<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *gæsti<br>OE Velar Palatalization: *ʤæsti<br>OE Ws Palatal Diphthongization: *ʤeasti<br>OE I Umlaut: *ʤiesti<br>OE High Vowel Apocope: *ʤiest |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *gásti<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *gæsti<br>OE Velar Palatalization: *ʝæsti<br>OE Ws Palatal Diphthongization: *ʝeasti<br>OE I Umlaut: *ʝiesti<br>OE High Vowel Apocope: *ʝiest<br>OE Palatal Fricative Merger: *jiest |
 
 
 
@@ -2302,7 +2302,7 @@ English Proto Input: *xáglą
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *xæglą<br>OE Velar Fricative Palatalization: *çæglą<br>OE Heavy Syllable Nasal Apocope: *çægl<br>OE Velar Palatalization: *çæʤl |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *xæglą<br>OE Velar Fricative Palatalization: *çæglą<br>OE Heavy Syllable Nasal Apocope: *çægl<br>OE Velar Palatalization: *çæʝl<br>OE Palatal Fricative Merger: *çæjl |
 
 
 
@@ -2942,7 +2942,7 @@ English Proto Input: *xúnagą
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *xúnægą<br>OE Heavy Syllable Nasal Apocope: *xúnæg<br>OE Velar Palatalization: *xúnæʤ<br>OE Unstressed AE Merger: *xúneʤ<br>OE Late Unstressed Ag Suffix: *xúniʤ |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *xúnægą<br>OE Heavy Syllable Nasal Apocope: *xúnæg<br>OE Velar Palatalization: *xúnæʝ<br>OE Unstressed AE Merger: *xúneʝ<br>OE Late Unstressed Ag Suffix: *xúniʝ<br>OE Palatal Fricative Merger: *xúnij |
 
 
 
@@ -3941,7 +3941,7 @@ English Proto Input: *náglaz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *nágla<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *nágl<br>EAF Brightening: *nægl<br>OE Velar Palatalization: *næʤl |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *nágla<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *nágl<br>EAF Brightening: *nægl<br>OE Velar Palatalization: *næʝl<br>OE Palatal Fricative Merger: *næjl |
 
 
 
@@ -4222,7 +4222,7 @@ English Proto Input: *régną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *régn<br>OE Velar Palatalization: *réʤn |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *régn<br>OE Velar Palatalization: *réʝn<br>OE Palatal Fricative Merger: *réjn |
 
 
 
@@ -4246,7 +4246,7 @@ English Proto Input: *régnabùgô
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Compound Linking Syncope: *régnbùgô<br>OE Strip Secondary Stress: *régnbugô<br>OE Velar Palatalization: *réʤnbugô<br>OE Unstressed Long Vowel Shortening: *réʤnbuga<br>OE Med Unstressed U Lowering: *réʤnboga |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Compound Linking Syncope: *régnbùgô<br>OE Strip Secondary Stress: *régnbugô<br>OE Velar Palatalization: *réʝnbugô<br>OE Unstressed Long Vowel Shortening: *réʝnbuga<br>OE Med Unstressed U Lowering: *réʝnboga<br>OE Palatal Fricative Merger: *réjnboga |
 
 
 
@@ -4479,7 +4479,7 @@ English Proto Input: *rúgiz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *rúgi<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Velar Palatalization: *rúʤi<br>OE I Umlaut: *ryʤi<br>OE Med Unstressed I Lowering1: *ryʤe |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *rúgi<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Velar Palatalization: *rúʝi<br>OE I Umlaut: *ryʝi<br>OE Med Unstressed I Lowering1: *ryʝe<br>OE Palatal Fricative Merger: *ryje |
 
 
 
@@ -4503,7 +4503,7 @@ English Proto Input: *séglą
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *ségl<br>OE Velar Palatalization: *séʤl |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *ségl<br>OE Velar Palatalization: *séʝl<br>OE Palatal Fricative Merger: *séjl |
 
 
 
@@ -5825,7 +5825,7 @@ English Proto Input: *súmaraz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *súmara<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *súmar<br>EAF Brightening: *súmær<br>OE Unstressed AE Merger: *súmer |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *súmara<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *súmar<br>EAF Brightening Unstressed: *súmær<br>OE Unstressed AE Merger: *súmer |
 
 
 
@@ -6064,7 +6064,7 @@ English Proto Input: *θégnaz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *θégna<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *θégn<br>OE Velar Palatalization: *θéʤn |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *θégna<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *θégn<br>OE Velar Palatalization: *θéʝn<br>OE Palatal Fricative Merger: *θéjn |
 
 
 
@@ -6573,7 +6573,7 @@ English Proto Input: *wágnaz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *wágna<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *wágn<br>EAF Brightening: *wægn<br>OE Velar Palatalization: *wæʤn |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *wágna<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *wágn<br>EAF Brightening: *wægn<br>OE Velar Palatalization: *wæʝn<br>OE Palatal Fricative Merger: *wæjn |
 
 
 
@@ -6741,7 +6741,7 @@ English Proto Input: *wégaz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *wéga<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *wég<br>OE Velar Palatalization: *wéʤ |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *wéga<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Final Bare A Loss: *wég<br>OE Velar Palatalization: *wéʝ<br>OE Palatal Fricative Merger: *wéj |
 
 
 
@@ -7313,7 +7313,7 @@ English Proto Input: *gárną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *gærną<br>OE Breaking: *gearną<br>OE Heavy Syllable Nasal Apocope: *gearn<br>OE Velar Palatalization: *ʤearn |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *gærną<br>OE Breaking: *gearną<br>OE Heavy Syllable Nasal Apocope: *gearn<br>OE Velar Palatalization: *ʝearn<br>OE Palatal Fricative Merger: *jearn |
 
 
 
@@ -7442,7 +7442,7 @@ English Proto Input: *brándas
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *brándæs<br>OE Unstressed AE Merger: *brándes |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *brándæs<br>OE Unstressed AE Merger: *brándes |
 
 
 
@@ -7586,7 +7586,7 @@ English Proto Input: *fúlgijaną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *fúlgijan<br>OE Secondary Nasalization: *fúlgijąn<br>Sievers Law Syncope: *fúlgjąn<br>OE Velar Palatalization: *fúlʤjąn<br>OE I Umlaut: *fylʤjąn<br>OE Weak Tail Reduction: *fylʤjan<br>OE J Loss After Heavy: *fylʤan |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *fúlgijan<br>OE Secondary Nasalization: *fúlgijąn<br>Sievers Law Syncope: *fúlgjąn<br>OE Velar Palatalization: *fúlʝjąn<br>OE I Umlaut: *fylʝjąn<br>OE Weak Tail Reduction: *fylʝjan<br>OE J Loss After Heavy: *fylʝan<br>OE Palatal Fricative Merger: *fyljan |
 
 
 
@@ -7612,7 +7612,7 @@ English Proto Input: *gállô
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *gællô<br>OE Breaking: *geallô<br>OE Velar Palatalization: *ʤeallô<br>OE Unstressed Long Vowel Shortening: *ʤealla |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *gællô<br>OE Breaking: *geallô<br>OE Velar Palatalization: *ʝeallô<br>OE Unstressed Long Vowel Shortening: *ʝealla<br>OE Palatal Fricative Merger: *jealla |
 
 
 
@@ -8056,7 +8056,7 @@ English Proto Input: *swánas
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *swánæs<br>OE Unstressed AE Merger: *swánes |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *swánæs<br>OE Unstressed AE Merger: *swánes |
 
 
 
@@ -8155,7 +8155,7 @@ English Proto Input: *wátōr
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PWGmc Final Or Lowering: *wátar<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *wætær<br>OE Unstressed AE Merger: *wæter |
+| **Northwest and West Germanic**<br>PWGmc Final Or Lowering: *wátar<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *wátær<br>EAF Brightening: *wætær<br>OE Unstressed AE Merger: *wæter |
 
 
 
@@ -8230,7 +8230,7 @@ English Proto Input: *wḯθagą
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *wḯθægą<br>OE Heavy Syllable Nasal Apocope: *wḯθæg<br>OE Velar Palatalization: *wḯθæʤ<br>OE Unstressed AE Merger: *wḯθeʤ<br>OE Late Unstressed Ag Suffix: *wḯθiʤ |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *wḯθægą<br>OE Heavy Syllable Nasal Apocope: *wḯθæg<br>OE Velar Palatalization: *wḯθæʝ<br>OE Unstressed AE Merger: *wḯθeʝ<br>OE Late Unstressed Ag Suffix: *wḯθiʝ<br>OE Palatal Fricative Merger: *wḯθij |
 
 
 
@@ -8312,7 +8312,7 @@ English Proto Input: *bánnas
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *bánnæs<br>OE Unstressed AE Merger: *bánnes |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *bánnæs<br>OE Unstressed AE Merger: *bánnes |
 
 
 
@@ -8337,7 +8337,7 @@ English Proto Input: *bázjas
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Rhotacism: *bárjas<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *bærjæs<br>OE I Umlaut: *berjæs<br>OE Unstressed AE Merger: *berjes |
+| **Northwest and West Germanic**<br>EAF Rhotacism: *bárjas<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *bárjæs<br>EAF Brightening: *bærjæs<br>OE I Umlaut: *berjæs<br>OE Unstressed AE Merger: *berjes |
 
 
 
@@ -8515,7 +8515,7 @@ English Proto Input: *xámaras
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *xámæræs<br>OE Unstressed AE Merger: *xámeres |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *xámæræs<br>OE Unstressed AE Merger: *xámeres |
 
 
 
@@ -8746,7 +8746,7 @@ English Proto Input: *mánnas
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *mánnæs<br>OE Unstressed AE Merger: *mánnes |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *mánnæs<br>OE Unstressed AE Merger: *mánnes |
 
 
 
@@ -8822,7 +8822,7 @@ English Proto Input: *rástōz
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *rástō<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Surviving Bimoric O Unrounding: *rástā<br>EAF Brightening: *ræstǣ<br>OE Unstressed Long Vowel Shortening: *ræstæ<br>OE Unstressed AE Merger: *ræste |
+| **Northwest and West Germanic**<br>EAF Final Z Deletion: *rástō<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>PWGmc Surviving Bimoric O Unrounding: *rástā<br>EAF Brightening: *ræstā<br>EAF Brightening Long Final: *ræstǣ<br>OE Unstressed Long Vowel Shortening: *ræstæ<br>OE Unstressed AE Merger: *ræste |
 
 
 
@@ -8976,7 +8976,7 @@ English Proto Input: *θístilas
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *θístilæs<br>OE L Adjacent Syncope: *θístlæs<br>OE Unstressed AE Merger: *θístles |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening Unstressed: *θístilæs<br>OE L Adjacent Syncope: *θístlæs<br>OE Unstressed AE Merger: *θístles |
 
 
 

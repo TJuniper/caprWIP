@@ -32,16 +32,16 @@ digraph first_break_chronology {
   "SC040" [label="SC040\nOE Med Unstressed U Lowering"];
   "SC041" [label="SC041\nPWGmc Final Bare A Loss"];
   "SC042" [label="SC042\nPWGmc Surviving Bimoric O Unrounding"];
-  "SC043" [label="SC043\nAnglo-Frisian brightening"];
+  "SC043" [label="SC043\nOrdinary English stressed a-fronting"];
   "SC044" [label="SC044\nOE Breaking"];
-  "SC045" [label="SC045\nOE Velar Fricative Palatalization"];
+  "SC045" [label="SC045\nVoiceless velar-fricative palatal articulation"];
   "SC046" [label="SC046\nOE A Restoration"];
   "SC047" [label="SC047\nOE Heavy Syllable Nasal Apocope"];
   "SC048" [label="SC048\nOE Secondary Nasalization"];
   "SC049" [label="SC049\nPGmc B Allophony"];
   "SC050" [label="SC050\nSievers Law Syncope"];
   "SC051" [label="SC051\nOE Sk Palatalization"];
-  "SC052" [label="SC052\nOE Velar Palatalization"];
+  "SC052" [label="SC052\nClass-distinct English velar palatalization"];
   "SC053" [label="SC053\nOE Post Velar W Loss"];
   "SC054" [label="SC054\nOE W Loss Before I"];
   "SC055" [label="SC055\nOE I Umlaut"];
@@ -69,7 +69,7 @@ digraph first_break_chronology {
   "SC079" [label="SC079\nOE J Loss After Heavy"];
   "SC080" [label="SC080\nOE Final Geminate Simplification"];
   "SC081" [label="SC081\nOE J Strengthening After Front Diphthong"];
-  "SC082" [label="SC082\nOE Intervocalic J Vocalization"];
+  "SC082" [label="SC082\nBounded inherited-j normalization"];
   "SC083" [label="SC083\nOE Unstressed EI Contraction"];
   "SC085" [label="SC085\nOE H Loss"];
   "SC086" [label="SC086\nOE Contraction"];
@@ -122,7 +122,7 @@ digraph first_break_chronology {
   "SC032" -> "SC030" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
   "SC032" -> "SC040" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC035" -> "PWGmcChanges" [label="runner_limited_boundary", color="#c05621", fontcolor="#c05621", style=dashed];
-  "SC035" -> "SC043" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
+  "SC035" -> "SC107" [label="technical_computational", color="#718096", fontcolor="#718096", style=dashed];
   "SC036" -> "SC019" [label="broad_far_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC036" -> "SC040" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC037" -> "PWGmcChanges" [label="runner_limited_boundary", color="#c05621", fontcolor="#c05621", style=dashed];
@@ -134,8 +134,8 @@ digraph first_break_chronology {
   "SC041" -> "SC020" [label="broad_far_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC041" -> "SC046" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
   "SC042" -> "SC020" [label="one_sided_chronology", color="#2b6cb0", fontcolor="#2b6cb0"];
-  "SC042" -> "SC043" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
-  "SC043" -> "SC042" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
+  "SC042" -> "SC108" [label="technical_computational", color="#718096", fontcolor="#718096", style=dashed];
+  "SC108" -> "SC042" [label="technical_computational", color="#718096", fontcolor="#718096", style=dashed];
   "SC043" -> "SC044" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
   "SC044" -> "SC043" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];
   "SC044" -> "SC045" [label="reciprocal_chronology", color="#2f855a", fontcolor="#2f855a"];

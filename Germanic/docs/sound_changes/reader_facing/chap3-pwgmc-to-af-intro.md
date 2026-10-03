@@ -201,6 +201,14 @@ The vowel diphthongization following initial palatals is another event;
 Luick explicitly distinguishes the similar Frisian and English outcomes
 [@Luick1914, pp. 162–163].
 
+The English implementation now distinguishes singleton palatal fricatives
+from gg/ng stops and adopts postmutation fricative merger as a working
+account [@RingeTaylor2014, pp. 203–204; @Fulk2018, pp. 130–132].
+Hogg's objection remains explicit [@Hogg1979, pp. 102–111].
+This daughter account does not select a complete ancestral inventory,
+exclude every shared early articulatory tendency, or date stop affrication
+from an eventual written reflex.
+
 ## What the runes date
 
 An inscription dates a written object. A sound-change terminus additionally
@@ -267,14 +275,17 @@ takes priority over the name prefix. SC020 remains presented in this
 chapter, beside rhotacism, because the two changes jointly determine the
 fate of every remaining `*z`.
 
-### Anglo-Frisian ai-monophthongization (SC004)
+### Completed English ai contraction (SC004, treated in Chapter 4)
 
 The English outcome of stressed/root \emph{*ai} is \emph{*ā}. Versloot
 distinguishes an early velar-conditioned Frisian contraction from later
 non-velar treatment, with mutation and delabialization intervening
 [@Versloot2017, pp. 302--309, 316]. His wave account is an author's
-interpretation, not CAPR's own genealogy. Each component must instead be
-tested for common-stem versus daughter placement.
+interpretation, not CAPR's own genealogy. CAPR now places completed English
+contraction on the daughter branch, while preserving the distinct possibility
+of a narrower conditioned ancestral onset
+[@Campbell1939, pp. 90–91; @Versloot2017, pp. 295–297, 318].
+This local decision does not select every component of the ancestral inventory.
 
 The current [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization)
 models English contraction after
@@ -316,14 +327,19 @@ Campbell notes that English and Frisian may not simply reflect one
 undifferentiated shared prehistoric event, and Ringe and Taylor leave open
 whether the wider spread of fronted outcomes happened mainly on the continent
 or in Britain [@RingeTaylor2014, pp. 60--62]. CAPR's implementation treats the
-change as a single rule; the book prose acknowledges the uncertainty about its
-exact geographical scope.
+stressed English component separately from the retained unstressed and
+final-vowel representations.
 
-The current canonical historical classification is early Anglo-Frisian with
-Anglo-Frisian scope, while the section is presented in Chapter 4. It remains
-the incumbent pending adjudication, not an answer to the comparative controversy.
-English plain-a/au process identity is distinct from inherited stem identity.
-Their executable rules remain provisional separate representations.
+The completed ordinary stressed component is now characterized on the
+English daughter under Campbell's conventional working chain
+[@Campbell1939, pp. 90--91; @Campbell1959, pp. 52--53].
+Ringe and Taylor's diphthong-nucleus objection remains explicit
+[@RingeTaylor2014, pp. 170--175]; earlier restricted ancestral tendencies
+are not excluded. English plain-a/au process identity is distinct from
+inherited stem identity, and their current serialization is retained.
+The unstressed and final-vowel contributions are not assigned the same
+date from this argument. This local adoption does not select the complete
+ancestral inventory.
 
 ## Cascade vs. historical order in this chapter
 

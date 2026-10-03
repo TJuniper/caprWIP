@@ -264,14 +264,20 @@ class Sc029Sc030AdjudicationTests(unittest.TestCase):
     def test_the_post_brightening_placement_claim_is_retracted(self):
         for sc_id in ("SC029", "SC030"):
             problem = self.registry[sc_id]["chronology_problem"]
-            self.assertIn("RETRACTED", problem)
+            if sc_id == "SC029":
+                self.assertIn("RETRACTED", problem)
+                self.assertIn("supersedes the former universal commutation", problem)
+            else:
+                self.assertIn("superseded by the SC043 component decision", problem)
+                self.assertIn("not universal commutation or simultaneity",
+                              self.registry[sc_id]["staging_notes"])
             self.assertNotIn(
                 "historically they are post-AF-brightening", problem,
                 f"{sc_id}: SC030 IS brightening, so it cannot be later than it")
             self.assertNotEqual(
                 self.registry[sc_id]["action_status"],
                 "possible_fst_reorder_later",
-                f"{sc_id}: no reorder is required; the domains are disjoint")
+                f"{sc_id}: the adopted account retains production serialization")
 
     # ------------------------------------------------------------------
     # Chronology edges

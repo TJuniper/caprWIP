@@ -1,5 +1,17 @@
 # SC079-SC087: Final-j, contraction, and metathesis cluster
 
+Current SC082 correction supersedes this scaffold's generic vocalization
+description: retain inherited j after non-high long front monophthongs,
+including source key *kǣjæ > cǣġe [@Hogg1979, p.105].
+Hogg's held grammar distinguishes high-vowel coalescence and unstressed
+alternations rather than a universal VjV diphthongization
+[@HoggGrammar2011, pp.283–286]. The retained weak-suffix e-j/e-i/i path
+telescopes later raising/contraction [@RingeTaylor2014, p.228].
+New palatal ʝ stays outside that consumer until the separately exposed
+postmutation merger. This repairs the native key diagnostic without
+changing any selected input or corpus final; `sc082-adjudication.md`
+owns the bounded verdict and residue.
+
 ## 1. Role in the book
 
 This row is the terminal visibility scaffold of the sound-change half. It

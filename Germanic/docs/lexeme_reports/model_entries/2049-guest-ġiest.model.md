@@ -26,7 +26,12 @@ Bosworth-Toller and Clark Hall record the word under forms such as `gist` 'guest
 
 ### Development to Old English
 
-From [gástiz]{.recon} ‘guest’, Anglo-Frisian brightening gives a `gæst-` stage, and i-mutation affects the front vowel before the lost high-vocalic ending. In West Saxon the initial palatal environment then produces `ie`, so the regular outcome is `ġiest` 'guest' [@Campbell1959; @RingeTaylor2014].
+From [gástiz]{.recon} ‘guest’, ordinary English fronting supplies the
+low-front vowel. Initial singleton g palatalizes as a fricative, not an
+early affricate [@Fulk2018, pp. 130–132]. Ordinary West Saxon palatal
+diphthongization changes æ to ea before mutation changes ea to ie.
+The high-vocalic ending is lost afterwards; the regular outcome is
+`ġiest` 'guest' [@RingeTaylor2014, pp. 215–217, 222, 287].
 
 ### Dialect note
 

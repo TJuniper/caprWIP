@@ -174,13 +174,24 @@ container/provenance checks, run:
 
 ```bash
 docker compose exec -T backend python3 /usr/app/tools/anglo_frisian_experiments.py \
-  --recipes /usr/app/docs/sound_changes/literature_dossiers/anglo_frisian/oe_adopted_u_controls.json \
-  --recipe u-adopted-controls
+  --recipes /usr/app/docs/sound_changes/literature_dossiers/anglo_frisian/oe_adopted_palatal_controls.json \
+  --recipe adopted-palatal-controls
 ```
 
-This compares all 387 current runnable rows, checks seven positive/negative
-component domains and twelve exact gift/guest/sheath checkpoints, and
-protects canonical artifacts. It is not a new scientific variant. New
+This compares all 387 current runnable rows, checks 31 component domains,
+seven staged suffix/checkpoints and seven corpus checkpoints, and protects
+canonical artifacts. It covers classes, native key/day, retained fronting,
+gift/guest/sheath consumers and no early voiced shortcut. It is not a new
+scientific variant. The executed `oe_adopted_palatal_result.json` passes
+every declared check, preserves all 387 finals and the seven old mismatches,
+and records unchanged inputs/protected artifacts with no missing/ambiguous
+outputs or native ʝ leakage. The integrated suite passed 688 tests and
+6178 subtests; the standard, unbypassed book build produced an inspected
+297-page PDF.
+
+The old U/glide/F controls and post-SC043 private
+`oe_palatal_class_recipes.json` retain historical source hashes/results;
+do not repin them to the adopted source. New
 D/A/F/P/B experiments require distinct current-baseline recipes and
 fixtures, not reuse of the old source pins. The optional `fixture_file`
 selects a separate local TSV; omitting it preserves the historical default.
@@ -206,8 +217,9 @@ their manifest. The protected-artifact check correctly rejects that race;
 run these operations serially rather than relaxing the check.
 Recipe citations are checked against the bibliography by the host tests.
 
-The adopted glide/apocope implementation has a distinct current-baseline
-control recipe and fixture file:
+The released glide/apocope implementation has a distinct source-pinned
+control recipe and fixture file (the following command targets the
+16196823 source, not the later SC004-comment baseline):
 
 ```bash
 docker compose exec -T backend python3 /usr/app/tools/anglo_frisian_experiments.py \
@@ -225,6 +237,25 @@ and must not be repinned or run against production. Integrated validation,
 the distinct protected post-adoption controls and the full unbypassed
 291-page book build now pass; the changed chapter, rule, lexical and index
 pages have been inspected. See section 16 of the SC031–034 book dossier.
+
+The next approved pair adopts SC004's completed English-daughter placement
+without changing its law or order. The distinct current experiment is:
+
+```bash
+docker compose exec -T backend python3 /usr/app/tools/anglo_frisian_experiments.py \
+  --recipes /usr/app/docs/sound_changes/literature_dossiers/anglo_frisian/oe_post_ai_fronting_recipes.json \
+  --recipe f-coordinated
+```
+
+This variant has passed all 387 final comparisons, thirty declared
+intermediates, twenty-nine components and seven staged controls. Exactly
+twenty au paths differ earlier and converge before breaking; dew/hew are
+the two additions to the former eighteen. Its report is
+`oe_post_ai_fronting_result.json`; its noncanonical decision packet is
+`audits/sc043-ordinary-fronting-proposal.md`. Current F production is
+unchanged. The proposed ordinary-SC043 component placement is a separate
+future decision, not inferred from output equality. Historical U/D/control
+recipes remain pinned and must not be silently updated.
 
 `citation_context` declares the ordinary evaluation convention separately
 from lexical accent; `context_overrides` validates the exact selected input

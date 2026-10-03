@@ -784,6 +784,36 @@ homorganic and other glide/quantity classes unspecified. The complete
 current-baseline candidate below is a distinct continuation, not a
 reinterpretation or refreeze of those earlier results.
 
+### Current SC043 component adoption
+
+The approved ordinary-stressed decision is now implemented:
+SC043/EAFBrightening denotes the unchanged stressed body, characterized
+as preoe/english_specific under the conventional English working account.
+SC107/108 separately retain the unchanged unstressed and final-quantity
+helpers in the same order. They are technical support identities without
+fabricated historical assignments. The old 90-row composite and 80/12/1
+partition remain the pre-split evidence, not the new stressed-only count.
+
+Campbell's completed-contraction/ordinary-fronting sequence motivates the
+daughter account [@Campbell1939, pp. 90-91; @Campbell1959, pp. 52-53].
+Fulk's a/au connection retains its nucleus qualification
+[@Fulk2018, p. 73]; Ringe-Taylor does not establish that necessary
+plain-vowel/diphthong-nucleus identity [@RingeTaylor2014, pp. 170-175].
+Confidence in the ordinary law is independent of its assigned stage and
+the explicitly qualified date premise. No restricted ancestral tendency
+or complete inherited inventory is decided by this local adoption.
+
+SC070 already implements the broader syllabic unstressed fronting,
+including the heterosyllabic-nasal domain
+[@Campbell1959, pp. 140-141]. SC107 is an earlier retained contribution,
+not a second discovered law. SC042 -> SC108 -> SC072 -> SC073 carries and
+then shortens/merges final quantity [@RingeTaylor2014, pp. 58-59, 299-300].
+Rest changes both root and ending; only the latter supplies the SC042
+dependency. Believe's prefix relation concerns SC107. Those reclassified
+relations are technical, and archived displacement cards are preserved.
+SC030/032 serialization remains unchanged: the executed coordinated
+corridor demonstrates compatibility, not simultaneity or a required move.
+
 ### 8.1.2 Executed coupled glide/apocope candidate
 
 The current-baseline candidate implements inherited/coronal-created short
@@ -1193,11 +1223,16 @@ day dative: new medial j would trigger mutation if equivalent to inherited j
 ```
 
 Hogg considers but does not endorse delayed merger, separate initial/medial
-chronologies and other repairs; his conclusion is unresolved. Separating
-cutoff from medial merger identifies the problem, not a source-proven solution
-([@Hogg1979, pp. 102–110]). SC057's gj/kj coalescence is not that
-fricative merger. Dotted-g output likewise cannot identify all its input
-phonetic classes as the same sound.
+chronologies and other repairs; his conclusion is unresolved
+([@Hogg1979, pp. 102–111]). Ringe–Taylor explicitly chooses postmutation
+fricative merger ([@RingeTaylor2014, p.204]); CAPR now adopts that regular
+working account while retaining Hogg's phonetic objection.
+Singleton g is represented by ʝ, gg/ng by disclosed eventual-stop-reflex
+proxies, not one early affricate class ([@Fulk2018, pp.130–132]).
+The executed coupled variant preserves every selected final and both native
+key/day obliques; early merger changes 15 rows and raises day to *dejæ.
+SC057's gj/kj coalescence is not that merger. Dotted-g spelling does not
+establish phonetic identity.
 
 **Frisian ai ambiguity.** Bremmer §§42a/44 give opposed ai/P statements.
 Unpalatal *kēi* constrains availability of the front ai product, not every
@@ -1217,8 +1252,10 @@ phonemic interpretations are separate premises, not a date for every P/U
 event ([@Waxenberger2019, pp. 71–73]).
 
 **Recommendation.** Prefer the conventional initial productive-cutoff account
-with explicit unrounded controls, but leave medial merger/trigger equivalence
-unresolved. Specify stop, fricative, h and sk components independently.
+with explicit unrounded controls and the defended delayed fricative merger.
+Retain the attributed broad eligibility choice rather than claiming that
+Fulk and Ringe–Taylor give identical medial conditions.
+Keep stop, fricative, h and sk histories independently visible.
 A daughter-only predecessor excludes only the identified component from
 the common stem; it does not adjudicate every earlier palatal tendency.
 Do not issue an inherited-palatalization verdict from this assessment.
@@ -1255,14 +1292,15 @@ uniquely established total order: the early glide feeders, ordinary
 fronting/breaking/restoration, class-specific palatal layers, ordinary
 diphthongization before mutation, and separately later sc treatment.
 Work guest/sheath/gift as distinct evidential cases and key/day as a
-localized unsolved merger question. Explain why successful final outputs
-do not vindicate the present intermediate serialization
+defended working merger account with Hogg's unresolved objection. Explain why successful final outputs
+do not by themselves establish the intermediate chronology
 ([@RingeTaylor2014, pp. 41–42, 215–217, 220, 235];
 [@Hogg1979, pp. 102–110]).
 The expanded introductions now implement these arguments, including
 conditional ancestral inventories, author-specific alternatives and the
-guest/sheath/gift comparison. They describe the working account and its
-limits, not newly adopted production histories. The SOURCE node table
+guest/sheath/gift and key/day comparisons. Their adopted components now
+match production; remaining source alternatives and scope premises are
+identified separately in the current ledger. The SOURCE node table
 records fourteen relevant-class rows across the conservative, Luick and
 Goblirsch cuts; it is not a complete phoneme inventory. Ten separately
 attributed constraint models preserve unresolved premises explicitly.
@@ -1277,8 +1315,16 @@ Experiments and approvals are pending unless explicitly recorded below.
 The approved gift/ordinary-PD increment is implemented and published.
 The coupled inherited-glide/apocope increment is implemented, propagated,
 protected by the repeated production assay and published in the inspected
-291-page book with its approved selected-context baseline. Other component
-recommendations remain proposals.
+291-page book with its approved selected-context baseline. SC004's completed English-daughter
+placement is now adopted with unchanged law/order/confidence; the current
+coordinated F variant has executed all 387 rows and converges before
+breaking. SC043's component correction and the bounded SC045/052/082/089
+palatal package are now adopted and canonically finalized. The integrated
+suite passes 688 tests/6178 subtests; the distinct adopted-production assay
+passes 31 component, seven staged and seven corpus checks while preserving
+all 387 finals, selected inputs and protected artifacts. The current
+unbypassed publication is the inspected 297-page book. Other recommendations
+remain proposals unless their rows explicitly record adoption.
 
 | Component | Historical target or outstanding specification | Evidence / diagnostic | Existing dossier and reader surface | State / next action |
 |---|---|---|---|---|
@@ -1289,18 +1335,21 @@ recommendations remain proposals.
 | SC032 split e/i+u | Determine representation equivalence and short/long/stress outcomes | Existing executable clauses; source mapping required, not inferred from notation | 031-034 dossier §13; 032 reader | Split e/é/i clauses mapped, including absent parallel í clause; historical equivalence not established |
 | SC029 awwj | Contextual control; preserve settled domain unless specifically challenged | RingeTaylor2014 p. 173; hay/strew versus hue | Existing SC029/030 memo; 028-030 dossier; 029-030 reader | Retain incumbent as control, not a new verdict |
 | SC098 apocope interface | Distinguish unstressed-word high-vowel loss from literal ww proxy; require prosodic/representation compatibility with early reanalysis | RingeTaylor2014 pp. 41–42, 55, 57–58; 62-form eligibility audit and staged controls | Existing SC098 dossier; 031-034 packet §§12, 16 | Implemented, propagated and published REFORMULATE: genuine context-aware heavy-syllable i/u loss, shared production consumers and exact approved evaluator-baseline migration. All 387 finals unchanged; production controls and inspected book complete |
-| SC004 stressed ai | Prefer daughter placement of completed contraction; no automatic semantic reorder | Campbell1939 pp. 90–91; RingeTaylor2014 pp. 170–171; Versloot2017 pp. 295–297, 318; fresh 23-row census, stone/sheep/deed | Existing 004 dossiers and source-led A packet; 004 reader | Component/census/source packet prepared; retained rewrite baseline, conditional metadata/node decision and approval pending |
+| SC004 stressed ai | Adopt daughter placement of completed contraction; no semantic reorder | Campbell1939 pp. 90–91; RingeTaylor2014 pp. 170–171; Versloot2017 pp. 295–297, 318; fresh 23-row census, stone/sheep/deed | SC004 adjudication, 004 dossiers and reader | Implemented and published REFORMULATE preoe/english_specific; rewrite/order/confidence B retained; Chapter 4 membership. Conditioned ancestral onset remains distinct; inspected 292-page publication complete |
 | SC101 inherited oral long | Conventional working input versus retained-front rival; no automatic reopening | RingeTaylor2014 pp. 10–13; Fulk2018 pp. 60–61; inherited versus secondary long controls | Existing SC024/025/101 memo; 101 reader | Settled incumbent preserved; specific new-premise challenge needed |
-| SC030 au first element | One proposed English episode with ordinary short-a fronting, completion kept coherent | Campbell1939 p. 91; Luick1914 pp. 130–131; bread/stone and j-derived controls | SC029/030 memo; completed 028-030 packet; 029-030 reader | All 18 selected firings recorded; RETAIN incumbent control / DEFER identity or placement change |
-| SC043 stressed short | Parallel daughter placement conditional on daughter ai contraction preceding it | Campbell1939 pp. 90–91; day/land/fare | Completed 043 and 042-048 packets; 043 reader | 80 stressed-short applications mapped; 90 composite rows; conditional daughter recommendation, not approved metadata |
-| SC043 unstressed short | Independent stress/domain/input-history audit | Current clause; earlier bare-final-a loss and internal/nasal controls | Completed 043 and 042-048 packets; 043 reader | 12 applications mapped; overlaps preserved; historical identity remains deferred |
-| SC043 long final | Surviving bimoric vowel proxy versus ordinary short fronting | RingeTaylor2014 pp. 58–59, 299–300; rest/SC042 feeder and who negative | Completed 043 and 042-048 packets; 043 reader | Literal guard and sole rest2152 application mapped; RETAIN control / DEFER historical identity |
+| SC030 au first element | One proposed English episode with ordinary short-a fronting, completion kept coherent | Campbell1939 p. 91; Luick1914 pp. 130–131; bread/stone and j-derived controls | SC029/030 memo; 028-030 packet; executed ordinary-fronting proposal | Current 20 applications (dew/hew added by early reanalysis). Coordinated variant delays all twenty and converges before breaking; RETAIN production serialization, no new canonical verdict |
+| SC043 stressed short | Adopted ordinary English completed domain, with rival nucleus premise explicit | Campbell1939 pp. 90–91; day/land/fare | SC043 adjudication, 043 and 042-048 dossiers/reader | REFORMULATE/SPLIT implemented as preoe/english_specific; unchanged stressed body and serialization. Support SC107/108 keep the other bodies visible; all 387 finals protected |
+| SC043 unstressed short | Retained earlier contribution, distinct from SC070's known syllabic domain | Bare-final/nasal controls and SC070; Campbell1959 pp.140–141 | SC043 adjudication, 043 reader | Unchanged SC107 support, no fabricated historical stage/scope/verdict; independent dating remains qualified |
+| SC043 long final | Carried SC042 quantity connecting to SC072/073, not ordinary short fronting | RingeTaylor2014 pp. 58–59, 299–300; rest/SC042 feeder and who negative | SC043 adjudication, 043 reader | Unchanged SC108 support; rest's native suffix and who negative pass. Historical quantity and exact dating are not inferred from the long model symbol |
 | SC044 A/E/I breaking | Conventional baseline; compare only specified late Anglian components | Versloot2025 pp. 104, 107, 123, 126–128, 131–135; feormat and negative e controls | Completed 042-048 packet; 044-045 reader | All 48 selected firings, A29/E16/I3, mapped; conventional control retained, global late-breaking reversal rejected |
 | SC046 restoration | General fronting/restoration versus original blocking, not output-fit selection | Hogg1979 pp. 90–97; fare/calan/galan | Completed 042-048 packet; 046-048 reader | All 20 selected firings mapped; incumbent helper/tail control retained; unsupported alternative not implemented |
 | SC047/048 neighbors | Protect existing nasal/apocope interfaces; reopen only if implicated | Actual variant traces, not a presumed AF controversy | 042-048 dossier; 046-048 reader | Context only; no proposed science change |
-| SC045 h/voiced fricative | Separate articulation, merger and vocalization; h need not share g chronology | Hogg1979 pp. 103–105, 111; Laker2007 pp. 176–177; feoh/segl/key-day | Completed 042-048 packet; 044-045 reader | All 24 live changes are x→ç; zero literal voiced-fricative firings; fricative-g history and new-j equivalence remain deferred |
-| SC052 k | Source-conditioned original fronts/j, productive cutoff versus later assibilation | Hogg1979 pp. 100–110; Luick1914 pp. 836–841; key unrounded negative | Completed 052 hinge packet; 052 reader | All 32 composite applications mapped; literal class/cutoff control retained; key/day merger remains unresolved |
-| SC052 g/gg/ng | Fricative versus stop-class representation and ng triggers | Hogg1979 pp. 103–111; Laker2007 pp. 167–168; day/wicg and source ng controls | Completed 052 hinge packet; 052 reader | Class and marker audit completed; ng historical eligibility still deferred; coalescence does not prove merger |
+| SC045 h/voiced fricative | Separate voiceless articulation from voiced merger | RingeTaylor2014 pp.203–204; Fulk2018 pp.130–132 | SC045 adjudication, 042-048 dossier, 044-045 reader | RESTRICT/SPLIT implemented: unchanged x law, unused early voiced shortcut removed. Fee/fight are displacement negatives, not live feeding/voiced witnesses |
+| SC052 k | Original-front cutoff distinct from later affrication | Hogg1979 pp.100–110; RingeTaylor2014 pp.203–204; Luick1914 pp.836–841 | SC052 adjudication, 052 dossier/reader | K body and deterministic geminate handling retained; key's complete mutation/native suffix passes. ʧ is an eventual-reflex proxy, not an early affricate claim |
+| SC052 g/gg/ng | Real singleton ʝ versus gg/ng stop proxies; defended delayed merger | RingeTaylor2014 pp.203–204; Fulk2018 pp.130–132; Hogg1979 pp.102–111 | SC052 adjudication, 052 dossier/reader | REFORMULATE/SPLIT implemented; broad eligibility retained as attributed choice. Coupled comparison preserves all 387 finals and native key/day; early merger changes 15 rows. Hogg's objection remains explicit |
+| SC109 merger support | Expose postmutation merger without fabricating an exact holding-zone date | RingeTaylor2014 p.204; Hogg1979 pp.102–111 | SC052 memo and 052 reader | Technical late serialization after SC089, without independent historical stage/scope/confidence/verdict |
+| SC082 inherited j | Retain non-high long-front j and disclose normalization | Hogg1979 p.105; HoggGrammar2011 pp.283–286; RingeTaylor2014 p.228 | SC082 memo, 079-087 dossier, 081-083 reader | RESTRICT/REFORMULATE implemented; native key repaired, nine current applications retained; residual weak-suffix path remains telescoped |
+| SC089 late suffix | Fricative-aware raising distinct from prehistoric mutation | RingeTaylor2014 printed pp.334–335; Fulk2018 pp.130–132 | SC089 memo and new 089 reader | Consumer/class repair implemented; honey/withy preserved, word-final/back-vowel guard retained |
 | SC051 sk | Independent OE consonantal law, not the later vowel layer | Campbell1959 pp. 140–141; RingeTaylor2014 pp. 203–204; Bremmer2009 p. 30 contrasts Frisian | Completed 051 packet; 051 reader | Literal clauses and all 18 firings mapped against OE handbook conditions; RETAIN control, no fabricated scope change |
 | SC057 gj/kj | Preserve cluster identity, not fricative-to-j merger | Actual cluster clauses; Hogg1979 pp. 103–111 and Luick1914 p. 840 concern a different merger | 057 reader; new routed memo only if science proposed | Context only; no merger repair by relabeling |
 | SC055 fronting/raising/diphthongs | Distinct member laws/inputs, not independently dated by composite displacement | Fulk2018 pp. 58–59, 61; RingeTaylor2014 pp. 220–222; current census 67 | Completed 055-056 packet and reader | 67 current firings after the approved gift/ordinary-PD increment; earlier 68-row census preserved as historical evidence. Ordinary PD now feeds diphthong mutation; broader member decomposition remains unapproved |
@@ -1308,8 +1357,8 @@ recommendations remain proposals.
 | SC105 retained late PD | Separate treatment of ai-derived mutation product; current clause retains all four triggers, not an established sc-only law | Campbell1959 pp. 68–69; RingeTaylor2014 p. 235; sheath versus genuine negatives | 055-056 dossier §12, SC056 adjudication and current reader | Sheath unchanged in production through separately registered SC105 support stage; one current firing. Historical quantity/position/dialect conditioner remains unresolved |
 | Gift selected input | Ringe's earlier-raised input versus published e-vowel reconstructions | Ringe2017 pp. 135, 151–153; Orel2003 p. 130; KlugeSeebold2011 p. 359; Bammesberger1990 pp. 142–143; Seebold1970 pp. 35–36, 218 | Gift lexical model, SC056 adjudication and 055-056 dossier | Approved PROTO = PROTOFORM = *gíftiz; ample author-by-author lexical explanation preserves e-forms, dating qualification and provenance limits. Original baseline archives remain immutable; explicit migration protects the same identities |
 | Required AF node | Coherent inventory and common-prefix/daughter assignments under explicit premises | Sections 2 and 8; Luick direct bracket is one source package, not forced history | Chapter 3 and node_state_candidates.tsv | Three relevant-class candidate cuts specified; conservative working exposition implemented; canonical selection not authorized |
-| English partial chains | Detailed worked arguments, not one author adopted wholesale | Section 8 and ten source-local constraint models | Expanded Chapter 4 and affected local readers | Guest's ordinary-PD-before-mutation chain and gift input are adopted in production and published; sheath's late-layer approximation is explicitly retained. Remaining D/A/F/P/B recommendations are not adopted |
-| Publication pipeline | Correct source citations/crossrefs, refresh views, rebuild lexical volume and render | Hogg dialect pages 3–8 verified; semantic drift individually audited; all 123 older omissions source-backed and repaired | SOURCE readers → manifest/section20 → lexical aggregate/index/book | Full unbypassed pipeline passed; new PDF rendered; zero gloss/citation/index violations; historical chapter numbers verified |
+| English partial chains | Detailed worked arguments, not one author adopted wholesale | Section 8 and ten source-local constraint models | Expanded Chapter 4 and affected local readers | Guest's ordinary-PD-before-mutation chain, gift input, SC043 identity and bounded class-distinct palatal account are adopted and published; sheath's late-layer approximation is explicitly retained. Unadopted residual D/A/F/P/B proposals are not implied by these decisions |
+| Publication pipeline | Correct source citations/crossrefs, refresh views, rebuild lexical volume and render | Hogg dialect pages 3–8 and held-2011 pp.283–286 verified; semantic drift individually audited; all 123 older omissions source-backed and repaired | SOURCE readers → manifest/section20 → lexical aggregate/index/book | Current SC043/palatal batch passed the full unbypassed pipeline; inspected PDF has 297 pages, zero gloss/citation/index gate violations and matching changed-reader definition bodies. Lexical/index output regenerated; gift debate preserved |
 
 Before a row advances to experimentally checked, it needs exact conditions,
 positive/negative intermediate expectations and an isolated full-corpus

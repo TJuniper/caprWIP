@@ -1,7 +1,13 @@
-# SC004 EAF ai-monophthongization — book dossier
+# SC004 English stressed ai contraction — book dossier
+
+Current disposition: `audits/sc004-adjudication.md` adopts completed English
+contraction on the daughter branch, preserving the rewrite, order and
+confidence B. Chapter 4 now owns the reader. The original component packet
+below records the pre-adoption investigation and its then-pending decisions;
+it is not the current canonical status.
 
 > **Corrected PROTOFORM pass.** SC004 covers **only** the stressed/root
-> `*ái > *ā` development (Chapter 3, Early Anglo-Frisian / North Sea Germanic).
+> `*ái > *ā` development (now Chapter 4, prehistoric English).
 > The unstressed `*ai > *ē` change is separate and earlier — SC014 (see
 > `014-015-opening-vowel-prelude.book-dossier.md`). `loam` (`*láimą`) is a
 > stressed witness by its PROTOFORM; `whine` carries no `*ai`. Implemented on
@@ -11,8 +17,9 @@
 ## Historical phenomenon
 
 SC004 isolates stressed/root `*ái > *ā` in the English line. Its common-stem
-versus daughter placement is reopened in the comparative research packet
-below, not settled by the retained EAF identifier or the current registry.
+versus daughter placement is adjudicated for completed contraction on the
+English daughter, not inferred from the retained EAF identifier
+([@Campbell1939, pp. 90–91; @Versloot2017, pp. 295–297, 318]).
 Secondary `*ā` survives ordinary early fronting; a following i/j can instead
 produce later mutation to `ǣ` ([@Campbell1959, pp. 52–53, 69]).
 
@@ -20,8 +27,8 @@ produce later mutation to `ǣ` ([@Campbell1959, pp. 52–53, 69]).
 
 - `EAFAiMonophthongization` (former identifier `PWGmcAiMonophthongization`, retained as a documented alias)
 - `{*ái} -> {*ā}` (stressed/root `*ái` only)
-- Current canonical metadata: hist_stage `eaf`; hist_scope `north_sea_germanic`;
-  Chapter 3. Executable positions are derived, not historical evidence.
+- Current canonical metadata: hist_stage `preoe`; hist_scope `english_specific`;
+  Chapter 4; confidence B retained. Rewrite and executable order unchanged.
 
 ## Example lexemes
 

@@ -12,6 +12,31 @@ Later continuation sections distinguish implementation from the preserved
 earlier research dispositions. No global AF adoption or SC098 expansion
 is implied.
 
+## Completed ai placement and executed fronting continuation
+
+After release 16196823, the user approved SC004's completed-English
+placement and a coordinated a/au experiment. SC004 now has
+preoe/english_specific metadata and Chapter 4 membership, retaining its
+atomic rewrite, order and confidence B. Fresh evidence has twenty-three
+firings; finalization and targeted placement/identity regressions pass.
+No lexical reconstruction, entry-stage or prosodic-context field changes.
+
+The distinct post-SC004 protected F run passes thirty declared intermediate
+checks, twenty-nine component checks and seven staged controls over all
+387 unchanged finals, with the same seven old mismatches. Exactly twenty
+au paths are delayed and converge before breaking, including the newly
+reanalyzed dew/hew. The existing F production serialization is unchanged.
+The exact component-placement proposal and its independent approval
+boundary are in `audits/sc043-ordinary-fronting-proposal.md`.
+Integrated validation passes 675 tests and 6,073 subtests; the added
+measured-result test passes in the subsequent 66-test targeted run.
+Protected post-suite identity again preserves all 387 finals. The full
+unbypassed build produced the inspected 292-page book: the ai-placement
+explanation is printed p.37, the executed F discussion p.57 and the
+Chapter 4 SC004 rule p.62. Actual index entries were inspected as well.
+The glide release described below remains completed history; this new
+pair is not committed or pushed.
+
 ## Coupled glide/apocope implementation continuation
 
 ### Current adopted disposition

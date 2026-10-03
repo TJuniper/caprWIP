@@ -175,6 +175,9 @@ were wrong merely because they did not give a worked chronology.
 
 With earlier i already present, the noun undergoes the inherited
 consonantal and ending developments, then initial palatalization.
+The singleton initial is a palatal fricative, distinct from gg/ng stops;
+the adopted model keeps it distinct from inherited j during mutation
+[@Fulk2018, pp. 130–132; @RingeTaylor2014, p. 204].
 Ordinary palatal diphthongization does not change its high vowel, and
 Old English mutation need not raise an e that is no longer there.
 Loss of the final high vowel and surface spelling yield *ġift* 'gift'.

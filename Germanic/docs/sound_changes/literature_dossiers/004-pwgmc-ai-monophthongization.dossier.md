@@ -1,4 +1,4 @@
-# SC004 EAF ai-monophthongization — literature dossier
+# SC004 English stressed ai contraction — literature dossier
 
 > **Corrected PROTOFORM pass.** This dossier covers **only** the stressed/root
 > development `*ái > *ā`. The unstressed development `*ai > *ē` (final and
@@ -16,19 +16,22 @@ The monophthongization of stressed/root `*ái` to `*ā` in the English line.
 Later i-mutation can produce `ǣ`; ordinary inherited-long fronting must
 not be confused with that later conditioned development
 ([@Campbell1959, pp. 52–53, 69]).
-Common-stem versus daughter placement is reopened in the source-led packet
-in the routed book dossier. An author's areal account is not CAPR's adopted
-mechanism; the required Anglo-Frisian ancestral node remains in place.
+Completed contraction is adopted on the English daughter, with conditioned
+ancestral onset and the runic premises explicitly distinguished
+([@Campbell1939, pp. 90–91; @Versloot2017, pp. 295–297, 318]).
+The canonical decision is recorded in `audits/sc004-adjudication.md`.
+An author's areal account is not CAPR's adopted mechanism; the required
+Anglo-Frisian ancestral node remains in place.
 
 ## CAPR rule
 
 - change_id: `SC004`
-- display_name: `EAF Ai Monophthongization`
+- display_name: `English stressed ai contraction`
 - rule_name: `EAFAiMonophthongization`
 - former identifier: `PWGmcAiMonophthongization` (bundled rule; retained as a documented compatibility alias)
 - FOMA definition: `{*ái} -> {*ā}` (stressed/root `*ái` only)
-- current canonical metadata: hist_stage `eaf`; hist_scope `north_sea_germanic`;
-  book Chapter 3. Executable positions are derived, not historical evidence.
+- current canonical metadata: hist_stage `preoe`; hist_scope `english_specific`;
+  book Chapter 4; confidence B retained. Rewrite and executable order unchanged.
 
 ## Example lexemes
 
@@ -80,9 +83,9 @@ transponent, not its PGmc citation input. The two dat.sg `*-ai` endings
 1. Present SC004 as the stressed/root `*ái > *ā` change only; do **not**
    reintroduce unstressed `*ai` (that is SC014).
 2. Distinguish the current operational EAF corridor, the required ancestral
-   node and an author's areal account. The current research recommendation
-   favors daughter placement of completed English contraction conditionally;
-   no canonical metadata verdict follows from this source correction.
+   node and an author's areal account. The adopted daughter placement concerns
+   completed English contraction, with its source premises qualified;
+   it does not exclude every conditioned ancestral onset.
 3. `loam` (`*láimą`) is a stressed witness; `whine` is not an ai-monophthongization
    case at all.
 4. Treat the `SC036` relation as broad/far rather than a local seam.

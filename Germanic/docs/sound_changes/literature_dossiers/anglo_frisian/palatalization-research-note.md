@@ -1,8 +1,19 @@
-# Palatalization research note: identity still open
+# Palatalization research note: separate adopted English classes from shared onset
 
 **Authority:** [`anglo-frisian-chronology.synthesis.md`](anglo-frisian-chronology.synthesis.md),
 especially §§2–3. This note is a question/evidence guide, not another
-chronology or an adjudication. No SC identity, scope, stage or rule changes.
+chronology authority. Current English class/merger dispositions are owned
+by the canonical SC045/052/082/089 memos; comparative shared onset remains open.
+
+The executed English package distinguishes singleton ʝ from gg/ng stop
+proxies and adopts postmutation merger under Ringe–Taylor's working
+account [@RingeTaylor2014, pp.203–204; @Fulk2018, pp.130–132].
+Hogg's objection remains explicit [@Hogg1979, pp.102–111].
+The coupled comparison preserves all 387 finals and reaches native
+cǣġe/dæġe; early merger changes 15 rows and wrongly raises the day vowel.
+SC082's separate long-front restriction repairs inherited-j retention.
+SC109's late holding zone is technical, not an exact historical date.
+None of this establishes one inherited palatalization innovation.
 
 CAPR requires a strictly tree-like topology **with an Anglo-Frisian node**.
 Its existence is fixed here; the open question is whether a precisely

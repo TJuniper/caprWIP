@@ -26,7 +26,7 @@ change_id	plain_description_draft	order_sensitivity_status	illustrative_lexemes	
 SC001	Proto Input	not_started		sandbox stage ProtoInput applies EnglishProtoInput; support stage rather than a reader-facing sound-change label in the compact trace	Input handoff stage feeding the cascade, not a historical sound change entry.	no
 SC002	Gm Simplification	not_started		sandbox stage GmSimplification applies PGmcGmSimplification		no
 SC003	Rhotacism	not_started		sandbox stage Rhotacism applies EAFRhotacism	West Germanic rhotacism (R/T vol.2 §3.3.1 p.98; Hogg p.37; Crist2002 §6: parallel WGmc/NGmc innovation, non-uniform). Medial *z>*r; final *-z deleted (SC020), never rhotacized. Identifier EAFRhotacism retained as stable impl name; display stage is WGmc, not PGmc.	no
-SC004	EAF Ai Monophthongization	not_started		Split from the former bundled PWGmcAiMonophthongization; stressed/root *ái → *ā only (Early Anglo-Frisian / North Sea Germanic, later, areally diffused; Versloot 2017). Unstressed *ai is the separate SC014. Diagnostic stressed applications include loam *láimą (stressed by its PROTOFORM) and roe *ráixōn (unattested); for the current firing population see the generated firing census. Carries the SC036 soul boundary. Former identifier PWGmcAiMonophthongization retained as a documented compatibility alias.		no
+SC004	English stressed ai contraction	adjudicated		Completed English daughter contraction, not a diffusion mechanism (Campbell 1939 pp.90-91; Ringe-Taylor pp.170-171; Versloot 2017 pp.295-297,318). Conditioned ancestral onset and runic premises remain qualified. Unchanged stressed atomic law, order and confidence B; SC014 remains separate. Loam is a selected pre-OE transponent; roe has no target. Soul supplies a model-local SC036 dependency, not an inherited-event proof. Stable EAF identifier/alias retained.		no
 SC005	NWGmc A To U Before M	not_started			NWGmc-labeled rule remains inside the PWGmcChanges pipeline bundle; preserve bundle order but flag the historical label split.	yes
 SC006	PWGmc Early I Apocope	not_started				no
 SC007	PWGmc Final Or Lowering	not_started				no
@@ -66,16 +66,16 @@ SC039	OE WI Combinative U Umlaut	not_started				no
 SC040	OE Med Unstressed U Lowering	not_started				no
 SC041	PWGmc Final Bare A Loss	not_started			PWGmc-labeled loss is implemented late in the OE pipeline; dossier work should explain the historical vs computational placement.	yes
 SC042	PWGmc Surviving Bimoric O Unrounding	not_started			PWGmc-labeled unrounding is implemented late in the OE pipeline; keep the sandbox order but flag the chronology mismatch.	yes
-SC043	Anglo Frisian Brightening	not_started			The current taxonomy has no separate Anglo-Frisian bucket, so this rule is provisionally filed under Old English for book planning.	yes
+SC043	Ordinary English stressed a-fronting	source_partial_chain	day; slay	Completed ordinary English stressed component under the conventional working account; unchanged literal law and serialization. Earlier restricted ancestral fronting and rival diphthong-nucleus accounts remain explicit.	SC107/108 separate the retained unstressed and carried-quantity representations; SC070 remains the owner of the independently described syllabic unstressed domain.	no
 SC044	OE Breaking	not_started				no
-SC045	OE Velar Fricative Palatalization	not_started				no
+SC045	Voiceless palatal articulation		hail; head; heaven	Voiceless x only; voiced merger is distinct.	Fee/fight are displacement negatives, not live voiced-merger witnesses.	no
 SC046	OE A Restoration	not_started				no
 SC047	OE Heavy Syllable Nasal Apocope	not_started				no
 SC048	OE Secondary Nasalization	not_started				no
 SC049	PGmc B Allophony	not_started			PGmc B Allophony is intentionally delayed in the live cascade, so the historical label and pipeline placement diverge.	yes
 SC050	Sievers Law Syncope	not_started			Sievers Law Syncope is provisionally grouped with Proto-West Germanic developments even though the sandbox checkpoints it in the Old English section.	yes
 SC051	OE Sk Palatalization	not_started				no
-SC052	OE Velar Palatalization	not_started				no
+SC052	Class-distinct velar palatalization		day; hedge; singe	Singleton ʝ contrasts with gg/ng stop-reflex proxies.	Postmutation merger is a defended working choice; Hogg's objection and eligibility disagreement remain explicit.	yes
 SC053	OE Post Velar W Loss	not_started				no
 SC054	OE W Loss Before I	not_started				no
 SC055	OE I Umlaut	source_partial_chain		SC056 ordinary-before-mutation split adopted; old gift/sheath composite dating superseded. SC105 retains unchanged late approximation with unresolved conditioner.		no
@@ -103,14 +103,14 @@ SC078	OE Weak Tail Reduction	not_started				no
 SC079	OE J Loss After Heavy	not_started				no
 SC080	OE Final Geminate Simplification	not_started				no
 SC081	OE J Strengthening After Front Diphthong	not_started				no
-SC082	OE Intervocalic J Vocalization	not_started				no
+SC082	Bounded inherited-j normalization		three; bore; key	Retain j after non-high long front monophthongs.	Weak-suffix normalization is telescoped, not one generic physical VjV vocalization law.	yes
 SC083	OE Unstressed EI Contraction	not_started				no
 SC084	OE Weight Cleanup	not_started			Identity cleanup checkpoint after weight-sensitive rules; methodological appendix only.	no
 SC085	OE H Loss	not_started				no
 SC086	OE Contraction	not_started				no
 SC087	OE R Metathesis	not_started				no
 SC088	OE Epenthetic Vowel	not_started				no
-SC089	OE Late Unstressed Ag Suffix	not_started				no
+SC089	Late unstressed suffix raising		honey; withy	Raising recognizes singleton fricative ʝ, not just a stop-reflex proxy.	Printed source pages are Ringe-Taylor 334-335; incumbent narrow guard retained.	yes
 SC090	OE Cj Cleanup	not_started			Post-cascade palatal-cluster cleanup before orthography; treat as appendix machinery, not a main sound change.	no
 SC091	OE Xs Merge	not_started			Post-cascade surface merge feeding orthographic x; keep as appendix material rather than a reader-facing historical entry.	no
 SC092	Old English Orthography	not_started			Orthography conversion from starred symbols to displayed Old English graphemes.	no
@@ -125,3 +125,6 @@ SC101	EAF Long A Fronting	first_break_complete		Change B of the e1 complex (new 
 SC102	EAF Hiatus W Insertion	first_break_complete		New identity from the sow/laewan follow-up to the e1-complex adjudication: pre-OE/Anglo-Frisian hiatus-filling *w in the vowel-final strong-verb roots (verba pura), *sāan- (< *sēaną by SC024) > *sāwan- (R/T vol.2 p.12, p.151, citing Þórhallsdóttir 1993: 82-137, known here only through R/T). Regular first before the *u-initial endings (pres.ind.1sg *-u, past ind.pl. *-un), analogically generalized through the paradigm; the executable rule is a provisional paradigm-level implementation of that outcome on citation forms ({*ā} _ V). Confidence B on its own grounds, not from the Fulk/*ē₁ dispute governing SC024/SC025/SC101: the broad innovation is supported by the scholarship consulted, but the phonological-versus-analogical architecture awaits direct adjudication from the specialist source (memo §13.4). Anglo-Frisian scope: OFris did the same (grōwinge), but OS/OHG repaired the hiatus with *j (sāian, sāen), so this is not common WGmc. Must precede SC101 — the inserted *w is what blocks fronting in sāwan (R/T p.151: early enough to prevent fronting of *ā in pre-OE); must follow PWGmc intervocalic *w-loss (R/T p.151 n.9, §3.1.5).		no
 SC105	Retained late palatal approximation		sheath	Technical retention of old postmutation long-low-front clause, not a newly adjudicated historical law.	Full historical conditioner unresolved.	yes
 SC106	Retained ww+j simplification		hue	Technical residual after later long-diphthong realization, separate from inherited short-Vww reanalysis.	No new historical stage, scope, confidence or law verdict assigned.	yes
+SC107	Retained early unstressed component		four; summer	Earlier nonnasal implementation contribution, not a newly discovered historical law. SC070 separately handles the nasal-syllable distinction.	Independent dating and relationship to the complete unstressed history remain qualified.	yes
+SC108	Retained final quantity component		rest	Connects the carried long output of SC042 to shortening and merger, not an independent historical long-a event.	Who is a stressed monosyllabic negative; carried quantity must be identified as model representation.	yes
+SC109	Postmutation merger serialization		day; key	Technical holding zone for the defended merger account.	Exact historical date is not inferred from the late executable position.	yes

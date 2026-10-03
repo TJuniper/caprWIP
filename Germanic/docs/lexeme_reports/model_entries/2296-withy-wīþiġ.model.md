@@ -43,10 +43,12 @@ headword of the [wīþja]{.recon} 'withy' type.
 
 ### Development to Old English
 
-From [wḯθagą]{.iv .recon lang=pgmc sort=withaga role=selected_input} ‘withy’, Anglo-Frisian brightening gives a fronted vowel in the suffixal
-syllable, and, on the Campbell analysis adopted here, the later Old English
-development of `*-ag-` yields `-iġ` [@Campbell1959, §§275, 376].
-Palatalization supplies the final `ġ`, and the full development reaches
+From [wḯθagą]{.iv .recon lang=pgmc sort=withaga role=selected_input} ‘withy’, the retained
+unstressed-fronting component gives the suffixal front vowel. Later raising
+recognizes the singleton palatal fricative, distinct from gg/ng stops;
+this late suffix history is not prehistoric i-mutation
+[@RingeTaylor2014, pp. 334–335; @Fulk2018, pp. 130–132].
+Postmutation merger and native realization supply the final `ġ`, reaching
 [`wīþiġ`]{.iv lang=oe sort=withig role=regular_output} 'withy'.
 
 This derivation is regular for the form compared here. The central claim of the

@@ -537,6 +537,21 @@ position is that **the identity of SC030 and SC043 remains unresolved pending
 the full English/Frisian relative chronology**, and the surviving competing
 analyses are enumerated in the synthesis dossier rather than here.
 
+### Current SC043 component follow-up
+
+The approved SC043 decision supersedes the old shared-plain-a versus
+daughter-au premise: the completed ordinary stressed English component
+is characterized on the daughter under Campbell's conventional working
+chain, with the Ringe-Taylor nucleus alternative explicit
+[@Campbell1939, pp. 90-91; @Campbell1959, pp. 52-53;
+@Fulk2018, p. 73; @RingeTaylor2014, pp. 170-175].
+This does not merge the canonical identities or select the complete
+ancestral inventory. SC030/032 serialization is retained; the coordinated
+private corridor has demonstrated corpus compatibility, not historical
+simultaneity. The separate SC043 support components are not automatically
+dated by the ordinary a/au account. The old arguments above remain the
+record of their assessment, not the current bundled SC043 classification.
+
 ## 8. Relation to SC032
 
 Bounded question only; SC032 is not adjudicated here.

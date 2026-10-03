@@ -10,7 +10,9 @@ conditioned [@Campbell1959, pp. 54, 166, §§139, 405--406;
 @RingeTaylor2014, pp. 168--169, 213--214, §§6.2.1--6.2.3, 6.4.1--6.4.2;
 @Fulk2018, pp. 73--74, §4.13].
 
-Breaking has the fuller handbook treatment, while velar-fricative palatalization follows it locally in the *feoh* 'cattle' and *feohtan* 'fight' type derivations.
+Breaking has the fuller handbook treatment. The *feoh* 'cattle' and
+*feohtan* 'fight' type derivations preserve its velar-fricative trigger;
+they do not subsequently undergo velar-fricative palatalization.
 
 ## SC044. Breaking before \emph{h}, \emph{rC}, and \emph{lC} (`OEBreaking`) {#rule-OEBreaking}
 
@@ -20,20 +22,38 @@ define OEBreaking OEBreakingA
     .o. OEBreakingI;
 ```
 
-Breaking must encounter the vowel created by brightening and must precede the fricative change seen in *feoh* ‘fee’ and *feohtan* ‘fight’. Before [SC043 EAFBrightening](#rule-EAFBrightening), PGmc [sláxaną]{.recon} ‘slay’ yields \emph{sleaan | slēaan} rather than expected OE *slēan* ‘slay’. After [SC045 OEVelarFricativePalatalization](#rule-OEVelarFricativePalatalization), PGmc [féxu]{.recon} ‘cattle’ yields [*fehu*]{.pred} rather than expected OE *feoh*, and PGmc [féxtaną]{.recon} ‘fight’ yields [*fehtan*]{.pred} rather than expected *feohtan*. The two feeding relations place breaking between brightening and velar-fricative palatalization.
+Breaking must encounter the vowel created by brightening and must precede
+the rule that would otherwise palatalize its velar trigger in *feoh*
+'cattle' and *feohtan* 'fight'. Before [SC043 EAFBrightening](#rule-EAFBrightening), PGmc [sláxaną]{.recon} ‘slay’ yields \emph{sleaan | slēaan} rather than expected OE *slēan* ‘slay’. After [SC045 OEVelarFricativePalatalization](#rule-OEVelarFricativePalatalization), PGmc [féxu]{.recon} ‘cattle’ yields [*fehu*]{.pred} rather than expected OE *feoh*, and PGmc [féxtaną]{.recon} ‘fight’ yields [*fehtan*]{.pred} rather than expected *feohtan*. The fronting relation feeds breaking. The fee/fight relation instead protects
+breaking's velar trigger from premature palatalization: those forms are
+displacement negatives, not live
+[SC045 OEVelarFricativePalatalization](#rule-OEVelarFricativePalatalization)
+applications.
 
 ## SC045. Palatalization of velar fricatives beside front vowels (`OEVelarFricativePalatalization`) {#rule-OEVelarFricativePalatalization}
 
 ```foma
 define OEVelarFricativePalatalization [
     {*x} -> {*ç} || _ EnglishStarFrontVowel,
-    {*ɣ} -> {*j} || _ EnglishStarFrontVowel,
     {*x} -> {*ç} || EnglishStarFrontVowel _,
-    {*ɣ} -> {*j} || EnglishStarFrontVowel _,
-    {*x} -> {*ç} || _ {*j},
-    {*ɣ} -> {*j} || _ {*j}
+    {*x} -> {*ç} || _ {*j}
 ]
     .o. EnglishStarAlphabet*;
 ```
 
-The local chronology comes from *feoh* 'cattle' and *feohtan* 'fight'. Before [SC044 OEBreaking](#rule-OEBreaking), palatalization of \emph{*x} and \emph{*ɣ} beside front vowels or \emph{*j} makes PGmc [féxu]{.recon} ‘cattle’ yield [*fehu*]{.pred} rather than expected OE *feoh*, and PGmc [féxtaną]{.recon} ‘fight’ yield [*fehtan*]{.pred} rather than expected *feohtan*. The distant upper limit comes from *six* 'six': after [SC060 OEWsPalatalUmlaut](#rule-OEWsPalatalUmlaut), PGmc [séxs]{.recon} ‘six’ yields [*sihs*]{.pred} rather than expected OE *six*. Breaking therefore feeds velar-fricative palatalization directly, while palatal umlaut supplies only the broader upper limit.
+The live population concerns voiceless x, as in *hēafod* 'head' and
+*heofon* 'heaven', not voiced-fricative merger. In *feoh* 'cattle' and
+*feohtan* 'fight', breaking removes the original front-vowel context:
+they do not change at this rule in the live derivation. Moving the rule
+before [SC044 OEBreaking](#rule-OEBreaking) instead consumes its velar
+trigger, yielding [*fehu*]{.pred} and [*fehtan*]{.pred}. This is
+counterbleeding protection, not direct feeding.
+
+The distant *six* 'six' displacement test supplies only a broader
+constraint: after [SC060 OEWsPalatalUmlaut](#rule-OEWsPalatalUmlaut),
+PGmc [séxs]{.recon} ‘six’ yields [*sihs*]{.pred} rather than expected
+OE *six*. Neither test dates voiced g. Its articulation and disputed
+merger are separately treated under
+[SC052 OEVelarPalatalization](#rule-OEVelarPalatalization) and
+[SC109 OEPalatalFricativeMerger](#rule-OEPalatalFricativeMerger)
+[@RingeTaylor2014, pp. 203--204; @Fulk2018, pp. 130--132].

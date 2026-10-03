@@ -28,5 +28,10 @@ forms such as *fylġan* ‘follow’,
 *heċġ* ‘hedge’, and *sengan* ‘singe’ fail in the same broader palatalization
 zone. PGmc [báugijaną]{.recon} 'bow' yields [*bēaġan*]{.pred} rather than expected OE *bīeġan*,
 and PGmc [sōkijaną]{.recon} 'seek' yields [*sōċan*]{.pred} rather than expected *sēċan*. This
-demonstrates that velar palatalization preceded coalescence. Nothing in the
-present lexicon supplies a terminus ante quem.
+constrains this computational cluster consumer. It does not independently
+date all singleton-fricative articulation or merger: the latter is distinct
+from this rule and is now explicit under
+[SC109 OEPalatalFricativeMerger](#rule-OEPalatalFricativeMerger)
+[@RingeTaylor2014, p. 204; @Laker2007, pp. 167--168].
+Nothing in the present lexicon supplies a terminus ante quem for the
+cluster consumer.

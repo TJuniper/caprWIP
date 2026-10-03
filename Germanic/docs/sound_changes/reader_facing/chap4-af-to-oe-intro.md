@@ -35,6 +35,16 @@ textual varieties [@HoggGrammar1992, pp. 3--8, §§1.5--1.12].
 The changes in this chapter fall into several natural historical subgroups,
 though the boundaries between them are not always sharp:
 
+Prehistoric English contraction and fronting:
+Completed stressed \emph{*ai > *ā} is now adopted on the English daughter
+in [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization).
+The new long vowel is distinguished from inherited oral long vowels;
+the source milestones allow overlap with their earlier restructuring
+[@Campbell1939, pp. 90–91; @RingeTaylor2014, pp. 170–171].
+This placement leaves possible conditioned ancestral onset and the
+runic interpretation qualifications explicit
+[@Versloot2017, pp. 295–297, 318].
+
 Early Old English changes linked to the Anglo-Frisian inheritance:
 Changes that feed directly on, or are closely related to, Anglo-Frisian
 brightening (SC043), whose section opens the vowel corridor of this chapter.
@@ -46,6 +56,27 @@ English diphthong realization [@Campbell1959, pp. 44--47;
 The conventional breaking/restoration account instead presupposes fronted
 \emph{*æ}. English plain-a/au process identity and inherited stem identity
 remain separate questions.
+
+A coordinated formalization of ordinary \emph{*a} fronting and
+\emph{*au} fronting with its completion has now been tested over the
+selected lexical material. Its twenty au paths wait until the ordinary
+fronting corridor and then converge with the current derivations before
+breaking. This establishes computational compatibility, not historical
+event identity. The production serialization remains unchanged, and the
+unstressed and surviving-long-final fronting components are not dated
+from this test. The completed ordinary stressed component is now independently
+characterized on the English daughter. Its English-episode interpretation remains
+explicitly dependent on its contraction and nucleus premises
+[@Campbell1939, pp. 90–91; @Campbell1959, p. 52;
+@RingeTaylor2014, pp. 170–175].
+
+The earlier unstressed contribution is not the complete unstressed law:
+[SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly) separately
+implements fronting before heterosyllabic nasals, whereas the coda-nasal
+history protects other endings [@Campbell1959, pp. 140--141].
+The retained final-vowel helper connects unrounding's carried quantity to
+later shortening and merger; it does not establish an independent historical
+long-a fronting [@RingeTaylor2014, pp. 58--59, 299--300].
 
 Old English consonantal changes:
 Velar palatalization (SC052), palatalization of `*sk` (SC051), j-cluster
@@ -196,7 +227,7 @@ velar palatalization was still productive
 This cutoff does not by itself date assibilation or every earlier
 articulatory tendency.
 
-Hogg's key and day paradigms make the remaining problem explicit.
+Hogg's key and day paradigms identify the disputed merger premise.
 The initial key consonant survives a mutation-created unrounded front
 vowel; the day paradigm does not show the mutation that would follow
 if its new medial palatal element were already equivalent to inherited j.
@@ -206,16 +237,44 @@ exceptions to a sound law [@Hogg1979, pp. 102–110].
 | Diagnostic | Required distinction | What is not established |
 |---|---|---|
 | Key oblique vowel | Original fronts versus mutation-created fronts | Date of all palatal articulation |
-| Day oblique vowel | Inherited j versus a newly effective medial trigger | A proven delayed-merger solution |
+| Day oblique vowel | Inherited j versus a palatal fricative at mutation | Unanimous agreement on merger timing |
 | Geminate/postnasal g | Stop-class history versus singleton fricative | One universal g-to-j change |
 | h | Breaking trigger versus subsequent palatal/weakening history | Identity with voiced-fricative chronology |
 | sk | Own consonantal law versus later sc vowel treatment | A single combined palatalization event |
 
 Hogg considers several resolutions without endorsing one as demonstrated
-[@Hogg1979, pp. 103–110]. The unresolved merger question is therefore
-retained locally. Cluster coalescence and a dotted written reflex cannot
-be used to solve it by identifying different input consonants as one
-historical sound [@Laker2007, pp. 167–168].
+[@Hogg1979, pp. 103–111]. Ringe and Taylor, however, explicitly adopt
+merger after mutation [@RingeTaylor2014, p. 204]. CAPR now implements
+that regular working account, preserving Hogg's phonetic objection rather
+than claiming consensus. Singleton g is a fricative, including initially;
+gg/ng are stops [@Fulk2018, pp. 130–132].
+
+At Hogg's pre-palatal, pre-OE checkpoint, key has \emph{*kājæ} and day
+\emph{*dæɣæ}. The inherited j in the former causes mutation, producing
+\emph{*kǣjæ} without reactivating initial-k palatalization. In the latter,
+the newly palatal fricative remains ʝ and the vowel stays æ:
+\emph{*dæʝæ}. Native realization then gives *cǣġe* 'key' and *dæġe*
+'day' [@Hogg1979, p. 105; @RingeTaylor2014, p. 204].
+Premature merger instead supplies a j trigger and wrongly raises the day
+vowel. These oblique cells are non-corpus diagnostics, not new selected
+PGmc reconstructions; the existing day nominative cannot substitute for them.
+
+The complete key suffix exposed a second defect: unrestricted inherited-j
+normalization would erase its retained glide. The repaired
+[SC082 OEIntervocalicJVocalization](#rule-OEIntervocalicJVocalization)
+excludes non-high long front monophthongs. Its residual weak-suffix
+normalization is a telescoped representation, not a universal historical
+VjV vocalization law [@HoggGrammar2011, pp. 283–286;
+@RingeTaylor2014, p. 228].
+
+The fricative merger has its own visible
+[SC109 OEPalatalFricativeMerger](#rule-OEPalatalFricativeMerger).
+Its late execution after suffix raising is a tested computational holding
+zone, not a precisely proved historical date. Likewise stop ʧ/ʤ are
+eventual-reflex proxies, not early affricate claims. Cluster coalescence
+and a dotted written reflex cannot identify all these classes as one
+historical sound [@RingeTaylor2014, pp. 203–204;
+@Laker2007, pp. 167–168; @Fulk2018, pp. 131–132].
 
 ## Three different mutation and diphthongization arguments
 

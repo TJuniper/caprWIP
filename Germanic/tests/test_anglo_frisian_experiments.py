@@ -69,11 +69,12 @@ class ExperimentTests(unittest.TestCase):
             self.assertRegex(fixture["printed_pages"], r"^\d+(?:[-,]\d+)*$")
         self.assertEqual({f["row_id"] for f in fixtures}, {"2040", "2049", "2178"})
 
-    def test_post_glide_controls_pin_the_selected_context_contract(self):
+    def test_post_glide_controls_preserve_the_released_context_contract(self):
         path = RECIPES.with_name("oe_adopted_glide_controls.json")
         data = experiments.load_recipes(path)
+        self.assertEqual(data["baseline_fst_sha256"],
+                         "9016feefda56ca204cb71b8d426f1ace2486bbbd4d2334dc8440dce5cef811d0")
         for field, source in (
-            ("baseline_fst_sha256", layout().germanic_fst),
             ("baseline_corpus_sha256", layout().corpus_tsv),
             ("baseline_context_sha256", layout().data_dir / "entry_context_metadata.tsv"),
             ("baseline_context_helper_sha256", layout().bin_dir / "oe_input_context.py"),
@@ -91,6 +92,110 @@ class ExperimentTests(unittest.TestCase):
         self.data["recipes"][0]["insert_rule"] = "AFBad"
         with self.assertRaisesRegex(ValueError, "identity"):
             self.load_modified(self.data)
+
+    def test_private_phonetic_alphabet_requires_real_single_codepoints(self):
+        for symbols in (["a\u0304"], ["ʝ", "ʝ"], ["3"], [None], [{}], "ʝ"):
+            data = copy.deepcopy(self.data)
+            data["recipes"][1]["phonetic_symbols"] = symbols
+            with self.subTest(symbols=symbols), self.assertRaisesRegex(
+                    ValueError, "phonetic symbols"):
+                self.load_modified(data)
+        data = copy.deepcopy(self.data)
+        data["recipes"][1]["phonetic_symbols"] = ["ɟ"]
+        recipe = self.load_modified(data)["recipes"][1]
+        source = layout().germanic_fst.read_text()
+        extended = experiments.context_source_text(source, recipe)
+        self.assertIn("define EnglishPalatalConsonant [{*ɟ} | ", extended)
+        self.assertNotIn("{*ɟ}", source)
+
+    def test_staged_phonetic_checkpoint_stops_before_native_surface(self):
+        recipe = {
+            "replace": {}, "definitions": "", "insert_rule": "", "insert_after": "",
+            "staged_checks": [{"id": "mutation", "stage": "OEVelarPalatalization",
+                              "side": "before", "stop_after": "OEIUmlaut"}],
+        }
+        script, bins = experiments.staged_appendix(recipe)
+        self.assertIn("OEIUmlaut;", script)
+        self.assertNotIn("OldEnglishOrthography", script)
+        self.assertIn("staged:mutation", bins)
+        recipe["staged_checks"][0]["stop_after"] = "EAFBrightening"
+        with self.assertRaisesRegex(ValueError, "precedes entry"):
+            experiments.staged_appendix(recipe)
+
+    def test_relative_edits_cover_the_derived_outer_wrapper(self):
+        recipe = {"id": "outer", "definitions": "", "insert_after": "OELateUnstressedAgSuffix",
+                  "insert_rule": "AFMerge", "replace": {"OELateUnstressedAgSuffix": "AFSuffix"}}
+        order = experiments.complete_variant_order(recipe)
+        self.assertEqual(order[order.index("AFSuffix") + 1], "AFMerge")
+        self.assertLess(order.index("AFMerge"), order.index("OldEnglishOrthography"))
+
+    def test_post_ai_fronting_recipe_preserves_its_historical_baseline(self):
+        path = RECIPES.with_name("oe_post_ai_fronting_recipes.json")
+        data = experiments.load_recipes(path)
+        self.assertEqual(data["baseline_fst_sha256"],
+                         "e252dece8c775a3ef544fc5006f0d899f8cc52ed4edb250b61d4b9fa75337241")
+        for field, source in (
+            ("baseline_corpus_sha256", layout().corpus_tsv),
+            ("baseline_context_sha256", layout().data_dir / "entry_context_metadata.tsv"),
+            ("baseline_context_helper_sha256", layout().bin_dir / "oe_input_context.py"),
+        ):
+            self.assertEqual(data[field], experiments.digest(source))
+        recipe = data["recipes"][1]
+        self.assertEqual(recipe["insert_after"], "EAFBrightening")
+        self.assertEqual(set(recipe["replace"]),
+                         {"OEAuBrightening", "OEDiphthongLeveling"})
+        original = [stage.inline_text if stage.kind == "inline" else stage.foma_identifier
+                    for stage in experiments.oe_pipeline.stages()]
+        variant = experiments.complete_variant_order(recipe)
+        retained = [stage for stage in original if stage not in recipe["replace"]]
+        self.assertEqual(
+            [stage for stage in variant
+             if stage not in set(recipe["replace"].values()) | {recipe["insert_rule"]}],
+            retained)
+        self.assertLess(variant.index("AFFront"), variant.index("OEBreaking"))
+        self.assertEqual(variant.index("AFFront"), variant.index("EAFBrightening") + 1)
+        with path.with_name(data["fixture_file"]).open(encoding="utf-8") as handle:
+            fixtures = list(csv.DictReader(handle, delimiter="\t"))
+        self.assertEqual(len(fixtures), 30)
+        self.assertEqual(len({row["fixture_id"] for row in fixtures}), 30)
+        self.assertTrue({"1966", "1985", "1989", "2074", "2089", "2220",
+                         "2061", "2227", "2326", "2040", "2049", "2178"}
+                        <= {row["row_id"] for row in fixtures})
+
+    def test_measured_fronting_variant_converges_without_input_or_final_drift(self):
+        path = RECIPES.with_name("oe_post_ai_fronting_recipes.json")
+        data = experiments.load_recipes(path)
+        report = json.loads(path.with_name("oe_post_ai_fronting_result.json").read_text())
+        self.assertEqual(report["selected_rows"], 387)
+        self.assertTrue(report["identity_equal"])
+        self.assertTrue(report["canonical_artifacts_unchanged"])
+        for field in ("changed_ids", "input_changed_ids", "missing_output_ids",
+                      "ambiguous_output_ids"):
+            self.assertEqual(report[field], [])
+        self.assertEqual(report["baseline_mismatch_ids"], report["variant_mismatch_ids"])
+        self.assertEqual(len(report["baseline_mismatch_ids"]), 7)
+        live = {row["id"]: row for row in experiments.corpus_rows(layout().corpus_tsv)}
+        self.assertEqual({row["id"] for row in report["rows"]}, set(live))
+        for row in report["rows"]:
+            self.assertEqual(row["variant_fst_input"],
+                             experiments.oe_pipeline.evaluation_input(live[row["id"]]))
+            self.assertEqual(row["baseline_outputs"], row["variant_outputs"])
+            self.assertEqual(len(row["variant_outputs"]), 1)
+        for probe, count in (("after_sc030", 20), ("after_sc032", 20),
+                             ("before_fronting", 20), ("after_fronting", 0),
+                             ("after_ordinary", 0), ("after_mutation", 0),
+                             ("after_late", 0)):
+            changed = [row for row in report["rows"]
+                       if row["intermediates"][probe]["baseline"]
+                       != row["intermediates"][probe]["variant"]]
+            self.assertEqual(len(changed), count, probe)
+            if count:
+                self.assertTrue({"1989", "2074"} <= {row["id"] for row in changed})
+        with path.with_name(data["fixture_file"]).open(encoding="utf-8") as handle:
+            fixtures = list(csv.DictReader(handle, delimiter="\t"))
+        checked = experiments.check_fixture_predictions(
+            {**report, "recipe": data["recipes"][1]}, fixtures)
+        self.assertEqual(checked, report["checked_fixture_ids"])
 
     def test_science_requires_page_citations(self):
         self.data["recipes"][1]["sources"][0]["pages"] = ""

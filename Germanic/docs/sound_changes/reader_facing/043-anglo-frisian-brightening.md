@@ -1,4 +1,4 @@
-# Anglo-Frisian brightening
+# Ordinary English fronting
 
 ## Historical discussion
 
@@ -12,19 +12,70 @@ fronting, comparable English and Frisian outcomes require separate
 daughter frontings in the strict tree. Chapter 3 develops that conditional
 argument without removing the ancestral node
 [@Campbell1939, pp. 90–91].
-The present network also contains unstressed-short and long-final
-components; evidence dating stressed-short fronting does not automatically
-date those other clauses. The current computational control is retained
-while their historical identity is assessed separately.
+The model adopts the completed ordinary English stressed component on the
+English daughter under this conventional working account. This is not a
+claim that every author proves contraction before ordinary fronting:
+Ringe and Taylor explicitly question whether diphthong nuclei must behave
+like the plain short vowel [@RingeTaylor2014, pp. 170--175].
+Earlier restricted ancestral fronting remains possible.
+
+The separately retained unstressed and final-vowel components are not dated
+by that argument. The first supplies an earlier nonnasal contribution;
+[SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly) separately
+implements the broader unstressed domain, including the contrast between
+coda and heterosyllabic nasals [@Campbell1959, pp. 140--141, §§333--334].
+The second carries the model's preserved final-vowel quantity into later
+shortening and merger. Its long intermediate is a representation choice,
+not independent evidence for a historical long-vowel fronting
+[@RingeTaylor2014, pp. 58--59, 299--300].
 
 ## SC043. Fronting of low \emph{*a} outside nasal environments (`EAFBrightening`) {#rule-EAFBrightening}
 
 ```foma
 define EAFBrightening [
-    AngloFrisianBrighteningUnstressed .o.
-    AngloFrisianBrighteningStressed .o.
-    AngloFrisianBrighteningLongFinal
+    EAFBrighteningStressed
 ];
 ```
 
-Two derivations place low \emph{*a} > \emph{*æ} between unrounding and breaking. Before [SC042 PWGmcSurvivingBimoricOUnrounding](#rule-PWGmcSurvivingBimoricOUnrounding), PGmc [rástōz]{.recon} ‘rest’ yields [*rasta*]{.pred} rather than expected OE *ræste* ‘rest’. After [SC044 OEBreaking](#rule-OEBreaking), PGmc [sláxaną]{.recon} ‘slay’ yields \emph{sleaan | slēaan} rather than expected OE *slēan* ‘slay’. The first witness requires brightening to receive the outcome of the surviving-bimoric \emph{*ō} development; the second requires breaking to receive the fronted vowel.
+### Stressed component
+
+```foma
+define EAFBrighteningStressed [
+    {*á} -> {*æ} || _ [EnglishStarConsonant - EnglishStarNasal | .#.]
+];
+```
+
+Slay requires breaking to receive the fronted root vowel: delaying the
+stressed member until after [SC044 OEBreaking](#rule-OEBreaking) gives
+\emph{sleaan | slēaan}, rather than OE *slēan* ‘slay’.
+Rest involves two different changes, root fronting and the separately
+retained final-vowel representation. Its final-vowel dependency must not
+be used to date this stressed rule.
+
+### Retained unstressed contribution
+
+```foma
+define EAFBrighteningUnstressed [
+    {*a} -> {*æ} || _ [EnglishStarConsonant - EnglishStarNasal]
+];
+```
+
+This earlier contribution is preserved without identifying it with the
+entire unstressed history. The later syllabic rule also fronts surviving
+unstressed vowels before heterosyllabic nasals; an exception before every
+nasal would therefore be too broad [@Campbell1959, pp. 140--141].
+
+### Retained final-vowel representation
+
+```foma
+define EAFBrighteningLongFinal [
+    {*ā} -> {*ǣ} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.
+];
+```
+
+In *ræste* ‘rest’, this helper receives the length-preserved outcome of
+[SC042 PWGmcSurvivingBimoricOUnrounding](#rule-PWGmcSurvivingBimoricOUnrounding).
+The preceding-nucleus guard excludes stressed monosyllabic *hwā* ‘who’.
+Later shortening and merger complete the ending; the carried long vowel
+does not establish a separate dated long-a law
+[@RingeTaylor2014, pp. 58--59, 299--300; @Campbell1959, p. 49, §125].

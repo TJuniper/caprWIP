@@ -8,7 +8,7 @@
 # Chapter metadata (titles, intro files) lives in registry/reader_chapters.tsv.
 reader_file	chapter_id
 003-west-germanic-rhotacism.md	3
-004-pwgmc-ai-monophthongization.md	3
+004-pwgmc-ai-monophthongization.md	4
 005-unstressed-a-raising-before-final-m.md	2
 006-early-i-apocope.md	2
 007-final-o-lowering-before-r.md	2
@@ -65,6 +65,7 @@ reader_file	chapter_id
 081-083-j-strengthening-vocalization-and-ei-contraction.md	4
 085-086-h-loss-and-contraction.md	4
 087-r-metathesis.md	4
+089-late-unstressed-ag-suffix.md	4
 096-root-noun-nominative-z-loss.md	2
 097-monosyllabic-final-z-loss.md	3
 098-early-apocope-in-unstressed-words.md	3

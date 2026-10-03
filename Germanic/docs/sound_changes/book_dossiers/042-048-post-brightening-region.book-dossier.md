@@ -1,5 +1,25 @@
 # SC042-SC048 Post-brightening Region
 
+Current component correction: SC043 is ordinary stressed English fronting,
+not the old composite. SC107 retains the earlier unstressed contribution
+and SC108 the carried final quantity. In rest, SC042 feeds SC108 while
+SC043 independently fronts the root. Old SC042/SC043 displacement language
+below is the pre-split scaffold, not a date for the stressed law.
+The standard sequence retains fronting before breaking/restoration
+[@Campbell1959, pp. 52-53; @RingeTaylor2014, pp. 170-175].
+The final representation and later shortening are distinct
+[@RingeTaylor2014, pp. 58-59, 299-300]. SC045's x witnesses cannot establish
+the chronology of voiced-fricative merger. The unused early voiced shortcut
+has now been removed (SC045 RESTRICT/SPLIT); SC052 distinguishes singleton
+ʝ from gg/ng stop proxies, and SC109 exposes the adopted postmutation
+merger serialization [@RingeTaylor2014, pp.203–204; @Fulk2018, pp.130–132].
+Hogg's objection remains explicit [@Hogg1979, pp.102–111].
+Fee/fight are displacement negatives, not live SC045 applications:
+breaking bleeds their front-vowel palatalization context while preserving
+the required velar trigger. They cannot prove a direct feeding relation
+or date voiced merger. The older scaffold below is historical where it
+conflates those classes.
+
 ## 1. Role in the book
 
 This region sits immediately after the promoted SC043 Anglo-Frisian Brightening report and immediately before the promoted SC049-SC050 bridge. Its editorial problem is not whether the material matters, but how to keep strict chronology while converting scaffold bands into adjacent production units.

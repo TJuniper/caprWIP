@@ -1123,6 +1123,14 @@ The vowel diphthongization following initial palatals is another event;
 Luick explicitly distinguishes the similar Frisian and English outcomes
 [@Luick1914, pp. 162–163].
 
+The English implementation now distinguishes singleton palatal fricatives
+from gg/ng stops and adopts postmutation fricative merger as a working
+account [@RingeTaylor2014, pp. 203–204; @Fulk2018, pp. 130–132].
+Hogg's objection remains explicit [@Hogg1979, pp. 102–111].
+This daughter account does not select a complete ancestral inventory,
+exclude every shared early articulatory tendency, or date stop affrication
+from an eventual written reflex.
+
 ## What the runes date
 
 An inscription dates a written object. A sound-change terminus additionally
@@ -1189,14 +1197,17 @@ takes priority over the name prefix. SC020 remains presented in this
 chapter, beside rhotacism, because the two changes jointly determine the
 fate of every remaining `*z`.
 
-### Anglo-Frisian ai-monophthongization (SC004)
+### Completed English ai contraction (SC004, treated in Chapter 4)
 
 The English outcome of stressed/root \emph{*ai} is \emph{*ā}. Versloot
 distinguishes an early velar-conditioned Frisian contraction from later
 non-velar treatment, with mutation and delabialization intervening
 [@Versloot2017, pp. 302--309, 316]. His wave account is an author's
-interpretation, not CAPR's own genealogy. Each component must instead be
-tested for common-stem versus daughter placement.
+interpretation, not CAPR's own genealogy. CAPR now places completed English
+contraction on the daughter branch, while preserving the distinct possibility
+of a narrower conditioned ancestral onset
+[@Campbell1939, pp. 90–91; @Versloot2017, pp. 295–297, 318].
+This local decision does not select every component of the ancestral inventory.
 
 The current [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization)
 models English contraction after
@@ -1238,14 +1249,19 @@ Campbell notes that English and Frisian may not simply reflect one
 undifferentiated shared prehistoric event, and Ringe and Taylor leave open
 whether the wider spread of fronted outcomes happened mainly on the continent
 or in Britain [@RingeTaylor2014, pp. 60--62]. CAPR's implementation treats the
-change as a single rule; the book prose acknowledges the uncertainty about its
-exact geographical scope.
+stressed English component separately from the retained unstressed and
+final-vowel representations.
 
-The current canonical historical classification is early Anglo-Frisian with
-Anglo-Frisian scope, while the section is presented in Chapter 4. It remains
-the incumbent pending adjudication, not an answer to the comparative controversy.
-English plain-a/au process identity is distinct from inherited stem identity.
-Their executable rules remain provisional separate representations.
+The completed ordinary stressed component is now characterized on the
+English daughter under Campbell's conventional working chain
+[@Campbell1939, pp. 90--91; @Campbell1959, pp. 52--53].
+Ringe and Taylor's diphthong-nucleus objection remains explicit
+[@RingeTaylor2014, pp. 170--175]; earlier restricted ancestral tendencies
+are not excluded. English plain-a/au process identity is distinct from
+inherited stem identity, and their current serialization is retained.
+The unstressed and final-vowel contributions are not assigned the same
+date from this argument. This local adoption does not select the complete
+ancestral inventory.
 
 ## Cascade vs. historical order in this chapter
 
@@ -1834,53 +1850,6 @@ Second, the fronting must precede [SC056 OEWsPalatalDiphthongization](#rule-OEWs
 
 \newpage
 
-# Anglo-Frisian ai-monophthongization
-
-## Historical discussion
-
-Inherited stressed \emph{*ái} yields \emph{*ā} in English. Ringe and Taylor
-discuss this development separately from the earlier unstressed contraction.
-The distinction between inherited long vowels and new \emph{*ā} requires
-inherited-long fronting to have been well under way before contraction
-completed; it does not prove that the two developments could not overlap
-[@RingeTaylor2014, pp. 170–171]. Campbell gives the stricter conventional
-sequence and places contraction before ordinary short-vowel fronting
-[@Campbell1959, pp. 52–53]. Later i-mutation of the new long vowel is a
-separate conditioned development, not that ordinary fronting
-[@Campbell1959, p. 69].
-
-Versloot proposes a wave account of the regional outcomes, but CAPR does
-not adopt diffusion as a solution to the comparative tree problem.
-His readings of early English and Frisian inscriptions are relevant
-evidence independently of that mechanism, conditional on their provenance,
-etymology and phonetic interpretation
-[@Versloot2017, pp. 295–297, 318]. The required Anglo-Frisian ancestral node
-is retained. Whether completed English contraction belongs after it is
-distinct from the possibility of an earlier conditioned onset on the
-common stem; the current operational corridor does not settle that question.
-
-The live selected-corpus census has twenty-three applications, all carrying
-stressed \emph{*ái}. Loam's selected \emph{*láimą} 'loam' is explicitly a
-pre-Old-English model input, not an independent Proto-Germanic witness.
-The raw corpus's additional roe reconstruction has no attested target and
-is excluded from that census. The unstressed development \emph{*ai > *ē}
-is the separate earlier change
-[SC014 PNWGmcUnstressedAiMonophthongization](#rule-PNWGmcUnstressedAiMonophthongization).
-
-## \CAPRRuleHeading{SC004. Anglo-Frisian ai-monophthongization}{EAFAiMonophthongization} {#rule-EAFAiMonophthongization}
-
-```foma
-define EAFAiMonophthongization [
-    {*ái} -> {*ā}
-];
-```
-
-The soul form fixes the relation to interstress raising. If the monophthongization is delayed until after that change, PGmc [sáiwalō]{.recon} 'soul' yields [*sāwel*]{.pred} rather than expected OE *sāwol* 'soul'. An earlier placement changes no output. This shows that [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization) must come before [SC036 OEInterStressRaising](#rule-OEInterStressRaising) in the modeled sequence.
-
-The unstressed development \emph{*ai > *ē} in final and nonfinal syllables is a separate and earlier change; see [SC014 PNWGmcUnstressedAiMonophthongization](#rule-PNWGmcUnstressedAiMonophthongization).
-
-\newpage
-
 # Chapter 4. From Anglo-Frisian to Old English
 
 
@@ -1919,6 +1888,16 @@ textual varieties [@HoggGrammar1992, pp. 3--8, §§1.5--1.12].
 The changes in this chapter fall into several natural historical subgroups,
 though the boundaries between them are not always sharp:
 
+Prehistoric English contraction and fronting:
+Completed stressed \emph{*ai > *ā} is now adopted on the English daughter
+in [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization).
+The new long vowel is distinguished from inherited oral long vowels;
+the source milestones allow overlap with their earlier restructuring
+[@Campbell1939, pp. 90–91; @RingeTaylor2014, pp. 170–171].
+This placement leaves possible conditioned ancestral onset and the
+runic interpretation qualifications explicit
+[@Versloot2017, pp. 295–297, 318].
+
 Early Old English changes linked to the Anglo-Frisian inheritance:
 Changes that feed directly on, or are closely related to, Anglo-Frisian
 brightening (SC043), whose section opens the vowel corridor of this chapter.
@@ -1930,6 +1909,27 @@ English diphthong realization [@Campbell1959, pp. 44--47;
 The conventional breaking/restoration account instead presupposes fronted
 \emph{*æ}. English plain-a/au process identity and inherited stem identity
 remain separate questions.
+
+A coordinated formalization of ordinary \emph{*a} fronting and
+\emph{*au} fronting with its completion has now been tested over the
+selected lexical material. Its twenty au paths wait until the ordinary
+fronting corridor and then converge with the current derivations before
+breaking. This establishes computational compatibility, not historical
+event identity. The production serialization remains unchanged, and the
+unstressed and surviving-long-final fronting components are not dated
+from this test. The completed ordinary stressed component is now independently
+characterized on the English daughter. Its English-episode interpretation remains
+explicitly dependent on its contraction and nucleus premises
+[@Campbell1939, pp. 90–91; @Campbell1959, p. 52;
+@RingeTaylor2014, pp. 170–175].
+
+The earlier unstressed contribution is not the complete unstressed law:
+[SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly) separately
+implements fronting before heterosyllabic nasals, whereas the coda-nasal
+history protects other endings [@Campbell1959, pp. 140--141].
+The retained final-vowel helper connects unrounding's carried quantity to
+later shortening and merger; it does not establish an independent historical
+long-a fronting [@RingeTaylor2014, pp. 58--59, 299--300].
 
 Old English consonantal changes:
 Velar palatalization (SC052), palatalization of `*sk` (SC051), j-cluster
@@ -2080,7 +2080,7 @@ velar palatalization was still productive
 This cutoff does not by itself date assibilation or every earlier
 articulatory tendency.
 
-Hogg's key and day paradigms make the remaining problem explicit.
+Hogg's key and day paradigms identify the disputed merger premise.
 The initial key consonant survives a mutation-created unrounded front
 vowel; the day paradigm does not show the mutation that would follow
 if its new medial palatal element were already equivalent to inherited j.
@@ -2090,16 +2090,44 @@ exceptions to a sound law [@Hogg1979, pp. 102–110].
 | Diagnostic | Required distinction | What is not established |
 |---|---|---|
 | Key oblique vowel | Original fronts versus mutation-created fronts | Date of all palatal articulation |
-| Day oblique vowel | Inherited j versus a newly effective medial trigger | A proven delayed-merger solution |
+| Day oblique vowel | Inherited j versus a palatal fricative at mutation | Unanimous agreement on merger timing |
 | Geminate/postnasal g | Stop-class history versus singleton fricative | One universal g-to-j change |
 | h | Breaking trigger versus subsequent palatal/weakening history | Identity with voiced-fricative chronology |
 | sk | Own consonantal law versus later sc vowel treatment | A single combined palatalization event |
 
 Hogg considers several resolutions without endorsing one as demonstrated
-[@Hogg1979, pp. 103–110]. The unresolved merger question is therefore
-retained locally. Cluster coalescence and a dotted written reflex cannot
-be used to solve it by identifying different input consonants as one
-historical sound [@Laker2007, pp. 167–168].
+[@Hogg1979, pp. 103–111]. Ringe and Taylor, however, explicitly adopt
+merger after mutation [@RingeTaylor2014, p. 204]. CAPR now implements
+that regular working account, preserving Hogg's phonetic objection rather
+than claiming consensus. Singleton g is a fricative, including initially;
+gg/ng are stops [@Fulk2018, pp. 130–132].
+
+At Hogg's pre-palatal, pre-OE checkpoint, key has \emph{*kājæ} and day
+\emph{*dæɣæ}. The inherited j in the former causes mutation, producing
+\emph{*kǣjæ} without reactivating initial-k palatalization. In the latter,
+the newly palatal fricative remains ʝ and the vowel stays æ:
+\emph{*dæʝæ}. Native realization then gives *cǣġe* 'key' and *dæġe*
+'day' [@Hogg1979, p. 105; @RingeTaylor2014, p. 204].
+Premature merger instead supplies a j trigger and wrongly raises the day
+vowel. These oblique cells are non-corpus diagnostics, not new selected
+PGmc reconstructions; the existing day nominative cannot substitute for them.
+
+The complete key suffix exposed a second defect: unrestricted inherited-j
+normalization would erase its retained glide. The repaired
+[SC082 OEIntervocalicJVocalization](#rule-OEIntervocalicJVocalization)
+excludes non-high long front monophthongs. Its residual weak-suffix
+normalization is a telescoped representation, not a universal historical
+VjV vocalization law [@HoggGrammar2011, pp. 283–286;
+@RingeTaylor2014, p. 228].
+
+The fricative merger has its own visible
+[SC109 OEPalatalFricativeMerger](#rule-OEPalatalFricativeMerger).
+Its late execution after suffix raising is a tested computational holding
+zone, not a precisely proved historical date. Likewise stop ʧ/ʤ are
+eventual-reflex proxies, not early affricate claims. Cluster coalescence
+and a dotted written reflex cannot identify all these classes as one
+historical sound [@RingeTaylor2014, pp. 203–204;
+@Laker2007, pp. 167–168; @Fulk2018, pp. 131–132].
 
 ## Three different mutation and diphthongization arguments
 
@@ -2209,6 +2237,57 @@ through back-mutation [@RingeTaylor2014, pp. 169--173, 215--237]. Fulk's *Compar
 Grammar* provides additional coverage for phonological conditioning
 [@Fulk2018, pp. 58–61, 72–74]. For individual changes, source-specific citations appear in the
 relevant sound-change sections.
+
+# English stressed ai contraction
+
+## Historical discussion
+
+Inherited stressed \emph{*ái} yields \emph{*ā} in English. Ringe and Taylor
+discuss this development separately from the earlier unstressed contraction.
+The distinction between inherited long vowels and new \emph{*ā} requires
+inherited-long fronting to have been well under way before contraction
+completed; it does not prove that the two developments could not overlap
+[@RingeTaylor2014, pp. 170–171]. Campbell gives the stricter conventional
+sequence and places contraction before ordinary short-vowel fronting
+[@Campbell1959, pp. 52–53]. Later i-mutation of the new long vowel is a
+separate conditioned development, not that ordinary fronting
+[@Campbell1959, p. 69].
+
+Versloot proposes a wave account of the regional outcomes, but CAPR does
+not adopt diffusion as a solution to the comparative tree problem.
+His readings of early English and Frisian inscriptions are relevant
+evidence independently of that mechanism, conditional on their provenance,
+etymology and phonetic interpretation
+[@Versloot2017, pp. 295–297, 318]. The required Anglo-Frisian ancestral node
+is retained. CAPR places completed English contraction on the daughter
+branch, while leaving a possible earlier conditioned onset on the common
+stem distinct. This is the defended working placement under the cited
+runic and comparative premises, not proof against every ancestral onset
+[@Campbell1939, pp. 90–91; @Versloot2017, pp. 295–297, 318].
+The inherited-long relation permits temporal overlap; the retained
+executable order does not assert a strict order between entire events.
+
+The live selected-corpus census has twenty-three applications, all carrying
+stressed \emph{*ái}. Loam's selected \emph{*láimą} 'loam' is explicitly a
+pre-Old-English model input, not an independent Proto-Germanic witness.
+The raw corpus's additional roe reconstruction has no attested target and
+is excluded from that census. The unstressed development \emph{*ai > *ē}
+is the separate earlier change
+[SC014 PNWGmcUnstressedAiMonophthongization](#rule-PNWGmcUnstressedAiMonophthongization).
+
+## SC004. English stressed ai contraction (`EAFAiMonophthongization`) {#rule-EAFAiMonophthongization}
+
+```foma
+define EAFAiMonophthongization [
+    {*ái} -> {*ā}
+];
+```
+
+The soul form fixes the relation to interstress raising. If the monophthongization is delayed until after that change, PGmc [sáiwalō]{.recon} 'soul' yields [*sāwel*]{.pred} rather than expected OE *sāwol* 'soul'. An earlier placement changes no output. This shows that [SC004 EAFAiMonophthongization](#rule-EAFAiMonophthongization) must come before [SC036 OEInterStressRaising](#rule-OEInterStressRaising) in the modeled sequence.
+
+The unstressed development \emph{*ai > *ē} in final and nonfinal syllables is a separate and earlier change; see [SC014 PNWGmcUnstressedAiMonophthongization](#rule-PNWGmcUnstressedAiMonophthongization).
+
+\newpage
 
 # Awj resolution and the English brightening of au
 
@@ -2686,7 +2765,7 @@ The single *ræste* ‘rest’ derivation carries the chronology of bimoric \emp
 
 \newpage
 
-# Anglo-Frisian brightening
+# Ordinary English fronting
 
 ## Historical discussion
 
@@ -2700,22 +2779,73 @@ fronting, comparable English and Frisian outcomes require separate
 daughter frontings in the strict tree. Chapter 3 develops that conditional
 argument without removing the ancestral node
 [@Campbell1939, pp. 90–91].
-The present network also contains unstressed-short and long-final
-components; evidence dating stressed-short fronting does not automatically
-date those other clauses. The current computational control is retained
-while their historical identity is assessed separately.
+The model adopts the completed ordinary English stressed component on the
+English daughter under this conventional working account. This is not a
+claim that every author proves contraction before ordinary fronting:
+Ringe and Taylor explicitly question whether diphthong nuclei must behave
+like the plain short vowel [@RingeTaylor2014, pp. 170--175].
+Earlier restricted ancestral fronting remains possible.
+
+The separately retained unstressed and final-vowel components are not dated
+by that argument. The first supplies an earlier nonnasal contribution;
+[SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly) separately
+implements the broader unstressed domain, including the contrast between
+coda and heterosyllabic nasals [@Campbell1959, pp. 140--141, §§333--334].
+The second carries the model's preserved final-vowel quantity into later
+shortening and merger. Its long intermediate is a representation choice,
+not independent evidence for a historical long-vowel fronting
+[@RingeTaylor2014, pp. 58--59, 299--300].
 
 ## \CAPRRuleHeading{SC043. Fronting of low \emph{*a} outside nasal environments}{EAFBrightening} {#rule-EAFBrightening}
 
 ```foma
 define EAFBrightening [
-    AngloFrisianBrighteningUnstressed .o.
-    AngloFrisianBrighteningStressed .o.
-    AngloFrisianBrighteningLongFinal
+    EAFBrighteningStressed
 ];
 ```
 
-Two derivations place low \emph{*a} > \emph{*æ} between unrounding and breaking. Before [SC042 PWGmcSurvivingBimoricOUnrounding](#rule-PWGmcSurvivingBimoricOUnrounding), PGmc [rástōz]{.recon} ‘rest’ yields [*rasta*]{.pred} rather than expected OE *ræste* ‘rest’. After [SC044 OEBreaking](#rule-OEBreaking), PGmc [sláxaną]{.recon} ‘slay’ yields \emph{sleaan | slēaan} rather than expected OE *slēan* ‘slay’. The first witness requires brightening to receive the outcome of the surviving-bimoric \emph{*ō} development; the second requires breaking to receive the fronted vowel.
+### Stressed component
+
+```foma
+define EAFBrighteningStressed [
+    {*á} -> {*æ} || _ [EnglishStarConsonant - EnglishStarNasal | .#.]
+];
+```
+
+Slay requires breaking to receive the fronted root vowel: delaying the
+stressed member until after [SC044 OEBreaking](#rule-OEBreaking) gives
+\emph{sleaan | slēaan}, rather than OE *slēan* ‘slay’.
+Rest involves two different changes, root fronting and the separately
+retained final-vowel representation. Its final-vowel dependency must not
+be used to date this stressed rule.
+
+### Retained unstressed contribution
+
+```foma
+define EAFBrighteningUnstressed [
+    {*a} -> {*æ} || _ [EnglishStarConsonant - EnglishStarNasal]
+];
+```
+
+This earlier contribution is preserved without identifying it with the
+entire unstressed history. The later syllabic rule also fronts surviving
+unstressed vowels before heterosyllabic nasals; an exception before every
+nasal would therefore be too broad [@Campbell1959, pp. 140--141].
+
+### Retained final-vowel representation
+
+```foma
+define EAFBrighteningLongFinal [
+    {*ā} -> {*ǣ} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ .#.
+];
+```
+
+In *ræste* ‘rest’, this helper receives the length-preserved outcome of
+[SC042 PWGmcSurvivingBimoricOUnrounding](#rule-PWGmcSurvivingBimoricOUnrounding).
+The preceding-nucleus guard excludes stressed monosyllabic *hwā* ‘who’.
+Later shortening and merger complete the ending; the carried long vowel
+does not establish a separate dated long-a law
+[@RingeTaylor2014, pp. 58--59, 299--300; @Campbell1959, p. 49, §125].
 
 \newpage
 
@@ -2731,7 +2861,9 @@ conditioned [@Campbell1959, pp. 54, 166, §§139, 405--406;
 @RingeTaylor2014, pp. 168--169, 213--214, §§6.2.1--6.2.3, 6.4.1--6.4.2;
 @Fulk2018, pp. 73--74, §4.13].
 
-Breaking has the fuller handbook treatment, while velar-fricative palatalization follows it locally in the *feoh* 'cattle' and *feohtan* 'fight' type derivations.
+Breaking has the fuller handbook treatment. The *feoh* 'cattle' and
+*feohtan* 'fight' type derivations preserve its velar-fricative trigger;
+they do not subsequently undergo velar-fricative palatalization.
 
 ## SC044. Breaking before \emph{h}, \emph{rC}, and \emph{lC} (`OEBreaking`) {#rule-OEBreaking}
 
@@ -2741,23 +2873,41 @@ define OEBreaking OEBreakingA
     .o. OEBreakingI;
 ```
 
-Breaking must encounter the vowel created by brightening and must precede the fricative change seen in *feoh* ‘fee’ and *feohtan* ‘fight’. Before [SC043 EAFBrightening](#rule-EAFBrightening), PGmc [sláxaną]{.recon} ‘slay’ yields \emph{sleaan | slēaan} rather than expected OE *slēan* ‘slay’. After [SC045 OEVelarFricativePalatalization](#rule-OEVelarFricativePalatalization), PGmc [féxu]{.recon} ‘cattle’ yields [*fehu*]{.pred} rather than expected OE *feoh*, and PGmc [féxtaną]{.recon} ‘fight’ yields [*fehtan*]{.pred} rather than expected *feohtan*. The two feeding relations place breaking between brightening and velar-fricative palatalization.
+Breaking must encounter the vowel created by brightening and must precede
+the rule that would otherwise palatalize its velar trigger in *feoh*
+'cattle' and *feohtan* 'fight'. Before [SC043 EAFBrightening](#rule-EAFBrightening), PGmc [sláxaną]{.recon} ‘slay’ yields \emph{sleaan | slēaan} rather than expected OE *slēan* ‘slay’. After [SC045 OEVelarFricativePalatalization](#rule-OEVelarFricativePalatalization), PGmc [féxu]{.recon} ‘cattle’ yields [*fehu*]{.pred} rather than expected OE *feoh*, and PGmc [féxtaną]{.recon} ‘fight’ yields [*fehtan*]{.pred} rather than expected *feohtan*. The fronting relation feeds breaking. The fee/fight relation instead protects
+breaking's velar trigger from premature palatalization: those forms are
+displacement negatives, not live
+[SC045 OEVelarFricativePalatalization](#rule-OEVelarFricativePalatalization)
+applications.
 
 ## \CAPRRuleHeading{SC045. Palatalization of velar fricatives beside front vowels}{OEVelarFricativePalatalization} {#rule-OEVelarFricativePalatalization}
 
 ```foma
 define OEVelarFricativePalatalization [
     {*x} -> {*ç} || _ EnglishStarFrontVowel,
-    {*ɣ} -> {*j} || _ EnglishStarFrontVowel,
     {*x} -> {*ç} || EnglishStarFrontVowel _,
-    {*ɣ} -> {*j} || EnglishStarFrontVowel _,
-    {*x} -> {*ç} || _ {*j},
-    {*ɣ} -> {*j} || _ {*j}
+    {*x} -> {*ç} || _ {*j}
 ]
     .o. EnglishStarAlphabet*;
 ```
 
-The local chronology comes from *feoh* 'cattle' and *feohtan* 'fight'. Before [SC044 OEBreaking](#rule-OEBreaking), palatalization of \emph{*x} and \emph{*ɣ} beside front vowels or \emph{*j} makes PGmc [féxu]{.recon} ‘cattle’ yield [*fehu*]{.pred} rather than expected OE *feoh*, and PGmc [féxtaną]{.recon} ‘fight’ yield [*fehtan*]{.pred} rather than expected *feohtan*. The distant upper limit comes from *six* 'six': after [SC060 OEWsPalatalUmlaut](#rule-OEWsPalatalUmlaut), PGmc [séxs]{.recon} ‘six’ yields [*sihs*]{.pred} rather than expected OE *six*. Breaking therefore feeds velar-fricative palatalization directly, while palatal umlaut supplies only the broader upper limit.
+The live population concerns voiceless x, as in *hēafod* 'head' and
+*heofon* 'heaven', not voiced-fricative merger. In *feoh* 'cattle' and
+*feohtan* 'fight', breaking removes the original front-vowel context:
+they do not change at this rule in the live derivation. Moving the rule
+before [SC044 OEBreaking](#rule-OEBreaking) instead consumes its velar
+trigger, yielding [*fehu*]{.pred} and [*fehtan*]{.pred}. This is
+counterbleeding protection, not direct feeding.
+
+The distant *six* 'six' displacement test supplies only a broader
+constraint: after [SC060 OEWsPalatalUmlaut](#rule-OEWsPalatalUmlaut),
+PGmc [séxs]{.recon} ‘six’ yields [*sihs*]{.pred} rather than expected
+OE *six*. Neither test dates voiced g. Its articulation and disputed
+merger are separately treated under
+[SC052 OEVelarPalatalization](#rule-OEVelarPalatalization) and
+[SC109 OEPalatalFricativeMerger](#rule-OEPalatalFricativeMerger)
+[@RingeTaylor2014, pp. 203--204; @Fulk2018, pp. 130--132].
 
 \newpage
 
@@ -2922,55 +3072,56 @@ Five witnesses establish the upper boundary collectively. The palatal cluster mu
 
 \newpage
 
-# Velar palatalization before front vowels
+# Class-distinct velar palatalization and fricative merger
 
 ## Historical discussion
 
-Luick places the change inside a broad early palatalizing movement. Under the
-heading “Frühe Verschiebungen in palataler Richtung,” he treats English `k` and
-`g` before bright vowels together with the larger field of palatal effects
-[@Luick1914, p. 157, §168]. His emphasis falls on the environment first: velars
-before bright vowels and in the vicinity of the palatal glide belong to one
-early phonological sequence. The examples associated with that sequence, such as
-*ceaster* ‘town’, *geaf* ‘gave’, *giefan* ‘give’, and *giest* ‘guest’, already
-show that consonantal palatalization and later vowel effects stand close
-together historically, even when they must be distinguished analytically
-[@Luick1914, pp. 157--167, §§168--182].
+Singleton g, including initial g, was a fricative when palatalization
+occurred; gg and postnasal g were stops. Palatal articulation, productive
+cutoff, merger and later affrication are therefore separate questions
+[@Fulk2018, pp. 130--132; @Laker2007, pp. 166--168, 175--184].
+The dotted spelling in *dæġ* 'day' cannot establish an early affricate or
+identify every palatal consonant with inherited j.
 
-Campbell narrows the picture by distinguishing plain velars from the especially
-palatal-prone `sk` cluster. His remark that “[sk] is more prone to
-palatalization and assibilation than [k]” is brief, but it makes clear that
-different members of the larger palatal field need not behave identically
-[@Campbell1959, p. 278, §440]. Elsewhere in the same part of the grammar he uses
-forms such as *cild* ‘child’, *dæg* ‘day’, *giefan* ‘give’, and *giest*
-‘guest’, which show how palatalized velars, palatal influence, and later
-umlautal outcomes meet in the same region of the lexicon without collapsing
-into one process [@Campbell1959, pp. 69--72, 89, §§170, 190--191].
+The adopted working account keeps a palatal fricative ʝ distinct from j
+during mutation, then merges it with j. Ringe and Taylor explicitly propose
+this chronology [@RingeTaylor2014, pp. 203--204]. It is not unanimous:
+Hogg objects to the phonetic plausibility of delayed merger and leaves the
+key/day contradiction unresolved [@Hogg1979, pp. 102--111].
+We prefer the regular class-distinct account because it explains the
+contrasting mutation triggers without lexical or grammatical conditions.
+The objection remains substantive, not silently superseded by a matching
+final spelling.
 
-Hogg makes the conditioning sharper still. He states that the change takes place
-when the velar consonant is adjacent to and in the same syllable as a front
-vowel or the palatal consonant `j` [@HoggPhonology1992, p. 106]. This formulation
-replaces a broad list of palatal outcomes with a phonological environment
-defined by adjacency and syllable structure.
+Eligibility also requires attribution. Ringe and Taylor's medial-g table
+is narrower than Fulk's before-front-vowel description
+[@RingeTaylor2014, pp. 203--204; @Fulk2018, pp. 130--132].
+The present fricative implementation retains its broader domain; this
+merger decision is not a covert adoption of the narrower table.
 
-Ringe and Taylor make the chronological relation still clearer. When they write
-that “after initial velars and \emph{*sk} had been palatalized” West-Saxon
-diphthongization follows, plain velar palatalization becomes an earlier
-consonantal stage presupposed by later vowel developments
-[@RingeTaylor2014, p. 215, §6.5.1]. Their own examples of the plain-velar rule,
-such as \emph{weccan} ‘wake’, \emph{licgan} ‘lie’, \emph{lecgan} ‘lay’,
-\emph{secg} ‘retainer’, \emph{ecg} ‘edge’, \emph{wicg} ‘horse’, and
-\emph{brycg} ‘bridge’, illustrate the same point in lexical detail: front
-vowels and `j` create the palatal environment in which plain `k` and `g` cease
-to behave as plain velars [@RingeTaylor2014, pp. 213--214, §6.4.1].
+## SC052. Singleton-fricative articulation (`OEGFricativePalatal`) {#rule-OEGFricativePalatal}
 
-Luick describes a broad early movement; Campbell distinguishes plain velars
-from the `sk` complex; Hogg specifies the adjacency and syllable conditions;
-and Ringe and Taylor order the plain-velar change before West-Saxon
-diphthongization. Plain-velar palatalization thus forms part of a wider
-palatalizing environment without being identical to its neighboring changes.
+```foma
+define OEGFricativePalatal [
+    [{*g}|{*ɣ}] -> {*ʝ} ||
+        [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]]
+        _ EnglishStarFrontVowel,
+    [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ .#.,
+    [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel
+        _ [EnglishStarConsonant - [{*j}|{*g}]]
+] .o. [
+    [{*g}|{*ɣ}] -> {*ʝ} ||
+        [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ {*j}
+];
+```
 
-## \CAPRRuleHeading{SC052. Palatalization of \emph{*k} before front vowels and \emph{*j}}{OEVelarPalatalizationKFront} {#rule-OEVelarPalatalizationKFront}
+The guards keep gg/ng in their stop paths. The value ʝ is a real phonetic
+class, not a tag recording a consonant's ancestry. It is transparent to a
+following mutation trigger, but is not itself j at that date.
+The source comparison normalizes older fricative notation to modern ɣ/ʝ,
+never to the digit 3 [@Hogg1979, p. 105; @RingeTaylor2014, p. 204].
+
+## \CAPRRuleHeading{SC052. K articulation and eventual reflex}{OEVelarPalatalizationKFront} {#rule-OEVelarPalatalizationKFront}
 
 ```foma
 define OEVelarPalatalizationKFront [
@@ -2985,17 +3136,27 @@ define OEVelarPalatalizationKFront [
     {*k} {*k} -> {*ʧ} {*ʧ} || _ {*j}
 ] .o. [
     {*k} -> {*ʧ} || _ {*j}
-] ;
+];
 ```
 
-The *weccan* ‘wake’, *licgan* ‘lie’, and *lecgan* ‘lay’ set identifies front vowels and `j` as the environment for palatalization of `k` [@RingeTaylor2014, pp. 213--214, §6.4.1]. These forms establish the conditioning; different witnesses establish the chronology.
+Here ʧ is a telescoped eventual-reflex proxy, not a claim that early
+palatal stops were already affricates. Ringe and Taylor explicitly separate
+the initial palatal stop from subsequent affrication and its syncope
+dependencies [@RingeTaylor2014, pp. 203--204].
+The *weccan* 'wake', *licgan* 'lie' and *lecgan* 'lay' examples concern
+inherited j-clusters, not independent proof of every plain-velar conditioner
+[@RingeTaylor2014, pp. 213--214].
 
-Applied before Sievers-law syncope, PGmc [strákkijaną]{.recon} ‘stretch’ yields [*strecċan*]{.pred} rather than expected OE *streċċan* ‘stretch’. Applied after i-umlaut fronting, PGmc [kūi]{.recon} ‘cow’ and [lúnganjō]{.recon} ‘lungs’ yield *ċȳ* 'cows' and *lunġen* 'lungs' rather than expected OE *cȳ* 'cows' and *lungen* 'lungs'. The front-vowel `k` change therefore follows Sievers-law syncope and precedes i-umlaut fronting.
+The deterministic kk-before-j path protects *streċċan* 'stretch'.
+The original-front versus secondary-front distinction is more directly
+tested by unrounded key than by rounded *cȳ* 'cow'; rounding alone can
+give only a cutoff before later unrounding
+[@Hogg1979, pp. 100--105; @Laker2007, pp. 167--168].
 
-## \CAPRRuleHeading{SC052. Velar palatalization before front vowels}{OEVelarPalatalization} {#rule-OEVelarPalatalization}
+## SC052. Retained stop paths (`OEVelarPalatalizationStops`) {#rule-OEVelarPalatalizationStops}
 
 ```foma
-define OEVelarPalatalization [
+define OEVelarPalatalizationStops [
     OEVelarPalatalizationKFront
 ] .o. [
     {*g} -> {*ʤ} || _ EnglishStarFrontVowel,
@@ -3008,11 +3169,69 @@ define OEVelarPalatalization [
 ];
 ```
 
-Plain `k` and `g` palatalization in front-vocalic and `j`-adjacent environments follows `sk`-palatalization and occupies a sharply defined pre-umlaut interval. Applied before Sievers-law syncope, PGmc [strákkijaną]{.recon} ‘stretch’ yields [*strecċan*]{.pred} rather than expected OE *streċċan* ‘stretch’. Applied after general i-umlaut, PGmc [kūi]{.recon} ‘cow’ yields [*ċȳ*]{.pred} rather than expected *cȳ* ‘cows’, and PGmc [lúnganjō]{.recon} ‘lungs’ yields [*lunġen*]{.pred} rather than expected *lungen* ‘lungs’. These witnesses place velar palatalization after Sievers-law syncope and before umlaut.
+Singleton fricatives have already left this domain. The remaining gg/ng
+paths use ʤ as an eventual-reflex proxy; the initial singleton fricative
+is no longer represented as an early affricate. *Wicg* 'horse' is a
+geminate-class illustration, *senġan* 'singe' a postnasal control, and
+*lungen* 'lung' the unchanged back-vowel negative
+[@RingeTaylor2014, pp. 203--204, 213--214; @Fulk2018, pp. 131--132].
 
-Luick, Campbell, and Ringe and Taylor place *cild* ‘child’ and *dæg* ‘day’ in a consonantal palatalization that precedes later vowel fronting [@Luick1914, p. 157, §168; @Campbell1959, p. 278, §440; @RingeTaylor2014, pp. 203--215, §§6.4.1, 6.5.1]. The umlautal developments therefore receive plain `k` and `g` already reshaped beside front vowels and `j`.
+## SC052. Combined articulation (`OEVelarPalatalization`) {#rule-OEVelarPalatalization}
 
-The `sk` change belongs to the same palatalizing region with a separate scope. The *streċċan* ‘stretch’ evidence establishes a specific dependency on earlier syncope; it does not merge the two changes into one process.
+```foma
+define OEVelarPalatalization [
+    OEGFricativePalatal .o. OEVelarPalatalizationStops
+];
+```
+
+The combined operation does not give every class one sharply dated
+palatalization/affrication/merger event. It supplies the class distinctions
+needed by ordinary palatal diphthongization and mutation.
+The common-stem onset remains a separate question
+[@Luick1914, pp. 835--841; @Fulk2018, pp. 130--132].
+
+### Key and day at the mutation checkpoint
+
+Hogg's oblique comparison starts here from pre-palatal, pre-OE
+\emph{*kājæ} and \emph{*dæɣæ}; neither is silently fed through a PGmc
+prefix [@Hogg1979, p. 105]. The source target is *cǣġe* 'key',
+with velar initial k, versus *dæġe* 'day'.
+
+| Checkpoint | Key | Day under the adopted account |
+|---|---|---|
+| Before palatalization | \emph{*kājæ} | \emph{*dæɣæ} |
+| Before mutation | Inherited j remains | Palatal ʝ is distinct from j |
+| After mutation | \emph{*kǣjæ}, without new initial palatalization | \emph{*dæʝæ}, without æ-raising |
+| After merger and native realization | *cǣġe* | *dæġe* |
+
+Premature merger instead predicts pre-OE [\emph{*dejæ}]{.pred} under
+these premises. The experiment tests that source-based contrast; the
+existing day nominative is not the oblique discriminator
+[@Hogg1979, pp. 105--110; @RingeTaylor2014, p. 204].
+
+The complete key suffix additionally requires
+[SC082 OEIntervocalicJVocalization](#rule-OEIntervocalicJVocalization)
+to retain j after its non-high long front vowel. A correct mutation
+checkpoint followed by model-only [*cǣie*]{.pred} would not constitute a
+correct native derivation [@Hogg1979, p. 105].
+
+## \CAPRRuleHeading{SC109. Postmutation merger serialization}{OEPalatalFricativeMerger} {#rule-OEPalatalFricativeMerger}
+
+```foma
+define OEPalatalFricativeMerger [
+    {*ʝ} -> {*j}
+];
+```
+
+The historical commitment is merger after mutation
+[@RingeTaylor2014, p. 204]. Its execution after
+[SC089 OELateUnstressedAgSuffix](#rule-OELateUnstressedAgSuffix)
+is a computational holding zone, not proof of an exact historical date.
+It keeps the fricative out of inherited-j normalization while preserving
+late palatal raising, syllable weight, reduction and native rendering.
+[SC057 OEJClusterCoalescence](#rule-OEJClusterCoalescence) remains a
+different cluster process. Stop affrication dates and the precise
+disputed eligibility domain are not settled by this merger.
 
 \newpage
 
@@ -3135,12 +3354,12 @@ remains unresolved.
 
 ```foma
 define OEWsPalatalDiphthongization [
-    {*æ} -> {*ea} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*e} -> {*ie} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*ē} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*é} -> {*íe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
-    {*ḗ} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
+    {*æ} -> {*ea} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*e} -> {*ie} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*ē} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*é} -> {*íe} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.],
+    {*ḗ} -> {*īe} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
 ];
 ```
 
@@ -3274,7 +3493,7 @@ serialization, not a date for every historical palatal process.
 
 ```foma
 define OELatePalatalDiphthong [
-    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
+    {*ǣ} -> {*ēa} || .#. [{*ʧ} | {*ʤ} | {*ʝ} | {*ʃ} | {*j}] _ [EnglishStarConsonant | EnglishPalatalConsonant | .#.]
 ];
 ```
 
@@ -3317,8 +3536,13 @@ forms such as *fylġan* ‘follow’,
 *heċġ* ‘hedge’, and *sengan* ‘singe’ fail in the same broader palatalization
 zone. PGmc [báugijaną]{.recon} 'bow' yields [*bēaġan*]{.pred} rather than expected OE *bīeġan*,
 and PGmc [sōkijaną]{.recon} 'seek' yields [*sōċan*]{.pred} rather than expected *sēċan*. This
-demonstrates that velar palatalization preceded coalescence. Nothing in the
-present lexicon supplies a terminus ante quem.
+constrains this computational cluster consumer. It does not independently
+date all singleton-fricative articulation or merger: the latter is distinct
+from this rule and is now explicit under
+[SC109 OEPalatalFricativeMerger](#rule-OEPalatalFricativeMerger)
+[@RingeTaylor2014, p. 204; @Laker2007, pp. 167--168].
+Nothing in the present lexicon supplies a terminus ante quem for the
+cluster consumer.
 
 \newpage
 
@@ -3988,7 +4212,7 @@ Moving the rule before [SC079 OEJLossAfterHeavy](#rule-OEJLossAfterHeavy) makes 
 [SC081 OEJStrengtheningAfterFrontDiphthong](#rule-OEJStrengtheningAfterFrontDiphthong)
 preserves a consonantal outcome after front diphthongs.
 [SC082 OEIntervocalicJVocalization](#rule-OEIntervocalicJVocalization) then
-vocalizes the remaining intervocalic \emph{*j}, and
+normalizes part of the inherited intervocalic \emph{*j} domain, and
 [SC083 OEUnstressedEIContraction](#rule-OEUnstressedEIContraction) removes the
 resulting \emph{ei}-like sequence in weak verbal endings.
 
@@ -4016,18 +4240,34 @@ The earlier constraint reaches back to [SC055 OEIUmlaut](#rule-OEIUmlaut) and
 therefore defines a wide interval. The *strīeġan* 'strew' derivation fixes the local
 relation to [SC082 OEIntervocalicJVocalization](#rule-OEIntervocalicJVocalization).
 
-## \CAPRRuleHeading{SC082. Intervocalic vocalization of \emph{*j}}{OEIntervocalicJVocalization} {#rule-OEIntervocalicJVocalization}
+## \CAPRRuleHeading{SC082. Bounded inherited-j normalization}{OEIntervocalicJVocalization} {#rule-OEIntervocalicJVocalization}
 
 ```foma
 define OEIntervocalicJVocalization [
-    {*j} -> {*i} || EnglishStarVocalic _ EnglishStarVocalic
+    {*j} -> {*i} ||
+        [EnglishStarVocalic - [{*ǣ}|{*ē}|{*ḗ}]] _ EnglishStarVocalic
 ];
 ```
 
-The rule vocalizes intervocalic \emph{*j} to \emph{*i}, creating the
-\emph{ei}-like sequence later removed by
-[SC083 OEUnstressedEIContraction](#rule-OEUnstressedEIContraction) in many weak
-verb forms.
+The former unrestricted VjV matcher wrongly gave model-only
+[*cǣie*]{.pred} instead of *cǣġe* 'key'. Hogg's pre-OE
+\emph{*kǣjæ} retains the glide [@Hogg1979, p. 105]. The bounded rule
+therefore excludes preceding non-high long front monophthongs.
+
+This is not a generic physical vocalization law. Hogg distinguishes
+high-vowel coalescence from spellings that merely represent a consonantal
+glide and from unstressed alternations
+[@HoggGrammar2011, pp. 283--286, §§7.69--7.76].
+The remaining weak-suffix e+j to e+i to i path telescopes later
+raising/contraction, rather than asserting that its e+i intermediate is a
+source reconstruction [@RingeTaylor2014, p. 228].
+[SC083 OEUnstressedEIContraction](#rule-OEUnstressedEIContraction)
+consumes that modeled sequence. The full residual proxy domain is not
+claimed to be one independently established historical event.
+
+The separately represented fricative ʝ passes through this zone without
+being treated as inherited j. Its later merger belongs to
+[SC109 OEPalatalFricativeMerger](#rule-OEPalatalFricativeMerger).
 
 Moving the rule before [SC081 OEJStrengtheningAfterFrontDiphthong](#rule-OEJStrengtheningAfterFrontDiphthong) makes PGmc [stráwjaną]{.recon} ‘strew’ yield [*strīeian*]{.pred} rather than expected OE *strīeġan* ‘strew’. Delaying it until after [SC083 OEUnstressedEIContraction](#rule-OEUnstressedEIContraction) makes PGmc [búrōjaną]{.recon} ‘bore’ yield [*boreian*]{.pred} rather than expected OE *borian* ‘bore’, PGmc [xándlōjaną]{.recon} ‘handle’ yield [*handleian*]{.pred} rather than expected *handlian* ‘handle’, and PGmc [mákōjaną]{.recon} ‘make’ yield [*maceian*]{.pred} rather than expected *macian* ‘make’. The witness forms require [SC082 OEIntervocalicJVocalization](#rule-OEIntervocalicJVocalization) to follow [SC081 OEJStrengtheningAfterFrontDiphthong](#rule-OEJStrengtheningAfterFrontDiphthong) and precede [SC083 OEUnstressedEIContraction](#rule-OEUnstressedEIContraction).
 
@@ -4160,6 +4400,48 @@ Moving the rule before [SC044 OEBreaking](#rule-OEBreaking) makes PGmc [bréstan
 The lexical evidence fixes the earlier relation but does not identify a corresponding
 later constraint. The sources treat r-metathesis as a late rearrangement after
 breaking without placing it immediately beside contraction.
+
+\newpage
+
+# Late unstressed suffix raising
+
+## Historical discussion
+
+The late history of unstressed \emph{*-ag-} differs from prehistoric
+i-mutation. Ringe and Taylor give the sequence through fronting and
+raising to \emph{-ig-}, explicitly placing its final stage long after
+mutation. Their examples include *huniġ* 'honey'; a velar intermediate
+can survive before a back vowel [@RingeTaylor2014, pp. 334--335, §6.9.6].
+These are the printed pages, not the PDF sheet labels.
+
+## SC089. Late suffix consumer (`OELateUnstressedAgSuffix`) {#rule-OELateUnstressedAgSuffix}
+
+```foma
+define OELateUnstressedAgSuffix (
+    [{*a} -> {*e} ||
+        EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ {*g}]
+    .o.
+    [{*g} -> {*ʝ} ||
+        EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ {*e} _ .#.]
+    .o.
+    [{*e} -> {*i} ||
+        EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [{*ʝ}|{*ʤ}]]
+);
+```
+
+The singleton consonant is a palatal fricative, not an early affricate
+[@Fulk2018, pp. 130--132]. The raising consumer therefore recognizes ʝ
+alongside retained stop-reflex compatibility. This does not make ʝ a
+prehistoric mutation trigger: later raising and earlier i-mutation have
+different conditioning histories.
+
+The present late applications are *huniġ* 'honey' and *wīþiġ* 'withy'.
+The word-final guard remains narrow; this implementation is not an
+exhaustive model of every inflected suffix form.
+[SC109 OEPalatalFricativeMerger](#rule-OEPalatalFricativeMerger) follows
+here as a disclosed serialization, not proof of a uniquely dated historical
+merger immediately after this raising
+[@RingeTaylor2014, p. 204, pp. 334--335].
 
 \newpage
 

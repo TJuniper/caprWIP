@@ -5,6 +5,7 @@ Generator: `Germanic/tools/generate_registry_views.py`.
 
 | SC | Display name | Lifecycle | Verdict | Memo |
 | --- | --- | --- | --- | --- |
+| SC004 | English stressed ai contraction | active | REFORMULATE | `Germanic/docs/sound_changes/audits/sc004-adjudication.md` |
 | SC016 | OE Ws Palatal Glide | active | REFORMULATE/REORDER | `Germanic/docs/sound_changes/audits/sc016-017-adjudication.md` |
 | SC017 | Proto-Northwest Germanic U Lowering | active | RETAIN | `Germanic/docs/sound_changes/audits/sc016-017-adjudication.md` |
 | SC020 | West Germanic final *z*-deletion | active | SPLIT | `Germanic/docs/sound_changes/audits/sc020-three-rule-adjudication.md` |
@@ -19,7 +20,12 @@ Generator: `Germanic/tools/generate_registry_views.py`.
 | SC029 | Pre-OE resolution of *awj to *auj | active | RETAIN | `Germanic/docs/sound_changes/audits/sc029-sc030-awj-resolution-and-au-fronting-adjudication.md` |
 | SC030 | English brightening of *au to *æu | active | RETAIN | `Germanic/docs/sound_changes/audits/sc029-sc030-awj-resolution-and-au-fronting-adjudication.md` |
 | SC031 | Inherited short-Vww reanalysis | active | SPLIT/REORDER | `Germanic/docs/sound_changes/audits/sc031-glide-reanalysis-adjudication.md` |
+| SC043 | Ordinary English stressed a-fronting | active | REFORMULATE/SPLIT | `Germanic/docs/sound_changes/audits/sc043-adjudication.md` |
+| SC045 | Voiceless velar-fricative palatal articulation | active | RESTRICT/SPLIT | `Germanic/docs/sound_changes/audits/sc045-adjudication.md` |
+| SC052 | Class-distinct English velar palatalization | active | REFORMULATE/SPLIT | `Germanic/docs/sound_changes/audits/sc052-adjudication.md` |
 | SC056 | Ordinary West Saxon palatal diphthongization | active | SPLIT/REORDER | `Germanic/docs/sound_changes/audits/sc056-ordinary-palatal-diphthongization-adjudication.md` |
+| SC082 | Bounded inherited-j normalization | active | RESTRICT/REFORMULATE | `Germanic/docs/sound_changes/audits/sc082-adjudication.md` |
+| SC089 | Late unstressed ag-suffix raising | active | REFORMULATE | `Germanic/docs/sound_changes/audits/sc089-adjudication.md` |
 | SC098 | Early apocope in unstressed words | active | REFORMULATE | `Germanic/docs/sound_changes/audits/sc098-context-apocope-adjudication.md` |
 | SC101 | EAF Long A Fronting | active | SPLIT/RESTRICT | `Germanic/docs/sound_changes/audits/sc024-sc025-sc101-e1-complex-adjudication.md` |
 | SC102 | EAF Generalization of Hiatus-Breaking W | active | SPLIT | `Germanic/docs/sound_changes/audits/sc024-sc025-sc101-e1-complex-adjudication.md` |

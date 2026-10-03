@@ -134,6 +134,10 @@ directions:
 
 ## 11. P component specification: class, cutoff and representation
 
+Section 11 is the historical pre-gift packet (base 67a18cfb). Its gift
+e-input and former blanket deferral are not current production facts.
+The post-SC043 specification below is the current bounded investigation.
+
 ### Identity and falsifiable question
 
 SOURCE-only research packet, 2026-10-03, branch `update`, base `67a18cfb`.
@@ -141,7 +145,7 @@ SOURCE-only research packet, 2026-10-03, branch `update`, base `67a18cfb`.
 the incumbent rule remain unchanged. The comparative authority is the
 Anglo-Frisian synthesis §8.6. No canonical verdict is asserted.
 
-Question: can the current k/g marker bundle distinguish productive initial
+Question: could that k/g marker bundle distinguish productive initial
 cutoff, fricative articulation/merger and stop-class assibilation? Confirmation
 requires source-matched original-front positives, mutation-created negatives,
 and separately staged fricative/stop inputs. A dotted spelling or common
@@ -270,3 +274,88 @@ stage/scope/edge, selected input and representation interface. No corpus
 addition is approved. Parent owns regeneration and reader synchronization.
 Remaining uncertainty is exact class eligibility and timing, not whether
 OE palatalization occurred; this packet does not promise its resolution.
+
+## 12. Post-SC043 class specification and declared comparison
+
+This supersedes section 11's proposed blanket deferral. Baseline source is
+`c51b8e4077194f4cc6f65e54a0c8a899366b5570152c6415cba117907d1a225c`;
+the fresh SC052 evidence recompiled all stages and verified all 387
+production/sandbox finals. There are seven k rows and 25 g rows. Of the
+latter, hedge2069 is gg, singe2191 and string2228 are postnasal stops;
+the remaining 22 are singleton-fricative paths. Initial singleton g is
+not an early affricate [@Fulk2018, pp. 130-132; @Laker2007, pp. 166-168].
+
+| Layer | Source-supported account | Comparison and qualification |
+| --- | --- | --- |
+| Singleton fricative articulation | Distinct from gg/ng stops; initial g is also fricative [@Fulk2018, pp. 130-132] | Real palatal-fricative value ʝ, not an origin tag or early affricate. |
+| Stop articulation/reflex | Palatal stops and later affrication are different layers [@Fulk2018, pp. 131-132; @Laker2007, pp. 166-168] | Existing ʧ/ʤ remain explicitly telescoped eventual-reflex proxies for stop paths; their appearance does not date early affrication. No downstream behavior yet requires another stop symbol. |
+| Medial eligibility | Ringe-Taylor's position table is narrower than Fulk's broad fricative account [@RingeTaylor2014, pp. 203-204; @Fulk2018, pp. 130-132] | Retain incumbent broad eligibility for this class comparison; do not disguise a changed domain as a merger result. |
+| Merger/trigger status | Ringe-Taylor explicitly proposes merger with inherited j after mutation [@RingeTaylor2014, p. 204] | Preferred regular account, not an invention or Hogg's endorsed conclusion. |
+| Rival objection | Hogg argues for early phonemic identity, objects to delayed merger and leaves the contradiction unresolved [@Hogg1979, pp. 102-111] | Keep the phonetic objection; early written-period merger does not independently establish pre-mutation merger. |
+| x and sk | Different consonantal histories, not tests of voiced-fricative merger [@Fulk2018, pp. 130-132; @RingeTaylor2014, pp. 203-214] | Preserve their actual populations; the 24 SC045 applications are x, not literal voiced-g inputs. |
+
+### Author stages and diagnostic predictions
+
+Hogg's printed p.105 gives Germanic *kaijai -> pre-palatal *kājæ ->
+*kǣjæ -> cǣġe, and *dagai -> pre-palatal *dæɣæ. Source yogh-like
+notation is explicitly normalized here to modern [ɣ]/[ʝ], never digit 3.
+The latter becomes *dæʝæ under the delayed-merger account and must retain
+its root æ at mutation. Early merger instead supplies *dæjæ and predicts
+*dejæ. The existing day nominative is not this oblique discriminator.
+These are trusted suffix/checkpoint inputs, not new PGmc rows.
+
+Ringe-Taylor p.212 separately gives the PWGmc dative long-ending
+convention (*dagē in normalized notation); p.299 discusses later
+shortening. The recipe's long-front ending is a hypothetical interface
+control prompted by that convention, not a claimed diplomatic author
+checkpoint. It is kept distinct from Hogg's short ending.
+
+The class assay protects source-derived wicg's gg class, actual
+singe/string, lung's back-vowel negative, initial original-front k,
+unrounded mutation-front key, stretch/seek and inherited-j versus new
+fricative triggering. Its private alphabet extends the shared palatal
+class, including mutation interveners and weight/reduction consumers.
+Initial diphthongization and late unstressed raising are wired explicitly.
+
+Three variants use identical eligibility: class representation with old
+proxy restoration, delayed merger, and the early-merger counterfactual.
+The first isolates representation from merger behavior. The preferred
+merger's late pre-orthography holding zone is a computational serialization
+after mutation, not evidence for one exact historical date. In particular,
+the inherited-j vocalization proxy must not silently delete a newly
+represented fricative before its proposed merger.
+
+There is a separate predicted consumer discrepancy: the incumbent
+SC082 vocalizes inherited j between every pair of vowels, whereas Hogg's
+key derivation preserves it. The declared native diagnostic predicts the
+model-only cǣie and must not be advertised as the source target cǣġe.
+The mutation checkpoint isolates the genuine palatalization question;
+the full inherited-j consumer defect is recorded separately, not hidden
+by an origin tag, grammatical exception or invented new ancestry.
+
+## 13. Executed comparison and adopted disposition
+
+The protected `p-coupled` comparison passes all 387 selected finals,
+17 component checks and five staged checks, without changed inputs,
+missing/ambiguous output or canonical mutation. Key reaches *kǣjæ at
+mutation and cǣġe natively; day reaches *dæʝæ and dæġe. Class control
+also preserves every final but retains the old key-consumer defect.
+Early merger changes 15 corpus rows (1943,1945,1985,2027,2050,2079,2130,
+2147,2148,2163,2164,2243,2267,2277,2296), producing *dejæ at day mutation.
+The seven old mismatches remain separate from those counterfactual changes.
+
+SC052 now adopts real singleton ʝ versus retained gg/ng stop-reflex
+proxies, with postmutation merger explicitly exposed by SC109. Broad
+incumbent eligibility remains the attributed Fulk-compatible working
+choice, not a claimed agreement with Ringe–Taylor's narrower table
+[@Fulk2018, pp.130–132; @RingeTaylor2014, pp.203–204].
+Hogg's objection is retained [@Hogg1979, pp.102–111].
+The late merger position is serialization, not proof of exact dating.
+
+Separate memos own SC045's removed unused early voiced branch, SC082's
+bounded long-front exclusion, and SC089's fricative-aware late raising.
+The latter's true source pages are Ringe–Taylor pp.334–335, not sheet
+labels 349–350. SC082's remaining weak-suffix normalization is telescoped
+[@RingeTaylor2014, p.228; @HoggGrammar2011, pp.283–286].
+No selected reconstruction, context, target, corpus membership or baseline
+is changed; no new lexical exceptions or origin markers are introduced.

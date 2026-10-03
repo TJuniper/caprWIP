@@ -1,0 +1,866 @@
+{
+  "schema_version": 1,
+  "baseline_fst_sha256": "c51b8e4077194f4cc6f65e54a0c8a899366b5570152c6415cba117907d1a225c",
+  "baseline_corpus_sha256": "358549ed343c2640bda2374f7275667de80394f3f431e8c1d0f9534756a6e99e",
+  "baseline_context_sha256": "6a69a8d450a0ad5898bed7150136dc70e5731422c29803608825cdefc6b0f914",
+  "baseline_context_helper_sha256": "b770b83ffc2bd863c9cd5dec6bcae67ecda60efe8ce0af7fa8cdf136e077b961",
+  "fixture_file": "oe_palatal_class_fixtures.tsv",
+  "recipes": [
+    {
+      "id": "identity",
+      "description": "Post-SC043 full production identity.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [],
+      "assumptions": "Technical wrapper control.",
+      "limitations": "No historical inference."
+    },
+    {
+      "id": "sc043-controls",
+      "description": "Retained fronting bodies, nasal/quantity interfaces and full-corpus identity.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [
+        {
+          "key": "Campbell1959",
+          "pages": "49,52-53,140-141"
+        },
+        {
+          "key": "RingeTaylor2014",
+          "pages": "58-59,299-300"
+        }
+      ],
+      "assumptions": "Hypothetical component controls are not admissions or chronology witnesses.",
+      "limitations": "No independent date is inferred for retained support stages.",
+      "component_checks": [
+        {
+          "id": "ordinary-positive",
+          "component": "EAFBrightening",
+          "input": "*d*á*g",
+          "expected": "*d*æ*g"
+        },
+        {
+          "id": "nasal-negative",
+          "component": "EAFBrightening",
+          "input": "*l*á*n*d",
+          "expected": "*l*á*n*d"
+        },
+        {
+          "id": "stressed-final",
+          "component": "EAFBrightening",
+          "input": "*b*á",
+          "expected": "*b*æ"
+        },
+        {
+          "id": "unstressed-not-ordinary",
+          "component": "EAFBrightening",
+          "input": "*s*ú*m*a*r",
+          "expected": "*s*ú*m*a*r"
+        },
+        {
+          "id": "earlier-internal",
+          "component": "EAFBrighteningUnstressed",
+          "input": "*s*ú*m*a*r",
+          "expected": "*s*ú*m*æ*r"
+        },
+        {
+          "id": "earlier-nasal-exclusion",
+          "component": "EAFBrighteningUnstressed",
+          "input": "*b*á*r*a*n",
+          "expected": "*b*á*r*a*n"
+        },
+        {
+          "id": "bare-final-negative",
+          "component": "EAFBrighteningUnstressed",
+          "input": "*b*á*r*a",
+          "expected": "*b*á*r*a"
+        },
+        {
+          "id": "coda-nasal-protection",
+          "component": "OESecondaryNasalization",
+          "input": "*b*á*r*a*n",
+          "expected": "*b*á*r*ą*n"
+        },
+        {
+          "id": "protected-coda-not-fronted",
+          "component": "OEUnstressedFrontingEarly",
+          "input": "*b*á*r*ą*n",
+          "expected": "*b*á*r*ą*n"
+        },
+        {
+          "id": "heterosyllabic-nasal",
+          "component": "OEUnstressedFrontingEarly",
+          "input": "*b*á*r*a*n*a",
+          "expected": "*b*á*r*æ*n*a"
+        },
+        {
+          "id": "early-shortened-o",
+          "component": "OEEarlyOShortening",
+          "input": "*b*á*r*ō*n",
+          "expected": "*b*á*r*a*n"
+        },
+        {
+          "id": "late-shortened-o",
+          "component": "OELateOShortening",
+          "input": "*b*á*r*ō",
+          "expected": "*b*á*r*o"
+        },
+        {
+          "id": "rest-final-quantity",
+          "component": "EAFBrighteningLongFinal",
+          "input": "*r*æ*s*t*ā",
+          "expected": "*r*æ*s*t*ǣ"
+        },
+        {
+          "id": "rest-shortening",
+          "component": "OEUnstressedLongVowelShortening",
+          "input": "*r*æ*s*t*ǣ",
+          "expected": "*r*æ*s*t*æ"
+        },
+        {
+          "id": "who-negative",
+          "component": "EAFBrighteningLongFinal",
+          "input": "*x*w*ā",
+          "expected": "*x*w*ā"
+        }
+      ],
+      "staged_checks": [
+        {
+          "id": "rest-complete-suffix",
+          "stage": "EAFBrighteningUnstressed",
+          "side": "before",
+          "input": "*r*á*s*t*ā",
+          "expected": "ræste",
+          "evidence": "RingeTaylor2014 pp.58-59,299-300: carried model quantity, not an attested long intermediate."
+        },
+        {
+          "id": "who-complete-suffix",
+          "stage": "EAFBrighteningUnstressed",
+          "side": "before",
+          "input": "*x*w*ā",
+          "expected": "hwā",
+          "evidence": "Campbell1959 p.49: stressed monosyllabic negative."
+        }
+      ]
+    },
+    {
+      "id": "p-delayed",
+      "description": "Distinct singleton palatal fricative; postmutation merger in a disclosed late holding zone.",
+      "phonetic_symbols": [
+        "ʝ"
+      ],
+      "definitions": "define AFPal [\n [ [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ EnglishStarFrontVowel,\n [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ .#.,\n [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ [EnglishStarConsonant - [{*j}|{*g}]] ]\n .o. [ [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ {*j} ]\n .o. OEVelarPalatalization\n];\ndefine AFOrd [\n {*æ} -> {*ea} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*e} -> {*ie} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ē} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*é} -> {*íe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ḗ} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.]\n];\ndefine AFLate [ {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.] ];\ndefine AFMerge [ {*ʝ} -> {*j} ];\ndefine AFSuffix [ (\n    \n    [{*a} -> {*e} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ {*g}]\n    .o.\n    \n    [{*g} -> {*ʝ} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ {*e} _ .#.]\n    .o.\n    \n    [{*e} -> {*i} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [{*ʝ}|{*ʤ}]]\n) ];",
+      "insert_after": "OELateUnstressedAgSuffix",
+      "insert_rule": "AFMerge",
+      "replace": {
+        "OEVelarPalatalization": "AFPal",
+        "OEWsPalatalDiphthongization": "AFOrd",
+        "OELatePalatalDiphthong": "AFLate",
+        "OELateUnstressedAgSuffix": "AFSuffix"
+      },
+      "sources": [
+        {
+          "key": "RingeTaylor2014",
+          "pages": "203-214"
+        },
+        {
+          "key": "Fulk2018",
+          "pages": "130-132"
+        },
+        {
+          "key": "Hogg1979",
+          "pages": "102-111"
+        },
+        {
+          "key": "Laker2007",
+          "pages": "166-168"
+        }
+      ],
+      "assumptions": "Singleton g is a fricative; gg/ng are stop classes. Broad incumbent eligibility is retained under Fulk's broader account rather than silently restricted to one positional table. Stops retain explicitly telescoped reflex proxies: ʧ/ʤ are not early phonetic affricates. New fricative does not trigger mutation. Merger is after mutation; its late holding zone is computational, not a source-established exact date.",
+      "limitations": "Native key suffix contains an independently overbroad inherited-j vocalization proxy; the authoritative key/day discriminator is therefore assessed at the mutation checkpoint, not misreported as a complete native key derivation. No origin tags, grammatical exceptions, admissions or production change.",
+      "component_checks": [
+        {
+          "id": "initial-singleton-fricative",
+          "component": "AFPal",
+          "input": "*g*æ*s*t*i",
+          "expected": "*ʝ*æ*s*t*i"
+        },
+        {
+          "id": "medial-singleton-fricative",
+          "component": "AFPal",
+          "input": "*d*æ*g*æ",
+          "expected": "*d*æ*ʝ*æ"
+        },
+        {
+          "id": "geminate-stop",
+          "component": "AFPal",
+          "input": "*w*i*g*g*j*a",
+          "expected": "*w*i*ʤ*ʤ*j*a"
+        },
+        {
+          "id": "postnasal-stop",
+          "component": "AFPal",
+          "input": "*s*á*n*g*j*ą*n",
+          "expected": "*s*á*n*ʤ*j*ą*n"
+        },
+        {
+          "id": "postnasal-back-negative",
+          "component": "AFPal",
+          "input": "*l*ú*n*g*a*n*n*j*u",
+          "expected": "*l*ú*n*g*a*n*n*j*u"
+        },
+        {
+          "id": "key-original-back",
+          "component": "AFPal",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ā*j*æ"
+        },
+        {
+          "id": "original-front-k",
+          "component": "AFPal",
+          "input": "*k*e*n",
+          "expected": "*ʧ*e*n"
+        },
+        {
+          "id": "back-k-negative",
+          "component": "AFPal",
+          "input": "*k*a*n",
+          "expected": "*k*a*n"
+        },
+        {
+          "id": "geminate-k-control",
+          "component": "AFPal",
+          "input": "*s*t*r*æ*k*k*j*ą*n",
+          "expected": "*s*t*r*æ*ʧ*ʧ*j*ą*n"
+        },
+        {
+          "id": "inherited-j-mutation",
+          "component": "OEIUmlaut",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ǣ*j*æ"
+        },
+        {
+          "id": "new-fricative-not-trigger",
+          "component": "OEIUmlaut",
+          "input": "*d*æ*ʝ*æ",
+          "expected": "*d*æ*ʝ*æ"
+        },
+        {
+          "id": "new-fricative-transparent",
+          "component": "OEIUmlaut",
+          "input": "*b*æ*ʝ*i",
+          "expected": "*b*e*ʝ*i"
+        },
+        {
+          "id": "merger",
+          "component": "AFMerge",
+          "input": "*d*æ*ʝ*æ",
+          "expected": "*d*æ*j*æ"
+        }
+      ],
+      "staged_checks": [
+        {
+          "id": "hogg-key-mutation",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ǣ*j*æ",
+          "evidence": "Hogg1979 p.105: author pre-palatal checkpoint, not a PGmc input."
+        },
+        {
+          "id": "hogg-day-mutation",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*d*æ*ɣ*æ",
+          "expected": "*d*æ*ʝ*æ",
+          "evidence": "Hogg1979 p.105; RingeTaylor2014 p.204: distinct palatal fricative at mutation; rival account explicitly not endorsed by Hogg."
+        },
+        {
+          "id": "rt-day-long-ending",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*d*æ*ɣ*ǣ",
+          "expected": "*d*æ*ʝ*ǣ",
+          "evidence": "Hypothetical long-ending interface prompted by RingeTaylor2014 pp.212,299; not a diplomatic author intermediate or an admitted corpus input."
+        },
+        {
+          "id": "day-native-suffix",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "input": "*d*æ*ɣ*æ",
+          "expected": "dæġe",
+          "evidence": "Hogg1979 p.105; late holding-zone realization, not proof of exact merger date."
+        },
+        {
+          "id": "key-native-proxy-diagnosis",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "input": "*k*ā*j*æ",
+          "expected": "cǣie",
+          "evidence": "Model-only prediction of incumbent SC082, NOT source target cǣġe (Hogg1979 p.105). Separate inherited-j consumer defect."
+        }
+      ]
+    },
+    {
+      "id": "p-class-control",
+      "description": "Class-distinct representation with old final proxy restored; no fricative-to-j adoption.",
+      "phonetic_symbols": [
+        "ʝ"
+      ],
+      "definitions": "define AFPal [\n [ [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ EnglishStarFrontVowel,\n [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ .#.,\n [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ [EnglishStarConsonant - [{*j}|{*g}]] ]\n .o. [ [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ {*j} ]\n .o. OEVelarPalatalization\n];\ndefine AFOrd [\n {*æ} -> {*ea} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*e} -> {*ie} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ē} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*é} -> {*íe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ḗ} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.]\n];\ndefine AFLate [ {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.] ];\ndefine AFMerge [ {*ʝ} -> {*ʤ} ];\ndefine AFSuffix [ (\n    \n    [{*a} -> {*e} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ {*g}]\n    .o.\n    \n    [{*g} -> {*ʝ} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ {*e} _ .#.]\n    .o.\n    \n    [{*e} -> {*i} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [{*ʝ}|{*ʤ}]]\n) ];",
+      "insert_after": "OELateUnstressedAgSuffix",
+      "insert_rule": "AFMerge",
+      "replace": {
+        "OEVelarPalatalization": "AFPal",
+        "OEWsPalatalDiphthongization": "AFOrd",
+        "OELatePalatalDiphthong": "AFLate",
+        "OELateUnstressedAgSuffix": "AFSuffix"
+      },
+      "sources": [
+        {
+          "key": "RingeTaylor2014",
+          "pages": "203-214"
+        },
+        {
+          "key": "Fulk2018",
+          "pages": "130-132"
+        },
+        {
+          "key": "Hogg1979",
+          "pages": "102-111"
+        },
+        {
+          "key": "Laker2007",
+          "pages": "166-168"
+        }
+      ],
+      "assumptions": "Singleton g is a fricative; gg/ng are stop classes. Broad incumbent eligibility is retained under Fulk's broader account rather than silently restricted to one positional table. Stops retain explicitly telescoped reflex proxies: ʧ/ʤ are not early phonetic affricates. New fricative does not trigger mutation. Merger is after mutation; its late holding zone is computational, not a source-established exact date.",
+      "limitations": "Native key suffix contains an independently overbroad inherited-j vocalization proxy; the authoritative key/day discriminator is therefore assessed at the mutation checkpoint, not misreported as a complete native key derivation. No origin tags, grammatical exceptions, admissions or production change.",
+      "component_checks": [
+        {
+          "id": "initial-singleton-fricative",
+          "component": "AFPal",
+          "input": "*g*æ*s*t*i",
+          "expected": "*ʝ*æ*s*t*i"
+        },
+        {
+          "id": "medial-singleton-fricative",
+          "component": "AFPal",
+          "input": "*d*æ*g*æ",
+          "expected": "*d*æ*ʝ*æ"
+        },
+        {
+          "id": "geminate-stop",
+          "component": "AFPal",
+          "input": "*w*i*g*g*j*a",
+          "expected": "*w*i*ʤ*ʤ*j*a"
+        },
+        {
+          "id": "postnasal-stop",
+          "component": "AFPal",
+          "input": "*s*á*n*g*j*ą*n",
+          "expected": "*s*á*n*ʤ*j*ą*n"
+        },
+        {
+          "id": "postnasal-back-negative",
+          "component": "AFPal",
+          "input": "*l*ú*n*g*a*n*n*j*u",
+          "expected": "*l*ú*n*g*a*n*n*j*u"
+        },
+        {
+          "id": "key-original-back",
+          "component": "AFPal",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ā*j*æ"
+        },
+        {
+          "id": "original-front-k",
+          "component": "AFPal",
+          "input": "*k*e*n",
+          "expected": "*ʧ*e*n"
+        },
+        {
+          "id": "back-k-negative",
+          "component": "AFPal",
+          "input": "*k*a*n",
+          "expected": "*k*a*n"
+        },
+        {
+          "id": "geminate-k-control",
+          "component": "AFPal",
+          "input": "*s*t*r*æ*k*k*j*ą*n",
+          "expected": "*s*t*r*æ*ʧ*ʧ*j*ą*n"
+        },
+        {
+          "id": "inherited-j-mutation",
+          "component": "OEIUmlaut",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ǣ*j*æ"
+        },
+        {
+          "id": "new-fricative-not-trigger",
+          "component": "OEIUmlaut",
+          "input": "*d*æ*ʝ*æ",
+          "expected": "*d*æ*ʝ*æ"
+        },
+        {
+          "id": "new-fricative-transparent",
+          "component": "OEIUmlaut",
+          "input": "*b*æ*ʝ*i",
+          "expected": "*b*e*ʝ*i"
+        },
+        {
+          "id": "merger",
+          "component": "AFMerge",
+          "input": "*d*æ*ʝ*æ",
+          "expected": "*d*æ*ʤ*æ"
+        }
+      ],
+      "staged_checks": [
+        {
+          "id": "hogg-key-mutation",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ǣ*j*æ",
+          "evidence": "Hogg1979 p.105: author pre-palatal checkpoint, not a PGmc input."
+        },
+        {
+          "id": "hogg-day-mutation",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*d*æ*ɣ*æ",
+          "expected": "*d*æ*ʝ*æ",
+          "evidence": "Hogg1979 p.105; RingeTaylor2014 p.204: distinct palatal fricative at mutation; rival account explicitly not endorsed by Hogg."
+        },
+        {
+          "id": "rt-day-long-ending",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*d*æ*ɣ*ǣ",
+          "expected": "*d*æ*ʝ*ǣ",
+          "evidence": "Hypothetical long-ending interface prompted by RingeTaylor2014 pp.212,299; not a diplomatic author intermediate or an admitted corpus input."
+        },
+        {
+          "id": "day-native-suffix",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "input": "*d*æ*ɣ*æ",
+          "expected": "dæġe",
+          "evidence": "Hogg1979 p.105; late holding-zone realization, not proof of exact merger date."
+        },
+        {
+          "id": "key-native-proxy-diagnosis",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "input": "*k*ā*j*æ",
+          "expected": "cǣie",
+          "evidence": "Model-only prediction of incumbent SC082, NOT source target cǣġe (Hogg1979 p.105). Separate inherited-j consumer defect."
+        }
+      ]
+    },
+    {
+      "id": "p-early",
+      "description": "Explicit early-merger counterfactual with identical class eligibility and consumers.",
+      "phonetic_symbols": [
+        "ʝ"
+      ],
+      "definitions": "define AFPal [\n [ [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ EnglishStarFrontVowel,\n [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ .#.,\n [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ [EnglishStarConsonant - [{*j}|{*g}]] ]\n .o. [ [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ {*j} ]\n .o. OEVelarPalatalization\n];\ndefine AFOrd [\n {*æ} -> {*ea} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*e} -> {*ie} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ē} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*é} -> {*íe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ḗ} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.]\n];\ndefine AFLate [ {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.] ];\ndefine AFMerge [ {*ʝ} -> {*j} ];\ndefine AFSuffix [ (\n    \n    [{*a} -> {*e} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ {*g}]\n    .o.\n    \n    [{*g} -> {*ʝ} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ {*e} _ .#.]\n    .o.\n    \n    [{*e} -> {*i} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [{*ʝ}|{*ʤ}]]\n) ];",
+      "insert_after": "OEWsPalatalDiphthongization",
+      "insert_rule": "AFMerge",
+      "replace": {
+        "OEVelarPalatalization": "AFPal",
+        "OEWsPalatalDiphthongization": "AFOrd",
+        "OELatePalatalDiphthong": "AFLate",
+        "OELateUnstressedAgSuffix": "AFSuffix"
+      },
+      "sources": [
+        {
+          "key": "RingeTaylor2014",
+          "pages": "203-214"
+        },
+        {
+          "key": "Fulk2018",
+          "pages": "130-132"
+        },
+        {
+          "key": "Hogg1979",
+          "pages": "102-111"
+        },
+        {
+          "key": "Laker2007",
+          "pages": "166-168"
+        }
+      ],
+      "assumptions": "Same phonetic class distinction and broad eligibility as p-delayed; merge new fricative with inherited j before mutation. Counterfactual, not adopted history.",
+      "limitations": "Native key suffix contains an independently overbroad inherited-j vocalization proxy; the authoritative key/day discriminator is therefore assessed at the mutation checkpoint, not misreported as a complete native key derivation. No origin tags, grammatical exceptions, admissions or production change.",
+      "component_checks": [
+        {
+          "id": "initial-singleton-fricative",
+          "component": "AFPal",
+          "input": "*g*æ*s*t*i",
+          "expected": "*ʝ*æ*s*t*i"
+        },
+        {
+          "id": "medial-singleton-fricative",
+          "component": "AFPal",
+          "input": "*d*æ*g*æ",
+          "expected": "*d*æ*ʝ*æ"
+        },
+        {
+          "id": "geminate-stop",
+          "component": "AFPal",
+          "input": "*w*i*g*g*j*a",
+          "expected": "*w*i*ʤ*ʤ*j*a"
+        },
+        {
+          "id": "postnasal-stop",
+          "component": "AFPal",
+          "input": "*s*á*n*g*j*ą*n",
+          "expected": "*s*á*n*ʤ*j*ą*n"
+        },
+        {
+          "id": "postnasal-back-negative",
+          "component": "AFPal",
+          "input": "*l*ú*n*g*a*n*n*j*u",
+          "expected": "*l*ú*n*g*a*n*n*j*u"
+        },
+        {
+          "id": "key-original-back",
+          "component": "AFPal",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ā*j*æ"
+        },
+        {
+          "id": "original-front-k",
+          "component": "AFPal",
+          "input": "*k*e*n",
+          "expected": "*ʧ*e*n"
+        },
+        {
+          "id": "back-k-negative",
+          "component": "AFPal",
+          "input": "*k*a*n",
+          "expected": "*k*a*n"
+        },
+        {
+          "id": "geminate-k-control",
+          "component": "AFPal",
+          "input": "*s*t*r*æ*k*k*j*ą*n",
+          "expected": "*s*t*r*æ*ʧ*ʧ*j*ą*n"
+        },
+        {
+          "id": "inherited-j-mutation",
+          "component": "OEIUmlaut",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ǣ*j*æ"
+        },
+        {
+          "id": "new-fricative-not-trigger",
+          "component": "OEIUmlaut",
+          "input": "*d*æ*ʝ*æ",
+          "expected": "*d*æ*ʝ*æ"
+        },
+        {
+          "id": "new-fricative-transparent",
+          "component": "OEIUmlaut",
+          "input": "*b*æ*ʝ*i",
+          "expected": "*b*e*ʝ*i"
+        },
+        {
+          "id": "merger",
+          "component": "AFMerge",
+          "input": "*d*æ*ʝ*æ",
+          "expected": "*d*æ*j*æ"
+        }
+      ],
+      "staged_checks": [
+        {
+          "id": "hogg-key-mutation",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ǣ*j*æ",
+          "evidence": "Hogg1979 p.105: author pre-palatal checkpoint, not a PGmc input."
+        },
+        {
+          "id": "hogg-day-mutation",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*d*æ*ɣ*æ",
+          "expected": "*d*e*j*æ",
+          "evidence": "Hogg1979 p.105; RingeTaylor2014 p.204: distinct palatal fricative at mutation; rival account explicitly not endorsed by Hogg."
+        },
+        {
+          "id": "rt-day-long-ending",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*d*æ*ɣ*ǣ",
+          "expected": "*d*e*j*ǣ",
+          "evidence": "Hypothetical long-ending interface prompted by RingeTaylor2014 pp.212,299; not a diplomatic author intermediate or an admitted corpus input."
+        },
+        {
+          "id": "day-native-suffix",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "input": "*d*æ*ɣ*æ",
+          "expected": "deie",
+          "evidence": "Model-only terminal prediction with incumbent SC082; Hogg1979 p.105 supplies the diagnostic wrong *dejæ mutation checkpoint, NOT this terminal spelling."
+        },
+        {
+          "id": "key-native-proxy-diagnosis",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "input": "*k*ā*j*æ",
+          "expected": "cǣie",
+          "evidence": "Model-only prediction of incumbent SC082, NOT source target cǣġe (Hogg1979 p.105). Separate inherited-j consumer defect."
+        }
+      ]
+    },
+    {
+      "id": "p-coupled",
+      "description": "Delayed fricative merger plus bounded inherited-j retention after non-high long front monophthongs.",
+      "phonetic_symbols": [
+        "ʝ"
+      ],
+      "definitions": "define AFPal [\n [ [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ EnglishStarFrontVowel,\n [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ .#.,\n [{*g}|{*ɣ}] -> {*ʝ} || EnglishStarFrontVowel _ [EnglishStarConsonant - [{*j}|{*g}]] ]\n .o. [ [{*g}|{*ɣ}] -> {*ʝ} || [.#.|[EnglishStarAlphabet - [{*g}|{*n}|{*ŋ}]]] _ {*j} ]\n .o. OEVelarPalatalization\n];\ndefine AFOrd [\n {*æ} -> {*ea} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*e} -> {*ie} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ē} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*é} -> {*íe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.],\n {*ḗ} -> {*īe} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.]\n];\ndefine AFLate [ {*ǣ} -> {*ēa} || .#. [{*ʧ}|{*ʤ}|{*ʝ}|{*ʃ}|{*j}] _ [EnglishStarConsonant|EnglishPalatalConsonant|.#.] ];\ndefine AFMerge [ {*ʝ} -> {*j} ];\ndefine AFSuffix [ (\n    \n    [{*a} -> {*e} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ {*g}]\n    .o.\n    \n    [{*g} -> {*ʝ} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ {*e} _ .#.]\n    .o.\n    \n    [{*e} -> {*i} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [{*ʝ}|{*ʤ}]]\n) ];\ndefine AFJV [\n    {*j} -> {*i} || [EnglishStarVocalic - [{*ǣ}|{*ē}|{*ḗ}]] _ EnglishStarVocalic\n];",
+      "insert_after": "OELateUnstressedAgSuffix",
+      "insert_rule": "AFMerge",
+      "replace": {
+        "OEVelarPalatalization": "AFPal",
+        "OEWsPalatalDiphthongization": "AFOrd",
+        "OELatePalatalDiphthong": "AFLate",
+        "OELateUnstressedAgSuffix": "AFSuffix",
+        "OEIntervocalicJVocalization": "AFJV"
+      },
+      "sources": [
+        {
+          "key": "RingeTaylor2014",
+          "pages": "203-214"
+        },
+        {
+          "key": "Fulk2018",
+          "pages": "130-132"
+        },
+        {
+          "key": "Hogg1979",
+          "pages": "102-111"
+        },
+        {
+          "key": "Laker2007",
+          "pages": "166-168"
+        },
+        {
+          "key": "RingeTaylor2014",
+          "pages": "228"
+        }
+      ],
+      "assumptions": "Singleton g is a fricative; gg/ng are stop classes. Broad incumbent eligibility is retained under Fulk's broader account rather than silently restricted to one positional table. Stops retain explicitly telescoped reflex proxies: ʧ/ʤ are not early phonetic affricates. New fricative does not trigger mutation. Merger is after mutation; its late holding zone is computational, not a source-established exact date. The inherited-j normalization proxy excludes non-high long front monophthongs (Hogg1979 p.105: key); this is a source-led bounded restriction, not a claim that all remaining Vj environments undergo one physical vocalization.",
+      "limitations": "No origin tags or grammatical conditioning. Late weak-suffix e-j normalization remains a disclosed telescoped proxy (RingeTaylor2014 p.228); this case does not adjudicate every inherited-j history or exact affrication date.",
+      "component_checks": [
+        {
+          "id": "initial-singleton-fricative",
+          "component": "AFPal",
+          "input": "*g*æ*s*t*i",
+          "expected": "*ʝ*æ*s*t*i"
+        },
+        {
+          "id": "medial-singleton-fricative",
+          "component": "AFPal",
+          "input": "*d*æ*g*æ",
+          "expected": "*d*æ*ʝ*æ"
+        },
+        {
+          "id": "geminate-stop",
+          "component": "AFPal",
+          "input": "*w*i*g*g*j*a",
+          "expected": "*w*i*ʤ*ʤ*j*a"
+        },
+        {
+          "id": "postnasal-stop",
+          "component": "AFPal",
+          "input": "*s*á*n*g*j*ą*n",
+          "expected": "*s*á*n*ʤ*j*ą*n"
+        },
+        {
+          "id": "postnasal-back-negative",
+          "component": "AFPal",
+          "input": "*l*ú*n*g*a*n*n*j*u",
+          "expected": "*l*ú*n*g*a*n*n*j*u"
+        },
+        {
+          "id": "key-original-back",
+          "component": "AFPal",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ā*j*æ"
+        },
+        {
+          "id": "original-front-k",
+          "component": "AFPal",
+          "input": "*k*e*n",
+          "expected": "*ʧ*e*n"
+        },
+        {
+          "id": "back-k-negative",
+          "component": "AFPal",
+          "input": "*k*a*n",
+          "expected": "*k*a*n"
+        },
+        {
+          "id": "geminate-k-control",
+          "component": "AFPal",
+          "input": "*s*t*r*æ*k*k*j*ą*n",
+          "expected": "*s*t*r*æ*ʧ*ʧ*j*ą*n"
+        },
+        {
+          "id": "inherited-j-mutation",
+          "component": "OEIUmlaut",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ǣ*j*æ"
+        },
+        {
+          "id": "new-fricative-not-trigger",
+          "component": "OEIUmlaut",
+          "input": "*d*æ*ʝ*æ",
+          "expected": "*d*æ*ʝ*æ"
+        },
+        {
+          "id": "new-fricative-transparent",
+          "component": "OEIUmlaut",
+          "input": "*b*æ*ʝ*i",
+          "expected": "*b*e*ʝ*i"
+        },
+        {
+          "id": "merger",
+          "component": "AFMerge",
+          "input": "*d*æ*ʝ*æ",
+          "expected": "*d*æ*j*æ"
+        },
+        {
+          "id": "nonhigh-long-j-retained",
+          "component": "AFJV",
+          "input": "*k*ǣ*j*æ",
+          "expected": "*k*ǣ*j*æ"
+        },
+        {
+          "id": "long-e-j-retained",
+          "component": "AFJV",
+          "input": "*b*ē*j*e",
+          "expected": "*b*ē*j*e"
+        },
+        {
+          "id": "high-j-normalization",
+          "component": "AFJV",
+          "input": "*θ*r*i*j*e",
+          "expected": "*θ*r*i*i*e"
+        },
+        {
+          "id": "weak-suffix-normalization",
+          "component": "AFJV",
+          "input": "*b*o*r*e*j*a*n",
+          "expected": "*b*o*r*e*i*a*n"
+        }
+      ],
+      "staged_checks": [
+        {
+          "id": "hogg-key-mutation",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*k*ā*j*æ",
+          "expected": "*k*ǣ*j*æ",
+          "evidence": "Hogg1979 p.105: author pre-palatal checkpoint, not a PGmc input."
+        },
+        {
+          "id": "hogg-day-mutation",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*d*æ*ɣ*æ",
+          "expected": "*d*æ*ʝ*æ",
+          "evidence": "Hogg1979 p.105; RingeTaylor2014 p.204: distinct palatal fricative at mutation; rival account explicitly not endorsed by Hogg."
+        },
+        {
+          "id": "rt-day-long-ending",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "stop_after": "OEIUmlaut",
+          "input": "*d*æ*ɣ*ǣ",
+          "expected": "*d*æ*ʝ*ǣ",
+          "evidence": "Hypothetical long-ending interface prompted by RingeTaylor2014 pp.212,299; not a diplomatic author intermediate or an admitted corpus input."
+        },
+        {
+          "id": "day-native-suffix",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "input": "*d*æ*ɣ*æ",
+          "expected": "dæġe",
+          "evidence": "Hogg1979 p.105; late holding-zone realization, not proof of exact merger date."
+        },
+        {
+          "id": "key-native-corrected",
+          "stage": "OEVelarPalatalization",
+          "side": "before",
+          "input": "*k*ā*j*æ",
+          "expected": "cǣġe",
+          "evidence": "Hogg1979 p.105: full trusted suffix now preserves inherited j in key, rather than only testing mutation."
+        }
+      ]
+    }
+  ],
+  "probes": [
+    {
+      "id": "before_fronting",
+      "stage": "EAFBrighteningUnstressed",
+      "side": "before"
+    },
+    {
+      "id": "after_fronting",
+      "stage": "OEBreaking",
+      "side": "before"
+    },
+    {
+      "id": "before_palatal",
+      "stage": "OEVelarPalatalization",
+      "side": "before"
+    },
+    {
+      "id": "after_palatal",
+      "stage": "OEVelarPalatalization",
+      "side": "after"
+    },
+    {
+      "id": "after_mutation",
+      "stage": "OEIUmlaut",
+      "side": "after"
+    },
+    {
+      "id": "after_syncope",
+      "stage": "OEPreconsonantalDegemination",
+      "side": "after"
+    },
+    {
+      "id": "after_fronting_tail",
+      "stage": "OEUnstressedFrontingEarly",
+      "side": "after"
+    },
+    {
+      "id": "before_orthography",
+      "stage": "OldEnglishOrthography",
+      "side": "before"
+    }
+  ]
+}

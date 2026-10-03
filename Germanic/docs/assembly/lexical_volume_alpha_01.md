@@ -248,8 +248,8 @@ Proto input: _\*bigínnaną_
 \setlength{\fboxsep}{6pt}
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
-\small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
+\footnotesize
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.339\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.630\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -269,12 +269,13 @@ Proto input: _\*bigínnaną_
 \centering\textbf{Old English changes}\par
 \vspace{0.35em}
 \raggedright
-\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.20\linewidth}@{\hspace{0.25em}}}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.22\linewidth}@{\hspace{0.25em}}}
 OE Heavy Syllable Nasal Apocope & \emph{*bigínnan} \\
 \mbox{OE Secondary Nasalization} & \emph{*bigínnąn} \\
-\mbox{OE Velar Palatalization} & \emph{*biʤínnąn} \\
-\mbox{OE Prefix I Reduction} & \emph{*bĕʤínnąn} \\
-\mbox{OE Weak Tail Reduction} & \emph{*bĕʤínnan} \\
+\mbox{OE Velar Palatalization} & \emph{*biʝínnąn} \\
+\mbox{OE Prefix I Reduction} & \emph{*bĕʝínnąn} \\
+\mbox{OE Weak Tail Reduction} & \emph{*bĕʝínnan} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*bĕjínnan} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -718,10 +719,11 @@ Proto input: _\*báugijaną_
 OE Heavy Syllable Nasal Apocope & \emph{*bēagijan} \\
 \mbox{OE Secondary Nasalization} & \emph{*bēagijąn} \\
 \mbox{Sievers Law Syncope} & \emph{*bēagjąn} \\
-\mbox{OE Velar Palatalization} & \emph{*bēaʤjąn} \\
-\mbox{OE I Umlaut} & \emph{*bīeʤjąn} \\
-\mbox{OE Weak Tail Reduction} & \emph{*bīeʤjan} \\
-\mbox{OE J Loss After Heavy} & \emph{*bīeʤan} \\
+\mbox{OE Velar Palatalization} & \emph{*bēaʝjąn} \\
+\mbox{OE I Umlaut} & \emph{*bīeʝjąn} \\
+\mbox{OE Weak Tail Reduction} & \emph{*bīeʝjan} \\
+\mbox{OE J Loss After Heavy} & \emph{*bīeʝan} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*bīejan} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -1616,7 +1618,7 @@ Proto input: _\*fédwōr_
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{OE Diphthong Leveling} & \emph{*fēowar} \\
-\mbox{EAF Brightening} & \emph{*fēowær} \\
+\mbox{EAF Brightening Unstressed} & \emph{*fēowær} \\
 \mbox{OE Unstressed AE Merger} & \emph{*fēower} \\
 \end{tabularx}
 \end{minipage}
@@ -1723,7 +1725,7 @@ Proto input: _\*gíftiz_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -1746,8 +1748,9 @@ Proto input: _\*gíftiz_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{OE Velar Palatalization} & \emph{*ʤífti} \\
-\mbox{OE High Vowel Apocope} & \emph{*ʤíft} \\
+\mbox{OE Velar Palatalization} & \emph{*ʝífti} \\
+\mbox{OE High Vowel Apocope} & \emph{*ʝíft} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*jíft} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -1928,6 +1931,9 @@ were wrong merely because they did not give a worked chronology.
 
 With earlier i already present, the noun undergoes the inherited
 consonantal and ending developments, then initial palatalization.
+The singleton initial is a palatal fricative, distinct from gg/ng stops;
+the adopted model keeps it distinct from inherited j during mutation
+[@Fulk2018, pp. 130–132; @RingeTaylor2014, p. 204].
 Ordinary palatal diphthongization does not change its high vowel, and
 Old English mutation need not raise an e that is no longer there.
 Loss of the final high vowel and surface spelling yield *ġift* 'gift'.
@@ -2016,9 +2022,10 @@ Proto input: _\*gébaną_
 OE Heavy Syllable Nasal Apocope & \emph{*géban} \\
 \mbox{OE Secondary Nasalization} & \emph{*gébąn} \\
 \mbox{PGmc B Allophony} & \emph{*géβąn} \\
-\mbox{OE Velar Palatalization} & \emph{*ʤéβąn} \\
-OE Ws Palatal Diphthongization & \emph{*ʤíeβąn} \\
-\mbox{OE Weak Tail Reduction} & \emph{*ʤíeβan} \\
+\mbox{OE Velar Palatalization} & \emph{*ʝéβąn} \\
+OE Ws Palatal Diphthongization & \emph{*ʝíeβąn} \\
+\mbox{OE Weak Tail Reduction} & \emph{*ʝíeβan} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*jíeβan} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -2043,7 +2050,12 @@ West Saxon _ie_ here reflects palatal diphthongization after initial palatalizat
 
 #### Development to Old English
 
-From [gébaną]{.recon} ‘give’, initial _g_ palatalizes before _e_; West Saxon palatal diphthongization then yields _ie_, and later tail reduction gives [_giefan_]{.iv lang=oe sort=giefan role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2041-give-ġiefan.model.md:33" occ_id="Germanic/docs/lexeme_reports/model_entries/2041-give-ġiefan.model.md:33:1"} 'give' [@Campbell1959; @RingeTaylor2014]. The result is therefore the regular West Saxon infinitive.
+The singleton initial belongs to the fricative class, not the gg/ng stop
+class. The adopted consonantal account distinguishes its palatal ʝ from
+inherited j during mutation and merges them afterwards
+[@Fulk2018, pp. 130–132; @RingeTaylor2014, p. 204].
+
+From [gébaną]{.recon} ‘give’, initial _g_ palatalizes before _e_; West Saxon palatal diphthongization then yields _ie_, and later tail reduction gives [_giefan_]{.iv lang=oe sort=giefan role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2041-give-ġiefan.model.md:38" occ_id="Germanic/docs/lexeme_reports/model_entries/2041-give-ġiefan.model.md:38:1"} 'give' [@Campbell1959; @RingeTaylor2014]. The result is therefore the regular West Saxon infinitive.
 
 ### gold — OE _gold_
 
@@ -2280,7 +2292,7 @@ Proto input: _\*gástiz_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.339\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.630\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -2304,10 +2316,11 @@ Proto input: _\*gástiz_
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{EAF Brightening} & \emph{*gæsti} \\
-\mbox{OE Velar Palatalization} & \emph{*ʤæsti} \\
-OE Ws Palatal Diphthongization & \emph{*ʤeasti} \\
-\mbox{OE I Umlaut} & \emph{*ʤiesti} \\
-\mbox{OE High Vowel Apocope} & \emph{*ʤiest} \\
+\mbox{OE Velar Palatalization} & \emph{*ʝæsti} \\
+OE Ws Palatal Diphthongization & \emph{*ʝeasti} \\
+\mbox{OE I Umlaut} & \emph{*ʝiesti} \\
+\mbox{OE High Vowel Apocope} & \emph{*ʝiest} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*jiest} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -2328,7 +2341,12 @@ Bosworth-Toller and Clark Hall record the word under forms such as _gist_ 'guest
 
 #### Development to Old English
 
-From [gástiz]{.recon} ‘guest’, Anglo-Frisian brightening gives a _gæst-_ stage, and i-mutation affects the front vowel before the lost high-vocalic ending. In West Saxon the initial palatal environment then produces _ie_, so the regular outcome is _ġiest_ 'guest' [@Campbell1959; @RingeTaylor2014].
+From [gástiz]{.recon} ‘guest’, ordinary English fronting supplies the
+low-front vowel. Initial singleton g palatalizes as a fricative, not an
+early affricate [@Fulk2018, pp. 130–132]. Ordinary West Saxon palatal
+diphthongization changes æ to ea before mutation changes ea to ie.
+The high-vocalic ending is lost afterwards; the regular outcome is
+_ġiest_ 'guest' [@RingeTaylor2014, pp. 215–217, 222, 287].
 
 #### Dialect note
 
@@ -2530,6 +2548,11 @@ The derivational input models a palatal [-gj-*]{.recon} ‘hedge’ noun whose O
 Bosworth-Toller and Clark Hall record the noun under standard spellings _hecg_ 'hedge' / _heċġ_ 'hedge' [@BosworthToller1898; @ClarkHall1960]. The lexical item itself is therefore well attested even though the form compared here is normalized.
 
 #### Development to Old English
+
+This is the geminate-stop class, distinct from the singleton fricative in
+*dæġ* 'day'. The model's palatal stop-reflex proxy does not assert that
+affrication had already occurred at the articulation checkpoint
+[@RingeTaylor2014, pp. 203–204; @Fulk2018, pp. 131–132].
 
 From [xágjaz]{.recon} ‘hedge’, West Germanic j-gemination first yields a geminate stop, and later Old English palatalization and loss of final _j_ produce _heġġ_ 'hedge'. The development is treated as regular rather than exceptional.
 
@@ -4228,7 +4251,7 @@ Proto input: _\*súmaraz_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -4252,7 +4275,7 @@ Proto input: _\*súmaraz_
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{PWGmc Final Bare A Loss} & \emph{*súmar} \\
-\mbox{EAF Brightening} & \emph{*súmær} \\
+\mbox{EAF Brightening Unstressed} & \emph{*súmær} \\
 \mbox{OE Unstressed AE Merger} & \emph{*súmer} \\
 \end{tabularx}
 \end{minipage}
@@ -5063,7 +5086,7 @@ Proto input: _\*wégaz_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -5087,7 +5110,8 @@ Proto input: _\*wégaz_
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{PWGmc Final Bare A Loss} & \emph{*wég} \\
-\mbox{OE Velar Palatalization} & \emph{*wéʤ} \\
+\mbox{OE Velar Palatalization} & \emph{*wéʝ} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*wéj} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -5418,7 +5442,8 @@ Proto input: _\*gárną_
 \mbox{EAF Brightening} & \emph{*gærną} \\
 \mbox{OE Breaking} & \emph{*gearną} \\
 OE Heavy Syllable Nasal Apocope & \emph{*gearn} \\
-\mbox{OE Velar Palatalization} & \emph{*ʤearn} \\
+\mbox{OE Velar Palatalization} & \emph{*ʝearn} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*jearn} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -6201,7 +6226,7 @@ Proto input: _\*brándas_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -6222,7 +6247,7 @@ Proto input: _\*brándas_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.18\linewidth}@{\hspace{0.25em}}}
-\mbox{EAF Brightening} & \emph{*brándæs} \\
+\mbox{EAF Brightening Unstressed} & \emph{*brándæs} \\
 \mbox{OE Unstressed AE Merger} & \emph{*brándes} \\
 \end{tabularx}
 \end{minipage}
@@ -6777,10 +6802,11 @@ Proto input: _\*fúlgijaną_
 OE Heavy Syllable Nasal Apocope & \emph{*fúlgijan} \\
 \mbox{OE Secondary Nasalization} & \emph{*fúlgijąn} \\
 \mbox{Sievers Law Syncope} & \emph{*fúlgjąn} \\
-\mbox{OE Velar Palatalization} & \emph{*fúlʤjąn} \\
-\mbox{OE I Umlaut} & \emph{*fylʤjąn} \\
-\mbox{OE Weak Tail Reduction} & \emph{*fylʤjan} \\
-\mbox{OE J Loss After Heavy} & \emph{*fylʤan} \\
+\mbox{OE Velar Palatalization} & \emph{*fúlʝjąn} \\
+\mbox{OE I Umlaut} & \emph{*fylʝjąn} \\
+\mbox{OE Weak Tail Reduction} & \emph{*fylʝjan} \\
+\mbox{OE J Loss After Heavy} & \emph{*fylʝan} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*fyljan} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -6884,8 +6910,9 @@ Proto input: _\*gállô_
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 \mbox{EAF Brightening} & \emph{*gællô} \\
 \mbox{OE Breaking} & \emph{*geallô} \\
-\mbox{OE Velar Palatalization} & \emph{*ʤeallô} \\
-OE Unstressed Long Vowel Shortening & \emph{*ʤealla} \\
+\mbox{OE Velar Palatalization} & \emph{*ʝeallô} \\
+OE Unstressed Long Vowel Shortening & \emph{*ʝealla} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*jealla} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -8641,7 +8668,7 @@ Proto input: _\*swánas_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -8662,7 +8689,7 @@ Proto input: _\*swánas_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{EAF Brightening} & \emph{*swánæs} \\
+\mbox{EAF Brightening Unstressed} & \emph{*swánæs} \\
 \mbox{OE Unstressed AE Merger} & \emph{*swánes} \\
 \end{tabularx}
 \end{minipage}
@@ -8986,7 +9013,7 @@ Proto input: _\*wátōr_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -9009,6 +9036,7 @@ Proto input: _\*wátōr_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{EAF Brightening Unstressed} & \emph{*wátær} \\
 \mbox{EAF Brightening} & \emph{*wætær} \\
 \mbox{OE Unstressed AE Merger} & \emph{*wæter} \\
 \end{tabularx}
@@ -9257,7 +9285,7 @@ Proto input: _\*wī́θagą_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.339\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.630\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -9278,11 +9306,12 @@ Proto input: _\*wī́θagą_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{EAF Brightening} & \emph{*wī́θægą} \\
+\mbox{EAF Brightening Unstressed} & \emph{*wī́θægą} \\
 OE Heavy Syllable Nasal Apocope & \emph{*wī́θæg} \\
-\mbox{OE Velar Palatalization} & \emph{*wī́θæʤ} \\
-\mbox{OE Unstressed AE Merger} & \emph{*wī́θeʤ} \\
-\mbox{OE Late Unstressed Ag Suffix} & \emph{*wī́θiʤ} \\
+\mbox{OE Velar Palatalization} & \emph{*wī́θæʝ} \\
+\mbox{OE Unstressed AE Merger} & \emph{*wī́θeʝ} \\
+\mbox{OE Late Unstressed Ag Suffix} & \emph{*wī́θiʝ} \\
+\mbox{OE Palatal Fricative Merger} & \emph{*wī́θij} \\
 \end{tabularx}
 \end{minipage}
 \\
@@ -9320,11 +9349,13 @@ headword of the [wīþja]{.recon} 'withy' type.
 
 #### Development to Old English
 
-From [wī́θagą]{.iv .recon lang=pgmc sort=withaga role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:46" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:46:1"} ‘withy’, Anglo-Frisian brightening gives a fronted vowel in the suffixal
-syllable, and, on the Campbell analysis adopted here, the later Old English
-development of _\*-ag-_ yields _-iġ_ [@Campbell1959, §§275, 376].
-Palatalization supplies the final _ġ_, and the full development reaches
-[_wīþiġ_]{.iv lang=oe sort=withig role=regular_output source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:50" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:50:1"} 'withy'.
+From [wī́θagą]{.iv .recon lang=pgmc sort=withaga role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:46" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:46:1"} ‘withy’, the retained
+unstressed-fronting component gives the suffixal front vowel. Later raising
+recognizes the singleton palatal fricative, distinct from gg/ng stops;
+this late suffix history is not prehistoric i-mutation
+[@RingeTaylor2014, pp. 334–335; @Fulk2018, pp. 130–132].
+Postmutation merger and native realization supply the final _ġ_, reaching
+[_wīþiġ_]{.iv lang=oe sort=withig role=regular_output source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:52" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:52:1"} 'withy'.
 
 This derivation is regular for the form compared here. The central claim of the
 entry is therefore morphological: Old English _wīþiġ_ 'withy' belongs with an
@@ -9338,9 +9369,9 @@ the Old English-facing formation that actually yields the attested noun.
 
 | Formation | Candidate input | Expected or documented OE outcome | OE comparison form | Result |
 | :--- | :--- | :--- | :--- | :--- |
-| comparative family label | [_\*wáiθiz_]{.iv lang=pgmc sort=waithiz role=source_protoform source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:64" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:64:1"} | broader cognate-set headword | OE family context | useful lexeme label, but not the direct source of _wīþiġ_ |
-| heavy ja-stem analysis | [wīþja]{.recon} 'withy' type | Campbell/Adamczyk-style heavy ja-stem _-e_ / zero outcome | [_wīþiġ_]{.iv lang=oe sort=withig role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:65" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:65:1"} 'withy' | does not account cleanly for the OE suffix |
-| _\*-ag-_ derivative followed here | [_\*wī́θagą_]{.iv lang=pgmc sort=withaga role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:66" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:66:1"} | regular output: [_wīþiġ_]{.iv lang=oe sort=withig role=regular_output source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:66" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:66:2"} 'withy' | [_wīþiġ_]{.iv lang=oe sort=withig role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:66" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:66:3"} 'withy' | exact match between formation and target |
+| comparative family label | [_\*wáiθiz_]{.iv lang=pgmc sort=waithiz role=source_protoform source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:66" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:66:1"} | broader cognate-set headword | OE family context | useful lexeme label, but not the direct source of _wīþiġ_ |
+| heavy ja-stem analysis | [wīþja]{.recon} 'withy' type | Campbell/Adamczyk-style heavy ja-stem _-e_ / zero outcome | [_wīþiġ_]{.iv lang=oe sort=withig role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:67" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:67:1"} 'withy' | does not account cleanly for the OE suffix |
+| _\*-ag-_ derivative followed here | [_\*wī́θagą_]{.iv lang=pgmc sort=withaga role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:68" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:68:1"} | regular output: [_wīþiġ_]{.iv lang=oe sort=withig role=regular_output source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:68" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:68:2"} 'withy' | [_wīþiġ_]{.iv lang=oe sort=withig role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:68" occ_id="Germanic/docs/lexeme_reports/model_entries/2296-withy-wīþiġ.model.md:68:3"} 'withy' | exact match between formation and target |
 
 ### world — OE _weorold_
 
@@ -9563,7 +9594,7 @@ Proto input: _\*bánnas_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -9584,7 +9615,7 @@ Proto input: _\*bánnas_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{EAF Brightening} & \emph{*bánnæs} \\
+\mbox{EAF Brightening Unstressed} & \emph{*bánnæs} \\
 \mbox{OE Unstressed AE Merger} & \emph{*bánnes} \\
 \end{tabularx}
 \end{minipage}
@@ -9645,7 +9676,7 @@ Proto input: _\*bázjas_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -9668,6 +9699,7 @@ Proto input: _\*bázjas_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{EAF Brightening Unstressed} & \emph{*bárjæs} \\
 \mbox{EAF Brightening} & \emph{*bærjæs} \\
 \mbox{OE I Umlaut} & \emph{*berjæs} \\
 \mbox{OE Unstressed AE Merger} & \emph{*berjes} \\
@@ -10123,7 +10155,7 @@ Proto input: _\*xámaras_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -10144,7 +10176,7 @@ Proto input: _\*xámaras_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.18\linewidth}@{\hspace{0.25em}}}
-\mbox{EAF Brightening} & \emph{*xámæræs} \\
+\mbox{EAF Brightening Unstressed} & \emph{*xámæræs} \\
 \mbox{OE Unstressed AE Merger} & \emph{*xámeres} \\
 \end{tabularx}
 \end{minipage}
@@ -10396,7 +10428,7 @@ Proto input: _\*mánnas_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -10417,7 +10449,7 @@ Proto input: _\*mánnas_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
-\mbox{EAF Brightening} & \emph{*mánnæs} \\
+\mbox{EAF Brightening Unstressed} & \emph{*mánnæs} \\
 \mbox{OE Unstressed AE Merger} & \emph{*mánnes} \\
 \end{tabularx}
 \end{minipage}
@@ -10698,7 +10730,8 @@ Proto input: _\*rástōz_
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
 PWGmc Surviving Bimoric O Unrounding & \emph{*rástā} \\
-\mbox{EAF Brightening} & \emph{*ræstǣ} \\
+\mbox{EAF Brightening} & \emph{*ræstā} \\
+\mbox{EAF Brightening Long Final} & \emph{*ræstǣ} \\
 OE Unstressed Long Vowel Shortening & \emph{*ræstæ} \\
 \mbox{OE Unstressed AE Merger} & \emph{*ræste} \\
 \end{tabularx}
@@ -11011,7 +11044,7 @@ Proto input: _\*θístilas_
 \noindent\fbox{%
 \begin{minipage}{0.97\linewidth}
 \small
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.388\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.582\linewidth}@{}}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.359\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.611\linewidth}@{}}
 \begin{minipage}[t]{\linewidth}
 \centering\textbf{Earlier Germanic changes}\par
 \vspace{0.35em}
@@ -11032,7 +11065,7 @@ Proto input: _\*θístilas_
 \vspace{0.35em}
 \raggedright
 \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.20\linewidth}@{\hspace{0.25em}}}
-\mbox{EAF Brightening} & \emph{*θístilæs} \\
+\mbox{EAF Brightening Unstressed} & \emph{*θístilæs} \\
 \mbox{OE L Adjacent Syncope} & \emph{*θístlæs} \\
 \mbox{OE Unstressed AE Merger} & \emph{*θístles} \\
 \end{tabularx}

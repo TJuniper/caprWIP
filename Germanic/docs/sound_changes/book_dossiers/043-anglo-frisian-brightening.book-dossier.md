@@ -1,4 +1,10 @@
-# SC043: Anglo-Frisian Brightening
+# SC043: ordinary English stressed fronting
+
+Current authority is the adopted component decision in section 12 and
+`audits/sc043-adjudication.md`. Sections 1-10 preserve the earlier pilot
+scaffold; their names, positions and whole-bundle chronology are historical,
+not current specifications. Section 11 preserves the pre-split census and
+research proposal; its former no-adoption boundary is superseded.
 
 ## 1. Role in the book
 
@@ -152,6 +158,14 @@ These links show why SC043 is better treated as a **cluster-organizing** chapter
 
 ## 11. F component packet: three domains, three decision boundaries
 
+Post-SC004 continuation: the distinct coordinated a/au variant has executed
+all 387 selected rows without changing finals. Exactly twenty au paths
+are delayed and converge before breaking. The noncanonical
+`audits/sc043-ordinary-fronting-proposal.md` recommends component-specific
+ordinary-English placement while retaining the current serialization;
+it does not adopt a whole-bundle SC043 restaging. Earlier census/source
+assessments below remain supporting research, not new verdicts.
+
 ### Identity and question
 
 SOURCE-only research packet, 2026-10-03, base `67a18cfb`, branch
@@ -169,9 +183,12 @@ common-stem identity must be tested separately.
 
 ### Current state and literal component inventory
 
-The prepared registry characterization is `oe`, `english_specific`,
-unadjudicated. Its staging prose still calls this the defining Anglo-Frisian
-change; that tension is an object of research, not silently corrected here.
+The actual registry characterization is `eaf`, `anglo_frisian`,
+unadjudicated, despite its pipeline/historical display labels saying Old
+English. The earlier packet's `oe`, `english_specific` description was
+incorrect. The staged interpretation is an object of research, not
+silently adopted metadata. The post-SC004 coordinated experiment uses
+the distinct `oe_post_ai_fronting_recipes.json` baseline.
 Executable composition is unstressed, stressed, then long-final:
 
 | Component | Literal incumbent rewrite/condition | Source-backed target and disposition |
@@ -301,9 +318,54 @@ Prerequisite checklist:
    quantity shortening. Source-only fixtures for other final quantities
    require input/readiness verification, not corpus admission.
 
-No new test fixture, corpus row, registry verdict, FST or generator edit
-is approved. The parent owns final regeneration and publication.
+At that research stage no production change was approved. The subsequent
+approved component adoption is recorded below.
 Unresolved conditions are localized: stressed inherited identity depends
 on the ai premise; exact unstressed syllabification and historical layering
 remain unspecified; the long-final proxy must remain quantity/domain
 distinct even if the English short-a/au episode is later adopted.
+
+## 12. Adopted component identity
+
+SC043 now names only ordinary stressed fronting:
+`EAFBrightening = [ EAFBrighteningStressed ]`.
+The literal three bodies and their execution order are unchanged; the
+unstressed and final helpers are independently visible as support stages
+SC107 and SC108. They have no invented historical stage, scope, confidence
+or verdict. Current evidence counts refer to each component separately;
+the 90-row and 80/12/1 partition above is the pre-split composite census.
+
+The completed ordinary component is characterized as
+`preoe/english_specific`, REFORMULATE/SPLIT. Campbell 1939 pp.90-91 and
+Campbell 1959 pp.52-53 support the conventional completed-contraction
+before ordinary-fronting account. Fulk 2018 p.73 connects ordinary a/au
+fronting but qualifies the earlier ai nucleus; Ringe-Taylor 2014
+pp.170-175 explicitly rejects a necessary plain-vowel/diphthong-nucleus
+identity. Thus this is a reasoned daughter working account, not unanimous
+dating or rejection of all restricted ancestral tendencies. Confidence A
+is retained for the independently secure ordinary law, not treated as
+proof of the disputed nucleus premise.
+
+The earlier helper is not the whole unstressed history. SC070's
+`OEUnstressedAFronting` already handles fronting before heterosyllabic
+nasals after the separate coda-nasal treatment
+[@Campbell1959, pp. 140-141, §§333-334]. Keeping the earlier helper
+protects its actual internal-a applications and intervening feeders;
+there is no justified deletion or second newly discovered historical law.
+Early and late shortened-o inputs need separate interface controls.
+
+Rest changes both root and ending: `*rástā -> *ræstǣ`.
+Only the ending dependency connects SC042 to SC108. SC042 deliberately
+carries its output quantity; later SC072 shortening and SC073 merger
+complete the ending [@RingeTaylor2014, pp. 58-59, 299-300].
+That encoding does not demonstrate an independent historical long-a
+fronting. Who's stressed monosyllable remains a negative
+[@Campbell1959, p. 49, §125].
+
+Believe's prefix dependency is reclassified to SC107; the old composite
+card is preserved. Root fronting/breaking and restoration still concern
+SC043. The rest/prefix relations are technical constraints, not newly
+promoted historical dates. No corpus/input or baseline migration is made.
+The current reader quotes the actual EAF helper names and literal bodies;
+the regression uses the shared FST parser to compare its four excerpts
+with production.

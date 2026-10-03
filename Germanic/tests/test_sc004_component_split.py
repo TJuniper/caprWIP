@@ -10,7 +10,7 @@ production rules, using the Old-English-row PROTOFORM (the production input):
          word-final); head of EarlyEnglishLineChanges. TWO corpus applications:
          span (*spánnai -> spanne) and meed (*mízdai -> meorde).
   SC004  EAFAiMonophthongization              : {*ái} -> {*ā}
-         (stressed/root *ái; Early Anglo-Frisian / North Sea Germanic); EAF
+         (completed English stressed/root *ái; stable EAF identifier); existing
          corridor, after the fronting/rounding block; carries the SC036
          *soul* boundary. 24 corpus applications (23 attested + roe).
 
@@ -51,7 +51,8 @@ FROZEN_OUTPUTS_SHA = "04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac8
 
 def _read_tsv(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8") as handle:
-        return list(csv.DictReader(handle, delimiter="\t"))
+        return list(csv.DictReader(
+            (line for line in handle if not line.startswith("#")), delimiter="\t"))
 
 
 class ComponentBehaviorTests(unittest.TestCase):
@@ -206,6 +207,20 @@ class ProductionCascadeTests(unittest.TestCase):
         body = m.group(1).strip()
         self.assertEqual(body, "{*ái} -> {*ā}",
                          "SC004 must be stressed-only (no {*ai}->{*ā} nonfinal branch)")
+
+    def test_completed_contraction_is_english_with_unchanged_confidence(self):
+        rows = _read_tsv(SC_DIR / "registry/sc_registry.tsv")
+        row = next(row for row in rows if row["sc_id"] == "SC004")
+        self.assertEqual((row["hist_stage"], row["hist_scope"], row["confidence"]),
+                         ("preoe", "english_specific", "B"))
+        self.assertEqual((row["verdict"], row["fst_identifier"]),
+                         ("REFORMULATE", "EAFAiMonophthongization"))
+        with (SC_DIR / "registry/reader_files.tsv").open(encoding="utf-8") as handle:
+            readers = csv.DictReader(
+                (line for line in handle if not line.startswith("#")), delimiter="\t")
+            chapter = next(row["chapter_id"] for row in readers
+                           if row["reader_file"] == "004-pwgmc-ai-monophthongization.md")
+        self.assertEqual(chapter, "4")
 
     def test_no_active_nonfinal_ai_to_a_branch(self):
         active = [ln for ln in self.src.splitlines()

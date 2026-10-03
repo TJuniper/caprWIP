@@ -14,6 +14,10 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
   Hogg alone, *A Grammar of Old English*, Vol. 1: *Phonology*
   (1992; reissue 2011). The legacy filename's inclusion of Fulk is misleading:
   this is not the Hogg & Fulk morphology volume.
+  Cite `HoggGrammar2011` for the held paperback's printed-page locators;
+  `HoggGrammar1992` retains the original edition and its different pagination.
+  The held title/copyright pages identify the sole author, the 2011 paperback
+  and ISBN 978-1-4443-3933-8.
 
 - `ringe_taylor_linguistic_history_vol2.txt`
   Ringe & Taylor, *A Linguistic History of English*, Vol. 2: *The Development of Old English* (2014).

@@ -53,9 +53,10 @@ class OrdinaryPDTests(unittest.TestCase):
         guest = chunks["guest"]
         gift = chunks["gift"]
         sheath = chunks["sheath"]
-        self.assertIn("*ʤ*ea*s*t*i", guest)
-        self.assertIn("*ʤ*ie*s*t*i", guest)
-        self.assertIn("*ʤ*í*f*t*i", gift)
+        self.assertIn("OEWsPalatalDiphthongization: *ʝ*ea*s*t*i", guest)
+        self.assertIn("OEIUmlaut: *ʝ*ie*s*t*i", guest)
+        self.assertIn("OEVelarPalatalization: *ʝ*í*f*t*i", gift)
+        self.assertIn("OEPalatalFricativeMerger: *j*ie*s*t", guest)
         self.assertIn("*ʃ*ǣ*θ*i", sheath)
         self.assertIn("*ʃ*ēa*θ*i", sheath)
 
