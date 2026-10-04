@@ -45,7 +45,10 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
 
 - `kaluza_historische_grammatik_englisch.txt`  
   Kaluza, *Historische Grammatik der englischen Sprache* (1900–01).  
-  Two-volume historical grammar of English. OCR from page images (720 pages); first ~800 lines are frontmatter/OCR artefacts, real content starts ~line 794. ~29,575 lines.
+  Two-volume historical grammar of English (`Kaluza1900`).
+  Both title pages identify Berlin, Emil Felber, 1900 and 1901:
+  this holding must not be attributed to the later `Kaluza1906` record.
+  OCR from page images (720 pages); first ~800 lines are frontmatter/OCR artefacts, real content starts ~line 794. ~29,575 lines.
 
 - `fulk_comparative_grammar_early_germanic.vision.txt`
   Fulk, *A Comparative Grammar of the Early Germanic Languages* (2018).  
@@ -64,9 +67,15 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
   Orel, *A Handbook of Germanic Etymology* (2003).  
   Alternative PGmc etymological dictionary. Useful for cross-referencing Kroonen. Includes extensive bibliography references per entry. ~70,353 lines.
 
-- `kluge_seebold_etymologisches_woerterbuch.txt`  
-  Kluge (ed. Seebold), *Etymologisches Wörterbuch der deutschen Sprache* (24th ed., 2002).  
-  Standard German etymological dictionary. Entries give cognates across Germanic and IE. Useful for OHG forms, dating, and bibliography. ~101,947 lines.
+- `kluge_seebold_2011_25th.txt` / `kluge_seebold_etymologisches_woerterbuch.pdf`
+  Kluge (ed. Seebold), *Etymologisches Wörterbuch der deutschen Sprache*
+  (25th ed., 2011; `KlugeSeebold2011`). The held PDF's title and edition
+  history identify this printing. The new text is `pdftotext -layout`
+  extraction of that PDF, retaining page breaks and printed running heads.
+  Check load-bearing forms against the PDF.
+  The older `kluge_seebold_etymologisches_woerterbuch.txt` identifies the
+  **24th edition (2002)** and is retained as a separate legacy holding,
+  not the text or pagination authority for `KlugeSeebold2011`.
 
 ## Old English / Germanic lexica
 
@@ -77,7 +86,11 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
   Bosworth-Toller (dictionary + supplement scans combined).
 
 - `anglosaxonoldeng00wrig.txt`  
-  Wright & Wülcker, *Anglo-Saxon and Old English Vocabularies*.
+  Thomas Wright, *Anglo-Saxon and Old English Vocabularies*, second
+  edition edited/collated by Richard Paul Wülcker, volume I
+  (Trübner, 1884; `WrightWuelcker1884`).
+  This is not Joseph and Elizabeth Mary Wright's *Old English Grammar*
+  (`Wright1925`), and the holding does not establish volume II coverage.
 
 - `aneightcenturyl00librgoog.txt`  
   Hessels / early glossary material (Eighth-Century Latin-Anglo-Saxon Glossary).
@@ -89,10 +102,22 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
   Introductory grammar with notes and glossary. ~7,000 lines.
 
 - `bright_anglo_saxon_reader.txt` / `.pdf`  
-  Bright, *An Anglo-Saxon Reader* (4th ed., 1917).  
+  Bright, *An Anglo-Saxon Reader* (4th ed., 1917; held June 1926 printing,
+  `Bright1917`).
   Reader with notes, complete glossary, chapter on versification, and outline of OE grammar. ~27,700 lines.
+  The `.vision.txt` preserves the title/copyright evidence on sheets5-6.
+  This is not Cassidy and Ringler's 1971 revision (`BrightCassidyRingler1971`).
 
 ## Articles and special studies
+
+- `luehr_article.txt` / `.pdf`
+  Lühr, "Zur Semantifizierung von Zahlwörtern: Das Wort 'Tausend' —
+  eine germanisch-baltoslavische Isoglosse?" (*Linguistica* 33, 1993,
+  117–136; `Luehr1993`). The local article preserves all twenty printed
+  pages; its author/title and range match the bibliography in the held
+  Viredaz study. This is not Lühr's distinct 1998 EWA *dûsunt* entry.
+  The text layer corrupts reconstructed glyphs; verify forms against
+  the local PDF before diplomatic transcription.
 
 - `vine_2019_greek_stomylos.txt`  
   Vine, "Greek στωμύλος 'chatty': An anomalous ō-grade" (*Indo-European Linguistics* 7, 2019, 222–240).  

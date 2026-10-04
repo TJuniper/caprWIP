@@ -74,16 +74,16 @@ oe	cræft	craeft			2	target_form	lexical_heading; table_semantic_auto	Germanic/d
 oe	craft	craft			1	comparison_form	table_semantic_decision	Germanic/docs/lexeme_reports/model_entries/1981-craft-cræft.model.md:49
 oe	creft	creft			1	comparison_form	table_semantic_decision	Germanic/docs/lexeme_reports/model_entries/1981-craft-cræft.model.md:48
 oe	cū	cu			9	comparison_form; evidence_form	broad_prose_decision; explicit_tag	Germanic/docs/lexeme_reports/model_entries/1958-both-bū.model.md:51; Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:27; Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:33; Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:35; Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:39
-oe	cudu	cudu			3	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:31; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:52
+oe	cudu	cudu			2	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:38; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:69
 oe	cū(e)	cue			1	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:33
 oe	cūm	cum			1	comparison_form	broad_prose_decision	Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:34
 oe	cūs	cus			2	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:33; Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:42
-oe	cwedu	cwedu			4	target_form	explicit_tag; lexical_heading	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:26; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:40; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:49; cud — OE cwedu
-oe	cweodu	cweodu			2	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:22; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:51
-oe	cweodu	cweodu	LWS	lws	2	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32
-oe	cwidu	cwidu			4	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:22; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:31; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:50
-oe	c(w)udu	cwudu			1	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:22
-oe	cwudu	cwudu			3	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:31; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:51
+oe	cwedu	cwedu			4	target_form	explicit_tag; lexical_heading	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:30; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:53; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:66; cud — OE cwedu
+oe	cweodu	cweodu			2	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:68
+oe	cweodu	cweodu	LWS	lws	1	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:39
+oe	cwidu	cwidu			4	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:25; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:38; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:67
+oe	c(w)udu	cwudu			1	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23
+oe	cwudu	cwudu			3	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:38; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:43; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:68
 oe	cȳ	cy			12	comparison_form; target_form	explicit_tag; lexical_heading	Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:33; Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:34; Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:36; Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:39; Germanic/docs/lexeme_reports/model_entries/1980-cow-cȳ.model.md:42
 oe	dæd	daed			1	comparison_form	broad_prose_decision	Germanic/docs/lexeme_reports/model_entries/1987-deed-dǣd.model.md:25
 oe	dǣd	daed			1	target_form	lexical_heading	deed — OE dǣd
@@ -676,8 +676,7 @@ pgmc	*kráftiz	kraftiz			1	source_protoform	lexical_proto	craft — OE cræft
 pgmc	*krúppaz	kruppaz			1	selected_input	trace_proto_input	crop — OE cropp
 pgmc	*kūi	kui			2	selected_input; source_protoform	lexical_protoform; trace_proto_input	cow — OE cȳ
 pgmc	*kúrną	kurna			2	selected_input; source_protoform	lexical_protoform; trace_proto_input	corn — OE corn
-pgmc	*kwedu-2	kwedu2			1	source_protoform	broad_prose_decision	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:21
-pgmc	*kwéðuz	kweduz			4	selected_input; source_protoform	explicit_tag; lexical_protoform; trace_proto_input	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:24; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:39; cud — OE cwedu
+pgmc	*kwéðuz	kweduz			4	selected_input; source_protoform	explicit_tag; lexical_protoform; trace_proto_input	Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:28; Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:52; cud — OE cwedu
 pgmc	*kwíθuz	kwithuz			1	source_protoform	lexical_proto	cud — OE cwedu
 pgmc	*lábbaz	labbaz			2	source_protoform	lexical_proto; table_semantic_decision	Germanic/docs/lexeme_reports/model_entries/2090-lap-lappa.model.md:57; lap — OE lappa
 pgmc	*láidijaną	laidijana			2	selected_input; source_protoform	lexical_protoform; trace_proto_input	lead — OE lǣdan

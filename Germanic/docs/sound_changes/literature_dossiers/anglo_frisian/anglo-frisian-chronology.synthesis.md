@@ -1370,11 +1370,22 @@ placement is now adopted with unchanged law/order/confidence; the current
 coordinated F variant has executed all 387 rows and converges before
 breaking. SC043's component correction and the bounded SC045/052/082/089
 palatal package are now adopted and canonically finalized. The integrated
-suite passes 688 tests/6178 subtests; the distinct adopted-production assay
+suite for that release passed 688 tests/6178 subtests; its distinct adopted-production assay
 passes 31 component, seven staged and seven corpus checks while preserving
-all 387 finals, selected inputs and protected artifacts. The current
-unbypassed publication is the inspected 297-page book. Other recommendations
+all 387 finals, selected inputs and protected artifacts. That release's
+unbypassed publication was the inspected 297-page book. The subsequent
+knee and hue adoptions and their current verification/publication closeout
+are recorded at the top of this synthesis and in the SC033 memo; the latest
+inspected publication has302 pages. Other recommendations
 remain proposals unless their rows explicitly record adoption.
+
+The user's next priority is the comprehensive held-source reconstruction
+survey for all393 OE rows, its extensive commentary and a shorter book
+introduction synthesis. Its evidence/coverage owner is
+`Germanic/docs/lexeme_reports/pgmc_reconstructions/`; a populated scope
+grid is not a completed source survey. SC032 remains the next pending
+component, now following this research/publication batch. Scientific
+corpus/stage/FST corrections require the consolidated approval packet.
 
 | Component | Historical target or outstanding specification | Evidence / diagnostic | Existing dossier and reader surface | State / next action |
 |---|---|---|---|---|
@@ -1408,7 +1419,7 @@ remain proposals unless their rows explicitly record adoption.
 | Gift selected input | Ringe's earlier-raised input versus published e-vowel reconstructions | Ringe2017 pp. 135, 151–153; Orel2003 p. 130; KlugeSeebold2011 p. 359; Bammesberger1990 pp. 142–143; Seebold1970 pp. 35–36, 218 | Gift lexical model, SC056 adjudication and 055-056 dossier | Approved PROTO = PROTOFORM = *gíftiz; ample author-by-author lexical explanation preserves e-forms, dating qualification and provenance limits. Original baseline archives remain immutable; explicit migration protects the same identities |
 | Required AF node | Coherent inventory and common-prefix/daughter assignments under explicit premises | Sections 2 and 8; Luick direct bracket is one source package, not forced history | Chapter 3 and node_state_candidates.tsv | Three relevant-class candidate cuts specified; conservative working exposition implemented; canonical selection not authorized |
 | English partial chains | Detailed worked arguments, not one author adopted wholesale | Section 8 and ten source-local constraint models | Expanded Chapter 4 and affected local readers | Guest's ordinary-PD-before-mutation chain, gift input, SC043 identity and bounded class-distinct palatal account are adopted and published; sheath's late-layer approximation is explicitly retained. Unadopted residual D/A/F/P/B proposals are not implied by these decisions |
-| Publication pipeline | Correct source citations/crossrefs, refresh views, rebuild lexical volume and render | Hogg dialect pages 3–8 and held-2011 pp.283–286 verified; semantic drift individually audited; all 123 older omissions source-backed and repaired | SOURCE readers → manifest/section20 → lexical aggregate/index/book | Current SC043/palatal batch passed the full unbypassed pipeline; inspected PDF has 297 pages, zero gloss/citation/index gate violations and matching changed-reader definition bodies. Lexical/index output regenerated; gift debate preserved |
+| Publication pipeline | Correct source citations/crossrefs, refresh views, rebuild lexical volume and render | Hogg dialect pages 3–8 and held-2011 pp.283–286 verified; semantic drift individually audited; all 123 older omissions source-backed and repaired | SOURCE readers → manifest/section20 → lexical aggregate/index/book | SC043/palatal release passed the full unbypassed pipeline with297 pages. Subsequent knee/hue closeout produced the inspected302-page book; current results belong to the SC033 memo. The newly instructed reconstruction survey has not yet produced a new published introduction |
 
 Before a row advances to experimentally checked, it needs exact conditions,
 positive/negative intermediate expectations and an isolated full-corpus

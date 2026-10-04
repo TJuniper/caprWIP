@@ -1,9 +1,9 @@
 # Index verborum audit
 
-- Internal production occurrences: 2456
-- Internal production unique forms: 1123
-- Printed main-index occurrences: 2368
-- Printed main-index unique forms: 1113
+- Internal production occurrences: 2453
+- Internal production unique forms: 1122
+- Printed main-index occurrences: 2365
+- Printed main-index unique forms: 1112
 - Print-excluded occurrences: 88
 - Print-excluded unique forms: 69
 - Print exclusions (regular_output_default_exclusion): 88
@@ -21,8 +21,8 @@
 - Audit-only candidates needing review: 0
 - True remaining unresolved: 0
 - Table-scanned unresolved candidates: 0
-- Already indexed in same entry: 458
-- Broad-prose notation / compound expressions: 473
+- Already indexed in same entry: 457
+- Broad-prose notation / compound expressions: 474
 - Broad-prose evidence suggestions: 298
 - Curated broad-prose deferred: 28
 - Curated broad-prose ignored: 7
@@ -45,8 +45,8 @@
 
 | Language | Occurrences | Unique forms |
 | --- | ---: | ---: |
-| Old English | 1333 | 483 |
-| Proto-Germanic | 977 | 540 |
+| Old English | 1331 | 483 |
+| Proto-Germanic | 976 | 539 |
 | Proto-Northwest Germanic | 2 | 1 |
 | Proto-West Germanic | 14 | 6 |
 | Northern West Germanic | 8 | 4 |
@@ -181,9 +181,9 @@
 | Role | Occurrences |
 | --- | ---: |
 | target_form | 396 |
-| source_protoform | 349 |
+| source_protoform | 348 |
 | selected_input | 549 |
-| comparison_form | 853 |
+| comparison_form | 851 |
 | regular_output | 88 |
 | evidence_form | 221 |
 
@@ -191,8 +191,8 @@
 
 | Language | Occurrences | Unique forms |
 | --- | ---: | ---: |
-| Old English | 1245 | 473 |
-| Proto-Germanic | 977 | 540 |
+| Old English | 1243 | 473 |
+| Proto-Germanic | 976 | 539 |
 | Proto-Northwest Germanic | 2 | 1 |
 | Proto-West Germanic | 14 | 6 |
 | Northern West Germanic | 8 | 4 |
@@ -213,9 +213,9 @@
 | Role | Occurrences |
 | --- | ---: |
 | target_form | 396 |
-| source_protoform | 349 |
+| source_protoform | 348 |
 | selected_input | 549 |
-| comparison_form | 853 |
+| comparison_form | 851 |
 | evidence_form | 221 |
 
 ## Internal-only rows by reason
@@ -274,7 +274,6 @@
 | `cræft` | Germanic/docs/lexeme_reports/model_entries/1981-craft-cræft.model.md:37 | ### Development to Old English | same form already indexed in this entry |
 | `craft` | Germanic/docs/lexeme_reports/model_entries/1981-craft-cræft.model.md:37 | ### Development to Old English | same form already indexed in this entry |
 | `creft` | Germanic/docs/lexeme_reports/model_entries/1981-craft-cræft.model.md:36 | ### Development to Old English | same form already indexed in this entry |
-| `cwedu` | Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:33 | ### Old English evidence | same form already indexed in this entry |
 | `dǣd` | Germanic/docs/lexeme_reports/model_entries/1987-deed-dǣd.model.md:25 | ### Old English evidence | same form already indexed in this entry |
 | `dǣd` | Germanic/docs/lexeme_reports/model_entries/1987-deed-dǣd.model.md:29 | ### Development to Old English | same form already indexed in this entry |
 | `*dáwwō` | Germanic/docs/lexeme_reports/model_entries/1989-dew-dēaw.model.md:10 | ### Reconstruction and development | same form already indexed in this entry |
@@ -925,6 +924,7 @@
 | `*kurna-` | Germanic/docs/lexeme_reports/model_entries/1979-corn-corn.model.md:21 | notation or compound expression |
 | `*kúrną` | Germanic/docs/lexeme_reports/model_entries/1979-corn-corn.model.md:29 | intermediate or model-stage form in development chain |
 | `*kurnăn` | Germanic/docs/lexeme_reports/model_entries/1979-corn-corn.model.md:29 | intermediate or model-stage form in development chain |
+| `*kwedu-` | Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:21 | notation or compound expression |
 | `*lād-` | Germanic/docs/lexeme_reports/model_entries/2093-lead-lǣdan.model.md:29 | notation or compound expression |
 | `*laidjan-` | Germanic/docs/lexeme_reports/model_entries/2093-lead-lǣdan.model.md:21 | notation or compound expression |
 | `*laiman-` | Germanic/docs/lexeme_reports/model_entries/2109-loam-lām.model.md:21 | notation or compound expression |

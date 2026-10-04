@@ -63,6 +63,7 @@ import cascade_order_manifest  # noqa: E402
 import executable_facts  # noqa: E402
 import generate_registry_views  # noqa: E402
 import oe_pipeline  # noqa: E402
+import pgmc_reconstruction_survey  # noqa: E402
 import rule_coverage_census  # noqa: E402
 from capr_runtime import (  # noqa: E402
     check_build_manifest,
@@ -193,6 +194,13 @@ def _render_book_draft() -> dict:
     mod = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(mod)
     return {mod.OUTPUT_PATH: mod.build_book_markdown()}
+
+
+def _render_pgmc_reconstruction_survey() -> dict:
+    try:
+        return pgmc_reconstruction_survey.render()
+    except (pgmc_reconstruction_survey.SurveyError, OSError) as exc:
+        raise SystemExit(f"PGmc reconstruction research SOURCE error: {exc}") from exc
 
 
 def _lexical_outputs() -> list:
@@ -486,6 +494,14 @@ def nodes() -> tuple:
                     "reader SOURCE files + reader_manifest.tsv via "
                     "build_reader_book",
                     build_reader_book.render),
+        _projection("pgmc_reconstruction_survey",
+                    "reconstruction evidence/coverage SOURCE + held sources + "
+                    "corpus and independent stage/context metadata",
+                    _render_pgmc_reconstruction_survey,
+                    outputs=lambda: [
+                        REPO_ROOT / pgmc_reconstruction_survey.DIRECTORY / name
+                        for name in ("corpus_inventory.tsv", "source_coverage.tsv",
+                                     "reconstruction_ledger.md", "survey_provenance.json")]),
         _runtime("lexical_sources",
                  "corpus + model entries + fresh bins via lexical builders",
                  _lexical_verify, _lexical_build,

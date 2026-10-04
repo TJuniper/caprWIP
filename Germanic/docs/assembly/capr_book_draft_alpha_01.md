@@ -10968,7 +10968,6 @@ away.
 ## cud — OE _cwedu_
 
 \index[iv]{02oe@\ivlangheader{Old English}{West Saxon normalization unmarked}!cwedu@\iventry{cwedu}{}}
-\index[iv]{03pgmc@\ivlangheader{Proto-Germanic}{}!kwedu2@\iventry{*kwedu-2}{}}
 \index[iv]{03pgmc@\ivlangheader{Proto-Germanic}{}!kweduz@\iventry{*kwéðuz}{}}
 \index[iv]{03pgmc@\ivlangheader{Proto-Germanic}{}!kwithuz@\iventry{*kwíθuz}{}}
 
@@ -11018,38 +11017,55 @@ Old English form: _cwedu_
 
 ### Reconstruction and comparative evidence
 
-Kroonen reconstructs the resin word as [kwedu-2]{.recon} ‘cud’ and gives Old English
-variants [_cwidu_]{.iv lang=oe sort=cwidu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:22" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:22:1"} 'cud', [_cweodu_]{.iv lang=oe sort=cweodu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:22" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:22:2"} 'cud', and [_c(w)udu_]{.iv lang=oe display=c(w)udu sort=cwudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:22" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:22:3"} 'cud' [@Kroonen2013, 355]. Orel likewise
-lists [_cwidu_]{.iv lang=oe sort=cwidu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23:1"} under the cognate set [@Orel2003, 266]. The derivational input
-[kwéðuz]{.iv .recon lang=pgmc sort=kweduz role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:24" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:24:1"} ‘cud’
-therefore represents the older e-grade, voiced-dental form behind the chosen
-variant [_cwedu_]{.iv lang=oe sort=cwedu role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:26" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:26:1"} 'cud'.
+Kroonen gives the resin word under homonym 2 of [kwedu-]{.recon} ‘cud’
+and supplies Old English
+variants [_cwidu_]{.iv lang=oe sort=cwidu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23:1"} 'cud', [_cweodu_]{.iv lang=oe sort=cweodu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23:2"} 'cud', and [_c(w)udu_]{.iv lang=oe display=c(w)udu sort=cwudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:23:3"} 'cud' [@Kroonen2013, p. 315].
+The homonym number is not part of the reconstructed phonological stem.
+Orel also lists [_cwidu_]{.iv lang=oe sort=cwidu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:25" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:25:1"},
+but his feminine headword is a different formation, not another quotation
+of Kroonen's masculine u-stem [@Orel2003, p. 227]. The derivational input
+[kwéðuz]{.iv .recon lang=pgmc sort=kweduz role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:28" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:28:1"} ‘cud’
+supplies an e-vowel and voiced dental for the chosen comparison
+[_cwedu_]{.iv lang=oe sort=cwedu role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:30" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:30:1"} 'cud'.
+It is a CAPR whole-word selection, not a diplomatic quotation of either
+dictionary's complete form. Its relationship to the different citation
+reconstruction above remains under comparative review.
 
 ### Old English evidence
 
 The Old English word survives in a wider variant set than one dictionary
-headword suggests. Ringe and Taylor discuss [_cwidu_]{.iv lang=oe sort=cwidu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:31" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:31:1"} 'cud' > [_cwudu_]{.iv lang=oe sort=cwudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:31" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:31:2"} 'cud' > [_cudu_]{.iv lang=oe sort=cudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:31" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:31:3"} 'cud' and also
-note late West Saxon [_cweodu_]{.iv lang=oe variety=lws sort=cweodu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32:1"} 'cud'; Clark Hall gives [_cwudu_]{.iv lang=oe sort=cwudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32:2"} 'cud', [_cweodu_]{.iv lang=oe variety=lws sort=cweodu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32:3"} 'cud', and [_cudu_]{.iv lang=oe sort=cudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:32:4"} 'cud'
-[@RingeTaylor2014, 338; @ClarkHall1960, 84]. Attested _cwedu_ 'cud' is treated here
-as the
-conservative variant within that set.
+headword suggests. Ringe and Taylor discuss [_cwidu_]{.iv lang=oe sort=cwidu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:38" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:38:1"} 'cud' > [_cwudu_]{.iv lang=oe sort=cwudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:38" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:38:2"} 'cud' > [_cudu_]{.iv lang=oe sort=cudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:38" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:38:3"} 'cud' and also
+note late West Saxon [_cweodu_]{.iv lang=oe variety=lws sort=cweodu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:39" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:39:1"} 'cud'.
+Their starting reconstruction is explicitly West Germanic with i,
+not an explicitly printed Proto-Germanic form in this passage
+[@RingeTaylor2014, p. 323]. Clark Hall's headword
+[_cwudu_]{.iv lang=oe sort=cwudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:43" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:43:1"} 'cud'
+admits eo and i variants, but does not itself attest the selected bare-e
+spelling [@ClarkHall1960, p. 69]. The claim that CAPR's comparison is
+the conservative attested variant needs further source verification;
+these passages do not establish it.
 
 ### Development to Old English
 
-From [kwéðuz]{.iv .recon lang=pgmc sort=kweduz role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:39" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:39:1"} ‘cud’, the West Germanic voiced dental hardens in the expected way and
-the regular Old English development yields [_cwedu_]{.iv lang=oe sort=cwedu role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:40" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:40:1"} 'cud'. The other Old English
-spellings belong to the same lexical family, but reflect later leveling,
-back-umlaut, or further reduction rather than a need to replace the selected
-input.
+The current modeled chain takes
+[kwéðuz]{.iv .recon lang=pgmc sort=kweduz role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:52" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:52:1"} ‘cud’
+to [_cwedu_]{.iv lang=oe sort=cwedu role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:53" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:53:1"} 'cud',
+with the voiced dental hardened along the way. This records the executable
+result, not independent proof that the derivational input is the best
+source-backed history. Ringe and Taylor support back umlaut and further
+reduction within the i-starting variant family; their passage does not
+establish the older account's claim that the i-form is leveled from
+the bare-e comparison [@RingeTaylor2014, p. 323]. Corpus fields and
+classification remain unchanged pending the complete source audit.
 
 ### Variant comparison
 
 | Variant type | Old English form | Comment |
 | :--- | :--- | :--- |
-| conservative target | [_cwedu_]{.iv lang=oe sort=cwedu role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:49" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:49:1"} | selected attested variant represented here |
-| leveled i-grade form | [_cwidu_]{.iv lang=oe sort=cwidu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:50" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:50:1"} | common lexical variant in the same family |
-| back-umlauted forms | [_cweodu_]{.iv lang=oe sort=cweodu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:51" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:51:1"}, [_cwudu_]{.iv lang=oe sort=cwudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:51" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:51:2"} | later developments within the same OE tradition |
-| reduced form | [_cudu_]{.iv lang=oe sort=cudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:52" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:52:1"} | further reduced member of the same variant set |
+| selected comparison | [_cwedu_]{.iv lang=oe sort=cwedu role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:66" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:66:1"} | current target; its attestation and conservative status require verification |
+| i-grade comparison | [_cwidu_]{.iv lang=oe sort=cwidu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:67" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:67:1"} | source-backed variant; leveling from the Old English form here is not established by the cited passage |
+| back-umlauted forms | [_cweodu_]{.iv lang=oe sort=cweodu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:68" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:68:1"}, [_cwudu_]{.iv lang=oe sort=cwudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:68" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:68:2"} | later developments within the same OE tradition |
+| reduced form | [_cudu_]{.iv lang=oe sort=cudu role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:69" occ_id="Germanic/docs/lexeme_reports/model_entries/1983-cud-cwedu.model.md:69:1"} | further reduced member of the same variant set |
 
 ## ten — OE _tēon_
 
