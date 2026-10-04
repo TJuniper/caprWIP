@@ -176,7 +176,16 @@ All selected final outputs remain unchanged.
 The later realization paths are now explicit. Chew, dew, four, hew and
 you complete their earlier products through
 [SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling).
-[SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong) retains knee and hue;
+[SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong) retains only the
+disclosed j-created hue representation. Knee instead selects the
+regular dative *cneowe* 'knee (dat.sg.)': its short pre-ending
+diphthong comes from [SC044 OEBreaking](#rule-OEBreaking), not
+singleton lengthening. The long endingless *cnēo* 'knee' and
+analogically restored final \emph{w} in *cnēow* 'knee' remain a separate
+paradigm comparison; later long obliques must not be confused with
+the selected short cell
+[@Campbell1959, pp. 232--233; @HoggGrammar2011, pp. 21--22, 86;
+@RingeTaylor2014, pp. 187--188, 387].
 [SC034 OEAwLongDiphthong](#rule-OEAwLongDiphthong) retains the singleton
 show/straw forms. Hue's remaining ww before j is simplified by the
 separately disclosed [SC106 OEJWWSimplification](#rule-OEJWWSimplification),

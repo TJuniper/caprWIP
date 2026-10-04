@@ -1,4 +1,19 @@
 action	language	form	form_role	source_scope	source_ref	note
+add	oe	cneowe	target_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	SC033 approved regular dative target; HoggGrammar2011 pp.21-22,86 and Campbell1959 pp.232-233.
+add	oe	cneowe	target_form	lexical_heading	knee — OE cneowe	SC033 approved cell migration and detailed lexical model in late analogy/paradigm-cell selection.
+add	oe	cneowe	target_form	table_semantic_auto	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Explicit selected dative comparison table; SC033 approved target.
+add	oe	cneowes	comparison_form	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Regular genitive comparison, Campbell1959 p.233 and Luick1914 p.139; not another corpus cell.
+add	oe	cnēo	comparison_form	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Regular endingless comparison, RingeTaylor2014 pp.174,387; not the selected target.
+add	oe	cnēow	comparison_form	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Comparison with restored nominative w, Campbell1959 pp.232-233 and RingeTaylor2014 p.387.
+add	pgmc	*knéwai	comparison_form	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Selected paradigm construction repeated in the table; Fulk2018 p.147, not a quoted whole-word reconstruction.
+add	pgmc	*knéwai	selected_input	trace_proto_input	knee — OE cneowe	Exact authorized SC033 row2085 input migration; approved_cell_migration.json.
+add	pgmc	*knéwai	source_protoform	lexical_protoform	knee — OE cneowe	Generated PROTOFORM heading for the selected inherited dative; PGmc stage explicitly retained separately from citation PROTO.
+add	pgmc	*knéwą	source_protoform	lexical_proto	knee — OE cneowe	Preserved citation PROTO reprojected under the approved new target heading.
+add	pgmc	*knéwą	source_protoform	table_semantic_auto	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Preserved citation reconstruction in the new input/output comparison table.
+add	pgmc	knewaz	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	HoggGrammar2011 p.86 note7 prints this ending; recorded separately from RingeTaylor2014 p.387.
+add	pgmc	knéwai	selected_input	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Explicit selected PGmc dative construction under Fulk2018 p.147.
+add	pgmc	knéwą	source_protoform	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Explicit retained citation reconstruction, RingeTaylor2014 p.387.
+remove	pgmc	*knéwą	selected_input	trace_proto_input	knee — OE cnēow	Former nominative selected input replaced only through the authorized SC033 dative migration; pre-SC033 baseline preserved.
 add	pgmc	giftiz	evidence_form	explicit_tag	Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md	Source-backed PGmc comparison added to the SC055/056 historical discussion (Ringe2017 p.135); publication evidence indexing only, not an OE corpus admission or scientific rebaseline.
 add	goth	hiwi	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Existing committed hue comparison (Kroonen2013 p.224); first fresh lexical-volume publication against the older snapshot.
 add	goth	þagkjan	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed thought paradigm comparison (Ringe2017 p.281); publication propagation only.

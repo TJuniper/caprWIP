@@ -43,7 +43,7 @@ SC101	EAFLongAFronting	historical_sound_change	Early Anglo-Frisian	EAF Long A Fr
 SC004	EAFAiMonophthongization	historical_sound_change	Old English	English stressed ai contraction	preoe	english_specific	B	adjudicated	REFORMULATE	34	32
 SC029	OEAwwjResolution	historical_sound_change	Old English	Pre-OE resolution of *awj to *auj	preoe	english_specific	B	adjudicated	RETAIN	35	33
 SC030	OEAuBrightening	historical_sound_change	Old English	English brightening of *au to *æu	preoe	english_specific	A	adjudicated	RETAIN	36	34
-SC033	OEEwLongDiphthong	historical_sound_change	Old English	OE Ew Long Diphthong	ws_oe	west_saxon	A	unadjudicated		37	35
+SC033	OEEwLongDiphthong	support_stage	Old English	Retained j-created long diphthong representation				adjudicated	REFORMULATE/RESTRICT	37	35
 SC106	OEJWWSimplification	support_stage	Old English	Retained j-created glide residual				unadjudicated		38	36
 SC032	OEDiphthongLeveling	historical_sound_change	Old English	OE Diphthong Leveling	ws_oe	west_saxon	A	unadjudicated		39	37
 SC034	OEAwLongDiphthong	historical_sound_change	Old English	OE Aw Long Diphthong	ws_oe	west_saxon	A	unadjudicated		40	38

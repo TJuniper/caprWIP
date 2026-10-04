@@ -1,4 +1,4 @@
-=== DERIVATION_CLASS: regular (310) ===
+=== DERIVATION_CLASS: regular (309) ===
 
 
 
@@ -3097,29 +3097,6 @@ English Proto Input: *knédaną
 ### Orthography & surface
 
 Outcome: cnedan
-
-
-
-# knee
-PROTO: *knéwą
-EXPECTED: cnēow
-OUTPUTS: cnēow
-
-
-
-### Proto-Germanic consonant inheritance
-
-English Proto Input: *knéwą
-
-| Earlier Germanic developments | Old English developments |
-|:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *knēową<br>OE Heavy Syllable Nasal Apocope: *knēow |
-
-
-
-### Orthography & surface
-
-Outcome: cnēow
 
 
 
@@ -8295,7 +8272,7 @@ NOTE: PROTOFORM *jugunθ (without -iz): (1) Early i-apocope: R/T §6.8.1 shows f
 
 
 
-=== DERIVATION_CLASS: late_analogy (27) ===
+=== DERIVATION_CLASS: late_analogy (28) ===
 
 
 
@@ -8551,6 +8528,31 @@ Old English Orthography: h*æβeþ
 Outcome: hæfeþ
 
 NOTE: 3sg pres. indic. (lautgesetzlich); inf. habban is analogical (umlaut leveled, Fulk §12.47)
+
+
+
+# knee
+PROTO: *knéwai
+EXPECTED: cneowe
+OUTPUTS: cneowe
+
+
+
+### Proto-Germanic consonant inheritance
+
+English Proto Input: *knéwai
+
+| Earlier Germanic developments | Old English developments |
+|:---|:---|
+| **Northwest and West Germanic**<br>PNWGmc Unstressed Ai Monophthongization: *knéwē<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Breaking: *knéowē<br>OE Unstressed Long Vowel Shortening: *knéowe |
+
+
+
+### Orthography & surface
+
+Outcome: cneowe
+
+NOTE: Regular dat.sg. *knéwai > cneowe; citation *knéwą retained. Short pre-ending stem contrasts with endingless cnēo and restored w in cnēow (Campbell 1959 pp.232-233; Hogg 2011 pp.21-22,86; Ringe-Taylor 2014 p.387). Dative ending follows Fulk 2018 p.147.
 
 
 

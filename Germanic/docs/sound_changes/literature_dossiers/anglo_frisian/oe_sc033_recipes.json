@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "baseline_fst_sha256": "38213e869276ef5887316553a20bf3f018ee5eace66819dee6bfb4b817ba7cc7",
+  "baseline_corpus_sha256": "358549ed343c2640bda2374f7275667de80394f3f431e8c1d0f9534756a6e99e",
+  "baseline_context_sha256": "6a69a8d450a0ad5898bed7150136dc70e5731422c29803608825cdefc6b0f914",
+  "baseline_context_helper_sha256": "b770b83ffc2bd863c9cd5dec6bcae67ecda60efe8ce0af7fa8cdf136e077b961",
+  "fixture_file": "oe_sc033_fixtures.tsv",
+  "recipes": [
+    {
+      "id": "identity",
+      "description": "Released full-wrapper control.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [],
+      "assumptions": "Technical identity control.",
+      "limitations": "No historical inference."
+    },
+    {
+      "id": "sc033-singleton-short",
+      "description": "Remove singleton lengthening while retaining the j-created long proxy; let existing breaking consume knee.",
+      "definitions": "define AFOnlyJ [\n {*e} {*w} -> {*ēo} {*w} || _ {*w} {*j},\n {*i} {*w} -> {*ēo} {*w} || _ {*w} {*j},\n {*é} {*w} -> {*ēo} {*w} || _ {*w} {*j},\n {*í} {*w} -> {*ēo} {*w} || _ {*w} {*j}\n];\ndefine AFNoop [ ?* ];",
+      "insert_after": "OEEwLongDiphthong",
+      "insert_rule": "AFNoop",
+      "replace": {"OEEwLongDiphthong": "AFOnlyJ"},
+      "sources": [
+        {"key": "RingeTaylor2014", "pages": "174,187-188,387"},
+        {"key": "Campbell1959", "pages": "46-47,53-54"}
+      ],
+      "assumptions": "Discriminating partial counterfactual: remove unsupported singleton long quantity. Existing OEBreaking provides the short output. No inputs, endings, targets or historical positions are changed.",
+      "limitations": "Not a complete historical proposal. Hue's incumbent long proxy is retained only as a control, not endorsed. Existing breaking's unguarded wi behavior and knee's surviving ending/leveled target remain unresolved.",
+      "component_checks": [
+        {"id": "singleton-knee-passes", "component": "AFOnlyJ", "input": "*k*n*é*w*ą", "expected": "*k*n*é*w*ą"},
+        {"id": "j-created-hue-retained", "component": "AFOnlyJ", "input": "*x*é*w*w*j*ą", "expected": "*x*ēo*w*w*j*ą"},
+        {"id": "unmarked-j-created-retained", "component": "AFOnlyJ", "input": "*x*e*w*w*j*ą", "expected": "*x*ēo*w*w*j*ą"},
+        {"id": "i-j-created-retained", "component": "AFOnlyJ", "input": "*x*i*w*w*j*ą", "expected": "*x*ēo*w*w*j*ą"},
+        {"id": "acute-i-j-created-retained", "component": "AFOnlyJ", "input": "*x*í*w*w*j*ą", "expected": "*x*ēo*w*w*j*ą"},
+        {"id": "singleton-breaking-short", "component": "OEBreaking", "input": "*k*n*é*w*ą", "expected": "*k*n*éo*w*ą"},
+        {"id": "incumbent-high-front-defect", "component": "OEBreaking", "input": "*b*e*w*i", "expected": "*b*eo*w*i"},
+        {"id": "long-tier-not-rebroken", "component": "OEBreaking", "input": "*x*ēo*w*w*j*ą", "expected": "*x*ēo*w*w*j*ą"}
+      ],
+      "staged_checks": [
+        {"id": "knee-short-checkpoint", "stage": "OEEwLongDiphthong", "side": "before", "stop_after": "OEBreaking", "input": "*k*n*é*w*ą", "expected": "*k*n*éo*w*ą", "evidence": "RingeTaylor2014 pp.187-188,387: short pre-ending diphthong; the surviving ending is still the incumbent CAPR representation."},
+        {"id": "knee-native-counterfactual", "stage": "OEEwLongDiphthong", "side": "before", "input": "*k*n*é*w*ą", "expected": "cneow", "evidence": "Explicit counterfactual prediction, not a replacement attested target: remove singleton long quantity while retaining the existing ending history."},
+        {"id": "hue-native-control", "stage": "OEEwLongDiphthong", "side": "before", "input": "*x*é*w*w*j*ą", "expected": "hīew", "evidence": "Campbell1959 p.46 supplies the native target. Its retained CAPR intermediate is a control, not a complete source-matched history."}
+      ]
+    },
+    {
+      "id": "sc033-oblique-cells",
+      "description": "Test regular knee dative/genitive cells through the complete PGmc suffix under the singleton-short counterfactual, without changing corpus rows.",
+      "definitions": "define AFOnlyJ [\n {*e} {*w} -> {*ēo} {*w} || _ {*w} {*j},\n {*i} {*w} -> {*ēo} {*w} || _ {*w} {*j},\n {*é} {*w} -> {*ēo} {*w} || _ {*w} {*j},\n {*í} {*w} -> {*ēo} {*w} || _ {*w} {*j}\n];\ndefine AFNoop [ ?* ];",
+      "insert_after": "OEEwLongDiphthong",
+      "insert_rule": "AFNoop",
+      "replace": {"OEEwLongDiphthong": "AFOnlyJ"},
+      "sources": [
+        {"key": "Campbell1959", "pages": "232-233"},
+        {"key": "HoggGrammar2011", "pages": "21-22,86"},
+        {"key": "Luick1914", "pages": "139"},
+        {"key": "RingeTaylor2014", "pages": "187-188,387"}
+      ],
+      "assumptions": "The sources identify short cneowe (dat.sg.) and cneowes (gen.sg.) as the regular pre-ending stem. The PGmc cell inputs are CAPR morphological constructions from the inherited knewa- stem and regular ai/as endings, not verbatim author reconstructions. Preserve the citation nominative and corpus targets.",
+      "limitations": "Private cell diagnostics, not an approved target/input migration or a manuscript-level quantity attestation. Hue remains the incumbent technical control. This does not adjudicate the whole endingless-glide interface or the unguarded wi breaking context.",
+      "component_checks": [
+        {"id": "dative-singleton-not-lengthened", "component": "AFOnlyJ", "input": "*k*n*é*w*ē", "expected": "*k*n*é*w*ē"},
+        {"id": "genitive-singleton-not-lengthened", "component": "AFOnlyJ", "input": "*k*n*é*w*a*s", "expected": "*k*n*é*w*a*s"}
+      ],
+      "staged_checks": [
+        {"id": "regular-knee-dative-native", "stage": "EnglishProtoInput", "side": "after", "input": "*k*n*é*w*ai", "expected": "cneowe", "evidence": "HoggGrammar2011 pp.21-22,86 explicitly identifies short cneowe as the dative singular and regular pre-w diphthongization; Campbell1959 p.233 and Luick1914 p.139 give the corresponding oblique cell. PGmc ending ai is a CAPR paradigm construction, not a quoted reconstruction."},
+        {"id": "regular-knee-genitive-native", "stage": "EnglishProtoInput", "side": "after", "input": "*k*n*é*w*a*s", "expected": "cneowes", "evidence": "Campbell1959 p.233 and Luick1914 p.139 distinguish regular short cneowes from secondary long oblique quantity. PGmc ending as follows CAPR's existing a-stem genitive-cell convention."}
+      ]
+    },
+    {
+      "id": "sc033-dative-candidate",
+      "description": "Approved knee dative selection, singleton-long restriction and high-front guard on short pre-w breaking, tested through the complete input wrapper.",
+      "definitions": "define AFOnlyJ [\n {*e} {*w} -> {*ēo} {*w} || _ {*w} {*j},\n {*i} {*w} -> {*ēo} {*w} || _ {*w} {*j},\n {*é} {*w} -> {*ēo} {*w} || _ {*w} {*j},\n {*í} {*w} -> {*ēo} {*w} || _ {*w} {*j}\n];\ndefine AFNoop [ ?* ];\ndefine AFBreak [OEBreakingA] .o. [\n {*e} -> {*eo} || _ [EnglishBreakingRContext | EnglishBreakingHContext | EnglishBreakingLContextE | {*w} [[EnglishStarVocalic | EnglishStarConsonant] - [{*i}|{*í}|{*ī}|{*ḯ}|{*j}]] | {*w} .#.],\n {*é} -> {*éo} || _ [EnglishBreakingRContext | EnglishBreakingHContext | EnglishBreakingLContextE | {*w} [[EnglishStarVocalic | EnglishStarConsonant] - [{*i}|{*í}|{*ī}|{*ḯ}|{*j}]] | {*w} .#.]\n] .o. [\n {*i} -> {*io} || _ [EnglishBreakingRContext | EnglishBreakingHContext | {*w} [[EnglishStarVocalic | EnglishStarConsonant] - [{*i}|{*í}|{*ī}|{*ḯ}|{*j}]] | {*w} .#.],\n {*í} -> {*ío} || _ [EnglishBreakingRContext | EnglishBreakingHContext | {*w} [[EnglishStarVocalic | EnglishStarConsonant] - [{*i}|{*í}|{*ī}|{*ḯ}|{*j}]] | {*w} .#.]\n];",
+      "insert_after": "OEEwLongDiphthong",
+      "insert_rule": "AFNoop",
+      "replace": {"OEEwLongDiphthong": "AFOnlyJ", "OEBreaking": "AFBreak"},
+      "sources": [
+        {"key": "Campbell1959", "pages": "46-47,232-233"},
+        {"key": "HoggGrammar2011", "pages": "21-22,86"},
+        {"key": "Luick1914", "pages": "139"},
+        {"key": "RingeTaylor2014", "pages": "187-188,387"},
+        {"key": "Fulk2018", "pages": "146-147,154"}
+      ],
+      "assumptions": "User approved PGmc dative *knéwai and OE dative cneowe. Retain citation PROTO *knéwą. Only the selected knee input is overridden in this private assay; the frozen nominative target is not rewritten. Short pre-w diphthongization excludes a following high front vowel or j.",
+      "limitations": "Hue's j-created long mapping remains a disclosed compatibility proxy with omitted early raising. The regular endingless history is discussed, not silently implemented as an analogical nominative restoration. Mismatch against the old knee target is an approved cell-change consequence, not a new unexplained failure.",
+      "input_overrides": [
+        {"row_id": "2085", "baseline_input": "*knéwą", "variant_input": "*knéwai", "input_stage": "pgmc"}
+      ],
+      "component_checks": [
+        {"id": "singleton-e-short", "component": "AFBreak", "input": "*k*n*é*w*ē", "expected": "*k*n*éo*w*ē"},
+        {"id": "singleton-i-short", "component": "AFBreak", "input": "*b*í*w*a", "expected": "*b*ío*w*a"},
+        {"id": "short-i-blocks-e", "component": "AFBreak", "input": "*b*e*w*i", "expected": "*b*e*w*i"},
+        {"id": "acute-i-blocks-e", "component": "AFBreak", "input": "*b*é*w*í", "expected": "*b*é*w*í"},
+        {"id": "long-i-blocks-i", "component": "AFBreak", "input": "*b*i*w*ī", "expected": "*b*i*w*ī"},
+        {"id": "acute-long-i-blocks-i", "component": "AFBreak", "input": "*b*í*w*ḯ", "expected": "*b*í*w*ḯ"},
+        {"id": "j-blocks-e", "component": "AFBreak", "input": "*b*e*w*j", "expected": "*b*e*w*j"},
+        {"id": "word-final-w-breaks", "component": "AFBreak", "input": "*b*é*w", "expected": "*b*éo*w"},
+        {"id": "singleton-not-long", "component": "AFOnlyJ", "input": "*k*n*é*w*ē", "expected": "*k*n*é*w*ē"},
+        {"id": "hue-proxy-preserved", "component": "AFOnlyJ", "input": "*x*é*w*w*j*ą", "expected": "*x*ēo*w*w*j*ą"}
+      ],
+      "staged_checks": [
+        {"id": "dative-native", "stage": "EnglishProtoInput", "side": "after", "input": "*k*n*é*w*ai", "expected": "cneowe", "evidence": "Campbell1959 p.233; HoggGrammar2011 pp.21-22,86; Luick1914 p.139; Fulk2018 p.147: regular short-stem dative under the preferred PGmc ending analysis."},
+        {"id": "hue-native-control", "stage": "OEEwLongDiphthong", "side": "before", "input": "*x*é*w*w*j*ą", "expected": "hīew", "evidence": "Campbell1959 p.46: retained j-created native target, with early raising still explicitly unmodeled."}
+      ]
+    },
+    {
+      "id": "sc033-final-low-loss",
+      "description": "General unaccented final short low-vowel loss at the existing z-loss interface, without endingless-glide realization.",
+      "definitions": "define AFEnd [ [{*a}|{*ą}] -> 0 || _ .#. ];",
+      "insert_after": "EAFFinalZDeletion",
+      "insert_rule": "AFEnd",
+      "replace": {},
+      "sources": [{"key": "RingeTaylor2014", "pages": "44-48,174,387"}],
+      "assumptions": "Physical final-vowel contrast only; no lexical or grammatical matcher. Retain current z-loss and all other operations to measure the missing a/ą interface.",
+      "limitations": "Partial current-serialization diagnostic, not an adopted historical date. Does not model the earlier stranding/syllabification of j/w before j-gemination, endingless-glide formation or leveling.",
+      "component_checks": [
+        {"id": "nasal-low-final-loss", "component": "AFEnd", "input": "*k*n*é*w*ą", "expected": "*k*n*é*w"},
+        {"id": "plain-low-final-loss", "component": "AFEnd", "input": "*k*n*é*w*a", "expected": "*k*n*é*w"},
+        {"id": "long-low-retained", "component": "AFEnd", "input": "*x*w*ā", "expected": "*x*w*ā"},
+        {"id": "accented-low-retained", "component": "AFEnd", "input": "*x*w*á", "expected": "*x*w*á"},
+        {"id": "high-final-retained", "component": "AFEnd", "input": "*g*æ*s*t*i", "expected": "*g*æ*s*t*i"}
+      ],
+      "staged_checks": [
+        {"id": "knee-loss-only-native", "stage": "EAFFinalZDeletion", "side": "after", "input": "*k*n*é*w*ą", "expected": "cneow", "evidence": "Explicit incomplete-interface counterfactual; RingeTaylor2014 pp.174,387 supports the need for independent endingless diphthong realization."}
+      ]
+    },
+    {
+      "id": "sc033-endingless-vu",
+      "description": "Couple general final a/ą loss with short Vw-to-Vu formation at word end; existing au/eu/iu consumers supply the English realization.",
+      "definitions": "define AFEndVu [ [{*a}|{*ą}] -> 0 || _ .#. ] .o. [\n {*a} {*w} -> {*au} || _ .#.,\n {*á} {*w} -> {*áu} || _ .#.,\n {*e} {*w} -> {*eu} || _ .#.,\n {*é} {*w} -> {*éu} || _ .#.,\n {*i} {*w} -> {*iu} || _ .#.,\n {*í} {*w} -> {*íu} || _ .#.\n];",
+      "insert_after": "EAFFinalZDeletion",
+      "insert_rule": "AFEndVu",
+      "replace": {},
+      "sources": [
+        {"key": "RingeTaylor2014", "pages": "44-48,172-175,387"},
+        {"key": "Campbell1959", "pages": "46-47,53-54"}
+      ],
+      "assumptions": "General phonological ending/offglide diagnostic with no row-ID or nominal matcher. Uses existing atomic diphthong consumers, not a knee-specific long-vowel patch.",
+      "limitations": "Current z-loss serialization is retained for diagnosis, not asserted historically correct. Earlier postconsonantal j/w syllabification, surviving high-vowel endings and leveling remain separate prerequisites. All changed corpus rows must be reported before any production proposal.",
+      "component_checks": [
+        {"id": "nasal-knee-endingless", "component": "AFEndVu", "input": "*k*n*é*w*ą", "expected": "*k*n*éu"},
+        {"id": "plain-knee-endingless", "component": "AFEndVu", "input": "*k*n*é*w*a", "expected": "*k*n*éu"},
+        {"id": "straw-endingless", "component": "AFEndVu", "input": "*s*t*r*á*w*ą", "expected": "*s*t*r*áu"},
+        {"id": "unmarked-e-endingless", "component": "AFEndVu", "input": "*k*n*e*w", "expected": "*k*n*eu"},
+        {"id": "unmarked-a-endingless", "component": "AFEndVu", "input": "*s*t*r*a*w", "expected": "*s*t*r*au"},
+        {"id": "unmarked-i-endingless", "component": "AFEndVu", "input": "*b*i*w", "expected": "*b*iu"},
+        {"id": "acute-i-endingless", "component": "AFEndVu", "input": "*b*í*w", "expected": "*b*íu"},
+        {"id": "inflected-w-not-endingless", "component": "AFEndVu", "input": "*k*n*é*w*e*s", "expected": "*k*n*é*w*e*s"},
+        {"id": "j-created-glide-not-endingless", "component": "AFEndVu", "input": "*x*é*w*w*j*ą", "expected": "*x*é*w*w*j"},
+        {"id": "long-vowel-not-short-offglide", "component": "AFEndVu", "input": "*b*ē*w", "expected": "*b*ē*w"}
+      ],
+      "staged_checks": [
+        {"id": "knee-regular-endingless-native", "stage": "EAFFinalZDeletion", "side": "after", "input": "*k*n*é*w*ą", "expected": "cnēo", "evidence": "RingeTaylor2014 pp.174,387 and Campbell1959 pp.46-47: regular endingless long diphthong without the leveled w."},
+        {"id": "straw-regular-endingless-native", "stage": "EAFFinalZDeletion", "side": "after", "input": "*s*t*r*á*w*ą", "expected": "strēa", "evidence": "RingeTaylor2014 pp.172-173,387 and Campbell1959 p.46: regular endingless outcome, not the leveled strēaw target."}
+      ]
+    }
+  ],
+  "probes": [
+    {"id": "after_sc033", "stage": "OEEwLongDiphthong", "side": "after"},
+    {"id": "after_breaking", "stage": "OEBreaking", "side": "after"},
+    {"id": "after_mutation", "stage": "OEIUmlaut", "side": "after"}
+  ]
+}

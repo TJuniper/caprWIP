@@ -53,7 +53,7 @@ def load_oe_rows(tsv_path: Path) -> list[dict[str, str]]:
 
 def legacy_subset(records: list[dict], legacy_rows: list[dict],
                   migrations: list[dict]) -> list[dict]:
-    """Resolve frozen identities, permitting only documented input migrations."""
+    """Resolve frozen identities, permitting only exact documented migrations."""
     by_key = {}
     by_id = {}
     for record in records:
@@ -64,8 +64,9 @@ def legacy_subset(records: list[dict], legacy_rows: list[dict],
         by_id[record["row_id"]] = record
     approved = {}
     for migration in migrations:
-        if set(migration) != {"row_id", "concept", "counterpart", "old_proto",
-                              "new_proto", "adjudication_memo"} or not all(migration.values()):
+        if set(migration) != {"row_id", "concept", "counterpart", "new_counterpart",
+                              "old_proto", "new_proto", "old_outputs", "new_outputs",
+                              "adjudication_memo"} or not all(migration.values()):
             raise ValueError("invalid approved input migration")
         key = (normalize_proto(migration["old_proto"]),
                migration["counterpart"], migration["concept"])
@@ -84,11 +85,13 @@ def legacy_subset(records: list[dict], legacy_rows: list[dict],
         seen.add(key)
         migration = approved.get(key)
         if migration:
-            if old["proto"] != migration["old_proto"]:
-                raise ValueError(f"migration old input mismatch: {key}")
+            if (old["proto"] != migration["old_proto"]
+                    or old["outputs"] != migration["old_outputs"]):
+                raise ValueError(f"migration old record mismatch: {key}")
             current = by_id.get(migration["row_id"])
             if current is None or any(current[field] != migration[value] for field, value in (
-                ("proto", "new_proto"), ("concept", "concept"), ("counterpart", "counterpart")
+                ("proto", "new_proto"), ("concept", "concept"),
+                ("counterpart", "new_counterpart"), ("outputs", "new_outputs")
             )) or current["proto_norm"] != normalize_proto(migration["new_proto"]):
                 raise ValueError(f"migration current identity mismatch: {key}")
             used.add(key)
@@ -97,6 +100,8 @@ def legacy_subset(records: list[dict], legacy_rows: list[dict],
             if current is None or current["proto"] != old["proto"]:
                 raise ValueError(f"unapproved legacy input drift: {key}")
         for field in ("accepted", "output_count", "match", "outputs"):
+            if migration and field == "outputs":
+                continue
             if current[field] != old[field]:
                 raise ValueError(f"unapproved legacy {field} drift: {key}")
         selected.append(current)
@@ -279,6 +284,112 @@ def read_baseline(outputs_path: Path, summary_path: Path) -> dict:
     with outputs_path.open(encoding="utf-8", newline="") as handle:
         records = list(csv.DictReader(handle, delimiter="\t"))
     return {"records": records, "summary": json.loads(summary_path.read_text(encoding="utf-8"))}
+
+
+def validate_cell_transition(previous: dict, candidate: dict, approval: dict) -> None:
+    fields = {"proto", "proto_norm", "fst_input", "counterpart", "outputs"}
+    summary_fields = {"outputs_sha256", "lexical_outputs_sha256", "legacy_subset_sha256"}
+    if not isinstance(approval, dict) or set(approval) != {
+        "adjudication", "adjudication_memo", "previous_summary",
+        "legacy_archive_sha256", "changes",
+    } or not isinstance(approval["adjudication"], str) or not re.fullmatch(
+        r"SC[0-9]{3}", approval["adjudication"]
+    ):
+        raise ValueError("invalid paradigm-cell migration approval")
+    if (not isinstance(approval["previous_summary"], dict)
+            or set(approval["previous_summary"]) != summary_fields
+            or not isinstance(approval["changes"], list)
+            or approval["adjudication_memo"] !=
+            f"Germanic/docs/sound_changes/audits/{approval['adjudication'].lower()}-adjudication.md"):
+        raise ValueError("invalid paradigm-cell migration approval")
+    for value in [*approval["previous_summary"].values(), approval["legacy_archive_sha256"]]:
+        if not isinstance(value, str) or not re.fullmatch(r"[0-9a-f]{64}", value):
+            raise ValueError("invalid paradigm-cell approval fingerprint")
+    for field, value in approval["previous_summary"].items():
+        if previous["summary"].get(field) != value:
+            raise ValueError(f"paradigm-cell previous summary mismatch: {field}")
+    before = {row["row_id"]: row for row in previous["records"]}
+    after = {row["row_id"]: row for row in candidate["records"]}
+    if (len(before) != len(previous["records"]) or len(after) != len(candidate["records"])
+            or not all(before) or before.keys() != after.keys()):
+        raise ValueError("paradigm-cell migration has duplicate, missing or changed identities")
+    changes = {}
+    for change in approval["changes"]:
+        if (not isinstance(change, dict) or set(change) != {"row_id", "before", "after"}
+                or not isinstance(change["row_id"], str) or not change["row_id"]
+                or not isinstance(change["before"], dict) or not isinstance(change["after"], dict)
+                or set(change["before"]) != fields or set(change["after"]) != fields
+                or not all(isinstance(value, str) and value
+                           for side in ("before", "after") for value in change[side].values())
+                or change["before"] == change["after"]
+                or change["row_id"] in changes):
+            raise ValueError("invalid or duplicate paradigm-cell migration")
+        changes[change["row_id"]] = change
+    if not changes or not changes.keys() <= before.keys():
+        raise ValueError("paradigm-cell migration names no valid identities")
+    for identifier, old in before.items():
+        expected = dict(old)
+        if identifier in changes:
+            change = changes[identifier]
+            if any(old[field] != value for field, value in change["before"].items()):
+                raise ValueError(f"paradigm-cell old record mismatch: {identifier}")
+            expected.update(change["after"])
+            if (expected["proto_norm"] != normalize_proto(expected["proto"])
+                    or expected["counterpart"] not in expected["outputs"].split("|")):
+                raise ValueError(f"invalid paradigm-cell replacement: {identifier}")
+        if after[identifier] != expected:
+            raise ValueError(f"unapproved paradigm-cell record drift: {identifier}")
+        outputs = expected["outputs"].split("|") if expected["outputs"] else []
+        context = InputContext(expected["word_stress"], expected["phonological_finality"])
+        if (context.encode(expected["proto_norm"]) != expected["fst_input"]
+                or int(expected["output_count"]) != len(outputs)
+                or (expected["accepted"] == "1") != bool(outputs)
+                or (expected["match"] == "1") != (expected["counterpart"] in outputs)):
+            raise ValueError(f"inconsistent paradigm-cell replacement: {identifier}")
+    for field in ("outputs_sha256", "lexical_outputs_sha256"):
+        input_field = "fst_input" if field == "outputs_sha256" else "proto_norm"
+        if previous["summary"][field] != projection_sha256(previous["records"], input_field):
+            raise ValueError(f"paradigm-cell previous fingerprint mismatch: {field}")
+        if candidate["summary"][field] != projection_sha256(candidate["records"], input_field):
+            raise ValueError(f"paradigm-cell fingerprint mismatch: {field}")
+    for field, value in previous["summary"].items():
+        if field not in {"outputs_sha256", "lexical_outputs_sha256", "legacy_subset_sha256"}:
+            if candidate["summary"].get(field) != value:
+                raise ValueError(f"unapproved paradigm-cell summary drift: {field}")
+
+
+def adopt_cell_baseline(candidate: dict, out_dir: Path, approval: dict) -> None:
+    if not isinstance(approval, dict) or not isinstance(approval.get("adjudication"), str) or not re.fullmatch(
+        r"SC[0-9]{3}", approval["adjudication"]
+    ):
+        raise ValueError("invalid paradigm-cell adjudication")
+    outputs_path = out_dir / "cascade_baseline_outputs.tsv"
+    summary_path = out_dir / "cascade_baseline_summary.json"
+    suffix = approval["adjudication"].lower()
+    archive_outputs = out_dir / f"cascade_baseline_outputs_pre_{suffix}.tsv"
+    archive_summary = out_dir / f"cascade_baseline_summary_pre_{suffix}.json"
+    current = read_baseline(outputs_path, summary_path)
+    if archive_outputs.exists() != archive_summary.exists():
+        raise ValueError("incomplete pre-cell baseline archive")
+    previous = read_baseline(archive_outputs, archive_summary) if archive_outputs.exists() else current
+    validate_cell_transition(previous, candidate, approval)
+    with (out_dir / "cascade_baseline_outputs_legacy380.tsv").open(encoding="utf-8") as handle:
+        legacy_rows = list(csv.DictReader(handle, delimiter="\t"))
+    if projection_sha256(legacy_rows, "proto_norm") != approval["legacy_archive_sha256"]:
+        raise ValueError("immutable legacy380 archive fingerprint changed")
+    with (out_dir / "approved_input_migrations.tsv").open(encoding="utf-8") as handle:
+        migrations = list(csv.DictReader(handle, delimiter="\t"))
+    selected = legacy_subset(candidate["records"], legacy_rows, migrations)
+    if projection_sha256(selected, "proto_norm") != candidate["summary"]["legacy_subset_sha256"]:
+        raise ValueError("paradigm-cell active legacy fingerprint mismatch")
+    if archive_outputs.exists() and current == candidate:
+        return
+    if current != previous:
+        raise ValueError("active baseline differs from preserved pre-cell baseline")
+    if not archive_outputs.exists():
+        archive_outputs.write_bytes(outputs_path.read_bytes())
+        archive_summary.write_bytes(summary_path.read_bytes())
+    write_outputs(candidate, out_dir)
 
 
 def adopt_context_baseline(candidate: dict, out_dir: Path, approval: dict) -> None:

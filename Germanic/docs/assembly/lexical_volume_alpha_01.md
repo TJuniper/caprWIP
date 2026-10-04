@@ -30,7 +30,7 @@ The lexical catalogue is ordered by seven derivation classes in the current mani
 - Regular derivations: 82
 - Attested variants: 4
 - Early analogy: 36
-- Late analogy: 27
+- Late analogy: 28
 - Reconstructed Old English comparators: 3
 - Known but unmodelled developments: 2
 - Unexplained or deliberately unmodelled exceptions: 5
@@ -5758,6 +5758,13 @@ Campbell prints [hīew]{.iv lang=oe sort=hiew role=target_form source_ref="Germa
 
 Campbell's decisive observation is that the \*awj and \*iwj types share the gemination and then part company: "the u of auuj is lost, so that the final result is ēg or ieg, but the j of iuuj is lost, so that the result is iow or iew" [@Campbell1959, §120.2, p. 46]. The cascade reproduces both halves of that statement. West Germanic gemination doubles the \*w before \*j, giving \*xéwwją. The \*ew diphthong is then lengthened to \*ēo, the geminate is simplified, the initial dorsal fricative is palatalized, the nasal-final syllable loses its ending, *i*-umlaut raises \*ēo to \*īe, and the \*j is lost after the now heavy syllable, leaving *hīew* with the \*w intact.
 
+Knee now selects the regular dative *cneowe* 'knee (dat.sg.)', whose
+short diphthong is produced by
+[SC044 OEBreaking](#rule-OEBreaking); it no longer shares this
+long-output component. The source distinguishes its short pre-ending
+stem from long endingless *cnēo* 'knee' and restored *w* in *cnēow*
+[@HoggGrammar2011, pp. 21--22, 86; @RingeTaylor2014, p. 387].
+
 This geminate is created after the modeled early inherited-glide
 reanalysis and does not enter that short-Vww operation. Its later
 long-diphthong path remains at
@@ -10325,6 +10332,200 @@ form from the regular 3sg present line.
 | citation infinitive | _-ja-_ stem of [_\*xabēną_]{.iv lang=pgmc sort=xabena role=source_protoform source_ref="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:61" occ_id="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:61:1"} | citation form [_habban_]{.iv lang=oe sort=habban role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:61" occ_id="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:61:2"} | [_habban_]{.iv lang=oe sort=habban role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:61" occ_id="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:61:3"} | important headword, but shaped by later leveling |
 | 3sg present | [_\*xábēθi_]{.iv lang=pgmc sort=xabethi role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:62" occ_id="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:62:1"} | regular output: [_hæfeþ_]{.iv lang=oe sort=haefeth role=regular_output source_ref="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:62" occ_id="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:62:2"} | [_hæfeþ_]{.iv lang=oe sort=haefeth role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:62" occ_id="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:62:3"} | exact match between input, output, and finite form compared here |
 | syncopated finite tradition | same present stem | [_hæfþ_]{.iv lang=oe sort=haefth role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:63" occ_id="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:63:1"} type evidence | [_hæfþ_]{.iv lang=oe sort=haefth role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:63" occ_id="Germanic/docs/lexeme_reports/model_entries/2058-have-hæfeþ.model.md:63:2"} | genuine later OE finite form, but not the normalized target used here |
+
+### knee — OE _cneowe_
+
+Derivation: citation reconstruction _\*knéwą_; form followed here _\*knéwai_ > _cneowe_ (late analogy).
+
+#### Derivation trace
+
+Proto input: _\*knéwai_
+
+\begingroup
+\setlength{\fboxsep}{6pt}
+\noindent\fbox{%
+\begin{minipage}{0.97\linewidth}
+\small
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.485\linewidth}@{\hspace{0.030\linewidth}}>{\raggedright\arraybackslash}p{0.485\linewidth}@{}}
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Earlier Germanic changes}\par
+\vspace{0.35em}
+\raggedright
+\centering\textbf{Northwest and West Germanic}\par
+\raggedright
+\vspace{0.2em}
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+PNWGmc Unstressed Ai Monophthongization & \emph{*knéwē} \\
+\end{tabularx}
+\vspace{0.6em}
+\centering\textbf{Early Anglo-Frisian}\par
+\raggedright
+\vspace{0.2em}
+\raggedright [no change]\par
+\end{minipage}
+&
+\begin{minipage}[t]{\linewidth}
+\centering\textbf{Old English changes}\par
+\vspace{0.35em}
+\raggedright
+\begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{0.55em}}>{\raggedright\arraybackslash}p{0.14\linewidth}@{\hspace{0.25em}}}
+\mbox{OE Breaking} & \emph{*knéowē} \\
+OE Unstressed Long Vowel Shortening & \emph{*knéowe} \\
+\end{tabularx}
+\end{minipage}
+\\
+\end{tabular}
+\end{minipage}%
+}
+\endgroup
+
+Old English form: _cneowe_
+
+#### Reconstruction and selection of the dative
+
+The citation reconstruction is the neuter noun
+[knéwą]{.iv .recon lang=pgmc sort=knewa role=source_protoform source_ref="Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:22" occ_id="Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:22:1"} 'knee'.
+Ringe and Taylor expressly give the singular [knewą]{.recon} 'knee'
+and distinguish its endingless development from the inflected stem
+[@RingeTaylor2014, p. 387, §7.2.4]. The acute in the selected notation
+marks root stress; it does not make the vowel long.
+
+The derivational input
+[knéwai]{.iv .recon lang=pgmc sort=knewai role=selected_input source_ref="Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:29" occ_id="Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:29:1"} 'knee
+(dat.sg.)' belongs to another cell of the same inherited paradigm.
+It combines the stem with the conventional dative ending. Fulk regards
+Proto-Germanic *-ai* as the most likely source of the West Germanic
+dative singular, while considering the competing *-ē* analysis and
+the uncertainties of the wider Germanic comparison
+[@Fulk2018, p. 147, §7.8]. The whole-word input is therefore an explicit
+paradigm construction under that defended working account, not a
+verbatim reconstruction quoted from Hogg or Campbell. It is neither a
+later Old English transponent nor a nominative from which the dative has
+been generated by an invented sound law.
+
+The distinction between citation reconstruction and derivational input is
+essential. Selecting the dative does not deny the existence of the
+familiar nominative *cnēow* 'knee', nor replace the inherited neuter
+reconstruction with a different lexeme. It selects the cell in which
+the regular pre-ending development can be compared without importing
+the nominative's analogically restored consonant.
+
+#### Old English quantity and paradigm evidence
+
+Hogg explicitly uses
+[cneowe]{.iv lang=oe sort=cneowe role=target_form source_ref="Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:51" occ_id="Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:51:1"} 'knee (dat.sg.)'
+as an example of short *eo*. His adjacent long-diphthong example,
+*cnēowe* 'know (past subjunctive)', is a verb form, not an alternative
+knee dative. In the discussion of breaking he again names the knee
+dative as a regular example before *w*, while assigning the final
+*w* of nominative *cnēo(w)* to analogy
+[@HoggGrammar2011, pp. 21--22, §2.33; p. 86, §5.22 and note 7].
+The quantity contrast is an explicit grammatical analysis, not an
+inference from an unmarked manuscript digraph.
+
+Campbell's regular paradigm similarly has genitive *cneowes* 'knee
+(gen.sg.)' and dative *cneowe* beside long endingless *cnēo(w)*.
+He then allows the long diphthong to extend into the inflected forms,
+giving the secondary *cnēowes* type
+[@Campbell1959, pp. 232--233, §584].
+Luick independently gives *cneowe(s)* as the genitive and dative
+products of short-vowel diphthongization before *w*, with the
+following-*i* exclusion [@Luick1914, p. 139, §134].
+These accounts support the selected short dative. They do not establish
+that every occurrence of an inflected knee form necessarily retained
+the original quantity.
+
+Ringe and Taylor give the same basic opposition: long endingless
+*cnēo* and short \emph{cneow-} before syllabic endings. They cautiously
+consider subsequent extension of long quantity into knee's inflected
+stem, noting the difficulty of finding decisive verse evidence
+[@RingeTaylor2014, pp. 187--188, §6.2.4; p. 387, §7.2.4].
+Fulk describes the wider two-way leveling pattern of this stem class:
+the endingless diphthong spreads into inflected forms, and their *w*
+spreads into uninflected forms. His explicit illustrative example is
+the servant paradigm, not an independent metrical attestation for
+knee [@Fulk2018, p. 154, §7.12].
+
+#### The regular selected development
+
+Before a retained syllabic ending, the root vowel remains short.
+The singleton *w* conditions short *e* to *eo*, unless followed by
+a high front vocalic. Hogg's knee dative and Luick's corresponding
+examples belong to this regular pre-ending domain
+[@HoggGrammar2011, p. 86; @Luick1914, p. 139;
+@RingeTaylor2014, pp. 187--188].
+The weakening of the selected dative ending leaves Old English *-e*;
+the medial *w* has not become a word-final offglide and does not need
+to be restored.
+
+The modeled short diphthong is supplied by
+[SC044 OEBreaking](#rule-OEBreaking), not by assigning long quantity
+at [SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong).
+The latter now excludes this singleton path and retains only the
+separately disclosed j-created representation discussed with
+*hīew* 'hue'. The inherited-ending and short-diphthong developments
+are independently motivated; arriving at the right final spelling
+is not itself their historical justification.
+
+#### Why the nominative is a comparison, not the selected target
+
+The endingless development follows a different route. Ringe and
+Taylor derive long *cnēo* from the inherited singular through an
+offglide-bearing intermediate, and explain the *w* in *cnēow* as
+transfer from the inflected forms
+[@RingeTaylor2014, pp. 174, 387].
+Campbell likewise distinguishes endingless diphthong formation from
+the later addition of *w* from the obliques
+[@Campbell1959, pp. 46--47, 232--233].
+Luick's older account distinguishes the endingless knee/tree
+*eo* and *eu* sources and their subsequent leveling
+[@Luick1914, p. 118, §101]. Agreement on the short/long paradigm
+opposition does not make all these detailed early reconstructions
+identical.
+
+The nominative is thus not an appropriate obligation for a purely
+phonological derivation that retains *w* and lengthens the root
+before its ending disappears. Such a derivation reaches a real Old
+English form by conflating two histories. The selected dative avoids
+that conflation without a knee-specific lengthening rule, an
+analogical sound change, or grammatical conditioning of a phonetic law.
+It also avoids choosing a long oblique which itself reflects the
+quantity leveling under investigation.
+
+#### Paradigm comparison and confidence
+
+| Cell or interpretation | Reconstruction / form | Historical role |
+| :--- | :--- | :--- |
+| PGmc citation singular | *knéwą | Preserved lexeme-level reconstruction |
+| Selected PGmc dative singular | *knéwai | Explicit inherited-cell construction under the preferred *-ai analysis |
+| OE selected dative singular | cneowe | Regular short pre-ending diphthong |
+| OE regular genitive singular | cneowes | Independent short-stem comparison |
+| OE endingless singular | cnēo | Regular long offglide-derived form |
+| OE familiar nominative | cnēow | Endingless form with restored w |
+| Later long obliques | cnēowe, cnēowes | Possible quantity leveling; not the selected regular comparison |
+
+Confidence is strong in the regular paradigm distinction: Campbell,
+Luick, Hogg and Ringe--Taylor independently identify the short
+pre-ending stem. Confidence is more qualified in the exact inherited
+dative-ending reconstruction and in how widely later long quantity
+spread through knee's attested obliques. Neither uncertainty authorizes
+an unrestricted short-*ew* to long-*ēow* sound law.
+
+The authors' exact inputs are not silently harmonized. Hogg's breaking
+footnote prints [knewaz]{.iv .recon lang=pgmc sort=knewaz role=comparison_form source_ref="Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:150" occ_id="Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:150:1"}
+'knee', whereas Ringe and Taylor give the neuter *knewą*
+[@HoggGrammar2011, p. 86, note 7; @RingeTaylor2014, p. 387].
+The latter supplies the retained citation reconstruction. This
+discrepancy in the quoted ending is separate from their agreement on
+short pre-ending quantity; it is not evidence for replacing the selected
+dative with a nominative or for claiming identical whole-word inputs.
+
+This entry belongs to late analogy and paradigm-cell selection because
+the conventional citation paradigm has undergone later reshaping.
+That placement does not mean that the selected dative itself requires
+an analogical operation. It follows the same principle as the regular
+selected obliques used for cow, night and meed: distinguish the history
+of the lexeme's paradigm from the sound-law path of the chosen cell.
 
 ### live — OE _lifeþ_
 

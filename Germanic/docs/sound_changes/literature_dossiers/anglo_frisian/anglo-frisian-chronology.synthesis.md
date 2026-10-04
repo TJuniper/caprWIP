@@ -1,8 +1,9 @@
 # Anglo-Frisian chronology: comparative synthesis
 
 **Single authority for comparative chronology in this research area.**
-Research only: no adjudication, implementation, corpus addition or registry
-verdict follows. Source cards preserve the detailed readings; the
+Research arguments alone authorize no adjudication, implementation, corpus
+addition or registry verdict. Explicitly approved increments are recorded
+here with their controlling memos. Source cards preserve the detailed readings; the
 palatalization note and witness queue defer here rather than maintaining
 independent chronologies.
 
@@ -15,8 +16,29 @@ clause as a visible support approximation. The lexical gift entry compares
 the published e-forms, e-grade presentations and Ringe's phonological
 argument, including confidence and dating qualifications.
 These are bounded adopted decisions, not adoption of every recommendation
-or ancestral inventory in this comparative synthesis. SC098 is unchanged.
+or ancestral inventory in this comparative synthesis. SC098 was unchanged
+in that increment; its later coupled adoption is recorded in section8.1.
 The private pre-adoption recipes/results below remain historical evidence.
+
+## Adopted SC033 knee-cell increment
+
+The user subsequently approved the regular dative *knéwai → cneowe,
+preserving citation *knéwą. Singleton lengthening is removed; the short
+pre-w consumer gains its high-front/j exclusion. SC033 now denotes the
+retained technical hue component without an invented historical date.
+The detailed knee entry moves to late analogy/paradigm-cell selection.
+The SC033 memo owns the exact one-row baseline transition and current
+publication closeout; earlier hashes and knee/hue populations below
+are historical snapshots, not current pins. The source argument is
+Campbell1959 pp.232–233, Luick1914 p.139, HoggGrammar2011 pp.21–22,86,
+RingeTaylor2014 pp.187–188,387 and Fulk2018 pp.147,154.
+
+This bounded increment is published in the inspected 301-page combined
+draft: knee section9.9, printed pp.249–251, in Late analogy and
+paradigm-cell selection. The controlling memo records production
+verification, exact archive preservation and the inspected rule,
+chapter, hue and index pages. The general endingless interface and
+hue's omitted earlier raising remain explicit residue.
 
 ## 1. Governing test and notation
 
@@ -840,7 +862,8 @@ and the seven pre-existing mismatches, without missing/ambiguous output
 or changes to canonical artifacts. It passed 49 component checks, seven
 staged suffix controls and 28 intermediate assertions, including the
 adopted gift/guest/sheath checkpoints. Early reanalysis changes chew, dew,
-four, hew and you; SC033 retains knee/hue, the late ww+j residual retains
+four, hew and you; in that released snapshot SC033 retains knee/hue,
+the late ww+j residual retains
 hue, SC032's population increases from 27 to 32, and SC034 retains its
 four singleton show/straw forms. A 62-form eligibility audit prevents
 silently treating the condition as a you-only law: only you selects weak
@@ -1329,7 +1352,7 @@ remain proposals unless their rows explicitly record adoption.
 | Component | Historical target or outstanding specification | Evidence / diagnostic | Existing dossier and reader surface | State / next action |
 |---|---|---|---|---|
 | SC031 ww simplification | Distinguish literal deletion proxy from earlier Vww > Vuw reanalysis | RingeTaylor2014 pp. 41–42, 65–66; Fulk2018 p. 117; complete composed assay | 031-034 book dossier §§11–16; 031 reader | Implemented and published SPLIT/REORDER: early chew/dew/four/hew/you reanalysis, separate homorganic quantity, explicit long-Vww negatives and visible SC106 hue ww+j residual. Approved context baseline adopted; production controls and inspected book complete |
-| SC033 e/i+w | Early reanalysis versus later English long diphthong realization; no wholesale PWGmc restaging | RingeTaylor2014 pp. 41–42, 171–173; four/you/chew/hue | 031-034 dossier; 033 reader | Retained operation with changed feeder population: knee/hue remain; chew/four/you complete through SC032 after early reanalysis. Superseded displacement witnesses removed; no new historical verdict |
+| SC033 e/i+w | Separate short pre-ending diphthongization from endingless quantity/leveling and the j-created residual | Campbell1959 pp.232–233; Luick1914 p.139; HoggGrammar2011 pp.21–22,86; RingeTaylor2014 pp.187–188,387; Fulk2018 pp.147,154 | SC033 memo; 031-034 dossier §§17–18; 033/044 readers; knee model | Author-approved REFORMULATE/RESTRICT: singleton long quantity removed; SC044 gains high-front/j exclusion. Knee selects PGmc dative *knéwai → short cneowe, retaining citation *knéwą; detailed entry moves to late analogy/paradigm-cell selection. SC033 remains a technical hue encoding with omitted earlier raising, not an independently dated law. Exact one-row baseline adoption and publication closeout recorded in the memo |
 | SC034 a+w | Quantity and retained glide, including secondary ww; exclude separately resolved j paths | RingeTaylor2014 pp. 65–66, 171–173; dew/hew, hay/strew controls | 031-034 dossier §§13, 16; 034 reader | Retained operation with changed feeder population: dew/hew complete through SC032; four singleton show/straw forms remain. No new historical verdict |
 | SC032 atomic diphthongs | Separate au completion from eu/iu realization; not automatically one leveling law | RingeTaylor2014 pp. 171–175; bread and eu/iu controls | 031-034 dossier §§13, 16; 032 reader | Production population is 32 versus former 27, retaining the old population plus five early-reanalysis witnesses. Existing realization clauses retained; F interface remains separately specified |
 | SC032 split e/i+u | Determine representation equivalence and short/long/stress outcomes | Existing executable clauses; source mapping required, not inferred from notation | 031-034 dossier §13; 032 reader | Split e/é/i clauses mapped, including absent parallel í clause; historical equivalence not established |

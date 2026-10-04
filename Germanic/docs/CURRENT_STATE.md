@@ -39,16 +39,22 @@ Recorded in
 and pinned by `Germanic/tests/test_cascade_baseline.py`:
 
 - active original-380 identity fingerprint (`legacy_subset_sha256`):
-  `04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac852c409`
+  `70bdaba537d8f6b6bb7d872d00eefbef75127d2d77689af7ba01b35a79ebce39`
 - selected-387 corpus fingerprint (`outputs_sha256`):
-  `fe55aa8b39467e318b3a9997c2c48009c057dfbfc2bf877bf7be49b9f89a510e`
-- unchanged lexical-input projection (`lexical_outputs_sha256`):
-  `5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f`
+  `ffad47aefc01423953fc57784fe6a6f6cef31dcca9bbdbb7b36b06a63dc552bc`
+- lexical-input projection (`lexical_outputs_sha256`):
+  `76bb0ffda672c700cc5b1cfe95a0ec491047d65ccbfaff290209842fabf3d344`
 
 The immutable legacy380 archive still hashes to
 `fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf`.
-The SC056 adjudication explicitly migrates only gift's input by stable row ID;
-all other legacy fields and every final output remain protected.
+The SC056 adjudication explicitly migrates gift's input by stable row ID.
+The SC033 adjudication selects knee's regular dative: *knéwai → cneowe,
+preserving citation *knéwą. Its exact input/target/output transition is
+declared in `approved_cell_migration.json` and
+`approved_input_migrations.tsv`; `*_pre_sc033.*` preserves the previous
+baseline. All other 386 finals and the seven existing mismatches remain
+protected. Apply only through
+`python3 Germanic/tools/adjudicate.py SC033 --adopt-cell-baseline`.
 
 The SC031/SC098 context adoption separately changes only you's assembled
 evaluator input; its lexical reconstruction and every final are unchanged.

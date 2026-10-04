@@ -1,7 +1,6 @@
 pandoc: Ticker: poll failed: Interrupted system call: Interrupted system call
 pandoc: Ticker: poll failed: Interrupted system call: Interrupted system call
 pandoc: Ticker: poll failed: Interrupted system call: Interrupted system call
-pandoc: Ticker: poll failed: Interrupted system call: Interrupted system call
 [WARNING] [makePDF] LaTeX Warning: Hyper reference `rule-OEWWSimplification' on
   page 11 undefined on input line 1512.
 [WARNING] [makePDF] LaTeX Warning: Hyper reference `rule-OEAuBrightening' on
@@ -26,10 +25,16 @@ pandoc: Ticker: poll failed: Interrupted system call: Interrupted system call
 [WARNING] [makePDF] LaTeX Warning: Hyper reference
   `rule-PWGmcUnstressedWordFinalIApocope' on page 53 undefined
   on input line 7287.
+[WARNING] [makePDF] LaTeX Warning: Hyper reference `rule-OEBreaking' on page 55
+  undefined on input line 7525.
 [WARNING] [makePDF] LaTeX Warning: Hyper reference `rule-OEEwLongDiphthong' on
-  page 55 undefined on input line 7526.
+  page 55 undefined on input line 7534.
 [WARNING] [makePDF] LaTeX Warning: Hyper reference `rule-OEJWWSimplification' on
-  page 55 undefined on input line 7527.
+  page 55 undefined on input line 7535.
 [WARNING] [makePDF] LaTeX Warning: Hyper reference `rule-PWGmcJGemination' on
-  page 55 undefined on input line 7555.
+  page 56 undefined on input line 7563.
+[WARNING] [makePDF] LaTeX Warning: Hyper reference `rule-OEBreaking' on page 112
+  undefined on input line 14213.
+[WARNING] [makePDF] LaTeX Warning: Hyper reference `rule-OEEwLongDiphthong' on
+  page 112 undefined on input line 14214.
 [WARNING] [makePDF] LaTeX Warning: There were undefined references.

@@ -74,8 +74,9 @@ class ExperimentTests(unittest.TestCase):
         data = experiments.load_recipes(path)
         self.assertEqual(data["baseline_fst_sha256"],
                          "9016feefda56ca204cb71b8d426f1ace2486bbbd4d2334dc8440dce5cef811d0")
+        self.assertEqual(data["baseline_corpus_sha256"],
+                         "358549ed343c2640bda2374f7275667de80394f3f431e8c1d0f9534756a6e99e")
         for field, source in (
-            ("baseline_corpus_sha256", layout().corpus_tsv),
             ("baseline_context_sha256", layout().data_dir / "entry_context_metadata.tsv"),
             ("baseline_context_helper_sha256", layout().bin_dir / "oe_input_context.py"),
         ):
@@ -134,8 +135,9 @@ class ExperimentTests(unittest.TestCase):
         data = experiments.load_recipes(path)
         self.assertEqual(data["baseline_fst_sha256"],
                          "e252dece8c775a3ef544fc5006f0d899f8cc52ed4edb250b61d4b9fa75337241")
+        self.assertEqual(data["baseline_corpus_sha256"],
+                         "358549ed343c2640bda2374f7275667de80394f3f431e8c1d0f9534756a6e99e")
         for field, source in (
-            ("baseline_corpus_sha256", layout().corpus_tsv),
             ("baseline_context_sha256", layout().data_dir / "entry_context_metadata.tsv"),
             ("baseline_context_helper_sha256", layout().bin_dir / "oe_input_context.py"),
         ):
@@ -176,9 +178,12 @@ class ExperimentTests(unittest.TestCase):
         self.assertEqual(len(report["baseline_mismatch_ids"]), 7)
         live = {row["id"]: row for row in experiments.corpus_rows(layout().corpus_tsv)}
         self.assertEqual({row["id"] for row in report["rows"]}, set(live))
+        baseline_dir = RECIPES.parents[2] / "cascade_baseline"
+        with (baseline_dir / "cascade_baseline_outputs_pre_sc033.tsv").open() as handle:
+            historical = {row["row_id"]: row for row in csv.DictReader(handle, delimiter="\t")}
         for row in report["rows"]:
-            self.assertEqual(row["variant_fst_input"],
-                             experiments.oe_pipeline.evaluation_input(live[row["id"]]))
+            self.assertEqual(row["variant_fst_input"], historical[row["id"]]["fst_input"])
+            self.assertEqual(row["baseline_outputs"], historical[row["id"]]["outputs"].split("|"))
             self.assertEqual(row["baseline_outputs"], row["variant_outputs"])
             self.assertEqual(len(row["variant_outputs"]), 1)
         for probe, count in (("after_sc030", 20), ("after_sc032", 20),

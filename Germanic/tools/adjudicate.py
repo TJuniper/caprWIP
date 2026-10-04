@@ -47,10 +47,18 @@
         metadata checks plus a non-mutating freshness check of every
         artifact-graph node.
 
+    python3 Germanic/tools/adjudicate.py SC033 --adopt-cell-baseline
+        Evaluate fresh container runtime bins and apply only the exact
+        approved_cell_migration.json transition. Preserve the previous
+        baseline bytes and immutable legacy identities; reject all
+        undeclared record, output, multiplicity and context drift.
+        Routine refresh/finalize never adopts a baseline.
+
 Canonical sources read: registry/sc_registry.tsv, registry/chronology_edges.tsv,
 registry/sc_inventory_notes.tsv, Germanic/fsts/germanic.txt,
 cascade_baseline/cascade_order_manifest.tsv,
-cascade_baseline/cascade_baseline_summary.json. Archive files are never read.
+cascade_baseline/cascade_baseline_summary.json. Archives are not current
+scientific authority; explicit baseline adoption reads and protects them.
 """
 
 from __future__ import annotations
@@ -477,8 +485,11 @@ def check(sc_id) -> int:
 
 def main() -> int:
     args = sys.argv[1:]
-    if len(args) == 2 and args[1] == "--adopt-context-baseline":
-        approval_path = BASELINE_SUMMARY.with_name("approved_context_migration.json")
+    if len(args) == 2 and args[1] in {"--adopt-context-baseline", "--adopt-cell-baseline"}:
+        cell_migration = args[1] == "--adopt-cell-baseline"
+        approval_path = BASELINE_SUMMARY.with_name(
+            "approved_cell_migration.json" if cell_migration else "approved_context_migration.json"
+        )
         approval = json.loads(approval_path.read_text(encoding="utf-8"))
         if args[0] != approval["adjudication"]:
             print("BASELINE FAILED: command does not name the approved adjudication", file=sys.stderr)
@@ -500,13 +511,19 @@ def main() -> int:
             print("BASELINE FAILED: " + result.stderr.strip(), file=sys.stderr)
             return 1
         try:
-            cascade_baseline.adopt_context_baseline(
+            adopter = (
+                cascade_baseline.adopt_cell_baseline if cell_migration
+                else cascade_baseline.adopt_context_baseline
+            )
+            adopter(
                 json.loads(result.stdout), BASELINE_SUMMARY.parent, approval,
             )
         except (OSError, ValueError, KeyError) as exc:
             print("BASELINE FAILED: " + str(exc), file=sys.stderr)
             return 1
-        print("Approved context baseline adopted; lexical finals and both legacy protections unchanged.")
+        print("Approved paradigm-cell baseline adopted; archived identities remain protected."
+              if cell_migration else
+              "Approved context baseline adopted; lexical finals and both legacy protections unchanged.")
         return 0
     if args == ["--next"]:
         try:

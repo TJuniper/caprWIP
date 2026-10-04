@@ -2028,7 +2028,13 @@ define EnglishBreakingXContextWeakTail [{*x} EnglishWeakTailVowelStar];
 define EnglishBreakingRContext [{*r} [EnglishStarConsonant - {*j}]];
 define EnglishBreakingLContext [{*l} EnglishStarConsonant];
 define EnglishBreakingLContextE [{*l} [{*x} | {*k} | {*g}]];
-define EnglishBreakingWContext [{*w}];
+# Short pre-w diphthongization excludes a following high front vocalic
+# (Luick p.139; Ringe-Taylor pp.187-188). Knee's dative remains short.
+define EnglishBreakingWContext [
+    {*w} [[EnglishStarVocalic | EnglishStarConsonant]
+        - [{*i} | {*í} | {*ī} | {*ḯ} | {*j}]] |
+    {*w} .#.
+];
 
 define OEBreakingA [
     {*a} -> {*ea} || _ EnglishBreakingRContext,
@@ -2170,23 +2176,15 @@ define OEJWWSimplification [
     {*w} {*w} -> {*w} || _ {*j}
 ];
 
-# Promote inherited *ew/*iw clusters to the long diphthong tier when the
-# glide stays vocalic (cf. Hogg 1992 §3.3.1 on OE ēo). The word-final
-# geminate alternative is retained for independently governed j-created
-# inputs, including hue. Inherited ww now vocalizes at SC031; its atomic
-# eu/iu realizes at SC032, not this singleton/j-created approximation
-# (R/T pp.41-42,171-175; Campbell pp.45-47).
-define OEEwLongContext [
-    {*w} EnglishWeakTailVowel |
-    EnglishWeakTailVowel |
-    EnglishStarVocalic |
-    {*w} .#.
-];
+# SC033 retains only the j-created hue representation (Campbell p.46).
+# Its e-input still omits earlier raising; this is not a new historical
+# ew > long eow law. Singleton knee belongs to short breaking, not here
+# (Hogg pp.21-22,86; Ringe-Taylor pp.187-188,387).
+define OEEwLongContext [{*w} {*j}];
 
 define OEEwLongDiphthong [
     {*e} {*w} -> {*ēo} {*w} || _ OEEwLongContext,
     {*i} {*w} -> {*ēo} {*w} || _ OEEwLongContext,
-    # Stressed variants (stress absorbed into length):
     {*é} {*w} -> {*ēo} {*w} || _ OEEwLongContext,
     {*í} {*w} -> {*ēo} {*w} || _ OEEwLongContext
 ];

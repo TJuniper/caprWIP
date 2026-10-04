@@ -1,35 +1,51 @@
-# Long \emph{ēow} before following vowels
+# Short pre-w diphthongs and the retained j-created long tier
 
 ## Historical discussion
 
-Four distinct developments shape the West Saxon diphthongal field. Campbell
-discusses inherited \emph{aw}/\emph{ew} outcomes, palatal-triggered
-diphthongization, and later Anglian smoothing in connected but separate parts
-of the vowel history; Hogg likewise distinguishes the palatal-diphthongal
-developments [@Campbell1959, pp. 46, 53--54, 65--70, 95--96,
-§§120, 135--136, 170--176, 185, 223--227; @HoggPhonology1992, pp. 112--113].
+Ordinary diphthongization before singleton \emph{w} must be distinguished
+from long diphthong formation in endingless forms and from the
+independently created \emph{wwj} sequences. Their similar Old English
+spellings do not establish one sound law assigning long quantity
+before every retained vowel ending.
 
-Earlier inherited-glide reanalysis is now distinct from the retained
-singleton and j-created realization. *Dēaw* 'dew' and *hēawan* 'hew'
-pass through early au+w and later English completion, rather than late
-literal ww deletion followed by the singleton aw operation
-([@RingeTaylor2014, pp. 65--66, 172--175]).
+For *cneowe* 'knee (dat.sg.)', the regular pre-ending stem has short
+\emph{eo}. Hogg explicitly identifies the dative as a short-diphthong
+example, and Campbell and Luick distinguish its genitive and dative
+from the long endingless form
+[@HoggGrammar2011, pp. 21--22, 86, §§2.33, 5.22;
+@Campbell1959, pp. 232--233, §584; @Luick1914, p. 139, §134].
+Ringe and Taylor likewise distinguish short \emph{cneow-} before
+syllabic endings from long endingless *cnēo* 'knee'. The final
+\emph{w} of *cnēow* 'knee' is generalized from the obliques, not
+retained by an unrestricted prevocalic lengthening law
+[@RingeTaylor2014, pp. 187--188, 387, §§6.2.4, 7.2.4].
 
-The long \emph{ēow} forms of *ċēowan* ‘chew’, *fēower* ‘four’, and *cnēow*
-‘knee’ form part of the West Saxon vowel history, although their clearest
-ordering relation points forward. Campbell describes early \emph{eu} in Old
-English, and Ringe and Taylor give the corresponding examples from chew,
-four, and knee [@Campbell1959, pp. 53--54, §136;
-@RingeTaylor2014, pp. 188, 202].
+The selected comparison is therefore the dative *cneowe*, from the
+constructed PGmc dative \emph{*knéwai}, while citation
+\emph{*knéwą} remains the lexeme-level reconstruction. Fulk prefers
+the \emph{*-ai} analysis for the West Germanic dative line but
+discusses alternatives; the complete selected input is a paradigm
+construction, not a quotation of a whole-word reconstruction
+[@Fulk2018, p. 147, §7.8].
 
-The early chew/four inputs now complete through
-[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling). The retained
-[SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong) population is knee
-and the independently governed j-created hue path; historical displacement
-results for the former larger population do not become new dates for
-this narrower operation.
+Its short diphthong is supplied by
+[SC044 OEBreaking](#rule-OEBreaking), with the source's exclusion
+before a following high front vocalic. Long quantity could later
+spread from endingless forms into obliques, but that leveling is
+not the selected short dative's sound-law history. Campbell describes
+the extension; Ringe and Taylor qualify the knee quantity inference
+because decisive verse evidence is elusive
+[@Campbell1959, p. 233; @RingeTaylor2014, p. 387].
 
-## SC033. Long \emph{ēow} before following vowels and weak endings (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong}
+Earlier inherited-glide reanalysis is independently represented by
+[SC031 OEWWSimplification](#rule-OEWWSimplification). Chew, dew,
+four, hew and you complete its products through
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling).
+The operation below neither repeats that inherited event nor
+implements the regular singleton history
+[@RingeTaylor2014, pp. 41--42, 65--66, 171--175].
+
+## SC033. Retained j-created long-diphthong representation (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong}
 
 ```foma
 define OEEwLongDiphthong [
@@ -40,13 +56,26 @@ define OEEwLongDiphthong [
 ];
 ```
 
-*Cnēow* 'knee' supplies the retained singleton contrast. *Hīew* 'hue'
-retains a separate j-created sequence; the promoted long-diphthong input
-still contains ww before j. Neither is a new application of inherited
-short-Vww reanalysis. The source's distinctions between inherited
-geminates, singleton/contraction products and later j-created sequences
-remain necessary even when their English spellings converge
-([@Campbell1959, pp. 45--47; @RingeTaylor2014, pp. 173--174]).
+The conditioner is now restricted to the second \emph{w} followed
+by \emph{j}, not a general following vowel or weak ending:
+
+```foma
+define OEEwLongContext [{*w} {*j}];
+```
+
+*Hīew* 'hue' retains this j-created path, whereas *cneowe* does not
+enter it. Campbell distinguishes the \emph{iwj} class from the
+low-vowel \emph{awj} class and gives the West Saxon \emph{īew}
+reflex [@Campbell1959, p. 46, §120.2].
+
+The retained mapping is a disclosed representation component, not
+a newly established historical \emph{ew} to long \emph{ēow} law.
+Hue's selected e-vowel input still omits the separate earlier
+raising assumed by the source's i-vowel account. Its successful
+final spelling does not prove that omitted intermediate or date
+this mapping to an independently demonstrated West Saxon event.
+The stable rule label is retained for continuity, without assigning
+the technical component an invented historical stage or confidence.
 
 ## SC106. Retained j-created glide residual (`OEJWWSimplification`) {#rule-OEJWWSimplification}
 
@@ -56,9 +85,10 @@ define OEJWWSimplification [
 ];
 ```
 
-This visibly retained technical operation simplifies hue's remaining
-ww+j representation after promotion. It is not presented as a newly
-established historical sound law or an inference from the word's final
-spelling. The former unrestricted late ww operation no longer duplicates
-the inherited event; its remaining j-created role is explicit and
-separate from [SC031 OEWWSimplification](#rule-OEWWSimplification).
+This technical component simplifies hue's remaining \emph{wwj}
+representation after promotion. It does not restore nominative
+\emph{w} in knee and does not duplicate inherited short-Vww
+reanalysis. The distinct endingless and inflected histories remain
+visible even where later paradigm leveling makes their spellings
+converge [@Campbell1959, pp. 45--47, 232--233;
+@Fulk2018, p. 154].

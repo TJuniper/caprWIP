@@ -6,6 +6,8 @@ their later operations and SC106 exposes the j-created residual.
 Sections 1–15 preserve the earlier scaffold, incumbent observations and
 private trials. Their old composition statements, displacement witnesses
 and approval gates are historical, not current executable authority.
+Section 17 records the next SC033 investigation and its author-decision
+boundary; it does not change the adopted production disposition.
 
 ## 1. Role in the book
 
@@ -598,3 +600,170 @@ Ordinary API comparisons/refishing select the word's declared context,
 rather than pooling stressed and unstressed relations; inverse forms are
 lexical and annotation-free. This implements the account, but does not
 by itself certify integrated propagation or a freshly rendered book.
+
+## 17. SC033 singleton quantity and endingless knee: measured decision boundary
+
+This section records the pre-adoption investigation. The user-approved
+disposition in section18 supersedes its pending-decision and unchanged-
+production statements; the source comparisons and private measurements
+remain evidence, not current corpus targets.
+
+The next scoped investigation is SC033 alone, from release `671edc53`.
+Its evidence draft is `audits/sc033-adjudication.md`; no new canonical
+verdict or production rule is adopted.
+
+Fresh canonical evidence confirms two applications: knee2085 reaches
+*k*n*é*w*ą and becomes *k*n*ēo*w*ą; hue2332 reaches *x*é*w*w*j*ą and
+becomes *x*ēo*w*w*j*ą. Their common long output conceals different
+historical questions.
+
+Ringe and Taylor distinguish the long endingless reflex from the short
+pre-ending knee stem. Their pre-w diphthongization is blocked before a
+following high front vocalic (printed pp.187–188, §6.2.4). On printed
+p.387 (§7.2.4) they expressly give PGmc *knewą to endingless cnēo,
+contrast short cneow- before an ending, and describe w in endingless
+cnēow as leveling. Long quantity in inflected stems is a further,
+qualified inference, not an exceptionless prevocalic lengthening law.
+Printed pp.187 and 387 have been visually checked in the held PDF.
+Campbell's endingless/contraction and j-created iwj domains are likewise
+distinct (1959 pp.46–47,53–54).
+
+The selected knee ending survives the literal bare-*a loss, which does
+not match *ą, and is removed only after SC033's long quantity at nasal
+apocope. Existing breaking already supplies short eo/io before w, but its
+w context lacks the cited high-front exclusion. Hue's retained long proxy
+also leaves its earlier raising checkpoint unresolved, as its model entry
+already discloses. These are concrete interfaces, not evidence for an
+unrestricted historical long-ēow operation.
+
+The distinct protected `sc033-singleton-short` assay removes singleton
+lengthening while retaining hue as a control. All eight component,
+three staged and three corpus checks pass. All 387 rows have unambiguous
+outputs; only knee changes, cnēow to cneow. Every other final, selected
+input and protected artifact is unchanged. At knee, the existing breaking
+consumer now gives *k*n*éo*w*ą. This partial counterfactual is not the
+complete source-supported endingless cnēo history.
+
+Thus a source-led correction cannot simply narrow SC033 and pronounce
+the old target a regular result. The regular-cell alternative below
+must be assessed before requiring a general ending repair to preserve
+that particular nominative. Any retained endingless account must disclose
+the source's leveled surface form, without lexical or noun-conditioned
+lengthening. A broader ending repair, changed selected input/final or
+new treatment of leveling requires the explicit bounded decision before
+landing. No baseline is refrozen, no vocabulary is admitted and no old
+experiment is repinned.
+
+### Knee's regular oblique: consensus and existing corpus practice
+
+Campbell's regular paradigm has long endingless cnēo(w) beside short
+genitive cneowes and dative cneowe, then explicitly allows the long
+diphthong to spread into the inflected forms (1959 pp.232–233, §584).
+Luick likewise supplies cneowe(s) as the genitive/dative products of
+short e-to-eo before w, blocked before following i (1914–40 p.139,
+§134). His older account of endingless knee/tree eo/eu and leveling
+is distinct in detail (p.118, §101); agreement on the oblique opposition
+does not make the complete reconstructed chronologies identical.
+
+Hogg's held grammar explicitly contrasts the short diphthong of dative
+cneowe 'knee' with the long diphthong of cnēowe 'know' (2011 reprint
+pp.21–22, §2.33). His breaking discussion names cneowe as a regular
+pre-w example and identifies the final w of cnēo(w) as analogical
+(p.86, §5.22 and note7). These quantity marks were visually checked.
+The adjacent form of 'know' must not become apparent evidence for a
+long knee dative through OCR or lexical confusion.
+
+Ringe and Taylor's short pre-ending stem and restored endingless w
+therefore continue a standard account, not an isolated new hypothesis
+(2014 pp.187–188,387). Their uncertainty about decisive verse evidence
+for later long knee obliques remains. Fulk's wa-stem discussion separately
+supports two-way leveling of endingless diphthongs and inflected w;
+his explicit illustrative long-oblique example is servant, not a direct
+knee attestation (2018 p.154, §7.12). The conclusion is a regular
+short/long paradigm opposition with subsequent leveling, not a claim
+that every surface oblique preserved the old short quantity.
+
+CAPR already selects regular cells of lexemes whose citation forms have
+other histories: cow's dative cȳ, night's selected dative niht, meed's
+dative meorde and shoulder's dative plural sċuldrum. Hammer's selected
+genitive also preserves the same stem class. These existing model entries
+keep the citation reconstruction distinct from the selected input; their
+analogy classifications do not implement analogy as a sound law.
+
+The first knee candidate is accordingly dative singular cneowe, whose
+short quantity and cell Hogg explicitly identifies, with genitive
+cneowes as a control. Candidate inputs *knéwai and *knéwas are CAPR
+paradigm constructions, not quotations of whole-word reconstructions
+from the handbooks. Fulk's inflectional discussion supports the
+conventional *-ai/*-as analyses while recording the reconstruction
+debates (2018 pp.146–147, §7.8). In particular, *-ai is his preferred
+West Germanic dative account, not a unanimously proven inherited ending.
+Citation *knéwą would remain separate.
+
+The distinct private sc033-oblique-cells recipe has executed both cell
+candidates without migrating the existing row or target: the complete
+native suffix after PGmc input encoding gives short cneowe and cneowes.
+Both component checks and both native-suffix checks pass. The 387-row
+wrapper identity is preserved; the unchanged-input singleton-short variant
+still changes only knee's existing endingless target, with no missing or
+ambiguous outputs or protected-artifact changes. Raw-input admission and
+an actual row migration are not claimed by these suffix fixtures.
+Selecting a regular oblique
+would avoid making analogically restored nominative w an obligation of
+an exceptionless phonological cascade. It would not complete the
+independent early-ending interface or hue's omitted raising history.
+Any corpus/input/baseline consequence remains a separate proposed
+decision, not an adopted one.
+
+## 18. Adopted SC033 restriction and regular knee dative
+
+The user approved choosing PGmc and Old English dative singular forms
+and propagating the correction through sound-change and lexical publication.
+Row2085 now preserves citation *knéwą but selects *knéwai → cneowe.
+Both stages are explicitly pgmc; stage and confidence remain independent.
+The whole dative reconstruction is a paradigm construction under Fulk's
+preferred *-ai analysis, with the competing ending accounts retained
+(2018 p.147). Hogg's explicit short cneowe (held 2011 reprint pp.21–22,86),
+Campbell's paradigm (1959 p.233), Luick's genitive/dative examples
+(1914–40 p.139) and Ringe–Taylor's short pre-ending stem (2014 pp.187–188,387)
+provide the source argument; output agreement does not select the history.
+
+The full-wrapper sc033-dative-candidate proves that the declared input
+and component changes execute: all ten component and two staged checks
+pass, including high-front/j blockers and native hue. Exactly knee's
+selected input/output changes, to the short dative; every other selected
+final is unchanged. There are no missing or ambiguous outputs or private
+canonical-artifact writes. Its old nominative target remains in the
+historical report, so the resulting mismatch is the declared cell migration.
+
+Production excludes singleton e/i+w from SC033's long-output operation.
+Short e/i before w is supplied by the existing SC044 consumer, now excluding
+a following i/í/ī/ḯ/j as required by Luick p.139 and Ringe–Taylor pp.187–188.
+No wholesale rule move or early-final-vowel rewrite is made.
+The original SC033 historical-law interpretation is REFORMULATE/RESTRICT:
+its stable executable identity now denotes a support-stage encoding for
+the remaining j-created hue path. It has no invented historical
+stage/scope/confidence; hue's omitted earlier raising remains explicit
+(Campbell 1959 p.46).
+
+The detailed knee model explains the long endingless cnēo, analogically
+restored nominative w in cnēow, possible later long obliques and the
+evidential qualifications (Campbell pp.232–233; Ringe–Taylor p.387;
+Fulk p.154). It belongs to Late analogy and paradigm-cell selection,
+while the selected dative is regular. Hue's discussion and Chapter4
+no longer describe knee as a live long-output witness.
+
+The exact one-row baseline transition preserves the pre-SC033 baseline,
+the original380 archive and the earlier gift/context archives. Both
+input and target/output are declared by stable ID; all other fields,
+outputs, multiplicities and contexts remain protected. No new vocabulary
+or historical chronology edge is admitted. The SC033 memo records
+the production evidence, active hashes and publication closeout.
+
+The bounded increment is published in the inspected 301-page combined
+draft. Knee is section9.9, printed pp.249–251, in Late analogy and
+paradigm-cell selection; SC033/044 and Chapter4 explain the same regular
+short-dative history. The memo records the integrated regression and
+serial protected-assay results. The general endingless interface,
+hue's omitted earlier raising and independent SC032/034/105 cases remain
+separate residue, not resolved by this publication.

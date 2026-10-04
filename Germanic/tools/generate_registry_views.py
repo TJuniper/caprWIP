@@ -493,12 +493,16 @@ def build_reader_manifest(reg, chapters, files):
         if not (SC_DIR / "reader_facing" / f["reader_file"]).is_file():
             errors.append(f"reader_files: missing reader file {f['reader_file']}")
 
-    staged = [r for r in reg if r["staging_row"] == "yes"]
+    published = [r for r in reg if r["staging_row"] == "yes"
+                 or (r["lifecycle_status"] == "active"
+                     and r["entry_type"] == "support_stage"
+                     and r["include_in_volume"] == "yes"
+                     and r["is_reader_facing"] == "yes")]
     per_file = {}
-    for r in staged:
+    for r in published:
         fname = (r["source_reader_facing_file"] or "").strip()
         if not fname:
-            errors.append(f"reader manifest: staged SC {r['sc_id']} has no "
+            errors.append(f"reader manifest: published SC {r['sc_id']} has no "
                           "source_reader_facing_file")
             continue
         if fname not in file_chapter:
@@ -507,13 +511,13 @@ def build_reader_manifest(reg, chapters, files):
             continue
         pos = oe_pipeline.cascade_position(r["fst_identifier"])
         if pos is None:
-            errors.append(f"reader manifest: staged SC {r['sc_id']} has no "
+            errors.append(f"reader manifest: published SC {r['sc_id']} has no "
                           "numbered cascade position")
             continue
         per_file.setdefault(fname, []).append((pos, r["sc_id"]))
     unused = sorted(set(file_chapter) - set(per_file))
     if unused:
-        errors.append(f"reader_files: files with no staged SC: {unused}")
+        errors.append(f"reader_files: files with no published SC: {unused}")
 
     chapter_order = [c["chapter_id"] for c in chapters]
     ordered = sorted(

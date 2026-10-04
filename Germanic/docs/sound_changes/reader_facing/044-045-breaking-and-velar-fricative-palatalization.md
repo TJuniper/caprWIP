@@ -14,13 +14,35 @@ Breaking has the fuller handbook treatment. The *feoh* 'cattle' and
 *feohtan* 'fight' type derivations preserve its velar-fricative trigger;
 they do not subsequently undergo velar-fricative palatalization.
 
-## SC044. Breaking before \emph{h}, \emph{rC}, and \emph{lC} (`OEBreaking`) {#rule-OEBreaking}
+## SC044. Breaking before \emph{h}, \emph{rC}, \emph{lC}, and conditioned \emph{w} (`OEBreaking`) {#rule-OEBreaking}
 
 ```foma
 define OEBreaking OEBreakingA
     .o. OEBreakingE
     .o. OEBreakingI;
 ```
+
+Short \emph{e} and \emph{i} also develop short \emph{eo} and
+\emph{io} before singleton \emph{w}, except when a high front vowel
+or \emph{j} follows it. This is the regular pre-ending history of
+*cneowe* 'knee (dat.sg.)', not long-diphthong promotion
+[@Luick1914, p. 139, §134; @HoggGrammar2011, p. 86, §5.22;
+@RingeTaylor2014, pp. 187--188, §6.2.4].
+The shared w conditioner makes that exclusion explicit:
+
+```foma
+define EnglishBreakingWContext [
+    {*w} [[EnglishStarVocalic | EnglishStarConsonant]
+        - [{*i} | {*í} | {*ī} | {*ḯ} | {*j}]] |
+    {*w} .#.
+];
+```
+
+Root stress notation does not determine vowel length. The short
+knee dative is the selected comparison; long endingless *cnēo*
+'knee' and the restored \emph{w} of *cnēow* 'knee' are separate paradigm
+histories, discussed with
+[SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong).
 
 Breaking must encounter the vowel created by brightening and must precede
 the rule that would otherwise palatalize its velar trigger in *feoh*

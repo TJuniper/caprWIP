@@ -20,6 +20,7 @@ Generator: `Germanic/tools/generate_registry_views.py`.
 | SC029 | Pre-OE resolution of *awj to *auj | active | RETAIN | `Germanic/docs/sound_changes/audits/sc029-sc030-awj-resolution-and-au-fronting-adjudication.md` |
 | SC030 | English brightening of *au to *æu | active | RETAIN | `Germanic/docs/sound_changes/audits/sc029-sc030-awj-resolution-and-au-fronting-adjudication.md` |
 | SC031 | Inherited short-Vww reanalysis | active | SPLIT/REORDER | `Germanic/docs/sound_changes/audits/sc031-glide-reanalysis-adjudication.md` |
+| SC033 | Retained j-created long diphthong representation | active | REFORMULATE/RESTRICT | `Germanic/docs/sound_changes/audits/sc033-adjudication.md` |
 | SC043 | Ordinary English stressed a-fronting | active | REFORMULATE/SPLIT | `Germanic/docs/sound_changes/audits/sc043-adjudication.md` |
 | SC045 | Voiceless velar-fricative palatal articulation | active | RESTRICT/SPLIT | `Germanic/docs/sound_changes/audits/sc045-adjudication.md` |
 | SC052 | Class-distinct English velar palatalization | active | REFORMULATE/SPLIT | `Germanic/docs/sound_changes/audits/sc052-adjudication.md` |

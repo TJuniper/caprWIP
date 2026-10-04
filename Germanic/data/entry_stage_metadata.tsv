@@ -20,6 +20,7 @@ row_id	proto_stage	protoform_stage	protoform_variety	decision_type	evidence
 2053	pgmc	pgmc		same_stage_pgmc_paradigm_cell	Note: using gen.sg. *xamaras (> hameres). Both hamor and hamer attested; hameres is the regular reflex via a-fronting (R/T §5.1.2, §6.9.6). hamores has unexplai
 2058	pgmc	pgmc		same_stage_pgmc_alternative_formation	3sg pres. indic. (lautgesetzlich); inf. habban is analogical (umlaut leveled, Fulk §12.47)
 2068	pgmc	nsgmc		post_pgmc_historical_input	Selected input is northern WGmc / pre-OE *xébun (Ringe-Taylor *hebun), NOT the PGmc citation *xémenaz. Early paradigm remodelling generalized the labial - regul
+2085	pgmc	pgmc		same_stage_pgmc_paradigm_cell	Selected dat.sg. *knéwai > short cneowe; citation neuter *knéwą retained (Ringe-Taylor 2014 p.387). Cell and quantity: Hogg 2011 pp.21-22,86; Campbell 1959 p.233; Luick p.139. Preferred PGmc -ai analysis: Fulk 2018 p.147. Not a post-PGmc transponent; confidence is independent of stage.
 2086	pgmc	pgmc		same_stage_pgmc_paradigm_cell	Proto corrected to *knextăz per R/T vol.2 p.127, Orel p.220, Kluge-Seebold
 2087	pgmc	pgmc		pgmc_morphological_variant	Both *knúppaz (voiceless) and *knúbbô (voiced weak-noun) are Proto-Germanic morphological variants (Kroonen 2011:297); selected input *knúbbô is a PGmc paradigm/formation variant.
 2088	pgmc	pgmc		same_stage_pgmc_alternative_formation	Wiktionary: PGmc *hlaðaną (Verner) > OE hladan | Proto encoding: -aną (full vowel) for A-restoration; R/T §6.3.1

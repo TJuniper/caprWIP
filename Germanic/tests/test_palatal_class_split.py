@@ -19,12 +19,17 @@ class PalatalClassSplitTests(unittest.TestCase):
         current = json.loads((directory / "oe_adopted_palatal_controls.json").read_text())
         historical = json.loads((directory / "oe_palatal_class_recipes.json").read_text())
         self.assertEqual(current["baseline_fst_sha256"],
+                         "38213e869276ef5887316553a20bf3f018ee5eace66819dee6bfb4b817ba7cc7")
+        active = json.loads((directory / "oe_post_sc033_controls.json").read_text())
+        self.assertEqual(active["baseline_fst_sha256"],
                          hashlib.sha256(SOURCE.read_bytes()).hexdigest())
         self.assertEqual(historical["baseline_fst_sha256"],
                          "c51b8e4077194f4cc6f65e54a0c8a899366b5570152c6415cba117907d1a225c")
         recipe = current["recipes"][1]
         self.assertEqual(len(recipe["component_checks"]), 31)
         self.assertEqual(len(recipe["staged_checks"]), 7)
+        for field in ("component_checks", "staged_checks"):
+            self.assertTrue(all(check in active["recipes"][1][field] for check in recipe[field]))
 
     def test_production_matches_the_executed_coupled_components(self):
         data = json.loads((SC / "literature_dossiers/anglo_frisian/"

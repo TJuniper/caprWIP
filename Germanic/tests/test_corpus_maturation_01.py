@@ -123,11 +123,9 @@ class RuleBodyTests(unittest.TestCase):
             body, r"\|\|\s*_\s*\.#\.",
             "long-final brightening reverted to the unguarded environment")
 
-    def test_ew_long_context_admits_final_geminate(self):
+    def test_ew_long_context_is_restricted_to_j_created_sequence(self):
         body = self._define("OEEwLongContext")
-        self.assertRegex(body, r"\{\*w\}\s*\.#\.",
-                         "OEEwLongContext lost the word-final geminate "
-                         "alternative required for *iww > ēow")
+        self.assertRegex(body, r"^\s*\{\*w\}\s*\{\*j\}\s*$")
 
 
 class CompositionOrderTests(unittest.TestCase):

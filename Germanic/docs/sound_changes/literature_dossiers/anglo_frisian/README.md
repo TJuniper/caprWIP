@@ -169,7 +169,23 @@ Do not update their hashes or substitute current inputs. Their IDs are
 `identity`, `d-aei-ww`, `d-aei-ww-proxy-control`, `u-gift-input`,
 `u-ordinary` and `u-ordinary-gift`.
 
-For the current adopted-domain control, after the normal
+The post-SC033 production control is `oe_post_sc033_controls.json` with
+`oe_post_sc033_fixtures.tsv`: regular knee dative *knéwai → cneowe,
+high-front/j blocking, retained hue, all released palatal assertions
+and adjacent glide/apocope controls. Run it serially after canonical
+rebuilds and the full suite:
+
+```bash
+docker compose exec -T backend python3 /usr/app/tools/anglo_frisian_experiments.py \
+  --recipes /usr/app/docs/sound_changes/literature_dossiers/anglo_frisian/oe_post_sc033_controls.json \
+  --recipe post-sc033-controls
+```
+
+The earlier adopted U/glide/palatal recipe/result pairs below retain their
+release hashes and are historical evidence, not current-source assays.
+Do not repin them or substitute knee's new input into old reports.
+
+For the historical post-gift adopted-domain control, after the normal
 container/provenance checks, run:
 
 ```bash

@@ -1,4 +1,8 @@
 action	language	variety	form	display	sort_key	source_scope	source_ref	note
+add	oe		cneowes	cneowes	cneowes	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:137	Source-backed regular genitive comparison in the knee paradigm table.
+add	oe		cnēo	cnēo	cneo	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:138	Source-backed regular endingless knee comparison.
+add	oe		cnēow	cnēow	cneow	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:139	Source-backed knee nominative with restored w.
+add	pgmc		*knéwai	*knéwai	knewai	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:135	Selected inherited dative construction, repeated explicitly in the paradigm table.
 add	ohg		backan	backan	backan	override	Germanic/docs/lexeme_reports/model_entries/1934-bake-bacan.model.md:21	Clearly labelled Old High German comparison form.
 add	ohg		bahhan	bahhan	bahhan	override	Germanic/docs/lexeme_reports/model_entries/1934-bake-bacan.model.md:21	Clearly labelled Old High German comparison form.
 add	ofris		dore	dore	dore	override	Germanic/docs/lexeme_reports/model_entries/1992-door-dor.model.md:21	Clearly labelled Old Frisian comparison form.

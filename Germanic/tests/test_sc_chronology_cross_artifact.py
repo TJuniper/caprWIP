@@ -137,6 +137,14 @@ class BookOrderMatchesManifestTests(unittest.TestCase):
                       encoding="utf-8").splitlines() if not ln.startswith("#")]
         cls.reader_rows = list(csv.DictReader(io.StringIO("\n".join(rlines)),
                                               delimiter="\t"))
+        cls.published = {
+            sc: row for sc, row in _read(REGISTRY, "sc_id").items()
+            if row["staging_row"] == "yes"
+            or (row["lifecycle_status"] == "active"
+                and row["entry_type"] == "support_stage"
+                and row["include_in_volume"] == "yes"
+                and row["is_reader_facing"] == "yes")
+        }
 
     def test_every_staged_rule_has_a_manifest_position(self):
         for r in self.staging_rows:
@@ -168,8 +176,8 @@ class BookOrderMatchesManifestTests(unittest.TestCase):
         """Every chapter must own a contiguous block of cascade positions:
         the maximum position in chapter N is below the minimum in chapter N+1."""
         pos_by_sc = {}
-        for r in self.staging_rows:
-            pos_by_sc[r["sc_id"]] = int(r["cascade_position"])
+        for sc, row in self.published.items():
+            pos_by_sc[sc] = self.manifest[row["fst_identifier"]]
         by_ch = {}
         for r in self.reader_rows:
             ch = int(r["chapter_id"])
@@ -182,17 +190,16 @@ class BookOrderMatchesManifestTests(unittest.TestCase):
             self.assertLess(max(by_ch[a]), min(by_ch[b]),
                             f"chapters {a} and {b} overlap in cascade positions")
 
-    def test_every_staged_sc_appears_in_exactly_one_manifest_row(self):
+    def test_every_published_sc_appears_in_exactly_one_manifest_row(self):
         seen = {}
         for r in self.reader_rows:
             for sc in r["sc_ids"].split(";"):
                 self.assertNotIn(sc, seen,
                                  f"{sc} appears in two reader manifest rows")
                 seen[sc] = r["reader_file"]
-        staged = {r["sc_id"] for r in self.staging_rows}
-        self.assertEqual(set(seen), staged,
+        self.assertEqual(set(seen), set(self.published),
                          "reader manifest SC coverage differs from the "
-                         "staging view")
+                         "staged laws and explicitly published technical components")
 
     def test_reader_files_source_carries_no_order_column(self):
         header = next(ln for ln in self.READER_FILES.read_text(

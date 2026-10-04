@@ -30,6 +30,13 @@ Campbell prints [hīew]{.iv lang=oe sort=hiew role=target_form} 'form' beside *h
 
 Campbell's decisive observation is that the \*awj and \*iwj types share the gemination and then part company: "the u of auuj is lost, so that the final result is ēg or ieg, but the j of iuuj is lost, so that the result is iow or iew" [@Campbell1959, §120.2, p. 46]. The cascade reproduces both halves of that statement. West Germanic gemination doubles the \*w before \*j, giving \*xéwwją. The \*ew diphthong is then lengthened to \*ēo, the geminate is simplified, the initial dorsal fricative is palatalized, the nasal-final syllable loses its ending, *i*-umlaut raises \*ēo to \*īe, and the \*j is lost after the now heavy syllable, leaving *hīew* with the \*w intact.
 
+Knee now selects the regular dative *cneowe* 'knee (dat.sg.)', whose
+short diphthong is produced by
+[SC044 OEBreaking](#rule-OEBreaking); it no longer shares this
+long-output component. The source distinguishes its short pre-ending
+stem from long endingless *cnēo* 'knee' and restored *w* in *cnēow*
+[@HoggGrammar2011, pp. 21--22, 86; @RingeTaylor2014, p. 387].
+
 This geminate is created after the modeled early inherited-glide
 reanalysis and does not enter that short-Vww operation. Its later
 long-diphthong path remains at

@@ -1,2 +1,3 @@
-row_id	concept	counterpart	old_proto	new_proto	adjudication_memo
-2040	gift	ġift	*géftiz	*gíftiz	Germanic/docs/sound_changes/audits/sc056-ordinary-palatal-diphthongization-adjudication.md
+row_id	concept	counterpart	new_counterpart	old_proto	new_proto	old_outputs	new_outputs	adjudication_memo
+2040	gift	ġift	ġift	*géftiz	*gíftiz	ġift	ġift	Germanic/docs/sound_changes/audits/sc056-ordinary-palatal-diphthongization-adjudication.md
+2085	knee	cnēow	cneowe	*knéwą	*knéwai	cnēow	cneowe	Germanic/docs/sound_changes/audits/sc033-adjudication.md

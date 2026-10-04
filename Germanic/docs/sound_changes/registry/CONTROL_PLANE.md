@@ -24,10 +24,11 @@ are GENERATED or ARCHIVE.
 | `audits/*.md` adjudication memos | scientific-reasoning | Per-SC scientific reasoning; each carries a machine-readable `Registry-verdict:` line that must agree with the registry |
 | `reader_facing/*.md`, `book_dossiers/*.md` | publication-prose | Reader-facing chapters and grouped book dossiers; `adjudicate.py SCNNN --prepare` lists the ones relevant to a given SC |
 | `cascade_baseline/cascade_baseline_summary.json` | machine-state | Frozen fingerprints (change only via the explicit adjudication/refreeze procedure) |
-| `cascade_baseline/approved_input_migrations.tsv` | machine-state | Exact approved old/new input mapping by stable OE row ID, concept and counterpart, with adjudication pointer. Does not authorize output drift or archival rewrites |
+| `cascade_baseline/approved_input_migrations.tsv` | machine-state | Exact approved old/new selected input, counterpart and output by stable OE row ID and concept, with adjudication pointer. Gift changes input only; knee changes its selected paradigm cell. All undeclared output/multiplicity drift and archival rewrites remain forbidden |
 | `Germanic/data/entry_context_metadata.tsv` | machine-state | Separately sourced selected sentence stress/finality at SC098; never changes PROTO/PROTOFORM or infers stress from accent |
 | `backend/oe_input_context.py` | executable source | Shared context validation/assembly and annotation-free, selected-context API projections |
 | `cascade_baseline/approved_context_migration.json` | machine-state | Exact approved evaluator-input delta and independent evaluator/lexical/legacy fingerprints. Applied only by `adjudicate.py SC098 --adopt-context-baseline`, never routine refresh |
+| `cascade_baseline/approved_cell_migration.json` | machine-state | Exact approved before/after fields for a selected paradigm-cell transition. `adjudicate.py SC033 --adopt-cell-baseline` preserves the pre-transition baseline and verifies every record, summary projection and legacy archive; routine refresh never adopts it |
 | `Germanic/docs/CURRENT_STATE.md` | publication-prose | Current phase and standard commands (the next SC is derived: `adjudicate.py --next`) |
 | `Germanic/docs/README.md`, `sound_changes/README.md` | publication-prose | Navigation |
 | `Germanic/docs/RESEARCH_ADJUDICATION_PROTOCOL.md`, `audits/ADJUDICATION_TEMPLATE.md` | publication-prose | Method |
@@ -58,7 +59,7 @@ inventory ordinal; no archival positions are invented for them.
 | File | Source |
 |---|---|
 | `registry/current_sc_state.tsv` | sc_registry + oe_pipeline (the ONLY current-position table) |
-| `registry/reader_manifest.tsv` | reader_chapters + reader_files + sc_registry + oe_pipeline (book order = min cascade position per file; chapters must be contiguous) |
+| `registry/reader_manifest.tsv` | reader_chapters + reader_files + sc_registry + oe_pipeline: staged laws plus active support stages explicitly marked include_in_volume=yes/is_reader_facing=yes, without inventing historical staging (book order = min cascade position per file; chapters must be contiguous) |
 | `registry/current_chronology.tsv` | chronology_edges + sc_registry + oe_pipeline (edges projected onto current cascade positions) |
 | `sound_change_historical_staging_map.tsv` | sc_registry + oe_pipeline (row order and `cascade_position`) |
 | `sound_change_inventory.tsv` | sc_registry + annotations |

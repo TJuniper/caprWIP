@@ -23,7 +23,8 @@ class ContextAdoptionTests(unittest.TestCase):
             BASE / "cascade_baseline_summary_pre_sc031_sc098.json",
         )
         self.current = baseline.read_baseline(
-            BASE / "cascade_baseline_outputs.tsv", BASE / "cascade_baseline_summary.json",
+            BASE / "cascade_baseline_outputs_pre_sc033.tsv",
+            BASE / "cascade_baseline_summary_pre_sc033.json",
         )
 
     def test_exact_approved_delta_preserves_lexical_and_output_records(self):
@@ -74,8 +75,7 @@ class ContextAdoptionTests(unittest.TestCase):
         text = (ROOT / "Germanic/docs/debug_snapshots/oe_full_trace_report.txt").read_text()
         summary = load_firing_summary(text)
         self.assertEqual(summary["OEWWSimplification"], (5, ["chew", "dew", "four", "hew", "you"]))
-        self.assertEqual(summary["OEEwLongDiphthong"][0], 2)
-        self.assertEqual(set(summary["OEEwLongDiphthong"][1]), {"hue", "knee"})
+        self.assertEqual(summary["OEEwLongDiphthong"], (1, ["hue"]))
         self.assertEqual(summary["OEJWWSimplification"], (1, ["hue"]))
         self.assertEqual(summary["OEDiphthongLeveling"][0], 32)
         self.assertEqual(summary["OEAwLongDiphthong"][0], 4)

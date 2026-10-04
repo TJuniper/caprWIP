@@ -528,10 +528,12 @@ class RealCorpusInvariantTests(unittest.TestCase):
             # from the immutable scientific baseline.
             # Glide adoption adds six dew/hew/four model spans and replaces
             # five obsolete you intermediates: +1 occurrence, -1 unique form.
-            "production_occurrences": 2441,
-            "production_unique_forms": 1213,
-            "print_main_occurrences": 2353,
-            "unique_printed_entries": 1124,
+            # SC033's detailed dative entry and reader comparison add 13
+            # occurrences, eight source forms and six unique printed entries.
+            "production_occurrences": 2454,
+            "production_unique_forms": 1221,
+            "print_main_occurrences": 2366,
+            "unique_printed_entries": 1130,
             "print_excluded_occurrences": 88,
         }
         forms = self._rows("index_verborum_forms.tsv")
@@ -940,13 +942,15 @@ class OccurrenceModelHardeningTests(unittest.TestCase):
         # explicit occurrence and emission to the corpus and assembled book.
         # The fresh lexical projection also brings previously unassembled
         # model-entry spans into the book: +27 occurrences, +24 emissions.
-        self.assertEqual(len(pm), 2353)
+        # SC033 adds 13 corpus / 14 book occurrences and 10 book emissions;
+        # the detailed knee model replaces its unassembled DEV_NOTES owner.
+        self.assertEqual(len(pm), 2366)
         self.assertEqual(len(et), len(pm))
         source_not_in_book = sum(1 for r in et if (r.get("in_book") or "") != "1")
-        self.assertEqual(source_not_in_book, 228)
+        self.assertEqual(source_not_in_book, 227)
         self.assertEqual(len(bo), len(pm) - source_not_in_book)
-        self.assertEqual(len(bo), 2125)
-        self.assertEqual(len(be), 1946)
+        self.assertEqual(len(bo), 2139)
+        self.assertEqual(len(be), 1956)
         self.assertTrue(all("collapsed_into" in r for r in et))
         self.assertTrue(any((r.get("collapsed_into") or "").strip() for r in et if (r.get("source_scope") or "") != "explicit_tag"))
         self.assertEqual(
@@ -1004,19 +1008,19 @@ class OccurrenceModelHardeningTests(unittest.TestCase):
         # model entries, none of whose spans are in the assembly manifest.
         # +1 corpus/book occurrence, emission and unique entry for the
         # Ringe2017 p.135 *giftiz comparison in the umlaut discussion.
-        self.assertEqual(len(pm), 2353, "corpus occurrence count")
-        source_not_in_book = 2353 - 2125
+        self.assertEqual(len(pm), 2366, "corpus occurrence count")
+        source_not_in_book = 2366 - 2139
         self.assertEqual(len(bo), len(pm) - source_not_in_book, "corpus = book + not_in_book")
-        self.assertEqual(len(be), 1946, "book emission count")
+        self.assertEqual(len(be), 1956, "book emission count")
         # +10 corpus / +14 book unique entries vs the pre-z-split snapshot: the
         # three-way SC020 split (SC096/SC020/SC097) and the four new root-noun
         # model entries (book, flea, goose, louse) introduce new indexed headwords.
         # +12 corpus / +12 book unique entries after corpus-maturation pass 01.
         # +18 unique corpus entries from the same two model entries.
-        self.assertEqual(len(pu), 1124, "unique corpus entries")
+        self.assertEqual(len(pu), 1130, "unique corpus entries")
         # Five newly included dew/hew/four forms replace three obsolete
         # starred you intermediates in the assembled book's unique entries.
-        self.assertEqual(len(bu), 897, "unique book entries")
+        self.assertEqual(len(bu), 904, "unique book entries")
 
         # Algebraic reconciliations
         self.assertEqual(len(pm), len(bo) + source_not_in_book)
@@ -1053,7 +1057,8 @@ class OccurrenceModelHardeningTests(unittest.TestCase):
         # +4 explicit comparison/selected-input spans in gift's lexical entry.
         # Five obsolete explicit you intermediates are removed; the six
         # added model-entry heading forms are implicit, not explicit tags.
-        self.assertEqual(printable_explicit, 1471, "printable explicit occurrences")
+        # Knee adds citation, selected dative, target and Hogg comparison spans.
+        self.assertEqual(printable_explicit, 1475, "printable explicit occurrences")
 
         excluded_explicit = sum(1 for r in pe if (r.get("source_scope") or "") == "explicit_tag")
         self.assertEqual(excluded_explicit, 79, "excluded explicit occurrences")

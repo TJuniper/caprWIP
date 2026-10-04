@@ -66,7 +66,7 @@ IWJ_WITNESS = ("hue", "*xéwją", "hīew")
 # be present in the trace; a typo or a deleted row has to fail the test rather
 # than skip it.
 NEGATIVE_CONTROLS = {
-    "*knéwą": "short *é plus *w but no following *j (minimal pair with hue)",
+    "*knéwai": "selected knee dative: short *é plus *w but no following *j (contrast with hue)",
     "*lḗwijaną": "*wij, not *wj: after a heavy syllable Sievers' law gives *-ij-",
     "*smérwijaną": "*wij, not *wj, for the same reason",
     "*skáwōjaną": "*w stands before *ō, not before *j",

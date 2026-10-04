@@ -198,13 +198,13 @@
     },
     {
       "change_id": "SC033",
-      "display_name": "OE Ew Long Diphthong",
+      "display_name": "Retained j-created long diphthong representation",
       "lifecycle_status": "active",
       "rule_name": "OEEwLongDiphthong",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC033-oe-ew-long-diphthong.md",
       "card_type": "boundary_observation",
       "has_reciprocal_boundary": "no",
-      "short_summary": "Current population knee/hue; old chew/four displacement witnesses and four/PWGmc boundary superseded by early SC031 reanalysis. Retained knee boundary observation is not an independently established historical edge."
+      "short_summary": "Old singleton knee and chew/four displacement boundaries are superseded. Knee selects regular short dat.sg. cneowe through SC044. No new historical chronology edge follows from the cell migration or retained hue encoding."
     },
     {
       "change_id": "SC034",
