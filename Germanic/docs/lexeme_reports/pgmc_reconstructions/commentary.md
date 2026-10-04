@@ -10,8 +10,8 @@ new publication remain subsequent work.
 
 Current held-source reading covers the relevant three comparative accounts:
 191 Ringe,135 Fulk and255 Ringe-Taylor consultations, separately from
-393 applicability screens per source. The database contains4143 evidence
-records,1376 actual consultations,4235 positions,396 comparisons and57
+393 applicability screens per source. The database contains4163 evidence
+records,1376 actual consultations,4257 positions,397 comparisons and66
 rationales. The fully verified reading gate still refuses the named
 Ringe-Taylor convention/typography gap; full feature alignment and
 explanation remain ongoing. Earlier measurements below are checkpoint
@@ -176,6 +176,274 @@ following-i/lost-trigger tags do not admit a target to this research-only
 row. The full conditioning census, corpus-consistency audit and specialist
 dispatch remain subsequent population-wide work.
 
+## Third reconciled tranche: representation, historical alternants and membership
+
+Bind, birth, blood, board, bone, book, bore and bosom add eight actual
+all-source reviews. All74 inherited positions remain; thirteen literal
+occurrences and seven process records supplement existing consultations.
+Twenty-five of393 core cases are now bounded and368 await alignment.
+The nine new reasons distinguish seven position supports, one conditional
+representation bridge and one focused explanation of origin disagreement.
+No whole-row cause is certified.
+
+### Bind: a supported class is not a blanket e/i equivalence
+
+Orel prints *benđanan*, while Kroonen gives *bindan-* and Ringe supplies
+realised *bindaną* [@Orel2003, p.41; @Kroonen2013, p.64;
+@Ringe2017, pp.174,252]. Here nasal-raising membership is not inferred
+from the current input. Kroonen explicitly names bind in his
+tautosyllabic-nasal account and places raising after the cited nasal
+assimilations and o/a merger. Ringe explicitly excludes an intervocalic
+nasal, supplies Finnish loan evidence for a relatively late date, and
+separately allows learners to recover underlying *e* in the paradigm
+[@Kroonen2013, p.xix; @Ringe2017, pp.173-174,252].
+
+Orel's method allows etymology/ablaut to govern written e/i and favours
+a one-phoneme interpretation without claiming that the issue is settled
+[@Orel2003, p.xii]. This creates a possible descriptive bridge, not proof
+that his particular bind headword is an underlying representation of
+Ringe's realised vowel. Establishing that specific representational premise,
+the inventory relation and complete citation ending remains necessary.
+RT's bind passage instead explains unstressed-a nasalization/nonfronting
+and participial endings. Its locally starred Gothic *bindands* is not a
+PGmc citation; the omitted OE *bindende* is another cell. The later
+Grimm/Verner corrigendum is not a new independent root-vowel argument
+[@RingeTaylor2014, pp.153,512-513].
+
+### Birth and blood: consonant alternants, not dental typography
+
+Orel's *burđiz* and Kroonen's feminine i-stem *burdi-* are noun evidence,
+but their quoted prefixed/optional-prefixed OE reflexes cannot silently
+author the exact selected unprefixed cell [@Orel2003, p.63;
+@Kroonen2013, pp.84-85]. Ringe's *gaburþi-* and *gaburdi-* retain a real
+historical consonant alternation. His ti-abstract account invokes alternating
+accent and daughter levelling; Gothic devoicing alone does not explain
+all voiceless reflexes because some occur in West Germanic
+[@Ringe2017, p.305]. RT's *buridé* and *(ge)byrede*, by contrast, belong
+to the weak past third singular. The local evidence explicitly concerns
+light-root syllables; it is not a heavy-root syncope example or a quoted
+birth noun [@RingeTaylor2014, p.271].
+
+Blood's long root vowel and neuter formation do not settle its dental,
+collective prehistory or naming motivation. Orel invokes a bloom/Celtic
+connection; Kroonen discusses blow versus flower derivations and alternative
+semantic motivations without establishing one secure origin
+[@Orel2003, p.50; @Kroonen2013, p.70]. Ringe's *blōþa-*/*blōda-* account
+connects neuter alternants with collective accent history and explicitly
+distinguishes their OHG reflexes. His later full *blōþą* quotation is among
+words of doubtful or unknown origin, not words denied PGmc membership
+[@Ringe2017, pp.302,328]. RT's blood datives, general a-/ō-stem endings
+and soul comparanda are now individually distinguished. Native *blédé*,
+*blo6dai* and the ending signs remain uncorrected; they cannot support a
+new root-vowel theory or replace the selected endingless target
+[@RingeTaylor2014, p.299].
+
+### Board and bone: different comparative premises
+
+Orel retains a u-citation and secondary a-variant for board; Kroonen retains
+an additional *z*. His explicitly secondary *bruzda-* diagnostic and its
+tip/edge reflexes support the hidden consonant after assimilation/rhotacism
+[@Orel2003, p.63; @Kroonen2013, p.86]. That diagnostic is not another
+selected board cell. Its source-stated argument supports Kroonen's position
+but does not establish Orel's reason for omitting *z*.
+
+Bone has shared Germanic *ai* but opposed adopted origins: Orel's strike
+root with a Slavic semantic parallel versus Kroonen's straight-adjective
+derivation. Kroonen rejects the Irish hew connection and makes the deeper
+shine/beam connection conditional; those are not automatically Orel's
+strike-root proposal [@Orel2003, p.32; @Kroonen2013, p.48].
+The focused origin comparison explains their distinct semantic/admitted-
+cognate premises as our inference, not a named direct rebuttal or a
+preferred ultimate root. Ringe's actual PGmc *bainą* quotation confirms
+the word's reconstruction while leaving its origin doubtful or unknown
+[@Ringe2017, p.328]. Its existing discussion-only consultation is now
+evidence-found; no new consultation was manufactured.
+
+### Book: a matched singular does not back-date every plural
+
+Orel's shared tree/letter/book records keep the OE comparator's actual
+beech gloss. Kroonen distinguishes the feminine root noun from thematic
+formations and discusses wooden writing tablets; a semantic link is not
+identity of every stem/cell [@Orel2003, pp.51-52; @Kroonen2013, p.71].
+Fulk's explicit PGmc *bōkiz* is plural. His paradigm actually quotes the
+selected nominative singular *bōc*, alongside mutated plural/oblique and
+later analogical forms [@Fulk2018, pp.64,166-167]. The attested cell is
+therefore matched, but the complete selected reconstruction, its dating
+and formation are separate questions.
+
+RT explicitly labels the three *bokiz* occurrences PNWGmc, and the
+later *boki* PWGmc. Six omitted dialect endpoints are separately retained:
+Northumbrian and WS tokens at each occurrence, including native WS
+*béé* rather than an inferred correction to *béc*. The source's palatal/
+mutation/ending-loss arguments support the plural history, not a PGmc
+singular assembly [@RingeTaylor2014, pp.208,227,286]. The profession
+suffix *-ari* is explicitly productive PWGmc; coin/minter are Latin-loan
+comparanda and scribe a book-family derivative. The author's adopted suffix
+analysis is independent of native quantity and terminal-sign limits
+[@RingeTaylor2014, p.138].
+
+### Bore and bosom: derivation and membership remain separate
+
+Bore retains the shared infinitive evidence and reciprocal links to later
+finite/imperative rows. Orel's long-ō weak formation and Kroonen's denominal
+account can be aligned without manufacturing a full finite ending.
+Kroonen offers two nominal bases and qualifies the related-verb connection
+[@Orel2003, p.64; @Kroonen2013, pp.85-86]. The precise derivational
+premise remains missing.
+
+Bosom's headword endorsement does not become conditional merely because
+Kroonen's shoulder-collective etymology is tentative; Orel instead adopts
+a blow connection [@Orel2003, p.52; @Kroonen2013, p.72]. Fulk owns the
+qualified objection to Hirt's proposed *sm > mm*, while the illustrative
+bosom citation's PGmc membership remains uncertain because the counterexample
+could be a WGmc innovation. This is not an objection to secure *zm > mm*
+[@Fulk2018, p.114, n.2].
+RT separates earlier *bosm*, early Mercian compound *segl-bosm* and late
+WS *bosum*, and cautions against chronology inferred from written
+epenthetic-vowel quality. His native *bésm* is not restored from desired
+quantity. Late epenthetic *u* is neither an inherited ending nor permission
+for a lexically optional CAPR rule [@RingeTaylor2014, pp.331-332].
+
+## Fourth reconciled tranche: cells, cognate admission and historical origin
+
+The eight rows1958-1965 retain all72 inherited positions, now individually
+reviewed against the actual selected identities and complete relevant
+arguments. Twenty literal quotations and four processes supplement the
+survey; only Fulk's newly consulted strong-present discussion adds an
+actual source/row review. There are33 bounded core alignments and360
+unreviewed rows. This is not33 settled histories or a completed class
+census. Each case names its remaining premise independently of the
+focused comparison below.
+
+### Both: an original paradigm is not a universal daughter citation
+
+Orel's *bō(u)* preserves optional material, while *bō-jenō* is connected
+with masculine *beʒen*, not automatically the selected neuter *bū*
+[@Orel2003, p.52]. Kroonen's short *ba-* headword likewise is not the
+whole neuter: he separately reconstructs original masculine nominative
+and accusative, feminine nominative and accusative, and neuter *bō*,
+then explains replacement of dual by pronominal plural endings and
+the genitive formation [@Kroonen2013, p.46]. Only that neuter cell directly
+matches the selected reconstruction unit.
+
+Ringe supplies a partial *ba-* stem but cautions that extended daughter
+formations arose at least partly independently and do not permit confident
+reconstruction of the entire corresponding paradigm
+[@Ringe2017, pp.318-319]. This is a difference in reconstructibility and
+paradigm premises, not simply a shorter spelling of Kroonen's answer.
+Fulk allows the OE neuter vowel to be analogical to that of 'two'; his
+tabulated *bū* is independently retained. His masculine compound analysis
+is reported as conventional, with Seebold's objections, not an
+unqualified endorsement [@Fulk2018, pp.72,223].
+
+RT's *twai* is explicitly a PWGmc neuter cell of 'two', not a quotation
+of 'both'. General adjective instrumental/dative endings likewise remain
+comparanda. Both/two variably acquire adjectival genitive *-ra*; the
+categorical and gender-specific innovations described for 'three' cannot
+be transferred to 'both'. The native suffixal *-p-* in the daughter
+extensions remains unrepaired [@RingeTaylor2014, pp.121,388].
+
+### Bottom and bough: morphology, consonants and semantic scope
+
+Orel explicitly leaves the dental fluctuations of bottom unexplained.
+Kroonen instead invokes an old hysterokinetic paradigm, PIE genitive
+m-dissimilation and secondary daughter formations: his genitive *buttaz*
+has no *m*, while the OE-associated *buttma-* is a stem, not a quoted
+complete selected input [@Orel2003, p.61; @Kroonen2013, p.82].
+These are consonant/paradigm arguments, not a license to equate single
+and geminated dentals. What explains Orel's failure to adopt that account
+is not established merely by juxtaposing their entries.
+
+Fulk's initial nonsyllabic final sonorants, later nuclearization and written
+epenthesis are different matters from the inherited ending; RT explicitly
+limits recovery of detailed cluster history from mixed dialectal examples.
+The two actual *botm* occurrences are OE attestations, not reconstructed
+PGmc words. Native *pl* and *pm* remain clusters, without restoration of
+their corrupt dental sign [@Fulk2018, pp.91-93;
+@RingeTaylor2014, pp.331-332,341].
+
+Bough has shared long-vowel/body-part evidence but distinct citation
+formations and semantic reach. Orel's OE comparator means shoulder/arm;
+his branch sense is Frisian, whereas Kroonen expressly includes an OE
+branch sense. Ringe's explicit PGmc *bōguz* and earlier long-vowel chain
+do not themselves establish every daughter semantic transfer
+[@Orel2003, p.51; @Kroonen2013, p.71; @Ringe2017, p.172].
+Quantity, u-formation, velar representation and selected sense must
+therefore remain independently aligned.
+
+### Four bow identities: weak causative, strong preterite, ring and weapon
+
+The weak causative's Orel/Kroonen citations and Fulk's explicit PGmc
+infinitive belong to a different formation from the strong bend base
+[@Orel2003, p.39; @Kroonen2013, p.55; @Fulk2018, p.64].
+RT's PNWGmc infinitives, WS *biegan*, Kentish *bégan* and Northumbrian
+*béga* retain their actual cells/dialects. The added weak past3sg and
+present2/3sg quotations independently preserve stages, lost triggers and
+native signs: *baugipi*, *baugibi*, *biegp* and *ge-bégp* are not restored
+to desired dental glyphs. The palatal-fricative argument after syncope is
+distinct from palatal-stop behaviour and from the strong preterite
+[@RingeTaylor2014, pp.209,246,268,280,296].
+
+The selected strong row feeds *báug* to produce *bēag* as a singular
+preterite. Several inherited survey records instead quote a ring/crown
+noun. Those literal noun quotations are retained as family evidence,
+and the erroneous claim that the selected row is nominal is explicitly
+corrected; a homophone does not establish lexical/cell identity
+[@Orel2003, p.39; @Ringe2017, p.324;
+@RingeTaylor2014, p.309].
+
+Kroonen's *beugan- ~ būgan-* are strong infinitive alternatives, not the
+selected preterite. The original long-*ū* remains intact despite the
+native extraction's missing macron [@Kroonen2013, pp.61-62].
+Fulk's actual *būgan* and aorist-present discussion distinguish type
+membership, inherited versus innovative origin, and long-vowel
+explanations: analogical lengthening is reported as the commonest account,
+but Perridon's curtailed *eu > ū* proposal is separately reported
+[@Fulk2018, pp.263-265, especially264, n.4].
+RT argues from Gothic/OHG versus northern distribution for innovation or
+remodelling and a possible class-I model. His corrupted native vowel
+glyphs remain a verification limit rather than new restored quotations
+[@RingeTaylor2014, pp.39-40].
+The current lexical model cites RT55 for the class-II present claim,
+but that page concerns final-vowel loss. The proper39-40 discussion is
+recorded as a precise, non-adopting reporting correction question; neither
+model nor selected history is silently revised
+[@RingeTaylor2014, pp.39-40,55].
+
+The focused external-cognate case adds a substantive distinction. Ringe
+says the strong bend base has no extra-Germanic cognates; Kroonen admits
+Russian/Balto-Slavic comparisons, metathesis and a Sanskrit connection
+whose membership/root variant is expressly problematic. Their admitted
+comparisons differ. Linking that difference is our inference, not a
+documented Ringe rebuttal of Kroonen or a proven explanation of his
+exclusions [@Ringe2017, p.324; @Kroonen2013, pp.61-62].
+
+The weapon/arch noun is a further identity: Orel's full *buʒōn* and
+Kroonen's masculine n-stem *bugan-* are not a homographic verb infinitive.
+RT explicitly dates the weapon noun to PNWGmc, supplies OE *boga* and
+invokes a nonhigh following vowel in lowering. No selected complete noun
+is assembled from the strong derivational base
+[@Orel2003, p.61; @Kroonen2013, p.82;
+@RingeTaylor2014, pp.27-28].
+
+### Bower and brand: inherited gender and separate lexical alternatives
+
+Orel's bower entry relates the dwelling noun to 'dwell' and a Messapian
+comparison, not the previously stored generic breath/swelling account.
+Kroonen's reconstructed neuter and explicitly masculine OE reflex are
+different historical axes, not two competing reconstructed genders.
+Shared long-*ū* and dwelling formation do not settle the complete ending
+or daughter gender history [@Orel2003, p.65; @Kroonen2013, p.84].
+
+Orel's identical brand strings belong to separate firebrand and sword-blade
+entries. The second retains a possible Norse loan and alternative
+forehead/metaphorical connections; none is silently selected. Kroonen's
+strong nasal-present burn verb and weak causative are family evidence,
+not source quotations of the selected nominal genitive
+[@Orel2003, p.54; @Kroonen2013, pp.74,77-78].
+Identical strings therefore cannot erase homonymy, borrowing reservations
+or the distinction between a citation noun and *brandes*.
+
 ## Completed Ringe and Fulk readings: distinctions the alignment must preserve
 
 The relevant Ringe pass now includes the development discussion84-240,
@@ -184,7 +452,8 @@ and the complete Germanic/OE index screen. Its191 actual consultations
 remain distinct from393 applicability dispositions. The Fulk pass covers
 the relevant method, phonology, nominal and verbal morphology, selected
 pronouns/numerals and the complete lexical index376-420; it yields135
-actual consultations, not393 lexical quotations. The row-specific
+actual consultations at extraction closeout, not393 lexical quotations;
+the actual strong-present follow-up brings Fulk's total to136. The row-specific
 applicability manifests preserve excluded leads and topical-only readings
 without turning them into negative lexical reviews.
 

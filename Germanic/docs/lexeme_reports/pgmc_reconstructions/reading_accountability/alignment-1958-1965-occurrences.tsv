@@ -1,0 +1,445 @@
+evidence_id	source_key	printed_pages	holding_sheet	paragraph	start_char	end_char	diplomatic_form	paragraph_sha256	paragraph_text	begin_anchor	end_anchor
+ringe-alignment-both-stem	Ringe2017	319			87	91	*ba-	446e8b4fbd7963a498506a446830069f443bc02ca2eb6746ca2b0dab2a9e1722	"There was clearly a form of the collective ‘both’ that rhymed with ‘two’; its stem
+was *ba-. But extended forms of this word are also attested widely in the daughters:
+we ﬁnd Goth. ba- and bajoþ-, ON báðir (inﬂected as a normal strong adj., except that
+the neut. nom.-acc. was báði and the gen. was the unextended beggja), OF bēthe, OS
+bēðia, OHG bēde, beide; only OE lacks such an extended form. The formations do not
+correspond perfectly and must therefore have been at least partially independent
+parallel developments.
+   "	There was clearly a form of the collective	By contrast
+fulk-alignment-both-base	Fulk2018	223	240	1	3272	3276	*bō-	e79623d875d39e5abef8489e0f90b0e2115bef1af3174d5ef16e970bb15ccb47	"§10.1 The numerals 1–4
+223
+regarded as a compound of PGmc. *bō- (< PIE *bhō, as in Gk. ǎuqw, Lat. ambō ‘both')
+and pronominal *jen-, as in OHG jenēr ‘that' (§8.11). On the problems with this deriva-
+tion, see the discussion of ‘both' below. It cannot be that OE ē is the umlaut of ā < ai
+(so, e.g., Prokosch 1939: §99a), since the umlaut of ā is æ, and although forms with a
+do occur in OE, they represent a decided minority in the DOE corpus (Healey 2009): 45
+æ : 779 ē.⁹ Rather, Anglian OE twagen shows that ē in WS twēgen can only be the
+umlaut of ō.10 In OS twēne the vowel ē is the regular development of ai, and the form
+can otherwise plausibly be explained as analogical to the nom./acc. pl. of '1', ēne, -a;
+but this will not account for ē in OHG zwēne.11 OE nom./acc. fem. & neut. twā can
+directly reflect PIE *duoi, as can neut. OS twē, OHG zwei; and OE tū (as well as OS
+twō, OHG zwō, though the former occurs just once) can reflect PGmc. *twōz (> Go.
+twōs): see §4.11. More difficult to explain are fem. OS twā, OHG zwā; perhaps they
+align with Go. neut. twa, with lengthening under Prokosch's law (§2.5). Ross & Berns
+(1992: 562, 566) suggest instead that they represent the lengthening of re-stressed *twa,
+the unstressed result of WGmc. *twō < PGmc. *twōz. But WGmc. *-z was not lost in
+OHG monosyllables, and so Cowgill (1985: 16-18) derives zwā from PIE uninflected
+*duuo, with lenghtening of final *-a. Rare OE twēg(e)a is the etymological form, al-
+though again ē for expected a (*twāj- < *twāj- < *twaij-, §6.10) remains to be ex-
+plained; twēg(e)ra has acquired the pronominal/adjectival inflection. OE twām is ety-
+mological, from *twaimiz, whereas twām is by analogy to twā; but cf. Ross 1954: 118,
+reconstructing *-muz, *-maz beside *-miz.
+Closely connected with '2' is 'both', the latter being semantically a definite form
+of the former. The surviving forms of Go. bái are precisely parallel in structure to twái;
+the pronominal form of the stem seen in nom. masc. bajōþs, dat. bajōþum was apparent-
+ly inflected like a consonant-stem noun. 12 The usual forms in the other Gmc. languages
+are these:
+OIcel.
+OE
+m. nom.
+báðir
+bēgen
+m. acc.
+báða
+bēgen
+n.
+f.
+nom./acc.
+bæði
+bā, bū
+nom./acc.
+báðar
+bā
+gen.
+dat.
+beggja
+báðum
+bēg(e)a, bēgra
+bæm
+OS
+bēđia, -ie, -ea
+bēđia, -ie, -ea
+bēđiu
+bēđia, -ie, -ea
+bēđero13
+OHG
+bēde, beide
+bēde, beide
+bēdiu, beidiu, CG -(i)u
+bēdo, beido
+bēđium
+bēdero, beidero
+bēdēm, beidēm
+The OIcel. stem contains bá- < acc. pl. *bans; to this was added a pronominal stem in
+*b-, and thus perhaps masc. acc. báða reflects, in effect, *bans-pans (so Prokosch 1939:
+$99a). The stem báð- is then inflected like the plural of sjá (§8.12: þessir, þessi, þessar,
+etc.). The umlaut in bæði resists explanation, but the discussion in §8.12 of sjá and its
+development suggests some possibilities. 14 Gen. beggja could be etymological, depen-
+ding on how the Verschärfung is to be explained (§6.10), and on what the shape of this
+stem might have been before báð- was extended through the rest of the paradigm, but
+more likely it is analogical to tveggja ‘2'. It was remarked above that ē in the WGmc.
+forms of '2' presents difficulties; the same may be said in regard to ‘both'. As noted
+above, OE bēgen is usually explained as a compound of *bō- and pronominal *jen-;
+Seebold (1968: 418-21, with references) objects on a variety of grounds, among them
+that 'both' should combine not with the pronoun *jen- but the ‘article' in *þ- (as in ON,
+OS, and OHG).
+3. PIE ‘3' was an i-stem *trei- ~ *tri-, reflected as Skt. tráyaḥ, Gk. τpɛîç, Lat.
+trēs. The usual Gmc. forms are these:"		
+fulk-alignment-both-pronoun	Fulk2018	223	240	1	3292	3297	*jen-	e79623d875d39e5abef8489e0f90b0e2115bef1af3174d5ef16e970bb15ccb47	"§10.1 The numerals 1–4
+223
+regarded as a compound of PGmc. *bō- (< PIE *bhō, as in Gk. ǎuqw, Lat. ambō ‘both')
+and pronominal *jen-, as in OHG jenēr ‘that' (§8.11). On the problems with this deriva-
+tion, see the discussion of ‘both' below. It cannot be that OE ē is the umlaut of ā < ai
+(so, e.g., Prokosch 1939: §99a), since the umlaut of ā is æ, and although forms with a
+do occur in OE, they represent a decided minority in the DOE corpus (Healey 2009): 45
+æ : 779 ē.⁹ Rather, Anglian OE twagen shows that ē in WS twēgen can only be the
+umlaut of ō.10 In OS twēne the vowel ē is the regular development of ai, and the form
+can otherwise plausibly be explained as analogical to the nom./acc. pl. of '1', ēne, -a;
+but this will not account for ē in OHG zwēne.11 OE nom./acc. fem. & neut. twā can
+directly reflect PIE *duoi, as can neut. OS twē, OHG zwei; and OE tū (as well as OS
+twō, OHG zwō, though the former occurs just once) can reflect PGmc. *twōz (> Go.
+twōs): see §4.11. More difficult to explain are fem. OS twā, OHG zwā; perhaps they
+align with Go. neut. twa, with lengthening under Prokosch's law (§2.5). Ross & Berns
+(1992: 562, 566) suggest instead that they represent the lengthening of re-stressed *twa,
+the unstressed result of WGmc. *twō < PGmc. *twōz. But WGmc. *-z was not lost in
+OHG monosyllables, and so Cowgill (1985: 16-18) derives zwā from PIE uninflected
+*duuo, with lenghtening of final *-a. Rare OE twēg(e)a is the etymological form, al-
+though again ē for expected a (*twāj- < *twāj- < *twaij-, §6.10) remains to be ex-
+plained; twēg(e)ra has acquired the pronominal/adjectival inflection. OE twām is ety-
+mological, from *twaimiz, whereas twām is by analogy to twā; but cf. Ross 1954: 118,
+reconstructing *-muz, *-maz beside *-miz.
+Closely connected with '2' is 'both', the latter being semantically a definite form
+of the former. The surviving forms of Go. bái are precisely parallel in structure to twái;
+the pronominal form of the stem seen in nom. masc. bajōþs, dat. bajōþum was apparent-
+ly inflected like a consonant-stem noun. 12 The usual forms in the other Gmc. languages
+are these:
+OIcel.
+OE
+m. nom.
+báðir
+bēgen
+m. acc.
+báða
+bēgen
+n.
+f.
+nom./acc.
+bæði
+bā, bū
+nom./acc.
+báðar
+bā
+gen.
+dat.
+beggja
+báðum
+bēg(e)a, bēgra
+bæm
+OS
+bēđia, -ie, -ea
+bēđia, -ie, -ea
+bēđiu
+bēđia, -ie, -ea
+bēđero13
+OHG
+bēde, beide
+bēde, beide
+bēdiu, beidiu, CG -(i)u
+bēdo, beido
+bēđium
+bēdero, beidero
+bēdēm, beidēm
+The OIcel. stem contains bá- < acc. pl. *bans; to this was added a pronominal stem in
+*b-, and thus perhaps masc. acc. báða reflects, in effect, *bans-pans (so Prokosch 1939:
+$99a). The stem báð- is then inflected like the plural of sjá (§8.12: þessir, þessi, þessar,
+etc.). The umlaut in bæði resists explanation, but the discussion in §8.12 of sjá and its
+development suggests some possibilities. 14 Gen. beggja could be etymological, depen-
+ding on how the Verschärfung is to be explained (§6.10), and on what the shape of this
+stem might have been before báð- was extended through the rest of the paradigm, but
+more likely it is analogical to tveggja ‘2'. It was remarked above that ē in the WGmc.
+forms of '2' presents difficulties; the same may be said in regard to ‘both'. As noted
+above, OE bēgen is usually explained as a compound of *bō- and pronominal *jen-;
+Seebold (1968: 418-21, with references) objects on a variety of grounds, among them
+that 'both' should combine not with the pronoun *jen- but the ‘article' in *þ- (as in ON,
+OS, and OHG).
+3. PIE ‘3' was an i-stem *trei- ~ *tri-, reflected as Skt. tráyaḥ, Gk. τpɛîç, Lat.
+trēs. The usual Gmc. forms are these:"		
+fulk-alignment-both-neuter	Fulk2018	223	240	1	2198	2200	bū	e79623d875d39e5abef8489e0f90b0e2115bef1af3174d5ef16e970bb15ccb47	"§10.1 The numerals 1–4
+223
+regarded as a compound of PGmc. *bō- (< PIE *bhō, as in Gk. ǎuqw, Lat. ambō ‘both')
+and pronominal *jen-, as in OHG jenēr ‘that' (§8.11). On the problems with this deriva-
+tion, see the discussion of ‘both' below. It cannot be that OE ē is the umlaut of ā < ai
+(so, e.g., Prokosch 1939: §99a), since the umlaut of ā is æ, and although forms with a
+do occur in OE, they represent a decided minority in the DOE corpus (Healey 2009): 45
+æ : 779 ē.⁹ Rather, Anglian OE twagen shows that ē in WS twēgen can only be the
+umlaut of ō.10 In OS twēne the vowel ē is the regular development of ai, and the form
+can otherwise plausibly be explained as analogical to the nom./acc. pl. of '1', ēne, -a;
+but this will not account for ē in OHG zwēne.11 OE nom./acc. fem. & neut. twā can
+directly reflect PIE *duoi, as can neut. OS twē, OHG zwei; and OE tū (as well as OS
+twō, OHG zwō, though the former occurs just once) can reflect PGmc. *twōz (> Go.
+twōs): see §4.11. More difficult to explain are fem. OS twā, OHG zwā; perhaps they
+align with Go. neut. twa, with lengthening under Prokosch's law (§2.5). Ross & Berns
+(1992: 562, 566) suggest instead that they represent the lengthening of re-stressed *twa,
+the unstressed result of WGmc. *twō < PGmc. *twōz. But WGmc. *-z was not lost in
+OHG monosyllables, and so Cowgill (1985: 16-18) derives zwā from PIE uninflected
+*duuo, with lenghtening of final *-a. Rare OE twēg(e)a is the etymological form, al-
+though again ē for expected a (*twāj- < *twāj- < *twaij-, §6.10) remains to be ex-
+plained; twēg(e)ra has acquired the pronominal/adjectival inflection. OE twām is ety-
+mological, from *twaimiz, whereas twām is by analogy to twā; but cf. Ross 1954: 118,
+reconstructing *-muz, *-maz beside *-miz.
+Closely connected with '2' is 'both', the latter being semantically a definite form
+of the former. The surviving forms of Go. bái are precisely parallel in structure to twái;
+the pronominal form of the stem seen in nom. masc. bajōþs, dat. bajōþum was apparent-
+ly inflected like a consonant-stem noun. 12 The usual forms in the other Gmc. languages
+are these:
+OIcel.
+OE
+m. nom.
+báðir
+bēgen
+m. acc.
+báða
+bēgen
+n.
+f.
+nom./acc.
+bæði
+bā, bū
+nom./acc.
+báðar
+bā
+gen.
+dat.
+beggja
+báðum
+bēg(e)a, bēgra
+bæm
+OS
+bēđia, -ie, -ea
+bēđia, -ie, -ea
+bēđiu
+bēđia, -ie, -ea
+bēđero13
+OHG
+bēde, beide
+bēde, beide
+bēdiu, beidiu, CG -(i)u
+bēdo, beido
+bēđium
+bēdero, beidero
+bēdēm, beidēm
+The OIcel. stem contains bá- < acc. pl. *bans; to this was added a pronominal stem in
+*b-, and thus perhaps masc. acc. báða reflects, in effect, *bans-pans (so Prokosch 1939:
+$99a). The stem báð- is then inflected like the plural of sjá (§8.12: þessir, þessi, þessar,
+etc.). The umlaut in bæði resists explanation, but the discussion in §8.12 of sjá and its
+development suggests some possibilities. 14 Gen. beggja could be etymological, depen-
+ding on how the Verschärfung is to be explained (§6.10), and on what the shape of this
+stem might have been before báð- was extended through the rest of the paradigm, but
+more likely it is analogical to tveggja ‘2'. It was remarked above that ē in the WGmc.
+forms of '2' presents difficulties; the same may be said in regard to ‘both'. As noted
+above, OE bēgen is usually explained as a compound of *bō- and pronominal *jen-;
+Seebold (1968: 418-21, with references) objects on a variety of grounds, among them
+that 'both' should combine not with the pronoun *jen- but the ‘article' in *þ- (as in ON,
+OS, and OHG).
+3. PIE ‘3' was an i-stem *trei- ~ *tri-, reflected as Skt. tráyaḥ, Gk. τpɛîç, Lat.
+trēs. The usual Gmc. forms are these:"		
+rt-alignment-causative-ws-209	RingeTaylor2014	209	224	11	101	107	biegan	222316d589c2b1ac97ecd2326a11224d7e3139326b9107a76e250042f0583ac7	"PNWGmce *baugijana ‘to bend (it)’ (ON beygja, OS bogian, OHG bougen ‘to
+incline’) > *béagjan > WS OE biegan, North. béga (OF beia);"		
+rt-alignment-causative-kent-246	RingeTaylor2014	246	261	7	120	125	bégan	9712e8ea666be61be648ac74f37d9d0854d8a15fb904c4982812c5569292aa00	"PNWGmc *baugijana ‘to bend (it)’ (ON beygja, OF beia, OS bogian, OHG bougen
+‘to incline’) > *béagjan > WS biegan, Kent. bégan (in ge-bégod ‘(s)he bends’),
+North. béga;"		
+rt-alignment-causative-kent-finite-246	RingeTaylor2014	246	261	7	130	138	ge-bégod	9712e8ea666be61be648ac74f37d9d0854d8a15fb904c4982812c5569292aa00	"PNWGmc *baugijana ‘to bend (it)’ (ON beygja, OF beia, OS bogian, OHG bougen
+‘to incline’) > *béagjan > WS biegan, Kent. bégan (in ge-bégod ‘(s)he bends’),
+North. béga;"		
+fulk-alignment-causative-ws	Fulk2018	64	81	1	2292	2298	biegan	3b4d7a1b07d5c8134717499983fae30c962334f24bbc72ff1b172b074dbdab4e	"64
+A Comparative Grammar of the Early Germanic Languages
+æ e: PGmc. *bariz
+*bæri bere ‘barley' (cf. Go. barizeins 'made of
+barley'); PGmc. *satjana""> settan 'set' (cf. Go. satjan).
+a æ: The vowel a did not normally occur in a position where it would be
+subject to umlaut, having always been fronted to æ in the relevant environments
+(§4.12), but a could be restored on an analogical basis and then umlauted. Examples:
+PGmc. *farip(i) > *færiþ, reformed as *farip (cf. inf. faran) > færð (cf. Go. farip);
+PGmc. *sakja"" (acc. sg.) > *sækkja, reformed as *sakkja (cf. OE sacu ‘strife') > sæcc
+'strife'.
+ā (from ai) > æ: PGmc. *dailiz > *dāli > dæl 'portion' (cf. Go. dáils); PGmc.
+*laizijana""> *lārjan læran 'teach' (cf. Go. láisjan).
+o > e (Anglian æ, spelt (oe), or e): The vowel o did not normally occur in a
+position where it would be subject to umlaut, since PGmc. u was not lowered to o when
+Ĕ or j appeared in the next syllable (§4.3). It might be introduced analogically, however,
+or it might undergo umlaut in a loanword. Examples: PGmc. *murzinaz reformed as
+*morzinaz (on the basis of the alternative stem *morzan-, as in OHG morgan) > mergen
+(cf. Olcel. myrginn, morginn); OE ele ‘oil' (Northumbrian ole) from Lat. oleum.
+ō > ē (Anglian &, spelt (oe)): PGmc. *bōkiz > bēc ‘books' (Anglian bac; cf.
+bōcere 'scholar'); PGmc. *sōkijana""> sēcan ‘seek' (cf. Go. sōkjan). The same develop-
+ment affects ō derived from ā"" (§§4.1, 4.11, 4.12): *wēniz *wā""niz > *wōni > wēn
+'expectation' (Anglian wan); *zansiz> *3ā""si > gēs ‘geese' (Anglian gos).
+u > y (Kentish e): PGmc. *muniz > myne 'mind' (cf. Go. muns); PGmc.
+*buzjana""> bycgan 'buy' (cf. Go. bugjan).
+ū > ỹ (Kentish ē): PGmc. *fūliþō > fylð ‘filth' (Kentish fēlþ; cf. fūl ‘foul');
+PGmc. *brūki(j)iþ(i) > brýcð ‘enjoys' (cf. Go. brūkeip).
+ea (breaking of æ, §4.13) > ie (non-WS e): PGmc. *xalðiþ(i) > hielt ‘holds' (cf.
+inf. healdan); PGmc. *balþijana"" > bieldan ‘embolden' (cf. beald 'bold', and see §6.17
+on *-lb->-ld-). The same development is seen in the WS palatal diphthongization of æ
+(§4.13), e.g. giest ‘guest' < *3easti < *zæsti < *3astiz and be-sciered 'deprived' <
+*-scearid < *-scarid < *-skariðaz.
+ēa (from au) > ie (non-WS ē): PGmc. *lauziz > līeg ‘flame' (Anglian lēg; cf.
+Go. lauhmuni 'lightning'); PGmc. *bauzijana"" > biegan 'bend' (Anglian bēgan; cf.
+beag ‘ring'). In EWS nīehst(a) < *nēahist- < *næhist- is seen the same development of
+the breaking of a (§4.13).
+ĕo > to (> ĕo, but Northumbrian to): The diphthongs eo and eo should not have
+occurred before i or j in the next syllable (§4.4), but they could be introduced into the
+environment for umlaut on an analogical basis. The plainest evidence of this is words in
+which EWS ie might be expected but is not found, e.g. geþēode (also EWS gepiode)
+‘language' <*-þēodī for earlier *-þiuðī, by analogy to *þēodō > þēod 'people'; see also
+n. 14 and A. Campbell 1977: §202.
+io (breaking of i)> ie (Northumbrian io, Mercian, Kentish eo): PGmc. *irzijaz>
+*iorrī ierre 'angry' (Northumbrian iorre, Mercian eorre; cf. OS irri); 14 EWS gesieho
+'sees' (Kentish -sioho) <*sioxiþ < *sixwiþ(i).
+iu (from PGmc. iu, §4.4) > ie (non-WS ē): PGmc. *kiusiþ(i) > ciest 'chooses'
+(cf. inf. Go. kiusan); PGmc. *liuxtijana""> līehtan 'illuminate' (cf. Go. liuhtjan).
+Front umlaut could also occur when i/j appeared in the third syllable of words
+with initial stress, e.g. æmyrge, æmerge ‘embers' *āmyrjæ < *aimurjō"" (cf. OHG
+eimuria): see A. Campbell 1977: §203."		
+fulk-alignment-causative-anglian	Fulk2018	64	81	1	2315	2320	bēgan	3b4d7a1b07d5c8134717499983fae30c962334f24bbc72ff1b172b074dbdab4e	"64
+A Comparative Grammar of the Early Germanic Languages
+æ e: PGmc. *bariz
+*bæri bere ‘barley' (cf. Go. barizeins 'made of
+barley'); PGmc. *satjana""> settan 'set' (cf. Go. satjan).
+a æ: The vowel a did not normally occur in a position where it would be
+subject to umlaut, having always been fronted to æ in the relevant environments
+(§4.12), but a could be restored on an analogical basis and then umlauted. Examples:
+PGmc. *farip(i) > *færiþ, reformed as *farip (cf. inf. faran) > færð (cf. Go. farip);
+PGmc. *sakja"" (acc. sg.) > *sækkja, reformed as *sakkja (cf. OE sacu ‘strife') > sæcc
+'strife'.
+ā (from ai) > æ: PGmc. *dailiz > *dāli > dæl 'portion' (cf. Go. dáils); PGmc.
+*laizijana""> *lārjan læran 'teach' (cf. Go. láisjan).
+o > e (Anglian æ, spelt (oe), or e): The vowel o did not normally occur in a
+position where it would be subject to umlaut, since PGmc. u was not lowered to o when
+Ĕ or j appeared in the next syllable (§4.3). It might be introduced analogically, however,
+or it might undergo umlaut in a loanword. Examples: PGmc. *murzinaz reformed as
+*morzinaz (on the basis of the alternative stem *morzan-, as in OHG morgan) > mergen
+(cf. Olcel. myrginn, morginn); OE ele ‘oil' (Northumbrian ole) from Lat. oleum.
+ō > ē (Anglian &, spelt (oe)): PGmc. *bōkiz > bēc ‘books' (Anglian bac; cf.
+bōcere 'scholar'); PGmc. *sōkijana""> sēcan ‘seek' (cf. Go. sōkjan). The same develop-
+ment affects ō derived from ā"" (§§4.1, 4.11, 4.12): *wēniz *wā""niz > *wōni > wēn
+'expectation' (Anglian wan); *zansiz> *3ā""si > gēs ‘geese' (Anglian gos).
+u > y (Kentish e): PGmc. *muniz > myne 'mind' (cf. Go. muns); PGmc.
+*buzjana""> bycgan 'buy' (cf. Go. bugjan).
+ū > ỹ (Kentish ē): PGmc. *fūliþō > fylð ‘filth' (Kentish fēlþ; cf. fūl ‘foul');
+PGmc. *brūki(j)iþ(i) > brýcð ‘enjoys' (cf. Go. brūkeip).
+ea (breaking of æ, §4.13) > ie (non-WS e): PGmc. *xalðiþ(i) > hielt ‘holds' (cf.
+inf. healdan); PGmc. *balþijana"" > bieldan ‘embolden' (cf. beald 'bold', and see §6.17
+on *-lb->-ld-). The same development is seen in the WS palatal diphthongization of æ
+(§4.13), e.g. giest ‘guest' < *3easti < *zæsti < *3astiz and be-sciered 'deprived' <
+*-scearid < *-scarid < *-skariðaz.
+ēa (from au) > ie (non-WS ē): PGmc. *lauziz > līeg ‘flame' (Anglian lēg; cf.
+Go. lauhmuni 'lightning'); PGmc. *bauzijana"" > biegan 'bend' (Anglian bēgan; cf.
+beag ‘ring'). In EWS nīehst(a) < *nēahist- < *næhist- is seen the same development of
+the breaking of a (§4.13).
+ĕo > to (> ĕo, but Northumbrian to): The diphthongs eo and eo should not have
+occurred before i or j in the next syllable (§4.4), but they could be introduced into the
+environment for umlaut on an analogical basis. The plainest evidence of this is words in
+which EWS ie might be expected but is not found, e.g. geþēode (also EWS gepiode)
+‘language' <*-þēodī for earlier *-þiuðī, by analogy to *þēodō > þēod 'people'; see also
+n. 14 and A. Campbell 1977: §202.
+io (breaking of i)> ie (Northumbrian io, Mercian, Kentish eo): PGmc. *irzijaz>
+*iorrī ierre 'angry' (Northumbrian iorre, Mercian eorre; cf. OS irri); 14 EWS gesieho
+'sees' (Kentish -sioho) <*sioxiþ < *sixwiþ(i).
+iu (from PGmc. iu, §4.4) > ie (non-WS ē): PGmc. *kiusiþ(i) > ciest 'chooses'
+(cf. inf. Go. kiusan); PGmc. *liuxtijana""> līehtan 'illuminate' (cf. Go. liuhtjan).
+Front umlaut could also occur when i/j appeared in the third syllable of words
+with initial stress, e.g. æmyrge, æmerge ‘embers' *āmyrjæ < *aimurjō"" (cf. OHG
+eimuria): see A. Campbell 1977: §203."		
+fulk-alignment-strong-bend-present	Fulk2018	264	281	1	71	76	būgan	0b7ef2b0efa1bdba29967468a539122ad71f939bd9201eaf68ccfdbb91e5c5bb	"264
+A Comparative Grammar of the Early Germanic Languages
+brūkjan); OE būgan 'bend' (OS būgan; cf. full-grade Go. biugan, OHG biogan);
+OE dufan 'dive' (MLG be-duven 'be covered'; ON dúfa is weak); OE hrūtan
+‘snore, make a noise' (OFris. hrūta, OS hrūtan, OHG rūzan; cf. full-grade ON
+hrjóta); OE scufan 'shove' (OFris. skuva, MLG schuven; cf. full-grade Go. af-
+skiuban 'reject', OSwed. skiuva 'shove'; there also occurs OE scēofan); OE
+slūpan 'glide' (Fris. slūpe, MLG slūpen; cf. full-grade Go. sliupan, OHG ir-
+sliofan 'come (out)'); OE smūgan ‘creep' (cf. full-grade OIcel. smjúga, MHG
+smiugen); OE strūdan 'plunder' (MLG stroden, OHG strutten); OE pūtan 'howl'
+(cf. full-grade OE peotan, Olcel. þjóta, OHG diozan); OE *crudan 'hasten'
+(only 3 sg. pres. crydeþ); OE *sprūtan ‘sprout' (past part. ā-sprotene, ME inf.
+sprouten); OHG *tūhhan ‘plunge' (pp. betochen); and possibly OE *scūdan
+'hurry' (?) (only pres. part. scūdende, but perhaps to the second weak class be-
+cause poetic/Anglian: see Hogg & Fulk 2011: §6.112).
+Class III: OIcel. horfa ‘be turned' (weak; cf. strong hverfa); OIcel. molka ‘milk' (weak;
+cf. strong OHG melchan, Skt. márśți 'wipes'); OE spurnan 'kick' (OFris. spurna
+(may be weak), OS bi-spurnan (strong?), OHG fir-spurnan; weak Olcel. sporna,
+spyrna); OE murnan ‘mourn' (weak Go. maúrnan, OS mornian, OHG mornēn).
+Class IV: ON koma (OE cuman, OFris. kuma, OS kuman; cf. the originally imperfective
+stem in Go. qiman, OHG queman) < *gwem-;5 Go. trudan 'tread' (OIcel. troða);6
+Go. wulan 'seethe, rage' (no pret. attested; cf. OE weallan, OHG biwellan
+‘seethe' < *uel-n-?); also PGmc. *knuðana"" in weak ON knoða ‘knead'; cf. full-
+grade strong OE cnedan, OHG knetan.
+Class V: There are no aorist presents to this class, but none would be detectable, as the
+root vowel in an aorist stem would have been schwa secundum, which would
+have been reflected as a full-grade vowel (§§3.1-2). An exception is Olcel. sofa
+'sleep', which could reflect either *sweb- or *sub- (see Heusler 1967: §87.2),
+whereas OE swefan is unambiguous.
+Class VI: A great many of the verbs of this class are best analyzed as showing in the
+present the weak grade of a root containing a laryngeal consonant (see §12.15).
+Examples are Go. sakan 'dispute' (cf. Gk. nуéoμai ‘guide, lead', Lat. sāgiō 'per-
+ceive quickly, feel keenly'); Go. skaban ‘shave' (cf. Lith. skóbti ‘gouge' and
+Latvian skābs 'sour', from *sharp, cutting'); and Go. ga-daban ‘beseem' (cf.
+Go. ga-dofs 'becoming, fit').
+There is no certain example in Class VII, where etymologies are generally insecure.""
+1. But there are exceptions. For example, Gk. ypάow ‘write' reflects *grbh-óh₂, whereas OE ceorfan 'carve'
+shows the full grade of the root. The former, perfective stem used in the present would originally have ex-
+pressed punctual action, the latter stem durative (§ 12.1); one or the other stem was then generalized in the in-
+dividual IE branches.
+2. Bammesberger (1986a: §3.3.5) outlines a process by which forms with reduced grade of the root could
+have been created analogically in Gmc.
+3. Seebold (1970: 467-8) would add *stikana"" ‘stick', refashioned as a verb of class V (e.g. OS stekan),
+though derivatives show it to have been originally a verb of class I. Some further possibilities in English are
+discounted by Seebold (1966b).
+4. Aorist presents of the second class have ū for expected u in the present stem. The commonest explanation
+(see, e.g., Prokosch 1939: §55) is that the vowel was lengthened by analogy to the long vowel in the present
+stem of the first class (and the long diphthong in the non-aorist presents of the second?). Cf. A. Campbell
+(1977: §736(b)), suggesting an analogical proportion of present and preterite singular vocalism in PGmc. ī~
+ai (class I): ū~ au (class II). Because ū is found also in related words, Perridon (2001, with references) argues"		
+rt-alignment-causative-past	RingeTaylor2014	268,280	283	7	8	16	*baugidé	170f25d54fcb7c54b7ca6589196c07f54c265968a92d65b2cd83459dc2a5b471	"PNWGrnc *baugidé ‘(s)he bent (it) (ON beygdi, OHG bougta) > *béagide > WS
+OE *biegide > biegde, Angl. *bégide > North. ge-bégde ‘(s)he stooped’;"		
+rt-alignment-causative-past-ws	RingeTaylor2014	268,280	283	7	88	94	biegde	170f25d54fcb7c54b7ca6589196c07f54c265968a92d65b2cd83459dc2a5b471	"PNWGrnc *baugidé ‘(s)he bent (it) (ON beygdi, OHG bougta) > *béagide > WS
+OE *biegide > biegde, Angl. *bégide > North. ge-bégde ‘(s)he stooped’;"		
+rt-alignment-causative-past-north	RingeTaylor2014	268,280	283	7	119	127	ge-bégde	170f25d54fcb7c54b7ca6589196c07f54c265968a92d65b2cd83459dc2a5b471	"PNWGrnc *baugidé ‘(s)he bent (it) (ON beygdi, OHG bougta) > *béagide > WS
+OE *biegide > biegde, Angl. *bégide > North. ge-bégde ‘(s)he stooped’;"		
+rt-alignment-causative-present-nwg-2	RingeTaylor2014	296	311	8	8	16	*baugisi	3f31b5af72af3bf0aa861f17e5a07f5f4bf7eb51e70f1d07de92a986669a8933	"PNWGnrc *baugisi ‘you bend (it)’, *baugipi ‘(s)he bends (it)’ (cf. ON beygr) —
+PWGmc *baugisi, *baugibi (OHG bougis ‘you incline’, cf. 38g. bougit ‘(s)he
+inclines’; see 3.2.1) > *béagisi, *béagipi > pre-WS *biegisi, *biegibi, pre-Kent.
+*bégisi, *bégipi > *biegsi / *bégsi, *bieghi / *béegbi >— WS OE biegst, biegp,
+Kent. 38g. ge-bégp."		
+rt-alignment-causative-present-nwg-3	RingeTaylor2014	296	311	8	34	42	*baugipi	3f31b5af72af3bf0aa861f17e5a07f5f4bf7eb51e70f1d07de92a986669a8933	"PNWGnrc *baugisi ‘you bend (it)’, *baugipi ‘(s)he bends (it)’ (cf. ON beygr) —
+PWGmc *baugisi, *baugibi (OHG bougis ‘you incline’, cf. 38g. bougit ‘(s)he
+inclines’; see 3.2.1) > *béagisi, *béagipi > pre-WS *biegisi, *biegibi, pre-Kent.
+*bégisi, *bégipi > *biegsi / *bégsi, *bieghi / *béegbi >— WS OE biegst, biegp,
+Kent. 38g. ge-bégp."		
+rt-alignment-causative-present-wg-2	RingeTaylor2014	296	311	8	85	93	*baugisi	3f31b5af72af3bf0aa861f17e5a07f5f4bf7eb51e70f1d07de92a986669a8933	"PNWGnrc *baugisi ‘you bend (it)’, *baugipi ‘(s)he bends (it)’ (cf. ON beygr) —
+PWGmc *baugisi, *baugibi (OHG bougis ‘you incline’, cf. 38g. bougit ‘(s)he
+inclines’; see 3.2.1) > *béagisi, *béagipi > pre-WS *biegisi, *biegibi, pre-Kent.
+*bégisi, *bégipi > *biegsi / *bégsi, *bieghi / *béegbi >— WS OE biegst, biegp,
+Kent. 38g. ge-bégp."		
+rt-alignment-causative-present-wg-3	RingeTaylor2014	296	311	8	95	103	*baugibi	3f31b5af72af3bf0aa861f17e5a07f5f4bf7eb51e70f1d07de92a986669a8933	"PNWGnrc *baugisi ‘you bend (it)’, *baugipi ‘(s)he bends (it)’ (cf. ON beygr) —
+PWGmc *baugisi, *baugibi (OHG bougis ‘you incline’, cf. 38g. bougit ‘(s)he
+inclines’; see 3.2.1) > *béagisi, *béagipi > pre-WS *biegisi, *biegibi, pre-Kent.
+*bégisi, *bégipi > *biegsi / *bégsi, *bieghi / *béegbi >— WS OE biegst, biegp,
+Kent. 38g. ge-bégp."		
+rt-alignment-causative-present-ws-2	RingeTaylor2014	296	311	8	300	306	biegst	3f31b5af72af3bf0aa861f17e5a07f5f4bf7eb51e70f1d07de92a986669a8933	"PNWGnrc *baugisi ‘you bend (it)’, *baugipi ‘(s)he bends (it)’ (cf. ON beygr) —
+PWGmc *baugisi, *baugibi (OHG bougis ‘you incline’, cf. 38g. bougit ‘(s)he
+inclines’; see 3.2.1) > *béagisi, *béagipi > pre-WS *biegisi, *biegibi, pre-Kent.
+*bégisi, *bégipi > *biegsi / *bégsi, *bieghi / *béegbi >— WS OE biegst, biegp,
+Kent. 38g. ge-bégp."		
+rt-alignment-causative-present-ws-3	RingeTaylor2014	296	311	8	308	313	biegp	3f31b5af72af3bf0aa861f17e5a07f5f4bf7eb51e70f1d07de92a986669a8933	"PNWGnrc *baugisi ‘you bend (it)’, *baugipi ‘(s)he bends (it)’ (cf. ON beygr) —
+PWGmc *baugisi, *baugibi (OHG bougis ‘you incline’, cf. 38g. bougit ‘(s)he
+inclines’; see 3.2.1) > *béagisi, *béagipi > pre-WS *biegisi, *biegibi, pre-Kent.
+*bégisi, *bégipi > *biegsi / *bégsi, *bieghi / *béegbi >— WS OE biegst, biegp,
+Kent. 38g. ge-bégp."		
+rt-alignment-causative-present-kent-3	RingeTaylor2014	296	311	8	326	333	ge-bégp	3f31b5af72af3bf0aa861f17e5a07f5f4bf7eb51e70f1d07de92a986669a8933	"PNWGnrc *baugisi ‘you bend (it)’, *baugipi ‘(s)he bends (it)’ (cf. ON beygr) —
+PWGmc *baugisi, *baugibi (OHG bougis ‘you incline’, cf. 38g. bougit ‘(s)he
+inclines’; see 3.2.1) > *béagisi, *béagipi > pre-WS *biegisi, *biegibi, pre-Kent.
+*bégisi, *bégipi > *biegsi / *bégsi, *bieghi / *béegbi >— WS OE biegst, biegp,
+Kent. 38g. ge-bégp."		

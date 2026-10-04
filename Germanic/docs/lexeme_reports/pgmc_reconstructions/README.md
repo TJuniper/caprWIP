@@ -109,7 +109,7 @@ explanation or exact remaining premises, the conditioning census and a
 non-adopting consistency watchlist. The current analytical gate still
 certifies citation-unit triage only.
 
-All three relevant held-source passes are persisted: Ringe191, Fulk135
+All three relevant held-source passes are persisted: Ringe191, Fulk136
 and Ringe-Taylor255 actual consultations. Each has393 independent
 applicability dispositions; the1179 screens are not1179 grammar
 negatives. All786 core reviews remain. Of20 scopes,19 are reviewed
@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4143 evidence records,1376 actual consultations and4235
-analytical positions, with396 comparisons and57 rationales. The RT
+There are4187 evidence records,1377 actual consultations and4283
+analytical positions, with398 comparisons and75 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Seventeen core rows now have individually reconciled, bounded alignment:
-1933-1949. The remaining376 are unreviewed. The second tranche builds on
+Thirty-three core rows now have individually reconciled, bounded alignment:
+1933-1965. The remaining360 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -158,6 +158,44 @@ starless index. Berry's Verner paradigm does not supply accented cells
 spans and paragraph hashes; `alignment-1941-1949-amendments.tsv` records
 the individually justified reporting corrections. Neither receipt changes
 source confidence, diplomatic forms or scientific corpus owners.
+
+The third tranche reconciles all74 inherited positions for1950-1957:
+bind, birth, blood, board, bone, book, bore and bosom. Thirteen literal
+occurrences and seven process records supplement existing consultations;
+nine reasons separate position support, a premised bind representation
+bridge and a bounded, analyst-inferred bone-origin comparison.
+`alignment-1950-1957-occurrences.tsv` records exact text spans/hashes;
+`alignment-1950-1957-amendments.tsv` preserves reporting corrections.
+Book's three RT plural citations are explicitly PNWGmc, while Fulk's
+plural is explicitly PGmc; Latin profession/loan examples and the selected
+OE nominative remain distinct. Native corrupted signs remain unchanged
+[@RingeTaylor2014, pp.138,208,227,286; @Fulk2018, pp.64,166-167].
+Ringe's actual bone quotation changes its existing consultation from
+discussion-only to evidence-found, not into a new consultation
+[@Ringe2017, p.328]. Whole-row causes remain unestablished, and neither
+bone's origin nor bind's specific written e has been selected as CAPR's
+preferred history.
+
+The fourth tranche reconciles all72 inherited positions for1958-1965:
+both, bottom, bough, weak causative bow, strong preterite bow, bow noun,
+bower and brand. Twenty literal quotations and four processes add24
+evidence records, with nine reasons and two focused units reusing evidence.
+Fulk's actual strong-present passage is one new consultation; existing
+reviews are supplemented, not duplicated [@Fulk2018, pp.263-265].
+The source amendment/occurrence receipts are
+`alignment-1958-1965-amendments.tsv` and
+`alignment-1958-1965-occurrences.tsv`.
+
+The selected strong preterite is not the ring noun quoted by several
+sources. The focused `bend-external-cognates` case distinguishes Ringe's
+explicit absence claim from Kroonen's external/metathesized connections;
+why Ringe excludes those comparisons remains unestablished
+[@Ringe2017, p.324; @Kroonen2013, pp.61-62].
+Present quantity/origin, weak finite cells, nominal homonyms and selected
+preterite remain separate. The current lexical model's RT55 locator does
+not support its class-II present claim; the pertinent discussion is39-40.
+This is a non-adopting reporting question, not a silent model correction
+[@RingeTaylor2014, pp.39-40,55,268,280,296,309].
 
 The alignment follow-up corrects eight proved RT extractor clips against
 their held paragraphs and preserves four genuinely corrupt native tokens

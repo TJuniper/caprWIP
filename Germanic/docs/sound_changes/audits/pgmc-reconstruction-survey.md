@@ -671,6 +671,150 @@ later OE conditioning tags without back-dating them. The full-population
 alignment gate still fails on376 rows; the fully verified reading gate
 separately retains the RT conventions/roman-folio gap.
 
+### Third eight-row alignment:1950-1957
+
+The released preceding research is commit8adf0944, pushed and verified on
+origin/update. This new tranche remains uncommitted. It reviews bind,
+birth, blood, board, bone, book, bore and bosom: all74 inherited positions,
+twenty evidence supplements and two focused positions reusing existing
+bone evidence. Actual totals are4163 forms,1376 consultations,4257
+positions,397 comparisons and66 rationales. Twenty-five core cases are
+bounded;368 remain unreviewed. Neither source silence nor a source-form
+counter is a historical conclusion.
+
+The source-fidelity receipts retain thirteen exact held occurrences and
+individually justified old/new annotations. Ringe's actual blood/bone
+citations remain among words of doubtful or unknown origin; bone's
+existing consultation changes to evidence-found, not into a new review
+[@Ringe2017, p.328]. RT's starred Gothic bind comparator remains Gothic;
+its book plurals are explicitly PNWGmc and the profession suffix PWGmc.
+Blood's datives, soul comparanda and general endings remain separate
+[@RingeTaylor2014, pp.138,153,208,227,286,299].
+The native corrupt signs and WS book endpoint *béé* are not restored.
+Fulk's explicitly tabulated book nominative matches the selected OE cell,
+not automatically the selected reconstruction's complete ending or date
+[@Fulk2018, p.166].
+
+The new reasons distinguish actual coda-nasal raising support from the
+conditional bridge between written/underlying and realised bind vowels.
+Orel's particular e-choice is not explained by his general method alone
+[@Orel2003, pp.xii,41; @Kroonen2013, pp.xix,64;
+@Ringe2017, pp.173-174,252]. Birth/blood consonant alternants are historical,
+not interchangeable dental signs; weak past birth-family evidence is not
+the noun [@Ringe2017, pp.302,305; @RingeTaylor2014, p.271].
+Board's secondary zero grade supports hidden z without supplying Orel's
+opposed premise [@Kroonen2013, p.86].
+
+The focused bone case compares opposed adopted origins and their actual
+semantic/cognate premises as analyst inference. Kroonen's rejected Irish
+hew proposal is not equated with Orel's strike etymon; the deeper root
+selection remains open [@Orel2003, p.32; @Kroonen2013, p.48].
+Bosom's conditional etymology and possible later membership do not erase
+headword/argument ownership. The sm counterexample and late/dialectal
+epenthesis remain independently scoped [@Orel2003, p.52;
+@Kroonen2013, p.72; @Fulk2018, p.114, n.2;
+@RingeTaylor2014, pp.331-332].
+
+No corpus/input, canonical stage/context, FST semantic/order or scientific
+baseline change is authorized or made. No introduction revision or PDF
+render belongs to this tranche.
+
+The focused110-test suite passes, including all-position retention,
+literal occurrence/hash reproduction, shared-row links, native glyph
+limits, cell/stage distinctions and reason-target regressions. One inherited
+test's core-evidence count was updated for four actual dictionary
+supplements; the historical seventeen-case assertion is restricted to its
+1933-1949 cohort rather than blocking subsequent progress. Bibliography
+and section-locator checks pass. Canonical refresh reports CONTROL PLANE
+CLEAN; all4143 inherited forms retain diplomatic/comparison strings,
+pages, verification, confidence, kinds and shared links. All46 protected
+scientific-owner hashes remain unchanged.
+
+Repeated read-only queries reproduce25 bounded and368 unreviewed core
+cases, separate the inferred bone-origin case from its unestablished
+whole-row cause, and retain book's different plural dates and bind's
+reason targets. The independent alignment gate correctly refuses368 rows.
+The composite feature gate and fully verified reading gate first refuse
+the separate RT conventions/roman-folio gap; they must not be described
+as having reached their subsequent alignment checks. No failed gate is
+suppressed or interpreted as scientific adoption.
+
+### Fourth eight-row alignment:1958-1965
+
+This continuation remains uncommitted and reviews both, bottom, bough,
+weak causative bow, strong preterite bow, bow noun, bower and brand.
+All72 inherited positions remain;24 evidence records add twenty literal
+quotations and four processes, with two focused units reusing evidence
+and nine reasons. Current totals are4187 forms,1377 actual consultations,
+4283 positions,398 comparisons and75 rationales. Thirty-three core
+alignments are bounded;360 remain unreviewed.
+
+The inherited ring-noun interpretation of selected1962 is refuted by the
+live selected-cell sidecar and lexical model: it is a strong singular
+verbal preterite. Orel39, Ringe324 and RT309 quote ring nouns, retained
+as family evidence rather than selected preterites. Strong infinitives,
+weak causative infinitives and finite weak pasts are independently aligned
+[@Orel2003, pp.39,61; @Kroonen2013, pp.55,61-62,82;
+@Ringe2017, p.324; @RingeTaylor2014, pp.209,246,268,280,296,309].
+No new input, nominal assembly, matched strong preterite or scientific
+adoption is inferred.
+
+Fulk's actual strong-present passage is one new discussion-only review:
+the quoted OE attestation and aorist-present argument are not a PGmc
+selected-cell reconstruction. The applicability manifest now records that
+real consultation while preserving the initial extraction limitation as
+history. Its long-ū inheritance/innovation and quantity alternatives are
+independently cited; RT's pertinent class-II account is39-40, not the
+existing model's55 locator. This is a concrete non-adopting reporting
+question, not a silently changed model
+[@Fulk2018, pp.263-265, especially264, n.4;
+@RingeTaylor2014, pp.39-40,55].
+
+The focused cognate case records a substantive opposition in admitted
+external comparisons. Linking Kroonen's Balto-Slavic/metathesized and
+qualified Sanskrit proposals with Ringe's explicit no-cognates statement
+is analyst inference; the reason for Ringe's exclusions remains missing
+[@Kroonen2013, pp.61-62; @Ringe2017, p.324].
+It neither chooses an etymology nor treats a dictionary stem as a direct
+rebuttal. Whole-row explanatory causes remain unestablished.
+
+Other controls retain both's gender/case paradigm versus three-only and
+general adjective innovations; bottom's genitive without m, geminated
+daughter stem and limited final-cluster account; bough's body-part versus
+branch senses; bow noun versus strong base; reconstructed versus OE
+bower gender; and brand's two nominal homonyms versus verbal-family
+evidence [@Orel2003, pp.51-52,54,61,65;
+@Kroonen2013, pp.46,71,74,77-78,82,84;
+@Ringe2017, pp.172,318-319;
+@Fulk2018, pp.72,91-93,223;
+@RingeTaylor2014, pp.27-28,121,331-332,341,388].
+Seven proved SOURCE annotations have old/new receipts; twenty primary
+literal occurrences have exact source paragraphs, hashes and spans.
+Native signs and source quantities are preserved, including the original
+Kroonen long-ū already certified at extraction. Text checking is not
+new original-glyph certification.
+
+The focused118-test suite passes. Initial regressions exposed an
+unpropagated new Fulk consultation, historical global counters and a
+lost DAT.SG label in both's cow comparandum; the actual applicability
+owner/counters were updated and the independent cow selected-cell guard
+restored. Attestation/process-only evidence correctly remains
+discussion-only, not evidence-found. Bibliography and section-locator
+checks pass. Corpus/input/stage/context, FST semantic/order and scientific
+baseline owners remain outside this tranche; no introduction or PDF is
+produced.
+
+Canonical refresh reports CONTROL PLANE CLEAN; all46 protected
+scientific-owner hashes are unchanged. The guarded candidate verifies
+preservation of all4163 inherited forms' diplomatic/comparison strings,
+pages, verification, confidence, kinds and shared-row links. Deterministic
+read-only queries reproduce33 bounded/360 unreviewed core cases, the
+focused cognate inference versus unestablished whole-row cause, and
+PNWGmc/PWGmc weak finite cells versus the actual OE strong present.
+The independent alignment gate refuses360 rows. The composite feature
+and fully verified reading gates first refuse the separate RT
+conventions gap; no failed gate is suppressed or called completion.
+
 ## Residue
 
 The prioritized explanatory audit, full feature/paradigm alignment of
