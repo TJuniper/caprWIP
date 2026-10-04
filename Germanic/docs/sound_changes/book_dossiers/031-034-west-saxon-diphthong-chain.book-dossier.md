@@ -1,13 +1,15 @@
 # SC031-SC034: West Saxon Diphthong Chain
 
-Current disposition is in section 16: approved early inherited-glide
-reanalysis and genuine prosodic apocope are implemented; SC032–034 retain
-their later operations and SC106 exposes the j-created residual.
+Current dispositions are in sections16,18–19: approved early inherited-glide
+reanalysis/prosodic apocope, knee's regular short dative and hue's separate
+j-created reanalysis/long-io realization are implemented and published.
+SC032/034 retain their independently pending operations; unchanged SC106
+is now compatibility, no longer a live hue residual.
 Sections 1–15 preserve the earlier scaffold, incumbent observations and
 private trials. Their old composition statements, displacement witnesses
 and approval gates are historical, not current executable authority.
-Section 17 records the next SC033 investigation and its author-decision
-boundary; it does not change the adopted production disposition.
+Section17 preserves the SC033 investigation and its original author-decision
+boundary; sections18–19 record the subsequently approved dispositions.
 
 ## 1. Role in the book
 
@@ -767,3 +769,43 @@ short-dative history. The memo records the integrated regression and
 serial protected-assay results. The general endingless interface,
 hue's omitted earlier raising and independent SC032/034/105 cases remain
 separate residue, not resolved by this publication.
+
+## 19. Adopted hue correction: inherited i and the long-io chain
+
+The user approved this complete measured package. The detailed protocol
+packet is `audits/hue-source-chain-proposal.md`; hue's source ledger preserves
+the author-specific forms and explanations. Ringe-Taylor explicitly gives
+PGmc *hiwją and palatalized iww -> iuw -> pre-OE long īow -> WS long īew
+(2014 p.250). Orel's *xewjan (2003 pp.171-172) and Kroonen's *heuja-
+(2013 p.224) remain genuine e-form alternatives, with different derivational
+explanations and ending conventions. They are not silently relabeled
+pre-PGmc. Ringe's inherited raising account (2017 pp.151-153), Fulk's early
+raising discussion (2018 p.59) and Campbell's iwj outcome (1959 pp.42,46)
+support the preferred realized-i input; Fulk's objections to geminate
+dismantling (2018 pp.71-72,126) and Ringe-Taylor's phonemic uncertainty
+(2014 pp.53,250) remain explicit.
+
+The separate inherited-i input-only trial preserves all 387 finals but
+still supplies the incumbent long-eo proxy. The complete candidate instead
+realizes *xíwwją -> *xíuwją -> *xīowją -> ... -> hīew using existing
+long-io mutation. All 19 component, four staged and eleven corpus checks
+pass. Only hue's input and earlier history change; all 387 finals and
+all eight recorded checkpoints of every other selected row are unchanged.
+There are no missing or ambiguous outputs, the same seven old mismatches
+remain, and protected canonical artifacts are unchanged. SC106 remains
+composed but no longer acts on candidate hue.
+
+The adopted choice is PROTO = PROTOFORM = *xíwją, unchanged hīew,
+an explicitly separated j-created reanalysis and conditioned long-io
+realization, and untouched ordinary SC032 clauses. The packet declares
+the selected387 input fingerprint transition and preserves the knee,
+gift, context and immutable legacy archives. Hue lies outside original380,
+whose active projection is unchanged. The corpus, production FST, support
+registry and strict one-row baseline transition are implemented.
+The final suite passes 713 tests/6,259 subtests; serial protected production
+controls pass 68 component, 13 staged and 14 corpus assertions with all
+387 finals unchanged. The inspected 302-page combined book publishes
+hue in section6.82, pp.185–187, and the SC033/106/110 rule blocks on
+pp.67–68. The SC033 memo records the complete closeout and archive/index
+checks. Remaining SC032 components follow this published disposition
+rather than being silently adjudicated by its realization interface.

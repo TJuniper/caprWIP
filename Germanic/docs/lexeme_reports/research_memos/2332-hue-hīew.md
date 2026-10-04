@@ -1,12 +1,30 @@
 # Research memo — 2332 hue / hīew
 
+## Current reassessment: author-approved hue correction
+
+The exact source comparison and production recommendation are recorded in
+`Germanic/docs/sound_changes/audits/hue-source-chain-proposal.md`, with the
+author-form matrix in the existing source ledger. The preferred input is
+Ringe–Taylor's explicit PGmc i, normalized *xíwją, and their long īo
+intermediate (2014 p.250), not the current long ēo proxy. Orel's and
+Kroonen's e reconstructions (2003 pp.171–172; 2013 p.224) remain actual
+alternatives; Fulk's objections (2018 pp.71–72) are not erased.
+
+Both protected trials have completed. The complete candidate supplies
+*xíwwją → *xíuwją → *xīowją → … → hīew while preserving all 387 finals,
+all eight recorded checkpoints for every other selected row, the seven
+old mismatches and canonical artifacts. The input-only trial still takes
+the incumbent long-ēo route. The user subsequently approved the complete package. The current
+citation and input are *xíwją; the numbered e-input admission account
+below remains historical, not the current implemented history.
+
 ## Starting point
 
 - **ID:** 2332
 - **CONCEPT:** hue
 - **COUNTERPART:** hīew
-- **PROTO:** *xéwją
-- **PROTOFORM:** *xéwją
+- **PROTO:** *xíwją
+- **PROTOFORM:** *xíwją
 - **DERIVATION_CLASS:** regular
 
 This row was added to separate two changes that had been witnessed by the same
@@ -20,23 +38,29 @@ apart. The selection research is in
 
 ## Packet evidence assessment
 
-**Authoritative/current:** the live TSV row; the compact derivation trace
-`*xéwją -> hīew`; Campbell §120.2 [@Campbell1959, p. 46], which states the law,
+**Current input/target evidence:** the live TSV row; the compact derivation trace
+`*xíwją -> hīew`; Ringe-Taylor's explicit PGmc i and long-io chain
+[@RingeTaylor2014, p. 250]; Campbell §120.2 [@Campbell1959, p. 46], which states the law,
 gives the divergent outcomes of the two vowel types, and prints the target form;
 Kroonen s.v. \*heuja- [@Kroonen2013, p. 224] for the reconstruction and the
-comparative set.
+comparative e alternative.
 
 **Useful background:** Ringe and Taylor's Proto-West-Germanic geminates
 \*[niwwa-], \*[siwwian], \*[gliwwias] and the paradigm contrast between
 non-geminated nominatives and geminated oblique cells [@RingeTaylor2014, p. 53];
-the dictionaries for the ordinary Old English spellings [@ClarkHall1960;
-@BosworthToller1898].
+Orel's ordinary Old English *hīw* comparison [@Orel2003, pp. 171--172].
 
 **Stale or superseded:** any statement that the corpus contains no \*iwj lexeme,
 and any statement that the \*w branch of the gemination is witnessed only by
 words that also undergo the later resolution.
 
 ## Reconstruction and early-stage forms
+
+The following numbered account records the admission reasoning, not the
+complete current implemented history. Its assertion that early raising was
+left to the cascade was incorrect: current SC033 directly supplies long
+ēo, later changed to īe, without that earlier raising. The post-knee
+model and SC033 memo already disclose this gap.
 
 1. **Cognate-set proto:** PGmc \*heuja- n. 'visible layer, appearance'
    [@Kroonen2013, p. 224]; Campbell writes the same stem type in \*i-notation,
@@ -65,7 +89,7 @@ West Saxon form he prints and whose stem class the corpus already handles, in
 
 *Hīw*, *hēow*, *hīow* n. 'shape, form, appearance, colour, hue' is well attested
 and is the ancestor of Modern English *hue* [@Kroonen2013, p. 224;
-@ClarkHall1960; @BosworthToller1898]. The selected spelling *hīew* is the rarer
+@Orel2003, pp. 171--172; @Campbell1959, p. 46]. The selected spelling *hīew* is the rarer
 West Saxon variant that Campbell prints in his treatment of this development
 [@Campbell1959, §120.2, p. 46]; the project targets West Saxon throughout, and
 `hay`'s counterpart *hīeġ* is selected on the same principle.
@@ -97,14 +121,21 @@ in the reader-facing chapter instead.
 
 ## Recommended final report
 
-A short final report is sufficient: a regular derivation whose interest lies in
-which rules do *not* fire, the minimal pair with `hay`, and the West Saxon
-spelling choice.
+This original short-report recommendation is superseded by the comparative
+reassessment in the model's source ledger. The hue account must compare
+Orel's *xewjan (2003 pp.171–172), Kroonen's *heuja- (2013 p.224),
+Ringe–Taylor's explicit PGmc *hiwją and long īo intermediate (2014 p.250),
+and Fulk's early raising and objections to the traditional glide account
+(2018 pp.59,71–72). Explain the chosen historical input and every modeled
+intermediate, not only the final match and hay contrast. The private
+inherited-i and complete-chain recipes remain historical private
+measurements; their complete package is now author-approved.
 
 ## Data-change recommendations
 
-- **TSV PROTO / PROTOFORM / COUNTERPART / DERIVATION_CLASS / NOTE:** no change
-  recommended; the row was authored in this pass from the adjudicated sources.
+- **Historical admission recommendation:** no TSV change was recommended
+  in that pass. The approved reassessment changes both PROTO and PROTOFORM
+  to *xíwją, retaining target hīew and its regular classification.
 - **`oe_known_problems.tsv`:** no change recommended.
 - **Recorded for a later pass:** the cascade does not model the \*-e of
   *ja*-stem adjectives, which is why 'new' could not be used here.

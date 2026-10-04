@@ -20,7 +20,8 @@ class CellAdoptionTests(unittest.TestCase):
             BASE / "cascade_baseline_summary_pre_sc033.json",
         )
         self.current = baseline.read_baseline(
-            BASE / "cascade_baseline_outputs.tsv", BASE / "cascade_baseline_summary.json",
+            BASE / "cascade_baseline_outputs_pre_sc033_hue.tsv",
+            BASE / "cascade_baseline_summary_pre_sc033_hue.json",
         )
 
     def test_exact_knee_cell_transition(self):

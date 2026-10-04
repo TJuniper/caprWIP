@@ -198,13 +198,13 @@
     },
     {
       "change_id": "SC033",
-      "display_name": "Retained j-created long diphthong representation",
+      "display_name": "J-created palatalized-glide reanalysis",
       "lifecycle_status": "active",
       "rule_name": "OEEwLongDiphthong",
       "card_path": "Germanic/docs/sound_changes/order_tests/chronology_cards/SC033-oe-ew-long-diphthong.md",
       "card_type": "boundary_observation",
       "has_reciprocal_boundary": "no",
-      "short_summary": "Old singleton knee and chew/four displacement boundaries are superseded. Knee selects regular short dat.sg. cneowe through SC044. No new historical chronology edge follows from the cell migration or retained hue encoding."
+      "short_summary": "Old singleton knee and chew/four displacement boundaries remain superseded. Knee retains short dat.sg. cneowe through SC044. Hue enters with inherited PGmc i; reanalysis and realization are separate. No new historical chronology edge is promoted."
     },
     {
       "change_id": "SC034",

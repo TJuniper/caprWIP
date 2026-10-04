@@ -54,6 +54,11 @@
         undeclared record, output, multiplicity and context drift.
         Routine refresh/finalize never adopts a baseline.
 
+    python3 Germanic/tools/adjudicate.py SC033 --adopt-cell-baseline \
+        --approval approved_hue_input_migration.json
+        Select a separate exact approved input transition. Its transition_id
+        creates a distinct archive without overwriting the knee receipt.
+
 Canonical sources read: registry/sc_registry.tsv, registry/chronology_edges.tsv,
 registry/sc_inventory_notes.tsv, Germanic/fsts/germanic.txt,
 cascade_baseline/cascade_order_manifest.tsv,
@@ -485,10 +490,18 @@ def check(sc_id) -> int:
 
 def main() -> int:
     args = sys.argv[1:]
-    if len(args) == 2 and args[1] in {"--adopt-context-baseline", "--adopt-cell-baseline"}:
+    if len(args) in {2, 4} and args[1] in {"--adopt-context-baseline", "--adopt-cell-baseline"}:
         cell_migration = args[1] == "--adopt-cell-baseline"
+        if len(args) == 4 and (
+            not cell_migration or args[2] != "--approval"
+            or not re.fullmatch(r"approved_[a-z0-9_]+_migration\.json", args[3])
+        ):
+            print("BASELINE FAILED: invalid explicit approval filename", file=sys.stderr)
+            return 2
         approval_path = BASELINE_SUMMARY.with_name(
-            "approved_cell_migration.json" if cell_migration else "approved_context_migration.json"
+            args[3] if len(args) == 4 else (
+                "approved_cell_migration.json" if cell_migration else "approved_context_migration.json"
+            )
         )
         approval = json.loads(approval_path.read_text(encoding="utf-8"))
         if args[0] != approval["adjudication"]:
@@ -521,7 +534,7 @@ def main() -> int:
         except (OSError, ValueError, KeyError) as exc:
             print("BASELINE FAILED: " + str(exc), file=sys.stderr)
             return 1
-        print("Approved paradigm-cell baseline adopted; archived identities remain protected."
+        print("Approved selected-input/paradigm-cell baseline adopted; archived identities remain protected."
               if cell_migration else
               "Approved context baseline adopted; lexical finals and both legacy protections unchanged.")
         return 0

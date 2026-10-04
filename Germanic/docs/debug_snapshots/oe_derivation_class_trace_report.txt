@@ -55,6 +55,7 @@ OEAwwjResolution [no-change]: *n*ǣ*d*r*ǭ
 OEAuBrightening [no-change]: *n*ǣ*d*r*ǭ
 OEEwLongDiphthong [no-change]: *n*ǣ*d*r*ǭ
 OEJWWSimplification [no-change]: *n*ǣ*d*r*ǭ
+OEJGlideIO [no-change]: *n*ǣ*d*r*ǭ
 OEDiphthongLeveling [no-change]: *n*ǣ*d*r*ǭ
 OEAwLongDiphthong [no-change]: *n*ǣ*d*r*ǭ
 OEPrefixAReduction [no-change]: *n*ǣ*d*r*ǭ
@@ -182,6 +183,7 @@ OEAwwjResolution [no-change]: *b*á*k*a*n*ą
 OEAuBrightening [no-change]: *b*á*k*a*n*ą
 OEEwLongDiphthong [no-change]: *b*á*k*a*n*ą
 OEJWWSimplification [no-change]: *b*á*k*a*n*ą
+OEJGlideIO [no-change]: *b*á*k*a*n*ą
 OEDiphthongLeveling [no-change]: *b*á*k*a*n*ą
 OEAwLongDiphthong [no-change]: *b*á*k*a*n*ą
 OEPrefixAReduction [no-change]: *b*á*k*a*n*ą
@@ -308,6 +310,7 @@ OEAwwjResolution [no-change]: *b*é*r*g*ą
 OEAuBrightening [no-change]: *b*é*r*g*ą
 OEEwLongDiphthong [no-change]: *b*é*r*g*ą
 OEJWWSimplification [no-change]: *b*é*r*g*ą
+OEJGlideIO [no-change]: *b*é*r*g*ą
 OEDiphthongLeveling [no-change]: *b*é*r*g*ą
 OEAwLongDiphthong [no-change]: *b*é*r*g*ą
 OEPrefixAReduction [no-change]: *b*é*r*g*ą
@@ -434,6 +437,7 @@ OEAwwjResolution [no-change]: *b*á*s*t*ą
 OEAuBrightening [no-change]: *b*á*s*t*ą
 OEEwLongDiphthong [no-change]: *b*á*s*t*ą
 OEJWWSimplification [no-change]: *b*á*s*t*ą
+OEJGlideIO [no-change]: *b*á*s*t*ą
 OEDiphthongLeveling [no-change]: *b*á*s*t*ą
 OEAwLongDiphthong [no-change]: *b*á*s*t*ą
 OEPrefixAReduction [no-change]: *b*á*s*t*ą
@@ -560,6 +564,7 @@ OEAwwjResolution [no-change]: *b*á*θ*ą
 OEAuBrightening [no-change]: *b*á*θ*ą
 OEEwLongDiphthong [no-change]: *b*á*θ*ą
 OEJWWSimplification [no-change]: *b*á*θ*ą
+OEJGlideIO [no-change]: *b*á*θ*ą
 OEDiphthongLeveling [no-change]: *b*á*θ*ą
 OEAwLongDiphthong [no-change]: *b*á*θ*ą
 OEPrefixAReduction [no-change]: *b*á*θ*ą
@@ -686,6 +691,7 @@ OEAwwjResolution [no-change]: *b*á*r*d*a
 OEAuBrightening [no-change]: *b*á*r*d*a
 OEEwLongDiphthong [no-change]: *b*á*r*d*a
 OEJWWSimplification [no-change]: *b*á*r*d*a
+OEJGlideIO [no-change]: *b*á*r*d*a
 OEDiphthongLeveling [no-change]: *b*á*r*d*a
 OEAwLongDiphthong [no-change]: *b*á*r*d*a
 OEPrefixAReduction [no-change]: *b*á*r*d*a
@@ -812,6 +818,7 @@ OEAwwjResolution [no-change]: *b*é*b*r*u
 OEAuBrightening [no-change]: *b*é*b*r*u
 OEEwLongDiphthong [no-change]: *b*é*b*r*u
 OEJWWSimplification [no-change]: *b*é*b*r*u
+OEJGlideIO [no-change]: *b*é*b*r*u
 OEDiphthongLeveling [no-change]: *b*é*b*r*u
 OEAwLongDiphthong [no-change]: *b*é*b*r*u
 OEPrefixAReduction [no-change]: *b*é*b*r*u
@@ -939,6 +946,7 @@ OEAwwjResolution [no-change]: *b*ō*k*u
 OEAuBrightening [no-change]: *b*ō*k*u
 OEEwLongDiphthong [no-change]: *b*ō*k*u
 OEJWWSimplification [no-change]: *b*ō*k*u
+OEJGlideIO [no-change]: *b*ō*k*u
 OEDiphthongLeveling [no-change]: *b*ō*k*u
 OEAwLongDiphthong [no-change]: *b*ō*k*u
 OEPrefixAReduction [no-change]: *b*ō*k*u
@@ -1066,6 +1074,7 @@ OEAwwjResolution [no-change]: *b*i*g*í*n*n*a*n*ą
 OEAuBrightening [no-change]: *b*i*g*í*n*n*a*n*ą
 OEEwLongDiphthong [no-change]: *b*i*g*í*n*n*a*n*ą
 OEJWWSimplification [no-change]: *b*i*g*í*n*n*a*n*ą
+OEJGlideIO [no-change]: *b*i*g*í*n*n*a*n*ą
 OEDiphthongLeveling [no-change]: *b*i*g*í*n*n*a*n*ą
 OEAwLongDiphthong [no-change]: *b*i*g*í*n*n*a*n*ą
 OEPrefixAReduction [no-change]: *b*i*g*í*n*n*a*n*ą
@@ -1192,6 +1201,7 @@ OEAwwjResolution [no-change]: *g*a*l*áu*b*i*j*a*n*ą
 OEAuBrightening: *g*a*l*áeu*b*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *g*a*l*áeu*b*i*j*a*n*ą
 OEJWWSimplification [no-change]: *g*a*l*áeu*b*i*j*a*n*ą
+OEJGlideIO [no-change]: *g*a*l*áeu*b*i*j*a*n*ą
 OEDiphthongLeveling: *g*a*l*ēa*b*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *g*a*l*ēa*b*i*j*a*n*ą
 OEPrefixAReduction: *g*ĕ*l*ēa*b*i*j*a*n*ą
@@ -1318,6 +1328,7 @@ OEAwwjResolution [no-change]: *b*á*l*g*i
 OEAuBrightening [no-change]: *b*á*l*g*i
 OEEwLongDiphthong [no-change]: *b*á*l*g*i
 OEJWWSimplification [no-change]: *b*á*l*g*i
+OEJGlideIO [no-change]: *b*á*l*g*i
 OEDiphthongLeveling [no-change]: *b*á*l*g*i
 OEAwLongDiphthong [no-change]: *b*á*l*g*i
 OEPrefixAReduction [no-change]: *b*á*l*g*i
@@ -1445,6 +1456,7 @@ OEAwwjResolution [no-change]: *l*ǣ*w*i*j*a*n*ą
 OEAuBrightening [no-change]: *l*ǣ*w*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *l*ǣ*w*i*j*a*n*ą
 OEJWWSimplification [no-change]: *l*ǣ*w*i*j*a*n*ą
+OEJGlideIO [no-change]: *l*ǣ*w*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *l*ǣ*w*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *l*ǣ*w*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *l*ǣ*w*i*j*a*n*ą
@@ -1572,6 +1584,7 @@ OEAwwjResolution [no-change]: *b*ǣ*r*u
 OEAuBrightening [no-change]: *b*ǣ*r*u
 OEEwLongDiphthong [no-change]: *b*ǣ*r*u
 OEJWWSimplification [no-change]: *b*ǣ*r*u
+OEJGlideIO [no-change]: *b*ǣ*r*u
 OEDiphthongLeveling [no-change]: *b*ǣ*r*u
 OEAwLongDiphthong [no-change]: *b*ǣ*r*u
 OEPrefixAReduction [no-change]: *b*ǣ*r*u
@@ -1698,6 +1711,7 @@ OEAwwjResolution [no-change]: *b*í*n*d*a*n*ą
 OEAuBrightening [no-change]: *b*í*n*d*a*n*ą
 OEEwLongDiphthong [no-change]: *b*í*n*d*a*n*ą
 OEJWWSimplification [no-change]: *b*í*n*d*a*n*ą
+OEJGlideIO [no-change]: *b*í*n*d*a*n*ą
 OEDiphthongLeveling [no-change]: *b*í*n*d*a*n*ą
 OEAwLongDiphthong [no-change]: *b*í*n*d*a*n*ą
 OEPrefixAReduction [no-change]: *b*í*n*d*a*n*ą
@@ -1825,6 +1839,7 @@ OEAwwjResolution [no-change]: *b*ú*r*d*i
 OEAuBrightening [no-change]: *b*ú*r*d*i
 OEEwLongDiphthong [no-change]: *b*ú*r*d*i
 OEJWWSimplification [no-change]: *b*ú*r*d*i
+OEJGlideIO [no-change]: *b*ú*r*d*i
 OEDiphthongLeveling [no-change]: *b*ú*r*d*i
 OEAwLongDiphthong [no-change]: *b*ú*r*d*i
 OEPrefixAReduction [no-change]: *b*ú*r*d*i
@@ -1951,6 +1966,7 @@ OEAwwjResolution [no-change]: *b*l*ō*d*ą
 OEAuBrightening [no-change]: *b*l*ō*d*ą
 OEEwLongDiphthong [no-change]: *b*l*ō*d*ą
 OEJWWSimplification [no-change]: *b*l*ō*d*ą
+OEJGlideIO [no-change]: *b*l*ō*d*ą
 OEDiphthongLeveling [no-change]: *b*l*ō*d*ą
 OEAwLongDiphthong [no-change]: *b*l*ō*d*ą
 OEPrefixAReduction [no-change]: *b*l*ō*d*ą
@@ -2077,6 +2093,7 @@ OEAwwjResolution [no-change]: *b*ó*r*d*ą
 OEAuBrightening [no-change]: *b*ó*r*d*ą
 OEEwLongDiphthong [no-change]: *b*ó*r*d*ą
 OEJWWSimplification [no-change]: *b*ó*r*d*ą
+OEJGlideIO [no-change]: *b*ó*r*d*ą
 OEDiphthongLeveling [no-change]: *b*ó*r*d*ą
 OEAwLongDiphthong [no-change]: *b*ó*r*d*ą
 OEPrefixAReduction [no-change]: *b*ó*r*d*ą
@@ -2204,6 +2221,7 @@ OEAwwjResolution [no-change]: *b*ā*n*ą
 OEAuBrightening [no-change]: *b*ā*n*ą
 OEEwLongDiphthong [no-change]: *b*ā*n*ą
 OEJWWSimplification [no-change]: *b*ā*n*ą
+OEJGlideIO [no-change]: *b*ā*n*ą
 OEDiphthongLeveling [no-change]: *b*ā*n*ą
 OEAwLongDiphthong [no-change]: *b*ā*n*ą
 OEPrefixAReduction [no-change]: *b*ā*n*ą
@@ -2330,6 +2348,7 @@ OEAwwjResolution [no-change]: *b*ō*k
 OEAuBrightening [no-change]: *b*ō*k
 OEEwLongDiphthong [no-change]: *b*ō*k
 OEJWWSimplification [no-change]: *b*ō*k
+OEJGlideIO [no-change]: *b*ō*k
 OEDiphthongLeveling [no-change]: *b*ō*k
 OEAwLongDiphthong [no-change]: *b*ō*k
 OEPrefixAReduction [no-change]: *b*ō*k
@@ -2456,6 +2475,7 @@ OEAwwjResolution [no-change]: *b*ó*r*ō*j*a*n*ą
 OEAuBrightening [no-change]: *b*ó*r*ō*j*a*n*ą
 OEEwLongDiphthong [no-change]: *b*ó*r*ō*j*a*n*ą
 OEJWWSimplification [no-change]: *b*ó*r*ō*j*a*n*ą
+OEJGlideIO [no-change]: *b*ó*r*ō*j*a*n*ą
 OEDiphthongLeveling [no-change]: *b*ó*r*ō*j*a*n*ą
 OEAwLongDiphthong [no-change]: *b*ó*r*ō*j*a*n*ą
 OEPrefixAReduction [no-change]: *b*ó*r*ō*j*a*n*ą
@@ -2582,6 +2602,7 @@ OEAwwjResolution [no-change]: *b*ō*s*m*a
 OEAuBrightening [no-change]: *b*ō*s*m*a
 OEEwLongDiphthong [no-change]: *b*ō*s*m*a
 OEJWWSimplification [no-change]: *b*ō*s*m*a
+OEJGlideIO [no-change]: *b*ō*s*m*a
 OEDiphthongLeveling [no-change]: *b*ō*s*m*a
 OEAwLongDiphthong [no-change]: *b*ō*s*m*a
 OEPrefixAReduction [no-change]: *b*ō*s*m*a
@@ -2709,6 +2730,7 @@ OEAwwjResolution [no-change]: *b*ū
 OEAuBrightening [no-change]: *b*ū
 OEEwLongDiphthong [no-change]: *b*ū
 OEJWWSimplification [no-change]: *b*ū
+OEJGlideIO [no-change]: *b*ū
 OEDiphthongLeveling [no-change]: *b*ū
 OEAwLongDiphthong [no-change]: *b*ū
 OEPrefixAReduction [no-change]: *b*ū
@@ -2835,6 +2857,7 @@ OEAwwjResolution [no-change]: *b*ō*g*u
 OEAuBrightening [no-change]: *b*ō*g*u
 OEEwLongDiphthong [no-change]: *b*ō*g*u
 OEJWWSimplification [no-change]: *b*ō*g*u
+OEJGlideIO [no-change]: *b*ō*g*u
 OEDiphthongLeveling [no-change]: *b*ō*g*u
 OEAwLongDiphthong [no-change]: *b*ō*g*u
 OEPrefixAReduction [no-change]: *b*ō*g*u
@@ -2962,6 +2985,7 @@ OEAwwjResolution [no-change]: *b*áu*g*i*j*a*n*ą
 OEAuBrightening: *b*áeu*g*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *b*áeu*g*i*j*a*n*ą
 OEJWWSimplification [no-change]: *b*áeu*g*i*j*a*n*ą
+OEJGlideIO [no-change]: *b*áeu*g*i*j*a*n*ą
 OEDiphthongLeveling: *b*ēa*g*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *b*ēa*g*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *b*ēa*g*i*j*a*n*ą
@@ -3088,6 +3112,7 @@ OEAwwjResolution [no-change]: *b*ó*g*ô
 OEAuBrightening [no-change]: *b*ó*g*ô
 OEEwLongDiphthong [no-change]: *b*ó*g*ô
 OEJWWSimplification [no-change]: *b*ó*g*ô
+OEJGlideIO [no-change]: *b*ó*g*ô
 OEDiphthongLeveling [no-change]: *b*ó*g*ô
 OEAwLongDiphthong [no-change]: *b*ó*g*ô
 OEPrefixAReduction [no-change]: *b*ó*g*ô
@@ -3214,6 +3239,7 @@ OEAwwjResolution [no-change]: *b*ū*r*ą
 OEAuBrightening [no-change]: *b*ū*r*ą
 OEEwLongDiphthong [no-change]: *b*ū*r*ą
 OEJWWSimplification [no-change]: *b*ū*r*ą
+OEJGlideIO [no-change]: *b*ū*r*ą
 OEDiphthongLeveling [no-change]: *b*ū*r*ą
 OEAwLongDiphthong [no-change]: *b*ū*r*ą
 OEPrefixAReduction [no-change]: *b*ū*r*ą
@@ -3340,6 +3366,7 @@ OEAwwjResolution [no-change]: *b*r*áu*d*ą
 OEAuBrightening: *b*r*áeu*d*ą
 OEEwLongDiphthong [no-change]: *b*r*áeu*d*ą
 OEJWWSimplification [no-change]: *b*r*áeu*d*ą
+OEJGlideIO [no-change]: *b*r*áeu*d*ą
 OEDiphthongLeveling: *b*r*ēa*d*ą
 OEAwLongDiphthong [no-change]: *b*r*ēa*d*ą
 OEPrefixAReduction [no-change]: *b*r*ēa*d*ą
@@ -3466,6 +3493,7 @@ OEAwwjResolution [no-change]: *b*r*é*k*a*n*ą
 OEAuBrightening [no-change]: *b*r*é*k*a*n*ą
 OEEwLongDiphthong [no-change]: *b*r*é*k*a*n*ą
 OEJWWSimplification [no-change]: *b*r*é*k*a*n*ą
+OEJGlideIO [no-change]: *b*r*é*k*a*n*ą
 OEDiphthongLeveling [no-change]: *b*r*é*k*a*n*ą
 OEAwLongDiphthong [no-change]: *b*r*é*k*a*n*ą
 OEPrefixAReduction [no-change]: *b*r*é*k*a*n*ą
@@ -3593,6 +3621,7 @@ OEAwwjResolution [no-change]: *b*r*ō*k*i
 OEAuBrightening [no-change]: *b*r*ō*k*i
 OEEwLongDiphthong [no-change]: *b*r*ō*k*i
 OEJWWSimplification [no-change]: *b*r*ō*k*i
+OEJGlideIO [no-change]: *b*r*ō*k*i
 OEDiphthongLeveling [no-change]: *b*r*ō*k*i
 OEAwLongDiphthong [no-change]: *b*r*ō*k*i
 OEPrefixAReduction [no-change]: *b*r*ō*k*i
@@ -3719,6 +3748,7 @@ OEAwwjResolution [no-change]: *b*r*ū*d*i
 OEAuBrightening [no-change]: *b*r*ū*d*i
 OEEwLongDiphthong [no-change]: *b*r*ū*d*i
 OEJWWSimplification [no-change]: *b*r*ū*d*i
+OEJGlideIO [no-change]: *b*r*ū*d*i
 OEDiphthongLeveling [no-change]: *b*r*ū*d*i
 OEAwLongDiphthong [no-change]: *b*r*ū*d*i
 OEPrefixAReduction [no-change]: *b*r*ū*d*i
@@ -3845,6 +3875,7 @@ OEAwwjResolution [no-change]: *b*r*í*n*g*a*n*ą
 OEAuBrightening [no-change]: *b*r*í*n*g*a*n*ą
 OEEwLongDiphthong [no-change]: *b*r*í*n*g*a*n*ą
 OEJWWSimplification [no-change]: *b*r*í*n*g*a*n*ą
+OEJGlideIO [no-change]: *b*r*í*n*g*a*n*ą
 OEDiphthongLeveling [no-change]: *b*r*í*n*g*a*n*ą
 OEAwLongDiphthong [no-change]: *b*r*í*n*g*a*n*ą
 OEPrefixAReduction [no-change]: *b*r*í*n*g*a*n*ą
@@ -3971,6 +4002,7 @@ OEAwwjResolution [no-change]: *b*r*ū*k*a*n*ą
 OEAuBrightening [no-change]: *b*r*ū*k*a*n*ą
 OEEwLongDiphthong [no-change]: *b*r*ū*k*a*n*ą
 OEJWWSimplification [no-change]: *b*r*ū*k*a*n*ą
+OEJGlideIO [no-change]: *b*r*ū*k*a*n*ą
 OEDiphthongLeveling [no-change]: *b*r*ū*k*a*n*ą
 OEAwLongDiphthong [no-change]: *b*r*ū*k*a*n*ą
 OEPrefixAReduction [no-change]: *b*r*ū*k*a*n*ą
@@ -4097,6 +4129,7 @@ OEAwwjResolution [no-change]: *b*r*é*s*t*a*n*ą
 OEAuBrightening [no-change]: *b*r*é*s*t*a*n*ą
 OEEwLongDiphthong [no-change]: *b*r*é*s*t*a*n*ą
 OEJWWSimplification [no-change]: *b*r*é*s*t*a*n*ą
+OEJGlideIO [no-change]: *b*r*é*s*t*a*n*ą
 OEDiphthongLeveling [no-change]: *b*r*é*s*t*a*n*ą
 OEAwLongDiphthong [no-change]: *b*r*é*s*t*a*n*ą
 OEPrefixAReduction [no-change]: *b*r*é*s*t*a*n*ą
@@ -4224,6 +4257,7 @@ OEAwwjResolution [no-change]: *k*á*l*b*a
 OEAuBrightening [no-change]: *k*á*l*b*a
 OEEwLongDiphthong [no-change]: *k*á*l*b*a
 OEJWWSimplification [no-change]: *k*á*l*b*a
+OEJGlideIO [no-change]: *k*á*l*b*a
 OEDiphthongLeveling [no-change]: *k*á*l*b*a
 OEAwLongDiphthong [no-change]: *k*á*l*b*a
 OEPrefixAReduction [no-change]: *k*á*l*b*a
@@ -4350,6 +4384,7 @@ OEAwwjResolution [no-change]: *k*éu*w*a*n*ą
 OEAuBrightening [no-change]: *k*éu*w*a*n*ą
 OEEwLongDiphthong [no-change]: *k*éu*w*a*n*ą
 OEJWWSimplification [no-change]: *k*éu*w*a*n*ą
+OEJGlideIO [no-change]: *k*éu*w*a*n*ą
 OEDiphthongLeveling: *k*ēo*w*a*n*ą
 OEAwLongDiphthong [no-change]: *k*ēo*w*a*n*ą
 OEPrefixAReduction [no-change]: *k*ēo*w*a*n*ą
@@ -4476,6 +4511,7 @@ OEAwwjResolution [no-change]: *k*l*í*m*b*a*n*ą
 OEAuBrightening [no-change]: *k*l*í*m*b*a*n*ą
 OEEwLongDiphthong [no-change]: *k*l*í*m*b*a*n*ą
 OEJWWSimplification [no-change]: *k*l*í*m*b*a*n*ą
+OEJGlideIO [no-change]: *k*l*í*m*b*a*n*ą
 OEDiphthongLeveling [no-change]: *k*l*í*m*b*a*n*ą
 OEAwLongDiphthong [no-change]: *k*l*í*m*b*a*n*ą
 OEPrefixAReduction [no-change]: *k*l*í*m*b*a*n*ą
@@ -4603,6 +4639,7 @@ OEAwwjResolution [no-change]: *r*ó*k*k*a
 OEAuBrightening [no-change]: *r*ó*k*k*a
 OEEwLongDiphthong [no-change]: *r*ó*k*k*a
 OEJWWSimplification [no-change]: *r*ó*k*k*a
+OEJGlideIO [no-change]: *r*ó*k*k*a
 OEDiphthongLeveling [no-change]: *r*ó*k*k*a
 OEAwLongDiphthong [no-change]: *r*ó*k*k*a
 OEPrefixAReduction [no-change]: *r*ó*k*k*a
@@ -4729,6 +4766,7 @@ OEAwwjResolution [no-change]: *k*á*m*b*a
 OEAuBrightening [no-change]: *k*á*m*b*a
 OEEwLongDiphthong [no-change]: *k*á*m*b*a
 OEJWWSimplification [no-change]: *k*á*m*b*a
+OEJGlideIO [no-change]: *k*á*m*b*a
 OEDiphthongLeveling [no-change]: *k*á*m*b*a
 OEAwLongDiphthong [no-change]: *k*á*m*b*a
 OEPrefixAReduction [no-change]: *k*á*m*b*a
@@ -4856,6 +4894,7 @@ OEAwwjResolution [no-change]: *k*ó*r*n*ą
 OEAuBrightening [no-change]: *k*ó*r*n*ą
 OEEwLongDiphthong [no-change]: *k*ó*r*n*ą
 OEJWWSimplification [no-change]: *k*ó*r*n*ą
+OEJGlideIO [no-change]: *k*ó*r*n*ą
 OEDiphthongLeveling [no-change]: *k*ó*r*n*ą
 OEAwLongDiphthong [no-change]: *k*ó*r*n*ą
 OEPrefixAReduction [no-change]: *k*ó*r*n*ą
@@ -4982,6 +5021,7 @@ OEAwwjResolution [no-change]: *k*r*ó*p*p*a
 OEAuBrightening [no-change]: *k*r*ó*p*p*a
 OEEwLongDiphthong [no-change]: *k*r*ó*p*p*a
 OEJWWSimplification [no-change]: *k*r*ó*p*p*a
+OEJGlideIO [no-change]: *k*r*ó*p*p*a
 OEDiphthongLeveling [no-change]: *k*r*ó*p*p*a
 OEAwLongDiphthong [no-change]: *k*r*ó*p*p*a
 OEPrefixAReduction [no-change]: *k*r*ó*p*p*a
@@ -5108,6 +5148,7 @@ OEAwwjResolution [no-change]: *d*á*l*a
 OEAuBrightening [no-change]: *d*á*l*a
 OEEwLongDiphthong [no-change]: *d*á*l*a
 OEJWWSimplification [no-change]: *d*á*l*a
+OEJGlideIO [no-change]: *d*á*l*a
 OEDiphthongLeveling [no-change]: *d*á*l*a
 OEAwLongDiphthong [no-change]: *d*á*l*a
 OEPrefixAReduction [no-change]: *d*á*l*a
@@ -5234,6 +5275,7 @@ OEAwwjResolution [no-change]: *d*á*g*a
 OEAuBrightening [no-change]: *d*á*g*a
 OEEwLongDiphthong [no-change]: *d*á*g*a
 OEJWWSimplification [no-change]: *d*á*g*a
+OEJGlideIO [no-change]: *d*á*g*a
 OEDiphthongLeveling [no-change]: *d*á*g*a
 OEAwLongDiphthong [no-change]: *d*á*g*a
 OEPrefixAReduction [no-change]: *d*á*g*a
@@ -5360,6 +5402,7 @@ OEAwwjResolution [no-change]: *d*ā*l*i
 OEAuBrightening [no-change]: *d*ā*l*i
 OEEwLongDiphthong [no-change]: *d*ā*l*i
 OEJWWSimplification [no-change]: *d*ā*l*i
+OEJGlideIO [no-change]: *d*ā*l*i
 OEDiphthongLeveling [no-change]: *d*ā*l*i
 OEAwLongDiphthong [no-change]: *d*ā*l*i
 OEPrefixAReduction [no-change]: *d*ā*l*i
@@ -5487,6 +5530,7 @@ OEAwwjResolution [no-change]: *d*ǣ*d*i
 OEAuBrightening [no-change]: *d*ǣ*d*i
 OEEwLongDiphthong [no-change]: *d*ǣ*d*i
 OEJWWSimplification [no-change]: *d*ǣ*d*i
+OEJGlideIO [no-change]: *d*ǣ*d*i
 OEDiphthongLeveling [no-change]: *d*ǣ*d*i
 OEAwLongDiphthong [no-change]: *d*ǣ*d*i
 OEPrefixAReduction [no-change]: *d*ǣ*d*i
@@ -5613,6 +5657,7 @@ OEAwwjResolution [no-change]: *d*éu*r*ą
 OEAuBrightening [no-change]: *d*éu*r*ą
 OEEwLongDiphthong [no-change]: *d*éu*r*ą
 OEJWWSimplification [no-change]: *d*éu*r*ą
+OEJGlideIO [no-change]: *d*éu*r*ą
 OEDiphthongLeveling: *d*ēo*r*ą
 OEAwLongDiphthong [no-change]: *d*ēo*r*ą
 OEPrefixAReduction [no-change]: *d*ēo*r*ą
@@ -5739,6 +5784,7 @@ OEAwwjResolution [no-change]: *d*áu*w*u
 OEAuBrightening: *d*áeu*w*u
 OEEwLongDiphthong [no-change]: *d*áeu*w*u
 OEJWWSimplification [no-change]: *d*áeu*w*u
+OEJGlideIO [no-change]: *d*áeu*w*u
 OEDiphthongLeveling: *d*ēa*w*u
 OEAwLongDiphthong [no-change]: *d*ēa*w*u
 OEPrefixAReduction [no-change]: *d*ēa*w*u
@@ -5865,6 +5911,7 @@ OEAwwjResolution [no-change]: *d*ō*n*ą
 OEAuBrightening [no-change]: *d*ō*n*ą
 OEEwLongDiphthong [no-change]: *d*ō*n*ą
 OEJWWSimplification [no-change]: *d*ō*n*ą
+OEJGlideIO [no-change]: *d*ō*n*ą
 OEDiphthongLeveling [no-change]: *d*ō*n*ą
 OEAwLongDiphthong [no-change]: *d*ō*n*ą
 OEPrefixAReduction [no-change]: *d*ō*n*ą
@@ -5992,6 +6039,7 @@ OEAwwjResolution [no-change]: *d*ó*r*ą
 OEAuBrightening [no-change]: *d*ó*r*ą
 OEEwLongDiphthong [no-change]: *d*ó*r*ą
 OEJWWSimplification [no-change]: *d*ó*r*ą
+OEJGlideIO [no-change]: *d*ó*r*ą
 OEDiphthongLeveling [no-change]: *d*ó*r*ą
 OEAwLongDiphthong [no-change]: *d*ó*r*ą
 OEPrefixAReduction [no-change]: *d*ó*r*ą
@@ -6118,6 +6166,7 @@ OEAwwjResolution [no-change]: *d*ā*g*a
 OEAuBrightening [no-change]: *d*ā*g*a
 OEEwLongDiphthong [no-change]: *d*ā*g*a
 OEJWWSimplification [no-change]: *d*ā*g*a
+OEJGlideIO [no-change]: *d*ā*g*a
 OEDiphthongLeveling [no-change]: *d*ā*g*a
 OEAwLongDiphthong [no-change]: *d*ā*g*a
 OEPrefixAReduction [no-change]: *d*ā*g*a
@@ -6244,6 +6293,7 @@ OEAwwjResolution [no-change]: *d*r*áu*m*a
 OEAuBrightening: *d*r*áeu*m*a
 OEEwLongDiphthong [no-change]: *d*r*áeu*m*a
 OEJWWSimplification [no-change]: *d*r*áeu*m*a
+OEJGlideIO [no-change]: *d*r*áeu*m*a
 OEDiphthongLeveling: *d*r*ēa*m*a
 OEAwLongDiphthong [no-change]: *d*r*ēa*m*a
 OEPrefixAReduction [no-change]: *d*r*ēa*m*a
@@ -6370,6 +6420,7 @@ OEAwwjResolution [no-change]: *d*r*á*n*k*i
 OEAuBrightening [no-change]: *d*r*á*n*k*i
 OEEwLongDiphthong [no-change]: *d*r*á*n*k*i
 OEJWWSimplification [no-change]: *d*r*á*n*k*i
+OEJGlideIO [no-change]: *d*r*á*n*k*i
 OEDiphthongLeveling [no-change]: *d*r*á*n*k*i
 OEAwLongDiphthong [no-change]: *d*r*á*n*k*i
 OEPrefixAReduction [no-change]: *d*r*á*n*k*i
@@ -6496,6 +6547,7 @@ OEAwwjResolution [no-change]: *d*r*í*n*k*a*n*ą
 OEAuBrightening [no-change]: *d*r*í*n*k*a*n*ą
 OEEwLongDiphthong [no-change]: *d*r*í*n*k*a*n*ą
 OEJWWSimplification [no-change]: *d*r*í*n*k*a*n*ą
+OEJGlideIO [no-change]: *d*r*í*n*k*a*n*ą
 OEDiphthongLeveling [no-change]: *d*r*í*n*k*a*n*ą
 OEAwLongDiphthong [no-change]: *d*r*í*n*k*a*n*ą
 OEPrefixAReduction [no-change]: *d*r*í*n*k*a*n*ą
@@ -6622,6 +6674,7 @@ OEAwwjResolution [no-change]: *d*r*ḯ*b*a*n*ą
 OEAuBrightening [no-change]: *d*r*ḯ*b*a*n*ą
 OEEwLongDiphthong [no-change]: *d*r*ḯ*b*a*n*ą
 OEJWWSimplification [no-change]: *d*r*ḯ*b*a*n*ą
+OEJGlideIO [no-change]: *d*r*ḯ*b*a*n*ą
 OEDiphthongLeveling [no-change]: *d*r*ḯ*b*a*n*ą
 OEAwLongDiphthong [no-change]: *d*r*ḯ*b*a*n*ą
 OEPrefixAReduction [no-change]: *d*r*ḯ*b*a*n*ą
@@ -6748,6 +6801,7 @@ OEAwwjResolution [no-change]: *é*r*θ*ǭ
 OEAuBrightening [no-change]: *é*r*θ*ǭ
 OEEwLongDiphthong [no-change]: *é*r*θ*ǭ
 OEJWWSimplification [no-change]: *é*r*θ*ǭ
+OEJGlideIO [no-change]: *é*r*θ*ǭ
 OEDiphthongLeveling [no-change]: *é*r*θ*ǭ
 OEAwLongDiphthong [no-change]: *é*r*θ*ǭ
 OEPrefixAReduction [no-change]: *é*r*θ*ǭ
@@ -6874,6 +6928,7 @@ OEAwwjResolution [no-change]: *é*t*a*n*ą
 OEAuBrightening [no-change]: *é*t*a*n*ą
 OEEwLongDiphthong [no-change]: *é*t*a*n*ą
 OEJWWSimplification [no-change]: *é*t*a*n*ą
+OEJGlideIO [no-change]: *é*t*a*n*ą
 OEDiphthongLeveling [no-change]: *é*t*a*n*ą
 OEAwLongDiphthong [no-change]: *é*t*a*n*ą
 OEPrefixAReduction [no-change]: *é*t*a*n*ą
@@ -7000,6 +7055,7 @@ OEAwwjResolution [no-change]: *ǣ*l*a
 OEAuBrightening [no-change]: *ǣ*l*a
 OEEwLongDiphthong [no-change]: *ǣ*l*a
 OEJWWSimplification [no-change]: *ǣ*l*a
+OEJGlideIO [no-change]: *ǣ*l*a
 OEDiphthongLeveling [no-change]: *ǣ*l*a
 OEAwLongDiphthong [no-change]: *ǣ*l*a
 OEPrefixAReduction [no-change]: *ǣ*l*a
@@ -7126,6 +7182,7 @@ OEAwwjResolution [no-change]: *f*á*l*l*a*n*ą
 OEAuBrightening [no-change]: *f*á*l*l*a*n*ą
 OEEwLongDiphthong [no-change]: *f*á*l*l*a*n*ą
 OEJWWSimplification [no-change]: *f*á*l*l*a*n*ą
+OEJGlideIO [no-change]: *f*á*l*l*a*n*ą
 OEDiphthongLeveling [no-change]: *f*á*l*l*a*n*ą
 OEAwLongDiphthong [no-change]: *f*á*l*l*a*n*ą
 OEPrefixAReduction [no-change]: *f*á*l*l*a*n*ą
@@ -7253,6 +7310,7 @@ OEAwwjResolution [no-change]: *f*á*r*a*n*ą
 OEAuBrightening [no-change]: *f*á*r*a*n*ą
 OEEwLongDiphthong [no-change]: *f*á*r*a*n*ą
 OEJWWSimplification [no-change]: *f*á*r*a*n*ą
+OEJGlideIO [no-change]: *f*á*r*a*n*ą
 OEDiphthongLeveling [no-change]: *f*á*r*a*n*ą
 OEAwLongDiphthong [no-change]: *f*á*r*a*n*ą
 OEPrefixAReduction [no-change]: *f*á*r*a*n*ą
@@ -7379,6 +7437,7 @@ OEAwwjResolution [no-change]: *f*á*d*ē*r
 OEAuBrightening [no-change]: *f*á*d*ē*r
 OEEwLongDiphthong [no-change]: *f*á*d*ē*r
 OEJWWSimplification [no-change]: *f*á*d*ē*r
+OEJGlideIO [no-change]: *f*á*d*ē*r
 OEDiphthongLeveling [no-change]: *f*á*d*ē*r
 OEAwLongDiphthong [no-change]: *f*á*d*ē*r
 OEPrefixAReduction [no-change]: *f*á*d*ē*r
@@ -7505,6 +7564,7 @@ OEAwwjResolution [no-change]: *f*é*x*u
 OEAuBrightening [no-change]: *f*é*x*u
 OEEwLongDiphthong [no-change]: *f*é*x*u
 OEJWWSimplification [no-change]: *f*é*x*u
+OEJGlideIO [no-change]: *f*é*x*u
 OEDiphthongLeveling [no-change]: *f*é*x*u
 OEAwLongDiphthong [no-change]: *f*é*x*u
 OEPrefixAReduction [no-change]: *f*é*x*u
@@ -7632,6 +7692,7 @@ OEAwwjResolution [no-change]: *f*é*l*l*ą
 OEAuBrightening [no-change]: *f*é*l*l*ą
 OEEwLongDiphthong [no-change]: *f*é*l*l*ą
 OEJWWSimplification [no-change]: *f*é*l*l*ą
+OEJGlideIO [no-change]: *f*é*l*l*ą
 OEDiphthongLeveling [no-change]: *f*é*l*l*ą
 OEAwLongDiphthong [no-change]: *f*é*l*l*ą
 OEPrefixAReduction [no-change]: *f*é*l*l*ą
@@ -7759,6 +7820,7 @@ OEAwwjResolution [no-change]: *f*á*r*n*a
 OEAuBrightening [no-change]: *f*á*r*n*a
 OEEwLongDiphthong [no-change]: *f*á*r*n*a
 OEJWWSimplification [no-change]: *f*á*r*n*a
+OEJGlideIO [no-change]: *f*á*r*n*a
 OEDiphthongLeveling [no-change]: *f*á*r*n*a
 OEAwLongDiphthong [no-change]: *f*á*r*n*a
 OEPrefixAReduction [no-change]: *f*á*r*n*a
@@ -7886,6 +7948,7 @@ OEAwwjResolution [no-change]: *f*é*l*d*u
 OEAuBrightening [no-change]: *f*é*l*d*u
 OEEwLongDiphthong [no-change]: *f*é*l*d*u
 OEJWWSimplification [no-change]: *f*é*l*d*u
+OEJGlideIO [no-change]: *f*é*l*d*u
 OEDiphthongLeveling [no-change]: *f*é*l*d*u
 OEAwLongDiphthong [no-change]: *f*é*l*d*u
 OEPrefixAReduction [no-change]: *f*é*l*d*u
@@ -8012,6 +8075,7 @@ OEAwwjResolution [no-change]: *f*é*x*t*a*n*ą
 OEAuBrightening [no-change]: *f*é*x*t*a*n*ą
 OEEwLongDiphthong [no-change]: *f*é*x*t*a*n*ą
 OEJWWSimplification [no-change]: *f*é*x*t*a*n*ą
+OEJGlideIO [no-change]: *f*é*x*t*a*n*ą
 OEDiphthongLeveling [no-change]: *f*é*x*t*a*n*ą
 OEAwLongDiphthong [no-change]: *f*é*x*t*a*n*ą
 OEPrefixAReduction [no-change]: *f*é*x*t*a*n*ą
@@ -8138,6 +8202,7 @@ OEAwwjResolution [no-change]: *f*í*n*g*r*a
 OEAuBrightening [no-change]: *f*í*n*g*r*a
 OEEwLongDiphthong [no-change]: *f*í*n*g*r*a
 OEJWWSimplification [no-change]: *f*í*n*g*r*a
+OEJGlideIO [no-change]: *f*í*n*g*r*a
 OEDiphthongLeveling [no-change]: *f*í*n*g*r*a
 OEAwLongDiphthong [no-change]: *f*í*n*g*r*a
 OEPrefixAReduction [no-change]: *f*í*n*g*r*a
@@ -8264,6 +8329,7 @@ OEAwwjResolution [no-change]: *f*í*s*k*a
 OEAuBrightening [no-change]: *f*í*s*k*a
 OEEwLongDiphthong [no-change]: *f*í*s*k*a
 OEJWWSimplification [no-change]: *f*í*s*k*a
+OEJGlideIO [no-change]: *f*í*s*k*a
 OEDiphthongLeveling [no-change]: *f*í*s*k*a
 OEAwLongDiphthong [no-change]: *f*í*s*k*a
 OEPrefixAReduction [no-change]: *f*í*s*k*a
@@ -8390,6 +8456,7 @@ OEAwwjResolution [no-change]: *f*ū*s*t*i
 OEAuBrightening [no-change]: *f*ū*s*t*i
 OEEwLongDiphthong [no-change]: *f*ū*s*t*i
 OEJWWSimplification [no-change]: *f*ū*s*t*i
+OEJGlideIO [no-change]: *f*ū*s*t*i
 OEDiphthongLeveling [no-change]: *f*ū*s*t*i
 OEAwLongDiphthong [no-change]: *f*ū*s*t*i
 OEPrefixAReduction [no-change]: *f*ū*s*t*i
@@ -8516,6 +8583,7 @@ OEAwwjResolution [no-change]: *f*l*á*x*s*ą
 OEAuBrightening [no-change]: *f*l*á*x*s*ą
 OEEwLongDiphthong [no-change]: *f*l*á*x*s*ą
 OEJWWSimplification [no-change]: *f*l*á*x*s*ą
+OEJGlideIO [no-change]: *f*l*á*x*s*ą
 OEDiphthongLeveling [no-change]: *f*l*á*x*s*ą
 OEAwLongDiphthong [no-change]: *f*l*á*x*s*ą
 OEPrefixAReduction [no-change]: *f*l*á*x*s*ą
@@ -8642,6 +8710,7 @@ OEAwwjResolution [no-change]: *f*l*áu*x
 OEAuBrightening: *f*l*áeu*x
 OEEwLongDiphthong [no-change]: *f*l*áeu*x
 OEJWWSimplification [no-change]: *f*l*áeu*x
+OEJGlideIO [no-change]: *f*l*áeu*x
 OEDiphthongLeveling: *f*l*ēa*x
 OEAwLongDiphthong [no-change]: *f*l*ēa*x
 OEPrefixAReduction [no-change]: *f*l*ēa*x
@@ -8768,6 +8837,7 @@ OEAwwjResolution [no-change]: *f*l*éu*x*a*n*ą
 OEAuBrightening [no-change]: *f*l*éu*x*a*n*ą
 OEEwLongDiphthong [no-change]: *f*l*éu*x*a*n*ą
 OEJWWSimplification [no-change]: *f*l*éu*x*a*n*ą
+OEJGlideIO [no-change]: *f*l*éu*x*a*n*ą
 OEDiphthongLeveling: *f*l*ēo*x*a*n*ą
 OEAwLongDiphthong [no-change]: *f*l*ēo*x*a*n*ą
 OEPrefixAReduction [no-change]: *f*l*ēo*x*a*n*ą
@@ -8894,6 +8964,7 @@ OEAwwjResolution [no-change]: *f*l*ā*s*k*i
 OEAuBrightening [no-change]: *f*l*ā*s*k*i
 OEEwLongDiphthong [no-change]: *f*l*ā*s*k*i
 OEJWWSimplification [no-change]: *f*l*ā*s*k*i
+OEJGlideIO [no-change]: *f*l*ā*s*k*i
 OEDiphthongLeveling [no-change]: *f*l*ā*s*k*i
 OEAwLongDiphthong [no-change]: *f*l*ā*s*k*i
 OEPrefixAReduction [no-change]: *f*l*ā*s*k*i
@@ -9020,6 +9091,7 @@ OEAwwjResolution [no-change]: *f*l*ō*d*u
 OEAuBrightening [no-change]: *f*l*ō*d*u
 OEEwLongDiphthong [no-change]: *f*l*ō*d*u
 OEJWWSimplification [no-change]: *f*l*ō*d*u
+OEJGlideIO [no-change]: *f*l*ō*d*u
 OEDiphthongLeveling [no-change]: *f*l*ō*d*u
 OEAwLongDiphthong [no-change]: *f*l*ō*d*u
 OEPrefixAReduction [no-change]: *f*l*ō*d*u
@@ -9147,6 +9219,7 @@ OEAwwjResolution [no-change]: *f*l*éu*g*a*n*ą
 OEAuBrightening [no-change]: *f*l*éu*g*a*n*ą
 OEEwLongDiphthong [no-change]: *f*l*éu*g*a*n*ą
 OEJWWSimplification [no-change]: *f*l*éu*g*a*n*ą
+OEJGlideIO [no-change]: *f*l*éu*g*a*n*ą
 OEDiphthongLeveling: *f*l*ēo*g*a*n*ą
 OEAwLongDiphthong [no-change]: *f*l*ēo*g*a*n*ą
 OEPrefixAReduction [no-change]: *f*l*ēo*g*a*n*ą
@@ -9273,6 +9346,7 @@ OEAwwjResolution [no-change]: *f*ó*l*ô
 OEAuBrightening [no-change]: *f*ó*l*ô
 OEEwLongDiphthong [no-change]: *f*ó*l*ô
 OEJWWSimplification [no-change]: *f*ó*l*ô
+OEJGlideIO [no-change]: *f*ó*l*ô
 OEDiphthongLeveling [no-change]: *f*ó*l*ô
 OEAwLongDiphthong [no-change]: *f*ó*l*ô
 OEPrefixAReduction [no-change]: *f*ó*l*ô
@@ -9399,6 +9473,7 @@ OEAwwjResolution [no-change]: *f*ō*d*r*ą
 OEAuBrightening [no-change]: *f*ō*d*r*ą
 OEEwLongDiphthong [no-change]: *f*ō*d*r*ą
 OEJWWSimplification [no-change]: *f*ō*d*r*ą
+OEJGlideIO [no-change]: *f*ō*d*r*ą
 OEDiphthongLeveling [no-change]: *f*ō*d*r*ą
 OEAwLongDiphthong [no-change]: *f*ō*d*r*ą
 OEPrefixAReduction [no-change]: *f*ō*d*r*ą
@@ -9525,6 +9600,7 @@ OEAwwjResolution [no-change]: *f*á*l*d*a*n*ą
 OEAuBrightening [no-change]: *f*á*l*d*a*n*ą
 OEEwLongDiphthong [no-change]: *f*á*l*d*a*n*ą
 OEJWWSimplification [no-change]: *f*á*l*d*a*n*ą
+OEJGlideIO [no-change]: *f*á*l*d*a*n*ą
 OEDiphthongLeveling [no-change]: *f*á*l*d*a*n*ą
 OEAwLongDiphthong [no-change]: *f*á*l*d*a*n*ą
 OEPrefixAReduction [no-change]: *f*á*l*d*a*n*ą
@@ -9651,6 +9727,7 @@ OEAwwjResolution [no-change]: *f*ó*l*k*ą
 OEAuBrightening [no-change]: *f*ó*l*k*ą
 OEEwLongDiphthong [no-change]: *f*ó*l*k*ą
 OEJWWSimplification [no-change]: *f*ó*l*k*ą
+OEJGlideIO [no-change]: *f*ó*l*k*ą
 OEDiphthongLeveling [no-change]: *f*ó*l*k*ą
 OEAwLongDiphthong [no-change]: *f*ó*l*k*ą
 OEPrefixAReduction [no-change]: *f*ó*l*k*ą
@@ -9778,6 +9855,7 @@ OEAwwjResolution [no-change]: *l*éu*s*a*n*ą
 OEAuBrightening [no-change]: *l*éu*s*a*n*ą
 OEEwLongDiphthong [no-change]: *l*éu*s*a*n*ą
 OEJWWSimplification [no-change]: *l*éu*s*a*n*ą
+OEJGlideIO [no-change]: *l*éu*s*a*n*ą
 OEDiphthongLeveling: *l*ēo*s*a*n*ą
 OEAwLongDiphthong [no-change]: *l*ēo*s*a*n*ą
 OEPrefixAReduction [no-change]: *l*ēo*s*a*n*ą
@@ -9904,6 +9982,7 @@ OEAwwjResolution [no-change]: *f*éu*w*a*r
 OEAuBrightening [no-change]: *f*éu*w*a*r
 OEEwLongDiphthong [no-change]: *f*éu*w*a*r
 OEJWWSimplification [no-change]: *f*éu*w*a*r
+OEJGlideIO [no-change]: *f*éu*w*a*r
 OEDiphthongLeveling: *f*ēo*w*a*r
 OEAwLongDiphthong [no-change]: *f*ēo*w*a*r
 OEPrefixAReduction [no-change]: *f*ēo*w*a*r
@@ -10030,6 +10109,7 @@ OEAwwjResolution [no-change]: *f*ó*x*s*a
 OEAuBrightening [no-change]: *f*ó*x*s*a
 OEEwLongDiphthong [no-change]: *f*ó*x*s*a
 OEJWWSimplification [no-change]: *f*ó*x*s*a
+OEJGlideIO [no-change]: *f*ó*x*s*a
 OEDiphthongLeveling [no-change]: *f*ó*x*s*a
 OEAwLongDiphthong [no-change]: *f*ó*x*s*a
 OEPrefixAReduction [no-change]: *f*ó*x*s*a
@@ -10156,6 +10236,7 @@ OEAwwjResolution [no-change]: *f*r*éu*s*a*n*ą
 OEAuBrightening [no-change]: *f*r*éu*s*a*n*ą
 OEEwLongDiphthong [no-change]: *f*r*éu*s*a*n*ą
 OEJWWSimplification [no-change]: *f*r*éu*s*a*n*ą
+OEJGlideIO [no-change]: *f*r*éu*s*a*n*ą
 OEDiphthongLeveling: *f*r*ēo*s*a*n*ą
 OEAwLongDiphthong [no-change]: *f*r*ēo*s*a*n*ą
 OEPrefixAReduction [no-change]: *f*r*ēo*s*a*n*ą
@@ -10282,6 +10363,7 @@ OEAwwjResolution [no-change]: *f*r*íu*n*d
 OEAuBrightening [no-change]: *f*r*íu*n*d
 OEEwLongDiphthong [no-change]: *f*r*íu*n*d
 OEJWWSimplification [no-change]: *f*r*íu*n*d
+OEJGlideIO [no-change]: *f*r*íu*n*d
 OEDiphthongLeveling: *f*r*ēo*n*d
 OEAwLongDiphthong [no-change]: *f*r*ēo*n*d
 OEPrefixAReduction [no-change]: *f*r*ēo*n*d
@@ -10408,6 +10490,7 @@ OEAwwjResolution [no-change]: *f*r*ó*s*t*ą
 OEAuBrightening [no-change]: *f*r*ó*s*t*ą
 OEEwLongDiphthong [no-change]: *f*r*ó*s*t*ą
 OEJWWSimplification [no-change]: *f*r*ó*s*t*ą
+OEJGlideIO [no-change]: *f*r*ó*s*t*ą
 OEDiphthongLeveling [no-change]: *f*r*ó*s*t*ą
 OEAwLongDiphthong [no-change]: *f*r*ó*s*t*ą
 OEPrefixAReduction [no-change]: *f*r*ó*s*t*ą
@@ -10534,6 +10617,7 @@ OEAwwjResolution [no-change]: *f*ú*r*x
 OEAuBrightening [no-change]: *f*ú*r*x
 OEEwLongDiphthong [no-change]: *f*ú*r*x
 OEJWWSimplification [no-change]: *f*ú*r*x
+OEJGlideIO [no-change]: *f*ú*r*x
 OEDiphthongLeveling [no-change]: *f*ú*r*x
 OEAwLongDiphthong [no-change]: *f*ú*r*x
 OEPrefixAReduction [no-change]: *f*ú*r*x
@@ -10661,6 +10745,7 @@ OEAwwjResolution [no-change]: *g*á*n*g*a
 OEAuBrightening [no-change]: *g*á*n*g*a
 OEEwLongDiphthong [no-change]: *g*á*n*g*a
 OEJWWSimplification [no-change]: *g*á*n*g*a
+OEJGlideIO [no-change]: *g*á*n*g*a
 OEDiphthongLeveling [no-change]: *g*á*n*g*a
 OEAwLongDiphthong [no-change]: *g*á*n*g*a
 OEPrefixAReduction [no-change]: *g*á*n*g*a
@@ -10787,6 +10872,7 @@ OEAwwjResolution [no-change]: *g*ā*s*t*a
 OEAuBrightening [no-change]: *g*ā*s*t*a
 OEEwLongDiphthong [no-change]: *g*ā*s*t*a
 OEJWWSimplification [no-change]: *g*ā*s*t*a
+OEJGlideIO [no-change]: *g*ā*s*t*a
 OEDiphthongLeveling [no-change]: *g*ā*s*t*a
 OEAwLongDiphthong [no-change]: *g*ā*s*t*a
 OEPrefixAReduction [no-change]: *g*ā*s*t*a
@@ -10914,6 +11000,7 @@ OEAwwjResolution [no-change]: *g*í*f*t*i
 OEAuBrightening [no-change]: *g*í*f*t*i
 OEEwLongDiphthong [no-change]: *g*í*f*t*i
 OEJWWSimplification [no-change]: *g*í*f*t*i
+OEJGlideIO [no-change]: *g*í*f*t*i
 OEDiphthongLeveling [no-change]: *g*í*f*t*i
 OEAwLongDiphthong [no-change]: *g*í*f*t*i
 OEPrefixAReduction [no-change]: *g*í*f*t*i
@@ -11041,6 +11128,7 @@ OEAwwjResolution [no-change]: *g*é*b*a*n*ą
 OEAuBrightening [no-change]: *g*é*b*a*n*ą
 OEEwLongDiphthong [no-change]: *g*é*b*a*n*ą
 OEJWWSimplification [no-change]: *g*é*b*a*n*ą
+OEJGlideIO [no-change]: *g*é*b*a*n*ą
 OEDiphthongLeveling [no-change]: *g*é*b*a*n*ą
 OEAwLongDiphthong [no-change]: *g*é*b*a*n*ą
 OEPrefixAReduction [no-change]: *g*é*b*a*n*ą
@@ -11167,6 +11255,7 @@ OEAwwjResolution [no-change]: *g*ó*d*ą
 OEAuBrightening [no-change]: *g*ó*d*ą
 OEEwLongDiphthong [no-change]: *g*ó*d*ą
 OEJWWSimplification [no-change]: *g*ó*d*ą
+OEJGlideIO [no-change]: *g*ó*d*ą
 OEDiphthongLeveling [no-change]: *g*ó*d*ą
 OEAwLongDiphthong [no-change]: *g*ó*d*ą
 OEPrefixAReduction [no-change]: *g*ó*d*ą
@@ -11294,6 +11383,7 @@ OEAwwjResolution [no-change]: *g*ó*l*d*ą
 OEAuBrightening [no-change]: *g*ó*l*d*ą
 OEEwLongDiphthong [no-change]: *g*ó*l*d*ą
 OEJWWSimplification [no-change]: *g*ó*l*d*ą
+OEJGlideIO [no-change]: *g*ó*l*d*ą
 OEDiphthongLeveling [no-change]: *g*ó*l*d*ą
 OEAwLongDiphthong [no-change]: *g*ó*l*d*ą
 OEPrefixAReduction [no-change]: *g*ó*l*d*ą
@@ -11420,6 +11510,7 @@ OEAwwjResolution [no-change]: *g*ō*s
 OEAuBrightening [no-change]: *g*ō*s
 OEEwLongDiphthong [no-change]: *g*ō*s
 OEJWWSimplification [no-change]: *g*ō*s
+OEJGlideIO [no-change]: *g*ō*s
 OEDiphthongLeveling [no-change]: *g*ō*s
 OEAwLongDiphthong [no-change]: *g*ō*s
 OEPrefixAReduction [no-change]: *g*ō*s
@@ -11546,6 +11637,7 @@ OEAwwjResolution [no-change]: *g*r*á*s*ą
 OEAuBrightening [no-change]: *g*r*á*s*ą
 OEEwLongDiphthong [no-change]: *g*r*á*s*ą
 OEJWWSimplification [no-change]: *g*r*á*s*ą
+OEJGlideIO [no-change]: *g*r*á*s*ą
 OEDiphthongLeveling [no-change]: *g*r*á*s*ą
 OEAwLongDiphthong [no-change]: *g*r*á*s*ą
 OEPrefixAReduction [no-change]: *g*r*á*s*ą
@@ -11673,6 +11765,7 @@ OEAwwjResolution [no-change]: *g*r*á*b*a*n*ą
 OEAuBrightening [no-change]: *g*r*á*b*a*n*ą
 OEEwLongDiphthong [no-change]: *g*r*á*b*a*n*ą
 OEJWWSimplification [no-change]: *g*r*á*b*a*n*ą
+OEJGlideIO [no-change]: *g*r*á*b*a*n*ą
 OEDiphthongLeveling [no-change]: *g*r*á*b*a*n*ą
 OEAwLongDiphthong [no-change]: *g*r*á*b*a*n*ą
 OEPrefixAReduction [no-change]: *g*r*á*b*a*n*ą
@@ -11799,6 +11892,7 @@ OEAwwjResolution [no-change]: *g*r*ḯ*p*a*n*ą
 OEAuBrightening [no-change]: *g*r*ḯ*p*a*n*ą
 OEEwLongDiphthong [no-change]: *g*r*ḯ*p*a*n*ą
 OEJWWSimplification [no-change]: *g*r*ḯ*p*a*n*ą
+OEJGlideIO [no-change]: *g*r*ḯ*p*a*n*ą
 OEDiphthongLeveling [no-change]: *g*r*ḯ*p*a*n*ą
 OEAwLongDiphthong [no-change]: *g*r*ḯ*p*a*n*ą
 OEPrefixAReduction [no-change]: *g*r*ḯ*p*a*n*ą
@@ -11925,6 +12019,7 @@ OEAwwjResolution [no-change]: *g*r*ú*n*d*u
 OEAuBrightening [no-change]: *g*r*ú*n*d*u
 OEEwLongDiphthong [no-change]: *g*r*ú*n*d*u
 OEJWWSimplification [no-change]: *g*r*ú*n*d*u
+OEJGlideIO [no-change]: *g*r*ú*n*d*u
 OEDiphthongLeveling [no-change]: *g*r*ú*n*d*u
 OEAwLongDiphthong [no-change]: *g*r*ú*n*d*u
 OEPrefixAReduction [no-change]: *g*r*ú*n*d*u
@@ -12052,6 +12147,7 @@ OEAwwjResolution [no-change]: *g*á*s*t*i
 OEAuBrightening [no-change]: *g*á*s*t*i
 OEEwLongDiphthong [no-change]: *g*á*s*t*i
 OEJWWSimplification [no-change]: *g*á*s*t*i
+OEJGlideIO [no-change]: *g*á*s*t*i
 OEDiphthongLeveling [no-change]: *g*á*s*t*i
 OEAwLongDiphthong [no-change]: *g*á*s*t*i
 OEPrefixAReduction [no-change]: *g*á*s*t*i
@@ -12178,6 +12274,7 @@ OEAwwjResolution [no-change]: *x*á*g*l*ą
 OEAuBrightening [no-change]: *x*á*g*l*ą
 OEEwLongDiphthong [no-change]: *x*á*g*l*ą
 OEJWWSimplification [no-change]: *x*á*g*l*ą
+OEJGlideIO [no-change]: *x*á*g*l*ą
 OEDiphthongLeveling [no-change]: *x*á*g*l*ą
 OEAwLongDiphthong [no-change]: *x*á*g*l*ą
 OEPrefixAReduction [no-change]: *x*á*g*l*ą
@@ -12305,6 +12402,7 @@ OEAwwjResolution [no-change]: *x*ǣ*r*ą
 OEAuBrightening [no-change]: *x*ǣ*r*ą
 OEEwLongDiphthong [no-change]: *x*ǣ*r*ą
 OEJWWSimplification [no-change]: *x*ǣ*r*ą
+OEJGlideIO [no-change]: *x*ǣ*r*ą
 OEDiphthongLeveling [no-change]: *x*ǣ*r*ą
 OEAwLongDiphthong [no-change]: *x*ǣ*r*ą
 OEPrefixAReduction [no-change]: *x*ǣ*r*ą
@@ -12431,6 +12529,7 @@ OEAwwjResolution [no-change]: *x*á*l*l*u
 OEAuBrightening [no-change]: *x*á*l*l*u
 OEEwLongDiphthong [no-change]: *x*á*l*l*u
 OEJWWSimplification [no-change]: *x*á*l*l*u
+OEJGlideIO [no-change]: *x*á*l*l*u
 OEDiphthongLeveling [no-change]: *x*á*l*l*u
 OEAwLongDiphthong [no-change]: *x*á*l*l*u
 OEPrefixAReduction [no-change]: *x*á*l*l*u
@@ -12557,6 +12656,7 @@ OEAwwjResolution [no-change]: *x*á*n*d*u
 OEAuBrightening [no-change]: *x*á*n*d*u
 OEEwLongDiphthong [no-change]: *x*á*n*d*u
 OEJWWSimplification [no-change]: *x*á*n*d*u
+OEJGlideIO [no-change]: *x*á*n*d*u
 OEDiphthongLeveling [no-change]: *x*á*n*d*u
 OEAwLongDiphthong [no-change]: *x*á*n*d*u
 OEPrefixAReduction [no-change]: *x*á*n*d*u
@@ -12684,6 +12784,7 @@ OEAwwjResolution [no-change]: *x*á*n*d*l*ō*j*a*n*ą
 OEAuBrightening [no-change]: *x*á*n*d*l*ō*j*a*n*ą
 OEEwLongDiphthong [no-change]: *x*á*n*d*l*ō*j*a*n*ą
 OEJWWSimplification [no-change]: *x*á*n*d*l*ō*j*a*n*ą
+OEJGlideIO [no-change]: *x*á*n*d*l*ō*j*a*n*ą
 OEDiphthongLeveling [no-change]: *x*á*n*d*l*ō*j*a*n*ą
 OEAwLongDiphthong [no-change]: *x*á*n*d*l*ō*j*a*n*ą
 OEPrefixAReduction [no-change]: *x*á*n*d*l*ō*j*a*n*ą
@@ -12810,6 +12911,7 @@ OEAwwjResolution [no-change]: *x*á*r*m*a
 OEAuBrightening [no-change]: *x*á*r*m*a
 OEEwLongDiphthong [no-change]: *x*á*r*m*a
 OEJWWSimplification [no-change]: *x*á*r*m*a
+OEJGlideIO [no-change]: *x*á*r*m*a
 OEDiphthongLeveling [no-change]: *x*á*r*m*a
 OEAwLongDiphthong [no-change]: *x*á*r*m*a
 OEPrefixAReduction [no-change]: *x*á*r*m*a
@@ -12937,6 +13039,7 @@ OEAwwjResolution [no-change]: *x*á*r*b*i*s*t*u
 OEAuBrightening [no-change]: *x*á*r*b*i*s*t*u
 OEEwLongDiphthong [no-change]: *x*á*r*b*i*s*t*u
 OEJWWSimplification [no-change]: *x*á*r*b*i*s*t*u
+OEJGlideIO [no-change]: *x*á*r*b*i*s*t*u
 OEDiphthongLeveling [no-change]: *x*á*r*b*i*s*t*u
 OEAwLongDiphthong [no-change]: *x*á*r*b*i*s*t*u
 OEPrefixAReduction [no-change]: *x*á*r*b*i*s*t*u
@@ -13063,6 +13166,7 @@ OEAwwjResolution [no-change]: *x*á*g*ô
 OEAuBrightening [no-change]: *x*á*g*ô
 OEEwLongDiphthong [no-change]: *x*á*g*ô
 OEJWWSimplification [no-change]: *x*á*g*ô
+OEJGlideIO [no-change]: *x*á*g*ô
 OEDiphthongLeveling [no-change]: *x*á*g*ô
 OEAwLongDiphthong [no-change]: *x*á*g*ô
 OEPrefixAReduction [no-change]: *x*á*g*ô
@@ -13189,6 +13293,7 @@ OEAwwjResolution [no-change]: *x*á*b*u*k*a
 OEAuBrightening [no-change]: *x*á*b*u*k*a
 OEEwLongDiphthong [no-change]: *x*á*b*u*k*a
 OEJWWSimplification [no-change]: *x*á*b*u*k*a
+OEJGlideIO [no-change]: *x*á*b*u*k*a
 OEDiphthongLeveling [no-change]: *x*á*b*u*k*a
 OEAwLongDiphthong [no-change]: *x*á*b*u*k*a
 OEPrefixAReduction [no-change]: *x*á*b*u*k*a
@@ -13315,6 +13420,7 @@ OEAwwjResolution: *x*áu*j*ą
 OEAuBrightening: *x*áeu*j*ą
 OEEwLongDiphthong [no-change]: *x*áeu*j*ą
 OEJWWSimplification [no-change]: *x*áeu*j*ą
+OEJGlideIO [no-change]: *x*áeu*j*ą
 OEDiphthongLeveling: *x*ēa*j*ą
 OEAwLongDiphthong [no-change]: *x*ēa*j*ą
 OEPrefixAReduction [no-change]: *x*ēa*j*ą
@@ -13441,6 +13547,7 @@ OEAwwjResolution [no-change]: *x*á*s*l*a
 OEAuBrightening [no-change]: *x*á*s*l*a
 OEEwLongDiphthong [no-change]: *x*á*s*l*a
 OEJWWSimplification [no-change]: *x*á*s*l*a
+OEJGlideIO [no-change]: *x*á*s*l*a
 OEDiphthongLeveling [no-change]: *x*á*s*l*a
 OEAwLongDiphthong [no-change]: *x*á*s*l*a
 OEPrefixAReduction [no-change]: *x*á*s*l*a
@@ -13567,6 +13674,7 @@ OEAwwjResolution [no-change]: *x*áu*b*u*d*ą
 OEAuBrightening: *x*áeu*b*u*d*ą
 OEEwLongDiphthong [no-change]: *x*áeu*b*u*d*ą
 OEJWWSimplification [no-change]: *x*áeu*b*u*d*ą
+OEJGlideIO [no-change]: *x*áeu*b*u*d*ą
 OEDiphthongLeveling: *x*ēa*b*u*d*ą
 OEAwLongDiphthong [no-change]: *x*ēa*b*u*d*ą
 OEPrefixAReduction [no-change]: *x*ēa*b*u*d*ą
@@ -13693,6 +13801,7 @@ OEAwwjResolution [no-change]: *x*ā*l*i*j*a*n*ą
 OEAuBrightening [no-change]: *x*ā*l*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *x*ā*l*i*j*a*n*ą
 OEJWWSimplification [no-change]: *x*ā*l*i*j*a*n*ą
+OEJGlideIO [no-change]: *x*ā*l*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *x*ā*l*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *x*ā*l*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *x*ā*l*i*j*a*n*ą
@@ -13819,6 +13928,7 @@ OEAwwjResolution [no-change]: *x*é*r*t*ǭ
 OEAuBrightening [no-change]: *x*é*r*t*ǭ
 OEEwLongDiphthong [no-change]: *x*é*r*t*ǭ
 OEJWWSimplification [no-change]: *x*é*r*t*ǭ
+OEJGlideIO [no-change]: *x*é*r*t*ǭ
 OEDiphthongLeveling [no-change]: *x*é*r*t*ǭ
 OEAwLongDiphthong [no-change]: *x*é*r*t*ǭ
 OEPrefixAReduction [no-change]: *x*é*r*t*ǭ
@@ -13945,6 +14055,7 @@ OEAwwjResolution [no-change]: *x*é*r*θ*a
 OEAuBrightening [no-change]: *x*é*r*θ*a
 OEEwLongDiphthong [no-change]: *x*é*r*θ*a
 OEJWWSimplification [no-change]: *x*é*r*θ*a
+OEJGlideIO [no-change]: *x*é*r*θ*a
 OEDiphthongLeveling [no-change]: *x*é*r*θ*a
 OEAwLongDiphthong [no-change]: *x*é*r*θ*a
 OEPrefixAReduction [no-change]: *x*é*r*θ*a
@@ -14071,6 +14182,7 @@ OEAwwjResolution [no-change]: *x*ā*θ*i
 OEAuBrightening [no-change]: *x*ā*θ*i
 OEEwLongDiphthong [no-change]: *x*ā*θ*i
 OEJWWSimplification [no-change]: *x*ā*θ*i
+OEJGlideIO [no-change]: *x*ā*θ*i
 OEDiphthongLeveling [no-change]: *x*ā*θ*i
 OEAwLongDiphthong [no-change]: *x*ā*θ*i
 OEPrefixAReduction [no-change]: *x*ā*θ*i
@@ -14198,6 +14310,7 @@ OEAwwjResolution [no-change]: *x*á*g*g*j*a
 OEAuBrightening [no-change]: *x*á*g*g*j*a
 OEEwLongDiphthong [no-change]: *x*á*g*g*j*a
 OEJWWSimplification [no-change]: *x*á*g*g*j*a
+OEJGlideIO [no-change]: *x*á*g*g*j*a
 OEDiphthongLeveling [no-change]: *x*á*g*g*j*a
 OEAwLongDiphthong [no-change]: *x*á*g*g*j*a
 OEPrefixAReduction [no-change]: *x*á*g*g*j*a
@@ -14325,6 +14438,7 @@ OEAwwjResolution [no-change]: *x*é*l*m*a
 OEAuBrightening [no-change]: *x*é*l*m*a
 OEEwLongDiphthong [no-change]: *x*é*l*m*a
 OEJWWSimplification [no-change]: *x*é*l*m*a
+OEJGlideIO [no-change]: *x*é*l*m*a
 OEDiphthongLeveling [no-change]: *x*é*l*m*a
 OEAwLongDiphthong [no-change]: *x*é*l*m*a
 OEPrefixAReduction [no-change]: *x*é*l*m*a
@@ -14452,6 +14566,7 @@ OEAwwjResolution [no-change]: *x*é*l*p*a*n*ą
 OEAuBrightening [no-change]: *x*é*l*p*a*n*ą
 OEEwLongDiphthong [no-change]: *x*é*l*p*a*n*ą
 OEJWWSimplification [no-change]: *x*é*l*p*a*n*ą
+OEJGlideIO [no-change]: *x*é*l*p*a*n*ą
 OEDiphthongLeveling [no-change]: *x*é*l*p*a*n*ą
 OEAwLongDiphthong [no-change]: *x*é*l*p*a*n*ą
 OEPrefixAReduction [no-change]: *x*é*l*p*a*n*ą
@@ -14578,6 +14693,7 @@ OEAwwjResolution [no-change]: *x*é*l*p*u
 OEAuBrightening [no-change]: *x*é*l*p*u
 OEEwLongDiphthong [no-change]: *x*é*l*p*u
 OEJWWSimplification [no-change]: *x*é*l*p*u
+OEJGlideIO [no-change]: *x*é*l*p*u
 OEDiphthongLeveling [no-change]: *x*é*l*p*u
 OEAwLongDiphthong [no-change]: *x*é*l*p*u
 OEPrefixAReduction [no-change]: *x*é*l*p*u
@@ -14704,6 +14820,7 @@ OEAwwjResolution [no-change]: *x*é*r*d*u
 OEAuBrightening [no-change]: *x*é*r*d*u
 OEEwLongDiphthong [no-change]: *x*é*r*d*u
 OEJWWSimplification [no-change]: *x*é*r*d*u
+OEJGlideIO [no-change]: *x*é*r*d*u
 OEDiphthongLeveling [no-change]: *x*é*r*d*u
 OEAwLongDiphthong [no-change]: *x*é*r*d*u
 OEPrefixAReduction [no-change]: *x*é*r*d*u
@@ -14830,6 +14947,7 @@ OEAwwjResolution [no-change]: *x*áu*w*a*n*ą
 OEAuBrightening: *x*áeu*w*a*n*ą
 OEEwLongDiphthong [no-change]: *x*áeu*w*a*n*ą
 OEJWWSimplification [no-change]: *x*áeu*w*a*n*ą
+OEJGlideIO [no-change]: *x*áeu*w*a*n*ą
 OEDiphthongLeveling: *x*ēa*w*a*n*ą
 OEAwLongDiphthong [no-change]: *x*ēa*w*a*n*ą
 OEPrefixAReduction [no-change]: *x*ēa*w*a*n*ą
@@ -14957,6 +15075,7 @@ OEAwwjResolution [no-change]: *x*é*n*d*j*u
 OEAuBrightening [no-change]: *x*é*n*d*j*u
 OEEwLongDiphthong [no-change]: *x*é*n*d*j*u
 OEJWWSimplification [no-change]: *x*é*n*d*j*u
+OEJGlideIO [no-change]: *x*é*n*d*j*u
 OEDiphthongLeveling [no-change]: *x*é*n*d*j*u
 OEAwLongDiphthong [no-change]: *x*é*n*d*j*u
 OEPrefixAReduction [no-change]: *x*é*n*d*j*u
@@ -15083,6 +15202,7 @@ OEAwwjResolution [no-change]: *x*ó*r*d*ą
 OEAuBrightening [no-change]: *x*ó*r*d*ą
 OEEwLongDiphthong [no-change]: *x*ó*r*d*ą
 OEJWWSimplification [no-change]: *x*ó*r*d*ą
+OEJGlideIO [no-change]: *x*ó*r*d*ą
 OEDiphthongLeveling [no-change]: *x*ó*r*d*ą
 OEAwLongDiphthong [no-change]: *x*ó*r*d*ą
 OEPrefixAReduction [no-change]: *x*ó*r*d*ą
@@ -15210,6 +15330,7 @@ OEAwwjResolution [no-change]: *x*á*l*d*a*n*ą
 OEAuBrightening [no-change]: *x*á*l*d*a*n*ą
 OEEwLongDiphthong [no-change]: *x*á*l*d*a*n*ą
 OEJWWSimplification [no-change]: *x*á*l*d*a*n*ą
+OEJGlideIO [no-change]: *x*á*l*d*a*n*ą
 OEDiphthongLeveling [no-change]: *x*á*l*d*a*n*ą
 OEAwLongDiphthong [no-change]: *x*á*l*d*a*n*ą
 OEPrefixAReduction [no-change]: *x*á*l*d*a*n*ą
@@ -15336,6 +15457,7 @@ OEAwwjResolution [no-change]: *x*ā*m*a
 OEAuBrightening [no-change]: *x*ā*m*a
 OEEwLongDiphthong [no-change]: *x*ā*m*a
 OEJWWSimplification [no-change]: *x*ā*m*a
+OEJGlideIO [no-change]: *x*ā*m*a
 OEDiphthongLeveling [no-change]: *x*ā*m*a
 OEAwLongDiphthong [no-change]: *x*ā*m*a
 OEPrefixAReduction [no-change]: *x*ā*m*a
@@ -15462,6 +15584,7 @@ OEAwwjResolution [no-change]: *x*ú*n*a*g*ą
 OEAuBrightening [no-change]: *x*ú*n*a*g*ą
 OEEwLongDiphthong [no-change]: *x*ú*n*a*g*ą
 OEJWWSimplification [no-change]: *x*ú*n*a*g*ą
+OEJGlideIO [no-change]: *x*ú*n*a*g*ą
 OEDiphthongLeveling [no-change]: *x*ú*n*a*g*ą
 OEAwLongDiphthong [no-change]: *x*ú*n*a*g*ą
 OEPrefixAReduction [no-change]: *x*ú*n*a*g*ą
@@ -15588,6 +15711,7 @@ OEAwwjResolution [no-change]: *x*ō*d*a
 OEAuBrightening [no-change]: *x*ō*d*a
 OEEwLongDiphthong [no-change]: *x*ō*d*a
 OEJWWSimplification [no-change]: *x*ō*d*a
+OEJGlideIO [no-change]: *x*ō*d*a
 OEDiphthongLeveling [no-change]: *x*ō*d*a
 OEAwLongDiphthong [no-change]: *x*ō*d*a
 OEPrefixAReduction [no-change]: *x*ō*d*a
@@ -15714,6 +15838,7 @@ OEAwwjResolution [no-change]: *x*ō*f*a
 OEAuBrightening [no-change]: *x*ō*f*a
 OEEwLongDiphthong [no-change]: *x*ō*f*a
 OEJWWSimplification [no-change]: *x*ō*f*a
+OEJGlideIO [no-change]: *x*ō*f*a
 OEDiphthongLeveling [no-change]: *x*ō*f*a
 OEAwLongDiphthong [no-change]: *x*ō*f*a
 OEPrefixAReduction [no-change]: *x*ō*f*a
@@ -15841,6 +15966,7 @@ OEAwwjResolution [no-change]: *x*ó*r*n*ą
 OEAuBrightening [no-change]: *x*ó*r*n*ą
 OEEwLongDiphthong [no-change]: *x*ó*r*n*ą
 OEJWWSimplification [no-change]: *x*ó*r*n*ą
+OEJGlideIO [no-change]: *x*ó*r*n*ą
 OEDiphthongLeveling [no-change]: *x*ó*r*n*ą
 OEAwLongDiphthong [no-change]: *x*ó*r*n*ą
 OEPrefixAReduction [no-change]: *x*ó*r*n*ą
@@ -15967,6 +16093,7 @@ OEAwwjResolution [no-change]: *x*ú*n*d*a
 OEAuBrightening [no-change]: *x*ú*n*d*a
 OEEwLongDiphthong [no-change]: *x*ú*n*d*a
 OEJWWSimplification [no-change]: *x*ú*n*d*a
+OEJGlideIO [no-change]: *x*ú*n*d*a
 OEDiphthongLeveling [no-change]: *x*ú*n*d*a
 OEAwLongDiphthong [no-change]: *x*ú*n*d*a
 OEPrefixAReduction [no-change]: *x*ú*n*d*a
@@ -16039,85 +16166,86 @@ OldEnglishRemoveStars: hund
 OldEnglishSurface [no-change]: hund
 
 --- hue ---
-PROTO: *xéwją
+PROTO: *xíwją
 EXPECTED: hīew
 OUTPUTS: hīew
-NOTE: West Germanic j-gemination witness for *w after a short front vowel, the minimal-pair counterpart of hay (*xáwją, row 2061). Kroonen 2013 p. 224 s.v. *heuja- reconstructs PGmc *heuja- n. 'visible layer, appearance' (Go. hiwi n. 'surface appearance, complexion', ON hý n., OE hīw, hēow n. 'shape, form, hue, colour', ME hue); CAPR normalizes the prevocalic *-u- as *w, giving *xéwją, and the cascade raises *é to *í before *j, so the gemination law sees a short front vowel before *wj. Campbell 1959 §120.2 p. 46 states the law for exactly this stem shape: 'auj > auuj > auj, and iuj > iuuj > iuj', adding that 'the u of auuj is lost, so that the final result is ēg or ieg, but the j of iuuj is lost, so that the result is iow or iew', and printing 'OE hīow, hīew form' beside 'OE nīowe, nīewe new'. CAPR targets West Saxon, hence hīew; hīw, hīow and hēow are the commoner spellings. Diagnostic value: positive witness for the *w branch of SC010 PWGmcJGemination after a front vowel, and negative control for SC029, whose domain is *awwj only. Ringe & Taylor 2014 p. 53 supply the parallel West Germanic geminates *[niwwa-], *[siwwian] and *[gliwwias].
+NOTE: J-gemination witness for *w after a short front vowel, contrasting with hay (*xáwją, row 2061). Adopted realized PGmc *xíwją normalizes Ringe-Taylor 2014 p.250 *hiwją, with CAPR dorsal x and lexical acute: palatalized iww becomes iuw, then pre-OE long iow and WS long iew. The ww+j/w+j encoding carries palatal conditioning without settling the authors' uncertain phonemic analysis. Orel 2003 pp.171-172 *xewjan and Kroonen 2013 p.224 *heuja- remain genuine e-form alternatives with different derivational accounts and ending conventions. Ringe 2017 pp.151-153 and Fulk 2018 p.59 support inherited raising before high front i/j; no later one-word raising law is introduced. Fulk 2018 pp.71-72,126 disputes traditional geminate dismantling, a retained qualification. Campbell 1959 p.46 contrasts awj/iwj and prints hīow/hīew; p.167 describes general gemination. Target hīew, context and regular classification are unchanged. Positive witness for SC010 and the separate SC033/SC110 reanalysis/realization; negative control for low-vowel SC029.
 
 
 ## Section 1: Proto-Germanic consonant inheritance
 
-EnglishProtoInput: *x*é*w*j*ą
-PGmcGmSimplification [no-change]: *x*é*w*j*ą
-PGmcNasalLossBeforeX [no-change]: *x*é*w*j*ą
-RootNounNomZLoss [no-change]: *x*é*w*j*ą
+EnglishProtoInput: *x*í*w*j*ą
+PGmcGmSimplification [no-change]: *x*í*w*j*ą
+PGmcNasalLossBeforeX [no-change]: *x*í*w*j*ą
+RootNounNomZLoss [no-change]: *x*í*w*j*ą
 
 ## Section 2: Northwest and West Germanic developments
 
-PNWGmcUnstressedAiMonophthongization [no-change]: *x*é*w*j*ą
-PNWGmcAToUBeforeM [no-change]: *x*é*w*j*ą
-PNWGmcLongELowering [no-change]: *x*é*w*j*ą
-PWGmcEarlyIApocope [no-change]: *x*é*w*j*ą
-PWGmcFinalOrLowering [no-change]: *x*é*w*j*ą
-PWGmcCoronalWAssimilation [no-change]: *x*é*w*j*ą
-OEWWSimplification [no-change]: *x*é*w*j*ą
-PWGmcIjContraction [no-change]: *x*é*w*j*ą
-PWGmcJGemination: *x*é*w*w*j*ą
-PWGmcSyllabicJ [no-change]: *x*é*w*w*j*ą
-PNWGmcPreconsonantalXLoss [no-change]: *x*é*w*w*j*ą
-EAFLThVoicing [no-change]: *x*é*w*w*j*ą
-PWGmcDentalHardening [no-change]: *x*é*w*w*j*ą
-PNWGmcILowering [no-change]: *x*é*w*w*j*ą
-PNWGmcULowering [no-change]: *x*é*w*w*j*ą
-PNWGmcStressedMonosyllableORaising [no-change]: *x*é*w*w*j*ą
-PNWGmcFinalLongORaising [no-change]: *x*é*w*w*j*ą
-EAFFinalZDeletion [no-change]: *x*é*w*w*j*ą
-PWGmcUnstressedWordFinalIApocope [no-change]: *x*é*w*w*j*ą
-MonosyllabicFinalZLoss [no-change]: *x*é*w*w*j*ą
-EAFRhotacism [no-change]: *x*é*w*w*j*ą
-PNWGmcMnDissimilation [no-change]: *x*é*w*w*j*ą
-PNWGmcNStemNLoss [no-change]: *x*é*w*w*j*ą
-EAFNasalSpirantLengthening [no-change]: *x*é*w*w*j*ą
-EAFNasalSpirantLoss [no-change]: *x*é*w*w*j*ą
-EAFHiatusWInsertion [no-change]: *x*é*w*w*j*ą
-EAFLongANasalRounding [no-change]: *x*é*w*w*j*ą
-EAFNasalizedLowRounding [no-change]: *x*é*w*w*j*ą
-EAFLongAFronting [no-change]: *x*é*w*w*j*ą
+PNWGmcUnstressedAiMonophthongization [no-change]: *x*í*w*j*ą
+PNWGmcAToUBeforeM [no-change]: *x*í*w*j*ą
+PNWGmcLongELowering [no-change]: *x*í*w*j*ą
+PWGmcEarlyIApocope [no-change]: *x*í*w*j*ą
+PWGmcFinalOrLowering [no-change]: *x*í*w*j*ą
+PWGmcCoronalWAssimilation [no-change]: *x*í*w*j*ą
+OEWWSimplification [no-change]: *x*í*w*j*ą
+PWGmcIjContraction [no-change]: *x*í*w*j*ą
+PWGmcJGemination: *x*í*w*w*j*ą
+PWGmcSyllabicJ [no-change]: *x*í*w*w*j*ą
+PNWGmcPreconsonantalXLoss [no-change]: *x*í*w*w*j*ą
+EAFLThVoicing [no-change]: *x*í*w*w*j*ą
+PWGmcDentalHardening [no-change]: *x*í*w*w*j*ą
+PNWGmcILowering [no-change]: *x*í*w*w*j*ą
+PNWGmcULowering [no-change]: *x*í*w*w*j*ą
+PNWGmcStressedMonosyllableORaising [no-change]: *x*í*w*w*j*ą
+PNWGmcFinalLongORaising [no-change]: *x*í*w*w*j*ą
+EAFFinalZDeletion [no-change]: *x*í*w*w*j*ą
+PWGmcUnstressedWordFinalIApocope [no-change]: *x*í*w*w*j*ą
+MonosyllabicFinalZLoss [no-change]: *x*í*w*w*j*ą
+EAFRhotacism [no-change]: *x*í*w*w*j*ą
+PNWGmcMnDissimilation [no-change]: *x*í*w*w*j*ą
+PNWGmcNStemNLoss [no-change]: *x*í*w*w*j*ą
+EAFNasalSpirantLengthening [no-change]: *x*í*w*w*j*ą
+EAFNasalSpirantLoss [no-change]: *x*í*w*w*j*ą
+EAFHiatusWInsertion [no-change]: *x*í*w*w*j*ą
+EAFLongANasalRounding [no-change]: *x*í*w*w*j*ą
+EAFNasalizedLowRounding [no-change]: *x*í*w*w*j*ą
+EAFLongAFronting [no-change]: *x*í*w*w*j*ą
 
 ## Section 3: Early Anglo-Frisian (North Sea Germanic)
 
-EAFAiMonophthongization [no-change]: *x*é*w*w*j*ą
+EAFAiMonophthongization [no-change]: *x*í*w*w*j*ą
 
 ## Section 4: Old English
 
-OEAwwjResolution [no-change]: *x*é*w*w*j*ą
-OEAuBrightening [no-change]: *x*é*w*w*j*ą
-OEEwLongDiphthong: *x*ēo*w*w*j*ą
-OEJWWSimplification: *x*ēo*w*j*ą
-OEDiphthongLeveling [no-change]: *x*ēo*w*j*ą
-OEAwLongDiphthong [no-change]: *x*ēo*w*j*ą
-OEPrefixAReduction [no-change]: *x*ēo*w*j*ą
-OEInterStressRaising [no-change]: *x*ēo*w*j*ą
-OECompoundLinkingSyncope [no-change]: *x*ēo*w*j*ą
-OEStripSecondaryStress [no-change]: *x*ēo*w*j*ą
-OEWICombinativeUUmlaut [no-change]: *x*ēo*w*j*ą
-PWGmcFinalBareALoss [no-change]: *x*ēo*w*j*ą
-PWGmcSurvivingBimoricOUnrounding [no-change]: *x*ēo*w*j*ą
-EAFBrighteningUnstressed [no-change]: *x*ēo*w*j*ą
-EAFBrightening [no-change]: *x*ēo*w*j*ą
-EAFBrighteningLongFinal [no-change]: *x*ēo*w*j*ą
-OEBreaking [no-change]: *x*ēo*w*j*ą
-OEVelarFricativePalatalization: *ç*ēo*w*j*ą
-OEARestoration [no-change]: *ç*ēo*w*j*ą
-OEHeavySyllableNasalApocope: *ç*ēo*w*j
-OESecondaryNasalization [no-change]: *ç*ēo*w*j
-PGmcBAllophony [no-change]: *ç*ēo*w*j
-SieversLawSyncope [no-change]: *ç*ēo*w*j
-OESkPalatalization [no-change]: *ç*ēo*w*j
-OEVelarPalatalization [no-change]: *ç*ēo*w*j
-OEPostVelarWLoss [no-change]: *ç*ēo*w*j
-OEWLossBeforeI [no-change]: *ç*ēo*w*j
-OEWsPalatalDiphthongization [no-change]: *ç*ēo*w*j
+OEAwwjResolution [no-change]: *x*í*w*w*j*ą
+OEAuBrightening [no-change]: *x*í*w*w*j*ą
+OEEwLongDiphthong: *x*íu*w*j*ą
+OEJWWSimplification [no-change]: *x*íu*w*j*ą
+OEJGlideIO: *x*īo*w*j*ą
+OEDiphthongLeveling [no-change]: *x*īo*w*j*ą
+OEAwLongDiphthong [no-change]: *x*īo*w*j*ą
+OEPrefixAReduction [no-change]: *x*īo*w*j*ą
+OEInterStressRaising [no-change]: *x*īo*w*j*ą
+OECompoundLinkingSyncope [no-change]: *x*īo*w*j*ą
+OEStripSecondaryStress [no-change]: *x*īo*w*j*ą
+OEWICombinativeUUmlaut [no-change]: *x*īo*w*j*ą
+PWGmcFinalBareALoss [no-change]: *x*īo*w*j*ą
+PWGmcSurvivingBimoricOUnrounding [no-change]: *x*īo*w*j*ą
+EAFBrighteningUnstressed [no-change]: *x*īo*w*j*ą
+EAFBrightening [no-change]: *x*īo*w*j*ą
+EAFBrighteningLongFinal [no-change]: *x*īo*w*j*ą
+OEBreaking [no-change]: *x*īo*w*j*ą
+OEVelarFricativePalatalization: *ç*īo*w*j*ą
+OEARestoration [no-change]: *ç*īo*w*j*ą
+OEHeavySyllableNasalApocope: *ç*īo*w*j
+OESecondaryNasalization [no-change]: *ç*īo*w*j
+PGmcBAllophony [no-change]: *ç*īo*w*j
+SieversLawSyncope [no-change]: *ç*īo*w*j
+OESkPalatalization [no-change]: *ç*īo*w*j
+OEVelarPalatalization [no-change]: *ç*īo*w*j
+OEPostVelarWLoss [no-change]: *ç*īo*w*j
+OEWLossBeforeI [no-change]: *ç*īo*w*j
+OEWsPalatalDiphthongization [no-change]: *ç*īo*w*j
 OEIUmlaut: *ç*īe*w*j
 OELatePalatalDiphthong [no-change]: *ç*īe*w*j
 OEJClusterCoalescence [no-change]: *ç*īe*w*j
@@ -16220,6 +16348,7 @@ OEAwwjResolution [no-change]: *k*n*é*d*a*n*ą
 OEAuBrightening [no-change]: *k*n*é*d*a*n*ą
 OEEwLongDiphthong [no-change]: *k*n*é*d*a*n*ą
 OEJWWSimplification [no-change]: *k*n*é*d*a*n*ą
+OEJGlideIO [no-change]: *k*n*é*d*a*n*ą
 OEDiphthongLeveling [no-change]: *k*n*é*d*a*n*ą
 OEAwLongDiphthong [no-change]: *k*n*é*d*a*n*ą
 OEPrefixAReduction [no-change]: *k*n*é*d*a*n*ą
@@ -16346,6 +16475,7 @@ OEAwwjResolution [no-change]: *l*á*n*d*ą
 OEAuBrightening [no-change]: *l*á*n*d*ą
 OEEwLongDiphthong [no-change]: *l*á*n*d*ą
 OEJWWSimplification [no-change]: *l*á*n*d*ą
+OEJGlideIO [no-change]: *l*á*n*d*ą
 OEDiphthongLeveling [no-change]: *l*á*n*d*ą
 OEAwLongDiphthong [no-change]: *l*á*n*d*ą
 OEPrefixAReduction [no-change]: *l*á*n*d*ą
@@ -16472,6 +16602,7 @@ OEAwwjResolution [no-change]: *l*ā*s*t*i*j*a*n*ą
 OEAuBrightening [no-change]: *l*ā*s*t*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *l*ā*s*t*i*j*a*n*ą
 OEJWWSimplification [no-change]: *l*ā*s*t*i*j*a*n*ą
+OEJGlideIO [no-change]: *l*ā*s*t*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *l*ā*s*t*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *l*ā*s*t*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *l*ā*s*t*i*j*a*n*ą
@@ -16599,6 +16730,7 @@ OEAwwjResolution [no-change]: *l*ā*d*i*j*a*n*ą
 OEAuBrightening [no-change]: *l*ā*d*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *l*ā*d*i*j*a*n*ą
 OEJWWSimplification [no-change]: *l*ā*d*i*j*a*n*ą
+OEJGlideIO [no-change]: *l*ā*d*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *l*ā*d*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *l*ā*d*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *l*ā*d*i*j*a*n*ą
@@ -16725,6 +16857,7 @@ OEAwwjResolution [no-change]: *l*áu*b*ą
 OEAuBrightening: *l*áeu*b*ą
 OEEwLongDiphthong [no-change]: *l*áeu*b*ą
 OEJWWSimplification [no-change]: *l*áeu*b*ą
+OEJGlideIO [no-change]: *l*áeu*b*ą
 OEDiphthongLeveling: *l*ēa*b*ą
 OEAwLongDiphthong [no-change]: *l*ēa*b*ą
 OEPrefixAReduction [no-change]: *l*ēa*b*ą
@@ -16852,6 +16985,7 @@ OEAwwjResolution [no-change]: *l*í*r*n*ō*j*a*n*ą
 OEAuBrightening [no-change]: *l*í*r*n*ō*j*a*n*ą
 OEEwLongDiphthong [no-change]: *l*í*r*n*ō*j*a*n*ą
 OEJWWSimplification [no-change]: *l*í*r*n*ō*j*a*n*ą
+OEJGlideIO [no-change]: *l*í*r*n*ō*j*a*n*ą
 OEDiphthongLeveling [no-change]: *l*í*r*n*ō*j*a*n*ą
 OEAwLongDiphthong [no-change]: *l*í*r*n*ō*j*a*n*ą
 OEPrefixAReduction [no-change]: *l*í*r*n*ō*j*a*n*ą
@@ -16978,6 +17112,7 @@ OEAwwjResolution [no-change]: *l*é*θ*r*ą
 OEAuBrightening [no-change]: *l*é*θ*r*ą
 OEEwLongDiphthong [no-change]: *l*é*θ*r*ą
 OEJWWSimplification [no-change]: *l*é*θ*r*ą
+OEJGlideIO [no-change]: *l*é*θ*r*ą
 OEDiphthongLeveling [no-change]: *l*é*θ*r*ą
 OEAwLongDiphthong [no-change]: *l*é*θ*r*ą
 OEPrefixAReduction [no-change]: *l*é*θ*r*ą
@@ -17104,6 +17239,7 @@ OEAwwjResolution [no-change]: *l*áu*k*a
 OEAuBrightening: *l*áeu*k*a
 OEEwLongDiphthong [no-change]: *l*áeu*k*a
 OEJWWSimplification [no-change]: *l*áeu*k*a
+OEJGlideIO [no-change]: *l*áeu*k*a
 OEDiphthongLeveling: *l*ēa*k*a
 OEAwLongDiphthong [no-change]: *l*ēa*k*a
 OEPrefixAReduction [no-change]: *l*ēa*k*a
@@ -17230,6 +17366,7 @@ OEAwwjResolution [no-change]: *l*ǣ*t*a*n*ą
 OEAuBrightening [no-change]: *l*ǣ*t*a*n*ą
 OEEwLongDiphthong [no-change]: *l*ǣ*t*a*n*ą
 OEJWWSimplification [no-change]: *l*ǣ*t*a*n*ą
+OEJGlideIO [no-change]: *l*ǣ*t*a*n*ą
 OEDiphthongLeveling [no-change]: *l*ǣ*t*a*n*ą
 OEAwLongDiphthong [no-change]: *l*ǣ*t*a*n*ą
 OEPrefixAReduction [no-change]: *l*ǣ*t*a*n*ą
@@ -17356,6 +17493,7 @@ OEAwwjResolution [no-change]: *l*í*k*k*ō*j*a*n*ą
 OEAuBrightening [no-change]: *l*í*k*k*ō*j*a*n*ą
 OEEwLongDiphthong [no-change]: *l*í*k*k*ō*j*a*n*ą
 OEJWWSimplification [no-change]: *l*í*k*k*ō*j*a*n*ą
+OEJGlideIO [no-change]: *l*í*k*k*ō*j*a*n*ą
 OEDiphthongLeveling [no-change]: *l*í*k*k*ō*j*a*n*ą
 OEAwLongDiphthong [no-change]: *l*í*k*k*ō*j*a*n*ą
 OEPrefixAReduction [no-change]: *l*í*k*k*ō*j*a*n*ą
@@ -17483,6 +17621,7 @@ OEAwwjResolution [no-change]: *x*l*í*d*ą
 OEAuBrightening [no-change]: *x*l*í*d*ą
 OEEwLongDiphthong [no-change]: *x*l*í*d*ą
 OEJWWSimplification [no-change]: *x*l*í*d*ą
+OEJGlideIO [no-change]: *x*l*í*d*ą
 OEDiphthongLeveling [no-change]: *x*l*í*d*ą
 OEAwLongDiphthong [no-change]: *x*l*í*d*ą
 OEPrefixAReduction [no-change]: *x*l*í*d*ą
@@ -17609,6 +17748,7 @@ OEAwwjResolution [no-change]: *l*ḯ*b*ą
 OEAuBrightening [no-change]: *l*ḯ*b*ą
 OEEwLongDiphthong [no-change]: *l*ḯ*b*ą
 OEJWWSimplification [no-change]: *l*ḯ*b*ą
+OEJGlideIO [no-change]: *l*ḯ*b*ą
 OEDiphthongLeveling [no-change]: *l*ḯ*b*ą
 OEAwLongDiphthong [no-change]: *l*ḯ*b*ą
 OEPrefixAReduction [no-change]: *l*ḯ*b*ą
@@ -17736,6 +17876,7 @@ OEAwwjResolution [no-change]: *l*éu*x*t*i*j*a*n*ą
 OEAuBrightening [no-change]: *l*éu*x*t*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *l*éu*x*t*i*j*a*n*ą
 OEJWWSimplification [no-change]: *l*éu*x*t*i*j*a*n*ą
+OEJGlideIO [no-change]: *l*éu*x*t*i*j*a*n*ą
 OEDiphthongLeveling: *l*ēo*x*t*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *l*ēo*x*t*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *l*ēo*x*t*i*j*a*n*ą
@@ -17862,6 +18003,7 @@ OEAwwjResolution [no-change]: *l*ḯ*m*ą
 OEAuBrightening [no-change]: *l*ḯ*m*ą
 OEEwLongDiphthong [no-change]: *l*ḯ*m*ą
 OEJWWSimplification [no-change]: *l*ḯ*m*ą
+OEJGlideIO [no-change]: *l*ḯ*m*ą
 OEDiphthongLeveling [no-change]: *l*ḯ*m*ą
 OEAwLongDiphthong [no-change]: *l*ḯ*m*ą
 OEPrefixAReduction [no-change]: *l*ḯ*m*ą
@@ -17989,6 +18131,7 @@ OEAwwjResolution [no-change]: *l*í*n*d*u
 OEAuBrightening [no-change]: *l*í*n*d*u
 OEEwLongDiphthong [no-change]: *l*í*n*d*u
 OEJWWSimplification [no-change]: *l*í*n*d*u
+OEJGlideIO [no-change]: *l*í*n*d*u
 OEDiphthongLeveling [no-change]: *l*í*n*d*u
 OEAwLongDiphthong [no-change]: *l*í*n*d*u
 OEPrefixAReduction [no-change]: *l*í*n*d*u
@@ -18115,6 +18258,7 @@ OEAwwjResolution [no-change]: *l*ḯ*n*ǭ
 OEAuBrightening [no-change]: *l*ḯ*n*ǭ
 OEEwLongDiphthong [no-change]: *l*ḯ*n*ǭ
 OEJWWSimplification [no-change]: *l*ḯ*n*ǭ
+OEJGlideIO [no-change]: *l*ḯ*n*ǭ
 OEDiphthongLeveling [no-change]: *l*ḯ*n*ǭ
 OEAwLongDiphthong [no-change]: *l*ḯ*n*ǭ
 OEPrefixAReduction [no-change]: *l*ḯ*n*ǭ
@@ -18241,6 +18385,7 @@ OEAwwjResolution [no-change]: *l*ḯ*s*t*ǭ
 OEAuBrightening [no-change]: *l*ḯ*s*t*ǭ
 OEEwLongDiphthong [no-change]: *l*ḯ*s*t*ǭ
 OEJWWSimplification [no-change]: *l*ḯ*s*t*ǭ
+OEJGlideIO [no-change]: *l*ḯ*s*t*ǭ
 OEDiphthongLeveling [no-change]: *l*ḯ*s*t*ǭ
 OEAwLongDiphthong [no-change]: *l*ḯ*s*t*ǭ
 OEPrefixAReduction [no-change]: *l*ḯ*s*t*ǭ
@@ -18367,6 +18512,7 @@ OEAwwjResolution [no-change]: *l*í*b*r*u
 OEAuBrightening [no-change]: *l*í*b*r*u
 OEEwLongDiphthong [no-change]: *l*í*b*r*u
 OEJWWSimplification [no-change]: *l*í*b*r*u
+OEJGlideIO [no-change]: *l*í*b*r*u
 OEDiphthongLeveling [no-change]: *l*í*b*r*u
 OEAwLongDiphthong [no-change]: *l*í*b*r*u
 OEPrefixAReduction [no-change]: *l*í*b*r*u
@@ -18493,6 +18639,7 @@ OEAwwjResolution [no-change]: *l*ā*θ*a
 OEAuBrightening [no-change]: *l*ā*θ*a
 OEEwLongDiphthong [no-change]: *l*ā*θ*a
 OEJWWSimplification [no-change]: *l*ā*θ*a
+OEJGlideIO [no-change]: *l*ā*θ*a
 OEDiphthongLeveling [no-change]: *l*ā*θ*a
 OEAwLongDiphthong [no-change]: *l*ā*θ*a
 OEPrefixAReduction [no-change]: *l*ā*θ*a
@@ -18619,6 +18766,7 @@ OEAwwjResolution [no-change]: *l*ó*k*ą
 OEAuBrightening [no-change]: *l*ó*k*ą
 OEEwLongDiphthong [no-change]: *l*ó*k*ą
 OEJWWSimplification [no-change]: *l*ó*k*ą
+OEJGlideIO [no-change]: *l*ó*k*ą
 OEDiphthongLeveling [no-change]: *l*ó*k*ą
 OEAwLongDiphthong [no-change]: *l*ó*k*ą
 OEPrefixAReduction [no-change]: *l*ó*k*ą
@@ -18745,6 +18893,7 @@ OEAwwjResolution [no-change]: *l*ó*k*k*a
 OEAuBrightening [no-change]: *l*ó*k*k*a
 OEEwLongDiphthong [no-change]: *l*ó*k*k*a
 OEJWWSimplification [no-change]: *l*ó*k*k*a
+OEJGlideIO [no-change]: *l*ó*k*k*a
 OEDiphthongLeveling [no-change]: *l*ó*k*k*a
 OEAwLongDiphthong [no-change]: *l*ó*k*k*a
 OEPrefixAReduction [no-change]: *l*ó*k*k*a
@@ -18871,6 +19020,7 @@ OEAwwjResolution [no-change]: *l*ū*s
 OEAuBrightening [no-change]: *l*ū*s
 OEEwLongDiphthong [no-change]: *l*ū*s
 OEJWWSimplification [no-change]: *l*ū*s
+OEJGlideIO [no-change]: *l*ū*s
 OEDiphthongLeveling [no-change]: *l*ū*s
 OEAwLongDiphthong [no-change]: *l*ū*s
 OEPrefixAReduction [no-change]: *l*ū*s
@@ -18997,6 +19147,7 @@ OEAwwjResolution [no-change]: *l*ú*s*t*u
 OEAuBrightening [no-change]: *l*ú*s*t*u
 OEEwLongDiphthong [no-change]: *l*ú*s*t*u
 OEJWWSimplification [no-change]: *l*ú*s*t*u
+OEJGlideIO [no-change]: *l*ú*s*t*u
 OEDiphthongLeveling [no-change]: *l*ú*s*t*u
 OEAwLongDiphthong [no-change]: *l*ú*s*t*u
 OEPrefixAReduction [no-change]: *l*ú*s*t*u
@@ -19123,6 +19274,7 @@ OEAwwjResolution [no-change]: *l*áu*g*u
 OEAuBrightening: *l*áeu*g*u
 OEEwLongDiphthong [no-change]: *l*áeu*g*u
 OEJWWSimplification [no-change]: *l*áeu*g*u
+OEJGlideIO [no-change]: *l*áeu*g*u
 OEDiphthongLeveling: *l*ēa*g*u
 OEAwLongDiphthong [no-change]: *l*ēa*g*u
 OEPrefixAReduction [no-change]: *l*ēa*g*u
@@ -19249,6 +19401,7 @@ OEAwwjResolution [no-change]: *m*á*k*ō*j*a*n*ą
 OEAuBrightening [no-change]: *m*á*k*ō*j*a*n*ą
 OEEwLongDiphthong [no-change]: *m*á*k*ō*j*a*n*ą
 OEJWWSimplification [no-change]: *m*á*k*ō*j*a*n*ą
+OEJGlideIO [no-change]: *m*á*k*ō*j*a*n*ą
 OEDiphthongLeveling [no-change]: *m*á*k*ō*j*a*n*ą
 OEAwLongDiphthong [no-change]: *m*á*k*ō*j*a*n*ą
 OEPrefixAReduction [no-change]: *m*á*k*ō*j*a*n*ą
@@ -19375,6 +19528,7 @@ OEAwwjResolution [no-change]: *m*á*l*t*a
 OEAuBrightening [no-change]: *m*á*l*t*a
 OEEwLongDiphthong [no-change]: *m*á*l*t*a
 OEJWWSimplification [no-change]: *m*á*l*t*a
+OEJGlideIO [no-change]: *m*á*l*t*a
 OEDiphthongLeveling [no-change]: *m*á*l*t*a
 OEAwLongDiphthong [no-change]: *m*á*l*t*a
 OEPrefixAReduction [no-change]: *m*á*l*t*a
@@ -19502,6 +19656,7 @@ OEAwwjResolution [no-change]: *m*á*r*k*u
 OEAuBrightening [no-change]: *m*á*r*k*u
 OEEwLongDiphthong [no-change]: *m*á*r*k*u
 OEJWWSimplification [no-change]: *m*á*r*k*u
+OEJGlideIO [no-change]: *m*á*r*k*u
 OEDiphthongLeveling [no-change]: *m*á*r*k*u
 OEAwLongDiphthong [no-change]: *m*á*r*k*u
 OEPrefixAReduction [no-change]: *m*á*r*k*u
@@ -19628,6 +19783,7 @@ OEAwwjResolution [no-change]: *m*á*s*t*a
 OEAuBrightening [no-change]: *m*á*s*t*a
 OEEwLongDiphthong [no-change]: *m*á*s*t*a
 OEJWWSimplification [no-change]: *m*á*s*t*a
+OEJGlideIO [no-change]: *m*á*s*t*a
 OEDiphthongLeveling [no-change]: *m*á*s*t*a
 OEAwLongDiphthong [no-change]: *m*á*s*t*a
 OEPrefixAReduction [no-change]: *m*á*s*t*a
@@ -19754,6 +19910,7 @@ OEAwwjResolution [no-change]: *m*ǣ*l*ą
 OEAuBrightening [no-change]: *m*ǣ*l*ą
 OEEwLongDiphthong [no-change]: *m*ǣ*l*ą
 OEJWWSimplification [no-change]: *m*ǣ*l*ą
+OEJGlideIO [no-change]: *m*ǣ*l*ą
 OEDiphthongLeveling [no-change]: *m*ǣ*l*ą
 OEAwLongDiphthong [no-change]: *m*ǣ*l*ą
 OEPrefixAReduction [no-change]: *m*ǣ*l*ą
@@ -19880,6 +20037,7 @@ OEAwwjResolution [no-change]: *m*ā*n*i*j*a*n*ą
 OEAuBrightening [no-change]: *m*ā*n*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *m*ā*n*i*j*a*n*ą
 OEJWWSimplification [no-change]: *m*ā*n*i*j*a*n*ą
+OEJGlideIO [no-change]: *m*ā*n*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *m*ā*n*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *m*ā*n*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *m*ā*n*i*j*a*n*ą
@@ -20006,6 +20164,7 @@ OEAwwjResolution [no-change]: *m*á*x*t*i
 OEAuBrightening [no-change]: *m*á*x*t*i
 OEEwLongDiphthong [no-change]: *m*á*x*t*i
 OEJWWSimplification [no-change]: *m*á*x*t*i
+OEJGlideIO [no-change]: *m*á*x*t*i
 OEDiphthongLeveling [no-change]: *m*á*x*t*i
 OEAwLongDiphthong [no-change]: *m*á*x*t*i
 OEPrefixAReduction [no-change]: *m*á*x*t*i
@@ -20133,6 +20292,7 @@ OEAwwjResolution [no-change]: *m*é*l*u*k
 OEAuBrightening [no-change]: *m*é*l*u*k
 OEEwLongDiphthong [no-change]: *m*é*l*u*k
 OEJWWSimplification [no-change]: *m*é*l*u*k
+OEJGlideIO [no-change]: *m*é*l*u*k
 OEDiphthongLeveling [no-change]: *m*é*l*u*k
 OEAwLongDiphthong [no-change]: *m*é*l*u*k
 OEPrefixAReduction [no-change]: *m*é*l*u*k
@@ -20259,6 +20419,7 @@ OEAwwjResolution [no-change]: *m*ō*n*ō*θ
 OEAuBrightening [no-change]: *m*ō*n*ō*θ
 OEEwLongDiphthong [no-change]: *m*ō*n*ō*θ
 OEJWWSimplification [no-change]: *m*ō*n*ō*θ
+OEJGlideIO [no-change]: *m*ō*n*ō*θ
 OEDiphthongLeveling [no-change]: *m*ō*n*ō*θ
 OEAwLongDiphthong [no-change]: *m*ō*n*ō*θ
 OEPrefixAReduction [no-change]: *m*ō*n*ō*θ
@@ -20385,6 +20546,7 @@ OEAwwjResolution [no-change]: *m*ō*d*a
 OEAuBrightening [no-change]: *m*ō*d*a
 OEEwLongDiphthong [no-change]: *m*ō*d*a
 OEJWWSimplification [no-change]: *m*ō*d*a
+OEJGlideIO [no-change]: *m*ō*d*a
 OEDiphthongLeveling [no-change]: *m*ō*d*a
 OEAwLongDiphthong [no-change]: *m*ō*d*a
 OEPrefixAReduction [no-change]: *m*ō*d*a
@@ -20512,6 +20674,7 @@ OEAwwjResolution [no-change]: *m*ō*d*ē*r
 OEAuBrightening [no-change]: *m*ō*d*ē*r
 OEEwLongDiphthong [no-change]: *m*ō*d*ē*r
 OEJWWSimplification [no-change]: *m*ō*d*ē*r
+OEJGlideIO [no-change]: *m*ō*d*ē*r
 OEDiphthongLeveling [no-change]: *m*ō*d*ē*r
 OEAwLongDiphthong [no-change]: *m*ō*d*ē*r
 OEPrefixAReduction [no-change]: *m*ō*d*ē*r
@@ -20638,6 +20801,7 @@ OEAwwjResolution [no-change]: *n*á*g*l*a
 OEAuBrightening [no-change]: *n*á*g*l*a
 OEEwLongDiphthong [no-change]: *n*á*g*l*a
 OEJWWSimplification [no-change]: *n*á*g*l*a
+OEJGlideIO [no-change]: *n*á*g*l*a
 OEDiphthongLeveling [no-change]: *n*á*g*l*a
 OEAwLongDiphthong [no-change]: *n*á*g*l*a
 OEPrefixAReduction [no-change]: *n*á*g*l*a
@@ -20764,6 +20928,7 @@ OEAwwjResolution [no-change]: *n*á*m*ô
 OEAuBrightening [no-change]: *n*á*m*ô
 OEEwLongDiphthong [no-change]: *n*á*m*ô
 OEJWWSimplification [no-change]: *n*á*m*ô
+OEJGlideIO [no-change]: *n*á*m*ô
 OEDiphthongLeveling [no-change]: *n*á*m*ô
 OEAwLongDiphthong [no-change]: *n*á*m*ô
 OEPrefixAReduction [no-change]: *n*á*m*ô
@@ -20890,6 +21055,7 @@ OEAwwjResolution [no-change]: *n*á*b*u
 OEAuBrightening [no-change]: *n*á*b*u
 OEEwLongDiphthong [no-change]: *n*á*b*u
 OEJWWSimplification [no-change]: *n*á*b*u
+OEJGlideIO [no-change]: *n*á*b*u
 OEDiphthongLeveling [no-change]: *n*á*b*u
 OEAwLongDiphthong [no-change]: *n*á*b*u
 OEPrefixAReduction [no-change]: *n*á*b*u
@@ -21016,6 +21182,7 @@ OEAwwjResolution [no-change]: *n*áu*d*i
 OEAuBrightening: *n*áeu*d*i
 OEEwLongDiphthong [no-change]: *n*áeu*d*i
 OEJWWSimplification [no-change]: *n*áeu*d*i
+OEJGlideIO [no-change]: *n*áeu*d*i
 OEDiphthongLeveling: *n*ēa*d*i
 OEAwLongDiphthong [no-change]: *n*ēa*d*i
 OEPrefixAReduction [no-change]: *n*ēa*d*i
@@ -21142,6 +21309,7 @@ OEAwwjResolution [no-change]: *n*é*s*t*ą
 OEAuBrightening [no-change]: *n*é*s*t*ą
 OEEwLongDiphthong [no-change]: *n*é*s*t*ą
 OEJWWSimplification [no-change]: *n*é*s*t*ą
+OEJGlideIO [no-change]: *n*é*s*t*ą
 OEDiphthongLeveling [no-change]: *n*é*s*t*ą
 OEAwLongDiphthong [no-change]: *n*é*s*t*ą
 OEPrefixAReduction [no-change]: *n*é*s*t*ą
@@ -21269,6 +21437,7 @@ OEAwwjResolution [no-change]: *n*á*t*t*j*ą
 OEAuBrightening [no-change]: *n*á*t*t*j*ą
 OEEwLongDiphthong [no-change]: *n*á*t*t*j*ą
 OEJWWSimplification [no-change]: *n*á*t*t*j*ą
+OEJGlideIO [no-change]: *n*á*t*t*j*ą
 OEDiphthongLeveling [no-change]: *n*á*t*t*j*ą
 OEAwLongDiphthong [no-change]: *n*á*t*t*j*ą
 OEPrefixAReduction [no-change]: *n*á*t*t*j*ą
@@ -21395,6 +21564,7 @@ OEAwwjResolution [no-change]: *n*á*t*i*l*ǭ
 OEAuBrightening [no-change]: *n*á*t*i*l*ǭ
 OEEwLongDiphthong [no-change]: *n*á*t*i*l*ǭ
 OEJWWSimplification [no-change]: *n*á*t*i*l*ǭ
+OEJGlideIO [no-change]: *n*á*t*i*l*ǭ
 OEDiphthongLeveling [no-change]: *n*á*t*i*l*ǭ
 OEAwLongDiphthong [no-change]: *n*á*t*i*l*ǭ
 OEPrefixAReduction [no-change]: *n*á*t*i*l*ǭ
@@ -21522,6 +21692,7 @@ OEAwwjResolution [no-change]: *m*á*r*ǭ
 OEAuBrightening [no-change]: *m*á*r*ǭ
 OEEwLongDiphthong [no-change]: *m*á*r*ǭ
 OEJWWSimplification [no-change]: *m*á*r*ǭ
+OEJGlideIO [no-change]: *m*á*r*ǭ
 OEDiphthongLeveling [no-change]: *m*á*r*ǭ
 OEAwLongDiphthong [no-change]: *m*á*r*ǭ
 OEPrefixAReduction [no-change]: *m*á*r*ǭ
@@ -21648,6 +21819,7 @@ OEAwwjResolution [no-change]: *n*í*g*u*n
 OEAuBrightening [no-change]: *n*í*g*u*n
 OEEwLongDiphthong [no-change]: *n*í*g*u*n
 OEJWWSimplification [no-change]: *n*í*g*u*n
+OEJGlideIO [no-change]: *n*í*g*u*n
 OEDiphthongLeveling [no-change]: *n*í*g*u*n
 OEAwLongDiphthong [no-change]: *n*í*g*u*n
 OEPrefixAReduction [no-change]: *n*í*g*u*n
@@ -21774,6 +21946,7 @@ OEAwwjResolution [no-change]: *ā*n*a
 OEAuBrightening [no-change]: *ā*n*a
 OEEwLongDiphthong [no-change]: *ā*n*a
 OEJWWSimplification [no-change]: *ā*n*a
+OEJGlideIO [no-change]: *ā*n*a
 OEDiphthongLeveling [no-change]: *ā*n*a
 OEAwLongDiphthong [no-change]: *ā*n*a
 OEPrefixAReduction [no-change]: *ā*n*a
@@ -21900,6 +22073,7 @@ OEAwwjResolution [no-change]: *ó*f*n*a
 OEAuBrightening [no-change]: *ó*f*n*a
 OEEwLongDiphthong [no-change]: *ó*f*n*a
 OEJWWSimplification [no-change]: *ó*f*n*a
+OEJGlideIO [no-change]: *ó*f*n*a
 OEDiphthongLeveling [no-change]: *ó*f*n*a
 OEAwLongDiphthong [no-change]: *ó*f*n*a
 OEPrefixAReduction [no-change]: *ó*f*n*a
@@ -22026,6 +22200,7 @@ OEAwwjResolution [no-change]: *ó*x*s*ô
 OEAuBrightening [no-change]: *ó*x*s*ô
 OEEwLongDiphthong [no-change]: *ó*x*s*ô
 OEJWWSimplification [no-change]: *ó*x*s*ô
+OEJGlideIO [no-change]: *ó*x*s*ô
 OEDiphthongLeveling [no-change]: *ó*x*s*ô
 OEAwLongDiphthong [no-change]: *ó*x*s*ô
 OEPrefixAReduction [no-change]: *ó*x*s*ô
@@ -22152,6 +22327,7 @@ OEAwwjResolution [no-change]: *r*é*g*n*ą
 OEAuBrightening [no-change]: *r*é*g*n*ą
 OEEwLongDiphthong [no-change]: *r*é*g*n*ą
 OEJWWSimplification [no-change]: *r*é*g*n*ą
+OEJGlideIO [no-change]: *r*é*g*n*ą
 OEDiphthongLeveling [no-change]: *r*é*g*n*ą
 OEAwLongDiphthong [no-change]: *r*é*g*n*ą
 OEPrefixAReduction [no-change]: *r*é*g*n*ą
@@ -22278,6 +22454,7 @@ OEAwwjResolution [no-change]: *r*é*g*n*a*b*ù*g*ô
 OEAuBrightening [no-change]: *r*é*g*n*a*b*ù*g*ô
 OEEwLongDiphthong [no-change]: *r*é*g*n*a*b*ù*g*ô
 OEJWWSimplification [no-change]: *r*é*g*n*a*b*ù*g*ô
+OEJGlideIO [no-change]: *r*é*g*n*a*b*ù*g*ô
 OEDiphthongLeveling [no-change]: *r*é*g*n*a*b*ù*g*ô
 OEAwLongDiphthong [no-change]: *r*é*g*n*a*b*ù*g*ô
 OEPrefixAReduction [no-change]: *r*é*g*n*a*b*ù*g*ô
@@ -22404,6 +22581,7 @@ OEAwwjResolution [no-change]: *x*r*á*b*n*a
 OEAuBrightening [no-change]: *x*r*á*b*n*a
 OEEwLongDiphthong [no-change]: *x*r*á*b*n*a
 OEJWWSimplification [no-change]: *x*r*á*b*n*a
+OEJGlideIO [no-change]: *x*r*á*b*n*a
 OEDiphthongLeveling [no-change]: *x*r*á*b*n*a
 OEAwLongDiphthong [no-change]: *x*r*á*b*n*a
 OEPrefixAReduction [no-change]: *x*r*á*b*n*a
@@ -22530,6 +22708,7 @@ OEAwwjResolution [no-change]: *r*ǣ*d*a*n*ą
 OEAuBrightening [no-change]: *r*ǣ*d*a*n*ą
 OEEwLongDiphthong [no-change]: *r*ǣ*d*a*n*ą
 OEJWWSimplification [no-change]: *r*ǣ*d*a*n*ą
+OEJGlideIO [no-change]: *r*ǣ*d*a*n*ą
 OEDiphthongLeveling [no-change]: *r*ǣ*d*a*n*ą
 OEAwLongDiphthong [no-change]: *r*ǣ*d*a*n*ą
 OEPrefixAReduction [no-change]: *r*ǣ*d*a*n*ą
@@ -22656,6 +22835,7 @@ OEAwwjResolution [no-change]: *r*ḯ*d*a*n*ą
 OEAuBrightening [no-change]: *r*ḯ*d*a*n*ą
 OEEwLongDiphthong [no-change]: *r*ḯ*d*a*n*ą
 OEJWWSimplification [no-change]: *r*ḯ*d*a*n*ą
+OEJGlideIO [no-change]: *r*ḯ*d*a*n*ą
 OEDiphthongLeveling [no-change]: *r*ḯ*d*a*n*ą
 OEAwLongDiphthong [no-change]: *r*ḯ*d*a*n*ą
 OEPrefixAReduction [no-change]: *r*ḯ*d*a*n*ą
@@ -22782,6 +22962,7 @@ OEAwwjResolution [no-change]: *r*í*n*d*u
 OEAuBrightening [no-change]: *r*í*n*d*u
 OEEwLongDiphthong [no-change]: *r*í*n*d*u
 OEJWWSimplification [no-change]: *r*í*n*d*u
+OEJGlideIO [no-change]: *r*í*n*d*u
 OEDiphthongLeveling [no-change]: *r*í*n*d*u
 OEAwLongDiphthong [no-change]: *r*í*n*d*u
 OEPrefixAReduction [no-change]: *r*í*n*d*u
@@ -22908,6 +23089,7 @@ OEAwwjResolution [no-change]: *r*ō*d*u
 OEAuBrightening [no-change]: *r*ō*d*u
 OEEwLongDiphthong [no-change]: *r*ō*d*u
 OEJWWSimplification [no-change]: *r*ō*d*u
+OEJGlideIO [no-change]: *r*ō*d*u
 OEDiphthongLeveling [no-change]: *r*ō*d*u
 OEAwLongDiphthong [no-change]: *r*ō*d*u
 OEPrefixAReduction [no-change]: *r*ō*d*u
@@ -23034,6 +23216,7 @@ OEAwwjResolution [no-change]: *r*ū*m*ą
 OEAuBrightening [no-change]: *r*ū*m*ą
 OEEwLongDiphthong [no-change]: *r*ū*m*ą
 OEJWWSimplification [no-change]: *r*ū*m*ą
+OEJGlideIO [no-change]: *r*ū*m*ą
 OEDiphthongLeveling [no-change]: *r*ū*m*ą
 OEAwLongDiphthong [no-change]: *r*ū*m*ą
 OEPrefixAReduction [no-change]: *r*ū*m*ą
@@ -23160,6 +23343,7 @@ OEAwwjResolution [no-change]: *r*ā*p*ą
 OEAuBrightening [no-change]: *r*ā*p*ą
 OEEwLongDiphthong [no-change]: *r*ā*p*ą
 OEJWWSimplification [no-change]: *r*ā*p*ą
+OEJGlideIO [no-change]: *r*ā*p*ą
 OEDiphthongLeveling [no-change]: *r*ā*p*ą
 OEAwLongDiphthong [no-change]: *r*ā*p*ą
 OEPrefixAReduction [no-change]: *r*ā*p*ą
@@ -23286,6 +23470,7 @@ OEAwwjResolution [no-change]: *r*ō*θ*r*a
 OEAuBrightening [no-change]: *r*ō*θ*r*a
 OEEwLongDiphthong [no-change]: *r*ō*θ*r*a
 OEJWWSimplification [no-change]: *r*ō*θ*r*a
+OEJGlideIO [no-change]: *r*ō*θ*r*a
 OEDiphthongLeveling [no-change]: *r*ō*θ*r*a
 OEAwLongDiphthong [no-change]: *r*ō*θ*r*a
 OEPrefixAReduction [no-change]: *r*ō*θ*r*a
@@ -23412,6 +23597,7 @@ OEAwwjResolution [no-change]: *r*í*n*n*a*n*ą
 OEAuBrightening [no-change]: *r*í*n*n*a*n*ą
 OEEwLongDiphthong [no-change]: *r*í*n*n*a*n*ą
 OEJWWSimplification [no-change]: *r*í*n*n*a*n*ą
+OEJGlideIO [no-change]: *r*í*n*n*a*n*ą
 OEDiphthongLeveling [no-change]: *r*í*n*n*a*n*ą
 OEAwLongDiphthong [no-change]: *r*í*n*n*a*n*ą
 OEPrefixAReduction [no-change]: *r*í*n*n*a*n*ą
@@ -23538,6 +23724,7 @@ OEAwwjResolution [no-change]: *r*ú*g*i
 OEAuBrightening [no-change]: *r*ú*g*i
 OEEwLongDiphthong [no-change]: *r*ú*g*i
 OEJWWSimplification [no-change]: *r*ú*g*i
+OEJGlideIO [no-change]: *r*ú*g*i
 OEDiphthongLeveling [no-change]: *r*ú*g*i
 OEAwLongDiphthong [no-change]: *r*ú*g*i
 OEPrefixAReduction [no-change]: *r*ú*g*i
@@ -23664,6 +23851,7 @@ OEAwwjResolution [no-change]: *s*é*g*l*ą
 OEAuBrightening [no-change]: *s*é*g*l*ą
 OEEwLongDiphthong [no-change]: *s*é*g*l*ą
 OEJWWSimplification [no-change]: *s*é*g*l*ą
+OEJGlideIO [no-change]: *s*é*g*l*ą
 OEDiphthongLeveling [no-change]: *s*é*g*l*ą
 OEAwLongDiphthong [no-change]: *s*é*g*l*ą
 OEPrefixAReduction [no-change]: *s*é*g*l*ą
@@ -23790,6 +23978,7 @@ OEAwwjResolution [no-change]: *s*á*k*u
 OEAuBrightening [no-change]: *s*á*k*u
 OEEwLongDiphthong [no-change]: *s*á*k*u
 OEJWWSimplification [no-change]: *s*á*k*u
+OEJGlideIO [no-change]: *s*á*k*u
 OEDiphthongLeveling [no-change]: *s*á*k*u
 OEAwLongDiphthong [no-change]: *s*á*k*u
 OEPrefixAReduction [no-change]: *s*á*k*u
@@ -23916,6 +24105,7 @@ OEAwwjResolution [no-change]: *s*á*l*t*ą
 OEAuBrightening [no-change]: *s*á*l*t*ą
 OEEwLongDiphthong [no-change]: *s*á*l*t*ą
 OEJWWSimplification [no-change]: *s*á*l*t*ą
+OEJGlideIO [no-change]: *s*á*l*t*ą
 OEDiphthongLeveling [no-change]: *s*á*l*t*ą
 OEAwLongDiphthong [no-change]: *s*á*l*t*ą
 OEPrefixAReduction [no-change]: *s*á*l*t*ą
@@ -24042,6 +24232,7 @@ OEAwwjResolution [no-change]: *s*á*l*b*u
 OEAuBrightening [no-change]: *s*á*l*b*u
 OEEwLongDiphthong [no-change]: *s*á*l*b*u
 OEJWWSimplification [no-change]: *s*á*l*b*u
+OEJGlideIO [no-change]: *s*á*l*b*u
 OEDiphthongLeveling [no-change]: *s*á*l*b*u
 OEAwLongDiphthong [no-change]: *s*á*l*b*u
 OEPrefixAReduction [no-change]: *s*á*l*b*u
@@ -24168,6 +24359,7 @@ OEAwwjResolution [no-change]: *s*áu*m*a
 OEAuBrightening: *s*áeu*m*a
 OEEwLongDiphthong [no-change]: *s*áeu*m*a
 OEJWWSimplification [no-change]: *s*áeu*m*a
+OEJGlideIO [no-change]: *s*áeu*m*a
 OEDiphthongLeveling: *s*ēa*m*a
 OEAwLongDiphthong [no-change]: *s*ēa*m*a
 OEPrefixAReduction [no-change]: *s*ēa*m*a
@@ -24294,6 +24486,7 @@ OEAwwjResolution [no-change]: *s*ō*k*i*j*a*n*ą
 OEAuBrightening [no-change]: *s*ō*k*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*ō*k*i*j*a*n*ą
 OEJWWSimplification [no-change]: *s*ō*k*i*j*a*n*ą
+OEJGlideIO [no-change]: *s*ō*k*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*ō*k*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*ō*k*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*ō*k*i*j*a*n*ą
@@ -24420,6 +24613,7 @@ OEAwwjResolution [no-change]: *s*á*n*d*i*j*a*n*ą
 OEAuBrightening [no-change]: *s*á*n*d*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*á*n*d*i*j*a*n*ą
 OEJWWSimplification [no-change]: *s*á*n*d*i*j*a*n*ą
+OEJGlideIO [no-change]: *s*á*n*d*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*á*n*d*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*á*n*d*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*á*n*d*i*j*a*n*ą
@@ -24546,6 +24740,7 @@ OEAwwjResolution [no-change]: *s*á*t*t*j*a*n*ą
 OEAuBrightening [no-change]: *s*á*t*t*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*á*t*t*j*a*n*ą
 OEJWWSimplification [no-change]: *s*á*t*t*j*a*n*ą
+OEJGlideIO [no-change]: *s*á*t*t*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*á*t*t*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*á*t*t*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*á*t*t*j*a*n*ą
@@ -24672,6 +24867,7 @@ OEAwwjResolution [no-change]: *s*é*b*u*n
 OEAuBrightening [no-change]: *s*é*b*u*n
 OEEwLongDiphthong [no-change]: *s*é*b*u*n
 OEJWWSimplification [no-change]: *s*é*b*u*n
+OEJGlideIO [no-change]: *s*é*b*u*n
 OEDiphthongLeveling [no-change]: *s*é*b*u*n
 OEAwLongDiphthong [no-change]: *s*é*b*u*n
 OEPrefixAReduction [no-change]: *s*é*b*u*n
@@ -24798,6 +24994,7 @@ OEAwwjResolution [no-change]: *s*k*á*f*t*ą
 OEAuBrightening [no-change]: *s*k*á*f*t*ą
 OEEwLongDiphthong [no-change]: *s*k*á*f*t*ą
 OEJWWSimplification [no-change]: *s*k*á*f*t*ą
+OEJGlideIO [no-change]: *s*k*á*f*t*ą
 OEDiphthongLeveling [no-change]: *s*k*á*f*t*ą
 OEAwLongDiphthong [no-change]: *s*k*á*f*t*ą
 OEPrefixAReduction [no-change]: *s*k*á*f*t*ą
@@ -24924,6 +25121,7 @@ OEAwwjResolution [no-change]: *s*k*á*m*u
 OEAuBrightening [no-change]: *s*k*á*m*u
 OEEwLongDiphthong [no-change]: *s*k*á*m*u
 OEJWWSimplification [no-change]: *s*k*á*m*u
+OEJGlideIO [no-change]: *s*k*á*m*u
 OEDiphthongLeveling [no-change]: *s*k*á*m*u
 OEAwLongDiphthong [no-change]: *s*k*á*m*u
 OEPrefixAReduction [no-change]: *s*k*á*m*u
@@ -25050,6 +25248,7 @@ OEAwwjResolution [no-change]: *s*k*é*r*a*n*ą
 OEAuBrightening [no-change]: *s*k*é*r*a*n*ą
 OEEwLongDiphthong [no-change]: *s*k*é*r*a*n*ą
 OEJWWSimplification [no-change]: *s*k*é*r*a*n*ą
+OEJGlideIO [no-change]: *s*k*é*r*a*n*ą
 OEDiphthongLeveling [no-change]: *s*k*é*r*a*n*ą
 OEAwLongDiphthong [no-change]: *s*k*é*r*a*n*ą
 OEPrefixAReduction [no-change]: *s*k*é*r*a*n*ą
@@ -25176,6 +25375,7 @@ OEAwwjResolution [no-change]: *s*k*ā*θ*i
 OEAuBrightening [no-change]: *s*k*ā*θ*i
 OEEwLongDiphthong [no-change]: *s*k*ā*θ*i
 OEJWWSimplification [no-change]: *s*k*ā*θ*i
+OEJGlideIO [no-change]: *s*k*ā*θ*i
 OEDiphthongLeveling [no-change]: *s*k*ā*θ*i
 OEAwLongDiphthong [no-change]: *s*k*ā*θ*i
 OEPrefixAReduction [no-change]: *s*k*ā*θ*i
@@ -25303,6 +25503,7 @@ OEAwwjResolution [no-change]: *s*k*ǣ*p*ą
 OEAuBrightening [no-change]: *s*k*ǣ*p*ą
 OEEwLongDiphthong [no-change]: *s*k*ǣ*p*ą
 OEJWWSimplification [no-change]: *s*k*ǣ*p*ą
+OEJGlideIO [no-change]: *s*k*ǣ*p*ą
 OEDiphthongLeveling [no-change]: *s*k*ǣ*p*ą
 OEAwLongDiphthong [no-change]: *s*k*ǣ*p*ą
 OEPrefixAReduction [no-change]: *s*k*ǣ*p*ą
@@ -25429,6 +25630,7 @@ OEAwwjResolution [no-change]: *s*k*é*l*d*u
 OEAuBrightening [no-change]: *s*k*é*l*d*u
 OEEwLongDiphthong [no-change]: *s*k*é*l*d*u
 OEJWWSimplification [no-change]: *s*k*é*l*d*u
+OEJGlideIO [no-change]: *s*k*é*l*d*u
 OEDiphthongLeveling [no-change]: *s*k*é*l*d*u
 OEAwLongDiphthong [no-change]: *s*k*é*l*d*u
 OEPrefixAReduction [no-change]: *s*k*é*l*d*u
@@ -25556,6 +25758,7 @@ OEAwwjResolution [no-change]: *s*k*í*l*l*i*n*g*a
 OEAuBrightening [no-change]: *s*k*í*l*l*i*n*g*a
 OEEwLongDiphthong [no-change]: *s*k*í*l*l*i*n*g*a
 OEJWWSimplification [no-change]: *s*k*í*l*l*i*n*g*a
+OEJGlideIO [no-change]: *s*k*í*l*l*i*n*g*a
 OEDiphthongLeveling [no-change]: *s*k*í*l*l*i*n*g*a
 OEAwLongDiphthong [no-change]: *s*k*í*l*l*i*n*g*a
 OEPrefixAReduction [no-change]: *s*k*í*l*l*i*n*g*a
@@ -25682,6 +25885,7 @@ OEAwwjResolution [no-change]: *s*k*ḯ*n*a*n*ą
 OEAuBrightening [no-change]: *s*k*ḯ*n*a*n*ą
 OEEwLongDiphthong [no-change]: *s*k*ḯ*n*a*n*ą
 OEJWWSimplification [no-change]: *s*k*ḯ*n*a*n*ą
+OEJGlideIO [no-change]: *s*k*ḯ*n*a*n*ą
 OEDiphthongLeveling [no-change]: *s*k*ḯ*n*a*n*ą
 OEAwLongDiphthong [no-change]: *s*k*ḯ*n*a*n*ą
 OEPrefixAReduction [no-change]: *s*k*ḯ*n*a*n*ą
@@ -25808,6 +26012,7 @@ OEAwwjResolution [no-change]: *s*k*ó*f*l*u
 OEAuBrightening [no-change]: *s*k*ó*f*l*u
 OEEwLongDiphthong [no-change]: *s*k*ó*f*l*u
 OEJWWSimplification [no-change]: *s*k*ó*f*l*u
+OEJGlideIO [no-change]: *s*k*ó*f*l*u
 OEDiphthongLeveling [no-change]: *s*k*ó*f*l*u
 OEAwLongDiphthong [no-change]: *s*k*ó*f*l*u
 OEPrefixAReduction [no-change]: *s*k*ó*f*l*u
@@ -25935,6 +26140,7 @@ OEAwwjResolution [no-change]: *s*k*á*w*ō*j*a*n*ą
 OEAuBrightening [no-change]: *s*k*á*w*ō*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*k*á*w*ō*j*a*n*ą
 OEJWWSimplification [no-change]: *s*k*á*w*ō*j*a*n*ą
+OEJGlideIO [no-change]: *s*k*á*w*ō*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*k*á*w*ō*j*a*n*ą
 OEAwLongDiphthong: *s*k*ḗa*w*ō*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*k*ḗa*w*ō*j*a*n*ą
@@ -26061,6 +26267,7 @@ OEAwwjResolution [no-change]: *s*k*ū*r*u
 OEAuBrightening [no-change]: *s*k*ū*r*u
 OEEwLongDiphthong [no-change]: *s*k*ū*r*u
 OEJWWSimplification [no-change]: *s*k*ū*r*u
+OEJGlideIO [no-change]: *s*k*ū*r*u
 OEDiphthongLeveling [no-change]: *s*k*ū*r*u
 OEAwLongDiphthong [no-change]: *s*k*ū*r*u
 OEPrefixAReduction [no-change]: *s*k*ū*r*u
@@ -26187,6 +26394,7 @@ OEAwwjResolution [no-change]: *s*ḯ*d*ǭ
 OEAuBrightening [no-change]: *s*ḯ*d*ǭ
 OEEwLongDiphthong [no-change]: *s*ḯ*d*ǭ
 OEJWWSimplification [no-change]: *s*ḯ*d*ǭ
+OEJGlideIO [no-change]: *s*ḯ*d*ǭ
 OEDiphthongLeveling [no-change]: *s*ḯ*d*ǭ
 OEAwLongDiphthong [no-change]: *s*ḯ*d*ǭ
 OEPrefixAReduction [no-change]: *s*ḯ*d*ǭ
@@ -26313,6 +26521,7 @@ OEAwwjResolution [no-change]: *s*í*n*g*w*a*n*ą
 OEAuBrightening [no-change]: *s*í*n*g*w*a*n*ą
 OEEwLongDiphthong [no-change]: *s*í*n*g*w*a*n*ą
 OEJWWSimplification [no-change]: *s*í*n*g*w*a*n*ą
+OEJGlideIO [no-change]: *s*í*n*g*w*a*n*ą
 OEDiphthongLeveling [no-change]: *s*í*n*g*w*a*n*ą
 OEAwLongDiphthong [no-change]: *s*í*n*g*w*a*n*ą
 OEPrefixAReduction [no-change]: *s*í*n*g*w*a*n*ą
@@ -26439,6 +26648,7 @@ OEAwwjResolution [no-change]: *s*á*n*g*i*j*a*n*ą
 OEAuBrightening [no-change]: *s*á*n*g*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*á*n*g*i*j*a*n*ą
 OEJWWSimplification [no-change]: *s*á*n*g*i*j*a*n*ą
+OEJGlideIO [no-change]: *s*á*n*g*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*á*n*g*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*á*n*g*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*á*n*g*i*j*a*n*ą
@@ -26565,6 +26775,7 @@ OEAwwjResolution [no-change]: *s*w*é*s*t*ē*r
 OEAuBrightening [no-change]: *s*w*é*s*t*ē*r
 OEEwLongDiphthong [no-change]: *s*w*é*s*t*ē*r
 OEJWWSimplification [no-change]: *s*w*é*s*t*ē*r
+OEJGlideIO [no-change]: *s*w*é*s*t*ē*r
 OEDiphthongLeveling [no-change]: *s*w*é*s*t*ē*r
 OEAwLongDiphthong [no-change]: *s*w*é*s*t*ē*r
 OEPrefixAReduction [no-change]: *s*w*é*s*t*ē*r
@@ -26691,6 +26902,7 @@ OEAwwjResolution [no-change]: *s*é*t*t*j*a*n*ą
 OEAuBrightening [no-change]: *s*é*t*t*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*é*t*t*j*a*n*ą
 OEJWWSimplification [no-change]: *s*é*t*t*j*a*n*ą
+OEJGlideIO [no-change]: *s*é*t*t*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*é*t*t*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*é*t*t*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*é*t*t*j*a*n*ą
@@ -26817,6 +27029,7 @@ OEAwwjResolution [no-change]: *s*é*x*s
 OEAuBrightening [no-change]: *s*é*x*s
 OEEwLongDiphthong [no-change]: *s*é*x*s
 OEJWWSimplification [no-change]: *s*é*x*s
+OEJGlideIO [no-change]: *s*é*x*s
 OEDiphthongLeveling [no-change]: *s*é*x*s
 OEAwLongDiphthong [no-change]: *s*é*x*s
 OEPrefixAReduction [no-change]: *s*é*x*s
@@ -26943,6 +27156,7 @@ OEAwwjResolution [no-change]: *s*l*á*x*a*n*ą
 OEAuBrightening [no-change]: *s*l*á*x*a*n*ą
 OEEwLongDiphthong [no-change]: *s*l*á*x*a*n*ą
 OEJWWSimplification [no-change]: *s*l*á*x*a*n*ą
+OEJGlideIO [no-change]: *s*l*á*x*a*n*ą
 OEDiphthongLeveling [no-change]: *s*l*á*x*a*n*ą
 OEAwLongDiphthong [no-change]: *s*l*á*x*a*n*ą
 OEPrefixAReduction [no-change]: *s*l*á*x*a*n*ą
@@ -27070,6 +27284,7 @@ OEAwwjResolution [no-change]: *s*l*ǣ*p*a*n*ą
 OEAuBrightening [no-change]: *s*l*ǣ*p*a*n*ą
 OEEwLongDiphthong [no-change]: *s*l*ǣ*p*a*n*ą
 OEJWWSimplification [no-change]: *s*l*ǣ*p*a*n*ą
+OEJGlideIO [no-change]: *s*l*ǣ*p*a*n*ą
 OEDiphthongLeveling [no-change]: *s*l*ǣ*p*a*n*ą
 OEAwLongDiphthong [no-change]: *s*l*ǣ*p*a*n*ą
 OEPrefixAReduction [no-change]: *s*l*ǣ*p*a*n*ą
@@ -27196,6 +27411,7 @@ OEAwwjResolution [no-change]: *s*l*ḯ*m*ą
 OEAuBrightening [no-change]: *s*l*ḯ*m*ą
 OEEwLongDiphthong [no-change]: *s*l*ḯ*m*ą
 OEJWWSimplification [no-change]: *s*l*ḯ*m*ą
+OEJGlideIO [no-change]: *s*l*ḯ*m*ą
 OEDiphthongLeveling [no-change]: *s*l*ḯ*m*ą
 OEAwLongDiphthong [no-change]: *s*l*ḯ*m*ą
 OEPrefixAReduction [no-change]: *s*l*ḯ*m*ą
@@ -27323,6 +27539,7 @@ OEAwwjResolution [no-change]: *s*m*é*r*w*i*j*a*n*ą
 OEAuBrightening [no-change]: *s*m*é*r*w*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*m*é*r*w*i*j*a*n*ą
 OEJWWSimplification [no-change]: *s*m*é*r*w*i*j*a*n*ą
+OEJGlideIO [no-change]: *s*m*é*r*w*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*m*é*r*w*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*m*é*r*w*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*m*é*r*w*i*j*a*n*ą
@@ -27449,6 +27666,7 @@ OEAwwjResolution [no-change]: *s*n*ā*w*a
 OEAuBrightening [no-change]: *s*n*ā*w*a
 OEEwLongDiphthong [no-change]: *s*n*ā*w*a
 OEJWWSimplification [no-change]: *s*n*ā*w*a
+OEJGlideIO [no-change]: *s*n*ā*w*a
 OEDiphthongLeveling [no-change]: *s*n*ā*w*a
 OEAwLongDiphthong [no-change]: *s*n*ā*w*a
 OEPrefixAReduction [no-change]: *s*n*ā*w*a
@@ -27575,6 +27793,7 @@ OEAwwjResolution [no-change]: *s*ó*r*g*u
 OEAuBrightening [no-change]: *s*ó*r*g*u
 OEEwLongDiphthong [no-change]: *s*ó*r*g*u
 OEJWWSimplification [no-change]: *s*ó*r*g*u
+OEJGlideIO [no-change]: *s*ó*r*g*u
 OEDiphthongLeveling [no-change]: *s*ó*r*g*u
 OEAwLongDiphthong [no-change]: *s*ó*r*g*u
 OEPrefixAReduction [no-change]: *s*ó*r*g*u
@@ -27701,6 +27920,7 @@ OEAwwjResolution [no-change]: *s*ā*w*a*l*u
 OEAuBrightening [no-change]: *s*ā*w*a*l*u
 OEEwLongDiphthong [no-change]: *s*ā*w*a*l*u
 OEJWWSimplification [no-change]: *s*ā*w*a*l*u
+OEJGlideIO [no-change]: *s*ā*w*a*l*u
 OEDiphthongLeveling [no-change]: *s*ā*w*a*l*u
 OEAwLongDiphthong [no-change]: *s*ā*w*a*l*u
 OEPrefixAReduction [no-change]: *s*ā*w*a*l*u
@@ -27828,6 +28048,7 @@ OEAwwjResolution [no-change]: *s*ā*w*a*n*ą
 OEAuBrightening [no-change]: *s*ā*w*a*n*ą
 OEEwLongDiphthong [no-change]: *s*ā*w*a*n*ą
 OEJWWSimplification [no-change]: *s*ā*w*a*n*ą
+OEJGlideIO [no-change]: *s*ā*w*a*n*ą
 OEDiphthongLeveling [no-change]: *s*ā*w*a*n*ą
 OEAwLongDiphthong [no-change]: *s*ā*w*a*n*ą
 OEPrefixAReduction [no-change]: *s*ā*w*a*n*ą
@@ -27955,6 +28176,7 @@ OEAwwjResolution [no-change]: *s*p*á*n*n*a*n*ą
 OEAuBrightening [no-change]: *s*p*á*n*n*a*n*ą
 OEEwLongDiphthong [no-change]: *s*p*á*n*n*a*n*ą
 OEJWWSimplification [no-change]: *s*p*á*n*n*a*n*ą
+OEJGlideIO [no-change]: *s*p*á*n*n*a*n*ą
 OEDiphthongLeveling [no-change]: *s*p*á*n*n*a*n*ą
 OEAwLongDiphthong [no-change]: *s*p*á*n*n*a*n*ą
 OEPrefixAReduction [no-change]: *s*p*á*n*n*a*n*ą
@@ -28082,6 +28304,7 @@ OEAwwjResolution [no-change]: *s*p*á*r*r*ô
 OEAuBrightening [no-change]: *s*p*á*r*r*ô
 OEEwLongDiphthong [no-change]: *s*p*á*r*r*ô
 OEJWWSimplification [no-change]: *s*p*á*r*r*ô
+OEJGlideIO [no-change]: *s*p*á*r*r*ô
 OEDiphthongLeveling [no-change]: *s*p*á*r*r*ô
 OEAwLongDiphthong [no-change]: *s*p*á*r*r*ô
 OEPrefixAReduction [no-change]: *s*p*á*r*r*ô
@@ -28208,6 +28431,7 @@ OEAwwjResolution [no-change]: *s*p*é*r*u
 OEAuBrightening [no-change]: *s*p*é*r*u
 OEEwLongDiphthong [no-change]: *s*p*é*r*u
 OEJWWSimplification [no-change]: *s*p*é*r*u
+OEJGlideIO [no-change]: *s*p*é*r*u
 OEDiphthongLeveling [no-change]: *s*p*é*r*u
 OEAwLongDiphthong [no-change]: *s*p*é*r*u
 OEPrefixAReduction [no-change]: *s*p*é*r*u
@@ -28334,6 +28558,7 @@ OEAwwjResolution [no-change]: *s*p*í*n*n*a*n*ą
 OEAuBrightening [no-change]: *s*p*í*n*n*a*n*ą
 OEEwLongDiphthong [no-change]: *s*p*í*n*n*a*n*ą
 OEJWWSimplification [no-change]: *s*p*í*n*n*a*n*ą
+OEJGlideIO [no-change]: *s*p*í*n*n*a*n*ą
 OEDiphthongLeveling [no-change]: *s*p*í*n*n*a*n*ą
 OEAwLongDiphthong [no-change]: *s*p*í*n*n*a*n*ą
 OEPrefixAReduction [no-change]: *s*p*í*n*n*a*n*ą
@@ -28460,6 +28685,7 @@ OEAwwjResolution [no-change]: *s*p*é*n*n*i*l*u
 OEAuBrightening [no-change]: *s*p*é*n*n*i*l*u
 OEEwLongDiphthong [no-change]: *s*p*é*n*n*i*l*u
 OEJWWSimplification [no-change]: *s*p*é*n*n*i*l*u
+OEJGlideIO [no-change]: *s*p*é*n*n*i*l*u
 OEDiphthongLeveling [no-change]: *s*p*é*n*n*i*l*u
 OEAwLongDiphthong [no-change]: *s*p*é*n*n*i*l*u
 OEPrefixAReduction [no-change]: *s*p*é*n*n*i*l*u
@@ -28586,6 +28812,7 @@ OEAwwjResolution [no-change]: *s*p*ō*n*u
 OEAuBrightening [no-change]: *s*p*ō*n*u
 OEEwLongDiphthong [no-change]: *s*p*ō*n*u
 OEJWWSimplification [no-change]: *s*p*ō*n*u
+OEJGlideIO [no-change]: *s*p*ō*n*u
 OEDiphthongLeveling [no-change]: *s*p*ō*n*u
 OEAwLongDiphthong [no-change]: *s*p*ō*n*u
 OEPrefixAReduction [no-change]: *s*p*ō*n*u
@@ -28712,6 +28939,7 @@ OEAwwjResolution [no-change]: *s*p*r*ā*d*i*j*a*n*ą
 OEAuBrightening [no-change]: *s*p*r*ā*d*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*p*r*ā*d*i*j*a*n*ą
 OEJWWSimplification [no-change]: *s*p*r*ā*d*i*j*a*n*ą
+OEJGlideIO [no-change]: *s*p*r*ā*d*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*p*r*ā*d*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*p*r*ā*d*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*p*r*ā*d*i*j*a*n*ą
@@ -28838,6 +29066,7 @@ OEAwwjResolution [no-change]: *s*p*ó*r*ô
 OEAuBrightening [no-change]: *s*p*ó*r*ô
 OEEwLongDiphthong [no-change]: *s*p*ó*r*ô
 OEJWWSimplification [no-change]: *s*p*ó*r*ô
+OEJGlideIO [no-change]: *s*p*ó*r*ô
 OEDiphthongLeveling [no-change]: *s*p*ó*r*ô
 OEAwLongDiphthong [no-change]: *s*p*ó*r*ô
 OEPrefixAReduction [no-change]: *s*p*ó*r*ô
@@ -28964,6 +29193,7 @@ OEAwwjResolution [no-change]: *s*t*ú*r*t*i*j*a*n*ą
 OEAuBrightening [no-change]: *s*t*ú*r*t*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*t*ú*r*t*i*j*a*n*ą
 OEJWWSimplification [no-change]: *s*t*ú*r*t*i*j*a*n*ą
+OEJGlideIO [no-change]: *s*t*ú*r*t*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*t*ú*r*t*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*t*ú*r*t*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*t*ú*r*t*i*j*a*n*ą
@@ -29090,6 +29320,7 @@ OEAwwjResolution [no-change]: *s*t*é*r*b*a*n*ą
 OEAuBrightening [no-change]: *s*t*é*r*b*a*n*ą
 OEEwLongDiphthong [no-change]: *s*t*é*r*b*a*n*ą
 OEJWWSimplification [no-change]: *s*t*é*r*b*a*n*ą
+OEJGlideIO [no-change]: *s*t*é*r*b*a*n*ą
 OEDiphthongLeveling [no-change]: *s*t*é*r*b*a*n*ą
 OEAwLongDiphthong [no-change]: *s*t*é*r*b*a*n*ą
 OEPrefixAReduction [no-change]: *s*t*é*r*b*a*n*ą
@@ -29216,6 +29447,7 @@ OEAwwjResolution [no-change]: *s*t*é*l*a*n*ą
 OEAuBrightening [no-change]: *s*t*é*l*a*n*ą
 OEEwLongDiphthong [no-change]: *s*t*é*l*a*n*ą
 OEJWWSimplification [no-change]: *s*t*é*l*a*n*ą
+OEJGlideIO [no-change]: *s*t*é*l*a*n*ą
 OEDiphthongLeveling [no-change]: *s*t*é*l*a*n*ą
 OEAwLongDiphthong [no-change]: *s*t*é*l*a*n*ą
 OEPrefixAReduction [no-change]: *s*t*é*l*a*n*ą
@@ -29343,6 +29575,7 @@ OEAwwjResolution [no-change]: *s*t*é*l*l*i*j*a*n*ą
 OEAuBrightening [no-change]: *s*t*é*l*l*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*t*é*l*l*i*j*a*n*ą
 OEJWWSimplification [no-change]: *s*t*é*l*l*i*j*a*n*ą
+OEJGlideIO [no-change]: *s*t*é*l*l*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*t*é*l*l*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*t*é*l*l*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*t*é*l*l*i*j*a*n*ą
@@ -29469,6 +29702,7 @@ OEAwwjResolution [no-change]: *s*t*ó*k*k*a
 OEAuBrightening [no-change]: *s*t*ó*k*k*a
 OEEwLongDiphthong [no-change]: *s*t*ó*k*k*a
 OEJWWSimplification [no-change]: *s*t*ó*k*k*a
+OEJGlideIO [no-change]: *s*t*ó*k*k*a
 OEDiphthongLeveling [no-change]: *s*t*ó*k*k*a
 OEAwLongDiphthong [no-change]: *s*t*ó*k*k*a
 OEPrefixAReduction [no-change]: *s*t*ó*k*k*a
@@ -29595,6 +29829,7 @@ OEAwwjResolution [no-change]: *s*t*ā*n*a
 OEAuBrightening [no-change]: *s*t*ā*n*a
 OEEwLongDiphthong [no-change]: *s*t*ā*n*a
 OEJWWSimplification [no-change]: *s*t*ā*n*a
+OEJGlideIO [no-change]: *s*t*ā*n*a
 OEDiphthongLeveling [no-change]: *s*t*ā*n*a
 OEAwLongDiphthong [no-change]: *s*t*ā*n*a
 OEPrefixAReduction [no-change]: *s*t*ā*n*a
@@ -29721,6 +29956,7 @@ OEAwwjResolution [no-change]: *s*t*ō*l*a
 OEAuBrightening [no-change]: *s*t*ō*l*a
 OEEwLongDiphthong [no-change]: *s*t*ō*l*a
 OEJWWSimplification [no-change]: *s*t*ō*l*a
+OEJGlideIO [no-change]: *s*t*ō*l*a
 OEDiphthongLeveling [no-change]: *s*t*ō*l*a
 OEAwLongDiphthong [no-change]: *s*t*ō*l*a
 OEPrefixAReduction [no-change]: *s*t*ō*l*a
@@ -29847,6 +30083,7 @@ OEAwwjResolution [no-change]: *s*t*ó*r*k*a
 OEAuBrightening [no-change]: *s*t*ó*r*k*a
 OEEwLongDiphthong [no-change]: *s*t*ó*r*k*a
 OEJWWSimplification [no-change]: *s*t*ó*r*k*a
+OEJGlideIO [no-change]: *s*t*ó*r*k*a
 OEDiphthongLeveling [no-change]: *s*t*ó*r*k*a
 OEAwLongDiphthong [no-change]: *s*t*ó*r*k*a
 OEPrefixAReduction [no-change]: *s*t*ó*r*k*a
@@ -29973,6 +30210,7 @@ OEAwwjResolution [no-change]: *s*t*ó*r*m*a
 OEAuBrightening [no-change]: *s*t*ó*r*m*a
 OEEwLongDiphthong [no-change]: *s*t*ó*r*m*a
 OEJWWSimplification [no-change]: *s*t*ó*r*m*a
+OEJGlideIO [no-change]: *s*t*ó*r*m*a
 OEDiphthongLeveling [no-change]: *s*t*ó*r*m*a
 OEAwLongDiphthong [no-change]: *s*t*ó*r*m*a
 OEPrefixAReduction [no-change]: *s*t*ó*r*m*a
@@ -30099,6 +30337,7 @@ OEAwwjResolution [no-change]: *s*t*r*á*w*ą
 OEAuBrightening [no-change]: *s*t*r*á*w*ą
 OEEwLongDiphthong [no-change]: *s*t*r*á*w*ą
 OEJWWSimplification [no-change]: *s*t*r*á*w*ą
+OEJGlideIO [no-change]: *s*t*r*á*w*ą
 OEDiphthongLeveling [no-change]: *s*t*r*á*w*ą
 OEAwLongDiphthong: *s*t*r*ḗa*w*ą
 OEPrefixAReduction [no-change]: *s*t*r*ḗa*w*ą
@@ -30225,6 +30464,7 @@ OEAwwjResolution [no-change]: *s*t*r*áu*m*a
 OEAuBrightening: *s*t*r*áeu*m*a
 OEEwLongDiphthong [no-change]: *s*t*r*áeu*m*a
 OEJWWSimplification [no-change]: *s*t*r*áeu*m*a
+OEJGlideIO [no-change]: *s*t*r*áeu*m*a
 OEDiphthongLeveling: *s*t*r*ēa*m*a
 OEAwLongDiphthong [no-change]: *s*t*r*ēa*m*a
 OEPrefixAReduction [no-change]: *s*t*r*ēa*m*a
@@ -30351,6 +30591,7 @@ OEAwwjResolution [no-change]: *s*t*r*á*k*k*i*j*a*n*ą
 OEAuBrightening [no-change]: *s*t*r*á*k*k*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*t*r*á*k*k*i*j*a*n*ą
 OEJWWSimplification [no-change]: *s*t*r*á*k*k*i*j*a*n*ą
+OEJGlideIO [no-change]: *s*t*r*á*k*k*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*t*r*á*k*k*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*t*r*á*k*k*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*t*r*á*k*k*i*j*a*n*ą
@@ -30477,6 +30718,7 @@ OEAwwjResolution [no-change]: *s*t*r*á*n*g*i
 OEAuBrightening [no-change]: *s*t*r*á*n*g*i
 OEEwLongDiphthong [no-change]: *s*t*r*á*n*g*i
 OEJWWSimplification [no-change]: *s*t*r*á*n*g*i
+OEJGlideIO [no-change]: *s*t*r*á*n*g*i
 OEDiphthongLeveling [no-change]: *s*t*r*á*n*g*i
 OEAwLongDiphthong [no-change]: *s*t*r*á*n*g*i
 OEPrefixAReduction [no-change]: *s*t*r*á*n*g*i
@@ -30603,6 +30845,7 @@ OEAwwjResolution [no-change]: *s*t*ō*d*ą
 OEAuBrightening [no-change]: *s*t*ō*d*ą
 OEEwLongDiphthong [no-change]: *s*t*ō*d*ą
 OEJWWSimplification [no-change]: *s*t*ō*d*ą
+OEJGlideIO [no-change]: *s*t*ō*d*ą
 OEDiphthongLeveling [no-change]: *s*t*ō*d*ą
 OEAwLongDiphthong [no-change]: *s*t*ō*d*ą
 OEPrefixAReduction [no-change]: *s*t*ō*d*ą
@@ -30730,6 +30973,7 @@ OEAwwjResolution [no-change]: *s*ú*m*a*r*a
 OEAuBrightening [no-change]: *s*ú*m*a*r*a
 OEEwLongDiphthong [no-change]: *s*ú*m*a*r*a
 OEJWWSimplification [no-change]: *s*ú*m*a*r*a
+OEJGlideIO [no-change]: *s*ú*m*a*r*a
 OEDiphthongLeveling [no-change]: *s*ú*m*a*r*a
 OEAwLongDiphthong [no-change]: *s*ú*m*a*r*a
 OEPrefixAReduction [no-change]: *s*ú*m*a*r*a
@@ -30856,6 +31100,7 @@ OEAwwjResolution [no-change]: *s*ú*n*n*ǭ
 OEAuBrightening [no-change]: *s*ú*n*n*ǭ
 OEEwLongDiphthong [no-change]: *s*ú*n*n*ǭ
 OEJWWSimplification [no-change]: *s*ú*n*n*ǭ
+OEJGlideIO [no-change]: *s*ú*n*n*ǭ
 OEDiphthongLeveling [no-change]: *s*ú*n*n*ǭ
 OEAwLongDiphthong [no-change]: *s*ú*n*n*ǭ
 OEPrefixAReduction [no-change]: *s*ú*n*n*ǭ
@@ -30983,6 +31228,7 @@ OEAwwjResolution [no-change]: *s*ú*n*d*r*ō*j*a*n*ą
 OEAuBrightening [no-change]: *s*ú*n*d*r*ō*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*ú*n*d*r*ō*j*a*n*ą
 OEJWWSimplification [no-change]: *s*ú*n*d*r*ō*j*a*n*ą
+OEJGlideIO [no-change]: *s*ú*n*d*r*ō*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*ú*n*d*r*ō*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*ú*n*d*r*ō*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*ú*n*d*r*ō*j*a*n*ą
@@ -31109,6 +31355,7 @@ OEAwwjResolution [no-change]: *s*ū*p*a*n*ą
 OEAuBrightening [no-change]: *s*ū*p*a*n*ą
 OEEwLongDiphthong [no-change]: *s*ū*p*a*n*ą
 OEJWWSimplification [no-change]: *s*ū*p*a*n*ą
+OEJGlideIO [no-change]: *s*ū*p*a*n*ą
 OEDiphthongLeveling [no-change]: *s*ū*p*a*n*ą
 OEAwLongDiphthong [no-change]: *s*ū*p*a*n*ą
 OEPrefixAReduction [no-change]: *s*ū*p*a*n*ą
@@ -31236,6 +31483,7 @@ OEAwwjResolution [no-change]: *s*w*á*l*w*ǭ
 OEAuBrightening [no-change]: *s*w*á*l*w*ǭ
 OEEwLongDiphthong [no-change]: *s*w*á*l*w*ǭ
 OEJWWSimplification [no-change]: *s*w*á*l*w*ǭ
+OEJGlideIO [no-change]: *s*w*á*l*w*ǭ
 OEDiphthongLeveling [no-change]: *s*w*á*l*w*ǭ
 OEAwLongDiphthong [no-change]: *s*w*á*l*w*ǭ
 OEPrefixAReduction [no-change]: *s*w*á*l*w*ǭ
@@ -31362,6 +31610,7 @@ OEAwwjResolution [no-change]: *s*w*é*l*l*a*n*ą
 OEAuBrightening [no-change]: *s*w*é*l*l*a*n*ą
 OEEwLongDiphthong [no-change]: *s*w*é*l*l*a*n*ą
 OEJWWSimplification [no-change]: *s*w*é*l*l*a*n*ą
+OEJGlideIO [no-change]: *s*w*é*l*l*a*n*ą
 OEDiphthongLeveling [no-change]: *s*w*é*l*l*a*n*ą
 OEAwLongDiphthong [no-change]: *s*w*é*l*l*a*n*ą
 OEPrefixAReduction [no-change]: *s*w*é*l*l*a*n*ą
@@ -31488,6 +31737,7 @@ OEAwwjResolution [no-change]: *s*w*í*m*m*a*n*ą
 OEAuBrightening [no-change]: *s*w*í*m*m*a*n*ą
 OEEwLongDiphthong [no-change]: *s*w*í*m*m*a*n*ą
 OEJWWSimplification [no-change]: *s*w*í*m*m*a*n*ą
+OEJGlideIO [no-change]: *s*w*í*m*m*a*n*ą
 OEDiphthongLeveling [no-change]: *s*w*í*m*m*a*n*ą
 OEAwLongDiphthong [no-change]: *s*w*í*m*m*a*n*ą
 OEPrefixAReduction [no-change]: *s*w*í*m*m*a*n*ą
@@ -31615,6 +31865,7 @@ OEAwwjResolution [no-change]: *s*w*ḯ*n*ą
 OEAuBrightening [no-change]: *s*w*ḯ*n*ą
 OEEwLongDiphthong [no-change]: *s*w*ḯ*n*ą
 OEJWWSimplification [no-change]: *s*w*ḯ*n*ą
+OEJGlideIO [no-change]: *s*w*ḯ*n*ą
 OEDiphthongLeveling [no-change]: *s*w*ḯ*n*ą
 OEAwLongDiphthong [no-change]: *s*w*ḯ*n*ą
 OEPrefixAReduction [no-change]: *s*w*ḯ*n*ą
@@ -31741,6 +31992,7 @@ OEAwwjResolution [no-change]: *s*w*é*r*d*ą
 OEAuBrightening [no-change]: *s*w*é*r*d*ą
 OEEwLongDiphthong [no-change]: *s*w*é*r*d*ą
 OEJWWSimplification [no-change]: *s*w*é*r*d*ą
+OEJGlideIO [no-change]: *s*w*é*r*d*ą
 OEDiphthongLeveling [no-change]: *s*w*é*r*d*ą
 OEAwLongDiphthong [no-change]: *s*w*é*r*d*ą
 OEPrefixAReduction [no-change]: *s*w*é*r*d*ą
@@ -31867,6 +32119,7 @@ OEAwwjResolution [no-change]: *t*áu*m*a
 OEAuBrightening: *t*áeu*m*a
 OEEwLongDiphthong [no-change]: *t*áeu*m*a
 OEJWWSimplification [no-change]: *t*áeu*m*a
+OEJGlideIO [no-change]: *t*áeu*m*a
 OEDiphthongLeveling: *t*ēa*m*a
 OEAwLongDiphthong [no-change]: *t*ēa*m*a
 OEPrefixAReduction [no-change]: *t*ēa*m*a
@@ -31993,6 +32246,7 @@ OEAwwjResolution [no-change]: *θ*é*g*n*a
 OEAuBrightening [no-change]: *θ*é*g*n*a
 OEEwLongDiphthong [no-change]: *θ*é*g*n*a
 OEJWWSimplification [no-change]: *θ*é*g*n*a
+OEJGlideIO [no-change]: *θ*é*g*n*a
 OEDiphthongLeveling [no-change]: *θ*é*g*n*a
 OEAwLongDiphthong [no-change]: *θ*é*g*n*a
 OEPrefixAReduction [no-change]: *θ*é*g*n*a
@@ -32119,6 +32373,7 @@ OEAwwjResolution [no-change]: *θ*á*n*k*a
 OEAuBrightening [no-change]: *θ*á*n*k*a
 OEEwLongDiphthong [no-change]: *θ*á*n*k*a
 OEJWWSimplification [no-change]: *θ*á*n*k*a
+OEJGlideIO [no-change]: *θ*á*n*k*a
 OEDiphthongLeveling [no-change]: *θ*á*n*k*a
 OEAwLongDiphthong [no-change]: *θ*á*n*k*a
 OEPrefixAReduction [no-change]: *θ*á*n*k*a
@@ -32245,6 +32500,7 @@ OEAwwjResolution [no-change]: *θ*á*k*ą
 OEAuBrightening [no-change]: *θ*á*k*ą
 OEEwLongDiphthong [no-change]: *θ*á*k*ą
 OEJWWSimplification [no-change]: *θ*á*k*ą
+OEJGlideIO [no-change]: *θ*á*k*ą
 OEDiphthongLeveling [no-change]: *θ*á*k*ą
 OEAwLongDiphthong [no-change]: *θ*á*k*ą
 OEPrefixAReduction [no-change]: *θ*á*k*ą
@@ -32371,6 +32627,7 @@ OEAwwjResolution [no-change]: *θ*éu*b*a
 OEAuBrightening [no-change]: *θ*éu*b*a
 OEEwLongDiphthong [no-change]: *θ*éu*b*a
 OEJWWSimplification [no-change]: *θ*éu*b*a
+OEJGlideIO [no-change]: *θ*éu*b*a
 OEDiphthongLeveling: *θ*ēo*b*a
 OEAwLongDiphthong [no-change]: *θ*ēo*b*a
 OEPrefixAReduction [no-change]: *θ*ēo*b*a
@@ -32497,6 +32754,7 @@ OEAwwjResolution [no-change]: *θ*í*n*g*ą
 OEAuBrightening [no-change]: *θ*í*n*g*ą
 OEEwLongDiphthong [no-change]: *θ*í*n*g*ą
 OEJWWSimplification [no-change]: *θ*í*n*g*ą
+OEJGlideIO [no-change]: *θ*í*n*g*ą
 OEDiphthongLeveling [no-change]: *θ*í*n*g*ą
 OEAwLongDiphthong [no-change]: *θ*í*n*g*ą
 OEPrefixAReduction [no-change]: *θ*í*n*g*ą
@@ -32624,6 +32882,7 @@ OEAwwjResolution [no-change]: *θ*á*n*k*i*j*a*n*ą
 OEAuBrightening [no-change]: *θ*á*n*k*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *θ*á*n*k*i*j*a*n*ą
 OEJWWSimplification [no-change]: *θ*á*n*k*i*j*a*n*ą
+OEJGlideIO [no-change]: *θ*á*n*k*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *θ*á*n*k*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *θ*á*n*k*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *θ*á*n*k*i*j*a*n*ą
@@ -32750,6 +33009,7 @@ OEAwwjResolution [no-change]: *θ*ú*r*s*t*u
 OEAuBrightening [no-change]: *θ*ú*r*s*t*u
 OEEwLongDiphthong [no-change]: *θ*ú*r*s*t*u
 OEJWWSimplification [no-change]: *θ*ú*r*s*t*u
+OEJGlideIO [no-change]: *θ*ú*r*s*t*u
 OEDiphthongLeveling [no-change]: *θ*ú*r*s*t*u
 OEAwLongDiphthong [no-change]: *θ*ú*r*s*t*u
 OEPrefixAReduction [no-change]: *θ*ú*r*s*t*u
@@ -32877,6 +33137,7 @@ OEAwwjResolution [no-change]: *θ*ó*r*n*a
 OEAuBrightening [no-change]: *θ*ó*r*n*a
 OEEwLongDiphthong [no-change]: *θ*ó*r*n*a
 OEJWWSimplification [no-change]: *θ*ó*r*n*a
+OEJGlideIO [no-change]: *θ*ó*r*n*a
 OEDiphthongLeveling [no-change]: *θ*ó*r*n*a
 OEAwLongDiphthong [no-change]: *θ*ó*r*n*a
 OEPrefixAReduction [no-change]: *θ*ó*r*n*a
@@ -33004,6 +33265,7 @@ OEAwwjResolution [no-change]: *θ*ō*x*t*ē
 OEAuBrightening [no-change]: *θ*ō*x*t*ē
 OEEwLongDiphthong [no-change]: *θ*ō*x*t*ē
 OEJWWSimplification [no-change]: *θ*ō*x*t*ē
+OEJGlideIO [no-change]: *θ*ō*x*t*ē
 OEDiphthongLeveling [no-change]: *θ*ō*x*t*ē
 OEAwLongDiphthong [no-change]: *θ*ō*x*t*ē
 OEPrefixAReduction [no-change]: *θ*ō*x*t*ē
@@ -33130,6 +33392,7 @@ OEAwwjResolution [no-change]: *θ*r*é*s*k*a*n*ą
 OEAuBrightening [no-change]: *θ*r*é*s*k*a*n*ą
 OEEwLongDiphthong [no-change]: *θ*r*é*s*k*a*n*ą
 OEJWWSimplification [no-change]: *θ*r*é*s*k*a*n*ą
+OEJGlideIO [no-change]: *θ*r*é*s*k*a*n*ą
 OEDiphthongLeveling [no-change]: *θ*r*é*s*k*a*n*ą
 OEAwLongDiphthong [no-change]: *θ*r*é*s*k*a*n*ą
 OEPrefixAReduction [no-change]: *θ*r*é*s*k*a*n*ą
@@ -33256,6 +33519,7 @@ OEAwwjResolution [no-change]: *θ*ú*n*r*a
 OEAuBrightening [no-change]: *θ*ú*n*r*a
 OEEwLongDiphthong [no-change]: *θ*ú*n*r*a
 OEJWWSimplification [no-change]: *θ*ú*n*r*a
+OEJGlideIO [no-change]: *θ*ú*n*r*a
 OEDiphthongLeveling [no-change]: *θ*ú*n*r*a
 OEAwLongDiphthong [no-change]: *θ*ú*n*r*a
 OEPrefixAReduction [no-change]: *θ*ú*n*r*a
@@ -33382,6 +33646,7 @@ OEAwwjResolution [no-change]: *t*í*k*k*ô
 OEAuBrightening [no-change]: *t*í*k*k*ô
 OEEwLongDiphthong [no-change]: *t*í*k*k*ô
 OEJWWSimplification [no-change]: *t*í*k*k*ô
+OEJGlideIO [no-change]: *t*í*k*k*ô
 OEDiphthongLeveling [no-change]: *t*í*k*k*ô
 OEAwLongDiphthong [no-change]: *t*í*k*k*ô
 OEPrefixAReduction [no-change]: *t*í*k*k*ô
@@ -33509,6 +33774,7 @@ OEAwwjResolution [no-change]: *t*ḯ*d*i
 OEAuBrightening [no-change]: *t*ḯ*d*i
 OEEwLongDiphthong [no-change]: *t*ḯ*d*i
 OEJWWSimplification [no-change]: *t*ḯ*d*i
+OEJGlideIO [no-change]: *t*ḯ*d*i
 OEDiphthongLeveling [no-change]: *t*ḯ*d*i
 OEAwLongDiphthong [no-change]: *t*ḯ*d*i
 OEPrefixAReduction [no-change]: *t*ḯ*d*i
@@ -33635,6 +33901,7 @@ OEAwwjResolution [no-change]: *t*ā*x*ǭ
 OEAuBrightening [no-change]: *t*ā*x*ǭ
 OEEwLongDiphthong [no-change]: *t*ā*x*ǭ
 OEJWWSimplification [no-change]: *t*ā*x*ǭ
+OEJGlideIO [no-change]: *t*ā*x*ǭ
 OEDiphthongLeveling [no-change]: *t*ā*x*ǭ
 OEAwLongDiphthong [no-change]: *t*ā*x*ǭ
 OEPrefixAReduction [no-change]: *t*ā*x*ǭ
@@ -33762,6 +34029,7 @@ OEAwwjResolution [no-change]: *t*ā*k*n*ą
 OEAuBrightening [no-change]: *t*ā*k*n*ą
 OEEwLongDiphthong [no-change]: *t*ā*k*n*ą
 OEJWWSimplification [no-change]: *t*ā*k*n*ą
+OEJGlideIO [no-change]: *t*ā*k*n*ą
 OEDiphthongLeveling [no-change]: *t*ā*k*n*ą
 OEAwLongDiphthong [no-change]: *t*ā*k*n*ą
 OEPrefixAReduction [no-change]: *t*ā*k*n*ą
@@ -33888,6 +34156,7 @@ OEAwwjResolution [no-change]: *t*á*n*g*u
 OEAuBrightening [no-change]: *t*á*n*g*u
 OEEwLongDiphthong [no-change]: *t*á*n*g*u
 OEJWWSimplification [no-change]: *t*á*n*g*u
+OEJGlideIO [no-change]: *t*á*n*g*u
 OEDiphthongLeveling [no-change]: *t*á*n*g*u
 OEAwLongDiphthong [no-change]: *t*á*n*g*u
 OEPrefixAReduction [no-change]: *t*á*n*g*u
@@ -34014,6 +34283,7 @@ OEAwwjResolution [no-change]: *t*ú*n*g*ǭ
 OEAuBrightening [no-change]: *t*ú*n*g*ǭ
 OEEwLongDiphthong [no-change]: *t*ú*n*g*ǭ
 OEJWWSimplification [no-change]: *t*ú*n*g*ǭ
+OEJGlideIO [no-change]: *t*ú*n*g*ǭ
 OEDiphthongLeveling [no-change]: *t*ú*n*g*ǭ
 OEAwLongDiphthong [no-change]: *t*ú*n*g*ǭ
 OEPrefixAReduction [no-change]: *t*ú*n*g*ǭ
@@ -34141,6 +34411,7 @@ OEAwwjResolution [no-change]: *t*ū*n*ą
 OEAuBrightening [no-change]: *t*ū*n*ą
 OEEwLongDiphthong [no-change]: *t*ū*n*ą
 OEJWWSimplification [no-change]: *t*ū*n*ą
+OEJGlideIO [no-change]: *t*ū*n*ą
 OEDiphthongLeveling [no-change]: *t*ū*n*ą
 OEAwLongDiphthong [no-change]: *t*ū*n*ą
 OEPrefixAReduction [no-change]: *t*ū*n*ą
@@ -34267,6 +34538,7 @@ OEAwwjResolution [no-change]: *t*r*é*d*a*n*ą
 OEAuBrightening [no-change]: *t*r*é*d*a*n*ą
 OEEwLongDiphthong [no-change]: *t*r*é*d*a*n*ą
 OEJWWSimplification [no-change]: *t*r*é*d*a*n*ą
+OEJGlideIO [no-change]: *t*r*é*d*a*n*ą
 OEDiphthongLeveling [no-change]: *t*r*é*d*a*n*ą
 OEAwLongDiphthong [no-change]: *t*r*é*d*a*n*ą
 OEPrefixAReduction [no-change]: *t*r*é*d*a*n*ą
@@ -34393,6 +34665,7 @@ OEAwwjResolution [no-change]: *t*r*ó*g*ą
 OEAuBrightening [no-change]: *t*r*ó*g*ą
 OEEwLongDiphthong [no-change]: *t*r*ó*g*ą
 OEJWWSimplification [no-change]: *t*r*ó*g*ą
+OEJGlideIO [no-change]: *t*r*ó*g*ą
 OEDiphthongLeveling [no-change]: *t*r*ó*g*ą
 OEAwLongDiphthong [no-change]: *t*r*ó*g*ą
 OEPrefixAReduction [no-change]: *t*r*ó*g*ą
@@ -34520,6 +34793,7 @@ OEAwwjResolution [no-change]: *w*á*d*a*n*ą
 OEAuBrightening [no-change]: *w*á*d*a*n*ą
 OEEwLongDiphthong [no-change]: *w*á*d*a*n*ą
 OEJWWSimplification [no-change]: *w*á*d*a*n*ą
+OEJGlideIO [no-change]: *w*á*d*a*n*ą
 OEDiphthongLeveling [no-change]: *w*á*d*a*n*ą
 OEAwLongDiphthong [no-change]: *w*á*d*a*n*ą
 OEPrefixAReduction [no-change]: *w*á*d*a*n*ą
@@ -34646,6 +34920,7 @@ OEAwwjResolution [no-change]: *w*á*g*n*a
 OEAuBrightening [no-change]: *w*á*g*n*a
 OEEwLongDiphthong [no-change]: *w*á*g*n*a
 OEJWWSimplification [no-change]: *w*á*g*n*a
+OEJGlideIO [no-change]: *w*á*g*n*a
 OEDiphthongLeveling [no-change]: *w*á*g*n*a
 OEAwLongDiphthong [no-change]: *w*á*g*n*a
 OEPrefixAReduction [no-change]: *w*á*g*n*a
@@ -34772,6 +35047,7 @@ OEAwwjResolution [no-change]: *w*á*r*p*ą
 OEAuBrightening [no-change]: *w*á*r*p*ą
 OEEwLongDiphthong [no-change]: *w*á*r*p*ą
 OEJWWSimplification [no-change]: *w*á*r*p*ą
+OEJGlideIO [no-change]: *w*á*r*p*ą
 OEDiphthongLeveling [no-change]: *w*á*r*p*ą
 OEAwLongDiphthong [no-change]: *w*á*r*p*ą
 OEPrefixAReduction [no-change]: *w*á*r*p*ą
@@ -34899,6 +35175,7 @@ OEAwwjResolution [no-change]: *w*é*r*p*a*n*ą
 OEAuBrightening [no-change]: *w*é*r*p*a*n*ą
 OEEwLongDiphthong [no-change]: *w*é*r*p*a*n*ą
 OEJWWSimplification [no-change]: *w*é*r*p*a*n*ą
+OEJGlideIO [no-change]: *w*é*r*p*a*n*ą
 OEDiphthongLeveling [no-change]: *w*é*r*p*a*n*ą
 OEAwLongDiphthong [no-change]: *w*é*r*p*a*n*ą
 OEPrefixAReduction [no-change]: *w*é*r*p*a*n*ą
@@ -35025,6 +35302,7 @@ OEAwwjResolution [no-change]: *w*á*r*t*ǭ
 OEAuBrightening [no-change]: *w*á*r*t*ǭ
 OEEwLongDiphthong [no-change]: *w*á*r*t*ǭ
 OEJWWSimplification [no-change]: *w*á*r*t*ǭ
+OEJGlideIO [no-change]: *w*á*r*t*ǭ
 OEDiphthongLeveling [no-change]: *w*á*r*t*ǭ
 OEAwLongDiphthong [no-change]: *w*á*r*t*ǭ
 OEPrefixAReduction [no-change]: *w*á*r*t*ǭ
@@ -35152,6 +35430,7 @@ OEAwwjResolution [no-change]: *w*á*s*k*a*n*ą
 OEAuBrightening [no-change]: *w*á*s*k*a*n*ą
 OEEwLongDiphthong [no-change]: *w*á*s*k*a*n*ą
 OEJWWSimplification [no-change]: *w*á*s*k*a*n*ą
+OEJGlideIO [no-change]: *w*á*s*k*a*n*ą
 OEDiphthongLeveling [no-change]: *w*á*s*k*a*n*ą
 OEAwLongDiphthong [no-change]: *w*á*s*k*a*n*ą
 OEPrefixAReduction [no-change]: *w*á*s*k*a*n*ą
@@ -35278,6 +35557,7 @@ OEAwwjResolution [no-change]: *w*á*x*s*ą
 OEAuBrightening [no-change]: *w*á*x*s*ą
 OEEwLongDiphthong [no-change]: *w*á*x*s*ą
 OEJWWSimplification [no-change]: *w*á*x*s*ą
+OEJGlideIO [no-change]: *w*á*x*s*ą
 OEDiphthongLeveling [no-change]: *w*á*x*s*ą
 OEAwLongDiphthong [no-change]: *w*á*x*s*ą
 OEPrefixAReduction [no-change]: *w*á*x*s*ą
@@ -35405,6 +35685,7 @@ OEAwwjResolution [no-change]: *w*á*x*s*a*n*ą
 OEAuBrightening [no-change]: *w*á*x*s*a*n*ą
 OEEwLongDiphthong [no-change]: *w*á*x*s*a*n*ą
 OEJWWSimplification [no-change]: *w*á*x*s*a*n*ą
+OEJGlideIO [no-change]: *w*á*x*s*a*n*ą
 OEDiphthongLeveling [no-change]: *w*á*x*s*a*n*ą
 OEAwLongDiphthong [no-change]: *w*á*x*s*a*n*ą
 OEPrefixAReduction [no-change]: *w*á*x*s*a*n*ą
@@ -35532,6 +35813,7 @@ OEAwwjResolution [no-change]: *w*é*g*a
 OEAuBrightening [no-change]: *w*é*g*a
 OEEwLongDiphthong [no-change]: *w*é*g*a
 OEJWWSimplification [no-change]: *w*é*g*a
+OEJGlideIO [no-change]: *w*é*g*a
 OEDiphthongLeveling [no-change]: *w*é*g*a
 OEAwLongDiphthong [no-change]: *w*é*g*a
 OEPrefixAReduction [no-change]: *w*é*g*a
@@ -35659,6 +35941,7 @@ OEAwwjResolution [no-change]: *w*ǣ*p*n*ą
 OEAuBrightening [no-change]: *w*ǣ*p*n*ą
 OEEwLongDiphthong [no-change]: *w*ǣ*p*n*ą
 OEJWWSimplification [no-change]: *w*ǣ*p*n*ą
+OEJGlideIO [no-change]: *w*ǣ*p*n*ą
 OEDiphthongLeveling [no-change]: *w*ǣ*p*n*ą
 OEAwLongDiphthong [no-change]: *w*ǣ*p*n*ą
 OEPrefixAReduction [no-change]: *w*ǣ*p*n*ą
@@ -35785,6 +36068,7 @@ OEAwwjResolution [no-change]: *w*é*s*l*ǭ
 OEAuBrightening [no-change]: *w*é*s*l*ǭ
 OEEwLongDiphthong [no-change]: *w*é*s*l*ǭ
 OEJWWSimplification [no-change]: *w*é*s*l*ǭ
+OEJGlideIO [no-change]: *w*é*s*l*ǭ
 OEDiphthongLeveling [no-change]: *w*é*s*l*ǭ
 OEAwLongDiphthong [no-change]: *w*é*s*l*ǭ
 OEPrefixAReduction [no-change]: *w*é*s*l*ǭ
@@ -35911,6 +36195,7 @@ OEAwwjResolution [no-change]: *w*é*d*r*ą
 OEAuBrightening [no-change]: *w*é*d*r*ą
 OEEwLongDiphthong [no-change]: *w*é*d*r*ą
 OEJWWSimplification [no-change]: *w*é*d*r*ą
+OEJGlideIO [no-change]: *w*é*d*r*ą
 OEDiphthongLeveling [no-change]: *w*é*d*r*ą
 OEAwLongDiphthong [no-change]: *w*é*d*r*ą
 OEPrefixAReduction [no-change]: *w*é*d*r*ą
@@ -36037,6 +36322,7 @@ OEAwwjResolution [no-change]: *w*é*b*a*n*ą
 OEAuBrightening [no-change]: *w*é*b*a*n*ą
 OEEwLongDiphthong [no-change]: *w*é*b*a*n*ą
 OEJWWSimplification [no-change]: *w*é*b*a*n*ą
+OEJGlideIO [no-change]: *w*é*b*a*n*ą
 OEDiphthongLeveling [no-change]: *w*é*b*a*n*ą
 OEAwLongDiphthong [no-change]: *w*é*b*a*n*ą
 OEPrefixAReduction [no-change]: *w*é*b*a*n*ą
@@ -36163,6 +36449,7 @@ OEAwwjResolution [no-change]: *w*é*s*t*a*n*ē
 OEAuBrightening [no-change]: *w*é*s*t*a*n*ē
 OEEwLongDiphthong [no-change]: *w*é*s*t*a*n*ē
 OEJWWSimplification [no-change]: *w*é*s*t*a*n*ē
+OEJGlideIO [no-change]: *w*é*s*t*a*n*ē
 OEDiphthongLeveling [no-change]: *w*é*s*t*a*n*ē
 OEAwLongDiphthong [no-change]: *w*é*s*t*a*n*ē
 OEPrefixAReduction [no-change]: *w*é*s*t*a*n*ē
@@ -36289,6 +36576,7 @@ OEAwwjResolution [no-change]: *w*é*θ*r*ą
 OEAuBrightening [no-change]: *w*é*θ*r*ą
 OEEwLongDiphthong [no-change]: *w*é*θ*r*ą
 OEJWWSimplification [no-change]: *w*é*θ*r*ą
+OEJGlideIO [no-change]: *w*é*θ*r*ą
 OEDiphthongLeveling [no-change]: *w*é*θ*r*ą
 OEAwLongDiphthong [no-change]: *w*é*θ*r*ą
 OEPrefixAReduction [no-change]: *w*é*θ*r*ą
@@ -36415,6 +36703,7 @@ OEAwwjResolution [no-change]: *x*w*ḯ*l*u
 OEAuBrightening [no-change]: *x*w*ḯ*l*u
 OEEwLongDiphthong [no-change]: *x*w*ḯ*l*u
 OEJWWSimplification [no-change]: *x*w*ḯ*l*u
+OEJGlideIO [no-change]: *x*w*ḯ*l*u
 OEDiphthongLeveling [no-change]: *x*w*ḯ*l*u
 OEAwLongDiphthong [no-change]: *x*w*ḯ*l*u
 OEPrefixAReduction [no-change]: *x*w*ḯ*l*u
@@ -36542,6 +36831,7 @@ OEAwwjResolution [no-change]: *x*w*ā
 OEAuBrightening [no-change]: *x*w*ā
 OEEwLongDiphthong [no-change]: *x*w*ā
 OEJWWSimplification [no-change]: *x*w*ā
+OEJGlideIO [no-change]: *x*w*ā
 OEDiphthongLeveling [no-change]: *x*w*ā
 OEAwLongDiphthong [no-change]: *x*w*ā
 OEPrefixAReduction [no-change]: *x*w*ā
@@ -36668,6 +36958,7 @@ OEAwwjResolution [no-change]: *x*ō*r*ǭ
 OEAuBrightening [no-change]: *x*ō*r*ǭ
 OEEwLongDiphthong [no-change]: *x*ō*r*ǭ
 OEJWWSimplification [no-change]: *x*ō*r*ǭ
+OEJGlideIO [no-change]: *x*ō*r*ǭ
 OEDiphthongLeveling [no-change]: *x*ō*r*ǭ
 OEAwLongDiphthong [no-change]: *x*ō*r*ǭ
 OEPrefixAReduction [no-change]: *x*ō*r*ǭ
@@ -36794,6 +37085,7 @@ OEAwwjResolution [no-change]: *w*í*d*u*w*ǭ
 OEAuBrightening [no-change]: *w*í*d*u*w*ǭ
 OEEwLongDiphthong [no-change]: *w*í*d*u*w*ǭ
 OEJWWSimplification [no-change]: *w*í*d*u*w*ǭ
+OEJGlideIO [no-change]: *w*í*d*u*w*ǭ
 OEDiphthongLeveling [no-change]: *w*í*d*u*w*ǭ
 OEAwLongDiphthong [no-change]: *w*í*d*u*w*ǭ
 OEPrefixAReduction [no-change]: *w*í*d*u*w*ǭ
@@ -36920,6 +37212,7 @@ OEAwwjResolution [no-change]: *w*á*l*d*a*n*ą
 OEAuBrightening [no-change]: *w*á*l*d*a*n*ą
 OEEwLongDiphthong [no-change]: *w*á*l*d*a*n*ą
 OEJWWSimplification [no-change]: *w*á*l*d*a*n*ą
+OEJGlideIO [no-change]: *w*á*l*d*a*n*ą
 OEDiphthongLeveling [no-change]: *w*á*l*d*a*n*ą
 OEAwLongDiphthong [no-change]: *w*á*l*d*a*n*ą
 OEPrefixAReduction [no-change]: *w*á*l*d*a*n*ą
@@ -37046,6 +37339,7 @@ OEAwwjResolution [no-change]: *w*ḯ*b*ą
 OEAuBrightening [no-change]: *w*ḯ*b*ą
 OEEwLongDiphthong [no-change]: *w*ḯ*b*ą
 OEJWWSimplification [no-change]: *w*ḯ*b*ą
+OEJGlideIO [no-change]: *w*ḯ*b*ą
 OEDiphthongLeveling [no-change]: *w*ḯ*b*ą
 OEAwLongDiphthong [no-change]: *w*ḯ*b*ą
 OEPrefixAReduction [no-change]: *w*ḯ*b*ą
@@ -37172,6 +37466,7 @@ OEAwwjResolution [no-change]: *w*é*x*t*i
 OEAuBrightening [no-change]: *w*é*x*t*i
 OEEwLongDiphthong [no-change]: *w*é*x*t*i
 OEJWWSimplification [no-change]: *w*é*x*t*i
+OEJGlideIO [no-change]: *w*é*x*t*i
 OEDiphthongLeveling [no-change]: *w*é*x*t*i
 OEAwLongDiphthong [no-change]: *w*é*x*t*i
 OEPrefixAReduction [no-change]: *w*é*x*t*i
@@ -37298,6 +37593,7 @@ OEAwwjResolution [no-change]: *w*é*l*l*j*a*n*ą
 OEAuBrightening [no-change]: *w*é*l*l*j*a*n*ą
 OEEwLongDiphthong [no-change]: *w*é*l*l*j*a*n*ą
 OEJWWSimplification [no-change]: *w*é*l*l*j*a*n*ą
+OEJGlideIO [no-change]: *w*é*l*l*j*a*n*ą
 OEDiphthongLeveling [no-change]: *w*é*l*l*j*a*n*ą
 OEAwLongDiphthong [no-change]: *w*é*l*l*j*a*n*ą
 OEPrefixAReduction [no-change]: *w*é*l*l*j*a*n*ą
@@ -37425,6 +37721,7 @@ OEAwwjResolution [no-change]: *w*é*l*l*j*ô
 OEAuBrightening [no-change]: *w*é*l*l*j*ô
 OEEwLongDiphthong [no-change]: *w*é*l*l*j*ô
 OEJWWSimplification [no-change]: *w*é*l*l*j*ô
+OEJGlideIO [no-change]: *w*é*l*l*j*ô
 OEDiphthongLeveling [no-change]: *w*é*l*l*j*ô
 OEAwLongDiphthong [no-change]: *w*é*l*l*j*ô
 OEPrefixAReduction [no-change]: *w*é*l*l*j*ô
@@ -37552,6 +37849,7 @@ OEAwwjResolution [no-change]: *w*í*n*d*a*n*ą
 OEAuBrightening [no-change]: *w*í*n*d*a*n*ą
 OEEwLongDiphthong [no-change]: *w*í*n*d*a*n*ą
 OEJWWSimplification [no-change]: *w*í*n*d*a*n*ą
+OEJGlideIO [no-change]: *w*í*n*d*a*n*ą
 OEDiphthongLeveling [no-change]: *w*í*n*d*a*n*ą
 OEAwLongDiphthong [no-change]: *w*í*n*d*a*n*ą
 OEPrefixAReduction [no-change]: *w*í*n*d*a*n*ą
@@ -37678,6 +37976,7 @@ OEAwwjResolution [no-change]: *w*í*n*t*r*u
 OEAuBrightening [no-change]: *w*í*n*t*r*u
 OEEwLongDiphthong [no-change]: *w*í*n*t*r*u
 OEJWWSimplification [no-change]: *w*í*n*t*r*u
+OEJGlideIO [no-change]: *w*í*n*t*r*u
 OEDiphthongLeveling [no-change]: *w*í*n*t*r*u
 OEAwLongDiphthong [no-change]: *w*í*n*t*r*u
 OEPrefixAReduction [no-change]: *w*í*n*t*r*u
@@ -37805,6 +38104,7 @@ OEAwwjResolution [no-change]: *w*á*l*d*u
 OEAuBrightening [no-change]: *w*á*l*d*u
 OEEwLongDiphthong [no-change]: *w*á*l*d*u
 OEJWWSimplification [no-change]: *w*á*l*d*u
+OEJGlideIO [no-change]: *w*á*l*d*u
 OEDiphthongLeveling [no-change]: *w*á*l*d*u
 OEAwLongDiphthong [no-change]: *w*á*l*d*u
 OEPrefixAReduction [no-change]: *w*á*l*d*u
@@ -37931,6 +38231,7 @@ OEAwwjResolution [no-change]: *w*ú*n*d*r*ą
 OEAuBrightening [no-change]: *w*ú*n*d*r*ą
 OEEwLongDiphthong [no-change]: *w*ú*n*d*r*ą
 OEJWWSimplification [no-change]: *w*ú*n*d*r*ą
+OEJGlideIO [no-change]: *w*ú*n*d*r*ą
 OEDiphthongLeveling [no-change]: *w*ú*n*d*r*ą
 OEAwLongDiphthong [no-change]: *w*ú*n*d*r*ą
 OEPrefixAReduction [no-change]: *w*ú*n*d*r*ą
@@ -38057,6 +38358,7 @@ OEAwwjResolution [no-change]: *w*ó*r*d*ą
 OEAuBrightening [no-change]: *w*ó*r*d*ą
 OEEwLongDiphthong [no-change]: *w*ó*r*d*ą
 OEJWWSimplification [no-change]: *w*ó*r*d*ą
+OEJGlideIO [no-change]: *w*ó*r*d*ą
 OEDiphthongLeveling [no-change]: *w*ó*r*d*ą
 OEAwLongDiphthong [no-change]: *w*ó*r*d*ą
 OEPrefixAReduction [no-change]: *w*ó*r*d*ą
@@ -38183,6 +38485,7 @@ OEAwwjResolution [no-change]: *w*ú*r*m*i
 OEAuBrightening [no-change]: *w*ú*r*m*i
 OEEwLongDiphthong [no-change]: *w*ú*r*m*i
 OEJWWSimplification [no-change]: *w*ú*r*m*i
+OEJGlideIO [no-change]: *w*ú*r*m*i
 OEDiphthongLeveling [no-change]: *w*ú*r*m*i
 OEAwLongDiphthong [no-change]: *w*ú*r*m*i
 OEPrefixAReduction [no-change]: *w*ú*r*m*i
@@ -38310,6 +38613,7 @@ OEAwwjResolution [no-change]: *w*ú*n*d*ō*d*ē
 OEAuBrightening [no-change]: *w*ú*n*d*ō*d*ē
 OEEwLongDiphthong [no-change]: *w*ú*n*d*ō*d*ē
 OEJWWSimplification [no-change]: *w*ú*n*d*ō*d*ē
+OEJGlideIO [no-change]: *w*ú*n*d*ō*d*ē
 OEDiphthongLeveling [no-change]: *w*ú*n*d*ō*d*ē
 OEAwLongDiphthong [no-change]: *w*ú*n*d*ō*d*ē
 OEPrefixAReduction [no-change]: *w*ú*n*d*ō*d*ē
@@ -38436,6 +38740,7 @@ OEAwwjResolution [no-change]: *w*r*í*n*g*a*n*ą
 OEAuBrightening [no-change]: *w*r*í*n*g*a*n*ą
 OEEwLongDiphthong [no-change]: *w*r*í*n*g*a*n*ą
 OEJWWSimplification [no-change]: *w*r*í*n*g*a*n*ą
+OEJGlideIO [no-change]: *w*r*í*n*g*a*n*ą
 OEDiphthongLeveling [no-change]: *w*r*í*n*g*a*n*ą
 OEAwLongDiphthong [no-change]: *w*r*í*n*g*a*n*ą
 OEPrefixAReduction [no-change]: *w*r*í*n*g*a*n*ą
@@ -38563,6 +38868,7 @@ OEAwwjResolution [no-change]: *g*á*r*n*ą
 OEAuBrightening [no-change]: *g*á*r*n*ą
 OEEwLongDiphthong [no-change]: *g*á*r*n*ą
 OEJWWSimplification [no-change]: *g*á*r*n*ą
+OEJGlideIO [no-change]: *g*á*r*n*ą
 OEDiphthongLeveling [no-change]: *g*á*r*n*ą
 OEAwLongDiphthong [no-change]: *g*á*r*n*ą
 OEPrefixAReduction [no-change]: *g*á*r*n*ą
@@ -38689,6 +38995,7 @@ OEAwwjResolution [no-change]: *j*ǣ*r*ą
 OEAuBrightening [no-change]: *j*ǣ*r*ą
 OEEwLongDiphthong [no-change]: *j*ǣ*r*ą
 OEJWWSimplification [no-change]: *j*ǣ*r*ą
+OEJGlideIO [no-change]: *j*ǣ*r*ą
 OEDiphthongLeveling [no-change]: *j*ǣ*r*ą
 OEAwLongDiphthong [no-change]: *j*ǣ*r*ą
 OEPrefixAReduction [no-change]: *j*ǣ*r*ą
@@ -38815,6 +39122,7 @@ OEAwwjResolution [no-change]: *j*ó*k*ą
 OEAuBrightening [no-change]: *j*ó*k*ą
 OEEwLongDiphthong [no-change]: *j*ó*k*ą
 OEJWWSimplification [no-change]: *j*ó*k*ą
+OEJGlideIO [no-change]: *j*ó*k*ą
 OEDiphthongLeveling [no-change]: *j*ó*k*ą
 OEAwLongDiphthong [no-change]: *j*ó*k*ą
 OEPrefixAReduction [no-change]: *j*ó*k*ą
@@ -38942,6 +39250,7 @@ OEAwwjResolution [no-change]: *íu*w
 OEAuBrightening [no-change]: *íu*w
 OEEwLongDiphthong [no-change]: *íu*w
 OEJWWSimplification [no-change]: *íu*w
+OEJGlideIO [no-change]: *íu*w
 OEDiphthongLeveling: *ēo*w
 OEAwLongDiphthong [no-change]: *ēo*w
 OEPrefixAReduction [no-change]: *ēo*w
@@ -39071,6 +39380,7 @@ OEAwwjResolution [no-change]: *b*ó*t*t*m*a
 OEAuBrightening [no-change]: *b*ó*t*t*m*a
 OEEwLongDiphthong [no-change]: *b*ó*t*t*m*a
 OEJWWSimplification [no-change]: *b*ó*t*t*m*a
+OEJGlideIO [no-change]: *b*ó*t*t*m*a
 OEDiphthongLeveling [no-change]: *b*ó*t*t*m*a
 OEAwLongDiphthong [no-change]: *b*ó*t*t*m*a
 OEPrefixAReduction [no-change]: *b*ó*t*t*m*a
@@ -39197,6 +39507,7 @@ OEAwwjResolution [no-change]: *b*r*á*n*d*a*s
 OEAuBrightening [no-change]: *b*r*á*n*d*a*s
 OEEwLongDiphthong [no-change]: *b*r*á*n*d*a*s
 OEJWWSimplification [no-change]: *b*r*á*n*d*a*s
+OEJGlideIO [no-change]: *b*r*á*n*d*a*s
 OEDiphthongLeveling [no-change]: *b*r*á*n*d*a*s
 OEAwLongDiphthong [no-change]: *b*r*á*n*d*a*s
 OEPrefixAReduction [no-change]: *b*r*á*n*d*a*s
@@ -39323,6 +39634,7 @@ OEAwwjResolution [no-change]: *b*r*éu*s*t*ą
 OEAuBrightening [no-change]: *b*r*éu*s*t*ą
 OEEwLongDiphthong [no-change]: *b*r*éu*s*t*ą
 OEJWWSimplification [no-change]: *b*r*éu*s*t*ą
+OEJGlideIO [no-change]: *b*r*éu*s*t*ą
 OEDiphthongLeveling: *b*r*ēo*s*t*ą
 OEAwLongDiphthong [no-change]: *b*r*ēo*s*t*ą
 OEPrefixAReduction [no-change]: *b*r*ēo*s*t*ą
@@ -39450,6 +39762,7 @@ OEAwwjResolution [no-change]: *k*r*á*f*t*a
 OEAuBrightening [no-change]: *k*r*á*f*t*a
 OEEwLongDiphthong [no-change]: *k*r*á*f*t*a
 OEJWWSimplification [no-change]: *k*r*á*f*t*a
+OEJGlideIO [no-change]: *k*r*á*f*t*a
 OEDiphthongLeveling [no-change]: *k*r*á*f*t*a
 OEAwLongDiphthong [no-change]: *k*r*á*f*t*a
 OEPrefixAReduction [no-change]: *k*r*á*f*t*a
@@ -39577,6 +39890,7 @@ OEAwwjResolution [no-change]: *d*é*l*i
 OEAuBrightening [no-change]: *d*é*l*i
 OEEwLongDiphthong [no-change]: *d*é*l*i
 OEJWWSimplification [no-change]: *d*é*l*i
+OEJGlideIO [no-change]: *d*é*l*i
 OEDiphthongLeveling [no-change]: *d*é*l*i
 OEAwLongDiphthong [no-change]: *d*é*l*i
 OEPrefixAReduction [no-change]: *d*é*l*i
@@ -39704,6 +40018,7 @@ OEAwwjResolution [no-change]: *f*á*s*t*i*j*a*n*ą
 OEAuBrightening [no-change]: *f*á*s*t*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *f*á*s*t*i*j*a*n*ą
 OEJWWSimplification [no-change]: *f*á*s*t*i*j*a*n*ą
+OEJGlideIO [no-change]: *f*á*s*t*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *f*á*s*t*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *f*á*s*t*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *f*á*s*t*i*j*a*n*ą
@@ -39830,6 +40145,7 @@ OEAwwjResolution [no-change]: *f*l*á*s*k*ǭ
 OEAuBrightening [no-change]: *f*l*á*s*k*ǭ
 OEEwLongDiphthong [no-change]: *f*l*á*s*k*ǭ
 OEJWWSimplification [no-change]: *f*l*á*s*k*ǭ
+OEJGlideIO [no-change]: *f*l*á*s*k*ǭ
 OEDiphthongLeveling [no-change]: *f*l*á*s*k*ǭ
 OEAwLongDiphthong [no-change]: *f*l*á*s*k*ǭ
 OEPrefixAReduction [no-change]: *f*l*á*s*k*ǭ
@@ -39957,6 +40273,7 @@ OEAwwjResolution [no-change]: *f*ú*l*g*i*j*a*n*ą
 OEAuBrightening [no-change]: *f*ú*l*g*i*j*a*n*ą
 OEEwLongDiphthong [no-change]: *f*ú*l*g*i*j*a*n*ą
 OEJWWSimplification [no-change]: *f*ú*l*g*i*j*a*n*ą
+OEJGlideIO [no-change]: *f*ú*l*g*i*j*a*n*ą
 OEDiphthongLeveling [no-change]: *f*ú*l*g*i*j*a*n*ą
 OEAwLongDiphthong [no-change]: *f*ú*l*g*i*j*a*n*ą
 OEPrefixAReduction [no-change]: *f*ú*l*g*i*j*a*n*ą
@@ -40083,6 +40400,7 @@ OEAwwjResolution [no-change]: *g*á*l*l*ô
 OEAuBrightening [no-change]: *g*á*l*l*ô
 OEEwLongDiphthong [no-change]: *g*á*l*l*ô
 OEJWWSimplification [no-change]: *g*á*l*l*ô
+OEJGlideIO [no-change]: *g*á*l*l*ô
 OEDiphthongLeveling [no-change]: *g*á*l*l*ô
 OEAwLongDiphthong [no-change]: *g*á*l*l*ô
 OEPrefixAReduction [no-change]: *g*á*l*l*ô
@@ -40210,6 +40528,7 @@ OEAwwjResolution [no-change]: *x*é*b*u*n
 OEAuBrightening [no-change]: *x*é*b*u*n
 OEEwLongDiphthong [no-change]: *x*é*b*u*n
 OEJWWSimplification [no-change]: *x*é*b*u*n
+OEJGlideIO [no-change]: *x*é*b*u*n
 OEDiphthongLeveling [no-change]: *x*é*b*u*n
 OEAwLongDiphthong [no-change]: *x*é*b*u*n
 OEPrefixAReduction [no-change]: *x*é*b*u*n
@@ -40337,6 +40656,7 @@ OEAwwjResolution [no-change]: *k*n*é*x*t*a
 OEAuBrightening [no-change]: *k*n*é*x*t*a
 OEEwLongDiphthong [no-change]: *k*n*é*x*t*a
 OEJWWSimplification [no-change]: *k*n*é*x*t*a
+OEJGlideIO [no-change]: *k*n*é*x*t*a
 OEDiphthongLeveling [no-change]: *k*n*é*x*t*a
 OEAwLongDiphthong [no-change]: *k*n*é*x*t*a
 OEPrefixAReduction [no-change]: *k*n*é*x*t*a
@@ -40464,6 +40784,7 @@ OEAwwjResolution [no-change]: *x*l*á*d*a*n*ą
 OEAuBrightening [no-change]: *x*l*á*d*a*n*ą
 OEEwLongDiphthong [no-change]: *x*l*á*d*a*n*ą
 OEJWWSimplification [no-change]: *x*l*á*d*a*n*ą
+OEJGlideIO [no-change]: *x*l*á*d*a*n*ą
 OEDiphthongLeveling [no-change]: *x*l*á*d*a*n*ą
 OEAwLongDiphthong [no-change]: *x*l*á*d*a*n*ą
 OEPrefixAReduction [no-change]: *x*l*á*d*a*n*ą
@@ -40590,6 +40911,7 @@ OEAwwjResolution [no-change]: *l*á*p*p*ô
 OEAuBrightening [no-change]: *l*á*p*p*ô
 OEEwLongDiphthong [no-change]: *l*á*p*p*ô
 OEJWWSimplification [no-change]: *l*á*p*p*ô
+OEJGlideIO [no-change]: *l*á*p*p*ô
 OEDiphthongLeveling [no-change]: *l*á*p*p*ô
 OEAwLongDiphthong [no-change]: *l*á*p*p*ô
 OEPrefixAReduction [no-change]: *l*á*p*p*ô
@@ -40717,6 +41039,7 @@ OEAwwjResolution [no-change]: *x*l*á*x*x*j*a*n*ą
 OEAuBrightening [no-change]: *x*l*á*x*x*j*a*n*ą
 OEEwLongDiphthong [no-change]: *x*l*á*x*x*j*a*n*ą
 OEJWWSimplification [no-change]: *x*l*á*x*x*j*a*n*ą
+OEJGlideIO [no-change]: *x*l*á*x*x*j*a*n*ą
 OEDiphthongLeveling [no-change]: *x*l*á*x*x*j*a*n*ą
 OEAwLongDiphthong [no-change]: *x*l*á*x*x*j*a*n*ą
 OEPrefixAReduction [no-change]: *x*l*á*x*x*j*a*n*ą
@@ -40843,6 +41166,7 @@ OEAwwjResolution [no-change]: *l*ā*m*ą
 OEAuBrightening [no-change]: *l*ā*m*ą
 OEEwLongDiphthong [no-change]: *l*ā*m*ą
 OEJWWSimplification [no-change]: *l*ā*m*ą
+OEJGlideIO [no-change]: *l*ā*m*ą
 OEDiphthongLeveling [no-change]: *l*ā*m*ą
 OEAwLongDiphthong [no-change]: *l*ā*m*ą
 OEPrefixAReduction [no-change]: *l*ā*m*ą
@@ -40970,6 +41294,7 @@ OEAwwjResolution [no-change]: *l*ú*n*g*a*n*n*j*u
 OEAuBrightening [no-change]: *l*ú*n*g*a*n*n*j*u
 OEEwLongDiphthong [no-change]: *l*ú*n*g*a*n*n*j*u
 OEJWWSimplification [no-change]: *l*ú*n*g*a*n*n*j*u
+OEJGlideIO [no-change]: *l*ú*n*g*a*n*n*j*u
 OEDiphthongLeveling [no-change]: *l*ú*n*g*a*n*n*j*u
 OEAwLongDiphthong [no-change]: *l*ú*n*g*a*n*n*j*u
 OEPrefixAReduction [no-change]: *l*ú*n*g*a*n*n*j*u
@@ -41097,6 +41422,7 @@ OEAwwjResolution [no-change]: *n*á*b*u*l*ô
 OEAuBrightening [no-change]: *n*á*b*u*l*ô
 OEEwLongDiphthong [no-change]: *n*á*b*u*l*ô
 OEJWWSimplification [no-change]: *n*á*b*u*l*ô
+OEJGlideIO [no-change]: *n*á*b*u*l*ô
 OEDiphthongLeveling [no-change]: *n*á*b*u*l*ô
 OEAwLongDiphthong [no-change]: *n*á*b*u*l*ô
 OEPrefixAReduction [no-change]: *n*á*b*u*l*ô
@@ -41223,6 +41549,7 @@ OEAwwjResolution [no-change]: *x*n*é*k*k*ô
 OEAuBrightening [no-change]: *x*n*é*k*k*ô
 OEEwLongDiphthong [no-change]: *x*n*é*k*k*ô
 OEJWWSimplification [no-change]: *x*n*é*k*k*ô
+OEJGlideIO [no-change]: *x*n*é*k*k*ô
 OEDiphthongLeveling [no-change]: *x*n*é*k*k*ô
 OEAwLongDiphthong [no-change]: *x*n*é*k*k*ô
 OEPrefixAReduction [no-change]: *x*n*é*k*k*ô
@@ -41350,6 +41677,7 @@ OEAwwjResolution [no-change]: *n*ǣ*d*l*u
 OEAuBrightening [no-change]: *n*ǣ*d*l*u
 OEEwLongDiphthong [no-change]: *n*ǣ*d*l*u
 OEJWWSimplification [no-change]: *n*ǣ*d*l*u
+OEJGlideIO [no-change]: *n*ǣ*d*l*u
 OEDiphthongLeveling [no-change]: *n*ǣ*d*l*u
 OEAwLongDiphthong [no-change]: *n*ǣ*d*l*u
 OEPrefixAReduction [no-change]: *n*ǣ*d*l*u
@@ -41476,6 +41804,7 @@ OEAwwjResolution [no-change]: *n*ó*s*u
 OEAuBrightening [no-change]: *n*ó*s*u
 OEEwLongDiphthong [no-change]: *n*ó*s*u
 OEJWWSimplification [no-change]: *n*ó*s*u
+OEJGlideIO [no-change]: *n*ó*s*u
 OEDiphthongLeveling [no-change]: *n*ó*s*u
 OEAwLongDiphthong [no-change]: *n*ó*s*u
 OEPrefixAReduction [no-change]: *n*ó*s*u
@@ -41603,6 +41932,7 @@ OEAwwjResolution [no-change]: *s*á*p*ą
 OEAuBrightening [no-change]: *s*á*p*ą
 OEEwLongDiphthong [no-change]: *s*á*p*ą
 OEJWWSimplification [no-change]: *s*á*p*ą
+OEJGlideIO [no-change]: *s*á*p*ą
 OEDiphthongLeveling [no-change]: *s*á*p*ą
 OEAwLongDiphthong [no-change]: *s*á*p*ą
 OEPrefixAReduction [no-change]: *s*á*p*ą
@@ -41730,6 +42060,7 @@ OEAwwjResolution [no-change]: *s*ā*w*i
 OEAuBrightening [no-change]: *s*ā*w*i
 OEEwLongDiphthong [no-change]: *s*ā*w*i
 OEJWWSimplification [no-change]: *s*ā*w*i
+OEJGlideIO [no-change]: *s*ā*w*i
 OEDiphthongLeveling [no-change]: *s*ā*w*i
 OEAwLongDiphthong [no-change]: *s*ā*w*i
 OEPrefixAReduction [no-change]: *s*ā*w*i
@@ -41856,6 +42187,7 @@ OEAwwjResolution [no-change]: *s*í*b*i
 OEAuBrightening [no-change]: *s*í*b*i
 OEEwLongDiphthong [no-change]: *s*í*b*i
 OEJWWSimplification [no-change]: *s*í*b*i
+OEJGlideIO [no-change]: *s*í*b*i
 OEDiphthongLeveling [no-change]: *s*í*b*i
 OEAwLongDiphthong [no-change]: *s*í*b*i
 OEPrefixAReduction [no-change]: *s*í*b*i
@@ -41983,6 +42315,7 @@ OEAwwjResolution [no-change]: *s*p*á*r*ō*j*a*n*ą
 OEAuBrightening [no-change]: *s*p*á*r*ō*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*p*á*r*ō*j*a*n*ą
 OEJWWSimplification [no-change]: *s*p*á*r*ō*j*a*n*ą
+OEJGlideIO [no-change]: *s*p*á*r*ō*j*a*n*ą
 OEDiphthongLeveling [no-change]: *s*p*á*r*ō*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*p*á*r*ō*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*p*á*r*ō*j*a*n*ą
@@ -42110,6 +42443,7 @@ OEAwwjResolution [no-change]: *s*t*á*b*a
 OEAuBrightening [no-change]: *s*t*á*b*a
 OEEwLongDiphthong [no-change]: *s*t*á*b*a
 OEJWWSimplification [no-change]: *s*t*á*b*a
+OEJGlideIO [no-change]: *s*t*á*b*a
 OEDiphthongLeveling [no-change]: *s*t*á*b*a
 OEAwLongDiphthong [no-change]: *s*t*á*b*a
 OEPrefixAReduction [no-change]: *s*t*á*b*a
@@ -42237,6 +42571,7 @@ OEAwwjResolution [no-change]: *s*t*á*β*n*i
 OEAuBrightening [no-change]: *s*t*á*β*n*i
 OEEwLongDiphthong [no-change]: *s*t*á*β*n*i
 OEJWWSimplification [no-change]: *s*t*á*β*n*i
+OEJGlideIO [no-change]: *s*t*á*β*n*i
 OEDiphthongLeveling [no-change]: *s*t*á*β*n*i
 OEAwLongDiphthong [no-change]: *s*t*á*β*n*i
 OEPrefixAReduction [no-change]: *s*t*á*β*n*i
@@ -42363,6 +42698,7 @@ OEAwwjResolution [no-change]: *s*w*á*n*a*s
 OEAuBrightening [no-change]: *s*w*á*n*a*s
 OEEwLongDiphthong [no-change]: *s*w*á*n*a*s
 OEJWWSimplification [no-change]: *s*w*á*n*a*s
+OEJGlideIO [no-change]: *s*w*á*n*a*s
 OEDiphthongLeveling [no-change]: *s*w*á*n*a*s
 OEAwLongDiphthong [no-change]: *s*w*á*n*a*s
 OEPrefixAReduction [no-change]: *s*w*á*n*a*s
@@ -42490,6 +42826,7 @@ OEAwwjResolution [no-change]: *θ*ū*s*è*n*d
 OEAuBrightening [no-change]: *θ*ū*s*è*n*d
 OEEwLongDiphthong [no-change]: *θ*ū*s*è*n*d
 OEJWWSimplification [no-change]: *θ*ū*s*è*n*d
+OEJGlideIO [no-change]: *θ*ū*s*è*n*d
 OEDiphthongLeveling [no-change]: *θ*ū*s*è*n*d
 OEAwLongDiphthong [no-change]: *θ*ū*s*è*n*d
 OEPrefixAReduction [no-change]: *θ*ū*s*è*n*d
@@ -42617,6 +42954,7 @@ OEAwwjResolution [no-change]: *t*í*m*b*r*ą
 OEAuBrightening [no-change]: *t*í*m*b*r*ą
 OEEwLongDiphthong [no-change]: *t*í*m*b*r*ą
 OEJWWSimplification [no-change]: *t*í*m*b*r*ą
+OEJGlideIO [no-change]: *t*í*m*b*r*ą
 OEDiphthongLeveling [no-change]: *t*í*m*b*r*ą
 OEAwLongDiphthong [no-change]: *t*í*m*b*r*ą
 OEPrefixAReduction [no-change]: *t*í*m*b*r*ą
@@ -42744,6 +43082,7 @@ OEAwwjResolution [no-change]: *w*á*k*a*n*ą
 OEAuBrightening [no-change]: *w*á*k*a*n*ą
 OEEwLongDiphthong [no-change]: *w*á*k*a*n*ą
 OEJWWSimplification [no-change]: *w*á*k*a*n*ą
+OEJGlideIO [no-change]: *w*á*k*a*n*ą
 OEDiphthongLeveling [no-change]: *w*á*k*a*n*ą
 OEAwLongDiphthong [no-change]: *w*á*k*a*n*ą
 OEPrefixAReduction [no-change]: *w*á*k*a*n*ą
@@ -42871,6 +43210,7 @@ OEAwwjResolution [no-change]: *w*á*t*a*r
 OEAuBrightening [no-change]: *w*á*t*a*r
 OEEwLongDiphthong [no-change]: *w*á*t*a*r
 OEJWWSimplification [no-change]: *w*á*t*a*r
+OEJGlideIO [no-change]: *w*á*t*a*r
 OEDiphthongLeveling [no-change]: *w*á*t*a*r
 OEAwLongDiphthong [no-change]: *w*á*t*a*r
 OEPrefixAReduction [no-change]: *w*á*t*a*r
@@ -42998,6 +43338,7 @@ OEAwwjResolution [no-change]: *x*w*á*l*a
 OEAuBrightening [no-change]: *x*w*á*l*a
 OEEwLongDiphthong [no-change]: *x*w*á*l*a
 OEJWWSimplification [no-change]: *x*w*á*l*a
+OEJGlideIO [no-change]: *x*w*á*l*a
 OEDiphthongLeveling [no-change]: *x*w*á*l*a
 OEAwLongDiphthong [no-change]: *x*w*á*l*a
 OEPrefixAReduction [no-change]: *x*w*á*l*a
@@ -43124,6 +43465,7 @@ OEAwwjResolution [no-change]: *x*w*ḯ*n*a*n*ą
 OEAuBrightening [no-change]: *x*w*ḯ*n*a*n*ą
 OEEwLongDiphthong [no-change]: *x*w*ḯ*n*a*n*ą
 OEJWWSimplification [no-change]: *x*w*ḯ*n*a*n*ą
+OEJGlideIO [no-change]: *x*w*ḯ*n*a*n*ą
 OEDiphthongLeveling [no-change]: *x*w*ḯ*n*a*n*ą
 OEAwLongDiphthong [no-change]: *x*w*ḯ*n*a*n*ą
 OEPrefixAReduction [no-change]: *x*w*ḯ*n*a*n*ą
@@ -43251,6 +43593,7 @@ OEAwwjResolution [no-change]: *w*ḯ*θ*a*g*ą
 OEAuBrightening [no-change]: *w*ḯ*θ*a*g*ą
 OEEwLongDiphthong [no-change]: *w*ḯ*θ*a*g*ą
 OEJWWSimplification [no-change]: *w*ḯ*θ*a*g*ą
+OEJGlideIO [no-change]: *w*ḯ*θ*a*g*ą
 OEDiphthongLeveling [no-change]: *w*ḯ*θ*a*g*ą
 OEAwLongDiphthong [no-change]: *w*ḯ*θ*a*g*ą
 OEPrefixAReduction [no-change]: *w*ḯ*θ*a*g*ą
@@ -43378,6 +43721,7 @@ OEAwwjResolution [no-change]: *w*é*r*à*l*d*u
 OEAuBrightening [no-change]: *w*é*r*à*l*d*u
 OEEwLongDiphthong [no-change]: *w*é*r*à*l*d*u
 OEJWWSimplification [no-change]: *w*é*r*à*l*d*u
+OEJGlideIO [no-change]: *w*é*r*à*l*d*u
 OEDiphthongLeveling [no-change]: *w*é*r*à*l*d*u
 OEAwLongDiphthong [no-change]: *w*é*r*à*l*d*u
 OEPrefixAReduction [no-change]: *w*é*r*à*l*d*u
@@ -43505,6 +43849,7 @@ OEAwwjResolution [no-change]: *j*ú*g*ū*θ
 OEAuBrightening [no-change]: *j*ú*g*ū*θ
 OEEwLongDiphthong [no-change]: *j*ú*g*ū*θ
 OEJWWSimplification [no-change]: *j*ú*g*ū*θ
+OEJGlideIO [no-change]: *j*ú*g*ū*θ
 OEDiphthongLeveling [no-change]: *j*ú*g*ū*θ
 OEAwLongDiphthong [no-change]: *j*ú*g*ū*θ
 OEPrefixAReduction [no-change]: *j*ú*g*ū*θ
@@ -43634,6 +43979,7 @@ OEAwwjResolution [no-change]: *b*á*n*n*a*s
 OEAuBrightening [no-change]: *b*á*n*n*a*s
 OEEwLongDiphthong [no-change]: *b*á*n*n*a*s
 OEJWWSimplification [no-change]: *b*á*n*n*a*s
+OEJGlideIO [no-change]: *b*á*n*n*a*s
 OEDiphthongLeveling [no-change]: *b*á*n*n*a*s
 OEAwLongDiphthong [no-change]: *b*á*n*n*a*s
 OEPrefixAReduction [no-change]: *b*á*n*n*a*s
@@ -43761,6 +44107,7 @@ OEAwwjResolution [no-change]: *b*á*r*j*a*s
 OEAuBrightening [no-change]: *b*á*r*j*a*s
 OEEwLongDiphthong [no-change]: *b*á*r*j*a*s
 OEJWWSimplification [no-change]: *b*á*r*j*a*s
+OEJGlideIO [no-change]: *b*á*r*j*a*s
 OEDiphthongLeveling [no-change]: *b*á*r*j*a*s
 OEAwLongDiphthong [no-change]: *b*á*r*j*a*s
 OEPrefixAReduction [no-change]: *b*á*r*j*a*s
@@ -43888,6 +44235,7 @@ OEAwwjResolution [no-change]: *b*ó*r*ō*θ
 OEAuBrightening [no-change]: *b*ó*r*ō*θ
 OEEwLongDiphthong [no-change]: *b*ó*r*ō*θ
 OEJWWSimplification [no-change]: *b*ó*r*ō*θ
+OEJGlideIO [no-change]: *b*ó*r*ō*θ
 OEDiphthongLeveling [no-change]: *b*ó*r*ō*θ
 OEAwLongDiphthong [no-change]: *b*ó*r*ō*θ
 OEPrefixAReduction [no-change]: *b*ó*r*ō*θ
@@ -44015,6 +44363,7 @@ OEAwwjResolution [no-change]: *b*ó*r*ô
 OEAuBrightening [no-change]: *b*ó*r*ô
 OEEwLongDiphthong [no-change]: *b*ó*r*ô
 OEJWWSimplification [no-change]: *b*ó*r*ô
+OEJGlideIO [no-change]: *b*ó*r*ô
 OEDiphthongLeveling [no-change]: *b*ó*r*ô
 OEAwLongDiphthong [no-change]: *b*ó*r*ô
 OEPrefixAReduction [no-change]: *b*ó*r*ô
@@ -44142,6 +44491,7 @@ OEAwwjResolution [no-change]: *b*áu*g
 OEAuBrightening: *b*áeu*g
 OEEwLongDiphthong [no-change]: *b*áeu*g
 OEJWWSimplification [no-change]: *b*áeu*g
+OEJGlideIO [no-change]: *b*áeu*g
 OEDiphthongLeveling: *b*ēa*g
 OEAwLongDiphthong [no-change]: *b*ēa*g
 OEPrefixAReduction [no-change]: *b*ēa*g
@@ -44269,6 +44619,7 @@ OEAwwjResolution [no-change]: *k*ū*i
 OEAuBrightening [no-change]: *k*ū*i
 OEEwLongDiphthong [no-change]: *k*ū*i
 OEJWWSimplification [no-change]: *k*ū*i
+OEJGlideIO [no-change]: *k*ū*i
 OEDiphthongLeveling [no-change]: *k*ū*i
 OEAwLongDiphthong [no-change]: *k*ū*i
 OEPrefixAReduction [no-change]: *k*ū*i
@@ -44396,6 +44747,7 @@ OEAwwjResolution [no-change]: *f*ú*n*d*a*n*ǭ
 OEAuBrightening [no-change]: *f*ú*n*d*a*n*ǭ
 OEEwLongDiphthong [no-change]: *f*ú*n*d*a*n*ǭ
 OEJWWSimplification [no-change]: *f*ú*n*d*a*n*ǭ
+OEJGlideIO [no-change]: *f*ú*n*d*a*n*ǭ
 OEDiphthongLeveling [no-change]: *f*ú*n*d*a*n*ǭ
 OEAwLongDiphthong [no-change]: *f*ú*n*d*a*n*ǭ
 OEPrefixAReduction [no-change]: *f*ú*n*d*a*n*ǭ
@@ -44523,6 +44875,7 @@ OEAwwjResolution [no-change]: *f*ú*r*x*t*ī*n*a
 OEAuBrightening [no-change]: *f*ú*r*x*t*ī*n*a
 OEEwLongDiphthong [no-change]: *f*ú*r*x*t*ī*n*a
 OEJWWSimplification [no-change]: *f*ú*r*x*t*ī*n*a
+OEJGlideIO [no-change]: *f*ú*r*x*t*ī*n*a
 OEDiphthongLeveling [no-change]: *f*ú*r*x*t*ī*n*a
 OEAwLongDiphthong [no-change]: *f*ú*r*x*t*ī*n*a
 OEPrefixAReduction [no-change]: *f*ú*r*x*t*ī*n*a
@@ -44650,6 +45003,7 @@ OEAwwjResolution [no-change]: *x*á*m*a*r*a*s
 OEAuBrightening [no-change]: *x*á*m*a*r*a*s
 OEEwLongDiphthong [no-change]: *x*á*m*a*r*a*s
 OEJWWSimplification [no-change]: *x*á*m*a*r*a*s
+OEJGlideIO [no-change]: *x*á*m*a*r*a*s
 OEDiphthongLeveling [no-change]: *x*á*m*a*r*a*s
 OEAwLongDiphthong [no-change]: *x*á*m*a*r*a*s
 OEPrefixAReduction [no-change]: *x*á*m*a*r*a*s
@@ -44777,6 +45131,7 @@ OEAwwjResolution [no-change]: *x*á*b*ē*θ
 OEAuBrightening [no-change]: *x*á*b*ē*θ
 OEEwLongDiphthong [no-change]: *x*á*b*ē*θ
 OEJWWSimplification [no-change]: *x*á*b*ē*θ
+OEJGlideIO [no-change]: *x*á*b*ē*θ
 OEDiphthongLeveling [no-change]: *x*á*b*ē*θ
 OEAwLongDiphthong [no-change]: *x*á*b*ē*θ
 OEPrefixAReduction [no-change]: *x*á*b*ē*θ
@@ -44904,6 +45259,7 @@ OEAwwjResolution [no-change]: *k*n*é*w*ē
 OEAuBrightening [no-change]: *k*n*é*w*ē
 OEEwLongDiphthong [no-change]: *k*n*é*w*ē
 OEJWWSimplification [no-change]: *k*n*é*w*ē
+OEJGlideIO [no-change]: *k*n*é*w*ē
 OEDiphthongLeveling [no-change]: *k*n*é*w*ē
 OEAwLongDiphthong [no-change]: *k*n*é*w*ē
 OEPrefixAReduction [no-change]: *k*n*é*w*ē
@@ -45031,6 +45387,7 @@ OEAwwjResolution [no-change]: *l*í*r*n*ō*θ
 OEAuBrightening [no-change]: *l*í*r*n*ō*θ
 OEEwLongDiphthong [no-change]: *l*í*r*n*ō*θ
 OEJWWSimplification [no-change]: *l*í*r*n*ō*θ
+OEJGlideIO [no-change]: *l*í*r*n*ō*θ
 OEDiphthongLeveling [no-change]: *l*í*r*n*ō*θ
 OEAwLongDiphthong [no-change]: *l*í*r*n*ō*θ
 OEPrefixAReduction [no-change]: *l*í*r*n*ō*θ
@@ -45158,6 +45515,7 @@ OEAwwjResolution [no-change]: *l*í*r*n*ô
 OEAuBrightening [no-change]: *l*í*r*n*ô
 OEEwLongDiphthong [no-change]: *l*í*r*n*ô
 OEJWWSimplification [no-change]: *l*í*r*n*ô
+OEJGlideIO [no-change]: *l*í*r*n*ô
 OEDiphthongLeveling [no-change]: *l*í*r*n*ô
 OEAwLongDiphthong [no-change]: *l*í*r*n*ô
 OEPrefixAReduction [no-change]: *l*í*r*n*ô
@@ -45285,6 +45643,7 @@ OEAwwjResolution [no-change]: *l*í*k*k*ō*θ
 OEAuBrightening [no-change]: *l*í*k*k*ō*θ
 OEEwLongDiphthong [no-change]: *l*í*k*k*ō*θ
 OEJWWSimplification [no-change]: *l*í*k*k*ō*θ
+OEJGlideIO [no-change]: *l*í*k*k*ō*θ
 OEDiphthongLeveling [no-change]: *l*í*k*k*ō*θ
 OEAwLongDiphthong [no-change]: *l*í*k*k*ō*θ
 OEPrefixAReduction [no-change]: *l*í*k*k*ō*θ
@@ -45412,6 +45771,7 @@ OEAwwjResolution [no-change]: *l*í*k*k*ô
 OEAuBrightening [no-change]: *l*í*k*k*ô
 OEEwLongDiphthong [no-change]: *l*í*k*k*ô
 OEJWWSimplification [no-change]: *l*í*k*k*ô
+OEJGlideIO [no-change]: *l*í*k*k*ô
 OEDiphthongLeveling [no-change]: *l*í*k*k*ô
 OEAwLongDiphthong [no-change]: *l*í*k*k*ô
 OEPrefixAReduction [no-change]: *l*í*k*k*ô
@@ -45539,6 +45899,7 @@ OEAwwjResolution [no-change]: *l*í*b*ē*θ
 OEAuBrightening [no-change]: *l*í*b*ē*θ
 OEEwLongDiphthong [no-change]: *l*í*b*ē*θ
 OEJWWSimplification [no-change]: *l*í*b*ē*θ
+OEJGlideIO [no-change]: *l*í*b*ē*θ
 OEDiphthongLeveling [no-change]: *l*í*b*ē*θ
 OEAwLongDiphthong [no-change]: *l*í*b*ē*θ
 OEPrefixAReduction [no-change]: *l*í*b*ē*θ
@@ -45666,6 +46027,7 @@ OEAwwjResolution [no-change]: *m*á*k*ō*θ
 OEAuBrightening [no-change]: *m*á*k*ō*θ
 OEEwLongDiphthong [no-change]: *m*á*k*ō*θ
 OEJWWSimplification [no-change]: *m*á*k*ō*θ
+OEJGlideIO [no-change]: *m*á*k*ō*θ
 OEDiphthongLeveling [no-change]: *m*á*k*ō*θ
 OEAwLongDiphthong [no-change]: *m*á*k*ō*θ
 OEPrefixAReduction [no-change]: *m*á*k*ō*θ
@@ -45793,6 +46155,7 @@ OEAwwjResolution [no-change]: *m*á*k*ô
 OEAuBrightening [no-change]: *m*á*k*ô
 OEEwLongDiphthong [no-change]: *m*á*k*ô
 OEJWWSimplification [no-change]: *m*á*k*ô
+OEJGlideIO [no-change]: *m*á*k*ô
 OEDiphthongLeveling [no-change]: *m*á*k*ô
 OEAwLongDiphthong [no-change]: *m*á*k*ô
 OEPrefixAReduction [no-change]: *m*á*k*ô
@@ -45920,6 +46283,7 @@ OEAwwjResolution [no-change]: *m*á*n*n*a*s
 OEAuBrightening [no-change]: *m*á*n*n*a*s
 OEEwLongDiphthong [no-change]: *m*á*n*n*a*s
 OEJWWSimplification [no-change]: *m*á*n*n*a*s
+OEJGlideIO [no-change]: *m*á*n*n*a*s
 OEDiphthongLeveling [no-change]: *m*á*n*n*a*s
 OEAwLongDiphthong [no-change]: *m*á*n*n*a*s
 OEPrefixAReduction [no-change]: *m*á*n*n*a*s
@@ -46047,6 +46411,7 @@ OEAwwjResolution [no-change]: *m*é*r*d*ē
 OEAuBrightening [no-change]: *m*é*r*d*ē
 OEEwLongDiphthong [no-change]: *m*é*r*d*ē
 OEJWWSimplification [no-change]: *m*é*r*d*ē
+OEJGlideIO [no-change]: *m*é*r*d*ē
 OEDiphthongLeveling [no-change]: *m*é*r*d*ē
 OEAwLongDiphthong [no-change]: *m*é*r*d*ē
 OEPrefixAReduction [no-change]: *m*é*r*d*ē
@@ -46174,6 +46539,7 @@ OEAwwjResolution [no-change]: *n*á*x*t*i
 OEAuBrightening [no-change]: *n*á*x*t*i
 OEEwLongDiphthong [no-change]: *n*á*x*t*i
 OEJWWSimplification [no-change]: *n*á*x*t*i
+OEJGlideIO [no-change]: *n*á*x*t*i
 OEDiphthongLeveling [no-change]: *n*á*x*t*i
 OEAwLongDiphthong [no-change]: *n*á*x*t*i
 OEPrefixAReduction [no-change]: *n*á*x*t*i
@@ -46301,6 +46667,7 @@ OEAwwjResolution [no-change]: *r*á*s*t*ō
 OEAuBrightening [no-change]: *r*á*s*t*ō
 OEEwLongDiphthong [no-change]: *r*á*s*t*ō
 OEJWWSimplification [no-change]: *r*á*s*t*ō
+OEJGlideIO [no-change]: *r*á*s*t*ō
 OEDiphthongLeveling [no-change]: *r*á*s*t*ō
 OEAwLongDiphthong [no-change]: *r*á*s*t*ō
 OEPrefixAReduction [no-change]: *r*á*s*t*ō
@@ -46428,6 +46795,7 @@ OEAwwjResolution [no-change]: *s*k*ú*l*d*r*u*m
 OEAuBrightening [no-change]: *s*k*ú*l*d*r*u*m
 OEEwLongDiphthong [no-change]: *s*k*ú*l*d*r*u*m
 OEJWWSimplification [no-change]: *s*k*ú*l*d*r*u*m
+OEJGlideIO [no-change]: *s*k*ú*l*d*r*u*m
 OEDiphthongLeveling [no-change]: *s*k*ú*l*d*r*u*m
 OEAwLongDiphthong [no-change]: *s*k*ú*l*d*r*u*m
 OEPrefixAReduction [no-change]: *s*k*ú*l*d*r*u*m
@@ -46555,6 +46923,7 @@ OEAwwjResolution [no-change]: *s*k*áu*b
 OEAuBrightening: *s*k*áeu*b
 OEEwLongDiphthong [no-change]: *s*k*áeu*b
 OEJWWSimplification [no-change]: *s*k*áeu*b
+OEJGlideIO [no-change]: *s*k*áeu*b
 OEDiphthongLeveling: *s*k*ēa*b
 OEAwLongDiphthong [no-change]: *s*k*ēa*b
 OEPrefixAReduction [no-change]: *s*k*ēa*b
@@ -46682,6 +47051,7 @@ OEAwwjResolution [no-change]: *s*k*á*w*ō*θ
 OEAuBrightening [no-change]: *s*k*á*w*ō*θ
 OEEwLongDiphthong [no-change]: *s*k*á*w*ō*θ
 OEJWWSimplification [no-change]: *s*k*á*w*ō*θ
+OEJGlideIO [no-change]: *s*k*á*w*ō*θ
 OEDiphthongLeveling [no-change]: *s*k*á*w*ō*θ
 OEAwLongDiphthong: *s*k*ḗa*w*ō*θ
 OEPrefixAReduction [no-change]: *s*k*ḗa*w*ō*θ
@@ -46809,6 +47179,7 @@ OEAwwjResolution [no-change]: *s*k*á*w*ô
 OEAuBrightening [no-change]: *s*k*á*w*ô
 OEEwLongDiphthong [no-change]: *s*k*á*w*ô
 OEJWWSimplification [no-change]: *s*k*á*w*ô
+OEJGlideIO [no-change]: *s*k*á*w*ô
 OEDiphthongLeveling [no-change]: *s*k*á*w*ô
 OEAwLongDiphthong: *s*k*ḗa*w*ô
 OEPrefixAReduction [no-change]: *s*k*ḗa*w*ô
@@ -46936,6 +47307,7 @@ OEAwwjResolution [no-change]: *s*p*á*n*n*ē
 OEAuBrightening [no-change]: *s*p*á*n*n*ē
 OEEwLongDiphthong [no-change]: *s*p*á*n*n*ē
 OEJWWSimplification [no-change]: *s*p*á*n*n*ē
+OEJGlideIO [no-change]: *s*p*á*n*n*ē
 OEDiphthongLeveling [no-change]: *s*p*á*n*n*ē
 OEAwLongDiphthong [no-change]: *s*p*á*n*n*ē
 OEPrefixAReduction [no-change]: *s*p*á*n*n*ē
@@ -47063,6 +47435,7 @@ OEAwwjResolution [no-change]: *θ*í*s*t*i*l*a*s
 OEAuBrightening [no-change]: *θ*í*s*t*i*l*a*s
 OEEwLongDiphthong [no-change]: *θ*í*s*t*i*l*a*s
 OEJWWSimplification [no-change]: *θ*í*s*t*i*l*a*s
+OEJGlideIO [no-change]: *θ*í*s*t*i*l*a*s
 OEDiphthongLeveling [no-change]: *θ*í*s*t*i*l*a*s
 OEAwLongDiphthong [no-change]: *θ*í*s*t*i*l*a*s
 OEPrefixAReduction [no-change]: *θ*í*s*t*i*l*a*s
@@ -47192,6 +47565,7 @@ OEAwwjResolution [no-change]: *k*w*é*d*u
 OEAuBrightening [no-change]: *k*w*é*d*u
 OEEwLongDiphthong [no-change]: *k*w*é*d*u
 OEJWWSimplification [no-change]: *k*w*é*d*u
+OEJGlideIO [no-change]: *k*w*é*d*u
 OEDiphthongLeveling [no-change]: *k*w*é*d*u
 OEAwLongDiphthong [no-change]: *k*w*é*d*u
 OEPrefixAReduction [no-change]: *k*w*é*d*u
@@ -47319,6 +47693,7 @@ OEAwwjResolution [no-change]: *t*é*x*u*n
 OEAuBrightening [no-change]: *t*é*x*u*n
 OEEwLongDiphthong [no-change]: *t*é*x*u*n
 OEJWWSimplification [no-change]: *t*é*x*u*n
+OEJGlideIO [no-change]: *t*é*x*u*n
 OEDiphthongLeveling [no-change]: *t*é*x*u*n
 OEAwLongDiphthong [no-change]: *t*é*x*u*n
 OEPrefixAReduction [no-change]: *t*é*x*u*n
@@ -47446,6 +47821,7 @@ OEAwwjResolution [no-change]: *θ*r*é*j*e
 OEAuBrightening [no-change]: *θ*r*é*j*e
 OEEwLongDiphthong [no-change]: *θ*r*é*j*e
 OEJWWSimplification [no-change]: *θ*r*é*j*e
+OEJGlideIO [no-change]: *θ*r*é*j*e
 OEDiphthongLeveling [no-change]: *θ*r*é*j*e
 OEAwLongDiphthong [no-change]: *θ*r*é*j*e
 OEPrefixAReduction [no-change]: *θ*r*é*j*e
@@ -47573,6 +47949,7 @@ OEAwwjResolution [no-change]: *w*á*b*s*a
 OEAuBrightening [no-change]: *w*á*b*s*a
 OEEwLongDiphthong [no-change]: *w*á*b*s*a
 OEJWWSimplification [no-change]: *w*á*b*s*a
+OEJGlideIO [no-change]: *w*á*b*s*a
 OEDiphthongLeveling [no-change]: *w*á*b*s*a
 OEAwLongDiphthong [no-change]: *w*á*b*s*a
 OEPrefixAReduction [no-change]: *w*á*b*s*a
@@ -47702,6 +48079,7 @@ OEAwwjResolution [no-change]: *k*n*ó*b*b*ô
 OEAuBrightening [no-change]: *k*n*ó*b*b*ô
 OEEwLongDiphthong [no-change]: *k*n*ó*b*b*ô
 OEJWWSimplification [no-change]: *k*n*ó*b*b*ô
+OEJGlideIO [no-change]: *k*n*ó*b*b*ô
 OEDiphthongLeveling [no-change]: *k*n*ó*b*b*ô
 OEAwLongDiphthong [no-change]: *k*n*ó*b*b*ô
 OEPrefixAReduction [no-change]: *k*n*ó*b*b*ô
@@ -47829,6 +48207,7 @@ OEAwwjResolution [no-change]: *r*áu*k*a
 OEAuBrightening: *r*áeu*k*a
 OEEwLongDiphthong [no-change]: *r*áeu*k*a
 OEJWWSimplification [no-change]: *r*áeu*k*a
+OEJGlideIO [no-change]: *r*áeu*k*a
 OEDiphthongLeveling: *r*ēa*k*a
 OEAwLongDiphthong [no-change]: *r*ēa*k*a
 OEPrefixAReduction [no-change]: *r*ēa*k*a
@@ -47956,6 +48335,7 @@ OEAwwjResolution: *s*t*r*áu*j*a*n*ą
 OEAuBrightening: *s*t*r*áeu*j*a*n*ą
 OEEwLongDiphthong [no-change]: *s*t*r*áeu*j*a*n*ą
 OEJWWSimplification [no-change]: *s*t*r*áeu*j*a*n*ą
+OEJGlideIO [no-change]: *s*t*r*áeu*j*a*n*ą
 OEDiphthongLeveling: *s*t*r*ēa*j*a*n*ą
 OEAwLongDiphthong [no-change]: *s*t*r*ēa*j*a*n*ą
 OEPrefixAReduction [no-change]: *s*t*r*ēa*j*a*n*ą
@@ -48085,6 +48465,7 @@ OEAwwjResolution [no-change]: *f*ū*r*i
 OEAuBrightening [no-change]: *f*ū*r*i
 OEEwLongDiphthong [no-change]: *f*ū*r*i
 OEJWWSimplification [no-change]: *f*ū*r*i
+OEJGlideIO [no-change]: *f*ū*r*i
 OEDiphthongLeveling [no-change]: *f*ū*r*i
 OEAwLongDiphthong [no-change]: *f*ū*r*i
 OEPrefixAReduction [no-change]: *f*ū*r*i
@@ -48212,6 +48593,7 @@ OEAwwjResolution [no-change]: *t*á*p*p*ô
 OEAuBrightening [no-change]: *t*á*p*p*ô
 OEEwLongDiphthong [no-change]: *t*á*p*p*ô
 OEJWWSimplification [no-change]: *t*á*p*p*ô
+OEJGlideIO [no-change]: *t*á*p*p*ô
 OEDiphthongLeveling [no-change]: *t*á*p*p*ô
 OEAwLongDiphthong [no-change]: *t*á*p*p*ô
 OEPrefixAReduction [no-change]: *t*á*p*p*ô
@@ -48341,6 +48723,7 @@ OEAwwjResolution [no-change]: *b*ó*k*k*a
 OEAuBrightening [no-change]: *b*ó*k*k*a
 OEEwLongDiphthong [no-change]: *b*ó*k*k*a
 OEJWWSimplification [no-change]: *b*ó*k*k*a
+OEJGlideIO [no-change]: *b*ó*k*k*a
 OEDiphthongLeveling [no-change]: *b*ó*k*k*a
 OEAwLongDiphthong [no-change]: *b*ó*k*k*a
 OEPrefixAReduction [no-change]: *b*ó*k*k*a
@@ -48468,6 +48851,7 @@ OEAwwjResolution [no-change]: *f*ó*g*l*a
 OEAuBrightening [no-change]: *f*ó*g*l*a
 OEEwLongDiphthong [no-change]: *f*ó*g*l*a
 OEJWWSimplification [no-change]: *f*ó*g*l*a
+OEJGlideIO [no-change]: *f*ó*g*l*a
 OEDiphthongLeveling [no-change]: *f*ó*g*l*a
 OEAwLongDiphthong [no-change]: *f*ó*g*l*a
 OEPrefixAReduction [no-change]: *f*ó*g*l*a
@@ -48595,6 +48979,7 @@ OEAwwjResolution [no-change]: *r*ó*s*t*u
 OEAuBrightening [no-change]: *r*ó*s*t*u
 OEEwLongDiphthong [no-change]: *r*ó*s*t*u
 OEJWWSimplification [no-change]: *r*ó*s*t*u
+OEJGlideIO [no-change]: *r*ó*s*t*u
 OEDiphthongLeveling [no-change]: *r*ó*s*t*u
 OEAwLongDiphthong [no-change]: *r*ó*s*t*u
 OEPrefixAReduction [no-change]: *r*ó*s*t*u
@@ -48722,6 +49107,7 @@ OEAwwjResolution [no-change]: *w*ó*l*f*a
 OEAuBrightening [no-change]: *w*ó*l*f*a
 OEEwLongDiphthong [no-change]: *w*ó*l*f*a
 OEJWWSimplification [no-change]: *w*ó*l*f*a
+OEJGlideIO [no-change]: *w*ó*l*f*a
 OEDiphthongLeveling [no-change]: *w*ó*l*f*a
 OEAwLongDiphthong [no-change]: *w*ó*l*f*a
 OEPrefixAReduction [no-change]: *w*ó*l*f*a
@@ -48849,6 +49235,7 @@ OEAwwjResolution [no-change]: *w*ó*l*l*u
 OEAuBrightening [no-change]: *w*ó*l*l*u
 OEEwLongDiphthong [no-change]: *w*ó*l*l*u
 OEJWWSimplification [no-change]: *w*ó*l*l*u
+OEJGlideIO [no-change]: *w*ó*l*l*u
 OEDiphthongLeveling [no-change]: *w*ó*l*l*u
 OEAwLongDiphthong [no-change]: *w*ó*l*l*u
 OEPrefixAReduction [no-change]: *w*ó*l*l*u

@@ -76,7 +76,8 @@ class ContextAdoptionTests(unittest.TestCase):
         summary = load_firing_summary(text)
         self.assertEqual(summary["OEWWSimplification"], (5, ["chew", "dew", "four", "hew", "you"]))
         self.assertEqual(summary["OEEwLongDiphthong"], (1, ["hue"]))
-        self.assertEqual(summary["OEJWWSimplification"], (1, ["hue"]))
+        self.assertEqual(summary.get("OEJWWSimplification", (0, [])), (0, []))
+        self.assertEqual(summary["OEJGlideIO"], (1, ["hue"]))
         self.assertEqual(summary["OEDiphthongLeveling"][0], 32)
         self.assertEqual(summary["OEAwLongDiphthong"][0], 4)
         for concept in ("four", "you"):

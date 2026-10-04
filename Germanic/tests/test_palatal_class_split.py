@@ -20,7 +20,10 @@ class PalatalClassSplitTests(unittest.TestCase):
         historical = json.loads((directory / "oe_palatal_class_recipes.json").read_text())
         self.assertEqual(current["baseline_fst_sha256"],
                          "38213e869276ef5887316553a20bf3f018ee5eace66819dee6bfb4b817ba7cc7")
-        active = json.loads((directory / "oe_post_sc033_controls.json").read_text())
+        knee = json.loads((directory / "oe_post_sc033_controls.json").read_text())
+        self.assertEqual(knee["baseline_fst_sha256"],
+                         "235fb9cf07cf40d0e00181c2959b7ada5c2852c85d231b6c1caa3dccad3074f9")
+        active = json.loads((directory / "oe_post_hue_controls.json").read_text())
         self.assertEqual(active["baseline_fst_sha256"],
                          hashlib.sha256(SOURCE.read_bytes()).hexdigest())
         self.assertEqual(historical["baseline_fst_sha256"],

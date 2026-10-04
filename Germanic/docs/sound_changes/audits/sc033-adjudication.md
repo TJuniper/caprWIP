@@ -1,8 +1,10 @@
 # SC033: singleton quantity versus j-created glide realization
 
-Status: complete; author-approved implementation, integrated verification
-and inspected publication are recorded below.
-The original diagnosis and private reports remain historical evidence.
+Status: the knee increment is complete and published. The subsequent
+author-approved hue correction is being implemented and verified; its
+current account follows the historical knee closeout below.
+The original diagnosis, measurements and 301-page publication remain
+historical evidence, not claims about the new render.
 
 ## Identity
 
@@ -208,7 +210,10 @@ is now an active support stage, not a claimed independent sound law.
 Its unsupported historical stage/scope/confidence are removed rather than
 invented for hue's incomplete compatibility path.
 
-Registry-verdict: SC033=REFORMULATE/RESTRICT
+The knee increment's verdict was REFORMULATE/RESTRICT. The approved hue
+follow-up reformulates the remaining proxy and separates realization:
+
+Registry-verdict: SC033=REFORMULATE/SPLIT
 
 The user explicitly authorized selecting a PGmc and Old English dative
 singular for knee, implementing the necessary corrections and publishing
@@ -340,6 +345,119 @@ remain unexecuted diagnostics, not adopted historical chronology.
 A generic early ending repair must be censused across all affected rows;
 a leveled target must not be called a regular sound-law reflex.
 
-Hue's omitted early raising remains an explicit local limitation.
+At the knee release, hue's omitted early raising remained a local limitation;
+the separately approved correction below supersedes that current limitation.
 The high-front exclusion in the w-breaking consumer is repaired.
 SC032/034/105 and the broader breaking rivals remain unadjudicated here.
+
+## Adopted hue follow-up (2026-10-04)
+
+The user approved the complete measured package in
+`hue-source-chain-proposal.md`, including PROTO = PROTOFORM = *xíwją,
+unchanged hīew, the SC033 reanalysis, distinct SC110 long-io realization,
+retained SC106, strict selected-input baseline migration and publication.
+No commit or push is authorized.
+
+Ringe-Taylor explicitly supplies PGmc *hiwją and palatalized
+iww -> iuw -> pre-OE long īow -> WS long īew (2014 p.250).
+Orel's *xewjan (2003 pp.171-172) and Kroonen's *heuja- (2013 p.224)
+remain genuine e-form alternatives, with their different derivational
+explanations and endings preserved. Ringe's early raising discussion
+(2017 pp.151-153), Fulk's distinction from later mutation (2018 p.59)
+and Campbell's iwj outcome (1959 pp.42,46) support the realized-i choice.
+Fulk's geminate-dismantling objection (2018 pp.71-72,126) and the
+uncertain phonemic interpretation in Ringe-Taylor (2014 pp.53,250)
+remain qualified, not resolved by final-output equality.
+
+The separate private input-only trial preserves the long-eo proxy.
+The complete candidate instead measures *xíwwją -> *xíuwją ->
+*xīowją -> ... -> *çīewj -> hīew. All 19 component, four staged
+and eleven corpus assertions pass; all 387 finals and all eight
+recorded checkpoints of the other386 rows are unchanged. Both
+experiments prove wrapper identity, preserve canonical artifacts and
+retain the same seven old mismatches without rejection or ambiguity.
+These are private measurements; production verification is recorded
+separately after execution.
+
+SC033 now encodes iww+j -> iu+w+j, including acute i, not long
+quantity. SC110 independently realizes long īo before palatalized w,
+carried computationally as w+j. Existing OEIUmlaut supplies long īe.
+The carrier is not proof of a separate j phoneme. Both support identities
+have no invented historical stage/scope/confidence; SC110 has no fabricated
+independent historical-law verdict. No new canonical chronology edge is
+promoted. Ordinary SC032's nine clauses remain unchanged.
+
+SC106 remains composed with its original body, but adopted hue
+already has singleton w and no longer feeds it. This is a disclosed
+compatibility component, not an assertion that a zero live population
+proves universal redundancy. The short knee dative and completed
+SC044 high-front guard remain untouched.
+
+The exact receipt is `approved_hue_input_migration.json`.
+`adjudicate.py SC033 --adopt-cell-baseline --approval
+approved_hue_input_migration.json` selects it explicitly. Its transition
+id preserves separate `*_pre_sc033_hue.*` bytes; the original knee
+receipt and `*_pre_sc033.*`, gift/context and legacy archives are not
+overwritten. All undeclared identity, output, target, multiplicity or
+context drift is rejected. Hue is outside original380, so its migration
+does not belong in the original380 mapping.
+
+The measured unchanged-output input correction implies evaluator
+selected387 47a901e9e4a7cd663b8eb574b87fe737382e8fc1b4f1bc8afc38701af0c96872
+and lexical selected387
+90789094b8d8889bb478dd6077de75e1d8e1cb66b7b6d347b63e73a83d039c47.
+The active original380 and immutable legacy380 projections remain
+70bdaba537d8f6b6bb7d872d00eefbef75127d2d77689af7ba01b35a79ebce39
+and fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf.
+Fresh production evaluation has reproduced both approved selected387
+projections and adopted the exact receipt, preserving the separate
+pre-hue bytes and all earlier archives. The current protected assay
+passes 68 component, 13 staged and 14 corpus assertions, including
+source-class new/mirth realization checkpoints, key/day native suffixes,
+the regular knee dative and all released palatal assertions.
+All 387 finals are identical to the pre-hue baseline; the seven old
+mismatches, rejection/ambiguity counts and protected-artifact hashes
+are unchanged.
+
+### Hue verification and publication closeout
+
+The final integrated Germanic suite passes 713 tests and 6,259 subtests.
+The serial protected current-production assay passes all 68 component,
+13 staged and 14 corpus assertions, including every released palatal
+assertion and the source-class new/mirth controls. Wrapper identity,
+all 387 finals, the seven old mismatch IDs and protected artifacts are
+preserved; no input drift, rejection or ambiguity occurs. Historical
+recipes/results and every earlier approval/archive remain untouched.
+
+The standard unbypassed combined book build passes citation/cross-reference,
+semantic, gloss/predicted-form, index/parity, bibliography-locator and
+heading gates, including all 18 index-architecture negative fixtures.
+The explicit publication delta is limited to the adopted hue input and
+the separately attributed comparison forms. The scoped index overrides
+exclude only the nonlexical labels "long", "e-to-i" and the discussed
+vowel-plus-glide fragment "īew"; no scientific prose was altered to hide
+an index candidate. First-mention glosses accompany the complete author
+reconstructions.
+
+The inspected combined PDF has 302 pages. Hue is section6.82 in Regular
+derivations, printed pp.185–187: its complete trace, Orel/Kroonen/Ringe–Taylor
+comparison, Ringe/Fulk early-raising argument, Fulk's glide objection,
+working-choice rationale, confidence and source/encoding distinction were
+checked in the actual rendered pages. The long īo/īe quantities, acute,
+nasal vowel and PIE subscript render correctly.
+
+The SC033/106/110 definitions and discussion are printed pp.67–68;
+Chapter4's adopted hue/knee distinction is on p.59. Knee remains section9.9
+in Late analogy and paradigm-cell selection, now pp.250–252, with its
+unchanged short dative and separate citation reconstruction. Native index
+entries on pp.295–296 and reconstruction entries on pp.298–299 include
+the adopted and alternative hue forms with the correct lexical locators.
+Publication SHA256:
+96c5306ddd52b3b97d59e6f2551e04406fbc9cca7a1e036566f626d13ae8a36d.
+
+The omitted-raising/long-eo proxy limitation is superseded. Author-level
+e/i disagreement and the non-unique phonemic analysis of palatalized w
+remain explicit scientific qualifications. This completion does not
+adjudicate ordinary SC032, SC034/105, breaking rivals or the complete
+ancestral inventory, nor initiate the queued project-wide reconstruction
+comparison. No commit or push is part of this closeout.

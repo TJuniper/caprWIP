@@ -57,7 +57,7 @@ AWJ_WITNESSES = {"hay": "hīeġ", "strew": "strīeġan"}
 
 # The *iwj witness: geminates at SC010 like the *awj words, but the later
 # resolution is restricted to the low-vowel type, so it must not fire here.
-IWJ_WITNESS = ("hue", "*xéwją", "hīew")
+IWJ_WITNESS = ("hue", "*xíwją", "hīew")
 
 # Structural non-members of the *w branch. These are engineering near-misses,
 # NOT independent demonstrations of the short-syllable conditioning: in every

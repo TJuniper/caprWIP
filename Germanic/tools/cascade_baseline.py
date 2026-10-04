@@ -289,13 +289,21 @@ def read_baseline(outputs_path: Path, summary_path: Path) -> dict:
 def validate_cell_transition(previous: dict, candidate: dict, approval: dict) -> None:
     fields = {"proto", "proto_norm", "fst_input", "counterpart", "outputs"}
     summary_fields = {"outputs_sha256", "lexical_outputs_sha256", "legacy_subset_sha256"}
-    if not isinstance(approval, dict) or set(approval) != {
+    required_fields = {
         "adjudication", "adjudication_memo", "previous_summary",
         "legacy_archive_sha256", "changes",
-    } or not isinstance(approval["adjudication"], str) or not re.fullmatch(
+    }
+    if (not isinstance(approval, dict)
+            or set(approval) not in (required_fields, required_fields | {"transition_id"})
+            or not isinstance(approval["adjudication"], str) or not re.fullmatch(
         r"SC[0-9]{3}", approval["adjudication"]
-    ):
+    )):
         raise ValueError("invalid paradigm-cell migration approval")
+    if "transition_id" in approval and (
+        not isinstance(approval["transition_id"], str)
+        or not re.fullmatch(r"[a-z][a-z0-9_]*", approval["transition_id"])
+    ):
+        raise ValueError("invalid selected-input transition id")
     if (not isinstance(approval["previous_summary"], dict)
             or set(approval["previous_summary"]) != summary_fields
             or not isinstance(approval["changes"], list)
@@ -363,9 +371,16 @@ def adopt_cell_baseline(candidate: dict, out_dir: Path, approval: dict) -> None:
         r"SC[0-9]{3}", approval["adjudication"]
     ):
         raise ValueError("invalid paradigm-cell adjudication")
+    if "transition_id" in approval and (
+        not isinstance(approval["transition_id"], str)
+        or not re.fullmatch(r"[a-z][a-z0-9_]*", approval["transition_id"])
+    ):
+        raise ValueError("invalid selected-input transition id")
     outputs_path = out_dir / "cascade_baseline_outputs.tsv"
     summary_path = out_dir / "cascade_baseline_summary.json"
     suffix = approval["adjudication"].lower()
+    if "transition_id" in approval:
+        suffix += "_" + approval["transition_id"]
     archive_outputs = out_dir / f"cascade_baseline_outputs_pre_{suffix}.tsv"
     archive_summary = out_dir / f"cascade_baseline_summary_pre_{suffix}.json"
     current = read_baseline(outputs_path, summary_path)

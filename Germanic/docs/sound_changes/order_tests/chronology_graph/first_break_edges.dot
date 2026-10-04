@@ -23,7 +23,7 @@ digraph first_break_chronology {
   "SC030" [label="SC030\nEnglish brightening of *au to *æu"];
   "SC031" [label="SC031\nInherited short-Vww reanalysis"];
   "SC032" [label="SC032\nOE Diphthong Leveling"];
-  "SC033" [label="SC033\nRetained j-created long diphthong representation"];
+  "SC033" [label="SC033\nJ-created palatalized-glide reanalysis"];
   "SC034" [label="SC034\nOE Aw Long Diphthong"];
   "SC035" [label="SC035\nOE Prefix A Reduction Early"];
   "SC036" [label="SC036\nOE Inter Stress Raising"];

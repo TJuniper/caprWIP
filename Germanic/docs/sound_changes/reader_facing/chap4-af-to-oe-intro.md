@@ -176,8 +176,20 @@ All selected final outputs remain unchanged.
 The later realization paths are now explicit. Chew, dew, four, hew and
 you complete their earlier products through
 [SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling).
-[SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong) retains only the
-disclosed j-created hue representation. Knee instead selects the
+[SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong) supplies the
+separate j-created offglide reanalysis for *hīew* 'hue'.
+The selected input is inherited PGmc \emph{*xíwją}; its path is
+\emph{*xíwwją} to \emph{*xíuwją}, then long \emph{*xīowją}
+through [SC110 OEJGlideIO](#rule-OEJGlideIO), before mutation
+gives the West Saxon long \emph{īe} reflex. Ringe and Taylor
+explicitly give the inherited i and long-io chain while leaving its
+phonemic analysis unclear [@RingeTaylor2014, pp. 53, 250].
+Orel's and Kroonen's e reconstructions are real alternatives,
+and Fulk disputes traditional geminate dismantling; these
+qualifications are discussed in the lexical account
+[@Orel2003, pp. 171--172; @Kroonen2013, p. 224;
+@Fulk2018, pp. 59, 71--72].
+Knee instead selects the
 regular dative *cneowe* 'knee (dat.sg.)': its short pre-ending
 diphthong comes from [SC044 OEBreaking](#rule-OEBreaking), not
 singleton lengthening. The long endingless *cnēo* 'knee' and
@@ -187,9 +199,10 @@ the selected short cell
 [@Campbell1959, pp. 232--233; @HoggGrammar2011, pp. 21--22, 86;
 @RingeTaylor2014, pp. 187--188, 387].
 [SC034 OEAwLongDiphthong](#rule-OEAwLongDiphthong) retains the singleton
-show/straw forms. Hue's remaining ww before j is simplified by the
-separately disclosed [SC106 OEJWWSimplification](#rule-OEJWWSimplification),
-a technical residual rather than a newly established sound law.
+show/straw forms. The unchanged
+[SC106 OEJWWSimplification](#rule-OEJWWSimplification) remains a
+technical compatibility operation, but hue now reaches it with
+singleton w and no longer feeds it.
 The before-j placement of early reanalysis is a representative
 serialization, not a new strict historical chronology claim
 [@Campbell1959, pp. 45--47; @RingeTaylor2014, pp. 65--66, 171--175].

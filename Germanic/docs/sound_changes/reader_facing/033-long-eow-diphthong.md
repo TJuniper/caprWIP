@@ -1,4 +1,4 @@
-# Short pre-w diphthongs and the retained j-created long tier
+# Short pre-w diphthongs and the j-created glide chain
 
 ## Historical discussion
 
@@ -45,39 +45,41 @@ The operation below neither repeats that inherited event nor
 implements the regular singleton history
 [@RingeTaylor2014, pp. 41--42, 65--66, 171--175].
 
-## SC033. Retained j-created long-diphthong representation (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong}
+## SC033. J-created palatalized-glide reanalysis (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong}
 
 ```foma
 define OEEwLongDiphthong [
-    {*e} {*w} -> {*ēo} {*w} || _ OEEwLongContext,
-    {*i} {*w} -> {*ēo} {*w} || _ OEEwLongContext,
-    {*é} {*w} -> {*ēo} {*w} || _ OEEwLongContext,
-    {*í} {*w} -> {*ēo} {*w} || _ OEEwLongContext
+    {*i} {*w} {*w} -> {*iu} {*w} || _ {*j},
+    {*í} {*w} {*w} -> {*íu} {*w} || _ {*j}
 ];
 ```
 
-The conditioner is now restricted to the second \emph{w} followed
-by \emph{j}, not a general following vowel or weak ending:
+*Hīew* 'hue' enters with inherited PGmc \emph{*xíwją}, following
+Ringe and Taylor's explicit \emph{*hiwją}. Their palatalized geminate
+develops through \emph{*iuw} before the separately realized long
+diphthong. The conditioner is palatalized \emph{w}, carried here as
+\emph{ww+j} and subsequently \emph{w+j}; this does not assert a
+second independent phoneme where the authors leave the phonemic
+analysis unclear [@RingeTaylor2014, pp. 53, 250].
 
-```foma
-define OEEwLongContext [{*w} {*j}];
-```
+Orel's \emph{*xewjan} and Kroonen's \emph{*heuja-} remain competing
+e reconstructions, not earlier stages invented to reconcile the
+authors. Their derivational explanations differ. The realized-i choice
+uses the inherited raising account, not a later hue-specific law
+[@Orel2003, pp. 171--172; @Kroonen2013, p. 224;
+@Ringe2017, pp. 151--153; @Fulk2018, p. 59].
+Campbell supports the contrasting \emph{iwj} outcome, but Fulk
+questions traditional geminate dismantling and its consonantal
+premises. The detailed lexical account preserves those objections
+[@Campbell1959, p. 46; @Fulk2018, pp. 71--72, 126].
 
-*Hīew* 'hue' retains this j-created path, whereas *cneowe* does not
-enter it. Campbell distinguishes the \emph{iwj} class from the
-low-vowel \emph{awj} class and gives the West Saxon \emph{īew}
-reflex [@Campbell1959, p. 46, §120.2].
+The stable component now supplies offglide reanalysis, not long
+quantity. Singleton \emph{iwj}, nonpalatal \emph{iww}, unraised
+\emph{ewwj} and the separate low-vowel \emph{awj} history are excluded.
+Knee remains a short singleton-w comparison. No exact historical
+date or independent confidence is fabricated for this support encoding.
 
-The retained mapping is a disclosed representation component, not
-a newly established historical \emph{ew} to long \emph{ēow} law.
-Hue's selected e-vowel input still omits the separate earlier
-raising assumed by the source's i-vowel account. Its successful
-final spelling does not prove that omitted intermediate or date
-this mapping to an independently demonstrated West Saxon event.
-The stable rule label is retained for continuity, without assigning
-the technical component an invented historical stage or confidence.
-
-## SC106. Retained j-created glide residual (`OEJWWSimplification`) {#rule-OEJWWSimplification}
+## SC106. Retained j-created glide compatibility (`OEJWWSimplification`) {#rule-OEJWWSimplification}
 
 ```foma
 define OEJWWSimplification [
@@ -85,10 +87,30 @@ define OEJWWSimplification [
 ];
 ```
 
-This technical component simplifies hue's remaining \emph{wwj}
-representation after promotion. It does not restore nominative
-\emph{w} in knee and does not duplicate inherited short-Vww
-reanalysis. The distinct endingless and inflected histories remain
-visible even where later paradigm leveling makes their spellings
-converge [@Campbell1959, pp. 45--47, 232--233;
-@Fulk2018, p. 154].
+The unchanged technical operation remains composed for compatibility.
+Hue's reanalysis already leaves a singleton glide, so it no longer
+feeds this simplification. Absence of a current application does not
+establish universal redundancy or a newly dated historical event.
+It neither restores nominative \emph{w} in knee nor duplicates
+earlier inherited short-Vww reanalysis.
+
+## SC110. Palatalized-glide long-io realization (`OEJGlideIO`) {#rule-OEJGlideIO}
+
+```foma
+define OEJGlideIO [
+    [{*iu}|{*íu}] -> {*īo} || _ {*w} {*j}
+];
+```
+
+The palatalized-glide product realizes long \emph{īo}, not the
+ordinary long \emph{ēo} supplied by
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling).
+Ringe and Taylor explicitly supply pre-OE long \emph{īow} and early
+West Saxon long \emph{īew}; the retained semivowel still conditions
+mutation [@RingeTaylor2014, p. 250].
+Existing [SC055 OEIUmlaut](#rule-OEIUmlaut) supplies the latter
+change. Ordinary inherited \emph{iu} without this palatal
+conditioner remains outside the component, as does short
+\emph{io}. This distinct realization does not adjudicate all the
+inherited atomic and split-symbol clauses in
+[SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling).

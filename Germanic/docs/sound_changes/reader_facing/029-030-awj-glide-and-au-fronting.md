@@ -81,7 +81,7 @@ doubled to \emph{*xáwwją} by the West Germanic law and then resolved to
 \emph{*xáują}, and PGmc [stráwjaną]{.recon} ‘strew’ is doubled to
 \emph{*stráwwjaną} and resolved to \emph{*stráujaną}, yielding *hīeġ* ‘hay’ and
 *strīeġan* ‘strew’ once the later diphthong changes and \emph{i}-umlaut have applied.
-PGmc [xéwją]{.recon} ‘form, hue’ is doubled by the same law, and there the
+PGmc [xíwją]{.recon} ‘form, hue’ is doubled by the same law, and there the
 doubling holds: it passes through this change untouched and surfaces as *hīew* ‘form, hue’.
 
 The resolution has to precede

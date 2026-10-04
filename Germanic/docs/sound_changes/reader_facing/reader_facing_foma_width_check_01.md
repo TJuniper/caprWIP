@@ -38,10 +38,10 @@ _Generated from the current fenced `foma` blocks in the reader-facing chapter fi
 | 029-030-awj-glide-and-au-fronting.md | SC029. Resolution of \emph{*awj} to \emph{*auj} (`OEAwwjResolution`) {#rule-OEAwwjResolution} | 72 | 38 | no |
 | 029-030-awj-glide-and-au-fronting.md | SC030. Brightening of \emph{*au} to \emph{*æu} (`OEAuBrightening`) {#rule-OEAuBrightening} | 128 | 24 | no |
 | 031-ww-simplification.md | SC031. Inherited short-Vww reanalysis (`OEWWSimplification`) {#rule-OEWWSimplification} | 33 | 33 | no |
-| 032-diphthong-leveling.md | SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling} | 26 | 28 | no |
-| 033-long-eow-diphthong.md | SC033. Retained j-created long-diphthong representation (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | 50 | 49 | no |
-| 033-long-eow-diphthong.md | SC033. Retained j-created long-diphthong representation (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | 62 | 35 | no |
-| 033-long-eow-diphthong.md | SC106. Retained j-created glide residual (`OEJWWSimplification`) {#rule-OEJWWSimplification} | 82 | 31 | no |
+| 032-diphthong-leveling.md | SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling} | 33 | 28 | no |
+| 033-long-eow-diphthong.md | SC033. J-created palatalized-glide reanalysis (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | 50 | 43 | no |
+| 033-long-eow-diphthong.md | SC106. Retained j-created glide compatibility (`OEJWWSimplification`) {#rule-OEJWWSimplification} | 84 | 31 | no |
+| 033-long-eow-diphthong.md | SC110. Palatalized-glide long-io realization (`OEJGlideIO`) {#rule-OEJGlideIO} | 99 | 41 | no |
 | 034-long-eaw-diphthong.md | SC034. Long \emph{ēaw} before following vowels (`OEAwLongDiphthong`) {#rule-OEAwLongDiphthong} | 22 | 61 | no |
 | 035-037-prefix-and-compound-adjustments.md | SC035. Reduction of prefixal \emph{*a} (`OEPrefixAReduction`) {#rule-OEPrefixAReduction} | 17 | 59 | no |
 | 035-037-prefix-and-compound-adjustments.md | SC036. Raising of medial \emph{*a} between stress peaks (`OEInterStressRaising`) {#rule-OEInterStressRaising} | 36 | 54 | no |

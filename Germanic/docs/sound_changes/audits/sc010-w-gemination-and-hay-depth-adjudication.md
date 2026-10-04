@@ -8,6 +8,25 @@ not re-adjudicate SC010 as a whole, and does not touch SC031-SC034.
 
 Status: repair adopted, architecture A.
 
+## Subsequent hue correction (2026-10-04)
+
+The admission-era e-input and traces below are historical. The approved
+SC033 follow-up now selects PROTO = PROTOFORM = *xíwją, following
+Ringe-Taylor's explicit PGmc i and long-io hue chain (2014 p.250).
+Orel's *xewjan (2003 pp.171-172) and Kroonen's *heuja- (2013 p.224)
+remain genuine alternatives; Fulk's dismantling objection (2018
+pp.71-72,126) remains qualified. The former statement that raising
+was left to the cascade was incorrect: no such early raising occurred.
+The adopted realized-PGmc input supplies i without a later one-word law.
+
+SC010's body and short-vowel gemination account are unchanged. Hue
+remains its high-front positive and SC029's low-vowel negative. The
+later path is now *xíwwją -> *xíuwją -> *xīowją -> ... -> hīew
+through separately visible SC033 and SC110 support components, with
+SC106 retained but no longer fed by hue. The current SC033 memo and
+hue lexical sources own the detailed evidence and production closeout.
+The old nomination and measurements below are not rewritten.
+
 ## 1. The inconsistency this memo resolves
 
 Commit 11aa99e8 identified SC029 as the **reversal of the West Germanic

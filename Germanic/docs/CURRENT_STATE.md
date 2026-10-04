@@ -41,9 +41,9 @@ and pinned by `Germanic/tests/test_cascade_baseline.py`:
 - active original-380 identity fingerprint (`legacy_subset_sha256`):
   `70bdaba537d8f6b6bb7d872d00eefbef75127d2d77689af7ba01b35a79ebce39`
 - selected-387 corpus fingerprint (`outputs_sha256`):
-  `ffad47aefc01423953fc57784fe6a6f6cef31dcca9bbdbb7b36b06a63dc552bc`
+  `47a901e9e4a7cd663b8eb574b87fe737382e8fc1b4f1bc8afc38701af0c96872`
 - lexical-input projection (`lexical_outputs_sha256`):
-  `76bb0ffda672c700cc5b1cfe95a0ec491047d65ccbfaff290209842fabf3d344`
+  `90789094b8d8889bb478dd6077de75e1d8e1cb66b7b6d347b63e73a83d039c47`
 
 The immutable legacy380 archive still hashes to
 `fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf`.
@@ -55,6 +55,14 @@ declared in `approved_cell_migration.json` and
 baseline. All other 386 finals and the seven existing mismatches remain
 protected. Apply only through
 `python3 Germanic/tools/adjudicate.py SC033 --adopt-cell-baseline`.
+
+The subsequent approved hue input correction preserves every final but
+changes both PROTO and PROTOFORM to *xíwją. Its separate receipt is
+`approved_hue_input_migration.json`, selected with
+`SC033 --adopt-cell-baseline --approval approved_hue_input_migration.json`.
+The distinct `*_pre_sc033_hue.*` archive preserves the post-knee baseline;
+the knee receipt and all earlier archives are untouched. Hue lies outside
+original380, whose active and immutable fingerprints remain unchanged.
 
 The SC031/SC098 context adoption separately changes only you's assembled
 evaluator input; its lexical reconstruction and every final are unchanged.

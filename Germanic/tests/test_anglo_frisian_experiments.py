@@ -389,6 +389,10 @@ class ExperimentTests(unittest.TestCase):
             encoding="utf-8"
         ) as handle:
             migrations = {row["row_id"]: row for row in csv.DictReader(handle, delimiter="\t")}
+        hue_approval = json.loads((chronology.ROOT / (
+            "Germanic/docs/sound_changes/cascade_baseline/approved_hue_input_migration.json"
+        )).read_text())
+        input_changes = {change["row_id"]: change for change in hue_approval["changes"]}
         for fixture in fixtures:
             with self.subTest(fixture=fixture["fixture_id"]):
                 row = corpus[fixture["row_id"]]
@@ -397,6 +401,10 @@ class ExperimentTests(unittest.TestCase):
                     migration = migrations[fixture["row_id"]]
                     self.assertEqual(selected, migration["old_proto"])
                     self.assertEqual(row["PROTOFORM"], migration["new_proto"])
+                elif fixture["row_id"] in input_changes:
+                    change = input_changes[fixture["row_id"]]
+                    self.assertEqual(selected, change["before"]["proto"])
+                    self.assertEqual(row["PROTOFORM"], change["after"]["proto"])
                 else:
                     self.assertEqual(selected, row["PROTOFORM"])
                 if row["PROTO"] == row["PROTOFORM"]:

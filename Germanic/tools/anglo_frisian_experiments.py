@@ -578,6 +578,8 @@ def run(recipe_data: dict, requested: str) -> dict:
     baseline_dir = runtime.docs_dir / "sound_changes/cascade_baseline"
     protected.extend(sorted(baseline_dir.glob("cascade_baseline_outputs*.tsv")))
     protected.extend(sorted(baseline_dir.glob("cascade_baseline_summary*.json")))
+    protected.extend(sorted(baseline_dir.glob("approved_*_migration.json")))
+    protected.append(baseline_dir / "approved_input_migrations.tsv")
     protected.extend(runtime.docs_dir / "sound_changes/registry" / name for name in (
         "sc_registry.tsv", "chronology_edges.tsv", "sc_inventory_notes.tsv",
     ))

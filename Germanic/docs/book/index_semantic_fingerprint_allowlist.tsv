@@ -30,15 +30,17 @@ add	pgmc	*lḗwijaną	selected_input	trace_proto_input	betray — OE lǣwan	Curr
 add	pgmc	*sḗaną	selected_input	trace_proto_input	sow — OE sāwan	Current committed TSV selected input projected by the fresh full trace/lexical assembly; no new corpus or stage change.
 add	pgmc	*wúndōdē	selected_input	trace_proto_input	wound — OE wundude	Current committed TSV selected input projected by the fresh full trace/lexical assembly; no new corpus or stage change.
 add	pgmc	*xáwją	selected_input	trace_proto_input	hay — OE hīeġ	Current committed singleton-w hay input; j-gemination is derived, as documented in sc010-w-gemination-and-hay-depth-adjudication.md.
-add	pgmc	*xéwją	selected_input	trace_proto_input	hue — OE hīew	Current committed hue input and model entry; first fresh lexical-volume trace projection, not a new corpus admission.
+add	pgmc	*xíwją	selected_input	trace_proto_input	hue — OE hīew	Exact approved hue input correction; approved_hue_input_migration.json preserves the separate pre-hue baseline and every final.
 add	pgmc	*θánxtē	selected_input	trace_proto_input	thought — OE þōhte	Current committed thought input and model entry; first fresh lexical-volume trace projection, not a new corpus admission.
-add	pgmc	heuja-	selected_input	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Existing committed source reconstruction (Kroonen2013 p.224); author notation retained in the model entry.
+add	pgmc	heuja-	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Kroonen2013 p.224 remains an explicit competing reconstruction, no longer mislabeled as CAPR's selected input.
+add	pgmc	hiwją	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	RingeTaylor2014 p.250 author reconstruction; CAPR's normalization and qualified adopted preference are discussed separately.
+add	pgmc	xewjan	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Orel2003 pp.171-172 competing reconstruction; its vowel, ending and derivational rationale remain distinct.
 add	pgmc	θánkijaną	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed present-stem comparison (Ringe2017 p.281); publication propagation only.
 add	pgmc	θánxtē	selected_input	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed preterite input evidence (Ringe2017 pp.136,281); publication propagation only.
 remove	pgmc	*xáwwją	selected_input	trace_proto_input	hay — OE hīeġ	Obsolete pre-geminated snapshot spelling, superseded by the committed singleton-w input and explicit SC010 gemination; not a new corpus correction.
 add	oe	hīew	target_form	lexical_heading	hue — OE hīew	Existing committed model entry now included by the freshness-controlled lexical assembly; no new corpus admission.
 add	oe	þōhte	target_form	lexical_heading	thought — OE þōhte	Existing committed model entry now included by the freshness-controlled lexical assembly; no new corpus admission.
-add	pgmc	*xéwją	source_protoform	lexical_protoform	hue — OE hīew	Existing committed PGmc reconstruction now projected into the fresh lexical volume.
+add	pgmc	*xíwją	source_protoform	lexical_protoform	hue — OE hīew	Exact approved hue PGmc reconstruction, following RingeTaylor2014 p.250; the e alternatives remain indexed and the previous input is archived.
 add	pgmc	*θánxtē	source_protoform	lexical_protoform	thought — OE þōhte	Existing committed PGmc reconstruction now projected into the fresh lexical volume.
 add	oe	ġift	target_form	lexical_heading	gift — OE ġift	New ample gift lexical discussion; unchanged selected OE target (SC056 adjudication).
 add	pgmc	*gíftiz	selected_input	trace_proto_input	gift — OE ġift	Exact approved row2040 input migration, following Ringe2017 p.135, pp.151-153; every final output preserved.

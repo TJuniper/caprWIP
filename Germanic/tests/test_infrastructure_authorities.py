@@ -57,7 +57,7 @@ CARD_INDEX = (SC_DIR / "order_tests/chronology_cards"
 # added hue row, and the matched/mismatched split is unchanged at 7
 # documented mismatches.
 EXPECTED_OUTPUTS_SHA256 = (
-    "76bb0ffda672c700cc5b1cfe95a0ec491047d65ccbfaff290209842fabf3d344")
+    "90789094b8d8889bb478dd6077de75e1d8e1cb66b7b6d347b63e73a83d039c47")
 EXPECTED_LEGACY_SUBSET_SHA256 = (
     "70bdaba537d8f6b6bb7d872d00eefbef75127d2d77689af7ba01b35a79ebce39")
 EXPECTED_ROW_COUNT = 387

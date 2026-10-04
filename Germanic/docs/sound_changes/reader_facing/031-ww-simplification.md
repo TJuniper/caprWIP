@@ -55,9 +55,12 @@ geminates distinct from the subsequently created j-path. It is not a
 newly proved strict chronology between the whole events. *Hīeġ* 'hay'
 and reconstructed West Saxon strew retain the separately adjudicated
 [SC029 OEAwwjResolution](#rule-OEAwwjResolution) path. *Hīew* 'hue'
-retains its independently governed realization and the explicitly
-disclosed [SC106 OEJWWSimplification](#rule-OEJWWSimplification) residual
-([@Campbell1959, pp. 45--47; @RingeTaylor2014, p. 173]).
+has distinct j-created reanalysis at
+[SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong) and long-io
+realization at [SC110 OEJGlideIO](#rule-OEJGlideIO).
+The retained [SC106 OEJWWSimplification](#rule-OEJWWSimplification)
+compatibility operation is no longer fed by hue
+([@Campbell1959, pp. 45--47; @RingeTaylor2014, pp. 173, 250]).
 
 For you, early \emph{iu+w} now reaches
 [SC098 PWGmcUnstressedWordFinalIApocope](#rule-PWGmcUnstressedWordFinalIApocope).

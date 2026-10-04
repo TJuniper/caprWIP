@@ -23,6 +23,13 @@ license arbitrary short-to-long mappings. The current operation changes
 
 ## SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling}
 
+Hue's separately palatalized-glide product is realized as long
+\emph{īo} by [SC110 OEJGlideIO](#rule-OEJGlideIO) before this
+operation; it does not supply ordinary long \emph{ēo} here.
+The distinction follows its special source account
+[@RingeTaylor2014, p. 250], not a general reassignment of the
+nine clauses below.
+
 ```foma
 define OEDiphthongLeveling [
     {*aeu} -> {*ēa},

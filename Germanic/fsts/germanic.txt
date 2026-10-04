@@ -2176,17 +2176,21 @@ define OEJWWSimplification [
     {*w} {*w} -> {*w} || _ {*j}
 ];
 
-# SC033 retains only the j-created hue representation (Campbell p.46).
-# Its e-input still omits earlier raising; this is not a new historical
-# ew > long eow law. Singleton knee belongs to short breaking, not here
-# (Hogg pp.21-22,86; Ringe-Taylor pp.187-188,387).
+# SC033: j-created palatalized-glide reanalysis (Ringe-Taylor p.250).
+# Hue enters with inherited PGmc i; ww+j carries palatal conditioning,
+# not a claim that the source establishes an independent j phoneme.
+# Singleton knee remains governed by short breaking.
 define OEEwLongContext [{*w} {*j}];
 
 define OEEwLongDiphthong [
-    {*e} {*w} -> {*ēo} {*w} || _ OEEwLongContext,
-    {*i} {*w} -> {*ēo} {*w} || _ OEEwLongContext,
-    {*é} {*w} -> {*ēo} {*w} || _ OEEwLongContext,
-    {*í} {*w} -> {*ēo} {*w} || _ OEEwLongContext
+    {*i} {*w} {*w} -> {*iu} {*w} || _ {*j},
+    {*í} {*w} {*w} -> {*íu} {*w} || _ {*j}
+];
+
+# SC110: distinct long-io realization, before ordinary SC032.
+# Ringe-Taylor p.250; inherited iu without palatal w remains separate.
+define OEJGlideIO [
+    [{*iu}|{*íu}] -> {*īo} || _ {*w} {*j}
 ];
 
 # PGmc *aw before a vowel → OE ēaw (Campbell §272, Hogg §3.27).
@@ -3741,10 +3745,11 @@ define EnglishProtoToOE ( # capr:bundle
     .o. EAFAiMonophthongization  # SC004 general *ai/*ái → *ā (EAF / North Sea Germanic), moved here from the head; see sc004_split_movement_proofs.md
     .o. OEAwwjResolution
     .o. OEAuBrightening
-    # Retained singleton/j-created realization; inherited reanalysis is
-    # already complete at early SC031. SC106 discloses the hue residual.
+    # J-created reanalysis and conditioned realization are distinct.
+    # SC106 remains a compatibility operation, not a new historical law.
     .o. OEEwLongDiphthong
     .o. OEJWWSimplification
+    .o. OEJGlideIO
     .o. OEDiphthongLeveling
     .o. OEAwLongDiphthong
     # EARLY PREFIX REDUCTION: Unstressed prefix vowels must reduce to *e BEFORE

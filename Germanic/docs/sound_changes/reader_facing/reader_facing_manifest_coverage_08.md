@@ -65,7 +65,7 @@
 
 ## SC numbers covered by reader-facing rule sections
 
-`SC103`, `SC096`, `SC014`, `SC015`, `SC005`, `SC024`, `SC006`, `SC007`, `SC008`, `SC031`, `SC009`, `SC010`, `SC011`, `SC028`, `SC012`, `SC013`, `SC017`, `SC018`, `SC019`, `SC020`, `SC098`, `SC097`, `SC003`, `SC022`, `SC023`, `SC026`, `SC027`, `SC102`, `SC025`, `SC104`, `SC101`, `SC004`, `SC029`, `SC030`, `SC033`, `SC106`, `SC032`, `SC034`, `SC035`, `SC036`, `SC037`, `SC039`, `SC040`, `SC041`, `SC042`, `SC043`, `SC044`, `SC045`, `SC046`, `SC047`, `SC048`, `SC049`, `SC050`, `SC051`, `SC052`, `SC109`, `SC053`, `SC054`, `SC056`, `SC055`, `SC057`, `SC059`, `SC060`, `SC061`, `SC063`, `SC064`, `SC065`, `SC066`, `SC067`, `SC068`, `SC069`, `SC070`, `SC071`, `SC099`, `SC100`, `SC072`, `SC073`, `SC074`, `SC075`, `SC076`, `SC078`, `SC079`, `SC080`, `SC081`, `SC082`, `SC083`, `SC085`, `SC086`, `SC087`, `SC089`, `SC016`
+`SC103`, `SC096`, `SC014`, `SC015`, `SC005`, `SC024`, `SC006`, `SC007`, `SC008`, `SC031`, `SC009`, `SC010`, `SC011`, `SC028`, `SC012`, `SC013`, `SC017`, `SC018`, `SC019`, `SC020`, `SC098`, `SC097`, `SC003`, `SC022`, `SC023`, `SC026`, `SC027`, `SC102`, `SC025`, `SC104`, `SC101`, `SC004`, `SC029`, `SC030`, `SC033`, `SC106`, `SC110`, `SC032`, `SC034`, `SC035`, `SC036`, `SC037`, `SC039`, `SC040`, `SC041`, `SC042`, `SC043`, `SC044`, `SC045`, `SC046`, `SC047`, `SC048`, `SC049`, `SC050`, `SC051`, `SC052`, `SC109`, `SC053`, `SC054`, `SC056`, `SC055`, `SC057`, `SC059`, `SC060`, `SC061`, `SC063`, `SC064`, `SC065`, `SC066`, `SC067`, `SC068`, `SC069`, `SC070`, `SC071`, `SC099`, `SC100`, `SC072`, `SC073`, `SC074`, `SC075`, `SC076`, `SC078`, `SC079`, `SC080`, `SC081`, `SC082`, `SC083`, `SC085`, `SC086`, `SC087`, `SC089`, `SC016`
 
 ## Manifest rows not yet covered
 
@@ -78,7 +78,7 @@
 
 ## Reader-facing rule headings not present in the manifest
 
-`SC089`, `SC096`, `SC097`, `SC098`, `SC099`, `SC100`, `SC101`, `SC102`, `SC103`, `SC104`, `SC106`, `SC109`
+`SC089`, `SC096`, `SC097`, `SC098`, `SC099`, `SC100`, `SC101`, `SC102`, `SC103`, `SC104`, `SC106`, `SC109`, `SC110`
 
 ## Expected gaps in the manifest-backed sequence
 

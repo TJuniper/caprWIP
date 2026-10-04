@@ -47,4 +47,7 @@ ignore			gift				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.mode
 ignore			mutation				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:205	Sound-change process label in English prose, not a lexical form.
 ignore			mutation				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:230	Sound-change process label in English prose, not a lexical form.
 ignore			down				Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21	English gloss of the explicitly indexed Old Norse hý comparison, not a Gothic form.
+ignore			long				Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:63	English quantity descriptor, not an Old English lexical form.
+ignore			īew				Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:64	Discussed vowel-plus-glide outcome within the hue chain, not a separate lexical item; the full hīew target is indexed explicitly.
+ignore			e-to-i				Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:77	English label for the early raising process, not a Proto-Germanic reconstruction.
 ignore			reconstruction				Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:39	Ordinary English description of the unchanged PGmc reconstruction, not a reconstructed lexical form.

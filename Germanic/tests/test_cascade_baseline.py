@@ -162,7 +162,15 @@ class LegacySubsetTests(unittest.TestCase):
         with (BASELINE_DIR / "approved_input_migrations.tsv").open(encoding="utf-8") as handle:
             migrations = list(csv.DictReader(handle, delimiter="\t"))
         self.assertEqual(len(old), 387)
-        self.assertEqual(len(mod.legacy_subset(self.current_rows, old, migrations)), 387)
+        previous = mod.read_baseline(
+            BASELINE_DIR / "cascade_baseline_outputs_pre_sc033_hue.tsv",
+            BASELINE_DIR / "cascade_baseline_summary_pre_sc033_hue.json",
+        )
+        approval = json.loads((BASELINE_DIR / "approved_hue_input_migration.json").read_text())
+        mod.validate_cell_transition(
+            previous, {"records": self.current_rows, "summary": self.summary}, approval,
+        )
+        self.assertEqual(len(mod.legacy_subset(previous["records"], old, migrations)), 387)
 
 
 class OrderManifestTests(unittest.TestCase):

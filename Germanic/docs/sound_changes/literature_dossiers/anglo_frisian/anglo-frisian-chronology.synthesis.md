@@ -38,7 +38,34 @@ draft: knee section9.9, printed pp.249–251, in Late analogy and
 paradigm-cell selection. The controlling memo records production
 verification, exact archive preservation and the inspected rule,
 chapter, hue and index pages. The general endingless interface and
-hue's omitted earlier raising remain explicit residue.
+hue's omitted earlier raising remained residue at that release.
+
+## Adopted hue inherited-vowel and glide-chain increment
+
+The user approved realized PGmc PROTO = PROTOFORM = *xíwją,
+unchanged hīew, source-distinct SC033 reanalysis and SC110 long-io
+realization, retained SC106 compatibility and an exact selected-input
+baseline transition. RingeTaylor2014 p.250 supplies the explicit i
+and complete hue chain. Orel2003 pp.171-172 and Kroonen2013 p.224
+remain genuine e alternatives; Fulk2018 pp.71-72,126 disputes
+traditional dismantling. Ringe2017 pp.151-153, Fulk2018 p.59
+and Campbell1959 pp.42,46 support the inherited-vowel preference.
+Neither author disagreement nor uncertain phonemic analysis is erased.
+
+Both protected private trials preserve all 387 finals. The complete
+candidate supplies iww -> iuw -> long īow -> long īew and preserves
+every recorded checkpoint of every other selected row, with no
+rejection/ambiguity or artifact mutation. Production SC033 evidence
+confirms hue's iww+j -> iu+w+j reanalysis. The strict input transition
+preserves separate pre-hue bytes, all knee/gift/context archives and
+the unchanged original380 projections. The SC033 memo owns the
+production and publication closeout: 713 tests/6,259 subtests and serial
+68/13/14 protected component/staged/corpus assertions pass. The inspected
+302-page book publishes hue in section6.82, pp.185–187, with the adopted
+SC033/106/110 blocks on pp.67–68; knee remains section9.9, now pp.250–252.
+Remaining ordinary SC032 components are the next case, not silently
+resolved by this interface. The project-wide author-form collection and
+introduction discussion remain queued, not implemented by this increment.
 
 ## 1. Governing test and notation
 
@@ -1351,8 +1378,8 @@ remain proposals unless their rows explicitly record adoption.
 
 | Component | Historical target or outstanding specification | Evidence / diagnostic | Existing dossier and reader surface | State / next action |
 |---|---|---|---|---|
-| SC031 ww simplification | Distinguish literal deletion proxy from earlier Vww > Vuw reanalysis | RingeTaylor2014 pp. 41–42, 65–66; Fulk2018 p. 117; complete composed assay | 031-034 book dossier §§11–16; 031 reader | Implemented and published SPLIT/REORDER: early chew/dew/four/hew/you reanalysis, separate homorganic quantity, explicit long-Vww negatives and visible SC106 hue ww+j residual. Approved context baseline adopted; production controls and inspected book complete |
-| SC033 e/i+w | Separate short pre-ending diphthongization from endingless quantity/leveling and the j-created residual | Campbell1959 pp.232–233; Luick1914 p.139; HoggGrammar2011 pp.21–22,86; RingeTaylor2014 pp.187–188,387; Fulk2018 pp.147,154 | SC033 memo; 031-034 dossier §§17–18; 033/044 readers; knee model | Author-approved REFORMULATE/RESTRICT: singleton long quantity removed; SC044 gains high-front/j exclusion. Knee selects PGmc dative *knéwai → short cneowe, retaining citation *knéwą; detailed entry moves to late analogy/paradigm-cell selection. SC033 remains a technical hue encoding with omitted earlier raising, not an independently dated law. Exact one-row baseline adoption and publication closeout recorded in the memo |
+| SC031 ww simplification | Distinguish literal deletion proxy from earlier Vww > Vuw reanalysis | RingeTaylor2014 pp. 41–42, 65–66; Fulk2018 p. 117; complete composed assay | 031-034 book dossier §§11–16,19; 031 reader | Implemented and published SPLIT/REORDER: early chew/dew/four/hew/you reanalysis, separate homorganic quantity and explicit long-Vww negatives. The original release exposed SC106 as hue's ww+j residual; the approved SC033/110 follow-up now removes that feeder, retaining SC106 unchanged as compatibility. Approved context baseline and its archives remain protected |
+| SC033 / SC110 | Separate knee's short pre-ending history from j-created offglide reanalysis and long-io realization | Campbell1959 pp.42,46,232–233; RingeTaylor2014 pp.53,187–188,250,387; Orel2003 pp.171–172; Kroonen2013 p.224; Fulk2018 pp.59,71–72,126 | SC033 memo; 031-034 dossier §§17–19; 033/044 readers; hue/knee models | Author-approved REFORMULATE/SPLIT after the completed knee restriction: hue PROTO = PROTOFORM = *xíwją; SC033 iww+j -> iu+w+j and separate SC110 long-io realization. No omitted early raising or invented support-stage date/confidence. SC106 remains unchanged compatibility, no longer fed by hue. Exact pre-hue baseline archive preserves all earlier transitions; new publication closeout belongs to the memo |
 | SC034 a+w | Quantity and retained glide, including secondary ww; exclude separately resolved j paths | RingeTaylor2014 pp. 65–66, 171–173; dew/hew, hay/strew controls | 031-034 dossier §§13, 16; 034 reader | Retained operation with changed feeder population: dew/hew complete through SC032; four singleton show/straw forms remain. No new historical verdict |
 | SC032 atomic diphthongs | Separate au completion from eu/iu realization; not automatically one leveling law | RingeTaylor2014 pp. 171–175; bread and eu/iu controls | 031-034 dossier §§13, 16; 032 reader | Production population is 32 versus former 27, retaining the old population plus five early-reanalysis witnesses. Existing realization clauses retained; F interface remains separately specified |
 | SC032 split e/i+u | Determine representation equivalence and short/long/stress outcomes | Existing executable clauses; source mapping required, not inferred from notation | 031-034 dossier §13; 032 reader | Split e/é/i clauses mapped, including absent parallel í clause; historical equivalence not established |

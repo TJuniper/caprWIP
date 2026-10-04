@@ -3052,7 +3052,7 @@ Outcome: hund
 
 
 # hue
-PROTO: *xéwją
+PROTO: *xíwją
 EXPECTED: hīew
 OUTPUTS: hīew
 
@@ -3060,11 +3060,11 @@ OUTPUTS: hīew
 
 ### Proto-Germanic consonant inheritance
 
-English Proto Input: *xéwją
+English Proto Input: *xíwją
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PWGmc J Gemination: *xéwwją<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *xēowwją<br>OE JWW Simplification: *xēowją<br>OE Velar Fricative Palatalization: *çēowją<br>OE Heavy Syllable Nasal Apocope: *çēowj<br>OE I Umlaut: *çīewj<br>OE J Loss After Heavy: *çīew |
+| **Northwest and West Germanic**<br>PWGmc J Gemination: *xíwwją<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *xíuwją<br>OE J Glide IO: *xīowją<br>OE Velar Fricative Palatalization: *çīowją<br>OE Heavy Syllable Nasal Apocope: *çīowj<br>OE I Umlaut: *çīewj<br>OE J Loss After Heavy: *çīew |
 
 
 
@@ -3073,7 +3073,7 @@ English Proto Input: *xéwją
 Old English Orthography: h*īew
 Outcome: hīew
 
-NOTE: West Germanic j-gemination witness for *w after a short front vowel, the minimal-pair counterpart of hay (*xáwją, row 2061). Kroonen 2013 p. 224 s.v. *heuja- reconstructs PGmc *heuja- n. 'visible layer, appearance' (Go. hiwi n. 'surface appearance, complexion', ON hý n., OE hīw, hēow n. 'shape, form, hue, colour', ME hue); CAPR normalizes the prevocalic *-u- as *w, giving *xéwją, and the cascade raises *é to *í before *j, so the gemination law sees a short front vowel before *wj. Campbell 1959 §120.2 p. 46 states the law for exactly this stem shape: 'auj > auuj > auj, and iuj > iuuj > iuj', adding that 'the u of auuj is lost, so that the final result is ēg or ieg, but the j of iuuj is lost, so that the result is iow or iew', and printing 'OE hīow, hīew form' beside 'OE nīowe, nīewe new'. CAPR targets West Saxon, hence hīew; hīw, hīow and hēow are the commoner spellings. Diagnostic value: positive witness for the *w branch of SC010 PWGmcJGemination after a front vowel, and negative control for SC029, whose domain is *awwj only. Ringe & Taylor 2014 p. 53 supply the parallel West Germanic geminates *[niwwa-], *[siwwian] and *[gliwwias].
+NOTE: J-gemination witness for *w after a short front vowel, contrasting with hay (*xáwją, row 2061). Adopted realized PGmc *xíwją normalizes Ringe-Taylor 2014 p.250 *hiwją, with CAPR dorsal x and lexical acute: palatalized iww becomes iuw, then pre-OE long iow and WS long iew. The ww+j/w+j encoding carries palatal conditioning without settling the authors' uncertain phonemic analysis. Orel 2003 pp.171-172 *xewjan and Kroonen 2013 p.224 *heuja- remain genuine e-form alternatives with different derivational accounts and ending conventions. Ringe 2017 pp.151-153 and Fulk 2018 p.59 support inherited raising before high front i/j; no later one-word raising law is introduced. Fulk 2018 pp.71-72,126 disputes traditional geminate dismantling, a retained qualification. Campbell 1959 p.46 contrasts awj/iwj and prints hīow/hīew; p.167 describes general gemination. Target hīew, context and regular classification are unchanged. Positive witness for SC010 and the separate SC033/SC110 reanalysis/realization; negative control for low-vowel SC029.
 
 
 

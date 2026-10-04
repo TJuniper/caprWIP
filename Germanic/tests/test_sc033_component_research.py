@@ -59,7 +59,7 @@ class Sc033ComponentResearchTests(unittest.TestCase):
         component = next(row for row in registry if row["sc_id"] == "SC033")
         self.assertEqual(component["entry_type"], "support_stage")
         self.assertEqual(component["staging_row"], "no")
-        self.assertEqual(component["verdict"], "REFORMULATE/RESTRICT")
+        self.assertEqual(component["verdict"], "REFORMULATE/SPLIT")
         for field in ("hist_stage", "hist_scope", "confidence"):
             self.assertEqual(component[field], "")
         chapters, files = registry_views.read_reader_sources()
@@ -75,7 +75,8 @@ class Sc033ComponentResearchTests(unittest.TestCase):
         source = (ROOT / "Germanic/fsts/germanic.txt").read_text()
         reader_dir = ROOT / "Germanic/docs/sound_changes/reader_facing"
         for filename, expected in (
-            ("033-long-eow-diphthong.md", {"OEEwLongContext", "OEEwLongDiphthong"}),
+            ("033-long-eow-diphthong.md",
+             {"OEEwLongDiphthong", "OEJWWSimplification", "OEJGlideIO"}),
             ("044-045-breaking-and-velar-fricative-palatalization.md",
              {"EnglishBreakingWContext"}),
         ):
@@ -90,8 +91,8 @@ class Sc033ComponentResearchTests(unittest.TestCase):
                                      re.sub(r"\s+", "", definition(source, name)))
             self.assertEqual(found, expected)
 
-    def test_post_sc033_controls_match_current_sources_and_preserve_palatal_assertions(self):
-        data = experiments.load_recipes(DIRECTORY / "oe_post_sc033_controls.json")
+    def test_post_hue_controls_match_current_sources_and_preserve_palatal_assertions(self):
+        data = experiments.load_recipes(DIRECTORY / "oe_post_hue_controls.json")
         self.assertEqual(data["baseline_fst_sha256"],
                          hashlib.sha256((ROOT / "Germanic/fsts/germanic.txt").read_bytes()).hexdigest())
         self.assertEqual(data["baseline_corpus_sha256"],
@@ -123,10 +124,14 @@ class Sc033ComponentResearchTests(unittest.TestCase):
                          report["checked_fixture_ids"])
         selected = {row["id"]: row for row in
                     experiments.corpus_rows(experiments.layout().corpus_tsv)}
+        with (ROOT / "Germanic/docs/sound_changes/cascade_baseline/"
+              "cascade_baseline_outputs_pre_sc033_hue.tsv").open() as handle:
+            historical = {row["row_id"]: row for row in csv.DictReader(handle, delimiter="\t")}
         self.assertEqual({row["id"] for row in report["rows"]}, set(selected))
         for row in report["rows"]:
             self.assertEqual(row["variant_fst_input"],
-                             experiments.oe_pipeline.evaluation_input(selected[row["id"]]))
+                             historical[row["id"]]["fst_input"])
+            self.assertEqual(row["variant_outputs"], historical[row["id"]]["outputs"].split("|"))
             self.assertEqual(row["variant_outputs"], row["baseline_outputs"])
         knee = next(row for row in report["rows"] if row["id"] == "2085")
         self.assertEqual(knee["variant_outputs"], ["cneowe"])

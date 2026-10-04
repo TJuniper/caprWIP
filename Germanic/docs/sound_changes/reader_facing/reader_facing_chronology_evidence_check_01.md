@@ -4,8 +4,8 @@ _Generated from the current SC-numbered rule sections in the reader-facing chapt
 
 ## Summary
 
-- Sections checked: 98.
-- Sections with warnings: 66.
+- Sections checked: 99.
+- Sections with warnings: 67.
 
 | File | Rule section | Move wording | Expected form | Wrong output/result | SC-plus-rule ref | Verbal boundary wording | Limitation wording | Symbolic `<` notation | Warnings |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -38,9 +38,10 @@ _Generated from the current SC-numbered rule sections in the reader-facing chapt
 | 029-030-awj-glide-and-au-fronting.md | SC029. Resolution of \emph{*awj} to \emph{*auj} (`OEAwwjResolution`) {#rule-OEAwwjResolution} | no | no | no | yes | yes | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording |
 | 029-030-awj-glide-and-au-fronting.md | SC030. Brightening of \emph{*au} to \emph{*æu} (`OEAuBrightening`) {#rule-OEAuBrightening} | no | no | no | yes | no | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing explicit verbal boundary conclusion |
 | 031-ww-simplification.md | SC031. Inherited short-Vww reanalysis (`OEWWSimplification`) {#rule-OEWWSimplification} | no | no | no | yes | no | yes | no | missing move-condition wording |
-| 032-diphthong-leveling.md | SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling} | no | no | no | no | yes | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing SC-plus-rule reference in chronology prose |
-| 033-long-eow-diphthong.md | SC033. Retained j-created long-diphthong representation (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | no | no | no | no | yes | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing SC-plus-rule reference in chronology prose |
-| 033-long-eow-diphthong.md | SC106. Retained j-created glide residual (`OEJWWSimplification`) {#rule-OEJWWSimplification} | no | no | no | no | no | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing explicit verbal boundary conclusion |
+| 032-diphthong-leveling.md | SC032. Leveling of diphthongal outputs (`OEDiphthongLeveling`) {#rule-OEDiphthongLeveling} | no | no | no | yes | yes | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording |
+| 033-long-eow-diphthong.md | SC033. J-created palatalized-glide reanalysis (`OEEwLongDiphthong`) {#rule-OEEwLongDiphthong} | no | no | no | no | no | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing explicit verbal boundary conclusion |
+| 033-long-eow-diphthong.md | SC106. Retained j-created glide compatibility (`OEJWWSimplification`) {#rule-OEJWWSimplification} | no | no | no | no | no | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing explicit verbal boundary conclusion |
+| 033-long-eow-diphthong.md | SC110. Palatalized-glide long-io realization (`OEJGlideIO`) {#rule-OEJGlideIO} | no | no | no | yes | no | no | no | missing move-condition wording; missing explicit wrong-output/result wording; missing expected-form wording; missing explicit verbal boundary conclusion |
 | 034-long-eaw-diphthong.md | SC034. Long \emph{ēaw} before following vowels (`OEAwLongDiphthong`) {#rule-OEAwLongDiphthong} | no | no | no | no | no | yes | no | missing move-condition wording |
 | 035-037-prefix-and-compound-adjustments.md | SC035. Reduction of prefixal \emph{*a} (`OEPrefixAReduction`) {#rule-OEPrefixAReduction} | no | yes | yes | yes | yes | no | no | missing move-condition wording |
 | 035-037-prefix-and-compound-adjustments.md | SC036. Raising of medial \emph{*a} between stress peaks (`OEInterStressRaising`) {#rule-OEInterStressRaising} | no | yes | yes | yes | yes | no | no | missing move-condition wording |
