@@ -199,7 +199,8 @@ def _render_book_draft() -> dict:
 def _render_pgmc_reconstruction_survey() -> dict:
     try:
         return pgmc_reconstruction_survey.render()
-    except (pgmc_reconstruction_survey.SurveyError, OSError) as exc:
+    except (pgmc_reconstruction_survey.SurveyError,
+            pgmc_reconstruction_survey.analytical.AnalysisError, OSError) as exc:
         raise SystemExit(f"PGmc reconstruction research SOURCE error: {exc}") from exc
 
 
@@ -500,8 +501,7 @@ def nodes() -> tuple:
                     _render_pgmc_reconstruction_survey,
                     outputs=lambda: [
                         REPO_ROOT / pgmc_reconstruction_survey.DIRECTORY / name
-                        for name in ("corpus_inventory.tsv", "source_coverage.tsv",
-                                     "reconstruction_ledger.md", "survey_provenance.json")]),
+                        for name in pgmc_reconstruction_survey.PROJECTION_FILES]),
         _runtime("lexical_sources",
                  "corpus + model entries + fresh bins via lexical builders",
                  _lexical_verify, _lexical_build,

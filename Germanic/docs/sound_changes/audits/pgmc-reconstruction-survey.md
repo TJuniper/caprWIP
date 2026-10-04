@@ -1,20 +1,34 @@
 # PGmc reconstruction survey: research record
 
+Current scope supersedes the older exhaustive-grid programme recorded
+below: complete the relevant Ringe/Fulk/Ringe-Taylor readings, then align
+all393 core rows and explain substantive differences or name their exact
+remaining premises. Orel/Kroonen reading and citation-unit triage are
+completed foundations, not the stopping point of this authorized stage.
+Earlier checkpoint counts and full-library obligations are historical,
+not current authority.
+
 ## Identity
 
 - SC id: none. This is the user's corpus-wide reconstruction research,
   not a fabricated new sound-change adjudication.
 - Executable identifier: none; production definitions/order unchanged.
-- Branch/base: update, 5beb487cfc919e7b1203e75db07fb1f2b59a6f65.
-- Authorization: approved held-source all393 survey, ledger, commentary
-  and shorter introduction; scientific adoption is separately gated.
+- Branch/base: update, released survey foundation ea5974c1; scientific
+  release5beb487c and prior approvals remain unchanged.
+- Authorization: continued held-source research across the three comparative
+  accounts, feature alignment of all393 core rows, cited explanations or
+  exact evidence gaps, conditioning census, non-adopting consistency audit
+  and finite specialist dispatch. Scientific adoption, introduction/PDF,
+  acquisition, commit and push remain outside this stage.
 
 ## Question
 
 Hypothesis: CAPR's citation/input and source accounts contain differences
 that cannot all be treated as notation or the same recurrent e/i history.
-An exhaustive source comparison can confirm shared explanations or refute
-them with differences in stage, morphology, etymology or conditioning.
+A source-faithful, explicitly scoped comparison can confirm shared
+explanations or refute them with differences in stage, morphology,
+etymology or conditioning. Bibliography presence does not justify an
+exhaustive row obligation for a non-Germanic dictionary.
 A row's successful final output is not the selection criterion.
 
 ## Current state (before scientific adoption)
@@ -84,8 +98,83 @@ This is not permission to retag old scientific citations without checking
 their passages; that consistency audit remains outstanding.
 
 CAPR decisions: keep author forms, normalized comparisons, source stages,
-selected cells, verification and confidence separate. No general new
-source-priority or vowel-normalization policy has yet been established.
+selected cells, verification and confidence separate. The source policy
+is now explicit; no general vowel-normalization policy is adopted.
+
+The next comparison, on released ea5974c1, now reads the exact modern
+arguments alongside Cercignani: Fulk pp.55-59, Ringe pp.84-85,151-155
+and Ringe-Taylor p.220. The commentary separates inventory opposition,
+high-front raising, tautosyllabic-nasal raising, disputed following-u
+raising and lowering. Its conditional preference is inherited
+high-front/nasal raising, not a universal merger or u-trigger law.
+Ringe's PGmc date remains probable and dependent on his defended
+j-loss/contraction scenario. The original153 confirms the apparent
+printed stressed-i typo; the explicit preceding chain raises e to i.
+
+New dictionary checks are Orel sit325-326/three425 and Kroonen
+sit434/three546-547. Original pages establish genuine e-bearing
+sit headwords in both dictionaries, Orel's e-bearing three and
+Kroonen's separate short-i stem/long-i nominative. Ringe153's long-i
+nominative and explicit added OE adjective ending prevent a
+vowel-only repair of the selected three history.
+
+Orel's preface xi-xiii, especially image-checked xii, explicitly
+qualifies e/i choice by etymology/ablaut while declining to resolve
+the opposition and personally favoring one phoneme. Kroonen's
+image-checked xix rejects merger before a and separately argues
+for nasal raising; the unnumbered entry-structure note is xiii
+according to the contents. These are different author conventions,
+not permission to redate all dictionary e as pre-PGmc.
+
+The first core candidate-class batch now records additional dictionary
+forms: Orel pp.70,169,243,354,364,374,419,452-453; Kroonen
+pp.92,226,458,578-579. It retains dill's conditional paradigm,
+hind's competing etymologies, incidental smear reconstruction,
+suffix differences, stilt's unadmitted OE target and will/wight
+homonym identities. Source-method readiness is verified from
+Orel xi-xiii and Kroonen vii-viii,xii-xiii,xix; row coverage remains
+incomplete. Failed exact-string leads for other Kroonen candidates
+have not been converted into negative dispositions.
+
+Orel's own light-verb index points to241, but the original entry is
+on243. His barred đ, confirmed by the alphabet and enlarged
+pages70/227, was previously flattened in the cud quotation.
+The diplomatic SOURCE ledger now preserves *kweđwō(n)*; this is
+a reporting correction with no selected-input/dental adoption.
+
+Closed-nasal controls now have original-page checks: Orel bind41,
+find99, spin364 and wind454; Kroonen bind64, find142, spin467 and
+wind587. Orel's e-bearing citations and Kroonen's i-bearing stems
+are separate records, with find's selected participle and both wind
+homonyms distinguished. Kroonen's verb587 omits OE in the listed
+reflexes; none has been invented. The already verified Orel130 image
+also supplies gift/give with the printed velar sign retained, rather
+than substituting the lexical model's normalized g into the quotation.
+Kroonen's64 is sheet102: the initially prepared104 shows66 and was
+not used as bind evidence. A global sheet offset is unsafe.
+
+The complete Orel opening group1933-1974 now has individual dispositions,
+retaining the earlier bind review. Fifty-seven new image-checked records
+support41 new reviews, not57 independently reviewed lexemes. Orel's adder
+alternatives are on286 (sheet325), not printed325; the masculine comparison
+is not the selected feminine cell. Bier is explicitly WGmc on38; the wave
+entry44 is a false homonym. The command/offer and ask/pray verbs43/45,
+and bend/ring/archery-bow entries39/61 remain distinct. The beech/book
+family evidence51-52 is reused without claiming an expressly quoted OE
+book sense. Selected inflectional cells are not supplied where the author
+quotes only a headword.
+
+The held-catalogue title/scope audit now records all82 included identities
+as verified or a concrete metadata/holding gap. Sweet's actual seventh
+edition1893 and Toller's1921 supplement replace false1953/main1898 file
+associations without blindly retagging old scientific citations. The
+older Kluge24th/2002 text and Kuiper's appended1991 review105-120 are
+additional available holdings, not automatic row obligations or independent
+edition/author votes. The
+Howell/Salmons extracts are identical copies of the1997 article83-111.
+Partial Pokorny, Stiles1985's89-94 excerpt, Ringe1984's138-151 scan and
+Neri's detached1-12 review have explicit limits. Identity verification
+is not scientific-convention review or a full-source absence search.
 
 ## Historical analysis
 
@@ -96,12 +185,25 @@ cud output does not independently vindicate its chosen reconstruction.
 Chronology evidence: none promoted, whether stage-entailed or independently
 demonstrated. No inference from an executable identifier or holding zone.
 
+Persisted sit/three traces raise e at OE mutation. Under the preferred
+inherited account these are input/history problems, not new output
+regressions. All393 current rows were screened in both input/citation:
+fourteen retained-e plus later-i/j candidates, including ai and
+already corrected-input false positives, are individually listed
+in the commentary. This reproducible screen does not recover lost
+conditioners or validate every formation; the complete source-backed
+conditioning-class census remains unfinished.
+Adding marked high-front vowels produces no additional retained-e
+hits; a separate closed-nasal lead screen returns hind/spindle.
+Source controls bind/find/spin/wind remain relevant despite starting
+with i or a selected u-grade form in CAPR.
+
 ## Verdict
 
 No canonical SC verdict. Registry-verdict: n/a, research record only.
 Current-source locator/attribution repairs are reporting corrections,
 not a corpus/FST approval. The exact scientific correction packet
-follows the full survey and must be approved before adoption.
+follows the prioritized explanatory audit and must be approved before adoption.
 
 ## Propagation
 
@@ -118,15 +220,464 @@ Additional guards preserve barred-b notation, separate genitive forms,
 explicit unspecified intermediate dates, differing source endings and
 process-only wind/man links.
 
+The opening-group checkpoint has118 evidence records and98 actual reviews;
+32,128 of the revised32,226 pairs remain unchecked. Orel62/Kroonen14 is
+not completed core coverage. The expanded focused survey suite passes28
+tests; core-completion assertions await genuinely completed extraction,
+not a mechanically filled grid. The exhaustive subsequent-source
+assignment includes all82 active keys exactly once.
+
+An independent core-completion gate now checks both named dictionaries,
+every inventory row and the reviewed core methods without claiming the
+full survey is complete. Its missing/excluded-source and mixed-disposition
+tests pass in the32-test focused suite. Both completion gates correctly
+refuse the current persisted incomplete coverage. The delivered Kroonen
+tables were withheld until the family/formation audit corrected evidence
+excluded merely because the exact selected cell was not quoted.
+
+The corrected Kroonen handoff is now persisted:691 source records and393
+reviews,360 evidence_found and33 bounded no_form_found. Every one of the61
+former negative assessments was individually audited;28 became qualified
+family/component positives, not invented exact-cell forms. Existing20
+records and14 review evidence links were preserved. Verification remains
+186 image-checked,504 text-checked and one ledger-verified record.
+The measured overall checkpoint is789 records and477 reviews;
+31,749 source/row pairs remain unchecked, including331 Orel pairs.
+The core-completion gate must still refuse this incomplete two-source state.
+The commentary records the scope distinction and page-cited controls;
+the completed comparative synthesis still awaits the Orel handoff.
+Canonical refresh reports CONTROL PLANE CLEAN; the expanded focused
+suite passes36 tests. Bibliography sanity and section-locator checks pass.
+Both actual completion gates still exit2 on the incomplete survey.
+All46 protected scientific owners match the pre-batch SHA256 snapshot.
+No PDF was rendered.
+
 Baseline/fingerprint effect: none. No corpus, contexts, stage/variety
 decisions, FST body/order, canonical verdicts or baseline edits.
 No commit/push authorization.
 
+### Current bounded core/analytical continuation
+
+The Orel remainder is integrated with the three explicit reconciliations:
+hind's earlier assertions and immutable source fields are preserved with
+the supported clarification; bore retains1956 and adds2311/2312; bow
+retains1963 and adds rainbow2148. Every core population ID now has an
+actual review in each dictionary. Overall:1408 diplomatic records and808
+reviews,786 core and22 retained other-source consultations. Orel has699
+records,664 image-checked,34 text-checked and one ledger-verified;
+Kroonen has691,187 image-checked,503 text-checked and one ledger-verified.
+The positive/family/cell distinctions are not erased by integration.
+
+All91 catalogue entries survive, with explicit consultation modes,
+priorities and payoff. Generated reading coverage derives the786 core
+targets, finite non-core commitments and actual consultations. The
+non-core target owner is currently empty. Mayrhofer and comparable
+background works remain catalogued opportunistically, not excluded to
+pass a gate or assigned393 fabricated negative reviews.
+
+The analytical SOURCE layer now contains1462 row/evidence positions,
+393 core citation-unit cases, two focused cases and46 cited rationales.
+The atlas preserves every core alternative and distinguishes unknown
+date/endorsement from explicit later stages. Confidence never dates
+anything. Core outcomes:328 undetermined,30 different units,33 insufficient
+evidence and two substantive etymological/historical comparisons.
+Twenty-nine core cases have linked reasoning. Many cited reasons explain
+a position rather than the inter-author difference; their case-level
+explanation remains unestablished. The ordinary uncalibrated cases are
+citation-unit rosters, not full feature/paradigm alignment. The analytical
+gate certifies triage coverage only, not scientific resolution.
+
+The source-sensitive calibrations retain the important limits: gift-family
+evidence is not an exact Kroonen i-stem quote; man plurals are not genitives;
+three's short/long quantities and cells remain distinct; the Nordic hīwa-
+comparison is not hue's headword; world components are not an assembled
+author compound; wash retains its Norse-borrowing premise. Hind's principal
+young/new versus hornless accounts and weather's accepted/rejected Slavic
+connection are genuinely competing explanations [@Orel2003, pp.169,452;
+@Kroonen2013, pp.226,583-584].
+
+A concrete calibration error was repaired upstream: Kroonen's spare
+weak verb inherited its enclosing adjective entry's POS in our extraction.
+Original465 identifies *sparēn-* as the incidental weak spare/save verb;
+466 starts another noun entry. The corrected SOURCE retains the diplomatic
+form and records the real page/image verification. It is not an author
+disagreement [@Kroonen2013, p.465; @Orel2003, p.362].
+
+Read-only in-memory SQL exposes normalized bridges for rows, types,
+positions, features, rationales and cited evidence. Verified query shapes
+distinguish find's e/i citation features, explicit PWGmc/Proto-Norse
+positions, wash's loan premise, man's analogy and hue's PIE reasoning.
+The gift ʒ/g equivalence is strictly representational; spare's normalized
+stem comparison is explicitly premised and does not date the form
+[@Orel2003, pp.130,362; @Kroonen2013, p.465].
+
+The next reading pass is ranked Ringe/Fulk/Ringe-Taylor, then justified
+nominal/verb/n-stem rosters, then lexical rivals and case-triggered
+specialists. No next large pass or introduction/PDF is started here.
+The README and commentary explain the policy, counted denominators,
+uncertainties and query examples.
+
+The focused survey/analysis suite passes61 tests and40 subtests. The core,
+analytical and composite bounded gates pass; bibliography and section-locator
+checks pass. Canonical regeneration reports CONTROL PLANE CLEAN, and all46
+protected scientific-owner hashes match the pre-batch snapshot. These
+checks certify schema/propagation and non-adoption, not scientific resolution
+of the undetermined rows. No FST experiment, new PDF, commit or push is
+part of this closeout.
+
+### Approved three-source stage: initial dispatch, not extraction closeout
+
+The user approved complete relevant Ringe2017/Fulk2018/RingeTaylor2014
+reading before analytical closeout, followed by feature alignment of all393
+core rows and substantive explanations or exact evidence gaps. The initial
+SOURCE reading manifest schedules15 screen/method/passage units. Two
+source-general method passages are actually text-checked;13 units remain
+pending. Existing1408 forms/808 consultations and all786 core reviews
+are preserved. A scheduled all-row population is not393 actual consultations.
+
+Ringe's transcription note explicitly distinguishes notation and change/
+derivation conventions. Fulk's complete reconstruction section distinguishes
+phonemic opposition from particular phonetic realization and records varying
+PGmc/Common Germanic usage [@Ringe2017, p.ix; @Fulk2018, pp.11-12].
+These readings neither finish source-wide conventions nor establish a
+shared endpoint or normalization policy. Ringe's native-text arrow glyphs
+remain unsuitable for diplomatic quotation without the held image check.
+Ringe-Taylor's convention-page roman folio remains to be verified; its
+PAGE14 marker is not cited as a printed page.
+
+The four-object evidence loader remains intact. New reading-scope validation,
+linked targets, named non-vacuous completion gate and read-only scope bridges
+separate scheduled work, actual readings and source-row consultations.
+The canonical projection includes reading_progress.md and scope provenance.
+The composite completion gate now refuses the pending next pass rather
+than letting an empty row-target table certify completion. The prior passing
+composite-gate result above remains a historical bounded-batch measurement.
+
+Feature-alignment/explanation-depth implementation, the complete grammar
+extraction, conditioning census and analytical closeout remain outstanding.
+The focused suite passes75 tests, including explicit separation of393
+scheduled Ringe rows from its four actual consultations. Scope evidence
+links do not fabricate forms. The analytical query connection now closes
+after success or refused SQL, including scope queries.
+Bibliography/section-locator checks pass; canonical refresh reports
+CONTROL PLANE CLEAN. Core reading and citation-triage gates still pass;
+three-source and composite completion gates correctly exit2 on pending
+reading. All46 protected scientific-owner SHA256 values remain unchanged.
+No production corpus/stage/context/FST/verdict/baseline adoption, experiment,
+new publication, commit or push is made by this dispatch.
+
+### Ringe body-reading continuation: source positions, not analytical closeout
+
+Read the complete phonology241-260, introductory method1-4 and the
+opening inflectional conventions260-266. Original printed249/252 were
+checked against PDF sheets260/263. The finite addition is49 diplomatic
+records and53 analytical positions across31 Ringe row consultations;
+30 consultations are new. Totals are1457 evidence records,838 actual
+reviews and1515 positions. All786 core reviews and earlier evidence remain.
+The source-general method scope is bounded explicitly; one reviewed
+named-row body scope supplements rather than replaces the pending parent
+Chapter3/4 programme. Sixteen scopes now contain four reviewed and12
+pending units. The all393 applicability screen is still pending.
+
+Source findings distinguish *sitjaną* from the derivational *set-* root,
+surface *bindaną* from conditionally recoverable */bend-/*, and separate
+past/present cells from selected citations [@Ringe2017, pp.249,252,256].
+Nasal-final cells, explicit PWGmc fight, tentative PGmc sup, and PGmc
+weak brook broaden the questions beyond an e/i pilot [@Ringe2017,
+pp.242-243,254-255,262]. Chapter-only dating context is not promoted to
+an explicit endpoint. Learn's two stems are shared without inventing
+its selected imperative/3sg endings. Ask-bid, flour-meal, boiling-will
+and the unrelated hlaupan/run etymon remain identity guards
+[@Ringe2017, pp.246,250,255,258,260].
+
+No inter-author causal verdict, scientific adoption, complete grammar
+survey, full feature alignment or new publication is claimed. Subsequent
+passages must supply the remaining cross-references, full paradigms,
+family/process applicability and source-wide convention reconciliation.
+
+The focused survey/analysis suite passes77 tests; bibliography and
+section-locator checks pass. Canonical refresh reports CONTROL PLANE CLEAN.
+The core reading/citation-triage gates retain their passing dispositions;
+the three-source gate correctly refuses unfinished reading with exit2.
+All46 protected scientific-owner hashes remain unchanged. These are
+research propagation/non-adoption checks, not a completed historical census.
+
+### Alignment and explanation accountability continuation
+
+The analytical SOURCE tables now distinguish actual feature review from
+the earlier citation inventory. Comparisons carry alignment status, cited
+basis and evidence, and precise remaining premises. A bounded disposition
+cannot omit member evidence; a feature-aligned disposition cannot rest on
+cell labels alone. All395 inherited comparisons remain alignment-unreviewed
+after the conservative migration. No all-row scholarly review is inferred
+from new columns or passing validation.
+
+Rationales separately identify position support, descriptive bridges and
+explanations of divergence. The existing46 records retain44 position-support
+arguments and two descriptive bridges; supporting one author's position
+does not establish the cause of an inter-author disagreement. Controlled
+conditioning tags provide a queryable census interface, but their initial
+empty values do not assert class membership or complete that census.
+
+The feature-alignment gate refuses an empty population, missing core cases
+and any partly unreviewed core population. It also requires the named
+three-source reading programme before its all-row closeout. These are
+accountability checks, not independent tests of a historical explanation.
+Actual source reading, all393 alignments, class assessment and explanatory
+synthesis remain in progress.
+
+The corrected focused suite passes82 tests. Bibliography and section-locator
+checks pass, and all46 protected scientific-owner hashes remain unchanged.
+The three independent source readings continue with session-only handoffs;
+they do not edit the shared repository evidence tables concurrently.
+
+### Persisted Ringe/Fulk relevant-pass integration
+
+The two completed source handoffs are now integrated, rather than remaining
+session-only. Ringe adds278 evidence records and287 positions; Fulk adds216
+records and239 positions. Ringe has191 actual consultations and six reviewed
+scopes; Fulk has135 consultations and eight reviewed scopes. Each retains a
+separate393-row applicability manifest, including all six research-only
+identities. The manifests and bounded original-page check receipts are
+SOURCE accountability under `reading_accountability/`, included in projection
+provenance. Non-consulted screened leads are not negative coverage records.
+
+The combined tables contain1951 evidence records,1126 actual consultations,
+2041 positions,395 comparisons and46 rationales. The integration preserves
+every field of all1457 inherited evidence records, all inherited analytical
+positions, all786 core reviews and prior review links and qualifications.
+All393 core feature alignments remain unreviewed. These totals do not claim
+completion of the later inter-author explanatory stage.
+
+Actual originals resolve Ringe's formerly deferred arrows and trimoric
+quantities; different friend quantities remain separately recorded
+[@Ringe2017, pp.ix,224,228,307,312,315]. The explicit PGmc fight citations
+coexist with the local PWGmc citation; the latter is not a source-wide refusal
+of deeper reconstructability [@Ringe2017, pp.108,254,266,271]. Fulk's two
+sit citations and their different local dating support are preserved without
+an automatic e/i harmonization [@Fulk2018, pp.43,295].
+
+The84 focused tests, bibliography and section-locator checks pass; canonical
+refresh reports CONTROL PLANE CLEAN and all46 protected scientific-owner
+hashes remain unchanged. New fidelity tests retain both fight stages, the
+unstarred trimoric name cells, both Fulk sit forms and exact independent
+screen/consultation populations. These checks are not a certificate that
+every human-selected cell or historical interpretation is correct.
+
+At that integration checkpoint two specific quality issues needed repair:
+overlapping new Ringe-Taylor extraction records for identical source
+occurrences, and Fulk handoff metadata that calls selected cow1980 a plural.
+The selected corpus NOTE and sidecar explicitly identify its dative singular;
+neither the source's other cells nor a syncretic surface spelling change
+that selected identity. Original quotations, pages and production fields
+must remain untouched by this metadata correction. Ringe-Taylor's
+unavailable original typography and unresolved convention-page folio remain
+honest holding limits, not invented source-negative reviews.
+
+### Selected-cell repair and explicit analytical curation
+
+The cow1980 amendment is now persisted from the exact handoff receipt.
+It changes one form's annotation fields, three analytical positions
+(including the shared both1958 position), the finite target description
+and the applicability annotation. The source quotations, printed pages,
+stage assertions, hypotheses and all population counts are unchanged.
+The selected corpus and stage sidecar explicitly identify dat.sg.
+*kūi* to *cȳ*. Fulk's separately quoted nominative/root and competing
+accounts remain intact [@Fulk2018, pp.72,223,388].
+
+`reading_accountability/fulk-selected_cell_guard_provenance.tsv` retains
+the original provenance of23 guards. Cow's original plural description
+was a surface-form guess. Other guards were not all originally traced
+individually to NOTE/sidecar evidence: task instructions, concept labels
+and grammatical/source-paradigm inference were also used. Later checks
+are distinguished from that original provenance, not described as
+retroactive certification. The full alignment must check selected
+identities rather than assume a screened guard is source-verified.
+
+Individually reviewed curation now adds written-feature and attribution
+claims to35 dictionary positions in rows1941-1949. It separates rejected
+Kroonen ask *bidjan-* from endorsed *bedjan-*, Orel's long-i antecedent
+from its ask j-present, and Kroonen's belief-family/conditional forms
+from an actual selected belief verb. These are explicit per-position
+decisions, not a regex population classification
+[@Orel2003, pp.45,238; @Kroonen2013, pp.57,332,341].
+No dates, endings, prefixes or equivalent phonemic values are inferred.
+All393 core comparison alignment statuses remain unreviewed pending
+the three-source reconciliation and complete row review.
+
+The focused survey/analysis suite now passes88 tests. New regressions
+protect the selected cow dative, disclosed original guard provenance,
+ask rejection/long-i antecedent and belief-family boundaries. Canonical
+refresh reports CONTROL PLANE CLEAN; bibliography and section-locator
+checks pass, and all46 protected scientific-owner hashes are unchanged.
+The read-only ask query returns eight positions, distinguishing the
+rejected reconstruction, derivational antecedent, other cell, actual
+PGmc assertions and process evidence without changing any SOURCE table.
+Further core review notes now cover1933-1960, still as drafts pending
+three-source reconciliation, not completed comparison alignments.
+That reading also found an obsolete annotation calling *báiðai*
+the selected both1958 input. The actual citation and selected input
+are *bō* to bū. Only the research annotation is corrected, retaining
+the original *bō-jenō* quotation, printed p.52, verification and an
+explicit history of the annotation repair [@Orel2003, p.52].
+An exact regression distinguishes the selected neuter from the
+source's beʒen-related formation.
+Ringe-Taylor duplicate-occurrence repair and integration, the full393
+alignments, conditioning census and explanatory/report closeout are
+still unfinished.
+
+### Reconciled Ringe-Taylor integration and ask argument check
+
+The subsequent occurrence audit resolves the integration blocker:
+31 proved overlapping NEW extractions are removed, while genuinely
+different printed positions are retained. Bake's two *bacan* overlaps
+are remapped; the repeated *bakan* and *bakisi* members at different
+positions of the displayed chain are not merged. Their precise
+paragraph hashes and character spans preserve the first explicit
+PWGmc tuple versus later locally undated representations
+[@RingeTaylor2014, pp.126,233].
+
+Strict candidate validation precedes persistence of2178 new evidence
+records and2178 positions,255 actual consultations and393 separate
+screens. Seven RT accountability receipts are retained under
+`reading_accountability/`. Three inherited RT evidence records change
+only author attribution and appended notes; every original quotation,
+page, stage, verification and earlier review link remains. Every
+other inherited form and analytical position, including the preceding
+parent repairs, is preserved. No comparison/rationale closure is
+generated by this merge.
+
+Current totals are4130 forms,1376 actual consultations,4220 positions,
+395 comparisons and47 rationales. The three-source target population
+is581; the independent screen population is1179. Of20 scopes,19 are
+reviewed and the RT conventions scope retains `verification_gap`.
+The relevant held-source reading is closed with explicit holding
+limits. The stronger fully verified gate still correctly refuses
+the RT convention-page roman folio and original typography gap.
+It is neither weakened nor misreported as a failed lexical search.
+
+The Ringe ask check supplies a separate author-stated explanation:
+short-e intermediates at152 and explicit j-caused present-root
+raising at273. The newly cited process record and following-j-tagged
+rationale support that position; they do not explain the cross-author
+disagreement [@Ringe2017, pp.128,151-152,273]. The short-e participle,
+long-ē past and long-ī wait etymon remain distinct
+[@Ringe2017, pp.211,266,273]. The originally abbreviated p.128
+annotation is amended without changing its quotation, stage or
+verification. No PGmc *bedjaną* or long-i ask root is manufactured.
+
+The focused suite passes90 tests. New regressions protect full RT
+screen/consultation separation, the genuine conventions gap, actual
+bake character-span multiplicity, removed overlaps, retained local
+dates and the distinction between tagged position support and an
+inter-author explanation. Full393-row alignment, class census,
+watchlist and final explanatory closeout continue.
+
+### Actual nine-row alignment and extraction-boundary follow-up
+
+The first complete all-source alignment is ask1948: all20 positions
+are linked, with explicit attribution/representation decisions and
+specific remaining endpoint, antecedent, glyph and target premises.
+The Ringe following-j reason stays `position_support`; cross-author
+explanation stays unestablished [@Orel2003, p.45; @Kroonen2013, p.57;
+@Ringe2017, pp.128,151-152,250,273; @Fulk2018, pp.265-266;
+@RingeTaylor2014, pp.50-51,351].
+
+The subsequent1933-1940 reviews reconcile all available positions
+individually, including38 dictionary/Ringe decisions,29 RT feature
+decisions and five process attributions. They retain each conditional,
+family, plural/other-cell and comparative limitation. All nine cases
+are `bounded_limit`;384 core alignments remain unreviewed. The
+commentary contains the page-cited findings and precise outstanding
+questions; no inventory-only case is relabelled as feature-complete.
+
+This review detects eight proved RT extractor clips among twelve
+unbalanced tokens. The complete held readings and whole-token spans
+are restored with original extractor-call fields preserved; four
+genuinely corrupt native bracket/table tokens remain unchanged.
+The boundary receipt enumerates every outcome
+[@RingeTaylor2014, pp.32,51,120-121,180,195,202,271].
+This explicitly qualifies the earlier integration's quotation-preservation
+claim: integration preserved its input, whereas subsequent source
+checking corrects eight of that input's extracted boundaries.
+
+The omitted bake *becst* endpoint and its surrounding class-VI argument
+add two records/two positions to an existing consultation
+[@RingeTaylor2014, pp.232-233]. Ringe's Greek connection remains conditional,
+independently of attribution of his displayed bake stem
+[@Ringe2017, p.213]. Three additional reasons are two position supports
+and one dated descriptive bridge, not divergence explanations
+[@Kroonen2013, p.50; @RingeTaylor2014, pp.180,232-233].
+
+Current totals:4132 forms,1376 actual consultations,4222 positions,
+395 comparisons,50 rationales. The focused95-test suite passes.
+Production corpus/stage/context/FST/baseline adoption remains excluded.
+The remaining population alignment, full census, explanatory audit,
+consistency watchlist and ranked specialist/report closeout are not done.
+
+Canonical propagation after these changes reports CONTROL PLANE CLEAN;
+bibliography and section-locator checks pass. All46 protected scientific
+owners match the starting SHA256 values. A read-only comparison query
+returns nine bounded cases and384 unreviewed cases. The full-population
+alignment gate correctly fails on those384; the fully verified reading
+gate independently retains the RT conventions/roman-folio gap. Neither
+failure is suppressed or used to justify scientific adoption.
+
+### Second eight-row alignment:1941-1947 and1949
+
+The eight actual all-source reviews retain70 inherited positions and their
+specific cell, family, stage, attribution and glyph limits. Seven direct
+quotations and four process records supplement existing consultations;
+consultation counts remain1376. Totals are4143 forms,4235 positions,
+396 comparisons and57 rationales. Seventeen core cases are bounded;
+376 remain unreviewed. The focused beaver directional comparison accounts
+for the extra case and two positions reusing existing evidence.
+
+Orel's adjective-first beaver and Kroonen's reversed account are a substantive
+directional opposition. Kroonen's productive-u-adjective/paradigm grounds
+are source-stated; connecting them with Orel's opposed position is explicitly
+analyst inference, not a named rebuttal or an established whole-row cause
+[@Orel2003, pp.40-41; @Kroonen2013, pp.56-57]. The other six new reasons
+are position support, not inter-author explanations.
+
+The SOURCE amendment receipt records exact old/new annotations:
+WGmc bier is not silently expanded to PWGmc; the starred Gothic bag
+comparandum is not another undated PGmc citation; Fulk's beaver process
+is OE back mutation; WS offer cell identification is explicit; analogical
+redistribution is not regular syncope itself; berry's probable Verner
+paradigm supplies no exact accented cells
+[@Orel2003, p.38; @RingeTaylor2014, pp.287,349-350;
+@Fulk2018, p.69; @Kroonen2013, pp.54-55].
+
+The seven new literal endpoints have printed-page, holding-sheet,
+paragraph, character-span and paragraph-hash receipts. They preserve
+Fulk's PGmc/OE beaver example, RT's WS believe endpoint, two separately
+occurring WS bag endpoints and the distinct late second/third singular
+offer cells. Existing source confidence, verification and diplomatic forms
+are unchanged; the new records are honestly text-checked
+[@Fulk2018, p.69; @RingeTaylor2014, pp.243,245,287,350].
+The commentary records every case's cited findings and missing premise.
+No FST law, corpus choice, canonical stage/context, baseline, introduction,
+PDF, commit or push belongs to this research increment.
+
+The focused102-test suite passes, including exact occurrence-span/hash,
+reciprocal consultation, rejected/conditional proposal, compound/cell,
+local stage and reason-target controls. Bibliography and section-locator
+checks pass; canonical refresh reports CONTROL PLANE CLEAN. All46 protected
+scientific-owner hashes remain unchanged. Read-only queries return17 bounded
+and376 unreviewed core cases, independently distinguish the inferred focused
+beaver explanation from its unestablished whole-row cause, and retain the
+later OE conditioning tags without back-dating them. The full-population
+alignment gate still fails on376 rows; the fully verified reading gate
+separately retains the RT conventions/roman-folio gap.
+
 ## Residue
 
-The complete per-row/source extraction, source-convention analysis,
-scientific policy/commentary, consolidated correction decision and
-new introduction/publication remain outstanding. Current table validity
-or an exhaustive population grid must not be described as completion.
+The prioritized explanatory audit, full feature/paradigm alignment of
+all393 core rows, relevant next-source conventions, consolidated
+scientific decisions and new introduction/publication remain outstanding.
+Core reading and citation-unit triage are complete, not all historical
+causes or the whole research project. Current table validity or a reviewed
+population roster must not be described as explanatory completion.
 Unidentified/partial/edition-conflicting holdings require explicit
 resolution or declared limits, without new acquisition.

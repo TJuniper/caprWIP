@@ -1,10 +1,618 @@
 # PGmc reconstruction comparisons: scientific commentary
 
-Status: ongoing survey, not a comprehensive completed report or an
-approval of changed corpus fields. The structured ledger preserves
-source evidence separately from CAPR choices. The complete comparative
-analysis and shorter introduction synthesis follow the corpus-wide
-survey, not this initial three-lexeme method check.
+Status: complete two-dictionary reading baseline and whole-population
+citation-unit triage; explanatory research remains ongoing. This is not
+approval of changed corpus fields. The former all-library Cartesian
+programme is superseded by the prioritized policy below. Earlier
+checkpoint counts and extraction schedules in this commentary are
+historical, not the current workload. The shorter introduction and
+new publication remain subsequent work.
+
+Current held-source reading covers the relevant three comparative accounts:
+191 Ringe,135 Fulk and255 Ringe-Taylor consultations, separately from
+393 applicability screens per source. The database contains4143 evidence
+records,1376 actual consultations,4235 positions,396 comparisons and57
+rationales. The fully verified reading gate still refuses the named
+Ringe-Taylor convention/typography gap; full feature alignment and
+explanation remain ongoing. Earlier measurements below are checkpoint
+history, not current totals or an exhaustive-library workload.
+
+The approved stage requires the complete relevant Ringe/Fulk/
+Ringe-Taylor pass, followed by alignment of all393 core rows. Its initial
+reading manifest initially distinguished15 scheduled scopes from actual reading:
+two text-checked method passages and13 pending units. Neither source's
+full conventions are thereby reviewed. Ringe's transcription note separates
+symbol/quantity and arrow conventions; Fulk distinguishes reconstructed
+phonemic opposition from more conjectural phonetic detail and cautions
+against treating terminology as uniform across authors [@Ringe2017, p.ix;
+@Fulk2018, pp.11-12]. Those observations do not normalize away e/i or assign
+a dated endpoint. No new lexical evidence or actual row consultation is
+claimed for those initial source-general readings. The subsequent Ringe
+body-reading increment below adds actual evidence without completing the
+three-source programme. The completed Ringe/Fulk continuation below
+supersedes those initial scheduling counts; full analytical closeout
+remains separate.
+
+## First reconciled feature alignments: nine bounded cases, not a closed population
+
+The first alignment checkpoint covered nine of393 rows: adder, bake,
+ball, ban, barrow, bast, bath, beard and ask, leaving384 awaiting stronger
+review. The second tranche below increases this to17 reviewed rows and376
+unreviewed. Each case includes every currently
+available position, rather than two chosen headwords. Its bounded
+disposition records the exact unanswered premise, not a generic claim
+that all dictionary forms are undated. No case has thereby acquired
+an established inter-author cause or a preferred CAPR input.
+
+Ask distinguishes Orel's short-i j-present from its long-i derivational
+antecedent, and Kroonen's defended e-present from his explicitly rejected
+i-reconstruction [@Orel2003, p.45; @Kroonen2013, p.57]. Ringe's own
+following-j explanation supports his short-i present cells; it does not
+explain Kroonen's e [@Ringe2017, pp.128,151-152,250,273]. Fulk contributes
+a j-present argument rather than a new whole-word quotation
+[@Fulk2018, pp.265-266]. Ringe-Taylor's own gemination example distinguishes
+an earlier citation from surface and underlying representations; the
+slashes do not mean another author's reported reconstruction. Its later
+finite/dialect forms are separate cells, not additional PGmc votes
+[@RingeTaylor2014, pp.50-51,351]. The historical/representational status
+of Kroonen's e, the long-i antecedent's relation to the distinct wait
+etymon, original surface/quantity glyphs and the missing corpus target
+remain explicitly bounded.
+
+The other eight reviews expose different questions:
+
+| Case | What the alignment establishes | What remains unsupported |
+| --- | --- | --- |
+| Adder | Separate feminine ē/ōn and short-a citations, masculine formations and WEUR comparanda; Fulk's shortening proposal is conditional [@Orel2003, p.286; @Kroonen2013, pp.381,386; @Fulk2018, p.132]. | The extra short-a feminine needs a formation/reflex account: shortening ē alone does not establish a. Masculine *neder* cannot substitute for the feminine cell. |
+| Bake | Present a versus past ō, singleton/geminate k, iterative formation, present-stem alternants and later finite cells are distinct [@Orel2003, p.33; @Kroonen2013, p.49; @Ringe2017, p.213; @Fulk2018, pp.257-259]. | Kroonen's contamination/back-formation argument does not explain Orel's choice of single k; a shared root vowel does not settle consonant history. |
+| Ball | The n-paradigm's single-l nominative and geminated genitive/plural differ from the explicitly secondary North Germanic u-stem [@Orel2003, p.34; @Kroonen2013, p.50]. | Orel's -uz endpoint and primary/secondary formation premise must be established; Kroonen's own argument is not Orel's cause. |
+| Ban | The neuter noun, summon verb and IE nasal-present proposals are different units; later verbal examples are not nominal genitives [@Orel2003, p.36; @Kroonen2013, p.52; @RingeTaylor2014, pp.126,128,348]. | The selected noun genitive and its formation history are not quoted by those verbal examples. |
+| Barrow | Both dictionaries retain masculine/neuter options; the u-vowel fortress stem is a family derivative, not an opposing hill reconstruction [@Orel2003, p.42; @Kroonen2013, p.60; @Ringe2017, p.190; @RingeTaylor2014, pp.182,313]. | Complete citation cells and the phonetic/representational relation of ʒ/g are not settled. No gender conflict follows from the different display units. |
+| Bast | Orel's neuter label and printed -az alternative are retained; Kroonen's long-ō rope/husk formation is distinct from the root-a citation [@Orel2003, p.38; @Kroonen2013, p.55]. | The local label/ending tension and comparative gender/formation premises need resolution, not silently repaired transcription. |
+| Bath | Root-a neuter citations, deeper derivations and RT's separate singular/plural histories remain independently comparable [@Orel2003, p.39; @Kroonen2013, p.55; @RingeTaylor2014, p.194]. | The adopted deeper root/reflex set and native-text dental/front-vowel glyphs do not yet establish common whole-cell equivalence. |
+| Beard | Written rđ versus rzd cannot be erased by a dental-sign convention; RT expressly displays optional z in PGmc and a z-less PWGmc endpoint [@Orel2003, p.36; @Kroonen2013, p.54; @RingeTaylor2014, p.180]. | The dictionaries' intended endpoints, admitted cognates and loan direction are not established by that descriptive bridge. |
+
+### Boundary checks are not glyph normalization
+
+The beard follow-up found an extractor clip: the native paragraph prints
+*bar(z)da-*, not the recorded fragment *bar(z*. Checking all twelve
+unbalanced-parenthesis tokens against the holding finds eight proved
+clips, including the optional forms for birth, fare, furlong, the masculine
+numeral ending, thunder and world [@RingeTaylor2014, pp.32,120,180,195,202,271].
+The full native tokens and their extended character spans replace those
+fragments. The original extractor-call fields remain in the occurrence
+receipt. By contrast the malformed ask/sit surface brackets and the
+numeral-table *priG)u* are actually present in the held text and remain
+unrepaired [@RingeTaylor2014, pp.51,121]. These are different kinds of
+uncertainty: a proved extraction boundary error is not an author
+disagreement, while an unresolved source-image glyph cannot be restored
+from the desired history.
+
+Bake's final OE second singular *becst*, previously omitted from the
+extracted tuple, is now separately recorded. The adjacent discussion
+distinguishes present a-generalization from subsequent umlaut; its note
+uses syncopated WS second/third singular forms as evidence and separately
+describes Anglian levelling [@RingeTaylor2014, pp.232-233]. This supports
+queryable following-i and lost-trigger membership for this cited position,
+not a corpus-wide census or a grammar-conditioned CAPR law. Likewise
+Ringe's conditional Greek/laryngeal connection does not make his displayed
+*baki/a-* stem somebody else's proposal: the conditional premise is
+etymological [@Ringe2017, p.213].
+
+The three new rationale records separate RT's bake position support,
+Kroonen's secondary-u formation argument and RT's dated optional-z
+descriptive bridge. None is labelled an explanation of divergence.
+The all393-row review, complete conditioning census and systematic
+consistency/explanatory closeout remain required.
+
+## Second reconciled tranche: formation, direction and later histories
+
+Beaver, beech, begin, believe, belly, berry, offer/command bid and bier
+now have actual all-source feature reviews. The70 inherited positions
+are retained; seven direct quotations and four process passages supplement
+existing consultations, not eleven new source/row reviews. Seventeen of393
+core cases are bounded by specific premises, while376 remain unreviewed.
+Seven additional reasons distinguish six position supports from one
+focused, analyst-inferred explanation of directional disagreement.
+
+| Case | Source-supported distinction | Exact remaining question |
+| --- | --- | --- |
+| Beaver | Orel's *bebruz* starts from a colour adjective; Kroonen's *bebura-* reverses the usual direction, citing productive PIE u-stem colour adjectives and an animal-name paradigm [@Orel2003, pp.40-41; @Kroonen2013, pp.56-57]. | Establish Orel's independent directional reasons and compare the admitted paradigms, internal *br/bur* and formations. Kroonen does not explicitly name Orel as an opponent. |
+| Beech | Long root *ō*, root versus expanded/j-bearing formations and feminine/neuter alternatives coexist; the au-collective proposal is rejected, not an adopted competing root. Fulk's book paradigm is another sense/unit [@Orel2003, pp.51-52; @Kroonen2013, pp.71-72; @Fulk2018, pp.166-167]. | Determine the formation and selected beech cell; *béce* and a book paradigm cannot be silently substituted for selected *bōc*. |
+| Begin | Both dictionaries quote unprefixed stems with *nn*, but differ in written root *e/i*; external comparisons remain qualified [@Orel2003, p.132; @Kroonen2013, p.178]. | Establish the conditioning/chronological or representational premise and independently justify the selected prefix/ending. Written *nn* alone does not constitute a cited nasal-raising class. |
+| Believe | Orel quotes the unprefixed believe verb; Kroonen's *eu/u* items belong to the dear/praise/permission/hope family, including a conditional lost strong verb [@Orel2003, p.238; @Kroonen2013, pp.332,341]. | Establish the family/derivational link before calling these competing believe reconstructions; retain the missing original glyph/quantity premises. |
+| Belly | The primary bag *a*-root i-stem differs in unit from the related Faroese *e*-root u-stem; RT separates WS breaking/mutation from Anglian retraction/mutation [@Orel2003, pp.33-34; @Kroonen2013, p.49; @RingeTaylor2014, pp.208,231,243,287]. | Establish formation/reflex weighting and exact original vowel/quantity/velar readings. A leather-bag citation or Northumbrian compound does not itself quote the selected belly sense/simplex. |
+| Berry | Kroonen's admitted reflexes motivate a probable singular *s*/plural *z* Verner paradigm, while Orel supplies a *z*-citation with an OE feminine reflex [@Orel2003, p.40; @Kroonen2013, pp.54-55]. | Explain the selected genitive/levelling and gender/formation route. No exact accented cells are printed in this passage, and its position argument is not Orel's reason for citing only *z*. |
+| Offer/command | The *eu*-infinitive, *u*-grade masculine participle and later mutated finite cells are separate units. The WS table preserves native *bebytst* (late second singular) and *bebiet* (third singular) [@Orel2003, p.43; @Kroonen2013, p.61; @Ringe2017, p.188; @Fulk2018, pp.273,386; @RingeTaylor2014, pp.349-350]. | Establish dental convention and matched formation/cell before whole-word equivalence. The research-only row's absent target is not filled by another quoted cell; ask/pray remains a different etymon. |
+| Bier | Orel explicitly writes WGmc *bērō*, not PWGmc; Kroonen supplies a feminine lengthened-grade stem without a locally explicit common date. Orel's *barwōn* is another formation [@Orel2003, p.38; @Kroonen2013, p.61]. | Establish Kroonen's endpoint/cell and the formation relationship. Shared long *ē* and CAPR's equality-stage convention do not prove shared PGmc dating. |
+
+### One narrowly explained opposition, not eight settled histories
+
+The beaver direction case makes a genuine historical opposition queryable.
+Orel's adjective-first statement and Kroonen's explicitly reversed account
+are not equivalent spellings. Kroonen gives a morphological premise:
+productive u-stem colour adjectives can be derived from the animal name,
+whose paradigm and r-vocalization he reconstructs separately
+[@Orel2003, pp.40-41; @Kroonen2013, pp.56-57].
+Relating that argument to Orel's opposed direction is our inference.
+Orel's deeper rationale and the complete comparative paradigm weighting
+remain missing. The database therefore labels the focused explanation
+`analyst_inference` and bounded, while the whole-row cause remains
+unestablished; it does not claim a direct author-to-author rebuttal.
+
+Fulk adds an explicitly labelled PGmc *bebruz* and OE *beofor*.
+His argument is OE back mutation *e > eo*, caused by following back vowels,
+not the disputed inherited *e > i* account. The following-u class tag
+belongs to this later process; it cannot date PGmc raising or explain the
+dictionary formation difference. His starless index *bebruz* retains its
+separate undated representation [@Fulk2018, pp.69,386]. Source *beofor*
+is not silently respelt to the selected *befer*.
+
+### Written prefixes, dialect cells and lost triggers
+
+Ringe's intervening Gothic clitic supports his warning against completed
+PGmc phonological univerbation. RT's prefixed believe citation does not
+by itself contradict that warning: etymological segmentation and
+phonological wordhood are different claims [@Ringe2017, p.239;
+@RingeTaylor2014, p.245]. The previously omitted native WS *geliefan*
+is now retained beside the Mercian/Northumbrian endpoints. Its literal
+spelling does not restore macrons, palatal dots or corrupted intermediate
+vowel signs [@RingeTaylor2014, p.245].
+
+The two omitted WS *bielg* endpoints remain distinct occurrences in the
+two cited chains. The locally starred Gothic *balgs* comparison keeps its
+star and Gothic identity. Northumbrian *met-belig* is a compound, not
+another quoted simplex. The cited following-i mutation and later stem-i
+loss support this particular history, not a PGmc vowel normalization
+[@RingeTaylor2014, pp.231,243,287].
+
+Offer's table likewise distinguishes native finite cells from infinitive
+and participle grades. Its adjacent argument separates regular mutation,
+syncope/apocope and consonantal assimilation from later dialect remodelling;
+the root-weight and possible voiceless-obstruent qualification remain part
+of that account [@RingeTaylor2014, pp.349-350]. Those statements are source
+positions, not new grammatical conditions for CAPR sound laws. The
+following-i/lost-trigger tags do not admit a target to this research-only
+row. The full conditioning census, corpus-consistency audit and specialist
+dispatch remain subsequent population-wide work.
+
+## Completed Ringe and Fulk readings: distinctions the alignment must preserve
+
+The relevant Ringe pass now includes the development discussion84-240,
+the PGmc system241-329, necessary earlier morphological cross-references
+and the complete Germanic/OE index screen. Its191 actual consultations
+remain distinct from393 applicability dispositions. The Fulk pass covers
+the relevant method, phonology, nominal and verbal morphology, selected
+pronouns/numerals and the complete lexical index376-420; it yields135
+actual consultations, not393 lexical quotations. The row-specific
+applicability manifests preserve excluded leads and topical-only readings
+without turning them into negative lexical reviews.
+
+Ringe's notation is no longer blocked by the earlier glyph caveat.
+Bounded original-page checks confirm that unshafted arrows denote sound
+change and shafted arrows other changes, including synchronic derivation;
+double macrons represent trimoric vowels. These distinctions affect
+interpretation, not just display. The original name paradigm preserves
+unstarred *namō̄* in both nominative and accusative singular cells; its
+separately starred inherited citation is another evidence unit. No
+reconstruction star or simplified quantity has been inserted into the
+quotation [@Ringe2017, pp.ix,307,312]. Original friend passages likewise
+preserve differing printed quantities rather than licensing an inferred
+shortening event [@Ringe2017, pp.224,228,315].
+
+### Local stage claims are not source-wide prohibitions
+
+The first reading correctly kept PWGmc *fehtan* at254 separate from an
+explicit PGmc word. It did not establish that Ringe refuses a PGmc
+reconstruction of fight. The completed pass finds explicit PGmc
+*fehtaną* at108 and271. The254 grouping concerns wide West Germanic
+attestation, while the external Latin comparison and the criterion in
+note10 on266 allow deeper reconstruction. Those propositions can
+coexist. The database retains both local stages and units; neither
+back-dating the PWGmc token nor manufacturing an author contradiction
+is warranted [@Ringe2017, pp.108,254,266,271].
+
+Fulk supplies a different warning about presentation and date. He
+explicitly treats *ij* reduction as PGmc for simplicity despite evidence
+favoring a later chronology. A presentation endpoint is therefore not
+automatically an unqualified historical claim. His methodological
+discussion separates securely reconstructible oppositions from more
+conjectural phonetic realization, and does not establish a universal
+chronological equivalence of “Common Germanic” and “Proto-Germanic”
+[@Fulk2018, pp.11-18,303].
+
+The indexing conventions also matter. Ringe excludes separate indexing
+of items in present-vowel and inflectional-ending tables, not every
+paradigm reference. His bracketed Germanic-looking items are expressly
+not securely reconstructible for PGmc. Fulk's Germanic index prints
+starless entries, which remain starless in the evidence layer. Neither
+heading supplies missing endorsement, cell or precise date
+[@Ringe2017, p.358; @Fulk2018, pp.376,386-389].
+
+### More than one e/i question, including within a single author
+
+Ringe's realized *sitjaną* and derivational *set-* root remain compatible
+under different analytical units. Fulk independently prints explicit
+PGmc *sit-j-anaⁿ* at43 and *setjanaⁿ* in the sit comparison at295.
+The latter passage does not locally date that token. Both are now
+image-checked records. An explanation must establish their respective
+representational and derivational status; it cannot silently correct
+either spelling or assume that every source's e is an underlying root
+[@Ringe2017, pp.249,256; @Fulk2018, pp.43,295].
+
+Fulk's root e-grade convention is not a convention identifying complete
+Germanic e- and i-bearing words. His raising/lowering discussion also
+distinguishes stronger u-lowering evidence, less uniform i-lowering,
+branch/paradigm differences and qualified following-u raising. Thus the
+phonemic inventory question, a root's citation grade, a conditioned
+surface alternation and a change's chronology require separate
+classifications [@Fulk2018, pp.43,55-59].
+
+Milk illustrates why ending and branch history cannot disappear from
+that comparison: the index's *miluki* and the discussion of continental
+raising beside OE *meol(o)c* are distinct units. The contrasting *ebur*
+example limits a universal u-trigger interpretation. Find and the
+winding participle similarly require present versus participial grade
+and the nasal restriction on lowering to remain explicit
+[@Fulk2018, pp.56,69,388-389]. These arguments support a subsequent
+cited class census; an index vowel or current-input string is not
+already a class assignment.
+
+### Morphology and lexical identity can explain the apparent mismatch
+
+Ringe's tread/knead account reconstructs u-bearing PGmc presents and
+West Germanic e-grade remodeling into classV. Fulk's knead comparison
+includes *knuðanaⁿ* beside the differing later weak/strong outcomes.
+The comparison therefore concerns grade, consonant interpretation,
+inflectional class and subgroup history, not simply an author's
+preference for e or i [@Ringe2017, pp.109,274-275;
+@Fulk2018, p.264].
+
+Brook's PGmc weak past *brūhtē* and participle are not overridden by
+later strong inflection. Run's *rinnaną* and conditionally recoverable
+underlying */renn-/* must remain separate from Fulk's *rinwanaⁿ*
+and their respective nasal-present etymologies. The leap/run verb
+*hlaupaną* supplies no replacement identification for the selected
+*rinnan* family [@Ringe2017, pp.112,254,269,280;
+@Fulk2018, pp.113-114,246].
+
+Will supplies another grade/formation comparison: Ringe's
+optative-based history and *wiljaną* are not an authored *weljaną*
+quotation. Fulk reports and questions particular *wal-*/ *wul-*
+preterite hypotheses; reporting them is not endorsement. Boiling
+*wulaną* remains a different etymon [@Ringe2017, pp.219,294;
+@Fulk2018, pp.328-330].
+
+The remaining lexical controls are consequential rather than
+bookkeeping. Fulk's *wixtiz* index lead connects to a *vættr*
+weight discussion whose relationship to the selected wight identity
+is unresolved; that bridge is not promoted to a vowel disagreement.
+The selected meal is time/measure, not flour; book plurals do not
+quote a singular or the beech-tree sense; gift's related ō-stem
+paradigm is not the selected i-stem singular [@Fulk2018,
+pp.48,64,71,154-156,166-167,389]. Lexical, family and selected-cell
+relations remain independently queryable.
+
+These completed readings expand evidence and precise questions.
+They do not complete the393 core alignments, establish every cause
+of divergence or authorize changes to CAPR's current reconstructions.
+
+### First individually curated positions: attribution before equivalence
+
+The next analytical increment reviews35 dictionary positions across
+beaver through bier. Written vowel/quantity, formation and segmentation
+features are now distinguished from interpretations of their phonemic
+value. Diplomatic quotations and inherited stage interpretations remain
+unchanged. These positions are preparatory work: no core comparison has
+yet received a completed three-source alignment.
+
+Ask/pray bid is a consequential additional e/i control. Orel's
+*biđjanan* and its long-i derivational antecedent *bīđanan* are separate
+positions. Kroonen defends *bedjan-* and rejects the older *bidjan-*
+with an analogical reshaping to e; his conditional desire-root comparison
+depends on a controversial consonant development. Counting the rejected
+i-bearing position as Kroonen's agreement would conceal the disagreement.
+Ringe's explicitly PGmc *bidjaną* and third-singular *bidiþi* supply
+additional dated units, not evidence that every dictionary e is an
+underlying root. Fulk's j-present discussion identifies ask rather than
+offer, without supplying the missing selected corpus target
+[@Orel2003, p.45; @Kroonen2013, p.57; @Ringe2017, pp.128,250;
+@Fulk2018, pp.265-266]. The adopted etymological, phonological and
+representational premises must be compared before the cause of this
+divergence is called established.
+
+Believe illustrates a different failure mode. Orel actually prints an
+unprefixed belief verb; Kroonen's dear/praise/permission formations
+include a conditional lost strong verb, not an authored complete
+prefixed belief reconstruction. The visible au/eu/u differences cannot
+therefore be counted as paired whole-word disagreement
+[@Orel2003, p.238; @Kroonen2013, pp.332,341]. Berry's singular/plural
+Verner alternants likewise do not quote the selected genitive
+[@Orel2003, p.40; @Kroonen2013, pp.54-55]. Bier's matching long-ē
+citations retain Orel's explicit WGmc label and Kroonen's lengthened-grade
+formation; matching letters alone do not establish an opposed PGmc
+membership claim [@Orel2003, p.38; @Kroonen2013, p.61].
+
+The cow handoff's selected-cell error is corrected separately: CAPR selects
+dative singular *kūi* to *cȳ*, not a plural. Fulk's cow/nominative
+discussion and starless index stem retain their own units and competing
+accounts [@Fulk2018, pp.72,223,388]. The correction changes only
+research annotations, not source quotations or production. The retained
+guard-provenance receipt discloses which earlier selected-cell guards
+were inferred rather than individually traced to corpus selection
+evidence. Such a receipt identifies work to check during alignment; it
+is not retroactive verification of those inferences.
+
+Continued core review found another reporting error, not a source
+disagreement: the annotation attached to Orel's *bō-jenō* named an
+obsolete masculine selected input. CAPR actually selects neuter
+*bō* to *bū*. The annotation is corrected, while the source's
+beʒen-related formation and printed page remain intact
+[@Orel2003, p.52]. A current corpus selection must not be inferred
+from an inherited explanatory annotation any more than from a
+syncretic surface spelling.
+
+### Ask's raising explanation is source-supported, not yet a cause of divergence
+
+The bounded argument check establishes more than the printed i.
+Ringe's p.128 supplies the short-e PIE antecedent and short-i PGmc
+present; its local topic is the initial consonant. His p.152 supplies
+the short-e intermediates, and p.273 explicitly says j raised the
+present-root vowel in ask, lie and sit. The database now links that
+argument as position support with a following-j tag
+[@Ringe2017, pp.128,151-152,273]. The explanation is author-stated,
+not merely inferred by applying a generic law to the current input.
+
+Short-e participial and long-ē past cells are not long-ī present-root
+alternatives. In particular Ringe's long-ī wait verb is another lexeme;
+its apparent resemblance to Orel's long-i antecedent does not establish
+their etymological identity [@Ringe2017, pp.211,266,273; @Orel2003, p.45].
+Ringe's own reason does not yet explain Kroonen's defended e-bearing
+citation or rejected i-plus-analogy account [@Kroonen2013, p.57].
+The case remains alignment-unreviewed and its inter-author cause
+unestablished. One tagged position argument is not the full
+conditioning census.
+
+## Ringe-Taylor held-text closeout: added evidence, retained limits
+
+The completed relevant pass covers the reconstruction/stage discussion,
+Northwest/West Germanic histories and morphology, earlier-input-relevant
+OE phonology/inflection, the complete lexical/topic index and the
+corrections. Its255 actual consultations are distinct from393 screened
+identities. Syntax is excluded from this bounded programme, not from
+the bibliography. Relevant chapters are Don Ringe's; another volume or
+edition is not an independent author vote [@RingeTaylor2014, pp.1-3].
+The three inherited quotation checks retain their original provenance.
+New native-text readings do not authenticate original arrows, italics,
+ambiguous glyphs or the unresolved convention-page roman folio.
+
+The isolated lexicon is intentionally PWGmc, and does not promise a
+PGmc or PIE antecedent for every entry. The PWGmc inventory and
+paradigms also distinguish representational alternatives and uncertain
+reconstruction premises. Their headings do not date every later
+intermediate [@RingeTaylor2014, pp.105-106,114-128].
+The occurrence audit is particularly useful here: bake has a genuinely
+repeated displayed chain at233, but overlapping automatic extraction
+of the same OE token at126 is not another authored position.
+The31 removed overlaps are documented by paragraph hashes and
+character spans, not equal-spelling guesses. Distinct tuples, other
+cells and locally dated versus undated positions remain
+[@RingeTaylor2014, pp.126,233].
+
+The added evidence often concerns a selected-cell prerequisite rather
+than a new PGmc headword. Fire's oblique r-levelling and queried dative,
+cow's dative versus plural contraction, knee's short inflected versus
+long endingless stem, and man's nominative plural are different
+questions. None supplies a selected ending by deletion or expansion
+[@RingeTaylor2014, pp.119,144,174,187,229,286,318,380,387].
+The explicitly early inherited raising is likewise distinct from
+Mercian second fronting; resemblance of distributions does not
+identify the two events [@RingeTaylor2014, p.220].
+
+The corrections are consequential but edition-specific. The three
+paradigm, uncertain sister versus stream witness, weak-past and done
+analyses can change a comparison's premises; they do not establish
+that the held2017 edition uses identical wording or page addresses
+[@RingeTaylor2014, pp.511-521]. The paired Ringe2017 readings remain
+necessary edition evidence. The precise native-text/glyph limits
+stay visible while independent feature alignment proceeds; a
+fully verified gate is not weakened to hide them.
+
+## First Ringe checkpoint: surface forms, underlying roots and paradigms
+
+The historical first body-reading block covers the complete phonology discussion and
+the opening inflectional conventions, printed241-266. It adds49 diplomatic
+records and53 row-linked analytical positions, supplementing31 Ringe
+consultations, of which30 are new. At that checkpoint Ringe had34 actual consultations,
+not393 completed applicability screens. The amended manifest has16 units:
+four reviewed and12 pending. The parent Chapter3/4 passages, all-row
+screening and full source-convention reconciliation remain pending.
+The introduction is a conservative history-of-English synthesis, not an
+exhaustive catalogue of all alternatives [@Ringe2017, pp.1-4].
+
+The important distinction is within this author, not simply between his
+spellings and dictionary spellings. Ringe explicitly prints PGmc
+*sitjaną* beside *etaną*, explaining the surface *i* through a following
+high-front vocalic. His six present indicative forms of 'carry' are
+*berō*, *birizi*, *biridi*, *beramaz*, *birid* and *berandi*, respectively
+1sg,2sg,3sg,1pl,2pl and3pl. Those cells are not interchangeable citation
+forms, and 'carry' is not a new corpus admission. His derivational
+discussion separately writes the class V roots *set-* and *et-*.
+The root spelling and the realized infinitive therefore coexist in his
+account; this does not establish that Orel's or Kroonen's whole-word or
+stem citations have the same analytical status [@Ringe2017, pp.249,256].
+
+The nasal class provides a still more explicit control. Ringe gives
+*bindaną*, *bindidi*, *band*, *bundun* beside the corresponding four
+principal forms of 'help' and 'throw', and suggests that learners could
+recover underlying */bend-/*. The suggestion is conditional; it does not
+cancel the quoted surface *bindaną*. His conditioner is a nasal in the
+coda of the same syllable, not an unspecified occurrence of a nasal
+somewhere in the word. Past ablaut, high-front-triggered present raising
+and the possibility of abstract lexical recovery remain separate
+questions [@Ringe2017, pp.252-253]. Original249 and252 have been checked;
+the other newly extracted pages remain text-checked, not newly
+image-certified.
+
+His conventions support bounded representational analysis. The inventory
+is explicitly surface-contrastive; *ai*, *au*, *eu* and *iu* conventionally
+represent /aj/, /aw/, /ew/ and /iw/, but *jj*, *ww* and *wj* retain
+distinct spellings because their subsequent developments differ.
+Conventional *h* and voiced-stop letters do not by themselves settle
+every phonetic realization. Neither this convention nor his inventory
+footnote rejecting a higher *ē2* warrants a global substitution across
+authors without their own arguments [@Ringe2017, pp.242-244].
+
+Final-vowel analysis also depends on cells: nominative *wullō* versus
+accusative *wullǭ*, and nonnasal *fehu*, nasal accusative *nahtų*, and
+*tehun* with actual final *un*. His reasoned reconstruction of short
+final nasal vowels retains acknowledged analytical uncertainty.
+The ledger preserves the endings rather than treating them as
+disposable typographic wrappers [@Ringe2017, pp.242-243].
+
+The broader extraction reaches formation and membership questions.
+The explicitly PWGmc *fehtan* is not itself upgraded to PGmc
+*fehtaną*; the completed continuation above records independent
+PGmc citations elsewhere in the same work.
+Ringe only tentatively admits *sūpaną* to PGmc and leaves inherited
+quantity versus early system reanalysis uncertain. He rejects projecting
+the later strong inflection of *brūkaną* back to PGmc and explicitly
+places its *brūhtē* past in his weak-verb classification. These are
+different kinds of disagreement, not instances of one e/i convention
+[@Ringe2017, pp.254-255,262]. Where an incidental form has only
+PGmc-sketch context rather than its own local stage assertion, that
+context remains recorded and its analytical date stays unspecified.
+
+Root, formation and inflection must also be kept apart. The two fientive
+stems *liznō-* and *lizna-* support the learn family, including its
+selected finite-cell rows, but are not quotations of those finite cells.
+The discussion of Verner alternants describes a synchronic,
+morphologized residue of a historical sound change; reporting that
+analysis does not introduce grammatical conditioning into CAPR's
+historical sound laws [@Ringe2017, pp.245-248,262-264].
+Ringe's *melwą* 'meal' is flour, not this corpus's *mǣl*; his
+*wulaną* 'boil' is not either will etymon; *hlaupaną* 'run' is not
+the selected *rinnan* etymon. Likewise *bidjaną* 'ask for' supports
+the ask row, not the offer/command homonym. These examples remain
+identity guards, not fabricated lexical consultations [@Ringe2017,
+pp.250,255,258,260].
+
+## Current core map: what has actually been established
+
+There are1951 diplomatic records and1126 actual consultations, including
+all786 Orel/Kroonen row reviews and340 other-source reviews. Orel's393
+positives include family/component and other-cell evidence; Kroonen's360
+positives and33 bounded negatives are not360 exact selected-cell quotations.
+The393-row population and all alternatives remain available, including
+six research-only rows. Dictionary silence is never counted as dissent.
+
+The analytical map has2041 row/evidence positions,393 core citation-unit
+dispositions, two focused comparisons and46 cited rationales. The core
+dispositions are328 undetermined,30 different-unit,33 insufficient-evidence
+and two substantive historical/etymological comparisons. These are
+triage outcomes, not agreement percentages. In particular, word-versus-stem
+display produces an `ending` tag in360 cases; it does not establish360
+competing inflectional reconstructions. Twenty-nine core cases have linked
+reasoning, but an author's explicit argument for a position need not
+explain the disagreement with another author. Unknown causes are retained.
+
+The ordinary uncalibrated rows are citation-unit rosters, not exhaustive
+feature alignment. The map deliberately leaves their dating, endorsement
+and historical equivalence uncertain where the extracted evidence does
+not settle them. This limitation matters more than the reviewed-row count.
+Subsequent work should deepen consequential comparisons, not turn these
+undetermined cases into agreement by stripping citation endings.
+
+The diplomatic layer remains authoritative for quotation. The analytical
+layer adds scoped relationships, overlapping classification, attributable
+reasons and queryable features above it. It does not choose a production
+reconstruction. The two layers share evidence IDs, and the generated atlas
+shows printed-page citations, original forms and analytical qualifications.
+
+### Worked boundaries and explanations
+
+The initial twelve calibrations are adder, cud, drench, find, gift, hind,
+knee, man, three, wash, world and hue. They are complemented by source
+arguments for beard, board, calf, fire, heaven, learn, liver, need, shilling,
+shovel, snow, tick, timber, weapon and wind, plus weather and the corrected
+spare metadata. Their scientific payoff is not the number of variant strings:
+
+| Question | What the evidence permits | What remains open |
+| --- | --- | --- |
+| e/i and eu/iu | Find's e/i citations differ; gift's i-stem differs from Kroonen's give/gift-family formations; hue preserves e/ew, eu and explicit inherited-i positions. Orel's etymology/ablaut convention, Kroonen's inventory/nasal argument and the qualified raising-date debate are distinct premises [@Orel2003, pp.xi-xiii,99,130,171-172; @Kroonen2013, pp.xix,142,172-173,224; @Ringe2017, pp.135,151-155; @RingeTaylor2014, p.250; @Cercignani1980, pp.126-129]. | No dictionary-wide e/i substitution; find's selected u-grade participle and hue's later phonemic uncertainty remain distinct questions. |
+| quantity and cells | Three's short-i stem and long-i nominative are distinct; the unlabelled Orel citation is not automatically that nominative. Ringe separately explains the added OE ending [@Orel2003, p.425; @Kroonen2013, pp.546-547; @Ringe2017, p.153]. | Same root letter or a mechanical ending removal does not align the selected cell. |
+| competing etymology | Hind's principal young/new connection versus a probable hornless account is substantive, not merely early raising [@Orel2003, p.169; @Kroonen2013, p.226]. Weather's Slavic connection is adopted by Orel but rejected in Kroonen's received-etymology discussion [@Orel2003, p.452; @Kroonen2013, pp.583-584]. | No winner is chosen; bibliography alternatives and conditional proposals remain attributed. |
+| morphology and analogy | Cud has different gender/stem propositions and an explicitly PWGmc starting form; man has n-stem/root-noun, plural-syncope and analogical-singular propositions [@Orel2003, pp.227,260; @Kroonen2013, pp.315-316,353-354; @RingeTaylor2014, p.323]. | A plural is not a genitive; analogy is recorded as the author's account, not implemented as a grammatical sound-law conditioner. |
+| paradigm reconstruction | Knee's thematic derivative and proterodynamic/genitive explanation inform the paradigm, not an exact quotation of the adopted short dative. Fire requires its whole r/n paradigm, not two arbitrarily chosen headwords [@Orel2003, pp.119,121,218; @Kroonen2013, pp.151,296]. | Full cell/grade alignment and the reasons for differing citation presentations remain separate work. |
+| components and derivations | Drench's causative is not an Orel drink noun; world has an authored compound versus separate man/age-family components [@Orel2003, pp.74-75,13,462; @Kroonen2013, pp.100,103,105,20-21,588]. | No whole word, ending or selected cell is assembled and attributed to an author. |
+| PGmc membership and loans | Orel's wash argument depends on Norse not being a West Germanic loan; the Norse weak formation is separately recorded. Explicit WGmc hood/knight and Proto-Norse liver evidence do not acquire PGmc labels from dictionary placement [@Orel2003, pp.165,217,450-451; @Kroonen2013, p.336]. | The wash borrowing premise and endpoint date are not decided by confidence or corpus output. |
+
+The wider candidates already contain useful explanations of individual
+positions. Calf contrasts an old s-stem/paradigm account with a womb-related
+comparison, but Kroonen's specific Greek objection must not be silently
+identified with Orel's Sanskrit comparison [@Kroonen2013, p.278;
+@Orel2003, p.209]. Heaven's paradigm/genitive remodeling versus
+metathesis/thematic derivation deserves a morphology-led comparison, not
+an automatic nasal-raising classification [@Kroonen2013, p.220;
+@Orel2003, p.169]. Weapon's b/p doublet and unusually early thematicization,
+and tick's n-stem/velar and OE-reading problem, likewise deserve case-specific
+analysis rather than blanket consonant normalization [@Kroonen2013,
+pp.516,577; @Orel2003, pp.407,461].
+
+### Equivalence and a real extraction error
+
+The gift sign example is a deliberately narrow representation equivalence:
+the image-checked *ʒeftiz* and its recorded *geftiz* comparison differ
+only in the explicitly declared velar-sign substitution. Neither i nor
+a stop/fricative interpretation follows from it [@Orel2003, p.130].
+
+Spare provides a more useful two-source control. Orel prints *sparēnan*;
+Kroonen's *sparēn-* is an incidental weak spare/save verb inside the
+*spara-* adjective entry [@Orel2003, p.362; @Kroonen2013, p.465].
+Our earlier extraction mistakenly copied the enclosing adjective's POS
+onto the verb. Original465 confirms the correction;466 starts a different
+noun entry. This is an extraction/metadata error, not scholarly dissent.
+
+A separate premised comparison segments Orel's final *an* as weak-verb
+citation material and compares *sparēn-* without changing either diplomatic
+quotation. It is our declared analytical operation, not a stem quote
+attributed to Orel or proof of identical historical endpoints. It also
+does not defend the different current selected *ōjan* input. This
+demonstrates why normalization needs units and premises rather than a
+global dash/ending-stripping rule [@Orel2003, p.362;
+@Kroonen2013, p.465].
+
+### Payoff-ranked next research queue
+
+No further large extraction is part of this batch. The next systematic
+reading pass should be Ringe2017, Fulk2018 and RingeTaylor2014, using
+relevant indexed examples and method sections rather than393 arbitrary
+negative reviews. Its first deliverable should align e/i and eu/iu
+positions by inventory, conditioner, dated endpoint and paradigm cell,
+building on the arguments already reviewed [@Ringe2017, pp.151-155;
+@Fulk2018, pp.55-59; @RingeTaylor2014, pp.220,250;
+@Cercignani1979, pp.72-82; @Cercignani1980, pp.126-134].
+
+Next, build explicit nominal/verb/n-stem rosters for Bammesberger1990,
+Seebold1970 and Kroonen2011 from formation questions: calf, fire,
+man, knee, three, heaven and the learn/lick families. These are proposed
+consultations, not newly attributed source conclusions; their applicable
+scope and conventions must be checked when each pass begins.
+
+Target Kluge2011 and the held EWA volume for rival lexical identities and
+loans, initially hind, weather, tick, need, shilling and weapon. Activate
+specialists only against named consequences. Mayrhofer, Beekes and
+Pokorny stay available for a specific PIE/cognate premise; their
+non-Germanic focus does not justify row-by-row PGmc treatment.
+
+The source catalogue now owns mode, priority and payoff. The finite
+target table is empty in this batch: no new pass is silently started.
+The evidence database can already query vowel features, differing cells/
+components, explicit later stages, borrowing, analogy and PIE arguments
+with source pages. The full comparison atlas and source ledger, rather
+than an unsupported apparent-agreement count, are the reusable research
+companions. The introduction should follow the deepened explanatory
+audit, not precede it or claim that the visible differences have been resolved.
 
 ## Why an author-form ledger is necessary
 
@@ -26,6 +634,51 @@ accented input requires an explicit argument. Agreement on an e
 does not establish agreement on morphology, cell or phonological
 interpretation of the dental.
 
+## Entry, stage and cell controls from the Orel opening group
+
+The completed opening group supplies further controls for the method,
+not a completed two-dictionary comparison or a reconstruction-selection
+policy. A headword, its derivational antecedent and an inflected selected
+cell remain different propositions even when their etymological link is
+secure.
+
+Adder illustrates both locator and formation error. The original
+printed286 (PDF sheet325) supplies feminine *nēđrōn* and *nađrōn*
+alongside a comparison to masculine *nađraz*. Neither the pilcrow
+emitted by native extraction nor plain *d* is the diplomatic barred
+*đ*. The current lexical account explains its own plain-d comparison
+notation instead of attributing that normalization to Orel. The earlier
+pilot's325 is superseded as a printed-page assertion, not rewritten
+as if it had always been correctly verified [@Orel2003, p.286].
+
+Bier is an explicit stage discriminator: Orel labels *bērō* West
+Germanic and relates it to *barwōn*. His *bērōn* 'wave' is another
+entry, not a slightly different reconstruction of the same selected
+word. The cited stage is recorded independently of confidence; dictionary
+placement alone does not supply an explicitly dated PGmc antecedent
+[@Orel2003, pp.38,44].
+
+Homonymous English labels are equally unsafe. The command/offer verb
+has *beuđanan*, whereas the ask/pray verb has *biđjanan* with a
+separately quoted *bīđanan* antecedent. Bend, ring and archery bow are
+respectively *bauʒjanan*, *bauʒaz* and *buʒōn*. Keeping separate row
+reviews preserves both semantics and the actual quantity/formation
+differences; it does not manufacture any of the corpus's selected
+inflections [@Orel2003, pp.43,45; @Orel2003, pp.39,61].
+
+Shared evidence must also preserve the author's actual glosses. The
+*bōkō*/*bōkz* family can inform both beech and book reviews, but
+Orel expressly glosses the OE comparison under *bōkz* as 'beech'.
+Separate *bōkjan* and *bōkjōn* formations directly cite OE *béce*.
+Reusing family evidence is not proof that Orel quotes the exact selected
+book sense, cell or gender [@Orel2003, pp.51-52].
+
+These examples justify distinctions in the evidence architecture, not a
+frequency claim about all393 rows. The complete core disagreement map
+must await both systematic dictionary passes; no current corpus
+reconstruction, input stage, sound law or preferred etymology is changed
+by this extraction.
+
 ## Initial finding: cud does not yet supply a third PGmc e/i case
 
 The resin word illustrates three distinct hazards. First, the current
@@ -39,7 +692,7 @@ confirmed by its running head and the book's reconstruction index
 
 Second, Kroonen's reconstructed resin stem is *kwedu-*, homonym2,
 with OE *cwidu*, *cweodu* and *c(w)udu* comparisons. Orel's headword is
-*kwedwō(n)*, feminine, with OE *cwidu*; he calls the Scandinavian
+*kweđwō(n)*, feminine, with OE *cwidu*; he calls the Scandinavian
 long-vowel variant secondary. These are not two identical whole-word
 reconstructions, and the homonym number is not part of the phonological
 stem [@Kroonen2013, p.315; @Orel2003, p.227].
@@ -124,7 +777,8 @@ selected forms, and his h explicitly represents a voiceless velar
 spirant [@Cercignani1980, p.127, nn.7-8].
 
 This is a genuine alternative to Ringe's placement of high-front-triggered
-raising in the PGmc formation period and to Fulk's early-raising account.
+raising in the PGmc formation period. It is not a refutation of every
+premise in Fulk's separately conditioned early-raising account.
 Ringe's own chronological qualifications must remain visible, alongside
 Cercignani's objections [@Ringe2017, pp.151-153;
 @Fulk2018, p.59; @Cercignani1980, pp.126-129].
@@ -143,6 +797,262 @@ and an exceptionless conditioned sound change require separate
 classifications [@Cercignani1979, pp.75,82;
 @Cercignani1980, pp.129-132].
 
+## Focused comparison: which disagreement bears on which process?
+
+The strongest correction to the initial framing is that modern conditioned
+raising and a general e/i allophonic system are different hypotheses.
+Fulk also discusses evidence against the merger. Kroonen rejects merger
+of i with e before a, using their different Old Norse breaking histories.
+Orel, in contrast, explicitly leaves the opposition unresolved and says
+that he personally favors a single phoneme. These are attributable
+inventory positions, not three interchangeable ways of writing the same
+independently dated process [@Fulk2018, p.57;
+@Kroonen2013, p.xix; @Orel2003, p.xii].
+
+| Author and process | Exact domain / phonetic versus phonemic claim | Asserted stage | Evidence and inference | Counterargument or limit | Provisional CAPR consequence |
+| --- | --- | --- | --- | --- | --- |
+| Cercignani: inventory | Opposed e/i, not universal complementary allophones | Germanic and its descendants | Contrasts, including the different behavior before u | Inventory opposition does not exclude conditioned raising [@Cercignani1979, pp.75-76,82] | Do not collapse both vowels or infer one date from the inventory debate. |
+| Cercignani: early umlaut | High-front and nasal raising versus lowering; rejects the shared umlaut-allophone analysis | Individual-language prehistories, not PGmc or NWGmc | Different outcomes, conditioning and paradigm histories are arguments against the proposed common system | His critique includes wider u/nasal/allophonic premises, not only Ringe's narrow high-front account [@Cercignani1980, pp.126-132] | Preserve the chronological rival, but test its exact premises rather than rejecting all inherited i. |
+| Ringe: high-front raising | Stressed e before i/j; prevocalic ej and ensuing j-loss/contraction are crucial to the date | PGmc, explicitly probable rather than certain | Three supplies indirect evidence: raising precedes the common j-loss/contraction account | Gothic e/i merger prevents a direct demonstration; its relevant nominative is unattested; j-loss itself is a defended scenario, not unanimous consensus [@Ringe2017, pp.151-155] | Retain inherited raising as the preferred working account, with a qualified PGmc date. |
+| Fulk: high-front raising | e before a following high front vocalic; eu has the parallel iu outcome | PGmc working reconstruction | Sit and other comparative examples; separate statement for eu | Early proper names give qualified evidence about completion dates, not a universal counterdate [@Fulk2018, pp.57-59] | Do not use ordinary OE mutation as an unexplained substitute for this inheritance. |
+| Fulk and Kroonen: nasal raising | Tautosyllabic nasal, not any later nasal anywhere in the word | PGmc reconstruction | Comparative bind/find classes; Kroonen orders it after specified assimilations and o/a merger | Those relative antecedents do not determine every absolute date or every remodeled lexical input [@Fulk2018, pp.57-58; @Kroonen2013, p.xix] | Prefer inherited i for the demonstrated closed-nasal class; verify syllabification and formation before flagging a row. |
+| Fulk: following-u raising | Following u distinguished from following i/j and a tautosyllabic nasal | Not widely accepted as a general PGmc change; secure evidence largely later OS/OHG | Limited examples and later productive contexts, with possible Anglo-Frisian/Norse cases | Analogical restoration and an inflected i-stem source are alternatives, not the same conditioner [@Fulk2018, pp.58-59] | No general PGmc u-trigger rule or automatic milk/seven/cud vowel migration. |
+| Fulk: lowering | u, and more restricted i, before a non-high vowel; nasal/j blockers assessed separately | Early lowering, with NWGmc preferred for i; PGmc is not excluded | Comparative outputs and retained high vowels in blocked environments | Gothic redistribution obscures the date; Ringe-Taylor's account of i-lowering differs [@Fulk2018, pp.55-57] | Preserve the u/i starting vowels independently of subsequent lowering and its unresolved scope. |
+| Ringe-Taylor: alleged late repetition | Inherited e-to-i raising versus later e-before-i examples | PGmc versus much later OE | Rejects using normal inherited e-to-i raising as a newly dated OE development | Later examples are described as rare and doubtful, not categorically impossible [@RingeTaylor2014, p.220] | A current late-raising trace needs a source/input explanation; reaching the target is insufficient. |
+
+The qualified preference for inherited high-front and closed-nasal raising
+is evidence weighted: the comparative distributions and the independent
+j-loss/contraction argument matter more than author counts. The exact
+PGmc date of high-front raising remains conditional, whereas its
+distinction from ordinary OE mutation is much better supported in this
+working account. Neither variable-looking u outcomes nor an objection to
+a universal allophonic system transfers every such change to the English
+daughter [@Ringe2017, pp.151-155; @Fulk2018, pp.57-59;
+@Cercignani1980, pp.126-132].
+
+Ringe defines PGmc as the last common ancestor reconstructed comparatively
+from the adequately attested languages. He distinguishes that object from
+earlier definitions and archaeological Germanic populations. This explains
+why early names are not mechanically decisive dates under his definition;
+it does not establish that every dictionary's e belongs to a differently
+defined stage [@Ringe2017, pp.84-85].
+
+The original printed p.153 was checked, not merely its OCR. Its phrase
+about the "raising of stressed *i*" is an apparent source typo: the
+preceding derivation explicitly has e raised to i. The scientific claim
+and its reservation are recorded without inventing an i-to-i law or
+silently presenting an emended quotation as printed text
+[@Ringe2017, pp.152-153].
+
+## Dictionary conventions: a real qualification, not a blanket escape
+
+Orel's preface is now a substantive part of the comparison. He intends
+full lexical words, sometimes with morphological variants, rather than
+isolated morphemes. Nevertheless, his choice between written short e and
+i frequently follows established etymology and ablaut, and can be nearly
+arbitrary in difficult cases. He declines to resolve the phonemic problem
+and acknowledges idealized morphological reconstructions. The decisive
+paragraph was checked against the printed image because the searchable
+extract drops its e/i glyphs [@Orel2003, pp.xi-xiii].
+
+Consequently, an Orel e is a genuine authored PGmc-dictionary form, but
+not necessarily a decisive assertion of phonetic e at the endpoint of
+Ringe's comparatively reconstructed raising history. This is a
+source-specific qualification supported by the preface. It is not
+permission to silently change a transcription, label every Orel form
+pre-PGmc, treat all dictionary citations as morphemes, or infer a raising
+date that Orel does not state [@Orel2003, pp.xi-xiii;
+@Ringe2017, pp.84-85,151-153].
+
+Kroonen must be assessed independently. His entry-structure note identifies
+PGmc headwords separately from subsequent Pre-Germanic constructs; his
+vowel introduction retains the e/i distinction and specifically argues
+for nasal raising. Orel's single-phoneme preference cannot explain
+Kroonen's e-bearing headwords by attribution. The short-i stem citation
+for three and its long-i nominative also show why a headword need not be
+the exact inflected word CAPR requires. The entry-structure note is an
+unnumbered page whose xiii folio is explicitly given in the book's
+contents [@Kroonen2013, pp.xiii,xix,546-547].
+
+## Sit and three: sourced e, but unresolved input-history consistency
+
+Orel really prints *setjanan*, and Kroonen really prints *set(j)an-*.
+The latter contrasts the Gothic non-j stem with the North/West Germanic
+j-present and entertains an original i-present. These are not
+fabricated CAPR spellings. Nor is Kroonen's parenthesized segment a
+licensed optional sound change in CAPR [@Orel2003, pp.325-326;
+@Kroonen2013, p.434].
+
+The stored sit trace nonetheless retains e through j-gemination and
+raises it only at OE mutation. Under the preferred inherited-raising
+account this is a historical/input inconsistency, not an output failure.
+Fulk expressly includes sit in the high-front class; Ringe's Norse
+evidence also includes sitja. The full-word ending, dictionary stem,
+author convention and actual date of the selected input must be
+reconciled before a field change is proposed. A possible realized-i
+selection is not yet an attributed whole-word quotation from these
+grammar passages [@Fulk2018, p.57; @Ringe2017, p.153, n.26;
+@RingeTaylor2014, p.220].
+
+Three is more consequential. Orel supplies *þrejez*, close in characters
+to CAPR's accented theta spelling. Kroonen and Ringe supply the long-i
+nominative *þrīz*. Ringe's earlier derivational chain is not his PGmc
+endpoint, and he explicitly says that OE *þrīe* has added the
+strong-adjective nominative plural ending. Orel's OE comparison is
+*ðrī*, not an independent attestation of the selected early West Saxon
+cell [@Orel2003, p.425; @Kroonen2013, pp.546-547;
+@Ringe2017, p.153].
+
+CAPR currently raises the short e at OE mutation, vocalizes the remaining
+j and contracts to *þrīe*. Under Ringe's account that path postpones
+inherited raising/contraction and conceals an added ending behind a
+seemingly regular whole-word derivation. Merely changing e to short i
+would not fix the stage, quantity or remodeling question. The eventual
+packet must decide citation reconstruction, selected cell, independently
+stated input stage and regular-versus-remodeled history together.
+No new PROTOFORM is specified from output fit
+[@Ringe2017, pp.152-155; @RingeTaylor2014, p.220].
+
+| Row | Current PROTO / PROTOFORM | Verified alternatives | Classification and pending consequence |
+| --- | --- | --- | --- |
+| sit2193 | Both `*sétjaną`, pgmc equality convention; target *sittan* | Orel `*setjanan`; Kroonen `*set(j)an-`; inherited-raising process in Fulk/Ringe | Genuine source e; whole-word/stem/ending distinction; current late raising inconsistent with the preferred realized-input history. Exact selection remains for the consolidated packet. |
+| three2254 | Both `*θréjez`, pgmc equality convention; target *þrīe* | Orel `*þrejez`; Kroonen/Ringe nominative `*þrīz` | Genuine vowel, quantity, ending and cell disagreement. Ringe's PGmc endpoint and added OE ending require more than an e/i correction. |
+
+## Whole-population diagnostic screen, not an etymology matcher
+
+All393 current rows were screened in both citation and selected input for
+retained short e/eu followed somewhere by i/j. Including the marked
+high-front spellings í, ī and į adds no further candidates. A separate
+e-plus-nasal-plus-consonant lead search returns hind and spindle, both
+already in this set. These are literal string checks, not a phonological
+syllabification analysis. The fourteen results below
+are an accountable candidate set, not fourteen demonstrated raising
+violations. The screen deliberately overincludes a nonhigh ai nucleus,
+already corrected citation/input pairs and potentially later formations.
+It does not recover lost triggers, syllabification, inherited i of uncertain
+origin or an author's paradigm. Those require the entry-by-entry survey.
+The tables are snapshots of the choices inspected in this review, not a
+second authority for current corpus fields; the generated inventory and
+per-row ledger carry those current choices.
+
+| Row | Current PROTO | Current PROTOFORM | Screening classification |
+| --- | --- | --- | --- |
+| dill1990 | `*déljaz` | `*déliz` | Different formation/cell; selected input also retains e before i. |
+| hind2075 | `*xéndjō` | `*xéndjō` | High-front and closed-nasal candidate; verify the reconstructed formation. |
+| knee2085 | `*knéwą` | `*knéwai` | Deliberate false positive: ai is not automatically a following high-front nucleus. Preserve the adopted dative. |
+| light2102 | `*léuxtijaną` | `*léuxtijaną` | eu/iu candidate, not only simple e/i. |
+| sit2193 | `*sétjaną` | `*sétjaną` | Source-confirmed high-front diagnostic; late raising in the persisted trace. |
+| smear2198 | `*smérwijaną` | `*smérwijaną` | Candidate; reconstruct syllables and the formation's date before assigning the domain. |
+| spindle2208 | `*spénnilō` | `*spénnilō` | High-front and closed-nasal candidate; inherited versus later formation must be checked. |
+| still2217 | `*stéllijaną` | `*stéllijaną` | Candidate; verbal formation and suffix history are not inferred from the gloss. |
+| stilt2218 | `*stéltjōn` | `*stéltjōn` | Candidate despite no runnable target; remains in survey scope. |
+| thistle2250 | `*θéstilaz` | `*θístilas` | Citation e versus already i-bearing selected input; not an omitted selected-input raising diagnosis. |
+| three2254 | `*θréjez` | `*θréjez` | Verified reconstruction/cell/quantity diagnostic, not a simple one-vowel repair. |
+| wight2291 | `*wéxtiz` | `*wéxtiz` | Candidate; exact source stem and intermediate consonants need checking. |
+| will2292 | `*wéljaną` | `*wéljaną` | Verb; assess independently of the nominal row. |
+| will2293 | `*wéljô` | `*wéljô` | Noun; a shared etymological discussion does not merge its selected cell with the verb. |
+
+The screen's limitations are substantive. Bind1950 and wind2294 already
+start with i and therefore cannot test raising by retaining e; that does
+not make their inherited histories irrelevant. Gift2040 and hue2332
+remain separately defended i anchors. Milk2126, seven2174 and cud1983
+belong to the disputed u/paradigm comparison, not an automatic extension
+of the high-front class. Horn2082 and nest2137 retain u/i inputs while
+raising different lowering questions. This classification directs the
+dictionary survey; it does not complete the full conditioning-class audit
+or authorize any corpus/rule/baseline migration
+[@Cercignani1979, p.75; @Cercignani1980, pp.126-129;
+@Fulk2018, pp.55-59; @Ringe2017, pp.151-153].
+
+## First core-dictionary cohort: more than a two-word e/i pattern
+
+The first candidate-class readings already establish that e-bearing
+reconstructions are not isolated to sit and three. Orel gives e in dill,
+hind, smear, spindle, still, stilt, thistle, wight and both will formations,
+and eu in the light verb. These are recorded with the original endings
+and alternatives, not collectively replaced by the current CAPR strings.
+They do not yet constitute a frequency estimate over the complete corpus
+[@Orel2003, pp.70,169,243,354,364,374,419,452-453].
+
+Kroonen's dill entry is especially instructive: i-stem and ja-stem
+headwords, conditional rounded-vowel alternatives and the proposed
+original nominative/genitive pair are different evidence. The complete
+e-bearing *deliz* is genuinely printed, but the passage's conditional
+original-paradigm proposal does not independently assign that word to a
+late realized PGmc endpoint. Neither "CAPR invented the ending" nor
+"the headword proves the date" is an adequate account
+[@Kroonen2013, p.92].
+
+Hind is not just another e/i transcription problem. Orel's
+*xenđjō(n)* accompanies the young/new comparison; Kroonen's *hindō-*
+has different morphology and is probably connected with hornlessness.
+Vowel history, dental notation, formation and competing etymology must
+all survive the comparison [@Orel2003, p.169;
+@Kroonen2013, p.226].
+
+Both smear reconstructions have wj rather than CAPR's wij. Still likewise
+has a suffix difference in Orel. An additional syllabic segment can be
+an explicitly justified realization convention, but it cannot simply be
+attributed to either dictionary. The source-backed suffix/Sievers-history
+question must be decided before calling the current extra i either an
+error or a verified normalization [@Orel2003, pp.354,374;
+@Kroonen2013, p.458].
+
+The will verb and noun have distinct author entries even where Kroonen
+prints the same stem letters. His verbal formation discussion matters to
+the trigger's history; his noun is defended as a jan-stem, while Orel
+prints a complete weak-noun form. Wight also requires the being/thing
+homonym, not weight. These are direct safeguards against overcounting
+source agreement or diagnosing a law from a gloss alone
+[@Orel2003, pp.452-453; @Kroonen2013, pp.578-579].
+
+The core-method pass also corrected a diplomatic transcription, not
+a scientific input: Orel's barred đ in cud is now retained as
+*kweđwō(n)*. The p.xii alphabet and enlarged p.227 image establish
+the glyph; native extraction maps it to a pilcrow and OCR can flatten
+it to plain d. This correction does not decide the separate CAPR
+d/ð/θ comparison [@Orel2003, pp.xii,227].
+
+## Nasal controls: dictionary e is not confined to the high-front class
+
+Direct control readings now extend the comparison to bind, find, spin
+and the wind/twist verb. Orel prints *benđanan*, *fenþanan*,
+*spennanan* and *wenđanan*; Kroonen prints *bindan-*, *finþan-*,
+*spinnan-* and *windan-*. The words, quantities, dental signs and
+word-versus-stem endings are retained separately in the ledger.
+This is further source disagreement, not four new input errors:
+CAPR's bind, spin and wind citations/inputs already have i, while
+find's selected input is a different u-grade participle
+[@Orel2003, pp.41,99,364,454;
+@Kroonen2013, pp.64,142,467,587].
+
+Kroonen explicitly uses bind and find to exemplify raising before a
+tautosyllabic nasal, with the relative antecedents stated in his
+introduction. Orel's e-bearing verbal citations show why his
+etymology/ablaut-led spelling policy matters beyond gift and hue.
+They do not date a common e-bearing endpoint, erase Kroonen's different
+inventory position or establish that every i-bearing CAPR input was
+chosen consistently. The full class audit must still recover
+formations and lost conditioning from source histories, not only
+strings [@Kroonen2013, p.xix; @Orel2003, p.xii].
+
+The cell and homonym safeguards remain important even for these controls.
+Neither find dictionary entry quotes the selected participle, so agreement
+on the infinitive's etymon is not evidence for its whole selected form.
+Kroonen's spinning/yarn noun is not the corpus spindle noun. The weather
+noun beside wind has a different root and a detailed derivation which
+must not be transferred to the wind/twist verb. His verb entry omits
+OE from its listed reflexes; the reconstruction is nevertheless explicit,
+and no OE citation has been invented [@Orel2003, pp.99,364,454;
+@Kroonen2013, pp.142,467,587].
+
+The reused gift page also records Orel's give verb, preserving his
+printed velar sign in both *ʒeftiz* and *ʒebanan*. Comparison forms
+with g are explicit typographic normalizations, not new stop/fricative
+histories. Deriving the noun from the verb does not establish identical
+realized root vowels after their different suffixes supplied different
+environments [@Orel2003, p.130; @Ringe2017, pp.135,151-153].
+
 ## Etymon identity is not the English gloss
 
 The wind example in the early-umlaut paper is the noun descending from
@@ -160,12 +1070,77 @@ not as a false whole-word match [@Cercignani1980, pp.127,134].
 These are safeguards against false positive source coverage, not
 grounds for excluding a relevant phonological discussion.
 
+## Completed Kroonen pass: evidence coverage is not exact-cell agreement
+
+The persisted Kroonen pass now reviews all393 inventory rows, including
+the six research-only rows. Its691 evidence records support360 positive
+reviews;33 bounded searches retain no_form_found. These are survey
+dispositions, not360 exact PGmc quotations of CAPR's selected inputs or
+independent confirmations of their historical stages. Some positives
+supply an authored lexical family, competing formation or separate
+compound component. The records distinguish those relations from the
+selected etymon and cell. Of the691 records,186 are image-checked,
+504 text-checked and one retains its earlier ledger verification.
+Full row review must not be relabelled universal image verification.
+
+The negative-scope audit corrected a consequential methodological error:
+absence of a quoted selected genitive, derivative, grade or compound
+had sometimes been treated as absence of relevant reconstruction evidence.
+All61 original negative assessments were individually reconsidered;
+28 became explicitly qualified family/component positives. The33 retained
+negatives distinguish missing families, unrelated homonyms and
+connections not established in this source. They do not assert that an
+unestablished family connection is scientifically impossible.
+
+Several corrected cases show why this matters. The drink/drench family
+provides *drinkan-*, causative *drankjan-* and the u-grade noun *drunki-*;
+none is an authored quotation of CAPR's a-grade drenc noun. The wart/callus
+entry supplies masculine *warza-* with OE *wearr*, not an expanded
+weak-noun *wartōn*. The competing consonants, gender, stem and daughter
+citations remain evidence rather than being normalized into agreement
+[@Kroonen2013, pp.100,103,105,575].
+
+Rainbow has separate rain and bow evidence, *regna-* and *bugan-*;
+world has *wira-* and the age/old family, including *aldi-* and
+*aldra-*. Linking those entries to the selected compounds does not
+attribute an assembled compound or its chosen ending to Kroonen.
+Similarly, the wounded adjective *wunda-* and wound noun *wundō-*
+are relevant to the wound/suffering family without quoting CAPR's
+weak-verb past *wúndōdē*. Exact compound, formation and cell agreement
+must therefore be assessed separately from positive evidence coverage
+[@Kroonen2013, pp.20-21,82,408,588,599].
+
+Cell and historical stage remain independent even within a positive
+family review. The man entry's *mannaniz* and contracted *manniz*
+are plural forms, not quotations of a PGmc genitive chosen to explain
+OE *mannes*. The liver discussion's explicitly Proto-Norse locative
+*leurini* is not a PGmc selected case form. Hue's incidental Nordic
+comparison *hīwa-* retains its long ī and derivational context;
+it is not silently substituted for the entry's *heuja-* headword
+or CAPR's adopted input [@Kroonen2013, pp.224,336,353-354].
+
+Adder provides an independently checked pagination and formation control.
+The masculine *nadra-* entry is printed p.381; the feminine *nēdrōn-*
+entry and incidental masculine *nēdra-* are printed p.386.
+The former's West-European antecedent is transcribed
+*nh̥₁tr-ó-*, preserving the printed syllabicity mark under h.
+Neither the masculine formation nor a typographic normalization supplies
+an alternative selected feminine whole word automatically. The lexical
+model now cites both original folios; CAPR's corpus choice is unchanged
+[@Kroonen2013, pp.381,386].
+
+Orel remains incomplete. This one-source closeout does not yet provide
+the completed two-dictionary comparison, still less the all-source
+status quaestionis or an approved reconstruction-selection policy.
+The remaining Orel reviews must be assessed by the same family, cell,
+stage and attribution controls before the core comparison is closed.
+
 ## Unfinished scope
 
 Every data point and included source must receive an accountable review.
-The initial evidence does not establish source-wide conventions, a
-general normalization/selection policy, an opinio communis for all
-conditioned classes, or the complete set of production corrections.
+The verified core-dictionary conventions do not establish those of the
+remaining sources, a general normalization/selection policy, an opinio
+communis for all conditioned classes, or the complete set of production corrections.
 Those conclusions belong to the finished commentary and consolidated
 decision packet. The generated ledger deliberately labels unchecked
 coverage and current, unendorsed CAPR choices.

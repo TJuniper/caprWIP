@@ -75,15 +75,32 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
   Check load-bearing forms against the PDF.
   The older `kluge_seebold_etymologisches_woerterbuch.txt` identifies the
   **24th edition (2002)** and is retained as a separate legacy holding,
-  not the text or pagination authority for `KlugeSeebold2011`.
+  catalogued as `KlugeSeebold2002`, not the text or pagination authority
+  for `KlugeSeebold2011`. No matching older PDF or reliable printed-page
+  map has been established; different editions are not independent votes.
+
+- `mayrhofer_ewaia_A-DH.vision.txt`, `mayrhofer_ewaia_N-H.vision.txt`,
+  `mayrhofer_ewaia_III.vision.txt` and their original PDFs
+  Manfred Mayrhofer, *Etymologisches Wörterbuch des Altindoarischen*,
+  volumes I (1992), II (1996) and III (2001).
+  Volume III's scan appends F. B. J. Kuiper's *The New 'Mayrhofer'*,
+  *Indo-Iranian Journal* 34 (1991), pp.105-120, on sheets998-1013
+  (`Kuiper1991`). Attribute this article separately; it is not dictionary
+  prose by Mayrhofer or a review of the completed three-volume work.
 
 ## Old English / Germanic lexica
 
 - `aconciseanglosa01hallgoog.txt`  
   Hall, *A Concise Anglo-Saxon Dictionary* (2nd ed.).
 
-- `anglosaxondictio00tolluoft.txt`  
-  Bosworth-Toller (dictionary + supplement scans combined).
+- `bosworth_toller_anglo_saxon_dictionary.vision.txt` / `.pdf`
+  T. Northcote Toller, *An Anglo-Saxon Dictionary: Supplement*
+  (first edition 1921; held scan records reprints 1955 and 1966;
+  `Toller1921`). The original title and preface identify the supplement,
+  not the main dictionary or combined volumes. The plain `.txt` and
+  `legacy/anglosaxondictio00tolluoft.txt` also identify the supplement.
+  The former `BosworthToller1898` file association is withdrawn; old
+  citations are not thereby reverified against either edition.
 
 - `anglosaxonoldeng00wrig.txt`  
   Thomas Wright, *Anglo-Saxon and Old English Vocabularies*, second
@@ -98,8 +115,24 @@ This file lists OCRed reference texts in `docs/references/` with quick hints for
 ## Old English primers and readers
 
 - `sweet_anglo_saxon_primer.txt` / `.pdf`  
-  Sweet, *An Anglo-Saxon Primer* (Oxford University Press).  
+  Henry Sweet, *An Anglo-Saxon Primer* (seventh edition, Clarendon Press,
+  1893; `Sweet1893`), as the held title identifies.
+  This is not Norman Davis's ninth-edition 1953 revision (`Sweet1953`).
   Introductory grammar with notes and glossary. ~7,000 lines.
+
+- `neri_review_ringe_pie_to_pgmc.txt` / `.pdf`
+  Sergio Neri's review of Ringe's 2006 first edition, numbered1-12.
+  The detached holding does not establish publication venue/date; the
+  former Kratylos54(2009),156-160 association is unverified and withdrawn.
+  The adjacent opening of a Casaretto review is not part of this review.
+
+- `ringe_1984_germanic_e2_and_r.vision.txt` / `.pdf`
+  Donald A. Ringe Jr., *Germanic 'e₂' and \*r*, catalogued as
+  *Die Sprache*30(1984), pp.138-155, corroborated by the held Stiles
+  bibliography. The14-sheet local scan ends at printed151, whose
+  conclusion/author byline is visible; the remaining publication pages
+  are not established as held. The former Linguistic Inquiry association
+  was wrong. OCR corrupts vowel signs; consult the original.
 
 - `bright_anglo_saxon_reader.txt` / `.pdf`  
   Bright, *An Anglo-Saxon Reader* (4th ed., 1917; held June 1926 printing,

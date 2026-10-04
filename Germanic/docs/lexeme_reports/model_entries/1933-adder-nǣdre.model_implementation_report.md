@@ -50,6 +50,22 @@ Checked against `docs/refs.bib`:
   `[@Kroonen2013, 426]`, `[@Orel2003, 325]`, and
   `[@ClarkHall1960, 225; @Fulk2018, 149]`.
 
+### Reconstruction-survey supersession
+
+The original-page survey corrects the pilot's Orel locator: PDF sheet325
+is printed286, not printed325. The current model and source ledger now cite
+Orel2003 p.286 and preserve the feminine alternatives *nēđrōn and *nađrōn
+separately from the related masculine *nađraz. The older locator above
+records the pilot's assertion, not a successfully verified printed folio.
+This repair changes no corpus field, selected input or sound law; the other
+pilot locators are not reverified by this Orel correction.
+
+The independent Kroonen survey subsequently verifies printed386 on
+sheet426. Its original-page reading confirms the feminine *nēdrōn-*
+headword and a distinct incidental masculine *nēdra-* formation.
+The current model/source ledger use386; the pilot's426 remains a
+historical locator assertion, not a printed folio.
+
 ## Scope confirmation
 
 - No TSV, FST, manifest, packet, memo, bibliography file, derivation trace, writing-skill file, pilot report, or existing model entry was changed.

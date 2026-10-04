@@ -787,7 +787,7 @@
 | `*dura-` | Germanic/docs/lexeme_reports/model_entries/1992-door-dor.model.md:21 | notation or compound expression |
 | `*dúrą > dor` | Germanic/docs/lexeme_reports/model_entries/1992-door-dor.model.md:29 | notation or compound expression |
 | `*durō-` | Germanic/docs/lexeme_reports/model_entries/1992-door-dor.model.md:21 | notation or compound expression |
-| `-e` | Germanic/docs/lexeme_reports/model_entries/1933-adder-nǣdre.model.md:39 | notation or compound expression |
+| `-e` | Germanic/docs/lexeme_reports/model_entries/1933-adder-nǣdre.model.md:40 | notation or compound expression |
 | `-e` | Germanic/docs/lexeme_reports/model_entries/2013-fire-fȳre.model.md:35 | notation or compound expression |
 | `-e` | Germanic/docs/lexeme_reports/model_entries/2013-fire-fȳre.model.md:48 | notation or compound expression |
 | `-e` | Germanic/docs/lexeme_reports/model_entries/2152-rest-ræste.model.md:46 | notation or compound expression |
