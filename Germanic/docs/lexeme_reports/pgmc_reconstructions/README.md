@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4242 evidence records,1377 actual consultations and4346
-analytical positions, with402 comparisons and100 rationales. The RT
+There are4269 evidence records,1379 actual consultations and4377
+analytical positions, with404 comparisons and113 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Forty-nine core rows now have individually reconciled, bounded alignment:
-1933-1981. The remaining344 are unreviewed. The second tranche builds on
+Fifty-seven core rows now have individually reconciled, bounded alignment:
+1933-1989. The remaining336 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -254,6 +254,41 @@ reported alternative [@RingeTaylor2014, pp.127-128; @Orel2003, pp.215-216].
 The commentary records craft's dictionary-page and selected-input-stage
 questions without changing the model or selecting a new history
 [@Orel2003, p.220; @Kroonen2013, p.300].
+
+The seventh tranche reconciles all122 inherited positions for1982-1989:
+crop, cud, dale, day, deal, deed, deer and dew. Twenty-one literal
+occurrence receipts and six process records add27 evidence records;
+thirteen reasons and four focused positions reuse evidence. Seven proved
+SOURCE annotations and eleven applicability-manifest fields have amendment
+receipts, preserving both earlier screens as history:
+`alignment-1982-1989-amendments.tsv` and
+`alignment-1982-1989-occurrences.tsv`.
+Actual omitted consultations are now recorded for Fulk/cud and Ringe/deer;
+they are not393 invented negative reviews or a restarted book survey.
+
+`deal-root-derivation` distinguishes Orel's divide-root account with
+irregular initial from Kroonen's theoretical put-root account without
+direct IE formation parallels [@Orel2003, p.67; @Kroonen2013, p.87].
+`cud-e-cognate-admissibility` connects Ringe-Taylor's explicit exclusion of
+e-based external cognates to his northern-WGmc u-raising premise, contrasting
+Fulk's qualified possible gum/mastic example [@RingeTaylor2014, p.42;
+@Fulk2018, pp.57-59]. Both causal relations are bounded analyst inference,
+not direct rebuttal or adopted original histories.
+
+Fulk explicitly relates both an iu/i-formation and an eu citation to
+OE *dēor* 'beast'; his Finnish-loan claim must not be dismissed as an
+unrelated precious-beast etymon [@Fulk2018, pp.12,73,81].
+Ringe's independently quoted *diuriz* 'dear' is instead an i-stem
+adjective, not an animal noun by string identity [@Ringe2017, p.315].
+That formation/lexical-role bridge remains an exact research question.
+The separate day/deed paradigm cells, uncertain plurals, reported
+s-stem hypothesis, reconstructed OE intermediates, SEED comparator
+and conditional DO hypotheses are preserved
+[@Ringe2017, p.312; @Fulk2018, pp.129,177,253;
+@RingeTaylor2014, pp.114-115,212,239,287,519-520].
+The commentary retains non-adopting cud attestation/input and dew
+formation questions; scientific owners and released glide history remain
+unchanged.
 
 The alignment follow-up corrects eight proved RT extractor clips against
 their held paragraphs and preserves four genuinely corrupt native tokens

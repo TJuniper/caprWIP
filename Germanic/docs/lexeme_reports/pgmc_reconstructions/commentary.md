@@ -9,12 +9,12 @@ historical, not the current workload. The shorter introduction and
 new publication remain subsequent work.
 
 Current held-source reading covers the relevant three comparative accounts:
-191 Ringe,136 Fulk and255 Ringe-Taylor consultations, separately from
-393 applicability screens per source. The database contains4242 evidence
-records,1377 actual consultations,4346 positions,402 comparisons and100
+192 Ringe,137 Fulk and255 Ringe-Taylor consultations, separately from
+393 applicability screens per source. The database contains4269 evidence
+records,1379 actual consultations,4377 positions,404 comparisons and113
 rationales. The fully verified reading gate still refuses the named
 Ringe-Taylor convention/typography gap; full feature alignment and
-explanation remain ongoing:49 core rows are bounded and344 unreviewed.
+explanation remain ongoing:57 core rows are bounded and336 unreviewed.
 Earlier measurements below are checkpoint
 history, not current totals or an exhaustive-library workload.
 
@@ -864,16 +864,249 @@ not permission to change the model, sidecar, input or historical law.
 Recover an independently supported formation/cell and date before
 proposing a scientific correction.
 
+## Seventh all-source alignment tranche: crop through dew
+
+The completed1974-1981 tranche was released as `a5675485`. The next equal
+eight-row tranche1982-1989 reconciles all122 inherited positions: crop,
+cud, dale, day, deal, deed, deer and dew. Twenty-one literal occurrence
+receipts and six precisely scoped processes add27 records. Four focused
+positions reuse evidence; thirteen reasons distinguish source arguments
+from our explanatory inferences. There are153 tranche positions linked to
+149 distinct evidence records. Two genuine follow-up consultations bring
+the database to4269 evidence records,1379 consultations,4377 positions,
+404 comparisons and113 rationales. Fifty-seven core rows are bounded;
+336 remain unreviewed. Neither this count nor the focused comparisons
+certifies settled whole-row historical causes.
+
+### Crop: unexplained gemination, a tentative family and membership
+
+Orel's *kruppaz* 'crop' covers sprout/bunch and crop/craw homonyms that he
+expressly identifies. He calls the gemination unaccountable. Kroonen's
+*kruppa-* 'compact object' is only tentatively related to the nasal
+iterative family *krupp/bōn-*; its alternating geminates and proposed
+derivation supply a possible account, not a certified noun ancestry
+[@Orel2003, pp.221-222; @Kroonen2013, p.307].
+The inherited assertion that Kroonen excludes the craw/throat homonym
+was unsupported and is removed with an annotation receipt. Orel's
+*kreupanan* 'creep' remains a compared verb, not another selected noun.
+
+Ringe evaluates support for a general nasal-conditioned Germanic
+stop-gemination law as inadequate, considering externally supported
+nasal formations and the distribution across stem classes. His
+*kroppaz* 'lump, hump' is expressly PNWGmc
+[@Ringe2017, pp.138-139]. That assessment cannot be presented as a
+direct reply to Kroonen's particular crop derivation. Three independent
+questions remain: noun-family identity, gemination history, and earlier
+membership/vocalism. Ringe's *o* is not silently mapped to dictionary
+*u*, nor is his later endpoint promoted to PGmc.
+
+### Cud: a phonological premise changes which cognates are admissible
+
+The source units already differ. Kroonen's resin homonym2 is a masculine
+u-stem, separate from his utterance homonym1. Orel has a feminine
+*kweđwō(n)* formation. The attested noun is neuter, and its quoted
+variants and inflected cells do not themselves supply the current
+bare-e target *cwedu* [@Kroonen2013, pp.315-316; @Orel2003, p.227;
+@ClarkHall1960, p.69; @RingeTaylor2014, pp.42,323].
+The parenthesized n and the independently quoted suffix shorthand
+remain visible; no complete alternative word is assembled from them.
+
+The important new comparison is not another unattributed e/i inventory.
+Ringe-Taylor says that the noun could originally have been a u-stem,
+that only its OHG counterpart is a certain cognate, and that doubtful
+non-WGmc cognates prevent assurance of its early membership. Footnote2
+specifically rejects proposed external cognates assuming original *e*,
+because northern WGmc had no raising of *e* before following *u*
+[@RingeTaylor2014, p.42]. This is an explicit sound-history premise
+governing lexical admissibility, not a categorical proof that cud was
+absent from PGmc.
+
+Fulk includes the gum/mastic comparison with PIE *getu-* among possible
+u-conditioned raising examples. He supplies the OE mastic compound
+and inflected evidence, but explicitly qualifies the status of the
+process: PGmc u-conditioning is not widely credited, secure evidence
+is mainly continental West Germanic, and the northern examples remain
+possible ones [@Fulk2018, pp.57-59]. His example cannot become either
+a certain universal PGmc raising law or a quoted complete PGmc cud noun.
+The exact held-text antecedent is retained without repairing its
+consonant notation into an assumed modern reconstruction.
+
+The focused `cud-e-cognate-admissibility` case links the opposed
+admissibility judgments to this phonological premise as analyst inference.
+The sources state their respective arguments; they do not directly
+rebut each other in these passages. Independent cognate identity and
+the date/domain of raising remain necessary to establish an original
+history [@RingeTaylor2014, p.42; @Fulk2018, pp.57-59].
+The initial Fulk screening limit is preserved as history, alongside the
+new actual consultation, rather than rewritten as author silence.
+
+Nordic quantity is a separate dispute. Orel says the long vowel seems
+secondary; Kroonen reports an Armenian dairy-produce comparison which
+would give ē a PIE background. The latter is conditional, not an
+established long-vowel ancestry for every resin/dairy derivative
+[@Orel2003, p.227; @Kroonen2013, pp.315-316].
+Birch sap, viscous udder fluid and the heifer-inspection verb remain
+different formations.
+
+Later reflexes cannot resolve those earlier premises by themselves.
+Ringe-Taylor's explicitly PWGmc *kwidu* precedes OE *cwidu*, rounded
+*cwudu*, and w-less *cudu*, with all three remaining current; late WS
+*cweodu* has ordinary back umlaut. His chronological discussion also
+distinguishes the glossary evidence and the relative dates of the
+rounding/normal-back-umlaut phenomena
+[@RingeTaylor2014, pp.320,323].
+The newly quoted GEN.SG *cwidwes* is another cell
+[@RingeTaylor2014, p.42].
+Neither PWGmc *i* nor late *eo* attests bare-e *cwedu* or proves a
+realized PGmc *i* citation.
+
+The non-adopting watchlist therefore retains row1983's actual fields:
+citation *kwíθuz*, input *kwéðuz*, explicit input stage `pgmc` and target
+*cwedu*. Establish selected-cell attestation, the citation/input relation
+and original formation separately before proposing any change. The
+survey does not repair those scientific fields to favor either argument.
+
+### Dale and day: gender alternatives are not paradigm equivalence
+
+Orel gives masculine *đalaz* and neuter *đalan* 'dale'. Kroonen's
+masculine *dala-* heading includes a neuter OE reflex. Their Greek and
+Slavic comparisons require lexical/formation checking, not merely a
+shared broad landscape gloss [@Orel2003, p.67; @Kroonen2013, pp.87-88].
+No grammar consultation is manufactured for dale. The actual dictionary
+alternatives remain useful gender/formation evidence without proving
+dated whole-word equivalence.
+
+Day has genuine reconstructed paradigms. Ringe's separate PGmc
+nominative, genitive and dative are not one selected cell. Ringe-Taylor's
+PWGmc table likewise separates nominative/accusative singular, genitive,
+dative, instrumental and plural cells; its questioned nominative and
+accusative plurals remain conditional. His palatal argument independently
+labels the PGmc genitive/dative before the PWGmc and fronted forms
+[@Ringe2017, p.312; @RingeTaylor2014, pp.114,212].
+Those explicit labels correct two stage annotations, without inferring
+a date from vowel appearance.
+
+Fulk reports an earlier s-stem proposal and objects to the lack of
+external quantitative root ablaut. His treatment of the often
+reconstructed plural under an older final-s/z-loss hypothesis is qualified;
+the starless index plural is not an independently endorsed certain
+endpoint [@Fulk2018, pp.129,177,386].
+Kroonen's full-day r/n family argument must not become a blanket rejection
+of every day s-stem hypothesis [@Kroonen2013, pp.86-87,96].
+The selected day nominative remains distinct from the key/day dative
+diagnostic in the already released palatal account.
+
+### Deal: competing root derivations with explicit evidential costs
+
+Orel derives the deal family from a divide-root comparison while
+acknowledging an irregular initial. Kroonen offers a theoretical derivation
+from the put root, explicitly without direct IE formation parallels
+[@Orel2003, p.67; @Kroonen2013, p.87].
+These are genuinely competing analytical premises, not merely the
+same root presented in different symbols.
+
+The focused `deal-root-derivation` comparison records that opposition
+as bounded analyst inference. It does not pretend that either author
+directly answers the other's account. Kroonen's incidental *daili-*
+i-stem, his thematic *daila-* portion noun and his *dailjan-* divide
+verb remain distinct [@Kroonen2013, p.87].
+Ringe's noun/denominative pair is not independently dated solely by
+its derivational heading [@Ringe2017, p.284].
+Fulk explicitly labels his citation PGmc but illustrates Frisian mutation,
+not the selected OE attestation [@Fulk2018, p.65].
+Ringe-Taylor's separately labelled PGmc/PWGmc stages preserve the
+mutation trigger before loss; native unmarked quantities are not
+restored from CAPR's target [@RingeTaylor2014, pp.234,287].
+Original formation and direct comparative support remain the load-bearing
+questions, not the success of the current transducer.
+
+### Deed: root quantity, suffix stress and identical cells
+
+The ti-formation discussion separates a full-grade root from oxytone
+accent inferred from the voiced Verner alternant. Fulk's explicitly
+segmented *dē-ðí-* is a stem, not a whole nominative
+[@Ringe2017, pp.58,90,121; @Fulk2018, p.253].
+Root length and suffix stress are separate features; CAPR's stressed
+citation is not substituted for the author's accent placement.
+
+Ringe's identically written *dēdīz* genitive singular and nominative
+plural have separate occurrence receipts. Ringe-Taylor's several
+identical PWGmc *dadi* cells likewise remain distinct, including his
+uncertain accusative plural [@Ringe2017, p.312;
+@RingeTaylor2014, p.115].
+His later deed chains distinguish PGmc, PNWGmc, PWGmc, reconstructed
+OE intermediates and attested endpoints. The literal corruption in
+`*dé&di` is retained; the actual local label is OE, not an invented
+pre-OE date. The SEED forms in the same discussion are comparanda,
+not alternate deed stems [@RingeTaylor2014, pp.12,149,239,287].
+
+Fulk's Nordic transfer to the ō-class is an author's analogical account,
+not an adopted grammar-conditioned CAPR sound law
+[@Fulk2018, pp.162-163].
+Ringe-Taylor's DO-participle revision is expressly qualified; its expected
+and remodeled preforms and default finite past stem are not deed noun
+citations. The deed comparator remains endorsed even when the adjacent
+DO explanation is conditional [@RingeTaylor2014, pp.519-520].
+Original paradigm and formation evidence, rather than proximity within
+a paragraph, governs attribution.
+
+### Deer: preserve an intra-author tension, not a convenient homonym
+
+The animal noun has eu citations in Orel, Kroonen and Ringe-Taylor.
+The latter explicitly explains final *r* by leveling from inflected
+forms [@Orel2003, pp.71-72; @Kroonen2013, pp.94-95;
+@RingeTaylor2014, p.174].
+Fulk also explicitly derives OE *dēor* 'beast' from a PGmc eu citation
+[@Fulk2018, p.73].
+
+But Fulk twice prints PGmc *diuriz* as the antecedent of Finnish *tiuris*
+'beast' and OE *dēor*. His second occurrence uses retained *i* in that
+loan, alongside Runic and daughter-language evidence, against an early
+general loss of unstressed high vowels after heavy stems
+[@Fulk2018, pp.12,81].
+The inherited index annotation's unrelated precious-beast dismissal
+was therefore wrong. Its verified starless glyphs and undated index
+status remain intact; the newly quoted body claims have their own
+explicit PGmc stage and text-only verification.
+
+Ringe's *diuriz* 'dear' is explicitly an i-stem adjective in a discussion
+of *ni/ri* formations. It is not an animal noun simply because its
+string matches Fulk's quoted form [@Ringe2017, p.315].
+The new real family consultation preserves that initial screen as history
+and distinguishes the adjective from Fulk's actual beast claim.
+One must explain the noun/adjective role, original formation and iu/eu
+bridge; one cannot suppress either Fulk passage or assume a typo to
+make the comparison easy [@Fulk2018, pp.12,73,81; @Ringe2017, p.315].
+No whole-word equivalence or resolved disagreement cause is claimed.
+
+### Dew: formation remains independent of the released glide account
+
+Kroonen's combined *dawwa/ō-* citation carries masculine/feminine
+alternatives; Orel's *đawwō* and *đawwan* have feminine/neuter
+headword genders. Both include the masculine OE reflex
+[@Kroonen2013, p.91; @Orel2003, p.70].
+The slash does not name one selected ending. Their smoke/dust/haze
+comparisons need not be competing etymologies merely because the
+comparative glosses differ.
+
+Ringe's *mildēaw* 'honeydew' occurs in an argument about the honey
+component, not an independent reconstructed dew paradigm
+[@Ringe2017, pp.311-312].
+The row's selected *dáwwō* and OE *dēaw* remain unchanged. Original
+gender/formation and the cited endpoint require separate justification;
+that reporting question does not reopen the already released ww,
+apocope or English-realization decisions.
+
 ## Completed Ringe and Fulk readings: distinctions the alignment must preserve
 
 The relevant Ringe pass now includes the development discussion84-240,
 the PGmc system241-329, necessary earlier morphological cross-references
-and the complete Germanic/OE index screen. Its191 actual consultations
+and the complete Germanic/OE index screen. Its192 actual consultations
 remain distinct from393 applicability dispositions. The Fulk pass covers
 the relevant method, phonology, nominal and verbal morphology, selected
 pronouns/numerals and the complete lexical index376-420; it yields135
 actual consultations at extraction closeout, not393 lexical quotations;
-the actual strong-present follow-up brings Fulk's total to136. The row-specific
+the actual strong-present and cud follow-ups bring Fulk's total to137. The row-specific
 applicability manifests preserve excluded leads and topical-only readings
 without turning them into negative lexical reviews.
 

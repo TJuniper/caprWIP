@@ -998,6 +998,109 @@ comparisons and all88 inherited rationales. The tranche is complete,
 uncommitted; the393-row programme, aggregate class census and explanatory
 closeout remain incomplete.
 
+### Seventh alignment tranche:1982-1989
+
+Identity: the completed sixth tranche was released as
+`a56754851905495831313cf04537d1247581a337` on update; origin/update was
+verified identical. This next equal tranche covers crop, cud, dale,
+day, deal, deed, deer and dew. It is held-source research, not an
+SC adjudication or authorization to alter scientific selections.
+
+Question: do the apparent differences reduce to notation/citation units,
+or do complete arguments expose independently testable formation,
+vocalism, cognate-admissibility and membership disagreements?
+Shared words or successful OE output cannot settle that question.
+
+Before edits:4242 evidence records,1377 consultations,4346 positions,
+402 comparisons,100 reasons and49 bounded core rows. The eight new rows
+contained122 inherited positions. Cud retained *kwíθuz* citation,
+*kwéðuz* input, explicit pgmc input stage and *cwedu* target; deer retained
+*déuzą* and *dēor*; dew retained *dáwwō* and *dēaw*. These fields and all
+scientific owners remain unchanged.
+
+Diagnosis: every one of the122 inherited positions has an individual
+cell/relation/attribution decision. Twenty-one literal receipts and six
+processes add27 evidence records. Four focused positions reuse evidence;
+thirteen reasons retain source-explicit support versus analyst-inferred
+divergence. Seven SOURCE annotations and eleven applicability fields have
+old/new amendment receipts. Actual supplementary Fulk/cud and Ringe/deer
+consultations replace neither original screen with a fictional negative.
+No firing census, private assay, Foma rebuild or executable chronology
+test is relevant to this research-only disposition.
+
+Literature: complete relevant dictionary entries and grammar arguments,
+including load-bearing cross-references, are read with printed folios.
+Crop contrasts unexplained gemination, a tentative iterative connection
+and explicit PNWGmc membership [@Orel2003, pp.221-222;
+@Kroonen2013, p.307; @Ringe2017, pp.138-139].
+Cud's e-based cognate admissibility depends on a northern u-raising
+premise; Fulk retains possible evidence without endorsing a certain
+shared-PGmc law [@RingeTaylor2014, pp.42,320,323;
+@Fulk2018, pp.57-59]. Nordic long-vowel origin and noun formation are
+separate questions [@Orel2003, p.227; @Kroonen2013, pp.315-316].
+Dale preserves actual gender alternatives
+[@Orel2003, p.67; @Kroonen2013, pp.87-88].
+Day/deed preserve separate paradigm cells, uncertain plurals, suffix
+stress, reported proposals and reconstructed OE intermediates
+[@Ringe2017, pp.58,90,121,312; @Fulk2018, pp.129,162-163,177,253;
+@RingeTaylor2014, pp.114-115,212,239,287,519-520].
+Deal compares divide-root versus theoretical put-root premises
+[@Orel2003, p.67; @Kroonen2013, p.87].
+Fulk's actual beast iu/i-formation and eu citations must both survive;
+Ringe's dear adjective is comparative evidence, not an established
+animal-family member [@Fulk2018, pp.12,73,81; @Ringe2017, p.315].
+Dew formation and honeydew's first-component argument do not reopen
+released glide science [@Orel2003, p.70; @Kroonen2013, p.91;
+@Ringe2017, pp.311-312].
+
+Historical analysis: neither dictionary context nor source confidence
+assigns an explicit endpoint. RT's day genitive/dative are explicitly
+PGmc; its deed intermediates are locally labelled reconstructed OE,
+not invented pre-OE forms. Conditional DO preforms, SEED comparanda
+and the endorsed deed endpoint remain separate
+[@RingeTaylor2014, pp.212,239,287,519-520].
+The focused deal and cud explanations connect declared premises by
+analyst inference, not direct author rebuttal. All eight whole-row
+causes remain unestablished. No chronology edge, ancestral allocation,
+source winner or production input is selected.
+
+Verdict: individually bounded research alignment, not a canonical SC
+verdict. Fifty-seven core rows are now bounded and336 unreviewed.
+Current totals:4269 forms,1379 consultations,4377 positions,
+404 comparisons and113 reasons. The tranche has153 positions linked
+to149 distinct evidence records. Cud target/citation/input and deer
+formation/trigger/iu-eu compatibility remain exact unanswered premises,
+not normalization shortcuts.
+
+Propagation: the five research SOURCE relations, two amended applicability
+manifests, occurrence/amendment receipts, page-cited commentary/README and
+this existing template-complete audit are updated. Focused controls cover
+all member links, actual consultations, source dates, uncertain plurals,
+identical cells, lexical roles, qualifications and exact source spans.
+Closeout: all146 focused survey/analysis tests pass after the final
+dear-adjective comparandum correction and deterministic-query regression.
+Repeated read-only queries reproduce57 bounded/336 unreviewed rows,
+153 tranche positions/149 evidence records, two-source analyst-inferred
+focused explanations and eight unestablished whole-row causes. They retain
+cud's conditioning versus later-rounding premises, Fulk's separate deer
+iu/eu citations, Ringe's dear adjective and deed's identical but distinct
+genitive/plural cells. Actual Ringe/Fulk/RT consultations are192/137/255.
+The independent alignment gate refuses336; the composite alignment and
+fully verified three-source gates first refuse the separate RT conventions
+holding gap. Neither limitation is weakened.
+
+Canonical refresh reports CONTROL PLANE CLEAN; bibliography, section-locator
+and whitespace checks pass. All46 protected scientific hashes and all4242
+inherited diplomatic-field sets are unchanged; exactly seven receipted
+SOURCE annotation amendments are admitted. All4224 unaffected positions,
+394 unaffected comparisons and100 inherited reasons are unchanged.
+Initial count-expectation failures and an invalid applicability disposition
+were corrected before this successful final run; no failed run is counted
+as passing. The executed one-use candidate must not be rerun.
+This tranche is complete and uncommitted; no new introduction, PDF or
+release is included. The full393-row alignment and aggregate synthesis
+remain incomplete.
+
 ## Residue
 
 The prioritized explanatory audit, full feature/paradigm alignment of
