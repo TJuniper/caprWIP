@@ -9,12 +9,13 @@ historical, not the current workload. The shorter introduction and
 new publication remain subsequent work.
 
 Current held-source reading covers the relevant three comparative accounts:
-191 Ringe,135 Fulk and255 Ringe-Taylor consultations, separately from
-393 applicability screens per source. The database contains4163 evidence
-records,1376 actual consultations,4257 positions,397 comparisons and66
+191 Ringe,136 Fulk and255 Ringe-Taylor consultations, separately from
+393 applicability screens per source. The database contains4242 evidence
+records,1377 actual consultations,4346 positions,402 comparisons and100
 rationales. The fully verified reading gate still refuses the named
 Ringe-Taylor convention/typography gap; full feature alignment and
-explanation remain ongoing. Earlier measurements below are checkpoint
+explanation remain ongoing:49 core rows are bounded and344 unreviewed.
+Earlier measurements below are checkpoint
 history, not current totals or an exhaustive-library workload.
 
 The approved stage requires the complete relevant Ringe/Fulk/
@@ -653,6 +654,215 @@ Independent donor chronology, the older paradigm and the
 gemination analysis are the remaining discriminating premises.
 No source counting, input migration or sound-law adoption follows
 from this research.
+
+## Sixth reconciled tranche: cognate admission, ancestral paradigms and selected cells
+
+The next eight rows are burst, calf, chew, climb, comb, corn, cow and
+craft. All100 inherited positions have individual unit, attribution
+and feature decisions. Twenty-four exact literal occurrences and three
+process records supplement existing consultations; twelve reasons and
+four focused positions reuse evidence. Current totals are4242 evidence
+records,1377 consultations,4346 positions,402 comparisons and100 reasons.
+Forty-nine core rows are bounded, with344 still unreviewed. This is
+neither completion of the393-row programme nor scientific adoption.
+All4215 inherited diplomatic/comparison strings, pages, verification,
+confidence, kinds and row links are preserved.
+
+### Calf: admitted cognates and rejected phonological predictions
+
+Orel admits the Sanskrit, Avestan and Greek womb comparisons despite an
+initial-consonant discrepancy. His *kalbaz* heading is masculine/neuter;
+the older s-stem proposal in its bibliography does not turn every
+bibliographical statement into his own reconstruction
+[@Orel2003, p.209].
+Kroonen reconstructs a neuter s-stem with singular *kalbaz* and plural
+*kalbizō*, but explicitly rejects the Greek womb connection on two
+grounds. Greek initial labiovelars normally lose labialization in words
+with labials, making the Greek initial probably PIE *d*, not a
+labiovelar. Conversely, Germanic labiovelars retain their labialization
+before *o*: the implied preform predicts counterfactual `**kwalbiz-`,
+not the actual calf stem [@Kroonen2013, p.278].
+The double-starred prediction is an objection, not a second adopted
+headword, and its diplomatic signs are not silently regularized.
+
+This is a useful focused opposition in admitted cognates, not merely
+another difference in citation endings. The database's causal link is
+analyst inference from the explicit arguments: Orel does not reply to
+Kroonen's later two objections, and Kroonen does not directly name Orel
+as his opponent. Independent confirmation of the Greek initial and
+Germanic labiovelar premises remains necessary before preferring an
+etymology [@Orel2003, p.209; @Kroonen2013, p.278].
+The opposition is specifically about the shared Greek connection;
+it is not proof that all the Indo-European comparisons admitted by
+Orel are rejected together.
+
+The same row also exposes a false morphological shortcut. Kroonen's
+singular *kalbaz*, Ringe's strong *kalbaz* versus oblique *kalbiz-*,
+and RT's explicitly neuter z-stem supply a genuine singular *-az*
+without a masculine a-stem inference. The selected input's spelling
+alone cannot decide gender or stem class
+[@Kroonen2013, p.278; @Ringe2017, pp.310-311;
+@RingeTaylor2014, pp.205,231].
+West Saxon *cealf* and Anglian mutated singulars are distinct histories,
+not interchangeable endpoint quotations
+[@Fulk2018, pp.176-178; @RingeTaylor2014, pp.205,231].
+
+Fulk's neuter daughter a-stem inflection has plural *cealfru*,
+genitive *cealfra* and dative *cealfrum*. His Mercian singular *cælf*
+and plural *calfur* are individually retained. Genitive singular
+*calfur* in the following argument is a separate occurrence and
+cell, as is the identically written plural in the critical footnote
+[@Fulk2018, pp.176-178].
+RT likewise gives genitive *calfur* and plural *calfur ~ calferu*
+separately. Its suggested *-izu > -uzu* history is conditional,
+while an unattested *-iz ~ -uz-* paradigm without a PIE source is
+rejected, not reconstructed as certain PGmc
+[@RingeTaylor2014, pp.385-386].
+
+Fulk calls Bammesberger's rhotacism/syncope/parasiting explanation the
+likeliest, yet gives specific objections, including the Mercian plural
+ending evidence. RT doubts the levelling sequences and wonders about
+father analogy without recovering a mechanism
+[@Fulk2018, pp.177-178; @RingeTaylor2014, pp.385-386].
+The full Anglian paradigm remains unexplained. Recording preference,
+objection and uncertainty is more informative than either forcing
+author agreement or calling the identical strings the same cell.
+
+### Cow: original formation is not the selected dative
+
+Kroonen joins original nominative *kōz* and oblique *kū-* in an
+ablauting PIE u-stem derived from the graze/pasture root
+[@Kroonen2013, p.299].
+Ringe instead describes an acrostatic bovine noun, northern *kū-*
+and southern *kwō-*, with no trace of the expected default stem.
+Southern accusative generalization is possible; the northern stem's
+source remains unclear. A pre-PGmc sound-change sequence is conditional
+and has only this example, while the reported sow analogy is tentative,
+though Ringe finds it plausible [@Ringe2017, p.223].
+These different formation/paradigm premises constitute a focused,
+analyst-inferred competing account, not direct author rebuttal or a
+resolved choice of input.
+
+Fulk's probable final stressed *wō > ū* explanation remains another
+qualified account, with competing paradigm and analogical explanations
+explicitly reported. His shared both/cow evidence is preserved: it
+does not become a separately dated whole cow dative merely because
+both's selected form is discussed nearby [@Fulk2018, pp.72,223].
+Author suggestions about analogy are recorded faithfully without
+implementing grammatical sound-law conditioning.
+
+The selected *cȳ* is DAT.SG. Kroonen's quoted plural is therefore
+not the selected cell; the obsolete research annotations calling it
+a selected mutated plural are corrected, not the corpus.
+RT's nominative final-*z* example, with native *kiaz*, *kuz* and
+*ci*, is kept distinct from its later hiatus/contraction discussion
+[@Kroonen2013, p.299; @RingeTaylor2014, pp.86,318].
+In that latter passage, literal *cy* from `*cui` serves both DAT.SG
+and NOM.-ACC.PL. *cum* is DAT.PL, and *ca* apparently GEN.SG.
+The source's dual assignment is retained, but only DAT.SG matches
+this selected row. The neighboring wizard *drui* and fire *fuir*
+are comparanda, not cow reconstructions
+[@RingeTaylor2014, p.318].
+Native unmarked quantities and corrupt *ctum/ctiz* remain unchanged;
+the desired target does not authorize restoration. The exact dated
+full input *kūi* and original paradigm remain separate evidential
+questions.
+
+### Chew and climb: consonant histories, reported proposals and membership
+
+Chew's *ww* citations do not license merging every proposed origin.
+Orel's *kjujja-* is a provisional Nordic precursor, not his adopted
+OE infinitive. Kroonen explains Nordic initial *t* by dissimilation
+against a palatalized labiovelar geminate and rejects a required extra
+*j*, adducing the regular Nordic geminate development and Elfdalian
+vowel [@Orel2003, p.213; @Kroonen2013, pp.286-287].
+Ringe's complete strong-II principal parts preserve optional *w*
+in the default past independently of the present. He says the general
+geminate origin remains unclear, but only chew among the proposed
+*wH* etyma can actually be shown to have ended in a laryngeal
+[@Ringe2017, pp.109,268].
+The relation between Orel's particular precursor and Kroonen's
+rejection of required added *j* needs its own conditioning premise.
+No released glide rule is reopened by this source comparison.
+
+Climb's combined *klimb/pan-* heading preserves real alternatives:
+unsuffixed *mb*, *mm* from *mbn*, and *mp* through Kluge's law.
+Its climb meaning is secondary to clasp/clamp
+[@Kroonen2013, p.293].
+Orel's adopted *klembanan* has *e*, whereas the nasalized
+*klībanan* proposal belongs to the cited Onions, not a second adopted
+headword. The related *klabōn* formation is not the selected verb
+[@Orel2003, pp.215-216].
+Fulk's qualified infix example is in the continuation footnote on
+printed248, following the main present-formation discussion
+[@Fulk2018, pp.246-248].
+Those consonant/formation histories do not automatically explain
+the dictionary *e/i* contrast.
+
+RT consciously reconstructs climb and other isolated WGmc vocabulary
+only to PWGmc, while acknowledging that incomplete Gothic/Norse
+attestation may conceal older inheritance. Its starred OE infinitive
+and PWGmc citation are not proofs of a complete PGmc word
+[@RingeTaylor2014, pp.127-128].
+This is a substantive methodological limit, not source silence
+counted as a vote against the earlier reconstruction.
+
+### Burst, comb and corn: protect units before inventing disagreement
+
+Burst's dictionary and Ringe citations retain *e*. Ringe distinguishes
+the remodelled class-III *u*-grade from the present; RT distinguishes
+metathesis and actual OE principal parts
+[@Orel2003, p.56; @Kroonen2013, pp.75-76;
+@Ringe2017, pp.253-254; @RingeTaylor2014, pp.341,347].
+The native table token *Ih* labels the neighboring feolan subgroup,
+not a burst word. It remains as extraction history, analytically
+excluded from lexical comparison; no presumed glyph is restored
+[@RingeTaylor2014, p.347].
+Orel's Old Irish connection versus Kroonen's tentative treatment
+remains a qualified etymological question, not an inferred vowel law
+[@Orel2003, p.56; @Kroonen2013, pp.75-76].
+
+Comb's tooth/peg comparisons concern the noun. Kroonen's factitive
+*kambjan-* and Fulk's *cemban* discussion concern another formation
+[@Orel2003, p.209; @Kroonen2013, p.279;
+@Ringe2017, pp.108,119,171; @Fulk2018, p.247].
+RT's *a-kamb-* is a PWGmc coarse-flax/tow derivative, its *kambaz*
+an explicitly labelled PGmc comb comparator, and its *akamba*
+explicitly pre-OE. They cannot all be counted as selected *camb*
+citations [@RingeTaylor2014, pp.144,202].
+
+Corn's three actually consulted sources retain *u* in their noun
+citations, while stem/full-word endings and accents remain separate.
+Kroonen's *no*-formation and Ringe's neuter crushed/ground
+verbal-adjective antecedent concern formation, not a contradictory
+realized citation vowel. The diminutive is another formation
+[@Orel2003, p.225; @Kroonen2013, p.312; @Ringe2017, p.119].
+No Fulk or RT consultation is fabricated to turn absence from this
+row's roster into negative evidence.
+
+### Craft: a non-adopting input and reporting watchlist
+
+Orel gives masculine *kraftiz ~ kraftuz*, notes continental feminine
+reflexes, and derives the noun from an uncertain-origin demand verb.
+Kroonen gives a *tu*-stem only possibly connected with the separately
+headed stative *krabēn-* [@Orel2003, p.220;
+@Kroonen2013, p.300].
+The *fj* and *b/ē* verb formations are not silently normalized
+together, nor does either dictionary supply the selected full
+*kraftaz*. The different certainty of the family links is independent
+of endorsement of the noun headings.
+
+Current research row1981 retains citation *kráftiz*, input *kráftaz*,
+explicit input stage `pgmc` and `early_analogy`. The lexical model,
+however, describes the input as pre-Old-English and motivates it
+through output contrasts. Those contrasts do not independently date
+an a-stem-shaped input. The model also cites Kroonen340 and Orel259;
+the relevant printed entries are300 and220, corresponding here to
+holding sheets340 and259 [@Kroonen2013, p.300; @Orel2003, p.220].
+This is an exact citation-locator and input-stage/prose watchlist,
+not permission to change the model, sidecar, input or historical law.
+Recover an independently supported formation/cell and date before
+proposing a scientific correction.
 
 ## Completed Ringe and Fulk readings: distinctions the alignment must preserve
 

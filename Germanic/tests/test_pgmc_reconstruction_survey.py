@@ -909,9 +909,9 @@ class ReadingScopeTests(unittest.TestCase):
                 self.assertTrue(case["alignment_limits"])
         self.assertEqual(sum(row["scope"] == "core_triage" and
                              row["alignment_status"] == "bounded_limit"
-                             for row in tables["comparisons"]), 41)
+                             for row in tables["comparisons"]), 49)
         self.assertEqual(len(reviews), 1377)
-        with self.assertRaisesRegex(survey.analytical.AnalysisError, "352"):
+        with self.assertRaisesRegex(survey.analytical.AnalysisError, "344"):
             survey.analytical.require_alignment_complete(corpus, tables["comparisons"])
 
     def test_both_neuter_does_not_absorb_other_genders_three_or_two(self):
@@ -1227,6 +1227,215 @@ class ReadingScopeTests(unittest.TestCase):
         amendments = survey.read_table(survey.ROOT / survey.DIRECTORY /
                                       "reading_accountability/alignment-1966-1973-amendments.tsv")
         self.assertEqual(len(amendments), 9)
+        for amendment in amendments:
+            self.assertEqual(evidence[amendment["evidence_id"]][amendment["field"]],
+                             amendment["new_value"])
+
+    def test_sixth_tranche_aligns_all_positions_and_preserves_actual_reviews(self):
+        corpus, _, forms, reviews = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        cases = {c["comparison_id"]: c for c in tables["comparisons"]}
+        members = [p for p in tables["analyses"] if p["row_id"] in set(map(str, range(1974, 1982)))]
+        self.assertEqual(len(members), 131)
+        self.assertEqual(len(reviews), 1377)
+        for row_id in map(str, range(1974, 1982)):
+            positions = [p for p in members if p["row_id"] == row_id]
+            case = cases["core-" + row_id]
+            with self.subTest(row_id=row_id):
+                self.assertEqual(case["alignment_status"], "bounded_limit")
+                self.assertEqual(case["explanation_status"], "unestablished")
+                self.assertEqual(set(survey.ids(case["analysis_ids"])),
+                                 {p["analysis_id"] for p in positions})
+                self.assertEqual(set(survey.ids(case["alignment_evidence_ids"])),
+                                 {p["evidence_id"] for p in positions})
+                self.assertTrue(all(p["status"] == "reviewed"
+                                    and p["attribution_status"] != "unclear" for p in positions))
+                self.assertTrue(case["alignment_limits"])
+
+    def test_calf_az_singular_does_not_infer_masculine_a_stem(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "1975"}
+        for eid in ("kroonen-core-1975-2", "ringe-complete-calf-a", "rt-complete-1975-001"):
+            self.assertEqual(positions[eid]["relation_to_row"], "selected_cell")
+            self.assertEqual(survey.analytical.feature_values(positions[eid])["gender"], "neuter")
+            self.assertEqual(positions[eid]["analytical_form"], "*kalbaz")
+        self.assertEqual(positions["kroonen-core-1975-3"]["relation_to_row"],
+                         "same_etymon_other_cell")
+        self.assertEqual(positions["rt-complete-1975-023"]["attribution_status"], "rejected")
+        self.assertEqual(positions["rt-complete-1975-024"]["attribution_status"], "conditional")
+        self.assertEqual(positions["rt-complete-1975-025"]["attribution_status"], "conditional")
+        self.assertEqual(positions["rt-complete-1975-020"]["relation_to_row"], "comparandum")
+        self.assertIn("egg", survey.analytical.feature_values(positions["rt-complete-1975-020"])["cell"])
+
+    def test_identical_calf_genitive_plural_forms_keep_distinct_cells_and_occurrences(self):
+        _, _, forms, _ = survey.load()
+        evidence = {f["evidence_id"]: f for f in forms}
+        for genitive, plural in (
+            ("alignment-calf-merc-genitive", "alignment-calf-merc-plural-note"),
+            ("alignment-calf-rt-genitive", "alignment-calf-rt-plural"),
+        ):
+            self.assertEqual(evidence[genitive]["diplomatic_form"], "calfur")
+            self.assertEqual(evidence[plural]["diplomatic_form"], "calfur")
+            self.assertIn("GEN.SG", evidence[genitive]["cell"])
+            self.assertIn("NOM.-ACC.PL", evidence[plural]["cell"])
+        receipts = {r["evidence_id"]: r for r in survey.read_table(
+            survey.ROOT / survey.DIRECTORY / "reading_accountability/alignment-1974-1981-occurrences.tsv")}
+        genitive = receipts["alignment-calf-rt-genitive"]
+        plural = receipts["alignment-calf-rt-plural"]
+        self.assertEqual(genitive["paragraph_sha256"], plural["paragraph_sha256"])
+        self.assertNotEqual(genitive["start_char"], plural["start_char"])
+        self.assertEqual((receipts["alignment-calf-merc-genitive"]["printed_pages"],
+                          receipts["alignment-calf-merc-plural-note"]["printed_pages"]),
+                         ("177", "178"))
+
+    def test_calf_cognate_opposition_is_bounded_and_counterfactual_not_adopted(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        case = next(c for c in tables["comparisons"]
+                    if c["comparison_id"] == "calf-greek-cognate-admissibility")
+        reason = next(r for r in tables["rationales"] if r["rationale_id"] == "r-calf-greek-premises")
+        self.assertEqual((case["comparability"], case["explanation_status"]),
+                         ("substantive_difference", "analyst_inference"))
+        self.assertEqual((reason["basis_type"], reason["reason_target"], reason["support_mode"]),
+                         ("reflex_set", "divergence_explanation", "analyst_inference"))
+        self.assertIn("not a direct rebuttal", case["conclusion"])
+        self.assertFalse(any(f["diplomatic_form"] == "**kwalbiz-" for f in forms))
+        process = next(f for f in forms if f["evidence_id"] == "alignment-calf-greek-rejection")
+        self.assertEqual(process["printed_pages"], "278")
+        self.assertIn("counterfactual **kwalbiz-", process["argument"])
+        self.assertIn("probably PIE d", process["argument"])
+        self.assertIn("before o", process["argument"])
+
+    def test_chew_principal_parts_and_native_quantity_are_not_collapsed(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        evidence = {f["evidence_id"]: f for f in forms}
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "1976"}
+        for eid, literal in (
+            ("alignment-chew-pgmc-inf", "*kewwaną"),
+            ("alignment-chew-pgmc-past-sg", "*kaww"),
+            ("alignment-chew-pgmc-past-pl", "*ku(w)un"),
+            ("alignment-chew-pgmc-ptc", "*kuwanaz"),
+        ):
+            self.assertEqual((evidence[eid]["diplomatic_form"], evidence[eid]["printed_pages"]),
+                             (literal, "268"))
+            self.assertEqual(positions[eid]["stage_interpretation"], "pgmc")
+        self.assertEqual(positions["orel-core-1976-2"]["attribution_status"], "conditional")
+        self.assertEqual(positions["alignment-chew-oe-inf"]["relation_to_row"], "selected_cell")
+        self.assertEqual(positions["rt-complete-1976-001"]["analytical_form"], "*kewwang")
+        self.assertEqual(positions["rt-complete-1976-004"]["analytical_form"], "céowan")
+        self.assertEqual(positions["rt-complete-1976-002"]["stage_interpretation"], "pwgmc")
+
+    def test_climb_reported_proposal_and_explicit_membership_limit_are_independent(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        evidence = {f["evidence_id"]: f for f in forms}
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "1977"}
+        self.assertEqual(evidence["orel-core-1977-3"]["quoted_author"], "Onions")
+        self.assertEqual(positions["orel-core-1977-3"]["attribution_status"], "reported")
+        self.assertEqual(positions["kroonen-core-1977-2"]["analytical_form"], "*klimb/pan-")
+        self.assertEqual(positions["rt-complete-1977-001"]["stage_interpretation"], "pwgmc")
+        self.assertEqual(positions["rt-complete-1977-002"]["stage_interpretation"], "oe")
+        method = next(r for r in tables["rationales"] if r["rationale_id"] == "r-1977-pwgmc-method")
+        self.assertEqual(method["basis_type"], "method")
+        self.assertIn("possible accidental Gothic/Norse gaps", method["statement"])
+
+    def test_comb_derivatives_burst_table_label_and_corn_consultations_stay_scoped(self):
+        corpus, _, forms, reviews = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        positions = {p["evidence_id"]: p for p in tables["analyses"]
+                     if p["row_id"] in {"1974", "1978"}}
+        self.assertEqual(positions["rt-complete-1974-002"]["analytical_form"], "*Ih")
+        self.assertEqual(positions["rt-complete-1974-002"]["relation_to_row"], "comparandum")
+        for eid in ("rt-complete-1978-004", "rt-complete-1978-006",
+                    "alignment-comb-factitive", "fulk-complete-index-comb-verb"):
+            self.assertEqual(positions[eid]["relation_to_row"], "same_family")
+        self.assertEqual(positions["rt-complete-1978-005"]["stage_interpretation"], "pgmc")
+        self.assertEqual(positions["rt-complete-1978-006"]["stage_interpretation"], "other")
+        preform = next(f for f in forms if f["evidence_id"] == "rt-complete-1978-006")
+        self.assertEqual(preform["asserted_stage"], "pre-OE")
+        self.assertEqual({r["source_key"] for r in reviews if r["row_id"] == "1979"},
+                         {"Orel2003", "Kroonen2013", "Ringe2017"})
+
+    def test_cow_selected_dative_dual_source_cell_and_origin_limits_are_preserved(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        cow = next(r for r in corpus if r["row_id"] == "1980")
+        self.assertEqual((cow["proto"], cow["protoform"], cow["target"], cow["derivation_class"]),
+                         ("*kōz", "*kūi", "cȳ", "late_analogy"))
+        evidence = {f["evidence_id"]: f for f in forms}
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "1980"}
+        for eid in ("rt-complete-1980-007", "alignment-cow-rt-dative"):
+            self.assertEqual(positions[eid]["relation_to_row"], "selected_cell")
+            cell = survey.analytical.feature_values(positions[eid])["cell"]
+            self.assertIn("DAT.SG", cell)
+            self.assertIn("NOM.-ACC.PL", cell)
+        self.assertEqual(positions["rt-complete-1980-003"]["relation_to_row"],
+                         "same_etymon_other_cell")
+        for eid in ("rt-complete-1980-005", "rt-complete-1980-006"):
+            self.assertEqual(positions[eid]["relation_to_row"], "comparandum")
+        for eid in ("rt-complete-1980-001", "rt-complete-1980-002", "rt-complete-1980-009"):
+            self.assertEqual(positions[eid]["attribution_status"], "conditional")
+        self.assertEqual(positions["ringe-complete-cow-u"]["stage_interpretation"], "unspecified")
+        for eid in ("kroonen-core-1980-1", "kroonen-core-1980-3"):
+            self.assertIn("DAT.SG", evidence[eid]["argument"])
+            self.assertNotIn("selected OE plural is", evidence[eid]["argument"])
+            self.assertNotIn("selected mutated plural is still", evidence[eid]["argument"])
+        case = next(c for c in tables["comparisons"] if c["comparison_id"] == "cow-original-formation")
+        self.assertEqual(case["explanation_status"], "analyst_inference")
+        self.assertEqual(set(survey.ids(evidence["fulk-complete-both-cow"]["row_ids"])),
+                         {"1958", "1980"})
+
+    def test_craft_dictionary_stems_do_not_supply_selected_input_or_normalized_verb(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        craft = next(r for r in corpus if r["row_id"] == "1981")
+        self.assertEqual((craft["proto"], craft["protoform"], craft["input_stage"], craft["derivation_class"]),
+                         ("*kráftiz", "*kráftaz", "pgmc", "early_analogy"))
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "1981"}
+        self.assertEqual(positions["alignment-craft-demand-stative"]["analytical_form"], "*krabēn-")
+        self.assertEqual(positions["orel-core-1981-3"]["analytical_form"], "*krafjanan")
+        self.assertEqual(positions["alignment-craft-demand-stative"]["relation_to_row"], "same_family")
+        self.assertFalse(any(p["relation_to_row"] == "selected_cell" for p in positions.values()))
+        case = next(c for c in tables["comparisons"] if c["comparison_id"] == "core-1981")
+        self.assertIn("stage", case["alignment_limits"])
+        self.assertIn("kraftaz", case["alignment_limits"])
+
+    def test_sixth_tranche_receipts_reproduce_literal_occurrences_and_annotations(self):
+        import hashlib
+        _, _, forms, _ = survey.load()
+        evidence = {f["evidence_id"]: f for f in forms}
+        receipts = survey.read_table(survey.ROOT / survey.DIRECTORY /
+                                    "reading_accountability/alignment-1974-1981-occurrences.tsv")
+        self.assertEqual(len(receipts), 24)
+        for receipt in receipts:
+            with self.subTest(evidence_id=receipt["evidence_id"]):
+                record = evidence[receipt["evidence_id"]]
+                text = (survey.ROOT / record["basis"]).read_text()
+                if receipt["holding_sheet"]:
+                    sheet = int(receipt["holding_sheet"])
+                    marker = (rf"### PAGE {sheet}\s*\n"
+                              if receipt["source_key"] == "RingeTaylor2014"
+                              else rf"=== page {sheet:03d} ===\s*\n")
+                    block = re.split(marker, text, maxsplit=1)[1]
+                    block = re.split(r"### PAGE \d+|=== page \d+ ===", block, maxsplit=1)[0]
+                    paragraph = [p.strip() for p in re.split(r"\n\s*\n", block)
+                                 if p.strip()][int(receipt["paragraph"]) - 1]
+                else:
+                    start = text.index(receipt["begin_anchor"])
+                    end = text.index(receipt["end_anchor"], start) + len(receipt["end_anchor"])
+                    paragraph = text[start:end]
+                self.assertEqual(paragraph, receipt["paragraph_text"])
+                self.assertEqual(hashlib.sha256(paragraph.encode()).hexdigest(),
+                                 receipt["paragraph_sha256"])
+                self.assertEqual(paragraph[int(receipt["start_char"]):int(receipt["end_char"])],
+                                 record["diplomatic_form"])
+                self.assertEqual(record["printed_pages"], receipt["printed_pages"])
+                self.assertEqual(record["verification"], "text_checked")
+        amendments = survey.read_table(survey.ROOT / survey.DIRECTORY /
+                                      "reading_accountability/alignment-1974-1981-amendments.tsv")
+        self.assertEqual(len(amendments), 12)
         for amendment in amendments:
             self.assertEqual(evidence[amendment["evidence_id"]][amendment["field"]],
                              amendment["new_value"])

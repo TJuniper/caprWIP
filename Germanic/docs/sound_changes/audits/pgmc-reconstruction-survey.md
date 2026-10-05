@@ -894,6 +894,110 @@ comparison strings, pages, verification, confidence, kinds and links.
 Unchanged output is not evidence choosing either formation or borrowing
 account. This tranche is complete; the393-row programme is not.
 
+### Sixth eight-row alignment:1974-1981
+
+Base/authorization: the fifth tranche was committed and pushed as
+ebec6f0f on update before this equal eight-row continuation. This new
+research is not an authorization to change scientific owners or to
+release the new tranche. Rows1974-1981 are burst, calf, chew, climb,
+comb, corn, cow and craft.
+
+Question: do superficially matching noun endings and apparent variant
+forms represent the same cell/history, and which actual premises explain
+the sources' differences? The evidence refutes a masculine-a-stem
+inference from calf's singular -az, a selected-plural label for cow,
+and the treatment of neighboring table/derivative/comparandum tokens
+as lexical reconstructions. No firing census, skip/displacement trial,
+new chronology edge or scientific verdict is appropriate for this
+research-only comparison.
+
+All100 inherited analytical positions are individually reconciled.
+Twenty-four primary literal receipts and three processes add27 records
+to existing consultations; twelve reasons and four focused positions
+reuse evidence. Twelve old/new SOURCE annotation receipts preserve the
+actual corrections. Current totals:4242 forms,1377 consultations,
+4346 positions,402 comparisons and100 rationales. Forty-nine core rows
+are bounded, with344 unreviewed.
+
+Calf's focused cognate case compares Orel's admitted Greek womb link
+with Kroonen's two explicit objections: Greek initial-labiovelar
+analysis and Germanic retention before o. The counterfactual
+double-starred prediction is not a second adopted reconstruction.
+The causal comparison is bounded analyst inference, not a direct
+author rebuttal or a rejection of all Orel's other external comparisons
+[@Orel2003, p.209; @Kroonen2013, p.278].
+Neuter s/z-stem singular kalbaz is real source evidence, not masculine
+a-stem proof. Mercian genitive calfur and identically spelled plural
+calfur have separate literal receipts. Fulk's preferred explanation
+retains objections; RT's iz/uz and levelling scenarios remain
+conditional or rejected as appropriate
+[@Kroonen2013, p.278; @Ringe2017, pp.310-311;
+@Fulk2018, pp.176-178; @RingeTaylor2014, pp.205,231,385-386].
+
+Cow's focused original-formation case contrasts Kroonen's u-stem/graze
+derivation with Ringe's acrostatic bovine account and unclear northern
+stem source; its explanatory relation is also analyst inference
+[@Kroonen2013, p.299; @Ringe2017, p.223].
+The selected cȳ remains DAT.SG. RT318's native cy covers DAT.SG and
+NOM.-ACC.PL, whereas its nominative final-z example is another cell.
+Wizard/fire are comparanda; ctum/ctiz and unmarked quantities are not
+restored from desired targets. Fulk's shared both/cow evidence and
+both's independently reconciled position remain intact
+[@RingeTaylor2014, pp.86,318; @Fulk2018, pp.72,223,388].
+
+Chew retains all PGmc/OE principal parts, optional w and the distinct
+Nordic precursor/dissimilation arguments. Ringe's general geminate
+uncertainty and chew-specific laryngeal pedigree remain separate
+[@Orel2003, p.213; @Kroonen2013, pp.286-287;
+@Ringe2017, pp.109,268; @RingeTaylor2014, p.173].
+Climb keeps literal b/p and distinct mb/mm/mp histories; Orel's
+nasalized proposal is attributed to Onions, Fulk's infix example is
+qualified and its note lies on printed248, and RT's explicit PWGmc-only
+method is not an assertion of impossible earlier inheritance
+[@Orel2003, pp.215-216; @Kroonen2013, p.293;
+@Fulk2018, pp.246-248; @RingeTaylor2014, pp.127-128].
+
+Burst's native Ih subgroup label belongs to feolan, not a burst word;
+its inherited form/kind is retained as extraction history. Comb's
+factitive verb and coarse-flax/tow derivative are different units,
+with akamba explicitly pre-OE. Corn's actual three-source roster is
+retained without invented Fulk/RT negative consultations
+[@RingeTaylor2014, pp.144,202,341,347;
+@Kroonen2013, pp.279,312; @Fulk2018, p.247;
+@Orel2003, pp.56,209,225; @Ringe2017, pp.119,253-254].
+
+Craft's i/u noun citations and possible stative demand link do not
+supply selected kraftaz. The commentary records its exact model
+watchlist: cited340/259 are holding sheets for printed300/220, and
+pre-Old-English input prose does not agree with the explicit pgmc
+sidecar. No model, sidecar, selected input, early_analogy classification
+or law is changed; output contrast is not independent historical dating
+[@Kroonen2013, p.300; @Orel2003, p.220].
+
+Propagation uses the SOURCE relations/receipts, README, substantial
+page-cited commentary and this existing template-complete audit.
+All137 focused tests pass. One initial new assertion matched the phrase
+"selected mutated plural" inside a correct negation; the test now
+rejects the actual old affirmative claims rather than requiring prose
+to omit the negative qualification. Bibliography/section-locator and
+patch-whitespace checks pass. Existing ResourceWarning is unrelated.
+Comparison with released HEAD preserves all4215 inherited records'
+diplomatic/comparison strings, pages, verification, confidence, kinds
+and row links; all46 protected scientific-owner hashes are unchanged.
+Canonical refresh reports CONTROL PLANE CLEAN. Repeated read-only queries
+reproduce49 bounded/344 unreviewed cases,131 tranche positions linked to127
+distinct evidence records, and two-source analyst-inferred focused
+explanations without promoting any of the eight whole-row causes.
+The selected cow query returns only the source dative/dual-cell cy and
+its undated cui antecedent; the calf query preserves separate
+genitive/plural receipts. The independent alignment gate refuses344;
+composite feature/verified-reading gates first refuse the separate RT
+conventions gap. Post-refresh comparison preserves all46 scientific
+hashes, all4215 unaffected inherited analytical positions,392 unaffected
+comparisons and all88 inherited rationales. The tranche is complete,
+uncommitted; the393-row programme, aggregate class census and explanatory
+closeout remain incomplete.
+
 ## Residue
 
 The prioritized explanatory audit, full feature/paradigm alignment of

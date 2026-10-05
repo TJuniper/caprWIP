@@ -40,14 +40,14 @@ row_id	status	comparison_ids	alignment_status	alignment_case_ids
 1971	reviewed	core-1971	bounded_limit	core-1971
 1972	reviewed	core-1972	bounded_limit	core-1972
 1973	reviewed	core-1973	bounded_limit	core-1973
-1974	reviewed	core-1974	unreviewed	
-1975	reviewed	core-1975	unreviewed	
-1976	reviewed	core-1976	unreviewed	
-1977	reviewed	core-1977	unreviewed	
-1978	reviewed	core-1978	unreviewed	
-1979	reviewed	core-1979	unreviewed	
-1980	reviewed	core-1980	unreviewed	
-1981	reviewed	core-1981	unreviewed	
+1974	reviewed	core-1974	bounded_limit	core-1974
+1975	reviewed	core-1975	bounded_limit	core-1975
+1976	reviewed	core-1976	bounded_limit	core-1976
+1977	reviewed	core-1977	bounded_limit	core-1977
+1978	reviewed	core-1978	bounded_limit	core-1978
+1979	reviewed	core-1979	bounded_limit	core-1979
+1980	reviewed	core-1980	bounded_limit	core-1980
+1981	reviewed	core-1981	bounded_limit	core-1981
 1982	reviewed	core-1982	unreviewed	
 1983	reviewed	core-1983	unreviewed	
 1984	reviewed	core-1984	unreviewed	

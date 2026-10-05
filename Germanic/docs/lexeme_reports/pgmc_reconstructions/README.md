@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4215 evidence records,1377 actual consultations and4315
-analytical positions, with400 comparisons and88 rationales. The RT
+There are4242 evidence records,1377 actual consultations and4346
+analytical positions, with402 comparisons and100 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Forty-one core rows now have individually reconciled, bounded alignment:
-1933-1973. The remaining352 are unreviewed. The second tranche builds on
+Forty-nine core rows now have individually reconciled, bounded alignment:
+1933-1981. The remaining344 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -222,6 +222,38 @@ Strong dictionary headings, reconstructed weak pasts, actual finite cells,
 PNWGmc plurals and pre-OE comparanda remain distinct. The commentary records
 non-adopting breast citation-page and breeches input-stage reporting questions;
 no model, corpus, stage sidecar, FST or scientific baseline is changed.
+
+The sixth tranche reconciles all100 inherited positions for1974-1981:
+burst, calf, chew, climb, comb, corn, cow and craft. Twenty-four literal
+occurrence receipts and three process records add27 evidence records to
+existing consultations; twelve reasons and four focused positions reuse
+evidence. Twelve proved reporting annotations are corrected without
+changing any inherited diplomatic/comparison string, page, verification,
+confidence, kind or shared-row link. Receipts:
+`alignment-1974-1981-amendments.tsv` and
+`alignment-1974-1981-occurrences.tsv`.
+
+`calf-greek-cognate-admissibility` contrasts Orel's admitted Greek womb
+comparison with Kroonen's two explicit phonological objections
+[@Orel2003, p.209; @Kroonen2013, p.278].
+`cow-original-formation` contrasts Kroonen's original u-stem/graze account
+with Ringe's acrostatic bovine account and unresolved northern stem
+[@Kroonen2013, p.299; @Ringe2017, p.223].
+Both explanatory relations are bounded analyst inference, not direct
+rebuttal or settled whole-row causes. Neuter calf's singular *-az* does
+not prove a masculine a-stem; identical Mercian genitive/plural *calfur*
+receipts remain separate [@Fulk2018, pp.176-178;
+@RingeTaylor2014, pp.205,231,385-386].
+Cow's selected *cȳ* remains DAT.SG, even though RT's literal *cy* also
+serves NOM.-ACC.PL [@RingeTaylor2014, p.318].
+RT's feolan subgroup label is not a burst word, oakum is not comb, and
+wizard/fire are not cow-family reconstructions
+[@RingeTaylor2014, pp.202,318,347].
+Climb preserves explicit PWGmc-only reconstructive restraint and Onions'
+reported alternative [@RingeTaylor2014, pp.127-128; @Orel2003, pp.215-216].
+The commentary records craft's dictionary-page and selected-input-stage
+questions without changing the model or selecting a new history
+[@Orel2003, p.220; @Kroonen2013, p.300].
 
 The alignment follow-up corrects eight proved RT extractor clips against
 their held paragraphs and preserves four genuinely corrupt native tokens
