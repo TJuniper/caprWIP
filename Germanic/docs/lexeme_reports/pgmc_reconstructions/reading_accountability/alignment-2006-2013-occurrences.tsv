@@ -1,0 +1,560 @@
+evidence_id	source_key	printed_pages	holding_sheet	paragraph	start_char	end_char	diplomatic_form	paragraph_sha256	paragraph_text	begin_anchor	end_anchor
+alignment-fee-ringe-genitive	Ringe2017	312			1454	1460	fehauz	2ab521d888c48f443967ac7c9bffabccfab94d5a01f0b522b2c55ac3c87a1040	".. (ii) Sample noun paradigms
+              day (m.)     army (m.)        herdsman (m.) yoke (n.)        gift (f.)
+   singular
+   nom.       dagaz        harjaz           hirdijaz       juką            gebō
+   voc.       dag          hari (?)         hirdī (?)      juką            gebō
+   acc.       dagą         harją            hirdiją        juką            gebǭ
+   gen.       dagas        harjas           hirdijas       jukas           gebōz
+   dat.       dagai        harjai           hirdijai       jukai           gebō- i (?)
+   inst.      dagō         harjō            hirdijō        jukō            gebō
+  plural
+  n.-v.       dagōziz?         harjōziz?    hirdijōziz?    jukō            gebō- z
+  acc.        daganz           harjanz      hirdijanz      jukō            gebōz
+  gen.        dagǭ̄            harjǭ̄       hirdijǭ̄       jukǭ̄           gebǭ̄
+  dat.        dagamaz          harjamaz     hirdijamaz     jukamaz         gebōmaz
+  inst.       dagamiz          harjamiz     hirdijamiz     jukamiz         gebōmiz
+              fetter (f.)      guest (m.)   deed (f.)      son (m.)        livestock (n.)
+  singular
+  nom.        bandī            gastiz       dēdiz          sunuz           fehu
+  voc.        bandī            gastī?       dēdī?          sunau           fehu
+  acc.        bandijǭ          gastį        dēdį           sunų            fehu
+  gen.        bandijōz         gastīz       dēdīz          sunauz          fehauz
+  dat.        bandijō- i (?)   gastī        dēdī           suniwi          fehiwi
+  inst.       bandijō          gastī        dēdī           sunū            fehū
+  plural
+  n.-v.       bandijō- z       gastīz       dēdīz          suniwiz
+  acc.        bandijōz         gastinz      dēdinz         sununz
+  gen.        bandijǭ̄         gastijǭ̄     dēdijǭ̄        suniwǭ̄
+  dat.        bandijōmaz       gastimaz     dēdimaz        sunumaz
+  inst.       bandijōmiz       gastimiz     dēdimiz        sunumiz
+              human (m.)       name (n.)    eye (n.)       tongue (f.)     height (f.)
+  sg. nom.    gumō-            namō-        ???            ???             ???
+      acc.    gumanų           namō-        ???            tungōnų         hauhīnų
+      gen.    guminiz          naminiz      auginiz        tungōniz        hauhīniz
+      dat.    gumini           namini       augini         tungōni         hauhīni
+      inst.   ???              ???          ???            ???             ???"	".. (ii) Sample noun paradigms
+              day (m.)     army (m.)        herdsman (m.) yoke (n.)        gift (f.)
+  "	"   augini         tungōni         hauhīni
+      inst.   ???              ???          ???            ???             ???"
+alignment-fee-ringe-dative	Ringe2017	312			1536	1542	fehiwi	2ab521d888c48f443967ac7c9bffabccfab94d5a01f0b522b2c55ac3c87a1040	".. (ii) Sample noun paradigms
+              day (m.)     army (m.)        herdsman (m.) yoke (n.)        gift (f.)
+   singular
+   nom.       dagaz        harjaz           hirdijaz       juką            gebō
+   voc.       dag          hari (?)         hirdī (?)      juką            gebō
+   acc.       dagą         harją            hirdiją        juką            gebǭ
+   gen.       dagas        harjas           hirdijas       jukas           gebōz
+   dat.       dagai        harjai           hirdijai       jukai           gebō- i (?)
+   inst.      dagō         harjō            hirdijō        jukō            gebō
+  plural
+  n.-v.       dagōziz?         harjōziz?    hirdijōziz?    jukō            gebō- z
+  acc.        daganz           harjanz      hirdijanz      jukō            gebōz
+  gen.        dagǭ̄            harjǭ̄       hirdijǭ̄       jukǭ̄           gebǭ̄
+  dat.        dagamaz          harjamaz     hirdijamaz     jukamaz         gebōmaz
+  inst.       dagamiz          harjamiz     hirdijamiz     jukamiz         gebōmiz
+              fetter (f.)      guest (m.)   deed (f.)      son (m.)        livestock (n.)
+  singular
+  nom.        bandī            gastiz       dēdiz          sunuz           fehu
+  voc.        bandī            gastī?       dēdī?          sunau           fehu
+  acc.        bandijǭ          gastį        dēdį           sunų            fehu
+  gen.        bandijōz         gastīz       dēdīz          sunauz          fehauz
+  dat.        bandijō- i (?)   gastī        dēdī           suniwi          fehiwi
+  inst.       bandijō          gastī        dēdī           sunū            fehū
+  plural
+  n.-v.       bandijō- z       gastīz       dēdīz          suniwiz
+  acc.        bandijōz         gastinz      dēdinz         sununz
+  gen.        bandijǭ̄         gastijǭ̄     dēdijǭ̄        suniwǭ̄
+  dat.        bandijōmaz       gastimaz     dēdimaz        sunumaz
+  inst.       bandijōmiz       gastimiz     dēdimiz        sunumiz
+              human (m.)       name (n.)    eye (n.)       tongue (f.)     height (f.)
+  sg. nom.    gumō-            namō-        ???            ???             ???
+      acc.    gumanų           namō-        ???            tungōnų         hauhīnų
+      gen.    guminiz          naminiz      auginiz        tungōniz        hauhīniz
+      dat.    gumini           namini       augini         tungōni         hauhīni
+      inst.   ???              ???          ???            ???             ???"	".. (ii) Sample noun paradigms
+              day (m.)     army (m.)        herdsman (m.) yoke (n.)        gift (f.)
+  "	"   augini         tungōni         hauhīni
+      inst.   ???              ???          ???            ???             ???"
+alignment-fee-ringe-instrumental	Ringe2017	312			1618	1622	fehū	2ab521d888c48f443967ac7c9bffabccfab94d5a01f0b522b2c55ac3c87a1040	".. (ii) Sample noun paradigms
+              day (m.)     army (m.)        herdsman (m.) yoke (n.)        gift (f.)
+   singular
+   nom.       dagaz        harjaz           hirdijaz       juką            gebō
+   voc.       dag          hari (?)         hirdī (?)      juką            gebō
+   acc.       dagą         harją            hirdiją        juką            gebǭ
+   gen.       dagas        harjas           hirdijas       jukas           gebōz
+   dat.       dagai        harjai           hirdijai       jukai           gebō- i (?)
+   inst.      dagō         harjō            hirdijō        jukō            gebō
+  plural
+  n.-v.       dagōziz?         harjōziz?    hirdijōziz?    jukō            gebō- z
+  acc.        daganz           harjanz      hirdijanz      jukō            gebōz
+  gen.        dagǭ̄            harjǭ̄       hirdijǭ̄       jukǭ̄           gebǭ̄
+  dat.        dagamaz          harjamaz     hirdijamaz     jukamaz         gebōmaz
+  inst.       dagamiz          harjamiz     hirdijamiz     jukamiz         gebōmiz
+              fetter (f.)      guest (m.)   deed (f.)      son (m.)        livestock (n.)
+  singular
+  nom.        bandī            gastiz       dēdiz          sunuz           fehu
+  voc.        bandī            gastī?       dēdī?          sunau           fehu
+  acc.        bandijǭ          gastį        dēdį           sunų            fehu
+  gen.        bandijōz         gastīz       dēdīz          sunauz          fehauz
+  dat.        bandijō- i (?)   gastī        dēdī           suniwi          fehiwi
+  inst.       bandijō          gastī        dēdī           sunū            fehū
+  plural
+  n.-v.       bandijō- z       gastīz       dēdīz          suniwiz
+  acc.        bandijōz         gastinz      dēdinz         sununz
+  gen.        bandijǭ̄         gastijǭ̄     dēdijǭ̄        suniwǭ̄
+  dat.        bandijōmaz       gastimaz     dēdimaz        sunumaz
+  inst.       bandijōmiz       gastimiz     dēdimiz        sunumiz
+              human (m.)       name (n.)    eye (n.)       tongue (f.)     height (f.)
+  sg. nom.    gumō-            namō-        ???            ???             ???
+      acc.    gumanų           namō-        ???            tungōnų         hauhīnų
+      gen.    guminiz          naminiz      auginiz        tungōniz        hauhīniz
+      dat.    gumini           namini       augini         tungōni         hauhīni
+      inst.   ???              ???          ???            ???             ???"	".. (ii) Sample noun paradigms
+              day (m.)     army (m.)        herdsman (m.) yoke (n.)        gift (f.)
+  "	"   augini         tungōni         hauhīni
+      inst.   ???              ???          ???            ???             ???"
+alignment-fee-rt-genitive	RingeTaylor2014	177	192	14	165	169	feos	e177e8d2b7cac5ab209e24f4c6bf9bd739c37dbdb8c4bc69799fc905fa13188e	"PGmce *fehu ‘cattle, property’ (Goth. faihu, ON fé, OS fehu, OHG fihu), gsg. *fehauz
+(ON fjdr) >— *feh,* gsg. *fehzes (cf. gsg. OS fehas, OHG fehes) > OE feoh, gsg.
+feos (OF fid, gsg. fid ~ fids);"		
+alignment-fell-fulk-pie-nasal	Fulk2018	113	130	1	2268	2277	*pelh₂-n-	1f0d5531b0e8e1c6303c78815daa8060c32750de047423961fce453cc5d1c91d	"§6.8 Geminates in Proto-Germanic 113
+Geminates that arose this way appear usually to have been simplified, for example 2 sg.
+pres. ind. *hes-si ‘are' > *esi > Skt. ási, Gk. ɛỉ.
+An exception is -tt-, which arose by the addition of a t-suffix to a form ending in
+t or d. The resulting tt is usually said to have developed to tst (or tt) in PIE. It is
+reflected as tt in Skt., ts > ss in Celtic, st in most other IE languages (including
+Avestan), but ss in Latin and Gmc., and in Gmc. it is degeminated to s after a long
+vowel, a diphthong, or a consonant. Examples: PIE *mit-to- > *mit³to- ‘mis-' in Go.
+missa-, Olcel. OE OS mis-, OHG missa-, missi- (OIr. mí-, mis(s)-; cf. OHG mīdan
+'avoid' <*mīpan- < *meit-on-); PIE *uid-tó-s (> *uittós) 'seen' in Skt. vittáḥ, Gk. ǎ-
+1σtos, Lat. vīsus (with analogical lengthening), OE OS wiss, OHG gi-wissi 'certain' (cf.
+the degemination in OE wise, OHG wīsa ‘manner' < *ueid-to-); PIE *sed-t- in Skt.
+sattáḥ 'seated', Lat. sessiō ‘session', Olcel. OE sess ‘seat'. Forms that arose early in
+PGmc. are treated similarly, e.g., to the pret.-pres. verb Go. wáit ‘knows' (etc.), pret.
+Go. OS OHG wissa, OIcel. vissa, OE wisse (beside wiste, with analogical re-addition of
+the dental suffix). Naturally, as the last example shows, irregularities created by this
+change are frequently removed on the basis of analogy, e.g., beside OIcel. hlass 'cart-
+load' (cf. hlaða ‘lade' < PIE *klḥ2-tó-), OE hlæst, OHG (h)last, with re-addition of the
+abstract-forming suffix seen in OE forst, frost 'frost' (cf. frēosan 'freeze') and cost
+'choice' (cf. cēosan ‘choose').¹ Similarly, PIE *ts yields Gmc. s(s), as in Greek and
+Latin. Examples: PIE *-bhudh- + -s-> PGmc. *-buts- > -bus- in Go. ana-busns
+'command' (cf. ana-biudan 'command' and -sn- in ga-rēhsns ‘appointed time' beside
+rahnjan 'count'); PIE *h,rudh- + -s-> PGmc. *rutsman-> OHG rosomo 'rust' (cf. Gk.
+Epɛv0os, Lat. rubor 'redness').
+There is a tendency in Gmc. for assimilation to occur in consonant groups
+containing a sonorant consonant, giving rise to new geminate sonorants ll, nn, mm, and
+perhaps rr:
+Gmc. II. Notably, *-In- yields -ll-, as in PIE *plh-nó- > PGmc. *ful-n-> Go.
+fulls, Olcel. fullr (etc.) 'full' (cf. Skt. pṛnáti ‘fills', with infixed n, Lat. plēnus ‘full');
+PIE *pelh₂-n- > PGmc. *fel-n- > Go. -fill (in þrūtsfill ‘leprosy'), Olcel. fjall, OE fell
+(etc.) 'hide' (cf. *pelḥ- > Gk. ñáλas ‘hide'); PIE *h₂ulh₂-n-eh₂ > PGmc. *wul-n- > Go.
+wulla, OE wull (etc.) 'wool' (cf. Skt. úrṇā, Lat. lāna 'wool'). Likewise, PGmc. *-ŏl-
+probably yields -ll-, and when *-ŏl- is the result of Verner's law, -ll- may be in variation
+with -pl- (Sievers 1895): PGmc. *staðlaz > OE steall (etc.) 'position': *staþulaz > OE
+staðol (etc.) 'foundation'; PGmc. *waðlō- > OE weallian, OHG wallōn ‘wander' :
+*wap(u)l- in OE wadol 'wandering', OHG wadal 'migration'. Perhaps also there is a
+change of PGmc. *-zl- to -ll- (Kluge 1882: 521-5; cf. *-zn-, *-zm- below): PGmc.
+*knuzlijana"" > OIcel. knylla 'beat', OE cnyllan ‘toll', MHG knüllen ‘beat' : *knusjana""
+> OE cnyssan, OHG knussen ‘strike'; PGmc. *xruz-l-> Olcel. hrolla ‘shudder':
+*xreusana"" > Olcel. hrjósa 'shudder'.
+Gmc. nn. PIE *-nu- develops to Gmc. -nn-, as in PGmc. *punw-> Olcel. þunnr,
+but ja-stems OE þynne, OHG dunni ‘thin' (cf. Lat. tenuis, with full grade); PGmc.
+* *manw- > Go. manna, OE OS OHG man(n) ‘person' (cf. Skt. mánu- ‘person'). Verbs
+with an n-infix are a notable source: PGmc. *brinwana"" > Go. OS OHG brinnan, Olcel.
+brinna, OE beornan, birnan 'burn' (cf. Lat. ferveō 'boil, seethe', without infix); PGmc.
+*rinwana"" > Go. OE OS OHG rinnan ‘run' (cf. Skt. ṛṇóti, ṛṇváti ‘moves'). Go. kunnan,
+OIcel. kunna, etc. 'know' perhaps shows a geminate as the result of infixation of n in a
+stem already containing n, assuming PIE *gn-n-h₁- (so Pokorny 1959–69: I, 376; cf.
+§6.3 supra). PGmc. *-zn- also develops to -nn-, though never in Gothic: PGmc. *raznan"		
+alignment-fell-fulk-germanic-nasal	Fulk2018	113	130	1	2286	2293	*fel-n-	1f0d5531b0e8e1c6303c78815daa8060c32750de047423961fce453cc5d1c91d	"§6.8 Geminates in Proto-Germanic 113
+Geminates that arose this way appear usually to have been simplified, for example 2 sg.
+pres. ind. *hes-si ‘are' > *esi > Skt. ási, Gk. ɛỉ.
+An exception is -tt-, which arose by the addition of a t-suffix to a form ending in
+t or d. The resulting tt is usually said to have developed to tst (or tt) in PIE. It is
+reflected as tt in Skt., ts > ss in Celtic, st in most other IE languages (including
+Avestan), but ss in Latin and Gmc., and in Gmc. it is degeminated to s after a long
+vowel, a diphthong, or a consonant. Examples: PIE *mit-to- > *mit³to- ‘mis-' in Go.
+missa-, Olcel. OE OS mis-, OHG missa-, missi- (OIr. mí-, mis(s)-; cf. OHG mīdan
+'avoid' <*mīpan- < *meit-on-); PIE *uid-tó-s (> *uittós) 'seen' in Skt. vittáḥ, Gk. ǎ-
+1σtos, Lat. vīsus (with analogical lengthening), OE OS wiss, OHG gi-wissi 'certain' (cf.
+the degemination in OE wise, OHG wīsa ‘manner' < *ueid-to-); PIE *sed-t- in Skt.
+sattáḥ 'seated', Lat. sessiō ‘session', Olcel. OE sess ‘seat'. Forms that arose early in
+PGmc. are treated similarly, e.g., to the pret.-pres. verb Go. wáit ‘knows' (etc.), pret.
+Go. OS OHG wissa, OIcel. vissa, OE wisse (beside wiste, with analogical re-addition of
+the dental suffix). Naturally, as the last example shows, irregularities created by this
+change are frequently removed on the basis of analogy, e.g., beside OIcel. hlass 'cart-
+load' (cf. hlaða ‘lade' < PIE *klḥ2-tó-), OE hlæst, OHG (h)last, with re-addition of the
+abstract-forming suffix seen in OE forst, frost 'frost' (cf. frēosan 'freeze') and cost
+'choice' (cf. cēosan ‘choose').¹ Similarly, PIE *ts yields Gmc. s(s), as in Greek and
+Latin. Examples: PIE *-bhudh- + -s-> PGmc. *-buts- > -bus- in Go. ana-busns
+'command' (cf. ana-biudan 'command' and -sn- in ga-rēhsns ‘appointed time' beside
+rahnjan 'count'); PIE *h,rudh- + -s-> PGmc. *rutsman-> OHG rosomo 'rust' (cf. Gk.
+Epɛv0os, Lat. rubor 'redness').
+There is a tendency in Gmc. for assimilation to occur in consonant groups
+containing a sonorant consonant, giving rise to new geminate sonorants ll, nn, mm, and
+perhaps rr:
+Gmc. II. Notably, *-In- yields -ll-, as in PIE *plh-nó- > PGmc. *ful-n-> Go.
+fulls, Olcel. fullr (etc.) 'full' (cf. Skt. pṛnáti ‘fills', with infixed n, Lat. plēnus ‘full');
+PIE *pelh₂-n- > PGmc. *fel-n- > Go. -fill (in þrūtsfill ‘leprosy'), Olcel. fjall, OE fell
+(etc.) 'hide' (cf. *pelḥ- > Gk. ñáλas ‘hide'); PIE *h₂ulh₂-n-eh₂ > PGmc. *wul-n- > Go.
+wulla, OE wull (etc.) 'wool' (cf. Skt. úrṇā, Lat. lāna 'wool'). Likewise, PGmc. *-ŏl-
+probably yields -ll-, and when *-ŏl- is the result of Verner's law, -ll- may be in variation
+with -pl- (Sievers 1895): PGmc. *staðlaz > OE steall (etc.) 'position': *staþulaz > OE
+staðol (etc.) 'foundation'; PGmc. *waðlō- > OE weallian, OHG wallōn ‘wander' :
+*wap(u)l- in OE wadol 'wandering', OHG wadal 'migration'. Perhaps also there is a
+change of PGmc. *-zl- to -ll- (Kluge 1882: 521-5; cf. *-zn-, *-zm- below): PGmc.
+*knuzlijana"" > OIcel. knylla 'beat', OE cnyllan ‘toll', MHG knüllen ‘beat' : *knusjana""
+> OE cnyssan, OHG knussen ‘strike'; PGmc. *xruz-l-> Olcel. hrolla ‘shudder':
+*xreusana"" > Olcel. hrjósa 'shudder'.
+Gmc. nn. PIE *-nu- develops to Gmc. -nn-, as in PGmc. *punw-> Olcel. þunnr,
+but ja-stems OE þynne, OHG dunni ‘thin' (cf. Lat. tenuis, with full grade); PGmc.
+* *manw- > Go. manna, OE OS OHG man(n) ‘person' (cf. Skt. mánu- ‘person'). Verbs
+with an n-infix are a notable source: PGmc. *brinwana"" > Go. OS OHG brinnan, Olcel.
+brinna, OE beornan, birnan 'burn' (cf. Lat. ferveō 'boil, seethe', without infix); PGmc.
+*rinwana"" > Go. OE OS OHG rinnan ‘run' (cf. Skt. ṛṇóti, ṛṇváti ‘moves'). Go. kunnan,
+OIcel. kunna, etc. 'know' perhaps shows a geminate as the result of infixation of n in a
+stem already containing n, assuming PIE *gn-n-h₁- (so Pokorny 1959–69: I, 376; cf.
+§6.3 supra). PGmc. *-zn- also develops to -nn-, though never in Gothic: PGmc. *raznan"		
+alignment-fell-fulk-oe	Fulk2018	113	130	1	2349	2353	fell	1f0d5531b0e8e1c6303c78815daa8060c32750de047423961fce453cc5d1c91d	"§6.8 Geminates in Proto-Germanic 113
+Geminates that arose this way appear usually to have been simplified, for example 2 sg.
+pres. ind. *hes-si ‘are' > *esi > Skt. ási, Gk. ɛỉ.
+An exception is -tt-, which arose by the addition of a t-suffix to a form ending in
+t or d. The resulting tt is usually said to have developed to tst (or tt) in PIE. It is
+reflected as tt in Skt., ts > ss in Celtic, st in most other IE languages (including
+Avestan), but ss in Latin and Gmc., and in Gmc. it is degeminated to s after a long
+vowel, a diphthong, or a consonant. Examples: PIE *mit-to- > *mit³to- ‘mis-' in Go.
+missa-, Olcel. OE OS mis-, OHG missa-, missi- (OIr. mí-, mis(s)-; cf. OHG mīdan
+'avoid' <*mīpan- < *meit-on-); PIE *uid-tó-s (> *uittós) 'seen' in Skt. vittáḥ, Gk. ǎ-
+1σtos, Lat. vīsus (with analogical lengthening), OE OS wiss, OHG gi-wissi 'certain' (cf.
+the degemination in OE wise, OHG wīsa ‘manner' < *ueid-to-); PIE *sed-t- in Skt.
+sattáḥ 'seated', Lat. sessiō ‘session', Olcel. OE sess ‘seat'. Forms that arose early in
+PGmc. are treated similarly, e.g., to the pret.-pres. verb Go. wáit ‘knows' (etc.), pret.
+Go. OS OHG wissa, OIcel. vissa, OE wisse (beside wiste, with analogical re-addition of
+the dental suffix). Naturally, as the last example shows, irregularities created by this
+change are frequently removed on the basis of analogy, e.g., beside OIcel. hlass 'cart-
+load' (cf. hlaða ‘lade' < PIE *klḥ2-tó-), OE hlæst, OHG (h)last, with re-addition of the
+abstract-forming suffix seen in OE forst, frost 'frost' (cf. frēosan 'freeze') and cost
+'choice' (cf. cēosan ‘choose').¹ Similarly, PIE *ts yields Gmc. s(s), as in Greek and
+Latin. Examples: PIE *-bhudh- + -s-> PGmc. *-buts- > -bus- in Go. ana-busns
+'command' (cf. ana-biudan 'command' and -sn- in ga-rēhsns ‘appointed time' beside
+rahnjan 'count'); PIE *h,rudh- + -s-> PGmc. *rutsman-> OHG rosomo 'rust' (cf. Gk.
+Epɛv0os, Lat. rubor 'redness').
+There is a tendency in Gmc. for assimilation to occur in consonant groups
+containing a sonorant consonant, giving rise to new geminate sonorants ll, nn, mm, and
+perhaps rr:
+Gmc. II. Notably, *-In- yields -ll-, as in PIE *plh-nó- > PGmc. *ful-n-> Go.
+fulls, Olcel. fullr (etc.) 'full' (cf. Skt. pṛnáti ‘fills', with infixed n, Lat. plēnus ‘full');
+PIE *pelh₂-n- > PGmc. *fel-n- > Go. -fill (in þrūtsfill ‘leprosy'), Olcel. fjall, OE fell
+(etc.) 'hide' (cf. *pelḥ- > Gk. ñáλas ‘hide'); PIE *h₂ulh₂-n-eh₂ > PGmc. *wul-n- > Go.
+wulla, OE wull (etc.) 'wool' (cf. Skt. úrṇā, Lat. lāna 'wool'). Likewise, PGmc. *-ŏl-
+probably yields -ll-, and when *-ŏl- is the result of Verner's law, -ll- may be in variation
+with -pl- (Sievers 1895): PGmc. *staðlaz > OE steall (etc.) 'position': *staþulaz > OE
+staðol (etc.) 'foundation'; PGmc. *waðlō- > OE weallian, OHG wallōn ‘wander' :
+*wap(u)l- in OE wadol 'wandering', OHG wadal 'migration'. Perhaps also there is a
+change of PGmc. *-zl- to -ll- (Kluge 1882: 521-5; cf. *-zn-, *-zm- below): PGmc.
+*knuzlijana"" > OIcel. knylla 'beat', OE cnyllan ‘toll', MHG knüllen ‘beat' : *knusjana""
+> OE cnyssan, OHG knussen ‘strike'; PGmc. *xruz-l-> Olcel. hrolla ‘shudder':
+*xreusana"" > Olcel. hrjósa 'shudder'.
+Gmc. nn. PIE *-nu- develops to Gmc. -nn-, as in PGmc. *punw-> Olcel. þunnr,
+but ja-stems OE þynne, OHG dunni ‘thin' (cf. Lat. tenuis, with full grade); PGmc.
+* *manw- > Go. manna, OE OS OHG man(n) ‘person' (cf. Skt. mánu- ‘person'). Verbs
+with an n-infix are a notable source: PGmc. *brinwana"" > Go. OS OHG brinnan, Olcel.
+brinna, OE beornan, birnan 'burn' (cf. Lat. ferveō 'boil, seethe', without infix); PGmc.
+*rinwana"" > Go. OE OS OHG rinnan ‘run' (cf. Skt. ṛṇóti, ṛṇváti ‘moves'). Go. kunnan,
+OIcel. kunna, etc. 'know' perhaps shows a geminate as the result of infixation of n in a
+stem already containing n, assuming PIE *gn-n-h₁- (so Pokorny 1959–69: I, 376; cf.
+§6.3 supra). PGmc. *-zn- also develops to -nn-, though never in Gothic: PGmc. *raznan"		
+alignment-field-kroonen-preform	Kroonen2013	135	175	1	2489	2499	*pélth2-0-	c16834eafd4335655b71f14228e3f69e00849038eab46637178f5568bc1cb049	"*felhan-
+135
+fars 'side, flank' < IIr. *pārćua- cannot be maintained in view of its evident
+relationship to OCS prosi f.pl. 'breast' < *prk- (cf. Pokorny IEW: 820).
+*felhan- s.v. 'to hide' - Go. filhan s.v. 'id.', ON fela s.v. 'to hide, conceal; to
+give in trust', OE felan, feolan, felgan s.v. 'to stick, adhere; to proceed, go,
+reach; to undergo', OS bi-felhan s.v. 'to entrust, bestow, command; to bury',
+Du. velen w.v. 'to suffer', OHG felhan, fel(a)han s.v. 'to trust, hand over' ⇒
+*pélk-e- (GM).
+Given the disparate semantics of the attestations it is difficult to get to an
+extra-Germanic etymology. The connection with OPru. pelkis ‘cloak' is un-
+certain, at any rate, as the meaning 'to conceal' as well as 'to entrust, be-
+stow, command' may have developed from 'to stow'. The meanings 'to go'
+and 'to suffer' as found in Old English and Dutch still remain problematic,
+and may point to an etymologically dissimilar strong verb related to
+*fulgen- 'to follow' (q.v.).
+*fella-n. 'membrane, skin, hide' - Go. pruts-fill n. 'leprosy', ON fell, fjall n.
+'skin', OSw. fiæl n. 'id.', Sw. fjäll n. ‘id.', OE fell n. 'id.', E fell, OS fell n. 'skin,
+membrane', Du. vel n. 'id.', OHG fel n. 'skin, pelt', G Fell n. 'id.' ⇒ *pel-nó-
+(EUR) — Gr. лεMopάcos adj. 'sewing skins together' < *pel-no-; Lat. pellis f.
+'skin' *pel-ni-; OCS pelena f. 'band for swathing children', Ru. pelená f.
+'shroud, nappy', SCr. pelèna f. 'bandage, shroud' < *pel-en-eh2-.
+-
+All the other IE languages point to a suffix with a nasal, and it is therefore
+legitimate to similarly derive the Gm. form from *pel-nó-. It is possible that
+this stem developed from the genitive of the mn-stem *felman- 'membrane'
+in which the m was dissimilated, i.e. *pel-mn-ós, but not necessarily so.
+*felma(n)-m. 'membrane' - OE æger-felma m. 'skin of an egg', E film, MDu.
+velm, vilm m. 'film' *pel-mon- (EUR) - Gг. лελμα n. 'sole of the foot' <
+*pel-men-.
+A considerably old mn-stem to the root of *fella- 'skin' (q.v.). In An-
+glo-Frisian, the word seems to have been supplanted by the diminutive: OE
+filmen n. 'skin, membrane, husk', OFri. filmene f. 'skin (on the knee?)' <
+*felm-īna/ō-.
+-
+*felō- f. 'board' ON fiol f. 'id.', Far. fjøl f. 'id.', Elfd. fyöl f. 'id.' → *pel-eh₂-
+(NEUR).
+An e-grade formation closely related to *falan- (q.v.).
+*felpa- m. 'field' - OSw. fiälder m. 'isolated field', OE feld, feald m. 'field', E
+field, OFri. feld n. ‘id.', OS feld m. ‘id.', Du. veld n. 'id.', OHG feld n. ‘id.', G Feld n.
+'id.'*pélth2-0- (IE).
+Derived from the PIE root *pelth₂- 'flat', for which see *fuldō-."		
+alignment-field-rt-zero-grade	RingeTaylor2014	156	171	2	10	18	*fuldaw-	16f514e3cc43e5eedaea6ee871f78dd2f465c045c8a26539a4e7e457031a9f2c	"*felbu- ~ *fuldaw- (zero grade and *-d- also in the related folde ‘earth’). But it
+does seem that word-internal *lb became *ld by regular sound change in
+NORTHERN WGmmc; the following clear examples can be cited:"		
+alignment-fight-fulk-body	Fulk2018	74	91	1	893	902	"*fextana"""	6fb7e4bd4a65e91b0dfe22cb2701b50e65f425593dbb88bd11f1ff81e5a6bc07	"74
+A Comparative Grammar of the Early Germanic Languages
+often is retracted to a instead, especially after a labial consonant, as in farr ‘bull' and
+darf'need'.
+Before / plus any consonant, æ is broken to ea, whereas e is broken to eo in WS
+only when the consonant after 1 is h. Examples: healp ‘helped', healdan 'hold' (Go.
+halp, haldan) and seolh 'seal' (OHG selah). Breaking also occurs in ā-seolcan 'become
+languid' and in non-WS seolf 'self'. Breaking of i before I cannot be proved. Before
+checked the Anglian dialects show retraction rather than breaking of æ, as in cald
+'cold' and all 'all' (WS ceald, eall).
+eo
+Before h (i.e. [x] on the standard view) in both open and closed syllables, æ, ĕ,
+and are broken to ea, eo, and to (> ĕo in most dialects).³ Examples: *xlaxtraz >
+I
+*xlæxtr > hleahtor ‘laughter', WS *næx > nēah (but non-WS *nēh > *nēoh, later
+Anglian nēh, Kentish *nīoh); *fextana"" > feohtan 'fight'; Peohtas ‘'Picts'; *liŋxtaz >
+*lixtaz līoht, leoht ‘light' (adj.; cf. Go. leihts). At the time of breaking, short i
+occurred in an open syllable only in umlaut environment, e.g. *-sixiþ(i) > *-sioxip >
+-sieho 'sees'.
+Before w, a was retracted to ǎ, as in WS ge-sawen 'seen' and pret. pl. sāwon
+‘saw'. In open syllables it was also retracted before a back vowel in the following
+syllable, hence nom. pl. dagas 'days' (sg. dæg) and dat. pl. māgum ‘kinsman' (nom. sg.
+mag), though a is often found for ā.
+A source of short diphthongs besides back mutation (§4.8), as well as breaking,
+is diphthongization by initial palatal consonants (which precedes front umlaut but not
+breaking: cf. ceorl 'commoner', not †cierl, from *kerlaz). In Anglo-Frisian, front
+vowels palatalize an initial velar consonant (§6.17), producing OE palatal c, sc, g, and
+in WS, a and ĕ are in turn diphthongized by the initial palatal. Examples are ceaster
+‘town' < *cæstru < *kastrō (borrowed from Lat. castra); 3 sg. geaf ‘gave' < *ŋæf <
+PGmc. *zab(e) (Go. gaf); pl. gēafon ‘gave' < *zæbun < PGmc. *zēbun(þ) (Go. gēbun);
+scieran 'cut' < *skerana"" (cf. Olcel. skera); gie 'you (pl.)' < *3ē.4 Similar changes
+occur less regularly in Northumbrian: see A. Campbell 1977: $186 for details. The
+digraphs in such forms are of disputed significance (see §4.8 supra and Hogg 1992:
+§5.49), but the vocoids resulting from ễ and from the umlaut of ã, ĕ affected by initial
+palatals are reflected in ME with spellings indicating rounding (e.g. Southwestern ME
+3uue <EWS giefan 'give'), strongly suggesting that at least originally the result of this
+change was a set of back diphthongs (see Fulk 2012: §20 & Remark 3).
+At about the time of the earliest manuscript records, in a process referred to as
+smoothing, the diphthongs ĕa, ĕo, io were monophthongized to aě, ě, Ĭ in the Anglian
+dialects before c, g, h, which were thus presumably palatal (see Hogg 1992: $5.93 for
+discussion). Subsequently, & as the result of smoothing developed to ē, and before r or /
+plus a back consonant æ became e. Examples: wæx 'wax' (WS weax, OS wahs); færh,
+ferh 'pig' (WS fearh, OHG far(a)h); hēh ‘high' (WS heah, Go. háuhs); werc 'work'
+(WS weorc, Olcel. verk); flēge ‘fly' (WS fleoge, OHG flioga); mixen ‘dunghill' (WS
+meoxen < *mixs(t)-); fil 'file' < *fixlu < *fiŋxlō (WS feol). Smoothing of ea to ě
+occurred in LWS before or after a velar (palatal) consonant, though the change is ex-
+pressed only irregularly in the orthography, e.g. LWS ehta ‘eight', hēh ‘high', ēge
+'eye', pret. sg. gef‘gave', cēs ‘chose', gēr ‘year' beside eahta, hēah, etc.
+By various means, such as loss of intervocalic h, w, or j, or analogical re-
+fashioning, vowels (and diphthongs) could become contiguous and undergo contraction.
+The results are various: see A. Campbell 1977: §§234-9 for details. Examples are gæð
+'goes' < *gæ-ip (§12.63); fōn 'take' < *fōhan < *fa""xana""; sēon 'see' < *seohan <"		
+alignment-fight-ringe-past-singular	Ringe2017	271			670	675	*faht	6e89f8cfd49795878c6ba5efaa58b5f118fccda955bf9d416620dc34308dddc4	"It is striking that roots ending in *eCC, where both consonants are obstruents, also
+belong to this ablaut class. Four or ﬁve such verbs are reconstructable for PGmc:
+  *þreskaną, *þrask, *þruskun, *þruskanaz ‘thresh’ (cf. Goth. þriskan; OE þerscan,
+     þærsc, þurscon, þorscen; OHG dreskan, *drask, druskun, gidroskan);
+  *wreskwaną, *wraskw, *wruskun, *wruskwanaz ‘grow’ (cf. Goth. gawrisqand ‘they
+     bear fruit’; ON ptc. roskinn ‘grown’);
+  *ﬂehtaną, *ﬂaht, *ﬂuhtun, *ﬂuhtanaz ‘plait’ (OHG ﬂehtan, ﬂaht, ﬂuhtun, giﬂohtan;
+     OE cpd. ﬂohtenfōt ‘with webbed feet’; Goth. derived noun dat. pl. ﬂahtom
+     ‘(with) braids’; cognate with Lat. plectere);
+  *fehtaną, *faht, *fuhtun, *fuhtanaz ‘ﬁght’ (OE feohtan, feaht, fuhton, fohten; OHG
+     fehtan, faht, fuhtun, gifohtan; cognate with Lat. pectere ‘comb; thrash’).
+A verb *hnesk(w)aną ‘soften’ can probably be inferred from the OHG ptc. fernoscenen
+‘worn, rubbed’ and the adjective *hnaskuz ‘soft’ (cf. Goth. hnasqus, OE hnesċe).
+All the examples but ‘ﬁght’ begin with CR-clusters; it seems clear that the *u of the
+zero-grade forms originally arose from a syllabic sonorant, and that the sequence
+*uR was adjusted on the model of the full-grade forms (e.g. *pl̥kt- > *fulht- ! *ﬂuht-;
+see .. (i), .. (ii)). Seven more examples of roots of this type are well attested in
+various subgroups of the family; very strikingly, all but one begin with CR-clusters,
+and the remaining example, PWGmc *leskan ‘be extinguished’, begins with a son-
+orant. Under the circumstances it is not very surprising that zero-grade *u has been
+extended to ‘ﬁght’.
+.. (i.d) The fourth strong class
+Most of the verbs of this class exhibited roots ending in sonorants. So few are securely
+reconstructable for PGmc that it seems reasonable to give a complete list:
+  *beraną, *bar, *bērun, *buranaz ‘carry, bear’ (cf. Goth. baíran, bar, berun, baúrans;
+     ON bera, bar, báru, borinn; OE beran, bær, bǣron, boren; OHG beran, bar,
+     bārun, giboran);
+  *teraną, *tar, *tērun, *turanaz ‘tear’ (cf. Goth. gataíran, gatar, *gaterun, gataúrans;
+     OE teran, tær, tǣron, toren; OHG zeran, *zar, zārun, gizoran);
+  *skeraną, *skar, *skērun, *skuranaz ‘shear’ (cf. ON skera, skar, skáru, skorinn; OE
+     sċieran, sċear, sċēaron, sċoren; OHG skeran, *skar, skārun, giskoran; cognate
+     with Gk κείρειν /ké:re:n/);
+  *stelaną, *stal, *stēlun, *stulanaz ‘steal’ (cf. Goth. stilan; ON stela, stal, stálu,
+     stolinn; OE stelan, stæl, stǣlon, stolen; OHG stelan, stal, stālun, gistolan);
+  *dwelaną, *dwal, *dwēlun, *d(w)ulanaz ‘be confused’ (cf. OHG ar-twelan, in-twal,
+     ar-twālun, gi-twolan ‘be sluggish’; OE ptc. ġedwolen ‘confused’; Goth. derivative
+     dwals ‘foolish’);
+  *helaną, *hal, *hēlun, *hulanaz ‘hide’ (cf. OE helan, hæl, hǣlon, holen; OHG helan,
+     hal, hālun, giholan; cognate with OIr. sg. ceilid);"	"It is striking that roots ending in *eCC, where both consonants are obstruents, also
+belong to this ablaut class. Four o"	" *hulanaz ‘hide’ (cf. OE helan, hæl, hǣlon, holen; OHG helan,
+     hal, hālun, giholan; cognate with OIr. sg. ceilid);"
+alignment-fight-ringe-past-plural	Ringe2017	271			677	684	*fuhtun	6e89f8cfd49795878c6ba5efaa58b5f118fccda955bf9d416620dc34308dddc4	"It is striking that roots ending in *eCC, where both consonants are obstruents, also
+belong to this ablaut class. Four or ﬁve such verbs are reconstructable for PGmc:
+  *þreskaną, *þrask, *þruskun, *þruskanaz ‘thresh’ (cf. Goth. þriskan; OE þerscan,
+     þærsc, þurscon, þorscen; OHG dreskan, *drask, druskun, gidroskan);
+  *wreskwaną, *wraskw, *wruskun, *wruskwanaz ‘grow’ (cf. Goth. gawrisqand ‘they
+     bear fruit’; ON ptc. roskinn ‘grown’);
+  *ﬂehtaną, *ﬂaht, *ﬂuhtun, *ﬂuhtanaz ‘plait’ (OHG ﬂehtan, ﬂaht, ﬂuhtun, giﬂohtan;
+     OE cpd. ﬂohtenfōt ‘with webbed feet’; Goth. derived noun dat. pl. ﬂahtom
+     ‘(with) braids’; cognate with Lat. plectere);
+  *fehtaną, *faht, *fuhtun, *fuhtanaz ‘ﬁght’ (OE feohtan, feaht, fuhton, fohten; OHG
+     fehtan, faht, fuhtun, gifohtan; cognate with Lat. pectere ‘comb; thrash’).
+A verb *hnesk(w)aną ‘soften’ can probably be inferred from the OHG ptc. fernoscenen
+‘worn, rubbed’ and the adjective *hnaskuz ‘soft’ (cf. Goth. hnasqus, OE hnesċe).
+All the examples but ‘ﬁght’ begin with CR-clusters; it seems clear that the *u of the
+zero-grade forms originally arose from a syllabic sonorant, and that the sequence
+*uR was adjusted on the model of the full-grade forms (e.g. *pl̥kt- > *fulht- ! *ﬂuht-;
+see .. (i), .. (ii)). Seven more examples of roots of this type are well attested in
+various subgroups of the family; very strikingly, all but one begin with CR-clusters,
+and the remaining example, PWGmc *leskan ‘be extinguished’, begins with a son-
+orant. Under the circumstances it is not very surprising that zero-grade *u has been
+extended to ‘ﬁght’.
+.. (i.d) The fourth strong class
+Most of the verbs of this class exhibited roots ending in sonorants. So few are securely
+reconstructable for PGmc that it seems reasonable to give a complete list:
+  *beraną, *bar, *bērun, *buranaz ‘carry, bear’ (cf. Goth. baíran, bar, berun, baúrans;
+     ON bera, bar, báru, borinn; OE beran, bær, bǣron, boren; OHG beran, bar,
+     bārun, giboran);
+  *teraną, *tar, *tērun, *turanaz ‘tear’ (cf. Goth. gataíran, gatar, *gaterun, gataúrans;
+     OE teran, tær, tǣron, toren; OHG zeran, *zar, zārun, gizoran);
+  *skeraną, *skar, *skērun, *skuranaz ‘shear’ (cf. ON skera, skar, skáru, skorinn; OE
+     sċieran, sċear, sċēaron, sċoren; OHG skeran, *skar, skārun, giskoran; cognate
+     with Gk κείρειν /ké:re:n/);
+  *stelaną, *stal, *stēlun, *stulanaz ‘steal’ (cf. Goth. stilan; ON stela, stal, stálu,
+     stolinn; OE stelan, stæl, stǣlon, stolen; OHG stelan, stal, stālun, gistolan);
+  *dwelaną, *dwal, *dwēlun, *d(w)ulanaz ‘be confused’ (cf. OHG ar-twelan, in-twal,
+     ar-twālun, gi-twolan ‘be sluggish’; OE ptc. ġedwolen ‘confused’; Goth. derivative
+     dwals ‘foolish’);
+  *helaną, *hal, *hēlun, *hulanaz ‘hide’ (cf. OE helan, hæl, hǣlon, holen; OHG helan,
+     hal, hālun, giholan; cognate with OIr. sg. ceilid);"	"It is striking that roots ending in *eCC, where both consonants are obstruents, also
+belong to this ablaut class. Four o"	" *hulanaz ‘hide’ (cf. OE helan, hæl, hǣlon, holen; OHG helan,
+     hal, hālun, giholan; cognate with OIr. sg. ceilid);"
+alignment-fight-ringe-participle	Ringe2017	271			686	695	*fuhtanaz	6e89f8cfd49795878c6ba5efaa58b5f118fccda955bf9d416620dc34308dddc4	"It is striking that roots ending in *eCC, where both consonants are obstruents, also
+belong to this ablaut class. Four or ﬁve such verbs are reconstructable for PGmc:
+  *þreskaną, *þrask, *þruskun, *þruskanaz ‘thresh’ (cf. Goth. þriskan; OE þerscan,
+     þærsc, þurscon, þorscen; OHG dreskan, *drask, druskun, gidroskan);
+  *wreskwaną, *wraskw, *wruskun, *wruskwanaz ‘grow’ (cf. Goth. gawrisqand ‘they
+     bear fruit’; ON ptc. roskinn ‘grown’);
+  *ﬂehtaną, *ﬂaht, *ﬂuhtun, *ﬂuhtanaz ‘plait’ (OHG ﬂehtan, ﬂaht, ﬂuhtun, giﬂohtan;
+     OE cpd. ﬂohtenfōt ‘with webbed feet’; Goth. derived noun dat. pl. ﬂahtom
+     ‘(with) braids’; cognate with Lat. plectere);
+  *fehtaną, *faht, *fuhtun, *fuhtanaz ‘ﬁght’ (OE feohtan, feaht, fuhton, fohten; OHG
+     fehtan, faht, fuhtun, gifohtan; cognate with Lat. pectere ‘comb; thrash’).
+A verb *hnesk(w)aną ‘soften’ can probably be inferred from the OHG ptc. fernoscenen
+‘worn, rubbed’ and the adjective *hnaskuz ‘soft’ (cf. Goth. hnasqus, OE hnesċe).
+All the examples but ‘ﬁght’ begin with CR-clusters; it seems clear that the *u of the
+zero-grade forms originally arose from a syllabic sonorant, and that the sequence
+*uR was adjusted on the model of the full-grade forms (e.g. *pl̥kt- > *fulht- ! *ﬂuht-;
+see .. (i), .. (ii)). Seven more examples of roots of this type are well attested in
+various subgroups of the family; very strikingly, all but one begin with CR-clusters,
+and the remaining example, PWGmc *leskan ‘be extinguished’, begins with a son-
+orant. Under the circumstances it is not very surprising that zero-grade *u has been
+extended to ‘ﬁght’.
+.. (i.d) The fourth strong class
+Most of the verbs of this class exhibited roots ending in sonorants. So few are securely
+reconstructable for PGmc that it seems reasonable to give a complete list:
+  *beraną, *bar, *bērun, *buranaz ‘carry, bear’ (cf. Goth. baíran, bar, berun, baúrans;
+     ON bera, bar, báru, borinn; OE beran, bær, bǣron, boren; OHG beran, bar,
+     bārun, giboran);
+  *teraną, *tar, *tērun, *turanaz ‘tear’ (cf. Goth. gataíran, gatar, *gaterun, gataúrans;
+     OE teran, tær, tǣron, toren; OHG zeran, *zar, zārun, gizoran);
+  *skeraną, *skar, *skērun, *skuranaz ‘shear’ (cf. ON skera, skar, skáru, skorinn; OE
+     sċieran, sċear, sċēaron, sċoren; OHG skeran, *skar, skārun, giskoran; cognate
+     with Gk κείρειν /ké:re:n/);
+  *stelaną, *stal, *stēlun, *stulanaz ‘steal’ (cf. Goth. stilan; ON stela, stal, stálu,
+     stolinn; OE stelan, stæl, stǣlon, stolen; OHG stelan, stal, stālun, gistolan);
+  *dwelaną, *dwal, *dwēlun, *d(w)ulanaz ‘be confused’ (cf. OHG ar-twelan, in-twal,
+     ar-twālun, gi-twolan ‘be sluggish’; OE ptc. ġedwolen ‘confused’; Goth. derivative
+     dwals ‘foolish’);
+  *helaną, *hal, *hēlun, *hulanaz ‘hide’ (cf. OE helan, hæl, hǣlon, holen; OHG helan,
+     hal, hālun, giholan; cognate with OIr. sg. ceilid);"	"It is striking that roots ending in *eCC, where both consonants are obstruents, also
+belong to this ablaut class. Four o"	" *hulanaz ‘hide’ (cf. OE helan, hæl, hǣlon, holen; OHG helan,
+     hal, hālun, giholan; cognate with OIr. sg. ceilid);"
+alignment-find-rt-weak-past	RingeTaylor2014	346	361	8	477	482	funde	58533305ceb78ab73d2de17e8ff04234f59bad0a7bb6a86859cca2a9d6f25cc6	"A few strong verbs have been shifted into weak class I. WS examples
+consistently declined weak are stregdan ‘to spread out’ and picgan ‘to accept’
+(neither of which happens to be attested in the past in early WS). In early WS
+strong slép ‘slept’ and weak sl@pte are already in competition; in late WS r@dan
+‘to read’ and ondredan ‘to dread’ also become weak (though in early WS the
+only pasts attested are strong rédon, ondréd, -on). A surprising early WS weak
+past is 1, 38g. funde ‘found’, backformed to pl. fundon. Various strong verbs
+exhibit weak forms in various dialects; see Campbell 1962: 308-20."		
+alignment-fire-ringe-collective-preform	Ringe2017	147			1003	1011	*ph2uōŕ	b1f1197d874d03dca708b263f05d11a6a625cf949dadd971ec933c0a088c6eef	"But that is not the whole story. It is clear that the PIE word for ‘pig’ was *suH- or *sū-
+(cf. Gk ὗς /hû:s/, Lat. sūs) with a derived adjective *suHīno- or *suīno- ‘of pigs’ (cf.
+Lat. suīnus). In Germanic the neuter of the adjective became the word for ‘pig’, and
+its phonological shape is somewhat unexpected:
+  PIE neut. *su(H)īnom ‘of pigs’ > PGmc *swīną ‘pig’ (cf. Goth. swein, OE swīn).
+The same sound change has apparently affected an originally compound adjective:
+  PIE *h1su-Hiǵnós ‘good to venerate’ (cf. Skt su-, Homeric Gk ἐϋ- /eu-/ ‘good, well’;
+    Skt yajñás ‘sacriﬁce’, Gk ἁγνός ‘pure’ with full-grade *Hyaǵ-) > *suignós > PGmc
+    *swiknaz ‘pure’ (cf. Goth. swikns).
+These two examples suggest that word-initial *CuV- became PGmc *CwV-. That in
+turn helps to account for the shape of ‘ﬁre’ in Germanic. It seems clear that the PGmc
+word reﬂects the PIE amphikinetic collective (Schindler a: ), which apparently
+developed as follows (cf. .. (i)):
+  PIE *páh2wōr ~ *ph2un-´ ! *ph2uōŕ ~ *ph2un-´ (cf. Toch. B puwar, pwār-; see
+    Ringe : –) > *puwōr ~ *pun- > *pwōr ~ *pun- > PGmc *fōr ~ *fun- (see
+    .. (i); cf. Goth. fon ~ funin-, with sufﬁxal n generalized and the obl. stem
+    recharacterized with -in-, cf. watin- ‘water’).
+On the other hand, this complicates any account of OHG disyllabic fuïr (see .. (i)
+and vol. ii, p. )."	"But that is not the whole story. It is clear that the PIE word for ‘pig’ was *suH- or *sū-
+(cf. Gk ὗς /hû:s/, Lat. sūs) "	"n- ‘water’).
+On the other hand, this complicates any account of OHG disyllabic fuïr (see .. (i)
+and vol. ii, p. )."
+alignment-fire-ringe-post-pgmc-n	Ringe2017	309			2509	2515	*fuïn-	8fea3c048092a82a2884a3258bc257c5cba495b803fc800db59517f8d135c35d	"for neuters), probably with an oblique stem *udn-´ (Schindler a). As in the case
+of n-stem neuters, it is the collective that survives in PGmc as the nom.-acc. sg., but
+the o-grade root *wat- < *wod- has been generalized. The result was apparently
+PGmc nom.-acc. sg. *watōr, gen. sg. *watiniz (*watinz?), dat. sg. *watini. A plural
+(which evidently functioned as a collective) was apparently made to a stem *wat-n-,
+parallel to the plural of ‘name’ (see above). Gothic nearly preserves this paradigm, the
+only innovation being the remodeling of the nom.-acc. sg. as an n-stem: nom. sg.
+wato, gen. watins, dat. watin, dat. pl. watnam (the only plural form attested). In ON
+the word was remodeled as a neuter a-stem vatn, starting from the plural (precisely as
+in the case of ‘name’), though there is also a rare early form vatr (Noreen : );
+whether Old Swedish vætur might preserve the PGmc nom.-acc. sg. form is not clear
+to me. PWGmc *watar (cf. OE wæter, OHG waʒʒar, etc.) reﬂects the inherited nom.-
+acc. *watōr. The development of ‘ﬁre’ was more complex and less easy to reconstruct.
+The PIE word was *páh2wr̥, obl. *ph2uén-, with a collective *páh2wōr, obl. *ph2un-´
+(Schindler 1975a). The attested Germanic forms are Gothic fon, gen. funins, dat.
+funin; ON fúrr ~ fýrr (inﬂected as a masc. i-stem); and WGmc *fuïr (inﬂected as a
+neut. a-stem), which is the source of OE fȳr, OHG fuïr (> ﬁur, i.e. /f ǖ r/), etc. Gothic
+fon must reﬂect an immediate preform *fō- r (< PIE *páh2wr̥ or *páh2wōr) or *fōr
+(reﬂecting post-PIE *ph2uōŕ , see 3.2.6 (i)). Since PGmc neuters inherited from PIE
+normally reﬂect collectives, and since neuters of this type do not usually preserve
+their full-grade initial syllables outside of Anatolian, the most likely scenario is the
+following:
+  PIE coll. *páh2wōr ! *ph2uō ́r (cf. Toch. B puwar, Ringe 1996: 17–18) > *puō ́r >
+    PGmc *fuwōr > *fwōr (see 3.2.5 (ii)) > PGmc *fōr (see 3.2.6 (i)).
+Goth. oblique funin- apparently reﬂects PIE collective obl. *ph2un-´, the sound-
+change outcome *fun- having been recharacterized with an n-stem sufﬁx; it probably
+cannot be the reﬂex of PIE *ph2uén-, unless the sound-change outcome *fuwin- or
+*fuïn- was remodeled to *funin- before word-initial *Cuw- became *Cw- (see 3.2.5
+(ii)). The last-mentioned sound change makes PWGmc *fuïr- difﬁcult to account for:
+why is it not *fwir-? A possible solution is that *funin- already existed in PGmc, that
+its ﬁrst *n was lost by dissimilation, and that the resulting post-PGmc *fuïn- was then
+remodeled to *fuïr- (cf. ‘water’ above).
+   ‘Sun’ is the only reconstructable PIE neuter l/n-stem. The nom.-acc. sg. seems to
+have been *sáh2wl̥ (see 3.2.6 (i)); the oblique stem seems to have been *sh2uén- (e.g.
+in gen. sg. *sh2uén-s, cf. Gatha-Avestan xvə̄ng). The former can easily be the source of
+the ON noun:
+  PIE *sáh2wl̥ > PGmc *sōwul >! *sōwulō > early ON soulu > ON sól.
+The Gothic neuter noun sauil, attested twice, seems to show leveling of the oblique
+sufﬁx ablaut *-e- into the direct form in *-l, though the details are hard to recover."	"for neuters), probably with an oblique stem *udn-´ (Schindler a). As in the case
+of n-stem neuters, it is the collec"	"s to show leveling of the oblique
+sufﬁx ablaut *-e- into the direct form in *-l, though the details are hard to recover."
+alignment-fire-rt-intermediate	RingeTaylor2014	225	240	10	93	98	*fyir	2b3d0a411eafa5b44f0ecc41d31400ef5344fd2e8feb8c4c82ff8720f4a21d61	"The intermediate stages cannot be reconstructed with certainty, though a
+development *fuir > *fyir > fyr is plausible. A similar development occurred
+in Olr. drui ‘druid’ — OE dry ‘sorcerer’ (Férster 1921: 28)."		
+alignment-fire-rt-oe	RingeTaylor2014	225	240	9	80	83	fyr	4ecdac26dff3722b829a39556b47425245b782b7398a8b900e349db4d7c6d64c	PWGmc *fuir ‘fire’ (OHG vugir, fuir, fiur, OF, OS fiur; see section 4.2.2) > OE fyr.		

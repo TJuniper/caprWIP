@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4323 evidence records,1379 actual consultations and4439
-analytical positions, with408 comparisons and141 rationales. The RT
+There are4349 evidence records,1379 actual consultations and4471
+analytical positions, with411 comparisons and156 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Seventy-three core rows now have individually reconciled, bounded alignment:
-1933-2005. The remaining320 are unreviewed. The second tranche builds on
+Eighty-one core rows now have individually reconciled, bounded alignment:
+1933-2013. The remaining312 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -136,6 +136,30 @@ remaining formation, reflex, representation or selected-cell premise;
 none is a settled whole-word equivalence or established whole-case cause.
 Ringe's ask-specific following-j reason and RT's bake following-i/lost-trigger
 reason are position support, not a completed class census.
+
+The tenth tranche completes fee, fell (hide), fern, field, fight, find,
+finger and fire (2006-2013). All117 inherited positions have individual
+decisions;18 literal receipts and eight process records add26 evidence
+records to existing consultations. Six focused positions reuse evidence;
+fifteen rationales and17 old/new SOURCE annotation receipts preserve the
+distinctions. The tranche has149 positions linked to143 distinct records.
+Field's formation pathways and fire's collective prehistory and
+front-vowel/paradigm histories have bounded analyst-inferred explanations,
+not direct rebuttals or adopted histories
+[@Orel2003, pp.97-98; @Kroonen2013, pp.135-136,151,159;
+@Ringe2017, pp.147,162,309; @RingeTaylor2014, pp.119,225].
+
+Orel's written *-an* does not independently establish an n-stem.
+Same-string fee cells, field cluster labels/gold comparanda, fight's
+analogical past, find's selected inflected participle, and fire's doubtful
+dative and unrelated water/wizard/cow evidence remain separate
+[@Orel2003, p.97; @Ringe2017, pp.269,271,312;
+@RingeTaylor2014, pp.115,119,155-156,318,344,346].
+Fern's masculine/neuter difference is substantive but its cause remains
+unestablished [@Orel2003, p.94; @Kroonen2013, pp.129-130].
+All eight whole-row causes remain unestablished; the exact selected fire
+dative is not certified by citation forms. Corpus, stages/contexts, FSTs,
+scientific baselines, introduction and PDF remain unchanged.
 
 The ninth tranche individually reconciles146 inherited positions for
 drive, earth, eat, eel, fall, fare, fast and father (1998-2005).

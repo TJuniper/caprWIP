@@ -10,11 +10,11 @@ new publication remain subsequent work.
 
 Current held-source reading covers the relevant three comparative accounts:
 192 Ringe,137 Fulk and255 Ringe-Taylor consultations, separately from
-393 applicability screens per source. The database contains4323 evidence
-records,1379 actual consultations,4439 positions,408 comparisons and141
+393 applicability screens per source. The database contains4349 evidence
+records,1379 actual consultations,4471 positions,411 comparisons and156
 rationales. The fully verified reading gate still refuses the named
 Ringe-Taylor convention/typography gap; full feature alignment and
-explanation remain ongoing:73 core rows are bounded and320 unreviewed.
+explanation remain ongoing:81 core rows are bounded and312 unreviewed.
 Earlier measurements below are checkpoint
 history, not current totals or an exhaustive-library workload.
 
@@ -1379,6 +1379,224 @@ sound law, chronology edge or scientific baseline is changed.
 The full alignment, source-backed class census, aggregate synthesis,
 consistency watchlist and specialist dispatch remain unfinished;
 this is not a new introduction or publication.
+
+## Tenth alignment tranche: fee, hide, fern, field, fight, find, finger and fire
+
+This tranche completes individual review of all117 inherited positions for
+2006-2013. Eighteen literal receipts and eight process records supplement
+existing consultations; six focused positions reuse those records rather
+than count as new quotations. There are149 analytical positions linked to143
+distinct records in the tranche. Seventeen SOURCE annotation amendments
+retain exact old/new values; diplomatic strings, original form-kind,
+verification, confidence and original row links are preserved. The complete
+survey now has4349 records,1379 actual consultations,4471 positions,411
+comparisons and156 rationales. Eighty-one core rows have bounded alignment;
+312 remain unreviewed.
+
+### Fee: the paradigm, not an undifferentiated ending
+
+Orel gives *fexu* but separately attaches *fexan* to OE *feoh* 'livestock,
+wealth'. Kroonen gives the ancient neuter u-formation and relates its
+prehistory to wool-plucking and an inference about sheep preceding cattle
+in husbandry. The fleece and iterative cross-references clarify his
+semantic/root-family argument; they do not turn the selected noun into
+a quoted iterative verb [@Orel2003, p.97;
+@Kroonen2013, pp.123-125,134]. In particular, the written *-an* in
+Orel's alternate is not independently sufficient to diagnose n-stem
+inflection. A different visible ending and a different inflectional
+analysis are separate propositions.
+
+Ringe explicitly distinguishes nonnasal final *u* from nasal *u* and
+*-un*, and his paradigm separates nominative/vocative/accusative *fehu*,
+genitive *fehauz*, dative *fehiwi* and instrumental *fehū*
+[@Ringe2017, pp.243,304,312]. The new records quote the actual obliques,
+not forms assembled from the nominative. His discussion of traditional
+*h* spelling also makes it unsafe to equate written *h* and *x* with
+one exact asserted phonetic realization merely because both occur in
+fee quotations [@Ringe2017, p.114].
+
+Fulk's account retains rare neuter u-stems, subsequent a/i remodeling
+and qualified oblique alternatives [@Fulk2018, pp.163-165].
+Ringe-Taylor's PWGmc table preserves three separate same-string *fehu*
+cells and expressly assumes e-leveling for concreteness: the actual
+dialect situation may have differed. Its literal dative alternative
+*fehiwi, -6* remains native text, not a silently restored glyph
+[@RingeTaylor2014, p.115]. The later *feoh* versus genitive *feos*
+argument supplies chronology: the note credits Bammesberger's reminder
+that transfer to a-stems must precede intervocalic h loss, since retained
+*u* would instead produce *féo* [@RingeTaylor2014, p.177, n.11].
+This records the reporting author's argument, not a new primary
+Bammesberger consultation. Exact formation chronology and selected-cell
+ancestry remain bounded; no global ending or fricative equivalence follows.
+
+### Hide and fern: related shapes do not erase formation or gender
+
+Hide is the skin noun, not falling or felling. Orel's comparative
+*pel-n-* and Kroonen's nasal formation need their own relation and
+attribution. Kroonen makes the older membrane-genitive origin with
+m dissimilation optional; his introduction calls accent-conditioned
+nasal assimilation plausible and the contrasting root-stressed
+*-rn-* evidence probably significant, not an unqualified conditioning
+census [@Orel2003, p.97; @Kroonen2013, pp.xxxv-xxxvi,135].
+Ringe likewise places *fellą* among probable *ln* assimilation
+examples [@Ringe2017, p.165].
+
+Fulk's body actually supplies PIE *pelh₂-n-* and explicitly PGmc
+*fel-n-* before the OE *fell* 'skin' outcome. These newly quoted
+body stages do not retroactively date the independently printed
+starless index *fel-n-* and *fell-*. His sonorant discussion is
+also distinct from the following geminate-obstruent/Kluge discussion
+[@Fulk2018, pp.113-115,387]. The exact laryngeal, accent and optional
+membrane-origin premises remain the relevant limits.
+
+Fern supplies a genuine scoped difference: Orel's citation is neuter,
+Kroonen's masculine, with the latter specifying a no-formation.
+Feather, wing and leaf connections help identify their comparative
+arguments but do not explain away the gender difference
+[@Orel2003, p.94; @Kroonen2013, pp.129-130]. The core case is therefore
+substantive at that scope, with its cause unestablished. The two
+dictionary consultations are not supplemented with three fictitious
+negative grammar reviews.
+
+### Field: overlapping alternatives, differing derivational premises
+
+Orel retains both *felþuz* and *felþaz*. A simple claim that he
+opposes Kroonen's a-formation is false. The useful focused question
+instead compares Orel's derivation of *peltu-* as a secondary full
+grade from *pl̥tu-* with Kroonen's thematic flat-root pathway.
+Orel links the earth/flat family; Kroonen's corresponding earth
+entry supplies his own root/formation comparison
+[@Orel2003, pp.97-98,117; @Kroonen2013, pp.135-136,159].
+The new literal receipt preserves Kroonen's native *pélth2-0-*,
+including digit0, rather than manufacture image-certified typography.
+The different stated derivational pathways earn a focused
+analyst-inferred explanation, not an exclusive a/u opposition or
+an assertion that either author explicitly rebuts the other.
+
+Ringe-Taylor's native *Ip* and *Id* are consonant-cluster labels,
+not reconstructed field words; *gulba-* and *gulda-* are gold
+comparanda. The continuation is essential: field and gold alone
+could reflect inherited Verner alternation, including the zero-grade
+voiced *fuldaw-* and related *folde* 'earth'. Independent examples
+instead support a northern WGmc internal cluster change, while a
+pan-PWGmc law is rejected [@RingeTaylor2014, pp.155-156].
+The amendments repair those labels without changing their diplomatic
+characters or inherited extractor form-kind. Neither field alone
+nor an OCR label establishes a complete historical domain.
+
+### Fight: membership and analogical grade are independent
+
+Orel's comb/shear/pluck connection and bibliographically reported
+weaving influence are not two endorsed selected fight ancestors.
+Kroonen's hair-plucking-to-fighting semantic bridge remains expressly
+conjectural [@Orel2003, pp.96-97; @Kroonen2013, pp.123-125,134].
+Ringe's explicit PGmc infinitive and separately cited PWGmc
+infinitive do not conflict merely because their dates differ.
+His reconstructability criterion permits good external cognates
+when Gothic/Norse evidence is absent; the Latin comb comparison
+supports fight in the PGmc principal-parts discussion
+[@Ringe2017, pp.108,254,266, n.10,271].
+
+The past *faht*, default plural *fuhtun* and masculine participle
+*fuhtanaz* are separately quoted. Ringe derives the neighboring
+CR-class *u* from syllabic sonorants, then says it was extended
+to fight: he does not reconstruct a syllabic sonorant in fight's
+own root. Fulk independently calls the past/participial *u/o*
+analogical [@Ringe2017, p.271; @Fulk2018, p.287]. This is source
+analogy recorded faithfully, not a grammatical sound law in CAPR.
+Fulk's body literal *fextana"* and the previously glyph-verified
+starless index *fextanaⁿ* are independent records; the new native
+quotation neither overwrites the verified glyph nor dates the index
+[@Fulk2018, pp.73-75,387]. Later WS, Mercian and Northumbrian
+infinitives likewise remain distinct [@RingeTaylor2014, pp.178,312].
+
+### Find and finger: class evidence does not quote the selected cell
+
+Selected *fundene* 'found' is an inflected participle, not either
+dictionary infinitive or Ringe's masculine citation *fundanaz*.
+Orel's e choice and methodological statement remain distinct from
+Kroonen's i citation and explicit nasal raising; a convention cannot
+be imposed on another author automatically
+[@Orel2003, pp.xii,99; @Kroonen2013, pp.xix,142].
+Ringe's i/a/u/u nasal-class account is now linked as coda-nasal
+position support, not as a complete class census or proof of the
+selected case ending [@Ringe2017, p.269].
+
+Fulk distinguishes original verbal adjectives from participles
+and gives thematized passive/past *-an-*, rarer *-in-*, weak-grade
+roots and ordinary strong/weak adjectival inflection. These generic
+premises do not quote the selected full input
+[@Fulk2018, pp.108,253,284-288]. Ringe-Taylor's *-p-* is a stem
+consonant Verner alternant, not a suffix; his weak *funde* is
+backformed from *fundon*, not another participle quotation.
+The unvoiced/voiced nasal-loss argument, northern voiced leveling
+and later Grimm/Verner chronology corrigendum must also remain
+separate [@RingeTaylor2014, pp.139-140,344,346,512-513].
+
+Finger's five-family evidence is not an authored full selected
+body-part predecessor. Orel's numeral and e citation, Kroonen's
+ro-formation, delabialization-before-Verner argument and nasal
+raising convention, and the later ending-loss history answer
+different questions [@Orel2003, pp.98-99;
+@Kroonen2013, pp.xix,141]. Ringe-Taylor explicitly separates PGmc
+*fingraz* from PWGmc *fingr*: the stranded resonant was presumably
+syllabic, but archaic meter does not count it
+[@RingeTaylor2014, p.48]. Neither this later history nor presumed
+syllabicity supplies a date for dictionary citations.
+
+### Fire: two high-payoff explanations, not one settled dative
+
+The selected input *fūri* and target dative *fȳre* 'fire' are not
+certified by the source nominatives. Orel's r alternatives, separate
+n-formation, Nordic formation and explicitly WGmc spark family
+remain distinct [@Orel2003, pp.119,121]. Kroonen's strong and
+oblique forms, older genitive, PGmc dative with optional *w*,
+r-remodeled dative and metathesis also retain their separate cells
+and date assertions [@Kroonen2013, p.151].
+
+The first focused explanation compares preferred prehistory.
+Kroonen regards *péh₂-ur* as probable and rejects the reported
+Simms *ph₂-uōr* because it should yield *fawōr*. That last form is
+counterfactual, not an endorsed ancestor. Ringe instead prefers an
+amphikinetic collective with zero grade/reaccentuation, a
+CuV-to-CwV development and subsequent labial *w* loss. His later
+discussion explicitly compares collective versus other antecedents
+and retains uncertainty [@Kroonen2013, p.151;
+@Ringe2017, pp.147,162,309]. The new literal *ph2uōŕ* preserves
+the displaced native acute. This exposes differing collective,
+accent and sound-law premises without pretending identical
+source typography, direct rebuttal or settled laryngeal chronology.
+
+The second explanation concerns the front vowel. Kroonen's
+r-remodeled dative *fu(w)eri* supplies his front-mutation premise.
+Ringe-Taylor instead discusses apparently disyllabic PWGmc
+nominal *fuir* after r-leveling into an n stem, explicitly doubts
+inherited dative *fuiri*, and allows an uncertain *fyir*
+intermediate before the native OE *fyr* citation
+[@Kroonen2013, p.151; @RingeTaylor2014, pp.119,225].
+The different cell and conditioning premises warrant a bounded
+analyst-inferred explanation. They do not establish the selected
+PGmc dative suffix or turn a ui-sequence history into automatic
+dative-triggered mutation.
+
+Ringe's possible post-PGmc n dissimilation followed by r remodeling
+offers a specific way for later *fuïr-* to escape the earlier
+consonant change; it remains possible, not an established endpoint
+[@Ringe2017, p.309]. Fulk classifies Gothic fire as the only neuter
+root-stem, with three attested cases, whereas Kroonen describes
+incorporation into neuter n-stems. That is an actual inflectional
+analysis question whose cause is not invented here
+[@Fulk2018, pp.15,180; @Kroonen2013, p.151].
+Water's r-leveling, wizard/druid loan hiatus and cow's dative and
+genitive hiatus cells remain comparanda, never selected fire
+ancestors [@RingeTaylor2014, pp.119,225,318].
+
+All eight whole-row causes remain unestablished. The three focused
+explanations are reusable research results, not scientific adoption.
+The corpus, input stages/contexts, FSTs, baselines, introduction and
+published PDF are unchanged. The next bounded alignment begins2014;
+the full393-row alignment, conditioning census, explanatory synthesis
+and consistency watchlist remain unfinished.
 
 ## Completed Ringe and Fulk readings: distinctions the alignment must preserve
 

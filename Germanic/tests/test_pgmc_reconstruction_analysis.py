@@ -363,9 +363,10 @@ class LiveAnalyticalTests(unittest.TestCase):
             FROM analyses a JOIN forms f USING(evidence_id)
             JOIN analysis_features af USING(analysis_id)
             WHERE a.row_id='2011' AND af.feature='vocalism'
-            ORDER BY f.source_key
+            ORDER BY f.source_key,a.analysis_id
         """)
-        self.assertEqual(result, "source_key\tvalue\nKroonen2013\ti\nOrel2003\te\n")
+        self.assertEqual(result, "source_key\tvalue\nKroonen2013\ti\nOrel2003\te\n"
+                                "Ringe2017\ti/a/u/u\nRinge2017\ti\nRinge2017\tu\n")
         result = analytical.query(tables, """
             SELECT DISTINCT cr.comparison_id
             FROM comparison_rationales cr JOIN rationales r USING(rationale_id)
@@ -445,10 +446,34 @@ class LiveAnalyticalTests(unittest.TestCase):
         for row_id in map(str, range(1998, 2006)):
             self.assertEqual(self.cases["core-" + row_id]["explanation_status"], "unestablished")
 
+    def test_tenth_tranche_explanations_are_scoped_and_queries_deterministic(self):
+        tables = {"forms": (survey.FORM_COLUMNS, self.forms),
+                  **{name: (analytical.TABLES[name], rows) for name, rows in self.tables.items()}}
+        sql = """
+            SELECT c.comparison_id,c.explanation_status,count(DISTINCT f.source_key) AS sources
+            FROM comparisons c JOIN comparison_analyses ca USING(comparison_id)
+            JOIN analyses p USING(analysis_id) JOIN forms f USING(evidence_id)
+            WHERE c.comparison_id IN ('field-formation-pathway','fire-collective-preform',
+                                     'fire-front-vowel-formation')
+            GROUP BY c.comparison_id,c.explanation_status ORDER BY c.comparison_id
+        """
+        expected = ("comparison_id\texplanation_status\tsources\n"
+                    "field-formation-pathway\tanalyst_inference\t2\n"
+                    "fire-collective-preform\tanalyst_inference\t2\n"
+                    "fire-front-vowel-formation\tanalyst_inference\t2\n")
+        self.assertEqual(analytical.query(tables, sql), expected)
+        self.assertEqual(analytical.query(tables, sql), expected)
+        self.assertEqual(analytical.query(tables, """
+            SELECT count(*) AS positions,count(DISTINCT evidence_id) AS evidence
+            FROM analyses WHERE CAST(row_id AS INTEGER) BETWEEN 2006 AND 2013
+        """), "positions\tevidence\n149\t143\n")
+        for row_id in map(str, range(2006, 2014)):
+            self.assertEqual(self.cases["core-" + row_id]["explanation_status"], "unestablished")
+
     def test_core_reading_population_and_supplements(self):
         survey.require_core_complete(self.corpus, self.sources, self.reviews)
         self.assertEqual(sum(form["source_key"] in survey.CORE_SOURCES
-                             for form in self.forms), 1417)
+                             for form in self.forms), 1420)
         self.assertEqual(sum(review["source_key"] in survey.CORE_SOURCES
                              for review in self.reviews), 786)
         self.assertEqual(set(survey.ids(self.evidence["orel-core-1956-01"]["row_ids"])),

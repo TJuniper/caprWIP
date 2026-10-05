@@ -1379,6 +1379,119 @@ watchlist, ranked specialist dispatch and report remain incomplete.
 The separate RT conventions holding gap remains a completion gate,
 not a reason to fabricate source negatives. Next alignment begins2006.
 
+## Tenth bounded alignment: 2006-2013
+
+### Identity and question
+
+Research-only continuation from released c7a21ac9: fee, hide, fern, field,
+fight, find, finger and fire. The user explicitly instructed completion,
+commitment and pushing; preparation alone is not completion. Question:
+which source positions refer to comparable formations/cells, and which
+different premises actually explain scoped disagreements? A shared string,
+ending or bibliography entry cannot answer that question by itself.
+
+### Current state and diagnosis
+
+Starting totals were4323 evidence records,1379 consultations,4439 positions,
+408 comparisons and141 rationales;73 core rows had bounded alignment.
+All117 inherited tenth-tranche positions were inspected against complete
+held arguments, continuations, tables and relevant cross-references.
+Executable firing census, skip/displacement trials and Foma rebuilding
+are n/a: no production law, chronology edge or input is being adjudicated.
+The selected find and fire cells remain distinct from dictionary citation
+forms; successful current output is not source evidence.
+
+### Literature and historical analysis
+
+The page-cited commentary records complete individual findings.
+Fee retains u cells, qualified PWGmc leveling and the reported early
+a-stem-transfer argument; printed *-an* does not prove an n-stem
+[@Orel2003, p.97; @Kroonen2013, pp.123-125,134;
+@Ringe2017, pp.114,243,304,312; @Fulk2018, pp.163-165;
+@RingeTaylor2014, pp.115,177,312].
+Hide's body stages and qualified nasal assimilation remain distinct from
+the starless index; fern's masculine/neuter difference has no established
+cause [@Orel2003, pp.94,97; @Kroonen2013, pp.xxxv-xxxvi,129-130,135;
+@Ringe2017, p.165; @Fulk2018, pp.113-115,387].
+
+Field's focused derivational comparison preserves Orel's overlapping
+a alternative. Cluster labels/gold comparanda and the explicitly
+regional rather than pan-PWGmc law are separately represented
+[@Orel2003, pp.97-98,117; @Kroonen2013, pp.135-136,159;
+@RingeTaylor2014, pp.155-156].
+Fight's membership, semantic conjecture, reported weaving influence and
+analogical past/participle remain independent
+[@Orel2003, pp.96-97; @Kroonen2013, p.134;
+@Ringe2017, pp.108,254,266,271; @Fulk2018, pp.74,287,387;
+@RingeTaylor2014, pp.128,178,312].
+
+Find's selected inflected participle is not an infinitive, masculine
+citation participle, stem-consonant alternant or weak backformation.
+Finger's numeral family and delabialization chronology are independent
+from e/i representation and later ending loss
+[@Orel2003, pp.xii,98-99; @Kroonen2013, pp.xix,141-142;
+@Ringe2017, p.269; @Fulk2018, pp.108,253,284-288;
+@RingeTaylor2014, pp.48,139-140,344,346,512-513].
+
+Fire's focused preferred-preform and front-vowel/paradigm explanations
+record different collective/accent/sound-law and cell/conditioning
+premises. Rejected Simms, counterfactual *fawōr*, doubtful inherited
+dative and uncertain *fyir* remain qualified; root/n-stem classification
+and possible post-PGmc remodeling remain separate questions
+[@Orel2003, pp.119,121; @Kroonen2013, p.151;
+@Ringe2017, pp.56-57,147,162,221-222,309;
+@Fulk2018, pp.15,180; @RingeTaylor2014, pp.106,119,225,318].
+These are attributed source arguments and bounded analyst inference,
+not adopted grammatical conditioning, sound laws or canonical edges.
+
+### Disposition and propagation
+
+All eight core alignments are completed with exact bounded premises.
+All whole-row causes remain unestablished; three focused explanations
+are analyst inference, not direct author rebuttals. Fern has a
+substantive gender/formation disposition without an invented cause.
+Eighteen literal receipts and eight processes add26 records to existing
+consultations; six focused positions reuse evidence, and fifteen
+rationales are added. Seventeen SOURCE amendments retain old/new
+annotations, not modified diplomatic strings or extractor kinds.
+
+Current totals are4349 records,1379 consultations,4471 positions,
+411 comparisons and156 rationales;81 bounded/312 unreviewed core rows.
+The tranche has149 positions linked to143 distinct records.
+Regressions cover individual membership, repeated fee cells, unknown
+dictionary/index dates, literal corruptions, cluster and Verner labels,
+family/comparandum matching, rejected/conditional attribution, selected
+participial/dative distinctions and deterministic scoped queries.
+Canonical propagation uses only `adjudicate.py --refresh`.
+Baseline/fingerprint effect: none; scientific adoption, introduction and
+publication are excluded.
+
+### Residue
+
+Exact selected fire dative ancestry, whole-row causes and the named
+formation/chronology premises remain unresolved. Full393-row alignment,
+class census, explanatory synthesis and watchlist are still incomplete.
+The separate RT conventions holding gap is not removed or relabeled.
+Next alignment begins2014. The candidate is a historical one-use artifact:
+never rerun or import it after persistence; current tables and receipts
+are authoritative.
+
+Closeout: all173 focused survey/analysis tests pass. Repeated read-only
+queries reproduce81 bounded/312 unreviewed rows,149 tranche positions
+linked to143 records, three two-source analyst-inferred explanations
+and eight unestablished whole-row causes. The standalone alignment
+gate refuses312; the verified-reading gate separately refuses the
+RT conventions gap.
+
+All46 protected scientific hashes are unchanged. All4323 inherited
+evidence records are preserved except exactly17 receipted annotations;
+all4322 outside-tranche analytical positions,400 unaffected comparisons,
+141 inherited rationales and1347 outside consultations are unchanged.
+All786 dictionary reviews remain. Canonical refresh reports CONTROL
+PLANE CLEAN; bibliography, section-locator and whitespace checks pass.
+The user-authorized release contains this completed research tranche,
+not scientific adoption or completion of the full programme.
+
 ## Residue
 
 The prioritized explanatory audit, full feature/paradigm alignment of
