@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4297 evidence records,1379 actual consultations and4409
-analytical positions, with406 comparisons and127 rationales. The RT
+There are4323 evidence records,1379 actual consultations and4439
+analytical positions, with408 comparisons and141 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Sixty-five core rows now have individually reconciled, bounded alignment:
-1933-1997. The remaining328 are unreviewed. The second tranche builds on
+Seventy-three core rows now have individually reconciled, bounded alignment:
+1933-2005. The remaining320 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -136,6 +136,31 @@ remaining formation, reflex, representation or selected-cell premise;
 none is a settled whole-word equivalence or established whole-case cause.
 Ringe's ask-specific following-j reason and RT's bake following-i/lost-trigger
 reason are position support, not a completed class census.
+
+The ninth tranche individually reconciles146 inherited positions for
+drive, earth, eat, eel, fall, fare, fast and father (1998-2005).
+Twenty-three literal occurrence receipts and three process records add26
+records to existing consultations; four focused positions reuse evidence
+and fourteen rationales are added. Twenty SOURCE annotation amendments
+retain old/new values. The tranche has176 positions linked to172 distinct
+evidence records. Drive's Baltic/Celtic cognate preference and fall's
+segmentation/gemination explanation are bounded analyst inference, not
+direct rebuttal or an adopted reconstruction
+[@Orel2003, pp.76,91; @Kroonen2013, pp.103,125-126].
+
+The corrections distinguish Ringe's intensive/iterative drive from the
+preceding causatives, his fasting stative from selected fastening, and
+Kroonen's eel/awl comparison from the adjacent feeding verb
+[@Ringe2017, pp.282-283,288-289; @Kroonen2013, pp.19,116-117].
+RT's coordinated earth n-stem is explicitly PWGmc; the fall label
+*pte* is metalinguistic, and calf suffixes do not quote father cells
+[@RingeTaylor2014, pp.129,182,385-386].
+Expected/leveled fare finite cells and Gothic comparisons remain separate
+[@RingeTaylor2014, pp.195-198,232-233].
+All eight whole-row causes remain unestablished. Fast retains a
+different-units core disposition rather than falsely equating fastening
+with fasting. Corpus choices, input stages/contexts, FSTs and scientific
+baselines are unchanged; no introduction or PDF is included.
 
 The second tranche reconciles all70 inherited positions for1941-1947
 and1949, adds seven occurrence-backed quoted endpoints and four precise

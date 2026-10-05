@@ -1,0 +1,1374 @@
+evidence_id	source_key	printed_pages	holding_sheet	paragraph	start_char	end_char	diplomatic_form	paragraph_sha256	paragraph_text	begin_anchor	end_anchor
+alignment-drive-rt-2sg	RingeTaylor2014	350	365	4	12	18	drifst	94985d334f09eda017784a9fdbfd03cc0b70d265769e04384e0389a185e42468	"WS
+drifan — drifst, drifp"		
+alignment-drive-rt-3sg	RingeTaylor2014	350	365	4	20	25	drifp	94985d334f09eda017784a9fdbfd03cc0b70d265769e04384e0389a185e42468	"WS
+drifan — drifst, drifp"		
+alignment-earth-fulk-accusative	Fulk2018	172	189	1	2756	2761	eorðu	0225a949807fda513ac2a499e8e22ea40000e51520af4f9cf2ba22b63e04cabe	"172
+A Comparative Grammar of the Early Germanic Languages
+forms are generally uninflected in the sg., e.g. frú ‘lady', pl. frúr, and kona 'woman' has
+gen. pl. kvenna, kvinna, probably based on a stem *kven- to a different noun (Go. qinō,
+OE cwene, OHG quena: see Jón Axel Harðarson 1989).
+7.33
+Origin and development of ōn-stem inflections
+In PIE there was no inflectional distinction between masc. and fem. n-stems (if in fact
+any PIE n-stems were fem.), but in PGmc. the two genders became differentiated by the
+elimination in fem. nouns of the variation in vowel quality and quantity in the stem-
+forming suffix, which was regularized as *-ōn-.¹ The likeliest source of the long vowel
+in this analogical process is the ō-stem nouns. Of those that survive in Gmc., nearly all
+PIE ā-stem nouns designating persons have become ōn-stems, e.g. PIE ā-stem *gwenā
+'woman' (cf. Russian жceнα (žena)) > Go. qinō, gen. -ōns (Krahe & Meid 1969: III,
+§91). There thus arose a correspondence between the masc. proportion a-stem -a- : n-
+stem -an- and the fem. proportion ō-stem -ō- : ōn-stem -ōn- that could be exploited and
+expanded. There may also have been influence of the fem. adjectives upon the nouns
+(Kuryłowicz 1968). The conversion of ō-stems to ōn-stems must have been a relatively
+late development, as ō-stem forms are still encountered in ōn-stem nouns in Gothic, e.g.
+dat. sg. bandwái to ōn-stem bandwō 'sign' (Streitberg 1910: 111).
+At first, then, the use of *-ōn- was the only distinction between masc. and fem.
+n-stems, since they bore the same inflections after the stem-forming suffix. This situa-
+tion remains little changed in Gothic, the only alterations being the extension of gen. pl.
+-ō (to form -ōnō) and dat. pl. -ōm (for original *-ōnam) from the ō-stems. Although the
+phonological changes are much disputed, the commonest assumption is that PGmc.
+*-ōn- should have changed to NWGmc. *-un- before u in the next syllable (§5.5)—i.e.,
+in the acc. sg. and pl.—and before tautosyllabic n at a later date (§5.6) in all the remain-
+ing cases except nom. sg. and gen. and dat. pl. This situation is well preserved in OS
+and OHG. Some analogical reformation has taken place in Olcel.: in the plural, nom.
+acc. -ur is analogous to -ar (borrowed from the a-stems) in the masc. n-stems, and the
+dat. pl. corresponds to the Go. form. PGmc. *-ōn-ō should have yielded ON *-ana; gen.
+pl. -na may be influenced by masc. forms like yxna (§7.30; Krahe & Meid 1969: II,
+§29), but it is likelier to have been influenced by the neuter form, as the original nom.
+acc. pl. inflection would have agreed with the neut. (Heusler 1967: §233). In OE, the
+fem. paradigm has been made to conform almost entirely to the masc.; Northumbrian
+acc. sg. foldu ‘earth' and eorðu ‘earth' are most likely relics of an earlier inflection like
+that in Go., though it should be noted that these forms are not necessarily exceptions to
+the rule of conformity to the masc. paradigm: cf. masc. acc. sg. galgu ‘gallows'. Ori-
+ginal *-ōn- is reflected also in OE pl. Ēastron, -un ‘Easter'. For alternative analyses, see
+Ringe & Taylor 2014: 163-4.
+1. Cf. similarly in Greek, masc. nom. sg. άyóv ‘assembly', gen. άy@vos, etc., and in Latin, nom. sermō 'con-
+versation', acc. sermōnem, etc.
+7.34
+The in-stems
+Like the ōn-stems, this class includes feminine nouns only. The inflections may be
+illustrated by the paradigms of Go. managei 'multitude' and its cognates, along with
+Olcel. gørsimi 'treasure':"		
+alignment-earth-fulk-fold-accusative	Fulk2018	172	189	1	2738	2743	foldu	0225a949807fda513ac2a499e8e22ea40000e51520af4f9cf2ba22b63e04cabe	"172
+A Comparative Grammar of the Early Germanic Languages
+forms are generally uninflected in the sg., e.g. frú ‘lady', pl. frúr, and kona 'woman' has
+gen. pl. kvenna, kvinna, probably based on a stem *kven- to a different noun (Go. qinō,
+OE cwene, OHG quena: see Jón Axel Harðarson 1989).
+7.33
+Origin and development of ōn-stem inflections
+In PIE there was no inflectional distinction between masc. and fem. n-stems (if in fact
+any PIE n-stems were fem.), but in PGmc. the two genders became differentiated by the
+elimination in fem. nouns of the variation in vowel quality and quantity in the stem-
+forming suffix, which was regularized as *-ōn-.¹ The likeliest source of the long vowel
+in this analogical process is the ō-stem nouns. Of those that survive in Gmc., nearly all
+PIE ā-stem nouns designating persons have become ōn-stems, e.g. PIE ā-stem *gwenā
+'woman' (cf. Russian жceнα (žena)) > Go. qinō, gen. -ōns (Krahe & Meid 1969: III,
+§91). There thus arose a correspondence between the masc. proportion a-stem -a- : n-
+stem -an- and the fem. proportion ō-stem -ō- : ōn-stem -ōn- that could be exploited and
+expanded. There may also have been influence of the fem. adjectives upon the nouns
+(Kuryłowicz 1968). The conversion of ō-stems to ōn-stems must have been a relatively
+late development, as ō-stem forms are still encountered in ōn-stem nouns in Gothic, e.g.
+dat. sg. bandwái to ōn-stem bandwō 'sign' (Streitberg 1910: 111).
+At first, then, the use of *-ōn- was the only distinction between masc. and fem.
+n-stems, since they bore the same inflections after the stem-forming suffix. This situa-
+tion remains little changed in Gothic, the only alterations being the extension of gen. pl.
+-ō (to form -ōnō) and dat. pl. -ōm (for original *-ōnam) from the ō-stems. Although the
+phonological changes are much disputed, the commonest assumption is that PGmc.
+*-ōn- should have changed to NWGmc. *-un- before u in the next syllable (§5.5)—i.e.,
+in the acc. sg. and pl.—and before tautosyllabic n at a later date (§5.6) in all the remain-
+ing cases except nom. sg. and gen. and dat. pl. This situation is well preserved in OS
+and OHG. Some analogical reformation has taken place in Olcel.: in the plural, nom.
+acc. -ur is analogous to -ar (borrowed from the a-stems) in the masc. n-stems, and the
+dat. pl. corresponds to the Go. form. PGmc. *-ōn-ō should have yielded ON *-ana; gen.
+pl. -na may be influenced by masc. forms like yxna (§7.30; Krahe & Meid 1969: II,
+§29), but it is likelier to have been influenced by the neuter form, as the original nom.
+acc. pl. inflection would have agreed with the neut. (Heusler 1967: §233). In OE, the
+fem. paradigm has been made to conform almost entirely to the masc.; Northumbrian
+acc. sg. foldu ‘earth' and eorðu ‘earth' are most likely relics of an earlier inflection like
+that in Go., though it should be noted that these forms are not necessarily exceptions to
+the rule of conformity to the masc. paradigm: cf. masc. acc. sg. galgu ‘gallows'. Ori-
+ginal *-ōn- is reflected also in OE pl. Ēastron, -un ‘Easter'. For alternative analyses, see
+Ringe & Taylor 2014: 163-4.
+1. Cf. similarly in Greek, masc. nom. sg. άyóv ‘assembly', gen. άy@vos, etc., and in Latin, nom. sermō 'con-
+versation', acc. sermōnem, etc.
+7.34
+The in-stems
+Like the ōn-stems, this class includes feminine nouns only. The inflections may be
+illustrated by the paradigms of Go. managei 'multitude' and its cognates, along with
+Olcel. gørsimi 'treasure':"		
+alignment-eat-fulk-preterite	Fulk2018	289-290	306	1	122	125	*ēt	f8537119c9ff8ad46bb238dc55103fee89ab9b3f3742e0e2b682cec877fc036f	"§12.31 The strong classes in the individual languages 289
+An irregularity is that the pret. sg. of PGmc. *etana"" ‘eat' is *ēt (and so also *fra-ēt to
+*fra-etana"" 'devour'), which, like Lat. perf. ēdī, is subject to various interpretations.5
+The cognates of Go. giban 'give' show a number of variants: in OE there is diphthong-
+ization by initial palatal consonant in EWS giefan (so also in be-gietan ‘acquire', on-
+gietan 'perceive'), whereas some forms in other dialects may show back mutation,
+hence geofan; Old West Frisian shows a variety of phonological and analogical devel-
+opments (see Bremmer 2009: §135); and giban appears beside geban in OS.
+Class VI, PGmc. (1) a, (2) ō, (3) ō, (4) a: On the origin of the ablaut pattern in
+this class, see §12.15. The present stem ends in a single consonant unless the verb
+reflects a PIE derived stem (§12.3), as with OE standan ‘stand', wæcnan ‘awake',
+wæscan 'wash', hebban ‘raise', etc. The ablaut pattern may be illustrated by the
+principal parts of Go. faran 'go' and cognates:
+(1)
+(2)
+(3)
+(4)
+Go.
+faran
+for
+fōrun
+farans
+OIcel.
+fara
+fór
+fóru
+farinn
+OE
+faran
+fōr
+fōron
+faren
+OFris.
+fara
+for
+fören
+faren, ferin
+OS
+faran
+for, fuor
+forun, fuorun
+OHG
+faran
+fuor
+fuorun
+gifaran
+gifaran
+Weak presents are numerous in this class.6 Go. standan 'stand' and cognates have the n-
+infix only in the present stem (see §12.3), and similarly, OE wæcnan 'awake' loses the
+n-suffix in pret. wōc, wōcon (no strong pp. attested). In OIcel., verbs with a stem-final
+velar (palatal) consonant have palatal mutation in the pp. (§4.7), e.g. tekinn <*takinaz,
+to taka 'take'. Also in Olcel., vaða has pret. óð, óðu (§6.14, later vóð, vóðu by analogy
+to the rest of the paradigm); similarly vaxa 'grow'. OE weaxan 'grow' has usually the
+ablaut pattern of a verb of class VII, but the Gmc. cognates (Go. wahsjan, Olcel. vaxa,
+etc.) belong to class VI (see Flasdieck 1936: 343). The pp. in OFris. may or may not
+show umlaut. On ō/uo in the OS pret., see §4.15.
+Class VII shows various ablaut patterns in Gmc., but as in class VI, the vocalism
+of parts (2) and (3) is the same, as is that of parts (1) and (4). In Gothic verbs with no
+ablaut difference between present and preterite the root vowel may be a, ē, ō, ái, or áu.
+The only ablaut alternation is ē : ō, though the former also develops to ai before a
+vowel, as in saian 'sow' (pret. saisō), waian ‘blow'. In NWGmc. the following alterna-
+tions (A-E) are attested:
+type parts
+OIcel.
+OE
+OFris.
+OS
+OHG
+A
+(1, 4)
+á
+8
+ē
+ā
+ā
+(2, 3)
+é
+ē
+ē⁹
+ē
+ia¹0
+B
+(1, 4)
+ó
+ō, uo
+uo
+(2, 3)
+é11
+ēo
+io
+io
+C
+(1, 4)
+ei
+ā
+ē
+ei
+(2, 3)
+é
+ē
+ē
+ia¹0
+D
+(1, 4)
+au12
+ēa
+ā
+ou 13
+(2,3)
+jó
+ēo
+ē, iō¹4
+eo, io, ia
+eo, io, ia, ie
+Verbs with PGmc. *a in the root show a considerable variety of ablaut patterns, as illus-
+trated by some representative verbs, OS haldan 'hold', fallan 'fall', blandan 'mix',
+spannan 'link', fahan ‘catch' (< PGmc. *faŋxana"") and cognates:"		
+alignment-fall-kroonen-nasal-preform	Kroonen2013	125-126	166	1	499	509	*pehзl-né-	623a6dbd5245f8e19e411e3c26fc54989f6cb500871b730a4497204dec5f54b1	"126
+*falljan-
+The strong verb synchronically functions as an o-grade intensive verb,
+but arose as a univerbation of the adverb *h2pó 'off' (for which see *fane)
+and the PIE root *hзelh₁- 'to fall' (Praust 2005; Neri 2007), cf. Hitt. hallannai
+~hallanniianzi 'to trample down, flatten' and Gr. Őλuμi. The Germanic form
+requires the reconstruction of a nasal suffix in view of the root-final double
+1. In order to arrive at PGm. *fallan- from Pre-Gm. *pehзl-n-é-, we must
+therefore assume that a form *pehзl-né- gave *palné- under Osthoff's law
+and subsequently *falle- under Kluge's law. See also *falljan-.
+*falljan- w.v. 'to fell'
+-
+ON fella w.v. 'id.', Far. fella w.v. 'id.', Elfd. fella s.v.
+'id.', OE fiellan w.v. 'id.', E to fell, OFri. fella w.v. 'id.', OS fellian w.v. ‘id.', Du.
+vellen w.v. 'id.', OHG fellan w.v. 'id.', G fällen w.v. ‘id.' (DRV).
+The causative to *fallan- (q.v.).
+*falōn- f. 'plain'
+-
+OSw. fala f. 'id.', Sw. fala 'id.' *polh2-eh2- (IE) - OCS
+polje, Ru. póle, SCr. pölje n. 'field' < *polh₂-io-.
+Derived from the PIE root *pelh₂- 'flat', for which see *fulmō-.
+*falban- s.v. 'to fold, ply' - Go. falban s.v. 'id.', ON falda s.v. 'to hood one-
+self, Far. falda w.v. 'to put on clothes', Elfd. folda w.v. 'to hem, seam', OE
+fealdan s.v. 'to fold', E to fold, WFri. fâldzje w.v. 'id.', MDu. volden w.v. 'id.',
+Du. vouwen s./w.v. 'id.', OHG faldan, faltan s.v. 'id.', G falten w.v. 'id.' ⇒
+*pól-t-e- (IE) — Cf. Gr. ɩλó, dɩлλous adj. 'twofold', Lat. duplus adj. ‘dou-
+ble, twofold' <*dui-plo-; Arm. hat 'time' < *pol-o-(?).
+An o-grade intensive verb. The Pre-Gm. root-final *t appears to be suffix-
+al. Also cf. MDu. volde, Du. vouw, MHG valte, G Falte f. 'fold' < *faldō- and Go.
+ain-falps, ON ein-faldr, OE ăn-feald, OFri., OS en-fald, OHG ein-fald adj. 'sim-
+ple' <*-falda-.
+*faluda- m. 'pen(?)' - Da. fold m. 'enclosure, pasture', OE fald, falod, falud
+m. 'fold, stable', E fold, OS faled m. 'id.', MDu. vaelde, vaelt m. 'enclosure,
+yard; dunghill', Du. mest-vaalt c. 'dunghill' (GM).
+A word with an original meaning 'enclosure', possibly related to 'board'
+and esp. OE fala ‘tabula' < *falan- (q.v.). The word contains the *-uda- suffix
+that also occurs in e.g. OS rakud m. 'house', OE ræced n. 'house, hall' <
+*rakuda-. Theoretically, it could be the zero grade of the PIE root *ued""- 'to
+bind, tie' (for which see *wedan-), but this is uncertain.
+*falwa- adj. 'pale' - ON folr adj. 'id.', OE fealo adj. 'id.', E fallow, OS falu adj.
+'fallow, yellow', Du. vaal adj. 'faded, drab', OHG falo adj. 'fallow, yellow', G
+falb adj. 'fallow, dun' *pol-uo- (IE) - Lat. pullus adj. 'drab-colored, som-
+⇒
+bre', Lith. palvas adj. 'light yellow, straw-colored', OCS plav adj. 'white', Ru.
+polóvyj, polovój adj. 'pale yellow, sandy', SCr. plâv adj. 'blond, blue' <"		
+alignment-fall-kroonen-osthoff-output	Kroonen2013	125-126	166	1	515	522	*palné-	623a6dbd5245f8e19e411e3c26fc54989f6cb500871b730a4497204dec5f54b1	"126
+*falljan-
+The strong verb synchronically functions as an o-grade intensive verb,
+but arose as a univerbation of the adverb *h2pó 'off' (for which see *fane)
+and the PIE root *hзelh₁- 'to fall' (Praust 2005; Neri 2007), cf. Hitt. hallannai
+~hallanniianzi 'to trample down, flatten' and Gr. Őλuμi. The Germanic form
+requires the reconstruction of a nasal suffix in view of the root-final double
+1. In order to arrive at PGm. *fallan- from Pre-Gm. *pehзl-n-é-, we must
+therefore assume that a form *pehзl-né- gave *palné- under Osthoff's law
+and subsequently *falle- under Kluge's law. See also *falljan-.
+*falljan- w.v. 'to fell'
+-
+ON fella w.v. 'id.', Far. fella w.v. 'id.', Elfd. fella s.v.
+'id.', OE fiellan w.v. 'id.', E to fell, OFri. fella w.v. 'id.', OS fellian w.v. ‘id.', Du.
+vellen w.v. 'id.', OHG fellan w.v. 'id.', G fällen w.v. ‘id.' (DRV).
+The causative to *fallan- (q.v.).
+*falōn- f. 'plain'
+-
+OSw. fala f. 'id.', Sw. fala 'id.' *polh2-eh2- (IE) - OCS
+polje, Ru. póle, SCr. pölje n. 'field' < *polh₂-io-.
+Derived from the PIE root *pelh₂- 'flat', for which see *fulmō-.
+*falban- s.v. 'to fold, ply' - Go. falban s.v. 'id.', ON falda s.v. 'to hood one-
+self, Far. falda w.v. 'to put on clothes', Elfd. folda w.v. 'to hem, seam', OE
+fealdan s.v. 'to fold', E to fold, WFri. fâldzje w.v. 'id.', MDu. volden w.v. 'id.',
+Du. vouwen s./w.v. 'id.', OHG faldan, faltan s.v. 'id.', G falten w.v. 'id.' ⇒
+*pól-t-e- (IE) — Cf. Gr. ɩλó, dɩлλous adj. 'twofold', Lat. duplus adj. ‘dou-
+ble, twofold' <*dui-plo-; Arm. hat 'time' < *pol-o-(?).
+An o-grade intensive verb. The Pre-Gm. root-final *t appears to be suffix-
+al. Also cf. MDu. volde, Du. vouw, MHG valte, G Falte f. 'fold' < *faldō- and Go.
+ain-falps, ON ein-faldr, OE ăn-feald, OFri., OS en-fald, OHG ein-fald adj. 'sim-
+ple' <*-falda-.
+*faluda- m. 'pen(?)' - Da. fold m. 'enclosure, pasture', OE fald, falod, falud
+m. 'fold, stable', E fold, OS faled m. 'id.', MDu. vaelde, vaelt m. 'enclosure,
+yard; dunghill', Du. mest-vaalt c. 'dunghill' (GM).
+A word with an original meaning 'enclosure', possibly related to 'board'
+and esp. OE fala ‘tabula' < *falan- (q.v.). The word contains the *-uda- suffix
+that also occurs in e.g. OS rakud m. 'house', OE ræced n. 'house, hall' <
+*rakuda-. Theoretically, it could be the zero grade of the PIE root *ued""- 'to
+bind, tie' (for which see *wedan-), but this is uncertain.
+*falwa- adj. 'pale' - ON folr adj. 'id.', OE fealo adj. 'id.', E fallow, OS falu adj.
+'fallow, yellow', Du. vaal adj. 'faded, drab', OHG falo adj. 'fallow, yellow', G
+falb adj. 'fallow, dun' *pol-uo- (IE) - Lat. pullus adj. 'drab-colored, som-
+⇒
+bre', Lith. palvas adj. 'light yellow, straw-colored', OCS plav adj. 'white', Ru.
+polóvyj, polovój adj. 'pale yellow, sandy', SCr. plâv adj. 'blond, blue' <"		
+alignment-fall-kroonen-kluge-output	Kroonen2013	125-126	166	1	560	567	*falle-	623a6dbd5245f8e19e411e3c26fc54989f6cb500871b730a4497204dec5f54b1	"126
+*falljan-
+The strong verb synchronically functions as an o-grade intensive verb,
+but arose as a univerbation of the adverb *h2pó 'off' (for which see *fane)
+and the PIE root *hзelh₁- 'to fall' (Praust 2005; Neri 2007), cf. Hitt. hallannai
+~hallanniianzi 'to trample down, flatten' and Gr. Őλuμi. The Germanic form
+requires the reconstruction of a nasal suffix in view of the root-final double
+1. In order to arrive at PGm. *fallan- from Pre-Gm. *pehзl-n-é-, we must
+therefore assume that a form *pehзl-né- gave *palné- under Osthoff's law
+and subsequently *falle- under Kluge's law. See also *falljan-.
+*falljan- w.v. 'to fell'
+-
+ON fella w.v. 'id.', Far. fella w.v. 'id.', Elfd. fella s.v.
+'id.', OE fiellan w.v. 'id.', E to fell, OFri. fella w.v. 'id.', OS fellian w.v. ‘id.', Du.
+vellen w.v. 'id.', OHG fellan w.v. 'id.', G fällen w.v. ‘id.' (DRV).
+The causative to *fallan- (q.v.).
+*falōn- f. 'plain'
+-
+OSw. fala f. 'id.', Sw. fala 'id.' *polh2-eh2- (IE) - OCS
+polje, Ru. póle, SCr. pölje n. 'field' < *polh₂-io-.
+Derived from the PIE root *pelh₂- 'flat', for which see *fulmō-.
+*falban- s.v. 'to fold, ply' - Go. falban s.v. 'id.', ON falda s.v. 'to hood one-
+self, Far. falda w.v. 'to put on clothes', Elfd. folda w.v. 'to hem, seam', OE
+fealdan s.v. 'to fold', E to fold, WFri. fâldzje w.v. 'id.', MDu. volden w.v. 'id.',
+Du. vouwen s./w.v. 'id.', OHG faldan, faltan s.v. 'id.', G falten w.v. 'id.' ⇒
+*pól-t-e- (IE) — Cf. Gr. ɩλó, dɩлλous adj. 'twofold', Lat. duplus adj. ‘dou-
+ble, twofold' <*dui-plo-; Arm. hat 'time' < *pol-o-(?).
+An o-grade intensive verb. The Pre-Gm. root-final *t appears to be suffix-
+al. Also cf. MDu. volde, Du. vouw, MHG valte, G Falte f. 'fold' < *faldō- and Go.
+ain-falps, ON ein-faldr, OE ăn-feald, OFri., OS en-fald, OHG ein-fald adj. 'sim-
+ple' <*-falda-.
+*faluda- m. 'pen(?)' - Da. fold m. 'enclosure, pasture', OE fald, falod, falud
+m. 'fold, stable', E fold, OS faled m. 'id.', MDu. vaelde, vaelt m. 'enclosure,
+yard; dunghill', Du. mest-vaalt c. 'dunghill' (GM).
+A word with an original meaning 'enclosure', possibly related to 'board'
+and esp. OE fala ‘tabula' < *falan- (q.v.). The word contains the *-uda- suffix
+that also occurs in e.g. OS rakud m. 'house', OE ræced n. 'house, hall' <
+*rakuda-. Theoretically, it could be the zero grade of the PIE root *ued""- 'to
+bind, tie' (for which see *wedan-), but this is uncertain.
+*falwa- adj. 'pale' - ON folr adj. 'id.', OE fealo adj. 'id.', E fallow, OS falu adj.
+'fallow, yellow', Du. vaal adj. 'faded, drab', OHG falo adj. 'fallow, yellow', G
+falb adj. 'fallow, dun' *pol-uo- (IE) - Lat. pullus adj. 'drab-colored, som-
+⇒
+bre', Lith. palvas adj. 'light yellow, straw-colored', OCS plav adj. 'white', Ru.
+polóvyj, polovój adj. 'pale yellow, sandy', SCr. plâv adj. 'blond, blue' <"		
+alignment-fall-fulk-infinitive	Fulk2018	290	307	1	185	192	feallan	5ed23af47a926cae92389ff6c36e45452a0b41206756f8f7ce318147ddf2efdf	"290
+A Comparative Grammar of the Early Germanic Languages
+type part OIcel.
+OE
+OFris.
+OS
+OHG
+E1
+(1)
+halda
+healdan
+halda
+haldan
+haltan
+(2)
+helt
+hēold
+hēld/hild
+held
+hialt
+72
+E2
+(1)
+falla
+feallan
+falla
+fallan
+fallan
+(2)
+fell
+feol(1)
+fōl
+fell
+fial
+E3
+(1)
+blanda
+blandan
+blandan
+blantan
+(2)
+blett
+blēnd
+blend
+bliant
+E4
+(1)
+spannan
+(bonna) 15
+spannan
+spannan
+(2)
+spēon(n)
+(bēn)
+spenn
+spian
+E5
+(1)
+ganga
+gangan
+gunga 16
+gangan
+gangan
+(2)
+gekk
+geong
+gēng (ī, o)
+geng
+giang
+E6
+(1)
+fá
+fōn
+fa(n)
+fahan
+fahan
+(2)
+fekk
+feng
+fēng/fing
+feng
+fiang
+The most striking irregularity is that whereas OE and OHG consistently (or almost so in
+the former case) show a long vowel or a diphthong in the pret., OIcel. and OS seem to
+contradict this pattern. OFris. appears to agree with OE and OHG, but the quantity of its
+preterite vowels is not universally agreed upon; spellings like (hild), (ging), and (fing)
+must result from an etymological long vowel. In Olcel. there is shortening of vowels in
+closed syllables (§4.9); in OS there is likewise shortening before geminates, and prob-
+ably before other consonant clusters (Holthausen 1921: §108 Anm. 1). Thus, there is no
+obstacle to assuming original long vowels in the preterites of type E1-6, whereas the
+assumption of an original short vowel requires much analogical intervention to produce
+the attested forms of OE, OFris., and OHG. 17
+1. This verb acquired a weak pret. early, but similar preterites were reformed by analogy to other verbs of
+this class, e.g. analogical laug ‘lied' beside earlier ló.
+2. OHG pp. girohhan is an innovation: Go. wrikans, OIcel. rekinn, OE wrecen plainly belong to class V.
+3. To OHG pp. gitroffan cf. OIcel. drepinn, whereas OE has both drepen and dropen. A verb such as Go.
+brikan (brak, brēkun, brukans) 'break' should be expected originally to have shown the alternation e ~ ~0~!>
+PGmc. e~a~ur (i.e., with pp. *burkanaz), and doubtless Ringe (2017: 102-3) is right that ur was changed to
+ru because in all other forms in the paradigm the vowel followed rather than preceded r. There is sometimes
+assumed instead a stem *bhreg- (so Pokorny 1959-69: I, 165) to account for, e.g., the equivalence of PGmc.
+*bruk- and Lat. frag- (as in fragilis), but *bhreĝ- is not a plausible PIE form, since there is no reasonable way
+to explain why it is not *bhrg-. Rather, Latin has innovated the same way Gmc. has (note that r gives or in
+Lat.), on the basis of frangō 'break' and related forms.
+4. Go. aú in the pp. in the given paradigm is due to lowering of u before r (§4.5); the normal vowel of the
+pp. is u, as in trudans 'trodden'.
+5. The long vowel in Latin could be due to reduplication in the perfect *he-h₁od- (in alternation with *he-
+hd-; see Szemerényi 1996: §9.4.3b) to the root h₁ed-, or it could have arisen by analogy to long-vowel perfects
+like vēnī (Sihler 1995: §487). Another possibility is that it results from a stem with augment, i.e. *h,e-h₁ed-,
+though the augment is otherwise unattested, or not securely attested, in either Latin or Germanic. Analogy to
+the plural (so Prokosch 1939: §59b n. 6), or to the long-vowel preterites of class VI, is also a possibility, al-
+though the motivation seems weak.
+6. Cf. Lat. capiō, faciō, and see §12.19.
+7.
+Also ā in -āh-< PGmc. *-aŋx- (§4.1), as in fahan ‘seize' and hāhan 'hang'.
+8. Non-WS ē (§4.6), as in lētan ‘let', rēdan ‘advise'.
+9. But 7 in the Rüstring texts (§1.17). The situation in OFris. is thus normally like that in non-WS OE, with
+no contrast between pres. and pret. vocalism in verbs with ē in the present.
+10. Also (e, ea, ie). See §3.5.
+11. For expected jó: see §12.20. The only attested example is the verb blóta 'sacrifice'."		
+alignment-fall-fulk-preterite	Fulk2018	290	307	1	222	229	feol(1)	5ed23af47a926cae92389ff6c36e45452a0b41206756f8f7ce318147ddf2efdf	"290
+A Comparative Grammar of the Early Germanic Languages
+type part OIcel.
+OE
+OFris.
+OS
+OHG
+E1
+(1)
+halda
+healdan
+halda
+haldan
+haltan
+(2)
+helt
+hēold
+hēld/hild
+held
+hialt
+72
+E2
+(1)
+falla
+feallan
+falla
+fallan
+fallan
+(2)
+fell
+feol(1)
+fōl
+fell
+fial
+E3
+(1)
+blanda
+blandan
+blandan
+blantan
+(2)
+blett
+blēnd
+blend
+bliant
+E4
+(1)
+spannan
+(bonna) 15
+spannan
+spannan
+(2)
+spēon(n)
+(bēn)
+spenn
+spian
+E5
+(1)
+ganga
+gangan
+gunga 16
+gangan
+gangan
+(2)
+gekk
+geong
+gēng (ī, o)
+geng
+giang
+E6
+(1)
+fá
+fōn
+fa(n)
+fahan
+fahan
+(2)
+fekk
+feng
+fēng/fing
+feng
+fiang
+The most striking irregularity is that whereas OE and OHG consistently (or almost so in
+the former case) show a long vowel or a diphthong in the pret., OIcel. and OS seem to
+contradict this pattern. OFris. appears to agree with OE and OHG, but the quantity of its
+preterite vowels is not universally agreed upon; spellings like (hild), (ging), and (fing)
+must result from an etymological long vowel. In Olcel. there is shortening of vowels in
+closed syllables (§4.9); in OS there is likewise shortening before geminates, and prob-
+ably before other consonant clusters (Holthausen 1921: §108 Anm. 1). Thus, there is no
+obstacle to assuming original long vowels in the preterites of type E1-6, whereas the
+assumption of an original short vowel requires much analogical intervention to produce
+the attested forms of OE, OFris., and OHG. 17
+1. This verb acquired a weak pret. early, but similar preterites were reformed by analogy to other verbs of
+this class, e.g. analogical laug ‘lied' beside earlier ló.
+2. OHG pp. girohhan is an innovation: Go. wrikans, OIcel. rekinn, OE wrecen plainly belong to class V.
+3. To OHG pp. gitroffan cf. OIcel. drepinn, whereas OE has both drepen and dropen. A verb such as Go.
+brikan (brak, brēkun, brukans) 'break' should be expected originally to have shown the alternation e ~ ~0~!>
+PGmc. e~a~ur (i.e., with pp. *burkanaz), and doubtless Ringe (2017: 102-3) is right that ur was changed to
+ru because in all other forms in the paradigm the vowel followed rather than preceded r. There is sometimes
+assumed instead a stem *bhreg- (so Pokorny 1959-69: I, 165) to account for, e.g., the equivalence of PGmc.
+*bruk- and Lat. frag- (as in fragilis), but *bhreĝ- is not a plausible PIE form, since there is no reasonable way
+to explain why it is not *bhrg-. Rather, Latin has innovated the same way Gmc. has (note that r gives or in
+Lat.), on the basis of frangō 'break' and related forms.
+4. Go. aú in the pp. in the given paradigm is due to lowering of u before r (§4.5); the normal vowel of the
+pp. is u, as in trudans 'trodden'.
+5. The long vowel in Latin could be due to reduplication in the perfect *he-h₁od- (in alternation with *he-
+hd-; see Szemerényi 1996: §9.4.3b) to the root h₁ed-, or it could have arisen by analogy to long-vowel perfects
+like vēnī (Sihler 1995: §487). Another possibility is that it results from a stem with augment, i.e. *h,e-h₁ed-,
+though the augment is otherwise unattested, or not securely attested, in either Latin or Germanic. Analogy to
+the plural (so Prokosch 1939: §59b n. 6), or to the long-vowel preterites of class VI, is also a possibility, al-
+though the motivation seems weak.
+6. Cf. Lat. capiō, faciō, and see §12.19.
+7.
+Also ā in -āh-< PGmc. *-aŋx- (§4.1), as in fahan ‘seize' and hāhan 'hang'.
+8. Non-WS ē (§4.6), as in lētan ‘let', rēdan ‘advise'.
+9. But 7 in the Rüstring texts (§1.17). The situation in OFris. is thus normally like that in non-WS OE, with
+no contrast between pres. and pret. vocalism in verbs with ē in the present.
+10. Also (e, ea, ie). See §3.5.
+11. For expected jó: see §12.20. The only attested example is the verb blóta 'sacrifice'."		
+alignment-fall-rt-ws	RingeTaylor2014	185-186	200	2	72	79	feallan	4aeffd47c3de1ae0395f3629ce534e4847dcb4ff64e0638612a310a6f8c79169	"PNWGmc *fallana ‘to fall’ (ON falla, OS, OHG fallan) > *feellan > WS OE feallan,
+Merc. fallan, North. falla (OF falla);"		
+alignment-fare-fulk-infinitive	Fulk2018	289	306	1	1050	1055	faran	f8537119c9ff8ad46bb238dc55103fee89ab9b3f3742e0e2b682cec877fc036f	"§12.31 The strong classes in the individual languages 289
+An irregularity is that the pret. sg. of PGmc. *etana"" ‘eat' is *ēt (and so also *fra-ēt to
+*fra-etana"" 'devour'), which, like Lat. perf. ēdī, is subject to various interpretations.5
+The cognates of Go. giban 'give' show a number of variants: in OE there is diphthong-
+ization by initial palatal consonant in EWS giefan (so also in be-gietan ‘acquire', on-
+gietan 'perceive'), whereas some forms in other dialects may show back mutation,
+hence geofan; Old West Frisian shows a variety of phonological and analogical devel-
+opments (see Bremmer 2009: §135); and giban appears beside geban in OS.
+Class VI, PGmc. (1) a, (2) ō, (3) ō, (4) a: On the origin of the ablaut pattern in
+this class, see §12.15. The present stem ends in a single consonant unless the verb
+reflects a PIE derived stem (§12.3), as with OE standan ‘stand', wæcnan ‘awake',
+wæscan 'wash', hebban ‘raise', etc. The ablaut pattern may be illustrated by the
+principal parts of Go. faran 'go' and cognates:
+(1)
+(2)
+(3)
+(4)
+Go.
+faran
+for
+fōrun
+farans
+OIcel.
+fara
+fór
+fóru
+farinn
+OE
+faran
+fōr
+fōron
+faren
+OFris.
+fara
+for
+fören
+faren, ferin
+OS
+faran
+for, fuor
+forun, fuorun
+OHG
+faran
+fuor
+fuorun
+gifaran
+gifaran
+Weak presents are numerous in this class.6 Go. standan 'stand' and cognates have the n-
+infix only in the present stem (see §12.3), and similarly, OE wæcnan 'awake' loses the
+n-suffix in pret. wōc, wōcon (no strong pp. attested). In OIcel., verbs with a stem-final
+velar (palatal) consonant have palatal mutation in the pp. (§4.7), e.g. tekinn <*takinaz,
+to taka 'take'. Also in Olcel., vaða has pret. óð, óðu (§6.14, later vóð, vóðu by analogy
+to the rest of the paradigm); similarly vaxa 'grow'. OE weaxan 'grow' has usually the
+ablaut pattern of a verb of class VII, but the Gmc. cognates (Go. wahsjan, Olcel. vaxa,
+etc.) belong to class VI (see Flasdieck 1936: 343). The pp. in OFris. may or may not
+show umlaut. On ō/uo in the OS pret., see §4.15.
+Class VII shows various ablaut patterns in Gmc., but as in class VI, the vocalism
+of parts (2) and (3) is the same, as is that of parts (1) and (4). In Gothic verbs with no
+ablaut difference between present and preterite the root vowel may be a, ē, ō, ái, or áu.
+The only ablaut alternation is ē : ō, though the former also develops to ai before a
+vowel, as in saian 'sow' (pret. saisō), waian ‘blow'. In NWGmc. the following alterna-
+tions (A-E) are attested:
+type parts
+OIcel.
+OE
+OFris.
+OS
+OHG
+A
+(1, 4)
+á
+8
+ē
+ā
+ā
+(2, 3)
+é
+ē
+ē⁹
+ē
+ia¹0
+B
+(1, 4)
+ó
+ō, uo
+uo
+(2, 3)
+é11
+ēo
+io
+io
+C
+(1, 4)
+ei
+ā
+ē
+ei
+(2, 3)
+é
+ē
+ē
+ia¹0
+D
+(1, 4)
+au12
+ēa
+ā
+ou 13
+(2,3)
+jó
+ēo
+ē, iō¹4
+eo, io, ia
+eo, io, ia, ie
+Verbs with PGmc. *a in the root show a considerable variety of ablaut patterns, as illus-
+trated by some representative verbs, OS haldan 'hold', fallan 'fall', blandan 'mix',
+spannan 'link', fahan ‘catch' (< PGmc. *faŋxana"") and cognates:"		
+alignment-fare-fulk-past-singular	Fulk2018	289	306	1	1110	1113	fōr	f8537119c9ff8ad46bb238dc55103fee89ab9b3f3742e0e2b682cec877fc036f	"§12.31 The strong classes in the individual languages 289
+An irregularity is that the pret. sg. of PGmc. *etana"" ‘eat' is *ēt (and so also *fra-ēt to
+*fra-etana"" 'devour'), which, like Lat. perf. ēdī, is subject to various interpretations.5
+The cognates of Go. giban 'give' show a number of variants: in OE there is diphthong-
+ization by initial palatal consonant in EWS giefan (so also in be-gietan ‘acquire', on-
+gietan 'perceive'), whereas some forms in other dialects may show back mutation,
+hence geofan; Old West Frisian shows a variety of phonological and analogical devel-
+opments (see Bremmer 2009: §135); and giban appears beside geban in OS.
+Class VI, PGmc. (1) a, (2) ō, (3) ō, (4) a: On the origin of the ablaut pattern in
+this class, see §12.15. The present stem ends in a single consonant unless the verb
+reflects a PIE derived stem (§12.3), as with OE standan ‘stand', wæcnan ‘awake',
+wæscan 'wash', hebban ‘raise', etc. The ablaut pattern may be illustrated by the
+principal parts of Go. faran 'go' and cognates:
+(1)
+(2)
+(3)
+(4)
+Go.
+faran
+for
+fōrun
+farans
+OIcel.
+fara
+fór
+fóru
+farinn
+OE
+faran
+fōr
+fōron
+faren
+OFris.
+fara
+for
+fören
+faren, ferin
+OS
+faran
+for, fuor
+forun, fuorun
+OHG
+faran
+fuor
+fuorun
+gifaran
+gifaran
+Weak presents are numerous in this class.6 Go. standan 'stand' and cognates have the n-
+infix only in the present stem (see §12.3), and similarly, OE wæcnan 'awake' loses the
+n-suffix in pret. wōc, wōcon (no strong pp. attested). In OIcel., verbs with a stem-final
+velar (palatal) consonant have palatal mutation in the pp. (§4.7), e.g. tekinn <*takinaz,
+to taka 'take'. Also in Olcel., vaða has pret. óð, óðu (§6.14, later vóð, vóðu by analogy
+to the rest of the paradigm); similarly vaxa 'grow'. OE weaxan 'grow' has usually the
+ablaut pattern of a verb of class VII, but the Gmc. cognates (Go. wahsjan, Olcel. vaxa,
+etc.) belong to class VI (see Flasdieck 1936: 343). The pp. in OFris. may or may not
+show umlaut. On ō/uo in the OS pret., see §4.15.
+Class VII shows various ablaut patterns in Gmc., but as in class VI, the vocalism
+of parts (2) and (3) is the same, as is that of parts (1) and (4). In Gothic verbs with no
+ablaut difference between present and preterite the root vowel may be a, ē, ō, ái, or áu.
+The only ablaut alternation is ē : ō, though the former also develops to ai before a
+vowel, as in saian 'sow' (pret. saisō), waian ‘blow'. In NWGmc. the following alterna-
+tions (A-E) are attested:
+type parts
+OIcel.
+OE
+OFris.
+OS
+OHG
+A
+(1, 4)
+á
+8
+ē
+ā
+ā
+(2, 3)
+é
+ē
+ē⁹
+ē
+ia¹0
+B
+(1, 4)
+ó
+ō, uo
+uo
+(2, 3)
+é11
+ēo
+io
+io
+C
+(1, 4)
+ei
+ā
+ē
+ei
+(2, 3)
+é
+ē
+ē
+ia¹0
+D
+(1, 4)
+au12
+ēa
+ā
+ou 13
+(2,3)
+jó
+ēo
+ē, iō¹4
+eo, io, ia
+eo, io, ia, ie
+Verbs with PGmc. *a in the root show a considerable variety of ablaut patterns, as illus-
+trated by some representative verbs, OS haldan 'hold', fallan 'fall', blandan 'mix',
+spannan 'link', fahan ‘catch' (< PGmc. *faŋxana"") and cognates:"		
+alignment-fare-fulk-past-plural	Fulk2018	289	306	1	1114	1119	fōron	f8537119c9ff8ad46bb238dc55103fee89ab9b3f3742e0e2b682cec877fc036f	"§12.31 The strong classes in the individual languages 289
+An irregularity is that the pret. sg. of PGmc. *etana"" ‘eat' is *ēt (and so also *fra-ēt to
+*fra-etana"" 'devour'), which, like Lat. perf. ēdī, is subject to various interpretations.5
+The cognates of Go. giban 'give' show a number of variants: in OE there is diphthong-
+ization by initial palatal consonant in EWS giefan (so also in be-gietan ‘acquire', on-
+gietan 'perceive'), whereas some forms in other dialects may show back mutation,
+hence geofan; Old West Frisian shows a variety of phonological and analogical devel-
+opments (see Bremmer 2009: §135); and giban appears beside geban in OS.
+Class VI, PGmc. (1) a, (2) ō, (3) ō, (4) a: On the origin of the ablaut pattern in
+this class, see §12.15. The present stem ends in a single consonant unless the verb
+reflects a PIE derived stem (§12.3), as with OE standan ‘stand', wæcnan ‘awake',
+wæscan 'wash', hebban ‘raise', etc. The ablaut pattern may be illustrated by the
+principal parts of Go. faran 'go' and cognates:
+(1)
+(2)
+(3)
+(4)
+Go.
+faran
+for
+fōrun
+farans
+OIcel.
+fara
+fór
+fóru
+farinn
+OE
+faran
+fōr
+fōron
+faren
+OFris.
+fara
+for
+fören
+faren, ferin
+OS
+faran
+for, fuor
+forun, fuorun
+OHG
+faran
+fuor
+fuorun
+gifaran
+gifaran
+Weak presents are numerous in this class.6 Go. standan 'stand' and cognates have the n-
+infix only in the present stem (see §12.3), and similarly, OE wæcnan 'awake' loses the
+n-suffix in pret. wōc, wōcon (no strong pp. attested). In OIcel., verbs with a stem-final
+velar (palatal) consonant have palatal mutation in the pp. (§4.7), e.g. tekinn <*takinaz,
+to taka 'take'. Also in Olcel., vaða has pret. óð, óðu (§6.14, later vóð, vóðu by analogy
+to the rest of the paradigm); similarly vaxa 'grow'. OE weaxan 'grow' has usually the
+ablaut pattern of a verb of class VII, but the Gmc. cognates (Go. wahsjan, Olcel. vaxa,
+etc.) belong to class VI (see Flasdieck 1936: 343). The pp. in OFris. may or may not
+show umlaut. On ō/uo in the OS pret., see §4.15.
+Class VII shows various ablaut patterns in Gmc., but as in class VI, the vocalism
+of parts (2) and (3) is the same, as is that of parts (1) and (4). In Gothic verbs with no
+ablaut difference between present and preterite the root vowel may be a, ē, ō, ái, or áu.
+The only ablaut alternation is ē : ō, though the former also develops to ai before a
+vowel, as in saian 'sow' (pret. saisō), waian ‘blow'. In NWGmc. the following alterna-
+tions (A-E) are attested:
+type parts
+OIcel.
+OE
+OFris.
+OS
+OHG
+A
+(1, 4)
+á
+8
+ē
+ā
+ā
+(2, 3)
+é
+ē
+ē⁹
+ē
+ia¹0
+B
+(1, 4)
+ó
+ō, uo
+uo
+(2, 3)
+é11
+ēo
+io
+io
+C
+(1, 4)
+ei
+ā
+ē
+ei
+(2, 3)
+é
+ē
+ē
+ia¹0
+D
+(1, 4)
+au12
+ēa
+ā
+ou 13
+(2,3)
+jó
+ēo
+ē, iō¹4
+eo, io, ia
+eo, io, ia, ie
+Verbs with PGmc. *a in the root show a considerable variety of ablaut patterns, as illus-
+trated by some representative verbs, OS haldan 'hold', fallan 'fall', blandan 'mix',
+spannan 'link', fahan ‘catch' (< PGmc. *faŋxana"") and cognates:"		
+alignment-fare-fulk-participle	Fulk2018	289	306	1	1120	1125	faren	f8537119c9ff8ad46bb238dc55103fee89ab9b3f3742e0e2b682cec877fc036f	"§12.31 The strong classes in the individual languages 289
+An irregularity is that the pret. sg. of PGmc. *etana"" ‘eat' is *ēt (and so also *fra-ēt to
+*fra-etana"" 'devour'), which, like Lat. perf. ēdī, is subject to various interpretations.5
+The cognates of Go. giban 'give' show a number of variants: in OE there is diphthong-
+ization by initial palatal consonant in EWS giefan (so also in be-gietan ‘acquire', on-
+gietan 'perceive'), whereas some forms in other dialects may show back mutation,
+hence geofan; Old West Frisian shows a variety of phonological and analogical devel-
+opments (see Bremmer 2009: §135); and giban appears beside geban in OS.
+Class VI, PGmc. (1) a, (2) ō, (3) ō, (4) a: On the origin of the ablaut pattern in
+this class, see §12.15. The present stem ends in a single consonant unless the verb
+reflects a PIE derived stem (§12.3), as with OE standan ‘stand', wæcnan ‘awake',
+wæscan 'wash', hebban ‘raise', etc. The ablaut pattern may be illustrated by the
+principal parts of Go. faran 'go' and cognates:
+(1)
+(2)
+(3)
+(4)
+Go.
+faran
+for
+fōrun
+farans
+OIcel.
+fara
+fór
+fóru
+farinn
+OE
+faran
+fōr
+fōron
+faren
+OFris.
+fara
+for
+fören
+faren, ferin
+OS
+faran
+for, fuor
+forun, fuorun
+OHG
+faran
+fuor
+fuorun
+gifaran
+gifaran
+Weak presents are numerous in this class.6 Go. standan 'stand' and cognates have the n-
+infix only in the present stem (see §12.3), and similarly, OE wæcnan 'awake' loses the
+n-suffix in pret. wōc, wōcon (no strong pp. attested). In OIcel., verbs with a stem-final
+velar (palatal) consonant have palatal mutation in the pp. (§4.7), e.g. tekinn <*takinaz,
+to taka 'take'. Also in Olcel., vaða has pret. óð, óðu (§6.14, later vóð, vóðu by analogy
+to the rest of the paradigm); similarly vaxa 'grow'. OE weaxan 'grow' has usually the
+ablaut pattern of a verb of class VII, but the Gmc. cognates (Go. wahsjan, Olcel. vaxa,
+etc.) belong to class VI (see Flasdieck 1936: 343). The pp. in OFris. may or may not
+show umlaut. On ō/uo in the OS pret., see §4.15.
+Class VII shows various ablaut patterns in Gmc., but as in class VI, the vocalism
+of parts (2) and (3) is the same, as is that of parts (1) and (4). In Gothic verbs with no
+ablaut difference between present and preterite the root vowel may be a, ē, ō, ái, or áu.
+The only ablaut alternation is ē : ō, though the former also develops to ai before a
+vowel, as in saian 'sow' (pret. saisō), waian ‘blow'. In NWGmc. the following alterna-
+tions (A-E) are attested:
+type parts
+OIcel.
+OE
+OFris.
+OS
+OHG
+A
+(1, 4)
+á
+8
+ē
+ā
+ā
+(2, 3)
+é
+ē
+ē⁹
+ē
+ia¹0
+B
+(1, 4)
+ó
+ō, uo
+uo
+(2, 3)
+é11
+ēo
+io
+io
+C
+(1, 4)
+ei
+ā
+ē
+ei
+(2, 3)
+é
+ē
+ē
+ia¹0
+D
+(1, 4)
+au12
+ēa
+ā
+ou 13
+(2,3)
+jó
+ēo
+ē, iō¹4
+eo, io, ia
+eo, io, ia, ie
+Verbs with PGmc. *a in the root show a considerable variety of ablaut patterns, as illus-
+trated by some representative verbs, OS haldan 'hold', fallan 'fall', blandan 'mix',
+spannan 'link', fahan ‘catch' (< PGmc. *faŋxana"") and cognates:"		
+alignment-fare-rt-2sg	RingeTaylor2014	351	366	19	9	15	feerst	8694ead1e562148a5223b32f1de62eb85359f168abc19266d2976bded4992ef7	faran __ feerst, foerd ~ feered —, geondfered feeres, feered		
+alignment-fare-rt-3sg	RingeTaylor2014	351	366	19	17	22	foerd	8694ead1e562148a5223b32f1de62eb85359f168abc19266d2976bded4992ef7	faran __ feerst, foerd ~ feered —, geondfered feeres, feered		
+alignment-fast-orel-fasting	Orel2003	94-95	133	1	3011	3020	*fastēnan	25409e11f2722c7b516e44807e8c91e2fb50129162dcf6a7152061b8cb8eb0ca	"farnan
+*farnan sb.n.: OE fearn 'fern', MLG farn
+id., OHG farn id. Related to phonetically
+diverging IE words for 'fern': Gk лτέpiç
+id., Alb fier id. < PAlb *sper(n)a, OIr
+raith id. (<*prati-), Lith papártis id.,
+Slav *paportь id. Further connected with
+and exactly corresponding formally to Skt
+parṇá 'wing', Av parǝna- id. BARTHO-
+LOMAE 869-870; PEDERSEN Kelt. Gr. I 91;
+TORP-FALK 234; HOLTHAUSEN AEEW 99;
+POKORNY I 826; FRAENKEL 538; FRISK
+II 611; ONIONS 351; KLUGE-SEEBOLD
+249-250; OREL AED 96.
+*farō sb.f.: ON for ‘journey', OE faru id.,
+OFries fera id., MHG far id. Derived from
+*faranan. TORP-Falk 229; HOLTHAUSEN
+AEEW 98; VRIES ANEW 151; ONIONS
+345; SEEBOLD 187; BAMMESBERGER Nom.
+107.
+*farōn sb.m.: ON -fari 'sea-farer', OE 3e-
+fara 'companion', OFris rum-fara ‘pilgrim,
+traveler to Rome', OHG -faro 'traveler'.
+Derived from *faranan. Identical with
+Toch B akwam-pere ‘sprout and stalk' <
+*porom. HOLTHAUSEN AEEW 98; VRIES
+ANEW 112; SEEBOLD 187; BAMMESBERGER
+Nom. 176; ADAMS TB 5.
+*farzōn sb.m.: ON farri ‘bullock', OE fearr
+‘bull, ox' (from *farzaz), MLG varre id.,
+OHG farro id. Deverbative based on IE
+*pers: Skt pŕsan 'spotted', Tokh AB pärs-
+'to sprinkle'. For the semantic develop-
+ment cf. Latv vepris ‘boar', Slav *vерrú id.
+~
+Skt vápati 'to throw (out), to eject, to
+excrete'. PAUL WUS XX 38; OSTHOFF
+PBB XX 90-91 (to Skt pṛthuka- 'boy,
+young of an animal', Arm ort ‘calf');
+TORP-FALK 235; HOLTHAUSEN AEEW
+99; MARTINET Gém. 178; MAYRHOFER II
+336; POKORNY I 818, 823; TRUBACHEV
+Zhiv. 42-43 (to Slav *porz 'bull, hog' <
+*porso-); VRIES ANEW 112; ZALIZNIAK II
+195; BAMMESBERGER Nom. 50; KLUGE-
+SEEBOLD 250.
+*fas(u)laz sb.m.: ON fosull brood', OE
+fasl 'offspring, progeny' (masc. or neut.?),
+MLG vasel 'mature bull', OHG fasal
+'offspring, progeny, kin' (neut.). Con-
+nected with Skt neut. pásas- ‘membrum
+94
+fastēnan
+virile', Gk лéoç id., Lat penis id. < *pes-
+ni-s (GRIMM apud AUFRECHT KZ I 288).
+Torp-Falk 239; Holthausen AEEW 96;
+WALDE-HOFMANN II 281; MAYRHOFER II
+241; POKORNY I 824; ZALIZNIAK II 167;
+FRISK II 507; KLUGE-SEEBOLD 250–251.
+*fasta-xalđaz adj.: ON fast-haldr 'fast-
+holding', OE fæst-heald 'firmly fixed'.
+Compound of *fastaz and *xalđaz (see
+*xaldanan). CARR Nom. comp. 63.
+*fasta-līkaz adj.: ON fast-ligr 'strong,
+fast', OE fæst-lic 'firm', OHG fast-līh
+‘solid, firm, safe'. Derived from *fastaz.
+HEIDERMANNS 192.
+*fastaz adj.: Burg *fastis 'fast, firm', ON
+fastr id., OE fæst id., OFris fest id., OS fast
+id., OHG fasto id. identical with Arm
+hast 'firm' (HÜBSCHMANN ASt I 38; SOLTA
+Arm. 439-440), probably from *po-stH-o-
+‘standing firm' based on *stā- ‘to stand,
+to set'. KARSTEN NB II 373-374;
+UHLENBECK PBB XX 328 (to Skt pastya-
+'dwelling, abode'); TORP-FALK 239; FEIST
+143-144; HOLTHAUSEN AEEW 96;
+POKORNY I 789; CHEMODANOV SGGJa I
+107; VRIES ANEW 113; ONIONS 346; DE
+LAMBERTERIE Sprache XXVI 133-144 (to
+Hitt pahs to protect', Slav *pasti ‘to pas-
+ture'); LEHMANN GED 109–110; SEEBOLD
+Festschr. Rosenfeld 499–503; KÖBLER 710;
+HEIDERMANNS 192-193; KLUGE-SEEBOLD
+260-261.
+*fastēnan wk.vb.: Goth fastan 'to hold
+fast, to fast', ON fasta ‘to fast', OE fæstian
+'to entrust, to commit', OFris festia 'to
+fast', OS festian 'to strengthen', OHG
+fasten 'to fast'. Derived from *fastaz. The
+semantic development from 'keeping,
+observing' to 'fasting' is explained by
+calquing Lat (ieiūnium) observāre (WESSÉN
+ANF XLIV 104-105: ON < OE; VELTEN
+JEGP XXIX 502-503). Torp-Falk
+239; FEIST 143–144; Falk ANF XLI 116;
+HÖFFLER ANF XLVII 285 (ON < MLG
+vasten); PISANI AGIt LVI 19–28 (the cultic
+meaning of *fastēnan is based on Lat sta-
+tio); LAMBERTERIE Sprache XXVI 139–144
+(from IE *pā-); VRIES ANEW 113; ONIONS
+346; MAZZUOLI PORRU AGI LVI 19-"		
+alignment-father-fulk-plural	Fulk2018	174-175	191	1	769	778	fæd(e)ras	3330898fbd0b2a3040d55443f327fd9c4d67251405b15bc6bbce8ec7e08b2c69	"174
+A Comparative Grammar of the Early Germanic Languages
+The other nouns in this class are Go. fadar 'father' (once, in the voc., beside usual atta),
+*mōdar 'mother',¹ daúhtar 'daughter', 2 swistar 'sister', and their cognates.³ Note Runic
+swestar on the (probably) 5th-century Norwegian Opedal stone. Beside OIcel. dat. sg.
+foður 'father' there occurs the (probably more original) by-form feðr, which may be
+extended to the acc. and reformed in gen. feðrs; foður itself is then probably analogical
+to the gen. acc. sg. (Gutenbrunner 1951: 104). In OHG, muoter is inflected like bruoder,
+but fater has nom. acc. pl. fateră, and there develop alternative forms modeled on the a-
+stems, gen. sg. fateres, dat. fatere. Similarly, OE fæder always has a-stem nom. acc. pl.
+fæd(e)ras, and analogical gen. sg. fæd(e)res occurs not infrequently. Umlaut is usually
+missing from dat. sg. fæder, but cf. Northumbrian feder beside fæder; conversely,
+umlaut may be extended to cases in which it is not etymological, as in Mercian gen. sg.
+dochter (spelt with (oe)). OE mōdor has always nom. acc. pl. mōdru or mōdra, and the
+variation suggests that the origin of the inflection is in a collective neuter plural (see
+Hogg & Fulk 2011: §2.93), as PGmc. acc. pl. *-unz should have been lost (otherwise
+Boutkan 1995b: 275). The lack of umlaut in nom. pl. brōþor (as opposed to dat. sg.
+brēber) is unexpected.4 Of particular interest is Mercian gen. sg. feadur, Northumbrian
+-fadur, fador, on which see $7.36.
+1. Go. áipei is used instead of *mōdar, which is entirely unattested, but which is reconstructible from related
+forms. According to Prokosch (1939: §85), and as might be expected from the vocalism, *mōdar (as well as
+OE mōdor, OS mōdar, OHG muoter; OIcel. móðir is ambiguous) derives from PIE *mátēr, with root accent
+throughout (cf. Gk. µýτηp, Lith. mótė, but cf. Pokorny 1959–69: II, 700), and the apparent effect of Verner's
+law (§6.6) is thus to be attributed to analogy to fadar; cf. Skt. mātár- beside pitár-.
+2. Go. aú in daúhtar is due to the following h (§4.5), whereas o in NWGmc. *dohter- is due to lowering of u
+before the following mid vowel (§4.3; the etymon is PIE *dhug (h)ḥter-, as in Gk. Ovyáτηp), with compensa-
+tory lengthening upon loss of /x/ in Olcel. dóttir (§4.9).
+3. The OHG words swehur 'father-in-law', swigar ‘mother-in-law', swāgur 'brother-in-law', zeihhur 'hus-
+band's brother' and their cognates are not inflected as r-stems. On the intrusive consonant in zeihhur (cf. Skt.
+dēvár-, Gk. Sanp), see Fulk 1993b: 341–2.
+4. It cannot be due to full grade of the stem suffix in PGmc. *brōþer-iz, with early loss of i in a third syllable
+(as in dat. pl. *-miz, §5.2 n. 7, §7.8), unless it is assumed that e was not raised to i before *-ri- (§§4.4, 5.5).
+Umlaut is lacking in the plural throughout WGmc.; the umlaut in NHG Väter, Mütter, Brüder, Töchter is
+modern and analogical. Umlaut is found in all the NGmc. forms, however: feðr, mæðr, bræðr, dotr.
+7.36 Origin and development of r-stem inflections
+In PIE at least 'father' had a regular alternation between strong and weak cases (§7.4),
+with shift of accent between stem and inflection, as in Greek acc. sg. лατépα ‘father',
+gen. лατрóç. In Go. and Olcel. the weak stem has been extended to all cases but the
+nom. and acc. sg., whereas in WGmc. it is the strong stem that prevails. If it is assumed
+that alternation in the place of the accent occurred in all these words, not just 'father', it
+must be supposed that the consequent alternations in voicing under Verner's law (§6.6)
+have been leveled away.
+Nom. sg. *brōpēr (< PIE *bhrātēr< *bhrāter-s) may be assumed for PGmc.
+This would explain OHG bruoder, though the stem *brōper- of the acc. and voc. would
+produce the same result if extended analogically to the nominative.¹ The usual assump-
+tion is that in Go. brōþar, *-ēr has resulted in -ar (§5.3), and that *-ēr also explains
+Olcel. -ir as well as early Runic swestar, assuming that (a) stands for /æ:/, which later
+developed to /e/ in the unstressed syllable, still later merging with /i/. Alternatively,"		
+alignment-father-fulk-genitive	Fulk2018	174-175	191	1	804	813	fæd(e)res	3330898fbd0b2a3040d55443f327fd9c4d67251405b15bc6bbce8ec7e08b2c69	"174
+A Comparative Grammar of the Early Germanic Languages
+The other nouns in this class are Go. fadar 'father' (once, in the voc., beside usual atta),
+*mōdar 'mother',¹ daúhtar 'daughter', 2 swistar 'sister', and their cognates.³ Note Runic
+swestar on the (probably) 5th-century Norwegian Opedal stone. Beside OIcel. dat. sg.
+foður 'father' there occurs the (probably more original) by-form feðr, which may be
+extended to the acc. and reformed in gen. feðrs; foður itself is then probably analogical
+to the gen. acc. sg. (Gutenbrunner 1951: 104). In OHG, muoter is inflected like bruoder,
+but fater has nom. acc. pl. fateră, and there develop alternative forms modeled on the a-
+stems, gen. sg. fateres, dat. fatere. Similarly, OE fæder always has a-stem nom. acc. pl.
+fæd(e)ras, and analogical gen. sg. fæd(e)res occurs not infrequently. Umlaut is usually
+missing from dat. sg. fæder, but cf. Northumbrian feder beside fæder; conversely,
+umlaut may be extended to cases in which it is not etymological, as in Mercian gen. sg.
+dochter (spelt with (oe)). OE mōdor has always nom. acc. pl. mōdru or mōdra, and the
+variation suggests that the origin of the inflection is in a collective neuter plural (see
+Hogg & Fulk 2011: §2.93), as PGmc. acc. pl. *-unz should have been lost (otherwise
+Boutkan 1995b: 275). The lack of umlaut in nom. pl. brōþor (as opposed to dat. sg.
+brēber) is unexpected.4 Of particular interest is Mercian gen. sg. feadur, Northumbrian
+-fadur, fador, on which see $7.36.
+1. Go. áipei is used instead of *mōdar, which is entirely unattested, but which is reconstructible from related
+forms. According to Prokosch (1939: §85), and as might be expected from the vocalism, *mōdar (as well as
+OE mōdor, OS mōdar, OHG muoter; OIcel. móðir is ambiguous) derives from PIE *mátēr, with root accent
+throughout (cf. Gk. µýτηp, Lith. mótė, but cf. Pokorny 1959–69: II, 700), and the apparent effect of Verner's
+law (§6.6) is thus to be attributed to analogy to fadar; cf. Skt. mātár- beside pitár-.
+2. Go. aú in daúhtar is due to the following h (§4.5), whereas o in NWGmc. *dohter- is due to lowering of u
+before the following mid vowel (§4.3; the etymon is PIE *dhug (h)ḥter-, as in Gk. Ovyáτηp), with compensa-
+tory lengthening upon loss of /x/ in Olcel. dóttir (§4.9).
+3. The OHG words swehur 'father-in-law', swigar ‘mother-in-law', swāgur 'brother-in-law', zeihhur 'hus-
+band's brother' and their cognates are not inflected as r-stems. On the intrusive consonant in zeihhur (cf. Skt.
+dēvár-, Gk. Sanp), see Fulk 1993b: 341–2.
+4. It cannot be due to full grade of the stem suffix in PGmc. *brōþer-iz, with early loss of i in a third syllable
+(as in dat. pl. *-miz, §5.2 n. 7, §7.8), unless it is assumed that e was not raised to i before *-ri- (§§4.4, 5.5).
+Umlaut is lacking in the plural throughout WGmc.; the umlaut in NHG Väter, Mütter, Brüder, Töchter is
+modern and analogical. Umlaut is found in all the NGmc. forms, however: feðr, mæðr, bræðr, dotr.
+7.36 Origin and development of r-stem inflections
+In PIE at least 'father' had a regular alternation between strong and weak cases (§7.4),
+with shift of accent between stem and inflection, as in Greek acc. sg. лατépα ‘father',
+gen. лατрóç. In Go. and Olcel. the weak stem has been extended to all cases but the
+nom. and acc. sg., whereas in WGmc. it is the strong stem that prevails. If it is assumed
+that alternation in the place of the accent occurred in all these words, not just 'father', it
+must be supposed that the consequent alternations in voicing under Verner's law (§6.6)
+have been leveled away.
+Nom. sg. *brōpēr (< PIE *bhrātēr< *bhrāter-s) may be assumed for PGmc.
+This would explain OHG bruoder, though the stem *brōper- of the acc. and voc. would
+produce the same result if extended analogically to the nominative.¹ The usual assump-
+tion is that in Go. brōþar, *-ēr has resulted in -ar (§5.3), and that *-ēr also explains
+Olcel. -ir as well as early Runic swestar, assuming that (a) stands for /æ:/, which later
+developed to /e/ in the unstressed syllable, still later merging with /i/. Alternatively,"		
+alignment-father-fulk-anglian-genitive	Fulk2018	174-175	191	1	1436	1442	feadur	3330898fbd0b2a3040d55443f327fd9c4d67251405b15bc6bbce8ec7e08b2c69	"174
+A Comparative Grammar of the Early Germanic Languages
+The other nouns in this class are Go. fadar 'father' (once, in the voc., beside usual atta),
+*mōdar 'mother',¹ daúhtar 'daughter', 2 swistar 'sister', and their cognates.³ Note Runic
+swestar on the (probably) 5th-century Norwegian Opedal stone. Beside OIcel. dat. sg.
+foður 'father' there occurs the (probably more original) by-form feðr, which may be
+extended to the acc. and reformed in gen. feðrs; foður itself is then probably analogical
+to the gen. acc. sg. (Gutenbrunner 1951: 104). In OHG, muoter is inflected like bruoder,
+but fater has nom. acc. pl. fateră, and there develop alternative forms modeled on the a-
+stems, gen. sg. fateres, dat. fatere. Similarly, OE fæder always has a-stem nom. acc. pl.
+fæd(e)ras, and analogical gen. sg. fæd(e)res occurs not infrequently. Umlaut is usually
+missing from dat. sg. fæder, but cf. Northumbrian feder beside fæder; conversely,
+umlaut may be extended to cases in which it is not etymological, as in Mercian gen. sg.
+dochter (spelt with (oe)). OE mōdor has always nom. acc. pl. mōdru or mōdra, and the
+variation suggests that the origin of the inflection is in a collective neuter plural (see
+Hogg & Fulk 2011: §2.93), as PGmc. acc. pl. *-unz should have been lost (otherwise
+Boutkan 1995b: 275). The lack of umlaut in nom. pl. brōþor (as opposed to dat. sg.
+brēber) is unexpected.4 Of particular interest is Mercian gen. sg. feadur, Northumbrian
+-fadur, fador, on which see $7.36.
+1. Go. áipei is used instead of *mōdar, which is entirely unattested, but which is reconstructible from related
+forms. According to Prokosch (1939: §85), and as might be expected from the vocalism, *mōdar (as well as
+OE mōdor, OS mōdar, OHG muoter; OIcel. móðir is ambiguous) derives from PIE *mátēr, with root accent
+throughout (cf. Gk. µýτηp, Lith. mótė, but cf. Pokorny 1959–69: II, 700), and the apparent effect of Verner's
+law (§6.6) is thus to be attributed to analogy to fadar; cf. Skt. mātár- beside pitár-.
+2. Go. aú in daúhtar is due to the following h (§4.5), whereas o in NWGmc. *dohter- is due to lowering of u
+before the following mid vowel (§4.3; the etymon is PIE *dhug (h)ḥter-, as in Gk. Ovyáτηp), with compensa-
+tory lengthening upon loss of /x/ in Olcel. dóttir (§4.9).
+3. The OHG words swehur 'father-in-law', swigar ‘mother-in-law', swāgur 'brother-in-law', zeihhur 'hus-
+band's brother' and their cognates are not inflected as r-stems. On the intrusive consonant in zeihhur (cf. Skt.
+dēvár-, Gk. Sanp), see Fulk 1993b: 341–2.
+4. It cannot be due to full grade of the stem suffix in PGmc. *brōþer-iz, with early loss of i in a third syllable
+(as in dat. pl. *-miz, §5.2 n. 7, §7.8), unless it is assumed that e was not raised to i before *-ri- (§§4.4, 5.5).
+Umlaut is lacking in the plural throughout WGmc.; the umlaut in NHG Väter, Mütter, Brüder, Töchter is
+modern and analogical. Umlaut is found in all the NGmc. forms, however: feðr, mæðr, bræðr, dotr.
+7.36 Origin and development of r-stem inflections
+In PIE at least 'father' had a regular alternation between strong and weak cases (§7.4),
+with shift of accent between stem and inflection, as in Greek acc. sg. лατépα ‘father',
+gen. лατрóç. In Go. and Olcel. the weak stem has been extended to all cases but the
+nom. and acc. sg., whereas in WGmc. it is the strong stem that prevails. If it is assumed
+that alternation in the place of the accent occurred in all these words, not just 'father', it
+must be supposed that the consequent alternations in voicing under Verner's law (§6.6)
+have been leveled away.
+Nom. sg. *brōpēr (< PIE *bhrātēr< *bhrāter-s) may be assumed for PGmc.
+This would explain OHG bruoder, though the stem *brōper- of the acc. and voc. would
+produce the same result if extended analogically to the nominative.¹ The usual assump-
+tion is that in Go. brōþar, *-ēr has resulted in -ar (§5.3), and that *-ēr also explains
+Olcel. -ir as well as early Runic swestar, assuming that (a) stands for /æ:/, which later
+developed to /e/ in the unstressed syllable, still later merging with /i/. Alternatively,"		
+alignment-father-fulk-dative	Fulk2018	174-175	191	1	907	912	feder	3330898fbd0b2a3040d55443f327fd9c4d67251405b15bc6bbce8ec7e08b2c69	"174
+A Comparative Grammar of the Early Germanic Languages
+The other nouns in this class are Go. fadar 'father' (once, in the voc., beside usual atta),
+*mōdar 'mother',¹ daúhtar 'daughter', 2 swistar 'sister', and their cognates.³ Note Runic
+swestar on the (probably) 5th-century Norwegian Opedal stone. Beside OIcel. dat. sg.
+foður 'father' there occurs the (probably more original) by-form feðr, which may be
+extended to the acc. and reformed in gen. feðrs; foður itself is then probably analogical
+to the gen. acc. sg. (Gutenbrunner 1951: 104). In OHG, muoter is inflected like bruoder,
+but fater has nom. acc. pl. fateră, and there develop alternative forms modeled on the a-
+stems, gen. sg. fateres, dat. fatere. Similarly, OE fæder always has a-stem nom. acc. pl.
+fæd(e)ras, and analogical gen. sg. fæd(e)res occurs not infrequently. Umlaut is usually
+missing from dat. sg. fæder, but cf. Northumbrian feder beside fæder; conversely,
+umlaut may be extended to cases in which it is not etymological, as in Mercian gen. sg.
+dochter (spelt with (oe)). OE mōdor has always nom. acc. pl. mōdru or mōdra, and the
+variation suggests that the origin of the inflection is in a collective neuter plural (see
+Hogg & Fulk 2011: §2.93), as PGmc. acc. pl. *-unz should have been lost (otherwise
+Boutkan 1995b: 275). The lack of umlaut in nom. pl. brōþor (as opposed to dat. sg.
+brēber) is unexpected.4 Of particular interest is Mercian gen. sg. feadur, Northumbrian
+-fadur, fador, on which see $7.36.
+1. Go. áipei is used instead of *mōdar, which is entirely unattested, but which is reconstructible from related
+forms. According to Prokosch (1939: §85), and as might be expected from the vocalism, *mōdar (as well as
+OE mōdor, OS mōdar, OHG muoter; OIcel. móðir is ambiguous) derives from PIE *mátēr, with root accent
+throughout (cf. Gk. µýτηp, Lith. mótė, but cf. Pokorny 1959–69: II, 700), and the apparent effect of Verner's
+law (§6.6) is thus to be attributed to analogy to fadar; cf. Skt. mātár- beside pitár-.
+2. Go. aú in daúhtar is due to the following h (§4.5), whereas o in NWGmc. *dohter- is due to lowering of u
+before the following mid vowel (§4.3; the etymon is PIE *dhug (h)ḥter-, as in Gk. Ovyáτηp), with compensa-
+tory lengthening upon loss of /x/ in Olcel. dóttir (§4.9).
+3. The OHG words swehur 'father-in-law', swigar ‘mother-in-law', swāgur 'brother-in-law', zeihhur 'hus-
+band's brother' and their cognates are not inflected as r-stems. On the intrusive consonant in zeihhur (cf. Skt.
+dēvár-, Gk. Sanp), see Fulk 1993b: 341–2.
+4. It cannot be due to full grade of the stem suffix in PGmc. *brōþer-iz, with early loss of i in a third syllable
+(as in dat. pl. *-miz, §5.2 n. 7, §7.8), unless it is assumed that e was not raised to i before *-ri- (§§4.4, 5.5).
+Umlaut is lacking in the plural throughout WGmc.; the umlaut in NHG Väter, Mütter, Brüder, Töchter is
+modern and analogical. Umlaut is found in all the NGmc. forms, however: feðr, mæðr, bræðr, dotr.
+7.36 Origin and development of r-stem inflections
+In PIE at least 'father' had a regular alternation between strong and weak cases (§7.4),
+with shift of accent between stem and inflection, as in Greek acc. sg. лατépα ‘father',
+gen. лατрóç. In Go. and Olcel. the weak stem has been extended to all cases but the
+nom. and acc. sg., whereas in WGmc. it is the strong stem that prevails. If it is assumed
+that alternation in the place of the accent occurred in all these words, not just 'father', it
+must be supposed that the consequent alternations in voicing under Verner's law (§6.6)
+have been leveled away.
+Nom. sg. *brōpēr (< PIE *bhrātēr< *bhrāter-s) may be assumed for PGmc.
+This would explain OHG bruoder, though the stem *brōper- of the acc. and voc. would
+produce the same result if extended analogically to the nominative.¹ The usual assump-
+tion is that in Go. brōþar, *-ēr has resulted in -ar (§5.3), and that *-ēr also explains
+Olcel. -ir as well as early Runic swestar, assuming that (a) stands for /æ:/, which later
+developed to /e/ in the unstressed syllable, still later merging with /i/. Alternatively,"		
+alignment-father-rt-donor	RingeTaylor2014	385-386	401	2	589	594	fadur	504583dcb57e8c437ccdf13760c740354af039fddb08e2f03b324151daacea5d	"levelling of *-uz- at the expense of *-iz-); but post-PWGmc rhotacism and OE
+syncope and apocope should have reduced such an ending to -r, and the u of -
+ur would then have to be epenthetic (cf. Boutkan 1992: 19, Hogg and Fulk
+2011: 59-60 with references). Moreover, levelling of *-i- (or of i-umlaut) from
+the oblique cases of the singular into the nom.-acc. sg., followed by levelling of
+*-u- (or of lack of i-umlaut) from the plural into the gen., dat. sg., is an inherently
+unlikely scenario. It is perhaps worth asking whether gen. sg. calfur has somehow
+acquired the ending of Angl. fadur (Hogg and Fulk 2011: 60, §2.99 n. 2 ad fin.; see
+7.2.2), though how that could have happened is not immediately apparent. The
+other Anglian noun of which we have enough forms to compare them with ‘calf’
+is lomb ‘lamb’, which usually inflects like ‘calf’ (early Merc. (Ps(A)) lomb, pl.
+nom.-acc. lombur ~ lomberu, gen. lo[m]bra; so also in the late North. of Li,
+modulo phonological details), but without the awkward i-umlaut in the nom.-
+acc. sg.—though the late North. of Rit has nom.-acc. sg. lomb ~ lemb, gen. sg.
+lombes. It seems doubtful that further conclusions can be drawn in the absence of
+further evidence. In particular, the attempt to reconstruct a similar paradigm
+from late North. d@g and poetic dogor, both ‘day’ (Brunner 1965: 233, Hogg and
+Fulk 2011: 58) and both inflected as normal a-stems, should be treated with
+caution. (I do not find the solution of Boutkan 1992 convincing.)"		

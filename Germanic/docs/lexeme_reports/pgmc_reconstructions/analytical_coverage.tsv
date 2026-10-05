@@ -64,14 +64,14 @@ row_id	status	comparison_ids	alignment_status	alignment_case_ids
 1995	reviewed	core-1995	bounded_limit	core-1995
 1996	reviewed	core-1996	bounded_limit	core-1996
 1997	reviewed	core-1997	bounded_limit	core-1997
-1998	reviewed	core-1998	unreviewed	
-1999	reviewed	core-1999	unreviewed	
-2000	reviewed	core-2000	unreviewed	
-2001	reviewed	core-2001	unreviewed	
-2002	reviewed	core-2002	unreviewed	
-2003	reviewed	core-2003	unreviewed	
-2004	reviewed	core-2004	unreviewed	
-2005	reviewed	core-2005	unreviewed	
+1998	reviewed	core-1998	bounded_limit	core-1998
+1999	reviewed	core-1999	bounded_limit	core-1999
+2000	reviewed	core-2000	bounded_limit	core-2000
+2001	reviewed	core-2001	bounded_limit	core-2001
+2002	reviewed	core-2002	bounded_limit	core-2002
+2003	reviewed	core-2003	bounded_limit	core-2003
+2004	reviewed	core-2004	bounded_limit	core-2004
+2005	reviewed	core-2005	bounded_limit	core-2005
 2006	reviewed	core-2006	unreviewed	
 2007	reviewed	core-2007	unreviewed	
 2008	reviewed	core-2008	unreviewed	

@@ -10,11 +10,11 @@ new publication remain subsequent work.
 
 Current held-source reading covers the relevant three comparative accounts:
 192 Ringe,137 Fulk and255 Ringe-Taylor consultations, separately from
-393 applicability screens per source. The database contains4297 evidence
-records,1379 actual consultations,4409 positions,406 comparisons and127
+393 applicability screens per source. The database contains4323 evidence
+records,1379 actual consultations,4439 positions,408 comparisons and141
 rationales. The fully verified reading gate still refuses the named
 Ringe-Taylor convention/typography gap; full feature alignment and
-explanation remain ongoing:65 core rows are bounded and328 unreviewed.
+explanation remain ongoing:73 core rows are bounded and320 unreviewed.
 Earlier measurements below are checkpoint
 history, not current totals or an exhaustive-library workload.
 
@@ -1209,6 +1209,176 @@ citation relation for drink but only a family relation for the drench noun.
 The explanatory distinctions do not license new corpus choices, stages,
 prosodic contexts, laws, chronology edges or baselines. The full alignment,
 class census, synthesis, specialist dispatch and publication remain unfinished.
+
+## Ninth alignment tranche: drive, earth, eat, eel, fall, fare, fast and father
+
+All146 inherited positions for1998-2005 are individually reconciled.
+Twenty-three literal receipts and three processes add26 evidence records
+to existing consultations; four focused positions reuse evidence and
+fourteen rationales separate source support from explanations of divergence.
+Twenty SOURCE amendments preserve the old annotation beside the corrected
+reading. There are176 tranche positions linked to172 distinct records.
+Current totals are4323 evidence records,1379 consultations,4439 positions,
+408 comparisons and141 rationales;73 core rows are bounded and320
+unreviewed. These are alignment and evidence denominators, not percentages
+of historically resolved disagreements.
+
+### Drive: cognate admissibility, not merely alternative spellings
+
+Both dictionaries give long-ī drive citations, but their external
+connections differ. Orel connects the verb with Lithuanian falling
+in flakes and uses a snow-drift versus thickly falling snow comparison
+to make the semantic bridge concrete [@Orel2003, p.76].
+Kroonen acknowledges the attractive Baltic connection, reports Seebold's
+objection to its narrow semantic basis, and adds the more important
+possibility that Baltic *i* is secondary zero grade beside the long-vowel
+verb. He instead prefers Irish/Gaelic 'bustle, hurry', while retaining
+the controversy about PIE *bh-n* yielding Celtic *pp*
+[@Kroonen2013, p.103].
+
+The focused disagreement is therefore about which comparison is
+admissible, on both semantic and phonological grounds. Its explanatory
+connection is CAPR's bounded inference from the two accounts; Kroonen
+does not explicitly rebut Orel. Neither the shared drive vowel nor
+the preference for Celtic removes the unresolved cluster premise
+[@Orel2003, p.76; @Kroonen2013, p.103].
+The cause of the whole-row reconstruction difference remains
+unestablished; no new external cognate has been admitted to the corpus.
+
+Ringe's *drībaną* is an explicit PGmc basic verb. His *draibijaną*
+belongs to the separately discussed intensives/iteratives that differ
+little in meaning from their bases, not simply to the preceding
+causatives. His warning that transitivity can obscure the distinction
+remains part of the evidence [@Ringe2017, pp.135,282-283].
+Both the inherited argument and the misleading causative cell label are
+corrected with old/new receipts; the stable evidence identifier does
+not become a historical classification. No date for the derived
+endpoint is supplied merely by its chapter.
+
+Ringe-Taylor's drive discussion concerns another level of analysis.
+The prehistoric second- and third-singular endings support syncope
+before apocope; the postposed-pronoun alternative is rejected as
+insufficient, and the reported Fulk2010 claim that syncope and umlaut
+leveling must go together is challenged
+[@RingeTaylor2014, pp.292-293].
+This is a reading of Ringe-Taylor's report, not a new original
+consultation of Fulk2010. Actual finite *drifst* and source-native
+*drifp* remain separate from the infinitive and preterite/participle
+principal parts; heavy-stem and dialect comparisons do not establish
+another PGmc citation [@RingeTaylor2014, pp.347,349-351].
+The earlier offer/command annotation on this drive table is corrected.
+Likewise, Ringe-Taylor treats the relevant Verner alternation as
+eliminated by sound change, not automatically by analogical leveling
+[@RingeTaylor2014, p.342].
+
+### Fall: segmentation and the explanation of gemination
+
+Orel gives two deeper possibilities, a nasal-suffixed *pol-n-* or
+unsuffixed *pol-*, with Armenian and Baltic comparisons
+[@Orel2003, p.91]. Kroonen proposes a different segmentation:
+univerbation of 'off' with 'fall'. Although the verb is synchronically
+an o-grade intensive, the historical derivation is not exhausted by
+that label. A nasal suffix is required to explain double *l*;
+Osthoff shortening precedes the Kluge development in his proposed
+chain [@Kroonen2013, pp.125-126].
+The new literal evidence preserves the held transcription's
+*pehзl-né-*, *palné-* and *falle-* without converting its laryngeal
+glyph into a newly image-certified notation.
+
+The focused case distinguishes segmentation, formation and the
+chronology invoked to explain gemination. It is again analyst inference,
+not an authored direct rebuttal. Orel expressly permits a nasal suffix;
+it would be false to describe him as rejecting every nasal account,
+or as explicitly denying Kroonen's Osthoff/Kluge sequence
+[@Orel2003, p.91; @Kroonen2013, pp.125-126].
+The comparative segmentation and nasal premises remain questions for
+targeted further evidence. The scholars reported by Kroonen have
+not become newly consulted primary sources.
+
+Fulk's later classVII analysis prefers original long preterites over
+original short vowels requiring extensive analogy, allowing subsequent
+branch shortening. It does not independently adjudicate Kroonen's
+root segmentation [@Fulk2018, pp.289-291].
+His separate infinitive and preterite occurrences retain the literal
+*feol(1)* extraction rather than silently restoring its parenthesized
+glyph. Ringe-Taylor's derivative example contains the metalinguistic
+label *pte* before Northumbrian *falletande*: *pte* is not an
+attested fall word. Its inherited extractor form-kind remains visible
+as history, while argument, cell and false lexical date are corrected
+[@RingeTaylor2014, p.129].
+
+The later breaking/retraction discussion separates West Saxon,
+Mercian and Northumbrian endpoints and considers the Frisian
+comparison without establishing a single shared event
+[@RingeTaylor2014, pp.185-186].
+Those qualifications neither date the original dictionary root nor
+authorize a change to CAPR's required tree or English cascade.
+
+### Eel: a cross-reference correction before an etymological comparison
+
+Orel identifies the eel name historically with his stripe-on-a-horse's-back
+homonym; eater and venom-discharge accounts are bibliography reports,
+not his adopted etymology [@Orel2003, p.87].
+Kroonen calls eel an old fish name and merely suggests a connection
+with the short-a and long-ē awl words [@Kroonen2013, p.116].
+Following the cross-references matters: his *ala(n)-* 'awl' is not
+the adjacent *alan-* 'grow, feed'. The inherited feed/grow annotation
+was wrong and is receipted as a source-reporting correction, not
+an author disagreement [@Kroonen2013, pp.19,116-117].
+
+The short-a awl entry calls its relation to the long-ē awl problematic
+and considers a qualified ablauting-paradigm account versus an
+independent formation with pretonic shortening. The long-ē awl entry
+adds an accent argument. These are premises of the possible awl
+connection, not proof of eel's ultimate origin
+[@Kroonen2013, pp.19,117].
+The database records that bounded process rather than fabricating
+additional authored eel ancestors or an established cause.
+No inherited grammar target for eel means no actual grammar
+consultation, not a negative result in those grammars.
+
+### Remaining paradigm and identity questions
+
+| Row | Source-supported distinction | Exact remaining premise |
+| --- | --- | --- |
+| Earth | Orel's ō headword, OE n antecedent, Nordic i alternative and related gravel noun are distinct. Kroonen quotes a feminine ō citation; Ringe's material adjective and Gothic oblique are not the nominal base. RT explicitly coordinates two PWGmc formations [@Orel2003, p.86; @Kroonen2013, pp.118-119; @Ringe2017, pp.237,326; @RingeTaylor2014, p.182]. | The original selected nominal formation and its paradigm require evidence beyond a shared root. Fulk's Northumbrian *eorðu* and *foldu* accusatives are probable relics, qualified by masculine *galgu*, not mechanically assembled nominatives [@Fulk2018, pp.171-172]. |
+| Eat | Short-e infinitives coexist with long preterites, finite raising and later dialect back umlaut. Orel's Winter lengthening belongs to the Balto-Slavic comparison [@Orel2003, p.86; @Kroonen2013, p.119; @Ringe2017, pp.119,249,256; @RingeTaylor2014, pp.325,348]. | Ringe's probable contraction-before-reduplication-loss account and regular default-stem development must be compared with Fulk's several reduplication, augment and analogy alternatives, not forced into a resolved long-vowel origin [@Ringe2017, pp.210-211; @Fulk2018, pp.257-259,289-290, n.5]. |
+| Fare | The dictionaries' intensive/iterative and external-root accounts are not identical; Orel's Brugmann vowel-donor claim is reported. Secondary classVI preterites have several possible models; older and newer causative types must remain separate [@Orel2003, p.93; @Kroonen2013, p.128; @Ringe2017, pp.210-214,258; @Fulk2018, pp.257-259,289]. | The exact long-preterite model and causative chronology remain qualified. Later English leveling and the proposed learner reanalysis cannot supply a settled PGmc formation or become CAPR's grammatical conditioning [@RingeTaylor2014, pp.195-198,232-233]. |
+| Fast | Selected fastening, fasting stative, secure-fastening derivative, firm adjective and fasting noun are different lexical/formation units. Ringe's *fastāną* is a denominative stative; RT explicitly calls OE fastening originally classI with secondary fasting meaning by lexical confusion [@Orel2003, pp.94-95; @Kroonen2013, p.131; @Ringe2017, pp.288-289; @RingeTaylor2014, pp.95,131,147]. | Distinguish formation from root origin before asking for equivalence. Kroonen's u-stem remodeling and firmness-plus-stand account cannot turn a fasting stative into a fastening j-verb. The core disposition remains different units, not merely unknown spelling. |
+| Father | PIE hysterokinetic ter-stem analysis, long PGmc nominative, short PWGmc suffix and OE replacements are independent. Gothic *fadar* is vocative, not the quoted nominative [@Orel2003, p.88; @Kroonen2013, p.121; @Ringe2017, pp.98,123; @RingeTaylor2014, pp.25,60,147]. | Exact case, strong/weak suffix and original accent premises remain open; Fulk separates a-stem plural/genitive innovations, variable dative umlaut and Anglian genitives, with competing nuclearization accounts [@Fulk2018, pp.173-176,387]. |
+
+Fare's fifty inherited positions require more than one generic citation
+decision. The expected fronted subjunctive and finite cells are
+counterfactual forms under an unlevelled account; remodeled forms
+belong to the source's proposed reanalysis. Metalinguistic *a's*,
+*/a/* and the *lC* environment are not lexical ancestors
+[@RingeTaylor2014, pp.195-198].
+Starred Gothic finite comparanda are not PGmc simply because they
+are reconstructed. The later long-preterite influence on come is
+explicitly possible but not demonstrable; the nearby *ze* belongs
+to groan, not fare [@RingeTaylor2014, pp.232-233,346].
+Actual OE principal parts and finite dialect cells remain separately
+queryable, including native corrupted glyphs
+[@RingeTaylor2014, pp.348,351].
+
+Father's last four inherited suffix records come from the calf
+discussion, not a father paradigm. Ringe-Taylor rejects the suggested
+z-suffix paradigm and regards the two-step i/u leveling account as
+inherently unlikely. He only asks whether the Anglian father form
+*fadur* could have supplied calf's genitive ending and expressly
+leaves the mechanism unexplained [@RingeTaylor2014, pp.385-386].
+The amendments preserve these fragments as comparanda, including
+their rejected or illustrative roles, rather than deleting them
+or turning possible influence into established historical causation.
+
+All eight whole-row explanations remain unestablished. The two
+focused disagreements have stated, cited premises and bounded
+inferred causes; other reasons are position support, not automatic
+inter-author explanations. No corpus choice, input stage/context,
+sound law, chronology edge or scientific baseline is changed.
+The full alignment, source-backed class census, aggregate synthesis,
+consistency watchlist and specialist dispatch remain unfinished;
+this is not a new introduction or publication.
 
 ## Completed Ringe and Fulk readings: distinctions the alignment must preserve
 

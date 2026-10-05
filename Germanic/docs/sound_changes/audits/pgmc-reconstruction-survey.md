@@ -1217,6 +1217,168 @@ new introduction, PDF, new-tranche commit or push is included. The next
 alignment begins1998; the full393-row alignment, class census, aggregate
 explanations, watchlist, specialist dispatch and report remain incomplete.
 
+## Ninth alignment tranche1998-2005: drive through father
+
+### Identity
+
+SC/executable identifier: none. This is a source-faithful research
+alignment, not a new sound-change verdict. Branch/base: update,
+ab7149938b02a0a5d26143b37736c1f98892f610. That eighth-tranche research
+release was committed and pushed under the user's instruction; the remote
+branch was verified equal. The earlier eighth-uncommitted statement
+records its historical closeout. The present ninth tranche is not released.
+
+### Question
+
+Can the inherited citation inventory distinguish different cognate
+admissibility and root formation from finite cells, later stages,
+metalinguistic labels and wrong lexical matches? Exact source
+endorsement and formation/chronology premises can confirm or refute
+each proposed match; similar strings or successful OE outputs cannot.
+
+### Current state before edits
+
+The eight selected rows are drive, earth, eat, eel, fall, fare, fast and
+father, with146 inherited positions. Research starts at4297 forms,
+1379 consultations,4409 positions,406 comparisons and127 rationales.
+Sixty-five core rows are bounded and328 unreviewed. Canonical historical
+registry, production definitions/order, corpus, stage/context sidecars
+and baseline approvals remain unchanged. Existing survey protocol,
+source-method records, current-state routing and prior audit are consulted.
+No executable defect or rule migration is claimed.
+
+### Diagnosis
+
+Firing census, skip/displacement and before/after traces: n/a because
+this tranche changes research tables and source annotations only.
+All146 positions receive individual unit/cell, relation and attribution
+decisions. Actual evidence is classified as selected-cell citation,
+other cell, family, comparandum or process, not as live firing or
+independently established chronology witnesses.
+The actual calf fragments, fasting sense, intensive drive derivative,
+Gothic fare comparanda and participle abbreviation expose false matching;
+dictionary and index headings do not independently date the remaining
+endpoints.
+
+### Literature
+
+Complete relevant entries, arguments, footnotes and needed continuations
+are read at Orel76,86-88,91,93-95; Kroonen19,103,116-119,121,125-126,
+128,131; Ringe98,119,123,135,210-214,237,249,256,258,282-283,
+288-289,326; Fulk171-176,257-259,289-291,387; RT25,60,95,129,131,
+147,167,182,185-186,195-198,232-233,292-293,325,342,346-351,385-386.
+These are printed locators, not sheet-number substitutions.
+Held-text quotations are not new original-image certification.
+Previously checked glyphs and all inherited diplomatic fields remain.
+
+Orel's Baltic drive connection and Kroonen's qualified Celtic preference
+have different semantic and secondary-zero-grade premises
+[@Orel2003, p.76; @Kroonen2013, p.103].
+Orel's alternate pol/nasal roots and Kroonen's off-plus-fall,
+nasal/Osthoff/Kluge account have different segmentation and gemination
+premises [@Orel2003, p.91; @Kroonen2013, pp.125-126].
+Both explanatory connections are bounded analyst inference, not direct
+rebuttal or adopted history.
+
+Ringe's intensive/iterative and stative headings correct actual
+misannotations; his reconstructed stative argument explicitly places the
+type in PGmc, independently of selected fasting/fastening identity
+[@Ringe2017, pp.282-283,288-289].
+Following Kroonen's eel references corrects feeding versus awl:
+the neighboring feeding verb is not the cited short-a awl, whose
+relation to long-ē awl remains problematic
+[@Kroonen2013, pp.19,116-117].
+The selected fastening/fasting and calf/father separations are confirmed
+by complete source context, not gloss matching
+[@Orel2003, pp.94-95; @RingeTaylor2014, pp.95,385-386].
+
+### Historical analysis
+
+Stage and scope are recorded only at the supported unit. RT's earth
+n-stem is explicitly coordinated PWGmc; a dictionary nominal citation
+does not acquire that date [@RingeTaylor2014, p.182].
+Expected fare forms, Gothic predictions, remodeled English cells and
+actual OE principal parts remain distinct
+[@RingeTaylor2014, pp.195-198,232-233,348,351].
+Fulk's short eat infinitive and long preterite are different cells,
+with multiple remaining origin accounts
+[@Fulk2018, pp.257-259,289-290].
+Later fall quantity and breaking histories are not evidence selecting
+the original root segmentation
+[@Fulk2018, pp.289-291; @RingeTaylor2014, pp.185-186].
+
+Chronology edges: none adopted. Source-explicit premises such as
+Kroonen's Osthoff-before-Kluge sequence remain attributed reasoning
+[@Kroonen2013, pp.125-126], not independently promoted canonical edges.
+Author-reported analogy is documented without becoming grammatical
+conditioning in CAPR's own sound laws. Stage, confidence, verification,
+membership and scientific adoption remain independent.
+
+### Verdict
+
+Bounded research alignment, not registry RETAIN or a fabricated SC
+verdict. All eight core causes remain unestablished. Two focused
+disagreements have analyst-inferred explanations and exact comparative
+premises; fourteen new reasons distinguish these from position support.
+Fast retains different units because fasting/adjective citations do
+not quote selected fastening. Specific remaining questions for all
+eight rows are in comparisons.tsv and the page-cited commentary.
+
+### Propagation
+
+Five research SOURCE tables and occurrence/amendment receipts,
+commentary, README and this audit are updated. Twenty-three literal
+receipts and three process records add26 forms; four focused positions
+reuse evidence, bringing the tranche to176 positions/172 distinct
+records. Twenty SOURCE annotations retain old/new values.
+Totals are4323 forms,1379 consultations,4439 positions,408 comparisons
+and141 rationales;73 bounded core rows and320 unreviewed.
+
+Focused controls distinguish intensive/causative, fasting/fastening,
+calf/father, awl/feeding, long preterite/short infinitive, nominal
+formation/accusative, conditional/actual finite cells, Gothic/PGmc,
+metalinguistic/lexical items and direct/inferred explanations.
+Literal receipts reconstruct held paragraphs and verify SHA256 and
+Unicode spans; amendment tests retain exact old/new changes.
+Baseline/fingerprint effects: expected none; final scientific-owner and
+outside-tranche preservation measurements are recorded at closeout.
+No Foma rebuild, protected private assay or PDF is required for
+research-only edits.
+
+Closeout: all163 focused survey/analysis tests pass after the final
+metalinguistic endpoint correction. Repeated read-only queries reproduce
+73 bounded/320 unreviewed core rows,176 tranche positions/172 records,
+two two-source analyst-inferred explanations, eight unestablished
+whole-row causes and fast's different-units disposition. The independent
+alignment gate refuses320 rows; the composite feature/fully verified
+reading gates first refuse the separate RT conventions gap. No gate
+is weakened.
+
+All46 protected scientific hashes are unchanged. All4297 inherited
+evidence field sets are preserved except exactly the20 receipted
+SOURCE annotation changes. All4263 outside-tranche positions,
+398 unaffected comparisons,127 inherited rationales and1345
+outside-tranche consultations are unchanged. Canonical refresh reports
+CONTROL PLANE CLEAN; bibliography, section-locator and whitespace
+checks pass. Analytical notes explicitly label inherited extraction
+claims as historical so the old causative/factitive labels cannot
+compete with reviewed classifications.
+
+The one-use candidate and the later label-correction script are
+historical execution artifacts; never rerun or import either.
+Current tables, receipts and regressions are authoritative.
+The ninth tranche is complete and uncommitted; no new release
+or scientific adoption is included.
+
+### Residue
+
+This tranche does not settle any whole-row historical cause, adopt
+new corpus values, revise the introduction or publish a PDF.
+Full393-row alignment, class census, explanatory synthesis, consistency
+watchlist, ranked specialist dispatch and report remain incomplete.
+The separate RT conventions holding gap remains a completion gate,
+not a reason to fabricate source negatives. Next alignment begins2006.
+
 ## Residue
 
 The prioritized explanatory audit, full feature/paradigm alignment of
