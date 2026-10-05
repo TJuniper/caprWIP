@@ -444,6 +444,216 @@ not source quotations of the selected nominal genitive
 Identical strings therefore cannot erase homonymy, borrowing reservations
 or the distinction between a citation noun and *brandes*.
 
+## Fifth reconciled tranche: paradigms, derivative histories and borrowing
+
+The eight rows1966-1973 retain all73 inherited positions, individually
+matched to their complete entries or arguments. Twenty-four literal
+quotation supplements and four processes add28 evidence records without
+adding a consultation. Thirteen typed reasons and two focused comparisons
+bring the alignment to41 bounded core rows, with352 unreviewed. The
+focuses explain a specific contrast only under stated premises; none
+establishes a whole-row cause or an adopted historical reconstruction.
+All inherited diplomatic/comparison strings, pages, verification,
+confidence, kinds and shared-row links remain unchanged.
+
+### Bread and break: related formations are not interchangeable cells
+
+Both dictionaries connect neuter bread with a *to*-formation of brew.
+That useful agreement does not erase their dental signs, endings or PIE
+derivational notation. Orel's quoted *bruþan* is the broth member of the
+formation family: it has another grade/accent history and meaning, not
+a second selected bread cell. The voiced barred dental in *brauđan*
+and voiceless dental in *bruþan* therefore cannot be collapsed as a
+font convention merely because both belong to this family
+[@Orel2003, pp.54,59; @Kroonen2013, p.74].
+The analytical limit is precise: establish the dental/stress and
+PIE-laryngeal premises, and the actual full ending, before asserting
+whole-word equivalence.
+
+Break provides a particularly important control against inventing
+disagreement from visible strings. Ringe quotes the PGmc principal
+parts *brekaną*, *brak*, *brēkun*, *brukanaz*. Their different grades
+and quantities belong to different cells. His separate *brukinaz*
+is only a possible antecedent of etymologically ambiguous Old Frisian
+*bretsen*, not a corrected adopted PGmc participle
+[@Ringe2017, pp.211,218,272].
+Fulk expects original *burkanaz*, but explicitly agrees with Ringe's
+*ur* to *ru* metathesis: the other paradigm cells place the vowel after
+*r*. He rejects the alternative PIE *bhreĝ-* explanation as
+phonologically implausible and interprets Latin as innovating similarly.
+This argument is in the continuation footnote on printed290, holding
+sheet307; it must not be cited to the earlier opening of class IV
+[@Fulk2018, p.290].
+
+Consequently the starless index *burkanaz* is not evidence that Fulk
+opposes Ringe's final *brukanaz*. The new reason is a descriptive
+antecedent/endpoint bridge, not an inter-author divergence explanation.
+Fulk's related breach noun *brukiz*, beside expected *burkiz*, supplies
+another qualified metathesis-by-analogy argument, not an alternative
+break infinitive [@Fulk2018, pp.53,386].
+RT's present singular *brikizi* and *brikidi* are explicitly PGmc;
+the parenthesized *brikis* is Gothic. The later finite intermediates,
+OE *brics*, and native *bricb*, *bricst*, *bricp* must remain separate
+from the infinitive and past participle. Missing dates and original
+palatal/dental glyphs remain limits rather than being filled from
+the expected history [@RingeTaylor2014, p.295].
+
+### Breast: one original paradigm or a derivative relationship?
+
+Orel separates the full-grade neuter formation from the feminine
+zero-grade counterpart. Kroonen likewise has a neuter a-stem
+*breusta-* and a root noun *brust-*, feminine with a Frisian neuter
+reflex. Their broadly complementary distribution leads him to suggest
+splitting from a single original PGmc paradigm, while expressly leaving
+its reconstruction unclear. His root-noun entry also questions the
+old swell-verb connection, treating the verbal formation as potentially
+secondary [@Orel2003, pp.56,59; @Kroonen2013, pp.76,80].
+
+Ringe allows either inflectional or derivational interpretation, but
+the mostly neuter full-grade versus feminine zero-grade distribution
+suggests to him a basic feminine with a derived neuter collective.
+The Frisian exception remains part of the evidence
+[@Ringe2017, p.223].
+The focused comparison therefore distinguishes preferred analytical
+units and premises, not mutually exclusive dogmas or an explicit
+Ringe rebuttal of Kroonen. Relating complementary distribution and
+gender as the basis of this difference is CAPR's bounded inference.
+Actual original-paradigm or derivative evidence, including the Frisian
+exception, is the remaining question.
+
+RT explicitly dates *breusta* PNWGmc and gives the OE *bréost*
+endpoint. This repairs the former unspecified SOURCE date without
+promoting that citation to PGmc [@RingeTaylor2014, p.174].
+The current corpus's zero-grade citation *brústz*, thematic selected
+input *bréustą*, independent pgmc sidecar and early_analogy
+classification are unchanged. Neither source hypothesis automatically
+adjudicates that classification.
+
+There is also a non-adopting reporting issue in the current breast
+model: its Kroonen114/Orel95 references coincide with holding-sheet
+addresses for the pertinent printed76/56 entries. RT43 is not the
+actual tensing passage174. These are exact locator questions, not
+permission to change the lexical model or to treat refreshed survey
+Markdown as a corrected book [@Kroonen2013, pp.76,80;
+@Orel2003, pp.56,59; @RingeTaylor2014, pp.43,174].
+
+### Breeches and bride: selected cells, dates and etymology are separate
+
+Breeches' selected *brēċ* is a plural. Orel's feminine whole
+headword and Kroonen's root-noun citation are not that complete
+plural cell. RT supplies an explicit PNWGmc *brokiz* and OE plural
+endpoints; the native unmarked vowel, *breeci* and *bréc* spellings
+are retained, rather than silently restored to the corpus's notation
+[@Orel2003, p.57; @Kroonen2013, p.78;
+@RingeTaylor2014, pp.208,227].
+Neither singular/root dictionary evidence nor successful OE
+mutation establishes a PGmc date for that selected whole plural.
+Kroonen's proposed break-intensive derivation depends on an original
+'behind' sense, and the Celtic borrowing direction is considered,
+not established [@Kroonen2013, p.78].
+
+The current breeches model describes the selected input as PNWGmc,
+while the corpus has identical PROTO/PROTOFORM and therefore resolves
+its input pgmc by convention. This is a concrete cross-surface
+stage-reporting question, not a new stage assignment or an argument
+that the existing runtime output is defective. Its bare dictionary
+and grammar citations also require a later reporting packet; the
+survey itself uses the verified printed pages above.
+
+Bride's adopted citation must not become conditional merely because
+its etymology is uncertain. Orel reports older spoken-for proposals;
+Kroonen explicitly rejects the Sanskrit comparison on the expected
+consonant and tentatively considers bundle/flax-related formations.
+Those positions do not withdraw the headword
+[@Orel2003, pp.59-60; @Kroonen2013, p.79].
+Orel's parenthesized *brūþiz* belongs to the Gothic preform and is
+not a second adopted PGmc voiced-dental citation
+[@Orel2003, p.59].
+Fulk's body examples actually quote PGmc *brūðiz*, independently
+of his starless index. His OE high-vowel-loss argument places that
+loss after front mutation; the Frisian and OE examples remain
+distinct occurrences [@Fulk2018, pp.65,92,386].
+RT224's native *bridiz* and *bryd* are preserved, with their glyph
+and quantity limits. Source fidelity is not a claim that those
+extracted signs represent a different adopted phonemic inventory
+[@RingeTaylor2014, p.224].
+
+### Bring and brook: what does the classification actually classify?
+
+Orel's bring headword has *e* and a voiced-fricative sign; Kroonen's
+adopted stem has *i*, while his prefixed perfective explanation is
+conditional and requires Verner's law. Reported carry/reach blending,
+possible suppletion and the alternative PIE perfective explanation
+are not all simultaneously endorsed etymologies
+[@Orel2003, pp.55-56; @Kroonen2013, p.77].
+Ringe explicitly classifies bring and brook as weak verbs with
+unsuffixed thematic presents and dental pasts without an intervening
+vowel [@Ringe2017, p.262].
+Before calling the dictionaries' strong headings a substantive
+PGmc inflectional opposition, their classification criterion and
+actual past reconstruction must therefore be aligned. A
+strong-present-looking stem does not supply an inherited strong past.
+This observation still does not explain Orel's particular *e*
+or fricative sign.
+
+RT4 contrasts inherited-contact postnasal stops in bring with
+syncope-created fricative clusters in sin and multitude, and with
+the separate mix example. Sin is explicitly pre-OE, mix PWGmc,
+multitude PGmc; none is another bring cell. The author leaves the
+phonemic analysis theory-dependent, not a universally established
+equivalence of written *ng* [@RingeTaylor2014, p.4].
+RT349-350 explains syncope, apocope and assimilation in heavy-root
+finite singulars and different dialectal levellings. Bring belongs
+to the heavy-stem table, not the formerly stored short-stem list.
+The actual West Saxon *bringst*, native *bringd*, and Northumbrian
+prefixed *tobringed* are separate cells/dialect attestations
+[@RingeTaylor2014, pp.349-350].
+
+Brook here is the use/enjoy verb, not a watercourse. Its Kroonen
+bounded negative remains: the break-iterative and water-noun
+families cannot be substituted for absent evidence. Ringe
+reconstructs weak past and participle, distinguishes subsequent OE
+strong inflection and Gothic j-present, and treats the isolated
+OHG strong participle as doubtful
+[@Ringe2017, pp.112,254,262,280-281].
+Fulk's optional-segment *brūki(j)iþ(i)* and OE *brýcð* belong
+to a finite third singular, not the selected infinitive. His
+aorist-present discussion retains qualified inheritance and
+quantity/analogy proposals rather than a blanket long-*ū* origin
+[@Fulk2018, pp.64,263-265].
+RT39's PGmc *buana* is the dwell comparator, not the brook family.
+Its asserted PGmc stage can be corrected without restoring
+native quantities or claiming that exclusion from the PGmc
+strong class means lexical nonexistence
+[@RingeTaylor2014, p.39].
+
+### Buck: a real direction opposition, with a contested premise
+
+Orel adopts borrowing from Celtic into Germanic. Kroonen explicitly
+requires the Celtic forms to be borrowed from Germanic in view of
+gemination. Most Germanic evidence is thematic in his account, but
+the geminate motivates a proposed older n-stem *bukō*, genitive
+*bukkaz*. That genitive is not the identically spelled thematic
+nominative; its attribution remains conditional
+[@Orel2003, pp.61-62; @Kroonen2013, p.82].
+Both sources distinguish OE *bucc* and n-stem *bucca*, so the
+selected roebuck citation is not silently replaced by the
+billy-goat cell [@Orel2003, pp.61-62; @Kroonen2013, p.82].
+
+The opposed direction statements are real. Their relation to
+gemination and formation is a bounded analyst-inferred explanation:
+Kroonen makes his premise explicit, but Orel does not explain why
+he rejects that mechanism. Ringe's general Kluge-law objection
+cannot be attributed to Orel. Ringe argues from constrained
+formulation, counterexamples, the paucity of external n-suffix
+comparisons and absence of obvious n-stem preponderance; he dates
+*bu/okkaz* PNWGmc and does not reconstruct it as an n-stem despite
+the OE reflex [@Ringe2017, pp.136-139].
+Independent donor chronology, the older paradigm and the
+gemination analysis are the remaining discriminating premises.
+No source counting, input migration or sound-law adoption follows
+from this research.
+
 ## Completed Ringe and Fulk readings: distinctions the alignment must preserve
 
 The relevant Ringe pass now includes the development discussion84-240,

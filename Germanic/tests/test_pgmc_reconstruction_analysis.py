@@ -371,7 +371,7 @@ class LiveAnalyticalTests(unittest.TestCase):
             FROM comparison_rationales cr JOIN rationales r USING(rationale_id)
             WHERE r.basis_type='loan_hypothesis' ORDER BY cr.comparison_id
         """)
-        self.assertEqual(result, "comparison_id\ncore-2272\n")
+        self.assertEqual(result, "comparison_id\nbuck-borrowing-direction\ncore-2272\n")
         # Explicit reasons for a position need not explain the disagreement.
         self.assertTrue(self.cases["core-1975"]["rationale_ids"])
         self.assertEqual(self.cases["core-1975"]["explanation_status"], "unestablished")
@@ -379,7 +379,7 @@ class LiveAnalyticalTests(unittest.TestCase):
     def test_core_reading_population_and_supplements(self):
         survey.require_core_complete(self.corpus, self.sources, self.reviews)
         self.assertEqual(sum(form["source_key"] in survey.CORE_SOURCES
-                             for form in self.forms), 1394)
+                             for form in self.forms), 1399)
         self.assertEqual(sum(review["source_key"] in survey.CORE_SOURCES
                              for review in self.reviews), 786)
         self.assertEqual(set(survey.ids(self.evidence["orel-core-1956-01"]["row_ids"])),

@@ -815,6 +815,85 @@ The independent alignment gate refuses360 rows. The composite feature
 and fully verified reading gates first refuse the separate RT
 conventions gap; no failed gate is suppressed or called completion.
 
+### Fifth eight-row alignment:1966-1973
+
+The preceding research is committed and pushed as362bd9c8 on update.
+The new tranche covers bread, break, breast, breeches, bride, bring,
+brook and buck; it is not another release authorization.
+All73 inherited positions are individually reconciled. Twenty-four
+literal quotations and four processes add28 evidence records to
+existing consultations; thirteen reasons and four focused positions
+reuse evidence. Current totals are4215 forms,1377 consultations,
+4315 positions,400 comparisons and88 rationales. Forty-one core
+alignments are bounded;352 remain unreviewed.
+
+The falsifiable concerns were cell/stage conflation and manufactured
+author opposition. Complete arguments confirm that selected breeches
+is a plural, bring/brook past criteria cannot be inferred from a
+strong headword, and buck's old n-stem genitive is not a thematic
+nominative. They refute an apparent Fulk-versus-Ringe metathesis
+opposition: expected original *burkanaz* precedes the *brukanaz*
+endpoint Fulk explicitly accepts. The actual continuation footnote
+is printed290 on holding sheet307, not the class-IV opening
+[@Fulk2018, pp.53,290,386; @Ringe2017, pp.211,262,272;
+@Kroonen2013, p.82; @RingeTaylor2014, pp.208,227].
+
+The focused breast case records Kroonen's qualified original-paradigm
+hypothesis versus Ringe's gender-supported derivational preference.
+Both allow limitations; no direct rebuttal is claimed. The focused
+buck case records explicit opposed borrowing directions, with the
+causal connection to different gemination/formation premises marked
+as analyst inference [@Kroonen2013, pp.76,80,82;
+@Ringe2017, p.223; @Orel2003, pp.61-62].
+Ringe's Kluge-law and n-stem-distribution objections supply a separately
+attributed premise question, not Orel's missing explanation
+[@Ringe2017, pp.136-139].
+
+Nine old/new SOURCE annotation amendments repair RT's PNWGmc breast,
+PGmc break third singular, Gothic comparator, pre-OE sin comparator,
+actual OE bring infinitives, PGmc dwell comparator and heavy-stem
+table description; Fulk's inherited process wording is narrowed to
+the actual participle argument. Native quantities, dental/palatal
+signs, endings and optional material are unchanged
+[@RingeTaylor2014, pp.4,39,174,295,349-350;
+@Fulk2018, pp.285-288,290].
+The24 primary literal receipts retain exact paragraphs, spans and
+hashes. Text checking does not certify original glyphs.
+No new actual consultation means no applicability-manifest
+amendment or invented negative.
+
+The non-adopting consistency notes identify breast model
+Kroonen114/Orel95 sheet-like locators versus printed76/56 and
+RT43 versus the tensing passage174, and breeches' PNWGmc input prose
+versus the equality-convention pgmc corpus stage
+[@Kroonen2013, pp.76,80; @Orel2003, pp.56,59;
+@RingeTaylor2014, pp.43,174,208,227].
+These owners remain unchanged. Firing census and counterfactuals
+are n/a: no executable claim or production change is made.
+No canonical SC verdict, chronology edge, selected-field change,
+introduction or PDF is included.
+
+Propagation uses the SOURCE survey tables, README, substantial
+page-cited commentary, this template-complete audit and focused
+regressions. All127 focused tests pass. The initial run exposed two
+coupled historical expectations: the core evidence count also includes
+the two new dictionary attestations, and the loan query now includes
+the focused buck case. Their expected populations were updated, not
+their scientific guards weakened. Bibliography/section-locator checks
+and patch-whitespace checks pass.
+
+Canonical refresh reports CONTROL PLANE CLEAN. Deterministic read-only
+queries reproduce41 bounded/352 unreviewed core cases and separate the
+source-explicit break bridge from the two analyst-inferred focused
+explanations and unestablished whole-row causes. The independent
+alignment gate refuses352; the composite feature and verified-reading
+gates first refuse the separate RT conventions gap. All46 protected
+scientific-owner hashes are unchanged, and comparison against the
+released SOURCE verifies all4187 inherited records' diplomatic and
+comparison strings, pages, verification, confidence, kinds and links.
+Unchanged output is not evidence choosing either formation or borrowing
+account. This tranche is complete; the393-row programme is not.
+
 ## Residue
 
 The prioritized explanatory audit, full feature/paradigm alignment of

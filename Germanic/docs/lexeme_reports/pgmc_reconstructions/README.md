@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4187 evidence records,1377 actual consultations and4283
-analytical positions, with398 comparisons and75 rationales. The RT
+There are4215 evidence records,1377 actual consultations and4315
+analytical positions, with400 comparisons and88 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Thirty-three core rows now have individually reconciled, bounded alignment:
-1933-1965. The remaining360 are unreviewed. The second tranche builds on
+Forty-one core rows now have individually reconciled, bounded alignment:
+1933-1973. The remaining352 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -196,6 +196,32 @@ preterite remain separate. The current lexical model's RT55 locator does
 not support its class-II present claim; the pertinent discussion is39-40.
 This is a non-adopting reporting question, not a silent model correction
 [@RingeTaylor2014, pp.39-40,55,268,280,296,309].
+
+The fifth tranche reconciles all73 inherited positions for1966-1973:
+bread, break, breast, breeches, bride, bring, brook and buck. Twenty-four
+literal quotations and four processes add28 evidence records to existing
+consultations, with thirteen reasons and four focused positions reusing
+evidence. Nine SOURCE annotations are corrected without changing inherited
+forms, pages, verification or shared links. The receipts are
+`alignment-1966-1973-amendments.tsv` and
+`alignment-1966-1973-occurrences.tsv`.
+
+The focused `breast-paradigm-derivation` case distinguishes Kroonen's
+qualified single-paradigm hypothesis from Ringe's gender-supported
+derivational preference, without claiming a direct rebuttal
+[@Kroonen2013, pp.76,80; @Ringe2017, p.223].
+The focused `buck-borrowing-direction` case retains opposed donor directions
+and their different gemination/formation premises as bounded analyst
+inference, not a selected etymology
+[@Orel2003, pp.61-62; @Kroonen2013, p.82].
+Fulk's expected break participle is an antecedent to the remodelled endpoint
+he expressly accepts, not an author opposition. His relevant footnote is
+printed290, on holding sheet307, not the earlier class-IV opening
+[@Fulk2018, p.290; @Ringe2017, pp.211,272].
+Strong dictionary headings, reconstructed weak pasts, actual finite cells,
+PNWGmc plurals and pre-OE comparanda remain distinct. The commentary records
+non-adopting breast citation-page and breeches input-stage reporting questions;
+no model, corpus, stage sidecar, FST or scientific baseline is changed.
 
 The alignment follow-up corrects eight proved RT extractor clips against
 their held paragraphs and preserves four genuinely corrupt native tokens
