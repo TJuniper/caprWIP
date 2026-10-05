@@ -10,11 +10,11 @@ new publication remain subsequent work.
 
 Current held-source reading covers the relevant three comparative accounts:
 192 Ringe,137 Fulk and255 Ringe-Taylor consultations, separately from
-393 applicability screens per source. The database contains4269 evidence
-records,1379 actual consultations,4377 positions,404 comparisons and113
+393 applicability screens per source. The database contains4297 evidence
+records,1379 actual consultations,4409 positions,406 comparisons and127
 rationales. The fully verified reading gate still refuses the named
 Ringe-Taylor convention/typography gap; full feature alignment and
-explanation remain ongoing:57 core rows are bounded and336 unreviewed.
+explanation remain ongoing:65 core rows are bounded and328 unreviewed.
 Earlier measurements below are checkpoint
 history, not current totals or an exhaustive-library workload.
 
@@ -1096,6 +1096,119 @@ The row's selected *dáwwō* and OE *dēaw* remain unchanged. Original
 gender/formation and the cited endpoint require separate justification;
 that reporting question does not reopen the already released ww,
 apocope or English-realization decisions.
+
+## Eighth alignment tranche: dill, do, door, dough, dove, dream, drench and drink
+
+All106 inherited positions for1990-1997 have individual cell, relation,
+attribution and feature decisions. Twenty-seven literal occurrence receipts
+and one process add28 evidence records to existing consultations; four focused
+positions reuse evidence and fourteen rationales distinguish source support
+from explanations of divergence. Five annotation amendments preserve their
+old values, including misleading extractor labels. The tranche has138
+positions linked to133 distinct evidence records. Current totals are4297
+evidence records,1379 consultations,4409 positions,406 comparisons and127
+rationales;65 core rows are bounded and328 unreviewed.
+
+### Do: an actual rebuttal, bounded to the later present
+
+This tranche contains a direct disagreement rather than merely our inference
+from two different reconstructions. Ringe-Taylor reconstructs an athematic
+PWGmc present, expects mutation in the inherited cells, and invokes leveling
+to explain its restricted OE distribution; early loss of ending *-i* in the
+first singular is rejected against the homonymous imperative of 'deem'
+[@RingeTaylor2014, p.369]. Fulk explicitly objects to this reconstruction
+because early verse requires disyllabic forms with a light first syllable.
+He instead proposes thematization followed by antevocalic shortening:
+first singular *do-u*, second *do-is*, third *do-iþ* and plural *do-a"þ*
+in the literal held transcription. This would also explain why mutation
+is restricted to the second and third singular [@Fulk2018, pp.331-332].
+The native nasal sign in the plural is preserved, not normalized to an
+image-certified glyph.
+
+The focused comparison therefore records a source-explicit explanation:
+the metrical quantity/disyllabicity premise challenges the athematic
+OE present path, with the distribution of mutation as a second diagnostic.
+It does not establish the ultimate PGmc or PIE present origin, and Fulk
+expressly calls for further study [@Fulk2018, p.332]. The deeper issue is
+different: Ringe-Taylor reluctantly prefers an inherited o-grade
+hi-conjugation origin, criticizing Hill's aorist-subjunctive account for
+vowel leveling and transfer of the athematic ending; Fulk questions the
+force of the ending objection if earlier athematic classes were more
+numerous [@RingeTaylor2014, pp.112-113; @Fulk2018, pp.331,333, n.2].
+Kroonen's apparent pre-Germanic athematic origin is likewise a qualified
+position, not an independently settled original paradigm
+[@Kroonen2013, p.98].
+
+Present, finite past, strong past participle and weak-past suffix cannot
+be collapsed into that one disagreement. Ringe distinguishes the
+inherited imperfect, the internal long-vowel past alternant, unresolved
+u-bearing forms and the inferential PGmc present; Fulk says none of the
+past-origin accounts is unassailable [@Ringe2017, pp.182-185;
+@Fulk2018, pp.332-334]. Ringe-Taylor rejects Hogg/Fulk's underlying
+*/du-/* proposal, rejects confidently assigning the Gothic long suffix
+to PGmc, and distinguishes it from the probable free-standing 'they did'
+[@RingeTaylor2014, pp.370,517].
+
+There is also an edition trap. Ringe-Taylor's corrigendum supersedes
+participles proposed in the older first volume; it is not a correction
+of Ringe2017, whose revised paradigm already prefers *dēnaz* over the
+less likely *dōnaz* [@RingeTaylor2014, pp.519-520;
+@Ringe2017, pp.294-295]. The actual present infinitive *dōną* and its
+questioned segmented alternative remain separate from both participles
+[@Ringe2017, p.295]. Likewise, the starless *don* in the approximate
+PWGmc table is the third plural present subjunctive, not an attested OE
+infinitive [@RingeTaylor2014, pp.109-110]. Its old extractor form-kind
+label remains visible as historical metadata, with a receipted correction
+to the argument and the reviewed analytical cell.
+
+Fulk's body citations explicitly label a segmented PGmc infinitive and
+a present second singular. They supplement, rather than overwrite, the
+image-verified starless index spellings and their native glyph differences
+[@Fulk2018, pp.14,276,387]. Orel's printed strong-verb label is also
+preserved rather than silently repaired into another source classification
+[@Orel2003, p.73]. All these independently queryable distinctions leave
+the whole-row cause unestablished and the selected input unchanged.
+
+### Dream: different roots behind similar citation forms
+
+Orel derives the noun from 'fall', with a presumed 'become weak/drowse'
+semantic intermediate; OE 'joy, pleasure' is distinguished from the dream
+senses elsewhere. Schröder's g-containing rival and Torp-Falk's separation
+of the OE/OS evidence are secondary reports, not Orel's adopted alternatives
+or independently inspected originals [@Orel2003, p.75].
+Kroonen instead derives a mo-stem *draugma-* from *dreugan-* and cites the
+post-loss *drauma-* [@Kroonen2013, pp.100-101]. His adjacent verb entries
+distinguish 'deceive' from 'perform one's duty', but the dream
+cross-reference does not select a homonym [@Kroonen2013, p.102].
+
+The focused case identifies competing root/formation and semantic premises,
+not just optional g spelling. Its explanation is bounded analyst inference,
+unlike the direct rebuttal in the do case. The lexical-sense bridge,
+root homonym and original endpoint still require evidence. CAPR's
+g-bearing input and its stored gm deletion do not settle those questions;
+the inherited project note's equation of post-loss citation agreement with
+support for the full input remains a non-adopting consistency question.
+
+### The other six rows: precise premises, not invented selected cells
+
+| Row | Source-supported distinction | Exact remaining question |
+| --- | --- | --- |
+| Dill | Kroonen's e-bearing i/ja citations are endorsed, but the rounded pair and original e-nominative/u-genitive paradigm are conditional. Fulk probably uses ungeminated dill to support a light ja-stem nominative/transfer account, quoting actual Corpus Glossary *dili* and EWS accusative *dile* and retaining Boutkan's alternative [@Orel2003, p.70; @Kroonen2013, p.92; @Fulk2018, pp.152-153, n.5]. | Root ablaut versus transfer remains unresolved. The existing model's Fulk170 locator is not this passage; single l does not turn Fulk's qualified argument into decisive proof of the original PGmc input. No model or selected field is changed. |
+| Door | Neuter single-door, possible dual-derived feminine i-stem and Kroonen's explicit ō-stem origin of OE feminine *duru* are different formations. Ringe quotes an explicit PGmc root with both OE *duru* and *dor*; Ringe-Taylor calls feminine *duru* a u-stem formerly a root noun [@Orel2003, pp.79-80; @Kroonen2013, p.110; @Ringe2017, p.121; @RingeTaylor2014, pp.28,385]. | Original feminine formation and its relation to selected neuter *dor* cannot be settled by sharing a root or assembling an ending. |
+| Dough | Orel invokes the substantivized soft adjective; Kroonen derives directly from knead. Orel's OE reflex is neuter whereas Kroonen's is masculine. Ringe's action/result noun could be PIE-inherited, but that does not locally date the cited endpoint [@Orel2003, pp.66-67; @Kroonen2013, p.87; @Ringe2017, p.324]. | Direct derivation versus adjective nominalization, reflex gender and exact endpoint remain independent premises. |
+| Dove | Kroonen's probable dive derivation includes an iterative-based account of the verb; male bird and feminine citation are distinct. Orel conditionally invokes a dark-colored bird with external comparisons. His pelican compound is not bare dove and onomatopoeia is a bibliography report [@Orel2003, p.80; @Kroonen2013, pp.105-106]. | The competing derivational/semantic premises need evidence; this research-only row still has no runnable target. |
+| Drench | The selected row is a noun, not the causative infinitive. Kroonen's u-grade noun has OE *drync*; Orel's a-grade neuter and e-grade feminine beverage nouns are other formations. Ringe explicitly dates the causative PGmc [@Orel2003, pp.74-75; @Kroonen2013, pp.100,103,105; @Ringe2017, p.282]. | These passages do not establish the selected a-grade i-stem noun or its actual OE attestation. The existing note's derivative-verb evidence cannot fill that gap, even though the stored output matches. |
+| Drink | Orel tentatively allows reverse derivation from a causative originally 'milk' with Slavic pull comparisons; Kroonen uses a Baltic moist root/nasal formation. Ringe's PGmc principal parts retain i/a/u and the coda-nasal present condition [@Orel2003, pp.74-75; @Kroonen2013, pp.100,103; @Ringe2017, p.269]. | Source e/i notation/conditioning and competing derivational direction are separate. Ringe-Taylor finds no unambiguous postnasal-k palatalization evidence; later ch spellings may reflect finite i-cells, not the original infinitive [@RingeTaylor2014, p.211]. |
+
+Drink's strong principal parts and heavy finite forms remain independently
+linked. Native *drincb* retains the degraded dental rather than silently
+receiving a restored glyph. The cluster labels *nk*, *kw*, the warrior
+comparandum and an unrelated *feolan* subclass label are not drink stems
+[@RingeTaylor2014, pp.211,347,349-350]. Shared drink evidence has a
+citation relation for drink but only a family relation for the drench noun.
+The explanatory distinctions do not license new corpus choices, stages,
+prosodic contexts, laws, chronology edges or baselines. The full alignment,
+class census, synthesis, specialist dispatch and publication remain unfinished.
 
 ## Completed Ringe and Fulk readings: distinctions the alignment must preserve
 

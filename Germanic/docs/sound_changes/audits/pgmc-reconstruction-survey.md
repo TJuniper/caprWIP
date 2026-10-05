@@ -1097,9 +1097,125 @@ SOURCE annotation amendments are admitted. All4224 unaffected positions,
 Initial count-expectation failures and an invalid applicability disposition
 were corrected before this successful final run; no failed run is counted
 as passing. The executed one-use candidate must not be rerun.
-This tranche is complete and uncommitted; no new introduction, PDF or
-release is included. The full393-row alignment and aggregate synthesis
-remain incomplete.
+This tranche was subsequently committed and pushed as
+`b15daa90c5e048f624127ce55a14f2e909d705be`; origin/update was verified
+identical. No new introduction or PDF was included.
+The full393-row alignment and aggregate synthesis remain incomplete.
+
+### Eighth alignment tranche:1990-1997
+
+Identity: the seventh tranche was released as b15daa90 on update.
+The next equal tranche covers dill, do, door, dough, dove, dream,
+drench and drink. It is research-only alignment, not an SC verdict
+or approval of scientific selections.
+
+Question: which disagreements concern notation, cells and related
+formations, and which have actual competing historical/evidential
+premises? Does a source directly explain its objection, or do we only
+infer a bounded relation between positions? Matching outputs and source
+headword counts are not answers.
+
+Before edits:4269 forms,1379 consultations,4377 analytical positions,
+404 comparisons,113 rationales and57 bounded core rows. The tranche
+had106 inherited positions. Selected do remains *dōną* to *dōn*,
+dream *dráugmaz* to *drēam*, drench noun *dránkiz* to *drenċ* and
+drink *drínkaną* to *drincan*. Dill's selected *déliz* and citation
+*déljaz* remain independent; dove still has no runnable target.
+
+Diagnosis: all106 positions have individual source/cell/attribution
+decisions. Twenty-seven occurrence receipts and one process add28
+evidence records to existing consultations. Four focused positions
+reuse evidence; fourteen rationales and five annotation amendments
+are persisted. The corrections distinguish reconstructed starless
+PWGmc table *don* from an attested infinitive, unrelated *Ih* table
+label from drink, heavy finite endings from another verb's annotation,
+explicit PGmc causative from a selected noun, and Fulk's qualified dill
+argument. Original form-kind labels, source strings and verification
+are preserved. No executable assay, Foma rebuild or firing census is
+applicable to this bounded research question.
+
+Literature: complete relevant entries, arguments, tables and footnotes
+are read, including Fulk's dill n5, the do metrical argument, the
+PWGmc approximate table and the older-volume corrigenda. Dill retains
+conditional root ablaut versus probable ja/i-transfer evidence
+[@Orel2003, p.70; @Kroonen2013, p.92; @Fulk2018, pp.152-153, n.5].
+Do separates inferential PGmc origin, metrical later-present objection,
+finite past, participle and weak suffix
+[@Orel2003, p.73; @Kroonen2013, p.98;
+@Ringe2017, pp.182-185,219,243,259,294-295;
+@Fulk2018, pp.14,276,330-334,387;
+@RingeTaylor2014, pp.109-113,143,369-370,517,519-520].
+Door preserves neuter dor versus feminine dual/i/ō/root/u formation
+[@Orel2003, pp.79-80; @Kroonen2013, p.110;
+@Ringe2017, p.121; @RingeTaylor2014, pp.28,385].
+Dough preserves adjective nominalization/direct derivation and OE
+reflex-gender tension [@Orel2003, pp.66-67; @Kroonen2013, p.87;
+@Ringe2017, p.324].
+Dove preserves conditional dark-bird/dive origins, male formation and
+pelican-compound identity [@Orel2003, p.80; @Kroonen2013, pp.105-106].
+Dream preserves own fall/drowse versus g-root mo-formation and reported
+Schröder rival [@Orel2003, p.75; @Kroonen2013, pp.100-102].
+Drench/drink preserve actual nouns versus causatives, reverse derivation
+versus moist-root account, nasal i/a/u grades and finite-cell limits
+[@Orel2003, pp.74-75; @Kroonen2013, pp.100,103,105;
+@Ringe2017, pp.269,282; @RingeTaylor2014, pp.211,347,349-350].
+
+Historical analysis: Fulk332 explicitly challenges RT369's direct
+athematic OE present path using light disyllabic meter and restricted
+mutation. The focused explanation is therefore source-explicit, but
+does not decide the ultimate PGmc root [@Fulk2018, pp.331-332;
+@RingeTaylor2014, p.369]. Dream's focused root/semantic explanation
+is instead analyst inference; no direct rebuttal is claimed
+[@Orel2003, p.75; @Kroonen2013, pp.100-102].
+RT's corrigendum supersedes the older first volume, not the2017
+revision that already prefers the done participle
+[@RingeTaylor2014, pp.519-520; @Ringe2017, pp.294-295].
+Stage, confidence, printed representation and membership are independent.
+No new chronology edge, ancestral allocation or CAPR analogical law is adopted.
+
+Verdict: bounded research alignment. Sixty-five core rows1933-1997
+are bounded;328 remain unreviewed. Current totals:4297 forms,
+1379 consultations,4409 positions,406 comparisons and127 rationales.
+The tranche has138 positions linked to133 distinct records.
+All eight core causes remain unestablished. Drench retains its proven
+different-units classification and exact missing selected-noun premise,
+rather than treating a successful output as source evidence.
+The commentary records non-adopting dill locator/formation, dream
+input-provenance and drench noun-attestation questions.
+
+Propagation: five research SOURCE tables, primary occurrence/amendment
+receipts, page-cited commentary/README and this existing audit are
+updated. Focused regressions cover every member link, source-explicit
+versus inferred cause, edition identity, homonyms, rejected proposals,
+conditional NOM/GEN, finite versus infinitive cells, research-only
+target exclusion and exact literal spans/hashes. Canonical closeout
+and final preservation measurements follow below; a failed preliminary
+calibration run is not counted as passing.
+
+Closeout: all154 focused survey/analysis tests pass after restoring
+drench's different-units classification and retaining the literal double
+question mark in Ringe's participle rival. Repeated read-only queries
+reproduce65 bounded/328 unreviewed rows,138 tranche positions/133
+records, the two-source source-explicit do rebuttal versus analyst-inferred
+dream case, eight unestablished core causes, distinct edition/participle
+roles and shared drink/drench relations. The independent alignment gate
+refuses328; composite alignment and fully verified reading gates first
+refuse the separate RT conventions holding gap. Neither gate is weakened.
+
+All46 protected scientific hashes are unchanged. All4269 inherited
+form-field sets are preserved except exactly the five receipted SOURCE
+annotations; all4271 unaffected positions,396 unaffected comparisons,
+113 inherited rationales and1353 outside-tranche consultations are unchanged.
+Bibliography, section-locator and whitespace checks pass; canonical refresh
+reports CONTROL PLANE CLEAN. Source-text verification is not original-image
+certification. The one-use candidate's post-persistence classification and
+literal corrections are recorded in current tables, receipts and tests;
+never rerun or import that historical script.
+
+This eighth tranche is complete and uncommitted. No scientific adoption,
+new introduction, PDF, new-tranche commit or push is included. The next
+alignment begins1998; the full393-row alignment, class census, aggregate
+explanations, watchlist, specialist dispatch and report remain incomplete.
 
 ## Residue
 

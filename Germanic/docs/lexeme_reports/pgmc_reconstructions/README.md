@@ -109,7 +109,7 @@ explanation or exact remaining premises, the conditioning census and a
 non-adopting consistency watchlist. The current analytical gate still
 certifies citation-unit triage only.
 
-All three relevant held-source passes are persisted: Ringe191, Fulk136
+All three relevant held-source passes are persisted: Ringe192, Fulk137
 and Ringe-Taylor255 actual consultations. Each has393 independent
 applicability dispositions; the1179 screens are not1179 grammar
 negatives. All786 core reviews remain. Of20 scopes,19 are reviewed
@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4269 evidence records,1379 actual consultations and4377
-analytical positions, with404 comparisons and113 rationales. The RT
+There are4297 evidence records,1379 actual consultations and4409
+analytical positions, with406 comparisons and127 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Fifty-seven core rows now have individually reconciled, bounded alignment:
-1933-1989. The remaining336 are unreviewed. The second tranche builds on
+Sixty-five core rows now have individually reconciled, bounded alignment:
+1933-1997. The remaining328 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -289,6 +289,43 @@ and conditional DO hypotheses are preserved
 The commentary retains non-adopting cud attestation/input and dew
 formation questions; scientific owners and released glide history remain
 unchanged.
+
+The eighth tranche reconciles all106 inherited positions for1990-1997:
+dill, do, door, dough, dove, dream, drench and drink. Twenty-seven
+literal receipts and one process add28 evidence records to existing
+consultations; four focused positions reuse evidence and fourteen
+rationales are added. Five annotation amendments preserve original
+form-kind labels, diplomatic strings, glyphs, pages and verification:
+`alignment-1990-1997-occurrences.tsv` and
+`alignment-1990-1997-amendments.tsv`. The tranche has138 positions linked
+to133 distinct evidence records; shared drink/drench evidence is counted once.
+
+`do-present-metrical-history` records a source-explicit rebuttal:
+Fulk's light-disyllable metrical evidence challenges the direct athematic
+OE present path and motivates thematization/antevocalic shortening
+[@Fulk2018, pp.331-332; @RingeTaylor2014, p.369].
+It does not settle the ultimate PGmc root, finite past, strong participle
+or weak suffix. Ringe-Taylor's older-volume corrigendum is not a correction
+of Ringe2017, whose revised paradigm already prefers the same done
+participle [@RingeTaylor2014, pp.519-520; @Ringe2017, pp.294-295].
+`dream-root-derivation` instead connects Orel's fall/drowse premise
+with Kroonen's g-root mo-formation by bounded analyst inference;
+Schröder's g-rival remains reported, and the verb homonym/sense bridge
+unresolved [@Orel2003, p.75; @Kroonen2013, pp.100-102].
+
+Dill's conditional original NOM/GEN and Fulk's actual accusative remain
+distinct [@Kroonen2013, p.92; @Fulk2018, pp.152-153, n.5].
+The commentary records a non-adopting model-locator/formation watchlist.
+Selected drench is a noun; the causative and u-grade *drync* family
+do not establish its a-grade i-stem input
+[@Orel2003, pp.74-75; @Kroonen2013, pp.100,103,105;
+@Ringe2017, p.282]. Drink's finite cells and cluster/table labels are
+not infinitive ancestors or unambiguous postnasal-k chronology
+[@RingeTaylor2014, pp.211,347,349-350].
+Dove remains research-only with no runnable target; pelican-compound
+and onomatopoeia-bibliography evidence do not manufacture one
+[@Orel2003, p.80; @Kroonen2013, pp.105-106].
+All eight whole-row causes remain unestablished and scientific owners unchanged.
 
 The alignment follow-up corrects eight proved RT extractor clips against
 their held paragraphs and preserves four genuinely corrupt native tokens
