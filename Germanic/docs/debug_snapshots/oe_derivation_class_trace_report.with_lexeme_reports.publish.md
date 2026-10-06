@@ -6282,7 +6282,7 @@ This row is an `early_analogy` case, so the central distinction is between the c
 #### Chronological source dossier
 
 - `Germanic/data/germanic-aligned-final.tsv`: the row note cites [@Kroonen2013] for a `kraftu-` noun and [@Orel2003] for `*kraftiz ~ *kraftuz`, then explains why the Old English reflex rules out a straight i-stem analysis.
-- The sound-history logic behind the vowel argument follows the standard OE umlaut chronology in [@Campbell1959; @Hogg1992; @RingeTaylor2014].
+- The sound-history logic behind the vowel argument follows the standard OE umlaut chronology in [@Campbell1959; @HoggGrammar1992; @RingeTaylor2014].
 
 #### Old English philology
 
@@ -7019,7 +7019,7 @@ The project distinguishes the headword `*bázją` from the FST input `*bázjas`.
 #### Chronological source dossier
 
 - `Germanic/data/germanic-aligned-final.tsv`: `NOTE` identifies gen.sg. `*bazjas (> berġes)` as the intended pathway and cites the non-geminating `*rj` background.
-- The current project treatment follows the general historical framework of Proto-Germanic to Old English development in [@RingeTaylor2014; @Hogg1992].
+- The current project treatment follows the general historical framework of Proto-Germanic to Old English development in [@RingeTaylor2014; @HoggGrammar1992].
 
 #### Old English philology
 
@@ -7637,7 +7637,7 @@ This row separates the etymological headword `*θéstilaz` from the selected FST
 
 - `Germanic/data/germanic-aligned-final.tsv`: `NOTE` identifies gen.sg. `þistles` as the paradigm-cell target and contrasts it with late West Saxon broken `þistel`.
 - `Germanic/docs/DEV_NOTES.md` §17.18 records the row change to genitive singular and treats it as parallel to other consonant-cluster nouns whose inflectional stem is philologically cleaner than the normalized nominative.
-- The background discussion of svarabhakti / parasitic vowels and cluster behavior is keyed in the row note to [@Campbell1959] and [@Hogg1992]; the protoform choice also cites [@KlugeSeebold2011].
+- The background discussion of svarabhakti / parasitic vowels and cluster behavior is keyed in the row note to [@Campbell1959] and [@HoggGrammar1992]; the protoform choice also cites [@KlugeSeebold2011].
 
 #### Old English philology
 
@@ -7828,7 +7828,7 @@ This row is designed to keep three levels apart. `PROTO = *ráukiz` is the etymo
 
 - `Germanic/data/germanic-aligned-final.tsv`: the note says the row was retargeted from attested Anglian `rēc` to reconstructed West Saxon `rēac`, because the current FST already derives the latter regularly from `*ráukaz`.
 - `Germanic/docs/DEV_NOTES.md` §17.22 contains the earlier `rēc` dossier and is explicitly cited by the row note as the background to the final closure.
-- The handbook backdrop is the ordinary development of PGmc `*au` to OE `ēa`, plus later dialect-specific smoothing issues [@RingeTaylor2014; @Hogg1992].
+- The handbook backdrop is the ordinary development of PGmc `*au` to OE `ēa`, plus later dialect-specific smoothing issues [@RingeTaylor2014; @HoggGrammar1992].
 
 #### Old English philology
 
@@ -7895,7 +7895,7 @@ This row already uses a paradigm cell as its `PROTOFORM`: `*fūri`, interpreted 
 
 - `Germanic/data/germanic-aligned-final.tsv`: the note states that `*fūri` triggers i-umlaut and then loses final `-i` after a heavy syllable, producing `fȳr`, while `fȳre` reflects later analogical restoration.
 - `Germanic/docs/DEV_NOTES.md` revisits the row several times and explicitly treats `fire` as the paradigm example of an oblique-cell input whose inherited ending is later restored analogically in Old English.
-- The background chronology belongs to the standard OE vowel history used elsewhere in the project [@RingeTaylor2014; @Campbell1959; @Hogg1992].
+- The background chronology belongs to the standard OE vowel history used elsewhere in the project [@RingeTaylor2014; @Campbell1959; @HoggGrammar1992].
 
 #### Old English philology
 

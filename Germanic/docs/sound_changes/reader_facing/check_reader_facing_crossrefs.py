@@ -7,7 +7,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 from reader_facing_check_utils import (
-    DEFAULT_BUILD_SCRIPT,
+    READER_MANIFEST,
     build_all_source_rule_heading_map,
     build_rule_heading_map,
     iter_build_chapter_paths,
@@ -187,17 +187,17 @@ def scan_file(
 def render_report(
     issues: list[CrossrefIssue],
     totals: ScanCounts,
-    build_script: Path,
+    manifest: Path,
     rule_count: int,
 ) -> str:
     lines = [
         "# Reader-facing cross-reference check 01",
         "",
-        "_Generated from the current build-script chapter files and their SC-numbered rule headings._",
+        "_Generated from the generated reader manifest's chapter files and their SC-numbered rule headings._",
         "",
         "## Summary",
         "",
-        f"- Build script: `{build_script}`.",
+        f"- Reader manifest: `{manifest}`.",
         f"- Chapter files checked: {totals.chapter_files_checked}.",
         f"- Rule headings mapped from current chapter files: {rule_count}.",
         f"- Sound-change links checked: {totals.sound_change_links_checked}.",
@@ -225,21 +225,21 @@ def render_report(
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check reader-facing sound-change cross-references and chronology notation.")
     parser.add_argument(
-        "--build-script",
+        "--manifest",
         type=Path,
-        default=DEFAULT_BUILD_SCRIPT,
-        help="Build script whose chapter_files list defines the current assembled reader-facing section.",
+        default=READER_MANIFEST,
+        help="Generated reader manifest whose rows define the current assembled reader-facing section.",
     )
     args = parser.parse_args()
 
-    build_script = args.build_script.resolve()
-    current_rule_map = build_rule_heading_map(build_script)
+    manifest = args.manifest.resolve()
+    current_rule_map = build_rule_heading_map(manifest)
     all_rule_map = build_all_source_rule_heading_map()
     current_pairs = {(heading.sc_number, heading.rule_name) for heading in current_rule_map.values()}
 
     all_issues: list[CrossrefIssue] = []
     totals = ScanCounts()
-    for path in iter_build_chapter_paths(build_script):
+    for path in iter_build_chapter_paths(manifest):
         issues, counts = scan_file(path, current_rule_map, all_rule_map, current_pairs)
         all_issues.extend(issues)
         totals.chapter_files_checked += counts.chapter_files_checked
@@ -252,7 +252,7 @@ def main() -> int:
         totals.incomplete_internal_link_text_found += counts.incomplete_internal_link_text_found
 
     OUTPUT_PATH.write_text(
-        render_report(all_issues, totals, build_script, len(current_rule_map)),
+        render_report(all_issues, totals, manifest, len(current_rule_map)),
         encoding="utf-8",
     )
     print(f"Wrote {OUTPUT_PATH}")

@@ -18,7 +18,7 @@ post-apocope cleanup environment, but not a chapter that stretches out of
 chronological order to join SC078 to `SC085-SC086`. Campbell, Hogg, Ringe and
 Taylor, Luick, and Fulk all support a late weak-tail region in which apocope,
 syncope, shortening, contraction, and further cleanup remain active
-[@Campbell1959, §§345--354, 388--389; @Hogg1992, pp. 120--121;
+[@Campbell1959, §§345--354, 388--389; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, §§6.7.3--6.9.3; @Luick1914, §§304--307; @Fulk2018, §5.6].
 
 Within that broader environment, SC078 is best read as the right-edge weak-tail

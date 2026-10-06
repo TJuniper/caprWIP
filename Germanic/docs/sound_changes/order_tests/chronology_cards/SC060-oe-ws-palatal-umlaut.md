@@ -1,7 +1,7 @@
 # SC060 OE Ws Palatal Umlaut — chronology evidence card
 
-## Current position
-- current_order: `60`
+## Position at experiment time
+- order_at_experiment_time: `60`
 - rule_name: `OEWsPalatalUmlaut`
 - safe computational window: `56-86` (later side runner-bounded)
 - status: `first_break_complete`

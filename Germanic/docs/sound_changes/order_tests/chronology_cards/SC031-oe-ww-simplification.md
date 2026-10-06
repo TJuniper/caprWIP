@@ -1,7 +1,7 @@
 # SC031 OE WW Simplification — chronology evidence card
 
-## Current position
-- current_order: `31`
+## Position at experiment time
+- order_at_experiment_time: `31`
 - rule_name: `OEWWSimplification`
 - safe computational window: `14-33` (earlier side non-historical)
 - status: `first_break_complete`

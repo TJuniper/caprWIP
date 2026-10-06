@@ -8,7 +8,7 @@ This row is designed to keep three levels apart. `PROTO = *ráukiz` is the etymo
 
 - `Germanic/data/germanic-aligned-final.tsv`: the note says the row was retargeted from attested Anglian `rēc` to reconstructed West Saxon `rēac`, because the current FST already derives the latter regularly from `*ráukaz`.
 - `Germanic/docs/DEV_NOTES.md` §17.22 contains the earlier `rēc` dossier and is explicitly cited by the row note as the background to the final closure.
-- The handbook backdrop is the ordinary development of PGmc `*au` to OE `ēa`, plus later dialect-specific smoothing issues [@RingeTaylor2014; @Hogg1992].
+- The handbook backdrop is the ordinary development of PGmc `*au` to OE `ēa`, plus later dialect-specific smoothing issues [@RingeTaylor2014; @HoggGrammar1992].
 
 #### Old English philology
 

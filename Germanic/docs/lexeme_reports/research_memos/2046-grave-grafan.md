@@ -52,7 +52,7 @@ For Old English, the relevant target is the **attested infinitive verb** `grafan
 - `græfð` as present 3 sg. of `grafan`;
 - `græfen` as the past participle of `grafan` [@ClarkHall1960].
 
-That lexical split matters here. The English gloss **grave** can point either to the noun `græf` or the verb `grafan`, but row 2046 is clearly the verb row, since its Germanic cognate set is verbal and the live counterpart is the infinitive `grafan`. Hogg's discussion of `/æ/ ~ /a/` alternation also treats `grafan` alongside derived `græf-` material, which supports the alternation but does not change the citation form of the verb [@Hogg1992].
+That lexical split matters here. The English gloss **grave** can point either to the noun `græf` or the verb `grafan`, but row 2046 is clearly the verb row, since its Germanic cognate set is verbal and the live counterpart is the infinitive `grafan`. Kastovsky's discussion of `/æ/ ~ /a/` alternation also treats `grafan` alongside derived `græf-` material, which supports the alternation but does not change the citation form of the verb [@Kastovsky1992, p. 361].
 
 ## Project problem and solution
 

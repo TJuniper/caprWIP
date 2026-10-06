@@ -51,7 +51,7 @@ Audit 04 evidence discipline held up in all three cases. No correction or revers
 | KlugeSeebold2011 | 6 | 0 | 0 | 6 | 0 | All six remaining Kluge rows remain blocked by the absence of a paginated local witness. |
 | Campbell1959 | 3 | 1 | 1 | 0 | 1 | Localized `man / mannes` to `§621`, softened the Campbell derivational sentence in `fright / fyrhte`, and retained `ban / bannes` broad. |
 | RingeTaylor2014 | 7 | 0 | 1 | 0 | 6 | Softened the analogical `fast / festan` sentence to project framing and retained the other class-history rows broad where no single safer page was recovered. |
-| Hogg1992 | 2 | 0 | 0 | 0 | 2 | Both Hogg rows remain honestly broad cluster-history citations. |
+| HoggPhonology1992 | 2 | 0 | 0 | 0 | 2 | Both Hogg rows remain honestly broad cluster-history citations. |
 | Fulk2018 | 1 | 0 | 0 | 0 | 1 | The single Fulk row remains broad because the exact learn-family page is still unverified. |
 | SieversBrunner1965 | 4 | 1 | 1 | 0 | 2 | Localized `lap / lappa` to `§10`, softened the `wolf / wulf` control sentence to project framing, and retained the distributed paradigm/background rows broad. |
 | other sources | 0 | 0 | 0 | 0 | 0 | No other source families were reopened in the generated queue during audit 05. |
@@ -103,7 +103,7 @@ The current watchlist is recorded in `citation_locator_undercitation_watchlist_0
 
 | Entry | Source | Exact source-specific reason it remains broad | Acceptable for now? | What would be required to resolve it |
 | :--- | :--- | :--- | :--- | :--- |
-| birth / byrd | Hogg1992 | Hogg still treats _byrd_ within a broader deverbal-feminine cluster discussion rather than on one page devoted to the simplex noun alone. | yes | Keep the broad handbook citation unless the sentence is split to isolate the exact deverbal-feminine point. |
+| birth / byrd | HoggPhonology1992 | Hogg still treats _byrd_ within a broader deverbal-feminine cluster discussion rather than on one page devoted to the simplex noun alone. | yes | Keep the broad handbook citation unless the sentence is split to isolate the exact deverbal-feminine point. |
 | still / stillan | KlugeSeebold2011 | The local Kluge OCR confirms the wider _still/stillen_ family, but every local witness remains unpaginated. | yes | Use a paginated Kluge-Seebold witness or another page-labeled comparative dictionary for the same entry. |
 | still / stillan | KlugeSeebold2011 | The adjective-versus-verb family framing is visible in local Kluge OCR, but no local witness provides safe printed page markers. | yes | Use a paginated Kluge-Seebold witness or recast the family note around already localized sources only. |
 | think / þenċan | BosworthToller1898 | The Bosworth-Toller headword support for _þencan_/_geþencan_ is real, but the current multi-column OCR still does not bind the entry to a safe printed page. | yes | Recover a page-safe Bosworth-Toller page map or another paginated witness for the headword. |
@@ -115,7 +115,7 @@ The current watchlist is recorded in `citation_locator_undercitation_watchlist_0
 | loam / lām | BosworthToller1898 | The Bosworth-Toller headword support for _lām_ is present, but the multi-column OCR still does not bind the dictionary entry to a safe printed page. | yes | Recover a page-safe Bosworth-Toller witness or keep the broad corroborating dictionary citation. |
 | neck / hnecca | KlugeSeebold2011 | The local Kluge OCR confirms the a-grade _Nacken_ family comparison, but the witness is unpaginated. | yes | Use a paginated Kluge-Seebold witness for the _Nacken_ entry. |
 | neck / hnecca | Orel2003 | Orel still preserves the competing a-grade neck-family label, but the available local witness does not safely recover the printed article page. | yes | Recover the exact Orel page from a PDF/page image or keep the comparative label broad. |
-| needle / nǣdl | Hogg1992 | Hogg treats _nidi_ / _nǣdl_ inside a broader cluster-history discussion rather than in a single page-localizable entry note. | yes | Keep the broad handbook citation unless the historical-background sentence is split further. |
+| needle / nǣdl | HoggPhonology1992 | Hogg treats _nidi_ / _nǣdl_ inside a broader cluster-history discussion rather than in a single page-localizable entry note. | yes | Keep the broad handbook citation unless the historical-background sentence is split further. |
 | sieve / sife | KlugeSeebold2011 | The local Kluge OCR confirms the West Germanic _*sibi-_ line, but the witness is unpaginated. | yes | Use a paginated Kluge-Seebold witness for the sieve entry. |
 | world / weorold | Orel2003 | Orel still preserves the older _*wira-_ vocalism tradition, but the local witness does not safely recover the printed page for the world-family article. | yes | Recover the exact Orel page from a PDF/page image or keep the comparative vocalism citation broad. |
 | world / weorold | KlugeSeebold2011 | The local Kluge OCR confirms compound _*wira-aldō_ beside simplex _*wera-_, but the witness is unpaginated. | yes | Use a paginated Kluge-Seebold witness for the world-family entry. |

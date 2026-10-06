@@ -21,7 +21,7 @@ RULE_SUMMARY: deletes final high vowels in heavy disyllabic and trisyllabic envi
 DOSSIER: literature_dossiers/063-oe-high-vowel-apocope.dossier.md
 LITERATURE_STATUS: pilot_complete
 MATRIX_ROWS: 10
-KEY_SOURCES: Luick1914; Campbell1959; Hogg1992; RingeTaylor2014; Fulk2018
+KEY_SOURCES: Luick1914; Campbell1959; HoggPhonology1992; RingeTaylor2014; Fulk2018
 
 ## Conditioning
 

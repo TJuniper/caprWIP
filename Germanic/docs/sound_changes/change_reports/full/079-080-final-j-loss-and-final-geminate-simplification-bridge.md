@@ -26,7 +26,7 @@ zone [@Fulk2018, §6.11, §12.21]. Campbell's vocalization material and final
 consonant discussions give the technical background for both the `j`-loss
 material and the final-geminate issue [@Campbell1959, §§266--274, §401, §731].
 Hogg's account of late final degemination gives SC080 its clearest handbook
-support [@Hogg1992].
+support [@HoggPhonology1992].
 
 That support is enough for a short adjacent report, but the hierarchy remains
 uneven. SC079 carries the larger historical load; SC080 is best read as the

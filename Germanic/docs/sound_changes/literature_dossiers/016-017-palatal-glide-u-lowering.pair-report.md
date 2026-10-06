@@ -1,5 +1,31 @@
 # SC016 / SC017 palatal-glide and u-lowering pair report
 
+## 0. 2026 adjudication supersession
+
+This report predates the SC016/SC017 chronology repair recorded in
+`Germanic/docs/sound_changes/audits/sc016-017-adjudication.md`. That
+adjudication supersedes the pair-chronology conclusions below:
+
+1. The relative chronology is no longer silent: Fulk (§4.3 p. 56) and
+   Campbell (§115 p. 43) list *geoc* as a regular Northwest Germanic
+   u-lowering output, and Brunner (§92.1) and Bülbring (§299) classify
+   *geoc* under the *o*-forms (WGmc *jok). The lowering therefore FEEDS
+   the West Saxon glide spelling: **SC017 < SC016**.
+2. The former SC016 < SC017 executable order and its
+   "technical dependency" classification are retracted. SC016 is now
+   implemented at its historical position, in the Old English
+   written-surface block after `OldEnglishOrthography`, reformulated as
+   the ⟨eo⟩ spelling of back vowels after word-initial ġ
+   (Ringe & Taylor p. 5; Hogg p. 112).
+3. The "sources checked but not useful" rows for Hogg, Brunner, and
+   Ringe & Taylor vol. 2 are corrected by the adjudication pass: Hogg
+   p. 112 (orthographic verdict), Brunner §92.1 pp. 64–65 (o- vs
+   u-subcases), and R&T p. 129 (PWGmc jok/jokas/joku paradigm) were all
+   recovered and are now cited in the two dossiers.
+
+Sections 1–10 below are retained as the historical record of the original
+search pass.
+
 ## 1. Search coverage summary
 
 The search was conducted in two layers:

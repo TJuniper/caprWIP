@@ -140,17 +140,16 @@ The strongest new network effects from this batch are:
 
 ## Recommended next task
 
-The upper-early batch is now interpreted, so the next terminal batch should shift back to the remaining lower-early explicit corridor immediately below it:
+The upper-early batch is now interpreted, so the next terminal batch should shift back to the remaining lower-early explicit corridor immediately below it. After the SC021 adjudication, the retired former unstressed-o rule is not a current candidate:
 
 1. `SC020` PGmc Final Z Deletion
-2. `SC021` NWGmc Unstressed O Raising
-3. `SC022` NWGmc Mn Dissimilation
-4. `SC023` NWGmc N Stem N Loss
-5. `SC024` NWGmc Long E Lowering
-6. `SC025` NWGmc Long E Nasal Rounding
-7. `SC026` NWGmc Nasal Spirant Lengthening
-8. `SC027` NWGmc Nasal Spirant Loss
-9. `SC028` NWGmc Preconsonantal X Loss
-10. `SC029` OE Awj Glide Formation
+2. `SC022` Common Germanic Mn Dissimilation (executable holding-zone placement)
+3. `SC023` Proto-Germanic Word-Final N Loss (formerly NWGmc N Stem N Loss)
+4. `SC024` NWGmc Long E Lowering
+5. `SC025` NWGmc Long E Nasal Rounding
+6. `SC026` NWGmc Nasal Spirant Lengthening
+7. `SC027` NWGmc Nasal Spirant Loss
+8. `SC028` NWGmc Preconsonantal X Loss
+9. `SC029` OE Awj Glide Formation
 
-That ten-rule set fills the contiguous lower-early gap directly below the newly completed `SC030`-`SC040` band while also capturing stages already implicated by the new `SC030` and old `SC041` evidence. `SC019` remains an immediate follow-up singleton, but keeping the next batch to ten rules makes `SC020`-`SC029` the cleaner next corridor.
+That nine-rule set fills the contiguous lower-early gap directly below the newly completed `SC030`-`SC040` band while also capturing stages already implicated by the new `SC030` and old `SC041` evidence. `SC019` remains an immediate follow-up singleton, but keeping SC021 retired makes `SC020`, `SC022`-`SC029` the cleaner next corridor.

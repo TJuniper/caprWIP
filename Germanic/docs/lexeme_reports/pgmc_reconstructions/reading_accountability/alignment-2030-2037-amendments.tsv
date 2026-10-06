@@ -1,0 +1,13 @@
+evidence_id	printed_pages	field	old_value	new_value	source_basis
+rt-complete-2030-007	330	asserted_stage	unspecified_local_endpoint	pwgmc	RT330 explicitly prints PWGmc before the fugl/fogl slash pair; the local label scopes both variants.
+rt-complete-2033-005	386	asserted_stage	unspecified_local_endpoint	oe	RT386 expressly introduces the most basic OE examples before freond and feond.
+ringe-complete-furrow	222	asserted_stage	not locally dated; reconstructed Germanic context	PGmc	Ringe222 explicitly identifies more than two dozen PGmc-reconstructable consonant stems, then lists generalized zero-grade furh; not a date from chapter title.
+rt-complete-2036-002	28	asserted_stage	pie	post-PIE	RT28 explicitly prefixes the comparative furrow root with post-PIE, not PIE.
+rt-complete-2036-011	308	asserted_stage	pie	post-PIE	RT308 explicitly prefixes the comparative furrow root with post-PIE.
+rt-complete-2036-003	28	asserted_stage	unspecified_local_endpoint	PCeltic	RT28 explicitly gives PCelt. rik as the Welsh antecedent, not Germanic.
+rt-complete-2036-007	202	asserted_stage	unspecified_local_endpoint	pgmc	RT202's PGmc furh and langaz are coordinated compound-source words; pre-OE scopes the following compound only.
+rt-complete-2036-008	202	asserted_stage	oe	pre-OE	RT202 explicitly gives furh(z)lang as a pre-OE compound; the clipped first member is not attested OE.
+rt-complete-2036-013	308	asserted_stage	unspecified_local_endpoint	pwgmc	RT308 coordinates endingless PWGmc furh and dat.pl. furhum before the OE dat.pl. exemplum.
+rt-complete-2033-004	386	cell	Locally quoted historical word/stem/cell; exact inflection is not inferred from citation context	metalinguistic ija-stems class label, not friend whole word	RT386 describes extension of present participles as ija-stems; the literal stem-class label is not a reconstructed friend citation.
+rt-complete-2036-008	202	cell	Locally quoted historical word/stem/cell; exact inflection is not inferred from citation context	pre-OE compound furh(z)lang first member; retained extractor clip, not whole simplex	RT202 prints the full compound split across a line break; original clipped literal is retained and its component scope made explicit.
+kroonen-core-2037-2	165	cell	m./f.; separately printed contextual variant	Nordic neuter bile a formation, not masculine/feminine n citation	Kroonen165 expressly attaches galla to ON/Far. gall n.; the m./f. n label belongs to the headword galla/ōn.

@@ -32,8 +32,8 @@ SC004	EAFAiMonophthongization	PNWGmcLongENasalRounding	yes
 SC004	EAFAiMonophthongization	EAFNasalSpirantLengthening	yes				
 SC004	EAFAiMonophthongization	EAFNasalSpirantLoss	yes				
 SC004	EAFAiMonophthongization	PNWGmcPreconsonantalXLoss	yes				
-SC004	EAFAiMonophthongization	OEAwjGlideFormation	yes				
-SC004	EAFAiMonophthongization	OEAuFronting	yes				
+SC004	EAFAiMonophthongization	OEAwwjResolution	yes				
+SC004	EAFAiMonophthongization	OEAuBrightening	yes				
 SC004	EAFAiMonophthongization	OEWWSimplification	yes				
 SC004	EAFAiMonophthongization	OEDiphthongLeveling	yes				
 SC004	EAFAiMonophthongization	OEEwLongDiphthong	yes				

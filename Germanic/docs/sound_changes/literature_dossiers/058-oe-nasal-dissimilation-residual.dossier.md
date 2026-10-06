@@ -96,13 +96,13 @@ name equivalent to "OE Nasal Dissimilation".
 
 ### Hogg 1992
 
-- source_key: Hogg1992
+- source_key: HoggPhonology1992
 - locator: back/velar umlaut discussion on `heofon`
 - witness_used: `docs/references/hogg_vol1.txt`
 - locator_confidence: page_safe
 - short quotation: "Typical examples are: *sifon > siofon 'seven', *hefon > heofon ' heaven'"
-- paraphrase: Hogg confirms the lexical reality of `heofon`, but he discusses it as part of umlautal vowel history rather than as a named nasal-dissimilation chapter. This is useful because it shows that even a major handbook source reaches the relevant lexeme without yielding a robust SC058-style law. [@Hogg1992]
-- chronology: no local chronology boundary for SC058 is supplied here. [@Hogg1992]
+- paraphrase: Hogg confirms the lexical reality of `heofon`, but he discusses it as part of umlautal vowel history rather than as a named nasal-dissimilation chapter. This is useful because it shows that even a major handbook source reaches the relevant lexeme without yielding a robust SC058-style law. [@HoggPhonology1992]
+- chronology: no local chronology boundary for SC058 is supplied here. [@HoggPhonology1992]
 - examples: `heofon`
 - cautions: supporting lexical context only.
 

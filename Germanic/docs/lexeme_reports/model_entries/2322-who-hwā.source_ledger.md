@@ -1,0 +1,12 @@
+# Source extraction ledger — who / hwā
+
+This ledger records the evidence used for the corpus-maturation addition of row 2322 (who, OE *hwā*).
+
+| Source | Date / chronological position | Form(s) given | Stem class / morphology | Old English form(s) | Claim relevant to the entry | Citation key available? | Where this claim was found locally | Confidence / review note |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| Ringe & Taylor | comparative grammar | `*hwaz > OE hwā`; witness set `*maiz > mā`, `wē, ġē, mē, þē, hē, hwā`, `?*kūz > ?cū` | interrogative pronoun, nom.sg.masc. | `hwā` | The form is a named witness of the northern WGmc loss of word-final *-z in stressed monosyllables with compensatory lengthening; R&T reject the unaccented-variant alternative because mā and cū are not plausibly unaccented. | yes — `RingeTaylor2014` | `docs/references/ringe_taylor_linguistic_history_vol2.txt` (book p. 86, §3.3.1) | high |
+| Campbell | OE grammar | `hwā`; "*hwǣ does not exist" | interrogative pronoun | `hwā` | The long back vowel of hwā never underwent Anglo-Frisian brightening; motivates the narrowed long-final brightening clause. | yes — `Campbell1959` | `docs/references/campbell_old_english_grammar.txt` (§125, p. 49) | high |
+| Campbell | OE grammar | unaccented sentence-variant account | pronoun | `hwā` | Alternative analysis: generalized unaccented *hwa with later lengthening — recorded, not adopted. | yes — `Campbell1959` | `docs/references/campbell_old_english_grammar.txt` (p. 166) | medium; rejected by R&T p. 86 |
+| Sievers-Brunner | OE grammar | `hwā` back-vowel restriction; unaccented-variant discussion | interrogative pronoun | `hwā` | Confirms no fronted **hwǣ; presents the unaccented-variant account as an alternative. | yes — `SieversBrunner1965` | `docs/references/` Brunner (§137 Anm. 1, p. 129; §182, p. 160) | high |
+| Fulk | comparative grammar | endingless northern forms vs OHG rhotacized forms | pronoun inflection | `hwā` | The monosyllabic final *-z loss is a diagnostic Ingvaeonic feature; OHG rhotacizes instead. | yes — `Fulk2018` | `docs/references/` Fulk (p. 18, n. 6) | high |
+| Adjudication note | current local synthesis | verdict WHO = INCLUDE | — | `hwā` | Records the full candidate adjudication, the AFB narrowing, and the SC097 witness rationale. | no | `Germanic/docs/sound_changes/audits/corpus-maturation-01-candidate-adjudication.md` §1 | high |

@@ -38,7 +38,7 @@ Checked against `docs/refs.bib`:
 - `BosworthToller1898`
 - `Campbell1959`
 - `ClarkHall1960`
-- `Hogg1992`
+- `HoggPhonology1992`
 - `Kroonen2013`
 
 ## Unresolved points

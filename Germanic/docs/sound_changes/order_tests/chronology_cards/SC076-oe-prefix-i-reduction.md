@@ -1,7 +1,7 @@
 # SC076 OE Prefix I Reduction — chronology evidence card
 
-## Current position
-- current_order: `76`
+## Position at experiment time
+- order_at_experiment_time: `76`
 - rule_name: `OEPrefixIReduction`
 - safe computational window: `13-86` (earlier side blocked; later side runner-bounded)
 - status: `first_break_complete`

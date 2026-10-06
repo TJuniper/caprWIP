@@ -1,7 +1,7 @@
 # SC009 PWGmc Ij Contraction — chronology evidence card
 
-## Current position
-- current_order: `9`
+## Position at experiment time
+- order_at_experiment_time: `9`
 - rule_name: `PWGmcIjContraction`
 - safe computational window: `4-31` (earlier side boundary-only; later side broad/far)
 - status: `first_break_complete`

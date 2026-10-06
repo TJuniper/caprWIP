@@ -26,7 +26,7 @@ as `téon`, `sléan`, `séon`, and `téo` that matches the core of this pair
 picture with their explicit section on loss of intervocalic `*h` and contraction,
 using forms such as `flēon`, `slēan`, `téon`, and `tā`
 [@RingeTaylor2014, §§6.9.1--6.9.3]. Hogg likewise treats contracted verbs after
-loss of intervocalic `h` as one coherent late pattern [@Hogg1992].
+loss of intervocalic `h` as one coherent late pattern [@HoggPhonology1992].
 
 Luick and Sievers-Brunner reinforce the same point from the older grammar
 tradition: later contraction follows hiatus created by `h`-loss, while

@@ -1,8 +1,8 @@
 # SC030 OE Au Fronting — chronology evidence card
 
-## Current position
-- current_order: `30`
-- rule_name: `OEAuFronting`
+## Position at experiment time
+- order_at_experiment_time: `30`
+- rule_name: `OEAuBrightening`
 - safe computational window: `30-31`
 - status: `first_break_complete`
 

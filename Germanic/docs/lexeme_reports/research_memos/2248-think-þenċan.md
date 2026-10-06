@@ -24,7 +24,7 @@ Checked beyond the packet:
 - `docs/references/kroonen_etymological_dictionary_pgmc.vision.txt` at `27213-27227`, where Kroonen gives dictionary-style `*þankjan-` with OE `þencan` [@Kroonen2013].
 - `docs/references/ringe_vol1_pie_to_pgmc.txt` at `5399-5401` and `12303-12305`, where Ringe gives PGmc `*þankijaną` and OE `þenċan, þōhte, þōht` [@RingeTaylor2014].
 - `docs/references/campbell_old_english_grammar.txt` at §438 and §762, to separate the `þencan` assibilation example from the separate class-III `hycgan` paradigm [@Campbell1959].
-- `docs/references/hogg_vol1.txt` at `7814-7827`, which again confirms that the “think” verb in the weak-class-III discussion is `hycgan`, not `þenċan` [@Hogg1992].
+- `docs/references/hogg_vol1.txt` at `7814-7827`, which again confirms that the “think” verb in the weak-class-III discussion is `hycgan`, not `þenċan` [@HoggPhonology1992, p. 163].
 - `docs/references/bosworth_toller_anglo_saxon_dictionary.vision.txt` around the `ge-pencan` entry, which supplies abundant attestation for the `þencan/geþencan` lexeme family [@BosworthToller1898].
 - `Germanic/data/oe_known_problems.tsv` (checked; no row-specific entry).
 - `Germanic/docs/lexeme_reports/pilot/` (checked; no existing pilot report for this lexeme).
@@ -42,7 +42,7 @@ So the note’s `*θankăz → *θankijăną` should be read as etymological bac
 ## Old English philology
 `þenċan` is the normalized OE citation form supported by the repo’s lexical tables and by Bosworth-Toller’s large `þencan/geþencan` evidence base [@BosworthToller1898]. The packet’s outcome is therefore philologically unproblematic at the headword level.
 
-The main philological caution is lexical, not phonological: `þenċan` must not be conflated with `hycgan`. Campbell and Hogg cite `hycgan` as one of the residual OE weak class-III verbs [@Campbell1959; @Hogg1992]; that is a different lexeme from the ordinary weak verb `þenċan`.
+The main philological caution is lexical, not phonological: `þenċan` must not be conflated with `hycgan`. Campbell and Hogg cite `hycgan` as one of the residual OE weak class-III verbs [@Campbell1959; @HoggPhonology1992, p. 163]; that is a different lexeme from the ordinary weak verb `þenċan`.
 
 Campbell §438 is still useful background: it shows that the `þencan` paradigm participated in the well-known assibilation / de-assibilation environment (`þencan` beside expected 3sg `þencþ`) [@Campbell1959]. But that does not create a row-level target problem. The row is about the infinitive `þenċan`, not about reconstructing a special finite paradigm cell.
 

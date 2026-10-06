@@ -34,7 +34,7 @@ The singular and plural evidence point to different parts of the paradigm. The r
 
 ### Development to Old English
 
-Proto-Germanic [skúldramiz]{.recon} 'shoulder' can be interpreted as a dative/instrumental plural form. In this environment the post-tonic `a` before `m` is raised to `u`, giving a form of the [skúldrumiz]{.recon} 'shoulder' type. Unstressed `u` is regularly preserved before `m`, especially in the dative plural ending `-um`: Campbell states this explicitly, and Hogg formulates the same condition for the dative plural inflexion [@Campbell1959, §373; @Hogg1992, §3.3.1.3]. Brunner points in the same direction by excluding `m` from the environments in which medial `o` became general in West Saxon [@SieversBrunner1965, §44 Anm. 7].
+Proto-Germanic [skúldramiz]{.recon} 'shoulder' can be interpreted as a dative/instrumental plural form. In this environment the post-tonic `a` before `m` is raised to `u`, giving a form of the [skúldrumiz]{.recon} 'shoulder' type. Unstressed `u` is regularly preserved before `m`, especially in the dative plural ending `-um`: Campbell states this explicitly, and Hogg formulates the same condition for the dative plural inflexion [@Campbell1959, §373; @HoggPhonology1992, §3.3.1.3]. Brunner points in the same direction by excluding `m` from the environments in which medial `o` became general in West Saxon [@SieversBrunner1965, §44 Anm. 7].
 
 Subsequent reduction of the ending removes the final `*i` and `*z`, so that the inflectional ending appears in Old English as `-um`. The initial cluster is written here as `sċ-`, and the development is [skúldramiz]{.recon} 'shoulder' > [skúldrumiz]{.recon} 'shoulder' > [skúldrum]{.recon} 'shoulder' > [`sċuldrum`]{.iv lang=oe sort=sculdrum role=comparison_form} 'shoulder'.
 

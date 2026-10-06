@@ -1,7 +1,7 @@
 # SC002 PGmc Gm Simplification — chronology evidence card
 
-## Current position
-- current_order: `2`
+## Position at experiment time
+- order_at_experiment_time: `2`
 - rule_name: `PGmcGmSimplification`
 - safe computational window: `2-92` (earlier side start-bounded; later side non-historical)
 - status: `first_break_complete`

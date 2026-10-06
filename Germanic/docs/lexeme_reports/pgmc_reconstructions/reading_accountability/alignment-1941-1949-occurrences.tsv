@@ -1,0 +1,8 @@
+evidence_id	source_key	printed_pages	holding_sheet	paragraph	start_char	end_char	diplomatic_form	paragraph_sha256	verification
+fulk-alignment-beaver-pgmc	Fulk2018	69	86	1	1171	1178	*bebruz	40027e8a522df5c0b1c445c3914632cd99b3cbbb35e8ab50a302c23e65b4647d	text_checked
+fulk-alignment-beaver-oe	Fulk2018	69	86	1	1184	1190	beofor	40027e8a522df5c0b1c445c3914632cd99b3cbbb35e8ab50a302c23e65b4647d	text_checked
+rt-alignment-believe-ws	RingeTaylor2014	245	260	16	109	117	geliefan	f3f373675b58ace9b35f2b15d21f087397e67cf81787a044e59ba4b216796c6d	text_checked
+rt-alignment-belly-ws-243	RingeTaylor2014	243	258	8	127	132	bielg	c8a3aa03be9377ec26ab41dfc6eee2341a459d4f3f3b61c6112117fff1dac4a9	text_checked
+rt-alignment-belly-ws-287	RingeTaylor2014	287	302	5	149	154	bielg	f84d3f76fe5837f8288a5edb4f84521323cd65d9090615c04529710fdcfd73d9	text_checked
+rt-alignment-offer-bebytst	RingeTaylor2014	350	365	6	41	48	bebytst	4fbd44fcb9fb652a846f03e5863c1e538bb89c913cb2fffcdd06dcefcb22077b	text_checked
+rt-alignment-offer-bebiet	RingeTaylor2014	350	365	6	57	63	bebiet	4fbd44fcb9fb652a846f03e5863c1e538bb89c913cb2fffcdd06dcefcb22077b	text_checked

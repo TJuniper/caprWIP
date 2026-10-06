@@ -1,5 +1,32 @@
 # SC026-SC027: Nasal Spirant Corridor
 
+> **Adjudication correction (SC026/SC027 nasal-spirant adjudication).** This
+> dossier predates
+> `Germanic/docs/sound_changes/audits/sc026-sc027-nasal-spirant-adjudication.md`,
+> which supersedes it on three points.
+>
+> 1. **Consonantal domain.** The North Sea Germanic law applies before \*f, \*þ
+>    and \*s only (Campbell §121, p. 47; Fulk §4.11; Sievers–Brunner §186.1;
+>    none of the thirty-odd examples in Ringe & Taylor §5.1.1, pp. 139–41,
+>    contains \*x). CAPR's `EnglishStarVoicelessFricative` wrongly included
+>    \*x and has been replaced by `EnglishStarNSGmcSpirant`.
+> 2. **\*nx belongs to an earlier, pan-Germanic change**, now SC103
+>    `PGmcNasalLossBeforeX` (Campbell §119, p. 44; Fulk §4.1; Ringe vol. 1).
+>    The diagnostic is comparative: the pan-Germanic change leaves no nasal in
+>    any daughter (OHG *fūht*, *fūst*, *brāhta*), whereas the cognates of the
+>    Ingvaeonic witnesses keep it (OHG *fimf*, *gans*, *ander*, *jugund*).
+> 3. **`fist` is not a witness for SC026 or SC027.** PGmc \*funhsti- (Kroonen
+>    p. 160) shows the long vowel in OHG *fūst*, Dutch *vuist* and German
+>    *Faust*, so its nasal loss is pan-Germanic. It has been withdrawn from the
+>    evidential core and from the chronology witness set, which is now `goose`
+>    and `youth`. Where this dossier cites `fist` below, read SC103.
+>
+> The dossier's central conclusion — that the two CAPR rules articulate **one**
+> historical sound change — is confirmed, and is now recorded in the registry
+> (SC027 carries `canonical_change_id = SC026`). The `SC026 < SC027` ordering is
+> an executable dependency, not a demonstrated historical relative chronology.
+
+
 ## 1. Role in the book
 
 SC026-SC027 is the clearest current corridor candidate for the next non-pilot promotion. It is the first attractive **paired** chapter after the two singleton promotions (`SC043` and `SC063`), and it already has the kind of local reciprocal order evidence that makes a short sound-change chapter narratively legible.

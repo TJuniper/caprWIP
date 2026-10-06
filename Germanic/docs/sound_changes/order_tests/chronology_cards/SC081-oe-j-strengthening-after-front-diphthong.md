@@ -1,7 +1,7 @@
 # SC081 OE J Strengthening After Front Diphthong — chronology evidence card
 
-## Current position
-- current_order: `80`
+## Position at experiment time
+- order_at_experiment_time: `80`
 - rule_name: `OEJStrengtheningAfterFrontDiphthong`
 - safe computational window: `56-80`
 - status: `first_break_complete`

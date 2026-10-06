@@ -8,7 +8,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-DEFAULT_BUILD_SCRIPT = ROOT / "build_reader_facing_local_section_19_docker.sh"
+SC_DIR = ROOT.parent
+READER_MANIFEST = SC_DIR / "registry" / "reader_manifest.tsv"
+BUILD_READER_BOOK = ROOT.parents[3] / "Germanic/tools/build_reader_book.py"
 RULE_HEADING_RE = re.compile(
     r"^##\s+(SC\d{3})\.\s+(.*?)\s+\(`([^`]+)`\)\s+\{#(rule-[^}]+)\}\s*$"
 )
@@ -28,16 +30,19 @@ def iter_chapter_source_paths() -> list[Path]:
     return sorted(ROOT.glob("[0-9]*.md"))
 
 
-def extract_embedded_python(build_script: Path) -> str:
-    text = build_script.read_text(encoding="utf-8")
-    match = re.search(r"python3 - <<'PY'\n(.*?)\nPY", text, re.S)
-    if not match:
-        raise ValueError(f"Could not find embedded Python block in {build_script}")
-    return match.group(1)
+def manifest_chapter_files(manifest: Path = READER_MANIFEST) -> list[str]:
+    """Reader files in presentation order, from the generated book manifest."""
+    lines = [ln for ln in manifest.read_text(encoding="utf-8").splitlines()
+             if ln and not ln.startswith("#")]
+    import csv
+    rows = list(csv.DictReader(lines, delimiter="\t"))
+    if not rows:
+        raise ValueError(f"No rows found in {manifest}")
+    return [row["reader_file"] for row in rows]
 
 
-def parse_python_list_assignment(build_script: Path, name: str) -> list[str]:
-    module = ast.parse(extract_embedded_python(build_script))
+def parse_python_list_assignment(module_path: Path, name: str) -> list[str]:
+    module = ast.parse(module_path.read_text(encoding="utf-8"))
     for node in module.body:
         if isinstance(node, ast.Assign):
             for target in node.targets:
@@ -46,15 +51,11 @@ def parse_python_list_assignment(build_script: Path, name: str) -> list[str]:
         if isinstance(node, ast.AnnAssign):
             if isinstance(node.target, ast.Name) and node.target.id == name and node.value is not None:
                 return list(ast.literal_eval(node.value))
-    raise ValueError(f"Could not find {name} list assignment in {build_script}")
+    raise ValueError(f"Could not find {name} list assignment in {module_path}")
 
 
-def parse_chapter_files(build_script: Path) -> list[str]:
-    return parse_python_list_assignment(build_script, "chapter_files")
-
-
-def parse_intro_parts(build_script: Path) -> list[str]:
-    parts = parse_python_list_assignment(build_script, "parts")
+def parse_intro_parts(builder: Path = BUILD_READER_BOOK) -> list[str]:
+    parts = parse_python_list_assignment(builder, "parts_front")
     # Support both legacy "## Introduction" and current "## Scope and orientation" markers
     marker = None
     for candidate in ("## Scope and orientation", "## Introduction"):
@@ -62,13 +63,13 @@ def parse_intro_parts(build_script: Path) -> list[str]:
             marker = candidate
             break
     if marker is None:
-        raise ValueError(f"Could not find ## Introduction or ## Scope and orientation marker in {build_script}")
+        raise ValueError(f"Could not find ## Introduction or ## Scope and orientation marker in {builder}")
     start = parts.index(marker) + 1
     return [part for part in parts[start:] if part.strip() and not part.startswith("#")]
 
 
-def iter_build_chapter_paths(build_script: Path = DEFAULT_BUILD_SCRIPT) -> list[Path]:
-    return [ROOT / name for name in parse_chapter_files(build_script)]
+def iter_build_chapter_paths(manifest: Path = READER_MANIFEST) -> list[Path]:
+    return [ROOT / name for name in manifest_chapter_files(manifest)]
 
 
 def extract_rule_headings(path: Path) -> list[RuleHeading]:
@@ -90,9 +91,9 @@ def extract_rule_headings(path: Path) -> list[RuleHeading]:
     return headings
 
 
-def build_rule_heading_map(build_script: Path = DEFAULT_BUILD_SCRIPT) -> dict[str, RuleHeading]:
+def build_rule_heading_map(manifest: Path = READER_MANIFEST) -> dict[str, RuleHeading]:
     mapping: dict[str, RuleHeading] = {}
-    for path in iter_build_chapter_paths(build_script):
+    for path in iter_build_chapter_paths(manifest):
         for heading in extract_rule_headings(path):
             if heading.anchor in mapping:
                 raise ValueError(f"Duplicate rule anchor {heading.anchor} in {path}")

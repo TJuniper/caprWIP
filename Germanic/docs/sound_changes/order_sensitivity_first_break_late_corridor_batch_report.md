@@ -84,7 +84,7 @@ SC075 is one-sided later, but its earlier boundary is historically strong becaus
 
 - current order: `69`
 - safe computational window: `24-86`
-- earlier boundary: order `23`, crossing `SC023` NWGmc N Stem N Loss
+- earlier boundary: order `23`, crossing `SC023` Proto-Germanic Word-Final N Loss (formerly NWGmc N Stem N Loss)
 - later boundary: no real break before runner boundary; last safe order `86`, boundary row `SC087` OE R Metathesis
 - representative concrete failures: PGmc `*nḗdrōn` > expected OE `nǣdre`, variant `nǣdran`; PGmc `*érθōn` > expected OE `eorþe`, variant `eorþan`; PGmc `*fláskōn` > expected OE `flasce`, variant `flascan`
 

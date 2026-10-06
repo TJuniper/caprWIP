@@ -81,9 +81,96 @@ class BaselineArtifactTests(unittest.TestCase):
         self.assertEqual(ambiguous, self.summary["ambiguous_outputs"])
 
     def test_rows_are_deterministically_sorted(self):
-        keys = [(r["proto_norm"], r["counterpart"], r["concept"]) for r in self.rows]
+        keys = [(r["fst_input"], r["counterpart"], r["concept"]) for r in self.rows]
         self.assertEqual(keys, sorted(keys),
-                         "baseline rows must be sorted by (proto_norm, counterpart, concept)")
+                         "baseline rows must be sorted by (fst_input, counterpart, concept)")
+
+
+class LegacySubsetTests(unittest.TestCase):
+    """Corpus-maturation baseline policy: the original 380-row corpus is a
+    frozen legacy subset. Corpus expansion may change the whole-corpus
+    fingerprint, but every legacy row must persist byte-identically and the
+    legacy-subset hash must reproduce the frozen constant."""
+
+    LEGACY_TSV = BASELINE_DIR / "cascade_baseline_outputs_legacy380.tsv"
+    LEGACY_SHA = "fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf"
+    ACTIVE_SHA = "70bdaba537d8f6b6bb7d872d00eefbef75127d2d77689af7ba01b35a79ebce39"
+
+    def setUp(self):
+        self.assertTrue(self.LEGACY_TSV.exists(), f"missing {self.LEGACY_TSV}")
+        with self.LEGACY_TSV.open(encoding="utf-8") as handle:
+            self.legacy_rows = list(csv.DictReader(handle, delimiter="\t"))
+        with OUTPUTS_TSV.open(encoding="utf-8") as handle:
+            self.current_rows = list(csv.DictReader(handle, delimiter="\t"))
+        self.summary = json.loads(SUMMARY_JSON.read_text(encoding="utf-8"))
+
+    def test_legacy_file_has_exactly_380_rows(self):
+        self.assertEqual(len(self.legacy_rows), 380)
+
+    def test_legacy_file_reproduces_frozen_fingerprint(self):
+        import hashlib
+        hasher = hashlib.sha256()
+        for r in self.legacy_rows:
+            hasher.update((r["proto_norm"] + "\x1f" + r["outputs"] + "\x1e").encode("utf-8"))
+        self.assertEqual(hasher.hexdigest(), self.LEGACY_SHA,
+                         "frozen legacy380 file no longer reproduces the frozen fingerprint")
+
+    def test_every_legacy_row_persists_identically_in_current_baseline(self):
+        mod = _load_module("cascade_baseline", TOOLS / "cascade_baseline.py")
+        with (BASELINE_DIR / "approved_input_migrations.tsv").open(encoding="utf-8") as handle:
+            migrations = list(csv.DictReader(handle, delimiter="\t"))
+        selected = mod.legacy_subset(self.current_rows, self.legacy_rows, migrations)
+        self.assertEqual(len(selected), 380)
+        self.assertEqual([m["row_id"] for m in migrations], ["2040", "2085"])
+        import hashlib
+        digest = hashlib.sha256()
+        for row in selected:
+            digest.update((row["proto_norm"] + "\x1f" + row["outputs"] + "\x1e").encode())
+        self.assertEqual(digest.hexdigest(), self.ACTIVE_SHA)
+
+    def test_summary_records_legacy_subset_invariant(self):
+        self.assertEqual(self.summary["legacy_subset_count"], 380)
+        self.assertEqual(self.summary["legacy_subset_sha256"], self.ACTIVE_SHA)
+
+    def test_migration_rejects_unapproved_or_ambiguous_drift(self):
+        import copy
+        mod = _load_module("cascade_baseline", TOOLS / "cascade_baseline.py")
+        with (BASELINE_DIR / "approved_input_migrations.tsv").open(encoding="utf-8") as handle:
+            migrations = list(csv.DictReader(handle, delimiter="\t"))
+        for case in ("missing", "duplicate", "output", "wrong_input", "wrong_old", "unapproved"):
+            current, old, approved = copy.deepcopy((self.current_rows, self.legacy_rows, migrations))
+            gift = next(r for r in current if r["row_id"] == "2040")
+            if case == "missing":
+                current.remove(gift)
+            elif case == "duplicate":
+                current.append(copy.deepcopy(gift))
+            elif case == "output":
+                gift["outputs"] = "ġieft"
+            elif case == "wrong_input":
+                gift["proto"] = "*gēftiz"
+            elif case == "wrong_old":
+                approved[0]["old_proto"] = "*gēftiz"
+            else:
+                approved = []
+            with self.subTest(case=case), self.assertRaises(ValueError):
+                mod.legacy_subset(current, old, approved)
+
+    def test_all_pre_sc056_selected_outputs_are_preserved(self):
+        mod = _load_module("cascade_baseline", TOOLS / "cascade_baseline.py")
+        with (BASELINE_DIR / "cascade_baseline_outputs_pre_sc056.tsv").open(encoding="utf-8") as handle:
+            old = list(csv.DictReader(handle, delimiter="\t"))
+        with (BASELINE_DIR / "approved_input_migrations.tsv").open(encoding="utf-8") as handle:
+            migrations = list(csv.DictReader(handle, delimiter="\t"))
+        self.assertEqual(len(old), 387)
+        previous = mod.read_baseline(
+            BASELINE_DIR / "cascade_baseline_outputs_pre_sc033_hue.tsv",
+            BASELINE_DIR / "cascade_baseline_summary_pre_sc033_hue.json",
+        )
+        approval = json.loads((BASELINE_DIR / "approved_hue_input_migration.json").read_text())
+        mod.validate_cell_transition(
+            previous, {"records": self.current_rows, "summary": self.summary}, approval,
+        )
+        self.assertEqual(len(mod.legacy_subset(previous["records"], old, migrations)), 387)
 
 
 class OrderManifestTests(unittest.TestCase):
@@ -95,13 +182,8 @@ class OrderManifestTests(unittest.TestCase):
 
     def test_manifest_matches_current_fst_source(self):
         """The committed manifest must be an exact projection of germanic.txt."""
-        regenerated = self.mod.build_manifest(FST_SOURCE)
-        committed = [
-            {"position": r["position"], "foma_identifier": r["foma_identifier"],
-             "origin_block": r["origin_block"]}
-            for r in self.rows
-        ]
-        self.assertEqual(regenerated, committed,
+        self.assertEqual(self.mod.manifest_text(),
+                         ORDER_MANIFEST.read_text(encoding="utf-8"),
                          "cascade_order_manifest.tsv is stale relative to germanic.txt; "
                          "regenerate with tools/cascade_order_manifest.py")
 
@@ -111,11 +193,18 @@ class OrderManifestTests(unittest.TestCase):
 
     def test_manifest_begins_with_pwgmc_block(self):
         pwgmc = [r for r in self.rows if r["origin_block"] == "EarlyEnglishLineChanges"]
-        # The EarlyEnglishLineChanges block is expanded at the head of the pipeline, so its
-        # members must occupy the first contiguous positions.
-        head = self.rows[: len(pwgmc)]
+        # SC103 PGmcNasalLossBeforeX is pan-Germanic and leads the pipeline.
+        # SC096 RootNounNomZLoss follows immediately (it must precede
+        # PWGmcIjContraction, which creates monosyllabic *fríundz from
+        # *fríjōndz); the EarlyEnglishLineChanges block is expanded
+        # immediately after it, occupying contiguous positions.
+        self.assertEqual(self.rows[0]["foma_identifier"], "PGmcNasalLossBeforeX",
+                         "the pan-Germanic SC103 must lead the executable order")
+        self.assertEqual(self.rows[1]["foma_identifier"], "RootNounNomZLoss",
+                         "RootNounNomZLoss must lead the West Germanic block")
+        head = self.rows[2: 2 + len(pwgmc)]
         self.assertTrue(all(r["origin_block"] == "EarlyEnglishLineChanges" for r in head),
-                        "EarlyEnglishLineChanges members must lead the executable order")
+                        "EarlyEnglishLineChanges members must follow RootNounNomZLoss contiguously")
 
     def test_required_local_dependencies_hold_in_current_order(self):
         """Baseline sanity: the demonstrated local dependencies hold in the
@@ -124,12 +213,23 @@ class OrderManifestTests(unittest.TestCase):
         SC005 PNWGmcAToUBeforeM < SC017 PNWGmcULowering
         SC010 PWGmcJGemination < SC011 PWGmcSyllabicJ
         SC019 PNWGmcFinalLongORaising < SC020 EAFFinalZDeletion (final-*z* deletion)
+        SC096 RootNounNomZLoss < PWGmcIjContraction (friend must reach SC096
+            uncontracted/polysyllabic so its *-z falls under SC020, not SC096)
+        SC020 EAFFinalZDeletion < SC097 MonosyllabicFinalZLoss (chronology:
+            PWGmc unstressed loss precedes the later northern monosyllabic loss)
+        SC018/SC019 raisers < SC097 MonosyllabicFinalZLoss (English-doculect
+            *-ōz forms must not be exposed to final/monosyllabic ō-raising
+            by premature z-loss)
         """
         pos = {r["foma_identifier"]: int(r["position"]) for r in self.rows}
         pairs = [
             ("PNWGmcAToUBeforeM", "PNWGmcULowering"),
             ("PWGmcJGemination", "PWGmcSyllabicJ"),
             ("PNWGmcFinalLongORaising", "EAFFinalZDeletion"),
+            ("RootNounNomZLoss", "PWGmcIjContraction"),
+            ("EAFFinalZDeletion", "MonosyllabicFinalZLoss"),
+            ("PNWGmcStressedMonosyllableORaising", "MonosyllabicFinalZLoss"),
+            ("PNWGmcFinalLongORaising", "MonosyllabicFinalZLoss"),
         ]
         for earlier, later in pairs:
             self.assertIn(earlier, pos, f"{earlier} missing from manifest")

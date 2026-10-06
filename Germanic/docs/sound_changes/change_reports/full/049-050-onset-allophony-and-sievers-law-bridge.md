@@ -12,7 +12,7 @@ are one historical process.
 SC049 **PGmc B Allophony** is the narrower and more implementation-heavy member.
 It maps onto the familiar handbook distribution in which `b` surfaces as a stop
 initially or after nasals and as a voiced bilabial fricative elsewhere
-[@Hogg1992, pp. 101--102; @RingeTaylor2014, p. 121; @Luick1914, p. 107]. SC050
+[@HoggPhonology1992, p. 108; @RingeTaylor2014, p. 121; @Luick1914, p. 107]. SC050
 **Sievers Law Syncope** has stronger traditional backing because the literature
 treats Sievers-law reflexes, heavy/light stem structure, weak verbs, and
 gemination as real historical material [@Adamczyk2001; @Fulk2018, p. 28,
@@ -24,7 +24,7 @@ reasons, not because the sources present a standard `SC049-SC050` chapter.
 The source tradition for SC049 is thin but real. Hogg gives the clearest Old
 English formulation: `/b/` is a stop initially, after nasals, and in
 gemination, but elsewhere it is realized as a bilabial fricative
-[@Hogg1992, pp. 101--102]. Ringe and Taylor support the broader comparative
+[@HoggPhonology1992, p. 108]. Ringe and Taylor support the broader comparative
 picture by treating Proto-West-Germanic `*b` as having stop and fricative
 allophones by position [@RingeTaylor2014, p. 121], while Luick adds
 orthographic corroboration for the voiced labial fricative in Old English

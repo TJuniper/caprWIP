@@ -1,7 +1,7 @@
 # SC064 NWGmc In Stem N Loss — chronology evidence card
 
-## Current position
-- current_order: `64`
+## Position at experiment time
+- order_at_experiment_time: `64`
 - rule_name: `NWGmcInStemNLoss`
 - safe computational window: `42-71`
 - status: `first_break_complete`

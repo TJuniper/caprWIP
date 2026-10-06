@@ -17,7 +17,7 @@ inside the larger late unstressed-vowel environment
 [@Campbell1959, §§345--354, 388--389; @Fulk2018, §§5.6--5.7]. Hogg, Ringe and
 Taylor, and Luick support the same broader late weak-tail setting even though
 they do not isolate SC076 as a major handbook center
-[@Hogg1992, pp. 120--121; @RingeTaylor2014, §§6.7.3--6.9.3;
+[@HoggPhonology1992, p. 121; @RingeTaylor2014, §§6.7.3--6.9.3;
 @Luick1914, §§304--307].
 
 That is enough to justify final prose. It is not enough to turn SC076 into a

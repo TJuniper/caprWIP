@@ -11,7 +11,7 @@ seam. The
 historical point is narrower than the old grouped bridge: back mutation or back
 umlaut is a real Old English vowel-development zone in the handbooks, but that
 does **not** justify pulling SC060, SC061, or the later weak-tail cluster into
-one shared chapter [@Campbell1959, §207; @Hogg1992; @RingeTaylor2014, §6.9.4;
+one shared chapter [@Campbell1959, §207; @HoggGrammar1992; @RingeTaylor2014, §6.9.4;
 @Fulk2018, §4.8].
 
 #### Source tradition
@@ -21,7 +21,8 @@ Campbell treats back mutation directly as a later diphthongizing development
 before following back vowels and illustrates why forms such as `heofon` are
 historically legible outcomes rather than model artifacts [@Campbell1959, §207].
 Hogg likewise treats back mutation as a real later change parallel in type to
-breaking, even if narrower and more restricted in West Saxon [@Hogg1992].
+breaking, even if narrower and more restricted in West Saxon
+[@HoggPhonology1992, pp. 115--116].
 Ringe and Taylor sharpen the comparative picture by discussing back umlaut as a
 distinct later zone and by citing non-West-Saxon forms such as `geofad` beside
 West Saxon `giefan` and `weofan` beside West Saxon `wefan`

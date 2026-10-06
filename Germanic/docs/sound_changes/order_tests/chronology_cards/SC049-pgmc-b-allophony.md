@@ -1,7 +1,7 @@
 # SC049 PGmc B Allophony — chronology evidence card
 
-## Current position
-- current_order: `49`
+## Position at experiment time
+- order_at_experiment_time: `49`
 - rule_name: `PGmcBAllophony`
 - safe computational window: `38-86` (later side runner-bounded)
 - status: `first_break_complete`

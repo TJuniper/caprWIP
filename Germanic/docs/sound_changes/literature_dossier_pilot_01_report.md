@@ -2,7 +2,7 @@
 
 ## Summary
 
-The pilot dossier covers **SC043 Anglo Frisian Brightening**. I searched the local witnesses for Campbell1959, Hogg1992, RingeTaylor2014, Fulk2018, SieversBrunner1965, Luick1914, Bulbring1902, Kaluza1906, BrightCassidyRingler1971, Polome1994, and Ringe1984, starting from the Google Vision OCR witnesses where they existed. Verified relevant discussion was harvested from **Campbell1959, Hogg1992, RingeTaylor2014, and Fulk2018**.
+The pilot dossier covers **SC043 Anglo Frisian Brightening**. I searched the local witnesses for Campbell1959, HoggPhonology1992, RingeTaylor2014, Fulk2018, SieversBrunner1965, Luick1914, Bulbring1902, Kaluza1906, BrightCassidyRingler1971, Polome1994, and Ringe1984, starting from the Google Vision OCR witnesses where they existed. Verified relevant discussion was harvested from **Campbell1959, HoggPhonology1992, Toon1992, RingeTaylor2014, and Fulk2018**.
 
 The matrix now contains **10 verified SC043 rows**, replacing the earlier pilot stub. The dossier file was created at `literature_dossiers/043-anglo-frisian-brightening.dossier.md`, and the SC043 change-entry stub now points to it. No primary source needed to be treated as unavailable in this pass, though several older grammatical witnesses were searched without yet yielding clean dossier-ready extracts.
 
@@ -35,7 +35,8 @@ Sources searched:
 | Source | Local witness used | Result |
 | --- | --- | --- |
 | Campbell1959 | `docs/references/campbell_old_english_grammar.txt` | verified |
-| Hogg1992 | `docs/references/hogg_vol1.txt` | verified |
+| HoggPhonology1992 | `docs/references/hogg_vol1.txt` | verified |
+| Toon1992 | `docs/references/toon_1992_old_english_dialects.txt` | verified |
 | RingeTaylor2014 | `docs/references/ringe_taylor_linguistic_history_vol2.txt` | verified |
 | Fulk2018 | `docs/references/fulk_comparative_grammar_early_germanic.vision.txt` | verified |
 | SieversBrunner1965 | `docs/references/brunner_1965_altenglische_grammatik.vision.txt` | searched; no clean matrix row harvested |
@@ -49,7 +50,7 @@ Sources searched:
 ## Verified source discussions
 
 1. **Campbell1959** — `§ 131; §§ 139, 157-158`: classic handbook formulation of `a > æ` outside nasal environments, plus the key argument that breaking presupposes an earlier fronted vowel and restoration is later.
-2. **Hogg1992** — `p. 101 (§ 3.3.3.1); p. 119; p. 445`: explicit naming as "Anglo-Frisian Brightening (or First Fronting)", support for an unstressed extension, and a preserved summary of the standard order fronting > breaking/retraction > restoration.
+2. **HoggPhonology1992** — `p. 101 (§ 3.3.3.1); p. 119`: explicit naming as "Anglo-Frisian Brightening (or First Fronting)" and support for an unstressed extension. **Toon1992** — `p. 446`: a preserved summary of the standard order fronting > breaking/retraction > restoration, drawn from chapter 6 of the same volume and now cited under its own key.
 3. **RingeTaylor2014** — `§ 5.1.2, pp. 157-158; § 6.1.1, pp. 168-169; § 6.3.1, pp. 189-190`: cleanest modern explanation of the nasal exception, early chronology, dialect geography, and the explicit proof that retraction is later than fronting and breaking.
 4. **Fulk2018** — `§ 4.12, p. 73; § 4.13, pp. 73-74`: compact definition of Anglo-Frisian Brightening, clear examples, and an immediately adjacent account of the breaking and retraction environments that follow it.
 

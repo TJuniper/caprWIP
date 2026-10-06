@@ -1,0 +1,174 @@
+William H. Bennett, "The Germanic Development of Indo-European ē".
+Language 26.2 (Apr.–Jun. 1950), pp. 232–235. Linguistic Society of America.
+JSTOR stable URL: https://www.jstor.org/stable/410059
+
+NOTE ON THIS FILE
+The PDF's embedded text layer (see the sibling .txt) uses a broken font
+encoding in which every phonetic symbol is mis-mapped: ē, ǣ and ā are
+variously rendered as "j", "8", "z", "&", "d", "a", "t", "P" and "?".
+The .txt file is therefore unusable for any claim about vowel quality.
+The passages below were transcribed from the rendered page images at
+150–200 dpi, with the phonetic symbols read off the page. Page numbers
+are the printed journal pagination. Ellipses mark untranscribed
+connective material; nothing inside quotation marks is reconstructed.
+
+--------------------------------------------------------------------
+p. 232 — the received account, and the five inferred developments
+--------------------------------------------------------------------
+
+Opening: "In comparative Germanic grammar it is a commonplace
+assumption that IE ē first became ǣ in Proto-Germanic and then
+developed into ā in the parent forms of both North and West Germanic."
+Bennett quotes Prokosch (Comp. Gmc. Gr. §34; cf. Hirt): "In Gothic, ǣ
+reverts to ē by a different process of tensing (raising and fronting);
+in North and West Germanic, ā results; this develops secondarily into
+ǣ in Old English, and ē in Frisian."
+
+Distribution as Bennett states it: "The Proto-Germanic vowel ǣ appears
+as ǣ only in West Saxon Old English; the other Old English dialects,
+together with Old Frisian and Gothic, show ē. Old Saxon, Old Low
+Franconian, Old High German, and Old Norse have ā, but Old Saxon also
+exhibits individual instances of ē, e.g. bērun gēbun beside OHG bārun
+gābun, OIcel. bāru gāfu, WS OE bǣron gēafon (< *gǣfon), Go. bērun
+gēbun, etc."
+
+The five inferred developments (printed as a table, p. 232):
+
+    ON, OHG, OLFr...   ē > ǣ > ā
+    Go..............   ē > ǣ > ē
+    OS..............   ē > ǣ > ā (ē)
+    WS OE...........   ē > ǣ > ā > ǣ
+    Non-WS OE, OFris.  ē > ǣ > ā > ǣ > ē
+
+Bennett's objection: "In comparison with the simple, completely
+attested change of IE ā to PGmc. ō, some of these developments appear
+to be rather complicated and speculative. As a whole, they represent
+five phonological patterns. Old Norse, Old Low Franconian, and Old High
+German, to be sure, show a wholly comprehensible tendency to lower ē to
+ǣ and then to retract this to ā, but the inferred developments in the
+other Old Germanic languages show no such directional trend. So far as
+Gothic is concerned, we must assume that ē first became ǣ and then
+returned to ē. ... The West Saxon Old English development requires the
+supposition that ē became ǣ, then ā, then ǣ again. Finally, for Old
+Frisian and the non-West-Saxon dialects of Old English, we must believe
+that ē changed to ǣ, then to ā, then to ǣ again, and finally back to ē."
+
+Footnote 1 records that a few scholars, e.g. Noreen, assume IE ē was
+already an open ǣ.
+
+--------------------------------------------------------------------
+p. 233 — no direct attestation; the case against a common WGmc. *ā
+--------------------------------------------------------------------
+
+"The ǣ-vowel of Proto-Germanic, unlike the ō-vowel, is not supposed to
+be preserved directly in any historic Germanic language, West Saxon OE
+ǣ being traced back to WGmc. ā and only indirectly to PGmc. ǣ."
+
+Summary diagram as printed:
+
+    IE ē > PGmc. ǣ >  ┌ ON ā
+                      │ Go. ē
+                      └ WGmc. ā > ┌ WS OE ǣ
+                                  │ Non-WS OE, OFris. ē
+                                  │ OS ā, but also ē
+                                  └ OHG, OLFr. ā
+
+"The assumed developments merely summarize the historical facts without
+attempting to explain them. ... As a result, Germanic appears to show
+no one phonological trend; if any tendency is discernible in this
+scheme, it is one leading toward an inexplicable diversity."
+
+Against a common parent West Germanic ā, two considerations are
+examined and rejected. First, although OS, OLFr and OHG generally show
+ā for IE ē, "Old Saxon still preserves instances of ē (gēbun etc.) in
+the 9th century. Furthermore, the first foreign records of Old High
+German show ē, not ā; Caesar, for example, refers to the Old High
+German Swabians as Suēbi, not *Suābi, and their leaders are designated
+by such names as Hariomērus, not *-mārus." Second, the parallel with
+Latin loans (Lat. nāpus > OE nǣp (Ep.), nēp (Corp.) 'turnip'; Lat.
+strāta > OHG strāza, strāzza, WS OE strǣt 'street') is rejected: "we
+know that ā occurred in Latin, but this fact gives us no reason to
+infer that the 'same sound' occurred in the parent West Germanic speech
+or underwent the 'same developments' in the separate West Germanic
+languages." Compare parent WGmc. ē, which "remained unchanged in Old
+English (*hēr > hēr 'here')", while the same sound in early Latin loans
+became ī or i (cēpa > cīpe 'onion', dēnārius > dinor 'denarius').
+Conclusion: "the parent WGmc. ā in such assumed developments as ē > ǣ >
+ā > ǣ > ē is by no means indispensable."
+
+Footnote 3: "Wright (OE Gr. §113), unlike most scholars, does not
+postulate a WGmc. ā in this development but assumes that PGmc. ǣ
+remained in WS OE and was raised to ē in Kent. and Angl."
+
+--------------------------------------------------------------------
+pp. 234–235 — the wave hypothesis
+--------------------------------------------------------------------
+
+Bennett proposes a chronological and geographical account. The PGmc
+homeland embraced southern Scandinavia, Denmark, and the north German
+lowlands between the Elbe and the Oder. The Gothic emigration eastward
+occurred in the last few centuries B.C.; South ('West') Germanic
+expansion proceeded more slowly up to about 500 A.D.
+
+"It may be worthy of notice that Gothic ('East' Germanic), the first
+known Germanic language to be carried from the homeland into a separate
+colony, shows no tendency whatever to change ē to ā. In the west, the
+same is true of Anglian Old English and Old Frisian ..."
+
+p. 234, foot: "If we consider only the ... 'East' and 'West' Germanic
+tribes, the change of ē to ā does not appear at all along the far
+eastern or far western periphery. On the other hand, ē regularly became
+ā in North Germanic and in those languages that remained relatively
+contiguous with it after the first expansions to the east and west."
+
+"The change of ē through ǣ to ā apparently began in the north of the
+homeland and spread gradually toward the south. By the time that it had
+reached the district originally inhabited by the Goths, Gothic (at
+least in the form that we know it) had been carried far to the east and
+so was not affected. In northern Germany the change of ē to ā likewise
+had no effect on the speech of the Frisians or northern Angles, who had
+migrated to the west. Continental Saxon, which remained mostly in the
+path of the change, generally shows ā, but insular West Saxon, which
+was" [p. 235] "carried to the west before the change was completed,
+shows the intermediate stage ǣ. Low Franconian and High German remained
+in the path of the change and developed ā; as noted above, the first
+foreign records of High German still preserve the old ē."
+
+"This hypothesis (it is nothing more) attempts merely to account for
+the facts. It does not alter, of course, the historical correspondences
+among the cognate vowels ē, ǣ, and ā in the Old Germanic languages,⁶
+nor does it deny that there was a difference between the two
+Proto-Germanic vowels that developed from IE ē and ēi. When we are
+faced with the necessity of accepting at least five such unproved
+suppositions as ē > ǣ > ā > ǣ > ē, with no apparent agreement among the
+languages and no discernible phonological trend, a more credible
+interpretation of the facts appears to be required. If it is true that
+the change of ē to ā began in the north and spread toward the south,
+missing or only partly affecting the more peripheral areas, the
+development of IE ē in Germanic is much less complicated than has been
+supposed."
+
+--------------------------------------------------------------------
+p. 235 n. 6 — the *w / *g conditioning (verbatim)
+--------------------------------------------------------------------
+
+"⁶ The results of secondary combinative changes in the historic
+languages remain the same, regardless of the phonological developments
+that are postulated for preliterary times. WS Old English, for example,
+shows ǣ as a regular isolative development of IE ē but has ā before w
+or g plus a back vowel (analogical forms like wǣgas for wāgas 'waves',
+sg. wǣg, also occur). If WS ǣ developed from a WGmc. ā, as usually
+assumed, the WS ā in such forms is simply a combinative retention of
+the older vowel. If ā is the later development, it represents a
+combinative change and shows that the shift of ē to ā occurred in
+insular as well as continental West Germanic, though only under certain
+specific conditions."
+
+Footnote 5 (p. 234) concedes areal mixture: "If our knowledge of the
+early tribal movements were more extensive, we should probably find a
+number of instances in which ē-, ǣ-, and ā-speakers came into close and
+lasting contact. Certainly there were both Frisians and Saxons along the
+Litus Saxonicum, and a number of Frisians found their way into England.
+... In such instances there may well have been variant pronunciations of
+the IE ē-vowel within a given area, with one development or another
+finally predominating."

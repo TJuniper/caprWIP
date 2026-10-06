@@ -2,9 +2,9 @@
 
 ## Summary
 
-This pilot covers **SC063 OE High Vowel Apocope**. I searched the local witnesses for Campbell1959, Hogg1992, RingeTaylor2014, Fulk2018, Luick1914, SieversBrunner1965, Bulbring1902, and Kaluza1906, starting from Google Vision OCR where available and otherwise using the repository text witnesses.
+This pilot covers **SC063 OE High Vowel Apocope**. I searched the local witnesses for Campbell1959, HoggPhonology1992, RingeTaylor2014, Fulk2018, Luick1914, SieversBrunner1965, Bulbring1902, and Kaluza1906, starting from Google Vision OCR where available and otherwise using the repository text witnesses.
 
-Verified relevant discussion was harvested from **Luick1914, Campbell1959, Hogg1992, RingeTaylor2014, and Fulk2018**. The matrix now contains **10 verified SC063 rows**, replacing the earlier pilot stub. The dossier file was created at `literature_dossiers/063-oe-high-vowel-apocope.dossier.md`, and the SC063 change-entry stub now points to it. No source was unavailable locally, though Brunner, Bülbring, and Kaluza were searched without yielding a clean dossier-ready quotation in this pass.
+Verified relevant discussion was harvested from **Luick1914, Campbell1959, HoggPhonology1992, RingeTaylor2014, and Fulk2018**. The matrix now contains **10 verified SC063 rows**, replacing the earlier pilot stub. The dossier file was created at `literature_dossiers/063-oe-high-vowel-apocope.dossier.md`, and the SC063 change-entry stub now points to it. No source was unavailable locally, though Brunner, Bülbring, and Kaluza were searched without yielding a clean dossier-ready quotation in this pass.
 
 ## Source search
 
@@ -38,7 +38,7 @@ Sources searched:
 | --- | --- | --- |
 | Luick1914 | `docs/references/luick_historische_grammatik.txt` | verified |
 | Campbell1959 | `docs/references/campbell_old_english_grammar.txt` | verified |
-| Hogg1992 | `docs/references/hogg_vol1.txt` | verified |
+| HoggPhonology1992 | `docs/references/hogg_vol1.txt` | verified |
 | RingeTaylor2014 | `docs/references/ringe_taylor_linguistic_history_vol2.txt` | verified |
 | Fulk2018 | `docs/references/fulk_comparative_grammar_early_germanic.vision.txt` | verified |
 | SieversBrunner1965 | `docs/references/brunner_1965_altenglische_grammatik.vision.txt` | searched; no clean matrix row harvested |
@@ -49,7 +49,7 @@ Sources searched:
 
 1. **Luick1914** — `§§ 304-308`: older historical-grammar statement of `i/u` loss, trisyllabic conditioning, and explicit attribution to Sievers.
 2. **Campbell1959** — `§§ 345-349`: classic OE handbook account of apocope conditioned by syllable weight and by the presence or absence of a following consonant.
-3. **Hogg1992** — `p. 120`: compact modern summary of apocope and its relation to medial syncope.
+3. **HoggPhonology1992** — `p. 120`: compact modern summary of apocope and its relation to medial syncope.
 4. **RingeTaylor2014** — `§§ 6.8.1, 6.8.4`: clearest explicit chronology, placing apocope after general syncope and among the last prehistoric OE sound changes.
 5. **Fulk2018** — `§ 5.6`: comparative statement of the heavy/light split, the trisyllabic equivalence rule, and Mercian `-u` retention exceptions.
 
@@ -85,7 +85,7 @@ Direct quotations were collected generously because this dossier is an internal 
 
 Witness handling in this pilot:
 
-1. **Campbell1959, Hogg1992, RingeTaylor2014** used repository text witnesses with stable section or page anchors.
+1. **Campbell1959, HoggPhonology1992, RingeTaylor2014** used repository text witnesses with stable section or page anchors.
 2. **Fulk2018** used the Google Vision OCR witness.
 3. **Luick1914** used the local OCR/text witness already present in the repo.
 

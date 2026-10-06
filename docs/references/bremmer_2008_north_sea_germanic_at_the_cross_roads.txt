@@ -1,0 +1,1408 @@
+Bremmer, Rolf H., Jr. "North-Sea Germanic at the Cross-Roads: The
+Emergence of Frisian and Hollandish." NOWELE 54/55 (2008), 279-308.
+doi:10.1075/nowele.54-55.09bre
+
+SOURCE AND METHOD
+-----------------
+Born-digital PDF, extracted with `pdftotext -layout` (poppler) and then
+REPAIRED (see below). No OCR was involved, so no OCR caveat applies: the
+characters below are the publisher's own, not a recognition guess. The PDF
+itself stays untracked under docs/references/ per .gitignore; this text is
+the committed, citable representation.
+
+ENCODING REPAIR
+---------------
+The embedded text layer was NOT reliable as extracted. The John Benjamins
+house font emits a combining macron as a trailing U+00A4 CURRENCY SIGN, so
+every long vowel in the raw extract came out as e.g. "o¤" for "ō". In an
+article about vowel history that is a loss of exactly the content-bearing
+information, so it was repaired before committing.
+
+The repair is deterministic and context-free — a fixed one-to-one glyph
+substitution followed by NFC composition — not a guess or a reconstruction:
+
+  U+00A4 after a vowel   ->  combining macron U+0304 on that vowel
+
+It was verified against forms whose value is fixed by the surrounding prose,
+so the check is independent of the substitution itself: `mōna`, `tōþ`, `fīf`, `ǣ`.
+
+
+PAGE NUMBERING
+--------------
+The `=== page NNN ===` markers below are the PRINTED page numbers of the
+publication, not PDF sheet numbers, so a citation taken from this file can
+be given directly as a page reference. The offset is constant: printed
+page = one-based PDF sheet + 278. It was verified mechanically: the printed
+folio appears in the running head or foot of 30 of the 30 sheets,
+with no exceptions.
+Text never crosses a printed page boundary.
+
+Printed pages 279-308 (30 sheets).
+
+--------------------------------------------------------------------------
+
+=== page 279 ===
+                 the emergence of frisian and hollandish
+
+
+
+                            Rolf H. Bremmer Jr
+
+     North-Sea Germanic at the Cross-Roads:
+    The Emergence of Frisian and Hollandish
+
+
+
+Once the dust thrown up by the feet, hooves and carts of migrating
+Germanic tribes and their livestock had finally settled around the year
+500, the area now occupied by the Netherlands appeared to be home
+to subgroups of three major tribal unities: Frisians along the coast,
+Saxons in the east and Franks in the south. When written sources
+begin to inform us about the area in the course of the seventh century,
+Frisians appear even to have expanded the territory which they had
+held in Roman times. According to Roman historians their homeland
+then stretched from the Ems in the North to the Rhine in the south, i.e.
+what is now called the Old Rhine, running from Utrecht to Leiden and
+from there to the sea. But the late seventh-century Life of St Eloy and
+Bede's early eighth-century Ecclesiastical History of the Anglo-Saxons
+inform us that the Frisians had moved their borders down to the river
+Scheldt (see Fig. 1) (TeBrake 1985:117-120; Blok 1969; Bakker 1962).
+This information is confirmed by the fact that the southern limits of
+the bishopric of Utrecht, founded by the English missionary Willibrord
+in the first half of the eighth century, included both banks along the
+mouth of the Scheldt (Fritze 1971; Gysseling 1962:4). Around 800, after
+the Frankish kings had definitively subjected the Frisians, a capitulary
+was drafted at the instigation of Charlemagne which described the
+main legal rules that the Frisians were to adhere to. According to this
+Lex Frisionum the Frisian territory is subdivided into three districts,
+the borders of which concur with rivers: from the 'Sincfal' (a branch
+
+
+*    This essay is a translation and adaptation of my 'Het ontstaan van het
+     Fries en het Hollands'. In: Negen eeuwen Friesland-Holland. Geschiedenis
+     van een haat-liefdeverhouding, ed. Ph.H. Breuker and A. Janse. Zutphen:
+     Walburg Pers, 1997:67-76. All quotations from Dutch or Frisian secondary
+     sources have been silently translated by me into English. I like to thank
+     Stephen Laker for his constructive comments on this English version. I
+     am indebted to Femke Prinsen for revamping the maps in Figs. 1-3.
+
+
+                                     279
+
+=== page 280 ===
+                           rolf h. bremmer jr
+
+
+
+
+                                                      Fig. 1. The bounda-
+                                                     ries of Frisia around
+                                                         700, according to
+                                                           Bakker (1962).
+
+
+of the Scheldt) to the Flie, from the Flie to the Lauwers, and from the
+Lauwers to the Weser. In all likelihood these three areas mark the
+phases in which the Franks conquered the erstwhile Frisian kingdom
+(Siems 1980:175-78).
+   The post-Roman expansion of the Frisians is remarkable, because
+they moved from their heartland between the Flie and the Lauwers
+(the present-day Dutch province of Fryslân), both in an easterly and
+southerly direction.1 Politically, this expansion was a fact, but to what
+extent this spreading out had demographic and linguistic consequences
+is less certain. The current handbooks on the history of Dutch are not
+at all clear about the extent to which Frisian was spoken along the
+coast in the early Middle Ages and in what way this is reflected in early
+textual sources up until modern dialects. Nor do handbooks present a
+comprehensive list of criteria by which medieval Frisian can be distin-
+guished from the language varieties used by their neighbours along
+the coast towards Flanders. It is the purpose of my paper critically to
+review the present state of research and to present an alternative to
+the confusing ideas and terminology which currently prevail.
+   As we have seen, documentary sources tell us that the Frisians had
+expanded their territory. Archeology, too, seems to confirm this move-
+ment. Research has brought to light that certain agrarian techniques for
+draining wet land as they had been developed in the Frisian heartland
+were spreading along the coast to the south. Cattle breeding was very
+important, because the land was not very suitable for the cultivation
+of cereals. Moreover, cattle breeding offered men the opportunity to
+
+
+                                  280
+
+=== page 281 ===
+               the emergence of frisian and hollandish
+
+
+
+leave home during the summer season. This opportunity for mobility
+along with a favourable position at the far end of long and important
+waterways led to the flourishing of Frisian trade (Lebecq 1983). An
+important aspect of this trade was its decentralised organisation which
+prevented the rise of important emporia (TeBrake 1985:131), apart
+from Dorestad. Typically 'Frisian' artifacts, such as certain kinds of
+pottery (Taayke and Knol 1996), and architectural characteristics such
+as the three-aisled farmhouses become rarer the further to the south
+archaeologists have excavated in Holland. The Old Rhine appears
+to mark an important border in this respect. This dearth of Frisian
+artifacts south of the Old Rhine can be explained in two ways. Either
+it testifies to a decreasing presence, or even a complete absence of
+a Frisian or Frisian-oriented culture south of the Old Rhine, or the
+picture is distorted by the random way in which archeological finds of
+the period have turned up, and also because the archives preserved in
+the soil in what is a highly urbanised area have been much disturbed.
+On the other hand, we must be careful not to attach too much weight
+to a combination of material culture with ethnicity and language.
+Material fashions do not necessarily travel along the same roads as
+ethnic entities or speakers of specific languages.
+   Another important factor in shaping the extent of Frisian influ-
+ence was the landscape. Most of the coastal area was uninhabitable
+marshland, literally a no-man's land. Only the strips of clay on either
+side of the Old Rhine and some sandy patches behind the dunes and
+along small tributaries to the Rhine were suitable for settlements of
+some size. The marshes were used only for fishing and hunting and
+will have been inhabited temporarily during the summer. The Frisian
+colonisation of the coast will have been carried out from the North Sea.
+They settled at strategic positions, especially at the mouth of rivers
+such as the Rhine. From there the colonists extended their influence,
+but not too far inland.2 It should be borne in mind that nowhere along
+the coast did Frisian territory stretch deeper than 40 kilometers land
+inwards, and often less.
+   What Holland is today – i.e. the present-day provinces of North-
+Holland and South-Holland – was once part of the Frisian realm. The
+name of Holland is recorded for the first time in 1101, and then it
+refers only to its southernmost part, the area around the staple-town
+of Dordrecht. In the early Middle Ages, and even for some time after
+
+
+                                  281
+
+=== page 282 ===
+                           rolf h. bremmer jr
+
+
+
+
+Fig. 2. The settlements in the Rijnland in the tenth century. We may assume
+that at the time when the Frankish expansion began there will have been
+fewer settlements. The peat area was still uninhabited. Source: TeBrake
+(1985:80).
+
+1100, the area called Holland today is always referred to by people
+living near and further away as Frisia and its inhabitants are called
+Fresiones, Fresones, Frisones or Fresii, Frisii and so on (Bremmer
+1994; Blok 1969). So when I speak of Holland in the remainder of this
+
+                                   282
+
+=== page 283 ===
+               the emergence of frisian and hollandish
+
+
+
+paper, the reader should be aware that this is an anachronistic term
+until the twelfth century.
+   Will the Frisian dominance of this area down to the Scheldt also have
+led to a frisification of the local population? So much is clear that this
+was indeed the case in the area between the Lauwers and the Weser
+from which Frisian has almost completely disappeared today. However,
+we have ample evidence that Frisian was spoken and written in this
+area, ranging from medieval manuscripts to modern place-names and
+an abundance of Frisian (substrate) words in the Low German dialect
+spoken there today.3 I therefore assume as a working hypothesis that
+Frisian was spoken in Holland in the early Middle Ages, but the ques-
+tions are: what kind of Frisian was it and how many people spoke it?
+   The answer to both these questions is most likely that the trading elite
+– a limited group in themselves – spoke an early form of Frisian. If this
+assumption is right, then from a sociolinguistic point of view it follows
+that this language must have enjoyed a certain prestige which had an
+attraction to the socially lower-classed people in the area who did not
+speak a form of Frisian. But the tables soon turned. By the end of the
+seventh century, the Frankish rulers seek control over the Scheldt and
+Rhine estuaries and clash with the Frisians there. Between 700 and 800,
+all of Frisia between the Scheldt and the Weser was incorporated into
+the Carolingian empire and Low Franconian gradually worked its way
+up to the north.4 The effective power of the Carolingians, however, was
+reduced by the Viking invasions in the ninth century and never really
+restored afterwards in the Frisian districts. In the ninth century, Louis
+the Pious appointed counts to defend the coast against the Vikings and
+gradually a line of powerful counts controlled much of what are now
+the Dutch provinces of South- and North-Holland, apart from the area
+in North-Holland which is still called West-Friesland today, preserv-
+ing a geopolitical and ethnic reminder of the past. It was not until the
+end of the thirteenth century that this part was finally subjected too. A
+Frisian substratum is clearly present even today under a Franconian
+varnish (Versloot 2000; Hoekstra 1993; 1994 a, b).
+   Unfortunately, we have no running vernacular texts from the coastal
+district until the thirteenth century. All we can go by to determine the
+identity of the coastal vernacular are personal names and place-names
+in a Latin context, such as charters and lists of landed properties
+(Blok 2003). Moreover, such texts as relate to the Holland area were
+
+
+                                   283
+
+=== page 284 ===
+                            rolf h. bremmer jr
+
+
+
+all produced outside Holland, in the episcopal see of Utrecht, or much
+further away, in the erstwhile missionary centres such as the abbeys
+of Fulda or Werden. Names and forms, therefore, were often adapted
+to the non-coastal language of the scribe.5
+
+
+
+From Ingvaeonic to Frisian
+
+Not only does the lack of documentation of the early medieval language
+present problems in reconstructing the linguistic past of Holland, even
+the question whether there was a recognisable form of Frisian around
+700 has hardly been answered.6 Frisian, just like Low Franconian, is
+a West Germanic dialect, together with English, German (High Fran-
+conian and Alemanic) and Low German (Saxon). However, as clearly
+recognisable as these languages are today they have not always been
+so. The further we go back in time, the more they approach each other,
+also geographically. In any case, between ca. 200 and ca. 400, a language
+must have been spoken along the coast from Calais in the south to
+Husum in the north which was fairly homogeneous or rather, which
+formed a continuum in which the transitions from south to north were
+very gradual. This coastal language continuum is traditionally known
+as 'Ingvaeonic' or, more recently, also as 'North Sea Germanic'.
+   Meanwhile, soon after their arrival in Britain after 400 and detached
+from their continental roots the Anglo-Saxon invading tribes started
+to develop their own varieties of Ingvaeonic/North Sea Germanic,
+which together are known as Old English. When, and along what
+lines, the precursors of Low German, Frisian and Hollandish7 started
+to evolve into recognisable linguistic entities is less clear than it is for
+Old English which enjoyed the advantage of a clear historical break.
+Concerning the history of the Dutch language in particular, the cur-
+rent handbooks never give a check list by which we can decide whether
+a given form must be Frisian rather than Franconian; their authors
+tend to restrict themselves to presenting a delimitation of Frisian in
+geographical terms. Even in this respect their voices do not always
+sing in tune as a small sampling may demonstrate.
+   Schönfeld (1970:xxx-xxxi), for example, was convinced of the spread
+of Frisian into Holland. Indicative for this presence was not that Hol-
+land fell within the borders of Frisia Magna, but:
+
+
+                                    284
+
+=== page 285 ===
+               the emergence of frisian and hollandish
+
+
+
+  Conclusive is especially the strong Frisian streak in the language of
+  North-Holland down to the IJ, along the coast to about Scheveningen.
+  On account of folkloristic data it is generally assumed that [the Frisians]
+  were once dominant in the coastal area of South-Holland at least down
+  to the Meuse.
+
+Schönfeld does not give any further indications about what he means
+by these 'folkloristic data', but I suspect that he alludes to both the
+proliferation of the aasdomsrecht, a Frisian form of succession law,
+and to the area in which the botting, a kind of taxation, was levied by
+the count.8
+  Much more careful and less decided is Cor van Bree's opinion
+(1977:96) which perhaps reflects the uncertainties that had arisen
+around 1970 on account of a heated debate amongst Dutch linguists
+on the 'problem of Ingvaeonic'. According to van Bree, Frisian was
+spoken:
+
+  In the area of the present-day province of Friesland and probably [my
+  emphasis, RHB] also in the areas to the west and to the east of it. Law
+  texts have survived from the tenth and eleventh centuries; furthermore,
+  Old Frisian runic inscriptions have been found in the terpen.
+
+A number of points in this quotation deserve comment. Van Bree
+is very reticent in delimiting the area in which he thinks that Old
+Frisian was spoken. He is only certain about the present-day province
+of Friesland. Such a reticence, however, is uncalled for, because we
+have indisputable textual evidence in medieval manuscripts produced
+between 1300 and 1500, and in early modern records of various kinds,
+that Frisian was spoken in Groningen, the Dutch province immediately
+east of Friesland, as well as in Germany along the coast to either side
+of the mouth of the Weser. To what extent Frisian was once spoken
+to the (south-)west of the province of Friesland is the problem which
+is addressed in the present article. It is true that by a very conserva-
+tive estimate some Old Frisian law texts are dated to the eleventh
+century, but the manuscripts in which they survive are much younger.
+Apart from the glossed psalter previously mentioned and datable on
+paleographical grounds to around 1200 (Bremmer 2007), the earliest
+manuscript with Old Frisian law texts dates from around 1300 and
+was written on the west bank of the Weser in Rüstringen. Van Bree
+
+
+                                    285
+
+=== page 286 ===
+                            rolf h. bremmer jr
+
+
+
+remains silent on the date of the runic inscriptions, but these are
+generally put between 400 and 800 (Page 2001).
+  Concerning the Ingvaeonic coast dialect, van Bree (1977:97) writes
+that it can be localised:
+
+  Along the coast of what is called today Flanders, Zeeland and Holland,
+  probably [my emphasis, RHB] also in [the province of] Groningen and the
+  north of Drente. In this [coastal] dialect the oldest vernacular line [hebban
+  alla uogala ...] was written. Time: around 1000.
+
+Apparently, Ingvaeonic means something different than Frisian to van
+Bree, otherwise he would also have mentioned the province of Fries-
+land.9 In conclusion, according to van Bree, no Frisian was spoken in
+Holland around 1000, and probably neither (not any longer? not yet?)
+in Groningen and the north of Drente.10
+
+Finally, all histories of Dutch conform in presenting what they take
+as Ingvaeonic features in a rather random way:11 not one of them
+presents the various sound changes that turned West Germanic into
+Ingvaeonic in a relative-chronological order. I think that it is precisely
+such a presentation that can help us decide whether or not Frisian
+was once spoken in Holland.
+   Departing from the Old Frisian texts we can order the sound changes
+that have given Frisian its own physiognomy. In doing so I give primacy
+to the phonological criteria, because, as Stiles (1995:182) has put it,
+'phonology is the most closed, and structured subsystem of languages
+and least susceptible to accept borrowed material. This is less true
+of morphology, syntax and lexis, in ascending order'.12 Especially the
+development of vowels, whether or not in relation to adjacent con
+ sonants, plays an important part.
+
+
+A Relative Chronology for Proto-Old Frisian
+
+In the following concise survey, I list, first, the West Germanic form,
+followed by the Old Low Franconian and Old Frisian reflexes. In doing
+so, I follow the relative chronology for Proto-Old Frisian as established
+by Patrick Stiles (1995:199-200) and followed, on the whole, by Hans
+Frede Nielsen (2001).
+
+
+                                     286
+
+=== page 287 ===
+                the emergence of frisian and hollandish
+
+
+
+1.1 Before nasals (/n, m, ηg/), WGmc a, short and long, was first
+nasalised and then rounded to o by way of velarisation, e.g. *man- be-
+ came OFris mon as opposed to OLFranc man; WGmc *māno became
+ OFris mōna, but remained māno in OLFranc.
+
+1.2 In the cluster of 'short vowel (= a, i, u) + nasal + voiceless fricative
+(= s, f, þ), the nasal was lost with compensatory lengthening of the
+preceding; if the vowel was originally an a, it ultimately became ō: e.g.
+*tanþ 'tooth' became OFris tōth but remained OLFranc tanth.
+
+1.3 In closed syllables, long ā was spontaneously raised to /æ:/, e.g.
+WGmc *skāp 'sheep' became OFris skēp /´:/ but remained OLFranc
+skāp.
+
+1.4 The WGmc diphthongs ai and au became monophthongs, ā/ē and
+ā in Old Frisian, and ē / ei and ō in Old Low Franconian, respectively.
+E.g. *klaiþ- 'cloth' became OFris klāth but OLFranc klēd; *stain 'stone'
+became OFris and OLFranc stēn; *aik 'oak' became OFris ēk and
+OLFranc ēk / eik; *baum became OFris bām but OLFranc bōm.
+
+1.5 Short a was spontaneously raised to æ in closed syllables; e.g. *staf
+became OFris stef but remained OLFranc staf.
+
+1.6 Usually before, but sometimes after front vowels, k > ts and g > j.
+E.g.: *kerl 'free man' became OFris tserl but remained OLFranc kerl;
+*geld 'payment' became OFris ield but remained OLFranc geld.
+
+1.7 I-mutation. We have no indication whatsoever that long vowels
+in Old Low Franconian underwent i-mutation, this in contrast to Old
+Frisian, e.g. dēma 'to judge' as against OLFranc dōman.13
+
+1.8 In (Proto-)Old Frisian short i and e were broken or diphthongised
+before ≈ and ≈s / ≈t. E.g. WGmc *reht 'right' becomes OFris riucht/
+riocht but remains OLFranc recht.
+
+1.9 Unrounding. In (Proto-)Old Frisian, all vowels that underwent
+i-mutation were unrounded to e or ē; *kuning- 'king' > OLFranc kun-
+ing but OFris kening/kining, *brugja- 'bridge' became MDu brugge,
+
+
+                                    287
+
+=== page 288 ===
+                           rolf h. bremmer jr
+
+
+
+but OFris bregge, *dōmjan 'to judge' became MDu dōmen, but OFris
+dēma.
+
+Practically all of these phenomena are Ingvaeonic innovations within
+West Germanic, and most of them also apply to Old English, viz.
+1.1, 1.2, 1.3, 1.4 (*ai > ā), 1.5, 1.6 and 1.7. At a certain moment
+in time, Frisian underwent innovations which were not shared by
+the adjacent Ingvaeonic dialects, whilst on the other hand, Frisian
+retained certain linguistic phenomena which disappeared elsewhere
+ along the coast, for whatever reasons. It is this mixture of innovations
+ and retentions which has given Frisian its independent phonological
+ shape.
+    The above sound changes should enable us to establish whether
+ and to what extent the Old Frisian situation is to be found in Holland
+ (and maybe even further south along the coast), when we identify
+ phenomena which are no longer shared by the other Ingvaeonic dia-
+  lects and therefore must be Frisian.
+    Apart form relative datings for 1.1-5, we also have fairly reliable
+  indications that these changes must have taken place before or around
+  500, because around 500 certain innovations were carried through in
+  the runic alphabet. For the original a, the futhark used the symbol a.
+  In the Frisian and Anglo-Saxon tradition, however, this symbol was
+applied to the new sound /æ/. A variant of the 'ash' was invented, A,
+to indicate the unchanged a, while another mutant, O, was used for
+the rounded a before nasals. Because vowel length is not indicated in
+runic writing, A may represent equally well unchanged a as ā from
+*ai or *au (1.4).
+
+In what follows, I shall stick to the order as given in my relative
+chronology, i.e 2.1 runs parallel with 1.1, etc.
+
+2.1 No instances have been found in Holland or further to the south;
+but: no 2.2 without 2.1.
+
+2.2 There is place-name evidence for this change, e.g. Ōsgēresgēst
+'Oegstgeest' from *Ansgaires-gaist 'sandy field belonging to *Ansgair/
+Ōsgēr', and Goes from *gans-aha 'goose water'. A technical term such
+as South-Hollandish boes 'part of cowshed, byre' derives from *bans-
+
+
+                                  288
+
+=== page 289 ===
+                the emergence of frisian and hollandish
+
+
+
+< *bands-, cp. late OFris bōsdōr 'door of byre' (Verhoeven and Mol
+1994:544; for further examples, see Schönfeld 1970:§ 29). According
+to Schönfeld, WGmc a was rounded in Hollandish only before the com-
+bination of 'nasal + voiceless fricative', if this cluster was -ns or -nþ.
+However, the amply attested medieval Hollandish form softe 'soft' from
+* sanft- indicates that the rule was less strict than Schönfeld thought
+(Bremmer 1993:20-22). In fact, Schönfeld's phonological conditions for
+rounding of a in Hollandish are unintelligible from a phonetic point
+of view. Theoretically speaking, we must assume that rounding of a
+took place on a wide scale along the coast of Holland, Zealand and
+Flanders and that this change preceded 1.2. If this was indeed the case,
+we must conclude that rounded forms such as mon 'man' completely
+disappeared in these regions either through retraction or by replace-
+ment. In itself such a restoration need not be surprising as the same
+happened in West Old Frisian. Perhaps, the rounded form had not yet
+become a fixed phoneme.
+
+2.3 Along the coast we find ample evidence for the presence in past and
+present of palatalised WGmc ā (Schönfeld 1970:§ 80; Weijnen 1991:
+§ 12), e.g. in mēde 'meadow', beside māde.14 According to Schönfeld,
+the palatalised coastal form started being replaced by the inland form
+only in the twelfth century.
+
+2.4 ai > ā. For this development we find evidence, not only in place
+names but also in appellatives, to such an extent that we are allowed
+to assume that this change was once quite common along the coast.
+Thus we find ā in MDu [South-Holland] ēlgār 'eel spear' beside elgēr,15
+ālgēr, in Du navegaar 'auger', and gāre 'triangular piece of land' in die
+Ghaer [Delft] and die Gairn [Zoeterwoude] (Blok 1959:19).
+
+au > ā. This development is found, e.g., in slāt 'ditch, dug boundary'
+(< *slaut-), beside regular slōt, in place-names such as Rethchesclat
+[Oegstgeest], Vronanslat [Westland], and in appellatives such as bāken
+'beacon' which has become the standard Dutch form, beside MDu
+bōken. Schönfeld (1970:§ 66, Opm. 2) points out sporadic forms as far
+south as Flanders and more frequent traces in North-Holland. I would
+like to point out the form thāch (< WGmc þauh, cf. OFris thāch) in
+the so-called Leiden Willeram, a version of Williram's Old High Ger-
+
+
+                                    289
+
+=== page 290 ===
+                           rolf h. bremmer jr
+
+
+
+man paraphrase of the Song of Songs, copied and adapted in Egmond
+Abbey around 1200.16
+
+2.5 Personal names such as Fikendey, Fekendey and Everdei have a
+second element which derives from *dag 'day', cf. OFris dei. The form
+can only be explained by assuming that first the vowel was raised and
+then the velar was palatalised to j (Schönfeld 1970:§ 64). Such per-
+sonal names, compounded with -dei have been attested for Egmond,
+Dordrecht, Zealand, Ghent and Antwerp. Now it is somewhat risky
+to adduce linguistic phenomena in personal names as evidence, not
+only because persons can travel but also because personal names are
+subject to fashions, even then. This is different for place-names. The
+oldest form of Teijlingen, situated near Sassenheim, is Taglingi (c. 930,
+copy s. xex) (Blok 1959:21). The meaning of the name would be 'those
+that live on a spur of sandy soil', cf. E tail.
+   Quite conspicuously, the typically Frisian surface measure deimet,
+deimt 'quantity of grass land which one man can mow in one day', so
+with the palatalised form dei, is limited to the northern half of Holland
+(Rentenaar 1972:294). This distribution could mean that the surface
+measure became popular only after the year 1000 (by estimate) and
+is a possible indication therefore, of the extent to which Frisian was
+spoken at the time (see Fig. 3).
+
+2.6 South of the line Haarlem – Amsterdam, the few instances of
+palatalisation of /k/ that have been preserved turn up in place-names,
+especially with the element kene 'water course' (WGmc *kine, kinu, cf.
+OE cinu 'chine'). E.g. Kortgene (/kortdzjéne/) < korte kene 'short course'
+(Schönfeld 1970:§ IX A b.2 and D f.1).17 More often we find palatalisa-
+tion of the voiced velar fricative [γ] after /æ, e/, such as in personal
+names in -dei (see 2.5).
+
+2.7 It is a well-known (and problematic) fact that Standard Dutch
+does not feature i-mutated long vowels (Van Loon 1995), in contrast
+to Frisian. A river-name in the heart of Holland featuring i-muta-
+tion was the Swēt, once winding its course between Zoetermeer and
+Zoeterwoude. These last two names both have as their first element
+zoet 'sweet' < *swōtja / swōti and show the unmutated vowel plus loss
+of w before /u/. The medieval form Swēt, however, displays the mutated
+
+
+                                   290
+
+=== page 291 ===
+               the emergence of frisian and hollandish
+
+
+
+
+Fig. 3. The spread
+of deimt and the
+boundaries of the
+ bodthing area.
+
+
+vowel which prevented /w/ from being dropped. It is exactly similar to
+OFris swēte 'sweet'. A similar development is attested in MDu sēchte
+'softly', like OFris sēfte, from *sōfti (Bremmer 1993:22).
+   Both short and long vowels that had been mutated were unrounded
+in Old Frisian, with the result that all the mutated vowels became short
+or long e. Thus, for example, with short vowel: *brugja 'bridge' became
+OFris bregge, *hulja 'hill' > OFris hel; with long vowel: *daudjan 'to
+kill' > OFris dēda and *tōþi 'teeth' > tēth. A similar development of
+unrounding, if restricted only to the mutation product of u, can be seen
+along the coast of Holland down to Flanders. In Flanders, however,
+we find especially forms with i, e.g. stik 'piece', pit 'pit, well' (Schön-
+feld 1970:§ 45). The e-forms prevail in Holland, e.g. Ter Bregge [near
+Rotterdam], Petten [North-Holland], crec 'crotch' and breg [Leiden 1391]
+
+
+                                   291
+
+=== page 292 ===
+                           rolf h. bremmer jr
+
+
+
+(Van Loon 1986:68). Taeldeman (1994, with maps) has demonstrated
+quite convincingly that cases of rounding of original ē to /ö:/ (spelled
+eu), and of e to /ö/ (e.g. smeren 'to smear'/ besmeuren 'to besmear', zeven
+'seven'/ zeuven, spel 'game'/ spul) are to be found precisely in those
+areas where unrounding had taken place earlier. The rounding of
+these original unrounded vowels was not spontaneous, therefore, but
+a hypercorrection to round vowels which were thought to have been
+unrounded. Such anomalies offer another possibility to trace the extent
+to which vowels were originally unrounded in Holland.
+
+2.8 A case of Old Frisian breaking of /e≈/ > /iu≈/ has been identified near
+Rijnsburg on the Old Rhine in the field-name 't Joch, first recorded
+in 1484 as Hoghe tioch (Blok 1958:89; Blok 1959:21 [7]). The former
+means 'high', the latter derives from WGmc *te≈ 'group, company' but
+acquired the specialised meaning in Frisian of 'communally cultivated
+land' (Hofmann 1972-73, 1973). Field-names like tuch besides tjuch in
+the northern half of Holland can only be explained from tiuch. Deriva-
+tives of this form, as Blok (1958) pointed out, are a number of field
+names called tich or, with unhistorical -t, ticht(e), such as die Lange
+Tichte near Oegstgeest on the north bank of the Rhine. Significantly,
+perhaps, is that to date no place-names with this typically Frisian
+element have come to light from the area in Holland below the Old
+Rhine.
+
+2.9 See 2.7.
+
+
+Discussion
+
+For the forms in 2.1-9 from the coastal areas down to Flanders, which
+correspond with Old Frisian, it is possible to recognise two main streams
+of explanation in the literature. According to nineteenth-century and
+early twentieth-century historical linguists these forms are traces of an
+erstwhile Frisophone population. However, because a number of such
+forms have been found as far south as Flanders, such an explanation
+would imply that Frisian had also once been spoken there. Because such
+a hypothesis cannot be backed up by extra-linguistic evidence, it was
+gradually given up in favour of the Wellentheorie: the dialect spoken
+
+
+                                   292
+
+=== page 293 ===
+                the emergence of frisian and hollandish
+
+
+
+along the coast was neither Franconian nor Frisian,18 but Ingvaeonic
+(also called North Sea Germanic). This dialect shared many similarities
+with Frisian, but was nonetheless a little different from it.
+   In order to find the point where this Ingvaeonic dialect transformed
+into Proto-Frisian and Proto-Hollandish, one would have to find the
+earliest forms which are Frisian but not shared by any other con
+tinental dialect descending from Ingvaeonic. In my opinion, this point
+of departure is breaking (1.8). The fact that this sound change has
+been preserved in the field-name 't Joch speaks volumes, because the
+Old Frisian term tiuch is typically seen as a Kennwort, since it refers
+to a certain form of land management that was practised only in the
+Frisian areas, West, East and North (cf. Faltings 1984). Only on the
+basis of this one word, therefore, the conclusion would be justified
+that Frisians once played a significant part, also languagewise, in the
+Old Rhine estuary. If this conclusion is right, then a number of still
+younger developments in the chronology of Frisian sound changes can
+be explained the more easily.
+   Amongst such younger developments I count the transition of initial
+þ to t. This is the regular development for Frisian, e.g. MoFris trije
+'three', tûsen 'thousand'. In Dutch, on the other hand, the initial frica-
+tive first became voiced, somewhere in the twelfth century, and then
+lost its friction, resulting in d: drie, duizend. Instances of the 'Frisian'
+development are the place-name Tillebreg near Hillegom, consisting
+of til 'wooden bridge' (< WGmc *þelu; cf. Du deel 'plank', but Fris til)
+(Blok 1959:21 [9]). Outside place-names the form is preserved in MDu
+tille 'loft' as recorded from Delft and nearby sources (see MNW s.v.).
+   The medial clusters -þþ- and -dþ- developed to -tt- in Frisian, some-
+thing we also find in occasional forms along the coast of Holland,
+e.g. in the place-name Zwet(te), cf. OFris sweththe 'border, boundary'
+(Blok 1959:21 [8]), in the verb betten 'to wet' from *beþþan < *baþjan
+'to bathe' (first attested 1460 in Holland), and perhaps in smitte /
+smette (the latter form down to Flanders) 'smithy' from *smiþþe, cf.
+MoFris. smidte (Schönfeld 1970:§50, Opm. 2). When it is the result
+of compounds, the voiceless variant points to Frisian influence, e.g.
+botting from bod-thing 'ordered court session'; the Franconian variant
+was voiced: bodding (Blok 1991:63).
+   A remarkable form in Holland is twisken (twisschen) 'between' as
+opposed to the inland variant tusschen. This 'Frisian' form with tw-
+
+
+                                    293
+
+=== page 294 ===
+                                   rolf h. bremmer jr
+
+
+
+and -sk- (cf. OFris twiska) is recorded in the oldest sources, but not
+beyond the southern border of Holland.19 The distribution map, based
+   twisken.gin (tuisken, tvisken) (donker) versus tussen etc
+on evidence as found in fourteenth-century charters, clearly shows
+that the centre of twisken is to be found in the north of Holland (Fig.
+4) and diminishes somewhat towards the south.
+
+
+
+             0 - 12 %
+
+             13 - 27 %
+
+             28 - 42 %
+
+             43 - 57 %
+
+             58 - 72 %
+
+             73 - 87 %
+
+             88 - 100 %
+
+
+
+
+Fig. 4. The spread of twisken 'between' in the Netherlands based on four-
+teenth-century charters written in Dutch. Realisation: Pieter van Reenen
+and Evert Wattel.
+programma: e wattel vu amsterdam                        11-09-07   16:30
+
+
+
+Provisional Conclusion
+
+So what can we conclude from the survey of sound changes? Along the
+coast we can distinguish between an Ingvaeonic area all the way down
+
+                                          294
+
+=== page 295 ===
+               the emergence of frisian and hollandish
+
+
+
+to Calais and a more limited area in which we also find a concentration
+of linguistic features which are typically Frisian, including breaking.
+This area stretched down as far as the Old Rhine, and perhaps a little
+further, down to the Maas. Such features allow us to assume that in
+the inhabitable parts of Holland between the coast, the Maas and
+the IJssel, an early form of Frisian was spoken, with a concentration
+on either side of the mouth of the Old Rhine. This Frisian speak-
+ing area was gradually rolled back to the north. For North-Holland
+a Frisian substratum is much more easily to be identified than for
+South-Holland20 – not just because of typically Frisian phonological
+features, but also on account of certain syntactic similarities with
+Modern Frisian. This fact is indicative for a defrisianising movement in
+a northerly direction which must have halted for a considerable period
+of time at the northern boundary of the Rijnland. Recent archaeological
+excavations confirm that the Frisian element in the northern half of
+Holland is much stronger than in the southern half (Besteman 1990;
+Taayke and Knol 1996: passim). The last Frisian stronghold in Hol-
+land, what is called West-Friesland today, was definitively annexed
+by Floris V, count of Holland, in 1289. Only then was Franconian
+introduced there as the language of court and administration, and
+gradually extended its influence from urban centres such as Alkmaar
+and Enkhuizen to the smaller Frisian speaking communities in the
+country side and on the coast. On the other hand, the proximity of
+the Frisian speaking heartland a few miles away at the other side of
+the mouth of the Zuyder Sea may have contributed to the preserva-
+tion of certain Frisian characteristics in the local dialect of Northern
+Holland until the present day.
+
+
+From Frisian to Hollandish
+
+The process of Franconisation/Francification started in South-Holland
+as early as the eighth century. Important in this process were the
+Frankish key-points, especially the domains which belonged to the
+Frankish kings and emperors, known as koningsland or keisersland.
+Gradually, the local aristocracy began to speak Franconian and will
+have been followed by their servants. In addition, the clearing of
+the vast peat bogs of Holland, which started in the tenth century,
+
+
+                                   295
+
+=== page 296 ===
+                           rolf h. bremmer jr
+
+
+
+brought about enormous demographic changes. These reclamations
+were organised especially by the counts of Holland and the bishops
+of Utrecht, and the engineers, diggers and, eventually, the colonists
+often came from outside Holland, each group with its own dialect.21
+It has been demonstrated that a community of immigrants with a
+variegated origin often chooses the less marked linguistic forms or
+opts for compromises (Nielsen 1985:84-85). This development, together
+with the early urbanisation of South-Holland will have contributed to
+the disappearance of the originally Frisian element in the language.
+Finally, the written language in Holland, which was strongly influ-
+enced by the literary language of Flanders and Brabant, will have
+contributed to a situation in which very few local dialect forms have
+come to the surface.22
+   Along what lines did the transition from Frisian to Franconian take
+place? The current handbooks on the history of the Dutch language
+neither raise nor answer this question; but modern insights, based on
+shift of language induced by language contact, appear to offer helpful
+models, especially one that was developed by van Coetsem (1987). This
+model has already been successfully applied in the context of Frisian
+and Dutch dialectology by Hoekstra (1993, 1994) on the present-day
+dialect situation in North-Holland and by van Bree (1994, 1997) on
+the rise of Urban Frisian as it developed in the sixteenth century. Van
+Coetsem's basic thesis is that in situations of language change through
+contact speakers of the socially inferior language will first of all adapt
+their own language phonologically to the one of the superior group.
+They also adopt many words which do not occur in their own language
+or dialect. On the other hand, they accommodate their morphology and
+syntax much less to the new language.
+   Because the indigenous Frisian dialect and the new Franconian
+dialect were rather closely related – both were West Germanic lan-
+guages – I assume that the indigenous population adapted their speech
+especially by the application of sound substitution. This hypothesis
+can be supported by the fate of the Germanic diphthongs au and ai
+(1.3). The locals must have soon perceived that e.g. bām 'tree' and bān
+'bean' (with ā from *au) were pronounced by the new rulers as bōm and
+bōn. This correspondence was carried through with great regularity.
+Words with ā from *ai, such as hām 'home', twā 'two' and klāþ 'cloth',
+inadvertently became hēm, twē and klēth. Occasionally, however, they
+
+
+                                  296
+
+=== page 297 ===
+               the emergence of frisian and hollandish
+
+
+
+were off the target and substituted words with ā from ai as if they
+concerned words with ā from au: rāp 'rope' became rōp alongside with
+the 'truly' Franconian form rēp.23
+    The replacement of unrounded i-mutated coastal vowels by the
+inland, Franconian ones can also be explained by way of a more
+or less conscious sound substitution. In his excellent introduction
+to the historical phonology of Dutch, van Loon (1986:66) assumes
+on the basis of the distribution pattern of this replacement that
+substitution took place word by word. Whereas the transition from
+Frisian to Dutch in the Frisian towns in the sixteenth century took
+ place within two generations, according to van Bree (1994), we have
+ to reckon with a much longer period for the replacement of Frisian
+by Franconian. The reason is that the compact urban situation in
+the province of Friesland in the sixteenth century was much more
+conducive to change than the early medieval situation in which
+people lived scattered in often isolated communities along the coast
+ of Holland.24 The gradual shift also appears from the rather confused
+geographical distribution patterns of Frisian relicts in the southern
+part of Holland.
+    Eric Hoekstra's analysis of the Frisian substratum in the modern
+ dialect of North-Holland is not wholly unproblematic. Whereas I
+ have tried to demonstrate the Frisian relicts in Holland from a dia-
+ chronic point of view, particularly on account of phonological criteria,
+ Hoekstra based himself on a number of syntactic and morphological
+ criteria from a synchronic, present-day point of view. Hoekstra does
+ not consider the diachronic, historical aspect of the matter. Curiously,
+ a number of the parallels between the dialect of northern Holland
+ and Frisian (whether West Frisian, East Frisian or North Frisian)
+ cannot be retrieved from Old Frisian, at least not in as far as is
+ known to me.
+    For example, Hoekstra (1994a:86-90; cf. Hoekstra 1994b) adduces
+ a number of infinitival constructions in which North-Hollandish sides
+ with Frisian against Dutch:
+
+     Ik gaan te heerknippen NH                ['I go to hair cut']
+     Ik gean te hierknippen Fris              ['I go to hair cut']
+     Ik ga mijn haar laten knippen Du         ['I go my hair let cut']
+     'I'm going to have my hair cut'
+
+
+                                   297
+
+=== page 298 ===
+                           rolf h. bremmer jr
+
+
+
+In the North-Hollandish and Frisian constructions the noun which
+actually is the object is incorporated into the infinitive. Noun in-
+corporation has indeed been observed for Old Frisian in a passage
+that enumerates various ways of executing a death penalty: thene
+morder regbrek'ma 'the murderer (acc.sg) backbreak (subj., the -e
+has dropped) one', i.e. 'the murderer's back should be broken' (Dyk/
+Bremmer 2007). According to the classification devised by Mithun
+(1984), both the Old Frisian example and the infinitive construction
+as adduced by Hoekstra belong to her Type II. Mithun's classification
+is hierarchical and explains that there cannot be a Type II without
+a Type I. Hence we may assume on theoretical grounds that Type I
+was also available for Old Frisian but as yet unattested. Another in
+finitival construction shared by NH and Frisian but not with Dutch
+is the appearance of the preposition between the copula and the in-
+finitive:
+
+       Ik blaif te slapen NH             ['I stay to sleep']
+       Ik bliuw te sliepen Fris          ['I stay to sleep']
+       Ik blijf slapen Du                ['I stay sleep']
+       'I stay and sleep'
+
+Such infinitival constructions have as yet escaped the eyes of students
+of Old Frisian. Finally, Hoekstra (1994a:90-92) points out a similar
+grouping in the morphology of compounds:
+
+North-Holland Frisian    Dutch
+eterstoid		   iterstiid  etenstijd 'meal-time' [ 'time for eaters/eating']
+bedsplank		   bêdsplanke beddeplank 'bed board'
+
+
+The near-absence in the Old Frisian corpus of instances of the construc-
+tions adduced by Hoekstra can be explained in various ways, I think.
+Firstly, the corpus of Old Frisian is too limited in size and genre to
+contain such compounds and infinitival constructions. Secondly, the
+register of the genre, predominantly legal texts, is too 'dignified' for
+such compounds and infinitival constructions. They did not belong to
+the written but to the colloquial language. Thirdly, these construc-
+tions came into being only after 1500, when Old Frisian ceased to be
+written. The last suggestion is problematic, because it presupposes
+
+
+                                   298
+
+=== page 299 ===
+               the emergence of frisian and hollandish
+
+
+
+ rather intensive language contact between the various Frisian speak-
+ ing areas in early modern times, areas which moreover by this time
+ were no longer a geographical continuum. For the time being, then, I
+ take it to be a matter of register.
+    Unlike in North-Holland, where the original Frisophone population
+ stopped acquiring the new Franconian language at a certain point
+ in time and conventionalised their Franconian,25 in any case in a
+ spoken form, the process of defrisianisation continued unabated in
+ South-Holland. Apart from the demographic causes which I have
+ mentioned, this process is also borne out by the fact that the name of
+ Frisia / Fresia – we are still dealing with Latin sources – was given
+ up in the course of the twelfth century (Blok 1969). The ruling aristo
+ cracy, led by the counts, no longer felt themselves or did not want to
+ feel themselves to be Frisians any longer. This break with their past
+ is remarkable because the counts ultimately descended from Frisian
+ noble stock. The name Radboud is often met with in the house of the
+ counts of Holland and suggests a link with the Frisian King Rad-
+ boud (d. 719). When Robert, the youngest son of the Flemish Count
+Baldwin V, married the widow of Florent I, count of Holland, in 1063,
+he was from then on called Robert 'the Frisian'. This epithet shows
+how much the concept of Frisia for the coastal area was still alive in
+ the eleventh century. In the twelfth century, however, all possible
+ ideological resources were applied in a concerted attempt to hide the
+ Frisian past of the Counts of Holland,26 a decision that will have been
+ fed by their expansionist strategy that intended to subject the Frisians
+ in the north of Holland. The success of this policy is evident from the
+ fact that the traces of Frisian in the southern half of Holland have
+ been erased almost completely.
+
+
+Conclusion
+
+Evaluating the results of my arguments, we may conclude that there
+are still many gaps in the attempts to recover traces of Frisian in
+Holland. Also Eric Hoekstra (1993; 1994a,b), like so many of his
+predecessors, left it at random samplings. What remains to be done
+especially is a minute linguistic analysis of the medieval and early
+modern vernacular documents written in Holland. In his survey of the
+
+
+                                  299
+
+=== page 300 ===
+                            rolf h. bremmer jr
+
+
+
+medieval dialect features of Holland, van Loey (1968:§§123-25) often
+remained superficial and sometimes even imprecise. For example,
+he signalled tusken as a North-Holland form but is silent on twisken,
+which I have identified as a Frisian relict. So what we want for Dutch
+would be a project comparable to the Linguistic Atlas of Late Middle
+English. Of course, there is Marijke Mooijaart's atlas of thirteenth-
+century Dutch, but her evidence is restricted mainly to Flanders and
+Brabant and hardly contains any material from Holland (because so
+little of it has been left). More is to be expected of a project at the Free
+University of Amsterdam which has compiled an electronic corpus
+of fourteenth-century localised and dated charters (Van Reenen and
+Mulder 1993). A first important result is an investigation into the
+dialect of eight scribes working in the count of Holland's chancery by
+Margit Rem (2003).
+   The search for the possible presence of Frisian elements in Holland
+does not only meet with linguistic problems. There is an ideological
+component in this quest as well. Eric Hoekstra (1995) has shown how
+especially the influential dialectologist Klaas Heeroma in his many
+publications on Ingvaeonic tried to argue away the role of Frisian
+from the history of the Dutch language. Heeroma was a propagator of
+the ideal of a Greater Netherlands that included Flanders and also a
+great advocate of Algemeen Beschaafd Nederlands ('Common Civilised
+Dutch') – the counterpart of Received Pronunciation. Whenever he
+could, Heeroma sought for new and sometimes conflicting arguments
+to explain in a different way phenomena which earlier linguists had
+marked as Frisian. Recognising the possibility that Frisian was once
+spoken in the heart of Holland also seems to involve the problem of the
+ethnic identity of the Dutch. Perhaps now, in this post-modern era in
+which all the major ideological narratives have evaporated, the time
+is ripe for a renewed search for the Frisian antecedents of the dialect
+of Holland.
+
+
+Opleiding Engelse Taal en Cultuur
+Universiteit Leiden
+Postbus 9515
+NL-2300 RA Leiden
+
+
+
+                                    300
+
+=== page 301 ===
+                the emergence of frisian and hollandish
+
+
+
+Notes
+
+ 1. Opinions are not unanimous as to whether the post-migration Frisians
+    are the descendants of the Frisians of the Roman period or whether
+    the inhabitation of the Frisian area was interrupted around 400 to be
+    restarted by Germanic tribes, perhaps even Saxons, from the North-
+    German littoral. See e.g. Bos (2001:489-90).
+ 2. For a good summary of the Frisian colonisation of Holland, especially of
+    the Rijnland, see TeBrake (1985), chap. 4 'Early-Medieval Settlement
+    in Rijnland: the Cultural Context'.
+ 3. On the modern vestiges of Frisian east of the Lauwers, see the respective
+    contributions by Hermann Niebaum, Ulrich Scheuermann and Rudolf A.
+    Ebeling in Munske (2001), §§ 38-40. Schrijvers (1999) seeks to explain
+    the coastal linguistic features shared by Frisian and Hollandish with
+    the help of a Celtic substratum.
+ 4. A similar influence exercised by Franconian on the (written) language
+    of the adjacent Saxons can bee seen in e.g. the Heliand.
+ 5. In his monumental corpus of Middle Dutch texts until 1301, Gysseling
+    (1977-1987; CMT II, 1) has collected texts not on linguistic but on geo-
+    graphical (Greater Netherlandish) grounds. For example, he also included
+    the Frisian runic inscriptions and a Latin Psalter (fragment) with inter
+    verbal Old Frisian glosses. For a critical evaluation of the problem of
+    which texts included in Gysseling are really Old Dutch (= Old Lower
+    Franconian), see Rizza (1993).
+ 6. A first attempt by Gysseling (1960) has not been taken any further.
+ 7. I shall use the rare adjective 'Hollandish' (see Oxford English Dictionary,
+    s.v.) in the essay throughout to refer to the language variety spoken in
+    the former county of Holland which today is more or less covered by the
+    provinces of North- and South-Holland.
+ 8. On the spread of the aasdom law, see Blok (1963); on the botting, see Blok
+    (1969:18-25) and TeBrake (1985:194-97), with further bibliographical
+    references.
+ 9. Elsewhere, van Bree (1977:100) mentions that Frisian developed into a
+    cultural language on an Ingvaeonic base.
+10. The reputedly oldest line of Dutch verse ('hebban olla uogela nestas
+    hagunnan …') survives on a blank space of a manuscript that was
+    written in Rochester, now Oxford, Bodleian Library, Bodley 340. On
+    linguistic grounds it is very unlikely that the author of this line of verse
+    hailed from the north of the Low Countries. According to Gysseling, he
+    came from Sint-Omaars/Saint-Omer (now French Flanders). However,
+    De Grauwe (2004) pleads for an English authorship, whereas Kwakkel
+    (2005) finds paleographical evidence that points to a Flemish monk who
+    came to England from Bec Abbey in Normandy.
+
+
+                                      301
+
+=== page 302 ===
+                              rolf h. bremmer jr
+
+
+
+11. Most recently Quak and van der Horst (1997).
+12. A first exploration of the problem from a morphological point of view is
+      Hofstra (2003).
+13. On the problem of absence of i-mutation in Dutch, see most recently
+    Buccini (2003).
+14. See Rentenaar (1972) with maps. Rentenaar argues convincingly that
+      the form māde in Holland began to replace the older form in Holland
+      at a fairly early date, because the meadows were the property especi
+    ally of the socially superior groups (viz. the counts of Holland and
+    monasteries).
+15. Notice the Ingvaeonic, palatalized vowel (later shortened in this poly
+     syllabic word) of the first element of ēl-gār (cf. MoDu aal, MoG Aal).
+16. See Klein (1979:425-26). The form dach 'though' has also been attested
+      once for a Flemish text (Alex. 4. 74), cf. van Loey (1968:§ 2, Opm. 4), but
+      is not found in the (digital) Corpus Gysseling (all Middle Dutch texts
+      until 1301).
+17. For forms from North-Holland, see Schönfeld (1970:§ XII 4, bottom). To
+      his examples, add: jerde 'yard, surface measure' found in Oostzaan, ca.
+      1400 (MNW, s.v. jerde; cf. MDu gerde and OFris jerde).
+18. Nevertheless, the Flemish scholar van Loey (1968:§2, Opm. 4) seems to
+      assume that Frisian once was spoken in Flanders: 'In the West Flemish
+      forms we may be dealing with a Frisian merger of a and o which (later
+      on) was split by phonetic causes'.
+19. See Gysseling (1997-87) CMT I, 502,35; 630,45; 2648,19; 2877,4 [4] and
+     still later (see MNW, s.v. tusschen). It is not necessary, therefore, as done
+     by Tiemeijer (1916:§339), to ascribe this form in the poetry of Willem of
+     Hillegersberg (near Rotterdam) to a scribe who came from North-Hol-
+     land.
+20. This is also borne out through a study of female names in Holland and
+     Zealand until 1300; (Schoonheim 2004: e.g. 26 (Ada), 29 (Ethel-), 65 (Tiet-,
+     Tet-), 97 (Reingerd) – all of them from North-Holland).
+21. On the 'Great Clearing' (Grote Ontginning), see the classical study by van
+     der Linden (1956). On the effects of this reclamation on the toponymy of
+     the reclaimed area, see Blok (1968).
+22. Cf. van Loey (1968:§ 123): 'For want of early sources (13th c.) and
+     because of the spread of the south-western Middle Dutch written
+     language, the proper Hollandish forms are hard to trace'. Also cf. van
+      der Wal (1992:§ 5.10) who refrains from a more detailed differentiation:
+      'With (medieval) Hollandish is indicated the language of the present-
+      day provinces of North- and South-Holland (sometimes including that
+    of the province of Utrecht)'. In the two examples which she gives, van
+    der Wal presents only one typically Holandish form: mit 'with', 'a form
+      with which Hollandish happens to concur with Brabantic'. However,
+
+
+                                       302
+
+=== page 303 ===
+                the emergence of frisian and hollandish
+
+
+
+    Hollandish mit (with medial i) equally well links up with Old Frisian
+    mit(h).
+23. For more examples, see Bremmer (1993:25-28; 1997).
+24. Cf. van Bree (1990:359-361): 'The de-ingvaeonisation [i.e. the franconisa
+    tion of the coastal area] will have taken up a considerable period of
+    time'.
+25. I adopt the term 'conventionalisation' from van Bree's (1994:80-81)
+    analysis of Urban Frisian.
+26. On the Frisian descent and the ideological 'defrisianisation' of the house
+    of the counts of Holland, see Dijkstra (1991:156, 158), Hugenholtz (1988),
+    and Cordfunke (1987).
+
+
+
+
+Bibliography
+
+Bakker, G. 1962. 'De grenzen van Frisia tussen 600 en 1150'. It Beaken
+   24:120-30.
+Beck, H., H. Steuer and D. Tempe (eds.). 1996. Reallexikon der Germanischen
+   Altertumskunde, vol. 10, 1-2. Berlin and New York: de Gruyter.
+Besteman, J.C. 1990. 'North Holland A.D. 400-1200: Turning Tide or Tide
+   Turned?'. In: Medieval Archaeology in the Netherlands. Studies presented
+   to H.H. van Regteren Altena, eds. J.C. Besteman, J.M. Bos and H.A.
+   Heidinga. Assen and Maastricht: van Gorcum. Pp. 91-120.
+Blok, D.P. 1958. 'Friese invloed aan de Rijnmond?', Fryske Plaknammen
+   11:89-90.
+Blok, D.P. 1959. 'De vestigingsgeschiedenis van Holland en Utrecht in
+   het licht van de plaatsnamen'. In: Studies over de oudste plaatsnamen
+   van Holland en Utrecht, ed. M. Gysseling and D.P. Blok. Bijdragen en
+   mededelingen der Naamkunde-Commissie van de KNAW, vol. XVII.
+   Amsterdam: Noord-Hollandse Uitgevers Maatschappij. Pp. 13-38 (with
+   two maps).
+Blok, D.P. 1963. 'Opmerkingen over het Aasdom'. Tijdschrift voor Rechtsge-
+   schiedenis 31:243-74.
+Blok, D.P. 1968. 'Plaatsnamen in Westfriesland'. Philologia Frisica Anno
+   1966:11-19.
+Blok, D.P. 1969. 'Holland und Westfriesland'. Frühmittelalterliche Studien
+   3:347-61.
+Blok, D.P. 1979. De Franken in Nederland, 3rd ed. Baarn: Fibula.
+Blok, D.P. 1991. 'Holland sinds Gosses. De vorming van het graafschap
+   opnieuw bezien'. In: W. van Anrooij et al. (eds.), Holland in wording. De
+   ontstaansgeschiedenis van het graafschap Holland tot het begin van de
+   vijftiende eeuw. Hilversum: Verloren. Pp. 9-25.
+
+
+                                     303
+
+=== page 304 ===
+                            rolf h. bremmer jr
+
+
+
+Blok, D.P. 2003. 'Altniederländisch in lateinischen Dokumenten 800 – ca.
+   1250'. In: 'Quod vulgo dicitur'. Studien zum Altniederländischen, ed.
+   Willy Pijnenburg, Arend Quak and Tanneke Schoonheim (Amsterdam
+   and New York: Rodopi. [= Amsterdamer Beiträge zur älteren Germanistik
+   57]. Pp.169-82.
+Bos, J.M. 2001. 'Archaeological Evidence Pertaining to the Frisians in the
+   Netherlands'. In: Handbuch des Friesischen / Handbook of Frisian
+   Studies, ed. H.H. Munske. Tübingen: Niemeyer. 487-92, at 489-90.
+Bree, C. van. 1977. Leerboek van de historische grammatica van het Neder-
+    lands. Groningen: Wolters-Noordhoff .
+Bree, C. van. 1990. Historische Taalkunde. Leuven en Amersfoort: Acco.
+Bree, C. van. 1994. 'The Development of So-Called Town-Frisian'. In: Mixed
+    Languages. 15 Case Studies in Language Intertwining, ed. P. Bakker
+    and M. Mous. Amsterdam: IFOTT. Pp. 60-82.
+Bree, C. van. 1997. 'Die Syntax des Stadtfriesischen im Vergleich zum Friesi
+    schen, Niederländischen und Niederdeutschen'. In: Friesische Studien III,
+    ed. V.F. Faltings et al. NOWELE Suppl. 18. Odense: Odense University
+     Press. Pp. 1-48.
+Bremmer Jr, R.H. 1993. 'Dutch and/or Frisian: North Sea Germanic in Dutch
+    Etymological Dictionaries in Past and Future'. In: Current Trends in West
+    Germanic Etymological Lexicography, ed. R.H. Bremmer Jr and J. van
+    den Berg. Leiden, Cologne and New York: Brill. Pp. 17-36.
+Bremmer Jr, R.H. 1997. 'Middle Dutch loosten ''redeem'': A Case of 'Derailed'
+    Coastal Vowel Substitution'. In: M. Berryman, K. Goblirsch and M.H.
+    Taylor (eds.), Germanic Studies in Honor of Anatoly Liberman [= NOWELE
+    31-32]. Pp. 43-46.
+Bremmer, R.H. 2007. 'Footprints of Monastic Instruction: A Latin Psalter
+    with Interverbal Old Frisian Glosses'. In: S.L. Keefer and R.H. Bremmer
+    (eds.), Signs on the Edge. Space, Text and Margin in Medieval Manu-
+    scripts. Paris, Leuven and Dudley, MA: Peeters. Pp. 203-34.
+Buccini, A.F. 2003. '''Ab errore liberato''. The Northern Expansion of Frank-
+   ish Power in the Merovingian Period and the Genesis of the Dutch Lan-
+   guage'. In: Quod vulgo dicitur. Studien zum Altniederländisch, ed.Willy
+    Pijnenburg, Arend Quak and Tanneke Schoonheim. Amsterdam and New
+    York: Rodopi. Pp. 183-220.
+Coetsem, F. van. 1987. Loan Phonology and the Two Transfer Types in
+    Language Contact. Dordrecht: Foris.
+Cordfunke, E.H.P. 1987. Gravinnen van Holland. Huwelijk en huwelijks
+     politiek van de graven van het Hollandse Huis. Zutphen: Walburg
+     Pers.
+De Grauwe, L. 2004. 'Zijn olla vogala Vlaams, of zit de Nederlandse filologie
+     met een koekoeksei in (haar) nest(en)?'. Tijdschrift voor Nederlandse
+     Taal en Letterkunde 120:44-56.
+
+
+                                     304
+
+=== page 305 ===
+                the emergence of frisian and hollandish
+
+
+
+Dijkstra, B.K.S. Een stamboom in been. Vier eeuwen graven en gravinnen
+    van het Hollandse Huis. Amsterdam: De Bataafsche Leeuw.
+Dyk, S. and R.H. Bremmer Jr. 2007. 'In Aldfrysk foarbyld fan nomenynkor
+    poraasje'. Us Wurk 56:135-39.
+Faltings, V.F. 1984. 'Zur Verbreitung von afries. tiuche 'Landparzelle' im
+    Nordfriesischen und Südjütischen'. Namn och Bygd 81:59-75.
+Fritze, W.H. 1971. 'Zur Entstehungsgeschichte des Bistums Utrecht'. Rheini
+    sche Vierteljahrsblätter 35:107-51.
+Gysseling, M. 1960. 'Chronologie van enkele klankverschuivingen in het oudste
+    Fries'. In: K. Dykstra et al. (eds.), Fryske stúdzjes oanbean oan Prof. Dr.
+    J.H. Brouwer ta syn sechstichste jierdei. Assen: van Gorcum. Pp. 77-80.
+Gysseling, M. 1962. 'Het oudste Fries'. It Beaken 24:1-26.
+Gysseling, M. 1977-1987. Corpus van Middelnederlandse teksten (tot en
+    met het jaar 1300) Reeks I: Ambtelijke bescheiden; Reeks II: Literaire
+    handschriften. The Hague: Nijhoff.
+Hoekstra, E. 1993. 'Over de implicaties van enkele morfo-syntaktische eigen
+    aardigheden in West-Friese dialecten'. Taal en Tongval 45:135-54.
+Hoekstra, E. 1994a. 'Oer de oerienkomst tusken de dialekten fan Noard-
+    Hollân en it Frysk'. Philologia Frisica Anno 1993:81-103.
+Hoekstra, E. 1994b. 'Positie- en bewegingsaspect bij selectie van de infinitief
+    op -E of -EN in het Westfries en Fries'. Taal en Tongval 46:66-73.
+Hoekstra, E. 1995. 'K.H. Heeroma: Strider en tsjûger foar it ABN. Oer de
+    gearhing tusken taalkunde, taalpolityk en nasjonale identiteit'. Us Wurk
+    44:51-68.
+Hofmann, D. 1972-1973. 'Fries. tiuche, deutsch zeche, griech. díkē und Ver-
+    wandte'. Us Wurk 21-22:55-80. Also in Hofmann 1989:307-32.
+Hofmann, D. 1973. 'Teche und tiuche. Niederdeutsche und friesische Zeugnisse
+    zur Geschichte eines alten germanischen Terminus genossenschaftlicher
+    Arbeitsorganisation'. Niederdeutsches Wort 13:1-17. Also in Hofmann
+    1989:349-65.
+Hofmann, D. 1989. Gesammelte Schriften II. Studien zur friesischen und
+    niederdeutschen Philologie, ed. G. Kreuzer, A. Walker en O. Wilts.
+    Hamburg: Buske.
+Hofstra, T. 2003. 'Altniederländisch und Altfriesisch'. In: Quod vulgo dici-
+    tur. Studien zum Altniederländisch, ed.Willy Pijnenburg, Arend Quak
+    and Tanneke Schoonheim. Amsterdam and New York: Rodopi. Pp.
+    77-91.
+Hugenholtz, F.W.N. 1988. 'Melis Stoke en de afkomst der Hollandse graven'.
+    In: E.A. Hattinga van 't Sant et al. (eds.), Convivium aangeboden aan
+    prof. jkvr. dr. J.M. van Winter bij haar afscheid als hoogleraar aan de
+    Rijksuniversiteit te Utrecht. Hilversum: Verloren. Pp. 11-20.
+Ker, N.R. 1957. Catalogue of Manuscripts Containing Anglo-Saxon. Oxford:
+    Clarendon Press.
+
+
+                                     305
+
+=== page 306 ===
+                            rolf h. bremmer jr
+
+
+
+Klein, Th. 1979. 'Zum altniederländischen ''Leidener Willeram'' und einigen
+    westgermanischen Pronominalformen'. Zeitschrift für deutsche Philologie
+    98:425-47.
+Kwakkel, E. 2005. 'Hebban olla vogala in historisch perspectief'. Tijdschrift
+    voor Nederlandse Taal en Letterkunde 121:1-24.
+Lebecq, S. 1983. Marchands et navigateurs frisons du Haut Moyen Age.
+    Lille: Presses universitaires. Also as Fryske keaplju en seefarders fan
+    de iere midsieuwen, transl. H. Bremer. Leeuwarden: Fryske Akademy,
+    1994.
+Linden, H. van der. 1956. De Cope. Bijdrage tot de rechtsgeschiedenis van
+    de openlegging der Hollands-Utrechtse laagvlakte. Assen: van Gorcum
+    [repr. 1981].
+Loey, A. van. 1968. Middelnederlandse Spraakkunst. II. Klankleer. 5th ed.
+    Groningen: Wolters-Noordhoff.
+Loey, A. van. 1970. Schönfelds Historische Grammatica van het Nederlands.
+    7th ed. Zutphen: Thieme.
+Loon, J. van. 1986. Historische fonologie van het Nederlands. Leuven and
+    Amersfoort: Acco.
+Loon, J. van. 1995. 'Waarom heeft het Nederlands geen umlaut op lange
+    vocalen?'. Taal en Tongval 47:168-72.
+Miedema, H.T.J. 1971. 'Noordzeegermaans en Vroegoudfries. De niet-Friese
+    Ingweonismen in Schönfelds Historische grammatica'. Leuvense Bijdragen
+    90:99-104.
+Miedema, H.T.J. 1972. 'Nederlands keen, Engels chine, Fries sein'. Naam-
+    kunde 4:40-45.
+Mithun, M. 1984. 'The Evolution of Noun Incorporation'. Language 60:
+    847-94.
+MNW = E. Verwijs and J. Verdam. 1885-1941. Middelnederlandsch Woorden-
+    boek. 9 vols. The Hague: Nijhoff.
+Mooijaart, M.A. 1992. Atlas van Vroegmiddelnederlandse taalvarianten.
+    Utrecht: LEd.
+Munske, H.H. 2001. Handbuch des Friesischen / Handbook of Frisian Studies.
+    Tübingen: Niemeyer.
+Nielsen, H.F. 1985. Old English and the Continental Languages. A Survey
+    of Morphological and Phonological Interrelations. 2nd ed. Innsbruck:
+    Institut für Sprachwissenschaft der Universität Innsbruck.
+Nielsen, H.F. 1989. The Germanic Languages. Origins and Early Dialectal
+    Interrelations. Tuscaloosa and London: University of Alabama Press.
+Nielsen, H.F. 2001. 'Frisian and the Grouping of the Older Germanic Lan-
+    guages'. In: H.H. Munske (ed.), Handbuch des Friesischen/Handbook of
+    Frisian Studies. Tübingen: Niemeyer. Pp. 512-23.
+Quak, A. 1990. 'Runica Frisica'. In: R.H. Bremmer Jr, G. van der Meer en O.
+    Vries (eds.), Aspects of Old Frisian Philology. [= Amsterdamer Beiträge
+
+
+                                    306
+
+=== page 307 ===
+                the emergence of frisian and hollandish
+
+
+
+    zur älteren Germanistik]. Amsterdam, Atlanta and Groningen: Rodopi.
+    Pp. 357-70.
+Quak, A. and J.M. van der Horst. 1997. 'Oudnederlands (tot circa 1200) '. In:
+    M. C. van der Toorn et al. (eds.), Geschiedenis van de Nederlandse Taal.
+    Amsterdam: Amsterdam University Press. Pp. 37-68.
+Page, R.I. 2001. 'Frisian Runic Inscriptions'. In: Munske (2001):523-30.
+van Reenen, P. and M. Mulder. 1993. 'Een gegevensbank van de 14de-eeuwse
+    Middelnederlandse dialecten op computer'. Lexikos 3:259-81.
+Rem, M. 2003. De taal van de klerken uit de Hollandse grafelijke kanselarij
+    (1300-1340): naar een lokaliseringsprocedure voor het veertiende-eeuws
+    Middelnederlands. Amsterdam: Stichting Neerlandistiek VU [with an
+    English summary].
+Rentenaar, R. 1972. 'Mad en made in de toponymie van Westnederland'.
+    Naamkunde 4:284-319.
+Rizza, R. 1993. 'Old Dutch and Its Position within West Germanic'. In: J.L.
+    Flood et al. (eds.), 'Das unsichtbare Band der Sprache'. Studies in German
+    Language and Linguistic History in Memory of Leslie Seiffert. Stuttgart:
+    Heinz. Pp. 3-24.
+Sanders, W. 1974. Der Leidener Willeram. Untersuchungen zur Handschrift,
+    Text und Sprachform. Münich: Fink.
+Schönfeld, M. See Loey, A. van (1970).
+Schoonheim, T. 2004. Vrouwelijke persoonsnamen in Holland en Zeeland tot
+    het jaar 1300. PhD thesis Leiden. Groningen: Gopher Publishers.
+Schrijvers, P. 1999. 'The Celtic Contribution to the Development of the North
+    Sea Germanic Vowel-System, with Special Reference to Coastal Dutch'.
+    NOWELE 35:3-47.
+Seebold, E. 1995. 'Wer waren die Friesen – sprachlich gesehen?'. In: V.F.
+    Faltings et al. (eds.), Friesische Studien II. Odense: Odense University
+    Press. Pp. 1-17.
+Siems, H. 1980. Studien zur Lex Frisionum. Ebelsbach: Gremer.
+Stiles, P. 1995. 'Remarks on the ''Anglo-Frisian'' Thesis'. In: V.F. Faltings et
+    al. (eds.), Friesische Studien II. Odense: Odense University Press. Pp.
+    177-220.
+Taayke, E. and E. Knol, 'Friesen. II. Archäologisches'. In: Beck et al. 1996:35-
+    52.
+Taeldeman, J. 1994. 'Ronding en ontronding in het Nederlands en de
+    Nederlandse dialecten'. Taal en Tongval 46:152-79.
+TeBrake, W. 1986. Medieval Frontier: Culture and Ecology in Rijnland.
+    College Station, Texas: Texas A&M University Press.
+Tiemeijer, W.F. 1916. Klankleer der gedichten van Willem van Hildegaers-
+    berch. Amsterdam: Kruyt.
+Verhoeven, G. and J.A. Mol (eds.). 1995. Friese Testamenten tot 1550. Leeu-
+    warden: Fryske Akademy.
+
+
+                                      307
+
+=== page 308 ===
+                           rolf h. bremmer jr
+
+
+
+van der Wal, M.J., with C. van Bree. 1992. Geschiedenis van het Nederlands.
+   Utrecht: Spectrum.
+Weijnen, A. 1991. Vergelijkende klankleer van de Nederlandse dialecten.
+   The Hague: SDU.
+Versloot, A. 2000. 'Fries in Holland in de 17e eeuw'. Taal & Tongval 55:1-
+   40.
+
+
+
+
+                                   308

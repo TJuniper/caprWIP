@@ -1,0 +1,1090 @@
+John Benjamins Publishing Company
+
+
+
+
+This is a contribution from Historical Linguistics 2013. Selected papers from the 21st
+International Conference on Historical Linguistics, Oslo, 5–9 August 2013.
+Edited by Dag T.T. Haug.
+© 2015. John Benjamins Publishing Company
+This electronic file may not be altered in any way.
+The author(s) of this article is/are permitted to use this PDF file to generate printed copies to
+be used by way of offprints, for their personal use only.
+Permission is granted by the publishers to post this file on a closed server which is accessible
+to members (students and staff) only of the author’s/s’ institute, it is not permitted to post
+this PDF on the open internet.
+For any other use of this material prior written permission should be obtained from the
+publishers or through the Copyright Clearance Center (for USA: www.copyright.com).
+Please contact rights@benjamins.nl or consult our website: www.benjamins.com
+Tables of Contents, abstracts and guidelines are available at www.benjamins.com
+         Vowel reduction in verbs
+         in King Alfred’s Pastoral Care*
+
+         Sverre Stausland Johnsen
+         University of Oslo
+
+
+         An original unstressed vowel *ō generally develops to a in Old English. In some
+         categories, however, both a and u are found as reflexes. The traditional expla-
+         nation for this phenomenon posits that *ō developed to u when the following
+         syllable also had a *u. A statistical analysis of the distribution of a and u in such
+         forms in an Old English text finds no support for this theory. Since shortened
+         vowels tend to raise and unstressed vowels in medial syllables are shorter than
+         in final syllables, I hypothesize in this paper that *ō shortened and raised to u
+         in medial syllables. A statistical analysis of the same text strongly supports this
+         new hypothesis. This vowel raising process can be explained by neuromuscular
+         and perceptual properties. Producing short low vowels increases the risk of
+         undershooting the vowel target, which translates into vowel raising. At the same
+         time, a shortened low vowel can be misperceived as a higher vowel, since high
+         vowels are shorter than low vowels. With these explanations, a formal gram-
+         matical analysis is not needed to explain why vowel raising takes place.
+
+         Keywords: phonology, Old English, corpus, vowel reduction, phonetic error,
+         effort
+
+
+
+1.   Introduction
+
+The original Proto-West-Germanic long unstressed vowel *ō generally develops to
+a short unstressed vowel a in Old English (Brunner 1965: 31, 128; Hogg 1992: 233;
+
+
+* Parts of this work have been presented at ICHL 21, the 87th Annual Meeting of the LSA,
+Seminar in Theoretical Linguistics at the University of Oslo, the MIT Phonology Circle, and the
+GSAS Workshop in Historical Linguistics at Harvard University. I am grateful to the audiences
+at these events for their comments and feedback, and for the comments provided by two anony-
+mous reviewers. I would also like to express a word of gratitude to Toni Healey at the Dictionary
+of Old English for providing me with the word count of the Pastoral Care manuscript.
+
+          doi 10.1075/cilt. 334.02jon
+          © 2015 John Benjamins Publishing Company
+20   Sverre Stausland Johnsen
+
+
+
+     Luick 1921: 298).1 This is illustrated in (1), in which the stressed vowel is marked
+     by an acute accent and vowel length by a macron. Since stress was located on the
+     initial syllable in both Proto-West-Germanic and Old English, it will no longer be
+     marked (cf. Campbell 1959: 30; Hogg 1992: 47–48).
+      (1) Proto-West-Germanic 			                Old English
+     		*glṓfōz 			>                              glṓfa                “gloves”
+     		*mā́nōþiz 		>                             mṓnaþ                “months”
+     		 *wúndōþi 		>                             wúndaþ               “woundeth”
+     		 *túngōni 		>                             túngan               “tongue”
+
+     In the past tense forms of ō-verbs, however, both a and u are found as reflexes of
+     the original unstressed *ō. The examples in (2) demonstrate that these two vowels
+     are found in both the preterite (2a) and perfect (2b) category of the past tense.
+     When comparing the Old English forms in (2) with their English glosses, it is also
+     easy to see that the ō-verb conjugation is the chief origin of the weak verb conjuga-
+     tion in Modern English.
+      (2) a.       pret.    andswarade ~         andswarude “answered”
+     			           pret.    syngade    ~         syngude 		“sinned”
+     		b.          perf.    wundad     ~         wundud		   “wounded”
+     			           perf.    bisgad     ~         bisgud 		“busied”
+
+     The variation between Old English a and u in (2) versus the general development
+     of Proto-West-Germanic *ō to Old English a seen in (1) indicates that *ō under
+     some condition developed to Old English u rather than a. The aim of this paper is
+     to determine what that condition is.
+         The traditional and widely accepted explanation for the vowel u in forms of
+     the kind seen in (2) is that the original *ō assimilated in Proto-West-Germanic to
+     a *u in a following syllable (van Helten 1891: 460, 463–464). If that explanation is
+     correct, one would expect to find u more often in Old English forms where a *u
+     originally followed in the subsequent syllable than in forms where no *u followed.
+     A statistical analysis of past tense forms of ō-verbs in King Alfred’s Pastoral Care
+     reveals, however, that no such tendency can be found.
+         The hypothesis put forward in this paper is that Proto-West-Germanic *ō,
+     after developing to *o by the regular pre-Old English shortening of unstressed
+
+
+     1. This paper will for the most part limit its references to Old English grammars, handbooks,
+     and reference manuals published in the 20th and 21st centuries. For entirely uncontroversial
+     aspects of Old English diachronic and synchronic phonology, references will be limited to the
+     most comprehensive grammars of Old English, i.e. Brunner (1965), Campbell (1959), Hogg
+     (1992), Hogg & Fulk (2011), and Luick (1921, 1940).
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                   Vowel reduction in verbs in King Alfred’s Pastoral Care   21
+
+
+
+long vowels, reduces in medial syllables to a high vowel u. The rationale for this
+development rests on experimental evidence that vowels in medial syllables are
+shorter, and that shorter vowels tend to raise. If this is the right explanation, then
+u should be more common in Old English medial syllables than in final syllables.
+A statistical study of the ō-verbs in King Alfred’s Pastoral Care shows that the u is
+indeed significantly more common in medial syllables. The traditional explanation
+is consequently rejected in favor of this new hypothesis.
+     The remaining question to be answered is why such shortened vowels tend
+to raise. It is suggested here that this connection between vowel duration and
+vowel raising is rooted in strictly physiological and perceptual conditions, and
+not caused by grammar. As the duration of a lower vowel decreases, the likelihood
+that the articulators will reach the intended target for that vowel in time drops
+accordingly. If the articulators do not reach the lower vowel target in time, they
+‘undershoot’ their target and produce, strictly as a biomechanical consequence, a
+raised vowel.
+     This paper is organized as follows: Section 2 clarifies what is meant by ‘Old
+English u’. Section 3 gives an account of the traditional explanation for the distri-
+bution of a and u in Old English, tests it against an Old English corpus, and finds
+that it has no support in the data. Section 4 then lays out the rationale behind the
+new hypothesis, that u is the result of vowel raising in shortened medial syllables.
+Section 5 fleshes out the details of this new hypothesis and tests it against the Old
+English corpus. Section 6 discusses the neuromuscular and perceptual properties
+that have caused the vowel raising to occur, and concludes that there is no reason
+to assume a grammatical component acting on top of that. Section 7 makes sugges-
+tions for further reasearch, before Section 8 summarizes and concludes the paper.
+
+
+2. Old English u
+
+The earliest Old English texts, which date from the 8th century, have only two
+unstressed back vowels: u and a (Campbell 1959: 19, 153; Hogg 1992: 240; Pilch
+1970: 74; Reszkiewicz 1973: 93). These two vowels are contrastive in unstressed
+syllables, as seen in word pairs such as sunu “son.nom.sg” vs. suna “son.gen.sg”.
+During the course of the early Old English period, however, u shows a tendency
+to lower to o (Brunner 1965: 31, 124, 128; Campbell 1959: 19, 155–156; Hogg
+1992: 245–246; Luick 1921: 302–303). In the 9th and early 10th century, then, u
+and o function as free variants of a phoneme /u/ in unstressed syllables. This low-
+ering of unstressed u to o within the early Old English period is of no interest
+in this study. The central question here is what the conditions were that caused
+Proto-West-Germanic unstressed *ō to develop to the u we find in the earliest
+
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+22   Sverre Stausland Johnsen
+
+
+
+     Old English texts. Since we know that the unstressed vowels u and o in texts from
+     the 9th and early 10th century both go back to the vowel u in the earlier stages of
+     attested Old English, this paper will treat the unstressed vowels u and o in such
+     texts as instances of the vowel u.
+
+
+     3. Van Helten’s rule
+
+     3.1    The rule
+
+     The oscillation between a and u in the past tense forms of ō-verbs, as seen in (2),
+     was recognized early (Rask 1817: 2), and the first proper attempt at explaining it
+     was provided by van Helten 1891. He suggested that the Proto-West-Germanic
+     unstressed *ō was raised to *ū by assimilating to a *u in the following syllable
+     (1891: 460, 463–464), as illustrated with the preterite forms of “wounded” in (3).
+      (3)		 				Proto-West-Germanic 			Old English
+     		a. 3.sg.pret.ind. *wundōdē 						 > wundade
+     		b. 3.pl.pret.ind. *wundōdun > *wundūdun > wundudun
+
+     In (3a) the Proto-West-Germanic *ō in *wundōdē is not followed by a *u in the
+     next syllable, hence the *ō undergoes the regular development to Old English a
+     and gives wundade. In (3b), on the other hand, the *ō in *wundōdun is followed
+     by a *u, and it assimilates therefore to this vowel and raises to *ū, giving a later
+     Proto-West-Germanic form *wundūdun, ending up as Old English wundudun.
+     The shortening of Proto-West-Germanic *ō and *ū is regular, since all unstressed
+     long vowels are shortened in pre-Old English (Brunner 1965: 16, 31; Campbell
+     1959: 139, 147–148; Hogg 1992: 65, 233–234; Luick 1921: 288–289).
+          It is crucial to emphasize here that this is a Proto-West-Germanic rule, not an
+     Old English rule. The fact that the unstressed vowel *u that triggered the assimi-
+     lation in Proto-West-Germanic is still present in the Old English form in (3b) is
+     merely a coincidence. This is clearly illustrated in the perfect forms of “wounded”
+     seen in (4).
+      (4)						Proto-West-Germanic 			 Old English
+     		a. perf.m.nom.sg. *wundōdaz 						> wundad
+     		b. perf.f.nom.sg. *wundōdu > *wundūdu > wundud
+
+     In (4a) the Proto-West-Germanic *ō develops as in (3a), since it is not followed
+     by a *u in the next syllable. A final *-z and an unstressed *a are both regularly lost
+     in pre-Old English, thereby deleting the final Proto-West-Germanic syllable *-az
+     (Brunner 1965: 123, 148; Campbell 1959: 138, 166; Hogg 1992: 65; Luick 1921: 273,
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                   Vowel reduction in verbs in King Alfred’s Pastoral Care   23
+
+
+
+1940: 818). In (4b), on the other hand, the *ō raises as in (3b) to a *ū before the
+*u in the next syllable. Since a final *-u is lost in pre-Old English after a long syl-
+lable, the form in (3b) also deletes its final syllable (Brunner 1965: 124; Campbell
+1959: 144; Hogg 1992: 227; Luick 1921: 282). As the conditioning syllable for van
+Helten’s rule has been lost in Old English, the Old English forms in (4) are by
+themselves not able to explain why one has the vowel a and the other the vowel
+u. Van Helten’s rule implies, then, that there is nothing synchronic in Old English
+that will explain the distribution of a and u.
+    Nearly all grammars of Old English accept van Helten’s rule as the explana-
+tion for the variation between a in u in the past tense forms of ō-verbs (Brunner
+1965: 31–32, 128, 329; Bülbring 1902: 156–157; Campbell 1959: 139; Girvan
+1931: 126; Hogg 1992: 66–67; Hogg & Fulk 2011: 283; Kieckers 1935: 36–37; Luick
+1921: 269–270). It is safe to say, then, that van Helten’s rule has become part of the
+‘canon’ of diachronic Old English phonology.
+
+
+3.2   Generalization
+
+Van Helten’s rule predicts that certain forms in the paradigm of ō-verbs should have
+a in Old English, whereas other forms should have u. As seen in (3) and (4), for
+example, the rule predicts that the 3.sg.pret.ind. and the perf.m.nom.sg. forms
+should have the vowel a, whereas the 3.pl.pret.ind. and the perf.f.nom.sg. should
+have the vowel u. In reality, however, the distribution is as seen in (2), in which any
+past tense form of the ō-verb category can display either a or u. Regardless what
+the phonologically regular distribution of a and u once was, or what it should have
+been, it is clear that the actually attested variation in (2) must be due to a general-
+ization of both a and u beyond their original distribution within the paradigm (cf.
+Brunner 1965: 329; Campbell 1959: 139; Girvan 1931: 126; Hogg 1992: 67; Hogg &
+Fulk 2011: 283; Kieckers 1935: 184; Luick 1921: 270; Reszkiewicz 1973: 148).
+
+
+3.3   Testing van Helten’s rule against an Old English corpus
+
+If the phonologically regular distribution of a and u in Old English is dictated
+by van Helten’s rule, then it should be possible to trace this distribution in the
+Old English data, regardless of the paradigmatic generalization discussed in
+Section 3.2 above. The vowel u should, in other words, be more commonly pres-
+ent in the paradigmatic forms where it originally belongs than in forms where it
+has subsequently been generalized to. If this is not the case, then there is no cogent
+reason to posit van Helten’s rule in the first place, as any other postulated rule
+would explain the distribution equally well.
+
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+24   Sverre Stausland Johnsen
+
+
+
+          Despite the near universal acceptance of van Helten’s rule as the explanation
+     for the variation between a and u in Old English, this clear prediction made by
+     the rule has to my knowledge never been tested against a corpus of Old English
+     data. Such a corpus would necessarily need to exclude all texts from the ‘classi-
+     cal Old English’ period between the 10th and 11th century, since the unstressed
+     vowels a and u began merging in the 10th century (Brunner 1965: 33; Campbell
+     1959: 19–20, 156–157; Hogg 1992: 246; Luick 1921: 320, 489–491). All the past
+     tense forms of ō-verbs (n = 457) were therefore manually extracted from the man-
+     uscript Hatton 20 (text edition by Sweet 1871 with corrections by Kim 1973). This
+     manuscript is a near complete version of King Alfred’s translation of the Pastoral
+     Care. It was written by three scribes in Old West Saxon and dates to c. 890 (Ker
+     1957: 384–385). It was chosen as the basis for an early Old English corpus here
+     because it is with 67 835 words by far the largest text from this period.
+
+                                                       u before original *u
+                                               90%
+
+
+                                               85%
+
+
+
+                                Forms with u
+                                               80%
+
+
+                                               75%
+
+
+                                               70%
+                                                     Before *u      Elsewhere
+
+
+     Figure 1. Distribution of u by van Helten’s rule
+
+     Figure 1 displays the distribution of the unstressed vowel u in the past tense forms
+     of ō-verbs in this corpus, with the two bars representing the two relevant catego-
+     ries according to van Helten’s rule: the position before an original *u, and the
+     elsewhere condition. According to this rule, then (Section 3.1), the u should be
+     more common when a *u originally followed than elsewhere. As Figure 1 shows,
+     however, the distribution actually trends in the opposite direction; the u is less
+     common before an original *u.
+          This data was fitted to a logistic regression model with the glmer() function
+     in R (Bates et al. 2014; R Core Team 2014). The random effects structure of this
+     model was data-driven using a backward best-path algorithm with α = 0.2 (Barr
+     et al. 2013). The variance explained by the model is estimated with the R2 measure
+     suggested by Nakagawa & Schielzeth (2013) with the implementation by LaHuis
+     et al. (2014). A summary of the model is given in Table 1.
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                      Vowel reduction in verbs in King Alfred’s Pastoral Care   25
+
+
+
+Table 1. Summary of logistic regression model for van Helten’s rule
+Random effects:
+Groups             Name            Variance         Standard deviation        Correlation
+Word               (Intercept)     1.879            1.371
+                   Before *u       3.862            1.965                    −1
+Fixed effects:
+                   Estimate        Standard error z value
+(Intercept)        2.346           0.352            6.657
+Before *u        −0.788           0.667          −1.181
+Explained variance: R2 = 0.019
+
+
+The explained variance of R2 = 0.019 means that the model is correctly predict-
+ing only 2% of the variation between the vowels a and u in the corpus. This is a
+good indication that van Helten’s rule is unable to account for the distribution of
+the vowel u in this data set. A likelihood ratio test shows that the model with van
+Helten’s rule as a predictor is not significantly different from a model without the
+rule: χ2(1) = 1.007, p = 0.316. This means that there is simply no significant cor-
+relation between van Helten’s rule and the distribution of the vowel u in the data,
+neither a positive correlation (as expected by van Helten’s rule), nor a negative cor-
+relation (as indicated by the actual data seen in Figure 1). Since van Helten’s rule
+cannot explain the distribution of a and u as the reflexes of *ō in this Old English
+corpus, the rule should as a result be rejected.
+
+
+4. Vowel reduction
+
+4.1    Vowel duration and position
+
+An alternative to viewing the change from *ō to Old English u as a phonotactically
+conditioned change (as in van Helten’s rule) is to focus on the prosodic position of
+this unstressed vowel. Although it is well known that unstressed vowels generally
+are shorter than stressed vowels (Fry 1955), the central fact in this connection is
+that unstressed vowels in medial syllables are shorter than unstressed vowels in
+final syllables (Lindblom 1968; Oller 1973). All other things being equal, then, the
+unstressed vowel in a final syllable in a word of the type [ˈmakat] will be longer
+than the equivalent unstressed vowel in a medial syllable in a word like [ˈmakatan],
+as illustrated in (5).
+ (5) Final syllable		            Medial syllable
+		[ˈmakat]			 >                  [ˈmakatan]
+
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+26   Sverre Stausland Johnsen
+
+
+
+     4.2    Vowel duration and vowel height
+
+     Duration is not only found to depend on the position of the vowel, as discussed
+     above, but also on the quality of the vowel. In short, vowel length is inversely cor-
+     related with vowel height, such that the higher a vowel is, the shorter it is (Lehiste
+     1970: 18–19). This finding can plausibly be linked to the articulation of vowels in
+     their most typical environment, which is next to an oral consonant. In order to
+     produce a low vowel, the lower lip, the lower jaw, and the tongue (or simply ‘the
+     articulators’) are lowered. The lower the vowel is, the more the articulators are
+     lowered (Lindblom 1967: 2–3; Parmenter & Treviño 1932). An oral consonant, on
+     the other hand, requires the articulators to be raised so that they create contact
+     with one of the upper articulators (the upper lip, the teeth, or the palate). In the
+     transition phase between an oral consonant and a vowel, then, the articulators
+     need to move from the raised position of the consonant to the lowered position
+     of the vowel, and then back up again if another oral consonant follows. The lower
+     this vowel is, the longer the distance the articulators need to travel to reach their
+     targets. Covering this distance takes time, and it follows that the longer the articu-
+     lators need to travel, the longer the duration of their movement will be, all other
+     things being equal. It is quite expected, then, that low vowels will be durationally
+     longer than high vowels (Jespersen 1913: 181; Lehiste 1970: 18–19; Lindblom
+     1967: 21, 23–24).
+
+     4.3    Vowel duration and vowel raising
+
+     A vowel can be considered as having an articulatory and auditory target (cf. Perkell
+     2012). Reaching these targets takes time, and as noted above it takes more time
+     for some vowels than for others. When the available time frame for an articula-
+     tory movement is shortened, experiments show that there are direct correlations
+     between vowel height, vowel raising, and duration, such that the lower a vowel is,
+     the more it is raised, and the shorter the vowel is, the more it is raised (Lindblom
+     1963: 1777–1778). A shortened low vowel /ɔ/ is in other words raised more than
+     a shortened mid vowel /o/ is, and a low vowel /ɔ/ is raised more when it is 100
+     ms long than when it is 150 ms long. A reasonable interpretation of these facts is
+     that under constrained time conditions, the articulators run a higher risk of not
+     being able to reach the targets for a low vowel before they need to move on to
+     another phonological segment, since covering the articulatory distance for low
+     vowels requires more time than for higher vowels. If the articulators ‘undershoot’
+     their low vowel targets in this fashion, the consequence will be that the articulators
+     reach a position raised above their originally intended targets. The acoustic cor-
+     relate of this undershoot is a raised vowel (1963: 1778–1779). A closer discussion
+     of this effect is postponed until Section 6.1.
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                    Vowel reduction in verbs in King Alfred’s Pastoral Care   27
+
+
+
+     This interconnection between vowel height and vowel length can be illus-
+trated as in Figure 2. This illustration can be understood bidirectionally: (1) As
+one moves in the direction of the arrow, less time is devoted to the production
+of the vowel. The low vowel [ɑ] is thus produced with a longer duration than the
+vowel [ɔ], which in turn is produced with a longer duration than the vowel [o],
+etc. (2) When less time is being devoted to the production of a vowel, the vowel
+moves in the direction of the arrow. A shortened low [ɑ] moves in the direction of
+the vowel [ɔ], which moves in the direction of the mid vowel [o], etc.
+
+                                       Less time
+                                  [] > [] > [o] > [u]
+
+Figure 2. Correlation between vowel height, length, and raising
+
+
+4.4   Summary of vowel reduction patterns
+
+We have seen in this section that unstressed vowels are shorter in medial syl-
+lables than in final syllables, and that shortened low vowels have a tendency to
+raise. When connecting these two observations, a readily available hypothesis is
+that unstressed vowels in medial syllables are more likely to raise than unstressed
+vowels in final syllables. Section 5 will apply that hypothesis to the Old English
+corpus from Section 3.3.
+
+
+5. New hypothesis: Vowel raising in medial syllables
+
+5.1   The proposal
+
+As discussed in Section 3.1, all unstressed long vowels are shortened in pre-Old
+English. This process thus shortens the Proto-West-Germanic unstressed vowel *ō
+to *o (Kieckers 1935: 36; Luick 1921: 289). The hypothesis put forward here is that
+this *o raises to u in unstressed medial syllables, since vowels in unstressed medial
+syllables are shorter than in final syllables, and shortened vowels tend to raise, as
+discussed in detail in Section 4.
+     The raising of /o/ as a function of duration is illustrated in Figure 3, which
+is based directly on the data in Lindblom 1963. The acoustic correlate of vowel
+height is the first formant, F1. The left column in Figure 3 displays the target F1
+value, F1t, for the vowels /u/ and /o/ (1963: 1777). The solid horizontal line shows
+the observed F1 value for the vowel /u/ as a function of duration. As the straight
+line indicates, reducing the duration of high vowels has no effect on their vowel
+height (1963: 1776–1777). The dotted horizontal curve tracks the observed F1
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+28   Sverre Stausland Johnsen
+
+
+
+                                             Raising of /o/ as a function of duration
+                                   F1t
+                          350 Hz
+
+                                   /u/
+
+
+                          400 Hz
+
+
+
+
+               F1 value
+                          450 Hz
+
+
+
+
+                          500 Hz
+                                   /o/
+
+                                                     final                                  medial
+                          550 Hz
+
+
+                                    250 ms        200 ms          150 ms           100 ms
+
+     Figure 3. Vowel raising as a function of duration
+
+     value for the vowel /o/ as a function of duration between two coronal consonants
+     /d_d/. Only this curve has been plotted in Figure 3, as this is the most relevant
+     consonantal environment for the Old English corpus used in this study. All forms
+     in this corpus have the reflex of the vowel *o in the position C_d, with C represent-
+     ing any consonant. The curves for /o/ in labial and velar environments are, how-
+     ever, very similar. As the curve clearly indicates, the height of the vowel /o/ raises
+     to close proximity to the height of the vowel /u/ as duration decreases. Two dashed
+     vertical lines have been added to indicate the average duration of unstressed vow-
+     els in medial and final syllables, taken from Oller (1973: 1236). Based on these
+     observations, there is good reason to hypothesize that the pre-Old English vowel
+     *o would show a greater tendency to raise to u in unstressed medial syllables than
+     in unstressed final syllables.
+          Using the Proto-West-Germanic forms from (3) and (4), the concrete pro-
+     posal made by this hypothesis can be seen in (6).
+      (6)		 Proto-West-Germanic 		 Pre-Old English		 Old English
+     		 a. *wundōdē              > *wundŏde        > wundude
+     		 b. *wundōdu              > *wundod         > wundad
+
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                   Vowel reduction in verbs in King Alfred’s Pastoral Care   29
+
+
+
+The Proto-West-Germanic 3.sg.pret.ind. *wundōdē in (6a) undergoes the regular
+pre-Old English shortening of unstressed long vowels and gives *wundode. Since
+the vowel *o is in a medial unstressed syllable, it is significantly shorter than the
+corresponding unstressed *o in the pre-Old English form *wundod in (6b). This
+‘extra-short’ *o is indicated in (6a) with *ŏ. The proposal made here is that this
+‘extra-short’ *o will raise to a high u in Old English. The Proto-West-Germanic
+perf.f.nom.sg. *wundōdu in (6b) undergoes the same shortening of unstressed
+long vowels, but also loss of final *-u after a long syllable (cf. Section 3.1). This
+comes out as pre-Old English *wundod. The unstressed *o in this form is in a final
+syllable and has a ‘regular short’ length, and undergoes the general development
+of pre-Old English *o to a. Two things are worth noticing about the development
+outlined in (6).
+     The first thing to notice is that the proposed regular developments in (6) are
+the exact opposite of what van Helten’s rule suggests in (3) and (4). The rele-
+vant forms from those two examples are repeated in (7) below. The Proto-West-
+Germanic form in (7a) is predicted by van Helten’s rule to develop an a in Old
+English, as a direct result of not having a *u in the third syllable in Proto-West-
+Germanic. The proposal made in this section, however, is that this form will
+develop an Old English u by virtue of having the pre-Old English vowel *o in a
+medial syllable, seen in (6a) above. The Proto-West-Germanic form in (7b), on the
+other hand, has a *u in the third syllable and is therefore predicted by van Helten’s
+rule to give Old English u. The new proposal made here is that this vowel will
+become Old English a because it is in a final syllable, cf. (6b). The disagreement in
+predictions between (6) and (7) is therefore a good example of how different these
+two proposals are in both theory and practice.
+ (7) 		 Proto-West-Germanic 			                 Old English
+		    a. *wundōdē 					>                        wundade
+		 b. *wundōdu > *wundūdu >                     wundud
+
+The second thing worth noticing about the new proposal in (6) is that the phe-
+nomenon that splits the Proto-West-Germanic *ō into Old English a and u occurs
+after the loss of short unstressed vowels. That it occurs after the shortening of long
+unstressed vowels is a tautology, since the proposal itself is that the shortened *o
+from *ō raises to u in medial syllables. The loss of short unstressed vowels, how-
+ever, necessarily predates the shortening of long unstressed vowels (cf. Campbell
+1959: 161; Hogg 1992: 235; Luick 1921: 292), from which it follows that the split of
+Proto-West-Germanic *ō into Old English a and u occurs after the loss of short
+unstressed vowels. The relative chronology of the loss of short unstressed vowels
+and the shortening of long unstressed vowels is illustrated in (8).
+
+
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+30   Sverre Stausland Johnsen
+
+
+
+      (8)											nom.sg.                        nom.pl.
+     		   Proto-West-Germanic 					*burstiz 		*burstīz
+     		   Loss of final *-z 							*bursti 		*burstī
+     		i-umlaut 								*byrsti 		*byrstī
+     		 Loss of short unstressed vowels 			 *byrst
+     		 Shortening of long unstressed vowels 					 *byrsti
+     		   Old English 							 byrst 		              byrsti
+
+     The list in (8) shows the phonological processes that affected the nominative forms
+     of the Proto-West-Germanic noun *bursti- “bristle” on its way to Old English.2
+     If the shortening of long unstressed vowels had occurred before the loss of short
+     unstressed vowels, then *burstīz would simply merge with the outcome of *burstiz
+     and give Old English byrst in both forms.3
+          As can be seen in the examples given in this paper (cf. (1), (4), and (8)), the
+     predominant reason for the reduction in the number of syllables between Proto-
+     West-Germanic and Old English is the loss of unstressed short vowels. Since the
+     proposed split of *ō into a and u is set after this loss, then the number of syllables
+     at the time of the split will be identical to the number of syllables in Old English.
+     In other words, the medial syllable position in pre-Old English which triggered
+     the raising of *o to u will still be medial in Old English, and the final syllable posi-
+     tion which triggered the general development of *o to a will also be final in Old
+     English. This allows us to state the generalization strictly in synchronic terms:
+     The regular outcome of Proto-West-Germanic *ō in Old English is u in a medial
+     syllable and a in a final syllable. This is in stark contrast to van Helten’s rule, by
+     which the generalization must be stated diachronically – Old English itself cannot
+     explain the distribution (cf. Section 3.1).
+
+
+     5.2    Testing the new hypothesis against an Old English corpus
+
+     If the hypothesis made above is correct, then we would, following the logic out-
+     lined in Section 3.3, expect to find the vowel u more often in medial syllables
+     than in final syllables. Figure 4 displays the distribution of the vowel u in the
+     past tense forms of ō-verbs in the Hatton 20 manuscript (see Section 3.3 for
+
+
+     2. The loss of final *-z is treated in Section 3.1. The change called i-umlaut is a process in which
+     an unstressed *ī̆ fronts the root vowel *u to y (Brunner 1965: 69, 76; Campbell 1959: 71, 78–79;
+     Hogg 1992: 121–123; Luick 1921: 166–168). The rules for the loss of unstressed *i follow those
+     for loss of *u, treated in Section 3.1.
+     3. The regular declination byrst – byrsti is faithfully preserved in some early Old English texts,
+     as in the Erfurt glossary from c. 800 (Lindsay [1921]: 48; Pheifer 1974: 47).
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                                Vowel reduction in verbs in King Alfred’s Pastoral Care   31
+
+
+
+details) according to syllable type. The left bar represents how often u is found
+in unstressed medial syllables, and the right bar how often it is found in final syl-
+lables. The distribution in Figure 4 conforms well to the hypothesis made above
+in Section 5.1, as the vowel u is indeed more common in medial syllables where it
+is posited to be the regular outcome of *ō.
+
+                                               u in medial and final syllables
+                                         90%
+
+
+                                         85%
+
+
+
+                          Forms with u
+                                         80%
+
+
+                                         75%
+
+
+                                         70%
+                                                  Medial            Final
+
+Figure 4. Distribution of u by syllable position
+
+This data was fitted to a logistic regression model according to the procedure
+explained in Section 3.3. A summary of the model is given in Table 2. The
+model accounts for 83% of the variation between the vowels a and u, thereby
+demonstrating a good fit between the predictions of the model and the actual
+variation in the data. A likelihood ratio test shows that the model with syllable
+position as a predictor is significantly better than a model without it: χ2(1) =
+25.41, p < 0.000001. This means that the vowel u is significantly more common
+in unstressed medial syllables than in unstressed final syllables, just as posited by
+this new hypothesis.
+
+Table 2. Summary of logistic regression model for new hypothesis
+Random effects:
+Groups                   Name                            Variance                Standard deviation
+Word                     (Intercept)                      1.574                  1.255
+Word                     Mid syllable                    37.74                   6.143
+Fixed effects:
+                         Estimate                        Standard error          z value
+(Intercept)              1.332                           0.344                   3.871
+Medial syllable          5.364                           1.563                   3.433
+Explained variance: R2 = 0.827
+
+
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+32   Sverre Stausland Johnsen
+
+
+
+     6. Discussion
+
+     6.1    Vowel raising by articulatory error
+
+     As indicated in Section 4.3, it is suggested here that the articulators risk not reach-
+     ing the targets of a shortened low vowel, and as a result undershoot their targets
+     and produce a raised vowel. This section addresses this proposal in more detail,
+     and ties these assumptions to general properties of human movement.
+          Shortening the duration of a speech segment requires the articulators to
+     move faster towards the target of that segment, all else being equal (cf. Ostry &
+     Munhall 1985). Increasing the speed of a movement will, however, result in a
+     higher error rate in hitting the intended target (Fitts 1954: 383; Schmidt et al.
+     1979: 419–420, 424; Woodworth 1899: 27–53). This fact alone indicates that the
+     misses will be evenly distributed among undershoots, in which the movement
+     does not reach the target, and overshoots, in which the movement goes beyond
+     the target. Human motion is, on the other hand, biased towards undershooting a
+     target, which leads us to expect significantly more undershoots than overshoots
+     (Elliott et al. 2004: 343–344). A related finding about human motion is that the
+     degree of undershoot correlates with the dispersion of target misses (Worringham
+     1991: 82–83). This means that as the number and spread of target misses increase,
+     the average miss moves further and further away from the target. When relating
+     these findings to the articulation of vowels, it is important to emphasize that the
+     dispersion of target misses increases with the speed and distance of the move-
+     ment (Schmidt et al. 1979: 422–424). Since shortened vowels have an increased
+     speed of the articulators, and since low vowels have both an increased speed of the
+     articulators (Ostry & Munhall 1985) and require the articulators to travel a longer
+     distance, the expected result is that shortened low vowels suffer from more articu-
+     latory undershoot than longer and higher vowels. As reviewed in Section 4.3, this
+     is indeed the finding in Lindblom’s articulatory experiment.
+          In the many motion experiments referred to above, it is always the intention
+     of the subject to hit the target. To explain the observed articulatory undershoot of
+     shortened low vowels, there is in other words no need to assume that the speak-
+     ers have shifted their targets (Lindblom 1963: 1778–1779). The undershoot is not
+     intentional, it is an error caused by the neurological and biomechanical properties
+     of motion.
+
+
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                   Vowel reduction in verbs in King Alfred’s Pastoral Care   33
+
+
+
+6.2   The role of perception
+
+The discussion has so far focused on the role played by articulation, primar-
+ily based on the fact that vowel raising as a function of duration is an observed
+effect in articulatory experiments. This is not to deny, however, that there could
+also be an additional role played by perception. As outlined in Section 4.2, vowel
+height correlates with vowel duration, such that lower vowels are longer than
+higher vowels. Although this effect probably has an articulatory origin, it turns
+out that listeners are aware of this correlation, such that a high vowel [u] which
+is 15 ms shorter than a mid-low vowel [ɔ] will be perceived to be of equal length
+(Gussenhoven 2004). This means that listeners expect lower vowels to be longer
+than higher vowels. If a low vowel is shortened, then, listeners could misperceive
+it as being a raised vowel. Perceptual experiments have indeed demonstrated this
+effect (Daniloff et al. 1968; Hillenbrand et al. 2000; Stevens 1959). Note that in
+this case, too, the listener does not intend to perceive a raised vowel. It is rather
+an error caused by the listener’s perceptual expectation that lower vowels will be
+above a certain durational threshold.
+     As there are both articulatory and perceptual reasons to expect a shortened
+low vowel to raise to a higher vowel, we have no cogent incentive to envision a
+scenario of ‘either articulation or perception’ as the cause of this effect. Since the
+properties of these two domains are converging on the same result, they are rather
+working in tandem and thereby enforcing the effect already present in the other
+domain.
+
+
+6.3   From error to grammar
+
+The articulatory and perceptual properties discussed in Section 6.1 and 6.2 above
+are meant to explain how vowel raising in unstressed medial syllables is initiated.
+At a certain point, however, the raised vowel in this position has become part of
+the speaker’s grammar. There are several ways in which this might occur. I will
+sketch three scenarios here.
+1. Although the speaker intends to produce an [o], he frequently produces a
+   raised [ʊ] instead, by the process explained in Section 6.1. The listener fails to
+   compensate for the biomechanical properties causing this raised vowel, and
+   therefore interprets [ʊ] as the intended output by the speaker. The listener thus
+   assumes [ʊ] is the target vowel in that position, or even that it is the unstressed
+   variant of /u/. When the listener turns speaker, his target vowel is no longer
+   [o], but [ʊ] (or [u]), cf. Ohala (1981). For the connection between listeners’
+   perception and their own production, cf. Perkell (2012).
+
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+34   Sverre Stausland Johnsen
+
+
+
+     2. The speaker produces [o], but it is extra short in an unstressed medial syllable
+        (cf. Section 4.1). Since the listener is aware of the correlation between vowel
+        length and vowel height, he misinterprets this extra short [ŏ] as a higher
+        vowel [ʊ] or [u], as outlined in Section 6.2. When the listener turns speaker,
+        the target vowel has thus shifted from [o] to [ʊ]/[u], as explained under sce-
+        nario 1 above.
+     3. The speaker produces a raised [ʊ] for reasons explained under scenario 1 above.
+        Through articulatory and auditory self-feedback, the speaker updates his own
+        linguistic representations to reflect this pronunciation, cf. Perkell (2012).
+     As with articulation and perception both being the causes of vowel raising (cf.
+     Section 6.2), there is no need to assume that the grammaticalization of this vowel
+     raising is due to either scenario 1, 2, or 3. These forces are rather working together
+     to yield the same result. Whether or not this grammaticalized product is accepted
+     by other speakers of the language and propagated throughout the community
+     depends on sociolinguistic factors which will not be discussed here.
+          What is important to stress here is that the original biomechanical, neuro-
+     logical, and perceptual motivations behind the vowel raising process are both
+     irrelevant and unknown to a synchronic speaker of Old English. This speaker
+     produces u in unstressed medial syllables of ō-verbs for no other reason than that
+     this is simply the Old English grammatical distribution as he learned it. That the
+     original target vowel in this position for a speaker of pre-Old English was *o has
+     no relevance anymore – the target vowel in Old English is u.
+
+
+     6.4    Vowel raising by grammar
+
+     The discussion in this section has so far attributed the origin of the vowel rais-
+     ing effect to non-grammatical properties, such as articulatory error due to the
+     speed and distance of the movement involved in producing short low vowels
+     (Section 6.1), and misperception due to listeners’ experience with the correla-
+     tion between duration and vowel quality (Section 6.2). A substantially different
+     approach is taken by Flemming 2004, in which the process is entirely triggered
+     by the grammar itself. According to this view, the increased articulatory speed
+     necessary to produce short low vowels means that these segments are more
+     “effortful” (2004: 245), and vowel raising occurs when the grammar prioritizes
+     less effortful articulations over vowel distinctions. The language therefore loses
+     a potential contrast between unstressed [o] and [u], since the grammar decrees
+     that too much effort is required to produce a vowel [o] distinct from the less
+     effortful vowel [u].
+
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                      Vowel reduction in verbs in King Alfred’s Pastoral Care   35
+
+
+
+     This proposal is, unlike the one sketched in Section 6.3, strictly a synchronic
+account. The vowel raising is generated instantaneously and repeatedly as a
+speaker of Old English produces past tense forms of ō-verbs. Such a speaker pro-
+duces a high [u] in unstressed medial syllables because both a low [ɑ] and a mid
+[o] require too much effort to articulate. Although the only other available back
+unstressed vowel in Old English is a (cf. Section 2), a mid [o] is nevertheless
+repeatedly evaluated as a possible candidate.
+     The main problem with this approach is that the principle to minimize the
+expenditure of motor energy, or in short ‘effort’, has been incorporated into the
+grammar. The principle of effort minimization is, however, a general neuromus-
+cular property (cf. Todorov 2004). If effort minimization is specified uniquely in
+the grammar, then this principle is either independently stated in every cognitive
+domain related to movement (e.g. speech, vision, gait, pointing, lifting, etc.), or
+the domain-general principle has been duplicated and restated inside the gram-
+mar. No one has to my knowledge proposed that the principle of effort minimi-
+zation is independently stated in all these domains, but Flemming has proposed
+that this principle has been duplicated and restated inside the grammar (2001: 26,
+2004: 236).4 Since the domain-general principle of effort minimization will apply
+to the movements of speech production, it is not clear what effect it has to also
+specify this principle inside the grammar. Put differently, if the grammar did not
+have such a principle within its domain, effort minimization would still exert
+its effect on the grammatical output simply by virtue of being domain-general.
+Stating the principle twice (both inside and outside of the grammar) is therefore
+redundant, since stating it once predicts the same effect to take place anyway.
+     It is of course possible that a grammatical principle of effort minimization is
+fundamentally different from the domain-general principle. If this were the case,
+then positing its presence in the grammar makes a different prediction from pos-
+iting its absence (exactly what the prediction is will depend on what the content
+of the grammatical principle of effort minimization is), but no one has to my
+knowledge succeeded in finding such an effect. Although differences in move-
+ments between speech and non-speech gestures have been demonstrated, there is
+nothing to indicate that this difference has anything to do with the minimization
+of effort (Bunton 2008; Nelson et al. 1984; Perkell & Zandipour 2002). The guid-
+ing assumption should therefore be that effort minimization in phonetics is due
+
+
+4. Other phonologists have argued that principles of effort minimization in phonetics need to
+be incorporated into the grammar (Boersma 1998: 145; Kirchner 2001: 4), but Flemming is the
+only one to my knowledge who explicitly acknowledges that these principles are domain-general
+yet assumes they are duplicated in the grammar.
+
+
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+36   Sverre Stausland Johnsen
+
+
+
+     to the same principle as effort minimization elsewhere (Lindblom 1983: 232, 243).
+     Until it has been established that a unique principle of effort minimization exists
+     inside the grammar, the methodologically correct procedure would be to prefer
+     the simpler of the two theories and dispense with the idea that the principle of
+     effort minimization is stated both inside and outside of the grammar.
+
+
+     7.   Further research
+
+     The Old English data presented in this paper quite clearly shows that there is solid
+     empirical and statistical support for the hypothesis that the Proto-West-Germanic
+     vowel *ō shortened and raised to u in medial syllables. It would nevertheless be
+     of great value to demonstrate, especially when viewing the Old English language
+     as a whole, that this change occurs not only in other morphological classes than
+     the ō-verbs, but also in Old English dialects outside of West Saxon. This paper can
+     therefore be taken as a preliminary report on the support for the vowel raising
+     hypothesis until a complete corpus of early Old English texts has been compiled
+     and probed statistically for additional support.
+
+
+     8. Conclusion
+
+     The Proto-West-Germanic unstressed vowel *ō generally develops to a in Old
+     English. It nevertheless often shows up as u in past tense forms of ō-verbs. The
+     traditional explanation for this, called ‘van Helten’s rule’, is that Proto-West-
+     Germanic *ō raised to *ū by an assimilation process when a *u followed in the
+     next syllable. Although this rule is almost universally accepted, its prediction that
+     Old English u should be more common when an original *u followed in the next
+     syllable in Proto-West-Germanic has never been tested. By performing a statisti-
+     cal analysis on the past tense forms of ō-verbs in the largest text from the early
+     Old English period it is revealed that no connection can be found between van
+     Helten’s rule and the distribution of Old English a and u. This rule should there-
+     fore be rejected as the correct explanation for this phonological feature of the Old
+     English language.
+          This paper has put forward a new hypothesis for the distribution of Old
+     English a and u. Since shortened vowels tend to raise, and unstressed vowels are
+     shorter in medial syllables than in final syllables, it is hypothesized that the out-
+     come of Proto-West-Germanic *ō was raised to a high vowel u in Old English
+     medial syllables. A statistical analysis of the past tense forms of ō-verbs in the
+     above mentioned text gives strong support for this hypothesis. We can therefore
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                       Vowel reduction in verbs in King Alfred’s Pastoral Care    37
+
+
+
+add this descriptive rule to our knowledge of diachronic Old English phonology:
+Proto-West-Germanic unstressed *ō develops to Old English u in medial syllables,
+and to a in final syllables.
+     The raising of *ō to u in shortened medial syllables can be understood as a
+consequence of general human neuromuscular and perceptual properties. The
+distance the articulators need to travel in order to produce a low vowel is longer
+than for a high vowel, and shortening a vowel requires the articulators to move
+more quickly in order to reach their targets. An increase in speed and distance
+also increases the risk of undershooting the target. Since undershooting the height
+target of a vowel translates into raising the vowel, a contributing explanation is
+found for the observation that the shorter (= higher speed) and lower (= longer
+distance) a vowel is, the more it is affected by vowel raising (= target undershoot).
+Another contributing factor to the raising of shortened vowels lies in perception.
+Lower vowels are longer than higher vowels, and it has been demonstrated that
+listeners know this. Listeners will therefore expect a low vowel to be somewhat
+long, and if such a vowel is sufficiently shortened, it can be misperceived as being
+a higher vowel, since higher vowels are intrinsically shorter.
+     Given these ‘natural’ explanations for the origin of vowel raising in this posi-
+tion, a purely formal and grammatical explanation for the same phenomenon
+seems unwarranted. Such explanations have nevertheless been provided for this
+vowel raising process, in which it has been assumed that domain-general proper-
+ties of the neuromuscular and biomechanical system have been duplicated and
+restated inside the grammar. In lieu of being domain-general, however, the prin-
+ciples of these systems will exert their effect on the output of grammar anyway,
+hence it is not clear what the benefit is of stating those principles a second time
+inside a more specific domain. Unless evidence can be provided that this duplica-
+tion has in fact taken place, it should be considered a redundant assumption which
+can be discarded with no apparent loss in explanatory power.
+
+
+References
+
+Barr, Dale J., Roger Levy, Christoph Scheepers & Harry J. Tily. 2013. “Random Effects Structure
+     for Conﬁrmatory Hypothesis Testing: Keep it Maximal”. Journal of Memory and Language
+     68:3.255–278. DOI: 10.1016/j.jml.2012.11.001
+Bates, Douglas, Martin Maechler, Ben Bolker & Steven Walker. 2014. lme4: Linear Mixed-effects
+     Models Using Eigen and S4. Version 1.1–7. URL: http://CRAN.R-project.org/package=lme4.
+Boersma, Paul. 1998. Functional Phonology: Formalizing the Interactions Between Articula-
+     tory and Perceptual Drives. (= LOT Dissertation Series, II.) The Hague: Holland Academic
+     Graphics.
+
+
+
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+38   Sverre Stausland Johnsen
+
+
+
+     Brunner, Karl. 1965. Altenglische Grammatik. Dritte, neubearbeitete Auﬂage. (= Sammlung
+           kurzer Grammatiken germanischer Dialekte. A. Hauptreihe, 3.) Tübingen: Max Niemeyer.
+     Bülbring, Karl D. 1902. Altenglisches Elementarbuch: Lautlehre. (= Sammlung germanischer Elemen-
+           tarbücher. I. Reihe: Grammatiken, 4.) Heidelberg: Carl Winter’s Universitätsbuchhandlung.
+     Bunton, Kate. 2008. “Speech versus Nonspeech: Different Tasks, Different Neural Organization”.
+           Seminars in Speech and Language 29:4.267–275. DOI: 10.1055/s-0028-1103390
+     Campbell, A. 1959. Old English Grammar. London: Oxford University Press.
+     Daniloff, Raymond G., Thomas H. Shriner & Willard R. Zemlin. 1968. “Intelligibility of Vow-
+           els Altered in Duration and Frequency”. The Journal of the Acoustical Society of America
+           44:3.700–707. DOI: 10.1121/1.1911164
+     Elliott, Digby, Steven Hansen, Jocelyn Mendoza & Luc Tremblay. 2004. “Learning to Optimize
+           Speed, Accuracy, and Energy Expenditure: A Framework for Understanding Speed-Accu-
+           racy Relations in Goal-Directed Aiming”. Journal of Motor Behavior 36:3.339–351.
+           DOI: 10.3200/JMBR.36.3.339-351
+     Fitts, Paul M. 1954. “The Information Capacity of the Human Motor System in Controlling the
+           ‘Amplitude of Movement’ ”. Journal of Experimental Psychology 47:6.381–391.
+            DOI: 10.1037/h0055392
+     Flemming, Edward. 2001. “Scalar and Categorical Phenomena in a Uniﬁed Model of Phonetics
+            and Phonology”. Phonology 18:1.7–44. DOI: 10.1017/S0952675701004171
+     Flemming, Edward. 2004. “Contrast and Perceptual Distinctiveness”. Phonetically Based Pho-
+            nology ed. by Bruce Hayes, Robert Kirchner & Donca Steriade, 232–276. Cambridge:
+           ­Cambridge University Press.
+     Fry, D. B. 1955. “Duration and Intensity as Physical Correlates of Linguistic Stress”. The Journal
+            of the Acoustical Society of America 27:4.765–768. DOI: 10.1121/1.1908022
+     Girvan, R. 1931. Angelsaksisch handboek. (= Oudgermaansche handboeken, 4.) Haarlem: H. D.
+           Tjeenk Willink & Zoon.
+     Gussenhoven, Carlos. 2004. “Perceived Vowel Duration”. On Speech and Language: Studies for
+           Sieb G. Nooteboom ed. by Hugo Quené & Vincent van Heuven. (= LOT Occasional Series,
+           2.) 65–71. Utrecht: Netherlands Graduate School of Linguistics (LOT).
+     van Helten, W. 1891. “Grammatisches”. Beiträge zur Geschichte der deutschen Sprache und Lit-
+           eratur 15.455–488.
+     Hillenbrand, James M., Michael J. Clark & Robert A. Houde. 2000. “Some Effects of Duration
+           on Vowel Recognition”. The Journal of the Acoustical Society of America 108:6.3013–3022.
+           DOI: 10.1121/1.1323463
+     Hogg, Richard M. 1992. A Grammar of Old English. Vol. 1: Phonology. Oxford: Blackwell.
+     Hogg, Richard M. & R. D. Fulk. 2011. A Grammar of Old English. Vol. 2: Morphology. Chiches-
+           ter: Wiley-Blackwell.
+     Jespersen, Otto. 1913. Lehrbuch der Phonetik. 2nd ed. Leipzig: B. G. Teubner.
+     Ker, N. R. 1957. Catalogue of Manuscripts Containing Anglo-Saxon. Oxford: Clarendon Press.
+     Kieckers, Ernst. 1935. Altenglische Grammatik. (Huebers kurze Grammatiken.) München: Max
+           Hueber.
+     Kim, Suksan. 1973. “A Collation of the Old English MS Hatton 20 of King Alfred’s Pastoral Care”.
+           Neuphilologische Mitteilungen 74.425–442.
+     Kirchner, Robert. 2001. An Effort Based Approach to Consonant Lenition. (Outstanding Disserta-
+           tions in Linguistics.) New York: Routledge.
+
+
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+                                        Vowel reduction in verbs in King Alfred’s Pastoral Care     39
+
+
+
+LaHuis, David M., Michael J. Hartman, Shotaro Hakoyama & Patrick C. Clark. 2014. “Explained
+     Variance Measures for Multilevel Models”. Organizational Research Methods 17:4.433–451.
+     DOI: 10.1177/1094428114541701
+Lehiste, Ilse. 1970. Suprasegmentals. Cambridge, Mass.: The M.I.T. Press.
+Lindblom, B. 1963. “Spectrographic Study of Vowel Reduction”. The Journal of the Acoustical
+     Society of America 35:11.1773–1781. DOI: 10.1121/1.1918816
+Lindblom, B. 1967. “Vowel Duration and a Model of Lip Mandible Coordination”. Speech Trans-
+     mission Laboratory – Quarterly Progress and Status Report 8:4.1–29.
+Lindblom, B. E. F. 1968. “Temporal Organization of Syllable Production”. Speech Transmission
+     Laboratory – Quarterly Progress and Status Report 9:2–3.1–5.
+Lindblom, Björn. 1983. “Economy of Speech Gestures”. The Production of Speech ed. by Peter F.
+     MacNeilage, 217–245. New York: Springer. DOI: 10.1007/978-1-4613-8202-7_10
+Lindsay, W. M. [1921]. The Corpus, Épinal, Erfurt and Leyden Glossaries. (= Publications of the
+     Philological Society, 8.) London: Oxford University Press.
+Luick, Karl. 1921. Historische Grammatik der englischen Sprache. Vol. 1.1. Leipzig: Chr. Herm.
+     Tauchnitz.
+Luick, Karl. 1940. Historische Grammatik der englischen Sprache. Vol. 1.2. Leipzig: Bernard
+     Tauchnitz.
+Nakagawa, Shinichi & Holger Schielzeth. 2013. “A General and Simple Method for Obtain-
+     ing R2 from Generalized Linear Mixed-Effects Models”. Methods in Ecology and Evolution
+     4:2.133–142. DOI: 10.1111/j.2041-210x.2012.00261.x
+Nelson, Winston L., Joseph S. Perkell & John R. Westbury. 1984. “Mandible Movements During
+     Increasingly Rapid Articulations of Single Syllables: Preliminary Observations”. The Journal
+     of the Acoustical Society of America 75:3.945–951. DOI: 10.1121/1.390559
+Ohala, John J. 1981. “The Listener as a Source of Sound Change”. Chicago Linguistic Society
+     (CLS) 17:2.178–203.
+Oller, D. Kimbrough. 1973. “The Effect of Position in Utterance on Speech Segment Duration
+     in English”. The Journal of the Acoustical Society of America 54:5.1235–1247.
+     DOI: 10.1121/1.1914393
+Ostry, David J. & Kevin G. Munhall. 1985. “Control of Rate and Duration of Speech Movements”.
+     The Journal of the Acoustical Society of America 77:2.640–648. DOI: 10.1121/1.391882
+Parmenter, C. E. & S. N. Treviño. 1932. “Vowel Positions as Shown by X-ray”. The Quarterly
+     Journal of Speech 18:3.351–369. DOI: 10.1080/00335633209379886
+Perkell, Joseph S. 2012. “Movement Goals and Feedback and Feedforward Control Mechanisms
+     in Speech Production”. Journal of Neurolinguistics 25:5.382–407.
+     DOI: 10.1016/j.jneuroling.2010.02.011
+Perkell, Joseph S. & Majid Zandipour. 2002. “Economy of Effort in Different Speaking Condi-
+     tions. II. Kinematic Performance Spaces for Cyclical and Speech Movements”. The Journal
+     of the Acoustical Society of America 112:4.1642–1651. DOI: 10.1121/1.1506368
+Pheifer, J. D., ed. 1974. Old English Glosses in the Épinal-Erfurt Glossary. London: Oxford Uni-
+     versity Press.
+Pilch, Herbert. 1970. Altenglische Grammatik: Dialektologie, Phonologie, Morphologie, Syntax.
+     (= Commentationes Societatis Linguisticae Europaeae I, 1.) München: Max Hueber.
+R Core Team. 2014. R: A Language and Environment for Statistical Computing. Version 3.1.1.
+     R Foundation for Statistical Computing. Vienna. URL: http://www.R-project.org/.
+
+
+
+
+© 2015. John Benjamins Publishing Company
+All rights reserved
+40   Sverre Stausland Johnsen
+
+
+
+     Rask, R. K. 1817. Angelsaksisk Sproglære: Tilligemed en kort Læsebog. Stokholm: Mag. Wiborgs
+          Forlag.
+     Reszkiewicz, Alfred. 1973. A Diachronic Grammar of Old English: Phonology and Inﬂections.
+          Warszawa: Państowe Wydawnictwo Naukowe.
+     Schmidt, Richard A., Howard Zelaznik, Brian Hawkins, James S. Frank & John T. Quinn Jr.
+          1979. “Motor-output Variability: A Theory for the Accuracy of Rapid Motor Acts”. Psycho-
+          logical Review 86:5.415–451. DOI: 10.1037/0033-295X.86.5.415
+     Stevens, K. N. 1959. “The Role of Duration in Vowel Identiﬁcation”. Massachusetts Institute of
+          Technology Research Laboratory of Electronics – Quarterly Progress Report 52.136–139.
+     Sweet, Henry, ed. 1871. King Alfred’s West-Saxon Version of Gregory’s Pastoral Care: With an
+          English Translation, the Latin Text, and an Introduction. (= Early English Text Society, 45.)
+          London: N. Trübner.
+     Todorov, Emanuel. 2004. “Optimality Principles in Sensorimotor Control”. Nature Neuroscience
+          7:9.907–915. DOI: 10.1038/nn1309
+     Woodworth, R. S. 1899. “The Accuracy of Voluntary Movement”. Psychological Review: Series of
+          Monograph Supplements 3:3.
+     Worringham, Charles J. 1991. “Variability Effects on the Internal Structure of Rapid Aiming
+          Movements”. Journal of Motor Behavior 23:1.75–85. DOI: 10.1080/00222895.1991.9941595
+
+
+
+
+     © 2015. John Benjamins Publishing Company
+     All rights reserved
+

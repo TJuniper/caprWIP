@@ -1,7 +1,18 @@
 # SC027 NWGmc Nasal Spirant Loss — chronology evidence card
 
-## Current position
-- current_order: `27`
+> **Superseded in part.** See
+> `Germanic/docs/sound_changes/audits/sc026-sc027-nasal-spirant-adjudication.md`.
+> `fist` has been withdrawn from this witness set: its nasal loss is the
+> pan-Germanic change before \*x (SC103 `PGmcNasalLossBeforeX`), not the North
+> Sea Germanic nasal-spirant law. The surviving witnesses are `goose` and
+> `youth`. The reciprocal SC026/SC027 relation recorded here is an **executable
+> dependency** — SC026 must read the nasal that SC027 deletes — and is not a
+> demonstrated historical relative chronology; the two rules implement one
+> historical sound change.
+
+
+## Position at experiment time
+- order_at_experiment_time: `27`
 - rule_name: `EAFNasalSpirantLoss`
 - former_rule_name: `NWGmcNasalSpirantLoss`
 - safe computational window: `27-86` (later side boundary-limited)

@@ -8,7 +8,7 @@ This row already uses a paradigm cell as its `PROTOFORM`: `*fūri`, interpreted 
 
 - `Germanic/data/germanic-aligned-final.tsv`: the note states that `*fūri` triggers i-umlaut and then loses final `-i` after a heavy syllable, producing `fȳr`, while `fȳre` reflects later analogical restoration.
 - `Germanic/docs/DEV_NOTES.md` revisits the row several times and explicitly treats `fire` as the paradigm example of an oblique-cell input whose inherited ending is later restored analogically in Old English.
-- The background chronology belongs to the standard OE vowel history used elsewhere in the project [@RingeTaylor2014; @Campbell1959; @Hogg1992].
+- The background chronology belongs to the standard OE vowel history used elsewhere in the project [@RingeTaylor2014; @Campbell1959; @HoggGrammar1992].
 
 #### Old English philology
 

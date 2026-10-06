@@ -80,7 +80,7 @@ The focused tranche was the previously selected **86-row** cluster across 15 fil
 | `Bulbring1902` | 1 | 0 | remained discussion-level background |
 | `ClarkHall1960` | 1 | 0 | dictionary evidence remained page-anchor-limited |
 | `Fulk2018` | 1 | 0 | remained broader paradigm background |
-| `Hogg1992` | 1 | 0 | remained broader phonological background |
+| `HoggPhonology1992` | 1 | 0 | remained broader phonological background |
 
 ## Successful split-and-localize fixes
 

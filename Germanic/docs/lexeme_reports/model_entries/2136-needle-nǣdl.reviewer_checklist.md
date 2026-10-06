@@ -25,7 +25,7 @@
 
 | Item | Result | Note |
 | :--- | :--- | :--- |
-| Citation keys present in `docs/refs.bib` | yes | `Campbell1959`, `ClarkHall1960`, `Hogg1992`, `Kroonen2013`, `Orel2003`, `Ringe2006`, `RingeTaylor2014`. |
+| Citation keys present in `docs/refs.bib` | yes | `Campbell1959`, `ClarkHall1960`, `HoggPhonology1992`, `Kroonen2013`, `Orel2003`, `Ringe2006`, `RingeTaylor2014`. |
 | Sources cited in prose | yes | No local file names appear in the model entry. |
 | Missing-key issues recorded outside final prose | yes | No missing-key source is cited in the model entry. |
 
@@ -58,7 +58,7 @@ Citation locator claim-isolation 02 tightened the remaining broad claims and add
 
 ## Generated-final audit 09
 
-- Generated-final audit 09: localized final broad citation to `Hogg1992, 95`.
+- Generated-final audit 09: localized final broad citation to `HoggPhonology1992, 95`.
 
 ## Prose-regression audit 02
 

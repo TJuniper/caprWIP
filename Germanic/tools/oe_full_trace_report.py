@@ -4,15 +4,30 @@
 from __future__ import annotations
 
 import argparse
-import csv
+import json
 import re
-import subprocess
 from collections import defaultdict
 from pathlib import Path
 from typing import Dict, Iterable, List, Tuple
 
-# Strip braces, stars, whitespace, slashes, parens — but KEEP hyphens for compound markers
-PROTO_STRIP_RE = re.compile(r"[{}*\s/()]")
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+import oe_pipeline  # noqa: E402
+from capr_runtime import check_build_manifest, layout, sha256_of  # noqa: E402
+
+# Corpus/flookup helpers live in the shared model module; re-exported here
+# for the existing consumers of this module's API.
+from oe_pipeline import (  # noqa: E402,F401
+    PROTO_STRIP_RE,
+    apply_down,
+    display_form,
+    evaluation_input,
+    load_rows,
+    normalize_proto,
+    run_stage,
+)
 
 PROTO_VOWELS = set("aeiouyāēīōūǣȳ")
 PROTO_TRIGGERS = set("ijī")
@@ -26,216 +41,25 @@ OE_DIPHTHONGS = ("īe", "ie", "ēo", "eo", "ēa", "ea")
 PALATAL_MARKERS = ("ċ", "ġ", "sc", "cg")
 BREAKING_DIPHTHONGS = ("ēa", "ēo", "īe", "ea", "eo", "ie")
 
-# STAGES mirrors Germanic/fsts/old_english_sandbox.txt exactly: one entry per
-# `save stack old_english_sandbox_after_<slug>.bin` line, in cascade order.
-# Each stage is one rule from OldEnglishReflexes — no bundles, no Modern
-# English contamination. If the sandbox changes, regenerate this list.
-#
-# STAGE_HEADERS marks chronological section breakpoints for the trace report.
-# These are typographical (markdown) headers — they do NOT change the cascade
-# order or rule application. The five sections track historical phases:
-#   1. Proto-Germanic consonant inheritance
-#   2. Proto-West Germanic developments (EarlyEnglishLineChanges bundle, individuated)
-#   3. Northwest Germanic developments (PNWGmc-era vowel/nasal changes)
-#   4. Old English (Anglo-Frisian + AF→OE rules)
-#   5. Orthography & surface
-#
-# Some PGmc/PWGmc rules (PGmcBAllophony, PWGmcFinalBareALoss,
-# NWGmcInStemNLoss, etc.) appear in the OE section because the cascade
-# applies them late for chronological-interaction reasons — they are kept in
-# their cascade position rather than re-grouped by historical phase.
+# The ordered stage sequence is DERIVED from the shared executable model
+# (oe_pipeline.py; authority: the production OldEnglish composition in
+# germanic.txt). One (stage label, snapshot bin) pair per named executable
+# stage, labels = canonical Foma identifiers. No hand-maintained copy.
 STAGES: List[Tuple[str, str]] = [
-    ("ProtoInput", "old_english_sandbox_after_proto_input.bin"),
-    ("GmSimplification", "old_english_sandbox_after_gm_simplification.bin"),
-    ("Rhotacism", "old_english_sandbox_after_rhotacism.bin"),
-    ("PNWGmcUnstressedAiMonophthongization", "old_english_sandbox_after_pnwgmc_unstressed_ai_monophthongization.bin"),
-    ("PNWGmcAToUBeforeM", "old_english_sandbox_after_pnwgmc_a_to_u_before_m.bin"),
-    ("PWGmcEarlyIApocope", "old_english_sandbox_after_pwgmc_early_i_apocope.bin"),
-    ("PWGmcFinalOrLowering", "old_english_sandbox_after_pwgmc_final_or_lowering.bin"),
-    ("PWGmcCoronalWAssimilation", "old_english_sandbox_after_pwgmc_coronal_w_assimilation.bin"),
-    ("PWGmcIjContraction", "old_english_sandbox_after_pwgmc_ij_contraction.bin"),
-    ("PWGmcJGemination", "old_english_sandbox_after_pwgmc_j_gemination.bin"),
-    ("PWGmcSyllabicJ", "old_english_sandbox_after_pwgmc_syllabic_j.bin"),
-    ("EAFLThVoicing", "old_english_sandbox_after_eaf_l_th_voicing.bin"),
-    ("PWGmcDentalHardening", "old_english_sandbox_after_pwgmc_dental_hardening.bin"),
-    ("PNWGmcILowering", "old_english_sandbox_after_pnwgmc_i_lowering.bin"),
-    ("OEWsPalatalGlide", "old_english_sandbox_after_oe_ws_palatal_glide.bin"),
-    ("PNWGmcULowering", "old_english_sandbox_after_pnwgmc_u_lowering.bin"),
-    ("PNWGmcStressedMonosyllableORaising", "old_english_sandbox_after_pnwgmc_stressed_monosyllable_o_raising.bin"),
-    ("PNWGmcFinalLongORaising", "old_english_sandbox_after_pnwgmc_final_long_o_raising.bin"),
-    ("EAFFinalZDeletion", "old_english_sandbox_after_eaf_final_z_deletion.bin"),
-    ("PNWGmcUnstressedORaising", "old_english_sandbox_after_pnwgmc_unstressed_o_raising.bin"),
-    ("PNWGmcMnDissimilation", "old_english_sandbox_after_pnwgmc_mn_dissimilation.bin"),
-    ("PNWGmcNStemNLoss", "old_english_sandbox_after_pnwgmc_n_stem_n_loss.bin"),
-    ("PNWGmcLongELowering", "old_english_sandbox_after_pnwgmc_long_e_lowering.bin"),
-    ("PNWGmcLongENasalRounding", "old_english_sandbox_after_pnwgmc_long_e_nasal_rounding.bin"),
-    ("EAFNasalSpirantLengthening", "old_english_sandbox_after_eaf_nasal_spirant_lengthening.bin"),
-    ("EAFNasalSpirantLoss", "old_english_sandbox_after_eaf_nasal_spirant_loss.bin"),
-    ("PNWGmcPreconsonantalXLoss", "old_english_sandbox_after_pnwgmc_preconsonantal_x_loss.bin"),
-    ("EAFAiMonophthongization", "old_english_sandbox_after_eaf_ai_monophthongization.bin"),
-    ("OEAwjGlideFormation", "old_english_sandbox_after_oe_awj_glide_formation.bin"),
-    ("OEAuFronting", "old_english_sandbox_after_oe_au_fronting.bin"),
-    ("OEWWSimplification", "old_english_sandbox_after_oe_ww_simplification.bin"),
-    ("OEDiphthongLeveling", "old_english_sandbox_after_oe_diphthong_leveling.bin"),
-    ("OEEwLongDiphthong", "old_english_sandbox_after_oe_ew_long_diphthong.bin"),
-    ("OEAwLongDiphthong", "old_english_sandbox_after_oe_aw_long_diphthong.bin"),
-    ("OEPrefixAReductionEarly", "old_english_sandbox_after_oe_prefix_a_reduction_early.bin"),
-    ("OEInterStressRaising", "old_english_sandbox_after_oe_inter_stress_raising.bin"),
-    ("OECompoundLinkingSyncope", "old_english_sandbox_after_oe_compound_linking_syncope.bin"),
-    ("OEStripSecondaryStress", "old_english_sandbox_after_oe_strip_secondary_stress.bin"),
-    ("OEWICombinativeUUmlaut", "old_english_sandbox_after_oe_wi_combinative_u_umlaut.bin"),
-    ("OEMedUnstressedULowering", "old_english_sandbox_after_oe_med_unstressed_u_lowering.bin"),
-    ("PWGmcFinalBareALoss", "old_english_sandbox_after_pwgmc_final_bare_a_loss.bin"),
-    ("PWGmcSurvivingBimoricOUnrounding", "old_english_sandbox_after_pwgmc_surviving_bimoric_o_unrounding.bin"),
-    ("EAFBrightening", "old_english_sandbox_after_eaf_brightening.bin"),
-    ("OEBreaking", "old_english_sandbox_after_oe_breaking.bin"),
-    ("OEVelarFricativePalatalization", "old_english_sandbox_after_oe_velar_fricative_palatalization.bin"),
-    ("OEARestoration", "old_english_sandbox_after_oe_a_restoration.bin"),
-    ("OEHeavySyllableNasalApocope", "old_english_sandbox_after_oe_heavy_syllable_nasal_apocope.bin"),
-    ("OESecondaryNasalization", "old_english_sandbox_after_oe_secondary_nasalization.bin"),
-    ("PGmcBAllophony", "old_english_sandbox_after_pgmc_b_allophony.bin"),
-    ("SieversLawSyncope", "old_english_sandbox_after_sievers_law_syncope.bin"),
-    ("OESkPalatalization", "old_english_sandbox_after_oe_sk_palatalization.bin"),
-    ("OEVelarPalatalization", "old_english_sandbox_after_oe_velar_palatalization.bin"),
-    ("OEPostVelarWLoss", "old_english_sandbox_after_oe_post_velar_w_loss.bin"),
-    ("OEWLossBeforeI", "old_english_sandbox_after_oe_w_loss_before_i.bin"),
-    ("OEIUmlaut", "old_english_sandbox_after_oe_i_umlaut.bin"),
-    ("OEWsPalatalDiphthongization", "old_english_sandbox_after_oe_ws_palatal_diphthongization.bin"),
-    ("OEJClusterCoalescence", "old_english_sandbox_after_oe_j_cluster_coalescence.bin"),
-    ("OEBackMutation", "old_english_sandbox_after_oe_back_mutation.bin"),
-    ("OEWsPalatalUmlaut", "old_english_sandbox_after_oe_ws_palatal_umlaut.bin"),
-    ("OEWeakTailNasalLoss", "old_english_sandbox_after_oe_weak_tail_nasal_loss.bin"),
-    ("OEWeightMarkers", "old_english_sandbox_after_oe_weight_markers.bin"),
-    ("OEHighVowelApocope", "old_english_sandbox_after_oe_high_vowel_apocope.bin"),
-    ("NWGmcInStemNLoss", "old_english_sandbox_after_nwgmc_in_stem_n_loss.bin"),
-    ("OEMedialSyncope", "old_english_sandbox_after_oe_medial_syncope.bin"),
-    ("OELAdjacentSyncope", "old_english_sandbox_after_oe_l_adjacent_syncope.bin"),
-    ("OEDentalAssimilation", "old_english_sandbox_after_oe_dental_assimilation.bin"),
-    ("OEPreconsonantalDegemination", "old_english_sandbox_after_oe_preconsonantal_degemination.bin"),
-    ("OEEarlyOShortening", "old_english_sandbox_after_oe_early_o_shortening.bin"),
-    ("OEUnstressedFrontingEarly", "old_english_sandbox_after_oe_unstressed_fronting_early.bin"),
-    ("OELateOShortening", "old_english_sandbox_after_oe_late_o_shortening.bin"),
-    ("OEUnstressedLongVowelShortening", "old_english_sandbox_after_oe_unstressed_long_vowel_shortening.bin"),
-    ("OEUnstressedAEMerger", "old_english_sandbox_after_oe_unstressed_ae_merger.bin"),
-    ("OEMedUnstressedILowering1", "old_english_sandbox_after_oe_med_unstressed_i_lowering_1.bin"),
-    ("OEMedUnstressedILowering", "old_english_sandbox_after_oe_med_unstressed_i_lowering.bin"),
-    ("OEPrefixIReduction", "old_english_sandbox_after_oe_prefix_i_reduction.bin"),
-    ("OEWeakTailReduction", "old_english_sandbox_after_oe_weak_tail_reduction.bin"),
-    ("OEJLossAfterHeavy", "old_english_sandbox_after_oe_j_loss_after_heavy.bin"),
-    ("OEFinalGeminateSimplification", "old_english_sandbox_after_oe_final_geminate_simplification.bin"),
-    ("OEJStrengtheningAfterFrontDiphthong", "old_english_sandbox_after_oe_j_strengthening_after_front_diphthong.bin"),
-    ("OEIntervocalicJVocalization", "old_english_sandbox_after_oe_intervocalic_j_vocalization.bin"),
-    ("OEUnstressedEIContraction", "old_english_sandbox_after_oe_unstressed_ei_contraction.bin"),
-    ("OEWeightCleanup", "old_english_sandbox_after_oe_weight_cleanup.bin"),
-    ("OEHLoss", "old_english_sandbox_after_oe_h_loss.bin"),
-    ("OEContraction", "old_english_sandbox_after_oe_contraction.bin"),
-    ("OERMetathesis", "old_english_sandbox_after_oe_r_metathesis.bin"),
-    ("OEEpentheticVowel", "old_english_sandbox_after_oe_epenthetic_vowel.bin"),
-    ("OELateUnstressedAgSuffix", "old_english_sandbox_after_oe_late_unstressed_ag_suffix.bin"),
-    ("OECjCleanup", "old_english_sandbox_after_oe_cj_cleanup.bin"),
-    ("OEXsMerge", "old_english_sandbox_after_oe_xs_merge.bin"),
-    ("OldEnglishOrthography", "old_english_sandbox_after_old_english_orthography.bin"),
-    ("OEGlideUToEo", "old_english_sandbox_after_oe_glide_u_to_eo.bin"),
-    ("OldEnglishRemoveStars", "old_english_sandbox_after_old_english_remove_stars.bin"),
-    ("OldEnglishSurface", "old_english_sandbox_after_old_english_surface.bin"),
+    (s.foma_identifier, s.snapshot_bin) for s in oe_pipeline.named_stages()
 ]
 
 # Markdown section headers injected before the named stage in the trace
-# output. Section dividers only — they do not alter the cascade.
+# output. Presentation metadata only — they do NOT determine rule order.
+# Some PGmc/PWGmc rules appear in later sections because the cascade
+# applies them late for chronological-interaction reasons.
 STAGE_HEADERS: Dict[str, str] = {
-    "ProtoInput": "## Section 1: Proto-Germanic consonant inheritance",
+    "EnglishProtoInput": "## Section 1: Proto-Germanic consonant inheritance",
     "PNWGmcUnstressedAiMonophthongization": "## Section 2: Northwest and West Germanic developments",
     "EAFAiMonophthongization": "## Section 3: Early Anglo-Frisian (North Sea Germanic)",
-    "OEAwjGlideFormation": "## Section 4: Old English",
+    "OEAwwjResolution": "## Section 4: Old English",
     "OldEnglishOrthography": "## Section 5: Orthography & surface",
 }
-
-
-def normalize_proto(raw: str) -> str:
-    normalized = PROTO_STRIP_RE.sub("", raw or "")
-    # Proto inventory uses θ; normalize þ to avoid false no_output buckets.
-    return normalized.replace("þ", "θ")
-
-
-def load_rows(tsv_path: Path) -> List[Dict[str, str]]:
-    rows: List[Dict[str, str]] = []
-    with tsv_path.open(encoding="utf-8") as handle:
-        reader = csv.DictReader(handle, delimiter="\t")
-        for row in reader:
-            if row.get("DOCULECT") != "Old_English":
-                continue
-            proto = (row.get("PROTOFORM") or "").strip()
-            counterpart = (row.get("COUNTERPART") or "").strip()
-            if not proto or not counterpart or counterpart == "-":
-                continue
-            norm = normalize_proto(proto)
-            if not norm:
-                continue
-            rows.append(
-                {
-                    "concept": row.get("CONCEPT", ""),
-                    "proto": proto,
-                    "proto_norm": norm,
-                    "counterpart": counterpart,
-                }
-            )
-    return rows
-
-
-def apply_down(bin_path: Path, form: str) -> List[str]:
-    proc = subprocess.run(
-        ["flookup", "-i", str(bin_path)],
-        input=(form + "\n").encode("utf-8"),
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        check=True,
-    )
-    outputs: List[str] = []
-    for raw in proc.stdout.decode("utf-8").splitlines():
-        raw = raw.strip()
-        if not raw:
-            continue
-        parts = raw.split("\t", 1)
-        out = parts[1] if len(parts) == 2 else ""
-        if out and out != "+?":
-            outputs.append(out)
-    seen = set()
-    deduped: List[str] = []
-    for item in outputs:
-        if item in seen:
-            continue
-        seen.add(item)
-        deduped.append(item)
-    return deduped
-
-
-def run_stage(bin_dir: Path, bin_name: str, form: str) -> List[str]:
-    stage_path = (bin_dir / bin_name).resolve()
-    proc = subprocess.run(
-        ["flookup", "-i", str(stage_path)],
-        input=(form + "\n").encode("utf-8"),
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        check=True,
-    )
-    outputs: List[str] = []
-    for raw in proc.stdout.decode("utf-8").splitlines():
-        raw = raw.strip()
-        if not raw:
-            continue
-        parts = raw.split("\t", 1)
-        out = parts[1] if len(parts) == 2 else raw
-        outputs.append(out or "+?")
-    if not outputs:
-        outputs.append("+?")
-    seen = set()
-    deduped: List[str] = []
-    for item in outputs:
-        if item in seen:
-            continue
-        seen.add(item)
-        deduped.append(item)
-    return deduped
 
 
 def has_front(s: str) -> bool:
@@ -450,11 +274,13 @@ def bucket_entry(proto_norm: str, out: str, expected: str) -> str:
     return bucket
 
 
-def trace_lexeme(proto_norm: str, bin_dir: Path) -> List[Tuple[str, List[str]]]:
+def trace_lexeme(proto_norm: str, bin_dir: Path,
+                 stage_outputs: Dict[str, List[str]] | None = None) -> List[Tuple[str, List[str]]]:
     trace: List[Tuple[str, List[str]]] = []
     last_outputs: List[str] | None = None
     for label, bin_name in STAGES:
-        outputs = run_stage(bin_dir, bin_name, proto_norm)
+        outputs = (run_stage(bin_dir, bin_name, proto_norm) if stage_outputs is None
+                   else stage_outputs[bin_name])
         usable = [out for out in outputs if out != "+?"]
         if not usable:
             # Stage rejected the input: keep showing the previous stage's form
@@ -470,21 +296,158 @@ def trace_lexeme(proto_norm: str, bin_dir: Path) -> List[Tuple[str, List[str]]]:
     return trace
 
 
+def provenance_lines(tsv_path: Path, bin_path: Path, fsts_dir: Path,
+                     canonical: bool = True) -> List[str]:
+    """Provenance block tying the report to the validated build it used.
+
+    Source files (germanic.txt, old_english_sandbox.txt, the TSV) are the
+    freshness contract enforced by test_final_z_firing_populations.py: if the
+    committed report's hashes do not match the live sources, the report is
+    stale. The compiled .bin hash is informational only — foma compilation is
+    byte-non-deterministic, so it is NOT part of the freshness contract. The
+    semantic contract is instead: the report was produced from bins whose
+    build manifest records exactly the source state hashed here (canonical
+    provenance), as verified fail-closed before generation.
+    """
+    lines = ["=== PROVENANCE ==="]
+    for label, path in [
+        ("germanic.txt", fsts_dir / "germanic.txt"),
+        ("old_english_sandbox.txt", fsts_dir / "old_english_sandbox.txt"),
+        ("germanic-aligned-final.tsv", tsv_path),
+        ("entry_context_metadata.tsv", tsv_path.with_name("entry_context_metadata.tsv")),
+        ("oe_input_context.py", layout().bin_dir / "oe_input_context.py"),
+    ]:
+        lines.append(f"{label} sha256: {sha256_of(path)}")
+    lines.append(f"old_english.bin sha256 (informational): {sha256_of(bin_path)}")
+    if canonical:
+        rt = layout()
+        manifest = json.loads(rt.build_manifest.read_text(encoding="utf-8"))
+        lines.append("bins_provenance: canonical (build manifest validated "
+                     "against current sources and expected bin set)")
+        lines.append(f"build_manifest_built_at: {manifest.get('built_at', 'unknown')}")
+        lines.append(f"build_manifest_runner: {manifest.get('runner', 'unknown')}")
+        lines.append(f"build_manifest_foma_version: {manifest.get('foma_version', 'unknown')}")
+        lines.append("build_manifest_expected_bins: "
+                     f"{len(manifest.get('expected_bins', []))}")
+        for name, sha in sorted(manifest.get("sources", {}).items()):
+            lines.append(f"manifest:{name} sha256: {sha}")
+    else:
+        lines.append("bins_provenance: NONCANONICAL DEBUG (explicit --bin/"
+                     "--bin-dir override or --debug-bins; NOT valid as "
+                     "committed canonical evidence)")
+    lines.append("")
+    return lines
+
+
+_PROVENANCE_HASH_RE = re.compile(
+    r"^(\S+) sha256(?: \(informational\))?: ([0-9a-f]{64})$")
+
+
+def trace_provenance_problems(text: str) -> List[str]:
+    """Freshness/provenance problems of a committed trace report (empty == usable).
+
+    Requires: a PROVENANCE block, canonical bins provenance, recorded source
+    hashes identical to the current live sources, and manifest-recorded source
+    hashes identical to the report's own source hashes (i.e. the report was
+    built from bins compiled from exactly the sources it hashes).
+    """
+    problems: List[str] = []
+    marker = "=== PROVENANCE ==="
+    if marker not in text:
+        return ["trace report has no PROVENANCE block; regenerate with "
+                "tools/oe_full_trace_report.py --all"]
+    recorded: Dict[str, str] = {}
+    meta: Dict[str, str] = {}
+    canonical = False
+    for line in text.split(marker, 1)[1].splitlines():
+        line = line.strip()
+        if not line:
+            if recorded:
+                break
+            continue
+        if line.startswith("bins_provenance: canonical"):
+            canonical = True
+        if ": " in line and line.startswith("build_manifest_"):
+            key, value = line.split(": ", 1)
+            meta[key] = value.strip()
+        m = _PROVENANCE_HASH_RE.match(line)
+        if m:
+            recorded[m.group(1)] = m.group(2)
+    if not canonical:
+        problems.append("trace report bins provenance is not canonical "
+                        "(missing or NONCANONICAL DEBUG); regenerate from "
+                        "validated canonical bins")
+    rt = layout()
+    live = {
+        "germanic.txt": rt.germanic_fst,
+        "old_english_sandbox.txt": rt.sandbox_fst,
+        "germanic-aligned-final.tsv": rt.corpus_tsv,
+        "entry_context_metadata.tsv": rt.data_dir / "entry_context_metadata.tsv",
+        "oe_input_context.py": rt.bin_dir / "oe_input_context.py",
+    }
+    for label, path in live.items():
+        if label not in recorded:
+            problems.append(f"trace PROVENANCE lacks a hash for {label}")
+        elif recorded[label] != sha256_of(path):
+            problems.append(f"trace report is STALE w.r.t. {label}")
+        if label in {"entry_context_metadata.tsv", "oe_input_context.py"}:
+            continue
+        manifest_label = f"manifest:{label}"
+        if manifest_label not in recorded:
+            problems.append(f"trace PROVENANCE lacks {manifest_label} "
+                            "(pre-build-identity report); regenerate")
+        elif recorded.get(label) and recorded[manifest_label] != recorded[label]:
+            problems.append(f"trace report's build manifest disagrees with its "
+                            f"own source hash for {label}")
+    # Build-identity checks: the trace must have been produced under the
+    # current build contract, not merely from identical source bytes.
+    expected_count = str(len(oe_pipeline.expected_snapshot_bins()) + 1)
+    if meta.get("build_manifest_expected_bins") != expected_count:
+        problems.append(
+            "trace report's expected-bin count "
+            f"({meta.get('build_manifest_expected_bins', 'missing')}) does not "
+            f"match the current executable model contract ({expected_count}); "
+            "regenerate from a current canonical build")
+    try:
+        current_manifest = json.loads(rt.build_manifest.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        current_manifest = {}
+    current_foma = current_manifest.get("foma_version")
+    if current_foma and meta.get("build_manifest_foma_version") != current_foma:
+        problems.append(
+            "trace report's recorded Foma version "
+            f"({meta.get('build_manifest_foma_version', 'missing')}) differs "
+            f"from the current build manifest ({current_foma}); regenerate "
+            "under the current build configuration")
+    return problems
+
+
 def write_report(
     rows: Iterable[Dict[str, str]],
     bin_path: Path,
     bin_dir: Path,
     output_path: Path,
     trace_all: bool = False,
+    provenance: List[str] | None = None,
 ) -> None:
+    from sound_change_order_sensitivity import batch_apply_down
+
+    rows = list(rows)
+    forms = list(dict.fromkeys(evaluation_input(row) for row in rows))
+    stage_cache = {
+        bin_name: dict(zip(forms, batch_apply_down(bin_dir / bin_name, forms)))
+        for _, bin_name in STAGES
+    }
+    final_cache = dict(zip(forms, batch_apply_down(bin_path, forms)))
     buckets: Dict[str, List[Dict[str, str]]] = defaultdict(list)
     stage_fires: Dict[str, List[str]] = defaultdict(list)
     fronted_rows: List[str] = []; unfronted_rows: List[str] = []; fronting_correct: List[str] = []; fronting_unfronting_correct: List[str] = []; fronting_unfronting_incorrect: List[str] = []
     for row in rows:
-        afb = run_stage(bin_dir, "old_english_sandbox_after_eaf_brightening.bin", row["proto_norm"]); ar = run_stage(bin_dir, "old_english_sandbox_after_oe_a_restoration.bin", row["proto_norm"])
+        afb = stage_cache["old_english_sandbox_after_eaf_brightening.bin"][evaluation_input(row)]
+        ar = stage_cache["old_english_sandbox_after_oe_a_restoration.bin"][evaluation_input(row)]
         afb_out = next((o for o in afb if o != "+?"), ""); ar_out = next((o for o in ar if o != "+?"), "")
         fronted = is_a_fronting_context(row["proto_norm"]) and oe_first_is_front(afb_out); unfronted = fronted and oe_first_is_back(ar_out)
-        outputs = apply_down(bin_path, row["proto_norm"])
+        outputs = final_cache[evaluation_input(row)]
         expected = row["counterpart"]
         if fronted:
             summary = f"{row['concept']} | {row['proto']} | exp {expected} | afb {afb_out or '+?'} | ar {ar_out or '+?'}"
@@ -536,6 +499,8 @@ def write_report(
     ]
 
     lines: List[str] = []
+    if provenance:
+        lines.extend(provenance)
     for bucket in order:
         items = buckets.get(bucket, [])
         if not items:
@@ -545,12 +510,19 @@ def write_report(
         for row in items:
             lines.append(f"--- {row['concept']} ---")
             lines.append(f"PROTO: {row['proto']}")
+            lines.append(
+                f"INPUT_CONTEXT: SC098; stress={row.get('word_stress', 'stressed')}; "
+                f"finality={row.get('phonological_finality', 'final')}"
+            )
             lines.append(f"EXPECTED: {row['counterpart']}")
             lines.append(f"OUTPUTS: {row['outputs']}")
             lines.append("")
             prev_outputs: List[str] | None = None
             lexeme_label = f"{row['concept']} :: {row['proto']}"
-            for label, outputs in trace_lexeme(row["proto_norm"], bin_dir):
+            for label, outputs in trace_lexeme(evaluation_input(row), bin_dir, {
+                bin_name: stage_cache[bin_name][evaluation_input(row)]
+                for _, bin_name in STAGES
+            }):
                 base_label = label.split(" [", 1)[0]
                 header = STAGE_HEADERS.get(base_label)
                 if header is not None:
@@ -560,7 +532,7 @@ def write_report(
                 if prev_outputs is not None and outputs != prev_outputs:
                     stage_fires[base_label].append(lexeme_label)
                 prev_outputs = outputs
-                pretty = ", ".join(outputs)
+                pretty = ", ".join(display_form(form) for form in outputs)
                 lines.append(f"{label}: {pretty}")
             lines.append("")
         lines.append("")
@@ -582,36 +554,58 @@ def write_report(
     output_path.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
 
+def default_paths() -> Dict[str, Path]:
+    """Resolve canonical default paths via the shared runtime layout.
+
+    The authoritative runtime bin directory is the foma working directory:
+    <repo>/backend on the host, /usr/app inside the container.  Never
+    Germanic/fsts/, which may hold stale duplicates.
+    """
+    rt = layout()
+    return {
+        "tsv": rt.corpus_tsv,
+        "bin": rt.bin_dir / "old_english.bin",
+        "bin_dir": rt.bin_dir,
+        "fsts_dir": rt.fsts_dir,
+        "output": rt.docs_dir / "debug_snapshots" / "oe_full_trace_report.txt",
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    # Default paths: relative to this file's location in Germanic/tools/
-    tools_dir = Path(__file__).resolve().parent
-    germanic_dir = tools_dir.parent  # Germanic/
-    repo_root = germanic_dir.parent  # capr-v3-working/
+    defaults = default_paths()
+    germanic_dir = Path(__file__).resolve().parent.parent
     parser.add_argument(
         "--tsv",
-        default=str(germanic_dir / "data" / "germanic-aligned-final.tsv"),
+        default=str(defaults["tsv"]),
         help="Aligned TSV with Old English rows (default: %(default)s)",
     )
     parser.add_argument(
         "--bin",
-        default=str(repo_root / "backend" / "old_english.bin"),
+        default=str(defaults["bin"]),
         help="Generator FST for apply-down (default: %(default)s)",
     )
     parser.add_argument(
         "--bin-dir",
-        default=str(repo_root / "backend"),
+        default=str(defaults["bin_dir"]),
         help="Directory containing old_english_sandbox_after_*.bin (default: %(default)s)",
     )
     parser.add_argument(
         "--output",
-        default=str(germanic_dir / "docs" / "debug_snapshots" / "oe_full_trace_report.txt"),
+        default=str(defaults["output"]),
         help="Report output path (default: %(default)s)",
     )
     parser.add_argument(
         "--all",
         action="store_true",
         help="Trace all entries including exact_match (default: mismatches only)",
+    )
+    parser.add_argument(
+        "--debug-bins",
+        action="store_true",
+        help="Permit noncanonical/stale bins; the report is stamped with "
+             "NONCANONICAL DEBUG provenance and must not be committed as "
+             "canonical evidence.",
     )
     args = parser.parse_args()
 
@@ -621,8 +615,39 @@ def main() -> None:
     output_path = Path(args.output).expanduser().resolve()
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
+    # Canonical-run gate (fail closed): when tracing the canonical runtime
+    # bins, they must correspond exactly to the current sources per the
+    # build manifest. A stale-bin report must never stamp itself with
+    # hashes of newer source files.
+    is_canonical_bins = (
+        bin_path == defaults["bin"].resolve()
+        and bin_dir == defaults["bin_dir"].resolve()
+    )
+    if not args.debug_bins:
+        if not is_canonical_bins:
+            raise SystemExit(
+                "explicit --bin/--bin-dir overrides require --debug-bins "
+                "(noncanonical provenance); canonical committed reports must "
+                "be built from the validated canonical runtime bins")
+        problems = check_build_manifest(
+            oe_pipeline.expected_snapshot_bins() + ["old_english.bin"])
+        if problems:
+            for problem in problems:
+                print(f"TRACE REFUSED (stale/unvalidated bins): {problem}",
+                      file=sys.stderr)
+            raise SystemExit(
+                "runtime bins do not correspond to the current sources; "
+                "rebuild first (python3 Germanic/tools/adjudicate.py SCNNN "
+                "--evidence or bash Germanic/tools/rebuild_oe_bins.sh), or "
+                "pass --debug-bins for a noncanonical debug report")
+    canonical = is_canonical_bins and not args.debug_bins
+
     rows = load_rows(tsv_path)
-    write_report(rows, bin_path, bin_dir, output_path, trace_all=args.all)
+    fsts_dir = germanic_dir / "fsts"
+    provenance = provenance_lines(tsv_path, bin_path, fsts_dir,
+                                  canonical=canonical)
+    write_report(rows, bin_path, bin_dir, output_path, trace_all=args.all,
+                 provenance=provenance)
     print(f"Wrote {output_path}")
 
 

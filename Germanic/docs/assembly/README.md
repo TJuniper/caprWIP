@@ -110,6 +110,13 @@ The current design layer for full lexical assembly includes:
 
 These files define the ordering and section architecture used by the full alpha.
 
+The standard full lexical-volume and combined-book shell wrappers first
+run `python3 Germanic/tools/adjudicate.py --refresh`. This regenerates
+stale canonical traces, compact lexical histories and manifests through
+the shared artifact graph before rendering; failure stops the build.
+Use these wrappers for publication rather than invoking individual
+assembly builders against potentially stale inputs.
+
 The class architecture now follows all **seven** current TSV
 `DERIVATION_CLASS` values as first-class book sections:
 

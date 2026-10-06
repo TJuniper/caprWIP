@@ -30,7 +30,7 @@ from OCR line numbers.
 | `BrightCassidyRingler1971` | `docs/references/bright_anglo_saxon_reader.vision.txt` | grammar/reader-like | yes (`=== page N ===`) | page number available | high | Vision text is page-marked and the paradigm lines are easy to isolate. |
 | `Luick1914` | `docs/references/luick_historische_grammatik.txt` | grammar-like | yes (`--- PAGE N ---`) | page number unavailable for now; use no locator until passage is isolated | medium | Page markers are present, but the pilot lookup did not isolate the `fugol` discussion securely enough to support a final locator. |
 
-`Hogg1992` did not occur in the 10 pilot entries, so it was not part of this
+`HoggPhonology1992` did not occur in the 10 pilot entries, so it was not part of this
 pass.
 
 ## Entry-by-entry results

@@ -70,7 +70,7 @@ how it should later be split into smaller scaffold rows before any promotion.
 - cautions: Campbell gives weaker direct support for SC079 as a named chapter center and little reason to treat the full eight-change row as one coherent unit
 
 ### Hogg 1992
-- source_key: Hogg1992
+- source_key: HoggPhonology1992
 - locator: [metathesis discussion]; [geminate discussion]; [contracted verbs discussion]
 - witness_used: `docs/references/hogg_vol1.txt`
 - locator_confidence: mixed
@@ -79,7 +79,7 @@ how it should later be split into smaller scaffold rows before any promotion.
 
   > "The final change we have to consider concerns geminate consonants."
 
-- paraphrase: Hogg is valuable because he separates three distinct closing phenomena that the grouped scaffold currently blurs. He treats `r`-metathesis as a real Old English process with broad but variable chronology, notes that final geminates revert to single consonants, and gives a concise account of contracted verbs after the loss of intervocalic `h` [@Hogg1992]. This strongly supports a later split between `SC079-SC080`, `SC085-SC086`, and `SC087`.
+- paraphrase: Hogg is valuable because he separates three distinct closing phenomena that the grouped scaffold currently blurs. He treats `r`-metathesis as a real Old English process with broad but variable chronology, notes that final geminates revert to single consonants, and gives a concise account of contracted verbs after the loss of intervocalic `h` [@HoggPhonology1992]. This strongly supports a later split between `SC079-SC080`, `SC085-SC086`, and `SC087`.
 - conditioning: metathesis affects `r + short vowel`; final geminates simplify late; contracted verbs arise after intervocalic `h` loss between vowels
 - chronology: Hogg implies several different closing episodes rather than one flat terminal row
 - examples: `ærn`; `birnan`; `cerse`; `bedd > bed`; `wreon`; `teon`; `flee`; `slay`

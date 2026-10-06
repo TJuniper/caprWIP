@@ -30,4 +30,9 @@ West Saxon `ie` here reflects palatal diphthongization after initial palatalizat
 
 ### Development to Old English
 
+The singleton initial belongs to the fricative class, not the gg/ng stop
+class. The adopted consonantal account distinguishes its palatal ʝ from
+inherited j during mutation and merges them afterwards
+[@Fulk2018, pp. 130–132; @RingeTaylor2014, p. 204].
+
 From [gébaną]{.recon} ‘give’, initial `g` palatalizes before `e`; West Saxon palatal diphthongization then yields `ie`, and later tail reduction gives [`giefan`]{.iv lang=oe sort=giefan role=comparison_form} 'give' [@Campbell1959; @RingeTaylor2014]. The result is therefore the regular West Saxon infinitive.

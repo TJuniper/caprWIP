@@ -12,7 +12,7 @@ DEFAULT_BIB_PATH = REPO_ROOT / "docs/refs.bib"
 DEFAULT_INTRO_PATH = REPO_ROOT / "Germanic/docs/assembly/capr_book_intro_alpha_01.md"
 OPTIONAL_RENDERED_PATHS = [
     REPO_ROOT / "Germanic/docs/assembly/capr_book_draft_alpha_01.tex",
-    REPO_ROOT / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_19.tex",
+    REPO_ROOT / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.tex",
 ]
 
 FORBIDDEN_GLOBAL_STRINGS = [

@@ -1,7 +1,7 @@
 # SC082 OE Intervocalic J Vocalization — chronology evidence card
 
-## Current position
-- current_order: `81`
+## Position at experiment time
+- order_at_experiment_time: `81`
 - rule_name: `OEIntervocalicJVocalization`
 - safe computational window: `81-81`
 - status: `first_break_complete`

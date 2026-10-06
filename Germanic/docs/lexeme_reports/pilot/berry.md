@@ -7,7 +7,7 @@ The project distinguishes the headword `*bázją` from the FST input `*bázjas`.
 #### Chronological source dossier
 
 - `Germanic/data/germanic-aligned-final.tsv`: `NOTE` identifies gen.sg. `*bazjas (> berġes)` as the intended pathway and cites the non-geminating `*rj` background.
-- The current project treatment follows the general historical framework of Proto-Germanic to Old English development in [@RingeTaylor2014; @Hogg1992].
+- The current project treatment follows the general historical framework of Proto-Germanic to Old English development in [@RingeTaylor2014; @HoggGrammar1992].
 
 #### Old English philology
 

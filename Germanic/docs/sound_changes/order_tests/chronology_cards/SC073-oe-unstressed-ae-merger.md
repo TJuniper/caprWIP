@@ -1,7 +1,7 @@
 # SC073 OE Unstressed AE Merger — chronology evidence card
 
-## Current position
-- current_order: `73`
+## Position at experiment time
+- order_at_experiment_time: `73`
 - rule_name: `OEUnstressedAEMerger`
 - safe computational window: `73-83`
 - status: `first_break_complete`

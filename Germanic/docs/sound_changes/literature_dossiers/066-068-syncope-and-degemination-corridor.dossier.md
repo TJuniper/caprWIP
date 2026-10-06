@@ -59,8 +59,8 @@ a local cleanup bridge inside the model.
 - cautions: Campbell gives strong support for the general syncope environment, but he does not isolate an `l`-adjacent rule or a separate named rule of preconsonantal degemination.
 
 ### Hogg 1992
-- source_key: Hogg1992
-- locator: pp. 120--121
+- source_key: HoggPhonology1992
+- locator: pp. 121--122
 - terminology: apocope; syncope; assimilation and simplification in consonant groups
 - short quotation: "if by syncope a group of three consonants arose ... this was often simplified by the loss of one of the three"
 - paraphrase: Hogg is especially good for the structural relation among late weak-vowel loss, syncope, and consonant-cluster cleanup. He treats apocope and syncope as distinct but overlapping late OE processes, and he explicitly notes that cluster simplification often follows when syncope creates an over-heavy consonant group.

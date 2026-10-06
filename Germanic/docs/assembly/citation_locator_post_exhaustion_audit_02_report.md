@@ -33,7 +33,7 @@
 | KlugeSeebold2011 | 9 | 0 | 1 | 8 | All remaining Kluge rows were re-verified in the OCR witness; none can yet be paginated safely. |
 | Campbell1959 | 6 | 0 | 0 | 6 | Remaining rows are claim-complex handbook prose, not dictionary headwords; they need sentence splitting or section isolation. |
 | RingeTaylor2014 | 11 | 0 | 0 | 11 | Remaining rows are mostly class-history or analogical-background sentences and were left for a future claim-isolation pass. |
-| Hogg1992 | 2 | 0 | 0 | 2 | Both remaining Hogg rows are broad background-form-note support, not missing-evidence crises. |
+| HoggPhonology1992 | 2 | 0 | 0 | 2 | Both remaining Hogg rows are broad background-form-note support, not missing-evidence crises. |
 | Fulk2018 | 3 | 0 | 0 | 3 | Remaining Fulk rows support handbook-style formation claims and were not isolated further in this pass. |
 | SieversBrunner1965 | 5 | 0 | 0 | 5 | Remaining Sievers-Brunner rows are paradigm/background claims that still need targeted section recovery. |
 | BrightCassidyRingler1971 | 1 | 1 | 0 | 0 | The reopened show (3sg) row was localized to p. 383. |
@@ -73,7 +73,7 @@ The watchlist review is recorded in `citation_locator_undercitation_watchlist_02
 
 | Entry | Source | Exact reason it remains broad | Acceptable for now? | What would be required to resolve it |
 | :--- | :--- | :--- | :--- | :--- |
-| birth / byrd | Hogg1992 | This surviving Hogg1992 citation still supports the broader deverbal-feminine background behind simplex _byrd_ and its prefixed relatives. | yes | Split the sentence or isolate the exact rule/example before adding a page or section locator. |
+| birth / byrd | HoggPhonology1992 | This surviving HoggPhonology1992 citation still supports the broader deverbal-feminine background behind simplex _byrd_ and its prefixed relatives. | yes | Split the sentence or isolate the exact rule/example before adding a page or section locator. |
 | forlorn / lēosan | RingeTaylor2014 | This surviving RingeTaylor2014 citation still supports a combined scholarly claim rather than a single isolated fact: Kroonen reconstructs the verb under _\*leusan-_ and cites prefixed daughters such as Gothic _fra-liusan_ and Old English _for-lēosan_; Orel likewise gives Old English _for-leósan_ [@Kroonen2013, 374; @Orel2003, 282]. | yes | Split the sentence or isolate the exact rule/example before adding a page or section locator. |
 | smear / smierwan | RingeTaylor2014 | This surviving RingeTaylor2014 citation still supports the West Saxon versus Anglian/Mercian dialect split within the _smierwan_ family. | yes | Split the sentence or isolate the exact rule/example before adding a page or section locator. |
 | still / stillan | KlugeSeebold2011 | Source content was verified in the local Kluge OCR witness, but the available text preserves no printable page labels or page map. | yes | Keep the broad citation openly until a paginated witness of Kluge-Seebold is available. |
@@ -98,7 +98,7 @@ The watchlist review is recorded in `citation_locator_undercitation_watchlist_02
 | navel / nafola | Kroonen2013 | The surviving broad Kroonen citation now supports only the comparative headword/staging clause and still lacks a verified article page. | yes | Keep the comparative-headword citation broad until the exact article page is recovered or the sentence is softened to project staging. |
 | neck / hnecca | KlugeSeebold2011 | Source content was verified in the local Kluge OCR witness, but the available text preserves no printable page labels or page map. | yes | Keep the broad citation openly until a paginated witness of Kluge-Seebold is available. |
 | neck / hnecca | Orel2003 | The Orel row remains broad because the exact comparative article was not safely recoverable from the current witness. | yes | Retain broad for now and revisit with a better headword recovery. |
-| needle / nǣdl | Hogg1992 | This surviving Hogg1992 citation still supports a combined scholarly claim rather than a single isolated fact: Clark Hall records the attested citation form _nǣdl_ [@ClarkHall1960, 210]. | yes | Split the sentence or isolate the exact rule/example before adding a page or section locator. |
+| needle / nǣdl | HoggPhonology1992 | This surviving HoggPhonology1992 citation still supports a combined scholarly claim rather than a single isolated fact: Clark Hall records the attested citation form _nǣdl_ [@ClarkHall1960, 210]. | yes | Split the sentence or isolate the exact rule/example before adding a page or section locator. |
 | sap / sæp | KlugeSeebold2011 | Source content was verified in the local Kluge OCR witness, but the available text preserves no printable page labels or page map. | yes | Keep the broad citation openly until a paginated witness of Kluge-Seebold is available. |
 | sap / sæp | KlugeSeebold2011 | Source content was verified in the local Kluge OCR witness, but the available text preserves no printable page labels or page map. | yes | Keep the broad citation openly until a paginated witness of Kluge-Seebold is available. |
 | staff / stæf | KlugeSeebold2011 | Source content was verified in the local Kluge OCR witness, but the available text preserves no printable page labels or page map. | yes | Keep the broad citation openly until a paginated witness of Kluge-Seebold is available. |

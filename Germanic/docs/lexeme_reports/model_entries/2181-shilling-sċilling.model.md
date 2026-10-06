@@ -26,7 +26,7 @@ Clark Hall records `scilling` 'shilling', and Campbell cites it among nouns with
 
 ### Development to Old English
 
-From [skíllingaz]{.recon} ‘shilling’, loss of final `-az` yields [skílling]{.recon} ‘shilling’. Old English palatalization of initial `sk` before front vocalism then gives `sċilling` 'shilling'. The `i` of derivational `-ing-` remains, so the regular outcome is `sċilling` 'shilling', not [sċilleng]{.recon} 'shilling' [@Campbell1959; @Hogg1992].
+From [skíllingaz]{.recon} ‘shilling’, loss of final `-az` yields [skílling]{.recon} ‘shilling’. Old English palatalization of initial `sk` before front vocalism then gives `sċilling` 'shilling'. The `i` of derivational `-ing-` remains, so the regular outcome is `sċilling` 'shilling', not [sċilleng]{.recon} 'shilling' [@Campbell1959; @HoggGrammar1992].
 
 ### Form note
 

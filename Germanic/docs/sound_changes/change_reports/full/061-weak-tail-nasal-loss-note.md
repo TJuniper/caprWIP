@@ -33,7 +33,7 @@ chronology testing.
 This note belongs immediately after the SC060 **WS palatal umlaut
 note** and immediately before the SC063 **OE high vowel apocope**
 report. Its meaningful positive chronology link points outward on the left to
-the SC023 **N-stem n-loss note**, but that relation should remain a
+the SC023 **Word-final n-loss note**, but that relation should remain a
 cross-reference rather than a reason to merge non-adjacent chapters.
 
 #### Order evidence

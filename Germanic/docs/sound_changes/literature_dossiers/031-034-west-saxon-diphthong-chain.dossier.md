@@ -68,14 +68,14 @@ without overstating any one of them:
 
 ### Hogg 1992
 
-- source_key: Hogg1992
-- locator: pp. 106--107; pp. 111--112
+- source_key: HoggPhonology1992
+- locator: pp. 107--108; pp. 111--112
 - terminology: palatalisation; palatal diphthongisation
 - short quotation: "Even if one accepts ... the reality of palatal diphthongisation of front vowels, there is no need to accept that a parallel change affecting back vowels ... was ever anything more than an orthographic variation."
-- paraphrase: Hogg is particularly useful for chapter weighting. He treats the palatal side of the region as real but uneven: initial `sk` and other palatals trigger diphthongized outputs such as `sceap`, but the exact status of some back-vowel spellings is much less secure. This helps explain why `SC034` looks historically stronger than a fully expanded four-change corridor and why `SC033` or `SC032` might later need subordinate treatment rather than equal chapter billing. [@Hogg1992, pp. 106--107; @Hogg1992, pp. 111--112]
-- conditioning: palatalization applies broadly to initial `sk`; following front vowels after palatals produce forms such as `giefan`, `giet`, `sceap`, and `ceaf`; the back-vowel side is more doubtful and sometimes may be orthographic rather than a full phonological rule. [@Hogg1992, pp. 106--107; @Hogg1992, pp. 111--112]
-- chronology: Hogg places palatalization before the palatal-diphthongization discussion and treats the latter as a separate, partly controversial process. That does not map directly to `SC031-SC034`, but it strongly supports the dossier's claim that the handbooks do not hand us one ready-made four-step chapter. [@Hogg1992, pp. 106--107; @Hogg1992, pp. 111--112]
-- examples: `waste`; `ascad`; `scip`; `disc`; `sceap`; `ceaf`; `giefan`; `giet`. [@Hogg1992, pp. 106--107; @Hogg1992, pp. 111--112]
+- paraphrase: Hogg is particularly useful for chapter weighting. He treats the palatal side of the region as real but uneven: initial `sk` and other palatals trigger diphthongized outputs such as `sceap`, but the exact status of some back-vowel spellings is much less secure. This helps explain why `SC034` looks historically stronger than a fully expanded four-change corridor and why `SC033` or `SC032` might later need subordinate treatment rather than equal chapter billing. [@HoggPhonology1992, p. 112; @HoggPhonology1992, pp. 112--113]
+- conditioning: palatalization applies broadly to initial `sk`; following front vowels after palatals produce forms such as `giefan`, `giet`, `sceap`, and `ceaf`; the back-vowel side is more doubtful and sometimes may be orthographic rather than a full phonological rule. [@HoggPhonology1992, p. 112; @HoggPhonology1992, pp. 112--113]
+- chronology: Hogg places palatalization before the palatal-diphthongization discussion and treats the latter as a separate, partly controversial process. That does not map directly to `SC031-SC034`, but it strongly supports the dossier's claim that the handbooks do not hand us one ready-made four-step chapter. [@HoggPhonology1992, p. 112; @HoggPhonology1992, pp. 112--113]
+- examples: `waste`; `ascad`; `scip`; `disc`; `sceap`; `ceaf`; `giefan`; `giet`. [@HoggPhonology1992, p. 112; @HoggPhonology1992, pp. 112--113]
 - cautions: Hogg is better for the palatal-diphthong side of the dossier than for `SC031`'s `ww` background or `SC032`'s leveling profile. He reinforces the idea that some parts of the region are strong and others less stable, but he does not by himself settle the final chapter shape.
 
 ### Ringe and Taylor 2014

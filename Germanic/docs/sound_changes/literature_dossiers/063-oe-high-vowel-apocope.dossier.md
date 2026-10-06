@@ -131,8 +131,8 @@ The literature strongly supports the basic weight-sensitive rule and its close r
 - notes: repository text witness; no substantive normalization
 
 ### Hogg 1992
-- source_key: Hogg1992
-- locator: p. 120
+- source_key: HoggPhonology1992
+- locator: p. 121
 - witness_used: `docs/references/hogg_vol1.txt`
 - locator_confidence: page_safe
 - terminology: apocope; loss of unstressed vowels; syncope

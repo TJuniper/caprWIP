@@ -1,7 +1,7 @@
 # SC072 OE Unstressed Long Vowel Shortening — chronology evidence card
 
-## Current position
-- current_order: `72`
+## Position at experiment time
+- order_at_experiment_time: `72`
 - rule_name: `OEUnstressedLongVowelShortening`
 - safe computational window: `65-72`
 - status: `first_break_complete`

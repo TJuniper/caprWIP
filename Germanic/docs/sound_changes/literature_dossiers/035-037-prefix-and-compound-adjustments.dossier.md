@@ -72,11 +72,11 @@ bridge or split around a stronger SC036 center.
 
 ### Hogg 1992
 
-- **source_key:** `Hogg1992`
+- **source_key:** `HoggPhonology1992`
 - **locator:** §3.3.1.3; p. 99
 - **terminology:** reduction in the variety of unstressed vowels; stress in prefixed forms and compounds; unstressed `ge-`
 - **short quotation:** "`reduction in variety of unstressed vowels`"; "`ge- ... was never stressed`"
-- **paraphrase:** Hogg is helpful less for direct chronology than for the stress architecture behind the row. His overview of Old English unstressed vowels stresses the gradual reduction of unstressed-vowel contrasts [@Hogg1992, §3.3.1.3], while his discussion of word stress distinguishes prefixed verbs from prefixed nouns and notes that `ge-` was never stressed [@Hogg1992, p. 99]. That makes SC035 and SC036 plausible as stress-conditioned vowel adjustments and helps explain why SC037 belongs in the same general derivational neighborhood: second elements of compounds carry secondary stress and can undergo their own reductions [@Hogg1992, p. 99].
+- **paraphrase:** Hogg is helpful less for direct chronology than for the stress architecture behind the row. His overview of Old English unstressed vowels stresses the gradual reduction of unstressed-vowel contrasts [@HoggPhonology1992, §3.3.1.3], while his discussion of word stress distinguishes prefixed verbs from prefixed nouns and notes that `ge-` was never stressed [@HoggPhonology1992, pp. 99--100]. That makes SC035 and SC036 plausible as stress-conditioned vowel adjustments and helps explain why SC037 belongs in the same general derivational neighborhood: second elements of compounds carry secondary stress and can undergo their own reductions [@HoggPhonology1992, pp. 99--100].
 - **conditioning:** unstressed prefixes, weakly stressed medial syllables, and secondary-stress-bearing compound members
 - **chronology:** Hogg supports the row as a real stress-sensitive region, but not as one neat chapter with tight local boundaries across all three members.
 - **examples:** `gesceaft`; prefixed noun/verb contrast such as `angin` versus `anginnan`
@@ -110,7 +110,7 @@ SC036 `OEInterStressRaising` is the strongest member. Campbell's low-stress
 weorold ~ worold`, and Hogg's general unstressed-vowel framework all show that
 mid-word unstressed vocalism is a real historical issue rather than an ad hoc
 CAPR trick [@Campbell1959, §§338--339; @RingeTaylor2014, §6.3.3;
-@Hogg1992, §3.3.1.3]. That makes SC036 a plausible prose center even though its
+@HoggPhonology1992, §3.3.1.3]. That makes SC036 a plausible prose center even though its
 earlier boundary to SC019 is broad rather than locally adjacent.
 
 SC037 `OECompoundLinkingSyncope` is historically intelligible but only in a

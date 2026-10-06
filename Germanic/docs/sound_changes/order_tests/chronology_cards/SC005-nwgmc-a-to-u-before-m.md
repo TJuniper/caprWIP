@@ -1,7 +1,7 @@
 # SC005 NWGmc A To U Before M — chronology evidence card
 
-## Current position
-- current_order: `5`
+## Position at experiment time
+- order_at_experiment_time: `5`
 - rule_name: `PNWGmcAToUBeforeM`
 - former_rule_name: `NWGmcAToUBeforeM`
 - safe computational window: `4-16` (earlier side boundary-only; later side broad/far)

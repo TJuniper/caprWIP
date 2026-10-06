@@ -1,7 +1,7 @@
 # SC065 OE Medial Syncope — chronology evidence card
 
-## Current position
-- current_order: `65`
+## Position at experiment time
+- order_at_experiment_time: `65`
 - rule_name: `OEMedialSyncope`
 - safe computational window: `13-86` (earlier side blocked; later side runner-bounded)
 - status: `first_break_complete`

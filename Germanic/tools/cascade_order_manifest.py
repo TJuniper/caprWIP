@@ -1,155 +1,120 @@
 #!/usr/bin/env python3
-"""Extract a machine-readable manifest of the actual executable cascade order.
+"""Generate the executable-order views from the shared pipeline model.
 
-The Old English derivation is driven by the ``EnglishProtoToOE`` composition in
-``Germanic/fsts/germanic.txt``.  That composition begins with the historically
-mixed ``EarlyEnglishLineChanges`` block and then composes a long sequence of individual
-rules with ``.o.``.  This tool flattens that composition into a single ordered
-list of Foma identifiers, expanding the ``EarlyEnglishLineChanges`` block inline so the
-manifest reflects the true rule-application order.
+The ONE authority for executable order is the production ``OldEnglish``
+composition in ``Germanic/fsts/germanic.txt``, parsed by
+``Germanic/tools/oe_pipeline.py`` (structural bundles are marked
+``# capr:bundle`` in the FST source and expanded recursively).
 
-The manifest is *descriptive*: it records what the cascade currently does.  It
-does not encode any historical stage judgement — stage/scope metadata lives in
-the authoritative rule registry
-(``Germanic/docs/sound_changes/sound_change_historical_staging_map.tsv``).
+This tool emits two GENERATED views under
+``Germanic/docs/sound_changes/cascade_baseline/``:
 
-Output (deterministic TSV, sorted by executable position):
+``cascade_order_manifest.tsv``
+    Legacy-compatible SC cascade-position view (columns ``position``,
+    ``foma_identifier``, ``origin_block``).  Covers exactly the stages that
+    carry a ``cascade_position`` — the numbering used throughout the
+    scientific records.  Unchanged format; do not renumber.
 
-    position    foma_identifier    origin_block
+``executable_model.tsv``
+    The complete physical execution sequence from the Proto-Germanic input
+    filter to the Old English surface, including the prelude and surface
+    stages that the legacy numbering omits.  Columns: ``exec_index``,
+    ``cascade_position`` (empty for prelude/surface stages),
+    ``foma_identifier``, ``origin_block``, ``kind``, ``snapshot_bin``,
+    ``sc_id``.  This is also the exec_index <-> cascade_position mapping.
 
-``origin_block`` is ``EarlyEnglishLineChanges`` for rules expanded out of that block, or
-``EnglishProtoToOE`` for rules composed directly in the master pipeline.
+The views are *descriptive*: they record what the cascade currently does.
+Historical stage/scope judgements live in the semantic registry.
 
-This script is pure text parsing; it needs neither foma nor flookup and runs on
-the host.
+Pure text parsing; needs neither foma nor flookup and runs on the host.
+
+Usage:
+    python3 Germanic/tools/cascade_order_manifest.py            # write views
+    python3 Germanic/tools/cascade_order_manifest.py --check    # verify clean
 """
 from __future__ import annotations
 
 import argparse
-import re
+import sys
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_FST = REPO_ROOT / "Germanic/fsts/germanic.txt"
-DEFAULT_OUT = REPO_ROOT / "Germanic/docs/sound_changes/cascade_baseline/cascade_order_manifest.tsv"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-# A Foma identifier is an alphanumeric/underscore token that starts with a
-# letter.  Composition members appear as ``.o. Identifier`` or as the first
-# token inside the block body.
-_IDENT_RE = re.compile(r"^[A-Za-z][A-Za-z0-9_]*$")
+import oe_pipeline  # noqa: E402
+from capr_runtime import layout  # noqa: E402
 
-
-def _strip_comments(text: str) -> str:
-    """Remove Foma ``#`` line comments while preserving line structure."""
-    out_lines = []
-    for line in text.splitlines():
-        hash_pos = line.find("#")
-        if hash_pos != -1:
-            line = line[:hash_pos]
-        out_lines.append(line)
-    return "\n".join(out_lines)
+BASELINE_DIR = layout().docs_dir / "sound_changes" / "cascade_baseline"
+MANIFEST_OUT = BASELINE_DIR / "cascade_order_manifest.tsv"
+MODEL_OUT = BASELINE_DIR / "executable_model.tsv"
 
 
-def _extract_block_body(text: str, define_name: str, open_char: str, close_char: str) -> str:
-    """Return the raw body between the matching delimiters of a define block."""
-    marker = f"define {define_name} "
-    start = text.find(marker)
-    if start < 0:
-        raise ValueError(f"could not find 'define {define_name}' in FST source")
-    open_pos = text.find(open_char, start)
-    if open_pos < 0:
-        raise ValueError(f"could not find opening '{open_char}' for {define_name}")
-    depth = 0
-    for i in range(open_pos, len(text)):
-        ch = text[i]
-        if ch == open_char:
-            depth += 1
-        elif ch == close_char:
-            depth -= 1
-            if depth == 0:
-                return text[open_pos + 1 : i]
-    raise ValueError(f"unterminated block for {define_name}")
-
-
-def _composition_members(body: str) -> list[str]:
-    """Flatten a ``.o.``-separated composition body into member identifiers.
-
-    The first member has no leading ``.o.``; subsequent members follow ``.o.``.
-    Only bare identifiers are treated as named-rule members; inline regex
-    fragments (containing ``->``, ``{``, ``[`` etc.) are skipped because they are
-    anonymous and cannot be reordered as named stages.
-    """
-    # Normalise whitespace, then split on the ``.o.`` composition operator.
-    segments = re.split(r"\.o\.", body)
-    members: list[str] = []
-    for seg in segments:
-        token = seg.strip()
-        if not token:
-            continue
-        # A named member is a single bare identifier.  Take the first
-        # whitespace-delimited token and verify it is a clean identifier and
-        # that nothing else (an inline regex) follows.
-        first = token.split()[0] if token.split() else ""
-        if _IDENT_RE.match(token) or (_IDENT_RE.match(first) and token == first):
-            members.append(first)
-        else:
-            # Anonymous inline fragment (e.g. a bare `[...]` rewrite) — record a
-            # placeholder so positions still reflect the true composition length.
-            members.append(f"<inline:{len(members)}>")
-    return members
-
-
-def build_manifest(fst_path: Path) -> list[dict[str, str]]:
-    text = _strip_comments(fst_path.read_text(encoding="utf-8"))
-
-    pwgmc_body = _extract_block_body(text, "EarlyEnglishLineChanges", "[", "]")
-    pwgmc_members = _composition_members(pwgmc_body)
-
-    pipeline_body = _extract_block_body(text, "EnglishProtoToOE", "(", ")")
-    pipeline_members = _composition_members(pipeline_body)
-
-    if not pipeline_members or pipeline_members[0] != "EarlyEnglishLineChanges":
-        raise ValueError(
-            "expected EnglishProtoToOE to begin with EarlyEnglishLineChanges; "
-            f"got {pipeline_members[:1]!r}"
-        )
-
-    rows: list[dict[str, str]] = []
-    position = 0
-    # Expand EarlyEnglishLineChanges in place of its reference at the head of the pipeline.
-    for ident in pwgmc_members:
-        position += 1
-        rows.append({"position": str(position), "foma_identifier": ident, "origin_block": "EarlyEnglishLineChanges"})
-    for ident in pipeline_members[1:]:
-        position += 1
-        rows.append({"position": str(position), "foma_identifier": ident, "origin_block": "EnglishProtoToOE"})
-    return rows
-
-
-def write_manifest(rows: list[dict[str, str]], out_path: Path) -> None:
-    out_path.parent.mkdir(parents=True, exist_ok=True)
+def manifest_text() -> str:
     lines = ["position\tfoma_identifier\torigin_block"]
-    for row in rows:
-        lines.append(f"{row['position']}\t{row['foma_identifier']}\t{row['origin_block']}")
-    out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    for s in oe_pipeline.named_stages():
+        if s.cascade_position is None:
+            continue
+        lines.append(f"{s.cascade_position}\t{s.foma_identifier}\t{s.origin_block}")
+    return "\n".join(lines) + "\n"
+
+
+def model_text() -> str:
+    lines = [
+        "# GENERATED FILE — DO NOT EDIT.",
+        "# Complete production Old English execution sequence (root: regex OldEnglish).",
+        "# Source: Germanic/fsts/germanic.txt; model: Germanic/tools/oe_pipeline.py;",
+        "# generator: Germanic/tools/cascade_order_manifest.py.",
+        "# cascade_position is the legacy SC position space (empty for the",
+        "# proto-input/PGmc prelude and the surface filter); exec_index is the",
+        "# complete physical order. sc_id is joined from registry/sc_registry.tsv.",
+        "exec_index\tcascade_position\tfoma_identifier\torigin_block\tkind\tsnapshot_bin\tsc_id",
+    ]
+    for s in oe_pipeline.stages():
+        pos = "" if s.cascade_position is None else str(s.cascade_position)
+        if s.kind == "named":
+            lines.append(f"{s.exec_index}\t{pos}\t{s.foma_identifier}\t"
+                         f"{s.origin_block}\tnamed\t{s.snapshot_bin}\t"
+                         f"{oe_pipeline.sc_id(s.foma_identifier)}")
+        else:
+            lines.append(f"{s.exec_index}\t{pos}\t<inline>\t{s.origin_block}\t"
+                         f"inline\t\t")
+    return "\n".join(lines) + "\n"
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--fst", type=Path, default=DEFAULT_FST, help="Path to germanic.txt")
-    parser.add_argument("--out", type=Path, default=DEFAULT_OUT, help="Output manifest TSV path")
-    parser.add_argument("--check", action="store_true", help="Print manifest to stdout without writing")
+    parser.add_argument("--fst", type=Path, default=None,
+                        help="Override germanic.txt path (debugging)")
+    parser.add_argument("--check", action="store_true",
+                        help="Fail if the committed views differ from the model")
     args = parser.parse_args()
 
-    rows = build_manifest(args.fst)
-    named = [r for r in rows if not r["foma_identifier"].startswith("<inline:")]
-    inline = [r for r in rows if r["foma_identifier"].startswith("<inline:")]
+    if args.fst is not None:
+        stages = oe_pipeline.parse_stages(args.fst)
+        for s in stages:
+            print(f"{s.exec_index}\t{s.cascade_position or ''}\t"
+                  f"{s.foma_identifier or s.inline_text}\t{s.origin_block}")
+        return 0
+
+    outputs = {MANIFEST_OUT: manifest_text(), MODEL_OUT: model_text()}
+    stale = []
+    for path, text in outputs.items():
+        current = path.read_text(encoding="utf-8") if path.exists() else None
+        if current == text:
+            continue
+        if args.check:
+            stale.append(path)
+        else:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(text, encoding="utf-8")
+            print(f"wrote {path}")
     if args.check:
-        for r in rows:
-            print(f"{r['position']}\t{r['foma_identifier']}\t{r['origin_block']}")
-    else:
-        write_manifest(rows, args.out)
-        print(f"wrote {args.out} ({len(rows)} positions: {len(named)} named, {len(inline)} inline)")
+        if stale:
+            for p in stale:
+                print(f"STALE VIEW: {p} does not match germanic.txt — run "
+                      "python3 Germanic/tools/cascade_order_manifest.py",
+                      file=sys.stderr)
+            return 1
+        print("executable-order views are clean")
     return 0
 
 

@@ -30,4 +30,4 @@ From [skáwōjaną]{.iv .recon lang=pgmc sort=skawojana role=selected_input} 'sh
 
 ### Form note
 
-The difference between [`scēawian`]{.iv lang=oe sort=sceawian role=comparison_form} 'show' and [`sċēawian`]{.iv lang=oe sort=sceawian role=target_form} 'show' is orthographic normalization of initial `<sc>`, not a difference of lexeme or paradigm cell [@Campbell1959; @Hogg1992].
+The difference between [`scēawian`]{.iv lang=oe sort=sceawian role=comparison_form} 'show' and [`sċēawian`]{.iv lang=oe sort=sceawian role=target_form} 'show' is orthographic normalization of initial `<sc>`, not a difference of lexeme or paradigm cell [@Campbell1959; @HoggGrammar1992].

@@ -62,7 +62,7 @@ Campbell and Hogg preserve the textbook frame that Germanic `z` is later lost
 or rhotacized, while Crist's dissertation and 2002 handout formulate the key
 historical claim more sharply as West Germanic loss of word-final `*z` in
 unstressed syllables before rhotacism; Kilday's recent summary treats that core
-development as already established background [@Campbell1959; @Hogg1992;
+development as already established background [@Campbell1959; @HoggGrammar1992;
 @Crist2001; @Crist2002; @Kilday2024]. This means the right edge of the corridor
 is also historically real, but its literature is more morphology-heavy than the
 bare CAPR rule suggests.

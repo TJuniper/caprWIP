@@ -27,11 +27,14 @@ container (where foma/flookup and the freshly compiled bins live).
 from __future__ import annotations
 
 import argparse
+import csv
 import hashlib
 import json
 import re
 import subprocess
 from pathlib import Path
+from oe_pipeline import evaluation_input, load_rows
+from oe_input_context import InputContext
 
 # Matches the normalisation used by oe_mismatch_report.load_rows so the baseline
 # feeds the transducer exactly what the existing reports feed it.
@@ -45,28 +48,66 @@ def normalize_proto(raw: str) -> str:
 
 def load_oe_rows(tsv_path: Path) -> list[dict[str, str]]:
     """Load Old English lexeme rows (DOCULECT == Old_English) with normalised proto."""
-    import csv
+    return load_rows(tsv_path)
 
-    rows: list[dict[str, str]] = []
-    with tsv_path.open(encoding="utf-8") as handle:
-        reader = csv.DictReader(handle, delimiter="\t")
-        for row in reader:
-            if row.get("DOCULECT") != "Old_English":
+
+def legacy_subset(records: list[dict], legacy_rows: list[dict],
+                  migrations: list[dict]) -> list[dict]:
+    """Resolve frozen identities, permitting only exact documented migrations."""
+    by_key = {}
+    by_id = {}
+    for record in records:
+        key = (record["proto_norm"], record["counterpart"], record["concept"])
+        if key in by_key or record["row_id"] in by_id:
+            raise ValueError(f"duplicate baseline identity: {key}")
+        by_key[key] = record
+        by_id[record["row_id"]] = record
+    approved = {}
+    for migration in migrations:
+        if set(migration) != {"row_id", "concept", "counterpart", "new_counterpart",
+                              "old_proto", "new_proto", "old_outputs", "new_outputs",
+                              "adjudication_memo"} or not all(migration.values()):
+            raise ValueError("invalid approved input migration")
+        key = (normalize_proto(migration["old_proto"]),
+               migration["counterpart"], migration["concept"])
+        if key in approved or any(m["row_id"] == migration["row_id"] for m in approved.values()):
+            raise ValueError("duplicate approved input migration")
+        if migration["old_proto"] == migration["new_proto"]:
+            raise ValueError("input migration must change the input")
+        approved[key] = migration
+    selected = []
+    used = set()
+    seen = set()
+    for old in legacy_rows:
+        key = (old["proto_norm"], old["counterpart"], old["concept"])
+        if key in seen:
+            raise ValueError(f"duplicate frozen identity: {key}")
+        seen.add(key)
+        migration = approved.get(key)
+        if migration:
+            if (old["proto"] != migration["old_proto"]
+                    or old["outputs"] != migration["old_outputs"]):
+                raise ValueError(f"migration old record mismatch: {key}")
+            current = by_id.get(migration["row_id"])
+            if current is None or any(current[field] != migration[value] for field, value in (
+                ("proto", "new_proto"), ("concept", "concept"),
+                ("counterpart", "new_counterpart"), ("outputs", "new_outputs")
+            )) or current["proto_norm"] != normalize_proto(migration["new_proto"]):
+                raise ValueError(f"migration current identity mismatch: {key}")
+            used.add(key)
+        else:
+            current = by_key.get(key)
+            if current is None or current["proto"] != old["proto"]:
+                raise ValueError(f"unapproved legacy input drift: {key}")
+        for field in ("accepted", "output_count", "match", "outputs"):
+            if migration and field == "outputs":
                 continue
-            proto = (row.get("PROTOFORM") or "").strip()
-            counterpart = (row.get("COUNTERPART") or "").strip()
-            if not proto or not counterpart or counterpart == "-":
-                continue
-            norm = normalize_proto(proto)
-            if not norm:
-                continue
-            rows.append({
-                "concept": (row.get("CONCEPT") or "").strip(),
-                "proto": proto,
-                "proto_norm": norm,
-                "counterpart": counterpart,
-            })
-    return rows
+            if current[field] != old[field]:
+                raise ValueError(f"unapproved legacy {field} drift: {key}")
+        selected.append(current)
+    if used != set(approved):
+        raise ValueError("migration does not resolve a frozen legacy identity")
+    return sorted(selected, key=lambda r: (r["proto_norm"], r["counterpart"], r["concept"]))
 
 
 def apply_batch(bin_path: Path, forms: list[str]) -> dict[str, list[str]]:
@@ -100,16 +141,16 @@ def apply_batch(bin_path: Path, forms: list[str]) -> dict[str, list[str]]:
 def build_baseline(tsv_path: Path, bin_path: Path) -> dict[str, object]:
     rows = load_oe_rows(tsv_path)
     # Deterministic input order for reproducibility.
-    rows.sort(key=lambda r: (r["proto_norm"], r["counterpart"], r["concept"]))
+    rows.sort(key=lambda r: (evaluation_input(r), r["counterpart"], r["concept"]))
 
     # One flookup call over all normalised protos.
-    forms = [r["proto_norm"] for r in rows]
+    forms = [evaluation_input(r) for r in rows]
     outputs_by_form = apply_batch(bin_path, forms)
 
     records: list[dict[str, object]] = []
     accepted = rejected = matched = mismatched = ambiguous = 0
     for r in rows:
-        outs = outputs_by_form.get(r["proto_norm"], [])
+        outs = outputs_by_form.get(evaluation_input(r), [])
         is_accepted = bool(outs)
         is_match = r["counterpart"] in outs
         if is_accepted:
@@ -123,9 +164,13 @@ def build_baseline(tsv_path: Path, bin_path: Path) -> dict[str, object]:
         if len(outs) > 1:
             ambiguous += 1
         records.append({
+            "row_id": r["row_id"],
             "concept": r["concept"],
             "proto": r["proto"],
             "proto_norm": r["proto_norm"],
+            "fst_input": evaluation_input(r),
+            "word_stress": r["word_stress"],
+            "phonological_finality": r["phonological_finality"],
             "counterpart": r["counterpart"],
             "accepted": "1" if is_accepted else "0",
             "output_count": str(len(outs)),
@@ -136,8 +181,32 @@ def build_baseline(tsv_path: Path, bin_path: Path) -> dict[str, object]:
     # Reproducibility marker: hash the canonical proto->outputs projection.
     hasher = hashlib.sha256()
     for r in records:
-        hasher.update((r["proto_norm"] + "\x1f" + r["outputs"] + "\x1e").encode("utf-8"))
+        hasher.update((r["fst_input"] + "\x1f" + r["outputs"] + "\x1e").encode("utf-8"))
     outputs_sha256 = hasher.hexdigest()
+    lexical_hasher = hashlib.sha256()
+    for r in sorted(records, key=lambda r: (r["proto_norm"], r["counterpart"], r["concept"])):
+        lexical_hasher.update((r["proto_norm"] + "\x1f" + r["outputs"] + "\x1e").encode("utf-8"))
+
+    # Archived inputs remain immutable; approved migrations select the same
+    # original identities under their explicitly documented current inputs.
+    legacy_subset_sha256 = ""
+    legacy_subset_count = 0
+    legacy_path = tsv_path.parent.parent / "docs/sound_changes/cascade_baseline/cascade_baseline_outputs_legacy380.tsv"
+    if not legacy_path.exists():
+        # container layout: /usr/app/data + /usr/app/docs
+        legacy_path = Path("docs/sound_changes/cascade_baseline/cascade_baseline_outputs_legacy380.tsv")
+    if legacy_path.exists():
+        with legacy_path.open(encoding="utf-8") as handle:
+            legacy_rows = list(csv.DictReader(handle, delimiter="\t"))
+        migration_path = legacy_path.with_name("approved_input_migrations.tsv")
+        with migration_path.open(encoding="utf-8") as handle:
+            migrations = list(csv.DictReader(handle, delimiter="\t"))
+        selected = legacy_subset(records, legacy_rows, migrations)
+        legacy_hasher = hashlib.sha256()
+        for r in selected:
+            legacy_hasher.update((r["proto_norm"] + "\x1f" + r["outputs"] + "\x1e").encode("utf-8"))
+            legacy_subset_count += 1
+        legacy_subset_sha256 = legacy_hasher.hexdigest()
 
     summary = {
         "total_lexemes": len(records),
@@ -147,14 +216,232 @@ def build_baseline(tsv_path: Path, bin_path: Path) -> dict[str, object]:
         "mismatched": mismatched,
         "ambiguous_outputs": ambiguous,
         "outputs_sha256": outputs_sha256,
+        "lexical_outputs_sha256": lexical_hasher.hexdigest(),
+        "legacy_subset_count": legacy_subset_count,
+        "legacy_subset_sha256": legacy_subset_sha256,
     }
     return {"summary": summary, "records": records}
+
+
+def projection_sha256(records: list[dict], field: str) -> str:
+    hasher = hashlib.sha256()
+    for row in sorted(records, key=lambda r: (
+        r.get(field, r["proto_norm"]), r["counterpart"], r["concept"],
+    )):
+        hasher.update((row.get(field, row["proto_norm"]) + "\x1f"
+                       + row["outputs"] + "\x1e").encode("utf-8"))
+    return hasher.hexdigest()
+
+
+def validate_context_transition(previous: dict, candidate: dict, approval: dict) -> None:
+    """Authorize only the declared evaluator-input delta, never lexical/output drift."""
+    old_rows, new_rows = previous["records"], candidate["records"]
+    old = {r["row_id"]: r for r in old_rows}
+    new = {r["row_id"]: r for r in new_rows}
+    if (len(old) != len(old_rows) or len(new) != len(new_rows)
+            or not all(old) or old.keys() != new.keys()):
+        raise ValueError("context migration has missing, duplicate or changed stable identities")
+    expected = {change["row_id"]: (change["old_fst_input"], change["new_fst_input"])
+                for change in approval["input_changes"]}
+    if len(expected) != len(approval["input_changes"]) or not expected:
+        raise ValueError("invalid or duplicate approved context-input changes")
+    changes = {}
+    lexical_fields = (
+        "row_id", "concept", "proto", "proto_norm", "counterpart",
+        "accepted", "output_count", "match", "outputs",
+    )
+    for identifier, before in old.items():
+        after = new[identifier]
+        if any(before[field] != after[field] for field in lexical_fields):
+            raise ValueError(f"{identifier}: unapproved lexical, target, output or multiplicity drift")
+        context = InputContext(after["word_stress"], after["phonological_finality"])
+        if context.encode(after["proto_norm"]) != after["fst_input"]:
+            raise ValueError(f"{identifier}: context disagrees with assembled evaluator input")
+        old_input = before.get("fst_input", before["proto_norm"])
+        if old_input != after["fst_input"]:
+            changes[identifier] = (old_input, after["fst_input"])
+    if changes != expected:
+        raise ValueError(f"unapproved context-input delta: {changes!r}")
+    for actual, expected_hash in (
+        (projection_sha256(old_rows, "fst_input"), approval["old_evaluator_sha256"]),
+        (projection_sha256(new_rows, "fst_input"), approval["new_evaluator_sha256"]),
+        (projection_sha256(new_rows, "proto_norm"), approval["lexical_sha256"]),
+    ):
+        if actual != expected_hash:
+            raise ValueError(f"context migration fingerprint mismatch: {actual} != {expected_hash}")
+    summary = candidate["summary"]
+    if (summary["outputs_sha256"] != approval["new_evaluator_sha256"]
+            or summary["lexical_outputs_sha256"] != approval["lexical_sha256"]
+            or summary["legacy_subset_sha256"] != approval["legacy_subset_sha256"]):
+        raise ValueError("context migration summary disagrees with approved projections")
+    for field in ("total_lexemes", "accepted", "rejected", "matched", "mismatched",
+                  "ambiguous_outputs", "legacy_subset_count", "legacy_subset_sha256"):
+        if summary[field] != previous["summary"][field]:
+            raise ValueError(f"unapproved baseline summary drift: {field}")
+
+
+def read_baseline(outputs_path: Path, summary_path: Path) -> dict:
+    with outputs_path.open(encoding="utf-8", newline="") as handle:
+        records = list(csv.DictReader(handle, delimiter="\t"))
+    return {"records": records, "summary": json.loads(summary_path.read_text(encoding="utf-8"))}
+
+
+def validate_cell_transition(previous: dict, candidate: dict, approval: dict) -> None:
+    fields = {"proto", "proto_norm", "fst_input", "counterpart", "outputs"}
+    summary_fields = {"outputs_sha256", "lexical_outputs_sha256", "legacy_subset_sha256"}
+    required_fields = {
+        "adjudication", "adjudication_memo", "previous_summary",
+        "legacy_archive_sha256", "changes",
+    }
+    if (not isinstance(approval, dict)
+            or set(approval) not in (required_fields, required_fields | {"transition_id"})
+            or not isinstance(approval["adjudication"], str) or not re.fullmatch(
+        r"SC[0-9]{3}", approval["adjudication"]
+    )):
+        raise ValueError("invalid paradigm-cell migration approval")
+    if "transition_id" in approval and (
+        not isinstance(approval["transition_id"], str)
+        or not re.fullmatch(r"[a-z][a-z0-9_]*", approval["transition_id"])
+    ):
+        raise ValueError("invalid selected-input transition id")
+    if (not isinstance(approval["previous_summary"], dict)
+            or set(approval["previous_summary"]) != summary_fields
+            or not isinstance(approval["changes"], list)
+            or approval["adjudication_memo"] !=
+            f"Germanic/docs/sound_changes/audits/{approval['adjudication'].lower()}-adjudication.md"):
+        raise ValueError("invalid paradigm-cell migration approval")
+    for value in [*approval["previous_summary"].values(), approval["legacy_archive_sha256"]]:
+        if not isinstance(value, str) or not re.fullmatch(r"[0-9a-f]{64}", value):
+            raise ValueError("invalid paradigm-cell approval fingerprint")
+    for field, value in approval["previous_summary"].items():
+        if previous["summary"].get(field) != value:
+            raise ValueError(f"paradigm-cell previous summary mismatch: {field}")
+    before = {row["row_id"]: row for row in previous["records"]}
+    after = {row["row_id"]: row for row in candidate["records"]}
+    if (len(before) != len(previous["records"]) or len(after) != len(candidate["records"])
+            or not all(before) or before.keys() != after.keys()):
+        raise ValueError("paradigm-cell migration has duplicate, missing or changed identities")
+    changes = {}
+    for change in approval["changes"]:
+        if (not isinstance(change, dict) or set(change) != {"row_id", "before", "after"}
+                or not isinstance(change["row_id"], str) or not change["row_id"]
+                or not isinstance(change["before"], dict) or not isinstance(change["after"], dict)
+                or set(change["before"]) != fields or set(change["after"]) != fields
+                or not all(isinstance(value, str) and value
+                           for side in ("before", "after") for value in change[side].values())
+                or change["before"] == change["after"]
+                or change["row_id"] in changes):
+            raise ValueError("invalid or duplicate paradigm-cell migration")
+        changes[change["row_id"]] = change
+    if not changes or not changes.keys() <= before.keys():
+        raise ValueError("paradigm-cell migration names no valid identities")
+    for identifier, old in before.items():
+        expected = dict(old)
+        if identifier in changes:
+            change = changes[identifier]
+            if any(old[field] != value for field, value in change["before"].items()):
+                raise ValueError(f"paradigm-cell old record mismatch: {identifier}")
+            expected.update(change["after"])
+            if (expected["proto_norm"] != normalize_proto(expected["proto"])
+                    or expected["counterpart"] not in expected["outputs"].split("|")):
+                raise ValueError(f"invalid paradigm-cell replacement: {identifier}")
+        if after[identifier] != expected:
+            raise ValueError(f"unapproved paradigm-cell record drift: {identifier}")
+        outputs = expected["outputs"].split("|") if expected["outputs"] else []
+        context = InputContext(expected["word_stress"], expected["phonological_finality"])
+        if (context.encode(expected["proto_norm"]) != expected["fst_input"]
+                or int(expected["output_count"]) != len(outputs)
+                or (expected["accepted"] == "1") != bool(outputs)
+                or (expected["match"] == "1") != (expected["counterpart"] in outputs)):
+            raise ValueError(f"inconsistent paradigm-cell replacement: {identifier}")
+    for field in ("outputs_sha256", "lexical_outputs_sha256"):
+        input_field = "fst_input" if field == "outputs_sha256" else "proto_norm"
+        if previous["summary"][field] != projection_sha256(previous["records"], input_field):
+            raise ValueError(f"paradigm-cell previous fingerprint mismatch: {field}")
+        if candidate["summary"][field] != projection_sha256(candidate["records"], input_field):
+            raise ValueError(f"paradigm-cell fingerprint mismatch: {field}")
+    for field, value in previous["summary"].items():
+        if field not in {"outputs_sha256", "lexical_outputs_sha256", "legacy_subset_sha256"}:
+            if candidate["summary"].get(field) != value:
+                raise ValueError(f"unapproved paradigm-cell summary drift: {field}")
+
+
+def adopt_cell_baseline(candidate: dict, out_dir: Path, approval: dict) -> None:
+    if not isinstance(approval, dict) or not isinstance(approval.get("adjudication"), str) or not re.fullmatch(
+        r"SC[0-9]{3}", approval["adjudication"]
+    ):
+        raise ValueError("invalid paradigm-cell adjudication")
+    if "transition_id" in approval and (
+        not isinstance(approval["transition_id"], str)
+        or not re.fullmatch(r"[a-z][a-z0-9_]*", approval["transition_id"])
+    ):
+        raise ValueError("invalid selected-input transition id")
+    outputs_path = out_dir / "cascade_baseline_outputs.tsv"
+    summary_path = out_dir / "cascade_baseline_summary.json"
+    suffix = approval["adjudication"].lower()
+    if "transition_id" in approval:
+        suffix += "_" + approval["transition_id"]
+    archive_outputs = out_dir / f"cascade_baseline_outputs_pre_{suffix}.tsv"
+    archive_summary = out_dir / f"cascade_baseline_summary_pre_{suffix}.json"
+    current = read_baseline(outputs_path, summary_path)
+    if archive_outputs.exists() != archive_summary.exists():
+        raise ValueError("incomplete pre-cell baseline archive")
+    previous = read_baseline(archive_outputs, archive_summary) if archive_outputs.exists() else current
+    validate_cell_transition(previous, candidate, approval)
+    with (out_dir / "cascade_baseline_outputs_legacy380.tsv").open(encoding="utf-8") as handle:
+        legacy_rows = list(csv.DictReader(handle, delimiter="\t"))
+    if projection_sha256(legacy_rows, "proto_norm") != approval["legacy_archive_sha256"]:
+        raise ValueError("immutable legacy380 archive fingerprint changed")
+    with (out_dir / "approved_input_migrations.tsv").open(encoding="utf-8") as handle:
+        migrations = list(csv.DictReader(handle, delimiter="\t"))
+    selected = legacy_subset(candidate["records"], legacy_rows, migrations)
+    if projection_sha256(selected, "proto_norm") != candidate["summary"]["legacy_subset_sha256"]:
+        raise ValueError("paradigm-cell active legacy fingerprint mismatch")
+    if archive_outputs.exists() and current == candidate:
+        return
+    if current != previous:
+        raise ValueError("active baseline differs from preserved pre-cell baseline")
+    if not archive_outputs.exists():
+        archive_outputs.write_bytes(outputs_path.read_bytes())
+        archive_summary.write_bytes(summary_path.read_bytes())
+    write_outputs(candidate, out_dir)
+
+
+def adopt_context_baseline(candidate: dict, out_dir: Path, approval: dict) -> None:
+    outputs_path = out_dir / "cascade_baseline_outputs.tsv"
+    summary_path = out_dir / "cascade_baseline_summary.json"
+    archive_outputs = out_dir / "cascade_baseline_outputs_pre_sc031_sc098.tsv"
+    archive_summary = out_dir / "cascade_baseline_summary_pre_sc031_sc098.json"
+    current = read_baseline(outputs_path, summary_path)
+    if archive_outputs.exists() != archive_summary.exists():
+        raise ValueError("incomplete pre-context baseline archive")
+    previous = (
+        read_baseline(archive_outputs, archive_summary)
+        if archive_outputs.exists() else current
+    )
+    validate_context_transition(previous, candidate, approval)
+    legacy_path = out_dir / "cascade_baseline_outputs_legacy380.tsv"
+    with legacy_path.open(encoding="utf-8", newline="") as handle:
+        legacy_rows = list(csv.DictReader(handle, delimiter="\t"))
+    if projection_sha256(legacy_rows, "proto_norm") != approval["legacy_archive_sha256"]:
+        raise ValueError("immutable legacy380 archive fingerprint changed")
+    if current["summary"]["outputs_sha256"] == approval["new_evaluator_sha256"]:
+        if not archive_outputs.exists() or current != candidate:
+            raise ValueError("active context baseline lacks its archive or differs from fresh evaluation")
+        return
+    if current != previous:
+        raise ValueError("active baseline no longer equals the preserved pre-context baseline")
+    if not archive_outputs.exists():
+        archive_outputs.write_bytes(outputs_path.read_bytes())
+        archive_summary.write_bytes(summary_path.read_bytes())
+    write_outputs(candidate, out_dir)
 
 
 def write_outputs(baseline: dict[str, object], out_dir: Path) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     records = baseline["records"]  # type: ignore[index]
-    fields = ["concept", "proto", "proto_norm", "counterpart", "accepted", "output_count", "match", "outputs"]
+    fields = ["row_id", "concept", "proto", "proto_norm", "fst_input", "word_stress",
+              "phonological_finality", "counterpart", "accepted", "output_count", "match", "outputs"]
     tsv_lines = ["\t".join(fields)]
     for r in records:  # type: ignore[assignment]
         tsv_lines.append("\t".join(str(r[f]) for f in fields))

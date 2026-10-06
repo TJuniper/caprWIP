@@ -320,7 +320,7 @@ OE I Umlaut & \emph{*byrdi} \\
 
 Kroonen cites the noun under stem-level _\*burdi-_ and gives Old English _(ge-)byrd_ among the reflexes [@Kroonen2013, 122]. The form followed here, _\*búrdiz_, is the nominative-style form that stands behind that stem label. Clark Hall and Bosworth-Toller both attest simplex _byrd_ as an Old English noun meaning 'birth' [@ClarkHall1960, 70; @BosworthToller1898, 125]. From _\*búrdiz_, loss of final _z_ gives _\*búrdi_.
 
-Form note. The relevant comparator here is the simplex noun _byrd_. The prefixed forms remain related attested material within the same lexical family, and Hogg's discussion of deverbal feminines provides the broader derivational setting [@Hogg1992, 357].
+Form note. The relevant comparator here is the simplex noun _byrd_. The prefixed forms remain related attested material within the same lexical family, and Kastovsky's discussion of deverbal feminines provides the broader derivational setting [@Kastovsky1992, p. 358].
 
 ### bone — OE bān
 
@@ -2217,7 +2217,7 @@ OE Unstressed EI Contraction & \emph{*ʃḗawian} \\
 
 Orel and Kroonen place the verb in the ordinary class-II show-family, and Brunner records Old English _scēawian_, _scāwian_ [@Orel2003, 339; @Kroonen2013, 482; @SieversBrunner1965, 148]. From _\*skáwōjaną_, _aw_ before a following vowel yields Old English _ēaw_, while the class-II suffix preserves _ō_ between _w_ and _j_. The result is _sċēawian_ [@Campbell1959, 138; @Orel2003, 339].
 
-Form note. The spelling _sċēawian_ normalizes initial <sc> in dictionary _scēawian_ [@Campbell1959, 19; @Hogg1992, 236].
+Form note. The spelling _sċēawian_ normalizes initial <sc> in dictionary _scēawian_ [@Campbell1959, 19; @HoggPhonology1992, p. 90].
 
 ### sleep — OE slǣpan
 
@@ -2695,7 +2695,7 @@ OE J Loss After Heavy & \emph{*θenʧan} \\
 }
 \endgroup
 
-Kroonen gives the verb as _\*þankjan-_ 'to think' [@Kroonen2013, 533]. The noun _\*þankaz_ belongs only to the wider derivational background. Bosworth-Toller preserves the verb under _þencan_/_geþencan_, and the citation form here is the ordinary infinitive _þenċan_ [@BosworthToller1898, 442]. From _\*θánkijaną_, palatalization before _\*j_ and i-umlaut produce _þenċan_. Campbell's assibilation discussion uses the same verb _þencan_; the class-III relic _hycgan_ is a different lexeme [@Campbell1959, §438; @Hogg1992, §3.4.2.4].
+Kroonen gives the verb as _\*þankjan-_ 'to think' [@Kroonen2013, 533]. The noun _\*þankaz_ belongs only to the wider derivational background. Bosworth-Toller preserves the verb under _þencan_/_geþencan_, and the citation form here is the ordinary infinitive _þenċan_ [@BosworthToller1898, 442]. From _\*θánkijaną_, palatalization before _\*j_ and i-umlaut produce _þenċan_. Campbell's assibilation discussion uses the same verb _þencan_; the class-III relic _hycgan_ is a different lexeme [@Campbell1959, §438; @HoggPhonology1992, §3.4.2.4].
 
 ### thorn — OE þorn
 
@@ -2967,7 +2967,7 @@ OE Weak Tail Reduction & \emph{*wéorpan} \\
 }
 \endgroup
 
-Ringe and Taylor give preterite _\*warp_ [@RingeTaylor2014, 195] and infinitive _\*werpana_ [@RingeTaylor2014, 197]. The derivational input here is the verbal form _\*wérpaną_. Clark Hall records _weorpan_ as the strong verb headword and separately lists _wearp_ as both noun and preterite. Breaking before _r + C_ yields _weor-_, and the infinitive develops regularly to _weorpan_ [@Campbell1959, §146; @Hogg1992, §3.4.2.2]. English *warp* also points to related _wearp_ material. The form compared here is the infinitive _weorpan_.
+Ringe and Taylor give preterite _\*warp_ [@RingeTaylor2014, 195] and infinitive _\*werpana_ [@RingeTaylor2014, 197]. The derivational input here is the verbal form _\*wérpaną_. Clark Hall records _weorpan_ as the strong verb headword and separately lists _wearp_ as both noun and preterite. Breaking before _r + C_ yields _weor-_, and the infinitive develops regularly to _weorpan_ [@Campbell1959, §146; @HoggPhonology1992, §3.4.2.2]. English *warp* also points to related _wearp_ material. The form compared here is the infinitive _weorpan_.
 
 ### wash — OE wascan
 
@@ -5365,7 +5365,7 @@ The development discussed here follows the Ringe-Taylor alternant framework.
 Clark Hall records the attested citation form _nǣdl_ [@ClarkHall1960, 210].
 Campbell lists _nédl_ among the expected unbroken forms after _t_ and _d_
 [@Campbell1959, §367]. Hogg also includes _nidi_ / _nǣdl_ in the same broader
-cluster history [@Hogg1992, 95].
+cluster history [@HoggGrammar1992].
 
 The target is therefore an attested citation form. No oblique-cell substitution
 is involved in this entry.
@@ -8351,7 +8351,7 @@ The singular and plural evidence point to different parts of the paradigm. The r
 
 #### Development to Old English
 
-Proto-Germanic _\*skúldramiz_ can be interpreted as a dative/instrumental plural form. In this environment the post-tonic _a_ before _m_ is raised to _u_, giving a form of the _\*skúldrumiz_ type. Unstressed _u_ is regularly preserved before _m_, especially in the dative plural ending _-um_: Campbell states this explicitly, and Hogg formulates the same condition for the dative plural inflexion [@Campbell1959, §373; @Hogg1992, §3.3.1.3]. Brunner points in the same direction by excluding _m_ from the environments in which medial _o_ became general in West Saxon [@SieversBrunner1965, §44 Anm. 7].
+Proto-Germanic _\*skúldramiz_ can be interpreted as a dative/instrumental plural form. In this environment the post-tonic _a_ before _m_ is raised to _u_, giving a form of the _\*skúldrumiz_ type. Unstressed _u_ is regularly preserved before _m_, especially in the dative plural ending _-um_: Campbell states this explicitly, and Hogg formulates the same condition for the dative plural inflexion [@Campbell1959, §373; @HoggPhonology1992, §3.3.1.3]. Brunner points in the same direction by excluding _m_ from the environments in which medial _o_ became general in West Saxon [@SieversBrunner1965, §44 Anm. 7].
 
 Subsequent reduction of the ending removes the final _\*i_ and _\*z_, so that the inflectional ending appears in Old English as _-um_. The initial cluster is written here as _sċ-_, and the development is _\*skúldramiz_ > _\*skúldrumiz_ > _\*skúldrum_ > _sċuldrum_.
 
@@ -9758,7 +9758,7 @@ morphological remodeling.
 
 #### Development to Old English
 
-From _\*fūri_, i-umlaut changes _ū_ to _ȳ_ [@Hogg1992, §3.3.3.1]. Subsequent
+From _\*fūri_, i-umlaut changes _ū_ to _ȳ_ [@HoggPhonology1992, §3.3.3.1]. Subsequent
 loss of the final high vowel after a heavy syllable yields _fȳr_
 [@Campbell1959, §345]. The inherited phonology is complete at that point.
 

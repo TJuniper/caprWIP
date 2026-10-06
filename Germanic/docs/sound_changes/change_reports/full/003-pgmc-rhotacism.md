@@ -10,7 +10,7 @@ That does not make the CAPR rule name unusable. It does mean the backend apparat
 
 #### Source tradition
 
-The source support for the phenomenon itself is strong. Hogg states succinctly that Germanic `/z/` yielded `/r/` in intervocalic position in Old English, though it was generally lost finally [@Hogg1992, p. 37]. Ringe and Taylor go farther: they first note that the change occurred independently in Norse and WGmc and was not uniform even in the latter [@RingeTaylor2014, p. 52], and later advise assigning the process to the post-PWGmc period [@RingeTaylor2014, pp. 98, 102]. Crist's analysis aligns with that caution by arguing that rhotacism is not inherited from Proto-Northwest Germanic and must follow earlier WGmc `*z`-deletion rules [@Crist2001, pp. 104-106; @Crist2002, pp. 1, 4].
+The source support for the phenomenon itself is strong. Bammesberger states succinctly that Germanic `/z/` yielded `/r/` in intervocalic position in Old English, though it was generally lost finally [@Bammesberger1992, p. 39]. Ringe and Taylor go farther: they first note that the change occurred independently in Norse and WGmc and was not uniform even in the latter [@RingeTaylor2014, p. 52], and later advise assigning the process to the post-PWGmc period [@RingeTaylor2014, pp. 98, 102]. Crist's analysis aligns with that caution by arguing that rhotacism is not inherited from Proto-Northwest Germanic and must follow earlier WGmc `*z`-deletion rules [@Crist2001, pp. 104-106; @Crist2002, pp. 1, 4].
 
 This is enough source support not only for a backend report but for a cautious historical label. The clearest sources support the change itself strongly and support locating it in the West Germanic area after PWGmc rather than at Proto-Germanic proper.
 

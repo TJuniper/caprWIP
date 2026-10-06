@@ -1,7 +1,7 @@
 # SC052 OE Velar Palatalization — chronology evidence card
 
-## Current position
-- current_order: `52`
+## Position at experiment time
+- order_at_experiment_time: `52`
 - rule_name: `OEVelarPalatalization`
 - safe computational window: `51-54`
 - status: `first_break_complete`

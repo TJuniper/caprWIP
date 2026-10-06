@@ -7,7 +7,7 @@ West Saxon *giefan* ‘give’ and *wefan* ‘weave’ stand against non-West-Sa
 dialectal profile of back mutation [@RingeTaylor2014, p. 319, §6.9.4].
 Campbell's treatment of diphthongization before following back vowels includes
 *heofon* ‘heaven’ [@Campbell1959, p. 86, §207], while Hogg draws the instructive
-comparison with breaking [@Hogg1992, p. 112]. Fulk accordingly separates back
+comparison with breaking [@HoggPhonology1992, p. 113]. Fulk accordingly separates back
 mutation from the earlier umlautal changes [@Fulk2018, p. 69, §4.8].
 
 ## SC059. Back mutation before labials and liquids (`OEBackMutation`) {#rule-OEBackMutation}

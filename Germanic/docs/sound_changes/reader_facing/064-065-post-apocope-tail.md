@@ -8,7 +8,7 @@ and oblique OE \emph{fyrhte} supplies the relevant evidence
 [@Orel2003, p. 120; @RingeTaylor2014, pp. 380--381; @Campbell1959, p. 236, §589.7].
 No comparable witness orders the medial syncope that follows. Hogg, Ringe and Taylor, and Fulk describe both
 processes within the late history of weak syllables
-[@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 264--303, §§6.7.3--6.8.4;
+[@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 264--303, §§6.7.3--6.8.4;
 @Fulk2018, p. 91, §5.6].
 
 ## SC064. Loss of stem-final \emph{*n} after long \emph{*ī} (`NWGmcInStemNLoss`) {#rule-NWGmcInStemNLoss}
@@ -38,7 +38,7 @@ genitive derivation and depend on one inherited lexeme/paradigm.
 
 Loss of medial \emph{*i} before dentals belongs to the late weak-tail history
 described by Hogg, Ringe and Taylor, and Fulk
-[@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 264--303, §§6.7.3--6.8.4;
+[@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 264--303, §§6.7.3--6.8.4;
 @Fulk2018, p. 91, §5.6].
 
 ```foma

@@ -105,10 +105,10 @@ For `fast / festan`, the prose was tightened to the page-safe `*fastu-` / derive
 
 The remaining non-witness rows were all re-inspected:
 
-- `birth / byrd — Hogg1992`
+- `birth / byrd — HoggPhonology1992`
 - `warp / weorpan — RingeTaylor2014`
 - `fast / festan — RingeTaylor2014`
-- `needle / nǣdl — Hogg1992`
+- `needle / nǣdl — HoggPhonology1992`
 - `world / weorold — SieversBrunner1965`
 - `ban / bannes — Campbell1959`
 - `fright / fyrhte — RingeTaylor2014`
@@ -149,7 +149,7 @@ The current watchlist is recorded in `Germanic/docs/assembly/citation_locator_un
 
 | Entry | Source | Exact source-specific reason it remains broad | Category | Acceptable for now? | What would be required to resolve it |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| birth / byrd | Hogg1992 | Hogg still treats _byrd_ within a broader deverbal-feminine cluster discussion rather than on one page devoted to the simplex noun alone. | claim-isolation | yes | Keep the broad handbook citation unless the sentence is split to isolate the exact deverbal-feminine point. |
+| birth / byrd | HoggPhonology1992 | Hogg still treats _byrd_ within a broader deverbal-feminine cluster discussion rather than on one page devoted to the simplex noun alone. | claim-isolation | yes | Keep the broad handbook citation unless the sentence is split to isolate the exact deverbal-feminine point. |
 | still / stillan | KlugeSeebold2011 | The local Kluge OCR confirms the wider _still/stillen_ family, but every local witness remains unpaginated. | source-witness | yes | Use a paginated Kluge-Seebold witness or another page-labeled comparative dictionary for the same entry. |
 | still / stillan | KlugeSeebold2011 | The adjective-versus-verb family framing is visible in local Kluge OCR, but no local witness provides safe printed page markers. | source-witness | yes | Use a paginated Kluge-Seebold witness or recast the family note around already localized sources only. |
 | warp / weorpan | RingeTaylor2014 | The Ringe-Taylor discussion still supports the preterite-versus-infinitive distinction behind the selected verbal input, but the exact page for that contrast remains distributed across the class discussion. | claim-isolation | yes | Retain broad unless the preterite/infinitive contrast is split from the rest of the derivational sentence. |
@@ -157,7 +157,7 @@ The current watchlist is recorded in `Germanic/docs/assembly/citation_locator_un
 | knight / cniht | KlugeSeebold2011 | The local Kluge OCR confirms the _*knehta-_ family, but no paginated local witness is available. | source-witness | yes | Use a paginated Kluge-Seebold witness or another page-labeled comparative dictionary for the same family. |
 | loam / lām | BosworthToller1898 | The local Bosworth search recovered page-safe _clām_ material on p. 139, but not a page-safe _lām_ headword; the current citation therefore cannot yet be localized to the attested target noun. | source-preparation | yes | Recover a page-image/base-dictionary witness that shows _lām_ with a printed page, or keep the broad corroborating citation pending better source preparation. |
 | neck / hnecca | KlugeSeebold2011 | The local Kluge OCR confirms the a-grade _Nacken_ family comparison, but the witness is unpaginated. | source-witness | yes | Use a paginated Kluge-Seebold witness for the _Nacken_ entry. |
-| needle / nǣdl | Hogg1992 | Hogg treats _nidi_ / _nǣdl_ inside a broader cluster-history discussion rather than in a single page-localizable entry note. | claim-isolation | yes | Keep the broad handbook citation unless the historical-background sentence is split further. |
+| needle / nǣdl | HoggPhonology1992 | Hogg treats _nidi_ / _nǣdl_ inside a broader cluster-history discussion rather than in a single page-localizable entry note. | claim-isolation | yes | Keep the broad handbook citation unless the historical-background sentence is split further. |
 | sieve / sife | KlugeSeebold2011 | The local Kluge OCR confirms the West Germanic _*sibi-_ line, but the witness is unpaginated. | source-witness | yes | Use a paginated Kluge-Seebold witness for the sieve entry. |
 | world / weorold | KlugeSeebold2011 | The local Kluge OCR confirms compound _*wira-aldō_ beside simplex _*wera-_, but the witness is unpaginated. | source-witness | yes | Use a paginated Kluge-Seebold witness for the world-family entry. |
 | world / weorold | SieversBrunner1965 | The Sievers-Brunner citation still covers a distributed paradigm set (_weorold / world / wurold_) rather than one safely isolatable section. | claim-isolation | yes | Retain broad unless the variant-set sentence is split into a narrower localized clause. |

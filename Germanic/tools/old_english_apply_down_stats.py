@@ -7,6 +7,7 @@ import re
 import subprocess
 from pathlib import Path
 from typing import Dict, List
+from oe_pipeline import evaluation_input, load_rows as load_selected_rows
 
 PROTO_STRIP_RE = re.compile(r"[{}*\s\-/()]")
 
@@ -44,26 +45,7 @@ def run_apply_down(bin_path: Path, form: str) -> List[str]:
 
 
 def load_rows(tsv_path: Path) -> List[Dict[str, str]]:
-    rows: List[Dict[str, str]] = []
-    with tsv_path.open(encoding="utf-8") as handle:
-        reader = csv.DictReader(handle, delimiter="\t")
-        for row in reader:
-            if row.get("DOCULECT") != "Old_English":
-                continue
-            proto = row.get("PROTO", "").strip()
-            counterpart = row.get("COUNTERPART", "").strip()
-            if not proto or not counterpart or counterpart == "-":
-                continue
-            norm = normalize_proto(proto)
-            if not norm:
-                continue
-            rows.append({
-                "concept": row.get("CONCEPT", ""),
-                "proto": proto,
-                "norm": norm,
-                "counterpart": counterpart,
-            })
-    return rows
+    return [{**row, "norm": row["proto_norm"]} for row in load_selected_rows(tsv_path)]
 
 
 def main() -> None:
@@ -103,7 +85,7 @@ def main() -> None:
     mismatches: List[Dict[str, str]] = []
 
     for row in rows:
-        outputs = run_apply_down(bin_path, row["norm"])
+        outputs = run_apply_down(bin_path, evaluation_input(row))
         row_outputs = outputs
         row["outputs"] = row_outputs
         if not row_outputs:

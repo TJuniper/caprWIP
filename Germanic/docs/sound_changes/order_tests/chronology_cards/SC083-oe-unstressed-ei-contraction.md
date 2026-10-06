@@ -1,7 +1,7 @@
 # SC083 OE Unstressed EI Contraction — chronology evidence card
 
-## Current position
-- current_order: `82`
+## Position at experiment time
+- order_at_experiment_time: `82`
 - rule_name: `OEUnstressedEIContraction`
 - safe computational window: `82-86` (later side runner-bounded)
 - status: `first_break_complete`

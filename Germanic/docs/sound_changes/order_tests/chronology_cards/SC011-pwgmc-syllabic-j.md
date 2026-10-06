@@ -1,7 +1,7 @@
 # SC011 PWGmc Syllabic J — chronology evidence card
 
-## Current position
-- current_order: `11`
+## Position at experiment time
+- order_at_experiment_time: `11`
 - rule_name: `PWGmcSyllabicJ`
 - safe computational window: `11-86` (earlier side local reciprocal; later side boundary-only)
 - status: `first_break_complete`

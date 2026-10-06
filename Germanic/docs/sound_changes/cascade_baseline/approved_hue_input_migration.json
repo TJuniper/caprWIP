@@ -1,0 +1,30 @@
+{
+  "adjudication": "SC033",
+  "adjudication_memo": "Germanic/docs/sound_changes/audits/sc033-adjudication.md",
+  "transition_id": "hue",
+  "previous_summary": {
+    "outputs_sha256": "ffad47aefc01423953fc57784fe6a6f6cef31dcca9bbdbb7b36b06a63dc552bc",
+    "lexical_outputs_sha256": "76bb0ffda672c700cc5b1cfe95a0ec491047d65ccbfaff290209842fabf3d344",
+    "legacy_subset_sha256": "70bdaba537d8f6b6bb7d872d00eefbef75127d2d77689af7ba01b35a79ebce39"
+  },
+  "legacy_archive_sha256": "fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf",
+  "changes": [
+    {
+      "row_id": "2332",
+      "before": {
+        "proto": "*xéwją",
+        "proto_norm": "xéwją",
+        "fst_input": "xéwją",
+        "counterpart": "hīew",
+        "outputs": "hīew"
+      },
+      "after": {
+        "proto": "*xíwją",
+        "proto_norm": "xíwją",
+        "fst_input": "xíwją",
+        "counterpart": "hīew",
+        "outputs": "hīew"
+      }
+    }
+  ]
+}

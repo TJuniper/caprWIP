@@ -45,7 +45,7 @@ Checked against `docs/refs.bib`:
 
 - `Campbell1959`
 - `ClarkHall1960`
-- `Hogg1992`
+- `HoggPhonology1992`
 - `Kroonen2013`
 - `Orel2003`
 - `Ringe2006`
@@ -74,7 +74,7 @@ Citation locator claim-isolation 02 tightened the remaining broad claims and add
 
 ## Generated-final audit 09
 
-- Generated-final audit 09: localized final broad citation to `Hogg1992, 95`.
+- Generated-final audit 09: localized final broad citation to `HoggPhonology1992, 95`.
 
 ## Prose-regression audit 02
 

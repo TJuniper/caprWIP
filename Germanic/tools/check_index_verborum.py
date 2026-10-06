@@ -873,9 +873,23 @@ def assert_broad_prose_buckets() -> None:
     # The compound form is retained in the table row at a different line.
 
     reader_pairs = parse_audit_bucket_pairs("Reader-facing examples quarantined (separate example index policy)")
-    reader_source = "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_19.md:"
-    for form in {"*bacan", "*fúrxtīnaz", "ġeoc"}:
+    reader_source = "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md:"
+    for form in {"*bacan", "*fúrxtīnaz"}:
         assert any(item_form == form and source_ref.startswith(reader_source) for item_form, source_ref in reader_pairs)
+    # Explicit reader-facing evidence is promoted into the production index;
+    # untyped pedagogical examples remain in the quarantine bucket.
+    _geoc_in_quarantine = any(
+        form == "ġeoc" and source_ref.startswith(reader_source)
+        for form, source_ref in reader_pairs
+    )
+    _geoc_in_production = any(
+        row["form"] == "ġeoc" and row["source_ref"].startswith(reader_source)
+        for row in load_forms_rows()
+    )
+    assert _geoc_in_quarantine or _geoc_in_production, (
+        "ġeoc not found in reader-example quarantine or production index; "
+        "retain explicit reader-facing evidence indexing"
+    )
 
     prose_pairs = parse_audit_bucket_pairs("Ordinary prose/gloss ignored")
     intro_source = "Germanic/docs/assembly/capr_book_intro_alpha_01.md:"

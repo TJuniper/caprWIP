@@ -277,7 +277,7 @@ _None_
 
 | Key | Why it was selected |
 | :--- | :--- |
-| Hogg1992 | author + year mention (Hogg 1992) |
+| HoggPhonology1992 | author + year mention (Hogg 1992) |
 | Campbell1959 | author + year mention (Campbell 1959) |
 | Kroonen2013 | default Proto-Germanic etymology key for Kroonen |
 

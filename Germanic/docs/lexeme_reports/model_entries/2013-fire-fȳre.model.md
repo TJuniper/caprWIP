@@ -41,7 +41,7 @@ morphological remodeling.
 
 ### Development to Old English
 
-From [fūri]{.iv .recon lang=pgmc sort=furi role=selected_input} 'fire', i-umlaut changes `ū` to `ȳ` [@Hogg1992, §3.3.3.1]. Subsequent
+From [fūri]{.iv .recon lang=pgmc sort=furi role=selected_input} 'fire', i-umlaut changes `ū` to `ȳ` [@HoggPhonology1992, §3.3.3.1]. Subsequent
 loss of the final high vowel after a heavy syllable yields [`fȳr`]{.iv lang=oe sort=fyr role=regular_output} 'fire'
 [@Campbell1959, §345]. The inherited phonology is complete at that point.
 

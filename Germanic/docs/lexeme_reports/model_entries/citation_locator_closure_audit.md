@@ -44,7 +44,7 @@ The live corpus still contains **625** broad source occurrences. Most are delibe
 
 | Category | Count | Main sources / note |
 | :--- | ---: | :--- |
-| acceptable broad handbook/background citation | 58 | Untargeted background sources such as `SieversBrunner1965`, `Hogg1992`, `Lloyd1966`, `Ringe2006`, `Bulbring1902`, `Bammesberger1997`, `Mayrhofer1992`, `Streitberg1896`, `Sweet1953`, and similar one-off background citations |
+| acceptable broad handbook/background citation | 58 | Untargeted background sources such as `SieversBrunner1965`, `HoggPhonology1992`, `Lloyd1966`, `Ringe2006`, `Bulbring1902`, `Bammesberger1997`, `Mayrhofer1992`, `Streitberg1896`, `Sweet1953`, and similar one-off background citations |
 | unresolved because source passage is multi-page or discussion-level | 144 | Known carry-forwards from `Campbell1959`, `Luick1914`, `RingeTaylor2014`, and `Fulk2018` |
 | unresolved because local Bosworth-Toller supplement lacks base-dictionary evidence | 33 | `BosworthToller1898` broad citations left broad intentionally after the conditional pass |
 | unresolved because page marker unavailable or unreliable | 14 | all remaining `KlugeSeebold2011` broad citations |

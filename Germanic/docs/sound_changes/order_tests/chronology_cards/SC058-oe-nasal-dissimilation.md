@@ -1,7 +1,7 @@
 # SC058 OE Nasal Dissimilation — chronology evidence card
 
-## Current position
-- current_order: `58`
+## Position at experiment time
+- order_at_experiment_time: `58`
 - rule_name: `OENasalDissimilation`
 - safe computational window: `13-86` (earlier side blocked; later side runner-bounded)
 - status: `first_break_complete`

@@ -11,7 +11,7 @@ their weight. The historical core is therefore not three equally standard
 handbook laws, but one narrower sequence: medial syncope is strongly supported,
 downstream cluster simplification is moderately supported, and CAPR's exact
 three-rule segmentation is supported only unevenly
-[@Campbell1959, §§345--349, 388--389; @Hogg1992, pp. 120--121;
+[@Campbell1959, §§345--349, 388--389; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, §§6.7.3--6.7.5, 6.8.1--6.8.2; @Luick1914, §§304--307;
 @SieversBrunner1965, §§157--159].
 
@@ -22,7 +22,7 @@ core: medial unaccented vowels are lost after short syllables, especially where
 the result is a consonant + `l/r` cluster, which makes him especially useful for
 SC066 [@Campbell1959, §§388--389]. Hogg is valuable at the broader structural
 level, since he keeps apocope, syncope, and the simplification of over-heavy
-consonant groups in one connected late weak-tail story [@Hogg1992, pp. 120--121].
+consonant groups in one connected late weak-tail story [@HoggPhonology1992, p. 121].
 Ringe and Taylor provide the clearest staged formulation for this report: they
 distinguish general syncope from later apocope, treat `nettle` as a syncope
 type, and state explicitly that geminates are simplified next to another
@@ -47,7 +47,7 @@ makes the cleanup logic explicit, but the book should not imply that the
 handbooks routinely isolate SC067 as a coequal sound law. SC067 is better read
 as a model-internal bridge or cleanup step between the stronger historical poles
 of syncope and post-syncope cluster simplification
-[@Hogg1992, pp. 120--121; @RingeTaylor2014, §§6.7.3--6.7.5, 6.8.1--6.8.2].
+[@HoggPhonology1992, p. 121; @RingeTaylor2014, §§6.7.3--6.7.5, 6.8.1--6.8.2].
 
 #### Place in the cascade
 

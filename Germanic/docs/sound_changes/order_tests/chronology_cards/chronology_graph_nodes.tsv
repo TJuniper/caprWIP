@@ -6,9 +6,9 @@ SC017	17	NWGmc U Lowering	SC017-nwgmc-u-lowering.md	yes	no	no	no	-
 SC018	18	NWGmc Stressed Monosyllable O Raising	SC018-nwgmc-stressed-monosyllable-o-raising.md	no	no	yes	no	currently represented only through excluded relations
 SC019	19	NWGmc Final Long O Raising	SC019-nwgmc-final-long-o-raising.md	yes	yes	no	no	-
 SC020	20	PGmc Final Z Deletion	SC020-pgmc-final-z-deletion.md	yes	yes	no	no	-
-SC021	21	NWGmc Unstressed O Raising	SC021-nwgmc-unstressed-o-raising.md	no	yes	yes	no	no core edges; represented in contextual edges and excluded relation rows
-SC022	22	NWGmc Mn Dissimilation	SC022-nwgmc-mn-dissimilation.md	no	no	yes	no	currently represented only through excluded relations
-SC023	23	NWGmc N Stem N Loss	SC023-nwgmc-n-stem-n-loss.md	no	yes	yes	no	no core edges; represented in contextual edges and excluded relation rows
+SC021	retired	Retired NWGmc Unstressed O Raising	SC021-nwgmc-unstressed-o-raising.md	no	no	no	no	retired archival card; excluded from current graph candidacy
+SC022	22	Common Germanic Mn Dissimilation	SC022-nwgmc-mn-dissimilation.md	no	no	yes	no	currently represented only through excluded relations; historical stage Common Germanic, executable position is a holding-zone placement
+SC023	23	Proto-Germanic Word-Final N Loss	SC023-nwgmc-n-stem-n-loss.md	no	yes	yes	no	no core edges; represented in contextual edges and excluded relation rows; stage corrected to (pre-)PGmc per sc023-adjudication.md
 SC024	24	NWGmc Long E Lowering	SC024-nwgmc-long-e-lowering.md	no	yes	yes	no	no core edges; represented in contextual edges and excluded relation rows
 SC025	25	NWGmc Long E Nasal Rounding	SC025-nwgmc-long-e-nasal-rounding.md	no	no	yes	no	currently represented only through excluded relations
 SC026	26	NWGmc Nasal Spirant Lengthening	SC026-nwgmc-nasal-spirant-lengthening.md	yes	no	yes	no	-

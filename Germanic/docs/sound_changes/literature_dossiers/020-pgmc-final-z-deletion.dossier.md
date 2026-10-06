@@ -72,15 +72,15 @@ So SC020 is not merely a CAPR cleanup operation. But neither is the exact FOMA r
 - cautions or disagreements: Campbell does not present a neat standalone "final `*z` deletion" chapter; the evidence mixes final and non-final outcomes
 - usefulness for book prose: useful as a standard handbook anchor that the literature treats `z`-loss and rhotacism as later developments relative to other vocalic changes
 
-### Hogg 1992
+### Bammesberger 1992
 
-- source_key: Hogg1992
+- source_key: Bammesberger1992
 - full source title: *The Cambridge History of the English Language, Volume I*
 - publication year: 1992
 - locator: lines 2224-2227 in the local text witness
 - terminology used by the source: `rhotacism`; `in final position it is generally lost`
 - exact quotation: "Gmc /z/ yielded /r/ in intervocalic position in Old English ... but in final position it is generally lost."
-- paraphrase of the source's claim: Hogg offers a compact positional summary: intervocalic `z` rhotacizes, but final `z` is lost.
+- paraphrase of the source's claim: Bammesberger offers a compact positional summary: intervocalic `z` rhotacizes, but final `z` is lost.
 - conditioning stated by the source: final position versus intervocalic position
 - examples used by the source: the immediate illustration is the alternation behind the verb `choose`, not the CAPR `rest` example
 - chronology stated or implied by the source: the two outcomes are positional reflexes of Germanic `z` after Verner's Law

@@ -85,7 +85,7 @@ The new `human_review_needed` bucket is deliberately narrow. It captures cases w
 
 ## Examples of broad citations deliberately retained
 
-- `fire / fȳre`: the handbook trio `[@RingeTaylor2014; @Hogg1992; @Campbell1959]` still supports a bundled inherited-vs-analogical explanation, but the sentence would need artificial atomization to attach clean per-source locators.
+- `fire / fȳre`: the handbook trio `[@RingeTaylor2014; @HoggPhonology1992; @Campbell1959]` still supports a bundled inherited-vs-analogical explanation, but the sentence would need artificial atomization to attach clean per-source locators.
 - `wolf / wulf`: the remaining broad `[@SieversBrunner1965]` sentence is a control-form argument about hypothetical `wylf / wylfe`; it stays broad because the current sentence still combines the control-form logic with the entry-level conclusion.
 - `swan / swanes`: broad comparative family framing remains intentionally broad where the source functions as background rather than as a single page-bound claim.
 

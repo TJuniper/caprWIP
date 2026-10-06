@@ -36,6 +36,7 @@ from oe_mismatch_report import (  # noqa: E402
     load_rows,
     other_subtype,
 )
+from oe_pipeline import evaluation_input
 
 
 VALID_STATUSES = {"parked", "wontfix", "exception", "open"}
@@ -78,7 +79,7 @@ def collect_mismatches(
     """Return list of mismatch dicts: proto, output, expected, bucket."""
     mismatches: List[Dict[str, str]] = []
     for row in rows:
-        outputs = apply_down(bin_path, row["proto_norm"])
+        outputs = apply_down(bin_path, evaluation_input(row))
         expected = row["counterpart"]
         if outputs and expected in outputs:
             continue

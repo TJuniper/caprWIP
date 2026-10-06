@@ -53,14 +53,14 @@ of them:
 
 ### Hogg 1992
 
-- source_key: Hogg1992
-- locator: pp. 106--107; pp. 111--112
+- source_key: HoggPhonology1992
+- locator: pp. 107--108; pp. 111--112
 - terminology: palatalisation; assibilation; cluster `*/sk/`; palatal diphthongisation
 - short quotation: "The cluster `*/sk/` underwent a parallel change to `/ʃ/`."
-- paraphrase: Hogg gives one of the clearest direct descriptions of `*/sk/` as a special case within OE palatalization. He says the cluster change is more widespread than plain velar palatalization because the alveolar `s` reinforces movement toward the palate, and he explicitly distinguishes medial cases like `waste` from back-vowel-preserving forms like `ascad`. He then treats palatal diphthongization separately, after palatalization, as a further effect of the new palatals on following stressed vowels. [@Hogg1992, pp. 106--107, 111--112]
-- conditioning: word-initial `*/sk/` palatalizes broadly; medially it palatalizes only under the same conditions as `*/k/`, so `waste` is palatalized but `ascad` is not. Later palatal diphthongization affects following vowels in forms such as `sceap`. [@Hogg1992, pp. 106--107, 111--112]
-- chronology: Hogg's chapter order is particularly useful for CAPR. He treats `sk` palatalization before palatal diphthongization, which fits the local card claim that `SC051` must precede `SC056`. [@Hogg1992, pp. 106--107, 111--112]
-- examples: `waste`; `ascad`; `ascian`/`axian`; `scip`; `disc`; `æsc`; `sceap`. [@Hogg1992, pp. 106--107, 111--112]
+- paraphrase: Hogg gives one of the clearest direct descriptions of `*/sk/` as a special case within OE palatalization. He says the cluster change is more widespread than plain velar palatalization because the alveolar `s` reinforces movement toward the palate, and he explicitly distinguishes medial cases like `waste` from back-vowel-preserving forms like `ascad`. He then treats palatal diphthongization separately, after palatalization, as a further effect of the new palatals on following stressed vowels. [@HoggPhonology1992, pp. 112--113]
+- conditioning: word-initial `*/sk/` palatalizes broadly; medially it palatalizes only under the same conditions as `*/k/`, so `waste` is palatalized but `ascad` is not. Later palatal diphthongization affects following vowels in forms such as `sceap`. [@HoggPhonology1992, pp. 112--113]
+- chronology: Hogg's chapter order is particularly useful for CAPR. He treats `sk` palatalization before palatal diphthongization, which fits the local card claim that `SC051` must precede `SC056`. [@HoggPhonology1992, pp. 112--113]
+- examples: `waste`; `ascad`; `ascian`/`axian`; `scip`; `disc`; `æsc`; `sceap`. [@HoggPhonology1992, pp. 112--113]
 - cautions: Hogg strongly supports the distinctness of the `sk` development, but he still embeds it in a larger palatalization-and-assibilation chapter rather than treating it as fully independent from `k/g` palatalization.
 
 ### Ringe and Taylor 2014

@@ -4,7 +4,7 @@
 % This file is the single source of truth for citations across all
 % project markdown (DEV_NOTES.md, dossiers, README sections) and the
 % forthcoming LaTeX write-up. Cite from Markdown using pandoc-style
-% keys: [@Hogg1992], [@Hogg1992, §4.5], [-@Ringe2006] (suppress author).
+% keys: [@HoggPhonology1992], [@HoggGrammar1992, §4.11], [-@Ringe2006] (suppress author).
 % Pandoc converts these directly to biblatex \autocite{} commands.
 %
 % Conventions
@@ -27,13 +27,176 @@
 % Primary handbooks (PGmc → OE phonology and morphology)
 % =====================================================================
 
-@book{Hogg1992,
+% ---------------------------------------------------------------------
+% The two distinct works published by Richard M. Hogg in 1992
+% ---------------------------------------------------------------------
+% CAPR formerly cited both under a single key `Hogg1992`, which conflated
+% them. That key has been retired; cite one of the explicit keys below.
+%
+%   HoggGrammar1992    = A Grammar of Old English, vol. 1: Phonology
+%                        (Blackwell). Sole-authored. Cited by section
+%                        (§4.11, §5.10, §7.18 ...). The local witness is
+%                        the 2011 Wiley-Blackwell paperback, which is the
+%                        same text but REPAGINATED: 1992 page ~= 2011
+%                        page + 2 (identical up to about p. 24).
+%
+%   HoggCHEL1992       = The Cambridge History of the English Language,
+%                        vol. I, which Hogg EDITED. Multi-author; cite the
+%                        individual chapter authors below, not the volume,
+%                        whenever a page locator is given.
+%
+% Chapter authorship of HoggCHEL1992 (page ranges):
+%   ch. 1 Introduction .................. Hogg ............ pp.   1-- 25
+%   ch. 2 The Place of English .......... Bammesberger .... pp.  26-- 66
+%   ch. 3 Phonology and Morphology ...... Hogg ............ pp.  67--167
+%   ch. 4 Syntax ........................ Traugott ........ pp. 168--289
+%   ch. 5 Semantics and Vocabulary ...... Kastovsky ....... pp. 290--407
+%   ch. 6 Old English Dialects .......... Toon ............ pp. 409--451
+%   ch. 7 Onomastics .................... Clark ........... pp. 452--487
+% ---------------------------------------------------------------------
+
+@book{HoggGrammar1992,
   author    = {Hogg, Richard M.},
-  title     = {A Grammar of Old English. Volume 1: Phonology},
+  title     = {A Grammar of Old {English}. Volume 1: Phonology},
   year      = {1992},
   publisher = {Blackwell},
   address   = {Oxford},
-  file      = {docs/references/hogg_vol1.txt}
+  file      = {docs/references/hogg_fulk_2011_grammar_old_english_vol1_phonology.txt},
+  note      = {Cited by section number. The locally held witness is the 2011
+               Wiley-Blackwell paperback reissue of the same text; it is
+               repaginated, so page locators from the 1992 printing do not
+               transfer directly (1992 page ~= 2011 page + 2). Section
+               numbers are stable between the two printings and are therefore
+               the preferred locator for this work.}
+}
+
+@book{HoggGrammar2011,
+  author    = {Hogg, Richard M.},
+  title     = {A Grammar of Old {English}. Volume 1: Phonology},
+  year      = {2011},
+  publisher = {Wiley-Blackwell},
+  address   = {Chichester},
+  isbn      = {9781444339338},
+  file      = {docs/references/hogg_fulk_2011_grammar_old_english_vol1_phonology.txt},
+  note      = {Paperback reissue of the 1992 grammar. Page locators under
+               this key refer to the printed pages of the held 2011
+               edition, not to the differently paginated 1992 printing.
+               Section numbers are unchanged.}
+}
+
+@book{HoggCHEL1992,
+  editor    = {Hogg, Richard M.},
+  title     = {The {Cambridge} History of the {English} Language. Volume {I}: The Beginnings to 1066},
+  year      = {1992},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  file      = {docs/references/hogg_vol1.txt},
+  note      = {Edited volume. Cite the individual chapter authors
+               (HoggPhonology1992, Bammesberger1992, Toon1992, ...) rather
+               than this container entry whenever a page locator is given.}
+}
+
+@incollection{HoggIntroduction1992,
+  author    = {Hogg, Richard M.},
+  title     = {Introduction},
+  booktitle = {The {Cambridge} History of the {English} Language. Volume {I}: The Beginnings to 1066},
+  editor    = {Hogg, Richard M.},
+  year      = {1992},
+  pages     = {1--25},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  file      = {docs/references/hogg_vol1.txt},
+  note      = {Chapter 1 of HoggCHEL1992.}
+}
+
+@incollection{Bammesberger1992,
+  author    = {Bammesberger, Alfred},
+  title     = {The Place of {English} in {Germanic} and {Indo-European}},
+  booktitle = {The {Cambridge} History of the {English} Language. Volume {I}: The Beginnings to 1066},
+  editor    = {Hogg, Richard M.},
+  year      = {1992},
+  pages     = {26--66},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  file      = {docs/references/hogg_vol1.txt},
+  note      = {Chapter 2 of HoggCHEL1992. CAPR cites p.\ 39 for the statement
+               that Gmc */z/ yielded */r/ intervocalically in Old English
+               (rhotacism) but was generally lost finally. That passage was
+               formerly mis-attributed to Hogg.}
+}
+
+@incollection{HoggPhonology1992,
+  author    = {Hogg, Richard M.},
+  title     = {Phonology and Morphology},
+  booktitle = {The {Cambridge} History of the {English} Language. Volume {I}: The Beginnings to 1066},
+  editor    = {Hogg, Richard M.},
+  year      = {1992},
+  pages     = {67--167},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  file      = {docs/references/hogg_vol1.txt},
+  note      = {Chapter 3 of HoggCHEL1992, and the source of nearly all of
+               CAPR's page-style citations to Hogg. Hogg's own internal
+               section numbering (§3.2, §3.3.1.3, §3.3.3.1, ...) belongs to
+               this chapter and must not be confused with the section
+               numbering of HoggGrammar1992.}
+}
+
+@incollection{Traugott1992,
+  author    = {Traugott, Elizabeth Closs},
+  title     = {Syntax},
+  booktitle = {The {Cambridge} History of the {English} Language. Volume {I}: The Beginnings to 1066},
+  editor    = {Hogg, Richard M.},
+  year      = {1992},
+  pages     = {168--289},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  file      = {docs/references/hogg_vol1.txt},
+  note      = {Chapter 4 of HoggCHEL1992.}
+}
+
+@incollection{Kastovsky1992,
+  author    = {Kastovsky, Dieter},
+  title     = {Semantics and Vocabulary},
+  booktitle = {The {Cambridge} History of the {English} Language. Volume {I}: The Beginnings to 1066},
+  editor    = {Hogg, Richard M.},
+  year      = {1992},
+  pages     = {290--407},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  file      = {docs/references/hogg_vol1.txt},
+  note      = {Chapter 5 of HoggCHEL1992.}
+}
+
+@incollection{Clark1992,
+  author    = {Clark, Cecily},
+  title     = {Onomastics},
+  booktitle = {The {Cambridge} History of the {English} Language. Volume {I}: The Beginnings to 1066},
+  editor    = {Hogg, Richard M.},
+  year      = {1992},
+  pages     = {452--487},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  file      = {docs/references/hogg_vol1.txt},
+  note      = {Chapter 7 of HoggCHEL1992.}
+}
+
+@incollection{Toon1992,
+  author    = {Toon, Thomas E.},
+  title     = {Old {English} Dialects},
+  booktitle = {The {Cambridge} History of the {English} Language. Volume {I}: The Beginnings to 1066},
+  editor    = {Hogg, Richard M.},
+  year      = {1992},
+  pages     = {409--451},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  doi       = {10.1017/CHOL9780521264747.007},
+  file      = {docs/references/toon_1992_old_english_dialects.pdf},
+  note      = {Chapter 6 of HoggCHEL1992. Cited in CAPR
+               for p.\ 446, where Toon reproduces Campbell's summary of the
+               traditional ordering of the prehistoric changes
+               (Campbell 1959: 109) and then argues against reading it as a
+               precise linear sequence.}
 }
 
 @book{Ringe2006,
@@ -44,8 +207,7 @@
   edition   = {1},
   year      = {2006},
   publisher = {Oxford University Press},
-  address   = {Oxford},
-  file      = {docs/references/ringe_vol1_pie_to_pgmc.pdf}
+  address   = {Oxford}
 }
 
 @book{Ringe2017,
@@ -56,7 +218,8 @@
   edition   = {2},
   year      = {2017},
   publisher = {Oxford University Press},
-  address   = {Oxford}
+  address   = {Oxford},
+  file      = {docs/references/ringe_vol1_pie_to_pgmc.pdf}
 }
 
 @book{RingeTaylor2014,
@@ -96,8 +259,8 @@
   year      = {1914--1940},
   publisher = {Tauchnitz},
   address   = {Leipzig},
-  note      = {Issued in fascicles 1914--1940; reprint Blackwell/Stuttgart 1964.},
-  file      = {docs/references/luick_historische_grammatik.txt}
+  note      = {Issued in fascicles 1914--1940; held scans: Erster Band, I. Abteilung (1921) and II. Abteilung (1940), the latter edited by Friedrich Wild and Herbert Koziol.},
+  file      = {docs/references/luick_historische_grammatik_part1.vision.txt; docs/references/luick_historische_grammatik_part2.vision.txt}
 }
 
 @book{Bulbring1902,
@@ -115,6 +278,15 @@
   year      = {1906},
   volumes   = {2},
   publisher = {E. Felber},
+  address   = {Berlin}
+}
+
+@book{Kaluza1900,
+  author    = {Kaluza, Max},
+  title     = {{Historische Grammatik der englischen Sprache}},
+  year      = {1900--1901},
+  volumes   = {2},
+  publisher = {Emil Felber},
   address   = {Berlin},
   file      = {docs/references/kaluza_historische_grammatik_englisch.txt}
 }
@@ -125,7 +297,18 @@
   edition   = {3},
   year      = {1925},
   publisher = {Oxford University Press},
-  address   = {Oxford},
+  address   = {Oxford}
+}
+
+@book{WrightWuelcker1884,
+  author    = {Wright, Thomas},
+  editor    = {W{\"u}lcker, Richard Paul},
+  title     = {Anglo-Saxon and Old English Vocabularies},
+  edition   = {2},
+  year      = {1884},
+  volume    = {1},
+  publisher = {Tr{\"u}bner},
+  address   = {London},
   file      = {docs/references/anglosaxonoldeng00wrig.txt}
 }
 
@@ -136,7 +319,16 @@
   year      = {1953},
   publisher = {Clarendon Press},
   address   = {Oxford},
-  note      = {Revised by Norman Davis.},
+  note      = {Revised by Norman Davis. This edition is not the local primer scan, which is Sweet1893.}
+}
+
+@book{Sweet1893,
+  author    = {Sweet, Henry},
+  title     = {An {Anglo-Saxon} Primer},
+  edition   = {7},
+  year      = {1893},
+  publisher = {Clarendon Press},
+  address   = {Oxford},
   file      = {docs/references/sweet_anglo_saxon_primer.pdf}
 }
 
@@ -147,7 +339,17 @@
   edition   = {3},
   year      = {1971},
   publisher = {Holt, Rinehart and Winston},
+  address   = {New York}
+}
+
+@book{Bright1917,
+  author    = {Bright, James W.},
+  title     = {An Anglo-Saxon Reader},
+  edition   = {4},
+  year      = {1917},
+  publisher = {Henry Holt and Company},
   address   = {New York},
+  note      = {Held copy is the June 1926 printing.},
   file      = {docs/references/bright_anglo_saxon_reader.pdf}
 }
 
@@ -161,7 +363,16 @@
   year      = {1898},
   publisher = {Clarendon Press},
   address   = {Oxford},
-  note      = {Supplement by T. N. Toller, 1921; Enlarged Addenda and Corrigenda by Alistair Campbell, 1972.},
+  note      = {Main dictionary. The local file formerly associated with this record is the separately catalogued Toller1921 Supplement, not a combined main dictionary and supplement.}
+}
+
+@book{Toller1921,
+  author    = {Toller, T. Northcote},
+  title     = {An {Anglo-Saxon} Dictionary: Supplement},
+  year      = {1921},
+  publisher = {Oxford University Press},
+  address   = {Oxford},
+  note      = {Based on the manuscript collections of the late Joseph Bosworth. Local scan identifies first edition 1921 and reprints 1955 and 1966.},
   file      = {docs/references/bosworth_toller_anglo_saxon_dictionary.pdf}
 }
 
@@ -240,6 +451,18 @@
   file      = {docs/references/kluge_seebold_etymologisches_woerterbuch.pdf}
 }
 
+@book{KlugeSeebold2002,
+  author    = {Kluge, Friedrich},
+  editor    = {Seebold, Elmar},
+  title     = {{Etymologisches W{\"o}rterbuch der deutschen Sprache}},
+  edition   = {24},
+  year      = {2002},
+  publisher = {de Gruyter},
+  address   = {Berlin and New York},
+  note      = {Local holding is a text extract identifying the 24th edition; no matching original scan or reliable printed-page map has been established.},
+  file      = {docs/references/kluge_seebold_etymologisches_woerterbuch.txt}
+}
+
 @book{LloydSpringer1988,
   author    = {Lloyd, Albert L. and Springer, Otto},
   title     = {Etymologisches W{\"o}rterbuch des Althochdeutschen. Band {I}: {-a -- bezzisto}},
@@ -303,6 +526,17 @@
   file      = {docs/references/mayrhofer_ewaia_A-DH.pdf}
 }
 
+@article{Kuiper1991,
+  author  = {Kuiper, F. B. J.},
+  title   = {The New ``{Mayrhofer}''},
+  journal = {Indo-Iranian Journal},
+  volume  = {34},
+  year    = {1991},
+  pages   = {105--120},
+  note    = {Review of EWAia I, fascicles 1--4 (1986--1988). Held as an appended article on PDF sheets 998--1013 of the Mayrhofer volume III scan; not part of Mayrhofer's own dictionary.},
+  file    = {docs/references/mayrhofer_ewaia_III.pdf}
+}
+
 @book{Beekes2010,
   author    = {Beekes, Robert},
   title     = {Etymological Dictionary of {Greek}},
@@ -331,6 +565,31 @@
   file    = {docs/references/adamczyk_2001_oe_reflexes_sievers.txt}
 }
 
+@article{Versloot2025,
+  author  = {Versloot, Arjen P.},
+  title   = {Reconstructing the Historical Phonology of {Old} {English}},
+  journal = {English Language and Linguistics},
+  year    = {2025},
+  volume  = {30},
+  number  = {1},
+  pages   = {103--141},
+  doi     = {10.1017/S1360674324000674},
+  file    = {docs/references/versloot_2025_reconstructing_historical_phonology_of_oe.txt},
+  note    = {Open Access (CC BY-NC 4.0). Proposes a substantially simplified
+             alternative to the ``Standard Theory'' chronology of pre-Old
+             English, in which PGmc\ *a is the target of eight separate sound
+             laws. Versloot replaces these with a conditional early fronting
+             and rounding, a gradual i-mutation effect, and a comparatively
+             late seventh-century breaking before -rC, each claimed to have a
+             Frisian parallel. Tested chiefly against the early
+             \'Epinal and Erfurt glossaries. Directly relevant to the
+             Anglo-Frisian chronology problem because it argues the English
+             and Frisian developments are parallel in structure; see
+             Germanic/docs/sound\_changes/literature\_dossiers/anglo\_frisian/.
+             Research state only: CAPR has not adjudicated it against the
+             Standard Theory that the executable cascade currently encodes.}
+}
+
 @article{Versloot2017,
   author  = {Versloot, Arjen P.},
   title   = {Proto-{Germanic} *ai in {North} and {West} {Germanic}},
@@ -339,6 +598,7 @@
   volume  = {38},
   pages   = {281--324},
   doi     = {10.1515/flih-2017-0010},
+  file    = {docs/references/versloot_2017_proto_germanic_ai_in_north_and_west_germanic.txt},
   note    = {Argues the monophthongisation of stressed PGmc.\ *ai spread over
              Germania in two areal waves (c.\ AD 400--900): wave~1 (before *h,
              *r) north-to-south, wave~2 not reaching Old High German or Old West
@@ -419,6 +679,16 @@
 % Specialist articles — vowel changes (umlaut, lowering, breaking)
 % =====================================================================
 
+@article{Luehr1993,
+  author  = {L{\"u}hr, Rosemarie},
+  title   = {Zur Semantifizierung von Zahlw{\"o}rtern: Das Wort {``Tausend''} --- eine germanisch-baltoslavische Isoglosse?},
+  journal = {Linguistica},
+  year    = {1993},
+  volume  = {33},
+  pages   = {117--136},
+  file    = {docs/references/luehr_article.pdf}
+}
+
 @article{Cercignani1979,
   author  = {Cercignani, Fausto},
   title   = {{Proto-Germanic} *{i} and *{e} Revisited},
@@ -464,6 +734,28 @@
   doi     = {10.2307/411829},
   url     = {http://www.jstor.org/stable/411829},
   file    = {docs/references/lloyd_1966_a_umlaut_of_i.pdf}
+}
+
+@incollection{StauslandJohnsen2015,
+  author  = {Stausland Johnsen, Sverre},
+  title   = {Vowel reduction in verbs in {King} {Alfred's} \emph{Pastoral Care}},
+  booktitle = {Historical Linguistics 2013: Selected papers from the 21st International Conference on Historical Linguistics, Oslo, 5--9 August 2013},
+  editor  = {Haug, Dag T. T.},
+  series  = {Current Issues in Linguistic Theory},
+  number  = {334},
+  year    = {2015},
+  pages   = {19--38},
+  publisher = {John Benjamins},
+  address = {Amsterdam},
+  doi     = {10.1075/cilt.334.02jon},
+  note    = {Statistically rejects van Helten's rule (unstressed *ō > *ū before
+             following *u) on the ō-verb past-tense data of Hatton 20 (c.\ 890);
+             instead PWGmc unstressed *ō, after the regular pre-OE shortening to
+             *o, raises to u in unstressed MEDIAL syllables and yields a in final
+             syllables. Chronology: after loss of short unstressed vowels.
+             Explicitly limited to ō-verbs and West Saxon; extension to other
+             classes and dialects is flagged as further research (\S 7).},
+  file    = {docs/references/stausland_johnsen_2015_vowel_reduction_pastoral_care.pdf}
 }
 
 @incollection{Stiles2012,
@@ -584,6 +876,39 @@
   file         = {docs/references/crist_2001_conspiracy_in_historical_phonology.pdf}
 }
 
+@article{Bennett1950,
+  author  = {Bennett, William H.},
+  title   = {The {Germanic} Development of {Indo-European} {\={e}}},
+  journal = {Language},
+  year    = {1950},
+  volume  = {26},
+  number  = {2},
+  pages   = {232--235},
+  url     = {https://www.jstor.org/stable/410059},
+  file    = {docs/references/bennett_1950_germanic_development_of_ie_e.pdf}
+}
+
+@phdthesis{Thorhallsdottir1993,
+  author       = {Þórhallsdóttir, Guðrún},
+  title        = {The Development of Intervocalic *j in {P}roto-{G}ermanic},
+  school       = {Cornell University},
+  year         = {1993},
+  type         = {Ph.{D}. dissertation},
+  file         = {docs/references/thorhallsdottir_1993_intervocalic_j.pdf}
+}
+
+@article{Lid1952,
+  author  = {Lid, Nils},
+  title   = {Den nordiske nominativ singularis av maskuline \emph{an}-stammer},
+  journal = {Norsk Tidsskrift for Sprogvidenskap},
+  year    = {1952},
+  volume  = {16},
+  pages   = {237--240},
+  address = {Oslo},
+  publisher = {H. Aschehoug \& Co.},
+  file    = {docs/references/lid_1952_nordiske_nominativ_an_stammer.pdf}
+}
+
 @misc{Crist2002,
   author       = {Crist, Sean J.},
   title        = {An Analysis of *{z} Loss in {West Germanic}},
@@ -617,13 +942,11 @@
   file    = {docs/references/stiles_2017_opedal_swestar_runic.pdf}
 }
 
-@article{NeriRingeReview,
+@misc{NeriRingeReview,
   author = {Neri, Sergio},
   title  = {Rezension zu: {Don Ringe}, \emph{From Proto-Indo-European to Proto-Germanic}. {Oxford}: {Oxford University Press}, 2006},
-  journal = {Kratylos},
-  year   = {2009},
-  volume = {54},
-  pages  = {156--160},
+  pages  = {1--12},
+  note   = {Held paginated review of Ringe's 2006 first edition, signed Sergio Neri. Publication venue and date are not established by this offprint; the former association with Kratylos 54 (2009), 156--160 is not verified. The following Casaretto review is a separate text.},
   file   = {docs/references/neri_review_ringe_pie_to_pgmc.pdf}
 }
 
@@ -671,11 +994,11 @@
 @article{Ringe1984,
   author  = {Ringe, Don},
   title   = {{Germanic} *{\^e}\textsubscript{2} and *{r}},
-  journal = {Linguistic Inquiry},
+  journal = {Die Sprache},
   year    = {1984},
-  volume  = {15},
-  number  = {2},
-  pages   = {225--233},
+  volume  = {30},
+  pages   = {138--155},
+  note    = {Publication identity corroborated by the held Stiles2017 bibliography. The local scan contains only pages 138--151; pages 152--155 are not held in this file.},
   file    = {docs/references/ringe_1984_germanic_e2_and_r.pdf}
 }
 
@@ -765,6 +1088,160 @@
   howpublished = {Manuscript},
   note         = {Manuscript witness; vision OCR in repo.},
   file         = {docs/references/caedmons_hymn_rome_ms_vitt_em_1452.pdf}
+}
+
+% =====================================================================
+% Anglo-Frisian / North Sea Germanic specialist literature
+%
+% Ingested for the Anglo-Frisian chronology research pass. These are the
+% direct sources for the question whether the developments traditionally
+% labelled "Anglo-Frisian" can be placed on a shared English/Frisian stem.
+% The `note` field records what the author themself argues, which is not
+% always what later literature reports them as arguing.
+% =====================================================================
+
+@book{Bremmer2009,
+  author    = {Bremmer, Rolf H., Jr.},
+  title     = {An Introduction to {Old Frisian}: History, Grammar, Reader, Glossary},
+  publisher = {John Benjamins},
+  address   = {Amsterdam and Philadelphia},
+  year      = {2009},
+  doi       = {10.1075/z.147},
+  isbn      = {9789027290045},
+  file      = {docs/references/bremmer_2009_introduction_old_frisian.vision.txt},
+  note      = {Local ebook is the corrected 2011 reprint, identified on its
+               copyright page; bibliography year records the original edition.}
+}
+
+@incollection{Nielsen2001,
+  author    = {Nielsen, Hans Frede},
+  title     = {{Frisian} and the Grouping of the Older {Germanic} Languages},
+  editor    = {Munske, Horst Haider},
+  booktitle = {Handbuch des Friesischen / Handbook of Frisian Studies},
+  publisher = {Max Niemeyer},
+  address   = {T{\"u}bingen},
+  year      = {2001},
+  pages     = {512--523},
+  file      = {docs/references/nielsen_2001_frisian_and_grouping_older_germanic_languages.vision.txt}
+}
+
+@article{Hogg1979,
+  author  = {Hogg, Richard M.},
+  title   = {{Old English} Palatalization},
+  journal = {Transactions of the Philological Society},
+  year    = {1979},
+  volume  = {77},
+  number  = {1},
+  pages   = {89--113},
+  doi     = {10.1111/j.1467-968X.1979.tb00855.x},
+  file    = {docs/references/hogg_1979_old_english_palatalization.vision.txt}
+}
+
+@article{Goblirsch1991,
+  author  = {Goblirsch, Kurt Gustav},
+  title   = {{Germanic} \emph{ai} and \emph{au} in {Anglo-Frisian}},
+  journal = {Amsterdamer Beitr{\"a}ge zur {\"a}lteren Germanistik},
+  year    = {1991},
+  volume  = {33},
+  pages   = {17--23},
+  doi     = {10.1163/18756719-033-01-90000004},
+  file    = {docs/references/goblirsch_1991_germanic_ai_and_au_in_anglo_frisian.vision.txt}
+}
+
+@article{Campbell1939,
+  author  = {Campbell, Alistair},
+  title   = {Some {Old} {Frisian} Sound-Changes},
+  journal = {Transactions of the Philological Society},
+  year    = {1939},
+  volume  = {38},
+  number  = {1},
+  pages   = {78--107},
+  doi     = {10.1111/j.1467-968X.1939.tb00203.x},
+  file    = {docs/references/campbell_1939_some_old_frisian_sound_changes.vision.txt},
+  note    = {The classic statement of an Anglo-Frisian unity period, arguing
+             from Old Frisian vowel developments that English and Frisian
+             share a common prehistory. Load-bearing for the later
+             controversy because Stiles, Bremmer, Kortlandt and Laker all
+             engage with its relative chronology.}
+}
+
+@article{Bremmer2008,
+  author  = {Bremmer, Rolf H., Jr.},
+  title   = {North-{Sea} {Germanic} at the Cross-Roads: The Emergence of
+             {Frisian} and {Hollandish}},
+  journal = {NOWELE: North-Western European Language Evolution},
+  year    = {2008},
+  volume  = {54/55},
+  pages   = {279--308},
+  doi     = {10.1075/nowele.54-55.09bre},
+  file    = {docs/references/bremmer_2008_north_sea_germanic_at_the_cross_roads.txt}
+}
+
+@article{Kortlandt2008,
+  author  = {Kortlandt, Frederik},
+  title   = {Anglo-{Frisian}},
+  journal = {NOWELE: North-Western European Language Evolution},
+  year    = {2008},
+  volume  = {54/55},
+  pages   = {265--278},
+  doi     = {10.1075/nowele.54-55.08kor},
+  file    = {docs/references/kortlandt_2008_anglo_frisian.txt}
+}
+
+@article{Laker2007,
+  author  = {Laker, Stephen},
+  title   = {Palatalization of Velars: A Major Link of {Old} {English} and
+             {Old} {Frisian}},
+  journal = {Amsterdamer Beitr\"age zur \"alteren Germanistik},
+  year    = {2007},
+  volume  = {64},
+  pages   = {165--184},
+  note    = {Volume title: Advances in Old Frisian Philology, ed.\ Rolf H.\
+             Bremmer Jr, Stephen Laker and Oebele Vries.},
+  file    = {docs/references/laker_2007_palatalization_of_velars.txt}
+}
+
+@article{Repansek2012,
+  author  = {Repan\v{s}ek, Luka},
+  title   = {Remarks on the Development of the ``{Anglo}-{Frisian}'' Vowel
+             System},
+  journal = {NOWELE: North-Western European Language Evolution},
+  year    = {2012},
+  volume  = {64/65},
+  pages   = {77--90},
+  doi     = {10.1075/nowele.64-65.04rep},
+  file    = {docs/references/repansek_2012_anglo_frisian_vowel_system.txt}
+}
+
+@incollection{Versloot2021,
+  author    = {Versloot, Arjen P.},
+  title     = {Traces of a {North} {Sea} {Germanic} Idiom in the
+               Fifth--Seventh Centuries {AD}},
+  booktitle = {Frisians of the Early Middle Ages},
+  editor    = {Hines, John and IJssennagger-van der Pluijm, Nelleke},
+  publisher = {Boydell \& Brewer},
+  address   = {Woodbridge},
+  year      = {2021},
+  pages     = {339--374},
+  doi       = {10.1017/9781800101326.012},
+  file      = {docs/references/versloot_2021_traces_of_a_north_sea_germanic_idiom.txt}
+}
+
+@article{Waxenberger2019,
+  author  = {Waxenberger, Gaby},
+  title   = {Absolute Chronology of Early Sound Changes Reflected in
+             {Pre}-{Old} {English} Runic Inscriptions},
+  journal = {NOWELE: North-Western European Language Evolution},
+  year    = {2019},
+  volume  = {72},
+  number  = {1},
+  pages   = {60--77},
+  doi     = {10.1075/nowele.00020.wax},
+  file    = {docs/references/waxenberger_2019_absolute_chronology_pre_oe_runic.txt},
+  note    = {Absolute (archaeologically anchored) chronology from the
+             Pre-OE runic corpus, ca.\ AD 425--650. To be kept distinct
+             from relative-chronology handbook accounts: the datable
+             evidence is the rune, not the sound change.}
 }
 
 % End of file.

@@ -284,6 +284,22 @@ This writes:
 - `reader_facing_local_section_19.md`
 - `reader_facing_local_section_19.pdf`
 
+The current book section is assembled from the generated
+`registry/reader_manifest.tsv` (chapters and file order derived from
+`registry/reader_chapters.tsv`, `registry/reader_files.tsv`, the SC registry,
+and the executable cascade — no hand-typed file list). To run the checkers,
+rebuild the assembled Markdown with `Germanic/tools/build_reader_book.py`,
+and render the PDF, use:
+
+```bash
+bash Germanic/docs/sound_changes/reader_facing/build_reader_facing_local_section_20_docker.sh
+```
+
+This writes:
+
+- `reader_facing_local_section_20.md`
+- `reader_facing_local_section_20.pdf`
+
 ## Style audit workflow
 
 After drafting or revising any reader-facing chapter, run:

@@ -62,6 +62,8 @@ DEFAULT_SKIP = {
     "reader_facing_remaining_gap_audit_01.md",
     "reader_facing_local_section_19.md",
     "reader_facing_manifest_coverage_07.md",
+    "reader_facing_local_section_20.md",
+    "reader_facing_manifest_coverage_08.md",
     "reader_facing_sc005_009_012_inclusion_01_report.md",
     "reader_facing_source_based_chronology_rationales_01.md",
     "reader_facing_chronology_rationale_grounding_01.md",

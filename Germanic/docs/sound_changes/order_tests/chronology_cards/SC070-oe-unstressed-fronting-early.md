@@ -1,7 +1,7 @@
 # SC070 OE Unstressed Fronting Early — chronology evidence card
 
-## Current position
-- current_order: `70`
+## Position at experiment time
+- order_at_experiment_time: `70`
 - rule_name: `OEUnstressedFrontingEarly`
 - safe computational window: `53-70`
 - status: `first_break_complete`

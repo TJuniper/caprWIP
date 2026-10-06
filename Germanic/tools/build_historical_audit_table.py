@@ -1,15 +1,27 @@
 #!/usr/bin/env python3
-"""Phase 1/2: emit the adjudicated name/position/granularity audit table.
+"""ARCHIVE — Phase 1/2 adjudicated name/position/granularity audit table.
 
-This is the core adjudication artifact. Mechanical `current_*` fields are loaded
-from the registry (staging map + inventory) and the real executable-order
-manifest; the judgement fields (`proposed_*`, statuses, action, sources,
-conflicts, open questions) are hand-adjudicated from the CAPR research archive
-and encoded in ADJUDICATION below, each with a source citation.
+GENRE: ARCHIVE/FROZEN. This generator and its output TSV are a historical
+snapshot of the Phase 1/2 audit that drove the rename/move campaign. They are
+NOT current-state evidence: the hand-adjudicated ADJUDICATION judgements below
+record the audit-time analysis (e.g. SC024 "position 12", SC025 "position 26",
+SC004 "split decision precedes any rename") and several have since been
+superseded — SC004's component split is completed, and SC024/SC025/SC101 were
+re-architected by the e1-complex re-adjudication. Current facts (identifier,
+executable position, stage/scope, verdict, confidence, memos) live in
+registry/sc_registry.tsv, its generated views, and the executable model
+(oe_pipeline). The mechanical `current_*` columns were last refreshed at
+freeze time and are frozen with the rest of the snapshot.
 
-Reading trail (files consulted per contested rule) is recorded in
-`historical_audit_evidence_inventory.tsv`; the specific source pages/sections
-appear in the `existing_capr_sources` column here.
+This builder is NOT run by adjudicate.py --finalize. Rewriting the frozen
+archive requires an explicit --allow-archival-rewrite flag.
+
+Original description: mechanical `current_*` fields are loaded from the
+registry (staging map + inventory) and the executable-order manifest; the
+judgement fields (`proposed_*`, statuses, action, sources, conflicts, open
+questions) were hand-adjudicated from the CAPR research archive and encoded
+in ADJUDICATION below, each with a source citation. Reading trail per
+contested rule: `historical_audit_evidence_inventory.tsv`.
 
 Controlled vocabularies (task spec):
   name_status / position_status : right | wrong | partly_right | unresolved
@@ -25,6 +37,7 @@ from __future__ import annotations
 import argparse
 import csv
 import io
+import sys
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -79,26 +92,96 @@ ADJUDICATION: dict[str, dict] = {
               "open_questions": "R/T boundary-limited; thin positive local chronology (staging B)"},
     "SC019": {**_clean("nwgmc", "019-nwgmc-final-long-o-raising.dossier.md; R/T pp.30-31"),
               "supported_later_relations": "SC020 (SC019<SC020, A: raste)"},
-    "SC021": _clean("nwgmc", "021-unstressed-o-raising.md; Campbell §373; R/T p.287"),
-    "SC022": {**_clean("nwgmc", "022 dossier; Fulk §6.14"), "confidence": "B"},
-    "SC023": _clean("nwgmc", "023-nwgmc-n-stem-n-loss.dossier.md"),
-    "SC024": _clean("nwgmc", "024-nwgmc-long-e-lowering.dossier.md"),
-    "SC025": {**_clean("nwgmc", "025-nwgmc-long-e-nasal-rounding.dossier.md"), "confidence": "B"},
+    "SC021": {
+        "proposed_canonical_name": "retired",
+        "proposed_hist_stage": "retired",
+        "proposed_hist_scope": "retired",
+        "supported_earlier_relations": "",
+        "supported_later_relations": "SC071 OELateOShortening; SC099 OEMedUnstressedORaising; SC100 OEFinalUnstressedOLowering",
+        "confidence": "A",
+        "name_status": "wrong",
+        "position_status": "wrong",
+        "granularity_status": "definitely_conflated",
+        "required_action": "retired",
+        "existing_capr_sources": "sc021-adjudication.md; reader 021 retirement note",
+        "source_agreement_or_conflict": "retired: former PNWGmcUnstressedORaising is unsupported and has no live FST definition, inventory row, staging row, chapter candidacy, or chronology node",
+        "open_questions": "Successor analysis is SC071 shortening plus SC099/SC100 medial/final split; do not reactivate SC021 or reuse its identifier.",
+    },
+    "SC022": {
+        "proposed_canonical_name": "",
+        "proposed_hist_stage": "pgmc",
+        "proposed_hist_scope": "pan_germanic",
+        "supported_earlier_relations": "",
+        "supported_later_relations": "",
+        "confidence": "B",
+        "name_status": "partly_right",
+        "position_status": "unresolved",
+        "granularity_status": "one_historical_change",
+        "required_action": "metadata_or_prose_only",
+        "existing_capr_sources": "dossier-sc022-mn-dissimilation-2026.md §21; Fulk 2018 p.121 §6.11; Polomé 1967 pp.818-819",
+        "source_agreement_or_conflict": "historical stage corrected: Fulk places the change among Common-Germanic developments and Polomé calls -mn- > -bn- older Germanic; stable PNWGmc Foma identifier is not a stage claim",
+        "open_questions": "No positive local ordering: first-break result is boundary-limited both sides. NWGmc/OE paradigm leveling and secondary bn > mn are later, separate developments.",
+    },
+    "SC023": {
+        "proposed_canonical_name": "Proto-Germanic Word-Final N Loss",
+        "proposed_hist_stage": "pgmc",
+        "proposed_hist_scope": "pan_germanic",
+        "supported_earlier_relations": "",
+        "supported_later_relations": "SC047 OEHeavySyllableNasalApocope (counterfeeding, stage-entailed: OE don retains secondary final -n; Ringe 2017:101-103); SC069 OEEarlyOShortening (17 in-domain weak-noun witnesses)",
+        "confidence": "A",
+        "name_status": "partly_right",
+        "position_status": "right",
+        "granularity_status": "one_historical_change",
+        "required_action": "metadata_or_prose_only",
+        "existing_capr_sources": "sc023-adjudication.md; Ringe 2017 pp.90,101-103,163,168-169; R/T 2014 pp.54-55,58-59; Fulk 2018 pp.170-171 §7.31",
+        "source_agreement_or_conflict": "historical stage corrected: general (pre-)PGmc loss of word-final *-n with nasalization (Gothic tuggo shares it), not a NWGmc n-stem rule; the {*o-n} restriction is a deliberate citation-form proxy (numerals sebun/nigun/tehun retained -un by analogy); stable PNWGmc Foma identifier is not a stage claim",
+        "open_questions": "None material: firing population is exactly the 17 weak-noun citation stems; do is a counterfeeding (negative) witness only.",
+    },
+    "SC024": {
+        "proposed_canonical_name": "NWGmc Long E1 Lowering",
+        "proposed_hist_stage": "pnwgmc",
+        "proposed_hist_scope": "pan_pnwgmc",
+        "supported_earlier_relations": "",
+        "supported_later_relations": "SC025 EAFLongANasalRounding and SC101 EAFLongAFronting (feeding, independently demonstrated: both consume the *a this rule creates; displacement of SC024 after them yields **manath/**span and **scap/**gar/**slapan)",
+        "confidence": "B",
+        "name_status": "partly_right",
+        "position_status": "right",
+        "granularity_status": "one_historical_change",
+        "required_action": "split_rule",
+        "existing_capr_sources": "sc024-sc025-sc101-e1-complex-adjudication.md; sc024-adjudication.md (superseded in implementation); R/T 2014 pp.11-14,146-152,169-170,216; Fulk 2018 §4.6 pp.60-61; Campbell 1959 §§127-132,185; Stiles 2017",
+        "source_agreement_or_conflict": "re-adjudicated: the former one-step *e > *ae telescoping was split; SC024 now implements only early pan-NWGmc stressed *e1 > *a ({*e-acute} -> {*a}, unconditioned, R/T pp.11-13: nasal forms *manoth-, *spanuz included; p.13 n.3 restricts to stressed syllables), moved to position 12; the later fronting is SC101 and nasal rounding is SC025, both at the EAF stage; reconstruction disputed (Fulk 2018 §4.6 ae-retention; Bennett/Gronvik retention) hence confidence B",
+        "open_questions": "The five former unstressed firings (father, mother, sister, have, live) now take the §6.8.3 unstressed-shortening path; corpus stress-marking of o/u-root protoforms deferred (does not affect this rule, whose input tier {*e-acute} is fully marked).",
+    },
+    "SC025": {
+        "proposed_canonical_name": "EAF Long A Nasal Rounding",
+        "proposed_hist_stage": "eaf",
+        "proposed_hist_scope": "north_sea_germanic",
+        "supported_earlier_relations": "SC024 PNWGmcLongELowering (feeding, independently demonstrated: month/spoon reach *o only via *a)",
+        "supported_later_relations": "SC004 EAFAiMonophthongization (independently demonstrated: displacement after SC004 wrongly rounds *a < *ai — stone > **ston, home > **hom; Campbell §132, R/T pp.169-170)",
+        "confidence": "B",
+        "name_status": "wrong",
+        "position_status": "wrong",
+        "granularity_status": "one_historical_change",
+        "required_action": "revise_implementation",
+        "existing_capr_sources": "sc024-sc025-sc101-e1-complex-adjudication.md; R/T 2014 pp.150-152; Campbell 1959 §127",
+        "source_agreement_or_conflict": "re-adjudicated: former PNWGmcLongENasalRounding (*e > *o / _N, pnwgmc) reformulated as EAFLongANasalRounding ({*a} -> {*o} / _N, eaf/north_sea_germanic, position 26); input is the historical *a of that stage, no longer a direct *e bypass; OS rounding variable but real (odar, sod vs quan, sano), so scope is North Sea Germanic",
+        "open_questions": "Whether rounding and fronting (SC101) are one conditioned development or two ordered changes is not settled by the corpus; their mutual order carries no claim.",
+    },
     "SC028": _clean("nwgmc", "028-nwgmc-preconsonantal-x-loss; Campbell §417; R/T pp.156-158"),
 
     # ---- Contested / adjudicated rules ----
     "SC003": {
         "proposed_canonical_name": "WGmcRhotacism",
         "proposed_hist_stage": "wgmc", "proposed_hist_scope": "pan_wgmc",
-        "supported_earlier_relations": "final-*z* deletion (Crist: rhotacism follows WGmc *z-deletion; implemented via context-scoping to non-final, not ordering; B)",
+        "supported_earlier_relations": "final-*z* losses (Crist2002 §6; R/T vol.2 p.87: rhotacism at the end of the z-loss sequence; enforced by cascade ordering — EAFRhotacism composed after MonosyllabicFinalZLoss; B)",
         "supported_later_relations": "SC044 OEBreaking (terminus ante quem, lexical A: liznojana>liornian, mizdai>meorde)",
         "confidence": "A",
         "name_status": "wrong", "position_status": "partly_right",
         "granularity_status": "one_historical_change",
         "required_action": "rename_only",
-        "existing_capr_sources": "reader 003-west-germanic-rhotacism.md; change_reports/full/003; R/T pp.52,98,102; Crist2001 pp.104-106, Crist2002 pp.1,4; Hogg p.37",
+        "existing_capr_sources": "reader 003-west-germanic-rhotacism.md; change_reports/full/003; R/T pp.52,87,98,102; Crist2001 pp.104-106, Crist2002 pp.1,4; Hogg p.37",
         "source_agreement_or_conflict": "agreement (reader+registry both: WGmc, not PGmc); FST name is the sole legacy error",
-        "open_questions": "Implementation broader than intervocalic (retains medial VzC); exact relation to SC020 final-z (bleeding via scoping) to confirm in SC020 audit",
+        "open_questions": "Implementation broader than intervocalic (retains medial VzC); relation to the final-z rules now enforced by genuine cascade ordering (2026 rhotacism-position correction)",
     },
     "SC004": {
         "proposed_canonical_name": "",  # defer until split decided
@@ -254,8 +337,8 @@ FIELDS = [
 
 def build_rows() -> list[dict[str, str]]:
     staging = _read_tsv_skip_comments(STAGING_MAP)
-    with INVENTORY.open(encoding="utf-8") as handle:
-        inv = {r["change_id"]: r for r in csv.DictReader(handle, delimiter="\t")}
+    inv_lines = [ln for ln in INVENTORY.read_text(encoding="utf-8").splitlines() if not ln.startswith("#")]
+    inv = {r["change_id"]: r for r in csv.DictReader(io.StringIO("\n".join(inv_lines)), delimiter="\t")}
     with ORDER_MANIFEST.open(encoding="utf-8") as handle:
         pos = {r["foma_identifier"]: r["position"] for r in csv.DictReader(handle, delimiter="\t")}
 
@@ -267,7 +350,7 @@ def build_rows() -> list[dict[str, str]]:
         if adj is None:
             raise ValueError(f"no adjudication encoded for {sc}")
         foma = s.get("fst_identifier", "")
-        cascade_pos = pos.get(foma, "pre-pipeline (EarlyGermanicConsonantPipeline)")
+        cascade_pos = pos.get(foma, "pre-pipeline (support rule)")
         row = {
             "sc_id": sc,
             "current_foma_identifier": foma,
@@ -283,9 +366,27 @@ def build_rows() -> list[dict[str, str]]:
     return rows
 
 
+ARCHIVE_BANNER = """\
+# ARCHIVE / FROZEN — Phase 1/2 naming-and-position audit snapshot.
+# Not regenerated by adjudicate.py --finalize. Judgement prose records the
+# audit-time analysis and is partly superseded (SC004 has since been split;
+# SC024/SC025/SC101 were re-architected by the e1-complex re-adjudication);
+# current_* columns were last refreshed at freeze time. Current facts live in
+# registry/sc_registry.tsv, its generated views, and oe_pipeline. Rewriting
+# requires build_historical_audit_table.py --allow-archival-rewrite.
+# SEMANTICS: current_* means "current at the time this audit snapshot was
+# frozen", NOT current repository state. current_cascade_position MUST NOT be
+# synchronized to later executable insertions/removals/reorders; drift from the
+# live cascade is expected and meaningful. The live projection is
+# audits/sc001-sc020-chronology-audit.tsv (column cascade_position), which does
+# track cascade_baseline/cascade_order_manifest.tsv.
+"""
+
+
 def write_table(rows: list[dict[str, str]], out_path: Path) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with out_path.open("w", encoding="utf-8", newline="") as handle:
+        handle.write(ARCHIVE_BANNER)
         writer = csv.DictWriter(handle, fieldnames=FIELDS, delimiter="\t", lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
@@ -295,7 +396,14 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--out", type=Path, default=DEFAULT_OUT)
     parser.add_argument("--summary", action="store_true")
+    parser.add_argument("--allow-archival-rewrite", action="store_true",
+                        help="explicitly rewrite the FROZEN archival snapshot")
     args = parser.parse_args()
+    if not args.allow_archival_rewrite:
+        print("ARCHIVE: historical_audit_table.tsv is a frozen Phase 1/2 "
+              "snapshot and is not regenerated; pass --allow-archival-rewrite "
+              "only for deliberate archival maintenance.", file=sys.stderr)
+        return 1
     rows = build_rows()
     write_table(rows, args.out)
     print(f"wrote {args.out} ({len(rows)} rules)")

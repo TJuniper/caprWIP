@@ -15,7 +15,7 @@ they sit next to each other in the sequence that leads into Old English
 palatalization. The first is the positional alternation of Germanic \emph{*b}. Hogg
 states the Old English distribution clearly: /b/ is a stop initially, after
 nasals, and in gemination, while the same segment is otherwise realized as a
-voiced bilabial fricative [@Hogg1992, pp. 101--102]. Ringe and Taylor support
+voiced bilabial fricative [@HoggPhonology1992, p. 108]. Ringe and Taylor support
 the broader West Germanic background by treating Proto-West-Germanic \emph{*b} as a
 segment whose stop and fricative values depend on position
 [@RingeTaylor2014, p. 121], and Luick's spelling evidence shows the same labial
@@ -96,7 +96,7 @@ cluster from plain velars when he remarks that \emph{*sk} is especially prone to
 palatalization and assibilation [@Campbell1959, p. 278, §440]. Hogg gives the
 same change a clearer structural place by treating \emph{*sk} beside the palatalization
 of plain velars and before the later West Saxon diphthongal developments
-[@Hogg1992, pp. 106--107, 111--112]. Ringe and Taylor make the same sequence
+[@HoggPhonology1992, pp. 107, 112]. Ringe and Taylor make the same sequence
 explicit when they distinguish the earlier palatalization of velars and \emph{*sk} from
 the later diphthongization after already palatal consonants
 [@RingeTaylor2014, pp. 213--216, §§6.4.1, 6.5.1].
@@ -182,7 +182,7 @@ into one process [@Campbell1959, pp. 69--72, 89, §§170, 190--191].
 
 Hogg makes the conditioning sharper still. He states that the change takes place
 when the velar consonant is adjacent to and in the same syllable as a front
-vowel or the palatal consonant `j` [@Hogg1992, pp. 103--104]. This formulation
+vowel or the palatal consonant `j` [@HoggPhonology1992, p. 106]. This formulation
 is important because it moves the discussion from a broad list of palatal
 outcomes to a more precise phonological environment involving adjacency and
 syllable structure.
@@ -407,11 +407,11 @@ system, including forms such as *giest* ‘guest’, *giefan* ‘give’, *hierd
 ‘shepherd’, and *ieldra* ‘older’ [@Campbell1959, pp. 69--72, §§190--197].
 
 Hogg continues in the same vein: “we come now to a change which is almost as
-uncontroversial as it is important” [@Hogg1992, p. 112]. His examples, such as
+uncontroversial as it is important” [@HoggPhonology1992, p. 113]. His examples, such as
 *bryd* ‘bride’, *trymman* ‘strengthen’, *bedd* ‘bed’, *ciest* ‘chest’, and
 *wiersa* ‘worse’, likewise emphasize that the change is a broad redistribution
-of vowel quality across the Old English vowel system [@Hogg1992,
-pp. 112--114].
+of vowel quality across the Old English vowel system [@HoggPhonology1992,
+pp. 113--114].
 
 The narrower palatal-diphthongal material is described differently. Ringe and
 Taylor treat West-Saxon diphthongization after initial palatals as a distinct
@@ -510,7 +510,7 @@ This narrower subrule matters because the sources do not describe umlaut as
 simple fronting alone. Campbell explicitly notes that the low front vowel
 changes again before `m` and `n` in most dialects [@Campbell1959, p. 69, §190],
 and Hogg likewise treats short front vowels as part of the same assimilatory
-system [@Hogg1992, p. 112].
+system [@HoggPhonology1992, p. 112].
 
 ## SC055. Diphthongal outcomes under i-umlaut (`OEIUmlautDiphthong`) {#rule-OEIUmlautDiphthong}
 
@@ -544,7 +544,7 @@ shaped differently.
 The relevant examples are the recurring West-Saxon `ie` forms cited in the
 handbooks, including *giest* ‘guest’, *giefan* ‘give’, and *hierde*
 ‘shepherd’ in Campbell and *ciest* ‘chest’ in Hogg
-[@Campbell1959, pp. 69--72, 78--80, §§190--191, 248--251; @Hogg1992,
+[@Campbell1959, pp. 69--72, 78--80, §§190--191, 248--251; @HoggPhonology1992,
 pp. 112--114]. The present formalization keeps those diphthongal outcomes
 visible as a distinct part of the general umlautal development and does not
 leave them implicit under the broad description of fronting.
@@ -618,7 +618,7 @@ illustrate the rule with forms such as *gieldan* ‘pay’, *scield* ‘shield�
 *scieppan* ‘create’, where an already palatal consonant triggers the diphthongal
 outcome [@RingeTaylor2014, pp. 215--216, §6.5.1]. Hogg’s *giefan* ‘give’ and
 *sceap* ‘sheep’ material belongs to the same phonological zone
-[@Hogg1992, pp. 108--109], while Fulk distinguishes this
+[@HoggPhonology1992, p. 112], while Fulk distinguishes this
 palatal-consonant-triggered diphthongization from the broad front-mutation
 process [@Fulk2018, p. 74, §4.13].
 
@@ -705,7 +705,7 @@ spelling *enitre* in his text) without isolating a separate law around them
 in a discussion of suffixal variation and does not set them off in any special
 section on nasal dissimilation [@Campbell1959, p. 155]. Hogg mentions *heofon*
 ‘heaven’ in the course of his account of back mutation, again without isolating
-a separate law [@Hogg1992, p. 112].
+a separate law [@HoggPhonology1992, p. 112].
 
 Fulk supplies the clearest general formulation: “In the cluster mn, the first
 consonant tends to lose its nasality by dissimilation, though the results are
@@ -748,7 +748,7 @@ illustrates it with *heofon* ‘heaven’ and *fæstenn* ‘fasting’
 in *enetre* ‘yearling’ [@RingeTaylor2014, p. 282]. Campbell’s “heofon is for
 older hefzen” and Hogg’s sequence \emph{*hefon > heofon} preserve outcomes
 of the same kind as those modeled here [@Campbell1959, p. 155;
-@Hogg1992, p. 112]. The formal rule is therefore narrower than the total set of
+@HoggPhonology1992, p. 112]. The formal rule is therefore narrower than the total set of
 handbook remarks: it models one plausible recurrent environment and does not
 claim to exhaust every dissimilatory development involving nasals.
 
@@ -767,7 +767,7 @@ Even so, the rule has real interpretative consequences. It provides a place in
 the implementation for outcomes of the *heofon* ‘heaven’, *fæstenn* ‘fasting’,
 and *enetre* ‘yearling’ type discussed in the literature [@Fulk2018, p. 121,
 §6.11; @RingeTaylor2014, p. 282; @Campbell1959, p. 155; @Luick1914, p. 166;
-@Hogg1992, p. 112]. Without an explicit rule, those outcomes would be left to
+@HoggPhonology1992, p. 112]. Without an explicit rule, those outcomes would be left to
 diffuse analogy or to unexplained exception lists.
 
 The evidence points to a narrow dissimilatory tendency, especially in `mn`-type
@@ -787,7 +787,7 @@ it as a later Old English diphthongizing development before following back
 vowels, and his examples already show why forms such as *heofon* ‘heaven’ are
 historically legible outcomes in their own right
 [@Campbell1959, p. 86, §207]. Hogg treats the same development as a later change with
-clear parallels to breaking [@Hogg1992, p. 112]. Ringe and Taylor sharpen the
+clear parallels to breaking [@HoggPhonology1992, p. 112]. Ringe and Taylor sharpen the
 picture by distinguishing West Saxon forms such as *giefan* ‘give’ and *wefan*
 ‘weave’ from non-West-Saxon forms such as *geofad* and *weofan*
 [@RingeTaylor2014, p. 319, §6.9.4]. Fulk likewise treats back mutation as a distinct
@@ -893,7 +893,7 @@ boundary is available.
 The development belongs to the narrower end of the later weak-tail sequence. It is historically
 legible through the pathway that leads to *dōn* ‘do’, and the broader late
 weak-tail setting is supported by the usual handbook discussions of apocope and
-related reduction [@Campbell1959, pp. 144--145, §§345--349; @Hogg1992, pp. 120--121;
+related reduction [@Campbell1959, pp. 144--145, §§345--349; @HoggPhonology1992, p. 121;
 @Fulk2018, p. 91, §5.6]. But the decisive lexical tie lies much farther back in the
 sequence, in the older development of \emph{*dōną}. That keeps the note real,
 while also keeping it small.

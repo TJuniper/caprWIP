@@ -1,4 +1,4 @@
-# SC004 EAF ai-monophthongization — literature dossier
+# SC004 English stressed ai contraction — literature dossier
 
 > **Corrected PROTOFORM pass.** This dossier covers **only** the stressed/root
 > development `*ái > *ā`. The unstressed development `*ai > *ē` (final and
@@ -12,20 +12,26 @@
 
 ## Historical phenomenon
 
-The monophthongization of stressed/root `*ái` to `*ā` in the English line. In Old
-English the `*ā` is later fronted to `ǣ` in the relevant environments; the change
-is best understood as a North Sea Germanic / Anglo-Frisian areal development
-rather than a single dated node.
+The monophthongization of stressed/root `*ái` to `*ā` in the English line.
+Later i-mutation can produce `ǣ`; ordinary inherited-long fronting must
+not be confused with that later conditioned development
+([@Campbell1959, pp. 52–53, 69]).
+Completed contraction is adopted on the English daughter, with conditioned
+ancestral onset and the runic premises explicitly distinguished
+([@Campbell1939, pp. 90–91; @Versloot2017, pp. 295–297, 318]).
+The canonical decision is recorded in `audits/sc004-adjudication.md`.
+An author's areal account is not CAPR's adopted mechanism; the required
+Anglo-Frisian ancestral node remains in place.
 
 ## CAPR rule
 
 - change_id: `SC004`
-- display_name: `EAF Ai Monophthongization`
+- display_name: `English stressed ai contraction`
 - rule_name: `EAFAiMonophthongization`
 - former identifier: `PWGmcAiMonophthongization` (bundled rule; retained as a documented compatibility alias)
 - FOMA definition: `{*ái} -> {*ā}` (stressed/root `*ái` only)
-- cascade: executable position 25, EAF corridor, immediately after SC028 `PNWGmcPreconsonantalXLoss`
-- hist_stage `eaf`; hist_scope `north_sea_germanic`; book Chapter 3
+- current canonical metadata: hist_stage `preoe`; hist_scope `english_specific`;
+  book Chapter 4; confidence B retained. Rewrite and executable order unchanged.
 
 ## Example lexemes
 
@@ -35,33 +41,36 @@ rather than a single dated node.
 4. `loam` (`*láimą`; stressed `*ái` by its PROTOFORM)
 5. `one` (`*áinaz`)
 
-The witness set is **24 stressed corpus protoforms** (23 attested + `roe`
-`*ráixōn`, which has no attested OE counterpart). See
-`sc004_component_application_report.tsv`. The two dat.sg `*-ai` endings
+The older raw-input report counts 24 stressed protoforms, including roe
+`*ráixōn` without a target. The fresh selected-387 census has 23 live
+firings; roe is excluded. Loam's selected `*láimą` is explicitly a pre-OE
+transponent, not its PGmc citation input. The two dat.sg `*-ai` endings
 (`span`, `meed`) are unstressed and belong to SC014, not SC004.
 
 ## Source support
 
-1. Ringe and Taylor treat the monophthongization of `*ai` among the pervasive
-   post-PNWGmc vowel developments of the English line [@RingeTaylor2014,
-   pp. 40--41, §6.1.5].
-2. Fulk lists the development of `ai`/`au` among the North/West-Germanic shared
-   innovations against Gothic [@Fulk2018, §5.2].
-3. Campbell describes the Anglo-Frisian monophthongization of `*ai > ā` (later
-   fronted) as an English-line development [@Campbell1959, §§133--134, §417].
+1. Ringe and Taylor discuss stressed ai and the inherited-long boundary in
+   §6.1.2; pp. 40–41 concern unstressed ai
+   ([@RingeTaylor2014, pp. 170–171]).
+2. Fulk's relevant English/Frisian outcomes and disputed ai intermediate
+   are in §4.12, not §5.2 ([@Fulk2018, pp. 72–73]).
+3. Campbell's chronology and English ai examples are §§131–134.
+   Section 417 concerns xs, not this law ([@Campbell1959, pp. 52–53]).
 4. **Versloot 2017** (verified directly; see the reconciliation dossier) argues
    that stressed/root `*ai` monophthongization spread in two areal waves through
    a North Sea Germanic dialect continuum (c. AD 400--900), a diffusion rather
    than a single inherited Proto-Anglo-Frisian node; Old English is among the
    broadest monophthongizers. Versloot supports precisely the **stressed** side
-   treated here.
+   treated here. CAPR separates the conditional runic evidence from his
+   diffusion mechanism ([@Versloot2017, pp. 295–297, 318]).
 
 ## Chronology / order-test status
 
 1. Later boundary: `SC036` OE Inter Stress Raising. First-break testing with the
    corrected stressed-only rule confirms that delaying SC004 past SC036 makes
    `*sáiwalō` yield `sāwel` instead of `sāwol` (order 33; 371/372 match at the
-   break). SC004 at executable pos 25 sits safely before it.
+   break). These numbers belong to that historical experiment, not the
+   current 387-row census or derived executable position.
 2. Earlier side: no corpus break toward the head (boundary-limited); SC004's only
    corpus-relevant boundary is SC036.
 3. Formal interactions (`sc004_sc014_interaction_report.md`): SC004 non-commutes
@@ -73,9 +82,10 @@ The witness set is **24 stressed corpus protoforms** (23 attested + `roe`
 
 1. Present SC004 as the stressed/root `*ái > *ā` change only; do **not**
    reintroduce unstressed `*ai` (that is SC014).
-2. Characterise the EAF placement as an operational modelling corridor for a
-   North Sea Germanic areal development, not as a demonstrated discrete
-   Proto-Anglo-Frisian node.
+2. Distinguish the current operational EAF corridor, the required ancestral
+   node and an author's areal account. The adopted daughter placement concerns
+   completed English contraction, with its source premises qualified;
+   it does not exclude every conditioned ancestral onset.
 3. `loam` (`*láimą`) is a stressed witness; `whine` is not an ai-monophthongization
    case at all.
 4. Treat the `SC036` relation as broad/far rather than a local seam.

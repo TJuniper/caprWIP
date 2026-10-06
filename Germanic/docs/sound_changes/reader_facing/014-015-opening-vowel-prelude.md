@@ -11,9 +11,9 @@ Ringe and Taylor describe the broad Northwest Germanic reduction of unstressed \
 ## SC014. Monophthongization of unstressed \emph{*ai} (`PNWGmcUnstressedAiMonophthongization`) {#rule-PNWGmcUnstressedAiMonophthongization}
 
 ```foma
-define PNWGmcUnstressedAiMonophthongization [
+define PNWGmcUnstressedAiMonophthongization Ctx([
     {*ai} -> {*ē}
-];
+]);
 ```
 
 The dative-singular endings span [spánnai]{.recon} 'span' and meed [mízdai]{.recon} 'meed' carry this change; both give a final \emph{*ē}. If [SC014 PNWGmcUnstressedAiMonophthongization](#rule-PNWGmcUnstressedAiMonophthongization) is delayed until after [SC072 OEUnstressedLongVowelShortening](#rule-OEUnstressedLongVowelShortening), the \emph{*ē} is no longer present for shortening, so PGmc [spánnai]{.recon} 'span' yields [*spannē*]{.pred} rather than expected OE *spanne* 'span'. This shows that [SC014 PNWGmcUnstressedAiMonophthongization](#rule-PNWGmcUnstressedAiMonophthongization) must come before [SC072 OEUnstressedLongVowelShortening](#rule-OEUnstressedLongVowelShortening) in the modeled sequence.
@@ -27,14 +27,14 @@ Campbell treats the merger of unstressed front vowels directly and also records 
 ## SC015. Leveling of early unstressed front vowels (`PNWGmcILowering`) {#rule-PNWGmcILowering}
 
 ```foma
-define PNWGmcILowering [
+define PNWGmcILowering Ctx([
     {*i} -> {*e}
         || .#. EnglishStarNonVelarConsonant* _
            EnglishStarCoronal+ EnglishStarNonHighVowel,
     {*í} -> {*é}
         || .#. EnglishStarNonVelarConsonant* _
            EnglishStarCoronal+ EnglishStarNonHighVowel
-];
+]);
 ```
 
 The *weorold* 'world' and *weoruld* 'world' variants turn the general source claim into an ordering test. If [SC015 PNWGmcILowering](#rule-PNWGmcILowering) is delayed until after [SC036 OEInterStressRaising](#rule-OEInterStressRaising), PGmc [wír-àldu]{.recon} ‘world’ yields [*wuruld*]{.pred} rather than expected OE *weorold* ‘world’; earlier movement changes no output.

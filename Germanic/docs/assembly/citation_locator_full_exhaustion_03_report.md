@@ -60,7 +60,7 @@ No FE02 locator needed correction or reversion. The FE02 evidence discipline hel
 ### Other witnesses recovered in this pass
 
 - **Fulk2018:** localized `youth / ġeoguþ` at p. 109 and `meed / meorde` at p. 69.
-- **Hogg1992:** localized the `fire / fȳre` i-umlaut clause at §3.3.3.1.
+- **HoggPhonology1992:** localized the `fire / fȳre` i-umlaut clause at §3.3.3.1.
 - **Campbell1959:** localized the `fire / fȳre` final-vowel-loss clause at §345.
 - **RingeTaylor2014:** localized `wolf / wulf` at p. 47 and pp. 42-44.
 
@@ -70,7 +70,7 @@ Rows inspected in this handbook-heavy subset:
 
 - `RingeTaylor2014`: 11
 - `Campbell1959`: 2
-- `Hogg1992`: 2
+- `HoggPhonology1992`: 2
 - `Fulk2018`: 2
 - `SieversBrunner1965`: 3
 
@@ -95,7 +95,7 @@ The main surviving handbook blockers are no longer page-recovery failures. They 
 | KlugeSeebold2011 | 4 | 4 | 0 | 0 | 4 | The local witness still does not provide page-safe architecture for the surviving rows. |
 | SieversBrunner1965 | 3 | 3 | 0 | 1 | 2 | `find` still needs a sentence split; `navel` remains broad background. |
 | Fulk2018 | 2 | 2 | 2 | 0 | 0 | No FE03 Fulk rows remain broad. |
-| Hogg1992 | 2 | 2 | 1 | 0 | 1 | `way` remains broad background. |
+| HoggPhonology1992 | 2 | 2 | 1 | 0 | 1 | `way` remains broad background. |
 
 ## Successful recoveries
 
@@ -106,7 +106,7 @@ The main surviving handbook blockers are no longer page-recovery failures. They 
 5. `meed / meorde` — `Fulk2018` localized to **p. 69**.
 6. `meed / meorde` — the attested-oblique Bosworth-Toller clause was localized to **p. 647**.
 7. `meed / meorde` — the companion Bosworth-Toller dictionary clause was likewise localized to **p. 647**.
-8. `fire / fȳre` — the i-umlaut clause was split out and localized to **Hogg1992 §3.3.3.1**.
+8. `fire / fȳre` — the i-umlaut clause was split out and localized to **HoggPhonology1992 §3.3.3.1**.
 9. `fire / fȳre` — the final-vowel-loss clause was split out and localized to **Campbell1959 §345**.
 10. `wolf / wulf` — the exception-side comparative claim was localized to **RingeTaylor2014 p. 47**.
 11. `wolf / wulf` — the regular lowered-vowel control path was localized to **RingeTaylor2014 pp. 42-44**.
@@ -127,7 +127,7 @@ The main surviving handbook blockers are no longer page-recovery failures. They 
 | CLMM01-0097 | still / stillan | KlugeSeebold2011 | `source_verified_unlocalized` | Obtain a page-safe Kluge-Seebold witness. |
 | CLMM01-0104 | sunder / sundrian | BosworthToller1898 | `source_verified_unlocalized` | Recover a safe printed page from a better Bosworth-Toller witness. |
 | CLMM01-0108 | think / þenċan | RingeTaylor2014 | `claim_not_isolated` | Rewrite the sentence so one handbook claim can be isolated. |
-| CLMM01-0132 | way / weġ | Hogg1992 | `retained_broad_general_background` | Narrow the sentence to a source-specific claim if localization is still wanted. |
+| CLMM01-0132 | way / weġ | HoggPhonology1992 | `retained_broad_general_background` | Narrow the sentence to a source-specific claim if localization is still wanted. |
 | CLMM01-0135 | will / willa | KlugeSeebold2011 | `source_verified_unlocalized` | Obtain a page-safe Kluge-Seebold witness. |
 | CLMM01-0139 | wind / windan | RingeTaylor2014 | `claim_not_isolated` | Rewrite the sentence so the handbook citation supports one claim only. |
 | CLMM01-0147 | yarn / ġearn | BosworthToller1898 | `source_verified_unlocalized` | Recover a safe printed page from a better Bosworth-Toller witness. |

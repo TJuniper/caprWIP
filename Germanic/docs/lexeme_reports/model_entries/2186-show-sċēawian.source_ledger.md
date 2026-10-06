@@ -8,7 +8,7 @@ This ledger records the compact evidence used for the regular model entry rewrit
 | Compact derivation trace | current trace | `*skáwōjaną -> sċēawian` | regular verbal derivation | `sċēawian` | Confirms the exact current output. | no | `Germanic/docs/lexeme_reports/packets/2186-show-sċēawian.md` | high |
 | Orel; Kroonen | comparative etymology | `*skawōjan-` / `*skawōjanan` | Class II `*-ōjan-` verb | `scēawian` | Establish the comparative lemma behind the row. | yes — `Orel2003`; `Kroonen2013` | local comparative reference files; memo | high |
 | Bright; Brunner | OE lexicography and grammar | `scēawian`; variant `scāwian`; related `scēawa` | OE weak-verb family | `scēawian`, `scēawa` | Supports the source-spelled lemma and the related finite-form family. | yes — `BrightCassidyRingler1971`; `SieversBrunner1965` | `docs/references/bright_anglo_saxon_reader.vision.txt`; `docs/references/brunner_1965_altenglische_grammatik.vision.txt` | high |
-| Campbell; Hogg | OE phonology and spelling | initial `<sc>` for palatalized `sk` | orthographic normalization | `scēawian` | The row's `sċ-` is editorial normalization of source `<sc>`, not a separate lemma. | yes — `Campbell1959`; `Hogg1992` | local grammar files; memo | high |
+| Campbell; Hogg | OE phonology and spelling | initial `<sc>` for palatalized `sk` | orthographic normalization | `scēawian` | The row's `sċ-` is editorial normalization of source `<sc>`, not a separate lemma. | yes — `Campbell1959`; `HoggPhonology1992` | local grammar files; memo | high |
 
 ## Citation-locator full-corpus high-confidence pass
 

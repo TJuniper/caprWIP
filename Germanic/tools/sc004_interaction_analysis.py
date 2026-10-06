@@ -46,26 +46,27 @@ def _load_harness():
 SC014 = "PNWGmcUnstressedAiMonophthongization"
 SC004 = "EAFAiMonophthongization"
 
-# Rules SC014 (pos 1) is adjacent to / crosses at the head of the cascade.
+import sys  # noqa: E402
+
+sys.path.insert(0, str(TOOLS))
+import oe_pipeline  # noqa: E402
+
+# Crossed-rule sets are derived from the shared executable model
+# (oe_pipeline), not hand-maintained lists: SC014 sits at the head of the
+# cascade-numbered span and crosses everything down to PNWGmcILowering;
+# SC004's displacement experiment spans the head through SC036
+# (OEInterStressRaising).  Deriving these mechanically keeps them correct
+# when rules move (e.g. SC024's relocation) or are inserted (e.g. SC102).
 SC014_CROSSED = [
-    "PNWGmcAToUBeforeM", "PWGmcEarlyIApocope", "PWGmcFinalOrLowering",
-    "PWGmcCoronalWAssimilation", "PWGmcIjContraction", "PWGmcJGemination",
-    "PWGmcSyllabicJ", "EAFLThVoicing", "PWGmcDentalHardening", "PNWGmcILowering",
+    r for r in oe_pipeline.rules_between(SC014, "PNWGmcILowering",
+                                         inclusive=True)
+    if r != SC014
 ]
 
-# Rules SC004 (pos 25) crosses moving from the head to its EAF position (pos
-# 2..24) and, in the later direction, up to and including SC036 (pos 26..33).
 SC004_CROSSED = [
-    "PNWGmcAToUBeforeM", "PWGmcEarlyIApocope", "PWGmcFinalOrLowering",
-    "PWGmcCoronalWAssimilation", "PWGmcIjContraction", "PWGmcJGemination",
-    "PWGmcSyllabicJ", "EAFLThVoicing", "PWGmcDentalHardening", "PNWGmcILowering",
-    "OEWsPalatalGlide", "PNWGmcULowering", "PNWGmcStressedMonosyllableORaising",
-    "PNWGmcFinalLongORaising", "EAFFinalZDeletion", "PNWGmcUnstressedORaising",
-    "PNWGmcMnDissimilation", "PNWGmcNStemNLoss", "PNWGmcLongELowering",
-    "PNWGmcLongENasalRounding", "EAFNasalSpirantLengthening", "EAFNasalSpirantLoss",
-    "PNWGmcPreconsonantalXLoss", "OEAwjGlideFormation", "OEAuFronting",
-    "OEWWSimplification", "OEDiphthongLeveling", "OEEwLongDiphthong",
-    "OEAwLongDiphthong", "OEPrefixAReductionEarly", "OEInterStressRaising",
+    r for r in oe_pipeline.rules_between(SC014, "OEInterStressRaising",
+                                         inclusive=True)
+    if r not in (SC014, SC004)
 ]
 
 def normalize_proto(proto: str) -> str:

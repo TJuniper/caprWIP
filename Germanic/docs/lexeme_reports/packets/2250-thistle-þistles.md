@@ -685,7 +685,7 @@ _None_
 
 | Key | Why it was selected |
 | :--- | :--- |
-| Hogg1992 | single available key for Hogg |
+| HoggPhonology1992 | single available key for Hogg |
 | Campbell1959 | single available key for Campbell |
 | Luick1914 | single available key for Luick |
 | Orel2003 | single available key for Orel |

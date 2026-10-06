@@ -7,7 +7,7 @@ This row is an `early_analogy` case, so the central distinction is between the c
 #### Chronological source dossier
 
 - `Germanic/data/germanic-aligned-final.tsv`: the row note cites [@Kroonen2013] for a `kraftu-` noun and [@Orel2003] for `*kraftiz ~ *kraftuz`, then explains why the Old English reflex rules out a straight i-stem analysis.
-- The sound-history logic behind the vowel argument follows the standard OE umlaut chronology in [@Campbell1959; @Hogg1992; @RingeTaylor2014].
+- The sound-history logic behind the vowel argument follows the standard OE umlaut chronology in [@Campbell1959; @HoggGrammar1992; @RingeTaylor2014].
 
 #### Old English philology
 

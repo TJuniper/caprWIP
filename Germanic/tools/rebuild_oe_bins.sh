@@ -1,34 +1,39 @@
 #!/usr/bin/env bash
-# Rebuild OE bins inside the backend container.
+# Rebuild the OE runtime bins into the ONE authoritative bin location
+# (host: <repo>/backend, container: /usr/app) and record the build manifest.
+#
+# Steps: verify the generated executable-order views and sandbox are clean,
+# clear stale snapshot bins, compile germanic.txt + the generated sandbox
+# through the canonical runner, then write oe_build_manifest.json.
 set -euo pipefail
 
 SCRIPT_DIR=$(cd "$(dirname "$0")" && pwd)
 REPO_ROOT=$(cd "$SCRIPT_DIR/../.." && pwd)
-COMPOSE_CMD=(docker compose)
 
-run_in_container() {
-  "${COMPOSE_CMD[@]}" exec backend bash -lc "$1"
-}
+python3 "$SCRIPT_DIR/cascade_order_manifest.py" --check
+python3 "$SCRIPT_DIR/generate_oe_sandbox.py" --check
 
-# Clean stale sandbox bins before compiling so that any rules removed/renamed
-# in old_english_sandbox.txt do not leave orphaned bin files lying around in
-# backend/ (the host-side bind-mount of /usr/app/). The fresh compile below
-# will recreate exactly the bins defined in the current sandbox source.
-run_in_container "cd /usr/app && rm -f old_english_sandbox_after_*.bin"
+CAPR_TOOLS_DIR="$SCRIPT_DIR" python3 - <<'PY'
+import os
+import sys
+sys.path.insert(0, os.environ["CAPR_TOOLS_DIR"])
+import oe_pipeline
+from capr_runtime import layout, run_in_runner, write_build_manifest
 
-# Build FSTs (writes to /usr/app/*.bin)
-run_in_container "cd /usr/app && foma -f fsts/germanic.txt"
-run_in_container "cd /usr/app && foma -f fsts/old_english_sandbox.txt"
-
-# Sync old_english.bin from root to both Germanic/fsts/ and backend/
-# This keeps all three locations in sync:
-#   /usr/app/old_english.bin (where foma writes)
-#   /usr/app/fsts/old_english.bin (Germanic/fsts/ in repo)
-#   /usr/app/backend/old_english.bin (backend/ in repo, if it exists)
-run_in_container "cp /usr/app/old_english.bin /usr/app/fsts/old_english.bin"
-if run_in_container "test -d /usr/app/backend" 2>/dev/null; then
-  run_in_container "cp /usr/app/old_english.bin /usr/app/backend/old_english.bin"
-fi
-
-echo "Rebuilt OE bins in /usr/app (repo root)."
-echo "Synced old_english.bin to fsts/ and backend/ directories."
+rt = layout()
+run_in_runner("rm -f old_english_sandbox_after_*.bin", rt=rt, check=True)
+# old_english_sandbox.txt begins with `source fsts/germanic.txt`, so one
+# compile rebuilds the full production cascade AND every stage bin.
+source = "fsts/old_english_sandbox.txt"
+print(f"compiling {source} (sources fsts/germanic.txt) ...")
+proc = run_in_runner(f"foma -q -l {source} -e quit", rt=rt,
+                     capture_output=True, text=True)
+if proc.returncode != 0:
+    print(proc.stdout, file=sys.stderr)
+    print(proc.stderr, file=sys.stderr)
+    raise SystemExit(f"foma failed on {source}")
+manifest = write_build_manifest(
+    oe_pipeline.expected_snapshot_bins() + ["old_english.bin"], rt=rt)
+print(f"wrote {manifest}")
+PY
+python3 "$SCRIPT_DIR/oe_bin_sync_check.py"

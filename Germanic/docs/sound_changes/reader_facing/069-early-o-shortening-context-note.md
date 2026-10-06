@@ -6,7 +6,7 @@ After the principal palatal and umlautal changes, unstressed vowels undergo
 shortening, fronting, merger, and sometimes complete loss. Campbell describes
 the early shortening of unaccented long vowels, while Hogg, Ringe and Taylor,
 and Fulk relate it to apocope, syncope, and the later reductions
-[@Campbell1959, p. 148, §355; @Hogg1992, pp. 120--121;
+[@Campbell1959, p. 148, §355; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3;
 @Fulk2018, pp. 90--96, §§5.6--5.7].
 

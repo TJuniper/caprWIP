@@ -5,7 +5,7 @@
 The positional alternation of Germanic \emph{*b} is a Proto-Germanic distributional feature. Hogg
 states the Old English distribution clearly: /b/ is a stop initially, after
 nasals, and in gemination, while the same segment is otherwise realized as a
-voiced bilabial fricative [@Hogg1992, pp. 101--102]. Ringe and Taylor support
+voiced bilabial fricative [@HoggPhonology1992, p. 108]. Ringe and Taylor support
 the broader West Germanic background by treating Proto-West-Germanic \emph{*b} as a
 segment whose stop and fricative values depend on position
 [@RingeTaylor2014, p. 121], and Luick's spelling evidence shows the same labial

@@ -40,14 +40,14 @@ direct evidence, which is exactly the kind of source profile that justifies
 brief inclusion without overstating local chronology [@Campbell1959, §331.7].
 Hogg adds the structural observation that diphthongs do not survive in Old
 English unstressed syllables, reinforcing the broad historical type behind SC014
-without turning it into a chapter center [@Hogg1992, p. 112]. The CAPR corpus
+without turning it into a chapter center [@HoggPhonology1992, p. 113]. The CAPR corpus
 now adds two live dat.sg witnesses, `span` and `meed`, which turn that broad
 type into a limited but real lexical foothold.
 
 SC015 is better anchored. Campbell states that unaccented front vowels fell
 together in Old English [@Campbell1959, §369], and Hogg likewise argues that by
 about 700 unstressed front vowels had broadly converged on `/e/`
-[@Hogg1992, p. 117]. The `world` material then makes the rule more concrete.
+[@HoggPhonology1992, p. 120]. The `world` material then makes the rule more concrete.
 Campbell records `weorold` / `weoruld` variation [@Campbell1959, §§338--339],
 while Ringe and Taylor derive the word through `*weraldu > *weruld > weorold ~
 worold` [@RingeTaylor2014, §6.3.3]. That does not create a tight local chapter,

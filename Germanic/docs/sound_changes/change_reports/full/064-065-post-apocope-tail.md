@@ -22,7 +22,7 @@ The source tradition strongly supports the **broader late weak-tail
 environment** around this unit. Campbell, Hogg, Ringe and Taylor, Luick, and
 Fulk all support a post-apocope zone in which additional medial reduction,
 cluster pressure, and weak-tail cleanup remain active
-[@Campbell1959, §§345--349, 388--389; @Hogg1992, pp. 120--121;
+[@Campbell1959, §§345--349, 388--389; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, §§6.7.3--6.8.4; @Luick1914, §§304--306; @Fulk2018, §5.6].
 Kroonen adds the key lexical support for the inherited `*furht-*` family behind
 the `fright` witness that carries SC064's current positive evidence
@@ -35,7 +35,7 @@ of medial syncope than onto CAPR's precise pre-dental rule. The honest source
 claim is therefore asymmetrical: the post-apocope setting is well supported, the
 `fright` family is real, but the pair itself is a practical chronological bridge
 report rather than a traditional two-rule chapter
-[@Campbell1959, §§345--349, 388--389; @Hogg1992, pp. 120--121;
+[@Campbell1959, §§345--349, 388--389; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, §§6.7.3--6.8.4; @Luick1914, §§304--306; @Fulk2018, §5.6;
 @Kroonen2013, p. 201].
 
@@ -50,7 +50,7 @@ useful explicit rules in the model, but they are not simple one-to-one matches
 for ordinary grammar chapter labels. SC064 is especially narrow and
 witness-driven. SC065 is better read as one carved-out formal slice of the
 broader late medial-syncope tradition than as the whole historical phenomenon
-[@Hogg1992, pp. 120--121; @RingeTaylor2014, §§6.7.3--6.8.4].
+[@HoggPhonology1992, p. 121; @RingeTaylor2014, §§6.7.3--6.8.4].
 
 #### Place in the cascade
 

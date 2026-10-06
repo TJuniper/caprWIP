@@ -1,7 +1,7 @@
 # SC018 NWGmc Stressed Monosyllable O Raising — chronology evidence card
 
-## Current position
-- current_order: `18`
+## Position at experiment time
+- order_at_experiment_time: `18`
 - rule_name: `PNWGmcStressedMonosyllableORaising`
 - former_rule_name: `NWGmcStressedMonosyllableORaising`
 - safe computational window: `13-86` (earlier side runner-limited; later side boundary-limited)

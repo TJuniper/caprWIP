@@ -1,7 +1,7 @@
 # SC045 OE Velar Fricative Palatalization — chronology evidence card
 
-## Current position
-- current_order: `45`
+## Position at experiment time
+- order_at_experiment_time: `45`
 - rule_name: `OEVelarFricativePalatalization`
 - safe computational window: `45-59`
 - status: `first_break_complete`

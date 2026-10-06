@@ -1,7 +1,7 @@
 # SC050 Sievers Law Syncope — chronology evidence card
 
-## Current position
-- current_order: `50`
+## Position at experiment time
+- order_at_experiment_time: `50`
 - rule_name: `SieversLawSyncope`
 - safe computational window: `13-51` (earlier side runner-bounded)
 - status: `first_break_complete`

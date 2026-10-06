@@ -21,7 +21,7 @@ RULE_SUMMARY: fronts low a outside nasal environments, with later breaking and r
 DOSSIER: literature_dossiers/043-anglo-frisian-brightening.dossier.md
 LITERATURE_STATUS: pilot_complete
 MATRIX_ROWS: 10
-KEY_SOURCES: Campbell1959; Hogg1992; RingeTaylor2014; Fulk2018
+KEY_SOURCES: Campbell1959; HoggPhonology1992; RingeTaylor2014; Fulk2018
 
 ## Conditioning
 

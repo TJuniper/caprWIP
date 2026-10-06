@@ -54,8 +54,8 @@ promoted `SC066-SC068` corridor?
 - cautions: Campbell is excellent for the late weak-tail framework and for keeping apocope and syncope distinct. He is much weaker as direct support for treating `SC064` as a broad standalone law rather than a narrow local note.
 
 ### Hogg 1992
-- source_key: Hogg1992
-- locator: pp. 120--121
+- source_key: HoggPhonology1992
+- locator: pp. 121--122
 - witness_used: `docs/references/hogg_vol1.txt`
 - locator_confidence: page_safe
 - terminology: apocope; syncope; simplification in consonant groups

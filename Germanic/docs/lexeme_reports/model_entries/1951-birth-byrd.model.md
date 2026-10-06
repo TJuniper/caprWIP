@@ -26,7 +26,7 @@ Clark Hall and Bosworth-Toller both attest simplex [`byrd`]{.iv lang=oe sort=byr
 
 ### Form note
 
-The relevant comparator here is the simplex noun `byrd`. The prefixed forms remain related attested material within the same lexical family, and Hogg's discussion of deverbal feminines provides the broader derivational setting [@Hogg1992].
+The relevant comparator here is the simplex noun `byrd`. The prefixed forms remain related attested material within the same lexical family, and Kastovsky's discussion of deverbal feminines provides the broader derivational setting [@Kastovsky1992, p. 358].
 
 ### Development to Old English
 

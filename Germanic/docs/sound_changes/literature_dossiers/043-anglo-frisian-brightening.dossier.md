@@ -56,8 +56,8 @@ The literature strongly supports the order fronting before breaking and before r
 - notes: Campbell is still the cleanest section-safe source for the core order claim behind the current transducer
 
 ### Hogg 1992
-- source_key: Hogg1992
-- locator: p. 101 (§ 3.3.3.1); p. 119; p. 445
+- source_key: HoggPhonology1992
+- locator: p. 102 (§ 3.3.3.1); p. 119; p. 445
 - terminology: Anglo-Frisian Brightening; First Fronting
 - quotation: "This vowel normally fronted to /ae/ by the sound change of Anglo-Frisian Brightening (or First Fronting)"; "By First Fronting ... /a/ became /ae/ as in stressed syllables"
 - paraphrase: Hogg gives the most straightforward modern label pair for the change and states the main conditioning clearly: fronting is normal, but following nasals block it. He is also useful for the present transducer because he explicitly extends first fronting into the unstressed-vowel system. The later Toon chapter in the same volume preserves the standard handbook order fronting > breaking/retraction > restoration, while warning against excessive confidence about the full prehistoric sequence.
@@ -139,6 +139,29 @@ Examples from the transducer trace:
 
 ### Disagreements and open questions
 
+0. **The Anglo-Frisian status of this change is unresolved, and this dossier
+   does not settle it.** The label "Anglo-Frisian Brightening" is a
+   historiographical inheritance, not a finding. Whether the fronting can
+   actually be placed on a shared English/Frisian stem — as against having
+   happened independently in the two languages — depends on relative
+   chronologies that the handbook sources above do not adjudicate, and on
+   which the Frisian specialist literature directly contradicts itself.
+   Campbell 1939 argues that the relative order of \emph{*ai}-monophthong-
+   ization and short-\emph{*a} fronting is *reversed* between the two
+   languages, and concludes the fronting was independent
+   [@Campbell1939, pp. 90–91]; Kortlandt 2008 places the fronting on the
+   shared stem as AF 6 [@Kortlandt2008, p. 270]. Both readings are live;
+   compatibility under an author's proposed chain is not proof of inheritance.
+
+   That comparison is maintained in one place and must not be re-derived
+   here or in any other memo:
+
+   `anglo_frisian/anglo-frisian-chronology.synthesis.md`
+
+   with per-source evidence in `anglo_frisian/source_cards/`. This dossier
+   defers to it. Point 1 below is the earlier, weaker statement of the same
+   caution and is retained for continuity.
+
 1. The English-Frisian subgrouping question is not identical to the narrower question of how to narrate the fronting event itself; Campbell is more cautious than the modern label "Anglo-Frisian Brightening" may suggest.
 2. Ringe and Taylor leave open whether the spread of the fronted outcomes happened mainly on the continent or in Britain.
 3. The transducer's explicit unstressed clause is defensible from Hogg, but the chapter will need to decide whether to foreground that or keep the main prose centered on the stressed-vowel rule and mention unstressed fronting briefly.
@@ -151,6 +174,17 @@ Examples from the transducer trace:
 3. Kaluza1906: searched in the local text witness without a clean dossier-ready extract in this pass.
 4. SieversBrunner1965: Google Vision OCR is available and should be revisited when a second-round historical grammar sweep is done.
 5. Stiles1985 and Stiles1986a/b: likely useful for Anglo-Frisian and Ingvaeonic subgroup questions if the eventual chapter needs a fuller historiography of the label rather than only the sound change.
+6. **Stiles 1995, "Remarks on the 'Anglo-Frisian' Thesis", is the highest-priority
+   missing item for this change.** Bremmer, Laker, Kortlandt and Repansek all
+   engage with its chronological argument directly, so CAPR currently knows it
+   only at second hand. See
+   `anglo_frisian/missing-direct-sources.md` for the full acquisition list and
+   priority order; nothing reported *about* Stiles by another author may be
+   treated as direct evidence from Stiles until a copy is held.
+7. Nine Anglo-Frisian specialist sources were ingested in the 2026 source pass
+   and are now held locally: Campbell 1939, Laker 2007, Bremmer 2008,
+   Kortlandt 2008, Repansek 2012, Versloot 2017, 2021 and 2025, Waxenberger 2019.
+   Their bearing on this change is recorded in the synthesis dossier.
 
 ## Dossier status
 

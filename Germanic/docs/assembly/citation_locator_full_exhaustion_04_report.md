@@ -23,7 +23,7 @@ The requested FE03 additions were spot-checked directly against the local witnes
 - `youth / ġeoguþ` — `Fulk2018, 109`
 - `meed / meorde` — `Fulk2018, 69`
 - `meed / meorde` — `BosworthToller1898, 647`
-- `fire / fȳre` — `Hogg1992, §3.3.3.1`
+- `fire / fȳre` — `HoggPhonology1992, §3.3.3.1`
 - `fire / fȳre` — `Campbell1959, §345`
 - `wolf / wulf` — `RingeTaylor2014, 47`
 - `wolf / wulf` — `RingeTaylor2014, 42-44`
@@ -95,8 +95,8 @@ The other FE04 claim-isolation rows (`think`, `wind`, `man`) did not need to rem
 | `CLMM01-0080` | `coat / rocc` | `BosworthToller1898` | citation removed | broad garment/stone note | localized `ClarkHall1960, 259` only |
 | `CLMM01-0097` | `still / stillan` | `KlugeSeebold2011` | citation removed | broad lexical-framing note | localized `ClarkHall1960, 292` only |
 | `CLMM01-0104` | `sunder / sundrian` | `BosworthToller1898` | citation removed | broad dictionary support | localized `Orel2003, 426` and `ClarkHall1960, 296` only |
-| `CLMM01-0108` | `think / þenċan` | `RingeTaylor2014` | citation removed | broad handbook reconstruction aside | localized `Kroonen2013, 533`, `Campbell1959, §438`, `Hogg1992, §3.4.2.4` only |
-| `CLMM01-0132` | `way / weġ` | `Hogg1992` | citation removed | broad handbook background | localized `RingeTaylor2014, 341` only |
+| `CLMM01-0108` | `think / þenċan` | `RingeTaylor2014` | citation removed | broad handbook reconstruction aside | localized `Kroonen2013, 533`, `Campbell1959, §438`, `HoggPhonology1992, §3.4.2.4` only |
+| `CLMM01-0132` | `way / weġ` | `HoggPhonology1992` | citation removed | broad handbook background | localized `RingeTaylor2014, 341` only |
 | `CLMM01-0135` | `will / willa` | `KlugeSeebold2011` | citation removed | broad noun-side comparative support | localized `Kroonen2013, 618` and `Orel2003, 492` only |
 | `CLMM01-0139` | `wind / windan` | `RingeTaylor2014` | citation removed | broad handbook etymology aside | localized `Kroonen2013, 587`, `ClarkHall1960, 335`, `BosworthToller1898, 101` only |
 | `CLMM01-0147` | `yarn / ġearn` | `BosworthToller1898` | citation removed | broad dictionary gloss | localized `ClarkHall1960, 145` only |

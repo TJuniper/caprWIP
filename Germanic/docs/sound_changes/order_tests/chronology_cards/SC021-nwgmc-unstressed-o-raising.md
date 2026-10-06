@@ -1,38 +1,32 @@
-# SC021 NWGmc Unstressed O Raising — chronology evidence card
+# SC021 retired NWGmc unstressed *o*-raising — chronology evidence card
 
-## Current position
-- current_order: `21`
-- rule_name: `PNWGmcUnstressedORaising`
-- former_rule_name: `NWGmcUnstressedORaising`
-- safe computational window: `13-39` (earlier side runner-bounded)
-- status: `first_break_complete`
+## Position at experiment time
+- order_at_experiment_time: `retired`
+- former_rule_name: `PNWGmcUnstressedORaising`
+- successor rules: `SC071 OELateOShortening` → `SC099 OEMedUnstressedORaising` / `SC100 OEFinalUnstressedOLowering`
+- status: `adjudicated_retired`
 
-## Earlier boundary
-- first earlier break: `none found before runner boundary at order 13`
-- crossed stage: `PWGmcChanges`
-- crossed stage type: `blocked_by_runner_limitation`
-- failure count: `0`
-- representative failures: `none`
-- concrete failure example: `none — no earlier real break was found before the runner boundary`
-- interpretation: The current runner can move SC021 earlier safely down to order `13`, but it cannot test farther because that path enters bundled `PWGmcChanges`. This is therefore not yet an earlier historical boundary for NWGmc Unstressed O Raising.
+## Retired first-break record
 
-## Later boundary
-- first later break: order `40`
-- crossed stage: `SC040` OE Med Unstressed U Lowering
-- crossed stage type: `historical_sound_change`
-- failure count: `1`
-- representative failures: `heaven`
-- concrete failure example: PGmc `*xémonų` yields expected OE `heofon`, but the later-shifted variant yields `heofun`
-- interpretation: SC021 can move later safely through order `39`, but it cannot move later across SC040. Delaying NWGmc Unstressed O Raising that far forward leaves the wrong unstressed vowel in the `heaven` derivation.
+The archived runner result belongs to the retired formulation, not to the
+current cascade. Its apparent later break at SC040 depended on the retired
+`*xémonų` heaven proxy and on SC040's former early cascade position. It is not
+historical evidence for a Northwest Germanic *o* > *u* rule and must not be
+used as an ordering constraint.
 
 ## Chronology statement
-Current first-break evidence identifies one historically interpretable boundary for SC021. The earlier search ran safely down to order `13` before stopping at bundled `PWGmcChanges` with no real break, so that side remains runner-limited. The later search does find a real historical boundary at `SC040` OE Med Unstressed U Lowering: if NWGmc Unstressed O Raising is moved later than that stage, PGmc `*xémonų` yields `heofun` rather than expected OE `heofon`.
+
+SC021 is adjudicated and retired. The source-backed successors are SC071,
+which shortens unstressed *ō to *o, and the later complementary rules SC099
+(medial *o > *u) and SC100 (final *o > *a). Their documented chronology is
+SC071 → SC099/SC100 → SC040; SC021 is not an endpoint in that relation.
 
 ## Caveats
-This card is one-sided in current testing. The later boundary is historically interpretable, but it is broad/far across `SC040` rather than a tight local adjacency claim; the earlier side must not be rewritten as a positive boundary because it stops at bundled `PWGmcChanges`.
+
+SC099 is deliberately limited to the West Saxon ō-verb evidence established by
+Stausland Johnsen 2015; it does not revive a general inherited short-*o* rule.
 
 ## Source files
-- `Germanic/docs/sound_changes/order_tests/summaries/order_sensitivity_first_break_pilot_03.tsv`
-- `Germanic/docs/sound_changes/order_tests/summaries/order_sensitivity_first_break_pilot_03_changes.tsv`
-- `Germanic/docs/sound_changes/order_tests/summaries/order_sensitivity_first_break_pilot_03_failures.tsv`
-- `Germanic/docs/sound_changes/sound_change_order_sensitivity.tsv`
+- `Germanic/docs/sound_changes/audits/sc021-adjudication.md`
+- `Germanic/docs/sound_changes/order_tests/sc021_repair_interaction_matrix.tsv`
+- `Germanic/docs/sound_changes/cascade_baseline/historical_partial_order.tsv`

@@ -6,7 +6,7 @@ This note records the control and watchlist entries rechecked in source-preparat
 | :--- | :--- | :--- | :--- |
 | find / fundene | RingeTaylor2014, 344; BosworthToller1898, 219; ClarkHall1960, 124. | Yes. | Stable control case. No Luick/Brunner-style analogical-leveling claim has re-entered the prose; the selected-cell comparison remains explicit project framing based on cited forms and trace output. |
 | still / stillan | ClarkHall1960, 292; retained broad KlugeSeebold2011 (2 rows). | Yes. | The comparative family note still needs paginated Kluge evidence, but the current citation state remains adequate and no removed citation needs restoration. |
-| think / þenċan | Kroonen2013, 533; BosworthToller1898, 442; Campbell1959, §438; Hogg1992, §3.4.2.4. | Yes. | Audit 06 localized the remaining Bosworth-Toller citation to p. 442, so the entry is now better anchored than in audit 05. |
+| think / þenċan | Kroonen2013, 533; BosworthToller1898, 442; Campbell1959, §438; HoggPhonology1992, §3.4.2.4. | Yes. | Audit 06 localized the remaining Bosworth-Toller citation to p. 442, so the entry is now better anchored than in audit 05. |
 | man / mannes | Kroonen2013, 354; SieversBrunner1965, §226 and §231; ClarkHall1960, 197; Campbell1959, §621. | Yes. | Audit 06 re-spot-checked the audit-05 Campbell `§621` localization and found it still safe. |
 | have / hæfeþ | Kroonen2013, 237; RingeTaylor2014, 93 and 364; Campbell1959, §762; ClarkHall1960, 157. | Yes. | The current finite-cell framing remains adequately supported and no restoration is needed. |
 | rust / rust | Campbell1959, §115; ClarkHall1960, 264; BosworthToller1898, 813. | Yes. | The earlier Ringe removal still leaves the entry adequately supported and no citation needs restoration. |

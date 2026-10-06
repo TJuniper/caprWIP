@@ -1,1 +1,60 @@
 action	language	form	form_role	source_scope	source_ref	note
+add	oe	cneowe	target_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	SC033 approved regular dative target; HoggGrammar2011 pp.21-22,86 and Campbell1959 pp.232-233.
+add	oe	cneowe	target_form	lexical_heading	knee — OE cneowe	SC033 approved cell migration and detailed lexical model in late analogy/paradigm-cell selection.
+add	oe	cneowe	target_form	table_semantic_auto	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Explicit selected dative comparison table; SC033 approved target.
+add	oe	cneowes	comparison_form	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Regular genitive comparison, Campbell1959 p.233 and Luick1914 p.139; not another corpus cell.
+add	oe	cnēo	comparison_form	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Regular endingless comparison, RingeTaylor2014 pp.174,387; not the selected target.
+add	oe	cnēow	comparison_form	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Comparison with restored nominative w, Campbell1959 pp.232-233 and RingeTaylor2014 p.387.
+add	pgmc	*knéwai	comparison_form	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Selected paradigm construction repeated in the table; Fulk2018 p.147, not a quoted whole-word reconstruction.
+add	pgmc	*knéwai	selected_input	trace_proto_input	knee — OE cneowe	Exact authorized SC033 row2085 input migration; approved_cell_migration.json.
+add	pgmc	*knéwai	source_protoform	lexical_protoform	knee — OE cneowe	Generated PROTOFORM heading for the selected inherited dative; PGmc stage explicitly retained separately from citation PROTO.
+add	pgmc	*knéwą	source_protoform	lexical_proto	knee — OE cneowe	Preserved citation PROTO reprojected under the approved new target heading.
+add	pgmc	*knéwą	source_protoform	table_semantic_auto	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Preserved citation reconstruction in the new input/output comparison table.
+add	pgmc	knewaz	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	HoggGrammar2011 p.86 note7 prints this ending; recorded separately from RingeTaylor2014 p.387.
+add	pgmc	knéwai	selected_input	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Explicit selected PGmc dative construction under Fulk2018 p.147.
+add	pgmc	knéwą	source_protoform	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md	Explicit retained citation reconstruction, RingeTaylor2014 p.387.
+remove	pgmc	*knéwą	selected_input	trace_proto_input	knee — OE cnēow	Former nominative selected input replaced only through the authorized SC033 dative migration; pre-SC033 baseline preserved.
+add	pgmc	giftiz	evidence_form	explicit_tag	Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md	Source-backed PGmc comparison added to the SC055/056 historical discussion (Ringe2017 p.135); publication evidence indexing only, not an OE corpus admission or scientific rebaseline.
+add	goth	hiwi	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Existing committed hue comparison (Kroonen2013 p.224); first fresh lexical-volume publication against the older snapshot.
+add	goth	þagkjan	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed thought paradigm comparison (Ringe2017 p.281); publication propagation only.
+add	goth	þāhta	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed thought paradigm comparison (Ringe2017 p.281); publication propagation only.
+add	oe	hīew	target_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Existing committed hue target (Campbell1959 p.46); publication propagation only.
+add	oe	þōhte	target_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed thought target (Fulk2018 p.55); publication propagation only.
+add	ofris	thochte	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed thought comparison (Fulk2018 p.55); comparative prose indexing, not a runtime Frisian row.
+add	ohg	denken	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed cited paradigm spelling (Ringe2017 p.281); index propagation only, no non-OE runtime analysis.
+add	ohg	dāhta	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed cited paradigm spelling (Ringe2017 p.281); index propagation only, no non-OE runtime analysis.
+add	on	hý	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Existing committed cited hue comparison (Kroonen2013 p.224); index propagation only.
+add	on	þekkja	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed cited thought paradigm (Ringe2017 p.281); index propagation only.
+add	on	þátti	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed cited thought paradigm (Ringe2017 p.281); index propagation only.
+add	pgmc	*lḗwijaną	selected_input	trace_proto_input	betray — OE lǣwan	Current committed TSV selected input projected by the fresh full trace/lexical assembly; no new corpus or stage change.
+add	pgmc	*sḗaną	selected_input	trace_proto_input	sow — OE sāwan	Current committed TSV selected input projected by the fresh full trace/lexical assembly; no new corpus or stage change.
+add	pgmc	*wúndōdē	selected_input	trace_proto_input	wound — OE wundude	Current committed TSV selected input projected by the fresh full trace/lexical assembly; no new corpus or stage change.
+add	pgmc	*xáwją	selected_input	trace_proto_input	hay — OE hīeġ	Current committed singleton-w hay input; j-gemination is derived, as documented in sc010-w-gemination-and-hay-depth-adjudication.md.
+add	pgmc	*xíwją	selected_input	trace_proto_input	hue — OE hīew	Exact approved hue input correction; approved_hue_input_migration.json preserves the separate pre-hue baseline and every final.
+add	pgmc	*θánxtē	selected_input	trace_proto_input	thought — OE þōhte	Current committed thought input and model entry; first fresh lexical-volume trace projection, not a new corpus admission.
+add	pgmc	heuja-	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Kroonen2013 p.224 remains an explicit competing reconstruction, no longer mislabeled as CAPR's selected input.
+add	pgmc	hiwją	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	RingeTaylor2014 p.250 author reconstruction; CAPR's normalization and qualified adopted preference are discussed separately.
+add	pgmc	xewjan	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md	Orel2003 pp.171-172 competing reconstruction; its vowel, ending and derivational rationale remain distinct.
+add	pgmc	θánkijaną	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed present-stem comparison (Ringe2017 p.281); publication propagation only.
+add	pgmc	θánxtē	selected_input	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2330-thought-þōhte.model.md	Existing committed preterite input evidence (Ringe2017 pp.136,281); publication propagation only.
+remove	pgmc	*xáwwją	selected_input	trace_proto_input	hay — OE hīeġ	Obsolete pre-geminated snapshot spelling, superseded by the committed singleton-w input and explicit SC010 gemination; not a new corpus correction.
+add	oe	hīew	target_form	lexical_heading	hue — OE hīew	Existing committed model entry now included by the freshness-controlled lexical assembly; no new corpus admission.
+add	oe	þōhte	target_form	lexical_heading	thought — OE þōhte	Existing committed model entry now included by the freshness-controlled lexical assembly; no new corpus admission.
+add	pgmc	*xíwją	source_protoform	lexical_protoform	hue — OE hīew	Exact approved hue PGmc reconstruction, following RingeTaylor2014 p.250; the e alternatives remain indexed and the previous input is archived.
+add	pgmc	*θánxtē	source_protoform	lexical_protoform	thought — OE þōhte	Existing committed PGmc reconstruction now projected into the fresh lexical volume.
+add	oe	ġift	target_form	lexical_heading	gift — OE ġift	New ample gift lexical discussion; unchanged selected OE target (SC056 adjudication).
+add	pgmc	*gíftiz	selected_input	trace_proto_input	gift — OE ġift	Exact approved row2040 input migration, following Ringe2017 p.135, pp.151-153; every final output preserved.
+add	pgmc	*gíftiz	source_protoform	lexical_protoform	gift — OE ġift	Exact approved row2040 PGmc reconstruction, attributed to Ringe2017 p.135, pp.151-153; published alternatives retained.
+remove	pgmc	*géftiz	selected_input	trace_proto_input	gift — OE ġift	Former selected input superseded by the explicit SC056 adjudication and approved_input_migrations.tsv; preserved in immutable archives.
+add	pgmc	gefti-	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md	Published stem comparison, KlugeSeebold2011 p.359; no nominative ending silently appended.
+add	pgmc	geftiz	comparison_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md	Published e-vowel comparison, Orel2003 p.130; initial sign normalization disclosed.
+add	pgmc	giftiz	evidence_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md	Source-backed working reconstruction, Ringe2017 p.135, pp.151-153; ample rationale and qualified confidence in the new lexical entry.
+add	oe	dēaw	target_form	lexical_heading	dew — OE dēaw	Existing corpus row1989 now has a source-led lexical discussion of the adopted inherited-glide path (RingeTaylor2014 pp.65-66,172-175); no admission or target change.
+add	oe	fēower	target_form	lexical_heading	four — OE fēower	Existing corpus row2029 now has a source-led lexical discussion of assimilation feeding early reanalysis (RingeTaylor2014 pp.41-42); no admission or target change.
+add	oe	hēawan	target_form	lexical_heading	hew — OE hēawan	Existing corpus row2074 now has a source-led lexical discussion of the adopted inherited-glide path (RingeTaylor2014 pp.65-66,172-175); no admission or target change.
+add	pgmc	*dáwwō	source_protoform	lexical_protoform	dew — OE dēaw	Unchanged existing PGmc reconstruction in the new lexical model; SC031 adoption changes its derived path, not its lexical identity.
+add	pgmc	*fédwōr	source_protoform	lexical_protoform	four — OE fēower	Unchanged existing PGmc reconstruction in the new lexical model; assimilation/reanalysis are independently derived.
+add	pgmc	*xáwwaną	source_protoform	lexical_protoform	hew — OE hēawan	Unchanged existing PGmc reconstruction in the new lexical model; no pre-encoding of the adopted West Germanic reanalysis.
+remove	pwgmc	íww	evidence_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md	Superseded late-deletion/apocope proxy intermediate; current lexical discussion gives early reanalysis followed by explicit weak-final loss (SC031/SC098 memos).
+remove	pwgmc	íwwi	evidence_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md	Superseded proxy intermediate replaced in the current discussion by the adopted early diphthong-plus-glide path; historical archives remain unchanged.
+remove	pwgmc	íwwiz	evidence_form	explicit_tag	Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md	Superseded compressed proxy history replaced by the adopted distinct assimilation, early reanalysis and prosodic apocope account.

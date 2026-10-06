@@ -3,7 +3,7 @@
 ## Historical discussion
 
 Hogg and Ringe and Taylor treat the late weakening and merger of unstressed
-vowels as a continuing history [@Hogg1992, pp. 120--121;
+vowels as a continuing history [@HoggPhonology1992, p. 121;
 @RingeTaylor2014, pp. 327--332, §§6.9.5--6.9.6].
 [SC074 OEMedUnstressedILowering1](#rule-OEMedUnstressedILowering1) lowers
 medial unstressed \emph{i}; [SC075 OEMedUnstressedILowering](#rule-OEMedUnstressedILowering)

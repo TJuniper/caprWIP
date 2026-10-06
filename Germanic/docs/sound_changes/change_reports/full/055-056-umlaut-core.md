@@ -7,24 +7,24 @@
 SC055 **OE I Umlaut** is one of the major handbook sound changes of Old
 English: a following *i* or *j* fronts back vowels and raises parts of the
 front-vowel system, leaving a large morphological and lexical footprint
-[@Campbell1959, §§190--197; @Hogg1992, pp. 111--114; @Luick1914, §§181--183;
+[@Campbell1959, §§190--197; @HoggPhonology1992, pp. 106--108, 113; @Luick1914, §§181--183;
 @RingeTaylor2014, §§6.6.1--6.6.4; @Fulk2018, §4.7]. SC056 **OE Ws Palatal
 Diphthongization** is real as well, but it is narrower: a West Saxon
 palatal-triggered diphthongization zone on the right edge of the umlaut
 neighborhood rather than a second coequal handbook headline
-[@Campbell1959, §39; @Hogg1992, pp. 104--105; @RingeTaylor2014, §6.5.1;
+[@Campbell1959, §39; @HoggPhonology1992, p. 106; @RingeTaylor2014, §6.5.1;
 @Fulk2018, §4.13].
 
 #### Source tradition
 
 The source tradition is clear about the chapter's center. Campbell, Hogg,
 Luick, Ringe and Taylor, and Fulk all treat i-umlaut as a large and central Old
-English development [@Campbell1959, §§190--197; @Hogg1992, pp. 111--114;
+English development [@Campbell1959, §§190--197; @HoggPhonology1992, pp. 106--108, 113;
 @Luick1914, §§181--183; @RingeTaylor2014, §§6.6.1--6.6.4; @Fulk2018, §4.7].
 The same sources also recognize West Saxon palatal diphthongization, but they
 do not present it in the same way. Campbell and Hogg treat it in separate
 palatal-vowel discussions rather than folding it into the main i-mutation
-chapter [@Campbell1959, §39; @Hogg1992, pp. 104--105]. Ringe and Taylor and
+chapter [@Campbell1959, §39; @HoggPhonology1992, p. 106]. Ringe and Taylor and
 Fulk are the most important cautions here: both place palatal-triggered
 diphthongization differently in the broader textbook chronology, so SC056 should
 not be narrated as if the handbook tradition simply states "after i-umlaut comes

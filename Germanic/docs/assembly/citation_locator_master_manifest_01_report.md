@@ -58,7 +58,7 @@ Primary-source evidence in this pass means a printed page marker or a stable sec
 - locators added: **1**
 - left broad after this pass: **8**
 - reason for unresolved cases: Fulk supports the etymological background, but not a locator-safe sentence for the exact OE-facing claim as currently written.
-### Hogg1992
+### HoggPhonology1992
 - total broad occurrences in master manifest: **6**
 - inspected or triaged this pass: **5**
 - locators added: **2**
@@ -112,7 +112,7 @@ Primary-source evidence in this pass means a printed page marker or a stable sec
 
 ### Deliberately left broad after review
 
-- **birth / byrd** — **Hogg1992**; reason: Kept broad as general derivational background rather than an entry-specific locator target.; source file checked: `Germanic/docs/assembly/book_prose/regular_all_01/1951-birth-byrd.book.md`; left broad: **general background**
+- **birth / byrd** — **HoggPhonology1992**; reason: Kept broad as general derivational background rather than an entry-specific locator target.; source file checked: `Germanic/docs/assembly/book_prose/regular_all_01/1951-birth-byrd.book.md`; left broad: **general background**
 - **knight / cniht** — **KlugeSeebold2011**; reason: Kept broad because Kluge-Seebold remains page-quarantined in the available local text.; source file checked: `Germanic/docs/lexeme_reports/model_entries/2086-knight-cniht.model.md`; left broad: **quarantined source**
 - **lap / lappa** — **SieversBrunner1965**; reason: Kept broad because the attestation and A-restoration claims are broader than one safe handbook anchor.; source file checked: `Germanic/docs/lexeme_reports/model_entries/2090-lap-lappa.model.md`; left broad: **claim not isolated**
 - **knob / cnobba** — **ClarkHall1960**; reason: Kept broad because Clark Hall attests cnopp/cnoppa, not the reconstructed-OE cnobba claim itself.; source file checked: `Germanic/docs/lexeme_reports/model_entries/2087-knob-cnobba.model.md`; left broad: **claim not isolated**

@@ -240,7 +240,7 @@ _None_
 | Key | Why it was selected |
 | :--- | :--- |
 | Kroonen2013 | author + year mention (Kroonen 2013) |
-| Hogg1992 | single available key for Hogg |
+| HoggPhonology1992 | single available key for Hogg |
 | Campbell1959 | single available key for Campbell |
 | Fulk2018 | single available key for Fulk |
 | Orel2003 | single available key for Orel |

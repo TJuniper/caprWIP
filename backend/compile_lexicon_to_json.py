@@ -15,6 +15,11 @@ import tempfile
 from disjointset import DisjointSet
 from foma import FST
 from data_profiles import DataProfile, detect_profile
+from pathlib import Path
+from oe_input_context import (
+    METADATA_FILENAME, context_for_row, lexical_fst, load_context_metadata,
+    validate_context_rows, board_context, lexical_apply_up,
+)
 from syllable_parser import build_syllable_parsed_entries
 import argparse
 import fileinput
@@ -247,6 +252,16 @@ def compile_to_json_full_cognates(
         "syllables": {},
     }
     boards["dataProfile"] = profile.key
+    context_entries = {}
+    if profile.key == "germanic":
+        metadata_path = Path(path).with_name(METADATA_FILENAME)
+        if metadata_path.exists() or Path(path).name == "germanic-aligned-final.tsv":
+            context_entries = load_context_metadata(metadata_path)
+            validate_context_rows(
+                context_entries,
+                {identifier for identifier, row in data_dict.items()
+                 if row["DOCULECT"] == "Old_English"},
+            )
 
     # fill data with content by iterating over the data_dict
     word_cogids = {}
@@ -285,6 +300,13 @@ def compile_to_json_full_cognates(
             "glossid": row["GLOSSID"],
             "syllables_parsed": profile.build_syllables_parsed(row, ipa_syllables),
         }
+        if profile.key == "germanic" and row["DOCULECT"] == "Old_English":
+            context = context_for_row(i, row.get("PROTOFORM", "").strip(), context_entries)
+            boards["words"][idx]["inputContext"] = {
+                "checkpoint": "SC098",
+                "wordStress": context.word_stress,
+                "phonologicalFinality": context.phonological_finality,
+            }
 
 
         syl_idx = 0
@@ -300,6 +322,8 @@ def compile_to_json_full_cognates(
                 "syllOrder": syl_idx,
                 "syllable": syllable,
             }
+            if "inputContext" in boards["words"][idx]:
+                boards["syllables"][syl_id]["inputContext"] = boards["words"][idx]["inputContext"]
 
             # eprint(syllable_ids)
             # column ids are in fact the cognate sets
@@ -343,7 +367,9 @@ def compile_to_json_full_cognates(
 
         for doculect_name in boards["fstDoculects"]:
             if os.path.isfile(doculect_name.lower() + ".bin"):
-                fsts[doculect_name] = FST.load(doculect_name.lower() + ".bin")
+                fsts[doculect_name] = lexical_fst(
+                    FST.load(doculect_name.lower() + ".bin"), doculect_name
+                )
         eprint(fsts)
         eprint("FSTs loaded:", ", ".join(fsts))
 
@@ -425,7 +451,10 @@ def compile_to_json_full_cognates(
                 # print("trying ", row["DOCULECT"], " on ", syl, " : ", row["CONCEPT"])
 
                 # Apply the transducer upwards to this word
-                recs = list(fsts[row["DOCULECT"]].apply_up(syl))
+                recs = list(lexical_apply_up(
+                    fsts[row["DOCULECT"]], syl,
+                    board_context(boards["words"]["word-" + row["ID"]].get("inputContext")),
+                ))
 
                 if not recs and pipeline_name == "germanic":
                     fallback = f"*{surface_form}"

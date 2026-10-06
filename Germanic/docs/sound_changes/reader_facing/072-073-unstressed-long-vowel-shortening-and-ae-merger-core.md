@@ -5,7 +5,7 @@
 Campbell describes the shortening of unaccented long vowels, and Ringe and
 Taylor place it among the last prehistoric Old English changes before the
 merger of unstressed \emph{*æ} with \emph{*e}
-[@Campbell1959, p. 148, §355; @Hogg1992, pp. 120--121;
+[@Campbell1959, p. 148, §355; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3;
 @Fulk2018, pp. 90--96, §§5.6--5.7].
 

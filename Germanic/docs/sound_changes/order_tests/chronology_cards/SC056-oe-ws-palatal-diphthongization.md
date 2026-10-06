@@ -1,7 +1,7 @@
 # SC056 OE Ws Palatal Diphthongization — chronology evidence card
 
-## Current position
-- current_order: `56`
+## Position at experiment time
+- order_at_experiment_time: `56`
 - rule_name: `OEWsPalatalDiphthongization`
 - safe computational window: `56-86` (later side runner-bounded)
 - status: `first_break_complete`

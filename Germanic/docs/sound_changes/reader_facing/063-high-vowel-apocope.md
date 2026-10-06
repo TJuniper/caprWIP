@@ -6,8 +6,17 @@ Final high vowels must survive long enough to condition umlaut before apocope
 removes them after heavy syllables and in the relevant trisyllabic patterns.
 Campbell, Hogg, Ringe and Taylor, and Fulk agree on this Old English
 development, though they differ over the extent of the surrounding syncope
-[@Campbell1959, pp. 144--145, §§345--349; @Hogg1992, p. 120;
+[@Campbell1959, pp. 144--145, §§345--349; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, pp. 284--303, §§6.8.1, 6.8.4; @Fulk2018, p. 91, §5.6].
+
+This later loss is distinct from the West Germanic weak-word loss of
+[SC098 PWGmcUnstressedWordFinalIApocope](#rule-PWGmcUnstressedWordFinalIApocope).
+A selected proclitic context does not become word-final merely because its
+citation spelling ends there. Its temporary boundary annotation blocks
+the final-position conditions below and is removed only after their
+application; it is not a segment of the linguistic reconstruction.
+The vowel-replacement clauses themselves are unchanged
+[@RingeTaylor2014, pp. 57--58, 284--303].
 
 ## SC063. High-vowel apocope after heavy syllables and in trisyllables (`OEHighVowelApocope`) {#rule-OEHighVowelApocope}
 
@@ -47,7 +56,7 @@ define OEHighVowelApocope [
     {*u} -> 0 || {*x} _ .#.,
     {*ų} -> 0 || {*x} _ .#.,
     {*i} -> 0 || {*x} _ .#.
-];
+] .o. [{*ᶜ} -> 0];
 ```
 
 Final \emph{*i}, \emph{*u}, and \emph{*ų} cannot disappear before completing

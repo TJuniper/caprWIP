@@ -21,7 +21,7 @@ Spot-checks covered the FE04 citation removals for:
 - `still / stillan` — `KlugeSeebold2011`
 - `sunder / sundrian` — `BosworthToller1898`
 - `think / þenċan` — `RingeTaylor2014`
-- `way / weġ` — `Hogg1992`
+- `way / weġ` — `HoggPhonology1992`
 - `will / willa` — `KlugeSeebold2011`
 - `wind / windan` — `RingeTaylor2014`
 - `yarn / ġearn` — `BosworthToller1898`

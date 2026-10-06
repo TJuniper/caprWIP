@@ -1,3 +1,3 @@
 Kroonen cites the noun under stem-level _\*burdi-_ and gives Old English _(ge-)byrd_ among the reflexes [@Kroonen2013, 122]. The selected input _\*búrdiz_ is the nominative-style form that stands behind that stem label. Clark Hall and Bosworth-Toller both attest simplex _byrd_ as an Old English noun meaning 'birth' [@ClarkHall1960, 70; @BosworthToller1898, 125]. From _\*búrdiz_, loss of final _z_ gives _\*búrdi_.
 
-Form note. The relevant comparator here is the simplex noun _byrd_. The prefixed forms remain related attested material within the same lexical family, and Hogg's discussion of deverbal feminines provides the broader derivational setting [@Hogg1992, 357].
+Form note. The relevant comparator here is the simplex noun _byrd_. The prefixed forms remain related attested material within the same lexical family, and Kastovsky's discussion of deverbal feminines provides the broader derivational setting [@Kastovsky1992, p. 358].

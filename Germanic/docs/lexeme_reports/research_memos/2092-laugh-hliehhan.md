@@ -44,7 +44,7 @@ Main findings from that extra pass:
 
 - Kroonen's comparative headword is `*hlah(j)an-`, with an explicit alternation between ON `hlæja < *hlahjan-` and OS `hlahan < *hlahan-` [@Kroonen2013].
 - Ringe/Taylor explicitly derive OE `hliehhan` from `*hlahjana` and also treat Anglian poetic `hlehhan` as a variant [@RingeTaylor2014].
-- Brunner, Bright, Bosworth-Toller, Campbell, Fulk, and Hogg all support preserved OE `hh` from earlier `hj/*xj`, so the old single-`h` output was a project bug, not a genuine philological competitor [@SieversBrunner1965; @BrightCassidyRingler1971; @BosworthToller1898; @Campbell1959; @Fulk2018; @Hogg1992].
+- Brunner, Bright, Bosworth-Toller, Campbell, Fulk, and Hogg all support preserved OE `hh` from earlier `hj/*xj`, so the old single-`h` output was a project bug, not a genuine philological competitor [@SieversBrunner1965; @BrightCassidyRingler1971; @BosworthToller1898; @Campbell1959; @Fulk2018; @HoggPhonology1992].
 - The supplementary OE tables disagree (`hliehhan` in Swadesh, `hlæhhan` in Wiktionary), which is useful background but too light to settle the row against the heavier handbook evidence.
 
 ## Reconstruction and early-stage forms

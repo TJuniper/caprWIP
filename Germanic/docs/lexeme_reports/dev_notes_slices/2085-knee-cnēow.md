@@ -12,11 +12,19 @@ linked_dossier_or_analysis_files:
   - Germanic/docs/debug_snapshots/oe_derivation_class_trace_report.with_lexeme_reports.publish.md
   - Germanic/docs/analysis/notable_findings.md
   - Germanic/docs/germanic_notes/final_vowel_apocope_investigation.md
-current_status: current
+current_status: superseded_by_model_entry
 needs_literature_agent: yes
 ---
 
 # DEV_NOTES material — 2085 knee / cnēow
+
+This slice preserves the pre-SC033 nominative state. Its references
+to the "current" row and successful long-output trace below are historical,
+not descriptions of the adopted dative *knéwai → cneowe. The current
+scientific account and detailed paradigm comparison are owned by
+`model_entries/2085-knee-cneowe.model.md` and
+`sound_changes/audits/sc033-adjudication.md`; the older evidence is
+retained here without retroactively changing its observations.
 
 ## Current row state
 

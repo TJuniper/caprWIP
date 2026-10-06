@@ -8,7 +8,7 @@
 - `Germanic/data/germanic-aligned-final.tsv`
 - `Germanic/docs/debug_snapshots/oe_derivation_class_trace_report.compact.md`
 - relevant shared `DEV_NOTES` and dossier passages on `weġ ~ wegas`
-- local reference files for `Campbell1959`, `Hogg1992`, `Kroonen2013`, `RingeTaylor2014`
+- local reference files for `Campbell1959`, `HoggPhonology1992`, `Kroonen2013`, `RingeTaylor2014`
 - `docs/refs.bib`
 
 ## Files created
@@ -28,7 +28,7 @@
 Checked against `docs/refs.bib`:
 
 - `Campbell1959`
-- `Hogg1992`
+- `HoggPhonology1992`
 - `Kroonen2013`
 - `RingeTaylor2014`
 

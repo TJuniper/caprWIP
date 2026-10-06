@@ -134,7 +134,7 @@ _None_
 
 | Key | Why it was selected |
 | :--- | :--- |
-| Hogg1992 | author + year mention (Hogg 1992) |
+| HoggPhonology1992 | author + year mention (Hogg 1992) |
 | Campbell1959 | author + year mention (Campbell 1959) |
 | Fulk2018 | author + year mention (Fulk 2018) |
 | ClarkHall1960 | single available key for Clark Hall |

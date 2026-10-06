@@ -1,7 +1,7 @@
 # SC010 PWGmc J Gemination — chronology evidence card
 
-## Current position
-- current_order: `10`
+## Position at experiment time
+- order_at_experiment_time: `10`
 - rule_name: `PWGmcJGemination`
 - safe computational window: `4-10` (earlier side boundary-only; later side local reciprocal)
 - status: `first_break_complete`

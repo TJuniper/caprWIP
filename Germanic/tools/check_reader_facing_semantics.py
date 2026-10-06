@@ -1057,16 +1057,17 @@ def run_corpus_lints() -> None:
     # Canonical book Markdown sources, derived from the actual build architecture.
     # The canonical build assembles:
     #   - capr_book_intro_alpha_01.md (Part 0 / Introduction)
-    #   - reader_facing_local_section_19.md (Part I), assembled from:
-    #       * individual chapter files from the build script's chapter_files list
-    #       * chapter intro files (chap*-*.md)
+    #   - reader_facing_local_section_20.md (Part I), assembled by
+    #     tools/build_reader_book.py from:
+    #       * the generated registry/reader_manifest.tsv file list
+    #       * chapter intro files (chap*-*.md) named in registry/reader_chapters.tsv
     #   - lexical_volume_alpha_01.md (Part II), assembled from model entries
     #
     # We scan the individual sources rather than the assembled artifacts so that
     # file and line-number diagnostics point to the canonical edit locations.
 
     reader_facing_root = ROOT / "docs" / "sound_changes" / "reader_facing"
-    build_script = reader_facing_root / "build_reader_facing_local_section_19_docker.sh"
+    reader_manifest = ROOT / "docs" / "sound_changes" / "registry" / "reader_manifest.tsv"
 
     source_paths: list[Path] = []
 
@@ -1075,19 +1076,15 @@ def run_corpus_lints() -> None:
     if intro_path.exists():
         source_paths.append(intro_path)
 
-    # Part I: individual sound-change files (derived from the build script chapter_files list)
-    if build_script.exists():
-        try:
-            import ast as _ast
-            text_bs = build_script.read_text(encoding="utf-8")
-            m = __import__("re").search(r"chapter_files\s*=\s*(\[[^\]]*\])", text_bs, __import__("re").S)
-            if m:
-                chapter_fnames = list(_ast.literal_eval(m.group(1)))
-                source_paths.extend(reader_facing_root / fn for fn in chapter_fnames if (reader_facing_root / fn).exists())
-        except Exception:
-            # Fallback to glob if parsing fails
-            source_paths.extend(reader_facing_root.glob("0[0-9][0-9]-*.md"))
-            source_paths.extend(reader_facing_root.glob("[0-9][0-9][0-9]-*.md"))
+    # Part I: individual sound-change files (from the generated reader manifest)
+    if reader_manifest.exists():
+        import csv as _csv
+        manifest_lines = [ln for ln in reader_manifest.read_text(encoding="utf-8").splitlines()
+                          if ln and not ln.startswith("#")]
+        chapter_fnames = [row["reader_file"]
+                          for row in _csv.DictReader(manifest_lines, delimiter="\t")]
+        source_paths.extend(reader_facing_root / fn for fn in chapter_fnames
+                            if (reader_facing_root / fn).exists())
     else:
         source_paths.extend(reader_facing_root.glob("0[0-9][0-9]-*.md"))
 
@@ -2256,7 +2253,7 @@ def run_recon_iv_index_display_check() -> None:
 
     source_paths = [
         TOOLS_DIR.parent / "docs" / "assembly" / "capr_book_intro_alpha_01.md",
-        TOOLS_DIR.parent / "docs" / "sound_changes" / "reader_facing" / "reader_facing_local_section_19.md",
+        TOOLS_DIR.parent / "docs" / "sound_changes" / "reader_facing" / "reader_facing_local_section_20.md",
         *sorted((TOOLS_DIR.parent / "docs" / "lexeme_reports" / "model_entries").glob("*.model.md")),
     ]
 

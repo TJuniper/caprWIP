@@ -20,7 +20,7 @@ from an older `*hefun`, with the later visible `-o-` belonging to the broader
 history of unstressed vowels [@Campbell1959, §373]. Hogg likewise treats the
 `heofon` / `heofun` region inside later unstressed-vowel development, and Ringe
 and Taylor also keep `heaven` historically legible inside the wider West
-Germanic and Old English vocalic record [@Hogg1992; @RingeTaylor2014].
+Germanic and Old English vocalic record [@HoggPhonology1992; @RingeTaylor2014].
 
 That is enough support for a short note. The prose should keep SC021
 focused on the narrow unstressed-vowel hinge behind `heofon`, not inflate it

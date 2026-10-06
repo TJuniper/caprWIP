@@ -1,7 +1,7 @@
 # SC054 OE W Loss Before I — chronology evidence card
 
-## Current position
-- current_order: `54`
+## Position at experiment time
+- order_at_experiment_time: `54`
 - rule_name: `OEWLossBeforeI`
 - safe computational window: `21-62`
 - status: `first_break_complete`

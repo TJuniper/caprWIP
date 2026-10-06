@@ -2,23 +2,29 @@
 
 ## Historical discussion
 
-The derivation of *ġeoc* 'yoke' passes through both this change and the
-preceding West Saxon palatal glide ([SC016 OEWsPalatalGlide](#rule-OEWsPalatalGlide)).
-Campbell treats the West Saxon rising-diphthong spellings before back vowels,
-while the same handbook tradition describes the lowering of \emph{u} before a
-following non-high vowel separately [@Campbell1959, p. 17, §44;
-@Campbell1959, pp. 42--43, §115; @Fulk2018, p. 56, §4.3].
-The first change creates the West Saxon \emph{ġeoc} type; u-lowering then
-carries the same material into the subsequent vowel history.
+Northwest Germanic lowered \emph{*u} to \emph{*o} when the following
+syllable contained a non-high vowel. Campbell describes the change and
+lists *ġeoc* 'yoke' among its regular outcomes [@Campbell1959, pp. 42--43,
+§115]; Fulk gives the same word as a standard example — "OIcel. ok, OE
+geoc, OHG joh beside juh and OS juk" — and notes the paradigmatic
+alternation between lowered and unlowered stems that the conditioning
+produced [@Fulk2018, p. 56, §4.3]. A word-initial \emph{*j} does not block
+the change: the blocking effect of \emph{j} concerns only a consonantal
+\emph{j} standing between the target vowel and the conditioning vowel, as
+in the class I weak verbs of the *cnyssan* 'strike' type
+[@Fulk2018, p. 56, §4.3]. Ringe and Taylor accordingly reconstruct the
+Proto-West Germanic paradigm of 'yoke' with the lowering applied
+[@RingeTaylor2014, p. 129].
 
-After the glide-conditioned West Saxon spellings are in place, the broader Northwest Germanic lowering of \emph{u} to \emph{o} before a following non-high vowel provides the clearest standard sound change in this small region. Campbell and Fulk both describe that change directly [@Campbell1959, pp. 42--43, §115; @Fulk2018, p. 56, §4.3].
-
-[SC017 PNWGmcULowering](#rule-PNWGmcULowering) thus rests on a broader source base than the preceding West Saxon rule.
+The clearest corpus witnesses are [ġeoc]{.iv lang=oe sort=geoc role=evidence_form} 'yoke', *nosu* 'nose',
+*sċofl* 'shovel', and *sorg* 'sorrow'. Where the following syllable kept a
+high vowel the lowering did not apply, as in *ġeoguþ* 'youth', whose root \emph{u}
+survived [@SieversBrunner1965, pp. 64--65, §92.1].
 
 ## SC017. Lowering of \emph{*u} before following non-high vowels (`PNWGmcULowering`) {#rule-PNWGmcULowering}
 
 ```foma
-define PNWGmcULowering [
+define PNWGmcULowering Ctx([
     {*u} -> {*o}
         || .#. EnglishStarConsonant* _
            [EnglishStarConsonantNoJ - EnglishStarNasal]
@@ -27,9 +33,22 @@ define PNWGmcULowering [
         || .#. EnglishStarConsonant* _
            [EnglishStarConsonantNoJ - EnglishStarNasal]
            EnglishStarConsonantNoJ* EnglishStarNonHighVowel
-];
+]);
 ```
 
-Lowering of \emph{u} to \emph{o} is fixed on both sides by *ġeoc* 'yoke', *nosu* 'nose', *sċofl* 'shovel', and *sorg* 'sorrow'.
+Lowering of \emph{u} to \emph{o} is fixed on both sides by *ġeoc* 'yoke',
+*nosu*, *sċofl* 'shovel', and *sorg*.
 
-Before [SC016 OEWsPalatalGlide](#rule-OEWsPalatalGlide), PGmc [júką]{.recon} 'yoke' yields [*ġoc*]{.pred} rather than expected OE *ġeoc* 'yoke'. After [SC019 PNWGmcFinalLongORaising](#rule-PNWGmcFinalLongORaising), PGmc [núsō]{.recon} 'nose' yields [*nusu*]{.pred} rather than expected *nosu* 'nose', PGmc [skúflō]{.recon} 'shovel' yields [*sċufl*]{.pred} rather than expected *sċofl* 'shovel', and PGmc [súrgō]{.recon} 'sorrow' yields [*surg*]{.pred} rather than expected *sorg* 'sorrow'. The two witness sets place [SC017 PNWGmcULowering](#rule-PNWGmcULowering) after glide formation and before final long-\emph{o} raising.
+The lowering feeds the much later West Saxon palatal-glide spelling
+([SC016 OEWsPalatalGlide](#rule-OEWsPalatalGlide)): the \emph{o} that the
+scribes wrote in *ġeoc* 'yoke' is the output of this change, so PGmc
+[júką]{.recon} 'yoke' passes through \emph{*joką} on its way to the
+attested spelling [@Fulk2018, p. 56, §4.3; @RingeTaylor2014, p. 129].
+After [SC019 PNWGmcFinalLongORaising](#rule-PNWGmcFinalLongORaising), PGmc
+[núsō]{.recon} 'nose' yields [*nusu*]{.pred} rather than expected *nosu*,
+PGmc [skúflō]{.recon} 'shovel' yields [*sċufl*]{.pred} rather than expected
+*sċofl* 'shovel', and PGmc [súrgō]{.recon} 'sorrow' yields [*surg*]{.pred} rather
+than expected *sorg*. These witnesses place
+[SC017 PNWGmcULowering](#rule-PNWGmcULowering) before final long-\emph{o}
+raising, and the *ġeoc* spelling shows its output surviving into the
+written record.

@@ -1,7 +1,7 @@
 # SC015 NWGmc I Lowering — chronology evidence card
 
-## Current position
-- current_order: `15`
+## Position at experiment time
+- order_at_experiment_time: `15`
 - rule_name: `PNWGmcILowering`
 - former_rule_name: `NWGmcILowering`
 - safe computational window: `13-35` (earlier side runner-bounded)

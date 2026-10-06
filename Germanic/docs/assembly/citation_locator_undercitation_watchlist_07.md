@@ -6,7 +6,7 @@ This note records the control and watchlist entries rechecked in external/page-m
 | :--- | :--- | :--- | :--- |
 | find / fundene | RingeTaylor2014, 344; BosworthToller1898, 219; ClarkHall1960, 124. | Yes. | Stable control case. No Luick/Brunner-style analogical-leveling claim has re-entered the prose; the selected-cell comparison remains explicit project framing based on cited forms and trace output. |
 | still / stillan | KlugeSeebold2011, 885 and 886; ClarkHall1960, 292. | Yes. | Audit 07 localized both surviving Kluge rows from the new local PDF, so the earlier witness blocker is gone and no restoration is needed. |
-| think / þenċan | Kroonen2013, 533; BosworthToller1898, 442; Campbell1959, §438; Hogg1992, §3.4.2.4. | Yes. | Audit 07 spot-checked the audit-06 Bosworth locator and found it still safe. |
+| think / þenċan | Kroonen2013, 533; BosworthToller1898, 442; Campbell1959, §438; HoggPhonology1992, §3.4.2.4. | Yes. | Audit 07 spot-checked the audit-06 Bosworth locator and found it still safe. |
 | loam / lām | Orel2003, 272; Kroonen2013, 363; BosworthToller1898, 604; ClarkHall1960, 196. | Yes. | Audit 07 recovered the missing Bosworth `lām` witness on printed p. 604, so the entry is now fully anchored at the dictionary level. |
 | man / mannes | Kroonen2013, 354; SieversBrunner1965, §226 and §231; ClarkHall1960, 197; Campbell1959, §621. | Yes. | The current finite-cell framing remains adequately supported; no restoration is needed. |
 | have / hæfeþ | Kroonen2013, 237; RingeTaylor2014, 93 and 364; Campbell1959, §762; ClarkHall1960, 157. | Yes. | The current finite-cell framing remains adequately supported and no restoration is needed. |

@@ -26,7 +26,7 @@ inspected or re-triaged remaining rows came from non-regular classes.
 Ordinary page locators were standardized from Pandoc forms such as
 `[@RingeTaylor2014, p. 218]` and `[@RingeTaylor2014, pp. 189, 324]` to bare-page
 forms such as `[@RingeTaylor2014, 218]` and `[@RingeTaylor2014, 189, 324]`.
-Section locators such as `[@Campbell1959, §428]`, `[@Hogg1992, §3.4.2.4]`, and
+Section locators such as `[@Campbell1959, §428]`, `[@HoggPhonology1992, §3.4.2.4]`, and
 `[@Fulk2018, §6.15]` were preserved as section locators.
 
 Counts for this cleanup:
@@ -105,7 +105,7 @@ The clearest rejected patterns were:
 | `Campbell1959` | 62 | 30 | 6 | 56 | Campbell localized well where the prose named a compact rule/example pairing, but many remaining rows still combine several steps or contrastive claims in one sentence. |
 | `SieversBrunner1965` | 27 | 10 | 0 | 27 | Brunner remains useful as support, but the surviving citations are still broader than a single safely isolatable rule or form note. |
 | `Fulk2018` | 8 | 4 | 0 | 8 | The remaining Fulk citations mostly serve broader historical or analogical framing rather than a single locator-safe clause. |
-| `Hogg1992` | 4 | 2 | 0 | 4 | The surviving Hogg citations function mainly as broader background rather than sentence-level anchors. |
+| `HoggPhonology1992` | 4 | 2 | 0 | 4 | The surviving Hogg citations function mainly as broader background rather than sentence-level anchors. |
 | `Kroonen2013` | 65 | 19 | 0 | 65 | Kroonen often supplies the comparative headword or family background, but the current prose usually makes a broader OE-facing claim than one headword locator would honestly support. |
 | `Orel2003` | 45 | 8 | 1 | 44 | Orel localized cleanly for `mare`, but most other Orel rows remain comparative-background citations rather than single-claim anchors. |
 | `ClarkHall1960` | 61 | 18 | 0 | 61 | Clark Hall still has a large tail where the needed lexical material is present but the available local text did not yield a safe printed page anchor in this pass. |

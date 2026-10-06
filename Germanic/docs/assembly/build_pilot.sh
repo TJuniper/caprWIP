@@ -81,7 +81,7 @@ def parse_trace_entries(text: str) -> list[dict[str, str]]:
                 "proto": re.search(r"^PROTO:\s*(.*)$", block, re.M).group(1).strip(),
                 "expected": re.search(r"^EXPECTED:\s*(.*)$", block, re.M).group(1).strip(),
                 "outputs": re.search(r"^OUTPUTS:\s*(.*)$", block, re.M).group(1).strip(),
-                "proto_input": re.search(r"^Proto Input:\s*(.*)$", block, re.M).group(1).strip(),
+                "proto_input": re.search(r"^(?:English )?Proto Input:\s*(.*)$", block, re.M).group(1).strip(),
                 "outcome": re.search(r"^Outcome:\s*(.*)$", block, re.M).group(1).strip(),
                 "table": "\n".join(table_lines).strip(),
             }

@@ -24,7 +24,7 @@
 
 | Item | Result | Note |
 | :--- | :--- | :--- |
-| Citation keys present in `docs/refs.bib` | yes | `Campbell1959`, `ClarkHall1960`, `Hogg1992`, `Kroonen2013`, `Orel2003`. |
+| Citation keys present in `docs/refs.bib` | yes | `Campbell1959`, `ClarkHall1960`, `HoggPhonology1992`, `Kroonen2013`, `Orel2003`. |
 | Sources cited in prose | yes | Final prose uses bibliography keys only. |
 | Missing-key issues recorded outside final prose | yes | No missing-key issue affects the model entry. |
 

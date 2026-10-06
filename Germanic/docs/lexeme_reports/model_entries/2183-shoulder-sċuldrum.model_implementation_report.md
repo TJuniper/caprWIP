@@ -53,7 +53,7 @@ Citation keys used in the rewritten model entry were checked against `docs/refs.
 - `BosworthToller1898`
 - `Campbell1959`
 - `ClarkHall1960`
-- `Hogg1992`
+- `HoggPhonology1992`
 - `Kroonen2013`
 - `Luick1914`
 - `Orel2003`

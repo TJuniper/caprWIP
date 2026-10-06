@@ -1,7 +1,7 @@
 # SC047 OE Heavy Syllable Nasal Apocope — chronology evidence card
 
-## Current position
-- current_order: `47`
+## Position at experiment time
+- order_at_experiment_time: `47`
 - rule_name: `OEHeavySyllableNasalApocope`
 - safe computational window: `35-47`
 - status: `first_break_complete`

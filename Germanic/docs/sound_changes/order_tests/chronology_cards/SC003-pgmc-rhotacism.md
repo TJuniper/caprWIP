@@ -1,7 +1,7 @@
 # SC003 West Germanic rhotacism — chronology evidence card
 
-## Current position
-- current_order: `3`
+## Position at experiment time
+- order_at_experiment_time: `3`
 - rule_name: `EAFRhotacism`
 - former_rule_name: `PGmcRhotacism`
 - safe computational window: `2-43` (earlier side boundary-only; later side broad/far)

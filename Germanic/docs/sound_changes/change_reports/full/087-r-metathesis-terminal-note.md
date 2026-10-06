@@ -16,7 +16,7 @@ in SC078, `SC079-SC080`, or `SC081-SC083`.
 The source tradition for this note is real and distinct. Hogg treats
 r-metathesis as a genuine Old English process with variable chronology and makes
 clear that it belongs to a different late consonant/vowel history from
-contracted verbs and final-geminate simplification [@Hogg1992]. Ringe and
+contracted verbs and final-geminate simplification [@HoggPhonology1992]. Ringe and
 Taylor likewise treat metathesis of `r` with short vowels as a real Old English
 development and use `beornan` / `berstan` type material to show that the process
 is historically interpretable without making it a compact local pair

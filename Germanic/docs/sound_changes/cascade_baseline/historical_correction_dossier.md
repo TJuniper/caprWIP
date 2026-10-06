@@ -200,7 +200,9 @@ Canonical internal identifiers (superseding earlier proposals):
 | SC026 | `NWGmcNasalSpirantLengthening` | `EAFNasalSpirantLengthening` | North Sea Germanic nasal-spirant lengthening |
 | SC027 | `NWGmcNasalSpirantLoss` | `EAFNasalSpirantLoss` | North Sea Germanic nasal-spirant loss |
 | SC043 | `AngloFrisianBrightening` | `EAFBrightening` | Anglo-Frisian brightening |
-| SC005, SC014, SC015, SC017, SC018, SC019, SC021, SC022, SC023, SC024, SC025, SC028 | `NWGmc…` | `PNWGmc…` | Proto-Northwest Germanic … |
+| SC005, SC014, SC015, SC017, SC018, SC019, SC023, SC024, SC025, SC028 | `NWGmc…` | `PNWGmc…` | Proto-Northwest Germanic … |
+| SC021 | `NWGmcUnstressedORaising` | retired | Former PNWGmc unstressed-o raising retired; successors are SC071/SC099/SC100 |
+| SC022 | `NWGmcMnDissimilation` | `PNWGmcMnDissimilation` | Common Germanic Mn Dissimilation; stable executable identifier is not a stage claim |
 
 `EAF` is an operational post-PWGmc/pre-OE corridor, not a claim of a discrete
 Proto-Anglo-Frisian node; "Ingvaeonic" remains a scholarly alias for

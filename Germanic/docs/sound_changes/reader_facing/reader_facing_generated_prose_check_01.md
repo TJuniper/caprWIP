@@ -1,10 +1,10 @@
 # Reader-facing generated prose check 01
 
-_Generated from the introduction prose embedded in the active reader-facing build script._
+_Generated from the introduction prose owned by the reader-facing book builder._
 
 ## Summary
 
-- Build script: `/Users/nathanhill/Code/capr/Germanic/docs/sound_changes/reader_facing/build_reader_facing_local_section_19_docker.sh`.
+- Book builder: `/Users/nathanhill/Code/capr/Germanic/tools/build_reader_book.py`.
 - Introduction paragraphs checked: 5.
 - Issues found: 0.
 

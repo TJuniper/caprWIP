@@ -22,7 +22,7 @@ The source tradition supports the pair as part of the broader late
 unstressed-vowel leveling and reduction environment, but not as one of the
 major handbook centers in that region. Hogg is useful because he keeps apocope,
 syncope, and later consonant-cluster simplification in the same late zone while
-still distinguishing them as separate processes [@Hogg1992, pp. 120--121].
+still distinguishing them as separate processes [@HoggPhonology1992, p. 121].
 Ringe and Taylor give the clearest staged framework for that zone, moving from
 general syncope and apocope into shortening of unstressed long vowels and later
 post-apocope developments [@RingeTaylor2014, §§6.7.3--6.8.4, 6.9.1--6.9.3].

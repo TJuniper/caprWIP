@@ -6,7 +6,7 @@ Late weak-tail reduction affects unstressed prefixes as well as inflectional
 endings and medial vowels. Fulk's discussion of prefix vowels accounts for OE
 \emph{*be-} and \emph{*ne-} [@Fulk2018, p. 97, §5.7]. Hogg and Ringe and
 Taylor place such weakening within the broader late history of unstressed
-vowels [@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 298--332,
+vowels [@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 298--332,
 §§6.8.3--6.9.6].
 
 The tested forms do not determine the rule's position relative to a neighboring

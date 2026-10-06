@@ -39,7 +39,7 @@ Checked beyond the packet:
 No full dossier or analysis file specific to this lexeme was named in the packet or TSV note. The extra repo pass nevertheless matters because it shows three distinct layers of evidence:
 
 1. `Ringe & Taylor` and `Ringe vol. 1` support a real alternation `*nēþlō- ~ *nēdlō-` / `*nēþlō- ~ *nēdlō-`, matching the row note's appeal to Verner alternation [@RingeTaylor2014; @Ringe2006].
-2. `Campbell`, `Hogg`, `Clark Hall`, and the cluster-class material in `DEV_NOTES` support `nǣdl` as an attested OE lexeme with an unbroken `-dl` cluster, not as a special paradigm-cell workaround [@Campbell1959; @Hogg1992; @ClarkHall1960].
+2. `Campbell`, `Hogg`, `Clark Hall`, and the cluster-class material in `DEV_NOTES` support `nǣdl` as an attested OE lexeme with an unbroken `-dl` cluster, not as a special paradigm-cell workaround [@Campbell1959; @HoggPhonology1992; @ClarkHall1960].
 3. Older repo diagnostics still preserve the pre-fix state where the row used the voiceless protoform and therefore mismatched. That history is useful, but it is no longer the live row design.
 
 Kroonen and Orel are background rather than controlling project authority here. Kroonen's deeper etymological entry starts from a different comparative reconstruction (`*nēplō-`) and lists both OE `næþl` and `nædl`; Orel gives a simpler `*nèþlò`. Those entries are valuable comparative background, but the live row follows the repo's Ringe/Taylor-style voiced/voiceless alternant distinction rather than adopting Kroonen's headword directly [@Kroonen2013; @Orel2003].
@@ -63,7 +63,7 @@ That is why the older repo line "change protoform to `*nēdlō` for the OE row" 
 The philological subtlety is not whether OE had `nǣdl`, but how to describe its consonant history and orthographic presentation:
 
 - `Campbell` lists `nédl` among the expected unbroken forms after `t` and `d`, so the OE cluster itself is not problematic [@Campbell1959].
-- `Hogg` likewise treats forms like `bosm`, `hræfn`, `spatl`, and `nidl/nǣdl` as possible syllabic-sonorant outcomes, sometimes with competing epenthetic-vowel spellings elsewhere in the class [@Hogg1992].
+- `Hogg` likewise treats forms like `bosm`, `hræfn`, `spatl`, and `nidl/nǣdl` as possible syllabic-sonorant outcomes, sometimes with competing epenthetic-vowel spellings elsewhere in the class [@HoggPhonology1992, p. 96].
 - The Brunner/Sievers quotation reused in `DEV_NOTES` specifically notes `nǣdl ~ nēdl`, which is useful as orthographic background but does not justify changing the row away from the attested citation form `nǣdl`.
 
 So the safe philological claim is straightforward: the row targets attested OE `nǣdl`, an unbroken citation form; the special explanatory burden lies in the inherited voiced/voiceless alternant, not in OE attestation or paradigm-cell choice.

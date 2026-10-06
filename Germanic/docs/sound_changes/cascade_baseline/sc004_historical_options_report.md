@@ -29,7 +29,7 @@ Inputs: `sc004_component_dossier.md` (application report),
 - The stressed / nonfinal `*ai/*ái > *ā` (**B+C**) is a later development, outcome
   `*ā` (OE `ā`, front `ǣ` by later fronting), characteristic of North Sea
   Germanic / Anglo-Frisian, of areal/wave character rather than a clean inherited
-  node [@Campbell1959; @Hogg1992; Versloot 2017 verify].
+  node [@Campbell1959; @HoggGrammar1992; Versloot 2017 verify].
 - A and B+C differ in **outcome, date, comparative scope, and mechanism**.
 - **B and C are one development** (identical outcome `*ā`; the split is only the
   FST's stress marking).

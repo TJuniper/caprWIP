@@ -62,16 +62,16 @@ they give any real reason to treat `SC050` as more than a model-visible feeder.
 
 ### Hogg 1992
 
-- source_key: Hogg1992
-- locator: pp. 106--107; pp. 111--114
+- source_key: HoggPhonology1992
+- locator: pp. 107--108; pp. 111--114
 - witness_used: `docs/references/hogg_vol1.txt`
 - locator_confidence: page_safe
 - terminology: palatalisation of velars; `sk` as a parallel change; i-mutation / i-umlaut
 - short quotation: "called /-mutation or i-umlaut"
-- paraphrase: Hogg gives the clearest structural prose for the shape question. He treats plain velar palatalization and `sk` palatalization inside the same larger chapter, but still distinguishes the cluster as a parallel and broader change. He then moves to i-umlaut as a separate major vowel development. That is exactly the source pattern the dossier needs: `SC052` is historically real and chapter-capable, but any eventual report must avoid duplicating the already promoted `SC051` singleton on the left or the umlaut-core report on the right. [@Hogg1992, pp. 106--107, 111--114]
-- conditioning: velars are palatalized in front-vocalic environments; `sk` behaves more broadly because the alveolar element reinforces palatalization; i-umlaut fronts back vowels and raises parts of the front-vowel system under following `i/j`. [@Hogg1992, pp. 106--107, 111--114]
-- chronology: Hogg's organization places the palatalization material before the main i-umlaut discussion. That supports the general direction of `SC052 < SC055`, while still leaving room for CAPR's local boundary to be narrower and more witness-driven than the textbook chapter sequence. [@Hogg1992, pp. 106--107, 111--114]
-- examples: `ceosan`; `disc`; `ceaster`; `giefan`; `giest`; `bryd`; `trymman`. [@Hogg1992, pp. 106--107, 111--114]
+- paraphrase: Hogg gives the clearest structural prose for the shape question. He treats plain velar palatalization and `sk` palatalization inside the same larger chapter, but still distinguishes the cluster as a parallel and broader change. He then moves to i-umlaut as a separate major vowel development. That is exactly the source pattern the dossier needs: `SC052` is historically real and chapter-capable, but any eventual report must avoid duplicating the already promoted `SC051` singleton on the left or the umlaut-core report on the right. [@HoggPhonology1992, pp. 106--108, 113--114]
+- conditioning: velars are palatalized in front-vocalic environments; `sk` behaves more broadly because the alveolar element reinforces palatalization; i-umlaut fronts back vowels and raises parts of the front-vowel system under following `i/j`. [@HoggPhonology1992, pp. 106--108, 113--114]
+- chronology: Hogg's organization places the palatalization material before the main i-umlaut discussion. That supports the general direction of `SC052 < SC055`, while still leaving room for CAPR's local boundary to be narrower and more witness-driven than the textbook chapter sequence. [@HoggPhonology1992, pp. 106--108, 113--114]
+- examples: `ceosan`; `disc`; `ceaster`; `giefan`; `giest`; `bryd`; `trymman`. [@HoggPhonology1992, pp. 106--108, 113--114]
 - cautions: Hogg is strong support for `SC052` as a real handbook process, but he does not give any special reason to yoke it directly to Sievers-law material as a coequal pair.
 
 ### Ringe and Taylor 2014

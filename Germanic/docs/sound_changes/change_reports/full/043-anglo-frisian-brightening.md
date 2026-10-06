@@ -9,7 +9,7 @@ SC043 is the early fronting usually called **Anglo-Frisian Brightening** or
 environments. The core rule is stable in the handbook tradition even if the
 wider English-Frisian shared-innovation framing has to be handled more
 cautiously than the label itself may suggest [@Campbell1959, §131;
-@Hogg1992, p. 101; @RingeTaylor2014, pp. 157--158; @Fulk2018, §4.12].
+@HoggPhonology1992, p. 102; @RingeTaylor2014, pp. 157--158; @Fulk2018, §4.12].
 
 #### Source tradition
 
@@ -20,8 +20,11 @@ also the most useful direct support for extending the fronting into unstressed
 vowels. Ringe and Taylor sharpen the chronology further by arguing that
 fronting must precede breaking and that later retraction must follow both.
 Fulk gives the most compact bridge from the basic brightening rule to the later
-Old English developments that partly conceal it
-[@Campbell1959, §§131, 139, 157--158; @Hogg1992, pp. 101, 119, 445;
+Old English developments that partly conceal it. Toon supplies the traditional
+relative ordering, reproducing Campbell's own chronological list while warning
+against reading it as a strict linear sequence
+[@Campbell1959, §§131, 139, 157--158, §255; @HoggPhonology1992, pp. 102, 105;
+@Toon1992, p. 446;
 @RingeTaylor2014, pp. 157--158, 168--169, 189--190; @Fulk2018, §§4.12--4.13].
 
 #### CAPR implementation
@@ -73,7 +76,7 @@ carefully: the existence of the fronting rule is well supported, but the
 subgrouping narrative is less straightforward [@Campbell1959, §131;
 @RingeTaylor2014, pp. 157--158]. The unstressed clause in CAPR is defensible
 from the handbook tradition, yet it remains a modeling choice that should not
-be mistaken for the whole historical claim [@Hogg1992, pp. 101, 445].
+be mistaken for the whole historical claim [@HoggPhonology1992, pp. 102, 105].
 Likewise, the long-final clause belongs to CAPR's representation of the
 SC042-to-SC043 pathway and should be presented as a model-specific approximation
 rather than as a simple handbook quotation.

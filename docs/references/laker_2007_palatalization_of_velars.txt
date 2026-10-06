@@ -1,0 +1,1106 @@
+Stephen Laker, "Palatalization of Velars: A Major Link of Old English
+and Old Frisian".  Amsterdamer Beitraege zur aelteren Germanistik 64
+(2007) = Advances in Old Frisian Philology, ed. Rolf H. Bremmer Jr,
+Stephen Laker and Oebele Vries, pp. 165-184.
+
+SOURCE AND METHOD
+-----------------
+Born-digital PDF, but its embedded text layer must NOT be used naively.
+Three of its fonts (WPMultinationalARomanOOE, WPPhoneticOOEnc, WPMathA)
+carry WordPerfect legacy encodings whose ToUnicode maps are wrong.  The
+palatal dot of c-dot is mapped to the letter "k", so both pdftotext and
+PyMuPDF render this article's central diagnostic, OE c-dot-eapian, as
+"keapian" -- an UNPALATALIZED form, in a paper whose thesis is that the
+form IS palatalized.  Reading such an extract would invert the evidence.
+
+The text below was therefore rebuilt from the PDF's own glyph stream WITH
+its font labels, applying the fixed substitution table of each affected
+font.  This is deterministic; it is not OCR and involves no guessing.
+Characters in the Times fonts are untouched, which is why genuine k
+(Luick, Laker, kontinentalen) survives correctly.
+
+Each substitution was established three ways: by font membership; by
+token-by-token alignment against an independent Google Cloud Vision OCR of
+300 dpi renderings of the same pages; and, where any doubt remained, by
+rendering the line at 500 dpi and reading it off the page.  The restored
+forms also pass a lexical plausibility check -- they are OE lexemes with expected
+palatal spellings (ecg, secg, hecg, hrycg, dic, ric, wic, ceorl, wrecca,
+stycce, wicce, mece, flicce). This agreement is corroboration; the printed
+glyphs, not lexical expectations, determine the substitution table.
+
+Substitutions applied:
+  WPMultinationalARomanOOE:  k -> c-dot,  U+0081 -> g-dot,
+                             U+000C -> combining macron on the previous letter
+  WPPhoneticOOEnc:           U+0087 -> ezh, S -> gamma, M -> barred-dotless-j,
+                             w -> esh, H -> epsilon, < -> script-a, \ -> curly-j
+  Times subsets:             U+01AF -> long i, U+0197 -> long a,
+                             U+019D -> long e, U+01C0 -> long o,
+                             U+0224 -> chi, U+0215 -> sharp s
+
+Verified readings, for anyone checking this file against the page images:
+  p. 178  "The difference between OE c-dot-eapian 'to trade, buy' (with
+           palatalization) and OFris. kapia 'to buy' (without)"
+  p. 179  "the development *au > ae-macron-a"
+  p. 169  "(Lancashire) < *k-epsilon-macron-d- 'forest'"
+
+Note that Laker prints kapia and c-dot-eapian WITHOUT macrons; the absence
+of a macron on those two forms is faithful to the printed page.
+
+PAGE NUMBERING
+--------------
+Markers below use the article's own PRINTED page numbers, not PDF sheet
+numbers.  The offset is constant: printed page N = PDF sheet N + 164.
+The article occupies pp. 165-184, one PDF sheet per printed page.
+An independent PDF-edge folio check confirmed 19 of 20 sheets; the
+exception is p. 165, the opening title page without a recovered folio.
+Its identity follows from the article's page range and following p. 166.
+
+Map 1 (p. 171) is an image; its argument is given in the surrounding prose.
+
+======================================================================
+
+=== page 165 ===
+1
+I would like to thank Rolf Bremmer, Robert Mailhammer, Karling Rottschäfer, and,
+especially, Patrick Stiles for giving me valuable comments on this article; however, they
+are in no way to be associated with the suggestions made in it.
+2
+T.Siebs,‘Geschichtederfriesischen Sprache’,Grundriß dergermanischenPhilologie
+I, ed. H. Paul, 2nd edn. (Strassburg, 1901), 1152–464, at 1288; K. Luick, Historische
+Grammatik der englischen Sprache (Stuttgart, 1914–1940; repr. Oxford, 1964), §637;
+A. Campbell, ‘Some Old Frisian Sound-changes’, Transactions of the Philological
+Society (1939), 78–107, at 106, and his Old English Grammar (Oxford, 1959), §486.
+3
+See R. M. Hogg, ‘Old English Palatalization’, Transactions of the Philological
+Society (1979), 89–113, esp. 89–91; P. V. Stiles, ‘Remarks on the “Anglo-Frisian”
+Thesis’, Friesische Studien II, ed. V. F. Faltings, A. G. H. Walker and O. Wilts [=
+NOWELE Suppl. 12 (1995)], 177–220, at 194–96; H. F. Nielsen, ‘Frisian and the
+GroupingoftheOlderGermanicLanguages’,Handbuch /Handbook,512–23, at519–21.
+
+Palatalization of Velars:
+A Major Link of Old English and Old Frisian
+
+Stephen Laker
+
+1. INTRODUCTION1
+
+Opinions are divided on whether palatalization of *-k(k)- and *-g(g)- in Old
+English and Old Frisian resulted from a shared development or arose in-
+dependently. Earlier scholarship asserted that there was a link. Theodor
+Siebswrotethatthebeginningsofpalatalization(butnotassibilation)‘liegen
+in der englisch-friesischen, das heißt der kontinentalen Periode’. Karl Luick
+thought that palatalization initiated ‘noch zur Zeit der anglofriesischen Ge-
+meinschaft’. Alistair Campbell concluded that there was ‘nothing to show
+that the sensitivity of k and g to the nature of following vowels does not date
+back to a period when English and Frisian were in sufficient contact to
+develop some common characteristics, but it certainly continued long after
+the period’, and in his grammar he maintained that palatalization ‘doubtless
+began in the continental period, for it is a major link of Old English and Old
+Frisian’.2
+
+Some investigators, however, have argued that palatalization and assibi-
+lationwere independent changes in Old English and Old Frisian. Theyargue
+– Richard Hogg, Patrick Stiles and Hans Frede Nielsen – that English and
+Frisian do not share the same relative chronology of sound changes prior to
+palatalization, concluding that Frisian and English must have gone their
+separate ways before palatalization even initiated.3 These scholars do not
+
+=== page 166 ===
+166
+Laker
+
+4
+R.D. Fulk, ‘TheChronologyofAnglo-Frisian Sound Changes’,Approaches,139–54;
+F. Kortlandt, ‘The Origin of the Old English Dialects Revisited’, ABäG 51 (1999),
+45–51.
+5
+Stiles, ‘Remarks’, 205–12.
+
+seem to question that there was a general Old English palatalization though;
+but, unlike Siebs, Luick and Campbell, they are unspecific about whether it
+initiated before or after the settlement of Britain.
+
+In response to arguments against a shared Old English and Old Frisian
+development, Robert Fulk, in the forerunner to this volume, presented an
+alternative chronology and interpretation of Anglo-Frisian sound changes
+which aimed to bring English and Frisian back to a common dialect at the
+time when velars were palatalized. Subsequently, Frederik Kortlandt res-
+ponded to Fulk’s paper, criticizing many points of his chronology and
+offering several revisions while at the same time agreeing with the main
+thrust of it, namely that palatalizaton of velars initiated when Old English
+and Old Frisian formed a linguistic unity, Anglo-Frisian.4
+
+In this paper I argue that older scholarship was right to place the be-
+ginnings of palatalization in the continental period. I then take up the debate
+about relative chronology, and show that three out of four of the main
+arguments against a shared process of palatalization carry no weight while
+a fourth is inconclusive. However, ultimately it is questionable whether
+recourse to relative chronology is the ideal approach for assessing whether
+palatalization was a shared development or not, especially since the origins
+of palatalization are unknown. In particular, the genealogical (or Stamm-
+baum) method based on relative chronology cannot adequately deal with
+sound-change resulting from dialectal diffusion within language continua,
+and since Patrick Stiles5 has presented good arguments to show that we are
+dealing with a language continuum, the genealogical approach is bound to
+have its limitations.
+
+2. PALATALIZATION IN OLD ENGLISH AND OLD FRISIAN
+
+First it may be useful to outline the three environments in which palatali-
+zation occurred, they were: 1. Initially: here *k and *g were palatalized by
+all front vowels (except front vowels deriving from i-umlaut, a condition
+which holds for velar palatalizationsinallpositions)and the palatal approxi-
+mant j. 2. Medially: *-k(k)-, *-gg- were palatalized before *i, *j, while *-g-
+was palatalized between all front vowels. 3. Finally: *-k was palatalized by
+preceding front vowels in Old English only, while *-g was palatalized by
+preceding front vowels in both languages. Some examples are given in Fig.
+1. Unlike Old Frisian, palatalized velars are not usually indicated in Old
+English orthography. In order to indicate them, the convention of a super-
+
+=== page 167 ===
+Palatalization of Velars
+167
+
+6
+I am aware that there is more dialectal variation in medial and final positions than
+presented here; however, some of the main issues will be discussed in section 4 of this
+paper. For more detailed overviews, see K. D. Bülbring, Altenglisches Elementarbuch
+(Heidelberg, 1902), §§491–500; Campbell, Old English Grammar, §§426–29; Siebs,
+‘Geschichte der friesischen Sprache’, 1288–302.
+7
+See W. G. Moulton, ‘The Proto-Germanic Non-syllabics (Consonants)’, Toward a
+Grammar of Proto-Germanic, ed. F. van Coetsem and H. L. Kufner (Tübingen, 1972),
+141–73, at 173; M. Schulz, Untersuchungen zum anlautenden velaren /g/ im Alt-
+englischen, PhD disseratation (Göttingen, 1978); D. Minkova, Alliteration and Sound
+Change in Early English (Cambridge, 2003), 113–20.
+8
+E.g. Siebs, ‘Geschichte der friesischen Sprache’, 1288; J. Wright and E. M. Wright,
+Old English Grammar(Oxford, 1925), 162–63; R. M. Hogg, A GrammarofOld English.
+I. Phonology (Oxford, 1992), 257–58; Fulk, ‘The Chronology’, 146; Minkova,
+
+script dot (ċ, ċċ, ġ, ċ) will be adopted when citing Old English forms – this
+approach leaves open the possibility of the velar plosives being either
+palatalized or assibilated which is veryconvenient, since assibilation cannot
+be dated with precision (FV = front vowel not derived from i-umlaut):
+
+K
+
+k + FV
+-k- + i, j
+-kk- + i, j
+i + -k
+
+WGmc
+*kin- ‘chin’
+*bruki ‘breach’
+*þrukkjan ‘press’
+*dīk ‘ditch’
+
+OE
+ċinn
+bryċe
+þryċċan
+diċ
+
+OFris
+tsin
+bretse
+thritza
+dik
+
+G
+
+g + FV
+-g- + i, j
+-gg-, -ng + i,j
+FV + -g
+
+WGmc
+*geld- ‘tax’
+*hugi- ‘mind’
+*wiggja ‘horse’
+*dag ‘day’
+
+OE
+ġield
+hyġe
+wiċġ
+dæġ
+
+OFris
+ield
+hei
+widse
+dei
+
+Fig. 1: Palatalization and assibilation of *k and *g in OE and OFris6
+
+Inbrief,palatalized *kultimatelyyieldsassibilated reflexes but *g showstwo
+outcomes of palatalization: either it merges with the palatal approximant j or
+it assibilates, yielding OE /dʒ/, OFris dz. Many scholars explain this twofold
+development byassuming that *g differed phoneticallyaccording to position
+at the time of palatalization. By this analysis, the reflex j can be derived from
+palatalization of a voiced velar fricative /ɣ/, and the assibilated variants dʒ
+and dz from the voiced velar plosive [g], which existed after *n (i.e. in the
+combination *ng), and in the geminate *gg.7 Finally, many scholars8 – what
+
+=== page 168 ===
+168
+Laker
+
+Alliteration and Sound Change, 90–113.
+9
+Luick, Historische Grammatik, §350. For a discussion of the place-name evidence
+see R. Coates, ‘On an Early Date for OE i-Mutation’, Linguistic and Stylistic Studies in
+Medieval English, ed. A. Crépin (Amiens, 1984), 25–37; at 31, Coates argues that i-
+umlaut cannot have been operative long after AD 500 in English.
+10
+See J. Insley, ‘The Personal Name *Ɩniwulf / *Æ¯ niwulf’, Old English Runes and
+their Continental Background, ed. A. Bammesberger (Heidelberg, 1991), 172–74.
+
+ever their view is on the relationship between the Old English and Old
+Frisian palatalizations – distinguish between an earlier process of palataliza-
+tion and a later process of assibilation, the latter occurring much later and
+showing variation in Old English and Old Frisian. In other words, the velar
+plosives *k and *g were naturally palatalized somewhat before front vowels
+(i.e. [c] and [ɟ]), yet these must surely have been followed by some form of
+secondary articulation too, probably a palatal off-glide, so as to induce
+dentalization and assibilation: *k > *c j > *t j > OE /tʃ/, OFris ts and *g > *ɟj
+
+> OE /dʒ/, OFris dz.
+
+3. THE HISTORY OF PALATALIZATION
+
+If we want to establish whether palatalization of velars was a shared or in-
+dependent development of pre-Old English and pre-Old Frisian we should
+first try to estimate when palatalization took place. If the balance of probabi-
+lity indicates that palatalization of velars had already initiated before the
+Anglo-Saxon settlement of Britain around the mid-fifth century then the
+prospect of it being a shared development increases in likelihood. In order
+to assess when palatalization initiated, it will be easier to first establish when
+it stopped and then to work back in time.
+
+Most important for assessing when palatalization stopped has always
+been the question of when i-umlaut started, since velars were not palatalized
+before front vowels resulting from i-umlaut, e.g. OFris kening ‘king’ <
+PreOFris *kuning and OE kyn ‘kin’ < *kunni. Although there is still some
+uncertainty on the date of i-umlaut, Karl Luick’s sixth-century dating pro-
+vides one workable estimate for English, especially since it has found sub-
+sequent support from a detailed study of place-name evidence by Richard
+Coates.9 Indeed, it is difficult to suggest a much later date because i-umlaut
+is already represented in the earliest attestations of Old English, e.g. in the
+Franks Casket runic inscription wylfi (< Pre-OE *wulßi ‘she-wolf’) from
+about the late seventh century. For Old Frisian, an early dating for i-umlaut
+looks probable too,basedonthepersonal-nameæniwulufu (< *auni-) found
+on the Folkstone Coin runicinscription,c.600–650, whichis usuallythought
+to be Frisian.10 Failing this, Gysseling provides early Old Frisian attestations
+of unrounded i-umlaut in the name *Hrēðgǣr (< *Hrōþi-), appearing in
+copies of documents which ultimately date to the late eighth century, as
+
+=== page 169 ===
+Palatalization of Velars
+169
+
+11
+M. Gysseling, ‘Het oudste Fries’, IB 24 (1962), 1–26, at 18.
+
+Hredgaerus (AD 793), Hredgerus (AD 796, 805).11 Assuming, then, that
+i-umlaut took place by about the sixth century in Old English and between
+the sixth and eighth centuries in Old Frisian, the usual inference is that
+palatalization of velars stopped in these languages at the same time.
+
+Some scholars, however, have claimed that palatalization of velars could
+continue after i-umlaut, arguing that rounded front vowels from i-umlaut did
+not have the same palatalizing effect as the older inherited non-rounded front
+vowels. If this is so, and it is most doubtful (see discussion below), palatal-
+ization of velars could conceivably have continued as a sound-change some-
+what longer, perhaps into the seventh century. But a date much later than this
+seems improbable for Frisian, since the North Frisian settlements began in
+around the seventh or eighth century, and while these dialects are thought to
+have developed independently for many centuries, they show the same
+palatalizations as in Modern West and East Frisian. The situation in English
+is much more problematic, however. If Coates is right that i-umlaut cannot
+have been operative long after AD 500 – nobody, it seems, has yet chal-
+lenged his arguments – then there is a complication, since it is quite certain
+that velars were still undergoing palatalization after this date, perhaps until
+the mid-seventh century, as place-name evidence indicates.
+
+During the Anglo-Saxon migrations and settlement of Britain, which
+began in the early to mid fifth century, Romano-British place-names con-
+taining *k and *g were taken into Old English and show palatalization before
+front vowels, e.g. Cheviot (Northumberland), Chevening (Kent) < Brit.
+*kev×n-‘ridge’, Yeavering (Northumberland)<Brit.*gaßr-‘goat’,Cheetham
+(Lancashire) < *kɛ̄d- ‘forest’. The distribution of the last mentioned place-
+name element – *kɛ̄d ‘forest’ – is presented in Map 1. In the fifth century
+*kɛ̄d ‘forest’ had a mid-front vowel *ɛ̄(or possibly a diphthong *ɛi) which
+caused palatalization and subsequent assibilation of preceding *k (> *c j >
+*t j > tʃ) in many dialects of English. Evidently, there are few exceptions to
+k-palatalization. Those exceptions which do exist, e.g. Coedmoor, Hengoed,
+Pencoyd, are found in the vicinity of the present-day Welsh border, which in
+former times was further east, hence there was no early British to Old
+English shift in this area. More exceptions are found in west Devonshire, e.g.
+Penquit, and in the North, e.g. Culgaith, Tulketh, Penketh, Alkincoats, Cles-
+ketts, Bathgate, Pencaitland.
+
+=== page 170 ===
+170
+Laker
+
+12
+I have made this map using R. Coates, ‘Gazetteer of Celtic Names in England (except
+Cornwall)’, R. Coates and A. Breeze, Celtic Voices, English Places: Studies of the Celtic
+Impact on Place-Names in England (Stamford, 2000), 263–345. Some Scottish place-
+names have also been added to the map using W. J. Watson, The Celtic Place-Names of
+Scotland (Edinburgh, 1926), 381–82
+
+Map 1: Place-names containing Late British *kɛ̄d ‘forest’12
+
+=== page 171 ===
+Palatalization of Velars
+171
+
+13
+See K. H. Jackson, Language and History in Early Britain (Edinburgh, 1953),
+208–09 and 218.
+14
+Furtherlanguagesshowingpalatalizationbeforeboth rounded and non-rounded front
+vowels are listed in D. N. S. Bhat, ‘A General Study of Palatalization’, J. H. Greenberg,
+UniversalsofHuman Language. II. Phonology(Stanford, 1978), 47–92. It hasobviously
+been harder for Bhat to find languages which show palatalization before non-rounded
+front vowels only, but Bhat (p. 61) notes that in English ‘velar palatalization did not take
+place before the vowel i derived through umlaut from u’, which brings us full circle.
+However, the notion that there was palatalization after *i (short, long or nasalized) but
+not after rounded front vowels has also been used by linguists studying the historical
+phonology of Slavic, see W. Vermeer, ‘Leading Ideas in the Study of the Progressive
+Palatalization of Proto-Slavic’, International Journal of Slavic Linguistics and Poetics
+44–45 (2002– 03), 377–94, at 383–84, 387 and footnotes 15 and 21.
+15
+See F. Cercignani, ‘The Development of */k/ and */sk/ in Old English’, The Journal
+of English and Germanic Philology 82 (1983), 313–23 and A. Liberman, ‘Palatalized
+and Velarized Consonants in English against their Germanic Background, with Special
+Reference to i-umlaut’, Studies in the History of the English Language III, ed. C. M.
+Cain and G. Russom (Berlin, 2007), 5–36.
+
+It is tempting to explain away the northern forms with Scandinavian in-
+fluence. However, theareasinquestion were settled late, and the forms could
+just as easily continue British pronunciations: Lothian fell to Bernicia in AD
+638 (according to the Irish annals), and areas west of the Pennines and north
+of the Ribble were absorbed byNorthumbria after the mid-seventh century.13
+
+Finally, thereisaconspicuousexampleofnon-palatalizationinsouthernLin-
+colnshire,thedistrictnameKesteven,and,perhaps,themoredoubtfulKetton
+in Rutland. But aside from these few examples palatalized forms abound.
+
+One way of explaining both early i-umlaut and continuing palatalization
+would be to use once more the argument that palatalization was still an on-
+going phonetic process, though not before rounded front vowels. But al-
+though this explanation has been offered several times before, and although
+it seems logical on the face of it, scholars who favour this interpretation have
+a tendency never to cite living languages which attest such a typology. By
+contrast, many languages can be cited which have palatalization of velars
+before both rounded and unrounded front vowels, as Salmons (this volume)
+demonstrates.14 An alternative solution, then, is to assume that a phonemic
+contrast between palatalized and non-palatalized velars already existed prior
+to i-umlaut and the creation of rounded front vowels, as has been argued for
+by some scholars.15 In such a case it would be possible to assume that the
+velars of Romano-British place-names were palatalized on adoption into
+English in accordance with the phonotactic properties of Anglo-Saxon. In
+
+=== page 172 ===
+172
+Laker
+
+16
+Here I follow the premises of dating sound change outlined by Theo Vennemann,
+who has drawn attention to the often overlooked fact that following a specific sound
+change a language may continue to adapt loanwords to its newly defined phonetic/
+phonological system. Such adaptations, or sound-substitutions, may continue for cen-
+turies after the sound change has taken effect, indicating that loanwords can be extremely
+precarious for dating sound changes. See further T. Vennemann, ‘Betrachtung zumAlter
+der Hochgermanischen Lautverschiebung’, Althochdeutsch, ed. R. Bergmann, H. Kolb
+and K. Matzel, 2 vols. (Heidelberg, 1987) I, 29–53, at 32.
+17
+See further Jackson, Language and History, 556–57, and K. Cameron, ‘Eccles in
+English Place-names’, Christianity in Britain, 300–700, ed. M. W. Barley and R. P. C.
+Hanson (Leicester, 1968), 87–92.
+18
+Support for later assibilation has also been argued for on the basis of English
+alliterations, for which see Minkova, Alliteration and Sound Change, Chapter 3.
+19
+I should also point out that there is a further possible factor to consider, namely the
+possibilityofVulgarBritish Latin influenceespeciallyin southern lowland Britain which
+could have had the effect of palatalizing Brittonic place-name elements, such as *kɛ̄d
+‘forest’, before the advent of the Saxons. This possibility should not be ruled out.
+However, I doubt whether it would account for all the toponymic evidence, and we
+should not forget that there is evidence elsewhere for sound-substitution of Brittonic
+place-names in Pre-Old English. For a discussion of British Latin influence on Brittonic
+and Old English see P. Schrijver, ‘The Rise and Fall of British Latin: Evidence from
+English and Brittonic’, The Celtic Roots of English, ed. M. Filppula, J. Klemola and H.
+Pitkänen (Joensuu, 2002), 87–110, esp. 108.
+
+other words, there was sound-substitution, but otherwise no new process of
+palatalization occurred before rounded front vowels.16
+
+To be sure, earlyBrittonic place-names were assimilated to Anglo-Saxon
+phonology by a form of sound-substitution. For instance, the voiced velar
+plosive *g appeared in intervocalic position or between a vowel and a
+resonant in Late British. But in Old English only the voiced velar fricative
+*ɣ (when palatalized: [ʝ]) was found in these positions, with the plosive *g
+only occurring in gemination or after *n. As a consequence, the Brittonic *g
+was usually replaced by OE k (or occasionally -gg-) in these positions, e.g.
+Eccles (in Lancashire and many other place) from Late British eglēs (cp.
+Modern Welsh eglwys ‘church’), ultimately from Vulgar Latin eclesia.17 By
+asimilartoken,theBrittonic propertyofhavingunpalatalized velarsadjacent
+tofrontvowelswasnotreflectedinAnglo-Saxon phonotactics. Theevidence
+suggests that there was an early process of sound-substitution, thus *k was
+palatalized and later assibilated, i.e. *c j > *t j > tʃ.18 This explanation of palat-
+alization of Brittonic place-names upon assimilation seems the most likely
+scenario, especially given the narrow time-frame of Anglicization of large
+sweeps of present-day England during the fifth and sixth centuries.19
+
+The evidence suggests that Siebs, Luick and Campbell were right to con-
+clude that palatalization was a pre-Conquest phenomenon. Their judgement,
+however, was based primarilyon the inference that the close similarities with
+Frisian bespoke a continental origin for English palatalization. Now the
+
+=== page 173 ===
+Palatalization of Velars
+173
+
+20
+See H. Kuhn, ‘Zur Gliederung der germanischen Sprachen’, ZfdA 86 (1955), 1–47,
+at 32, and ‘Friesisch und Nordseegermanisch’, UW 4 (1955), 37–46, at 42.
+21
+The designation of this substrate has been influenced by personal ideologies in the
+past, see E. Hoekstra, ‘K. H. Heeroma: strider en tsjûger foar it ABN. Oer de gearhing
+tusken taalkunde, taalpolityk en nasjonale identiteit’, UW 44 (1995), 51–68.
+22
+For a detailed survey of the evidence, see S. Krogh, Die Stellung des Altsächsischen
+im Rahmen der germanischen Sprachen (Göttingen, 1996), 203–13. Briefly, Krogh
+thinks that a connection between palatalization in Old Dutch and that in Old English and
+Old Frisian is possible. However, Krogh rejects a connection with Old Saxon because
+of evidence for palatalization of velars before front vowels resulting from i-umlaut.
+Krogh is right to notice this difference, but it does not eliminate the possibility that
+palatalization of velars initiated before Old Saxon i-umlaut. Due to the scanty data
+supplied by Old and Middle Dutch, as well as Modern Dutch dialects, the relative
+chronology of palatalization and i-umlaut cannot be established here.
+
+evidence from Romano-British place-names also provides another useful
+argument in favour of a continental origin of palatalization in pre-Conquest
+Anglo-Saxon dialects, which in turn provides a more likelyscenario than the
+idea of palatalization only emerging in Old English dialects after the settle-
+ment of Britain – for instance, by a form of later cross-sea contact, as
+envisaged by Hans Kuhn.20
+
+4. THE DEBATED CHRONOLOGY OF PALATALIZATION
+
+If we can agree that palatalization of velars was a property of pre-Conquest
+Anglo-Saxon dialects and that the homeland of the Anglo-Saxons was
+northern Germanyand parts of Denmark, i.e. close oradjacenttoareaswhere
+Frisian is or was spoken, we mayalso like to conclude that palatalization was
+a shared areal feature of parts of West Germanic. From this prehistoric areal
+configuration, dialects other than Old English and Old Frisian have later
+emerged. It is well-known that there is sporadic evidence of palatalized
+velars in Old Dutch and Middle Dutch which has been ascribed to a pre-
+historic substrate language usually designated as Ingvaeonic or Frisian.21
+
+Secondly, there is sporadic orthographic evidence for palatalization in Old
+Saxon, which, as a close ancestor to Anglo-Saxon, is perhaps hardly sur-
+prising.22 Yet due to the subsequent Franconicization of Old Dutch and the
+High German influence, especially since the eighth century, on Old Saxon,
+these dialects are less useful for the present enquiry. This leaves only Old
+English and Old Frisian, and in this narrower sense the term Anglo-Frisian
+is often understood.
+
+Assuming, then, that palatalization of velars was an areal feature shared
+byvarieties of Germanic spoken along a large stretch of land in the proximity
+the North Sea Coast, it seems reasonable to ask how this shared feature
+originated, such as whether it developed in one or more areas before
+spreading to other dialects, whether it reflects an archaism lost in other dia-
+
+=== page 174 ===
+174
+Laker
+
+23
+Cp. Fulk, ‘The Chronology’, 141: ‘The Old English dialects themselves show a
+similar divergence at an early date. When WGmc ā was fronted [...], it presumably
+developed first to ǣ, which remains in West Saxon, but then changed further to ē in other
+Old English dialects as well as in Old Frisian. The raising ofǣto ē must have taken place
+quite early in Old English, since it precedes breaking, as demonstrated by forms like
+Kentish nēor “nearer” and Mercian nēolǣcan “approach” and nēowest “vicinity”.’
+24
+Campbell, Old English Grammar, §426.
+25
+See Siebs, ‘Geschichte der friesischen Sprache’, 1294–95; J. J. Loopstra, De Assibi-
+latie in de Oudfriese Oorkonden (Haarlem, 1935), 72–137.
+26
+See Stiles, ‘Remarks’, 194–95 and, implicitly, D. Boutkan, ‘On Labial Mutation and
+Breaking in Old Frisian’, Approaches, 77–88.
+
+lects, or whether it developed by some form of prehistoric language contact
+(e.g. with Vulgar Latin), to name but a few possibilities. Unfortunately no-
+body knows. But one way of assessing the validity of a shared prehistoric
+change has been to consider questions of relative chronology. If a single
+coherent Anglo-Frisian chronology cannot be developed, then it can be
+argued that Old English and Old Frisian were two separate dialects at the
+time of palatalization rather than a single language. In this sense, Hogg,
+Stiles and Nielsen have argued (see note 3) that palatalization was an in-
+dependent development in Old English and Old Frisian.
+
+However, Robert Fulk has shown that if we look at Anglo-Saxon through
+the same chronological spectacles as we do Anglo-Frisian, then we are
+forced to conclude that palatalization was an independent change in Old
+English too.23 Suffice it to say that two dialects or varieties can share a lin-
+guistic development yet variation as well. Another aspect to consider when
+deducing a relative chronology is that palatalization can have a long life
+span. Already Campbell described how sensitivity of k and g ‘continued
+throughtheperiodsofAnglo-Frisianfronting,breaking,andretractionbefore
+consonantgroups and before back vowels’.24 Although thereisdisagreement
+about which changes did take place while palatalization as a development
+was active, the fact that palatalization can straddle other sound changes in a
+relative chronology complicates any analysis and must be taken into con-
+sideration. This problem is particularly well known in Frisian studies be-
+cause, despite the fact that palatalization of velars had been phonologized at
+the latest after i-umlaut, a second process of palatalization and assibilation
+of k (as well as t and d) re-occurred in West Frisian dialects in about the
+fifteenth century.25 Therefore, it is with these considerations in mind that the
+following four chronological issues should be addressed.
+
+4.1 Breaking and palatal diphthongization
+Since there is general agreement that the sound-change known as breaking
+was independent in both Old English and Old Frisian,26 all phonological
+processes which postdate breaking must be independent in both English and
+
+=== page 175 ===
+Palatalization of Velars
+175
+
+27
+Stiles, ‘Remarks’, 194.
+28
+Ibid. 196.
+29
+Karl Luick estimated that palatalization of velars initiated at the end of the fourth or
+the beginning of the fifth century, and thought that palatal diphthongization probably
+immediately followed the change. But it is clear that he knows no proof that this must
+have been the case when he writes: ‘Die (ältere) Palataldiphthongierung hat sich wohl
+unmittelbar an diesen Wandel angeschlossen.’SeeLuick,HistorischeGrammatik, §291.
+30
+It should be noted that palatal diphthongization, whatever its debated status as a
+sound change, occurred only in West Saxon and ‘North’ Northumbrian. But in the latter
+short *e was generally unaffected by it. Consequently, the example OE ċeorl can serve
+as a test case for West Saxon dialects only.
+
+Frisian. In this vein, Patrick Stiles has argued that Old English breaking ‘is
+demonstrably earlier than palatalization as a phonemic change’, and draws
+into consideration ‘WGmc. *kerl (cf. G Kerl), which yields OE ċeorl ‘churl’
+bybreaking, NOT †ċierlbypalataldiphthongization,achangeclearlydepen-
+dentonthepriorexistence ofpalatalization.’27 Stiles’ wording isnoteworthy:
+‘palatalization as a phonemic change’, his intentional use of ‘phonemic’
+would seem to indicate that palatalization as an allophonic change may have
+preceded breaking. But in fact Stiles is quite adamant that even phonetic
+palatalization cannot be ‘Anglo-Frisian’ when he later writes: ‘palatalization
+as merely a phonetic tendency cannot be pushed further back to an “Anglo-
+Frisian” stage’.28 Stiles provides, implicitly, two chronologies of sound
+change (1a–b), whereby only one can produce the desired outcome, namely
+(1a). But although the chronology given in (1a) will produce the desired Old
+English output ċeorl, whereas (1b) will not, it is possible to propose an
+alternative chronology that places palatalization before breaking (1c).
+
+(1)
+
+a. Input
+*kerl
+b. Input
+*kerl
+c. Input
+*kerl
+Breaking *ceorl
+Palataliz.
+*ċerl
+Palataliz.
+*ċerl
+Palataliz. *ċeorl
+Palatal Diph. *ċierl
+Breaking
+*ċeorl
+OE
+ċeorl
+OE
+**ċierl
+OE
+ċeorl
+
+The problem with Stiles’ analysis is the assumption that palatal diphthongi-
+zation must immediately follow or occur contemporaneously with palatali-
+zation,29 but there is no evidence to suggest this must have been the case. In
+fact there is more reason to believe that palatalization was not contempora-
+neous, since palatal diphthongization – in contrast to palatalization of velars
+– is not found in all Old English dialects.30 So while Stiles’ analysis shows
+convincingly that palatal diphthongization follows breaking, it does not
+prove that palatalization follows breaking either as a phonemic change or
+not.
+
+=== page 176 ===
+176
+Laker
+
+31
+For a detailed discussion see Hogg, ‘Old English Palatalization’, 89–113.
+32
+Stiles, ‘Remarks’, 196.
+33
+Fulk, ‘The Chronology’, 145. Note that Bülbring, Altenglisches Elementarbuch,
+§§491–501, differentiates ‘Früh-urenglischen Palatalisierungen von ʒ, g, k, gg, kk’ from
+a later ‘urenglische’ palatalization of χ.
+34
+Patrick Stiles (p.c.) points out to me that the voiceless fricative h seems to have been
+palatalized in Old Frisian when i stood in the next syllable, as indicated by the following
+words which failed to undergo breaking: OFris plicht ‘duty’(< *plih-ti-), OFris wicht
+‘weight’(< *wih-ti), secht ‘illness’(< *suh-ti). However, Boutkan explains these forms
+otherwise in ‘On Labial Mutation and Breaking’, 82–83 and fn. 39. Boutkan (ibid.)
+maintains that *-xt- as well as *xs- had a strong velar character, such that they ‘inhibited
+the fronting of PGmc *a to e, e.g. nacht “night”, achta “eight”, fax “hair”.’ Further, he
+thinks that there was only breaking of *e (not *i), and that unrounding of i-umlauted *u
+to e postdated breaking in forms such as secht ‘illness’. In fact, breaking is attested in this
+
+4.2 Breaking and palatalization of the voiceless fricative
+
+Another argument in favour of the chronology breaking then palatalization
+is the evidence from breaking before *h (phonetically a velar or uvular frica-
+tive, [x] or [χ], in post-vocalic positions).31 The situation is summarized by
+Patrick Stiles as follows:32
+
+Phonetic palatalization of the velars in Old English led to a phonemic
+split in the case of the stops k and g and the voiced fricative ʒ [= IPA [ɣ],
+SL]. It also affected the voiceless fricative h, although here it did not lead
+to a phonemic split (cf. Hogg 1992:§2.60 and references). However,
+because breaking only took place before velar consonants, the voiceless
+fricative h must have been unaffected by any phonetic palatalization in
+English at the time of the earlier change of breaking.
+
+Stiles then cites the following data in favour of this argument:
+
+Pre-OE * wīh > Breaking *wīoh > OE wēoh ‘idol’
+Pre-OE *nǣh > Breaking *nǣah > OE nēah ‘near’
+Pre-OE*hlæχχjan >Breaking*hlæaχχjan >OEhliehhan (withi-umlaut)
+
+‘to laugh’
+
+It seems logical then to place the palatalization of *h at the same time as k
+and g in the history of English. Consequently, breaking must surely have
+occurred before palatalization in order to yield the outcomes of breaking
+cited above. Fulk, however, has argued that ‘it is an unreliable assumption
+that because h was not palatalized in this word [i.e. Pre-OE *hlæhhjan
+‘laugh’, SL] at this time, nor could other consonants have been palatalized.33
+
+If we look to Old Frisian, we find palatalization of *k and *g, yet the
+evidence for palatalization of h is ambiguous.34 One finds OFris siuht(h) ‘he
+
+=== page 177 ===
+Palatalization of Velars
+177
+
+form in OWFris siuchte, siocht also in ModWFris sjocht(e) and IsNFris sjocht (Amrum),
+cp. R. H. Bremmer Jr, An Introduction to Old Frisian (MS Leiden, 2006), §50.
+35
+Examples mainly involve the cluster *xt, where *h may have had a strong velar
+character (see last note). In intervocalic positions and finally, *h was weakened and lost.
+Evidence for the palatalization of weakened *h seems to be OFris nēi, nēy (< Gmc
+*nēhwō ‘nigh, near’). Cases of the intervocalic geminate -hh- followed by a front vowel
+are rare and almost confined to the Germanic etymon *hlahjan ‘to laugh’. However, Old
+Frisian has only*hlakkia, which could reflect a unique change *-χχ- > (*-χk-?) > -kk- (for
+other such problematic cases in Old English, see K. Brunner, Altenglische Grammatik
+[Tübingen, 1965], §220, Anm.2). Alternatively, *hlakkia could go back to an un-
+explained variant pre-form, i.e. cognate with ON hlakka. Nevertheless, several Modern
+Frisian dialects do show reflexes of the etymon with a velar fricative, and some dialects
+have a palatal reflex [ç] (e.g. Sylt lachi) while others do not (e.g. Saterland laachje), see
+Siebs, ‘Geschichte der friesischen Sprache’, 1305.
+36
+See E. Bauer, Die Moringer Mundart (Heidelberg, 1925), §85; W. Krogmann,
+Helgoländer Wörterbuch (Wiesbaden, 1957–1968), 5; P. Kramer, Kute Seelter Sproak-
+leere (Rhauderfehn, 1982), 7; Siebs, ‘Geschichte der friesischen Sprache’, 1382.
+37
+See Hogg, ‘Old English Palatalization’, 96: ‘[W]e have not found any satisfactory
+solution to the problem of why [ʒ], unlike [x], did not cause breaking.’
+38
+Stiles, ‘Remarks’, 195.
+
+sees’ (< *sehiþ) vs. OFris leith, līth ‘he lies’ (< *legiþ) and OFris riucht,
+riocht ‘right’ (< *reht-) vs. OFris rein ‘rain’ (< *regna-).35 This situation has
+continued into Modern East Frisian and Standard West Frisian where χ did
+not develop a palatal allophone [ç] before or after front vowels, while it has
+done so in some North Frisian dialects. The allophonic distribution /χ ~ ç/ is
+quitecommon cross-linguistically.Forexample,ithasdevelopedinStandard
+German but not in Swiss German or Standard Dutch, it has evolved in the
+North Frisian dialects of Moring and Helgoland, but not in the East Frisian
+of Saterland or on Wangerooge (now extinct).36 Indeed, there seems to be no
+conclusive evidence that in pre-Old English the palatalization of *χ and the
+velars *k and *g were parallel developments, instead of independent innova-
+tions, occurring perhaps several centuries apart, as inseveralFrisian dialects.
+Ultimately, the observation that the voiced velar fricative does palatalize,
+while its unvoiced (probably uvular) counterpart does not, explains the ap-
+parent mystery37 of why only the latter induces breaking in Old English, e.g.
+OE feohtan ‘fight’ (< *feht-) vs. OE segl (*segl-) ‘sail’.
+
+4.3 Palatalization in Old English before +ea, (< Gmc *au)
+
+A strongerargumentthatpalatalization occurredindependently,inthegenea-
+logical sense, in Old English and Old Frisian concerns the twofold develop-
+ment of *k before Gmc *au, which shows different reflexes in Old English
+and Old Frisian:38
+
+=== page 178 ===
+178
+Laker
+
+39
+Luick, Historische Grammatik, §120; K. G. Goblirsch, ‘Germanic ai and au in
+Anglo-Frisian’, ABäG 33 (1991), 17–23.
+40
+Gysseling, ‘Het oudste Fries’, 9–11. E.g. Middag (district of Groningen) from Gmc
+*augjō- ‘island in the sea’ appears as Midochi, Midach, Middach in thirteenth- and
+fourteenth-century copies of a document from 786–87; Fivelgo (district of Groningen)
+fromGmc *gauja- ‘district’appearsin an eleventh centurycopyofan earlyninth-century
+document as Fiuilga; Vronen (North Holland) from Gmc *frauna- ‘lordly’ appears as
+Vranlo, Vronlo, Franlo in eleventh- and twelfth-century copies of a document from the
+ninth century.
+
+The difference between OE ċeapian ‘to trade, buy’ (with palatalization)
+and OFris. kapia ‘to buy’ (without) – both ultimately derived from Lat.
+caupo ‘tavern-keeper; hawker’ – demonstrates that palatalization took
+place in each language after changes which are unique to it.
+
+This assumption islinkedtothedevelopmentof the Germanic diphthong *au
+and its connection with fronting of Gmc *a yielding OE æ and OFris e. It is
+more economical if the development of Gmc *au to OE æo, and later æa, can
+be linked with a contemporaneous fronting of Gmc *a > OE æ which also
+caused palatalization of preceding velars; otherwise two separate changes
+must be posited. By doing so, however, it seems that the fronting of Gmc *a
+must also be seen as yet another coincidence common to Old English and
+Old Frisian, which is likewise uneconomical. At least four different ways
+around this issue have been proposed in the literature.
+
+1) Karl Luick and, more recently, Kurt Goblirsch have argued that Gmc
+*a was fronted contemporaneously in the diphthong *au in Anglo-Frisian
+and thus theGermanic diphthong developed to*æa, which was subsequently
+monophthongized to *ā in Pre-Old Frisian.39 According to Goblirsch, the
+change*æa> āresultedfromAkzentumsprung (presumably, velarpalataliza-
+tions in Frisian were then lost in the process). Akzentumsprung must then
+havebeenveryearly,however. Based on onomastic material, MauritsGysse-
+ling has argued that Frisian monophthongization of *au to ā can be dated to
+the eighth century on the basis of place-name evidence.40 But runic evidence,
+notably the skanomodu inscription (< *skaun- ‘beautiful’), if it is Frisian,
+might suggest an even earlier date for monophthongization, around the sixth
+century.
+
+2) Robert Fulk has offered a slightly different proposal to that of Luick
+and Goblirsch. He thinks that Gmc *a was fronted contemporaneously in the
+diphthong *au (as well as the diphthong *ai) and that all three induced
+palatalizations in Anglo-Frisian. However, Fulk believes that the resulting
+diphthong *æu changed back to *au (not *ā, which arose later still) in Pre-
+OldFrisianwhichcauseddepalatalizationofprecedingvelarsbeforeassibila-
+tion took place, i.e. Anglo-Fris *kau- > *cæu- yielded: (1) OE tʃæa-, but (2)
+
+=== page 179 ===
+Palatalization of Velars
+179
+
+41
+Fulk, ‘The Chronology’, 151, 153.
+42
+See Kortlandt, ‘The Origin of the Old English Dialects Revisited’, 46.
+43
+R. I. Page, ‘The Old English Rune ear’, Medium Ævum 30 (1961), 65–79.
+44
+E.g. C. F. Koch, ‘Angelsächsisch eâ (Grimms eá)’, ZfdP 1 (1869), 339–44; Bülbring,
+Altenglisches Elementarbuch, §107, Anm. 2; J. Fourquet, ‘Le système des éléments
+vocaliques longs en vieil-anglais’, Mélanges de linguistique et de philologie: Fernand
+Mossé in memoriam, ed. A. C. Bouman (Paris, 1959), 148–60; Y. B. Krupatkin, ‘From
+Germanic to English and Frisian’, UW 19 (1970), 49–71; D. Hofmann, ‘Zur Mono-
+phthongierung von germanisch ai und au im Altfriesischen und in seinen Nachbar-
+sprachen’, Lingua Theodisca: Beiträge zur Sprach- und Literaturwissenschaft, ed. J.
+Cajot and L. Kremer (Münster and Hamburg, 1995), 23–36, at33;Kortlandt, ‘TheOrigin
+of the Old English Dialects’, 48.
+45
+Krupatkin, ‘From Germanic to English and Frisian’, 61. Asimilar proposal is offered
+by H. Pilch, Altenglische Grammatik (München, 1970), 83: ‘Ggerm. [Gemeingerma-
+nisch] /iu/ gleitet von der hohen vorderen Komponente /i/ zur hohen hinteren Kom-
+ponente /u/. Ggerm. /au/ gleicht sich dieser Bewegungsrichtung von vorn nach hinten an.
+Es verändert sich zu /æɑ/ mit tiefer vorderer Komponente [æ] und tiefer hinterer
+Komponente [ɑ]. Damit entsteht ein System zweier von vorne nach hinten gleitender
+Diphthonge, und zwar /iu/ mit hoher, /æɑ/ mit tiefer Zungenstellung’.
+
+> PreOFris *kau- > OFris kā-.41 But Kortlandt has criticized Fulk’s proposal,
+since it relies on pendulum-developments which, though not impossible, are
+uneconomical.42 Thus, leaving aside the complex issue of the development
+of Gmc *ai, which Fulk does not elaborate upon in detail, he must posit at
+least three stages of development for Old Frisian (*au > *æu > *au > OFris
+ā), whereas Luick and Goblirsch’s proposal has the merit of needing only
+two (*au > *æa > OFris ā).
+
+3) Raymond Page has argued that Gmc *au developed to *ā not only in
+Old Frisian but also in earliest Old English before a development of raising
+and diphthongization before the earliest Old English texts (apparently the
+resulting *ā must have been somehow distinct from *ā < Gmc *ai).43 As
+such, the putative Old English diphthongization of *ā could be compared to
+a similar process which affected West Frisian after the Middle Ages (OFris
+ā > ModWFris ea).
+
+4) Finally, some scholars have argued that Gmc *au was not subject to
+fronting in Old English until quite late.44 By assuming that fronting of *au
+was a later Anglo-Saxon development, which subsequentlyinduced palatali-
+zation of preceding velars, the idea of an earlier Anglo-Frisian palatalization
+of velars need not be dismissed. For instance, Yakov Krupatkin has pre-
+sumed that the development *au > ǣa was part of a general Old English
+development of the Germanic diphthongs in -u which became incorporated
+into the long vowel system as front-back phonemes, i.e. the Old English high
+vowels ī and ǌ had a diphthongal counterpart īu, the mid vowels ē and ō, ēo,
+and the low vowels ǣand ā, ǣa.45 By this interpretation, the change *au >
+æa was not dependent on fronting of short *a at all.
+
+=== page 180 ===
+180
+Laker
+
+46
+Stiles, ‘Remarks’, 195–96. Note, however, that palatalization is attested in OFris rīze
+nt. ‘riches, property’, see De Tweede Emsinger Codex, ed. K. Fokkema, OTR 7 (The
+Hague, 1953), at 19, line 56. For this information, I am indebted to Anne Popkema. The
+Oxford English Dictionary (<www.oed.com>, accessed 16 June 2006) remarks that ‘In
+ME. the use of the word may have been reinforced by F. riche (= Sp. rico, It. ricco), itself
+of Teut. origin. This would help to explain the early disappearance of the northern form
+rike.’
+47
+Palatalization did occur in Northumbrian, as is clear from runic evidence, but not
+assibilation. For the runic evidence see C. Ball, ‘Inconsistencies in the Main Runic
+Inscriptions on the Ruthwell Cross’, Old English Runes, ed. Bammesberger, 107–23, at
+117—19.
+48
+The idea that English dike is an Old Norse loan and that English ditch is of native
+stock has been questioned in H. Ramisch, ‘Re-examining the Influence of Scandinavian
+on English: the Case of ditch/dike’, Language History and Linguistic Modelling [=
+Festschrift Fisiak], ed. R. Hickey and S. Puppel, 2 vols. (Berlin, 1997) I, 561–69.
+
+Thus, in addition to the traditional interpretation of the Germanic
+diphthong *au in Old English and Old Frisian as favoured by Stiles, we find
+several quite different, competing proposals – the most likely of which seem
+to be (1) and (4), which are perhaps not mutually exclusive if (4) preceded
+(1). Undoubtedly, the development of the *au is the core problem for the
+interpretation of the Anglo-Frisian subgrouping, and its interpretation
+remains very much a subjective one.
+
+4.4 Different conditioning factors
+
+Stiles has pointed out that the conditioning factors for palatalization in Old
+English and Old Frisian were different, noting contrasting reflexes of the
+voiceless velar: OFris tser(e)ke ‘church’, dīk ‘ditch’, rīk(e) ‘rich’ against OE
+ċiriċe, dīċ, rīċe with palatalization.46 Both languages agree in evidencing
+palatalization beforefrontvowelswordinitially, butdiffermediallyandword
+finally.
+
+The first difference is that only Old English palatalizes *k after *i (and
+less regularly other front vowels) in absolute final position. It seems likely,
+however, that, while *k was palatalized after *i in all Old English dialects,
+it never resulted in assibilation in this position in Northumbria and parts of
+Mercia.47 Of the few examples where it can be proven that palatalization of
+*k was due to preceding long or short *i, e.g. iċ ‘I’, dīċ ‘ditch’,48 līċ ‘lich,
+corpse’, wīċ ‘-wich’, piċ ‘pitch’, swilīċ ‘such’, hwalīċ ‘which’, all are
+unassibilated at least in northern English dialects, but also in parts of the
+Midlands and East Anglia in Middle English and Modern English dialects.
+This lack of assibilation has been accounted for in different ways: 1. Due to
+frication of final *-k under weak stress; 2. Analogical levelling in the para-
+digm, e.g. dīċ ~ dīcas ‘ditch, dike’ with a northern preference for the un-
+palatalized variant (in contrast to the South, which preferred the assibilated
+
+=== page 181 ===
+Palatalization of Velars
+181
+
+49
+See Hogg, A Grammar of Old English, 7.52, 7.41, 7.42, with references.
+50
+J. W. Watson Jr., ‘Non-initial k in the North of England’, Language 23 (1947),
+34–49, at 49.
+51
+E.g. Brunner, Altenglische Grammatik, §206, Anm. 9; Hogg, A Grammar of Old
+English, 7.23, n.1.; O. Gevenich, Die Palatalisierung von K > ý im Lichte der
+englischen Ortsnamen (Halle/S., 1918).
+52
+Some aspects of this one-sided approach have been criticized in a review by E.
+Ekwall, Anglia Beiblatt 30 (1919), 221–28, and by George van Langenhove, ‘The
+Assibilation of Palatal Stops in Old English’, A Grammatical Miscellany Offered to Otto
+Jespersen on his 70th Birthday, ed. N. Børgholm, A. Brusendorff and C. A. Bodelsen
+(Copenhagen, 1930), 69–75.
+53
+T.-Y. Pak, ‘Position and Affrication in Northumbrian Old English’, Linguistics 82
+(1972), 52–62.
+54
+Ibid. 56, 58.
+
+variant); 3. Scandinavian influence.49 What this all boils down to is the
+conjecture that the process of k-assibilation must have been the same across
+all Old English dialects. But it seems equally possible that, like in Frisian, *k
+was only assibilated before front vowels in northern dialects of English.
+
+Basing his arguments on place-name evidence, and apparently without
+knowledge of the Frisian parallels, John Watson also came to similar con-
+clusions with regard to the lack of assibilation of *k in Northumbrian English
+in absolute final position after front vowels:50
+
+In Northumbrian Old English, the phoneme þ did not, in general, occur
+[in final position] at all. However, [...] the disappearance of final -i after
+a long syllable caused an originally medial þ to stand in final position. Cf.
+the Lindisfarne form bǣc ‘book’ dat.sg. < *bōki (John 20.30).
+
+Watson’s article is sometimes mentioned briefly in reference grammars, but
+is brushed aside with passing reference to Olga Gevenich’s monograph on
+the palatalization of *k in English place-names.51 Gevenich argued, namely,
+that palatalization was a general Old English change, and that the lack
+palatalization in the North is due almost exclusively to Scandinavian
+influence.52 What the grammars do no not seem to appreciate is that Watson
+never questioned the fact that velar palatalization occurred in all Old English
+dialects, but argued that the outcomes of it were not always the same.
+
+The only paper which does attempt to reject Watsons thesis on the basis
+of actual data is that of Tae-Yong Pak.53 In this paper, Pak is able to cite a
+few place-names which do in fact display palatalization of absolute final *k:
+Prestwich, Horwich, Reddish.54 But all of these toponyms are located in
+Southern Lancashire, and thus out of the Northumbrian region proper, which
+ought to be located approximately to the north of the River Lune (or, per-
+haps, the Ribble) in the west. The one other apparent example cited by Pak
+
+=== page 182 ===
+182
+Laker
+
+55
+Ibid. 58.
+56
+The evidence suggests that West Saxon and other southerly dialects of Old English
+show a different development from Northumbrian Old English and Old Frisian with
+respect to assibilation after i. The dialect configuration of Anglian and, especially,
+Northumbrian Old English and Old Frisian has been noticed by Fulk, ‘The Chronology’.
+Another parallel is the lack of fronting of *a before -ld, e.g. OE(Anglian) cald, OFris
+cald vs. OE(West Saxon) ċeald ‘cold’.
+57
+E.g. R. Jordan, Handbook of Middle English Grammar: Phonology, trans. and rev.
+E. J. Crook (The Hague, 1974), §179.
+58
+See K. Luick, ‘Zur Palatalisierung’, Anglia 59 (1935), 274.
+
+is Lintz in County Durham, which is thought to derive from OE hlinc ‘a
+rising ground, ridge’.55 But this isolated example is quite dubious on account
+of its usual interpretation as a Normanized spelling pronunciation /ts/, which
+continues to this day. In other words, the one suspect Northumbrian example
+of suggested progressive palatalization of *k unearthed by Pak only serves
+to bolster Watson’s analysis.56
+
+The second locus of variation between Old English and Old Frisian is in
+medial position. Medial position includes, however, a large number of Old
+English etyma which seemingly display palatalization in final position too,
+due to syncopation of a following *i or *j (i.e. different from iċ ‘I’, dīċ
+‘ditch’, piċ ‘pitch’ etc., where *k was never followed by *i or *j). Typical
+examples are from the ja(n)-stems (e.g. lǣċe ‘physician’, mēċe ‘sword’, rīċe
+‘kingdom’, gefylċe ‘troop’, fliċċe ‘flitch’, styċċe ‘piece’, mereċe ‘smallage’,
+wreċċa ‘wretch’; weċġ ‘wedge’, hryċġ ‘ridge’) and jō(n)-stems (e.g. wiċċe
+‘witch’, bierċe ‘birch’, sæċċ ‘strife’, spǣċ ‘speech’, cryċċ ‘crutch’; bruċġ
+‘bridge’, eċġ ‘edge’, heċġ ‘hedge’, myċġ ‘midge’, seċġ ‘sedge’). Such words
+–inparticularthosewithgeminateconsonantsresultingfromWestGermanic
+Gemination after a short root vowel – have reflexes with and without
+assibilation in the English dialects. The variation is often accounted for by
+Scandinavian influence.57 But a problem with appealing solely to Scan-
+dinavian influence is that the non-palatalized forms occur in English dialects
+outside the main sphere of Scandinavian influence, such as in Rutland, Bed-
+fordshire,Warwickshire,Worcestershire,Gloucestershire,Buckinghamshire,
+Herefordshire, Oxfordshire, Wiltshire, Somerset and Dorset.58
+
+In light of the above facts, Karl Luick’s proposal which focuses on the
+alternations of palatalized and non-palatatalized forms in the paradigms of
+nouns offers the best solution. Once *j was lost, the palatalized consonant
+would have fallen in contact with either a following front or back vowel,
+depending on number and case. The general tendencyis that front vowels are
+found in the singular and back vowels, the plural. It is possible, then, that
+either palatalized (later assibilated) consonants were generalized throughout
+the paradigm, or that non-palatalized velars were generalized. Luick points
+out that some nouns were especially prone to appear in the plural and are
+
+=== page 183 ===
+Palatalization of Velars
+183
+
+59
+Stiles attaches special attention to the bird-name ‘lark’, which displays no palataliza-
+tion in English but does in Frisian. However, most Old English scholars would assume
+that this ōn-stem noun did have palatalization in two out of its eight case forms in Old
+English, and that the palatalized forms were levelled out in early Middle English. Among
+the numerous spellings of this etymologically obscure word, three examples apparently
+showing palatalization are attested in early Middle English, namely lauerche, Lauerch-
+feld, Liurochebere, see The Middle English Dictionary, ed. H. Kurath, S. Kuhn and R.
+Lewis (Ann Arbor, MI, 1952–2001), s.v. larke. In Stiles’ defence, however, it must be
+admitted that +ch,-spellings for k are quite common in early medieval documents. Indeed
++ch, is the rule before e and i in the Domesday Book (though the attestations given here
+do not stem from this source). For a discussion of the Frisian forms see N. R. Århammar,
+‘Die Lerche (Alauda) im Friesischen: ein Beitrag zum Atlas Linguarum Europae. Über
+Inlautassibilierung,unregelmäßigeLautentwicklungund “Lehnlautungen”’,Miscellanea
+Frisica: A New Collection of Frisian Studies [= Festschrift Miedema], ed. N. R. År-
+hammar et al. (Assen, 1984), 137–52.
+
+quite likely to have generalized the non-palatal variant and vice-versa. Such
+an explanation would account not only for the variation in English but also,
+sporadically, in Old Frisian too, e.g. wigge vs. widze ‘horse’ (< Gmc
+*wegja-), rīke vs. rīze ‘rich(es)’ (< Gmc *rīkja-), wreke vs. wretse ‘revenge’
+(< Gmc*wrakja-),brekevs.bretse‘breach,infringement’(< Gmc*brukja-),
+egge vs. edze ‘edge’ (< Gmc *egjō-).59
+
+Thus, the conditioning factors for palatalization in Old Frisian and Old
+English are very similar, one difference being that in West Saxon dialects
+assibilation of *k occurred not only before front vowels but also after them.
+
+5. CONCLUSION
+
+Palatalization of velars is probably the most striking phonological parallel of
+Old English and Old Frisian. Some scholars have argued that palatalization
+had shared Anglo-Frisian origins, others think it arose in both languages
+independently. In order to make headway in the debate, the absolute and
+relative chronology of palatalization must be worked out in more detail.
+Based on our present understanding of the chronology of the Anglo-Saxon
+settlement of England, and the evidence for palatalization in British Celtic
+place-name elements, palatalization of velars must have been active as a
+sound change at least until the early seventh century, i.e. later than the date
+of i-umlaut which, according to current estimations, took place no later than
+the sixth century. However, I have argued that palatalization started before
+i-umlaut and continued after it, too, namely by a form of sound-substitution.
+Significantly, my conclusions support those of earlier scholars who asserted
+thatpalatalizationhadinitiatedbeforetheAnglo-SaxonsettlementofBritain.
+In testing whether palatalization was a shared Anglo-Frisian development,
+further attention must be placed on the relative chronology of the change. If
+a shared coherent relative chronology cannot be developed for Old English
+
+=== page 184 ===
+184
+Laker
+
+and Old Frisian up to palatalization of velars, then, it is argued, palatalization
+musthavearisenindependentlyinbothlanguages. Fourargumentshavebeen
+used to demonstrate that palatalization was, genealogically speaking, an in-
+dependent development of Pre-Old English and Pre-Old Frisian. Upon a
+closer analysis of the facts, three out of four of these arguments do not stand
+up to scrutiny. Arguments based on palatal diphthongization (4.1) are weak,
+as it was a later development of certain Old English dialects and thus must
+be differentiated from an earlier process of velar palatalization which is
+found in all Old English dialects. The idea that the voiceless velar fricative
+ought to have undergone the same process of palatalization as *-k(k)- and *-
+g(g)- is contradicted by the Frisian evidence (4.2). Stiles’ grounds for
+supposing that there were different conditioning factors for palatalization in
+Old English and Old Frisian are without foundation. Rather there are
+different later outcomes of palatalization in specific dialects (4.4). Further,
+Luick’s idea that there were different outcomes of palatalization due to
+paradigmatic levellingisessentiallyprovedbytheFrisiandatawhich,inturn,
+are confirmed by the English. However, one argument – the development of
+Gmc *au, which allowed for palatalization in Old English but not in Old
+Frisian(4.3)–remainsopentodifferentinterpretations, and thus leaves some
+room open for future debate. Above all, my discussion has shown that after
+so many decades the findings of Siebs, Luick and Campbell still can stand
+a critical test.

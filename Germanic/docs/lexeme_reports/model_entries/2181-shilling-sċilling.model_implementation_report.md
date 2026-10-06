@@ -33,7 +33,7 @@ Checked against `docs/refs.bib`:
 
 - `Campbell1959`
 - `ClarkHall1960`
-- `Hogg1992`
+- `HoggPhonology1992`
 - `Kroonen2013`
 - `Orel2003`
 

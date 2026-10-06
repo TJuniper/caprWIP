@@ -267,7 +267,8 @@ def split_semicolon_field(value: str) -> list[str]:
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
-        return list(csv.DictReader(handle, delimiter="\t"))
+        lines = [line for line in handle if not line.startswith("#")]
+    return list(csv.DictReader(lines, delimiter="\t"))
 
 
 def load_manifest_rows() -> list[dict[str, str]]:

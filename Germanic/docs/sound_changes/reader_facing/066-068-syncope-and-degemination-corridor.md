@@ -5,7 +5,7 @@
 Vowel loss creates the clusters upon which later assimilation and degemination
 operate. Hogg and Ringe and Taylor describe this dependence, while Brunner's
 *netle* 'nettle' beside later *netele* 'nettle' supplies a concrete lexical type
-[@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 264--296, §§6.7.3--6.8.2;
+[@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 264--296, §§6.7.3--6.8.2;
 @SieversBrunner1965, pp. 144--145, §§158--159]. Fulk places this syncope after
 i-umlaut [@Fulk2018, p. 91, §5.6].
 
@@ -44,7 +44,7 @@ define OEDentalAssimilation [
 ```
 
 Loss of \emph{*θ} after \emph{*t} resolves a dental cluster produced by syncope
-[@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 279--296, §§6.7.5, 6.8.2].
+[@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 279--296, §§6.7.5, 6.8.2].
 No witness distinguishes its position: moving dental assimilation across every
 tested neighbor leaves the outputs unchanged. I nevertheless place it after
 syncope, which supplies its input, and before the more general cluster

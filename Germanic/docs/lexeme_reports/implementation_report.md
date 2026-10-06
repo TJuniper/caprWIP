@@ -51,7 +51,7 @@ The pilot reports were written from repo-local sources first:
 - `Germanic/docs/DEV_NOTES.md`
 - `docs/refs.bib`
 
-Where the row notes already cited handbook or dictionary sources, the pilot reports use the repo's actual pandoc-style bibliography keys from `docs/refs.bib`, especially `[@Kroonen2013]`, `[@Orel2003]`, `[@RingeTaylor2014]`, `[@Campbell1959]`, `[@Hogg1992]`, `[@SieversBrunner1965]`, `[@Fulk2018]`, `[@Stiles2012]`, `[@KlugeSeebold2011]`, `[@ClarkHall1960]`, and `[@Pokorny1959]`.
+Where the row notes already cited handbook or dictionary sources, the pilot reports use the repo's actual pandoc-style bibliography keys from `docs/refs.bib`, especially `[@Kroonen2013]`, `[@Orel2003]`, `[@RingeTaylor2014]`, `[@Campbell1959]`, `[@HoggGrammar1992]`, `[@SieversBrunner1965]`, `[@Fulk2018]`, `[@Stiles2012]`, `[@KlugeSeebold2011]`, `[@ClarkHall1960]`, and `[@Pokorny1959]`.
 
 The selective-coverage side is audited by `Germanic/tools/oe_lexeme_report_coverage.py`,
 which reads the live OE TSV and reports which rows require lexeme reports,

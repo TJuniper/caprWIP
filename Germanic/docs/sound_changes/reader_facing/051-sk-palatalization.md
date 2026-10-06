@@ -8,7 +8,7 @@ cluster from plain velars when he remarks that \emph{*sk} is especially prone to
 palatalization and assibilation [@Campbell1959, p. 278, §440]. Hogg gives the
 same change a clearer structural place by treating \emph{*sk} beside the palatalization
 of plain velars and before the later West Saxon diphthongal developments
-[@Hogg1992, pp. 106--107, 111--112]. Ringe and Taylor make the same sequence
+[@HoggPhonology1992, pp. 106--108, 113]. Ringe and Taylor make the same sequence
 explicit when they distinguish the earlier palatalization of velars and \emph{*sk} from
 the later diphthongization after already palatal consonants
 [@RingeTaylor2014, pp. 213--216, §§6.4.1, 6.5.1].

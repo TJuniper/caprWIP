@@ -53,14 +53,14 @@ The dossier therefore asks two questions at once:
 - cautions: Campbell strongly supports i-umlaut as the historical core, but his treatment of palatal influence and West Saxon `ie` is broader and more debated than the neat SC055-SC056 pair suggested by the cards.
 
 ### Hogg 1992
-- source_key: Hogg1992
-- locator: pp. 111--114
+- source_key: HoggPhonology1992
+- locator: pp. 112--115
 - terminology: i-mutation; i-umlaut; palatal diphthongisation
 - short quotation: "we come now to a change which is almost as uncontroversial as it is important"
-- paraphrase: Hogg presents i-mutation as one of the central Old English vowel changes, affecting back vowels, short front vowels, and diphthongs in a widespread and morphologically visible way. His earlier discussion of palatal diphthongization makes the West Saxon right edge real, but explicitly less stable and more controversial than i-mutation itself [@Hogg1992, pp. 104--105, 111--114].
-- conditioning: i-mutation is triggered by following `i` or `j`, fronting back vowels and raising short front vowels and diphthongs; West Saxon diphthongization after palatal consonants affects front stressed vowels such as in `giefan` and `sceap` [@Hogg1992, pp. 104--105, 111--114].
+- paraphrase: Hogg presents i-mutation as one of the central Old English vowel changes, affecting back vowels, short front vowels, and diphthongs in a widespread and morphologically visible way. His earlier discussion of palatal diphthongization makes the West Saxon right edge real, but explicitly less stable and more controversial than i-mutation itself [@HoggPhonology1992, pp. 106, 113--114].
+- conditioning: i-mutation is triggered by following `i` or `j`, fronting back vowels and raising short front vowels and diphthongs; West Saxon diphthongization after palatal consonants affects front stressed vowels such as in `giefan` and `sceap` [@HoggPhonology1992, pp. 106, 113--114].
 - chronology: Hogg's organization is useful for this dossier because palatal diphthongization is treated before the main i-mutation discussion. That supports the claim that the handbook chronology and the CAPR order relation are not identical, even though the cards show a strong local dependency between SC055 and SC056.
-- examples: `bryd`; `trymman`; `bedd`; `ciest`; `wiersa`; `hieran`; `ieldra`; `giefan`; `sceap` [@Hogg1992, pp. 104--105, 111--114].
+- examples: `bryd`; `trymman`; `bedd`; `ciest`; `wiersa`; `hieran`; `ieldra`; `giefan`; `sceap` [@HoggPhonology1992, pp. 106, 113--114].
 - cautions: Hogg supports both sides of the pair, but the balance is uneven: i-mutation is chapter-central, while palatal diphthongization is narrower and partly controversial even within his own discussion.
 
 ### Ringe and Taylor 2014

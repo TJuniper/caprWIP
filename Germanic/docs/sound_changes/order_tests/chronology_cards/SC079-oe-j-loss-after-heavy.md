@@ -1,7 +1,7 @@
 # SC079 OE J Loss After Heavy — chronology evidence card
 
-## Current position
-- current_order: `78`
+## Position at experiment time
+- order_at_experiment_time: `78`
 - rule_name: `OEJLossAfterHeavy`
 - safe computational window: `56-78`
 - status: `first_break_complete`

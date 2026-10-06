@@ -1,7 +1,7 @@
 # SC007 PWGmc Final Or Lowering — chronology evidence card
 
-## Current position
-- current_order: `7`
+## Position at experiment time
+- order_at_experiment_time: `7`
 - rule_name: `PWGmcFinalOrLowering`
 - safe computational window: `4-42` (earlier side boundary-only; later side broad/far)
 - status: `first_break_complete`

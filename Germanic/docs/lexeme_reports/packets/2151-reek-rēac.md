@@ -1007,7 +1007,7 @@ _None_
 
 | Key | Why it was selected |
 | :--- | :--- |
-| Hogg1992 | author + year mention (Hogg 1992) |
+| HoggPhonology1992 | author + year mention (Hogg 1992) |
 | Kroonen2013 | default Proto-Germanic etymology key for Kroonen |
 | SieversBrunner1965 | single available key for Sievers |
 | Luick1914 | single available key for Luick |

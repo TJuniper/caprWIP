@@ -1,7 +1,7 @@
 # SC051 OE Sk Palatalization — chronology evidence card
 
-## Current position
-- current_order: `51`
+## Position at experiment time
+- order_at_experiment_time: `51`
 - rule_name: `OESkPalatalization`
 - safe computational window: `47-55`
 - status: `first_break_complete`

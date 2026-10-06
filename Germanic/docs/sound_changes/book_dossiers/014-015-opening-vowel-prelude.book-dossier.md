@@ -59,7 +59,7 @@ boundary.
 SC015 is better anchored. Campbell states that unaccented front vowels merged
 in Old English [@Campbell1959, §369], and Hogg likewise argues that by about
 700 all unstressed front vowels had become `/e/` apart from a few protected
-cases [@Hogg1992, p. 117]. The `world` material then makes the rule more
+cases [@HoggPhonology1992, p. 120]. The `world` material then makes the rule more
 concrete: Campbell's `weorold` / `weoruld` variation and Ringe and Taylor's
 `*weraldu > *weruld > weorold ~ worold` derivation show that the SC015 witness
 belongs to a real historical problem of unstable medial vowels

@@ -1,0 +1,697 @@
+Repansek, Luka. "Remarks on the Development of the 'Anglo-Frisian'
+Vowel System." NOWELE 64/65 (2012), 77-90.
+doi:10.1075/nowele.64-65.04rep
+
+SOURCE AND METHOD
+-----------------
+Born-digital PDF, extracted with `pdftotext -layout` (poppler) and then
+REPAIRED (see below). No OCR was involved, so no OCR caveat applies: the
+characters below are the publisher's own, not a recognition guess. The PDF
+itself stays untracked under docs/references/ per .gitignore; this text is
+the committed, citable representation.
+
+ENCODING REPAIR
+---------------
+The embedded text layer was NOT reliable as extracted. The John Benjamins
+house font emits a combining macron as a trailing U+00A4 CURRENCY SIGN, so
+every long vowel in the raw extract came out as e.g. "o¤" for "ō". In an
+article about vowel history that is a loss of exactly the content-bearing
+information, so it was repaired before committing.
+
+The repair is deterministic and context-free — a fixed one-to-one glyph
+substitution followed by NFC composition — not a guess or a reconstruction:
+
+  U+00A4 after a vowel   ->  combining macron U+0304 on that vowel
+
+It was verified against forms whose value is fixed by the surrounding prose,
+so the check is independent of the substitution itself: `ǣ`, `ō`, `[ʌ]` (printed with a wedge glyph, read independently as
+`√` by pdftotext and `^` by Vision — two different renderings of the same
+wedge, agreeing on the shape).
+
+
+PAGE NUMBERING
+--------------
+The `=== page NNN ===` markers below are the PRINTED page numbers of the
+publication, not PDF sheet numbers, so a citation taken from this file can
+be given directly as a page reference. The offset is constant: printed
+page = one-based PDF sheet + 76. It was verified mechanically: the printed
+folio appears in the running head or foot of 14 of the 14 sheets,
+with no exceptions.
+Text never crosses a printed page boundary.
+
+Printed pages 77-90 (14 sheets).
+
+--------------------------------------------------------------------------
+
+=== page 77 ===
+          the development of the anglo-frisian vowel system
+
+
+
+                            Luka Repanšek
+
+         REMARKS ON THE DEVELOPMENT OF
+          'ANGLO-FRISIAN' VOWEL SYSTEM
+
+
+
+The remarkable degree of similarity between the phonological devel-
+opments that characterize Old Frisian and Old English has long been
+recognized as indirect/secondary rather than as the result of a period
+of common development undergone by the respective linguistic sys-
+tems. The older view, which put forward the idea of the existence of
+an 'Anglo-Frisian' mother dialect within West Germanic, from which
+Old Frisian and Old English supposedly branched out, has convinc-
+ingly been contested by numerous authors.1 In recent discussions, a
+discernible trend towards minimizing the number of similarities of
+indisputably common provenance can be followed. The most effective
+methods adopted to achieve this minimizaton involve a comparison of
+the relative chronologies arrived at by internal reconstruction and a
+reassessment of the conditioned sound changes according to typology
+and the probability of universal occurrence. Regarding the first method,
+no phonological development transgressing the line that terminates
+the exactly parallel chronological ordering of the respective sound
+changes can be said to be concomitant (Stiles 1995:181). In essence,
+the chronological criterion eliminates change Y from the list of parallel
+developments if in language A change X is older than Y; the reverse is
+true of language B. With respect to typology, it must be borne in mind
+that the typological universality of a sound change in itself cannot be
+a stringent and objective criterion in deciding whether we are dealing
+with a common or parallel development. Rather, an additional range
+of eligibility criteria for elimination of analogues should be applied,
+such as:
+
+–    Sporadicalness (vs regularity), which encompasses diffuse or ir-
+     regular occurrence of a feature within the linguistic system itself
+     and/or its limitation to a smaller linguistic area;
+–    Differences in the conditioning environment and/or the input;
+–    Lack of occurrence in the same set of lexemes;2
+
+
+                                   77
+
+=== page 78 ===
+                                          š
+                              luka repan ek
+
+
+
+–     Absence of dialectal uniformity;3
+–     Occurrence in non-contiguous linguistic areas.4
+
+The aim of this discussion is not to restate the obvious by enumerating
+the most commonly adduced similarities between the developments
+characterizing the phonological systems of Old English and Old Frisian;
+rather it attempts to track down the source of these similarities, as it
+uncovers the genesis of the vowel systems of both languages. Three
+crucial points on the relative chronological ordering of the main de-
+velopments must be restated, however: (1) The realization of PGmc.
+*ē1 as *ǣ (e.g. OE sċēap < *skǣp, OFr. skēp < PGmc. *skē1pan 'sheep')
+can safely be assumed to have occurred before the monophthongiza-
+tion product /ā/ arose (e.g. OE stān), since the absence of *ā in the
+inherited long vowel system is partly responsible for the developments
+giving rise to the former sound change (additional support is provided
+by Frisian, where the ǣ-product of monophthongization of *ai must
+have occurred after PGmc. *ē1 > *ǣ, because the former /æ̅ / fails to
+cause palatalization (e.g. *gēr 'spear', kēi 'key')). (2) On the evidence of
+Old Frisian, it needs to be concluded that the processes affecting *ă <
+PGmc. *ă and the *ă in biphonemic sequences were unconnected, i.e.
+fronting of short *a did not affect the a-phoneme in back diphthongs.5
+If the reverse were the case, it would be impossible for us to explain the
+lack of palatalization before Proto-Frisian /æ̅ / < *ai. (3) Developments
+which, chronologically, must occur after fronting of short *a display
+divergent behaviour, even within Old English itself. This last point sets
+fronting of *a > *æ as the upper most boundary beyond which there is
+no possibility of shared developments. If differences in the extent to
+which *a was fronted are anything to go by,6 then the terminus may
+be lowered and set immediately after *ē1 > *ǣ, but, importantly, there
+is no methodology available that would allow for further reduction in
+the set of possible common developments. Consequently, the following
+five call for consideration:
+
+(1)   Short *a, *i, *u followed by a sequence of a nasal and a voiceless
+      dental sibilant *s or a homorganic voiceless fricative *f, *þ, *≈
+      yield long /ō/, /ī/, /ū/ followed by /s/, /f/, /þ/, /≈/;
+(2)   Short *a in these sequences comes out consistently as /ō/ (e.g.
+      PGmc. *gans- 'goose' > OE, OFr. gōs);
+
+
+                                    78
+
+=== page 79 ===
+           the development of the anglo-frisian vowel system
+
+
+
+(3)   PGmc. *ē1 appears as /æ̅ / ~ /ē/;
+(4)   PGmc. *ē1 before a nasal comes out as /ō/ (e.g. PWGmc. *mē1nō >
+       OE, OFr. mōna);
+(5)   Short *a before a nasal develops a rounded ([ɒ]), otherwise a
+      fronted (/æ/ ~ /e/) reflex (e.g. OE, OFr. lond ~ land vs. OE dæġ,
+      OFr. dei ).
+
+However, by employing the method of reconstruction, we are justified
+in narrowing down the selection to no more than two incontestable
+cases, which as such can legitimately be considered to be common in-
+novations. They are:
+
+(1) Rule-extension in the case of Pan-Germanic V7 >
+
+
+
+                  [ ]
+                   - voice
+[+ vowel
+ + long  ]   /___N + fric
+                   + velar
+                               to cases
+
+
+where any homorganic voiceless fricative or *s followed the nasal;8
+
+(2) Allophonic split of *ē1 to *[ē1] and *[ē1N], i.e. depending on its posi-
+tion before [± nasal].
+
+We must assume that the increase in consonantal segments constitut-
+ing the right-side condition occurred when the original phonological
+development (involving cases with PGmc. *≈ only) was still operative,
+since every *a, *i and *u in front of the new clusters (i.e. *mf, *ns, *nþ)
+was included in the process. If we designate the linguistic territory
+demarcated by this isogloss North-Sea Germanic or Ingvaeonic, it may
+be dangerous to apply it in its strictly geographical sense. However,
+the exact position of the innovatory centre within the Germanic dialect
+continuum is irrelevant to the following discussion. What remains
+is the straightforward fact that at a later stage this dialectal base
+yielded the ancestors of Old English, Old Frisian, Old Saxon and Old
+Low Franconian and that North Germanic (or its ancestor), in terms
+of dialect geography, must have had a marginal position in relation to
+Ingvaeonic as the innovation reached it only in its already somewhat
+reduced/weakened form (e.g. Old Icelandic gás 'goose', fífl 'a monster'
+but tǫnn 'tooth' vs. OE tōþ, OFr. tōth). With regard to the second areal
+
+
+                                    79
+
+=== page 80 ===
+                              luka repan ek    š
+
+feature (viz. special treatment of *ē1 before a nasal), its spread seems
+to have been relatively limited as the impact of its presence in the
+vowel system is with some greater clarity discernible only in English
+and Frisian. The most natural chronological ordering of these devel-
+opments must be the following: after the long nasalized *ā < *aNC,
+C = {*≈, *f, *s, *þ} was phonemicized due to loss of the conditioning
+environment, it merged with the allophone of *ē1 in the position before
+a nasal, causing *ē1 to undergo a phonological split. After the loss of
+nasalization, the resulting phoneme must have been confined to the
+low back area, most probably close to /ɒ̄/, since it had the potential of
+being raised to /ɔ̄/ and eventually to /ō/ (both later stages are captured
+in the manuscripts).9 Importantly, the emergence of a new open back
+vowel forced /ē1/ before [nasal] to restrict its phonological territory
+and fixed it firmly in the low front position10 in order to provide a sym-
+metrically structured long vowel system. It can thus be convincingly
+argued that it was exactly the allophonic split of *ē1, an innovation
+that originated in the dialect from which the ancestors of Old English
+and Old Frisian emerged, which was more or less indirectly respon-
+sible for *ē1 (not before a nasal) to develop a front timbre, i.e. /ǣ/.11 In
+the rest of West Germanic and North Germanic, where the consistent
+outcome of *ē1 is /ā/, the absence of a low (rounded) back vowel must
+then equally likely be held responsible for the fixation of *ē1 in the open
+central position, thus coalescing it with (previously phonemicized and
+already denasalized12) /ā/ < *ā < *aŋχ in order to fill the gap inherited
+from Proto-Germanic (PIE *ā > PGmc. *ō !). Gothic, on the other hand,
+raised and coalesced *ē1 with *ē2 with the same effect (see Fig. 1). On
+the evidence of such treatment elsewhere, the allophonic split of *ē1
+must have been almost simultaneous with the entrance of *ā into the
+long vowel system.
+
+
+                        ī                          ū
+                        ē                          ō
+                                ē1
+                                           ā
+
+
+                                     Fig. 1
+
+                                      80
+
+=== page 81 ===
+          the development of the anglo-frisian vowel system
+
+
+
+With regard to the accented short vowel system, it is probable that
+the allophonic split undergone by the inherited short *a vowel and
+*ē1 came about at roughly the same time. This extrapolation forces
+us to incorporate the early development in the *a vowel as a part
+of the innovatory change that applied to both open vowels, i.e. *ē1
+(at that time the only existing long low vowel) and *a, in front of
+a following nasal. However, in the case of short *a, its allophonic
+realization [ɒ]13 failed to meet the conditions for phonemicization.
+Fronting of *a must in turn be seen as the result of imitation, since
+through this secondarily achieved split, the short vowel system came
+to reflect fully the developments that had taken place in its long
+counterpart.14 Its secondary nature is proved by the fact that front-
+ing of *a before [+ nasal] was not unconditional as the contrast was
+neutralized (to varying extents) in a distinctly velar environment
+and/or if a back vowel followed in the next syllable in favour of the
+non-front variant.
+  These developments are neatly reflected in the impetus behind the
+creation of the new Anglo-Frisian ) rune (ōs), which was doubtlessly
+invented because a new phoneme, viz. the merger product of *ā and
+*ē1N, had entered the vowel inventory, cf. RunFr. C)bu 'a comb', prob-
+ably for [kɒmbu] < *kambaz. However, since the majority of cases with
+old *a remained unaffected by the change, the acrophonic principle
+was not followed (in the reverse case, the ōs rune would remain to be
+written with the old rune-character a) and the old *ansuz rune was
+renamed, apparently to *ask(az), which, after the split undergone by
+the short inherited a-vowel to match the developments in the long
+vowel system, rendered *æsk(az), the new æ-value being attached to
+the old a (æsc) rune. These modifications in turn eventually required
+the making of a new rune with a-value, viz. 0 (*ak-), i.e. the later ā c
+rune (Stiles 1995:185-86).
+  As argued above, the dialects that later converged to form Primitive
+English must have left the continent after this point in the phonological
+developments at the latest; but, importantly, the processes of brighten-
+ing15 and fronting could equally well have taken place independently
+(after or even before the exodus), seeing that they were systemically
+conditioned. Brightening therefore cannot be a reliable terminus a quo
+for Anglo-Saxon migration.
+  The vowel systems of Proto-Frisian and Primitive English16 were at
+
+
+                                   81
+
+=== page 82 ===
+                             luka repan ekš
+
+this stage identical as regards the vowel inventory and very similar
+in inner systemic pressures (Fig. 2).
+
+
+
+                        ī    i                u     ū
+                        ē    e                o     ō
+
+                        ǣ    æ                [ɒ]   ɒ̄
+                                    a
+
+                                 Fig. 2
+
+All sound changes following the emergence of [ē1N], which clearly ob-
+structed the establishment of an equilibrium, were the result of the
+reaction of the vowel system to the haphazard state of affairs and must
+therefore be seen as directed by the tendency to restore symmetry.
+Even at this stage, the recurrent need to provide a long counterpart
+to short /a/ sought the most economic way to fill the gap, which was to
+utilize the available raw material. By monophthongizing the inherited
+diphthong *ai, Primitive English restored complete symmetry between
+the long and the short vowel system. Furthermore, the diphthong *au
+was incorporated into the series of front to back diphthongs /iu/ < PGmc.
+*iṷ and /eu/ < PGmc. *eṷ in order to provide the full set of counterparts
+for the front and back long vowel series (Krupatkin 1970:61, Hofmann
+1995:27). It is therefore not without serious difficulty if we want to
+connect the developments that affected the first element of the bipho-
+nemic sequence *au (i.e. > PrimOE /æu/ > /ǣɑ/) with fronting of the
+inherited short *a. If the reverse were the case, we would also expect
+the *a element in *ai to have become fronted, which obviously did not
+happen. The only solution to this problem is to propose that *ai was
+monophthongized before the fronting of *a (cf. Stiles 1995:199). This,
+however, seems the less likely scenario, considering the fact that it
+was probably the clash between the already restored symmetry in the
+front and back vowel series and lack of symmetry in the low central
+vowel that provided the impetus behind the monophthongization proc-
+ess in the first place. Nor is this view supported by the above proposed
+genesis of the fuþork-row.
+
+                                   82
+
+=== page 83 ===
+          the development of the anglo-frisian vowel system
+
+
+
+   As regards the fact that in Frisian both back diphthongs were
+monophthongized, the view adhered to here is that Frisian was caught
+up in a wider wave of monophthongizations of *ai and *au, which
+also affected Old Saxon and Old Low Franconian (cf. Hofmann 1995).
+However, the monophthongization products in Frisian do not match
+those in OS and OLF. This is easily explained if we consider the fact
+that in OS and OLF the vowel systems were already symmetrical
+from the start, which renders the monophthongization process un-
+necessary, phonologically speaking. The existing systems reacted to
+such an unmotivated sound change accordingly: in OS and OLF the
+new monophthongs were utilized to fill the available gaps in the mid/
+low front-back series respectively, whereas the systemic pressure in
+Frisian must have been strong enough to direct the sound change to
+its advantage. Monophthongization can therefore be understood as a
+welcome process, which the Proto-Frisian long vowel system was able
+to use in the most economic manner possible, i.e. to provide for the
+missing /ā/ vowel in the long vowel series. Crucial for further significant
+changes affecting the Proto-Frisian long vowel system, however, was
+the twofold outcome of monophthongization of *ai (i.e. /ǣ/ ~ /ā/), which
+alternates without any so far convincingly established regularity17
+(stēn 'stone', ēre 'honour', rāp 'rope', tāne 'toe' etc.). Such unpredictable
+patterns in occurrence of one or the other outcome of a single sound
+change are typical of transition areas.18 It is very likely, indeed, that
+at the time of the operation of the process, the Frisian linguistic ter-
+ritory was intersected by two competing monophthongization waves,
+so the more natural outcome of the monophthongization of *ai, viz.
+/ǣ/, disturbed the realization of the desired, i.e. internally motivated
+result. The way for /ǣ/ to penetrate the system could have been paved
+by the simultaneous entrance of /ǣ/ from i-umlauted *ai into the long
+vowel inventory.19 There was no such model in the case of *au, which
+was then free to yield a single outcome.20 It should be borne in mind,
+however, that isoglosses seldom run in a parallel fashion, so in the
+case of *au the course of the monophthongization wave might not have
+matched that of *ai.21
+   For the Proto-Frisian period immediately preceding internal diver-
+gence, the following four-level long vowel system can be reconstructed
+(Fig. 3). The inventory (not the sources in their entirety, however)
+corresponds to what must also have been the Primitive English state
+
+
+                                     83
+
+=== page 84 ===
+                             luka repan ek  š
+
+of affairs before divergence (this does not apply to the umlauted vowel
+series, of course).
+
+
+                    ī                      ȳ < *ū i       ū
+                    ē                      ø < *ō i      ō
+                                           œ̄ < *aui
+                    ǣ < *ē1, *ai, *aii     ā < *au, *ai   ɒ
+
+
+                                  Fig. 3
+
+
+The addition of the new phoneme(s) to the long vowel inventory of
+English and Frisian, respectively, resulted in an underdifferentiated
+system with overcrowding in the open non-front series in English and
+on both sides of the open series in Frisian. This quite naturally trig-
+gered off push-chain movements, which raised /ɒ/ to /ō/ and /ǣ/ to /ē/,
+both through the intermediate stages of /ɔ/ and /ɛ̄/,22 and eventually
+coalesced them with the old /ō/ < *ō 23 and /ē/ < *ē2 respectively. The
+latter development, however, is exclusively Frisian and it appears to
+postdate the Proto-Frisian period on the evidence of Old Insular North
+Frisian, which coalesced the old and the new /ǣ/ (< *ē1, *ai) as opposed
+to West and East Frisian, where the way for the new low front vowel
+to step in was cleared24 (Hofmann 1964:172,185). Naturally, this dif-
+ference calls for a post Proto-Frisian date for monophthongization,
+because the onset of chain-induced movements must be simultaneous
+with the entrance of the trigger into the system. However, such a chain
+of events does not tally with the lexical distribution of the /ā/ and /ǣ/
+reflexes (< *ai ) in Insular North Frisian, which matches the state of
+affairs in West and East Frisian and secures the Proto-Frisian date
+for monophthongization. This contradiction is easily resolved if we
+ascribe the differences to early divergence within the Frisian linguis-
+tic territory, which at the time was still more or less homogeneous.
+Supra-dialectal areal features (in this case Pan- or Proto-Frisian) can
+be concurrent with early diversification.
+   If the above view of the course of phonological developments is cor-
+rect, it is fully impossible to connect close-mid front Anglian /ē/ < *ē1
+with the developments that took place in Frisian, because at this stage
+
+                                    84
+
+=== page 85 ===
+          the development of the anglo-frisian vowel system
+
+
+
+in the development of the respective vowel systems the circumstances
+already differed significantly. Moreover, both linguistic systems have
+already started to diverge internally (cf. also late Kentish raising of
+/ǣ/ > /ē/), so that it would be most reasonable to explain the develop-
+ments in Anglian as the result of a solidarity chain.
+
+
+Conclusion
+
+The aim of this discussion is to expose the set of phenomena that shaped
+the vowel systems of Proto-Frisian and Primitive English to an external
+reconstruction and strip it of all developments that could be rendered
+redundant in order to establish the creation of an identical state of
+affairs. Early areal features that marked the ancestral dialectal base
+of both linguistic systems must be efficiently reduced to no more than
+two innovations. These two peculiarities, however, were sufficiently
+cataclysmic to set off a wave of structurally motivated sound changes
+directed by the principle of phonological symmetry. Arguably, the
+course of all developments subsequent to the split undergone by the
+inherited *ē1 vowel was governed by exactly the same inner-systemic
+pressure in both linguistic systems, which renders any contact between
+Frisian and English after this point unnecessary.
+
+
+Homec, Bolkova ulica 40
+SI-1235 Radomlje
+
+
+
+
+Notes
+
+1. Among these should be mentioned Hofmann (1964, 1995), Markey (1976),
+   Nielsen (1981, 2001), Stiles (1995), Fulk (1998), and Kortlandt (2008).
+2. The occurrence of a particular sound change in the exact same set of lexe
+   mes can, conversely, be a very good indicator of shared development.
+3. Importantly, this can become a significant criterion only if dialectal
+   distinctions are a result of divergence.
+4. The latter point is problematic from the point of view of dialect geography;
+   it will carry little weight in the case of dialect continua, for example.
+
+
+                                      85
+
+=== page 86 ===
+                                luka repan ekš
+
+ 5. As will become clear from the following discussion, there is every reason
+    to suppose that the same applies to Old English. The development of *au
+    to /æ̅ɑ/ in Old English offers no convincing vindication against such a
+    view (cf. Krupatkin 1970:61).
+ 6. The environment allowing for fronting to take place is not identical in
+    OFr. and OE, nor within OE itself. In OFr., it fails in *___rC sequen-
+    ces, before covered *l and *χ, and if a back vowel follows in the next
+    syllable. In Anglian, it fails before * and velarized *l (only North
+    umbrian) and probably if a back vowel follows (although such cases
+    may be due to restoration) (Hogg 1992:80, 92). In West Saxon, however,
+    it only fails before * (cf. OFr. ald, ONth. ald, WS eald ; OFr. slā, ONth.
+    slā (both from *slahan), WS slēan). Where fronting is carried through,
+    the palatal vowel can later become subject to velarization through the
+    processes of restoration and retraction or is protected from the influ-
+    ence of velar(ized) environment by vowel insertion in the process of
+    breaking.
+ 7. There is no need to specify the vowels involved as the occurence of *i
+    and *e was neutralized before a nasal in Proto-Germanic in favour of
+    *i, whereas in the case of *u the operation of the vowel harmony prin-
+    ciple was inhibited by a covered nasal (cf. OE tunge < *tuŋgō ) (Krahe
+    1966:§36).
+ 8. Typologically, such developments before voiceless spirants are not isolat
+    ed. A similar rule applied in Italic, for example, cf. Latin quīntus [k ītus]
+                                                                           
+
+                        
+    < *k iŋχtos < *k enk -to-s, cōnsul, īnferī etc. In Osco-Umbrian, the nasal
+    is regularly lost, cf. Umbrian [sātam] < *sanχtam < *sanktam (Meiser
+    2006:78).
+ 9. I am not convinced by the spelling in OE samcucu (OS sāmquik)
+    < *sē1mi- by early shortening (Hogg 1992:61-2, Campbell 1959:501) as an
+    argument against a rounded quality of this vowel, since we get the same
+    spelling variant for short [ɒ] in both OE and OFr. as well. Nevertheless,
+    it is possible that the vowel was /ɑ̄/ rather than /ɒ̄/, which, however, has
+    no fundamental implications for the following model as only height and
+    backness seem to be the relevant factors. If rounding was indeed involved,
+    which is very likely, it must have been concomitant to nasalization or
+    have been followed by it (by compensation for feature loss), otherwise
+    the resulting vowels would be nasalized as well and as such would not
+    be able to participate in the developments that further affected the long
+    and short vowel systems.
+10. This view has already been put forward in Hogg 1992:62.
+11. The original /ǣ/ vowel of this source is preserved intact in West
+    Saxon (and early Kentish) and Old Insular North Frisian (Århammar
+    2001:752-53).
+12. Cf. Krupatkin (1970:53) on the view that these linguistic systems were
+
+
+                                       86
+
+=== page 87 ===
+           the development of the anglo-frisian vowel system
+
+
+
+    more in need of the fifth element in the long vowel system than they
+    were in need of providing correlations for the new nasalized vowels.
+13. Spelled variantly as a or o in both Old English and Old Frisian manu
+    scripts.
+14. Secondary nature of the origin of /æ/ has already been pointed out several
+    times in the literature (cf. Krupatkin 1970:55, Nielsen 2001:515).
+15. If understood in the correct context (i.e. the phonemic stabilization
+    of PGmc. *ē1 in the low front position), this rather useful and conven-
+    tional term is not necessarily a misnomer and can still be efficiently
+    used.
+16. As already indicated above, a marked distinction must be maintained in
+    reference to the early stages in the formation of Old English and (Old)
+    Frisian, since in the case of Frisian we are dealing with a divergent
+    linguistic system, whereas Primitive English was formed through con-
+    vergence. This fundamental difference is supposed to be reflected in the
+    distinction between the labels.
+17. If de Vaan's (2011) recent interpretation of the data is correct, we are
+    dealing with a strictly predictable distribution of the monophthongization
+    reflexes, in which case only one is the regular product of monophthongi-
+    zation while the other is conditioned by phonological enivornment. The
+    problem with this view is that if /ǣ/ were the unconditioned outcome of
+    monophthongization of *ai, it is difficult to see the impetus behind such a
+    development, whereas in case of *ai > /ā/, we are forced to separate both
+    monophthongization processes occurring in Proto-Frisian on grounds of
+    relative chronology.
+18. A case in point is the South-West Kras (Karst) dialect (Miren, Slovenia),
+    which displays a twofold outcome of *ę̄ (Proto-Slavic *ę ) in what appears
+    to be a completely irregular distribution: Proto-Slavic *pęta̍ > *pę̄ta >
+    Miren pa…ta 'heel', *ь ̏mę> *imę̄ > imi…\ 'name', sъrę̋t'a > *srę̄ča > sri…\c‡a
+    'luck', *sъrę̋t'ati > *srę̄čati > sra…c‡\t 'meet', *pę̑tь > *pę̄t > pi…\t 'five',
+    *pętь̍kъ > *pę̄t\k > pa…tek 'Friday', *dȅęntь > *devę̄t > devi…\t 'nine',
+    *dę̋tel'a > *d’ę̄tel'a > da…tel'a 'clover' etc. (Pavlin 1981). Apparently, free
+    distribution of /a…/ and /i…\/ < *ie for *ę̄ has been lexicalized. This situation
+    is explicable only in terms of dialect geography: at the time of denasali-
+    zation of *ę̄, two waves must have intersected the area, each responding
+    to the propensity of *ę̄ to denasalize in its own manner (*ę̄ > /a…/ and *ę̄
+    > /ie/). Indeed, the East Kras dialects display a consistent diphthongal
+    reflex, whereas the Brda dialects located north to the South-West Kras
+    dialect, have /a…/ throughout (Šekli 2009:301-2).
+19. Developments which yielded OWFr. bēm (ModWFr. beam 'tree') < Proto-
+    Frisian *bām and OEFr. *bɔm (Saterland boom 'id.') are of much later
+    date (see below) as they include each and every kind of long /ā/, not just
+    /ā/ < *au.
+
+
+                                         87
+
+=== page 88 ===
+                                  luka repan ekš
+
+20. Of course, this scenario presupposes the existence of a rounded open-mid
+    front vowel as the result of i-umlaut of *au in Frisian prior to unrounding
+    to /ē/ (*baugijan > *bǣγ'an > bēia 'bend' = OE bīeġan), exactly parallel
+    to nonWS (cf. bēcnan 'beckon' < *bauknijan). As already pointed out by
+    Krupatkin (1970:61), the creation of WS /ie̅/ is again systemically moti-
+    vated due to the coalescence of /io̅/ and /eo̅/, which created a gap in the
+    front-to-back series of diphthongs.
+21. Denasalization of Proto-Slavic *ǭ, for example, parallel to that of *ę̄ (cf.
+    n. 18), is nearly perpendicular to the former isogloss, so the East Kras
+    dialects have /ie/ < *ę̄ but monophthongal /uː/ < *ǭ, while West Kras
+    dialects have /iːə/ (< *ie) ~ /aː/ and /uːə/ (< *uo) in the South and /iːə/
+    (< *ie), /uːə/ (< *uo) in the centre.
+22. At the time of i-umalut, Primitive English /ɒ̄/ was caught half-way to /ō/,
+    which can be demonstrated by the æ-spelling in bræm(b)el indicating an
+    /ǣ/ (< i-umlauted /ɔ/) rather than an /ø / (< i-umlauted /ō/) vowel (Hogg
+    1992:126-27).
+23. After the completion of this process, symmetry was disrupted again,
+    which called for supplementary readjustments. In Insular North and in
+    Ems East Frisian, symmetry was restored by rounding the /ā/ vowel to
+    provide a symmetrically opposed pair to its front counterpart (Årham-
+    mar 2001:748, Versloot 2001:768-69), which matches the developments
+    in Middle English dialects South of the Humber, with the important
+    difference, however, that the long /ā/ < short OE /a/ by lengthening was
+    not involved in the change and must therefore be seen as chronologically
+    later. However, it was a welcome addition to the system suddenly devoid
+    of the long /ā/ vowel.
+    In West Frisian, on the other hand, new long counterparts of the rounded
+    open back vowel and /a/ by later lengthening caused the old /ā/ < *ai, *au
+    to front and the old open front vowel to rise in a two-part push chain
+    (Hoekstra 2001:722). An analogous development is found in ME dialects
+    North of the Humber; however, in this case the new long /ā/ did not oc-
+    cupy the open central position but was treated as old /ā/ (MEG §51). The
+    prevailing difference between the two systems is, of course, that at the
+    time of these changes Anglian possessed no open front vowel, so that
+    fronting of /ā/ in this dialect can only be convincingly accounted for if we
+    assume that after the reappearance of a rounded open back vowel (by
+    lengthening), /ā/ was fronted to provide its counterpart.
+    Weser East Frisian coalesced /ǣ/ with /ā/ < *ē2, *ē1 (Versloot 2001:737),
+    hereby creating a three-level vowel system.
+24. I.e. /ǣ/ (< *ē1 ) ⇒ /ē/; the old /ē/ < *ē2 can either stay in position to coalesce
+    with it (as in Old West Frisian and the greater part of Old Insular North
+    Frisian), or react by complementing the push chain, i.e. /ē/ ⇒ /ī/ (as is the
+    case in Riustring Frisian).
+
+
+                                         88
+
+=== page 89 ===
+           the development of the anglo-frisian vowel system
+
+
+
+Bibliography
+
+Århammar, N. 2001. 'Grundzüge nordfriesischer Sprachgeschichte'. In:
+    Munske et al. (eds.). Pp. 744-65.
+Bremmer, R.H., Jr. 2009. An Introduction to Old Frisian. Amsterdam/Phila-
+    delphia: John Benjamins Publishing Company.
+Fulk, R.D. 1998. 'The Chronology of Anglo-Frisian Sound Changes'. In: R.H.
+    Bremmer, Jr., T.S.D. Johnston & Oe. Vries (eds.), Approaches to Old
+    Frisian Philology. Amsterdamer Beiträge zur älteren Germanistik 49.
+    Amsterdam/Atlanta/GA and Groningen: Rodopi. Pp. 139-54.
+de Vaan, M. 2011. 'West-Germanic *ai in Frisian'. In: G. Kroonen, E. Lang-
+    broek, H. Perridon, A. Roeleveld (eds.), Thi timit lof. Festschrift für Arend
+    Quak zum 65. Geburtstag. Amsterdamer Beiträge zur älteren Germanistik
+    67. Amsterdam, New York: Rodopi. Pp. 301-14.
+Hofmann, D. 1964. '''Germanisch'' ē2 im Friesischen'. In: W. Foerste & K.H.
+    Borck (eds.), Festschrift für Jost Trier zum 70. Geburtstag. Köln/Graz:
+    Böhlau Verlag. Pp. 160-85.
+Hofmann, D. 1995. 'Zur Monophthongierung von germanisch ai und au im
+    Altfriesischen und in seinen Nachbarsprachen'. In: J.Cajot, L.Kremer
+    & H. Niebaum (eds.), Lingua Theodisca. Beiträge zur Sprach- und Lit-
+    eraturwissenschaft. Münster/Hamburg. Pp. 23-35.
+Hogg, R. 1992. A Grammar of Old English I: Phonology. Oxford: Black-
+    well.
+Hoekstra, J.F. 2001. 'An Outline History of West Frisian'. In: Munske et al.
+    (eds.). Pp 722-34.
+Kortlandt, F. 2008. 'Anglo-Frisian'. Nowele 54/55:265-78.
+Krahe, H. 1966. Germanische Sprachwissenschaft I. Einleitung und Laut
+    lehre. Berlin: Walter de Gruyter.
+Krupatkin, Y.B. 1970. 'From Germanic to English and Frisian'. Us Wurk
+    19:49-71.
+Markey, T.L. 1976. Germanic Dialect Grouping and the Position of Ingvæonic.
+    Innsbruck: Innsbrucker Beiträge zur Sprachwissenschaft.
+MEG = Wright, J. & Wright, E.M. 1928. An Elementary Middle English
+    Grammar (2nd edition). Oxford: Oxford University Press.
+Meiser, G. 2006. Historische Laut und Formenlehre der lateinischen Sprache
+    (2nd edition). Darmstadt: Wissenschaftliche Buchgesellschaft.
+Munske, H.H. et al., eds. 2001. = Handbook of Frisian Studies/Handbuch
+    des Friesischen. Tübingen: Max Niemeyer Verlag.
+Nielsen, H.F. 1981. Old English and the Continental Germanic Languages.
+    A Survey of Morphological and Phonological Interrelations. Innsbruck:
+    Innsbrucker Beiträge zur Sprachwissenschaft.
+Nielsen, H.F. 2001. 'Frisian and the Grouping of the Older Germanic
+    Languages'. In: Munske et al. (eds.). Pp. 512-23.
+
+
+                                       89
+
+=== page 90 ===
+                                           š
+                               luka repan ek
+
+
+
+Pavlin, M. 1981. Govor kraja Miren. Unpublished BA thesis. University of
+    Ljubljana: Ljubljana.
+Šekli, M. 2009. 'Merila določanja mej med slovenskimi narečji in podnarečji'.
+    In: Slovenska narečja med sistemom in rabo = Obdobja 26:291-318.
+Stiles, P.V. 1995. 'Remarks on the 'Anglo-Frisian' Thesis'. In: V.F. Faltings,
+    A.G.H. Walker & O. Wilts (eds.), Friesische Studien II. Odense: Univer-
+    sity Press. Pp. 177-220.
+Versloot, A.P. 2001. 'Grundzüge ostfriesischer Sprachgeschichte'. In: Munske
+    et al. (eds.). Pp. 734-40.
+
+
+
+
+                                     90

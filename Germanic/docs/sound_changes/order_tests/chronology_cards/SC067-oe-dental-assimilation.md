@@ -1,7 +1,7 @@
 # SC067 OE Dental Assimilation — chronology evidence card
 
-## Current position
-- current_order: `67`
+## Position at experiment time
+- order_at_experiment_time: `67`
 - rule_name: `OEDentalAssimilation`
 - safe computational window: `13-86` (earlier side blocked; later side runner-bounded)
 - status: `first_break_complete`

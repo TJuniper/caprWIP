@@ -1,7 +1,7 @@
 # SC048 OE Secondary Nasalization — chronology evidence card
 
-## Current position
-- current_order: `48`
+## Position at experiment time
+- order_at_experiment_time: `48`
 - rule_name: `OESecondaryNasalization`
 - safe computational window: `48-58`
 - status: `first_break_complete`

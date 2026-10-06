@@ -13,14 +13,13 @@ BE011	SC012	PWGmc L Th Voicing	Proto-West Germanic	12	yes	historical_sound_chang
 BE012	SC013	PWGmc Dental Hardening	Proto-West Germanic	13	yes	historical_sound_change	4	lade, needle, find, cud	low		low
 BE013	SC014	NWGmc Unstressed Ai Monophthongization	Northwest Germanic	14	yes	historical_sound_change	0		low		low
 BE014	SC015	NWGmc I Lowering	Northwest Germanic	15	yes	historical_sound_change	4	nest, wether, world, meed	low		low
-BE015	SC016	OE Ws Palatal Glide	Old English	16	yes	historical_sound_change	2	yoke, youth	low	The rule is labeled OE/West Saxon but is checkpointed before the main Old English section break in the sandbox.	high
+BE015	SC016	OE Ws Palatal Glide	Old English	91	yes	historical_sound_change	2	yoke, youth	low	Repaired (sc016-017-adjudication.md): executes in the OE written-surface block after OldEnglishOrthography as the WS glide spelling of back vowels after word-initial ġ; fed by SC017; treated in book Chapter 4 (written surface).	high
 BE016	SC017	NWGmc U Lowering	Northwest Germanic	17	yes	historical_sound_change	38	board, bore, bow, coat, corn	medium		medium
 BE017	SC018	NWGmc Stressed Monosyllable O Raising	Northwest Germanic	18	yes	historical_sound_change	1	both	low		low
 BE018	SC019	NWGmc Final Long O Raising	Northwest Germanic	19	yes	historical_sound_change	30	beech, bier, dew, hall, help	medium		medium
 BE019	SC020	PGmc Final Z Deletion	Proto-Germanic	20	yes	historical_sound_change	113	beard, beaver, belly, birth, book	high	The cascade applies this PGmc-labeled rule in the NWGmc section; keep pipeline order but flag the earlier historical label.	high
-BE020	SC021	NWGmc Unstressed O Raising	Northwest Germanic	21	yes	historical_sound_change	1	heaven	low		low
-BE021	SC022	NWGmc Mn Dissimilation	Northwest Germanic	22	yes	historical_sound_change	1	heaven	low		low
-BE022	SC023	NWGmc N Stem N Loss	Northwest Germanic	23	yes	historical_sound_change	17	adder, earth, heart, line, list	medium		medium
+BE021	SC022	Common Germanic Mn Dissimilation	Proto-Germanic	22	yes	historical_sound_change	1	stem	low	Stable implementation identifier PNWGmcMnDissimilation is not a stage claim; executable position remains in the SC018-SC025 editorial holding zone.	low
+BE022	SC023	Proto-Germanic Word-Final N Loss	Proto-Germanic	23	yes	historical_sound_change	17	adder, earth, heart, line, list	medium	Stable implementation identifier PNWGmcNStemNLoss is not a stage claim; executable position remains in the SC018-SC025 editorial holding zone; do/dōn is counterfeeding negative evidence, not an application.	medium
 BE023	SC024	NWGmc Long E Lowering	Northwest Germanic	24	yes	historical_sound_change	18	adder, bier, deed, eel, father	medium		medium
 BE024	SC025	NWGmc Long E Nasal Rounding	Northwest Germanic	25	yes	historical_sound_change	2	month, spoon	low		low
 BE025	SC026	NWGmc Nasal Spirant Lengthening	Northwest Germanic	26	yes	historical_sound_change	3	fist, goose, youth	high		low
@@ -89,5 +88,7 @@ BE087	SC089	OE Late Unstressed Ag Suffix	Old English	88	yes	historical_sound_cha
 BE088	SC090	OE Cj Cleanup	Orthography & surface	89	appendix	orthography_surface	0		low	Post-cascade palatal-cluster cleanup before orthography; treat as appendix machinery, not a main sound change.	low
 BE089	SC091	OE Xs Merge	Orthography & surface	90	appendix	orthography_surface	6	flax, fox, ox, six, wax	low	Post-cascade surface merge feeding orthographic x; keep as appendix material rather than a reader-facing historical entry.	low
 BE090	SC092	Old English Orthography	Orthography & surface	91	appendix	orthography_surface	0		low	Orthography conversion from starred symbols to displayed Old English graphemes.	low
-BE091	SC093	OE Glide U To EO	Orthography & surface	92	appendix	orthography_surface	0		low	Orthographic eo spelling after palatal glide plus u; appendix treatment only.	low
+BE091	SC093	OE Glide U To EO	Orthography & surface	92	appendix	orthography_surface	0		low	Retired: absorbed into the repaired SC016 OEWsPalatalGlide (sc016-017-adjudication.md); OEGlideUToEO no longer exists in germanic.txt.	low
 BE092	SC094	Old English Remove Stars	Orthography & surface	93	appendix	orthography_surface	0		low	Prosodic/star stripping boundary between internal symbols and displayed forms.	low
+BE099	SC099	OE medial unstressed *o*-raising	Old English	69	yes	historical_sound_change	1	wound	high	Successor to the retired SC021 claim: shortened *o (< original PWGmc *ō) > u in medial syllables, demonstrated only for West Saxon ō-verb pasts (Stausland Johnsen 2015: 28-31, 36).	high
+BE100	SC100	OE final unstressed *o*-lowering	Old English	70	yes	historical_sound_change	6	month, make (3sg), bore (3sg), learn (3sg), lick (3sg)	high	Paired final-syllable *o > a outcome after SC071 shortening (Stausland Johnsen 2015: 28-31).	high

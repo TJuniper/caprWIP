@@ -79,7 +79,7 @@ The current index marks the following rules as **negative / boundary cards**, me
 
 1. `SC014`
 2. `SC018`
-3. `SC022`
+3. `SC022` (Common Germanic; executable holding-zone placement)
 4. `SC025`
 5. `SC028`
 6. `SC053`
@@ -96,7 +96,11 @@ For each of these, the earlier search is runner-limited by bundled `PWGmcChanges
 
 The current earlier runner-limited set is:
 
-`SC014`, `SC015`, `SC016`, `SC018`, `SC021`, `SC022`, `SC023`, `SC024`, `SC025`, `SC026`, `SC028`, `SC029`, `SC035`, `SC037`, `SC039`, `SC050`, `SC053`, `SC058`, `SC065`, `SC067`, `SC076`
+`SC014`, `SC015`, `SC016`, `SC018`, `SC022`, `SC023`, `SC024`, `SC025`, `SC026`, `SC028`, `SC029`, `SC035`, `SC037`, `SC039`, `SC050`, `SC053`, `SC058`, `SC065`, `SC067`, `SC076`
+
+Retired `SC021` is no longer part of the current earlier runner-limited set.
+Its old first-break result is archival project history only; current
+chronology uses SC071/SC099/SC100.
 
 These are search-boundary observations, not ordinary sound-change chronology earlier boundaries.
 

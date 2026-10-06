@@ -4,7 +4,7 @@
 
 - **change_ids:** SC028; SC029; SC030
 - **display_names:** NWGmc Preconsonantal X Loss; OE Awj Glide Formation; OE Au Fronting
-- **FOMA rule names:** `NWGmcPreconsonantalXLoss`; `OEAwjGlideFormation`; `OEAuFronting`
+- **FOMA rule names:** `NWGmcPreconsonantalXLoss`; `OEAwwjResolution`; `OEAuBrightening`
 - **current_orders:** SC028 immediately precedes SC029, which immediately precedes SC030 between the promoted `SC026-SC027` nasal spirant corridor and the promoted `SC031-SC034` West Saxon diphthong chain
 - **chronology card paths:**
   - `Germanic/docs/sound_changes/order_tests/chronology_cards/SC028-nwgmc-preconsonantal-x-loss.md`
@@ -92,7 +92,7 @@ rule historically legible as a type [@Campbell1959, §461; @RingeTaylor2014,
 currently better understood as backgrounded entry context than as a strong local
 chapter center.
 
-SC029 `OEAwjGlideFormation` and SC030 `OEAuFronting` are different. Campbell
+SC029 `OEAwwjResolution` and SC030 `OEAuBrightening` are different. Campbell
 and Ringe and Taylor both treat the `awj` material directly, and the same
 `hay` / `strew` derivations that appear in the handbook tradition also define
 the reciprocal chronology boundary [@Campbell1959, §120; @RingeTaylor2014,

@@ -30,35 +30,75 @@ West Germanic gemination of consonants before `*j`.
 
 ## Major changes
 
-The `*ai` monophthongization (SC004) represents one of the most pervasive
-shared NW–West Germanic vowel shifts, turning unstressed endings such as the
-dative singular and strong-adjective plural to longer vowels. Ringe and Taylor
-treat this as one of the clearest post-PNWGmc shared developments
-[@RingeTaylor2014, pp. 40--41]; Fulk groups it among the North/West-Germanic
-shared innovations that distinguish the period from Gothic [@Fulk2018, §5.2].
+The chapter opens with the root-noun nominative `*-z` loss (SC096), the
+generalization of endingless nominatives through the athematic consonant
+stems, complete before Proto-West Germanic: none of the West Germanic
+daughters shows any ending in this class [@RingeTaylor2014, p. 118]. It is
+the earliest of the three historically distinct final-`*z` developments; the
+other two (SC020 and SC097) open Chapter 3.
+
+The unstressed `*ai > *ē` development (SC014) represents one of the most
+pervasive shared NW–West Germanic vowel shifts, turning unstressed endings
+such as the dative singular and strong-adjective plural to longer vowels.
+Ringe and Taylor treat this as one of the clearest post-PNWGmc shared
+developments [@RingeTaylor2014, pp. 40--41]; Fulk groups it among the
+North/West-Germanic shared innovations that distinguish the period from
+Gothic [@Fulk2018, §5.2]. The corresponding stressed monophthongization
+(SC004) belongs later in the cascade and is treated in Chapter 3.
 
 The West Germanic consonant changes of this chapter — j-gemination (SC010),
 early i-apocope (SC006), coronal-w assimilation (SC008), and related rules —
 represent the most productive phonological territory for the CAPR derivations.
 They feed a large proportion of the distinctive consonant clusters of Old
 English. Handbooks vary in exactly how they group and name these changes
-[@Campbell1959, §§ 404, 406; @Hogg1992, §7.1].
+[@Campbell1959, §§ 404, 406; @HoggGrammar1992, §4.11].
 
-The nasal spirant corridor (SC026–SC027) illustrates a type of change common
+Coronal assimilation also supplies the geminate in *fēower* 'four' and
+*ēow* 'you', before inherited short-vowel-plus-geminate-glide reanalysis.
+[SC031 OEWWSimplification](#rule-OEWWSimplification) now represents that
+earlier development, not an unrestricted late deletion. The resulting
+diphthong-plus-glide sequence is inherited by later English realization;
+j-created and singleton paths remain distinct
+[@RingeTaylor2014, pp. 41--42, 65--66; @Campbell1959, pp. 45--47].
+
+The quoted definitions use `Ctx(...)` to carry selected sentence context
+outside the segmental operation. It is computational transport, not a
+reconstructed segment or an additional sound law. Lexical accent,
+sentence stress and phonological-word finality are separate: the early
+high-vowel-loss account requires a heavy syllable in a sentence-unstressed,
+phonologically final word, not simply the absence of an acute. Ordinary
+evaluation selects strong-final citation context; the explicit weak-final
+selection for *ēow* is discussed with
+[SC098 PWGmcUnstressedWordFinalIApocope](#rule-PWGmcUnstressedWordFinalIApocope)
+[@RingeTaylor2014, pp. 55, 57--58].
+
+The nasal spirant corridor (SC026–SC027), treated in Chapter 3 at its cascade
+position, illustrates a type of change common
 in historical grammars of the "Ingvaeonic" or "North Sea Germanic" area:
 nasals disappear before voiceless fricatives, with compensatory vowel
-lengthening [@Campbell1959, §§ 462--463; @Hogg1992, §7.77]. The CAPR model
+lengthening [@Campbell1959, §§ 462--463; @HoggGrammar1992, p. 56, §3.14 (held 2011 reissue)]. The CAPR model
 splits this into two ordered steps to make the vowel effect computationally
 tractable; the book prose explains that split against the handbook tradition,
 which typically presents the change as a single process.
 
-Several changes in this chapter carry `PWGmc` labels in the CAPR implementation
-but appear later in the computational cascade than their historical stage would
-suggest: final bare-`*a` loss (SC041), surviving bimoric `*ō` unrounding
-(SC042), and Sievers-law syncope (SC050) are placed late in the transducer for
-computational reasons. Their chapter assignment here reflects their historical
-stage, not their cascade position; the individual sound-change sections note
-the divergence.
+Chapters in this part of the book follow the executable cascade order, which
+models the reconstructed chronology itself. Several rules that carry `PWGmc`
+labels — final bare-`*a` loss (SC041), surviving bimoric `*ō` unrounding
+(SC042), and Sievers-law syncope (SC050) — execute later in the cascade and
+are therefore presented in Chapter 4, where their individual sections discuss
+their historical stage labels. Conversely, one rule with a West Saxon label,
+the palatal-glide rule (SC016), is an orthographic rule of the written surface:
+it executes after the Old English orthography stage and is presented in
+Chapter 5.
+
+One historically Proto-Germanic change, Gm-simplification
+(`SC002 PGmcGmSimplification`), precedes everything in this chapter as a
+support stage of the cascade. It is documented in the book-entry plan and
+its literature dossier confirms the source base is narrow (two lexical
+families: [draugma-]{.recon .iv lang=pgmc sort=draugma} 'dream' and
+[taugma-]{.recon .iv lang=pgmc sort=taugma} 'team'; [@Kroonen2013, pp. 101, 511]).
+A reader-facing section for SC002 awaits a stronger explanatory source base
+and is not yet assembled in the reader-facing sequence.
 
 ## A note on source terminology and subgrouping
 
@@ -87,7 +127,8 @@ research specifically argues for Anglo-Frisian or English-specific placement.
 
 ## Rule names
 
-The CAPR rules in this chapter carry names beginning with `NWGmc` or `PWGmc`.
+Most CAPR rules in this chapter carry names beginning with `NWGmc` or `PWGmc`;
+the reformulated inherited-glide rule retains its older `OE` identifier.
 These names are stable internal identifiers. A name beginning with `NWGmc` does
 not guarantee that the change is exclusive to Northwest Germanic, and a name
 beginning with `PWGmc` does not guarantee that it is absent from North Germanic.

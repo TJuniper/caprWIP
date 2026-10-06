@@ -1,7 +1,7 @@
 # SC043 Anglo Frisian Brightening — chronology evidence card
 
-## Current position
-- current_order: `43`
+## Position at experiment time
+- order_at_experiment_time: `43`
 - rule_name: `EAFBrightening`
 - former_rule_name: `AngloFrisianBrightening`
 - safe computational window: `43-43`

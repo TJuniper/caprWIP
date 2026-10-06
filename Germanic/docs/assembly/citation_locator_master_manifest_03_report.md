@@ -87,7 +87,7 @@ bundled several analytical claims into one broad citation.
 | `Campbell1959` | 56 | 14 | 0 | 56 | Campbell remains useful, but the pass-03 tranche mainly exposed clause-combination problems rather than single rule/example statements ready for localization. |
 | `SieversBrunner1965` | 27 | 0 | 0 | 27 | Brunner was not a focus source in this tranche; remaining rows still stand where earlier passes left them. |
 | `Fulk2018` | 8 | 0 | 0 | 8 | Fulk was not a focus source in this tranche; the remaining citations continue to function mainly as broader historical background. |
-| `Hogg1992` | 4 | 0 | 0 | 4 | Hogg was not a focus source in this tranche; the surviving rows remain broad background citations. |
+| `HoggPhonology1992` | 4 | 0 | 0 | 4 | Hogg was not a focus source in this tranche; the surviving rows remain broad background citations. |
 | `Kroonen2013` | 65 | 30 | 5 | 60 | Kroonen localized cleanly where the local file preserved a page-marked headword (`summer`, `buck`, `heaven`, `live`, `man`), but many remaining rows are either broader comparative framing or exact-headword failures in the available text. |
 | `Orel2003` | 44 | 20 | 7 | 37 | Orel remained the highest-yield source in the regular dictionary layer, but the unresolved tail is now mostly page-marker trouble or exact-headword failure rather than unworked backlog. |
 | `ClarkHall1960` | 61 | 23 | 0 | 61 | Clark Hall frequently yielded the lexical item itself, but the available local witness still often failed to preserve a sufficiently reliable printed page anchor. |

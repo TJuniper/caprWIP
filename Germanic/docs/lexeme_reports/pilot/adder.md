@@ -7,7 +7,7 @@ The aligned row treats `PROTO` and `PROTOFORM` identically as `*nḗdrōn`. No r
 #### Chronological source dossier
 
 - The project row in `Germanic/data/germanic-aligned-final.tsv` gives `*nḗdrōn → nǣdre` with `DERIVATION_CLASS = regular`.
-- The regular development path in the current FST is consistent with the handbook sound-history framework used throughout the project [@RingeTaylor2014; @Campbell1959; @Hogg1992].
+- The regular development path in the current FST is consistent with the handbook sound-history framework used throughout the project [@RingeTaylor2014; @Campbell1959; @HoggGrammar1992].
 
 #### Old English philology
 

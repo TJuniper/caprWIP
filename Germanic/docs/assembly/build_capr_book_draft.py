@@ -13,7 +13,7 @@ REPO_ROOT = SCRIPT_DIR.parents[2]
 sys.path.insert(0, str(REPO_ROOT / "Germanic" / "tools"))
 from index_verborum_emission import build_emission_table, load_model_entry_headings, load_print_main
 INTRO_PATH = SCRIPT_DIR / "capr_book_intro_alpha_01.md"
-CHRONOLOGY_PATH = REPO_ROOT / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_19.md"
+CHRONOLOGY_PATH = REPO_ROOT / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md"
 LEXICAL_PATH = SCRIPT_DIR / "lexical_volume_alpha_01.md"
 PRINT_MAIN_PATH = REPO_ROOT / "Germanic/docs/book/index_verborum_print_main.tsv"
 LANGUAGE_REGISTRY_PATH = REPO_ROOT / "Germanic/docs/book/index_verborum_languages.tsv"
@@ -189,7 +189,7 @@ def transform_chronology(text: str) -> str:
             # Historical chapter heading
             if not seen_chapter and preamble:
                 # Emit accumulated preamble as an unnumbered chapter so it
-                # sits visibly between the \part heading and Chapter 2
+                # sits visibly between the \part heading and the first historical chapter
                 # without consuming a chapter counter number.
                 out.append("# Sound-change overview {.unnumbered}")
                 for p in preamble:

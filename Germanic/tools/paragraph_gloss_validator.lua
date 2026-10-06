@@ -232,7 +232,7 @@ do
     "ai", "au", "ei", "eu", "iu", "ui", "oi", "ou",
     "āi", "āu", "ēi", "ēu",
     -- Common phonological cluster abbreviations (all ASCII, 2 letters)
-    "lþ", "rþ", "nþ", "ng", "gg", "kk", "pp", "tt", "mm", "nn",
+    "lþ", "rþ", "nþ", "ng", "gg", "kk", "pp", "tt", "mm", "nn", "sċ", "xst",
     "ll", "rr", "ss", "ff",
   }
   for _, s in ipairs(seqs) do
@@ -265,7 +265,14 @@ local function is_notation_only(form)
   -- Mixed- or upper-case rule labels / abbreviations (e.g. OEIUmlaut, PGmc)
   if bare:match("^[A-Z][A-Za-z]+$") then return true end
   -- Single Unicode codepoint
-  local bare_len = utf8_len(bare)
+  -- Combining marks do not turn one segment into a lexical form (e.g. ą̄).
+  local segment = bare
+  for _, codepoint in utf8.codes(bare) do
+    if codepoint >= 0x0300 and codepoint <= 0x036F then
+      segment = segment:gsub(utf8.char(codepoint), "")
+    end
+  end
+  local bare_len = utf8_len(segment)
   if bare_len <= 1 then return true end
   -- Short asterisked forms (≤2 codepoints) are phonological segments/sequences
   -- (e.g., *u, *z, *ō, *ai, *lþ). Non-asterisked short forms like cū, bā
@@ -295,9 +302,9 @@ local function check_para(el, is_p2, in_prose_section)
 
     if inline.t == 'Emph' then
       if not is_p2 then
-        -- Part I: always check plain italic
+        -- Part I: check lexical italics, not phonological notation.
         local f = utils.stringify(inline)
-        if looks_like_linguistic_form(f) then
+        if looks_like_linguistic_form(f) and not is_notation_only(f) then
           emph_p1 = emph_p1 + 1
           form = f
           category = "emph"

@@ -6,7 +6,7 @@ This directory contains the active FST development for modeling sound changes fr
 
 **Research phase complete (2026-04-30).**
 
-**7 mismatches** out of 386 OE lexemes (**98.2% accuracy**, **0 actionable phonology**). All 7 remaining mismatches are documented exceptions in `data/oe_known_problems.tsv` (analogical levellings, lexical *u-preservation near labials).
+**7 mismatches** out of 387 OE lexemes (**98.2% accuracy**, **0 actionable phonology**), as reported by `docs/sound_changes/cascade_baseline/cascade_baseline_summary.json`. All 7 remaining mismatches are documented exceptions in `data/oe_known_problems.tsv` (analogical levellings, lexical *u-preservation near labials). The original 380-row corpus is preserved as a frozen legacy subset (fingerprint `fae65652…`); corpus maturation has since added *who* (OE *hwā*) and *you* (OE *ēow*) as witnesses for the final-*z* and apocope chronology, *thought* (OE *þōhte*) for the nasal-spirant law, and *hue* (OE *hīew*) as the *iwj* witness for West Germanic gemination of *w before *j.
 
 **Current phase:** lexical write-up and publication preparation, not further sound-change debugging. For the authoritative writing-phase source hierarchy, see `docs/CANONICAL_STATE.md`.
 

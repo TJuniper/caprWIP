@@ -1,7 +1,7 @@
 # SC053 OE Post Velar W Loss — chronology evidence card
 
-## Current position
-- current_order: `53`
+## Position at experiment time
+- order_at_experiment_time: `53`
 - rule_name: `OEPostVelarWLoss`
 - safe computational window: `13-86` (earlier side blocked; later side runner-bounded)
 - status: `first_break_complete`

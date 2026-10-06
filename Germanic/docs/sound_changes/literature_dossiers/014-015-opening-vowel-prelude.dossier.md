@@ -83,11 +83,11 @@ SC015 carries most of the prose.
 
 ### Hogg 1992
 
-- **source_key:** `Hogg1992`
+- **source_key:** `HoggPhonology1992`
 - **locator:** pp. 101, 112, 117
 - **terminology:** monophthongization of `/ai/`; absence of unstressed diphthongs; merger of unstressed front vowels to `/e/`
 - **short quotation:** "`because of the monophthongisation of /ai/`"; "`diphthongs did not occur in Old English unstressed syllables`"; "`by about 700 all unstressed front vowels had become /e/`"
-- **paraphrase:** Hogg gives the most compact structural explanation for why SC014 and SC015 belong together at all. He treats the monophthongization of `/ai/` as one of the developments that reshaped the early vowel system [@Hogg1992, p. 101], states plainly that diphthongs do not occur in Old English unstressed syllables [@Hogg1992, p. 112], and argues that by about 700 all unstressed front vowels had merged as `/e/` except in a few protected environments [@Hogg1992, p. 117]. That combination makes the opening pair historically coherent as a short unstressed-vocalic prelude even if only SC015 currently yields a positive chronology constraint.
+- **paraphrase:** Hogg gives the most compact structural explanation for why SC014 and SC015 belong together at all. He treats the monophthongization of `/ai/` as one of the developments that reshaped the early vowel system [@HoggPhonology1992, p. 102], states plainly that diphthongs do not occur in Old English unstressed syllables [@HoggPhonology1992, p. 113], and argues that by about 700 all unstressed front vowels had merged as `/e/` except in a few protected environments [@HoggPhonology1992, p. 120]. That combination makes the opening pair historically coherent as a short unstressed-vocalic prelude even if only SC015 currently yields a positive chronology constraint.
 - **conditioning:** weak-stress syllables; unstressed front-vowel reduction; loss of unstressed diphthong contrasts
 - **chronology:** Hogg supports the row as an early opening zone of unstressed-vowel simplification, but not as a precise two-step local chronology. His value here is structural and typological rather than boundary-specific.
 - **examples:** general unstressed front-vowel merger; absence of unstressed diphthongs
@@ -112,7 +112,7 @@ a tightly bounded corridor.
 
 SC015 `NWGmcILowering` is stronger. Campbell's unaccented-vowel merger and
 Hogg's claim that unstressed front vowels converged on `/e/` give it a clear
-historical analogue [@Campbell1959, §369; @Hogg1992, p. 117]. Its later
+historical analogue [@Campbell1959, §369; @HoggPhonology1992, p. 120]. Its later
 boundary at SC036 is also interpretable because the `world` derivation belongs
 to the same documented space of unstable medial vowels seen in Campbell and
 Ringe and Taylor [@Campbell1959, §§338--339; @RingeTaylor2014, §6.3.3]. The

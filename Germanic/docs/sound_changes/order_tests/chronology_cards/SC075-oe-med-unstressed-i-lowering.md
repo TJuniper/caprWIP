@@ -1,7 +1,7 @@
 # SC075 OE Med Unstressed I Lowering — chronology evidence card
 
-## Current position
-- current_order: `75`
+## Position at experiment time
+- order_at_experiment_time: `75`
 - rule_name: `OEMedUnstressedILowering`
 - safe computational window: `75-86` (later side runner-bounded)
 - status: `first_break_complete`

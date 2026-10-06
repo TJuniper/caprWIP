@@ -21,7 +21,7 @@ This dossier concerns the change of medial `*z` to `*r`, best treated historical
 
 ## Source support found so far
 
-1. Hogg states that Germanic `/z/` yielded `/r/` in intervocalic position in Old English, though it was generally lost finally [@Hogg1992, p. 37].
+1. Bammesberger states that Germanic `/z/` yielded `/r/` in intervocalic position in Old English, though it was generally lost finally [@Bammesberger1992, p. 39].
 2. Ringe and Taylor treat the change as independent in Norse and WGmc, non-uniform within WGmc, and best assigned to the post-PWGmc period [@RingeTaylor2014, pp. 52, 98, 102].
 3. Crist distinguishes final `*z` deletion from rhotacism, places the deletion rules first, and argues that the merger cannot be inherited from Proto-Northwest Germanic [@Crist2001, pp. 104-106; @Crist2002, pp. 1, 4].
 

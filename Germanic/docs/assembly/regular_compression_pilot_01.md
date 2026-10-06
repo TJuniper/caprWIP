@@ -787,7 +787,7 @@ From _\*skáwōjaną_, Old English _aw_ before a following vowel yields _ēaw_, 
 
 #### Form note
 
-The difference between _scēawian_ and _sċēawian_ is orthographic normalization of initial _<sc>_, not a difference of lexeme or paradigm cell [@Campbell1959; @Hogg1992].
+The difference between _scēawian_ and _sċēawian_ is orthographic normalization of initial _<sc>_, not a difference of lexeme or paradigm cell [@Campbell1959; @HoggGrammar1992].
 
 ### weapon — OE wǣpn
 
@@ -1579,7 +1579,7 @@ From _\*skáwōjaną_, Old English _aw_ before a following vowel yields _ēaw_, 
 
 #### Form note
 
-The difference between _scēawian_ and _sċēawian_ is orthographic normalization of initial _<sc>_, not a difference of lexeme or paradigm cell [@Campbell1959; @Hogg1992].
+The difference between _scēawian_ and _sċēawian_ is orthographic normalization of initial _<sc>_, not a difference of lexeme or paradigm cell [@Campbell1959; @HoggGrammar1992].
 
 ### weapon — OE wǣpn
 
@@ -2211,7 +2211,7 @@ OE Unstressed EI Contraction & \emph{*ʃḗawian} \\
 
 #### Form note
 
-The difference between _scēawian_ and _sċēawian_ is orthographic normalization of initial _<sc>_, not a difference of lexeme or paradigm cell [@Campbell1959; @Hogg1992].
+The difference between _scēawian_ and _sċēawian_ is orthographic normalization of initial _<sc>_, not a difference of lexeme or paradigm cell [@Campbell1959; @HoggGrammar1992].
 
 ### weapon — OE wǣpn
 

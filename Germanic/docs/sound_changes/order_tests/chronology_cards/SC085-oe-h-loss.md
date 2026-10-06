@@ -1,7 +1,7 @@
 # SC085 OE H Loss — chronology evidence card
 
-## Current position
-- current_order: `84`
+## Position at experiment time
+- order_at_experiment_time: `84`
 - rule_name: `OEHLoss`
 - safe computational window: `74-84`
 - status: `first_break_complete`

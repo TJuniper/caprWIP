@@ -1,7 +1,7 @@
 # SC019 NWGmc Final Long O Raising — chronology evidence card
 
-## Current position
-- current_order: `19`
+## Position at experiment time
+- order_at_experiment_time: `19`
 - rule_name: `PNWGmcFinalLongORaising`
 - former_rule_name: `NWGmcFinalLongORaising`
 - safe computational window: `18-19`

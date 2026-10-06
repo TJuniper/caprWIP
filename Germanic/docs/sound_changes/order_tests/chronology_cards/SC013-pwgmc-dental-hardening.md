@@ -1,7 +1,7 @@
 # SC013 PWGmc Dental Hardening — chronology evidence card
 
-## Current position
-- current_order: `13`
+## Position at experiment time
+- order_at_experiment_time: `13`
 - rule_name: `PWGmcDentalHardening`
 - safe computational window: `4-86` (both directions boundary-only)
 - status: `first_break_complete`

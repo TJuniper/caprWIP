@@ -45,7 +45,7 @@ Beyond the packet, I checked:
 - `docs/references/legacy/orel_handbook_germanic_etymology.txt`, which instead has `*farnan sb.n.` with OE `fearn` [@Orel2003].
 - `docs/references/clark_hall_concise_anglo_saxon_dictionary.vision.txt`, which gives the OE headword `fearn n.` [@ClarkHall1960].
 - `docs/references/bosworth_toller_anglo_saxon_dictionary.vision.txt`, which attests `fearn` and inflected forms `fearnes`, `fearna`, `fearne` [@BosworthToller1898].
-- `docs/references/hogg_vol1.txt`, `docs/references/ringe_taylor_linguistic_history_vol2.txt`, and `docs/references/kaluza_historische_grammatik_englisch.txt`, all of which support ordinary breaking to `ea` before `r + consonant` [@Hogg1992; @RingeTaylor2014; @Kaluza1906].
+- `docs/references/hogg_vol1.txt`, `docs/references/ringe_taylor_linguistic_history_vol2.txt`, and `docs/references/kaluza_historische_grammatik_englisch.txt`, all of which support ordinary breaking to `ea` before `r + consonant` [@HoggPhonology1992; @RingeTaylor2014; @Kaluza1906].
 - `Germanic/docs/lexeme_reports/pilot/` for any existing fern report; none exists.
 
 ## Reconstruction and early-stage forms

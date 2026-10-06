@@ -10,7 +10,7 @@ large independent chapter under exactly this label. The historical point is
 smaller: CAPR needs an explicit surviving-bimoric `ō` pathway behind `rest`,
 and that pathway belongs immediately on the left edge of the SC043
 brightening pivot rather than hidden inside a larger non-contiguous chapter
-[@Campbell1959, §§131, 157--158; @Hogg1992, pp. 101, 119;
+[@Campbell1959, §§131, 157--158; @HoggPhonology1992, pp. 102, 105;
 @RingeTaylor2014, pp. 157--158, 189--190].
 
 #### Source tradition
@@ -21,7 +21,7 @@ Campbell treats the early fronting and later restoration developments as part
 of one intelligible historical region [@Campbell1959, §§131, 157--158]. Hogg
 is especially useful on the early fronting side and on the broader vocalic
 environment that later Old English rules continue to read
-[@Hogg1992, pp. 101, 119]. Ringe and Taylor likewise place fronting and later
+[@HoggPhonology1992, pp. 102, 105]. Ringe and Taylor likewise place fronting and later
 retraction/restoration in a sequence that makes CAPR's narrow `rest` pathway
 historically legible even if the precise SC042 label is model-shaped
 [@RingeTaylor2014, pp. 157--158, 189--190].

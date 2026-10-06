@@ -1,5 +1,7 @@
 # Dossier: SC022 Germanic `mn`-dissimilation (`-mn- > -bn-/-βn-`) — 2026
 
+Registry-verdict: SC022=REFORMULATE/RETAIN
+
 **Scope:** the historical sound change modelled by CAPR SC022
 `PNWGmcMnDissimilation`. Research only; **no production change**. This is the
 sound-change companion to the lexical dossiers `dossier-stem-2026.md` and
@@ -379,3 +381,53 @@ Cross-references: `dossier-stem-2026.md`,
 `audits/2216-stefn-shadow-rule-probe.md`. CAPR rule:
 `Germanic/fsts/germanic.txt:2151-2153` (SC022) and `:2668`
 (`OENasalDissimilation`).
+
+## 21. Close-out re-adjudication (2026-09)
+
+This close-out preserves the implemented literal adjacent-cluster rule and the
+selected `*stámniz > stefn` derivation. It rechecks only the historical scope
+and chronology metadata; it neither changes the FST nor treats `heofon` as a
+direct application of SC022.
+
+### Verdict
+
+**RETAIN SC022 AS IMPLEMENTED; RECLASSIFY ITS HISTORICAL STAGE.** The source
+record does not securely support a Proto-Northwest-Germanic or pan-NWGmc
+innovation. Fulk places `mn` denasalization among the changes “common to
+Germanic” and adduces a Gothic suffixal alternation as well as OE/OS
+*heaven* evidence [@Fulk2018, p. 121, §6.11]. Polomé likewise dates
+`-mn- > -bn-` to older Germanic, while stressing that later paradigm leveling
+obscures the distribution [@Polome1967, pp. 818--819]. The secure historical
+classification is therefore **late Proto-Germanic / Common Germanic**, with a
+pan-Germanic innovation claim qualified by uneven daughter reflexes and later
+analogical replacement.
+
+The stable executable identifier `PNWGmcMnDissimilation` is retained as a
+legacy CAPR identifier, not as a historical stage claim. The later NWGmc/OE
+facts are the paradigmatic generalization or reversal of the cluster outcome:
+Fulk explicitly notes the reverse `bn > mn` in NWGmc [@Fulk2018, p. 121,
+§6.11], and Campbell documents secondary West Saxon `fn > mn`
+[@Campbell1959, p. 195, §484].
+
+### Heaven and stem
+
+The evidence continues to distinguish the sound change from analogy. Old Norse
+*himinn* beside dative *hifni* preserves the alternation in different
+paradigm cells; OE *heofon* and Old Saxon *heban* instead generalize the
+labial-bearing allomorph [@Polome1967, pp. 818--819; @Kroonen2011,
+p. 183]. Thus selected `*xébun > heofon` begins after that analogical
+generalization and is not a corpus firing of SC022. The literal adjacent
+cluster in selected `*stámniz > stefn` remains a mechanically correct
+working baseline, but its specific etymology remains qualified by the
+documented `*stab-` alternative [@Polome1967, p. 819 n. 2; @Orel2003,
+p. 371].
+
+### Relative chronology
+
+No new positive local ordering is added. The completed first-break search is
+boundary-limited on both sides, so it remains negative computational evidence,
+not a historical adjacency claim. The only broad chronology asserted here is
+that the underlying Common-Germanic cluster development predates its
+NWGmc/OE analogical reversals. The suggestive `stæfn` evidence is insufficient
+to add a separate SC022 < Anglo-Frisian brightening edge: neither the primary
+handbooks nor the present corpus supplies an explicit local ordering statement.

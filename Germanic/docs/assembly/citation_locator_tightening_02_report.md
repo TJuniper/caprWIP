@@ -82,7 +82,7 @@ Page locators were added only where the local page-marked OCR showed the exact h
 - left broad: **31**
 - reason for remaining broad cases: Bosworth-Toller remains mixed because of base/supplement complications; untouched cases remain broad unless a page-safe local witness is explicit.
 
-### Hogg1992
+### HoggPhonology1992
 - broad occurrences before: **5**
 - inspected: **0**
 - locators added: **0**

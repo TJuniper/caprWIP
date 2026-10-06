@@ -1,7 +1,7 @@
 # SC057 OE J Cluster Coalescence — chronology evidence card
 
-## Current position
-- current_order: `57`
+## Position at experiment time
+- order_at_experiment_time: `57`
 - rule_name: `OEJClusterCoalescence`
 - safe computational window: `53-86` (later side runner-bounded)
 - status: `first_break_complete`

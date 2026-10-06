@@ -228,14 +228,14 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 1518	t au	*dawwō	t - au - ( - )	tau	Tau	416	German						dew	*dáwwō	53
 896	d ɪ l ə	*déljaz	d ɪ l ( - ə - )	dɪlə	dille	246	Dutch						dill	*déljaz	54
 895	d ɪ l	*déljaz	d ɪ l ( - - - )	dɪl	dill	246	English						dill	*déljaz	54
-1990	d i l e	*déliz	d ɪ l ( - - - )	dɪl	dile	246	Old_English	I-stem *deliz per Kroonen p.93: "evidence for both an i-stem (OE dile) and a ja-stem (OS dilli, OHG tilli)". OE generalized i-stem; OS/OHG generalized ja-stem.	See DEV_NOTES §dile.	early_analogy			dill	*déljaz	54
+1990	d i l e	*déliz	d ɪ l ( - - - )	dɪl	dile	246	Old_English	"I-stem *deliz per Kroonen p.93: ""evidence for both an i-stem (OE dile) and a ja-stem (OS dilli, OHG tilli)"". OE generalized i-stem; OS/OHG generalized ja-stem."	See DEV_NOTES §dile.	early_analogy			dill	*déljaz	54
 894	d ɪ l	*déljaz	d ɪ l ( - - - )	dɪl	Dill	246	German	BOR				Low German	dill	*déljaz	54
 1584	d uː n	*dōną	d uː - n ( - - )	duːn	doen	434	Dutch						do	*dōną	55
 1583	d uː	*dōną	d uː - - ( - - )	duː	do	434	English						do	*dōną	55
 1991	d ō n	*dōną	d uː - - ( - - )	duː	dōn	434	Old_English		Source: Wiktionary etymology (template:inh) | Source: Wiktionary etymology (template:inh)	regular			do	*dōną	55
 1582	t uː n	*dōną	t uː ə n ( - - )	tuːn	tun	434	German						do	*dōną	55
 103	d ɔː	*dúrą	d ɔː r ( - - )	dɔː	door	29	English						door	*dúrą	335
-1992	d o r	*dúrą	d ɔː r ( - - )	dɔː	dor	29	Old_English	OE has two reflexes: neut. a-stem *dor* (< *durą, regular u-lowering) and fem. u-stem *duru* (analogical shift per R/T p.385). Using etymological *dor* as target. Cf. Hall: "dor n. door, gate".		regular			door	*dúrą	335
+1992	d o r	*dúrą	d ɔː r ( - - )	dɔː	dor	29	Old_English	"OE has two reflexes: neut. a-stem *dor* (< *durą, regular u-lowering) and fem. u-stem *duru* (analogical shift per R/T p.385). Using etymological *dor* as target. Cf. Hall: ""dor n. door, gate""."		regular			door	*dúrą	335
 102	t oː r	*dúrą	t oː r ( - - )	toːr	Tor	29	German						door	*dúrą	335
 764	d eː x	*dáigaz	d eː x ( - - )	deːx	deeg	209	Dutch						dough	*dáigaz	56
 763	d əʊ	*dáigaz	d əʊ - ( - - )	dəʊ	dough	209	English						dough	*dáigaz	56
@@ -283,7 +283,7 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 203	f aː r ə n	*fáraną	f aː r ə n ( - - )	faːrən	fahren	57	German						fare	*fáraną	66
 1317	v ɑ s t ə	*fastēną	v ɑ s t ə - ( - - )	vɑstə	vasten	361	Dutch						fast	*fastēną	67
 1316	f ɑː s t	*fastēną	f ɑː s t - - ( - - )	fɑːst	fast	361	English						fast	*fastēną	67
-2004	f e s t a n	*fástijaną	f a s t i a n ( - - )	fɑstiɑn	festan	361	Old_English	R/T: "festan 'to fix, to fasten' < *fæstjan" (Class I weak); "acquired stative meaning ['to fast'] by lexical confusion" with *fastēn-. OE fæstan has æ from analogy with adj. fæst.		early_analogy			fast	*fastēną	67
+2004	f e s t a n	*fástijaną	f a s t i a n ( - - )	fɑstiɑn	festan	361	Old_English	"R/T: ""festan 'to fix, to fasten' < *fæstjan"" (Class I weak); ""acquired stative meaning ['to fast'] by lexical confusion"" with *fastēn-. OE fæstan has æ from analogy with adj. fæst."		early_analogy			fast	*fastēną	67
 1315	f a s t ə n	*fastēną	f a s t ə n ( - - )	fastən	fasten	361	German						fast	*fastēną	67
 912	v aː d ə r	*fadēr	v aː d ə r	vaːdər	vader	250	Dutch						father	*fádēr	68
 911	f ɑː ð ə	*fadēr	f ɑː ð ə r	fɑːðə	father	250	English						father	*fádēr	68
@@ -311,7 +311,7 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 158	f ɛ x t ə n	*féxtaną	f ɛ x t ə n ( - - )	fɛxtən	fechten	45	German						fight	*féxtaną	73
 1762	v ɪ n d ə	*fínθaną	v ɪ n d ə - ( - - )	vɪndə	vinden	482	Dutch						find	*fínθaną	74
 1761	f aɪ n d	*fínθaną	f aɪ n d - - ( - - )	faɪnd	find	482	English						find	*fínθaną	74
-2011	f u n d e n e	*fúnðanǭ	f aɪ n d - - ( - - )	faɪnd	fundene	482	Old_English	Paradigm-cell acc.sg.m. of strong past ptc, attested (Bosworth-Toller s.v. findan: "Beón i hergeata ww fundene, 414, 4 note"; cf. Hall s.v. tō-fundennes). Regular Verner *ð → *d, intervocalic *n triggers medial fronting *-an- → *-en-, bimoric *-ǭ → -e. Nom.sg. funden is analogical (Campbell §334, Luick §301,3, Brunner §366 Anm. 3). See DEV_NOTES §17.10.30–32.		late_analogy			find	*fínθaną	74
+2011	f u n d e n e	*fúnðanǭ	f aɪ n d - - ( - - )	faɪnd	fundene	482	Old_English	"Paradigm-cell acc.sg.m. of strong past ptc, attested (Bosworth-Toller s.v. findan: ""Beón i hergeata ww fundene, 414, 4 note""; cf. Hall s.v. tō-fundennes). Regular Verner *ð → *d, intervocalic *n triggers medial fronting *-an- → *-en-, bimoric *-ǭ → -e. Nom.sg. funden is analogical (Campbell §334, Luick §301,3, Brunner §366 Anm. 3). See DEV_NOTES §17.10.30–32."		late_analogy			find	*fínθaną	74
 1760	f ɪ n d ə n	*fínθaną	f ɪ n d ə n ( - - )	fɪndən	finden	482	German						find	*fínθaną	74
 1702	v ɪ ŋ ə r	*fíngraz	v ɪ ŋ - ə r ( - - )	vɪŋər	vinger	466	Dutch						finger	*fíngraz	75
 1701	f ɪ ŋ ɡ ə	*fíngraz	f ɪ ŋ ɡ ə r ( - - )	fɪŋɡə	finger	466	English						finger	*fíngraz	75
@@ -373,7 +373,7 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 777	f ɔ l k	*fúlką	f ɔ l k ( - - )	fɔlk	Volk	213	German						folk	*fúlką	87
 1887	v ɔ l ɣ ə	*fulgēną	v ɔ l ɣ ə - ( - - )	vɔlɣə	volgen	517	Dutch						follow	*fulgēną	88
 1886	f ɔ l əʊ	*fulgēną	f ɔ l əʊ - - ( - - )	fɔləʊ	follow	517	English						follow	*fulgēną	88
-2027	f y l ġ a n	*fúlgijaną	f ɔ l əʊ - - ( - - )	fɔləʊ	fylġan	517	Old_English	Kroonen s.v. *fulgēn-: "OE fylg(e)an continue *fulgjan-"; R/T §2.3.1: "class I weak OE fylgan". WS folgian is Class II from *fulgēn-.		early_analogy			follow	*fulgēną	88
+2027	f y l ġ a n	*fúlgijaną	f ɔ l əʊ - - ( - - )	fɔləʊ	fylġan	517	Old_English	"Kroonen s.v. *fulgēn-: ""OE fylg(e)an continue *fulgjan-""; R/T §2.3.1: ""class I weak OE fylgan"". WS folgian is Class II from *fulgēn-."		early_analogy			follow	*fulgēną	88
 1885	f ɔ l ɡ ə n	*fulgēną	f ɔ l ɡ ə n ( - - )	fɔlɡən	folgen	517	German						follow	*fulgēną	88
 1393	v ə r l iː z ə	*léusaną	( v ə r ) l iː z ə - ( - - )	vərliːzə	verliezen	381	Dutch						forlorn	*léusaną	89
 1392	f ə l ɔː n	*léusaną	( f ə - ) l ɔː - - - ( n - )	fəlɔːn	forlorn	381	English						forlorn	*léusaną	89
@@ -423,7 +423,7 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 17	ɡ ai s t	*gáistaz	ɡ ai s t ( - - )	ɡaist	Geist	5	German						ghost	*gáistaz	339
 621	x ɪ f t	*géftiz	x ɪ f t ( - - )	xɪft	gift	171	Dutch						gift	*géftiz	99
 620	ɡ ɪ f t	*géftiz	ɡ ɪ f t ( - - )	ɡɪft	gift	171	English						gift	*géftiz	99
-2040	ġ i f t	*géftiz	ɡ ɪ f t ( - - )	ɡɪft	ġift	171	Old_English		Source: Wiktionary etymology (template:inh) | Source: Wiktionary etymology (template:inh)	regular			gift	*géftiz	99
+2040	ġ i f t	*gíftiz	ɡ ɪ f t ( - - )	ɡɪft	ġift	171	Old_English	PGmc input follows Ringe 2017 p.135, pp.151-153; CAPR acute marks root stress. Published e-forms retained and discussed: Orel 2003 p.130; Kluge-Seebold 2011 p.359; Bammesberger 1990 pp.142-143; Seebold 1970 pp.35-36,218. Earlier raising is not late OE i-mutation; see sc056-ordinary-palatal-diphthongization-adjudication.md and gift model entry.	Ringe 2017 p.135, pp.151-153; Campbell 1959 pp.173-174 (OE headword); original import: Wiktionary inheritance templates, scholarly upstream attribution unidentified.	regular			gift	*gíftiz	99
 619	ɡ ɪ f t	*géftiz	ɡ ɪ f t ( - - )	ɡɪft	Gift	171	German						gift	*géftiz	99
 752	x eː v ə	*gébaną	x eː v ə - ( - - )	xeːvə	geven	206	Dutch						give	*gébaną	100
 751	ɡ ɪ v	*gébaną	ɡ ɪ v - - ( - - )	ɡɪv	give	206	English						give	*gébaną	100
@@ -504,10 +504,10 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 1796	h ɔː k	*xábukaz	h ɔː - - k ( - - )	hɔːk	hawk	492	English						hawk	*xábukaz	118
 2060	h a f o c	*xábukaz	h ɔː - - k ( - - )	hɔːk	hafoc	492	Old_English		Source: Wiktionary etymology (template:inh) | Source: Wiktionary etymology (template:inh)	regular			hawk	*xábukaz	118
 1795	h aː b ɪ x t	*xábukaz	h aː b ɪ x ( - t )	haːbɪxt	Habicht	492	German						hawk	*xábukaz	118
-811	h oː j	*xáwwją	h oː - ( j - - )	hoːj	hooi	222	Dutch						hay	*xáwwją	119
-810	h eɪ	*xáwwją	h eɪ - ( - - - )	heɪ	hay	222	English						hay	*xáwwją	119
-2061	h ī e ġ	*xáwwją	h eɪ - ( - - - )	heɪ	hīeġ	222	Old_English		Source: Wiktionary etymology (template:inh) | Source: Wiktionary etymology (template:inh)	regular			hay	*xáwwją	119
-809	h ɔy	*xáwwją	h ɔy - ( - - - )	hɔy	Heu	222	German						hay	*xáwwją	119
+811	h oː j	*xáwją	h oː - ( j - - )	hoːj	hooi	222	Dutch						hay	*xáwją	119
+810	h eɪ	*xáwją	h eɪ - ( - - - )	heɪ	hay	222	English						hay	*xáwją	119
+2061	h ī e ġ	*xáwją	h eɪ - ( - - - )	heɪ	hīeġ	222	Old_English		Source: Wiktionary etymology (template:inh) | Source: Wiktionary etymology (template:inh)	regular			hay	*xáwją	119
+809	h ɔy	*xáwją	h ɔy - ( - - - )	hɔy	Heu	222	German						hay	*xáwją	119
 491	h aː z ə l aː r	*xáslaz	h aː z ə l ( aː r )	haːzəlaːr	hazelaar	134	Dutch						hazel	*xáslaz	120
 490	h eɪ z ə l	*xáslaz	h eɪ z ə l ( - - )	heɪzḷ	hazel	134	English						hazel	*xáslaz	120
 2062	h æ s l	*xáslaz	h eɪ z ə l ( - - )	heɪzḷ	hæsl	134	Old_English		Source: Wiktionary etymology (template:inh) | Source: Wiktionary etymology (template:inh)	regular			hazel	*xáslaz	120
@@ -598,7 +598,7 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 1836	k n eː t ə n	*knédaną	k n eː t ə n ( - - )	kneːtən	kneten	503	German						knead	*knédaną	137
 908	k n iː	*knéwą	k n iː ( - - - )	kniː	knie	249	Dutch						knee	*knéwą	138
 907	n iː	*knéwą	- n iː ( - - - )	niː	knee	249	English						knee	*knéwą	138
-2085	c n ē o w	*knéwą	- n iː ( - - - )	kneːo̯w	cnēow	249	Old_English		Source: Wiktionary Old English Swadesh list (retrieved 2025-12-12) | Source: Wiktionary etymology (template:inh) | Source: Wiktionary etymology (template:inh)	regular			knee	*knéwą	138
+2085	c n e o w e	*knéwai	c n e o w ( e )	kneo̯we	cneowe	249	Old_English	Regular dat.sg. *knéwai > cneowe; citation *knéwą retained. Short pre-ending stem contrasts with endingless cnēo and restored w in cnēow (Campbell 1959 pp.232-233; Hogg 2011 pp.21-22,86; Ringe-Taylor 2014 p.387). Dative ending follows Fulk 2018 p.147.	Historical nominative import: Wiktionary Old English Swadesh list (retrieved 2025-12-12), inheritance templates. Adopted dative comparison: Hogg 2011 pp.21-22,86; Campbell 1959 p.233; Luick p.139. PGmc cell construction: Fulk 2018 p.147. SC033 adjudication.	late_analogy			knee	*knéwą	138
 906	k n iː	*knéwą	k n iː ( - - - )	kniː	Knie	249	German						knee	*knéwą	138
 771	k n ɛ x t	*kníxtaz	k n ɛ x - t	knɛxt	knecht	211	Dutch						knight	*kníxtaz	139
 770	n aɪ t	*kníxtaz	- n aɪ - - t	naɪt	knight	211	English						knight	*kníxtaz	139
@@ -1067,7 +1067,7 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 833	ʃ p aː r ə n	*sparēną	ʃ p aː r ə n ( - - )	ʃpaːrən	sparen	229	German						spare	*sparēną	243
 367	s p eː r	*spéru	s p eː r ( - )	speːr	speer	101	Dutch						spear	*spéru	244
 366	s p ɪə	*spéru	s p ɪə r ( - )	spɪə	spear	101	English						spear	*spéru	244
-2206	s p e o r u	*spéru	s p ɪə r u	spɪəru	speoru	101	Old_English		Paradigm-cell target: NApl speoru (Épinal-Erfurt "Contos, speoru"; Brunner §110.1; Campbell §607). Lautgesetzlich outcome of *spéru via back-umlaut + retention of -u after light stem (Campbell §210). WS spere is analogical levelling from NSg (Campbell §210.1). See DEV_NOTES §17.16–17.17.	regular			spear	*spéru	244
+2206	s p e o r u	*spéru	s p ɪə r u	spɪəru	speoru	101	Old_English		"Paradigm-cell target: NApl speoru (Épinal-Erfurt ""Contos, speoru""; Brunner §110.1; Campbell §607). Lautgesetzlich outcome of *spéru via back-umlaut + retention of -u after light stem (Campbell §210). WS spere is analogical levelling from NSg (Campbell §210.1). See DEV_NOTES §17.16–17.17."	regular			spear	*spéru	244
 365	ʃ p eː r	*spéru	ʃ p eː r ( - )	ʃpeːr	Speer	101	German						spear	*spéru	244
 303	s p ɪ n ə	*spínnaną	s p ɪ n ə - ( - - )	spɪnə	spinnen	84	Dutch						spin	*spínnaną	245
 302	s p ɪ n	*spínnaną	s p ɪ n - - ( - - )	spɪn	spin	84	English						spin	*spínnaną	245
@@ -1075,7 +1075,7 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 301	ʃ p ɪ n ə n	*spínnaną	ʃ p ɪ n ə n ( - - )	ʃpɪnən	spinnen	84	German						spin	*spínnaną	245
 181	s p ɪ l	*spennilō	s p ɪ - - - l ( - )	spɪl	spil	51	Dutch						spindle	*spénnilō	246
 180	s p ɪ n d ə l	*spennilō	s p ɪ n d ə l ( - )	spɪndḷ	spindle	51	English						spindle	*spénnilō	246
-2208	s p i n l	*spénnilō	s p ɪ n - - l	spɪnl	spinl	51	Old_English		Retarget from post-OE *spindle* (the -d- is a HG/OFri/ME glide between -n- and -l-) to OE *spinl*, the syncopated variant of *spinel* (Clark Hall s.v. "spinel f., gs. spinle 'spindle,' A, Cp"; spinl, spinil = spinel). PROTO retained as *spennilō (Kluge–Seebold s.v. Spindel; Orel HGE 364). See DEV_NOTES §17.45.	regular			spindle	*spénnilō	246
+2208	s p i n l	*spénnilō	s p ɪ n - - l	spɪnl	spinl	51	Old_English		"Retarget from post-OE *spindle* (the -d- is a HG/OFri/ME glide between -n- and -l-) to OE *spinl*, the syncopated variant of *spinel* (Clark Hall s.v. ""spinel f., gs. spinle 'spindle,' A, Cp""; spinl, spinil = spinel). PROTO retained as *spennilō (Kluge–Seebold s.v. Spindel; Orel HGE 364). See DEV_NOTES §17.45."	regular			spindle	*spénnilō	246
 179	ʃ p ɪ n d ə l	*spennilō	ʃ p ɪ n d ə l ( - )	ʃpɪndəl	Spindel	51	German						spindle	*spénnilō	246
 417	s p aː n	*spḗnuz	s p aː n ( - - )	spaːn	spaan	114	Dutch						spoon	*spḗnuz	247
 416	s p uː n	*spḗnuz	s p uː n ( - - )	spuːn	spoon	114	English						spoon	*spḗnuz	247
@@ -1262,7 +1262,7 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 548	d ɔ n ə r	*θúnraz	d ɔ n - ə r ( - - )	dɔnər	Donner	150	German						thunder	*θúnraz	288
 981	t eː k	*tikkô	t eː k ( - - )	teːk	teek	269	Dutch						tick	*tíkkô	289
 980	t ɪ k	*tikkô	t ɪ k ( - - )	tɪk	tick	269	English						tick	*tíkkô	289
-2256	t i c c a	*tíkkô	t ɪ k k ( - )	tɪk	ticca	269	Old_English		Retarget from gloss-Latinism *ticia* (Épinal/Erfurt/Corpus/Leiden) to the *ticca emendation explicitly proposed by Kroonen EDPG 2013 p. 556 s.v. *tīgan- ~ *tikkan-: "the OE gloss ticia is ambiguous; it has been emended to both *tīca and *ticca." See DEV_NOTES §17.44.	regular			tick	*tíkkô	289
+2256	t i c c a	*tíkkô	t ɪ k k ( - )	tɪk	ticca	269	Old_English		"Retarget from gloss-Latinism *ticia* (Épinal/Erfurt/Corpus/Leiden) to the *ticca emendation explicitly proposed by Kroonen EDPG 2013 p. 556 s.v. *tīgan- ~ *tikkan-: ""the OE gloss ticia is ambiguous; it has been emended to both *tīca and *ticca."" See DEV_NOTES §17.44."	regular			tick	*tíkkô	289
 979	ts ɛ k ə	*tikkô	ts ɛ k ( ə - )	t͡sɛkə	Zecke	269	German						tick	*tíkkô	289
 960	t ɛɪ t	*tīdiz	t ɛɪ t ( - - )	tɛɪt	tijd	263	Dutch						tide	*tī́diz	290
 959	t aɪ d	*tīdiz	t aɪ d ( - - )	taɪd	tide	263	English						tide	*tī́diz	290
@@ -1465,7 +1465,7 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 829	j ɔ x	*júką	j ɔ x ( - - )	jɔx	Joch	228	German						yoke	*júką	332
 870	j øː x t	*júgunθiz	j øː x - - t ( - - )	jøːxt	jeugd	239	Dutch						youth	*júgunθiz	333
 869	j uː θ	*júgunθiz	j uː - - - θ ( - - )	juːθ	youth	239	English						youth	*júgunθiz	333
-2308	ġ e o g u þ	*júgunθ	j uː - - - θ ( - - )	juːθ	ġeoguþ	239	Old_English	PROTOFORM *jugunθ (without -iz): (1) Early i-apocope: R/T §6.8.1 shows final *-i lost after heavy syllable BEFORE i-umlaut. R/T vol.2 p.141: "*jugunþi > *juguþ". Campbell §332: "duguþ < *dugunþ-, and so geoguþ". (2) Medial u preserved: Campbell §373 "u always well preserved after accented u" (vowel harmony). Contrast *xaubudą > hēafod (au, not u, so u→o). See DEV_NOTES.md §14.9 for full documentation.	Source: Wiktionary etymology (template:inh) | Source: Wiktionary etymology (template:inh)	early_analogy			youth	*júgunθiz	333
+2308	ġ e o g u þ	*júgunθ	j uː - - - θ ( - - )	juːθ	ġeoguþ	239	Old_English	"PROTOFORM *jugunθ (without -iz): (1) Early i-apocope: R/T §6.8.1 shows final *-i lost after heavy syllable BEFORE i-umlaut. R/T vol.2 p.141: ""*jugunþi > *juguþ"". Campbell §332: ""duguþ < *dugunþ-, and so geoguþ"". (2) Medial u preserved: Campbell §373 ""u always well preserved after accented u"" (vowel harmony). Contrast *xaubudą > hēafod (au, not u, so u→o). See DEV_NOTES.md §14.9 for full documentation."	Source: Wiktionary etymology (template:inh) | Source: Wiktionary etymology (template:inh)	early_analogy			youth	*júgunθiz	333
 868	j uː ɡ ə n t	*júgunθiz	j uː ɡ ə n d ( - - )	juːɡənt	Jugend	239	German						youth	*júgunθiz	333
 2309	m a c a	*mákô	m a k a	maka	maca	539	Old_English	Class II weak iptv. 2sg test (R/T §5.2). Trimoric *ō → OE -a.		late_analogy			make (iptv.2sg)	*makōną	368
 2310	m a c a þ	*mákōθi	m a k a θ	makaθ	macaþ	540	Old_English	Class II weak 3sg pres. indic. Regular: *-ōθi → -aþ (Campbell §355.4, R/T vol.2 p.80). No i-umlaut: 3sg ending never had -j-. Forms with -eþ are dialectal (Campbell §757).		late_analogy			make (3sg)	*makōną	369
@@ -1477,3 +1477,17 @@ ID	TOKENS	PROTOFORM	ALIGNMENT	IPA	COUNTERPART	COGIDS	DOCULECT	NOTE	HISTORY	DERIV
 2316	l i c c a þ	*líkkōθi	l i k k a θ	likkaθ	liccaþ	546	Old_English	Class II weak 3sg pres. indic. Regular: *-ōθi → -aþ. No i-umlaut: 3sg ending never had -j-. Root has cc from WGmc gemination.		late_analogy			lick (3sg)	*likkōną	375
 2317	s ċ ē a w a	*skáwô	s k e a w a	skeawa	sċēawa	547	Old_English	Class II weak iptv. 2sg test. Trimoric *ō → OE -a. Normalized sċ: Campbell §440.		late_analogy			show (iptv.2sg)	*skawōną	376
 2318	s ċ ē a w a þ	*skáwōθi	s k e a w a θ	skeawaθ	sċēawaþ	548	Old_English	Class II weak 3sg pres. indic. Regular: *-ōθi → -aþ. No i-umlaut: 3sg ending never had -j-. Normalized sċ: Campbell §440.		late_analogy			show (3sg)	*skawōną	377
+2319	ʋ i	*xwáz	ʋ i	ʋi	wie	549	Dutch						who	*xwáz	378
+2320	h uː	*xwáz	h uː	huː	who	549	English						who	*xwáz	378
+2321	v eː ɐ	*xwáz	v eː ɐ	veːɐ	wer	549	German						who	*xwáz	378
+2322	h w ā	*xwáz	h w ā	hwɑː	hwā	549	Old_English	Interrogative pronoun, nom.sg.masc. *hwaz (Goth. hwas) > OE hwā by northern WGmc monosyllabic final *-z loss with compensatory lengthening (SC097), R/T 2014: 86. Back ā never fronts: Campbell §125 p.49 (*hwǣ does not exist); Brunner §137 Anm.1 p.129. Alternative account (Campbell/Brunner): generalized unaccented *hwa with later lengthening — recorded, not adopted.	See docs/sound_changes/audits/corpus-maturation-01-candidate-adjudication.md §1	regular			who	*xwáz	378
+2323	y	*ízwiz	y	y	u	550	Dutch						you	*ízwiz	379
+2324	j uː	*ízwiz	j uː	juː	you	550	English						you	*ízwiz	379
+2325	ɔy ç	*ízwiz	ɔy ç	ɔyç	euch	550	German						you	*ízwiz	379
+2326	ē o w	*ízwiz	ē o w	eːo̯w	ēow	550	Old_English	Second-person plural pronoun, dat.(-acc.) pl. PGmc *izwiz (Goth. izwis) > *iwwi by coronal-w assimilation (SC008; R/T 2014 pp.41-42), then early inherited-glide reanalysis (SC031) > *iuwi. Selected weak-final context at SC098 gives *iuw by heavy-syllable apocope before mutation (R/T 2014 pp.55,57-58); lexical accent does not encode sentence stress. Later English realization uses SC032, not SC033. WS ēow beside eWS/Nb īow: Campbell 1959 §702 p.283 note. The context annotation is separate from PROTO/PROTOFORM; the retained-i terminal counterfactual is model-only, not an attested strong spelling.	See docs/sound_changes/audits/sc098-context-apocope-adjudication.md and docs/sound_changes/audits/sc031-glide-reanalysis-adjudication.md; historical admission record preserved in corpus-maturation-01-candidate-adjudication.md §2	regular			you	*ízwiz	379
+2327	w u n d u d e	*wúndōdē	w u n d u d e	wundude	wundude	551	Old_English	"Paradigm-cell 3.sg.pret.ind. of wundian (weak II), attested in the Pastoral Care itself: ""ne wundude he ðæs lichoman"" (Bosworth-Toller s.v. wundian). Stausland Johnsen 2015: 28-29 (6a): *wundōdē > pre-OE shortening *wundode (SC071) > medial raising wundude (SC099, his law); Hatton 20 attests the wund- paradigm variation wundad ~ wundud (2015: 20 (2b)) and medial-syllable u as the regular outcome (2015: 31, Figure 4). The medial u then survives the 9th-c. u > o lowering (SC040) by the Campbell §373 vowel-harmony restriction (preceding accented u)."	See docs/sound_changes/audits/sc021-adjudication.md §9a-10	regular			wound	*wúndōdē	380
+2328	s ā w a n	*sḗaną	s ā w a n	sɑːwɑn	sāwan	552	Old_English	Strong verb class VII (verba pura) 'to sow', PGmc *sēaną (Goth. saian) > PNWGmc *sāaną by SC024 (R/T 2014: 12) > WS/Merc./Kent. sāwan (North. sāwa). The WGmc forms exhibit innovative hiatus-filling consonants (Þórhallsdóttir 1993: 82-137): OE inserted *w — regular first between the stressed stem vowel and the *u-initial endings (pres.ind.1sg *-u, pres.ind.1pl *-um, redupl.pret.pl. *-um/*-uþ/*-un), then analogically generalized through the whole present paradigm and the pret.ptc., assisted by the pret. stem *seuw(un) and by etymological-*w verbs such as flōwan (Þórhallsdóttir 1993: 120, 126-27, 136, read directly; reported at R/T 2014: 151). The infinitive is NOT one of the cells that receives *w phonologically, so the *w of the citation form sāwan is analogical; OS and OHG instead used *j (OS sājan, OHG sāen; Tatian sāwen shows both). The *w arose early enough to prevent fronting (SC102 before SC101): fronting never occurred before *w plus a back/nonhigh vowel (R/T 2014: 151; Hogg 1992: 81 [2011: 79]) — hence sāwan, not *sǣwan. Same class: wāwan, cnāwan, māwan, þrāwan, blāwan (R/T 2014: 151); recorded but not added (diagnostic coverage, not corpus padding).	See docs/sound_changes/audits/sc024-sc025-sc101-e1-complex-adjudication.md §12 (sow/laewan follow-up)	regular			sow	*sḗaną	381
+2329	l ǣ w a n	*lḗwijaną	l ǣ w a n	læːwɑn	lǣwan	553	Old_English	Weak verb class I 'to betray', PGmc *lēwijaną (Goth. lewjan) > PWGmc *lāwijan (OHG gi-lāen) > WS *lǣwjan > lǣwan (R/T 2014: 150). The *w is INHERITED (not hiatus-filling) and is followed by high-front *i at the fronting stage, so SC101 fronts the *ā: one of R/T's three witnesses that *ā, like short *a, was fronted before *w followed by a high front vowel (with eltǣwe and brǣw, R/T 2014: 150). The front root vowel is supplied by SC101 fronting itself, not by later i-umlaut — the SC101-boundary form is already *lǣwijaną.	See docs/sound_changes/audits/sc024-sc025-sc101-e1-complex-adjudication.md §12 (sow/laewan follow-up)	regular			betray	*lḗwijaną	382
+2330	þ ō h t e	*θánxtē	þ ō h t e	θoːxte	þōhte	554	Old_English	Class I weak preterite 3sg 'thought', paradigm cell of þenċan (CONCEPT 'think', PGmc *þankijaną, row 2248). Principal parts PGmc *þankijaną, *þanhtē, *þanhtaz (Ringe 2017: 281; the preterite/participle stem *þanh- also at Ringe 2017: 136, §3.2.4(iv), where PGmc *þanhtaz 'thought' is reconstructed with the nasal still intact before *h). Entered at the PGmc stage with the nasal present (*θánxtē) so that the nasal loss is derived, not assumed. Diagnostic value: this is the low-vowel (*aNx) branch of SC103 PGmcNasalLossBeforeX, which yields nasalized *ą̄ (transducer {*ã}); SC104 EAFNasalizedLowRounding then rounds it to *ō, giving OE þōhte. Fulk 2018 §4.1 p. 55 names exactly this form: the lengthened nasalized *ą̄ 'developed to ō in Anglo-Frisian (as in OE pret. sg. þōhte, OFris. thochte "thought") and did not fall together with OE ā < ai'. Contrast the existing SC103 witness fist (*fúnxstiz), whose input vowel is *u and which additionally runs through the *xst cluster; thought isolates the SC103 -> SC104 low-vowel path.	See docs/sound_changes/audits/sc025-sc104-nasalized-low-vowel-adjudication.md §12 (thought: low-vowel SC103 -> SC104 witness)	regular			thought	*θánxtē	383
+2331	h j uː	*xéwją	h j uː ( - - )	hjuː	hue	555	English						hue	*xéwją	384
+2332	h ī e w	*xíwją	h j uː ( - - )	hjuː	hīew	555	Old_English	J-gemination witness for *w after a short front vowel, contrasting with hay (*xáwją, row 2061). Adopted realized PGmc *xíwją normalizes Ringe-Taylor 2014 p.250 *hiwją, with CAPR dorsal x and lexical acute: palatalized iww becomes iuw, then pre-OE long iow and WS long iew. The ww+j/w+j encoding carries palatal conditioning without settling the authors' uncertain phonemic analysis. Orel 2003 pp.171-172 *xewjan and Kroonen 2013 p.224 *heuja- remain genuine e-form alternatives with different derivational accounts and ending conventions. Ringe 2017 pp.151-153 and Fulk 2018 p.59 support inherited raising before high front i/j; no later one-word raising law is introduced. Fulk 2018 pp.71-72,126 disputes traditional geminate dismantling, a retained qualification. Campbell 1959 p.46 contrasts awj/iwj and prints hīow/hīew; p.167 describes general gemination. Target hīew, context and regular classification are unchanged. Positive witness for SC010 and the separate SC033/SC110 reanalysis/realization; negative control for low-vowel SC029.	See docs/sound_changes/audits/hue-source-chain-proposal.md and sc033-adjudication.md (approved inherited-i hue correction; source disagreements retained)	regular			hue	*xíwją	384

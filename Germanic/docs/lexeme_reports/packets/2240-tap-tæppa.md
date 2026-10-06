@@ -793,7 +793,7 @@ _None_
 | Key | Why it was selected |
 | :--- | :--- |
 | Kroonen2013 | default Proto-Germanic etymology key for Kroonen |
-| Hogg1992 | single available key for Hogg |
+| HoggPhonology1992 | single available key for Hogg |
 | Campbell1959 | single available key for Campbell |
 | SieversBrunner1965 | single available key for Sievers |
 | Luick1914 | single available key for Luick |

@@ -86,7 +86,7 @@ This hit is purely accidental. DEV_NOTES quotes Campbell on compound stress: `"A
 - Recommended next use: `use_as_project_history_only`
 - Shared with row IDs:
 
-This is the only packet hit that names an Old English form rather than an English prose verb, but it still belongs to a different lexeme. Hogg's example list for breaking includes `feoll 'fell'`, i.e. the preterite of `feallan` 'fall'. That form is phonologically and morphologically unrelated to the noun `fell` 'skin, hide', so the passage should remain indexed only as reviewed search noise [DEV_NOTES:line-33887-33890; @Hogg1992, §5.85ff.].
+This is the only packet hit that names an Old English form rather than an English prose verb, but it still belongs to a different lexeme. Hogg's example list for breaking includes `feoll 'fell'`, i.e. the preterite of `feallan` 'fall'. That form is phonologically and morphologically unrelated to the noun `fell` 'skin, hide', so the passage should remain indexed only as reviewed search noise [DEV_NOTES:line-33887-33890; @HoggPhonology1992, §5.85ff.].
 
 ## Superseded or diagnostic material
 

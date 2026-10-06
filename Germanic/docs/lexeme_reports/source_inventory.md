@@ -15,7 +15,7 @@ needs a generated `### Lexeme report`.
 - **Bibliography database:** `docs/refs.bib`
 - **Bibliography-key convention:** the header of `docs/refs.bib` is explicit
   that project Markdown should use **pandoc-style citations** such as
-  `[@Hogg1992]`, `[@Kroonen2013, p. 82]`, and `[-@Ringe2006]`.
+  `[@HoggGrammar1992]`, `[@Kroonen2013, p. 82]`, and `[-@Ringe2006]`.
 - **Decision for lexeme reports:** use **pandoc-style `[@key]` citations** in
   Markdown. This is the only citation convention explicitly documented in the
   repository, and it is LaTeX-friendly via pandoc/biblatex conversion.

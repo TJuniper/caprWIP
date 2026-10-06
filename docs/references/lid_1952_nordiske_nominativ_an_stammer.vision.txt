@@ -1,0 +1,263 @@
+Lid, Nils. 1952. "Den nordiske nominativ singularis av maskuline an-stammer."
+Norsk Tidsskrift for Sprogvidenskap (NTS) 16: 237-240. Oslo: H. Aschehoug & Co.
+
+SOURCE AND METHOD
+Google Vision DOCUMENT_TEXT_DETECTION (DOCUMENT_TEXT_DETECTION, language
+hints no/da/de) over 400 dpi renderings of the scanned offprint. The scan is
+two-up (one PDF page = two printed pages, landscape); each PDF page was split
+at the detected gutter column and the two printed pages were OCRed separately,
+so the `=== page NNN ===` markers below are the PRINTED NTS pagination and text
+never crosses a printed page boundary. Page 236 (end of the preceding article,
+Sommerfelt on Irish cearnabhan) and page 241 (start of the following article)
+are included only as context for the page boundaries; they are not by Lid.
+
+OCR CAVEAT
+This is machine OCR of a 1952 Norwegian (Nynorsk) text containing Sami,
+Old Norse and Gothic forms with macrons, and phonetic symbols. Diacritics and
+the Sami letter <ð> are generally well rendered but are NOT guaranteed; the
+raw OCR occasionally confuses <a>/<å>/<ā> and drops superscript footnote
+markers. Verify any character-level claim against the PDF before citing vowel
+quality.
+
+CORRECTION APPLIED (p. 238). Vision read the key vowel of "gått over til ā" as
+Norwegian <å>. The page image was inspected directly at high magnification and
+the printed character is unambiguously <ā> (macron), matching the surrounding
+reconstructions *sāðō / *sēðō- and the contrast with <ē>. That single character
+has been corrected in the page-238 block below; no other editorial change has
+been made to the OCR output anywhere in this file.
+
+KEY PASSAGE FOR CAPR
+p. 238: Lid argues from the Sami loanword manno (acc.-gen. mano) that
+Proto-Germanic root-vowel *e (Gothic mena) had ALREADY become *a before the
+word was borrowed into Sami, with the parallel Sami saddo < Proto-Nordic
+*sado f. (< *sedo-) > ON sad. The same passage states that at the borrowing
+period *ai had NOT yet become *a before *r (Sami gai'ro < *skairo(n) > skari),
+which supplies a relative-chronology anchor.
+
+--------------------------------------------------------------------------
+
+=== front matter (journal title page) ===
+
+NORSK TIDSSKRIFT FOR
+SPROGVIDENSKAP
+UNDER MEDVIRKING AV
+KNUT BERGSLAND, HARRIS BIRKELAND, CARL HJ. BORGSTRØM,
+OLAF BROCH, Ingerid Dal, GEORG MORGENSTIERNE, KONRAD NIELSEN,
+MAGNUS OLSEN, D. A. SEIP, E. W. SELMER, ALF Sommerfelt,
+CHR. S. STANG, HANS VOGT
+UTGITT AV
+CARL J. S. MARSTRANDER
+BIND XVI
+OSLO 1952
+H. ASCHEHOUG & CO. (W. NYGAARD)
+
+=== page 236 ===
+
+236
+ALF SOMMERFELT
+In early Irish dictionaries ‘hornet' is the meaning assigned to
+cearnabhán, e. g. O'Brien's Irish Dictionary (Paris, 1768) has cearnabhan,
+a hornet, and De Vere Coney's Irish-English Dictionary (1849) has
+cearnabhán, a hornet. This compiler refers to some edition of the
+Irish Bible, thus: Joshua. XXIV.12. Ex. XXIII.28.'¹
+Professor O'Toole has also found céarnamhan, in an invective
+contained in MS. Egerton 172, fol. 36 b, British Museum, transcribed
+in 1759 (British Museum Catalogue of Irish Manuscripts, vol. II, p. 120,
+article 3, and Additions and Corrections, p. XXX).
+It is evident that the word is the cern-dubán 'some animal',
+which Kuno Meyer notes in his Contributions, where it is taken from
+O'Donovan's translation of Cormac's Glossary, as O'Toole pointed
+out in an earlier letter.
+When a word for hornet has acquired the meaning of 'bat' as
+in Torr in Donegal, the case can hardly be one of an ordinary con-
+fusion. The difference between the bat and the hornet is too obvious.
+It must be a case of avoidance of the real name. The bat may have
+been termed cearlamán na h-oidhche 'the hornet of the night', and
+the transfer of the meaning would have followed the usual pattern
+in syntagms where the meaning of the whole syntagm may be con-
+centrated in one of its members, cf. how French pas has got its
+negative sense from ne. It is significant that the bat is called púca
+na h-oidhche 'the ghost of the night' in certain parts of Munster.
+Words like cern-dubán, which play a part in "primitive lore",
+are exposed to irregular changes. After the assimilation of -N-d-, the
+intervovalic -bh- (--) has been closed to -m- under the influence of
+the preceding strong nasal (cf. Pedersen, Vgl. gramm. I, § 99, note 4,
+the author Dialect of Torr, § 474) and the suffix in -man. Then the
+first nasal -N- has been dissimilated to -L-, the final -ŉ being more
+resistent by the fact that it belongs to a very common suffix.
+1
+In the translation of the Old Testament by William Bedell, Bishop of Kilmore
+(Dublin 1852) the texts are: Agus do chuir mé an ceárnabhan rómhuibh 'and
+I sent the hornet before you', Agus cuirfe mé céarnabháin romhad, noch díbeorus
+amach an Hibhiteach, etc. 'And I shall send hornets before thee, which shall
+drive out the Hivite', etc.
+
+=== page 237 ===
+
+DEN NORDISKE NOMINATIV SINGULARIS
+AV MASKULINE an-STAMMER
+AV
+NILS LID
+en gjeldande oppfatning at endinga til denne nominativen, gn.
+Den
+hani (-e), máni (-e) etc., skulle gå tilbake på urgerm. •ēn, ~
+gr. -, motsett -ō(n) som finst i vestgerm. (ght. -o), ~ gr. -wv, kan
+ikkje vera rett.
+For å få fram ein mellomled frå det hypotetiske urgerm. -en og til
+-i, -e i historisk tid, tenkjer ein seg at urnordisk -a i runeinnskrifter
+her skulle representera, som det heiter, „nasal a med e-farge",
+nasal " el. likn.¹
+Men det eldste laget av nordiske an-stammer i samisk har o.
+Alt Vilhelm Thomsen har i si banebrytande avhandling: Den gotiske
+sprogklasses indflydelse på den finske (1869), sett opp ei gruppe av
+slike samiske ord (s. 92): „mānno måne, moallo smule (moli), murkko
+mørke (myrkvi), staððo [ambolt (steði)], stoalppo stolpe, vaddo fare
+(vandi).“ Talet på sikre ord som høyrer hit, er etter den tid i det
+minste auka til det tredoble, fyrst og fremst gjennom det materialet
+som er samla i Qvigstads Nordische Lehnwörter im Lappischen (1893),
+i K. B. Wiklunds skrifter: Laut- und Formenlehre der Lulelappischen
+Dialekte (1891), Entwurf einer urlappischen Lautlehre (1896), og dess-
+utan gjennom dei nye samiske ordbøkene. Wiklund var vis med at
+samisk o her går tilbake på urnordisk (lang) o, men ingen har dregi noko
+1 Denne forklåringa er fyrst gjeven av Sophus Bugge i Norges Indskrifter med
+de ældre Runer 1, s. 65 (1891) og i Arkiv för nordisk filologi 8 (1892), s. 17 ff.,
+der han seier at urnordisk her må ha hatt „høit a, der nærmede sig til ce".
+Før den tid nøgde ein seg med å visa reint ålment til at urnordisk og historisk
+nordisk kunne representera kvar sin av dei etymologisk ulike endingane.
+
+=== page 238 ===
+
+238
+NILS LID
+slutning av dette for den urnordiske forma; finno-ugristane har slått
+seg til ro med det resultat som nordistane har komi til.¹
+Som det går fram av det nemnde ordet manno (lint stadium -ān-,
+akk. gen. mano), 2 er her den urgermanske rotvokalen ē (i got. mēna)
+gått over til ā før ordet vart lånt til samisk (sameleis som i det samiske
+saððo -āð. <urnord. *sādō f. (<*sēðō-³)>gn. sáð). Og endevokalen kan
+ikkje ha hatt nokon merkande nasalitet. Under innlåningstida var også
+urgerm. x bortfallen framfor 1, om ein kan døma etter samisk stallo
+(akk.-gen. stālo) <*stālō(n) > norsk (i Setesdal) ståle ‘ei segnkjempe';
+ordet representerer eit eldre *staxlo ("). Derimot var endå ikkje den
+tid ai gått over til ā framfor r, som ein kan slutta av samisk gai'ro
+(akk. gen. gairo) <*skairō(") > skári ‘måkeunge'. Falk-Torps etymologi
+av dette ordet (under skjær 2, gn. skjarr) må vera rang. Det kjem
+ikkje av *skēr (: *sker-, 'springa, hoppa'), men høyrer til gn. skárr,
+-skárr (<*skair-), sideform til skírr 'rein, usulka'.
+Då det nemnde ordet staððo, d. e. stað'do < urnord. nom. *stapio(n),
+ikkje har stadieveksel, må samane ved innlåninga ha teki i-lyden i ordet
+som stavingsberande trass i at det er kort rotstaving, med di det er
+urnordiske trestavingsord som, ved kontraksjon, vert utan stadieveksel
+i samisk (vanlegvis ia- og iō-stammer).5
+Den urnordiske runeskriftforma på -a i nominativ, som altså går
+tilbake på -ō (n) (sameleis som nom.-akk. sg. på -a av nøytrale an-stammer
+går tilbake på -ō (n)), har i historisk tid berre kunna halda seg i stivna
+samansetningar, i adjektiv som blóðrisa, frumvaxta. Men korleis kan
+så nominativendinga -i, -e ha vaksi fram?
+1
+2
+I finsk er det berre påvist eit par sikre ord på -o som er urnordiske an-stammer,
+sml. Björn Collinder, Die urgermanischen Lehnwörter im Finnischen (1932), s. 77 ff.,
+der det er gjevi tilvisningar til litteratur.
+Dei samiske ord som er medtekne her, er alle Finnmark-samiske.
+3
+I gotisk -stamme: seps (manasēps).
+4 Jfr. mi framstelling i Jolesveinar og grøderikdomsgudar (1933) s. 61 f. Tilsvarande
+samisk stalle -āl- <urnord. *stāla (<*staɣla-) > gn. stál.
+5 Jfr. V. Thomsen sst., Konrad Nielsen i Sproglige og historiske afhandlinger
+viede Sophus Bugges minde (1908) s. 225 ff. (= Studia Septentrionalia 1, s. 57 ff.)
+og K. B. Wiklund i Le Monde Oriental 12 (1919), S. 232 f.
+
+=== page 239 ===
+
+DEN NORDISKE NOMINATIV SINGULARIS AV MASKULINE an-STAMMER 239
+Det må liggja overlag nær å tenkja seg at denne endinga har
+vorti overførd frå ian-stammene. Nominativendinga -iō (n) vert her -ia,
+der a'en har vorti stutt og derfor fell regelrett bort under apokopen,
+og dermed er nominativen på -i fullferdig, parallelt med det resultat
+som kjem fram ved apokopen av visse former av ia-stammene (og iō-
+stammene), t. d. nom.-akk. av nøytrale langstava ia-stammer, som gn.
+kvæði < urnord. *kvapia, klæði < *klāpia> samisk lað'de (utan stadie-
+veksel). 1 synkopetida må i frå ian-stammene ha komi i staden for
+endevokalen -a i dei reine an-stammer (og wan-stammer), ein vokal
+som den tid var sterkt utsett for reduksjon gjennom den ålmenne
+apokopen. Når ian-stammene her vart normerande, høver det med
+at dei har vori serleg produktive i heile grupper (både med lang og
+stutt rotstaving); det er alle dei på byggi, -ingi, -nyti, -skeggi, -veri,
+-virki. Vi ser også at ian-stammene har vori produktive i gotisk, der
+det gjeld ordlagingar som arbja, ‘arving', aúrtja 'jordbrukar', bandja
+'fange', fiskja 'fiskar', haúrnja ‘hornblåsar', waúrstwja ‘arbeidar', af-
+drugkja 'drikkar', manamaúrþrja ‘mordar'.1
+At nominativendinga frå ian-stammene har trengt inn i dei andre
+stammene på -an-, er i grunnen ikkje meir påfallande enn at nom. sg.
+av iō-stammene har fått si ending frå i-stammene, eller at nominativ
+fleirtal av dei same an-stammene har fått si ending frå fleirtal av
+dei maskuline a-stammer (-a har haldi seg, som det synest sporadisk
+i gamalsvensk² og i gamalnorske samansette adjektiv som samfeðra,
+sammæðra), der omforminga har hatt same differensierande verknad
+som i vårt tilfelle.
+Den forklåring som her er gjeven, vil ikkje skapa noko vanskar
+når det spørst om bryting og omlyd i desse orda. Det gjeld den
+a-bryting ein har i ord som Bjarni, bjalki, bjaxi etc., som di lettare
+1 Professor Carl Marstrander, som eg i si tid førela spørsmålet om denne
+nominativen med tanke på det som kan sluttast av det samiske materialet, har
+uavhengig komi til det same resultat som eg her har skissert. Han aksentuerer
+serskilt at substantiv med det innlånte suffiks -aria- (i gotisk bōkareis 'skriftlærd',
+laisareis 'lærar' etc.) mykje har komi til avløysing av tidlegare ian-stammer, og
+at dette viser korleis ian-stammene før rikte endå meir.
+2 Adolf Noreen, Altschwedische Grammatik (1904), s. 317.
+9
+
+=== page 240 ===
+
+240
+NILS LID: NOMINATIV AV MASK. aN-STAMMER
+kunne koma fram når den urnordiske nominativ har enda på rein a.
+Omlyd på grunn av i̇en i nominativen til dei vanlege an-stammene
+har ikkje kunna koma fram på eit så seint tidspunkt som under over-
+føringa frå ian-stammene i synkopetida,' men vel den seinare omlyden,
+palatalomlyden, den som finst i dreki.
+I alle fall kan det i germansk berre påvisast ei nominativending
+i eintal av maskuline an-stammer, med di både dei vestgermanske og
+nordiske formene, og sameleis den gotiske på -a, må førast tilbake
+på urgermansk -ō(n).
+1 Dei tilfelle av i-omlyd som finst, og som ikkje kan forklårast som analogi
+lagingar (etter iōn-stammer), må vel som det er gjort av Noreen, Altschwedische
+Grammatik, s. 318 f. førast tilbake på ein omlyd i dei kasus av desse an-stammer
+som hadde avlyd (-in-) av suffikset.
+
+=== page 241 ===
+
+REMARQUES SUR CERTAINS RAPPORTS ENTRE
+LE STYLE ET L'ÉTAT DE LANGUE
+C
+PAR
+LEIV FLYDAL
+'est une étude de M. R.-L. Wagner, En marge d'un problème de
+syntaxe (L'ordre de phrase sujet + verbe) (Mélanges Hoepffner;
+Paris 1949), qui a donné lieu aux considérations qui vont suivre.
+Nous avons essayé d'arriver à une représentation d'ensemble, réduite
+à sa plus simple expression, des rapports existant entre certains aspects
+du style et la langue. Nous renvoyons à Hans Vogt, Språksystem og
+språkutvikling (NTS 1947, Bind 14) notamment pour ce que nous
+avons appelé l'intégration momentanée à une structure donnée d'un
+système partiel antérieur. Cette formule, qui permet de conserver
+intacte, en face des abondantes survivances qui caractérisent certaines
+langues, la distinction de principe établie par Saussure entre les plans
+synchronique et diachronique, nous avons tâché de l'élargir en l'appli-
+quant à d'autres perspectives que celle temporelle et de lui donner
+ainsi une validité plus générale.
+A la page 117 du Cours de linguistique générale (3ª edition)
+de Ferdinand de Saussure nous lisons: » La première chose qui
+frappe quand on étudie les faits de langue, c'est que pour le sujet
+parlant leur succession dans le temps est inexistante: 1 il est devant
+un état. Aussi le linguiste qui veut comprendre cet état doit-il faire
+table rase de tout ce qui l'a produit et ignorer la diachronie. Il ne
+peut entrer dans la conscience des sujets parlants qu'en supprimant le
+passé. L'intervention de l'histoire ne peut que fausser son jugement.
+Selon nous il est normal que les sujets parlants se rendent parfois
+compte de l'ancienneté ou de la nouveauté des formes qui sont à leur
+1
+Les soulignements sont faits par nous. L. F.
+16 - Norsk Tidsskrift for Sprogvidenskap XVI
+<<

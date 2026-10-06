@@ -1,0 +1,8 @@
+fixture_id	row_id	probe	baseline_prediction	variant_prediction	recipe	source_key	printed_pages
+fronting-day	1985	after_fronting	*d*æ*g	*d*æ*g	sc043-controls	Campbell1959	52
+fronting-rest	2152	after_fronting	*r*æ*s*t*ǣ	*r*æ*s*t*ǣ	sc043-controls	RingeTaylor2014	58-59,299-300
+p-day-fricative	1985	after_palatal	*d*æ*ʤ	*d*æ*ʝ	p-delayed	Fulk2018	130-132
+p-hedge-stop	2069	after_palatal	*ç*æ*ʤ*ʤ*j	*ç*æ*ʤ*ʤ*j	p-delayed	Fulk2018	130-132
+p-singe-stop	2191	after_palatal	*s*á*n*ʤ*j*ą*n	*s*á*n*ʤ*j*ą*n	p-delayed	Fulk2018	130-132
+p-gift-fricative	2040	after_palatal	*ʤ*í*f*t*i	*ʝ*í*f*t*i	p-delayed	Fulk2018	130-132
+p-guest-mutation	2049	after_mutation	*ʤ*ie*s*t*i	*ʝ*ie*s*t*i	p-delayed	RingeTaylor2014	204,215-217

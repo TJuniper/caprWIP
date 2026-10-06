@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "baseline_fst_sha256": "e252dece8c775a3ef544fc5006f0d899f8cc52ed4edb250b61d4b9fa75337241",
+  "baseline_corpus_sha256": "358549ed343c2640bda2374f7275667de80394f3f431e8c1d0f9534756a6e99e",
+  "baseline_context_sha256": "6a69a8d450a0ad5898bed7150136dc70e5731422c29803608825cdefc6b0f914",
+  "baseline_context_helper_sha256": "b770b83ffc2bd863c9cd5dec6bcae67ecda60efe8ce0af7fa8cdf136e077b961",
+  "fixture_file": "oe_post_ai_fronting_fixtures.tsv",
+  "recipes": [
+    {
+      "id": "identity",
+      "description": "Complete post-SC004 production wrapper, without intervention.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [],
+      "assumptions": "Technical wrapper identity only.",
+      "limitations": "No historical inference."
+    },
+    {
+      "id": "f-coordinated",
+      "description": "Privately coordinate au fronting and completion with ordinary short-a fronting; preserve other clauses.",
+      "definitions": "define AFNoop [ ?* ];\ndefine AFRest [\n {*eu} -> {*ēo},\n {*éu} -> {*ēo},\n {*iu} -> {*ēo},\n {*íu} -> {*ēo},\n {*e} {*u} -> {*eo},\n {*é} {*u} -> {*éo},\n {*i} {*u} -> {*eo}\n];\ndefine AFFront [ OEAuBrightening .o. [ {*aeu} -> {*ēa}, {*áeu} -> {*ēa} ] ];",
+      "insert_after": "EAFBrightening",
+      "insert_rule": "AFFront",
+      "replace": {
+        "OEAuBrightening": "AFNoop",
+        "OEDiphthongLeveling": "AFRest"
+      },
+      "sources": [
+        {"key": "Campbell1939", "pages": "91"},
+        {"key": "Campbell1959", "pages": "52"},
+        {"key": "Luick1914", "pages": "130-131"},
+        {"key": "Nielsen2001", "pages": "514-515"},
+        {"key": "RingeTaylor2014", "pages": "41-42,55,57-58,65-66,172-175,215-217,222,235"}
+      ],
+      "assumptions": "The Campbell/Luick ordinary-a/au English episode is tested as one operational corridor. Source accounts and offglide milestones remain distinct. Published SC004 placement and inherited glides/prosodic contexts are unchanged. Current 20 SC030 and 32 SC032 populations are assessed; old 18/27 counts are not reused. SC043's unstressed/long-final clauses, SC033/034 and SC106 execute unchanged. The same full wrapper is derived from production; no copied cascade or new inputs.",
+      "limitations": "Private semantic variant, not an adopted F production rewrite or proof of event identity. Equal finals alone cannot establish chronology or inheritance. Split eu/iu notation is not silently equated with atomic diphthongs. Strew's target is reconstructed; retained-i you is model-only. No new vocabulary, baseline migration or blanket SC043 restaging.",
+      "component_checks": [
+        {"id":"early-a-ww","component":"OEWWSimplification","input":"*á*w*w","expected":"*áu*w"},
+        {"id":"early-e-ww","component":"OEWWSimplification","input":"*é*w*w","expected":"*éu*w"},
+        {"id":"early-i-ww","component":"OEWWSimplification","input":"*í*w*w","expected":"*íu*w"},
+        {"id":"homorganic-u-ww","component":"OEWWSimplification","input":"*u*w*w","expected":"*ū*w"},
+        {"id":"au-unstressed-completion","component":"AFFront","input":"*au*w","expected":"*ēa*w"},
+        {"id":"au-stressed-completion","component":"AFFront","input":"*áu*w","expected":"*ēa*w"},
+        {"id":"eu-not-au-fronted","component":"AFFront","input":"*eu*w","expected":"*eu*w"},
+        {"id":"atomic-eu-retained","component":"AFRest","input":"*eu*w","expected":"*ēo*w"},
+        {"id":"atomic-eu-acute-retained","component":"AFRest","input":"*éu*w","expected":"*ēo*w"},
+        {"id":"atomic-iu-retained","component":"AFRest","input":"*iu*w","expected":"*ēo*w"},
+        {"id":"atomic-iu-acute-retained","component":"AFRest","input":"*íu*w","expected":"*ēo*w"},
+        {"id":"split-eu-retained","component":"AFRest","input":"*e*u*w","expected":"*eo*w"},
+        {"id":"split-eu-acute-retained","component":"AFRest","input":"*é*u*w","expected":"*éo*w"},
+        {"id":"split-iu-retained","component":"AFRest","input":"*i*u*w","expected":"*eo*w"},
+        {"id":"split-iu-acute-no-invention","component":"AFRest","input":"*í*u*w","expected":"*í*u*w"},
+        {"id":"au-waits-for-fronting","component":"AFRest","input":"*áu*w","expected":"*áu*w"},
+        {"id":"weak-heavy-i","component":"PWGmcUnstressedWordFinalIApocope","input":"*ᵘ*g*a*s*t*i","expected":"*g*a*s*t"},
+        {"id":"strong-heavy-i","component":"PWGmcUnstressedWordFinalIApocope","input":"*g*á*s*t*i","expected":"*g*á*s*t*i"},
+        {"id":"weak-light-i","component":"PWGmcUnstressedWordFinalIApocope","input":"*ᵘ*b*a*r*i","expected":"*b*a*r*i"},
+        {"id":"weak-heavy-u","component":"PWGmcUnstressedWordFinalIApocope","input":"*ᵘ*g*a*s*t*u","expected":"*g*a*s*t"},
+        {"id":"strong-heavy-u","component":"PWGmcUnstressedWordFinalIApocope","input":"*g*á*s*t*u","expected":"*g*á*s*t*u"},
+        {"id":"proclitic-i","component":"PWGmcUnstressedWordFinalIApocope","input":"*ᶜ*u*m*b*i","expected":"*u*m*b*i*ᶜ"},
+        {"id":"strong-guest","component":"EAFBrighteningStressed","input":"*g*á*s*t*i","expected":"*g*æ*s*t*i"},
+        {"id":"nasal-land-negative","component":"EAFBrighteningStressed","input":"*l*á*n*d","expected":"*l*á*n*d"},
+        {"id":"long-who-negative","component":"EAFBrighteningLongFinal","input":"*x*w*ā","expected":"*x*w*ā"},
+        {"id":"hue-visible-residual","component":"OEJWWSimplification","input":"*ēo*w*w*j*ą","expected":"*ēo*w*j*ą"},
+        {"id":"gift-high-i","component":"OEWsPalatalDiphthongization","input":"*ʤ*í*f*t*i","expected":"*ʤ*í*f*t*i"},
+        {"id":"guest-diphthong-mutation","component":"OEIUmlaut","input":"*ʤ*ea*s*t*i","expected":"*ʤ*ie*s*t*i"},
+        {"id":"retained-late-sheath","component":"OELatePalatalDiphthong","input":"*ʃ*ǣ*θ*i","expected":"*ʃ*ēa*θ*i"}
+      ],
+      "staged_checks": [
+        {"id":"and-source-final","stage":"PWGmcUnstressedWordFinalIApocope","side":"before","input":"*ᵘ*a*n*d*i","expected":"and","evidence":"RingeTaylor2014 pp.57-58: source andi, staged PWGmc weak-final context."},
+        {"id":"around-source-proclitic","stage":"PWGmcUnstressedWordFinalIApocope","side":"before","input":"*ᶜ*u*m*b*i","expected":"ymbe","evidence":"RingeTaylor2014 pp.57-58: source umbi with the proposed proclitic context."},
+        {"id":"you-source-weak","stage":"PWGmcUnstressedWordFinalIApocope","side":"before","input":"*ᵘ*iu*w*i","expected":"ēow","evidence":"RingeTaylor2014 pp.41-42,57-58; Campbell1959 p.283."},
+        {"id":"you-strong-counterfactual","stage":"PWGmcUnstressedWordFinalIApocope","side":"before","input":"*iu*w*i","expected":"īei","evidence":"RingeTaylor2014 pp.41-42,57-58: model-only terminal output, not an attested strong spelling."},
+        {"id":"guest-strong","stage":"PWGmcUnstressedWordFinalIApocope","side":"before","input":"*g*á*s*t*i","expected":"ġiest","evidence":"RingeTaylor2014 p.55: stressed heavy negative supplied after z-loss."},
+        {"id":"fire-strong","stage":"PWGmcUnstressedWordFinalIApocope","side":"before","input":"*f*ū*r*i","expected":"fȳr","evidence":"RingeTaylor2014 p.55: stressed heavy negative; root quantity does not select sentence stress."},
+        {"id":"shadow-homorganic","stage":"PWGmcCoronalWAssimilation","side":"after","input":"*s*k*u*w*w*ô","expected":"sċūwa","evidence":"RingeTaylor2014 p.66: qualified long-u shadow account, staged control not a new PGmc admission."}
+      ]
+    }
+  ],
+  "probes": [
+    {"id":"before_ai","stage":"EAFAiMonophthongization","side":"before"},
+    {"id":"after_ai","stage":"EAFAiMonophthongization","side":"after"},
+    {"id":"after_early","stage":"OEWWSimplification","side":"after"},
+    {"id":"before_sc098","stage":"PWGmcUnstressedWordFinalIApocope","side":"before"},
+    {"id":"after_sc098","stage":"PWGmcUnstressedWordFinalIApocope","side":"after"},
+    {"id":"after_sc030","stage":"OEAuBrightening","side":"after"},
+    {"id":"after_sc032","stage":"OEDiphthongLeveling","side":"after"},
+    {"id":"before_fronting","stage":"EAFBrightening","side":"before"},
+    {"id":"after_fronting","stage":"OEBreaking","side":"before"},
+    {"id":"before_ordinary","stage":"OEWsPalatalDiphthongization","side":"before"},
+    {"id":"after_ordinary","stage":"OEWsPalatalDiphthongization","side":"after"},
+    {"id":"after_mutation","stage":"OEIUmlaut","side":"after"},
+    {"id":"after_late","stage":"OELatePalatalDiphthong","side":"after"}
+  ]
+}

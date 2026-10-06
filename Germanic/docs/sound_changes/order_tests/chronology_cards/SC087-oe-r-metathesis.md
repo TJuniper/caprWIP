@@ -1,7 +1,7 @@
 # SC087 OE R Metathesis — chronology evidence card
 
-## Current position
-- current_order: `86`
+## Position at experiment time
+- order_at_experiment_time: `86`
 - rule_name: `OERMetathesis`
 - safe computational window: `45-86` (later side runner-bounded)
 - status: `first_break_complete`

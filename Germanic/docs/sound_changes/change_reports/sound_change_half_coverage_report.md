@@ -9,7 +9,7 @@ _Generated from `sound_change_half_scaffold.tsv`, `report_manifest.tsv`, and the
 5. Number needing literature dossiers: 0.
 6. Number needing human judgement: 0.
 7. Number negative/boundary-only: 12.
-8. Number broad/far/contextual: 38.
+8. Number broad/far/contextual: 37.
 9. Every ordinary `SC*.md` chronology card is represented somewhere in the assembled sound-change half: yes.
 10. Recommended next work: final quality control of the assembled sound-change half.
 

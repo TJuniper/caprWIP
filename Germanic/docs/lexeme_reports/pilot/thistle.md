@@ -8,7 +8,7 @@ This row separates the etymological headword `*θéstilaz` from the selected FST
 
 - `Germanic/data/germanic-aligned-final.tsv`: `NOTE` identifies gen.sg. `þistles` as the paradigm-cell target and contrasts it with late West Saxon broken `þistel`.
 - `Germanic/docs/DEV_NOTES.md` §17.18 records the row change to genitive singular and treats it as parallel to other consonant-cluster nouns whose inflectional stem is philologically cleaner than the normalized nominative.
-- The background discussion of svarabhakti / parasitic vowels and cluster behavior is keyed in the row note to [@Campbell1959] and [@Hogg1992]; the protoform choice also cites [@KlugeSeebold2011].
+- The background discussion of svarabhakti / parasitic vowels and cluster behavior is keyed in the row note to [@Campbell1959] and [@HoggGrammar1992]; the protoform choice also cites [@KlugeSeebold2011].
 
 #### Old English philology
 

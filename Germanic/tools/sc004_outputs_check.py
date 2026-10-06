@@ -54,7 +54,7 @@ define ExpEnglishProtoToOE (
 );
 define ExpOldEnglishCore EnglishProtoInput .o. EarlyGermanicConsonantPipeline .o. ExpEnglishProtoToOE;
 define ExpOldEnglishAfterEpenthesis ExpOldEnglishCore .o. OEEpentheticVowel;
-define ExpOldEnglishRules ExpOldEnglishAfterEpenthesis .o. OELateUnstressedAgSuffix .o. OECjCleanup .o. OEXsMerge .o. OldEnglishOrthography .o. OEGlideUToEO .o. OldEnglishRemoveStars;
+define ExpOldEnglishRules ExpOldEnglishAfterEpenthesis .o. OELateUnstressedAgSuffix .o. OECjCleanup .o. OEXsMerge .o. OldEnglishOrthography .o. OEWsPalatalGlide .o. OldEnglishRemoveStars;
 define ExpOldEnglishReflexes ExpOldEnglishRules .o. OldEnglishSurface;
 define ExpOldEnglish ExpOldEnglishReflexes;
 clear stack

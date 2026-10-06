@@ -73,7 +73,7 @@ The final manifest is now synchronized to the actual live bare-source occurrence
 ### Genuine background
 
 - `fern / fearn` (`RingeTaylor2014`) remains broad because the current sentence uses the handbook as overall derivational framing rather than for one page-bound claim.
-- `way / weġ` (`Hogg1992`) remains broad for the same reason: the cited handbook functions as supporting background to a claim already anchored elsewhere.
+- `way / weġ` (`HoggPhonology1992`) remains broad for the same reason: the cited handbook functions as supporting background to a claim already anchored elsewhere.
 
 ### Source verified but unlocalized
 

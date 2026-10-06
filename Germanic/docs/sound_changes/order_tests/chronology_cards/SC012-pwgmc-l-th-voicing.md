@@ -1,7 +1,7 @@
 # SC012 PWGmc L Th Voicing — chronology evidence card
 
-## Current position
-- current_order: `12`
+## Position at experiment time
+- order_at_experiment_time: `12`
 - rule_name: `EAFLThVoicing`
 - former_rule_name: `PWGmcLThVoicing`
 - safe computational window: `4-86` (both directions boundary-only)

@@ -8,7 +8,7 @@
 > boundary. The stressed `*ái > *ā` development is SC004 `EAFAiMonophthongization`
 > (see `SC004-pwgmc-ai-monophthongization.md`, `SC004-components-chronology.md`).
 
-## Current position
+## Position at experiment time
 - current_order (SC id): `14`
 - executable cascade position: `1` (head of `EarlyEnglishLineChanges`, the former SC004 slot)
 - rule_name: `PNWGmcUnstressedAiMonophthongization`

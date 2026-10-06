@@ -1,0 +1,75 @@
+# reader_files.tsv — SOURCE OF TRUTH (hand-edited): editorial reader-file -> chapter assignment
+# for the Version 1 book. One row per reader-facing Markdown file in
+# docs/sound_changes/reader_facing/. Rows are sorted alphabetically by file name:
+# this file carries NO ordering information. Presentation order inside a chapter is
+# GENERATED (registry/reader_manifest.tsv) from the minimum executable cascade position
+# of the SCs each file contains (oe_pipeline). Which SCs live in which file is owned by
+# sc_registry.tsv (source_reader_facing_file).
+# Chapter metadata (titles, intro files) lives in registry/reader_chapters.tsv.
+reader_file	chapter_id
+003-west-germanic-rhotacism.md	3
+004-pwgmc-ai-monophthongization.md	4
+005-unstressed-a-raising-before-final-m.md	2
+006-early-i-apocope.md	2
+007-final-o-lowering-before-r.md	2
+008-coronal-w-assimilation.md	2
+009-ij-contraction-in-friend.md	2
+010-west-germanic-j-gemination.md	2
+011-syllabic-j-after-final-vowel-loss.md	2
+012-lth-voicing.md	2
+013-dental-hardening.md	2
+014-015-opening-vowel-prelude.md	2
+016-west-saxon-palatal-glide.md	5
+017-nwgmc-u-lowering.md	2
+018-stressed-monosyllable-o-raising.md	2
+019-nwgmc-final-long-o-raising.md	2
+020-wgmc-final-z-deletion.md	3
+022-mn-dissimilation.md	3
+023-n-stem-n-loss.md	3
+024-long-e-lowering.md	2
+025-long-a-nasal-rounding.md	3
+026-027-nasal-spirant-changes.md	3
+028-preconsonantal-x-loss.md	2
+029-030-awj-glide-and-au-fronting.md	4
+031-ww-simplification.md	2
+032-diphthong-leveling.md	4
+033-long-eow-diphthong.md	4
+034-long-eaw-diphthong.md	4
+035-037-prefix-and-compound-adjustments.md	4
+039-040-medial-unstressed-vowel-changes.md	4
+041-final-bare-a-loss.md	4
+042-surviving-bimoric-o-unrounding.md	4
+043-anglo-frisian-brightening.md	4
+044-045-breaking-and-velar-fricative-palatalization.md	4
+046-048-restoration-and-nasal-tail-changes.md	4
+049-pgmc-b-allophony.md	4
+050-pwgmc-sievers-law-syncope.md	4
+051-sk-palatalization.md	4
+052-velar-palatalization.md	4
+053-054-pre-umlaut-bridge-and-w-loss.md	4
+055-056-i-umlaut-core.md	4
+057-j-cluster-coalescence.md	4
+059-oe-back-mutation.md	4
+060-ws-palatal-umlaut-note.md	4
+061-weak-tail-nasal-loss-note.md	4
+063-high-vowel-apocope.md	4
+064-065-post-apocope-tail.md	4
+066-068-syncope-and-degemination-corridor.md	4
+069-early-o-shortening-context-note.md	4
+070-071-early-unstressed-fronting-shortening-bridge.md	4
+072-073-unstressed-long-vowel-shortening-and-ae-merger-core.md	4
+074-075-medial-unstressed-i-lowering.md	4
+076-prefix-i-reduction.md	4
+078-weak-tail-reduction.md	4
+079-080-final-j-loss-and-final-geminate-simplification.md	4
+081-083-j-strengthening-vocalization-and-ei-contraction.md	4
+085-086-h-loss-and-contraction.md	4
+087-r-metathesis.md	4
+089-late-unstressed-ag-suffix.md	4
+096-root-noun-nominative-z-loss.md	2
+097-monosyllabic-final-z-loss.md	3
+098-early-apocope-in-unstressed-words.md	3
+101-long-a-fronting.md	3
+102-hiatus-w-insertion.md	3
+103-pgmc-nasal-loss-before-x.md	1
+104-nasalized-low-vowel-rounding.md	3

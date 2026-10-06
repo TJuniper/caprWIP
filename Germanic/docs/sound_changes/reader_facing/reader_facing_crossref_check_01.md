@@ -1,13 +1,13 @@
 # Reader-facing cross-reference check 01
 
-_Generated from the current build-script chapter files and their SC-numbered rule headings._
+_Generated from the generated reader manifest's chapter files and their SC-numbered rule headings._
 
 ## Summary
 
-- Build script: `/Users/nathanhill/Code/capr/Germanic/docs/sound_changes/reader_facing/build_reader_facing_local_section_19_docker.sh`.
-- Chapter files checked: 56.
-- Rule headings mapped from current chapter files: 84.
-- Sound-change links checked: 247.
+- Reader manifest: `/Users/nathanhill/Code/capr/Germanic/docs/sound_changes/registry/reader_manifest.tsv`.
+- Chapter files checked: 66.
+- Rule headings mapped from current chapter files: 98.
+- Sound-change links checked: 303.
 - Symbolic `<` relations found: 0.
 - Bare SC references found: 0.
 - Rule-name-only references found: 0.

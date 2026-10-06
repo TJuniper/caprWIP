@@ -8,7 +8,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_MARKDOWN_PATH = REPO_ROOT / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_19.md"
+DEFAULT_MARKDOWN_PATH = REPO_ROOT / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md"
 LONG_HEADING_THRESHOLD = 65
 TARGET_RULE_NAME = "PNWGmcStressedMonosyllableORaising"
 TARGET_ANCHOR = "rule-PNWGmcStressedMonosyllableORaising"

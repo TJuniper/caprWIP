@@ -26,6 +26,11 @@ Bosworth-Toller and Clark Hall record the noun under standard spellings `hecg` '
 
 ### Development to Old English
 
+This is the geminate-stop class, distinct from the singleton fricative in
+*dæġ* 'day'. The model's palatal stop-reflex proxy does not assert that
+affrication had already occurred at the articulation checkpoint
+[@RingeTaylor2014, pp. 203–204; @Fulk2018, pp. 131–132].
+
 From [xágjaz]{.recon} ‘hedge’, West Germanic j-gemination first yields a geminate stop, and later Old English palatalization and loss of final `j` produce `heġġ` 'hedge'. The development is treated as regular rather than exceptional.
 
 ### Form note

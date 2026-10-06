@@ -31,7 +31,7 @@ INTRO_PATH = ASSEMBLY_DIR / "capr_book_intro_alpha_01.md"
 README_PATH = BOOK_DIR / "index_verborum_README.md"
 MANIFEST_PATH = ASSEMBLY_DIR / "manifest_all_by_class.tsv"
 COMPACT_PATH = REPO_ROOT / "Germanic/docs/debug_snapshots/oe_derivation_class_trace_report.compact.md"
-CHRONOLOGY_PATH = REPO_ROOT / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_19.md"
+CHRONOLOGY_PATH = REPO_ROOT / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md"
 MODEL_ENTRIES_DIR = REPO_ROOT / "Germanic/docs/lexeme_reports/model_entries"
 FORMS_PATH = BOOK_DIR / "index_verborum_forms.tsv"
 PRINT_MAIN_PATH = BOOK_DIR / "index_verborum_print_main.tsv"
@@ -801,6 +801,13 @@ def stage_to_language(label: str, form: str) -> str:
     return "preoe" if form.startswith("*") else "oe"
 
 
+# The compact derivation report labels the selected input with the name of the
+# Foma input-filter network, which has been renamed over time (ProtoInput ->
+# EnglishProtoInput). Matching only one spelling silently drops every selected
+# input from the index, so accept both and fail closed if neither is found.
+PROTO_INPUT_RE = re.compile(r"^(?:English )?Proto Input:\s*(.+)$", re.M)
+
+
 def add_production(
     store: dict[tuple[str, str, str, str, str, str, str], ProductionOccurrence],
     *,
@@ -888,7 +895,7 @@ def parse_compact_entries() -> list[dict[str, object]]:
         proto_match = re.search(r"^PROTO:\s*(.+)$", block, re.M)
         expected_match = re.search(r"^EXPECTED:\s*(.+)$", block, re.M)
         outputs_match = re.search(r"^OUTPUTS:\s*(.+)$", block, re.M)
-        proto_input_match = re.search(r"^Proto Input:\s*(.+)$", block, re.M)
+        proto_input_match = PROTO_INPUT_RE.search(block)
         table_lines: list[str] = []
         in_table = False
         for line in chunk:
@@ -918,6 +925,11 @@ def parse_compact_entries() -> list[dict[str, object]]:
                 "proto_input": proto_input_match.group(1).strip() if proto_input_match else "",
                 "stages": stages,
             }
+        )
+    if entries and not any(entry["proto_input"] for entry in entries):
+        raise ValueError(
+            "compact derivation report yielded no selected inputs; the "
+            "'Proto Input:' label has probably changed again (see PROTO_INPUT_RE)"
         )
     return entries
 
@@ -3613,7 +3625,7 @@ def guess_unresolved_category(candidate: CandidateOccurrence) -> str:
         return "likely_false_positive"
     if candidate.heading.startswith("### Old English evidence"):
         return "likely_oe"
-    if candidate.source_path.endswith("reader_facing_local_section_19.md"):
+    if candidate.source_path.endswith("reader_facing_local_section_20.md"):
         return "likely_preoe" if form.startswith("*") else "likely_oe"
     if form.startswith("*"):
         return "likely_pgmc"

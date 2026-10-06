@@ -41,7 +41,8 @@ def _read_first_break(name: str) -> dict:
 
 def _index_rows() -> dict:
     with INDEX.open(encoding="utf-8") as h:
-        return {r["change_id"]: r for r in csv.DictReader(h, delimiter="\t")}
+        lines = [line for line in h if not line.startswith("#")]
+    return {r["change_id"]: r for r in csv.DictReader(lines, delimiter="\t")}
 
 
 class FirstBreakTerminalTests(unittest.TestCase):

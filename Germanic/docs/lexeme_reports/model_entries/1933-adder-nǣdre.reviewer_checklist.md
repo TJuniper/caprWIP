@@ -48,6 +48,17 @@
 - Pilot 01 added page-specific locators for `Kroonen2013` (426),
   `Orel2003` (325), `ClarkHall1960` (225), and `Fulk2018` (149).
 
+The reconstruction survey supersedes the Orel325 assertion above: the
+original sheet325 is printed286. Current owners cite Orel2003 p.286 and
+distinguish the two feminine alternatives from the masculine comparison.
+The pilot's recorded review result is historical, not proof that its
+printed-page locator or normalized dental was correct.
+
+The independent Kroonen survey also corrects426 to printed386, verifying
+the feminine headword and incidental masculine quantity against the
+original. Neither locator correction changes the selected reconstruction
+or establishes renewed verification of the Clark Hall/Fulk pilot locators.
+
 ## Remaining human-review points
 
 1. Keep the feminine e-grade `*nēdrōn-` distinct from the masculine `*nadra-`.

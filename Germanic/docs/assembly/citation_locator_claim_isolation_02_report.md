@@ -93,7 +93,7 @@ The inspected tranche in this pass covered **90** manifest rows across 16 entrie
 | `BrightCassidyRingler1971` | 2 | 0 | direct glossary evidence confirmed, but current local witness still remains unsuitable for safe page locators |
 | `Streitberg1896` | 1 | 0 | broader comparative background only |
 | `Mayrhofer1992` | 1 | 0 | broader comparative background only |
-| `Hogg1992` | 1 | 0 | broader phonological background only |
+| `HoggPhonology1992` | 1 | 0 | broader phonological background only |
 
 ## Successful split-and-localize fixes
 
@@ -111,7 +111,7 @@ The inspected tranche in this pass covered **90** manifest rows across 16 entrie
 | :--- | :--- | :--- | :--- |
 | `deed / dǣd` | `Campbell1959` | `claim_not_isolated` | the West-Saxon lowering claim is still compressed with several historical steps and was not safely isolated in this pass |
 | `heaven / heofon` | `Fulk2018` | `general_background` | the source remains useful for broad handbook staging, but not for a tighter locator-safe sentence as currently written |
-| `needle / nǣdl` | `Hogg1992` | `general_background` | the local Hogg witness supports the broader cluster history, not a tighter sentence-level locator |
+| `needle / nǣdl` | `HoggPhonology1992` | `general_background` | the local Hogg witness supports the broader cluster history, not a tighter sentence-level locator |
 | `navel / nafola` | `SieversBrunner1965` | `general_background` | the older-medial-`u` dispute remains comparative background rather than a locator-safe sentence in the current prose |
 | `show (iptv.2sg) / sċēawa` | `BrightCassidyRingler1971` | `page_markers_unreliable` | the glossary gives `scēawa` directly, but the current local witness still does not provide a safe page-style locator |
 | `show (3sg) / sċēawaþ` | `BrightCassidyRingler1971` | `page_markers_unreliable` | the `-sceawað` evidence is real, but still tied to glossary entry locations rather than a safe printed-page locator |

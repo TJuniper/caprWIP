@@ -29,11 +29,11 @@ That leaves SC049-SC050 looking more like a practical adjacent bridge than a his
 
 ### Hogg 1992
 
-- **source_key:** `Hogg1992`
+- **source_key:** `HoggPhonology1992`
 - **locator:** pp. 101-102
 - **terminology:** `/b/` as stop vs. bilabial fricative allophone in Old English
 - **short quotation:** "Elsewhere it was realised as the bilabial fricative [beta]."
-- **paraphrase:** Hogg presents the alternation as part of the ordinary OE consonant system: `/b/` is a stop initially, after a nasal, and in gemination, but elsewhere surfaces as a voiced bilabial fricative [@Hogg1992, pp. 101-102].
+- **paraphrase:** Hogg presents the alternation as part of the ordinary OE consonant system: `/b/` is a stop initially, after a nasal, and in gemination, but elsewhere surfaces as a voiced bilabial fricative [@HoggPhonology1992, p. 108].
 - **conditioning:** initial position; post-nasal position; geminate position versus non-initial, non-geminate environments
 - **chronology:** This is framed as system-internal OE distribution, not as a separately narrated late historical chapter.
 - **examples:** `habban` and related stop/fricative alternations in the OE consonant inventory discussion
@@ -89,7 +89,7 @@ That leaves SC049-SC050 looking more like a practical adjacent bridge than a his
 
 ## CAPR formulation versus literature
 
-CAPR's `PGmcBAllophony` maps reasonably well onto the handbook description of `/b/` as stop initially or after nasals and as a fricative elsewhere. The live rule text is narrow: it maps `*b` to `*beta` after vowels and liquids, and then restores stop `*b` before geminate `*bb`. That is much closer to an implementation rule or phonetic-distribution bridge than to an independently narrated historical sound change. The literature helps justify the alternation itself [@Hogg1992, pp. 101-102; @RingeTaylor2014, p. 121; @Luick1914, p. 107], but it does not produce a strong source tradition for SC049 as a standalone chapter. In practice, SC049 currently looks like a model-internal bridge needed to preserve compound outcomes such as `rainbow`.
+CAPR's `PGmcBAllophony` maps reasonably well onto the handbook description of `/b/` as stop initially or after nasals and as a fricative elsewhere. The live rule text is narrow: it maps `*b` to `*beta` after vowels and liquids, and then restores stop `*b` before geminate `*bb`. That is much closer to an implementation rule or phonetic-distribution bridge than to an independently narrated historical sound change. The literature helps justify the alternation itself [@HoggPhonology1992, p. 108; @RingeTaylor2014, p. 121; @Luick1914, p. 107], but it does not produce a strong source tradition for SC049 as a standalone chapter. In practice, SC049 currently looks like a model-internal bridge needed to preserve compound outcomes such as `rainbow`.
 
 `SieversLawSyncope`, by contrast, maps onto a real source tradition. CAPR deletes `*i` before `*j` after a consonant or palatal consonant, in the same broad area where the literature discusses the alternation between light and heavy stems, gemination, and weak-verb reflexes [@Adamczyk2001; @Fulk2018, p. 28, sec. 6.15]. That makes SC050 historically more legible than SC049. Even so, the local CAPR role is still modest: the chronology card's live positive relation is outward, with SC050 feeding SC052 via `stretch`. The report therefore should discuss SC050 as context for SC052 without pulling it out of chronological order or turning SC050-SC052 into a non-contiguous chapter.
 

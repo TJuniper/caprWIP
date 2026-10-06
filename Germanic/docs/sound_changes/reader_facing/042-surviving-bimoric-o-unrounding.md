@@ -8,7 +8,7 @@ undergoes unrounding before
 [SC043 EAFBrightening](#rule-EAFBrightening). Campbell, Hogg,
 and Ringe and Taylor describe the surrounding fronting and restoration history
 without naming this feeder separately [@Campbell1959, pp. 52, 60,
-§§131, 157--158; @Hogg1992, pp. 101, 119; @RingeTaylor2014, pp. 157--158,
+§§131, 157--158; @HoggPhonology1992, pp. 102, 105; @RingeTaylor2014, pp. 157--158,
 189--190].
 
 The sole witness establishes a local relation to brightening but supports no broader generalization.

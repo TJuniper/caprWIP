@@ -44,13 +44,16 @@ This is another tight reciprocal boundary, now anchoring the immediate lower-ear
 
 ## One-sided historical constraints
 
-### SC021 NWGmc Unstressed O Raising
+### SC021 retired NWGmc Unstressed O Raising
 
-`SC021` currently has one historically interpretable side. No earlier real break was found before the runner entered bundled `PWGmcChanges`, but moving `SC021` later than `SC040` OE Med Unstressed U Lowering turns PGmc `*xémonų` into `heofun` instead of expected OE `heofon`.
+`SC021` was later retired after source-led adjudication. The old runner result
+is archival: its apparent SC040 break depended on the retired `*xémonų`
+`heaven` proxy and SC040's former early position. Current chronology uses
+SC071/SC099/SC100 instead, and SC021 is not a live one-sided constraint.
 
-### SC023 NWGmc N Stem N Loss
+### SC023 Proto-Germanic Word-Final N Loss (adjudicated 2026; formerly NWGmc N Stem N Loss)
 
-`SC023` also remains one-sided in current testing. No earlier real break was found before bundled `PWGmcChanges`, but moving `SC023` later than `SC047` OE Heavy Syllable Nasal Apocope turns PGmc `*dōną` into `+?` instead of expected OE `dōn`. That is a real historical boundary, but the wrong outcome must be described as a failed derivation rather than as a competing surface form.
+`SC023` also remains one-sided in current testing. No earlier real break was found before bundled `PWGmcChanges`, but moving `SC023` later than `SC047` OE Heavy Syllable Nasal Apocope turns PGmc `*dōną` into `+?` instead of expected OE `dōn`. That is a real historical boundary, but it is counterfeeding: SC023 never applies to `do` in the live cascade (OE `dōn` keeps the secondary `-n` created by SC047 precisely because the old loss was no longer active), and the wrong outcome must be described as a failed derivation rather than as a competing surface form.
 
 ### SC024 NWGmc Long E Lowering
 
@@ -62,13 +65,16 @@ This is another tight reciprocal boundary, now anchoring the immediate lower-ear
 
 `SC020` is historically interpretable on both sides, but its later side is broad and far rather than local. Moving PGmc Final Z Deletion later than `SC040` OE Med Unstressed U Lowering newly fails eleven rows, including PGmc `*bébruz` > expected OE `befer`, variant `befro`; PGmc `*kwéðuz` > expected OE `cwedu`, variant `cwedo`; and PGmc `*félθuz` > expected OE `feld`, variant `feldo`. The earlier side across `SC019` is real and local, but the later side should not be narrated as a tight adjacency claim.
 
-### SC021 later across SC040
+### SC021 later across SC040 (retired archival result)
 
-`SC021` later is also historically real but broad/far across `SC040`. Moving NWGmc Unstressed O Raising later than OE Med Unstressed U Lowering breaks the `heaven` derivation (`*xémonų` > `heofun` instead of `heofon`) only after a long safe run through the intervening corridor.
+This old broad/far result is no longer a current historical constraint.
+Moving the retired NWGmc Unstressed O Raising later than OE Med Unstressed U
+Lowering broke the then-current `heaven` proxy (`*xémonų` > `heofun` instead
+of `heofon`), but that proxy and the active SC021 rule have both been retired.
 
 ### SC023 later across SC047
 
-`SC023` later is historically real, but it is not a local neighboring-stage constraint. The first break appears only at order `47`, crossing `SC047` OE Heavy Syllable Nasal Apocope, where PGmc `*dōną` stops producing OE `dōn` and instead yields no output (`+?`).
+`SC023` later is historically real (as stage-entailed counterfeeding evidence; the rule never applies to `do` live), but it is not a local neighboring-stage constraint. The first break appears only at order `47`, crossing `SC047` OE Heavy Syllable Nasal Apocope, where PGmc `*dōną` stops producing OE `dōn` and instead yields no output (`+?`).
 
 ### SC024 later across SC056
 

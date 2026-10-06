@@ -1,7 +1,7 @@
 # SC037 OE Compound Linking Syncope — chronology evidence card
 
-## Current position
-- current_order: `37`
+## Position at experiment time
+- order_at_experiment_time: `37`
 - rule_name: `OECompoundLinkingSyncope`
 - safe computational window: `13-37` (earlier side runner-bounded; later side non-historical)
 - status: `first_break_complete`

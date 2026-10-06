@@ -25,7 +25,7 @@
 
 | Item | Result | Note |
 | :--- | :--- | :--- |
-| Citation keys present in `docs/refs.bib` | yes | `BosworthToller1898`, `Campbell1959`, `ClarkHall1960`, `Hogg1992`, `Kroonen2013`. |
+| Citation keys present in `docs/refs.bib` | yes | `BosworthToller1898`, `Campbell1959`, `ClarkHall1960`, `HoggPhonology1992`, `Kroonen2013`. |
 | Sources cited in prose | yes | No local file names appear in the model entry. |
 | Missing-key issues recorded outside final prose | yes | No missing-key source is cited in the model entry. |
 

@@ -4,7 +4,7 @@
 
 Campbell, Hogg, Ringe and Taylor, and Fulk describe a late history in which
 apocope, shortening, contraction, and further weak-tail reductions reshape
-final syllables [@Campbell1959, p. 148, §355; @Hogg1992, pp. 120--121;
+final syllables [@Campbell1959, p. 148, §355; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3;
 @Fulk2018, pp. 90--91, §5.6]. Lexical failures place the remaining weak-tail
 reduction after unstressed fronting and before contraction.

@@ -1,7 +1,7 @@
 # SC066 OE L Adjacent Syncope — chronology evidence card
 
-## Current position
-- current_order: `66`
+## Position at experiment time
+- order_at_experiment_time: `66`
 - rule_name: `OELAdjacentSyncope`
 - safe computational window: `56-67`
 - status: `first_break_complete`

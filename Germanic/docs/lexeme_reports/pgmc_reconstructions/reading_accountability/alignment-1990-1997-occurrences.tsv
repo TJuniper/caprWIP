@@ -1,0 +1,840 @@
+evidence_id	source_key	printed_pages	holding_sheet	paragraph	start_char	end_char	diplomatic_form	paragraph_sha256	paragraph_text	begin_anchor	end_anchor
+alignment-dill-fulk-corpus	Fulk2018	153	170	1	1220	1224	dili	a6b22895612768395e1ed63b865d275dffb96249ae676543bb668ddcfc1e5771	"§7.11 The ja-stems in Northwest Germanic
+153
+1. The nom./acc. forms in -i are later creations by analogy to the heavy stems. OS stems ending in /r/ (only
+neut. heri ‘army', swiri 'cousin') retain -i/-e in the nom./acc., as in OE, as do stems of more than one syllable.
+Masc. segg 'man' has gone over to the i-stems.
+2. OE secg of course is not technically a light stem, but the stem *sez- (assuming that -j- had been re-
+analyzed as belonging to the inflection) was light before the onset of WGmc. gemination (§6.15).
+3. Cf. the spelling -heri in early glossaries. The claim of Prokosch (1939: §80b, followed by Krahe & Meid
+1969: II, 15-16) that j is preserved and spelt (e) or (i) in early light-stemmed plurals is unreliable: in spellings
+like gen. pl. (secgea), the (e) is a diacritic indicating the palatal nature of the preceding sound: see Hogg 1992:
+$2.68.
+4. The only exception is the rare neut. dat. sg. kyn, beside usual kyni. The endingless form must be older,
+since all strong neuter nouns in Olcel. have -i in the dat. sg., whereas -i fails also in masc. i-stems and r-stems.
+5. The assumption of original *sege is supported by OE mene ‘necklace', a neut. ja-stem tranferred to the i-
+stems; probably also dili 'dill' (cf. OS dilli) in the Corpus Glossary, acc. sg. dile in EWS, as well as a few
+OHG forms like beti beside betti ‘bed' noted below (Dal 1934, Braune 2004a: §201 Anm. 4). It is also
+implied by the appearance of geminates in some i-stems, e.g. OE gen. sg. hysses to nom. hyse 'warrior', best
+explained on the assumption that the nom. of ja-stems resembled that of i-stems (Dahl 1938: 84–6). Boutkan
+(1995b: 209–13) offers an alternative analysis whereby there was the development *mannja"" > *menn >
+*men, with analogical addition of the final vowel. His analysis of the ja-stems (assuming a development com-
+parable to nom. sg. jō-stem *synnju > *synnu > synn ‘sin') requires the assumption that the apocope of -a(z)
+and of -i represent the same phonological development, though they are usually regarded as widely separated
+in time: Luick (1914-40: §350), e.g., dates the former to the 2nd or 3rd cent., the latter to the beginning of the
+7th in OE, i.e. less than a century before the appearance of the earliest OE manuscripts. The dating of the latter
+is controversial (see Fulk 1992: §§402–4), but since the umlaut in OE caused by unapocopated *-i postdates
+the period of Anglo-Frisian unity (Fulk 1998a: 153), Luick's position seems likely.
+7.12 The wa-stems
+These nouns, with stems ending in PIE *ụ before the theme vowel, were originally
+formed like the ja-stems but with *.
+-w- where the ja-stems had -j-. This w remains
+before vowels, but in finality it is often vocalized to u and may undergo further
+developments, as summarized below. Typical are the paradigms of Go. þius ‘servant',
+Olcel. horr 'flax', OE bearu ‘grove', OS skado ‘shadow', OHG horo ‘dirt', all masc.
+except the last, which is neuter:
+Go.
+þius
+sg. nom.
+acc.
+piu
+gen.
+þiwis
+bearu
+bearwes
+OHG
+horo
+horo
+horwes
+horwe
+horo
+horo
+TAILME
+dat.
+þiwa
+pl. nom. þiwōs
+acc.
+þiwans
+gen.
+þiwē
+dat.
+þiwam
+hors
+horvi
+horvar
+OIcel.
+horr
+hor
+OE
+bearu
+OS
+skado
+skado
+skadowes
+horva
+horva
+bearwe
+bearwas
+bearwas
+bearwa
+skadowe
+horum
+bearwum
+horwo
+horwum
+The following details are relevant:
+Gothic. Few of these forms are actually attested, though the paradigm is recon-
+structible on the basis of comparison to other wa-stems nouns in Gothic. The vocaliza-
+tion of w seen in the nom./acc. sg. does not occur in heavy stems, e.g. snáiws 'snow'.
+The light-stemmed neuters are like nom./acc. sg. kniu ‘knee', nom./acc. pl. kniwa, the
+heavy like nom./acc. sg. gáidw 'lack', pl. gáidwa."		
+alignment-dill-fulk-accusative	Fulk2018	153	170	1	1280	1284	dile	a6b22895612768395e1ed63b865d275dffb96249ae676543bb668ddcfc1e5771	"§7.11 The ja-stems in Northwest Germanic
+153
+1. The nom./acc. forms in -i are later creations by analogy to the heavy stems. OS stems ending in /r/ (only
+neut. heri ‘army', swiri 'cousin') retain -i/-e in the nom./acc., as in OE, as do stems of more than one syllable.
+Masc. segg 'man' has gone over to the i-stems.
+2. OE secg of course is not technically a light stem, but the stem *sez- (assuming that -j- had been re-
+analyzed as belonging to the inflection) was light before the onset of WGmc. gemination (§6.15).
+3. Cf. the spelling -heri in early glossaries. The claim of Prokosch (1939: §80b, followed by Krahe & Meid
+1969: II, 15-16) that j is preserved and spelt (e) or (i) in early light-stemmed plurals is unreliable: in spellings
+like gen. pl. (secgea), the (e) is a diacritic indicating the palatal nature of the preceding sound: see Hogg 1992:
+$2.68.
+4. The only exception is the rare neut. dat. sg. kyn, beside usual kyni. The endingless form must be older,
+since all strong neuter nouns in Olcel. have -i in the dat. sg., whereas -i fails also in masc. i-stems and r-stems.
+5. The assumption of original *sege is supported by OE mene ‘necklace', a neut. ja-stem tranferred to the i-
+stems; probably also dili 'dill' (cf. OS dilli) in the Corpus Glossary, acc. sg. dile in EWS, as well as a few
+OHG forms like beti beside betti ‘bed' noted below (Dal 1934, Braune 2004a: §201 Anm. 4). It is also
+implied by the appearance of geminates in some i-stems, e.g. OE gen. sg. hysses to nom. hyse 'warrior', best
+explained on the assumption that the nom. of ja-stems resembled that of i-stems (Dahl 1938: 84–6). Boutkan
+(1995b: 209–13) offers an alternative analysis whereby there was the development *mannja"" > *menn >
+*men, with analogical addition of the final vowel. His analysis of the ja-stems (assuming a development com-
+parable to nom. sg. jō-stem *synnju > *synnu > synn ‘sin') requires the assumption that the apocope of -a(z)
+and of -i represent the same phonological development, though they are usually regarded as widely separated
+in time: Luick (1914-40: §350), e.g., dates the former to the 2nd or 3rd cent., the latter to the beginning of the
+7th in OE, i.e. less than a century before the appearance of the earliest OE manuscripts. The dating of the latter
+is controversial (see Fulk 1992: §§402–4), but since the umlaut in OE caused by unapocopated *-i postdates
+the period of Anglo-Frisian unity (Fulk 1998a: 153), Luick's position seems likely.
+7.12 The wa-stems
+These nouns, with stems ending in PIE *ụ before the theme vowel, were originally
+formed like the ja-stems but with *.
+-w- where the ja-stems had -j-. This w remains
+before vowels, but in finality it is often vocalized to u and may undergo further
+developments, as summarized below. Typical are the paradigms of Go. þius ‘servant',
+Olcel. horr 'flax', OE bearu ‘grove', OS skado ‘shadow', OHG horo ‘dirt', all masc.
+except the last, which is neuter:
+Go.
+þius
+sg. nom.
+acc.
+piu
+gen.
+þiwis
+bearu
+bearwes
+OHG
+horo
+horo
+horwes
+horwe
+horo
+horo
+TAILME
+dat.
+þiwa
+pl. nom. þiwōs
+acc.
+þiwans
+gen.
+þiwē
+dat.
+þiwam
+hors
+horvi
+horvar
+OIcel.
+horr
+hor
+OE
+bearu
+OS
+skado
+skado
+skadowes
+horva
+horva
+bearwe
+bearwas
+bearwas
+bearwa
+skadowe
+horum
+bearwum
+horwo
+horwum
+The following details are relevant:
+Gothic. Few of these forms are actually attested, though the paradigm is recon-
+structible on the basis of comparison to other wa-stems nouns in Gothic. The vocaliza-
+tion of w seen in the nom./acc. sg. does not occur in heavy stems, e.g. snáiws 'snow'.
+The light-stemmed neuters are like nom./acc. sg. kniu ‘knee', nom./acc. pl. kniwa, the
+heavy like nom./acc. sg. gáidw 'lack', pl. gáidwa."		
+alignment-do-ringe-infinitive	Ringe2017	294-295			77	82	*dōną	26948d98efb81353345ebf4b6bf1f585af3627a6543b0d80e4862d0040854d3d	"The other pres. forms seem to have been imperative sg. *dō, pl. *dōþ, inf. *dōną
+(*dō- ną?), ptc. *dōnd- (*dōnþ-??; *-ō- -?), more or less as one would expect. Surpris-
+ingly, all the languages agree in exhibiting a strong past ptc., which can be recon-
+structed as *dēnaz or (less likely) *dōnaz.19"	The other pres. forms seem	*dōnaz.19
+alignment-do-ringe-segmented	Ringe2017	294-295			84	92	*dō- ną?	26948d98efb81353345ebf4b6bf1f585af3627a6543b0d80e4862d0040854d3d	"The other pres. forms seem to have been imperative sg. *dō, pl. *dōþ, inf. *dōną
+(*dō- ną?), ptc. *dōnd- (*dōnþ-??; *-ō- -?), more or less as one would expect. Surpris-
+ingly, all the languages agree in exhibiting a strong past ptc., which can be recon-
+structed as *dēnaz or (less likely) *dōnaz.19"	The other pres. forms seem	*dōnaz.19
+alignment-do-ringe-present-participle	Ringe2017	294-295			100	106	*dōnd-	26948d98efb81353345ebf4b6bf1f585af3627a6543b0d80e4862d0040854d3d	"The other pres. forms seem to have been imperative sg. *dō, pl. *dōþ, inf. *dōną
+(*dō- ną?), ptc. *dōnd- (*dōnþ-??; *-ō- -?), more or less as one would expect. Surpris-
+ingly, all the languages agree in exhibiting a strong past ptc., which can be recon-
+structed as *dēnaz or (less likely) *dōnaz.19"	The other pres. forms seem	*dōnaz.19
+alignment-do-ringe-present-participle-rival	Ringe2017	294-295			108	116	*dōnþ-??	26948d98efb81353345ebf4b6bf1f585af3627a6543b0d80e4862d0040854d3d	"The other pres. forms seem to have been imperative sg. *dō, pl. *dōþ, inf. *dōną
+(*dō- ną?), ptc. *dōnd- (*dōnþ-??; *-ō- -?), more or less as one would expect. Surpris-
+ingly, all the languages agree in exhibiting a strong past ptc., which can be recon-
+structed as *dēnaz or (less likely) *dōnaz.19"	The other pres. forms seem	*dōnaz.19
+alignment-do-ringe-done-preferred	Ringe2017	294-295			268	274	*dēnaz	26948d98efb81353345ebf4b6bf1f585af3627a6543b0d80e4862d0040854d3d	"The other pres. forms seem to have been imperative sg. *dō, pl. *dōþ, inf. *dōną
+(*dō- ną?), ptc. *dōnd- (*dōnþ-??; *-ō- -?), more or less as one would expect. Surpris-
+ingly, all the languages agree in exhibiting a strong past ptc., which can be recon-
+structed as *dēnaz or (less likely) *dōnaz.19"	The other pres. forms seem	*dōnaz.19
+alignment-do-ringe-done-less-likely	Ringe2017	294-295			292	298	*dōnaz	26948d98efb81353345ebf4b6bf1f585af3627a6543b0d80e4862d0040854d3d	"The other pres. forms seem to have been imperative sg. *dō, pl. *dōþ, inf. *dōną
+(*dō- ną?), ptc. *dōnd- (*dōnþ-??; *-ō- -?), more or less as one would expect. Surpris-
+ingly, all the languages agree in exhibiting a strong past ptc., which can be recon-
+structed as *dēnaz or (less likely) *dōnaz.19"	The other pres. forms seem	*dōnaz.19
+alignment-do-fulk-explicit-infinitive	Fulk2018	14	31	1	2760	2768	"*dō-ana"""	7593e82bdb6d73dc6458172a16b1b2e6f3af75a77480f9cc4ae19747aeb682cd	"14
+A Comparative Grammar of the Early Germanic Languages
+2. This rule is complicated by the divergent developments of *x"" in OE seon 'see' < *sex""ana"" and pret. pl.
+sawon < *sē3""un(b). That the loss of postconsonantal w was a late development ascribable to the individual
+languages is shown by the velar stop (rather than affricate) in the OE ja-stems þicce 'thick', mirce 'dim' (Luick
+1914 40: §637 Anm. 4).
+1.9
+The grouping of the three Germanic branches
+After much controversy, there seems now to have emerged a fairly broad consensus that
+East Germanic branched off from Proto-Germanic with the departure of East Germanic
+speakers (Goths and others) from the Baltic littoral, an event dated to some period
+between the first century BCE and the second and third centuries CE. The remaining dialect
+continuum then corresponds to what is commonly called Northwest Germanic, 1 out of
+which North and West Germanic are to be derived. There is little agreement, however,
+about how North and West Germanic developed out of this continuum: see §1.10.
+That the North and West Gmc. languages should derive from a Northwest Gmc.
+protolanguage is by no means an inevitable assumption, and indeed, a number of
+nineteenth-century scholars, including Müllenhoff 1900: 108–32, Scherer 1995 [1868],
+and Zimmer 1876, believed that North and East Gmc. share enough features that they
+should be assumed to derive from a Northeast Gmc. protolanguage—a supposition no
+doubt influenced by the widespread belief that the Goths originated in Scandinavia (see
+§1.12). The idea of East and North Gmc. unity was revived by Schwarz (1951; similarly
+Jungandreas 1949: 30), whose refinement of the hypothesis is to suppose that North Sea
+Germanic originally was closely allied with the Gotho-Nordic group, but by the third
+century CE it was linguistically aligned with the Gmc. dialects of the continent.² The
+following are among the similarities that have been remarked between East and North
+Germanic:
+(a)
+(b)
+(c)
+(d)
+(e)
+(f)
+(g)
+(h)
+(i)
+33
+The rise of stop articulation in the Verschärfung, whereby PGmc. *-jj-> Go. -ddj-,
+Olcel. -ggj-, and PGmc. *-ww-> Go. Olcel. -ggw-. See §6.10.
+Retention of the ending -t < PIE *-tha in the 2 sg. pret. ind. of strong verbs (vs.
+WGmc. -i), as in Go. Olcel. bart vs. OS, OHG bāri, OE bære ‘bore': see §12.25.
+The inflection of present participles as in-stems, rather than as jō-stems, as in West
+Germanic ($9.9).
+The extensive preservation of inchoative verbs with a nasal infix, e.g. Go. fullnan
+'become full' and Olcel. stirðna ‘become stiff”. See § 12.48.
+The use of the analogical ending PGmc. *-jau in the 1 sg. pret. sj., e.g. Go. bērjáu,
+Olcel. bæra 'bore' (cf. OS, OHG bāri, OE bære < PIE *-īm). See §12.26.
+Absence of any reflex of PGmc. *dō-ana"" ‘put, do' as an independent verb (cf.
+Go. táujan 'do', Olcel. gørva 'do').
+The development of *ū to ō before a vowel in Gothic and East Norse, e.g. Go.
+bauan, Old Swedish bóa 'dwell'; cf. Olcel. búa.
+PGmc. *-ngw- is retained (i.e., it does not lose w, as in WGmc.).
+The ending of the nom. sg. of masc. a-stem nouns is retained (Go. -s, OIcel. -r<
+PGmc. *-az), though it is lost in WGmc."		
+alignment-do-fulk-explicit-2sg	Fulk2018	276	293	1	1847	1855	*dō-s(i)	4719b903499c886d8d5ee028471eff24420b54a09f411707c51409497d40eed0	"276
+A Comparative Grammar of the Early Germanic Languages
+and this suggests that PIE *-ete did indeed yield PGmc. *-ip/-ið. In Ingvaeonic the 3 pl.
+ending has been extended throughout the plural. Possibly this was aided by a prior
+refashioning of *-iþ to *-ap (as with OHG -at < *-að; so Krahe & Meid 1969: II, §69),
+but the vowel of 3 pl. -aþ (as explained below) must have remained long for some time.
+3 pl. The PIE ending *-o-nti would normally develop to PGmc. *-ano(i),
+yielding *-and, reflected in Go. -and, OHG -ant. But there must have been an alternant
+PGmc. *-anþ(i) not subject to Verner's law because of stress on the inflection, as in the
+2 and 3 sg. This is reflected in Olcel., showing the development *-anþ(i) > *-ann > -a
+(see Heusler 1967: §§158.2, 152), and in Ingvaeonic, where the development is *-anþ
+*-ā”þ > -aþ (§6.17, and see n. 4 infra). OS -ad, -at would seem to reflect PGmc.
+*-anþ(i) rather than *-andi, as n would not have been lost in the latter in NSGmc. OS
+-at, however, appears to be the final fortition of -ad, discouraging the idea that the
+former is merely a spelling variant of -ad, and final fortition tells against a development
+*-þ> *-ð > *d (cf. Ringe & Taylor 2014: 160). Holthausen (1921: §405) may thus be
+right that the OS pl. inflections represent a mixture of the original 2 and 3 pl. endings.
+1. If it is supposed that umlaut by lost i did not originally affect light syllables in ON (§4.7), it must be as-
+sumed that it was extended to the 2 and 3 sg. of verbs with light stems. But almost certainly umlaut did
+originally apply to light syllables.
+2. It is generally assumed that the unvoiced alternant was preserved in verbs of the tudáti type, i.e. the Ger-
+manic aorist presents (§12.3); see also below on the 3 pl. ending. But -s- would also have remained unvoiced
+in verba pura such as PGmc. *dō-s(i) ‘do', *3ē-s(i) ‘go' and *stē-s(i). Fullerton (1975, with refs.) supports the
+view that *-z was devoiced by the voiceless initial of an enclitic pronoun. See Ringe 2017: 207-9 for an ac-
+counting of the original distribution of the variants by verb type.
+3. This analysis originates with Walde (1900: 125 n. 1); see also Löfvenberg 1949: 17-23 and Fulk 1992:
+§§318-21. Ringe (in Ringe & Taylor 2014: §7.1.2) adheres to the earlier view that only the Anglian endings
+are analogical, in support of his hypothesis that OE syncope occurred in more environments than has hereto-
+fore been allowed (see §5.2 n. 4 supra).
+4. OS -id, it may represent borrowings from OHG: so Prokosch 1939: §72a. However, since there was
+devoicing of final obstruents in OS (§6.20), these could both represent the alternant *-d < *-ð under Verner's
+law (so Holthausen 1921: §404 Anm. 1). It is plain that voiced and voicless alternants coöccurred in Proto-
+WGmc., since leveling has taken opposite directions in OHG and OE.
+5. Holland (1980, with discussion of alternative analyses) argues instead that 3 sg. -r reflects an enclitic 3
+sg. pronoun *er. Some others envisage a phonological change > R: see Brøndum Nielsen 1950-7: VIII,
+§782.1.
+6. Since the Skt. ending is -a-thaḥ, possibly the PIE ending was *-o-tHes, and the laryngeal consonant
+prevented Grimm's law from applying to *t in PGmc. (Krause 1968: §258, in agreement with Stang 1949).
+For alternative views, see Krahe & Meid 1969: II, §69, Wright 1954: §287 (the latter arguing that the t is
+analogical to the t in forms like Go. OIcel. 2 pl. pret. namt 'took'), K.M. Schmidt 1974, and Bammesberger
+1983b, the last arguing (171-2) that t in the suffix remained unshifted in a few athematic verbs ending in a
+consonant which, in contact with t, normally prevented the application of Grimm's law, e.g. *es- ‘be' and
+*zeb- 'give', with subsequent generalization of t, as in the 2 sg. pret. Rather, Ringe (2017: 264) assumes a
+regular change of *-ps to -ts that, he reasons, is unattested elsewhere because of paradigm regularization.
+7. A comparable development is seen in the dat. plural of Gmc. a-stem nouns (§7.8 ad fin.). That is, the PIE
+verb ending *-o-mes gives -am in Gothic but -um in NWGmc. (§5.5).
+8. Krahe 1958 argues that s remained unvoiced in the reflex of PIE *-o-mes due to suffixal accent origin-
+ating in athematic verbs (cf. Skt. 1 pl. imáḥ < *hi-més ‘go'), and i was then replaced by ē by analogy to the 1
+pl. opt. ending *-mē (> Go. sj. -ma). Bech (1962) raises weighty objections, but no more convincing is his
+notion of the addition of the OHG 2 sg. sj. ending -ēs to the normal 1 pl. ind. in -um. The commonest assump-
+tion is that -umēs shows the incorporation of a following pronoun into the inflection: for discussion and
+references, see Boutkan 1995b: 313-17.
+9. The idea of Boutkan (1995b: 318) that the OIcel. inflection reflects *-anði rather than *-anpi faces the
+objection that *-no- should have become *-nd- in PGmc. (§6.5), but loss of final d after n could not be called"		
+alignment-do-fulk-thematic-1sg	Fulk2018	332	349	1	2348	2353	*do-u	31e6fbfc501cdabf6a62e047b801ea6ee304985ed85723b74ac0c8e5d56e623e	"332
+A Comparative Grammar of the Early Germanic Languages
+weak preterite is to be explained (§12.33).¹ Ringe rejects Hill's account, 2 arguing in-
+stead that Gmc. 'do' does, after all, reflect a PIE stem *dhóh₁-: cf. Hittite 3 sg. dāi ‘put'
+<*dhóh-i- (so Jasanoff 1979: 88–9).
+Among the peculiarities of the development of this verb in Gmc., perhaps the
+oddest is its metrical treatment in verse. In OE poetry the inf. and pres. forms are fre-
+quently treated in the meter as disyllabic, but never with a heavy initial syllable.³ It must
+be concluded that in the conservative language of OE poetry, dōn is equivalent to doan.4
+A similar scansion is demanded for gān ‘go' (§12.63), the anaphoric pronoun hie (§8.7),
+and the verb sie 'be' (§12.57). This metrical evidence is reinforced by the four-stress
+meter of Otfrid's Evangelienbuch (863–71; on the meter, see Somers 2009: 72–82), in
+which duan is usually equivalent to a single stressed position, but at other times to a
+trochee. 5 OS dōn, duan, duon, doen, duoan does not conform to the pattern of spellings
+of other words containing the reflex of PGmc ō (Gallée 1993: §86 Anm. 3). Forms like
+the last two may show analogical re-addition of the inf. ending, 6 but duan is anomalous,
+and the supposition that it is to be explained as due to Frisian influence (Holthausen
+1921: §95) is unpersuasive. Rather, duan may result from the disyllabic form demanded
+in OE and OHG poetry (though there does not appear to be any evidence for disyllabi-
+city in OS poetry). These observations are suggestive as regards the analysis of the OE
+pret. (see below), and they forbid the supposition that the OE pres. directly reflects an
+athematic paradigm 1 sg. *dōmi, 2 *dōsi, etc. (so, e.g., Ringe & Taylor 2014: 369),
+which, in any event, would raise the expectation of umlaut throughout the present.7
+Rather, it has been proposed (Fulk 1993) that at some point in time (in the Ingvaeonic
+period?) after the PGmc. thematization of most athematic verbs in PGmc., there was
+shortening of antevocalic long vowels. Certainly, when antevocalic long vowels arose
+later in OS, they were shortened (see §4.15). Thematization and antevocalic shortening
+thus explain both the metrical peculiarities of the present of 'do' and the restriction of
+umlaut in the pres. ind. to the 2 and 3 sg.: cf. thematized Pre-OE 1 sg. *do-u, 2 *do-is, 3
+*do-iþ, 3 pl. *do-a""þ. This appears to be the only explanation offered to date for the
+disyllabic scansion of 'do' in OE poetry with a light initial syllable. The problem no
+doubt bears further study.
+The anomalous OE pret. dyde, so unlike the other WGmc. preterites, has pro-
+voked a variety of fairly desperate explanations.8 If, however, the Pre-OE pres. had a
+shortened stem in *do- to which thematic inflections were added, it may be supposed
+that before the time of umlaut this stem was extended to the pret., since the pres. and
+pret. stems (before the addition of *-id- to the pret.) were usually identical in weak
+verbs. The usual preterite suffix plus inflections of weak class 1 were added to this, pro-
+ducing, e.g., 3 sg. *do-id-æ. If this happened at a sufficiently early date, *do- should be
+expected to have been realized as *du-, since as late as the time of umlaut there was no
+o before i orj in native words except by analogy (A. Campbell 1977: §196). Recon-
+structed *du-id-æ might be expected to have produced a heavy stem, though poetic
+meter shows dyde to have a light initial syllable; but *-ui- produces a light syllable also
+in the form dryas ‘wizards' < Old Irish drui-, as shown by poetic meter. In Anglian the
+pret. stem is usually dyd-, but in the plural there is a minority stem dēd-, as well, com-
+parable to the plural forms employed elsewhere in WGmc. 10 These WGmc. pl. stems
+(OFris. dēd-, OS dād-, OHG tāt-) appear to reflect PGmc. *deo-, with the vowel (e) of
+the pp. OS gidān, OHG gitān and the IE cognates, Lith. děti, etc. In the 1 & 3 sg. pret.
+ind., however, OS and OHG have a short vowel, and OE poetry (almost all of Anglian
+origin) agrees with this pattern, inasmuch as the pret. sg. never scans with a heavy first
+syllable, whereas pl. dydon (substituted for Anglian dēdon by WS scribes) frequently"		
+alignment-do-fulk-thematic-2sg	Fulk2018	332	349	1	2357	2363	*do-is	31e6fbfc501cdabf6a62e047b801ea6ee304985ed85723b74ac0c8e5d56e623e	"332
+A Comparative Grammar of the Early Germanic Languages
+weak preterite is to be explained (§12.33).¹ Ringe rejects Hill's account, 2 arguing in-
+stead that Gmc. 'do' does, after all, reflect a PIE stem *dhóh₁-: cf. Hittite 3 sg. dāi ‘put'
+<*dhóh-i- (so Jasanoff 1979: 88–9).
+Among the peculiarities of the development of this verb in Gmc., perhaps the
+oddest is its metrical treatment in verse. In OE poetry the inf. and pres. forms are fre-
+quently treated in the meter as disyllabic, but never with a heavy initial syllable.³ It must
+be concluded that in the conservative language of OE poetry, dōn is equivalent to doan.4
+A similar scansion is demanded for gān ‘go' (§12.63), the anaphoric pronoun hie (§8.7),
+and the verb sie 'be' (§12.57). This metrical evidence is reinforced by the four-stress
+meter of Otfrid's Evangelienbuch (863–71; on the meter, see Somers 2009: 72–82), in
+which duan is usually equivalent to a single stressed position, but at other times to a
+trochee. 5 OS dōn, duan, duon, doen, duoan does not conform to the pattern of spellings
+of other words containing the reflex of PGmc ō (Gallée 1993: §86 Anm. 3). Forms like
+the last two may show analogical re-addition of the inf. ending, 6 but duan is anomalous,
+and the supposition that it is to be explained as due to Frisian influence (Holthausen
+1921: §95) is unpersuasive. Rather, duan may result from the disyllabic form demanded
+in OE and OHG poetry (though there does not appear to be any evidence for disyllabi-
+city in OS poetry). These observations are suggestive as regards the analysis of the OE
+pret. (see below), and they forbid the supposition that the OE pres. directly reflects an
+athematic paradigm 1 sg. *dōmi, 2 *dōsi, etc. (so, e.g., Ringe & Taylor 2014: 369),
+which, in any event, would raise the expectation of umlaut throughout the present.7
+Rather, it has been proposed (Fulk 1993) that at some point in time (in the Ingvaeonic
+period?) after the PGmc. thematization of most athematic verbs in PGmc., there was
+shortening of antevocalic long vowels. Certainly, when antevocalic long vowels arose
+later in OS, they were shortened (see §4.15). Thematization and antevocalic shortening
+thus explain both the metrical peculiarities of the present of 'do' and the restriction of
+umlaut in the pres. ind. to the 2 and 3 sg.: cf. thematized Pre-OE 1 sg. *do-u, 2 *do-is, 3
+*do-iþ, 3 pl. *do-a""þ. This appears to be the only explanation offered to date for the
+disyllabic scansion of 'do' in OE poetry with a light initial syllable. The problem no
+doubt bears further study.
+The anomalous OE pret. dyde, so unlike the other WGmc. preterites, has pro-
+voked a variety of fairly desperate explanations.8 If, however, the Pre-OE pres. had a
+shortened stem in *do- to which thematic inflections were added, it may be supposed
+that before the time of umlaut this stem was extended to the pret., since the pres. and
+pret. stems (before the addition of *-id- to the pret.) were usually identical in weak
+verbs. The usual preterite suffix plus inflections of weak class 1 were added to this, pro-
+ducing, e.g., 3 sg. *do-id-æ. If this happened at a sufficiently early date, *do- should be
+expected to have been realized as *du-, since as late as the time of umlaut there was no
+o before i orj in native words except by analogy (A. Campbell 1977: §196). Recon-
+structed *du-id-æ might be expected to have produced a heavy stem, though poetic
+meter shows dyde to have a light initial syllable; but *-ui- produces a light syllable also
+in the form dryas ‘wizards' < Old Irish drui-, as shown by poetic meter. In Anglian the
+pret. stem is usually dyd-, but in the plural there is a minority stem dēd-, as well, com-
+parable to the plural forms employed elsewhere in WGmc. 10 These WGmc. pl. stems
+(OFris. dēd-, OS dād-, OHG tāt-) appear to reflect PGmc. *deo-, with the vowel (e) of
+the pp. OS gidān, OHG gitān and the IE cognates, Lith. děti, etc. In the 1 & 3 sg. pret.
+ind., however, OS and OHG have a short vowel, and OE poetry (almost all of Anglian
+origin) agrees with this pattern, inasmuch as the pret. sg. never scans with a heavy first
+syllable, whereas pl. dydon (substituted for Anglian dēdon by WS scribes) frequently"		
+alignment-do-fulk-thematic-3sg	Fulk2018	332	349	1	2367	2373	*do-iþ	31e6fbfc501cdabf6a62e047b801ea6ee304985ed85723b74ac0c8e5d56e623e	"332
+A Comparative Grammar of the Early Germanic Languages
+weak preterite is to be explained (§12.33).¹ Ringe rejects Hill's account, 2 arguing in-
+stead that Gmc. 'do' does, after all, reflect a PIE stem *dhóh₁-: cf. Hittite 3 sg. dāi ‘put'
+<*dhóh-i- (so Jasanoff 1979: 88–9).
+Among the peculiarities of the development of this verb in Gmc., perhaps the
+oddest is its metrical treatment in verse. In OE poetry the inf. and pres. forms are fre-
+quently treated in the meter as disyllabic, but never with a heavy initial syllable.³ It must
+be concluded that in the conservative language of OE poetry, dōn is equivalent to doan.4
+A similar scansion is demanded for gān ‘go' (§12.63), the anaphoric pronoun hie (§8.7),
+and the verb sie 'be' (§12.57). This metrical evidence is reinforced by the four-stress
+meter of Otfrid's Evangelienbuch (863–71; on the meter, see Somers 2009: 72–82), in
+which duan is usually equivalent to a single stressed position, but at other times to a
+trochee. 5 OS dōn, duan, duon, doen, duoan does not conform to the pattern of spellings
+of other words containing the reflex of PGmc ō (Gallée 1993: §86 Anm. 3). Forms like
+the last two may show analogical re-addition of the inf. ending, 6 but duan is anomalous,
+and the supposition that it is to be explained as due to Frisian influence (Holthausen
+1921: §95) is unpersuasive. Rather, duan may result from the disyllabic form demanded
+in OE and OHG poetry (though there does not appear to be any evidence for disyllabi-
+city in OS poetry). These observations are suggestive as regards the analysis of the OE
+pret. (see below), and they forbid the supposition that the OE pres. directly reflects an
+athematic paradigm 1 sg. *dōmi, 2 *dōsi, etc. (so, e.g., Ringe & Taylor 2014: 369),
+which, in any event, would raise the expectation of umlaut throughout the present.7
+Rather, it has been proposed (Fulk 1993) that at some point in time (in the Ingvaeonic
+period?) after the PGmc. thematization of most athematic verbs in PGmc., there was
+shortening of antevocalic long vowels. Certainly, when antevocalic long vowels arose
+later in OS, they were shortened (see §4.15). Thematization and antevocalic shortening
+thus explain both the metrical peculiarities of the present of 'do' and the restriction of
+umlaut in the pres. ind. to the 2 and 3 sg.: cf. thematized Pre-OE 1 sg. *do-u, 2 *do-is, 3
+*do-iþ, 3 pl. *do-a""þ. This appears to be the only explanation offered to date for the
+disyllabic scansion of 'do' in OE poetry with a light initial syllable. The problem no
+doubt bears further study.
+The anomalous OE pret. dyde, so unlike the other WGmc. preterites, has pro-
+voked a variety of fairly desperate explanations.8 If, however, the Pre-OE pres. had a
+shortened stem in *do- to which thematic inflections were added, it may be supposed
+that before the time of umlaut this stem was extended to the pret., since the pres. and
+pret. stems (before the addition of *-id- to the pret.) were usually identical in weak
+verbs. The usual preterite suffix plus inflections of weak class 1 were added to this, pro-
+ducing, e.g., 3 sg. *do-id-æ. If this happened at a sufficiently early date, *do- should be
+expected to have been realized as *du-, since as late as the time of umlaut there was no
+o before i orj in native words except by analogy (A. Campbell 1977: §196). Recon-
+structed *du-id-æ might be expected to have produced a heavy stem, though poetic
+meter shows dyde to have a light initial syllable; but *-ui- produces a light syllable also
+in the form dryas ‘wizards' < Old Irish drui-, as shown by poetic meter. In Anglian the
+pret. stem is usually dyd-, but in the plural there is a minority stem dēd-, as well, com-
+parable to the plural forms employed elsewhere in WGmc. 10 These WGmc. pl. stems
+(OFris. dēd-, OS dād-, OHG tāt-) appear to reflect PGmc. *deo-, with the vowel (e) of
+the pp. OS gidān, OHG gitān and the IE cognates, Lith. děti, etc. In the 1 & 3 sg. pret.
+ind., however, OS and OHG have a short vowel, and OE poetry (almost all of Anglian
+origin) agrees with this pattern, inasmuch as the pret. sg. never scans with a heavy first
+syllable, whereas pl. dydon (substituted for Anglian dēdon by WS scribes) frequently"		
+alignment-do-fulk-thematic-3pl	Fulk2018	332	349	1	2381	2388	"*do-a""þ"	31e6fbfc501cdabf6a62e047b801ea6ee304985ed85723b74ac0c8e5d56e623e	"332
+A Comparative Grammar of the Early Germanic Languages
+weak preterite is to be explained (§12.33).¹ Ringe rejects Hill's account, 2 arguing in-
+stead that Gmc. 'do' does, after all, reflect a PIE stem *dhóh₁-: cf. Hittite 3 sg. dāi ‘put'
+<*dhóh-i- (so Jasanoff 1979: 88–9).
+Among the peculiarities of the development of this verb in Gmc., perhaps the
+oddest is its metrical treatment in verse. In OE poetry the inf. and pres. forms are fre-
+quently treated in the meter as disyllabic, but never with a heavy initial syllable.³ It must
+be concluded that in the conservative language of OE poetry, dōn is equivalent to doan.4
+A similar scansion is demanded for gān ‘go' (§12.63), the anaphoric pronoun hie (§8.7),
+and the verb sie 'be' (§12.57). This metrical evidence is reinforced by the four-stress
+meter of Otfrid's Evangelienbuch (863–71; on the meter, see Somers 2009: 72–82), in
+which duan is usually equivalent to a single stressed position, but at other times to a
+trochee. 5 OS dōn, duan, duon, doen, duoan does not conform to the pattern of spellings
+of other words containing the reflex of PGmc ō (Gallée 1993: §86 Anm. 3). Forms like
+the last two may show analogical re-addition of the inf. ending, 6 but duan is anomalous,
+and the supposition that it is to be explained as due to Frisian influence (Holthausen
+1921: §95) is unpersuasive. Rather, duan may result from the disyllabic form demanded
+in OE and OHG poetry (though there does not appear to be any evidence for disyllabi-
+city in OS poetry). These observations are suggestive as regards the analysis of the OE
+pret. (see below), and they forbid the supposition that the OE pres. directly reflects an
+athematic paradigm 1 sg. *dōmi, 2 *dōsi, etc. (so, e.g., Ringe & Taylor 2014: 369),
+which, in any event, would raise the expectation of umlaut throughout the present.7
+Rather, it has been proposed (Fulk 1993) that at some point in time (in the Ingvaeonic
+period?) after the PGmc. thematization of most athematic verbs in PGmc., there was
+shortening of antevocalic long vowels. Certainly, when antevocalic long vowels arose
+later in OS, they were shortened (see §4.15). Thematization and antevocalic shortening
+thus explain both the metrical peculiarities of the present of 'do' and the restriction of
+umlaut in the pres. ind. to the 2 and 3 sg.: cf. thematized Pre-OE 1 sg. *do-u, 2 *do-is, 3
+*do-iþ, 3 pl. *do-a""þ. This appears to be the only explanation offered to date for the
+disyllabic scansion of 'do' in OE poetry with a light initial syllable. The problem no
+doubt bears further study.
+The anomalous OE pret. dyde, so unlike the other WGmc. preterites, has pro-
+voked a variety of fairly desperate explanations.8 If, however, the Pre-OE pres. had a
+shortened stem in *do- to which thematic inflections were added, it may be supposed
+that before the time of umlaut this stem was extended to the pret., since the pres. and
+pret. stems (before the addition of *-id- to the pret.) were usually identical in weak
+verbs. The usual preterite suffix plus inflections of weak class 1 were added to this, pro-
+ducing, e.g., 3 sg. *do-id-æ. If this happened at a sufficiently early date, *do- should be
+expected to have been realized as *du-, since as late as the time of umlaut there was no
+o before i orj in native words except by analogy (A. Campbell 1977: §196). Recon-
+structed *du-id-æ might be expected to have produced a heavy stem, though poetic
+meter shows dyde to have a light initial syllable; but *-ui- produces a light syllable also
+in the form dryas ‘wizards' < Old Irish drui-, as shown by poetic meter. In Anglian the
+pret. stem is usually dyd-, but in the plural there is a minority stem dēd-, as well, com-
+parable to the plural forms employed elsewhere in WGmc. 10 These WGmc. pl. stems
+(OFris. dēd-, OS dād-, OHG tāt-) appear to reflect PGmc. *deo-, with the vowel (e) of
+the pp. OS gidān, OHG gitān and the IE cognates, Lith. děti, etc. In the 1 & 3 sg. pret.
+ind., however, OS and OHG have a short vowel, and OE poetry (almost all of Anglian
+origin) agrees with this pattern, inasmuch as the pret. sg. never scans with a heavy first
+syllable, whereas pl. dydon (substituted for Anglian dēdon by WS scribes) frequently"		
+alignment-do-fulk-past-do	Fulk2018	332	349	1	3102	3110	*do-id-æ	31e6fbfc501cdabf6a62e047b801ea6ee304985ed85723b74ac0c8e5d56e623e	"332
+A Comparative Grammar of the Early Germanic Languages
+weak preterite is to be explained (§12.33).¹ Ringe rejects Hill's account, 2 arguing in-
+stead that Gmc. 'do' does, after all, reflect a PIE stem *dhóh₁-: cf. Hittite 3 sg. dāi ‘put'
+<*dhóh-i- (so Jasanoff 1979: 88–9).
+Among the peculiarities of the development of this verb in Gmc., perhaps the
+oddest is its metrical treatment in verse. In OE poetry the inf. and pres. forms are fre-
+quently treated in the meter as disyllabic, but never with a heavy initial syllable.³ It must
+be concluded that in the conservative language of OE poetry, dōn is equivalent to doan.4
+A similar scansion is demanded for gān ‘go' (§12.63), the anaphoric pronoun hie (§8.7),
+and the verb sie 'be' (§12.57). This metrical evidence is reinforced by the four-stress
+meter of Otfrid's Evangelienbuch (863–71; on the meter, see Somers 2009: 72–82), in
+which duan is usually equivalent to a single stressed position, but at other times to a
+trochee. 5 OS dōn, duan, duon, doen, duoan does not conform to the pattern of spellings
+of other words containing the reflex of PGmc ō (Gallée 1993: §86 Anm. 3). Forms like
+the last two may show analogical re-addition of the inf. ending, 6 but duan is anomalous,
+and the supposition that it is to be explained as due to Frisian influence (Holthausen
+1921: §95) is unpersuasive. Rather, duan may result from the disyllabic form demanded
+in OE and OHG poetry (though there does not appear to be any evidence for disyllabi-
+city in OS poetry). These observations are suggestive as regards the analysis of the OE
+pret. (see below), and they forbid the supposition that the OE pres. directly reflects an
+athematic paradigm 1 sg. *dōmi, 2 *dōsi, etc. (so, e.g., Ringe & Taylor 2014: 369),
+which, in any event, would raise the expectation of umlaut throughout the present.7
+Rather, it has been proposed (Fulk 1993) that at some point in time (in the Ingvaeonic
+period?) after the PGmc. thematization of most athematic verbs in PGmc., there was
+shortening of antevocalic long vowels. Certainly, when antevocalic long vowels arose
+later in OS, they were shortened (see §4.15). Thematization and antevocalic shortening
+thus explain both the metrical peculiarities of the present of 'do' and the restriction of
+umlaut in the pres. ind. to the 2 and 3 sg.: cf. thematized Pre-OE 1 sg. *do-u, 2 *do-is, 3
+*do-iþ, 3 pl. *do-a""þ. This appears to be the only explanation offered to date for the
+disyllabic scansion of 'do' in OE poetry with a light initial syllable. The problem no
+doubt bears further study.
+The anomalous OE pret. dyde, so unlike the other WGmc. preterites, has pro-
+voked a variety of fairly desperate explanations.8 If, however, the Pre-OE pres. had a
+shortened stem in *do- to which thematic inflections were added, it may be supposed
+that before the time of umlaut this stem was extended to the pret., since the pres. and
+pret. stems (before the addition of *-id- to the pret.) were usually identical in weak
+verbs. The usual preterite suffix plus inflections of weak class 1 were added to this, pro-
+ducing, e.g., 3 sg. *do-id-æ. If this happened at a sufficiently early date, *do- should be
+expected to have been realized as *du-, since as late as the time of umlaut there was no
+o before i orj in native words except by analogy (A. Campbell 1977: §196). Recon-
+structed *du-id-æ might be expected to have produced a heavy stem, though poetic
+meter shows dyde to have a light initial syllable; but *-ui- produces a light syllable also
+in the form dryas ‘wizards' < Old Irish drui-, as shown by poetic meter. In Anglian the
+pret. stem is usually dyd-, but in the plural there is a minority stem dēd-, as well, com-
+parable to the plural forms employed elsewhere in WGmc. 10 These WGmc. pl. stems
+(OFris. dēd-, OS dād-, OHG tāt-) appear to reflect PGmc. *deo-, with the vowel (e) of
+the pp. OS gidān, OHG gitān and the IE cognates, Lith. děti, etc. In the 1 & 3 sg. pret.
+ind., however, OS and OHG have a short vowel, and OE poetry (almost all of Anglian
+origin) agrees with this pattern, inasmuch as the pret. sg. never scans with a heavy first
+syllable, whereas pl. dydon (substituted for Anglian dēdon by WS scribes) frequently"		
+alignment-do-fulk-past-du	Fulk2018	332	349	1	3354	3362	*du-id-æ	31e6fbfc501cdabf6a62e047b801ea6ee304985ed85723b74ac0c8e5d56e623e	"332
+A Comparative Grammar of the Early Germanic Languages
+weak preterite is to be explained (§12.33).¹ Ringe rejects Hill's account, 2 arguing in-
+stead that Gmc. 'do' does, after all, reflect a PIE stem *dhóh₁-: cf. Hittite 3 sg. dāi ‘put'
+<*dhóh-i- (so Jasanoff 1979: 88–9).
+Among the peculiarities of the development of this verb in Gmc., perhaps the
+oddest is its metrical treatment in verse. In OE poetry the inf. and pres. forms are fre-
+quently treated in the meter as disyllabic, but never with a heavy initial syllable.³ It must
+be concluded that in the conservative language of OE poetry, dōn is equivalent to doan.4
+A similar scansion is demanded for gān ‘go' (§12.63), the anaphoric pronoun hie (§8.7),
+and the verb sie 'be' (§12.57). This metrical evidence is reinforced by the four-stress
+meter of Otfrid's Evangelienbuch (863–71; on the meter, see Somers 2009: 72–82), in
+which duan is usually equivalent to a single stressed position, but at other times to a
+trochee. 5 OS dōn, duan, duon, doen, duoan does not conform to the pattern of spellings
+of other words containing the reflex of PGmc ō (Gallée 1993: §86 Anm. 3). Forms like
+the last two may show analogical re-addition of the inf. ending, 6 but duan is anomalous,
+and the supposition that it is to be explained as due to Frisian influence (Holthausen
+1921: §95) is unpersuasive. Rather, duan may result from the disyllabic form demanded
+in OE and OHG poetry (though there does not appear to be any evidence for disyllabi-
+city in OS poetry). These observations are suggestive as regards the analysis of the OE
+pret. (see below), and they forbid the supposition that the OE pres. directly reflects an
+athematic paradigm 1 sg. *dōmi, 2 *dōsi, etc. (so, e.g., Ringe & Taylor 2014: 369),
+which, in any event, would raise the expectation of umlaut throughout the present.7
+Rather, it has been proposed (Fulk 1993) that at some point in time (in the Ingvaeonic
+period?) after the PGmc. thematization of most athematic verbs in PGmc., there was
+shortening of antevocalic long vowels. Certainly, when antevocalic long vowels arose
+later in OS, they were shortened (see §4.15). Thematization and antevocalic shortening
+thus explain both the metrical peculiarities of the present of 'do' and the restriction of
+umlaut in the pres. ind. to the 2 and 3 sg.: cf. thematized Pre-OE 1 sg. *do-u, 2 *do-is, 3
+*do-iþ, 3 pl. *do-a""þ. This appears to be the only explanation offered to date for the
+disyllabic scansion of 'do' in OE poetry with a light initial syllable. The problem no
+doubt bears further study.
+The anomalous OE pret. dyde, so unlike the other WGmc. preterites, has pro-
+voked a variety of fairly desperate explanations.8 If, however, the Pre-OE pres. had a
+shortened stem in *do- to which thematic inflections were added, it may be supposed
+that before the time of umlaut this stem was extended to the pret., since the pres. and
+pret. stems (before the addition of *-id- to the pret.) were usually identical in weak
+verbs. The usual preterite suffix plus inflections of weak class 1 were added to this, pro-
+ducing, e.g., 3 sg. *do-id-æ. If this happened at a sufficiently early date, *do- should be
+expected to have been realized as *du-, since as late as the time of umlaut there was no
+o before i orj in native words except by analogy (A. Campbell 1977: §196). Recon-
+structed *du-id-æ might be expected to have produced a heavy stem, though poetic
+meter shows dyde to have a light initial syllable; but *-ui- produces a light syllable also
+in the form dryas ‘wizards' < Old Irish drui-, as shown by poetic meter. In Anglian the
+pret. stem is usually dyd-, but in the plural there is a minority stem dēd-, as well, com-
+parable to the plural forms employed elsewhere in WGmc. 10 These WGmc. pl. stems
+(OFris. dēd-, OS dād-, OHG tāt-) appear to reflect PGmc. *deo-, with the vowel (e) of
+the pp. OS gidān, OHG gitān and the IE cognates, Lith. děti, etc. In the 1 & 3 sg. pret.
+ind., however, OS and OHG have a short vowel, and OE poetry (almost all of Anglian
+origin) agrees with this pattern, inasmuch as the pret. sg. never scans with a heavy first
+syllable, whereas pl. dydon (substituted for Anglian dēdon by WS scribes) frequently"		
+alignment-do-rt-preoe-past	RingeTaylor2014	369	384	4	352	357	*dudi	7f9a5ec0f54b001ed6e966889138bb6c7cb6a9e47e69d12f4fb8c2e25b8141c8	"It is the finite past stem of this verb that causes real difficulties. The usual
+form is dyde (> Kent. dede), with a completely unexpected vowel in the stem
+syllable (originally the reduplicating syllable, see vol. i, pp. 157-60). The only
+conceivable source for y is the past subjunctive (so Flasdieck 1937: 53); thus
+OE dyde, -en must reflect pre-OE *dudi, *-in. Unfortunately no other Gmc
+language has an *u in these forms. Two explanations seem worthy of consid-
+eration: either *u (or y, after i-umlaut?) was introduced into these subjunctives
+on the model of the preterite-present verbs (Prokosch 1939: 222) and then"		
+alignment-door-kroonen-i-stem	Kroonen2013	110	150	1	505	511	*duri-	69457f5e9be80d1df2cd96d8a1769af8990cc38a0a8378f6b2a8df78b97db58e	"110
+*dura-
+An iterative formation, probably serving as the derivational base of
+*deupa- and *daupjan- (q.v.). Also cf. OE dyppan w.v. 'to dip', LG düppen <
+*duppjan- and MDu. dubben w.v. 'to submerge' <*dubjan-.
+*dura- n. 'gate, (single) door' - Go. daur n. 'id.', OE dor n. 'id.', E door, OS
+dor, dur n. 'id.', ODu. duri f. 'door', Du. deur 'door', OHG tor n. 'id.', G Tor n.
+'id.'*dhur-o- (IE).
+The original neuter singular whose dual *dhur-ih, 'double door' may have
+served as the basis for the i-stem *duri- (q.v.). Also cf. Go. auga-dauro n.
+'window', OFri. andern n. 'id.' <*aug(n)a-durōn-.
+*durgō- f. 'fishing-line' - ON dorg f. 'trailing-line', Far. dorg, pl. dergur f.
+'short fishing-line' ⇒ *dhrgh-eh2- (DRV?).
+Also cf. the factitive ON dyrgja w.v. 'to take with a hand-line' < *durgjan-.
+Related to *dragan-?
+-
+*duri- f.pl. 'door' - ON dyrr f./n.pl. 'id.', Far. dyr f.pl. 'id.', Elfd. dörer f.pl. 'id.',
+OS durif. 'id.', MDu. dore f. 'id.', Du. deur c. ‘id.', OHG turi f.pl., G Tür f. 'id.' ⇒
+*dhur-ih1 (IE) Gr. 9úpa f. 'door, doorleaf, Arm. dur-k' pl. 'door', Lith. dùrys,
+dial. dùres m.pl. 'id.', Latv. d(v)uris m.pl. 'id.', OPru. dauris 'gate', OCS dvɩrь,
+Ru. dver', SCr. dvâr f. 'door' < *dhur-; Skt. dvárā, dvárau du. 'id.', Alb. derë f.
+‘id.' < *dħuōr-; ToB twere m. 'id.', Lith. dvāras m. 'estate, village', Lat. forēs
+f.pl. 'door'; Olr. dorus m. 'id.', W dor 'id.', Latv. dvars m. 'gate'; OCS dvor, Ru.
+dvor, SCr. dvôr m. 'court, courtyard' < *dhuor-o-.
+Most forms point to a (plural) i-stem, which in view of the neuter gender
+of ON dyrr is likely to have been based on the old dual *dhur-ih₁ of *dura-
+'single door, gate' < *dhur-o-. OE duru, OFri. dore, OHG tura f. 'door', on the
+other hand, goes back to *durō-, which is formally identical to Gr. 9úpa.
+-
+*durrōn- f. 'stick' Icel. dorra f. 'piece of wood, stick'⇒ *dhr-on- (IE) — Gr.
+9aчpós m. 'pivot of a door, axle of a chariot' <*dħr-io-.
+A zero-grade n-stem related to the semantically similar Nw. darre<
+*dhor-ōn, *dhor-n-ós (see *darran-). The co-occurrence of these n-stems may
+point to an originally ablauting paradigm *dhór-en, gen. *dhr-n-ós, acc.pl.
+*dhor-n-ns > *darēn, *durraz, *darruns. The derivation from Icel. darra w.v.
+'to swing, vibrate' is unlikely, at any rate, since this verb is etymologically
+identical to daðra <*dadrōn-.
+-
+*dursti- f. 'courage' OE dyrst, ge-dyrst f. 'tribulation', OHG gi-turst f.
+'courage, audacity', MHG turst, ge-turst f. 'id.' ⇒ *dhrs-ti- (IE).
+A ti-stem to the preterite-present *durzan- (q.v.)."		
+alignment-door-kroonen-o-stem	Kroonen2013	110	150	1	1728	1734	*durō-	69457f5e9be80d1df2cd96d8a1769af8990cc38a0a8378f6b2a8df78b97db58e	"110
+*dura-
+An iterative formation, probably serving as the derivational base of
+*deupa- and *daupjan- (q.v.). Also cf. OE dyppan w.v. 'to dip', LG düppen <
+*duppjan- and MDu. dubben w.v. 'to submerge' <*dubjan-.
+*dura- n. 'gate, (single) door' - Go. daur n. 'id.', OE dor n. 'id.', E door, OS
+dor, dur n. 'id.', ODu. duri f. 'door', Du. deur 'door', OHG tor n. 'id.', G Tor n.
+'id.'*dhur-o- (IE).
+The original neuter singular whose dual *dhur-ih, 'double door' may have
+served as the basis for the i-stem *duri- (q.v.). Also cf. Go. auga-dauro n.
+'window', OFri. andern n. 'id.' <*aug(n)a-durōn-.
+*durgō- f. 'fishing-line' - ON dorg f. 'trailing-line', Far. dorg, pl. dergur f.
+'short fishing-line' ⇒ *dhrgh-eh2- (DRV?).
+Also cf. the factitive ON dyrgja w.v. 'to take with a hand-line' < *durgjan-.
+Related to *dragan-?
+-
+*duri- f.pl. 'door' - ON dyrr f./n.pl. 'id.', Far. dyr f.pl. 'id.', Elfd. dörer f.pl. 'id.',
+OS durif. 'id.', MDu. dore f. 'id.', Du. deur c. ‘id.', OHG turi f.pl., G Tür f. 'id.' ⇒
+*dhur-ih1 (IE) Gr. 9úpa f. 'door, doorleaf, Arm. dur-k' pl. 'door', Lith. dùrys,
+dial. dùres m.pl. 'id.', Latv. d(v)uris m.pl. 'id.', OPru. dauris 'gate', OCS dvɩrь,
+Ru. dver', SCr. dvâr f. 'door' < *dhur-; Skt. dvárā, dvárau du. 'id.', Alb. derë f.
+‘id.' < *dħuōr-; ToB twere m. 'id.', Lith. dvāras m. 'estate, village', Lat. forēs
+f.pl. 'door'; Olr. dorus m. 'id.', W dor 'id.', Latv. dvars m. 'gate'; OCS dvor, Ru.
+dvor, SCr. dvôr m. 'court, courtyard' < *dhuor-o-.
+Most forms point to a (plural) i-stem, which in view of the neuter gender
+of ON dyrr is likely to have been based on the old dual *dhur-ih₁ of *dura-
+'single door, gate' < *dhur-o-. OE duru, OFri. dore, OHG tura f. 'door', on the
+other hand, goes back to *durō-, which is formally identical to Gr. 9úpa.
+-
+*durrōn- f. 'stick' Icel. dorra f. 'piece of wood, stick'⇒ *dhr-on- (IE) — Gr.
+9aчpós m. 'pivot of a door, axle of a chariot' <*dħr-io-.
+A zero-grade n-stem related to the semantically similar Nw. darre<
+*dhor-ōn, *dhor-n-ós (see *darran-). The co-occurrence of these n-stems may
+point to an originally ablauting paradigm *dhór-en, gen. *dhr-n-ós, acc.pl.
+*dhor-n-ns > *darēn, *durraz, *darruns. The derivation from Icel. darra w.v.
+'to swing, vibrate' is unlikely, at any rate, since this verb is etymologically
+identical to daðra <*dadrōn-.
+-
+*dursti- f. 'courage' OE dyrst, ge-dyrst f. 'tribulation', OHG gi-turst f.
+'courage, audacity', MHG turst, ge-turst f. 'id.' ⇒ *dhrs-ti- (IE).
+A ti-stem to the preterite-present *durzan- (q.v.)."		
+alignment-dove-kroonen-iterative	Kroonen2013	106	146	1	80	90	*dupp/bōn-	d2ceed54d2b14f9867311cc2226eca4b3ff292bfa4b3f486a4f585eb50d9aff2	"106
+*dubila-
+A strong verb that appears to have been derived from the iterative
+*dupp/bōn- (q.v.) in view of the fact that the expected PIE formation
+*dhéubh-e- would have become **deuban- in Germanic. See also *deupa-.
+-
+*dubila- m. 'peg, pin, dowel' MLG dövel m. ‘id.', Du. deuvel c. 'id.', MHG
+tübel m. 'id.', G Dübel m. 'id.' (EUR) - Gr. Hsch. Túpot 'wedges' < *dhubh-o-.
+Also cf. OHG gi-tubili n. 'peg, pin' < *ga-dubilja-, MLG dovicke m. 'dow-
+el-pin', Du. deuvik c. 'dowel-pin' < *dubikan- and Nw. dial. dobbe m./f. 'fas-
+tening stick in a river', G Tyr. tuppe 'big piece of wood' <*dubban-.
+-
+*dubōn-f. 'dove' Go. hraiwa-dubo f. 'id.', ON dúfa f. 'id.', Far. dúgva f. ‘id.',
+Elfd. dauva f. 'id.', E dove, OS duba f. 'id.', Du. duif c. 'id.', OHG tūba f. 'id.', G
+Taube f. 'id.' (DRV).
+A bird name probably derived from *dūban- 'to dive' (q.v.). Also cf. MHG
+tuber, G Tauber, MDu. duver, Du. doffer 'male dove' < *dūbazan-. For the
+suffix of the latter formation, see *ganazan- 'gander' and *katazan- 'tomcat'.
+*dud(i)ran- m. 'egg yolk' - WFri. djerre, djirre c. 'id.', OS dodro m. 'id.', MLG
+dod(d)er, döder, dōdder n.(?) 'id.', MDu. doder, dodre m./f. 'id.', Du. dooier c.
+'id.', OHG totoro m. 'id.', G Dotter m. 'id.' (GM?).
+The West Germanic languages point to *dudran- (whence also OE dydring
+m. 'yolk') alongside more restricted *dudiran-, cf. WFri. djerre, MLG döder,
+dōdder. The latter is the source of Icel. döddur (cf. Magnússon 1989: 143).
+No certain etymology. It is unclear whether the word can be connected to
+Skt. dudhitá adj. 'dark' (Schindler 1967). ToB tute 'yellow' continues
+*dhuh-to- (Adams 1999: 301) and therefore must be unrelated. See also
+*dudra/ōn-.
+*dudra/ōn- m./f. 'dodder(?), camelina(?)' - Icel. hár-doora, akur-doðra
+'id.', Sw. dådra c. 'id.', ME doder 'flax dodder', E dodder, MLG doder, dodder
+m. 'id.', Du. dodder m. 'id.', MHG toter m. 'wild rocket, field rocket' (NEUR?).
+The word appears in two different variants: WGm. *dudra- meaning
+'dodder', a parasitic plant, and Nordic *dudron- 'camelina, false flax'. The
+word has no certain etymology, but may belong to Far. doddur m. 'tuft of
+hair, topknot, forelock', Du. dot c. 'tangle, tuft' < *duddan-, which have been
+compared to Latv. duža f. 'tuft' < *dhudh-ieh2-(?) and Gr. 9úσavos m. 'tassels,
+fringe' (but cf. Beekes 2010: 566-7). The comparison with *dud(i)ran- 'egg
+yolk' (q.v.) is unconvincing in spite of the fact that dodder has yellow or
+orange stems.
+*dugan-pret.-pres. 'to be fit, avail'Go. daug 3sg.pres. 'id.', ON duga w.v.
+'id.', OE dugan pret.-pres. 'id.', OFri. duga pret.-pres. 'id.', OS dugan
+pret.-pres. 'id.', Du. deugen w.v. 'id.', OHG tugan pret.-pres. 'id.', G taugen w.v."		
+alignment-dove-kroonen-male	Kroonen2013	106	146	1	920	929	*dūbazan-	d2ceed54d2b14f9867311cc2226eca4b3ff292bfa4b3f486a4f585eb50d9aff2	"106
+*dubila-
+A strong verb that appears to have been derived from the iterative
+*dupp/bōn- (q.v.) in view of the fact that the expected PIE formation
+*dhéubh-e- would have become **deuban- in Germanic. See also *deupa-.
+-
+*dubila- m. 'peg, pin, dowel' MLG dövel m. ‘id.', Du. deuvel c. 'id.', MHG
+tübel m. 'id.', G Dübel m. 'id.' (EUR) - Gr. Hsch. Túpot 'wedges' < *dhubh-o-.
+Also cf. OHG gi-tubili n. 'peg, pin' < *ga-dubilja-, MLG dovicke m. 'dow-
+el-pin', Du. deuvik c. 'dowel-pin' < *dubikan- and Nw. dial. dobbe m./f. 'fas-
+tening stick in a river', G Tyr. tuppe 'big piece of wood' <*dubban-.
+-
+*dubōn-f. 'dove' Go. hraiwa-dubo f. 'id.', ON dúfa f. 'id.', Far. dúgva f. ‘id.',
+Elfd. dauva f. 'id.', E dove, OS duba f. 'id.', Du. duif c. 'id.', OHG tūba f. 'id.', G
+Taube f. 'id.' (DRV).
+A bird name probably derived from *dūban- 'to dive' (q.v.). Also cf. MHG
+tuber, G Tauber, MDu. duver, Du. doffer 'male dove' < *dūbazan-. For the
+suffix of the latter formation, see *ganazan- 'gander' and *katazan- 'tomcat'.
+*dud(i)ran- m. 'egg yolk' - WFri. djerre, djirre c. 'id.', OS dodro m. 'id.', MLG
+dod(d)er, döder, dōdder n.(?) 'id.', MDu. doder, dodre m./f. 'id.', Du. dooier c.
+'id.', OHG totoro m. 'id.', G Dotter m. 'id.' (GM?).
+The West Germanic languages point to *dudran- (whence also OE dydring
+m. 'yolk') alongside more restricted *dudiran-, cf. WFri. djerre, MLG döder,
+dōdder. The latter is the source of Icel. döddur (cf. Magnússon 1989: 143).
+No certain etymology. It is unclear whether the word can be connected to
+Skt. dudhitá adj. 'dark' (Schindler 1967). ToB tute 'yellow' continues
+*dhuh-to- (Adams 1999: 301) and therefore must be unrelated. See also
+*dudra/ōn-.
+*dudra/ōn- m./f. 'dodder(?), camelina(?)' - Icel. hár-doora, akur-doðra
+'id.', Sw. dådra c. 'id.', ME doder 'flax dodder', E dodder, MLG doder, dodder
+m. 'id.', Du. dodder m. 'id.', MHG toter m. 'wild rocket, field rocket' (NEUR?).
+The word appears in two different variants: WGm. *dudra- meaning
+'dodder', a parasitic plant, and Nordic *dudron- 'camelina, false flax'. The
+word has no certain etymology, but may belong to Far. doddur m. 'tuft of
+hair, topknot, forelock', Du. dot c. 'tangle, tuft' < *duddan-, which have been
+compared to Latv. duža f. 'tuft' < *dhudh-ieh2-(?) and Gr. 9úσavos m. 'tassels,
+fringe' (but cf. Beekes 2010: 566-7). The comparison with *dud(i)ran- 'egg
+yolk' (q.v.) is unconvincing in spite of the fact that dodder has yellow or
+orange stems.
+*dugan-pret.-pres. 'to be fit, avail'Go. daug 3sg.pres. 'id.', ON duga w.v.
+'id.', OE dugan pret.-pres. 'id.', OFri. duga pret.-pres. 'id.', OS dugan
+pret.-pres. 'id.', Du. deugen w.v. 'id.', OHG tugan pret.-pres. 'id.', G taugen w.v."		
+alignment-dream-kroonen-verb	Kroonen2013	100-102	141	1	76	85	*dreugan-	bf4e2ef200346d3d6131f138f35868a2ecec41efceabcf0040cdec9b651b60a2	"*draupjan-
+101
+Continuing *draugma-, a mo-stem derived from the strong verb *dreugan-
+(q.v.). The noun gave rise to the oblique subject factitive *draumjan- 'to
+dream', cf. ON dreyma, OE drieman, Du. dromen, G träumen.
+*draupjan- w.v. 'to make drip' - ON dreypa w.v. 'id.', OE driepan w.v. 'id.',
+OHG troufen w.v. 'id.', MHG troufen, trōufen w.v. 'id.' (DRV).
+The causative to the secondary strong verb *dreupan- ~*drūpan- (q.v.).
+*drauzjan- w.v. 'to make fall'
+*dhrouHs-éie- (NEUR).
+-
+The causative to *dreusan- (q.v.).
+MHG trōren w.v. 'to drip, ooze, shed' ⇒
+*drēkō- f. 'streak' - ON drák f. 'id.', Nw. dråk, pl. dræker f. 'id.' (DRV?).
+A North Germanic ō-stem (the root noun inflection of Nw. dråk is sec-
+ondary). It is unrelated to Skt. dhráji-, dhrají- f. 'draught of air, wind', which
+continues *drog-i- with *o rather than *ē. In all likelihood, *drēkō- was de-
+rived from *dragan- 'to draw, pull' (q.v.) in the same way that OFri. slēk m.
+'blow' < *slēka- was created to *slahan- 'to hit' (q.v.). The underlying form
+must then be reconstructed with a Pre-Gm. geminate: *drēkkō-.
+-
+-
+*drenan- m. 'drone' OS dreno m. 'id.', Du. Limb. drene c. 'id.', OHG treno
+m. 'id.', MHG trene, tren m. 'id.', G Swi. Jaun trɛnə m. 'id.'⇒ *dhr-en- (EUR) -
+Gr. tɛv prvη, tεеpηdov 'wasp', Lac. Opwova 'drone' < *dhen-dhr-en- /
+*dhr-ōn-(?); Lith. trãnas m. ‘drone'; Latv. trans m. ‘id.' < *trono-; SCS trut
+'wasp', SCr. trût 'drone' < *tronto-; Ru. trúten' m. 'drone, parasite' <
+*tront-nio-.
+A word with a complicated prehistory. The aforementioned forms point
+to a proto-form *drenan-, which can easily have been created on the basis of
+a hysterokinetic n-stem *dhr-én, acc. *dhr-én-m. The origin of MLG drone,
+drane, MDu. darne, dorne, Du. dar, E drone < *drunan- is not so straightfor-
+ward, however, although they can perhaps be explained as (secondary?)
+zero-grades. Even more problematic are OS gl. drắn and OE gl. drẵn, dræn,
+which continue either *dran- (< *d³r-on-) or *drēn- < *d³r-ēn-. Note, howev-
+er, that none of these forms would result in E drone. Can there furthermore
+be a link with OE dora m. 'bumble-bee' < *duran-? There are many remain-
+ing problems, not least the initial consonant of the Balto-Slavic forms.
+*drepan- s.v. 'to hit'-ON drepa s.v. 'to stike, beat, knock; to kill, slay', OE
+drepan s.v. 'to strike', MLG drepen s.v. 'to hit', MDu. drepen s./w.v. 'to hit,
+strike', OHG treffan s.v. 'to hit', G treffen s.v. 'to hit, touch' (DRV).
+A back-formation to the iterative *drupp/bōn- 1, a zero-grade variant of
+*drapp/bon- (q.v.). As both iteratives were derived from the strong verb
+*draban- 'to hew' < *dhróbh-e-, the strong verb *drepan- cannot be used to"		
+alignment-drink-ringe-past-singular	Ringe2017	269			11	17	*drank	a578b0d25e4fd4a2b3d1069f80c55c5113204e355068c8d3fcb8709a62bddc38	*drinkaną, *drank, *drunkun, *drunkanaz	*drinkaną, *drank, *drunkun	*drunkanaz
+alignment-drink-ringe-past-plural	Ringe2017	269			19	27	*drunkun	a578b0d25e4fd4a2b3d1069f80c55c5113204e355068c8d3fcb8709a62bddc38	*drinkaną, *drank, *drunkun, *drunkanaz	*drinkaną, *drank, *drunkun	*drunkanaz
+alignment-drink-ringe-participle	Ringe2017	269			29	39	*drunkanaz	a578b0d25e4fd4a2b3d1069f80c55c5113204e355068c8d3fcb8709a62bddc38	*drinkaną, *drank, *drunkun, *drunkanaz	*drinkaną, *drank, *drunkun	*drunkanaz
+alignment-drink-rt-2sg	RingeTaylor2014	350	365	9	8	15	drincst	ebd9075b2bfb0dea874b0e0dd122f29640e888e668b5c9c1042b8429481c69fd	drincan drincst, drincb		
+alignment-drink-rt-3sg	RingeTaylor2014	350	365	9	17	23	drincb	ebd9075b2bfb0dea874b0e0dd122f29640e888e668b5c9c1042b8429481c69fd	drincan drincst, drincb		

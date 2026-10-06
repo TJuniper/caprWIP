@@ -26,7 +26,7 @@ needs_literature_agent: no
 
 ## Detailed development-note summary
 
-This row is one of the cleaner OE items: the live row already encodes the regular weak-feminine analysis, and surviving DEV_NOTES material does not point toward any competing policy. The stable project claim is that `sunne` is the expected OE reflex of a feminine n-stem nominative singular in `*-ōn`, not an analogical repair, paradigm-cell substitute, or workaround target [Germanic/data/germanic-aligned-final.tsv:1168-1168; @Hogg1992, §3.3].
+This row is one of the cleaner OE items: the live row already encodes the regular weak-feminine analysis, and surviving DEV_NOTES material does not point toward any competing policy. The stable project claim is that `sunne` is the expected OE reflex of a feminine n-stem nominative singular in `*-ōn`, not an analogical repair, paradigm-cell substitute, or workaround target [Germanic/data/germanic-aligned-final.tsv:1168-1168; @HoggPhonology1992, §3.3].
 
 The important categorical distinction is straightforward but should still be kept explicit. `PROTO = *súnnōn` names the comparative etymological item; `PROTOFORM = *súnnōn` is the row's actual OE-facing input; and `COUNTERPART = sunne` is the expected OE output of that input [Germanic/data/germanic-aligned-final.tsv:1168-1168]. Nothing in surviving DEV_NOTES suggests that the row should instead be driven from some oblique form, from a remodeled proto input, or from a different derivation class.
 

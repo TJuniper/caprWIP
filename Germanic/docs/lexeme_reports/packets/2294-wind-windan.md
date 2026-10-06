@@ -249,7 +249,7 @@ _None_
 
 | Key | Why it was selected |
 | :--- | :--- |
-| Hogg1992 | single available key for Hogg |
+| HoggPhonology1992 | single available key for Hogg |
 | Fulk2018 | single available key for Fulk |
 
 ### Low-confidence candidates

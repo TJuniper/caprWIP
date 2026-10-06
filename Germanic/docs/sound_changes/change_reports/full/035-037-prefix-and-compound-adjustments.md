@@ -27,8 +27,8 @@ pretonic prefixes, unstable low-stress medial vowels such as `weorold` /
 367, 386--387]. Hogg sharpens the same general picture by stressing the
 reduction of unstressed-vowel contrasts and the permanently unstressed status of
 `ge-`, which makes both prefix reduction and medial unstressed adjustment
-historically legible rather than purely model-driven [@Hogg1992, §3.3.1.3;
-@Hogg1992, p. 99].
+historically legible rather than purely model-driven [@HoggPhonology1992, §3.3.1.3;
+@HoggPhonology1992, pp. 99--100].
 
 The weight of that evidence is not equal across the three members. SC035 is
 source-legible through reduced pretonic prefixes and stress-weak prefix

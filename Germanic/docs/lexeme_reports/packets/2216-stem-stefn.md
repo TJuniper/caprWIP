@@ -677,7 +677,7 @@ _None_
 | Key | Why it was selected |
 | :--- | :--- |
 | Stiles1985 | author + year mention (Stiles 1985) |
-| Hogg1992 | single available key for Hogg |
+| HoggPhonology1992 | single available key for Hogg |
 | Campbell1959 | single available key for Campbell |
 | Luick1914 | single available key for Luick |
 

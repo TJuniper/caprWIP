@@ -31,6 +31,12 @@ GERMANIC = REPO_ROOT / "Germanic"
 FST_SOURCE = GERMANIC / "fsts" / "germanic.txt"
 TSV = GERMANIC / "data" / "germanic-aligned-final.tsv"
 BASELINE = GERMANIC / "docs" / "sound_changes" / "cascade_baseline" / "cascade_baseline_outputs.tsv"
+INVENTORY = GERMANIC / "docs" / "sound_changes" / "sound_change_inventory.tsv"
+STAGING_MAP = GERMANIC / "docs" / "sound_changes" / "sound_change_historical_staging_map.tsv"
+HISTORICAL_AUDIT = (
+    GERMANIC / "docs" / "sound_changes" / "cascade_baseline" / "historical_audit_table.tsv"
+)
+INDEX_FORMS = GERMANIC / "docs" / "book" / "index_verborum_forms.tsv"
 
 
 def _tsv_row(row_id: str) -> dict[str, str]:
@@ -44,6 +50,15 @@ def _tsv_row(row_id: str) -> dict[str, str]:
 def _baseline_by_concept() -> dict[str, dict[str, str]]:
     with BASELINE.open(encoding="utf-8") as handle:
         return {row["concept"]: row for row in csv.DictReader(handle, delimiter="\t")}
+
+
+def _metadata_row(path: Path, key: str) -> dict[str, str]:
+    lines = [line for line in path.read_text(encoding="utf-8").splitlines()
+             if not line.startswith("#")]
+    for row in csv.DictReader(lines, delimiter="\t"):
+        if row[key] == "SC022":
+            return row
+    raise AssertionError(f"SC022 not found in {path}")
 
 
 class SC022RuleBodyTests(unittest.TestCase):
@@ -121,14 +136,65 @@ class SevenControlTests(unittest.TestCase):
         self.assertEqual(seven["match"], "1")
 
 
+class HistoricalScopeTests(unittest.TestCase):
+    def test_stage_is_common_germanic_not_pnwgmc(self):
+        inventory = _metadata_row(INVENTORY, "change_id")
+        staging = _metadata_row(STAGING_MAP, "sc_id")
+        audit = _metadata_row(HISTORICAL_AUDIT, "sc_id")
+        self.assertEqual(inventory["stage"], "Common Germanic")
+        self.assertEqual(inventory["trace_stage"], "SC018-SC025 editorial holding zone")
+        self.assertEqual(inventory["historical_stage"], "Proto-Germanic")
+        self.assertEqual(inventory["pipeline_stage"], "SC018-SC025 editorial holding zone")
+        self.assertEqual(staging["hist_stage"], "pgmc")
+        self.assertEqual(staging["hist_scope"], "pan_germanic")
+        self.assertEqual(audit["proposed_hist_stage"], "pgmc")
+        self.assertEqual(audit["proposed_hist_scope"], "pan_germanic")
+
+    def test_stable_identifier_is_not_a_stage_claim(self):
+        inventory = _metadata_row(INVENTORY, "change_id")
+        staging = _metadata_row(STAGING_MAP, "sc_id")
+        # The anchor is STABLE: it carries no line number, so inserting lines
+        # above the definition cannot dirty a committed file.
+        self.assertEqual(inventory["rule_source_anchor"], "define PNWGmcMnDissimilation")
+        self.assertEqual(staging["fst_identifier"], "PNWGmcMnDissimilation")
+        self.assertIn("stable Foma identifier only", inventory["notes"])
+
+    def test_index_uses_canonical_form_stage_not_rule_name_prefix(self):
+        with INDEX_FORMS.open(encoding="utf-8") as handle:
+            rows = list(csv.DictReader(handle, delimiter="\t"))
+
+        stem_selected = [
+            row for row in rows
+            if row["form"] == "*stámniz"
+            and row["form_role"] == "selected_input"
+            and row["source_scope"] == "trace_proto_input"
+        ]
+        self.assertTrue(stem_selected)
+        self.assertEqual({row["language"] for row in stem_selected}, {"pgmc"})
+
+        heaven_selected = [
+            row for row in rows
+            if row["form"] == "*xébun"
+            and row["form_role"] == "selected_input"
+            and row["source_scope"] == "trace_proto_input"
+        ]
+        self.assertTrue(heaven_selected)
+        self.assertEqual({row["language"] for row in heaven_selected}, {"nsgmc"})
+
+
 class CorpusTotalsTests(unittest.TestCase):
     def test_summary_totals(self):
         summary = json.loads(
             (BASELINE.parent / "cascade_baseline_summary.json").read_text(encoding="utf-8")
         )
-        self.assertEqual(summary["total_lexemes"], 380)
-        self.assertEqual(summary["accepted"], 380)
-        self.assertEqual(summary["matched"], 373)
+        # Corpus-maturation policy: the original corpus is a frozen legacy-380
+        # subset; the whole-corpus total may grow, but every row (legacy and
+        # new) must be accepted, the mismatch population stays the legacy 7,
+        # and no row is ambiguous.
+        self.assertEqual(summary["legacy_subset_count"], 380)
+        self.assertGreaterEqual(summary["total_lexemes"], 380)
+        self.assertEqual(summary["accepted"], summary["total_lexemes"])
+        self.assertEqual(summary["matched"], summary["total_lexemes"] - 7)
         self.assertEqual(summary["mismatched"], 7)
         self.assertEqual(summary["ambiguous_outputs"], 0)
 

@@ -1,7 +1,7 @@
 # SC039 OE WI Combinative U Umlaut — chronology evidence card
 
-## Current position
-- current_order: `39`
+## Position at experiment time
+- order_at_experiment_time: `39`
 - rule_name: `OEWICombinativeUUmlaut`
 - safe computational window: `13-39` (earlier side runner-bounded)
 - status: `first_break_complete`

@@ -1,4 +1,8 @@
 action	language	variety	form	display	sort_key	source_scope	source_ref	note
+add	oe		cneowes	cneowes	cneowes	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:137	Source-backed regular genitive comparison in the knee paradigm table.
+add	oe		cnēo	cnēo	cneo	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:138	Source-backed regular endingless knee comparison.
+add	oe		cnēow	cnēow	cneow	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:139	Source-backed knee nominative with restored w.
+add	pgmc		*knéwai	*knéwai	knewai	override	Germanic/docs/lexeme_reports/model_entries/2085-knee-cneowe.model.md:135	Selected inherited dative construction, repeated explicitly in the paradigm table.
 add	ohg		backan	backan	backan	override	Germanic/docs/lexeme_reports/model_entries/1934-bake-bacan.model.md:21	Clearly labelled Old High German comparison form.
 add	ohg		bahhan	bahhan	bahhan	override	Germanic/docs/lexeme_reports/model_entries/1934-bake-bacan.model.md:21	Clearly labelled Old High German comparison form.
 add	ofris		dore	dore	dore	override	Germanic/docs/lexeme_reports/model_entries/1992-door-dor.model.md:21	Clearly labelled Old Frisian comparison form.
@@ -33,4 +37,17 @@ ignore			field				Germanic/docs/sound_changes/reader_facing/reader_facing_local_
 ignore			*bækaną				Germanic/docs/lexeme_reports/model_entries/1934-bake-bacan.model.md:29	Mechanical intermediate trace state in derivational prose, not a cited evidence form.
 ignore			*bigínnan				Germanic/docs/lexeme_reports/model_entries/1943-begin-beġinnan.model.md:33	Mechanical intermediate trace state in derivational prose, not a cited evidence form.
 ignore			*bāną				Germanic/docs/lexeme_reports/model_entries/1954-bone-bān.model.md:33	Mechanical intermediate trace state in derivational prose, not a cited evidence form.
+ignore			*fláux				Germanic/docs/lexeme_reports/model_entries/2018-flea-flēah.model.md:56	Intermediate developmental stage in derivational prose, not a cited evidence form.
+ignore			*skúldramiz				Germanic/docs/assembly/capr_book_intro_alpha_01.md:33	Display-attribute duplicate of the indexed .iv span on the same line; already indexed at this ref.
 ignore			*wér-uldu				Germanic/docs/lexeme_reports/model_entries/2302-world-weorold.model.md:50	Intermediate developmental stage in derivational prose, not a cited evidence form.
+ignore			cascade				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:167	Ordinary English description of the computational pipeline, not a historical form.
+ignore			date				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:150	Ordinary English discussion of historical dating, not a reconstructed form.
+ignore			date				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:215	Ordinary English discussion of historical dating, not a reconstructed form.
+ignore			gift				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:19	English gloss of the explicitly indexed giftiz reconstruction on the same line, not an additional historical form.
+ignore			mutation				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:205	Sound-change process label in English prose, not a lexical form.
+ignore			mutation				Germanic/docs/lexeme_reports/model_entries/2040-gift-ġift.model.md:230	Sound-change process label in English prose, not a lexical form.
+ignore			down				Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:21	English gloss of the explicitly indexed Old Norse hý comparison, not a Gothic form.
+ignore			long				Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:63	English quantity descriptor, not an Old English lexical form.
+ignore			īew				Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:64	Discussed vowel-plus-glide outcome within the hue chain, not a separate lexical item; the full hīew target is indexed explicitly.
+ignore			e-to-i				Germanic/docs/lexeme_reports/model_entries/2332-hue-hīew.model.md:77	English label for the early raising process, not a Proto-Germanic reconstruction.
+ignore			reconstruction				Germanic/docs/lexeme_reports/model_entries/2326-you-ēow.model.md:39	Ordinary English description of the unchanged PGmc reconstruction, not a reconstructed lexical form.

@@ -25,7 +25,7 @@
 
 | Item | Result | Note |
 | :--- | :--- | :--- |
-| Citation keys present in `docs/refs.bib` | yes | `BosworthToller1898`, `Kroonen2013`, `RingeTaylor2014`, `Hogg1992`, `Campbell1959`. |
+| Citation keys present in `docs/refs.bib` | yes | `BosworthToller1898`, `Kroonen2013`, `RingeTaylor2014`, `HoggPhonology1992`, `Campbell1959`. |
 | Sources cited in prose | yes | No local file names appear in the model entry. |
 | Missing-key issues recorded outside final prose | yes | The old pilot report is kept out of the citation apparatus. |
 

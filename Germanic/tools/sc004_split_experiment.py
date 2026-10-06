@@ -7,7 +7,7 @@ Builds an experimental flattened cascade in which:
   - the old SC014 *ăi no-op is removed;
   - the general component B+C (SC004, provisional EAFAiMonophthongization) is
     inserted at the requested EAF position (after PNWGmcPreconsonantalXLoss / SC028,
-    before OEAwjGlideFormation / SC029), or at --after <rule> if given.
+    before OEAwwjResolution / SC029), or at --after <rule> if given.
 
 Then it formally checks, over EnglishProtoInput:
   1. whole-cascade equivalence  ExpCascade == EnglishProtoToOE ;

@@ -26,9 +26,11 @@ in `SETUP.md` / `USAGE.md` as needed.
    "Load" to avoid the broken board view (see `USAGE.md`).
 
 ## 3. Record work / hand off
-1. Update `Germanic/docs/DEV_NOTES.md` (add a dated section) with:
-   - Which dataset + transducers you loaded.
-   - Outstanding tests or forms to revisit next session.
+1. Update `Germanic/docs/CURRENT_STATE.md` if the current phase or next
+   task changed, and record sound-change adjudication work in the registry
+   and memos per `Germanic/docs/sound_changes/registry/CONTROL_PLANE.md`.
+   (`Germanic/docs/archive/DEV_NOTES.md` is an archived historical log —
+   do not append to it.)
 2. If you touched the FSTs, update status in `Germanic/docs/germanic_transducer_report.md`.
 
 ## 4. Tear down

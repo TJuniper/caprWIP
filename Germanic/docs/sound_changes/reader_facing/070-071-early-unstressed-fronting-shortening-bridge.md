@@ -5,7 +5,7 @@
 Campbell distinguishes the shortening of unaccented long vowels, while Hogg,
 Ringe and Taylor, and Fulk place fronting and shortening within a later history
 of syncope and final-vowel adjustment [@Campbell1959, p. 148, §355;
-@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3;
+@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3;
 @Fulk2018, pp. 90--96, §§5.6--5.7]. Earlier unstressed fronting precedes later
 o-shortening.
 
@@ -37,12 +37,43 @@ The following rule handles the later shortening stage.
 
 ```foma
 define OELateOShortening [
-    {*ō} -> {*a} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [EnglishStarConsonant | EnglishPalatalConsonant]*
+    {*ō} -> {*o} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [EnglishStarConsonant | EnglishPalatalConsonant]*
 ];
 ```
 
-The rule shortens the remaining unstressed long \emph{*ō} after fronting,
-producing the later “stable a” endings in OE *boraþ* ‘bears’ and *liornaþ*
-‘learns’.
+The rule shortens the remaining unstressed long \emph{*ō} after fronting. The
+shortened vowel is then resolved by the following medial/final distribution,
+not directly as \emph{a} [@StauslandJohnsen2015, pp. 28--31].
 
-Moving the rule before [SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly) makes PGmc [búrōθi]{.recon} ‘bears’ yield [*boreþ*]{.pred} rather than expected OE *boraþ* 'bears', and PGmc [líznōθi]{.recon} ‘learns’ yield [*liorneþ*]{.pred} rather than expected *liornaþ* 'learns'. The contrast requires [SC071 OELateOShortening](#rule-OELateOShortening) to follow [SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly). Moving it later within the tested range creates no equally sharp failure.
+Moving the rule before [SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly) makes PGmc [búrōθi]{.recon} ‘bears’ yield [*boreþ*]{.pred} rather than expected OE *boraþ* 'bears', and PGmc [líznōθi]{.recon} ‘learns’ yield [*liorneþ*]{.pred} rather than expected *liornaþ* 'learns'. The contrast requires [SC071 OELateOShortening](#rule-OELateOShortening) to follow [SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly).
+
+## SC099. Medial raising of shortened unstressed \emph{*o} (`OEMedUnstressedORaising`) {#rule-OEMedUnstressedORaising}
+
+```foma
+define OEMedUnstressedORaising [
+    {*o} -> {*u} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [EnglishStarConsonant | EnglishPalatalConsonant]* EnglishStarVocalic
+];
+```
+
+After [SC071 OELateOShortening](#rule-OELateOShortening), the shortened vowel gives \emph{u} in an unstressed medial
+syllable. The rule encodes Stausland Johnsen's statistically supported account
+of West Saxon ō-verb pasts, not a general rule for inherited short \emph{*o}
+or for nominal morphology [@StauslandJohnsen2015, pp. 28--31, 36]. His
+diagnostic derivation is PGmc [wúndōdē]{.recon} ‘wounded’ > [wundode]{.pred}
+> OE [wundude]{.iv lang=oe sort=wundude role=evidence_form} ‘wounded’ [@StauslandJohnsen2015, pp. 28--29].
+
+## SC100. Final lowering of shortened unstressed \emph{*o} (`OEFinalUnstressedOLowering`) {#rule-OEFinalUnstressedOLowering}
+
+```foma
+define OEFinalUnstressedOLowering [
+    {*o} -> {*a} || EnglishStarVocalic [EnglishStarConsonant | EnglishPalatalConsonant]+ _ [EnglishStarConsonant | EnglishPalatalConsonant]* .#.
+];
+```
+
+In a final syllable the same shortened vowel gives \emph{a}. Thus the existing
+month control continues PGmc [mḗnōθz]{.recon} ‘month’ through shortened
+\emph{*o} to OE [mōnaþ]{.iv lang=oe sort=monath role=evidence_form} ‘month’, while [wúndōdē]{.recon} ‘wounded’ takes
+[SC099 OEMedUnstressedORaising](#rule-OEMedUnstressedORaising)
+instead. The medial/final contrast and its chronology after long-vowel
+shortening are Stausland Johnsen's analysis [@StauslandJohnsen2015,
+pp. 28--31].

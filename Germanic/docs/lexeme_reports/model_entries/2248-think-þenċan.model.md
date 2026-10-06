@@ -30,4 +30,4 @@ From [θánkijaną]{.recon} ‘think’, palatalization before `*j` and i-umlaut
 
 ### Lexical note
 
-Campbell's assibilation discussion uses the same verb `þencan` 'think'; the class-III relic `hycgan` is a different lexeme [@Campbell1959; @Hogg1992].
+Campbell's assibilation discussion uses the same verb `þencan` 'think'; the class-III relic `hycgan` is a different lexeme [@Campbell1959; @HoggGrammar1992].

@@ -17,7 +17,7 @@ This unit is a small chronological bridge immediately before the promoted SC051 
 
 ## 3. Traditional description and literature
 
-The literature does not treat SC049-SC050 as a natural chapter. SC049 is the weaker side. Hogg, Ringe and Taylor, and Luick support the underlying phonological point that OE and earlier West Germanic distinguish stop and fricative realizations of `b` by position [@Hogg1992, pp. 101-102; @RingeTaylor2014, p. 121; @Luick1914, p. 107]. That supports CAPR's rule as a real phonological distribution, but not as a large historical chapter with its own broad chronology. The one live chronology witness, `rainbow`, is therefore doing unusually large local work.
+The literature does not treat SC049-SC050 as a natural chapter. SC049 is the weaker side. Hogg, Ringe and Taylor, and Luick support the underlying phonological point that OE and earlier West Germanic distinguish stop and fricative realizations of `b` by position [@HoggPhonology1992, p. 108; @RingeTaylor2014, p. 121; @Luick1914, p. 107]. That supports CAPR's rule as a real phonological distribution, but not as a large historical chapter with its own broad chronology. The one live chronology witness, `rainbow`, is therefore doing unusually large local work.
 
 SC050 has stronger source backing. Adamczyk and Fulk both treat Sievers-law reflexes as real historical material visible in weak-verb and related paradigms, especially through heavy/light stem structure and the distribution of gemination [@Adamczyk2001; @Fulk2018, p. 28, sec. 6.15]. That makes SC050 easier to justify in book prose, but its function inside this part of the cascade is still limited: the live chronology card makes it mainly a feeder into SC052 rather than a coequal member of a palatalization chapter.
 

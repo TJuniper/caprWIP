@@ -24,7 +24,7 @@
 
 | Item | Result | Note |
 | :--- | :--- | :--- |
-| Citation keys present in `docs/refs.bib` | yes | `BosworthToller1898`, `Campbell1959`, `Hogg1992`, `Kroonen2013`, `RingeTaylor2014`. |
+| Citation keys present in `docs/refs.bib` | yes | `BosworthToller1898`, `Campbell1959`, `HoggPhonology1992`, `Kroonen2013`, `RingeTaylor2014`. |
 | Sources cited in prose | yes | Final prose uses bibliography keys only. |
 | Missing-key issues recorded outside final prose | yes | No missing-key issue affects the model entry. |
 

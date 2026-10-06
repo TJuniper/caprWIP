@@ -6,7 +6,7 @@
 > `SC004-components-chronology.md`). SC014 is corpus-active (witnesses span, meed),
 > not corpus-inert; the SC036 `soul` boundary belongs to SC004.
 
-## Current position
+## Position at experiment time
 - current_order (SC id): `4`
 - executable cascade position: `25` (EAF corridor, immediately after SC028 `PNWGmcPreconsonantalXLoss`)
 - rule_name: `EAFAiMonophthongization`

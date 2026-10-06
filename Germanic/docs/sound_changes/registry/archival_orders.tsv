@@ -1,0 +1,110 @@
+# archival_orders.tsv — ARCHIVE / FROZEN (frozen at commit ce4fd3e5).
+# Legacy order spaces retired from sc_registry.tsv by the control-plane pass.
+# inventory_order: the archival inventory/chronology-experiment order space in
+#   which the first-break order-sensitivity experiments were run
+#   (tools/sound_change_order_sensitivity.py reads it as its experiment order space).
+# staging_order: the legacy hand-maintained row sequence of the pre-2026 staging map.
+# These are audit-time/experiment-time facts. They are NEVER resynchronized when the
+# executable cascade changes; current executable order comes from oe_pipeline /
+# cascade_baseline/cascade_order_manifest.tsv.
+sc_id	inventory_order	staging_order
+SC001	1	
+SC002	2	
+SC003	3	26
+SC004	25	1
+SC005	5	2
+SC006	6	3
+SC007	7	4
+SC008	8	5
+SC009	9	6
+SC010	10	7
+SC011	11	8
+SC012	12	9
+SC013	13	10
+SC014	1	11
+SC015	15	12
+SC016	16	32
+SC017	17	13
+SC018	18	14
+SC019	19	15
+SC020	20	27
+SC022	22	16
+SC023	23	17
+SC024	24	18
+SC025	25	19
+SC026	26	20
+SC027	27	21
+SC028	28	22
+SC029	29	33
+SC030	30	34
+SC031	31	35
+SC032	32	36
+SC033	33	37
+SC034	34	38
+SC035	35	39
+SC036	36	40
+SC037	37	41
+SC038	38	
+SC039	39	42
+SC040	40	43
+SC041	41	23
+SC042	42	24
+SC043	43	31
+SC044	44	44
+SC045	45	45
+SC046	46	46
+SC047	47	47
+SC048	48	48
+SC049	49	0
+SC050	50	25
+SC051	51	49
+SC052	52	50
+SC053	53	51
+SC054	54	52
+SC055	55	53
+SC056	56	54
+SC057	57	55
+SC059	59	56
+SC060	60	57
+SC061	61	58
+SC062	62	
+SC063	63	59
+SC064	64	60
+SC065	65	61
+SC066	66	62
+SC067	67	63
+SC068	68	64
+SC069	69	65
+SC070	67	66
+SC071	68	67
+SC072	72	68
+SC073	73	69
+SC074	74	70
+SC075	75	71
+SC076	76	72
+SC078	77	73
+SC079	78	74
+SC080	79	75
+SC081	80	76
+SC082	81	77
+SC083	82	78
+SC084	83	
+SC085	84	79
+SC086	85	80
+SC087	86	81
+SC088	87	
+SC089	88	
+SC090	89	
+SC091	90	
+SC092	91	
+SC094	93	
+SC095	94	
+SC096	95	82
+SC097	96	83
+SC098	97	28
+SC099	69	29
+SC100	70	30
+SC101	27	84
+SC102	27	85
+SC103	26	86
+SC104	25	87

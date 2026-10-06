@@ -16,17 +16,21 @@ East Germanic varieties.
 
 ## What this chapter contains
 
-Chapter 1 contains one reader-facing sound-change section: the positional
-allophony of Proto-Germanic \emph{*b}, implemented as `SC049 PGmcBAllophony`.
-The rule governs the distribution of \emph{*b} as a stop versus a voiced
-bilabial fricative \emph{*β} depending on syllabic environment. Hogg, Ringe
-and Taylor, and Luick all identify this distribution as a Proto-Germanic
-feature [@Hogg1992, pp. 101--102; @RingeTaylor2014, p. 121; @Luick1914, p. 107].
+Chapter 1 contains one reader-facing sound-change section: the Proto-Germanic
+loss of a nasal before \emph{*x} (`SC103 PGmcNasalLossBeforeX`), with
+compensatory lengthening and nasalization of the preceding vowel. Its results
+are shared by every daughter language, Gothic included, so the change belongs
+to Proto-Germanic itself and precedes every Northwest Germanic and West
+Germanic development treated in the chapters that follow
+[@Campbell1959, p. 44, §119; @Fulk2018, p. 55, §4.1;
+@Ringe2017, pp. 149--150, §3.2.7].
 
-CAPR implements this rule late in the computational cascade because the
-alternation interacts with environments shaped by intermediate rule
-applications. The cascade placement therefore diverges from the historical
-stage; the reader-facing section notes this divergence explicitly.
+Another historically Proto-Germanic rule, the positional allophony of
+Proto-Germanic \emph{*b} (`SC049 PGmcBAllophony`), executes late in the
+computational cascade because the alternation interacts with environments
+shaped by intermediate rule applications; its section therefore appears in
+Chapter 4, where the divergence between cascade placement and historical
+stage is noted explicitly.
 
 One other historically Proto-Germanic change, Gm-simplification
 (`SC002 PGmcGmSimplification`), is documented in the book-entry plan and

@@ -1,7 +1,7 @@
 # SC032 OE Diphthong Leveling — chronology evidence card
 
-## Current position
-- current_order: `32`
+## Position at experiment time
+- order_at_experiment_time: `32`
 - rule_name: `OEDiphthongLeveling`
 - safe computational window: `31-39`
 - status: `first_break_complete`

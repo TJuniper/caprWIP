@@ -144,7 +144,7 @@ _None_
 10407: | 2026-04-21 | 37 | -1 | dab140a9 | §17 refactor baseline confirmed post-prosodic-tier merge |
 10408: | 2026-04-23 | 36 | -1 | aa241224 | findan: PP target switch → fundene (§17.10.31, Case 4 Path α) |
 10409: | 2026-04-23 | 35 | -1 | 5e733bb3 | wīþiġ: PROTOFORM *wīθijaz → *wīθagą (§17.10.35, Campbell -ag- suffix) |
-10410: | 2026-04-23 | 34 | -1 | 29f4e924 | hīeġ: OEAwjGlideFormation *aw(w)+*j → *au+*j (§17.10.36 stages 1–2) |
+10410: | 2026-04-23 | 34 | -1 | 29f4e924 | hīeġ: OEAwwjResolution *aw(w)+*j → *au+*j (§17.10.36 stages 1–2) |
 10411: | 2026-04-24 | 33 | -1 | 0c6ab468 | strīeġan: OEJStrengtheningAfterFrontDiphthong (§17.10.36-q3) |
 ```
 

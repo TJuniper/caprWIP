@@ -54,7 +54,7 @@ _None_
 - Nearby heading: ## Mismatch Progress Log (2026-03-14)
 
 ```text
-10410: | 2026-04-23 | 34 | -1 | 29f4e924 | hīeġ: OEAwjGlideFormation *aw(w)+*j → *au+*j (§17.10.36 stages 1–2) |
+10410: | 2026-04-23 | 34 | -1 | 29f4e924 | hīeġ: OEAwwjResolution *aw(w)+*j → *au+*j (§17.10.36 stages 1–2) |
 10411: | 2026-04-24 | 33 | -1 | 0c6ab468 | strīeġan: OEJStrengtheningAfterFrontDiphthong (§17.10.36-q3) |
 10412: | 2026-04-24 | 32 | -1 | 6a2bbda2 | cwedu: PROTOFORM *kwíθuz → *kwéðuz (§17.14) |
 10413: | 2026-04-24 | 31 | -1 | 5fa587ab | sife: PROTOFORM *síbaz → *síbi (§17.15) |

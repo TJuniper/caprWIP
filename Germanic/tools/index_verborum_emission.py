@@ -42,7 +42,7 @@ EMISSION_TABLE_PATH = BOOK_DIR / "index_verborum_emission_table.tsv"
 INTRO_PATH = ASSEMBLY_DIR / "capr_book_intro_alpha_01.md"
 CHRONOLOGY_PATH = (
     REPO_ROOT
-    / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_19.md"
+    / "Germanic/docs/sound_changes/reader_facing/reader_facing_local_section_20.md"
 )
 
 _LINE_INJ_SCOPES = frozenset(

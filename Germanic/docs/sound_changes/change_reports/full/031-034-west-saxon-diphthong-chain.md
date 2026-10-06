@@ -8,7 +8,7 @@
 report**: a real four-change corridor in the model, not a claim that the
 handbooks themselves present exactly four separate laws matching CAPR's present
 segmentation [@Campbell1959, §120; @Campbell1959, §§170--176, 185, 222--227;
-@Hogg1992, pp. 106--107, 111--112; @Luick1914, §§115--119, 168--176, 182--183,
+@HoggPhonology1992, pp. 106--108, 113; @Luick1914, §§115--119, 168--176, 182--183,
 195; @RingeTaylor2014, §§6.1.2, 6.5.1, 6.10.1; @Fulk2018, §§4.7, 4.13].
 `SC031` **OE WW Simplification** and `SC034` **OE Aw Long Diphthong** are the
 local center of the chapter, while `SC032` **OE Diphthong Leveling** and
@@ -27,7 +27,7 @@ related but distinct layers rather than as four coequal chapter headings
 Fulk sharpen the same caution from different angles: the palatal and later
 diphthongal material is real, but it sits inside a wider chronology of
 brightening, breaking, smoothing, and front mutation rather than inside one
-simple handbook chain [@Hogg1992, pp. 106--107, 111--112;
+simple handbook chain [@HoggPhonology1992, pp. 112--113;
 @RingeTaylor2014, §§6.1.2, 6.5.1, 6.10.1; @Fulk2018, §§4.7, 4.13].
 
 That makes `SC031` and `SC034` the most natural production core. Their witness

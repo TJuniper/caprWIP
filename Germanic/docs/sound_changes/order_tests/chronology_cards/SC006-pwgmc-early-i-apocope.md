@@ -1,7 +1,7 @@
 # SC006 PWGmc Early I Apocope — chronology evidence card
 
-## Current position
-- current_order: `6`
+## Position at experiment time
+- order_at_experiment_time: `6`
 - rule_name: `PWGmcEarlyIApocope`
 - safe computational window: `4-33` (earlier side boundary-only; later side broad/far)
 - status: `first_break_complete`

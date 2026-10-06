@@ -1,7 +1,7 @@
 # SC078 OE Weak Tail Reduction — chronology evidence card
 
-## Current position
-- current_order: `77`
+## Position at experiment time
+- order_at_experiment_time: `77`
 - rule_name: `OEWeakTailReduction`
 - safe computational window: `71-84`
 - status: `first_break_complete`

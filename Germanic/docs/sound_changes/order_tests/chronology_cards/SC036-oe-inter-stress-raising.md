@@ -8,8 +8,8 @@
 > below; SC019 remains a further earlier constraint. The safe earlier window
 > narrows accordingly. The later side (SC040) is unchanged.
 
-## Current position
-- current_order: `36`
+## Position at experiment time
+- order_at_experiment_time: `36`
 - rule_name: `OEInterStressRaising`
 - safe computational window: `20-39`
 - status: `first_break_complete`

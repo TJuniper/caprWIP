@@ -38,8 +38,8 @@
 All four audit-09 locators rechecked in this pass remained safe and required no
 correction:
 
-- `birth / byrd` — `Hogg1992, 357`
-- `needle / nǣdl` — `Hogg1992, 95`
+- `birth / byrd` — `HoggPhonology1992, 357`
+- `needle / nǣdl` — `HoggPhonology1992, 95`
 - `fright / fyrhte` — `RingeTaylor2014, 395-396`
 - `span / spanne` — `SieversBrunner1965, §252; §255.2`
 

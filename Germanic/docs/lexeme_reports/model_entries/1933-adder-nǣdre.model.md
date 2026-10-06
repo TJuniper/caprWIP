@@ -20,11 +20,12 @@ DERIVATION_CLASS: regular
 
 Kroonen distinguishes the masculine snake word [`*nadra-`]{.iv lang=pgmc sort=nadra role=source_protoform} from a feminine
 ablauting formation [`*nēdrōn-`]{.iv lang=pgmc sort=nedron role=source_protoform}, and gives Old English [`nǣdre`]{.iv lang=oe sort=naedre} 'adder', [`næddre`]{.iv lang=oe sort=naeddre} 'adder' under the
-latter [@Kroonen2013, 426]. Orel likewise points from the masculine entry to a
-feminine [nēdrōn]{.iv .recon lang=pgmc sort=nedron role=source_protoform} ‘adder’ ~ [nadrōn]{.iv .recon lang=pgmc sort=nadron role=source_protoform} ‘adder’ type [@Orel2003, 325].
+latter [@Kroonen2013, 381, 386]. Orel's feminine entry gives
+[nēdrōn]{.iv .recon lang=pgmc sort=nedron role=source_protoform} ‘adder’ ~ [nadrōn]{.iv .recon lang=pgmc sort=nadron role=source_protoform} ‘adder’ and relates them to the masculine formation. These comparison spellings use plain *d* for Orel's printed barred *đ*; the quantity and the two alternatives are retained [@Orel2003, 286].
 
-The selected input therefore is not a reshaped convenience form. It is the
-comparative reconstruction that specifically underlies the Old English noun.
+The selected input retains the long-*e* feminine alternative. The lexical
+comparison supports that formation without erasing Orel's alternative or
+the distinction between his notation and CAPR's selected input.
 
 ### Old English evidence
 

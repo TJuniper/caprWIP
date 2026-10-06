@@ -718,7 +718,7 @@ _None_
 
 | Key | Why it was selected |
 | :--- | :--- |
-| Hogg1992 | author + year mention (Hogg 1992) |
+| HoggPhonology1992 | author + year mention (Hogg 1992) |
 | Kilday2024 | author + year mention (Kilday 2024) |
 | Crist2002 | author + year mention (Crist 2002) |
 | Kroonen2013 | default Proto-Germanic etymology key for Kroonen |

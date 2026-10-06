@@ -8,7 +8,7 @@
         - `Germanic/data/germanic-aligned-final.tsv`
         - `Germanic/docs/debug_snapshots/oe_derivation_class_trace_report.compact.md`
         - relevant shared `DEV_NOTES` or analysis passages cited by the packet or memo
-        - local reference files for BrightCassidyRingler1971, Campbell1959, ClarkHall1960, Hogg1992, RingeTaylor2014
+        - local reference files for BrightCassidyRingler1971, Campbell1959, ClarkHall1960, HoggPhonology1992, RingeTaylor2014
         - `docs/refs.bib`
 
         ## Files created
@@ -31,7 +31,7 @@
         - `BrightCassidyRingler1971`
 - `Campbell1959`
 - `ClarkHall1960`
-- `Hogg1992`
+- `HoggPhonology1992`
 - `RingeTaylor2014`
 
         ## Unresolved points

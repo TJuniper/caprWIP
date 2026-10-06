@@ -10,8 +10,8 @@ production rules, using the Old-English-row PROTOFORM (the production input):
          word-final); head of EarlyEnglishLineChanges. TWO corpus applications:
          span (*spánnai -> spanne) and meed (*mízdai -> meorde).
   SC004  EAFAiMonophthongization              : {*ái} -> {*ā}
-         (stressed/root *ái; Early Anglo-Frisian / North Sea Germanic); EAF
-         corridor, after SC028 PNWGmcPreconsonantalXLoss; carries the SC036
+         (completed English stressed/root *ái; stable EAF identifier); existing
+         corridor, after the fronting/rounding block; carries the SC036
          *soul* boundary. 24 corpus applications (23 attested + roe).
 
 loam (*láimą) is a stressed SC004 case by its PROTOFORM; whine (*xwḯnaną) and
@@ -42,12 +42,17 @@ FST_SOURCE = REPO_ROOT / "Germanic/fsts/germanic.txt"
 
 # Re-frozen 2026-08-14 after the deliberate SC022 literal adjacent-mn correction
 # (heaven -> *xébun, stem -> *stámniz; see audits/heaven-sc022-implementation-2026.md).
-FROZEN_OUTPUTS_SHA = "a72bdeb8451039206ab0b90110547f50171c209d5b9c08c71219ed45df5165fc"
+# Since corpus-maturation pass 01 this is the LEGACY-380 SUBSET invariant:
+# the corpus may grow (whole-corpus outputs_sha256 changes with each approved
+# addition), but the original 380 rows must reproduce this hash exactly
+# (summary key legacy_subset_sha256; see cascade_baseline_outputs_legacy380.tsv).
+FROZEN_OUTPUTS_SHA = "70bdaba537d8f6b6bb7d872d00eefbef75127d2d77689af7ba01b35a79ebce39"
 
 
 def _read_tsv(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8") as handle:
-        return list(csv.DictReader(handle, delimiter="\t"))
+        return list(csv.DictReader(
+            (line for line in handle if not line.startswith("#")), delimiter="\t"))
 
 
 class ComponentBehaviorTests(unittest.TestCase):
@@ -176,13 +181,18 @@ class ProductionCascadeTests(unittest.TestCase):
 
     def test_frozen_outputs_preserved(self):
         summary = json.loads(SUMMARY_JSON.read_text(encoding="utf-8"))
-        self.assertEqual(summary["outputs_sha256"], FROZEN_OUTPUTS_SHA)
-        self.assertEqual(summary["matched"], 373)
+        self.assertEqual(summary["legacy_subset_sha256"], FROZEN_OUTPUTS_SHA,
+                         "legacy-380 subset outputs drifted")
+        self.assertEqual(summary["legacy_subset_count"], 380)
+        # Fail closed on any mismatching NEW addition too: all approved
+        # corpus-maturation rows must match their attested counterparts, so
+        # the whole-corpus mismatch population stays the legacy 7.
         self.assertEqual(summary["mismatched"], 7)
+        self.assertEqual(summary["matched"], summary["total_lexemes"] - 7)
 
     def test_sc014_body_is_unrestricted_unstressed_ai(self):
         m = re.search(
-            r"define PNWGmcUnstressedAiMonophthongization \[\s*\n\s*(.*?)\n\s*\];",
+            r"define PNWGmcUnstressedAiMonophthongization Ctx\(\[\s*\[\s*(.*?)\s*\]\s*\]\);",
             self.src)
         self.assertIsNotNone(m, "cannot find SC014 define")
         body = m.group(1).strip()
@@ -198,19 +208,48 @@ class ProductionCascadeTests(unittest.TestCase):
         self.assertEqual(body, "{*ái} -> {*ā}",
                          "SC004 must be stressed-only (no {*ai}->{*ā} nonfinal branch)")
 
+    def test_completed_contraction_is_english_with_unchanged_confidence(self):
+        rows = _read_tsv(SC_DIR / "registry/sc_registry.tsv")
+        row = next(row for row in rows if row["sc_id"] == "SC004")
+        self.assertEqual((row["hist_stage"], row["hist_scope"], row["confidence"]),
+                         ("preoe", "english_specific", "B"))
+        self.assertEqual((row["verdict"], row["fst_identifier"]),
+                         ("REFORMULATE", "EAFAiMonophthongization"))
+        with (SC_DIR / "registry/reader_files.tsv").open(encoding="utf-8") as handle:
+            readers = csv.DictReader(
+                (line for line in handle if not line.startswith("#")), delimiter="\t")
+            chapter = next(row["chapter_id"] for row in readers
+                           if row["reader_file"] == "004-pwgmc-ai-monophthongization.md")
+        self.assertEqual(chapter, "4")
+
     def test_no_active_nonfinal_ai_to_a_branch(self):
         active = [ln for ln in self.src.splitlines()
                   if "{*ai} -> {*ā}" in ln and not ln.lstrip().startswith("#")]
         self.assertEqual(active, [], "the {*ai}->{*ā} branch must not survive")
 
     def test_sc014_leads_early_english_line_changes(self):
-        m = re.search(r"define EarlyEnglishLineChanges \[\s*\n\s*([A-Za-z0-9]+)", self.src)
+        # tolerate the structural `# capr:bundle` marker after the bracket
+        m = re.search(
+            r"define EarlyEnglishLineChanges \[[^\n]*\n\s*([A-Za-z0-9]+)",
+            self.src)
         self.assertEqual(m.group(1), "PNWGmcUnstressedAiMonophthongization")
 
-    def test_sc004_general_runs_after_sc028_in_both_branches(self):
+    def test_sc004_general_runs_after_the_fronting_rounding_block(self):
+        # Since the SC024 e1-complex split, EAFLongANasalRounding (SC025) and
+        # EAFLongAFronting (SC101) precede SC004, so that *ā < *ai arises after
+        # fronting/rounding (Campbell §132; Ringe & Taylor pp. 169-170). The
+        # production composition is the only copy since the EnglishAfter*
+        # instrumentation chain was retired (2026 infrastructure pass).
+        # SC028 PNWGmcPreconsonantalXLoss used to head this block; the SC028
+        # adjudication moved it to its northern West Germanic position, so the
+        # block is now anchored on EAFHiatusWInsertion.
         pat = re.compile(
-            r"\.o\. PNWGmcPreconsonantalXLoss\b.*\n(?:\s*#.*\n)*\s*\.o\. EAFAiMonophthongization\b")
-        self.assertGreaterEqual(len(pat.findall(self.src)), 2)
+            r"\.o\. EAFHiatusWInsertion\b.*\n(?:\s*#.*\n)*"
+            r"\s*\.o\. EAFLongANasalRounding\b.*\n(?:\s*#.*\n)*"
+            r"\s*\.o\. EAFNasalizedLowRounding\b.*\n(?:\s*#.*\n)*"
+            r"\s*\.o\. EAFLongAFronting\b.*\n(?:\s*#.*\n)*"
+            r"\s*\.o\. EAFAiMonophthongization\b")
+        self.assertEqual(len(pat.findall(self.src)), 1)
 
     def test_alias_is_not_composed(self):
         self.assertNotIn(".o. PWGmcAiMonophthongization", self.src)

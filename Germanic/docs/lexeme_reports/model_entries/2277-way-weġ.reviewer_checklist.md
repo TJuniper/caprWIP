@@ -24,7 +24,7 @@
 
 | Item | Result | Note |
 | :--- | :--- | :--- |
-| Citation keys present in `docs/refs.bib` | yes | `Campbell1959`, `Hogg1992`, `Kroonen2013`, `RingeTaylor2014`. |
+| Citation keys present in `docs/refs.bib` | yes | `Campbell1959`, `HoggPhonology1992`, `Kroonen2013`, `RingeTaylor2014`. |
 | Sources cited in prose | yes | No local file names appear in the model entry. |
 | Missing-key issues recorded outside final prose | yes | No missing-key issue affects the entry. |
 

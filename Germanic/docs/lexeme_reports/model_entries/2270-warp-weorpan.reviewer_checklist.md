@@ -24,7 +24,7 @@
 
 | Item | Result | Note |
 | :--- | :--- | :--- |
-| Citation keys present in `docs/refs.bib` | yes | `BrightCassidyRingler1971`, `Campbell1959`, `ClarkHall1960`, `Hogg1992`, `RingeTaylor2014`. |
+| Citation keys present in `docs/refs.bib` | yes | `BrightCassidyRingler1971`, `Campbell1959`, `ClarkHall1960`, `HoggPhonology1992`, `RingeTaylor2014`. |
 | Sources cited in prose | yes | Final prose uses bibliography keys only. |
 | Missing-key issues recorded outside final prose | yes | No missing-key issue affects the model entry. |
 

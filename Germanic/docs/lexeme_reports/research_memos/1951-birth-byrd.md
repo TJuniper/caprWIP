@@ -43,7 +43,7 @@ Beyond the packet, I checked:
 - `docs/references/kroonen_etymological_dictionary_pgmc.vision.txt` — Kroonen gives PGmc **\*burdi-** and OE **(ge-)byrd** [@Kroonen2013].
 - `docs/references/clark_hall_concise_anglo_saxon_dictionary.vision.txt` — Clark Hall has simplex **byrd** ‘birth’ and also prefixed/extended **byrd/byrdo/byrdu** material [@ClarkHall1960].
 - `docs/references/bosworth_toller_anglo_saxon_dictionary.vision.txt` — Bosworth-Toller has a simplex **byrd, e; f. I. birth** entry and a large **ge-byrd** entry covering ‘birth’, ‘origin’, ‘lineage’, ‘rank’, etc. [@BosworthToller1898].
-- `docs/references/hogg_vol1.txt` — Hogg lists **byrd** among deverbal feminines from **beran ~ boren** [@Hogg1992].
+- `docs/references/hogg_vol1.txt` — Kastovsky lists **byrd** among deverbal feminines from **beran ~ boren** [@Kastovsky1992, p. 358].
 - `docs/references/campbell_old_english_grammar.txt` — Campbell cites **gebyrd / gebyrdu** in declensional discussion, showing prefixed forms are well established in the grammatical tradition [@Campbell1959].
 - `docs/references/ringe_taylor_linguistic_history_vol2.txt` — checked for OE `eo` before `rd`; the `beordor` example is useful only as a reminder that breaking evidence belongs with front-vowel inputs, unlike **byrd** [@RingeTaylor2014].
 

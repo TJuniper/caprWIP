@@ -29,11 +29,12 @@ ORDER_MANIFEST = SC_DIR / "cascade_baseline/cascade_order_manifest.tsv"
 
 _DEFINE_RE = re.compile(r"define\s+([A-Za-z][A-Za-z0-9_]*)")
 
-# The single documented reader-facing SC whose principal Foma rule is composed
-# outside the EnglishProtoToOE pipeline (it lives in EarlyGermanicConsonantPipeline). The
-# handover flags SC003 rhotacism as "audit separately", explicitly outside the
-# stage blocks, so its absence from the pipeline manifest is expected.
-STAGING_RULES_OUTSIDE_PIPELINE = {"SC003": "EAFRhotacism"}
+# Every documented reader-facing SC's principal Foma rule is now composed
+# inside the EnglishProtoToOE pipeline manifest. SC003 rhotacism, formerly in
+# EarlyGermanicConsonantPipeline, was moved after MonosyllabicFinalZLoss (2026
+# rhotacism-position correction: R/T vol.2 p.87; Crist 2002 §6), so no rule is
+# expected to be absent from the manifest.
+STAGING_RULES_OUTSIDE_PIPELINE: dict[str, str] = {}
 
 
 def _load_module(name: str, path: Path):
@@ -51,8 +52,8 @@ def _read_tsv_skip_comments(path: Path) -> list[dict[str, str]]:
 
 class InventoryFomaMappingTests(unittest.TestCase):
     def setUp(self):
-        with INVENTORY.open(encoding="utf-8") as handle:
-            self.inv = list(csv.DictReader(handle, delimiter="\t"))
+        lines = [ln for ln in INVENTORY.read_text(encoding="utf-8").splitlines() if not ln.startswith("#")]
+        self.inv = list(csv.DictReader(io.StringIO("\n".join(lines)), delimiter="\t"))
 
     def test_every_inventory_row_has_a_foma_define(self):
         for row in self.inv:
@@ -74,8 +75,8 @@ class ManifestRegistryCoverageTests(unittest.TestCase):
     def setUp(self):
         with ORDER_MANIFEST.open(encoding="utf-8") as handle:
             self.manifest = list(csv.DictReader(handle, delimiter="\t"))
-        with INVENTORY.open(encoding="utf-8") as handle:
-            inv = list(csv.DictReader(handle, delimiter="\t"))
+        inv_lines = [ln for ln in INVENTORY.read_text(encoding="utf-8").splitlines() if not ln.startswith("#")]
+        inv = list(csv.DictReader(io.StringIO("\n".join(inv_lines)), delimiter="\t"))
         self.inv_foma = {}
         for row in inv:
             m = _DEFINE_RE.search(row.get("rule_source_anchor") or "")
@@ -94,37 +95,35 @@ class ManifestRegistryCoverageTests(unittest.TestCase):
         self.assertEqual(inline, [], "manifest should contain only named rules")
 
 
-class StagingMapRepairTests(unittest.TestCase):
-    def setUp(self):
-        self.repair = _load_module("repair_staging_map_fst_identifiers",
-                                   TOOLS / "repair_staging_map_fst_identifiers.py")
-        self.staging = _read_tsv_skip_comments(STAGING_MAP)
-        self.sc_to_foma = self.repair.load_sc_to_foma(INVENTORY)
+class StagingMapIdentityTests(unittest.TestCase):
+    """The staging map is a generated view; its executable identity must come
+    from the registry (sc_registry.tsv fst_identifier), never from
+    rule_source_anchor. (Replaces the retired anchor-based repair tool.)"""
 
-    def test_fst_identifier_column_is_repaired(self):
+    def setUp(self):
+        self.staging = _read_tsv_skip_comments(STAGING_MAP)
+        registry = _read_tsv_skip_comments(
+            SC_DIR / "registry" / "sc_registry.tsv")
+        self.registry_ident = {r["sc_id"]: (r.get("fst_identifier") or "").strip()
+                               for r in registry}
+
+    def test_fst_identifier_column_is_not_the_sc_label(self):
         """fst_identifier must hold the real Foma identifier, never the SC label."""
         offenders = [r["sc_id"] for r in self.staging if r["fst_identifier"] == r["sc_id"]]
         self.assertEqual(offenders, [],
                          f"fst_identifier still equals the SC label for: {offenders}")
 
-    def test_fst_identifier_matches_inventory(self):
+    def test_fst_identifier_matches_registry(self):
         for r in self.staging:
-            self.assertIn(r["sc_id"], self.sc_to_foma,
-                          f"{r['sc_id']} missing from inventory")
-            self.assertEqual(r["fst_identifier"], self.sc_to_foma[r["sc_id"]],
-                             f"{r['sc_id']}: staging Foma id disagrees with inventory")
+            self.assertIn(r["sc_id"], self.registry_ident,
+                          f"{r['sc_id']} missing from the registry")
+            self.assertEqual(r["fst_identifier"], self.registry_ident[r["sc_id"]],
+                             f"{r['sc_id']}: staging Foma id disagrees with registry")
 
     def test_staging_foma_identifiers_are_unique(self):
         foma = [r["fst_identifier"] for r in self.staging]
         dups = {f for f in foma if foma.count(f) > 1}
         self.assertEqual(dups, set(), f"duplicate principal Foma rules in staging map: {dups}")
-
-    def test_repair_tool_is_idempotent(self):
-        """The committed map must already be repaired (repair --check would pass)."""
-        original = STAGING_MAP.read_text(encoding="utf-8")
-        repaired_lines, changed = self.repair.repair_lines(original, self.sc_to_foma)
-        self.assertEqual(changed, 0, "staging map is stale; run repair_staging_map_fst_identifiers.py")
-        self.assertEqual("\n".join(repaired_lines) + "\n", original)
 
 
 class StagingPipelineCrossCheckTests(unittest.TestCase):

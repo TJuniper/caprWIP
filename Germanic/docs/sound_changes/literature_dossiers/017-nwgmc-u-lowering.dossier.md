@@ -39,7 +39,7 @@ Unlike SC016, this is not merely a CAPR-internal label pasted onto a thin phenom
 | `docs/references/campbell_old_english_grammar.txt` | `§ 115`, `u > o`, `gold`, `geoc`, `holpen`, `dohtor` | yes | clearest handbook statement of the change and its exceptions/blocking before nasals | best single English-language witness |
 | `docs/references/fulk_comparative_grammar_early_germanic.vision.txt` | `before a mid or low vowel`, `lowered to o`, `geoc`, `gold`, `nasal consonant`, `when j preceded` | yes | modern comparative statement with chronology and explicit blocking by nasals and by `j` | best modern synthesis for CAPR comparison |
 | `docs/references/hogg_vol1.txt` | `u > o`, `gold`, `geoc`, `non-high vowel`, `following syllable` | no | example mentions only; no short dossier-ready discussion recovered in this pass | checked, but not used |
-| `docs/references/ringe_taylor_linguistic_history_vol2.txt` | `u became o`, `gold`, `geoc`, `botm`, `door`, `following syllable` | no | no clean SC017-focused treatment recovered in this pass | checked, but not used |
+| `docs/references/ringe_taylor_linguistic_history_vol2.txt` | `u became o`, `gold`, `geoc`, `botm`, `door`, `following syllable` | yes (2026 re-search) | p. 129 prints the PWGmc paradigm of 'yoke' as jok/jokas/joku, with the lowering applied; p. 5 interprets geoc as /jok/ | recovered in the 2026 adjudication pass |
 | `docs/references/brunner_1965_altenglische_grammatik.txt` | `u vor a, o, e`, `gold`, `geoc`, `holpen` | no | likely relevant sections exist, but OCR was too noisy for safe quotation | checked, but not used as a primary witness |
 | `docs/references/bosworth_toller_anglo_saxon_dictionary.txt` | `nosu`, `sorg`, `scofl` | no | lexical confirmation only | dictionary evidence, not historical discussion |
 | `docs/references/clark_hall_concise_anglo_saxon_dictionary.vision.txt` | `nosu`, `sorg`, `scofl` | no | lexical confirmation only | dictionary evidence, not historical discussion |
@@ -134,25 +134,23 @@ Unlike SC016, this is not merely a CAPR-internal label pasted onto a thin phenom
    Mostly no. The CAPR rule's stressed-syllable restriction, nasal blocking, and `j` blocking are compatible with Fulk and Campbell. The main difference is that CAPR turns the literature into a single sharply delimited stage with exact input restrictions and immediate local neighbors.
 
 8. **Do they support, complicate, or fail to discuss the SC016/SC017 computational boundary?**  
-   They both support and fail to discuss it. They support it because `geoc` is a standard example of the lowering domain. They fail to discuss it because no productive source recovered here explicitly says that the palatal-glide stage must precede the lowering stage in the way CAPR's `yoke` derivation requires.
+   (Updated by the 2026 adjudication, sc016-017-adjudication.md.) They resolve it in the opposite direction from the original CAPR architecture: Fulk (§4.3 p. 56) lists `geoc` as a plain u-lowering output and Campbell (§115) gives it among the regular `u > o` words, so the lowering produced the *o* that the West Saxon glide spelling (SC016) later rendered as ⟨eo⟩. SC017 therefore historically precedes and feeds SC016; the old claim that the glide stage must precede the lowering was an artifact of the misformulated early SC016.
 
 9. **Is the change a standard historical sound change, a model-internal formalization, or a mixture?**  
    Mostly a standard historical sound change. The CAPR rule sharpens the conditioning and chronology, but the underlying phenomenon is well established in the literature.
 
 10. **What can safely be said in book prose?**  
-   It is safe to say that early Northwest Germanic / pre-Old-English stressed `u` was often lowered to `o` before a following non-high vowel, with major lexical examples including `geoc`, `gold`, and `dohtor`, and with important blocking near nasals and some `j` environments. It is not safe to attribute the exact SC016/SC017 or SC017/SC019 boundary wording directly to the literature without saying that those local boundaries are CAPR formulations.
+   It is safe to say that early Northwest Germanic / pre-Old-English stressed `u` was often lowered to `o` before a following non-high vowel, with major lexical examples including `geoc`, `gold`, and `dohtor`, and with important blocking near nasals and some `j` environments. The relation to the West Saxon glide spelling is now source-backed: the lowering fed the spelling (Fulk §4.3 p. 56; Brunner §92.1; Bülbring §299).
 
 ## Relation to CAPR implementation
 
-The CAPR implementation aligns well with the literature, but it is more exacting than the sources:
+(Updated by the 2026 adjudication, sc016-017-adjudication.md.) The CAPR implementation aligns well with the literature:
 
-1. **FOMA definition:** `NWGmcULowering` lowers initial-syllable `u/ú` before a following non-high vowel while excluding nasal codas and any `j` in the intervening post-target consonants.
-2. **Current order:** SC017 stands immediately after SC016 and immediately before SC019 in the local early corridor.
-3. **Chronology card:** SC017 has a reciprocal earlier boundary with SC016 on `yoke` and a reciprocal later boundary with SC019 on `nose; shovel; sorrow`.
-4. **Representative failures:** moving SC017 earlier than SC016 yields `ġoc` instead of `ġeoc`; moving it later than SC019 yields `nusu`, `sċufl`, and `surg` instead of `nosu`, `sċofl`, and `sorg`.
-5. **Graph/export layer:** the core edges `SC016 < SC017` and `SC017 < SC019` are both deduplicated reciprocal edges (`support_count=2`).
-
-The key comparison point is asymmetry. The literature strongly supports SC017 as a real historical development. It supports the **inputs** used in the computational boundaries (`geoc`, `nosu`-type conditioning, `scufel/scofel` variation), but it does not itself formulate the exact CAPR local ordering in SC labels. That ordering is a CAPR result built on literature-compatible phonology, not a quotation from the handbooks.
+1. **FOMA definition:** `PNWGmcULowering` lowers initial-syllable `u/ú` before a following non-high vowel while excluding nasal codas and any `j` in the intervening post-target consonants. The adjudication confirmed this formulation unchanged: a word-initial *j does not block the change (Fulk §4.3 p. 56, *knusjaną* type), so `*juką > *joką` is regular.
+2. **Current order:** SC017 executes at position 13 in the Northwest Germanic corridor; SC016 now executes in the Old English written-surface block (position 91), which SC017 feeds.
+3. **Chronology:** the historical partial order records SC005 < SC017 and the feeding edge SC017 < SC016 (yoke), plus the later boundary against SC019 on `nose; shovel; sorrow`.
+4. **Representative failures:** moving SC017 later than SC019 yields `nusu`, `sċufl`, and `surg` instead of `nosu`, `sċofl`, and `sorg`. The former claim that SC017 had to follow SC016 (else `ġoc`) is retracted: with the repaired SC016 the derivation is `*juką → *joką → ġoc (orthography stage) → ġeoc (glide spelling)`.
+5. **Corpus witnesses:** `geoc`, `nosu`, `sċofl`, `sorg` for the lowering; `geoguþ` as the negative control whose root `u` is protected by the following high vowel.
 
 ## Dossier status
 

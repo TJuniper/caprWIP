@@ -1,7 +1,7 @@
 # SC008 PWGmc Coronal W Assimilation — chronology evidence card
 
-## Current position
-- current_order: `8`
+## Position at experiment time
+- order_at_experiment_time: `8`
 - rule_name: `PWGmcCoronalWAssimilation`
 - safe computational window: `4-30` (earlier side boundary-only; later side broad/far)
 - status: `first_break_complete`

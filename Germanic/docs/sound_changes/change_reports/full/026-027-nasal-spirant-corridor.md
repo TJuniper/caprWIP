@@ -22,7 +22,7 @@ the preceding vowel is lengthened, often with nasalization in the historical
 description [@Campbell1959, §121; @Fulk2018, §4.11;
 @SieversBrunner1965, §186.1]. Hogg is especially useful for the compact
 `*ansuz > ōs` type, where rounding, nasal loss, and compensatory lengthening
-are kept together as one connected development [@Hogg1992]. Ringe and Taylor
+are kept together as one connected development [@HoggPhonology1992]. Ringe and Taylor
 help most with stage assignment: they treat forms such as `goose` and `youth`
 as outcomes of a broader northern West Germanic development rather than as a
 late isolated Old English innovation [@RingeTaylor2014, pp. 140--141]. Luick

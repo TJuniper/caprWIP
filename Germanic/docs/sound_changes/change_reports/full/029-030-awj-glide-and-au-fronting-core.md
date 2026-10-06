@@ -35,13 +35,13 @@ region well; CAPR then isolates the tight local seam inside it.
 
 CAPR makes the local sequence explicit by keeping two adjacent rules.
 
-SC029 `OEAwjGlideFormation` handles the intermediate glide structure that turns
+SC029 `OEAwwjResolution` handles the intermediate glide structure that turns
 the inherited `awj` / `auj` material into the form that later fronting reads.
 On its own it is still somewhat one-sided because the earlier search remains
 runner-bounded at bundled `EarlyEnglishLineChanges`, but it is the indispensable left-hand
 feeder of the pair.
 
-SC030 `OEAuFronting` then fronts the relevant `au` material and delivers the
+SC030 `OEAuBrightening` then fronts the relevant `au` material and delivers the
 `hay` / `strew` derivations into the broader West Saxon diphthongal region. That
 is why the pair is more than a convenient adjacency: SC029 feeds SC030, and
 SC030 is the rule that makes the local fronted outputs historically recognizable

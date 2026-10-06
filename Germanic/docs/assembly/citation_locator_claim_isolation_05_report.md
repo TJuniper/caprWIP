@@ -71,7 +71,7 @@ The inspected tranche concentrated on the easiest surviving source types and a s
   - `Kroonen2013`
   - `Orel2003`
   - `Fulk2018`
-  - `Hogg1992`
+  - `HoggPhonology1992`
 
 Locator additions in this pass came from:
 

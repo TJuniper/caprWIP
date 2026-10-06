@@ -61,6 +61,7 @@ list below.
 - `docs/references/howell_salmons_i_lowering.txt` — companion text
 - `docs/references/lloyd_1966_a_umlaut_of_i.{pdf,txt}` — Lloyd 1966 on a-umlaut of *i
 - `docs/references/stiles_2012_a_umlaut_of_u.{pdf,txt}` — Stiles 2012 on a-umlaut of *u
+- `docs/references/stausland_johnsen_2015_vowel_reduction_pastoral_care.{pdf,txt}` — Stausland Johnsen 2015 on unstressed *ō > u/a in OE (rejects van Helten's rule; medial-syllable raising)
 - `docs/references/polome_1967_reflexes_ie_ms.txt` — Polomé on IE reflexes
 
 ### Specific etyma / lexical studies

@@ -20,7 +20,7 @@ The inventory currently covers the full 70-card ordinary chronology corpus. Impl
 
 1. **Batch A — strongest reciprocal/local cases closest to prose (27):** SC016, SC017, SC026, SC027, SC029, SC030, SC031, SC032, SC034, SC039, SC042, SC043, SC045, SC050, SC059, SC063, SC064, SC066, SC068, SC071, SC074, SC075, SC080, SC082, SC083, SC085, SC086
 2. **Batch B — broad/far or contextual cases needing careful chronology prose (30):** SC015, SC019, SC020, SC021, SC023, SC024, SC033, SC035, SC036, SC037, SC040, SC041, SC044, SC047, SC048, SC049, SC052, SC055, SC056, SC057, SC060, SC061, SC069, SC070, SC072, SC073, SC078, SC079, SC081, SC087
-3. **Batch C — negative/boundary-only cases for underdetermination discussion (10):** SC014, SC018, SC022, SC025, SC028, SC053, SC058, SC065, SC067, SC076
+3. **Batch C — negative/boundary-only cases for underdetermination discussion (10):** SC014, SC018, SC022, SC025, SC028, SC053, SC058, SC065, SC067, SC076. SC022 is included here as a Common-Germanic context note with boundary-limited executable evidence, not as a Northwest-Germanic subgroup claim.
 4. **Batch D — runner-limited / technical / scaffolding cases (0):** none
 5. **Batch E — cases blocked mainly by missing literature or implementation extraction (20):** SC015, SC021, SC023, SC024, SC033, SC035, SC036, SC037, SC041, SC046, SC047, SC049, SC051, SC054, SC057, SC060, SC061, SC069, SC078, SC087
 

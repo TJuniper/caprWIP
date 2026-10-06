@@ -1,0 +1,12 @@
+# reader_chapters.tsv — SOURCE OF TRUTH (hand-edited): editorial chapter decisions for the
+# Version 1 book. One row per chapter: number, title, and the intro file rendered under the
+# chapter heading (relative to docs/sound_changes/reader_facing/).
+# Chapter membership of each reader file lives in registry/reader_files.tsv; the order of
+# files inside a chapter is GENERATED (registry/reader_manifest.tsv) from executable cascade
+# positions and is never stored here.
+chapter_id	title	intro_file
+1	From Proto-Germanic to Proto-Northwest Germanic	chap1-pgmc-to-pnwgmc-intro.md
+2	From Proto-Northwest Germanic to Proto-West Germanic	chap2-pnwgmc-to-pwgmc-intro.md
+3	From Proto-West Germanic to Anglo-Frisian	chap3-pwgmc-to-af-intro.md
+4	From Anglo-Frisian to Old English	chap4-af-to-oe-intro.md
+5	Old English orthography and the written surface	chap5-oe-orthography-intro.md

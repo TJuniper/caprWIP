@@ -36,7 +36,7 @@ The literature dossier points to an uneven but still meaningful result.
 The standard grammars strongly support the **broader late weak-tail setting**:
 after the main apocope material, Old English and related West Germanic history
 still shows medial-vowel loss, cluster pressure, and further tail cleanup
-[@Campbell1959, §§345--349, 388--389; @Hogg1992, pp. 120--121;
+[@Campbell1959, §§345--349, 388--389; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, §§6.7.3--6.8.4; @Luick1914, §§304--306; @Fulk2018, §5.6].
 
 What they do **not** strongly support is a chapter-sized traditional pair

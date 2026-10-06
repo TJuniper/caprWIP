@@ -1,0 +1,253 @@
+!!! BROKEN FONT ENCODING - DO NOT CITE VOWEL QUALITY FROM THIS FILE !!!
+
+Bennett, William H. 1950. "The Germanic Development of Indo-European e-macron".
+Language 26.2: 232-235.
+
+This is the raw pdftotext extraction of the JSTOR scan. The PDF's embedded
+font mapping is broken: every phonetic symbol is mis-rendered. In particular
+e-macron, ae-macron and a-macron appear variously as "j", "8", "z", "&",
+"d", "a", "t", "P" and "?", inconsistently and sometimes for different
+sounds on the same line. Nothing about vowel quality may be read off this
+file.
+
+For a verified transcript, made from the rendered page images, see the
+sibling file:
+    bennett_1950_germanic_development_of_ie_e.vision.txt
+
+--------------------------------------------------------------------------
+
+The Germanic Development of Indo-European ē
+Author(s): William H. Bennett
+Source: Language , Apr. - Jun., 1950, Vol. 26, No. 2 (Apr. - Jun., 1950), pp. 232-235
+Published by: Linguistic Society of America
+
+Stable URL: https://www.jstor.org/stable/410059
+
+JSTOR is a not-for-profit service that helps scholars, researchers, and students discover, use, and build upon a wide
+range of content in a trusted digital archive. We use information technology and tools to increase productivity and
+facilitate new forms of scholarship. For more information about JSTOR, please contact support@jstor.org.
+
+Your use of the JSTOR archive indicates your acceptance of the Terms & Conditions of Use, available at
+https://about.jstor.org/terms
+
+
+
+
+            is collaborating with JSTOR to digitize, preserve and extend access to
+            Language
+
+
+
+
+                                                    This content downloaded from
+                                  193.60.238.225 on Sun, 06 Sep 2026 07:59:11 UTC
+                                            All use subject to https://about.jstor.org/terms
+       THE GERMANIC DEVELOPMENT OF INDO-EUROPEAN 8
+
+                                  WILLIAM H. BENNETT
+
+                                 University of Notre Dame
+
+   In comparative Germanic grammar it is a commonplace assumption that IE
+j first became P in Proto-Germanic and then developed into a in the parent forms
+of both North and West Germanic. Prokosch,' for example, remarks, 'Two
+changes [affecting IE long vowels] are generally ascribed to Primitive Ger-
+manic: that of a to 5 and of j to P. The latter is largely a "Phonetic Interpola-
+tion", i.e., the assumption of a transitional stage between 8 and a. In Gothic, t
+reverts to j by a different process of tensing (raising and fronting); in North and
+West Germanic, a results; this develops secondarily into t in Old English, and j
+in Frisian.'
+  For the purposes of the present discussion it is necessary to expand this state-
+ment. The Proto-Germanic vowel J appears as t only in West Saxon Old English;
+the other Old English dialects, together with Old Frisian and Gothic, show e.
+Old Saxon, Old Low Franconian, Old High German, and Old Norse have a, but
+Old Saxon also exhibits individual instances of j, e.g. berun gebun beside OHG
+bdrun gabun, OIcel. baru gafu, WS OE baron gjafon (< *gafon), Go. bjrun
+g#bun, etc.
+  The assumption that IE first became PGmc. ? and then later broke up into
+N and WGmc. a, Go. j, implies the following phonological developments for the
+separate Old Germanic languages:
+                    ON, OHG, OLFr... e> > a
+                     Go................ j > & >
+                    OS................ > > ()
+                    WS OE............ e > a > a > a
+                    Non-WS OE, OFris. j> & > a > a > j
+
+In comparison with the simple, completely attested change of IE d to PGmc.
+some of these developments appear to be rather complicated and speculative.
+a whole, they represent five phonological patterns. Old Norse, Old Low Fran
+conian, and Old High German, to be sure, show a wholly comprehensible tend
+ency to lower j to z and then to retract this to d, but the inferred developmen
+in the other Old Germanic languages show no such directional trend. So far
+Gothic is concerned, we must assume that j first became c and then returned
+j. In the Saxon and Anglo-Frisian group the assumptions become much more i
+volved. For Old Saxon we must suppose that j became z, then a, which remain
+for the most part but was represented sometimes by j. The West Saxon Old En
+lish development requires the supposition that j became &, then d, then z aga
+Finally, for Old Frisian and the non-West-Saxon dialects of Old English, we mu
+believe that j changed to J, then to a, then to & again, and finally back to e
+While such a development as 8 > > a > > 8 is phonologically possible, in
+  1 Comp. Gmc. Gr. ?34; cf. Hirt, HU 1.?29.3. A few, e.g. Noreen, UL 23, assume that IE
+was already an open z.
+                                                232
+
+
+
+
+                                 This content downloaded from
+               193.60.238.225 on Sun, 06 Sep 2026 07:59:11 UTC
+                         All use subject to https://about.jstor.org/terms
+           THE GERMANIC DEVELOPMENT OF INDO-EUROPEAN E 233
+
+
+this instance we have no assurance that it actually occurred. The ?-vo
+Proto-Germanic, unlike the 5-vowel, is not supposed to be preserved di
+any historic Germanic language, West Saxon OE t being traced back t
+d and only indirectly to PGmc. a.
+  Whether right or wrong, these assumed developments may be summ
+follows:
+
+
+                                          ONa rWS OE a
+           IE i > PGmc. - > Go. j Non-WS OE, OFris.j
+                                         WGmc. d> OS d, but also j
+                                                                OHG, OLFr. d
+Additional classifications and provisions for combinative changes might
+of course, but they would only increase the complexity without clarifying
+assumed developments merely summarize the historical facts without at
+to explain them. Furthermore, the basis of classification implies rigid, unw
+lines of cleavage between one language and another, though the phon
+behavior of the languages themselves warrants no such conclusion. As
+Germanic appears to show no one phonological trend; if any tendency is
+ible in this scheme, it is one leading toward an inexplicable diversity. It is p
+to be sure, that the assumed changes took place exactly as indicated abo
+inasmuch as there is no historic evidence to show that they did occur in pr
+such a fashion, it can do no harm to examine the reasoning upon which
+the assumptions are based.
+  As shown by the foregoing summary, many complications arise from postulat-
+ing a common parent West Germanic d. The existence of such a vowel appears
+to be suggested by two considerations. First, Old Saxon, Old Low Franconian,
+and Old High German generally show d for IE j, so that the d is presumed to
+have existed in the parent West Germanic speech. As already observed, however,
+Old Saxon still preserves instances of j (gqbun etc.) in the 9th century. Further-
+more, the first foreign records of Old High German show j, not d; Caesar, for
+example, refers to the Old High German Swabians as Suibi, not *Su&bi, and their
+leaders are designated by such names as Hariomerus, not *-m&rus.2 Secondly,
+WGmc. d is supposed to have undergone in the descendant languages a develop-
+ment parallel to that of the 'same sound' in words borrowed from Latin, e.g.
+Lat. nrpus > OE ntp (Ep.), n*p (Corp.) 'turnip', Lat. strata > OHG strapa,
+strdga, WS OE str~t 'street'. To be sure, we know that d occurred in Latin, but this
+fact gives us no reason to infer that the 'same sound' occurred in the parent
+West Germanic speech or underwent the 'same developments' in the separate
+West Germanic languages. The parent West Germanic vowel e, for example, re-
+mained unchanged in Old English (*her > hir 'here'), but the 'same sound' in
+early loanwords from Latin became 1 or i (cpa > cipe 'onion', denrarius > dinor
+'denarius'). It would appear, therefore, that the parent WGmc. a in such as-
+sumed developments as e > 2 > & > 2 > e is by no means indispensable.3
+  2 Cf. Hirt, loc.cit. fn. 2 and reff.
+   3 Wright (OE Gr. ?113), unlike most scholars, does not postulate a WGmc. d in this de-
+velopment but assumes that PGmc. & remained in WS OE and was raised to ? in Kent. and
+Angl.
+
+
+
+                                  This content downloaded from
+                193.60.238.225 on Sun, 06 Sep 2026 07:59:11 UTC
+                          All use subject to https://about.jstor.org/terms
+234 WILLIAM H. BENNETT
+
+
+ Perhaps the Germanic development of I
+by examining the problem from a chron
+The Proto-Germanic homeland was a distr
+ern Scandinavian peninsula, Denmark with
+German lowlands between the Elbe and t
+these areas were more or less contiguous
+then scarcely more than small bays or f
+lake that covered a much smaller area t
+known Germanic colonies had been form
+speech had begun to disintegrate, undergoin
+(North Germanic), the center (later 'East
+Germanic). The first great emigrations f
+and such kindred peoples as the Herulia
+tially to the east and appear to have occu
+turies B.C. The first South ('West') Germ
+almost as early, but they were to proceed m
+and to cover less territory. In the north,
+be said to have begun before 750; Icelan
+more than a century later.
+ It may be worthy of notice that Gothic ('E
+manic language to be carried from the hom
+tendency whatever to change j to d. In th
+English and Old Frisian, which was spoke
+the Elbe and the Rhine, the most wester
+continental West Germanic colonial settl
+Old Low Franconian, and Old High Germ
+uous and somewhat closer to the central
+show the change of j to d. Continental Sa
+continental Anglian and Frisian, shows j
+English similarly shows g. If we consider on
+'East' and 'West' Germanic tribes, the ch
+along the far eastern or far western periph
+came a in North Germanic and in those l
+tiguous with it after the first expansions t
+ The change of j through z to a apparent
+and spread gradually toward the south. B
+trict originally inhabited by the Goths, Go
+it), had been carried far to the east and so
+the change of j to d likewise had no effect
+Angles, who had migrated to the west. Con
+in the path of the change, generally shows
+ 4 Cf. Prokosch's summary of the migrations, o
+ 5 If our knowledge of the early tribal movem
+ably find a number of instances in which e-, &
+contact. Certainly there were both Frisians a
+number of Frisians found their way into En
+
+
+
+
+                        This content downloaded from
+      193.60.238.225 on Sun, 06 Sep 2026 07:59:11 UTC
+                All use subject to https://about.jstor.org/terms
+          THE GERMANIC DEVELOPMENT OF INDO-EUROPEAN j 235
+
+
+carried to the west before the change was completed, shows the i
+stage A. Low Franconian and High German remained in the path of
+and developed a; as noted above, the first foreign records of High
+preserve the old j. It would be difficult to ascertain precisely when the
+manic pronunciation of the vowel began to affect continental We
+by the 5th century, in any event, the area in Jutland that had been ev
+the northern Angles was occupied by Danes, in whose speech j had b
+  This hypothesis (it is nothing more) attempts merely to account f
+It does not alter, of course, the historical correspondences among
+vowels j, , and a in the Old Germanic languages,6 nor does it deny
+was a difference between the two Proto-Germanic vowels that dev
+IE and ei. When we are faced with the necessity of accepting at lea
+unproved suppositions as j > c > a > ? > , with no apparent agree-
+ment among the languages and no discernible phonological trend, a more credible
+interpretation of the facts appears to be required. If it is true that the change of j
+to a began in the north and spread toward the south, missing or only partly affect-
+ing the more peripheral areas, the development of IE in Germanic is much less
+complicated than has been supposed.
+
+speakers who remained on the continent were ultimately absorbed by the neighboring d-
+speakers. In such instances there may well have been variant pronunciations of the IE e-
+vowel within a given area, with one development or another finally predominating.
+   8 The results of secondary combinative changes in the historic languages remain
+the same, regardless of the phonological developments that are postulated for preliterary
+times. WS Old English, for example, shows & as a regular isolative development of IE but
+has a before w or g plus a back vowel (analogical forms like wtgas for wagas 'waves', sg.
+wig, also occur). If WS & developed from a WGmc. a, as usually assumed, the WS d in such
+forms is simply a combinative retention of the older vowel. If d is the later development, it
+represents a combinative change and shows that the shift of j to a occurred in insular as well
+as continental West Germanic, though only under certain specific conditions.
+
+
+
+
+                                 This content downloaded from
+               193.60.238.225 on Sun, 06 Sep 2026 07:59:11 UTC
+                         All use subject to https://about.jstor.org/terms
+

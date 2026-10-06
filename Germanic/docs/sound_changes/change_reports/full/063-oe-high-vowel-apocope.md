@@ -10,7 +10,7 @@ not simply after every short stressed syllable. The basic historical claim is
 stable across the handbook tradition even though older scholarship often folds
 it into a broader account of unstressed-vowel loss rather than treating it as a
 single named law [@Luick1914, §§304--308; @Campbell1959, §§345--349;
-@Hogg1992, p. 120; @RingeTaylor2014, §§6.8.1, 6.8.4; @Fulk2018, §5.6].
+@HoggPhonology1992, p. 121; @RingeTaylor2014, §§6.8.1, 6.8.4; @Fulk2018, §5.6].
 
 #### Source tradition
 
@@ -23,7 +23,7 @@ one process. Ringe and Taylor sharpen the chronology by placing apocope after
 general syncope and among the last prehistoric Old English sound changes, and
 Fulk adds a useful caution about inflectional exceptions such as Mercian `-u`
 retention [@Luick1914, §§304--308; @Campbell1959, §§345--349;
-@Hogg1992, p. 120; @RingeTaylor2014, §§6.8.1, 6.8.4; @Fulk2018, §5.6].
+@HoggPhonology1992, p. 121; @RingeTaylor2014, §§6.8.1, 6.8.4; @Fulk2018, §5.6].
 
 #### CAPR implementation
 
@@ -74,7 +74,7 @@ laws.
 
 The line between apocope and medial syncope still needs careful handling in the
 prose, because the neighboring processes are related but not identical
-[@Hogg1992, p. 120; @RingeTaylor2014, §6.8.1]. The trisyllabic branch is the
+[@HoggPhonology1992, p. 121; @RingeTaylor2014, §6.8.1]. The trisyllabic branch is the
 most delicate part of the rule, and Mercian `-u` retentions such as `lytelu`
 and `nētenu` warn against overgeneralizing every branch of the implementation
 [@Fulk2018, §5.6]. The special final-`*x` and vowel-hiatus clauses are useful

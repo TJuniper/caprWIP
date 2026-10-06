@@ -25,7 +25,7 @@ The source tradition supports this pair as a compact late weak-tail core.
 Campbell, Hogg, Ringe and Taylor, Luick, and Fulk all support the broader late
 weak-tail environment in which syncope, apocope, unstressed long-vowel
 shortening, and later cleanup remain active
-[@Campbell1959, §§345--354, 388--389; @Hogg1992, pp. 120--121;
+[@Campbell1959, §§345--354, 388--389; @HoggPhonology1992, p. 121;
 @RingeTaylor2014, §§6.7.3--6.8.4; @Luick1914, §§304--307; @Fulk2018, §5.6].
 Within that broader environment, Ringe and Taylor give SC072 the clearest
 handbook footing by explicitly placing shortening of unstressed long vowels

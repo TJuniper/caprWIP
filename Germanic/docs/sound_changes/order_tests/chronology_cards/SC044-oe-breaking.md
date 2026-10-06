@@ -1,7 +1,7 @@
 # SC044 OE Breaking — chronology evidence card
 
-## Current position
-- current_order: `44`
+## Position at experiment time
+- order_at_experiment_time: `44`
 - rule_name: `OEBreaking`
 - safe computational window: `44-44`
 - status: `first_break_complete`

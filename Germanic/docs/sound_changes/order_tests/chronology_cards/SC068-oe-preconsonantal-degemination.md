@@ -1,7 +1,7 @@
 # SC068 OE Preconsonantal Degemination — chronology evidence card
 
-## Current position
-- current_order: `68`
+## Position at experiment time
+- order_at_experiment_time: `68`
 - rule_name: `OEPreconsonantalDegemination`
 - safe computational window: `67-86` (later side runner-bounded)
 - status: `first_break_complete`

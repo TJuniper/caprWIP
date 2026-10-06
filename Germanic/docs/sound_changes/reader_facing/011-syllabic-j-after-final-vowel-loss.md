@@ -11,10 +11,10 @@ not high-vowel vocalization generally.
 ## SC011. Syllabic \emph{*j} after final-vowel loss (`PWGmcSyllabicJ`) {#rule-PWGmcSyllabicJ}
 
 ```foma
-define PWGmcSyllabicJ [
+define PWGmcSyllabicJ Ctx([
     {*j} {*a} -> {*i} || EnglishStarShortVowel EnglishStarConsonant _ .#.,
     {*j} {*ą} -> {*i} || EnglishStarShortVowel EnglishStarConsonant _ .#.
-];
+]);
 ```
 
 The same PGmc [nátją]{.recon} ‘net’ witness supplies the only firm boundary. Placing [SC011 PWGmcSyllabicJ](#rule-PWGmcSyllabicJ) before [SC010 PWGmcJGemination](#rule-PWGmcJGemination) yields [*nete*]{.pred} rather than expected OE *nett* 'net'; moving it later changes no output.

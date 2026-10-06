@@ -54,11 +54,11 @@ notes?"
 - cautions: Campbell does not hand us a ready-made `SC059-SC061` chapter. His strongest support is for SC059; SC060 and SC061 remain narrower and more structurally dependent on neighboring chapters.
 
 ### Hogg 1992
-- source_key: Hogg1992
+- source_key: HoggPhonology1992
 - locator: [back-mutation discussion]; pp. 111--114; pp. 120--121
 - terminology: back mutation; i-mutation; apocope; syncope
 - short quotation: "back mutation. This change has many parallels with the much earlier one of breaking"; "It seems likely that apocope and syncope were two quite different types of change operating at the same time ..."
-- paraphrase: Hogg is most useful for chapter weighting. He treats back mutation as a real later diphthongizing development parallel in type to breaking, which supports SC059 as a legitimate historical center rather than as a purely technical seam [@Hogg1992]. He also treats i-mutation as a major chapter and the palatal-diphthongal material as narrower and more controversial, which fits the dossier's need to keep SC060 conceptually linked to the already promoted SC055-SC056 report by cross-reference rather than by merger [@Hogg1992, pp. 111--114]. Finally, his discussion of apocope and syncope as neighboring but distinct late processes helps explain why SC061 belongs to the late weak-tail neighborhood without automatically becoming the core of a grouped bridge report [@Hogg1992, pp. 120--121].
+- paraphrase: Hogg is most useful for chapter weighting. He treats back mutation as a real later diphthongizing development parallel in type to breaking, which supports SC059 as a legitimate historical center rather than as a purely technical seam [@HoggPhonology1992]. He also treats i-mutation as a major chapter and the palatal-diphthongal material as narrower and more controversial, which fits the dossier's need to keep SC060 conceptually linked to the already promoted SC055-SC056 report by cross-reference rather than by merger [@HoggPhonology1992, pp. 115--116]. Finally, his discussion of apocope and syncope as neighboring but distinct late processes helps explain why SC061 belongs to the late weak-tail neighborhood without automatically becoming the core of a grouped bridge report [@HoggPhonology1992, p. 121].
 - conditioning: later back-vowel-triggered diphthongization; front mutation under following `i/j`; later weak-tail apocope and syncope in separate but overlapping environments
 - chronology: Hogg supports the broad sequence "earlier umlaut material -> later back mutation -> later weak-tail reduction", but not a symmetrical three-rule SC059-SC061 handbook chapter
 - examples: `heofon`; `leofad`; `giest`; `giefan`; `weorod`; `heafodu`
@@ -95,7 +95,7 @@ row.
    Old English vowel center and SC056 as a narrower right-edge follower. That
    makes SC060's `SC055 < SC060` boundary historically intelligible, but it also
    argues against reabsorbing SC060 into the earlier promoted chapter
-   [@Campbell1959, §§190--197; @Hogg1992, pp. 111--114; @RingeTaylor2014,
+   [@Campbell1959, §§190--197; @HoggPhonology1992, pp. 106--108, 113; @RingeTaylor2014,
    §§6.5.1, 6.6.1--6.6.4; @Fulk2018, §§4.7, 4.13].
 2. The promoted `SC046-SC048` report already treats `SC048 < SC059` as a real
    later relation that should stay a cross-reference only. That means SC059's
@@ -109,7 +109,7 @@ row.
    weak-tail zone as a sequence of late reductions rather than as one huge
    undifferentiated collapse. That keeps SC059's `SC078` relation historically
    meaningful while still making it a rightward cross-reference only
-   [@Campbell1959, §§345--349, 388--389; @Hogg1992, pp. 120--121;
+   [@Campbell1959, §§345--349, 388--389; @HoggPhonology1992, p. 121;
    @RingeTaylor2014, §§6.7.3--6.8.4; @Fulk2018, §5.6].
 
 ## CAPR formulation versus literature

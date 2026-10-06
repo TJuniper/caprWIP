@@ -1,7 +1,7 @@
 # SC020 PGmc Final Z Deletion — chronology evidence card
 
-## Current position
-- current_order: `20`
+## Position at experiment time
+- order_at_experiment_time: `20`
 - rule_name: `EAFFinalZDeletion`
 - former_rule_name: `PGmcFinalZDeletion`
 - safe computational window: `20-39`

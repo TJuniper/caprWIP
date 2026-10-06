@@ -8,7 +8,7 @@ SC052 isolates the Old English palatalization of plain velars `k` and `g` in
 front-vocalic and `j`-adjacent environments. That is a real Old English process
 in the handbook tradition, even though the same sources usually discuss plain
 velars and `sk` inside a broader palatalization complex rather than as wholly
-independent headline chapters [@Campbell1959, §170; @Hogg1992, pp. 106--107;
+independent headline chapters [@Campbell1959, §170; @HoggPhonology1992, pp. 106--108;
 @RingeTaylor2014, §6.4.1; @Luick1914, §§168--176; @Fulk2018, p. 28].
 
 This report therefore treats SC052 as a standalone chronological hinge, not
@@ -24,7 +24,7 @@ The source tradition supports that framing. Campbell, Hogg, Ringe and Taylor,
 Luick, and Fulk all treat plain velar palatalization as a real Old English
 development, and all place it in the same broad historical neighborhood as
 `sk`-palatalization and later front-mutation material
-[@Campbell1959, §170; @Hogg1992, pp. 106--107, 111--114;
+[@Campbell1959, §170; @HoggPhonology1992, pp. 106--108, 113--114;
 @RingeTaylor2014, §§6.4.1, 6.6.1--6.6.4; @Luick1914, §§168--176, 181--183;
 @Fulk2018, §§4.7, 4.13]. The handbooks usually describe SC051 and SC052 inside
 that wider palatalization complex, but the book can still treat them as
@@ -35,7 +35,7 @@ The strongest source support for SC052's right edge comes from Ringe and Taylor
 and from the broader handbook sequence in Campbell, Hogg, Luick, and Fulk:
 palatalization belongs to an earlier consonantal zone, while i-umlaut or front
 mutation is later enough to create contrasts with non-palatalized velars
-[@Campbell1959, §§190--197; @Hogg1992, pp. 111--114;
+[@Campbell1959, §§190--197; @HoggPhonology1992, pp. 106--108, 113;
 @RingeTaylor2014, §§6.4.1, 6.6.1--6.6.4; @Luick1914, §§181--183;
 @Fulk2018, §4.7]. The left edge is narrower. Adamczyk is useful precisely
 because she supports treating SC050 as a real Sievers-law and prosodic feeder
@@ -60,7 +60,7 @@ functions that the handbook tradition often discusses together:
 That segmentation is a modeling choice, but it is a disciplined one. The
 sources support the larger historical zone, while CAPR makes the internal order
 testable without treating every neighboring process as one mixed chapter
-[@Campbell1959, §170; @Hogg1992, pp. 106--107, 111--114;
+[@Campbell1959, §170; @HoggPhonology1992, pp. 106--108, 113--114;
 @RingeTaylor2014, §§6.4.1, 6.6.1--6.6.4; @Luick1914, §§168--176, 181--183;
 @Fulk2018, §§4.7, 4.13].
 
@@ -92,7 +92,7 @@ not a positive historical boundary, so the `stretch` relation must not be
 inflated into a whole `SC050-SC052` chapter. The right edge is
 narrow as well, but it is historically interpretable because the source
 tradition broadly places palatalization before i-umlaut or front mutation
-[@Campbell1959, §§190--197; @Hogg1992, pp. 111--114;
+[@Campbell1959, §§190--197; @HoggPhonology1992, pp. 106--108, 113;
 @RingeTaylor2014, §§6.4.1, 6.6.1--6.6.4; @Luick1914, §§181--183;
 @Fulk2018, §4.7].
 

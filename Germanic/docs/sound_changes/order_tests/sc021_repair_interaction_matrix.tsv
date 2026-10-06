@@ -1,0 +1,65 @@
+# SC021 retirement / Stausland Johnsen split / SC040 move — formal interaction matrix.
+# Produced by tools/cascade_interaction_harness.py (equivalence over the admitted
+# proto input language, EnglishProtoInput .o. EARLIER .o. LATER vs the reverse),
+# run inside the backend container against the post-repair germanic.txt.
+# EARLIER = the rule that now executes first. See audits/sc021-adjudication.md §9a.
+#
+# Block 1: wiring of the new SC071/SC099/SC100 chain.
+#   - SC071 (OELateOShortening, now *ō > *o) FEEDS both successors: noncommute.
+#   - SC099 x SC100 commute: disjoint medial/final domains, no order claim needed.
+#   - SC099 -> SC040 and SC100 -> SC040 are load-bearing: the computational image
+#     of the 8th-c. (u/a split) vs 9th-c. (u > o lowering) stage contrast
+#     (Stausland Johnsen 2015: 21-22; Campbell §373).
+#   - Fronting x SC071 now commutes: the old noncommute came solely from the
+#     retired *ō > *a compression. SC071's late placement rests on Stausland
+#     Johnsen's chronology (8), pp. 29-30, and Campbell §355.
+#
+# Block 2: SC040 (OEMedUnstressedULowering) against every rule it jumped over in
+# moving from before PWGmcFinalBareALoss to after the c.700 unstressed mergers.
+# The five noncommuting pairs are exactly pairs where the jumped rule is a pre-OE
+# or c.700 change and SC040 is 9th-c. — in each case the NEW order puts the
+# historically earlier change first, i.e. the old position was formally
+# load-bearing AND historically inverted (most sharply against OEIUmlaut and the
+# syncopes). The 382-row corpus is output-identical under the move (fingerprints
+# unchanged), so none of these five was distinguishing on current data.
+earlier_rule	later_rule	commute
+OEUnstressedFrontingEarly	OELateOShortening	yes
+OEEarlyOShortening	OELateOShortening	no
+OELateOShortening	OEMedUnstressedORaising	no
+OELateOShortening	OEFinalUnstressedOLowering	no
+OEMedUnstressedORaising	OEFinalUnstressedOLowering	yes
+OEMedUnstressedORaising	OEMedUnstressedULowering	no
+OEFinalUnstressedOLowering	OEMedUnstressedULowering	no
+PWGmcFinalBareALoss	OEMedUnstressedULowering	yes
+PWGmcSurvivingBimoricOUnrounding	OEMedUnstressedULowering	yes
+EAFBrightening	OEMedUnstressedULowering	yes
+OEBreaking	OEMedUnstressedULowering	yes
+OEVelarFricativePalatalization	OEMedUnstressedULowering	yes
+OEARestoration	OEMedUnstressedULowering	yes
+PGmcBAllophony	OEMedUnstressedULowering	yes
+OESkPalatalization	OEMedUnstressedULowering	yes
+OEVelarPalatalization	OEMedUnstressedULowering	yes
+OEPostVelarWLoss	OEMedUnstressedULowering	yes
+OEWLossBeforeI	OEMedUnstressedULowering	no
+OEWsPalatalDiphthongization	OEMedUnstressedULowering	yes
+OEIUmlaut	OEMedUnstressedULowering	no
+OEJClusterCoalescence	OEMedUnstressedULowering	yes
+OEBackMutation	OEMedUnstressedULowering	yes
+OEWsPalatalUmlaut	OEMedUnstressedULowering	yes
+OEWeakTailNasalLoss	OEMedUnstressedULowering	yes
+OEWeightMarkers	OEMedUnstressedULowering	yes
+OEHighVowelApocope	OEMedUnstressedULowering	yes
+NWGmcInStemNLoss	OEMedUnstressedULowering	yes
+OEHeavySyllableNasalApocope	OEMedUnstressedULowering	yes
+OEMedialSyncope	OEMedUnstressedULowering	no
+OELAdjacentSyncope	OEMedUnstressedULowering	no
+OEDentalAssimilation	OEMedUnstressedULowering	yes
+OEPreconsonantalDegemination	OEMedUnstressedULowering	yes
+OEEarlyOShortening	OEMedUnstressedULowering	yes
+OEUnstressedFrontingEarly	OEMedUnstressedULowering	yes
+OELateOShortening	OEMedUnstressedULowering	yes
+OEUnstressedLongVowelShortening	OEMedUnstressedULowering	no
+OEUnstressedAEMerger	OEMedUnstressedILowering1	yes
+OEUnstressedAEMerger	OEMedUnstressedULowering	yes
+OEMedUnstressedILowering1	OEMedUnstressedULowering	yes
+OEMedUnstressedILowering	OEMedUnstressedULowering	yes

@@ -823,7 +823,7 @@ _None_
 | HowellSalmons1988 | author + year mention (Salmons 1988) |
 | Stiles2012 | author + year mention (Stiles 2012) |
 | Kroonen2013 | default Proto-Germanic etymology key for Kroonen |
-| Hogg1992 | single available key for Hogg |
+| HoggPhonology1992 | single available key for Hogg |
 | Campbell1959 | single available key for Campbell |
 | SieversBrunner1965 | single available key for Sievers |
 | Luick1914 | single available key for Luick |

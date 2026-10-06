@@ -8,21 +8,23 @@ This report summarizes the first non-destructive audit pass over the ordinary ch
 2. **All 70 expected card files found:** yes
 3. **Cards missing any expected section:** 0
 4. **Cards with expanded-PWGmc supplementary notes:** 2 (SC031; SC033)
-5. **Graph-candidate triage counts:** yes=27, maybe=33, no=10
-6. **Cards marked `needs_review=yes`:** 33
+5. **Graph-candidate triage counts:** yes=27, maybe=32, no=11
+6. **Cards marked `needs_review=yes`:** 32
 
 ## Highest-priority review cases
 
 1. `SC015` (`SC015-nwgmc-i-lowering.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
-2. `SC021` (`SC021-nwgmc-unstressed-o-raising.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
-3. `SC023` (`SC023-nwgmc-n-stem-n-loss.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
-4. `SC024` (`SC024-nwgmc-long-e-lowering.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
-5. `SC033` (`SC033-oe-ew-long-diphthong.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
-6. `SC069` (`SC069-oe-early-o-shortening.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
-7. `SC087` (`SC087-oe-r-metathesis.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
-8. `SC020` (`SC020-pgmc-final-z-deletion.md`) - broad_far_warning; graph_candidate_policy_review
-9. `SC036` (`SC036-oe-inter-stress-raising.md`) - broad_far_warning; graph_candidate_policy_review
-10. `SC040` (`SC040-oe-med-unstressed-u-lowering.md`) - broad_far_warning; graph_candidate_policy_review
+2. `SC023` (`SC023-nwgmc-n-stem-n-loss.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
+3. `SC024` (`SC024-nwgmc-long-e-lowering.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
+4. `SC033` (`SC033-oe-ew-long-diphthong.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
+5. `SC069` (`SC069-oe-early-o-shortening.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
+6. `SC087` (`SC087-oe-r-metathesis.md`) - broad_far_warning; runner_limited_warning; one_sided_historical_boundary; graph_candidate_policy_review
+7. `SC020` (`SC020-pgmc-final-z-deletion.md`) - broad_far_warning; graph_candidate_policy_review
+8. `SC036` (`SC036-oe-inter-stress-raising.md`) - broad_far_warning; graph_candidate_policy_review
+9. `SC040` (`SC040-oe-med-unstressed-u-lowering.md`) - broad_far_warning; graph_candidate_policy_review
+
+Retired `SC021` is excluded from the current highest-priority review list; its
+card is now archival only.
 
 ## Scope confirmation
 

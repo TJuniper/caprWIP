@@ -1,15 +1,21 @@
-# SC018-SC025 review dossier: early Northwest Germanic unstressed and boundary-limited zone
+# SC018-SC025 review dossier: editorial holding zone after SC021/SC022 adjudication
 
 ## Review question
 
-This dossier reviews whether the current `SC018-SC025` scaffold row can ever be
-promoted as one cautious underdetermination report, or whether it should remain
-an editorial holding zone that later splits into smaller singleton notes. The
-core issue is not whether these rules are historically legible at all. Several
-of them plainly are. The issue is that the current first-break evidence does
-not produce an internal adjacent core. Instead, the meaningful positive edges
-either point outward to already promoted later reports (`SC040`, `SC047`,
-`SC056`) or vanish into bundled `PWGmcChanges` on the left.
+This dossier originally reviewed whether the `SC018-SC025` scaffold row could
+ever be promoted as one cautious underdetermination report, or whether it
+should remain an editorial holding zone that later splits into smaller
+singleton notes. The later SC021 and SC022 adjudications now settle two
+corrections that must govern any reuse of the older review:
+
+- `SC021` is retired. Its former `PNWGmcUnstressedORaising` analysis is not a
+  current rule, chapter candidate, chronology node, or promotion candidate.
+- `SC022` is late Proto-Germanic / Common Germanic on the evidence of Fulk and
+  Polomé, even though its stable executable identifier remains
+  `PNWGmcMnDissimilation`.
+
+The row therefore remains only an editorial/computational holding zone. It
+must not be read as a coherent Northwest-Germanic historical subgroup.
 
 ## Chronology review
 
@@ -28,52 +34,66 @@ either edge of the current card into positive chronology. If this rule ever
 receives its own prose, it should be framed as a boundary/context note rather
 than as part of an internally cohesive SC018-SC025 chapter.
 
-### SC021 `NWGmcUnstressedORaising`
+### SC021 retired `PNWGmcUnstressedORaising`
 
-`SC021` is the clearest one-sided candidate in this zone. Its earlier side is
-still runner-bounded at bundled `PWGmcChanges`, but its later boundary is real:
-`SC021 < SC040`, with `heaven`. Moving `SC021` later than the promoted
-`SC039-SC040` medial-vowel unit yields `heofun` rather than expected `heofon`.
+The earlier review treated SC021 as a plausible one-sided singleton because
+the then-current runner result showed a later break at SC040 in the `heaven`
+derivation. That result is now archival only. The SC021 adjudication showed
+that the old rule conflated a disputed inherited-short-*o* claim with a
+different source-backed late unstressed-*ō* history, and that the `heaven`
+witness depended on the retired `*xémonų` proxy and on SC040's former early
+position.
 
-The source tradition supports that historical region. Campbell explicitly
-derives `heofon` from an older `*hefun`, with the later visible `-o-` restored
-or retained through the broader history of unstressed vowels [@Campbell1959,
-§373]. Hogg likewise discusses the `heofon` / `heofun` region in the context
-of later unstressed-vowel behavior, and Ringe & Taylor also treat `heaven`
-among the West Germanic / Old English developments that keep this material
-historically legible [@Hogg1992; @RingeTaylor2014].
+Current analysis retires SC021 and replaces the usable historical material with
+SC071 `OELateOShortening` followed by SC099 `OEMedUnstressedORaising` and
+SC100 `OEFinalUnstressedOLowering`. SC021 must not be used as a current
+promotion candidate or chronology edge.
 
-That makes `SC021` a plausible future singleton note. But its only positive
-edge still points outward to promoted `SC039-SC040`, so the SC040 relation
-should remain a cross-reference rather than chapter architecture.
-
-### SC022 `NWGmcMnDissimilation`
+### SC022 `PNWGmcMnDissimilation` / Common Germanic Mn Dissimilation
 
 `SC022` is also boundary-limited on both sides. The earlier search again stops
 at bundled `PWGmcChanges`, and the later search runs to the `SC087` boundary
-with no real break. Source support exists, but it is thin and mostly
-descriptive. Campbell treats Old English `mn` preservation versus simplification
-and highlights the special status of forms like `month`, where `m` survives
-beside other analogical pressures [@Campbell1959, §§470, 484]. That is enough
-to show that the rule is not invented out of nothing, but the current record
-still does not yield a promotable chronology.
+with no real break. The later SC022 close-out strengthened the historical
+classification while preserving the same boundary-limited ordering result:
+Fulk treats the adjacent `mn` denasalization among Common-Germanic changes
+[@Fulk2018, p. 121, §6.11], and Polomé describes older Germanic `-mn- > -bn-`
+with later paradigm leveling [@Polome1967, pp. 818--819].
 
-So `SC022` presently belongs with the boundary-limited notes rather than with
-the stronger one-sided candidates.
+So `SC022` belongs with the boundary-limited notes as a Common-Germanic context
+note whose executable position is a holding-zone placement. Its
+`PNWGmcMnDissimilation` identifier is an implementation name, not stage
+evidence.
 
-### SC023 `NWGmcNStemNLoss`
+### SC023 `PNWGmcNStemNLoss`
 
-`SC023` has the same left-edge runner limitation as `SC021`, but it does have a
-real broad/far rightward boundary: `SC023 < SC047`, with `do`. Moving `SC023`
-later than the promoted `SC046-SC048` restoration corridor collapses the `do`
-derivation to no output rather than producing a competing surface form.
+`SC023` was adjudicated in 2026 (`audits/sc023-adjudication.md`). The
+historical change behind it is not a Northwest Germanic n-stem rule at all:
+it is the general (pre-)Proto-Germanic loss of word-final `*-n` with
+nasalization of the preceding vowel in polysyllables, whose proof set in
+Ringe spans nouns, pronouns, and verb forms (`*juką`, `*þanǭ`, `*dedǭ`)
+[@Ringe2017, pp. 101--103], and whose weak nominative-singular outcome is
+shared by Gothic `tuggo`. Reconstructed PGmc already shows `*tungǭ`, and
+Ringe & Taylor keep the nasalized reflex contrastive into PWGmc
+[@RingeTaylor2014, pp. 54--55, 58--59]. The executable restriction to
+`{*ō}{*n}` is a deliberate citation-form proxy: the corpus's seventeen weak
+nouns are cited in the stem form `*-ōn-`, while `*sebun`, `*nigun`,
+`*tehun` retained `-un` by numeral analogy [@Ringe2017, p. 103] and must
+not be touched. The `PNWGmcNStemNLoss` identifier is an implementation
+name, not stage evidence.
 
-The historical background is morphologically real even if the chapter shape is
-not obvious. Ringe & Taylor describe the heavy syncretism and reduction in the
-Germanic `n`-stems and separately discuss the development of the verb `do`,
-which is exactly the kind of morphologized material CAPR is isolating here
-[@RingeTaylor2014]. That supports keeping `SC023` visible and treating it as a
-possible future singleton note.
+`SC023` has the same left-edge runner limitation as retired `SC021`, but it
+does have a real broad/far rightward boundary: `SC023 < SC047`, with `do`.
+Moving `SC023` later than the promoted `SC046-SC048` restoration corridor
+collapses the `do` derivation to no output rather than producing a
+competing surface form. Adjudication classifies this edge as counterfeeding
+and stage-entailed: `do` never undergoes `SC023` live (`*dōną` passes
+position 23 untouched); rather, OE `dōn` retains the secondary final `-n`
+created by the apocope, showing the (pre-)PGmc loss was long complete. The
+edge stands, but `do` is a negative witness, never an application.
+
+That supports keeping `SC023` visible and treating it as a possible future
+singleton note, provided its prose leads with the seventeen in-domain
+weak-noun witnesses and presents `dōn` only as counterfeeding evidence.
 
 But again the positive edge is outward, not internal. The SC047 relation should
 stay a cross-reference to the promoted `SC046-SC048` report rather than a
@@ -114,35 +134,38 @@ as part of a coherent multi-rule production chapter.
 
 The sources support three different levels of confidence:
 
-1. `SC021`, `SC023`, and `SC024` are source-backed and have one real broad/far
-   rightward boundary each.
-2. `SC018`, `SC022`, and `SC025` are historically legible but still
+1. `SC023` and `SC024` are source-backed and have one real broad/far rightward
+   boundary each.
+2. Retired `SC021` is archival; the current successors are SC071/SC099/SC100.
+3. `SC018`, Common-Germanic `SC022`, and `SC025` are historically legible but still
    boundary-limited in the current chronology evidence.
-3. None of the meaningful positive links within this row are genuinely
+4. None of the meaningful positive links within this row are genuinely
    adjacent and internal. The positive edges point outward to already promoted
-   later reports (`SC040`, `SC047`, `SC056`).
+   later reports (`SC047`, `SC056`); the old SC040 link belongs to retired
+   SC021 only.
 
 That means the review does **not** currently support promoting `SC018-SC025` as
 one full production chapter. If this region is rewritten later, the likeliest
 split is between:
 
-- boundary/context notes: `SC018`, `SC022`, `SC025`
-- later singleton candidates: `SC021`, `SC023`, `SC024`
+- boundary/context notes: `SC018`, Common-Germanic `SC022`, `SC025`
+- later singleton candidates: `SC023`, `SC024`
+- retired archival note: `SC021` with cross-reference to SC071/SC099/SC100
 
 ## Book-shape options
 
 ### Option 1: keep one broad scaffolded underdetermination zone for now
 
 This remains the safest current editorial choice. It preserves visibility for
-all six rules without overstating internal chronology that the cards do not yet
-show.
+the surviving current rules without overstating internal chronology that the
+cards do not yet show, and without reviving retired SC021.
 
 ### Option 2: split later into boundary-limited notes plus source-backed singletons
 
 This is now the clearest future split if the project wants to begin promoting
-this region. The source review supports `SC021`, `SC023`, and `SC024` as narrow
-singleton candidates, while `SC018`, `SC022`, and `SC025` still read better as
-short context/boundary notes.
+this region. The source review supports `SC023` and `SC024` as narrow
+singleton candidates, while `SC018`, Common-Germanic `SC022`, and `SC025` still
+read better as short context/boundary notes. SC021 is not eligible.
 
 ### Option 3: attempt one cautious underdetermination report later
 
@@ -152,21 +175,22 @@ internally connected chronology core.
 
 ### Option 4: do further source work before deciding
 
-Further source work could still refine the thinner members, especially `SC022`
-and `SC025`. But the present source pass is already strong enough to support a
-chapter-shape decision. The unresolved problem is now editorial architecture,
-not a lack of basic source grounding.
+Further source work could still refine the thinner surviving members,
+especially `SC025`. SC022's historical scope is now settled as Common Germanic,
+but its local executable ordering remains boundary-limited. The unresolved
+problem is now editorial architecture, not a lack of basic source grounding.
 
 ## Working recommendation
 
 Keep `SC018-SC025` scaffolded for now, but mark it dossier-prepared and pending
 human chapter-shape review. The next decision should be whether to retain one
-broad underdetermination row or split it into:
+broad editorial holding row or split it into:
 
-1. boundary-limited notes for `SC018`, `SC022`, and `SC025`; plus
-2. later singleton notes for `SC021`, `SC023`, and `SC024`.
+1. boundary-limited notes for `SC018`, Common-Germanic `SC022`, and `SC025`;
+2. later singleton notes for `SC023` and `SC024`; plus
+3. one retired archival note for `SC021`.
 
 In any future rewrite, bundled `PWGmcChanges` should be described explicitly as
-a **runner limitation**, not as a historical boundary, and the outward links to
-`SC040`, `SC047`, and `SC056` should remain cross-references rather than
-non-contiguous chapter mergers.
+a **runner limitation**, not as a historical boundary, and the surviving
+outward links to `SC047` and `SC056` should remain cross-references rather
+than non-contiguous chapter mergers.

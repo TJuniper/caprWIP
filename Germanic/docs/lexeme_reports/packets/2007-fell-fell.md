@@ -159,7 +159,7 @@ _None_
 | :--- | :--- |
 | Campbell1959 | author + year mention (Campbell 1959) |
 | Kroonen2013 | default Proto-Germanic etymology key for Kroonen |
-| Hogg1992 | single available key for Hogg |
+| HoggPhonology1992 | single available key for Hogg |
 | SieversBrunner1965 | single available key for Sievers |
 | Kaluza1906 | single available key for Kaluza |
 

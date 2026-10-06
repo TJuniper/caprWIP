@@ -60,7 +60,7 @@ between the two developments:
 ## Source notes
 
 The source base for this dossier remains: `RingeTaylor2014`, `Fulk2018`,
-`Campbell1959`, `Hogg1992`, `Luick1914`, `SieversBrunner1965`, and
+`Campbell1959`, `HoggPhonology1992`, `Luick1914`, `SieversBrunner1965`, and
 `Versloot2017`. Versloot is used here for stressed `*ai` areal chronology and
 diffusional interpretation; unstressed `*ai > *ē` support remains anchored in
 Ringe/Taylor and Fulk.

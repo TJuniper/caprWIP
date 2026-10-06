@@ -26,7 +26,7 @@ Clark Hall records `weorpan` as the strong verb headword and separately lists `w
 
 ### Development to Old English
 
-Breaking before `r + C` yields `weor-`, and the infinitive develops regularly to `weorpan` [@Campbell1959; @Hogg1992].
+Breaking before `r + C` yields `weor-`, and the infinitive develops regularly to `weorpan` [@Campbell1959; @HoggGrammar1992].
 
 ### Lexical note
 

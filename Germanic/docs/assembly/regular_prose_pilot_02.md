@@ -520,7 +520,7 @@ OE Unstressed EI Contraction & \emph{*ʃḗawian} \\
 
 Orel and Kroonen both place the verb in the ordinary class-II show-family, and Brunner's Old English evidence _scēawian_, _scāwian_ confirms that the entry is dealing with the standard lexeme rather than a special paradigm cell [@Orel2003, 339; @Kroonen2013, 482; @SieversBrunner1965, 148]. The regularity lies in the treatment of _aw_ before a following vowel: the inherited form develops to Old English _ēaw_, while the class-II suffix preserves _ō_ between _w_ and _j_, yielding the expected _sċēawian_ [@Campbell1959, 138; @Orel2003, 339]. The remaining wrinkle is orthographic, not philological.
 
-Form note. The difference between dictionary _scēawian_ and the book spelling _sċēawian_ is only normalization of initial <sc> [@Campbell1959, 19; @Hogg1992, 236].
+Form note. The difference between dictionary _scēawian_ and the book spelling _sċēawian_ is only normalization of initial <sc> [@Campbell1959, 19; @HoggPhonology1992, p. 90].
 
 ## weapon — OE wǣpn
 

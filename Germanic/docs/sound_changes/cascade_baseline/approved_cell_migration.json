@@ -1,0 +1,29 @@
+{
+  "adjudication": "SC033",
+  "adjudication_memo": "Germanic/docs/sound_changes/audits/sc033-adjudication.md",
+  "previous_summary": {
+    "outputs_sha256": "fe55aa8b39467e318b3a9997c2c48009c057dfbfc2bf877bf7be49b9f89a510e",
+    "lexical_outputs_sha256": "5d0330eabe0534101e3886ed17688d3eae08b7f67e4a9ec09df48a857218724f",
+    "legacy_subset_sha256": "04a24f4cd6ad61217a43ad47d5ac5f0d957a5f4f211559a7633d77dac852c409"
+  },
+  "legacy_archive_sha256": "fae656520e9ebf446854643907a1ba48a511877fc25b1fae39649d5b97e9a6cf",
+  "changes": [
+    {
+      "row_id": "2085",
+      "before": {
+        "proto": "*knéwą",
+        "proto_norm": "knéwą",
+        "fst_input": "knéwą",
+        "counterpart": "cnēow",
+        "outputs": "cnēow"
+      },
+      "after": {
+        "proto": "*knéwai",
+        "proto_norm": "knéwai",
+        "fst_input": "knéwai",
+        "counterpart": "cneowe",
+        "outputs": "cneowe"
+      }
+    }
+  ]
+}

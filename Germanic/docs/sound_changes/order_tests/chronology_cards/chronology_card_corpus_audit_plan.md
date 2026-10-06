@@ -107,7 +107,7 @@ This is a presentation-layer audit, not a new computation phase.
 The ordinary cards are expected to use a stable structure built around these sections and fields:
 
 1. title
-2. `## Current position`
+2. `## Position at experiment time`
 3. `## Earlier boundary`
 4. `## Later boundary`
 5. `## Chronology statement`

@@ -58,14 +58,14 @@ SC051, SC052, or SC055-SC056 chapters.
 
 ### Hogg 1992
 
-- source_key: Hogg1992
-- locator: pp. 106--107; pp. 111--112
+- source_key: HoggPhonology1992
+- locator: pp. 107--108; pp. 111--112
 - witness_used: `docs/references/hogg_vol1.txt`
 - locator_confidence: page_safe
 - terminology: palatalisation; palatal diphthongisation; i-mutation
 - short quotation: "the new palatal consonants appear to have had an effect on immediately following front stressed vowels"
-- paraphrase: Hogg separates palatalization from later palatal diphthongization and illustrates the latter with forms such as `giefan` and `sceap`. He also notes that palatalisation is generally taken to precede i-mutation. That gives SC057 good neighborhood support in the palatalization/fronting region, but still as a narrow follower inside a larger complex rather than as a standard chapter center. [@Hogg1992, pp. 106--107, 111--112]
-- chronology: Hogg's ordering makes the leftward tie to earlier palatalization historically intelligible and keeps the later vowel-side developments distinct. [@Hogg1992, pp. 106--107, 111--112]
+- paraphrase: Hogg separates palatalization from later palatal diphthongization and illustrates the latter with forms such as `giefan` and `sceap`. He also notes that palatalisation is generally taken to precede i-mutation. That gives SC057 good neighborhood support in the palatalization/fronting region, but still as a narrow follower inside a larger complex rather than as a standard chapter center. [@HoggPhonology1992, pp. 112--113]
+- chronology: Hogg's ordering makes the leftward tie to earlier palatalization historically intelligible and keeps the later vowel-side developments distinct. [@HoggPhonology1992, pp. 112--113]
 - examples: `giefan`; `sceap`
 - cautions: this is broad structural support, not a direct handbook statement of SC057 as an independent law.
 

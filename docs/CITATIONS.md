@@ -9,13 +9,13 @@ cleanly to LaTeX (`biblatex` with `\autocite`) when we compile the PDF.
 
 | Markdown                              | Renders as (typical author–year style)            | LaTeX (biblatex)                          |
 |---------------------------------------|---------------------------------------------------|-------------------------------------------|
-| `[@Hogg1992]`                         | (Hogg 1992)                                       | `\autocite{Hogg1992}`                     |
-| `[@Hogg1992, §4.5]`                   | (Hogg 1992, §4.5)                                 | `\autocite[\S\,4.5]{Hogg1992}`            |
-| `[@Hogg1992, pp. 110--12]`            | (Hogg 1992, pp. 110–12)                           | `\autocite[pp.\,110--12]{Hogg1992}`       |
+| `[@HoggGrammar1992]`                   | (Hogg 1992)                                       | `\autocite{HoggGrammar1992}`             |
+| `[@HoggGrammar1992, §4.11]`                    | (Hogg 1992, §4.11)                                | `\autocite[\S\,4.11]{HoggGrammar1992}`           |
+| `[@HoggPhonology1992, pp. 112--113]`           | (Hogg 1992, pp. 111–13)                           | `\autocite[pp.\,111--13]{HoggPhonology1992}`      |
 | `[-@Ringe2006]`                       | (2006)  *(suppress author)*                       | `\autocite[][]{Ringe2006}` (year only)    |
 | `@Campbell1959 [§740]`                | Campbell (1959, §740)                             | `\textcite[\S\,740]{Campbell1959}`        |
-| `[@Hogg1992; @RingeTaylor2014]`       | (Hogg 1992; Ringe & Taylor 2014)                  | `\autocites{Hogg1992}{RingeTaylor2014}`   |
-| `[see @Stiles2012, p. 25]`            | (see Stiles 2012, p. 25)                          | `\autocite[see][p.\,25]{Stiles2012}`      |
+| `[@HoggGrammar1992; @RingeTaylor2014]`  | (Hogg 1992; Ringe & Taylor 2014)                 | `\autocites{HoggGrammar1992}{RingeTaylor2014}`  |
+| `[see @Bammesberger1992, p. 39]`      | (see Bammesberger 1992, p. 39)                    | `\autocite[see][p.\,39]{Bammesberger1992}` |
 
 Keep the citation **inside** the punctuation, e.g. `…lautgesetzlich
 [@Campbell1959, §740].`
@@ -26,7 +26,7 @@ Keep the citation **inside** the punctuation, e.g. `…lautgesetzlich
 
 Examples already in `refs.bib`:
 
-* `Hogg1992`, `Campbell1959`, `Ringe2006`, `RingeTaylor2014`
+* `HoggPhonology1992`, `HoggGrammar1992`, `Campbell1959`, `Ringe2006`, `RingeTaylor2014`
 * `KlugeSeebold2011`, `LloydSpringer1988` (joint authors → concatenate)
 * `Stiles1986a`, `Stiles1986b` (multiple in same year → suffix)
 * `SieversBrunner1965` (work originally by Sievers, ed. Brunner —

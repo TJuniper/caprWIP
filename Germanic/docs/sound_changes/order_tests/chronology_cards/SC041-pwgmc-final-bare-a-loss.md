@@ -1,7 +1,7 @@
 # SC041 PWGmc Final Bare A Loss — chronology evidence card
 
-## Current position
-- current_order: `41`
+## Position at experiment time
+- order_at_experiment_time: `41`
 - rule_name: `PWGmcFinalBareALoss`
 - safe computational window: `21-45`
 - status: `first_break_complete`

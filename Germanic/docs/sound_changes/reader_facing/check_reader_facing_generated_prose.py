@@ -6,7 +6,7 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
-from reader_facing_check_utils import DEFAULT_BUILD_SCRIPT, parse_intro_parts
+from reader_facing_check_utils import BUILD_READER_BOOK, parse_intro_parts
 
 
 ROOT = Path(__file__).resolve().parent
@@ -38,8 +38,8 @@ class GeneratedProseIssue:
     paragraph: str
 
 
-def scan_intro(build_script: Path) -> tuple[list[str], list[GeneratedProseIssue]]:
-    paragraphs = parse_intro_parts(build_script)
+def scan_intro(builder: Path) -> tuple[list[str], list[GeneratedProseIssue]]:
+    paragraphs = parse_intro_parts(builder)
     issues: list[GeneratedProseIssue] = []
     for idx, paragraph in enumerate(paragraphs, start=1):
         for label, pattern in DISALLOWED_PATTERNS:
@@ -54,15 +54,15 @@ def scan_intro(build_script: Path) -> tuple[list[str], list[GeneratedProseIssue]
     return paragraphs, issues
 
 
-def render(build_script: Path, paragraphs: list[str], issues: list[GeneratedProseIssue]) -> str:
+def render(builder: Path, paragraphs: list[str], issues: list[GeneratedProseIssue]) -> str:
     lines = [
         "# Reader-facing generated prose check 01",
         "",
-        "_Generated from the introduction prose embedded in the active reader-facing build script._",
+        "_Generated from the introduction prose owned by the reader-facing book builder._",
         "",
         "## Summary",
         "",
-        f"- Build script: `{build_script}`.",
+        f"- Book builder: `{builder}`.",
         f"- Introduction paragraphs checked: {len(paragraphs)}.",
         f"- Issues found: {len(issues)}.",
         "",
@@ -86,16 +86,16 @@ def render(build_script: Path, paragraphs: list[str], issues: list[GeneratedPros
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check generated reader-facing introduction prose for project-facing language.")
     parser.add_argument(
-        "--build-script",
+        "--builder",
         type=Path,
-        default=DEFAULT_BUILD_SCRIPT,
-        help="Build script whose generated introduction prose should be checked.",
+        default=BUILD_READER_BOOK,
+        help="Book builder module whose front-matter prose should be checked.",
     )
     args = parser.parse_args()
 
-    build_script = args.build_script.resolve()
-    paragraphs, issues = scan_intro(build_script)
-    OUTPUT_PATH.write_text(render(build_script, paragraphs, issues), encoding="utf-8")
+    builder = args.builder.resolve()
+    paragraphs, issues = scan_intro(builder)
+    OUTPUT_PATH.write_text(render(builder, paragraphs, issues), encoding="utf-8")
     print(f"Wrote {OUTPUT_PATH}")
     print(f"Paragraphs checked: {len(paragraphs)}; issues: {len(issues)}")
     return 1 if issues else 0

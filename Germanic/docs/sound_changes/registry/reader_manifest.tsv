@@ -1,0 +1,75 @@
+# GENERATED FILE — DO NOT EDIT.
+# Source: registry/reader_chapters.tsv + registry/reader_files.tsv (editorial) + registry/sc_registry.tsv + oe_pipeline (cascade positions)
+# Generator: Germanic/tools/generate_registry_views.py (run after editing sources).
+# Version 1 book manifest: reader-facing files in presentation order.
+# File order inside a chapter is DERIVED from the minimum executable
+# cascade position of the SCs each file contains; never edit order here.
+# The book builder (Germanic/tools/build_reader_book.py) consumes this
+# manifest and contains no file list of its own.
+reader_order	chapter_id	chapter_title	reader_file	sc_ids	min_cascade_position
+1	1	From Proto-Germanic to Proto-Northwest Germanic	103-pgmc-nasal-loss-before-x.md	SC103	1
+2	2	From Proto-Northwest Germanic to Proto-West Germanic	096-root-noun-nominative-z-loss.md	SC096	2
+3	2	From Proto-Northwest Germanic to Proto-West Germanic	014-015-opening-vowel-prelude.md	SC014;SC015	3
+4	2	From Proto-Northwest Germanic to Proto-West Germanic	005-unstressed-a-raising-before-final-m.md	SC005	4
+5	2	From Proto-Northwest Germanic to Proto-West Germanic	024-long-e-lowering.md	SC024	5
+6	2	From Proto-Northwest Germanic to Proto-West Germanic	006-early-i-apocope.md	SC006	6
+7	2	From Proto-Northwest Germanic to Proto-West Germanic	007-final-o-lowering-before-r.md	SC007	7
+8	2	From Proto-Northwest Germanic to Proto-West Germanic	008-coronal-w-assimilation.md	SC008	8
+9	2	From Proto-Northwest Germanic to Proto-West Germanic	031-ww-simplification.md	SC031	9
+10	2	From Proto-Northwest Germanic to Proto-West Germanic	009-ij-contraction-in-friend.md	SC009	10
+11	2	From Proto-Northwest Germanic to Proto-West Germanic	010-west-germanic-j-gemination.md	SC010	11
+12	2	From Proto-Northwest Germanic to Proto-West Germanic	011-syllabic-j-after-final-vowel-loss.md	SC011	12
+13	2	From Proto-Northwest Germanic to Proto-West Germanic	028-preconsonantal-x-loss.md	SC028	13
+14	2	From Proto-Northwest Germanic to Proto-West Germanic	012-lth-voicing.md	SC012	14
+15	2	From Proto-Northwest Germanic to Proto-West Germanic	013-dental-hardening.md	SC013	15
+16	2	From Proto-Northwest Germanic to Proto-West Germanic	017-nwgmc-u-lowering.md	SC017	17
+17	2	From Proto-Northwest Germanic to Proto-West Germanic	018-stressed-monosyllable-o-raising.md	SC018	18
+18	2	From Proto-Northwest Germanic to Proto-West Germanic	019-nwgmc-final-long-o-raising.md	SC019	19
+19	3	From Proto-West Germanic to Anglo-Frisian	020-wgmc-final-z-deletion.md	SC020	20
+20	3	From Proto-West Germanic to Anglo-Frisian	098-early-apocope-in-unstressed-words.md	SC098	21
+21	3	From Proto-West Germanic to Anglo-Frisian	097-monosyllabic-final-z-loss.md	SC097	22
+22	3	From Proto-West Germanic to Anglo-Frisian	003-west-germanic-rhotacism.md	SC003	23
+23	3	From Proto-West Germanic to Anglo-Frisian	022-mn-dissimilation.md	SC022	24
+24	3	From Proto-West Germanic to Anglo-Frisian	023-n-stem-n-loss.md	SC023	25
+25	3	From Proto-West Germanic to Anglo-Frisian	026-027-nasal-spirant-changes.md	SC026;SC027	26
+26	3	From Proto-West Germanic to Anglo-Frisian	102-hiatus-w-insertion.md	SC102	28
+27	3	From Proto-West Germanic to Anglo-Frisian	025-long-a-nasal-rounding.md	SC025	29
+28	3	From Proto-West Germanic to Anglo-Frisian	104-nasalized-low-vowel-rounding.md	SC104	30
+29	3	From Proto-West Germanic to Anglo-Frisian	101-long-a-fronting.md	SC101	31
+30	4	From Anglo-Frisian to Old English	004-pwgmc-ai-monophthongization.md	SC004	32
+31	4	From Anglo-Frisian to Old English	029-030-awj-glide-and-au-fronting.md	SC029;SC030	33
+32	4	From Anglo-Frisian to Old English	033-long-eow-diphthong.md	SC033	35
+33	4	From Anglo-Frisian to Old English	032-diphthong-leveling.md	SC032	38
+34	4	From Anglo-Frisian to Old English	034-long-eaw-diphthong.md	SC034	39
+35	4	From Anglo-Frisian to Old English	035-037-prefix-and-compound-adjustments.md	SC035;SC036;SC037	40
+36	4	From Anglo-Frisian to Old English	039-040-medial-unstressed-vowel-changes.md	SC039;SC040	44
+37	4	From Anglo-Frisian to Old English	041-final-bare-a-loss.md	SC041	45
+38	4	From Anglo-Frisian to Old English	042-surviving-bimoric-o-unrounding.md	SC042	46
+39	4	From Anglo-Frisian to Old English	043-anglo-frisian-brightening.md	SC043	48
+40	4	From Anglo-Frisian to Old English	044-045-breaking-and-velar-fricative-palatalization.md	SC044;SC045	50
+41	4	From Anglo-Frisian to Old English	046-048-restoration-and-nasal-tail-changes.md	SC046;SC047;SC048	52
+42	4	From Anglo-Frisian to Old English	049-pgmc-b-allophony.md	SC049	55
+43	4	From Anglo-Frisian to Old English	050-pwgmc-sievers-law-syncope.md	SC050	56
+44	4	From Anglo-Frisian to Old English	051-sk-palatalization.md	SC051	57
+45	4	From Anglo-Frisian to Old English	052-velar-palatalization.md	SC052	58
+46	4	From Anglo-Frisian to Old English	053-054-pre-umlaut-bridge-and-w-loss.md	SC053;SC054	59
+47	4	From Anglo-Frisian to Old English	055-056-i-umlaut-core.md	SC056;SC055	61
+48	4	From Anglo-Frisian to Old English	057-j-cluster-coalescence.md	SC057	64
+49	4	From Anglo-Frisian to Old English	059-oe-back-mutation.md	SC059	65
+50	4	From Anglo-Frisian to Old English	060-ws-palatal-umlaut-note.md	SC060	66
+51	4	From Anglo-Frisian to Old English	061-weak-tail-nasal-loss-note.md	SC061	67
+52	4	From Anglo-Frisian to Old English	063-high-vowel-apocope.md	SC063	69
+53	4	From Anglo-Frisian to Old English	064-065-post-apocope-tail.md	SC064;SC065	70
+54	4	From Anglo-Frisian to Old English	066-068-syncope-and-degemination-corridor.md	SC066;SC067;SC068	72
+55	4	From Anglo-Frisian to Old English	069-early-o-shortening-context-note.md	SC069	75
+56	4	From Anglo-Frisian to Old English	070-071-early-unstressed-fronting-shortening-bridge.md	SC070;SC071;SC099;SC100	76
+57	4	From Anglo-Frisian to Old English	072-073-unstressed-long-vowel-shortening-and-ae-merger-core.md	SC072;SC073	80
+58	4	From Anglo-Frisian to Old English	074-075-medial-unstressed-i-lowering.md	SC074;SC075	82
+59	4	From Anglo-Frisian to Old English	076-prefix-i-reduction.md	SC076	85
+60	4	From Anglo-Frisian to Old English	078-weak-tail-reduction.md	SC078	86
+61	4	From Anglo-Frisian to Old English	079-080-final-j-loss-and-final-geminate-simplification.md	SC079;SC080	87
+62	4	From Anglo-Frisian to Old English	081-083-j-strengthening-vocalization-and-ei-contraction.md	SC081;SC082;SC083	89
+63	4	From Anglo-Frisian to Old English	085-086-h-loss-and-contraction.md	SC085;SC086	93
+64	4	From Anglo-Frisian to Old English	087-r-metathesis.md	SC087	95
+65	4	From Anglo-Frisian to Old English	089-late-unstressed-ag-suffix.md	SC089	97
+66	5	Old English orthography and the written surface	016-west-saxon-palatal-glide.md	SC016	102

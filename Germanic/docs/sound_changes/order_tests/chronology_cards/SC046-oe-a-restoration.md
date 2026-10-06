@@ -1,7 +1,7 @@
 # SC046 OE A Restoration — chronology evidence card
 
-## Current position
-- current_order: `46`
+## Position at experiment time
+- order_at_experiment_time: `46`
 - rule_name: `OEARestoration`
 - safe computational window: `44-47`
 - status: `first_break_complete`

@@ -19,7 +19,7 @@ SC003 isolates the medial change of `*z` to `*r` in the families behind `deer`, 
 
 ## Source support found so far
 
-1. Hogg provides a compact OE-facing summary of intervocalic rhotacism and final loss [@Hogg1992, p. 37].
+1. Bammesberger provides a compact OE-facing summary of intervocalic rhotacism and final loss [@Bammesberger1992, p. 39].
 2. Ringe and Taylor discuss the change directly, note that it was not uniform in West Germanic, and assign the overall process to the post-PWGmc period [@RingeTaylor2014, pp. 52, 98, 102].
 3. Crist separates rhotacism from word-final `*z` deletion, clarifies the relative order, and rejects inheritance from Proto-Northwest Germanic [@Crist2001, pp. 104-106; @Crist2002, pp. 1, 4].
 

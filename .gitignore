@@ -19,8 +19,13 @@
 /server/german_after_*.bin
 /server/german_pre_surface.bin
 /server/german_surface_prep.bin
-# FST compiled binaries (regenerated from .txt sources)
-# Only Germanic/fsts/*.bin should be tracked (mounted by Docker)
+# FST compiled binaries (regenerated from .txt sources).
+# NO .bin files are tracked: bins are runtime artifacts rebuilt into the
+# authoritative bin directory (host: backend/; container: /usr/app) by
+# Germanic/tools/rebuild_oe_bins.sh or adjudicate.py --evidence, and their
+# freshness is recorded in backend/oe_build_manifest.json.
+/Germanic/fsts/*.bin
+/backend/oe_build_manifest.json
 # Reference PDFs are not committed (kept local; .txt extracts are committed)
 # Temporary/sandbox files
 docs/references/*.pdf

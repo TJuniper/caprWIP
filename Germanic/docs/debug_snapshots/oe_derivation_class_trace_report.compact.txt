@@ -1,4 +1,4 @@
-=== DERIVATION_CLASS: regular (303) ===
+=== DERIVATION_CLASS: regular (305) ===
 
 
 
@@ -419,10 +419,11 @@ OUTPUTS: bōc
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *bōkz
+Root Noun Nom Z Loss: *bōk
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *bōk<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>[no change] |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>[no change] |
 
 
 
@@ -801,7 +802,7 @@ Proto Input: *kéwwaną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE WW Simplification: *kéwaną<br>OE Ew Long Diphthong: *kēowaną<br>OE Heavy Syllable Nasal Apocope: *kēowan<br>OE Secondary Nasalization: *kēowąn<br>OE Velar Palatalization: *ʧēowąn<br>OE Weak Tail Reduction: *ʧēowan |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *kēowwaną<br>OE WW Simplification: *kēowaną<br>OE Heavy Syllable Nasal Apocope: *kēowan<br>OE Secondary Nasalization: *kēowąn<br>OE Velar Palatalization: *ʧēowąn<br>OE Weak Tail Reduction: *ʧēowan |
 
 
 
@@ -1036,11 +1037,10 @@ OUTPUTS: dēor
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *déuzą
-Rhotacism: *déurą
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Diphthong Leveling: *dēorą<br>OE Heavy Syllable Nasal Apocope: *dēor |
+| **Northwest and West Germanic**<br>Rhotacism: *déurą<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Diphthong Leveling: *dēorą<br>OE Heavy Syllable Nasal Apocope: *dēor |
 
 
 
@@ -1605,10 +1605,11 @@ OUTPUTS: flēah
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *fláuxz
+Root Noun Nom Z Loss: *fláux
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *fláux<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Au Fronting: *fláeux<br>OE Diphthong Leveling: *flēax |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Au Fronting: *fláeux<br>OE Diphthong Leveling: *flēax |
 
 
 
@@ -1844,7 +1845,7 @@ Proto Input: *fédwōr
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PWGmc Final Or Lowering: *fédwar<br>PWGmc Coronal W Assimilation: *féwwar<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE WW Simplification: *féwar<br>OE Ew Long Diphthong: *fēowar<br>EAF Brightening: *fēowær<br>OE Unstressed AE Merger: *fēower |
+| **Northwest and West Germanic**<br>PWGmc Final Or Lowering: *fédwar<br>PWGmc Coronal W Assimilation: *féwwar<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *fēowwar<br>OE WW Simplification: *fēowar<br>EAF Brightening: *fēowær<br>OE Unstressed AE Merger: *fēower |
 
 
 
@@ -2126,10 +2127,11 @@ OUTPUTS: gōs
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *gánsz
+Root Noun Nom Z Loss: *gáns
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *gáns<br>EAF Nasal Spirant Lengthening: *gōns<br>EAF Nasal Spirant Loss: *gōs<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>[no change] |
+| **Northwest and West Germanic**<br>EAF Nasal Spirant Lengthening: *gōns<br>EAF Nasal Spirant Loss: *gōs<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>[no change] |
 
 
 
@@ -2835,11 +2837,10 @@ OUTPUTS: hord
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *xúzdą
-Rhotacism: *xúrdą
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PNWGmc U Lowering: *xórdą<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *xórd |
+| **Northwest and West Germanic**<br>PNWGmc U Lowering: *xózdą<br>Rhotacism: *xórdą<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *xórd |
 
 
 
@@ -3172,11 +3173,10 @@ OUTPUTS: liornian
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *líznōjaną
-Rhotacism: *lírnōjaną
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Breaking: *líornōjaną<br>OE Heavy Syllable Nasal Apocope: *líornōjan<br>OE Secondary Nasalization: *líornōjąn<br>OE I Umlaut: *líornējąn<br>OE Unstressed Long Vowel Shortening: *líornejąn<br>OE Weak Tail Reduction: *líornejan<br>OE Intervocalic J Vocalization: *líorneian<br>OE Unstressed EI Contraction: *líornian |
+| **Northwest and West Germanic**<br>Rhotacism: *lírnōjaną<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Breaking: *líornōjaną<br>OE Heavy Syllable Nasal Apocope: *líornōjan<br>OE Secondary Nasalization: *líornōjąn<br>OE I Umlaut: *líornējąn<br>OE Unstressed Long Vowel Shortening: *líornejąn<br>OE Weak Tail Reduction: *líornejan<br>OE Intervocalic J Vocalization: *líorneian<br>OE Unstressed EI Contraction: *líornian |
 
 
 
@@ -3553,10 +3553,11 @@ OUTPUTS: lūs
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *lūsz
+Root Noun Nom Z Loss: *lūs
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>EAF Final Z Deletion: *lūs<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>[no change] |
+| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>[no change] |
 
 
 
@@ -6812,6 +6813,32 @@ Outcome: hwīl
 
 
 
+# who
+PROTO: *xwáz
+EXPECTED: hwā
+OUTPUTS: hwā
+
+
+
+### Proto-Germanic consonant inheritance
+
+Proto Input: *xwáz
+
+| Earlier Germanic developments | Old English developments |
+|:---|:---|
+| **Northwest and West Germanic**<br>Monosyllabic Final Z Loss: *xwā<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>[no change] |
+
+
+
+### Orthography & surface
+
+Old English Orthography: h*wā
+Outcome: hwā
+
+NOTE: Interrogative pronoun, nom.sg.masc. *hwaz (Goth. hwas) > OE hwā by northern WGmc monosyllabic final *-z loss with compensatory lengthening (SC097), R/T 2014: 86. Back ā never fronts: Campbell §125 p.49 (*hwǣ does not exist); Brunner §137 Anm.1 p.129. Alternative account (Campbell/Brunner): generalized unaccented *hwa with later lengthening — recorded, not adopted.
+
+
+
 # whore
 PROTO: *xōrōn
 EXPECTED: hōre
@@ -7205,14 +7232,40 @@ Proto Input: *júką
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>OE Ws Palatal Glide: *jéuką<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Diphthong Leveling: *jéoką<br>OE Heavy Syllable Nasal Apocope: *jéok |
+| **Northwest and West Germanic**<br>PNWGmc U Lowering: *jóką<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Heavy Syllable Nasal Apocope: *jók |
 
 
 
 ### Orthography & surface
 
-Old English Orthography: ġ*éok
+Old English Orthography: ġ*ók
+OE Ws Palatal Glide: ġ*éok
 Outcome: ġeoc
+
+
+
+# you
+PROTO: *ízwiz
+EXPECTED: ēow
+OUTPUTS: ēow
+
+
+
+### Proto-Germanic consonant inheritance
+
+Proto Input: *ízwiz
+
+| Earlier Germanic developments | Old English developments |
+|:---|:---|
+| **Northwest and West Germanic**<br>PWGmc Coronal W Assimilation: *íwwiz<br>EAF Final Z Deletion: *íwwi<br>PWGmc Unstressed Word Final I Apocope: *íww<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Ew Long Diphthong: *ēoww<br>OE WW Simplification: *ēow |
+
+
+
+### Orthography & surface
+
+Outcome: ēow
+
+NOTE: Second-person plural pronoun, dat.(-acc.) pl. PGmc *izwiz (Goth. izwis) > *iwwi by coronal-w assimilation (SC008; Stiles 1985-6; R/T 2014: 41-42; Fulk §8.3 pp.204-205) > PWGmc *iuw with apocope in unstressed words (SC098, R/T 2014: 57-58): the absence of i-umlaut proves the *-i fell before umlaut. Geminate-w vocalization is PWGmc (*fewwar > *feuwar), so SC033 precedes degemination (SC031). WS ēow beside eWS/Nb īow: Campbell §702 p.283 note. Chronology witness: SC008 must precede rhotacism (SC003) — rhotacized *irwiz could never yield ēow.
 
 
 
@@ -8097,13 +8150,14 @@ Proto Input: *júgunθ
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>OE Ws Palatal Glide: *jéugunθ<br>EAF Nasal Spirant Lengthening: *jéugūnθ<br>EAF Nasal Spirant Loss: *jéugūθ<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Diphthong Leveling: *jéogūθ<br>OE Unstressed Long Vowel Shortening: *jéoguθ |
+| **Northwest and West Germanic**<br>EAF Nasal Spirant Lengthening: *júgūnθ<br>EAF Nasal Spirant Loss: *júgūθ<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Unstressed Long Vowel Shortening: *júguθ |
 
 
 
 ### Orthography & surface
 
-Old English Orthography: ġ*éoguþ
+Old English Orthography: ġ*úguþ
+OE Ws Palatal Glide: ġ*éoguþ
 Outcome: ġeoguþ
 
 NOTE: PROTOFORM *jugunθ (without -iz): (1) Early i-apocope: R/T §6.8.1 shows final *-i lost after heavy syllable BEFORE i-umlaut. R/T vol.2 p.141: "*jugunþi > *juguþ". Campbell §332: "duguþ < *dugunþ-, and so geoguþ". (2) Medial u preserved: Campbell §373 "u always well preserved after accented u" (vowel harmony). Contrast *xaubudą > hēafod (au, not u, so u→o). See DEV_NOTES.md §14.9 for full documentation.
@@ -8149,11 +8203,10 @@ OUTPUTS: berġes
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *bázjas
-Rhotacism: *bárjas
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *bærjæs<br>OE I Umlaut: *berjæs<br>OE Unstressed AE Merger: *berjes |
+| **Northwest and West Germanic**<br>Rhotacism: *bárjas<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>EAF Brightening: *bærjæs<br>OE I Umlaut: *berjæs<br>OE Unstressed AE Merger: *berjes |
 
 
 
@@ -8380,11 +8433,10 @@ OUTPUTS: liornaþ
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *líznōθi
-Rhotacism: *lírnōθi
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PWGmc Early I Apocope: *lírnōθ<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Breaking: *líornōθ<br>OE Late O Shortening: *líornaθ |
+| **Northwest and West Germanic**<br>PWGmc Early I Apocope: *líznōθ<br>Rhotacism: *lírnōθ<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Breaking: *líornōθ<br>OE Late O Shortening: *líornaθ |
 
 
 
@@ -8407,11 +8459,10 @@ OUTPUTS: liorna
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *líznô
-Rhotacism: *lírnô
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>[no change]<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Breaking: *líornô<br>OE Unstressed Long Vowel Shortening: *líorna |
+| **Northwest and West Germanic**<br>Rhotacism: *lírnô<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Breaking: *líornô<br>OE Unstressed Long Vowel Shortening: *líorna |
 
 
 
@@ -8586,11 +8637,10 @@ OUTPUTS: meorde
 ### Proto-Germanic consonant inheritance
 
 Proto Input: *mízdai
-Rhotacism: *mírdai
 
 | Earlier Germanic developments | Old English developments |
 |:---|:---|
-| **Northwest and West Germanic**<br>PNWGmc Unstressed Ai Monophthongization: *mírdē<br>PNWGmc I Lowering: *mérdē<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Breaking: *méordē<br>OE Unstressed Long Vowel Shortening: *méorde |
+| **Northwest and West Germanic**<br>PNWGmc Unstressed Ai Monophthongization: *mízdē<br>PNWGmc I Lowering: *mézdē<br>Rhotacism: *mérdē<br><br>**Early Anglo-Frisian**<br>[no change] | **Old English**<br>OE Breaking: *méordē<br>OE Unstressed Long Vowel Shortening: *méorde |
 
 
 

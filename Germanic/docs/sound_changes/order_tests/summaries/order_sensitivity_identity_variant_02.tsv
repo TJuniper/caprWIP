@@ -130,7 +130,7 @@ heal	*xáilijaną	hǣlan	hǣlan	hǣlan	yes	yes	yes	identical
 heart	*xértōn	heorte	heorte	heorte	yes	yes	yes	identical
 hearth	*xérθaz	heorþ	heorþ	heorþ	yes	yes	yes	identical
 heath	*xáiθiz	hǣþ	hǣþ	hǣþ	yes	yes	yes	identical
-heaven	*xémonų	heofon	heofon	heofon	yes	yes	yes	identical
+heaven	*xébun	heofon	heofon	heofon	yes	yes	yes	identical
 hedge	*xágjaz	heġġ	heġġ	heġġ	yes	yes	yes	identical
 helm	*xélmaz	helm	helm	helm	yes	yes	yes	identical
 help	*xélpaną	helpan	helpan	helpan	yes	yes	yes	identical
@@ -277,7 +277,7 @@ staff	*stábaz	stæf	stæf	stæf	yes	yes	yes	identical
 start	*stúrtijaną	styrtan	styrtan	styrtan	yes	yes	yes	identical
 starve	*stérbaną	steorfan	steorfan	steorfan	yes	yes	yes	identical
 steal	*stélaną	stelan	stelan	stelan	yes	yes	yes	identical
-stem	*stébnō	stefn	stefn	stefn	yes	yes	yes	identical
+stem	*stámniz	stefn	stefn	stefn	yes	yes	yes	identical
 still	*stéllijaną	stillan	stillan	stillan	yes	yes	yes	identical
 stock	*stúkkaz	stocc	stocc	stocc	yes	yes	yes	identical
 stone	*stáinaz	stān	stān	stān	yes	yes	yes	identical
@@ -379,3 +379,8 @@ lick (iptv.2sg)	*líkkô	licca	licca	licca	yes	yes	yes	identical
 lick (3sg)	*líkkōθi	liccaþ	liccaþ	liccaþ	yes	yes	yes	identical
 show (iptv.2sg)	*skáwô	sċēawa	sċēawa	sċēawa	yes	yes	yes	identical
 show (3sg)	*skáwōθi	sċēawaþ	sċēawaþ	sċēawaþ	yes	yes	yes	identical
+who	*xwáz	hwā	hwā	hwā	yes	yes	yes	identical
+you	*ízwiz	ēow	ēow	ēow	yes	yes	yes	identical
+wound	*wúndōdē	wundude	wundude	wundude	yes	yes	yes	identical
+sow	*sḗaną	sāwan	sāwan	sāwan	yes	yes	yes	identical
+betray	*lḗwijaną	lǣwan	lǣwan	lǣwan	yes	yes	yes	identical

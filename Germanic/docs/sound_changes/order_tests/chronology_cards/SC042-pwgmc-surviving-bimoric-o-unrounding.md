@@ -1,7 +1,7 @@
 # SC042 PWGmc Surviving Bimoric O Unrounding — chronology evidence card
 
-## Current position
-- current_order: `42`
+## Position at experiment time
+- order_at_experiment_time: `42`
 - rule_name: `PWGmcSurvivingBimoricOUnrounding`
 - safe computational window: `21-42`
 - status: `first_break_complete`

@@ -10,7 +10,7 @@ SC024	NWGmc Long E Lowering	NWGmcLongELowering	24	no_break_before_boundary	PWGmc
 SC025	NWGmc Long E Nasal Rounding	NWGmcLongENasalRounding	25	no_break_before_boundary	PWGmcChanges	yes	no_break_before_boundary	SC004	already_resolved
 SC026	NWGmc Nasal Spirant Lengthening	NWGmcNasalSpirantLengthening	26	no_break_before_boundary	PWGmcChanges	yes	no_break_before_boundary	SC004	already_resolved
 SC028	NWGmc Preconsonantal X Loss	NWGmcPreconsonantalXLoss	28	no_break_before_boundary	PWGmcChanges	yes	no_break_before_boundary	SC004	already_resolved
-SC029	OE Awj Glide Formation	OEAwjGlideFormation	29	no_break_before_boundary	PWGmcChanges	yes	no_break_before_boundary	SC004	already_resolved
+SC029	OE Awj Glide Formation	OEAwwjResolution	29	no_break_before_boundary	PWGmcChanges	yes	no_break_before_boundary	SC004	already_resolved
 SC031	OE WW Simplification	OEWWSimplification	31	first_break_found	PWGmcChanges	yes	first_break_found	SC011	already_resolved
 SC033	OE Ew Long Diphthong	OEEwLongDiphthong	33	first_break_found	PWGmcChanges	yes	first_break_found	SC008	already_resolved
 SC035	OE Prefix A Reduction Early	OEPrefixAReduction	35	no_break_before_boundary	PWGmcChanges	yes	no_break_before_boundary	SC004	already_resolved

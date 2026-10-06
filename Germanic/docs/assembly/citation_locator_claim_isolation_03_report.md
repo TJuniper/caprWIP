@@ -71,7 +71,7 @@ The inspected 60-row tranche was concentrated in the handbook-heavy remainder:
 - `SieversBrunner1965`
 - `Kroonen2013`
 - `Orel2003`
-- spot-check reinspection for non-wins in `Fulk2018` and `Hogg1992`
+- spot-check reinspection for non-wins in `Fulk2018` and `HoggPhonology1992`
 
 Locator additions in this pass came from:
 

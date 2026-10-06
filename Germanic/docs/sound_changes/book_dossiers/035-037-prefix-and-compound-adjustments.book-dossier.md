@@ -34,8 +34,8 @@ notes.
 The literature supports the row unevenly rather than uniformly. SC035 is
 historically plausible because the handbooks do describe reduced pretonic
 prefix vowels and stress-weak `ge-`, but not as a major standalone chapter
-matching CAPR's narrow rule [@Campbell1959, §354; @Hogg1992, §3.3.1.3;
-@Hogg1992, p. 99; @RingeTaylor2014, p. 245]. SC036 is much stronger: Campbell's low-stress
+matching CAPR's narrow rule [@Campbell1959, §354; @HoggPhonology1992, §3.3.1.3;
+@HoggPhonology1992, pp. 99--100; @RingeTaylor2014, p. 245]. SC036 is much stronger: Campbell's low-stress
 `weorold` / `weoruld` discussion and Ringe and Taylor's comparative `world`
 derivation place it squarely inside a real unstressed-vowel corridor
 [@Campbell1959, §§338--339; @RingeTaylor2014, §6.3.3].

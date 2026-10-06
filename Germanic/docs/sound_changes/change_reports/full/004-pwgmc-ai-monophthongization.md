@@ -53,7 +53,7 @@ is not composed in any pipeline.
 #### Place in the cascade
 
 SC004 executes at cascade position 25, immediately after SC028
-`PNWGmcPreconsonantalXLoss` and before SC029 `OEAwjGlideFormation` (the EAF
+`PNWGmcPreconsonantalXLoss` and before SC029 `OEAwwjResolution` (the EAF
 corridor). Its SC number stays SC004 even though its executable position no
 longer follows numerical order.
 

@@ -7,7 +7,7 @@ This note records the control and watchlist entries rechecked in claim-isolation
 | find / fundene | RingeTaylor2014, 344; BosworthToller1898, 219; ClarkHall1960, 124. | Yes. | Stable control case. No Luick/Brunner-style analogical-leveling claim has re-entered, and the citation state remains unchanged. |
 | still / stillan | KlugeSeebold2011, 885 and 886; ClarkHall1960, 292. | Yes. | Audit 08 spot-checked both audit-07 Kluge locators and found them still safe. |
 | loam / lām | Orel2003, 272; Kroonen2013, 363; BosworthToller1898, 604; ClarkHall1960, 196. | Yes. | Audit 08 spot-checked the Bosworth p. 604 locator and found it still safe. |
-| think / þenċan | Kroonen2013, 533; BosworthToller1898, 442; Campbell1959, §438; Hogg1992, §3.4.2.4. | Yes. | No restoration needed; the current mix of comparative, dictionary, and handbook support remains adequate. |
+| think / þenċan | Kroonen2013, 533; BosworthToller1898, 442; Campbell1959, §438; HoggPhonology1992, §3.4.2.4. | Yes. | No restoration needed; the current mix of comparative, dictionary, and handbook support remains adequate. |
 | man / mannes | Kroonen2013, 354; SieversBrunner1965, §226 and §231; ClarkHall1960, 197; Campbell1959, §621. | Yes. | The finite-cell framing remains adequately supported; no removed citation needs restoration. |
 | have / hæfeþ | Kroonen2013, 237; RingeTaylor2014, 93 and 364; Campbell1959, §762; ClarkHall1960, 157. | Yes. | The current paradigm-cell framing remains adequately supported. |
 | rust / rust | Campbell1959, §115; ClarkHall1960, 264; BosworthToller1898, 813. | Yes. | The earlier Ringe removal still leaves the entry adequately supported. |

@@ -18,7 +18,7 @@ DERIVATION_CLASS: regular
 
 ### Reconstruction and comparative evidence
 
-Kroonen cites the noun as `*wega-` 'way, road', while the selected derivational form here is nominative-singular [wégaz]{.recon} ‘way’ [@Kroonen2013]. Campbell, Hogg, and Ringe and Taylor use the same word as the standard contrast between singular palatal `weġ` 'way' and inflected `wegas` / `wegum` [@Campbell1959; @Hogg1992; @RingeTaylor2014, 341].
+Kroonen cites the noun as `*wega-` 'way, road', while the selected derivational form here is nominative-singular [wégaz]{.recon} ‘way’ [@Kroonen2013]. Campbell, Hogg, and Ringe and Taylor use the same word as the standard contrast between singular palatal `weġ` 'way' and inflected `wegas` / `wegum` [@Campbell1959; @HoggGrammar1992; @RingeTaylor2014, 341].
 
 ### Old English evidence
 
@@ -26,7 +26,7 @@ The Old English singular is the ordinary noun `weg` 'way', here normalized as `w
 
 ### Development to Old English
 
-From [wégaz]{.recon} ‘way’, final `*z` is lost and the weak tail apocopates, leaving word-final `*g` after a front vowel. In that environment Old English palatalization yields `weġ` 'way', whereas `wegas` 'ways' remains velar because the following `a` blocks the same outcome [@Campbell1959; @Hogg1992; @RingeTaylor2014, 341].
+From [wégaz]{.recon} ‘way’, final `*z` is lost and the weak tail apocopates, leaving word-final `*g` after a front vowel. In that environment Old English palatalization yields `weġ` 'way', whereas `wegas` 'ways' remains velar because the following `a` blocks the same outcome [@Campbell1959; @HoggGrammar1992; @RingeTaylor2014, 341].
 
 ### Form note
 

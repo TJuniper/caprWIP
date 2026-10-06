@@ -1,0 +1,2185 @@
+                          OLD ENGLISH DIALECTS
+
+                          Thomas E. Toon
+
+
+
+
+             6.1          Introduction
+             Dialectology is the study of varieties of speech and variation in
+             language. Dialectologists work to make correlations between linguistic
+             features (phonological, morphological, syntactic and lexical) and such
+             extralinguistic facts as place of origin, race, sex, social status. In doing
+             so, we identify individual varieties - idiolects - and relate them to
+             dialects, the more general patterns of speech communities. When
+             undertaking the study of a contemporary speech community, the
+             dialectologist has living informants and modern devices for collecting
+             data. Studies of historical varieties depend on less direct methods. The
+             main sources of information are written records and conjectures about
+             older varieties based on comparisons of surviving dialects. Linguists
+             interested in earlier varieties of English are fortunate that the English
+             language has been written for over a thousand years. Those records
+             attest several clearly distinct historical varieties, compare the Old
+             English of Beowulf with Chaucer's Middle English or Shakespeare's
+             Early Modern English. More subtle distinctions within periods, as
+             between Chaucer and the Pearl/Gawain, are also evident. This chapter
+             will be an investigation of the modern methods used to extract as much
+             information as possible from ancient written records.
+                Given its name and rather narrow focus, Old English dialectology might
+             at first seem a subject very remote from day-to-day human affairs.
+             Speakers of a language are, however, by their very nature un-
+             selfconscious 'students' of speech varieties. Early in life we begin that
+             'training' by identifying and learning to imitate the wide range of
+             speech habits and styles we encounter in our nurturing environments.
+             As we progress through the stages of babble, baby-talk, the verbal games
+
+
+                          409
+
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             and talk of childhood, the language of formal classroom, we are in fact
+             learning different language systems. In so doing we become sensitive to
+             the fact that the appropriateness of the language we use depends on a
+             number of factors. Although that learning process seems to require no
+             special effort, the knowledge we internalise in our early years is quite
+             complex. For example, we 'automatically' adjust our language in terms
+             of whom we are addressing (a parent, a stranger, a friend), where the
+             interaction is talking place (at home, in a schoolroom, a playground),
+             the genre (a conversation, a narrative, an argument, a report), the
+             purpose (persuasion, play, friendship building). In addition, each of
+             these language settings and uses has its own cadences and levels of
+             formality expressed in lexical, phonological and syntactic choices.
+             Linguistic maturity involves expansion of the range of such styles and
+             registers. M. A. K. Halliday summarised this whole process very well
+             when he observed that a child learns his/her language not because of
+             what it is, but because of what it does. While we might think of most of
+             these adjustments as embellishment to our language abilities, they are in
+             fact central to our ability to communicate effectively.
+                While we intuitively control and manipulate our speech in those
+             ways, there are aspects of speech performance over which we apparently
+             have a great deal less control. The speech patterns we acquire early (of
+             course) include markers of regional and social dialect. That is, our
+             speech contains pronunciations, word choices, styles that convey
+             information about our gender, our nationality, our region, our ethnicity,
+             our socio-economic class. We are able to change these patterns only
+             with considerable overt effort, or under strong external pressure
+             (influence from a new social group, a major geographical or social
+             move). Even under the most extreme of conditions, we are rarely able
+             to alter these speech habits completely. An American who has lived
+             a number of years in England may sound British to his American family
+             but would be readily detected as a 'colonial' by most Britains.
+                For these reasons, linguists consider that all speakers of English have
+             a dialect, or better, control a whole range of dialects which include many
+             registers and styles. The linguistic use of the term 'dialect' is different
+             from the everyday usage in which 'dialect' often means some non-
+             standard or otherwise stigmatised variety. Dialectology then is the
+             speciality devoted to studying the nature, range and uses of variation in
+             speech. A major aspect of the work is to provide descriptions of
+             regional, social and stylistic varieties. In the process of description,
+             dialectologists hope to understand further how and why distinctive
+
+
+                         410
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             speech communities develop and then why speech differences are
+             maintained or lost. Clearly differences can arise when groups begin to
+             feel the effects of geographical, political, cultural, social or ethnic
+             isolation. North American and antipodean varieties of English have
+             diverged significantly because of geographical distance from their
+             insular sources; while the Scots, the English, the Canadians and United
+             States Americans have developed recognisable national standards of
+             speech which reflect their national identities. Indian and Singapore
+             varieties of English reflect cultural isolation, just as many so-called non-
+             standard varieties reflect social isolation from 'mainstream' society;
+             these are highly complex language situations in which English is the
+             mother tongue of relatively few but an important second language for
+             many.
+                The formal study of English dialects began well over a hundred years
+             ago and was an integral part of the development of modern linguistics.
+             Because early philologists were able to identify patterns of regional
+             continuity over centuries, the study of English dialects was closely allied
+             with the study of the history of the language. Historical documents were
+             localised and then analysed as sources of data for reconstructing earlier
+             pronunciations (Ellis, Sweet, Wright). At about the same time scholars
+             began systematically to conduct extensive regional surveys of local
+             speech habits. As a result the regional dialects of modern Britain are
+             extensively documented.
+                Traditionally such studies focus on the geographical distribution
+             (often displayed in maps) of individual features of pronunciation, word
+             ending, word choice or sentence structure. In recent decades, studies
+             have been based on random samples selected in order to give
+             representative geographical coverage of the areas being considered.
+             Using data collected in this fashion, dialectologists have mapped the
+             salient regional features of British and American speech communities.
+             Figure 6.1 demonstrates regional distribution of speakers who pro-
+             nounce [r] in such words as thirdfloor.The map displays by means of
+             shading the fact that most English varieties of English are 'r-less' (non-
+             rhotic), while a strong post-alveolar approximant / r / can be heard in
+             the north and the southwest, where a retroflexed variety can also be
+             observed. Such maps are statements of probability; the shaded areas are
+             not to be taken as exclusively populated by [r] pronouncers, but rather
+             areas in which there is better than average chance that the feature will be
+             found. In fact we are not even dealing with general patterns of
+             pronunciation. Even in the shaded area, [r]-ful (rhotic) speakers are
+
+
+                         411
+
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+
+
+                          Figure 6.1 Map of areas of rhotacism
+
+
+
+
+                          412
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             regularly non-mobile, older, and rural - also individuals whose speech
+             tends to be less influenced by received pronunciation. The boundary of
+             such a dialect feature is known as an isogloss. If a number of such
+             features are displayed on a composite map (as in the case of the lines in
+             the same modern map), we discover that many isoglosses converge and
+             divide the country into areas where speakers share similar habits. Thus
+             bundles of isoglosses help dialectologists identify dialect boundaries
+             and state the regional distribution of dialect criteria. This map illustrates
+             the standard division of English dialects into northern, north-midland,
+             midland, southwestern and southeastern varieties, the basic dialect
+             distribution which Old English data also attest. Whenever possible,
+             dialectologists try to trace the history of the spread or decline of the
+             selected features. They also hope to explain those changes by relating
+             them to contact among speakers of different varieties, to the mobility of
+             significant population groups or to changes in social, political and
+             economic influences. Thus the description of some contemporary
+             varieties of London English might begin historically and describe
+             modern features in terms of what is known about the speech habits of
+             those who migrated in large numbers into the cities during the
+             industrial revolution.
+                Similarly, the first dialectologists who studied American English
+             were able to explain the North American patterns of [^-pronunciation
+             (or deletion) in terms of well attested migration patterns from [r]-
+             pronouncing/deleting regions of Britain. Often one variety, as in the
+             case of the London Cockney dialect, becomes associated with a single
+             social group and further becomes the means of defining group
+             membership - establishing and maintaining group solidarity. Labov
+             and his associates initiated the work of studying contemporary language
+             variation in terms of how it relates to processes of ongoing language
+             change. They not only studied [r]-pronunciation in terms of historical
+             development, but they collected data on how a variety of New Yorkers
+             from a range of social backgrounds spoke in number of different speech
+             contexts. The following graph (Figure 6.2) demonstrates that such a
+             linguistic habit is not simply absent or present. Deletion of [r] is a matter
+             of degree and a function of social class, context and use. Each speaker
+             has a range of pronunciations; he or she can automatically, often even
+             unconsciously, make subtle changes which communicate status to
+             hearers.
+
+
+
+
+                          413
+
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                           Thomas E. Toon
+
+                    80 r
+
+
+
+
+                    60
+
+
+
+
+                    40
+
+
+
+
+                    20
+
+
+
+
+                                 CS                         FS                        RPS                      WLS
+                                                                     Style
+                           Figure 6.2 New York City (r) by class and style (after Labov 1966)
+
+              6.2          Old English dialects: origins and sources
+
+              The modern study of dialects requires careful analysis of copious data.
+              Its methods have evolved to include extensive surveys, carefully
+              designed field interviews, tape recordings collected from a number of
+              controlled settings. Because of the nature of the sources and our
+              distance from them, the study of Old English dialects must proceed
+              along very different lines, and with different expectations about results.
+              All of this will become much clearer below, but some initial contrast of
+              methods and possible results will be useful. To begin with, the data
+              sources for Old English are themselves written texts, rather than
+              recordings or reports of speech. That is, the Old English texts were
+              written by people whose intention was to conduct their day-to-day
+              affairs; they were not written by trained linguists whose intention
+              would be to record nuances of linguistic forms (see chapter 1,
+              pp. 19-24). While students of the Old English period know quite a lot in
+              general about manuscript production in early England, the knowledge
+              about specific texts is very sparse, especially for the earliest documents.
+              We might know the general area in which a text was produced, but we
+              can only make educated guesses about most details. We can assign a
+              rough geographical region and know the likeliest sites of production
+              within that region, and we can propose the quarter or half century
+
+
+                           414
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             within which the text was produced. But we do not know such specific
+             information as who wrote the text or whose language it reflects. Nor do
+             we know about the scribe's origins, training or social aspirations. What
+             we see through the mists of a thousand years will seem only the bare
+             outline when compared with descriptions of modern dialect patterns.
+             Even when Old English patterns are quite distinct, we still have data for
+             only one limited set of styles and registers. The scribes who wrote the
+             texts are not to be taken as representative of the whole population,
+             about whose general levels of literacy we can only speculate. Oc-
+             casionally the data and our knowledge about them permit attempts to
+             produce sketches of greater detail. In these cases the efforts of historical
+             dialectologists can be informed by recent advances in the methods of
+             contemporary socio-linguistics, but only when tempered with a firm
+             appreciation of our limitations.
+                Without disregarding diversity and pluralism, our view of modern
+             England is determined by such facts as a strong national self-image, easy
+             communication, a stable central government, a uniform educational
+             policy and a received pronunciation of its dominant language. Anglo-
+             Saxon England on the other hand was sparsely populated and travel was
+             very difficult. The Germanic peoples from whom our language stems
+             were comparative newcomers who brought social and political tra-
+             ditions by which they viewed themselves in terms of familial or tribal
+             (that is non-national) associations. Although we might tend to think of
+             the migration as a single historical event, archaeological data and even
+             contemporary accounts attest more long range and piecemeal patterns
+             of immigration.
+                By AD 600, the larger more powerful tribes had consolidated
+             themselves into coherent political entities, called 'kingdoms' in a
+             fashion that overdignifies the reality. Most histories of the period refer
+             to the Anglo-Saxon Heptarchy, whose members are most commonly
+             named as Northumbria, Mercia, East Anglia, Wessex, Essex, Sussex and
+             Kent. In fact, our knowledge of Northumbria after Bede is too scant for
+             a discussion of the nature of Northumbrian ' kingship'. East Anglia,
+             Essex, Sussex and Kent never really achieved political autonomy. The
+             generic term Mercia subsumes too many rival sub-kingdoms to be a
+             useful descriptive term. Those we call 'kings' were locally powerful
+             warlords, who managed temporarily to secure a tenuous influence over
+             their rivals and eventual usurpers. Few died of old age; fewer still passed
+             their title on to an immediate heir. According to Bede, an overlord was
+             occasionally able to gain hegemony over neighbouring kingdoms. Even
+
+
+
+
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                         Thomas E. Toon
+
+
+             as Bede was writing his history, Northumbria enjoyed the benefits
+             which come from a succession of strong kings. Bede's history of the
+             church also gives occasional glimpses into social and cultural conditions,
+             such as evidence that speech habits (among other criteria) were socially
+             diagnostic among the Anglo-Saxons, just as they are today:
+                          ...those who watched him closely realized by his appearance, his
+                          bearing, and his speech that he was not of common stock as he said,
+                          but of noble family.                     (Colgrave and Mynors, 1969:403)
+              It is clear from Bede's work that Germanic tribal society, with a heroic
+              ethic as its base, survived the transplantation to England. For instance,
+              the conversion of the English proceeded tribally and had to begin with
+              the conversion of overlords whose retainers followed his example.
+              Bede's career is of immediate importance for students of the history of
+              English for a number of reasons. His work carefully recorded Old
+              English names for Roman and Celtic places which give clues to early
+              pronunciations. Because of his position as the foremost Latin scholar of
+              the time, his pioneer efforts to translate major texts into English gave
+              vernacular literacy an important credibility. He urged the clergy to
+              teach the rudiments of Christian doctrine in English and spent his
+              waning energies in the act of dictating from his deathbed a translation
+              of St John's Gospel. Bede's Death Song is also among the earliest
+              recorded examples of Old English poetry.
+                 Three kingdoms, each with successively greater influence, were able
+              to extend their domination beyond their native realms: the North-
+              umbrians (ca AD 625-75), the Mercians (ca AD 650-825), and the
+              West Saxons (ca 800-1050). The Kentish were influential throughout
+              the period by virtue of the importance of the See at Canterbury. The
+              following table is an oversimplification (corrected below) but usefully
+              summarises the major dialect features and their general association with
+              these major political divisions of Anglo-Saxon England.
+
+                                               Wessex         Northumbria            Mercia        Kent
+                          Gmc ae: > e:                         +
+
+                          Pal. diph.            +             limited
+                          as>a/rC               -              +
+                          smoothing             -              +
+                          a>o/nasals            -              +
+                          velar umlaut          limited
+
+                                                —              —
+                          y : / y > e:/e
+
+
+                          416
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             That is, West Saxon was the most clearly distinct variety, as might be
+             expected because of geographical factors which isolated it even from the
+             Norse invaders. Northumbrian and Mercian shared two major features,
+             and formed a non-southern (midlands and northern) unit. Kentish (in
+             the southeast) differed dramatically from geographically remote West
+             Saxon and Northumbrian, but shared some features with Mercian.
+             Mercian, the surviving midlands variety, had elements in common with
+             its neighbours to the north and to the southeast, but remained distinct
+             from its nearby southwestern rivals.
+                Of particular interest, is the fact that hegemony in each case
+             (Northumbria, Mercia, Wessex) occasioned a flowering of learning. The
+             Northumbrian kings fostered the establishment of the great monasteries
+             of Wearmouth and Jarrow — which ultimately produced Bede and
+             Alcuin, the famous school at York and the finest library in Europe. The
+             magnificent books which survive from this period constitute substantial
+             testimony to the importance of literacy and learning. Such productions
+             would not have been possible without the patronage of the local kings.
+             King Ceolwulf, we know, paid personal attention to the production of
+             Bede's Historia ecclesiastica; he read and criticised a draft of it. We ought
+             to be less than surprised that Bede, in the most influential book of the
+             time, pays ample tribute to the power of the Northumbrian kings. His
+             testimony here is peculiarly self-contradictory. In one passage he calls
+             the Northumbrian kings the rulers of all England, while in another
+             place he acknowledges the southern supremacy of the Mercians. King
+             Ceolwulf and Bede knew the power of the written word. They would
+             probably not have been surprised to discover that modern histories
+             have perpetuated an account that contemporary political facts did not
+             fully justify; scholars until recently accepted too uncritically what is
+             clearly and naturally a northern perspective on the part of Nor-
+             thumbria's historian. The Anglo-Saxon kings who read Bede no doubt
+             learned an important political lesson. An educated clergy can be more
+             than a mere luxurious adornment to a dignified court.
+                The Mercian hegemony bridges the gap between Northumbria's first
+             attempts at political unification of what is now England and the West
+             Saxon accomplishment of that fact. Clearly the Mercian period was one
+             of continuing consolidation of power; it was also the period of the first
+             extensive texts written in English. Unfortunately, it failed to produce
+             either its own local historian of Bede's stature, or an independent
+             chronicle tradition such as the one which survives for Wessex (and
+             makes the reconstruction of West Saxon history so much easier). But the
+             texts which do survive can be pieced together to form a coherent
+
+                         417
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+              narrative of political consolidation, and the role of vernacular literacy in
+              that process. Under the Mercian kings diplomatic uses of literacy
+              flourished, and charters became an integral means by which the Mercian
+              overlords established, maintained and recorded permanently the facts of
+              hegemony. In these charters, the Mercian kings styled themselves kings
+              of Britain and collected the attestations of major clergy and regional
+              subkings who in attesting confirmed the actions and status of their
+              overlords. These same charters give further support to Bede's ob-
+              servation (AD 731):
+
+                          All these kingdoms and the other southern kingdoms which reach
+                          right up to the Humber, together with their various kings, are subject
+                          to iE]?elbald, king of Mercia.
+                                                                                  (Colgrave and Mynors, 1969:559)
+
+                           achievements were consolidated and refined by his successor
+              Offa, who even managed to anoint his son and assure his succession.
+              Offa became the strongest king that Anglo-Saxon England had
+              produced to date. His reign saw a centralised production of a silver
+              currency of unequalled integrity, often finding its way to the continent
+              via a newly brisk foreign trade. He called himself Rex Ang/orum, and
+              was a force in international politics. When he found the archbishop of
+              Canterbury troublesome, he persuaded the Pope to establish a third
+              archiepiscopal see in his native Lichfield. The charters attest the facts
+              that he travelled widely throughout his kingdom, successfully levying
+              taxes and granting lands in all parts of southern England. The same
+              charters contain distinctly Mercian forms for the letters /, g, and d.
+              Those orthographic innovations are strong evidence that Offa had
+              official scribes of his own probably trained in a royally sponsored
+              scriptorium. He commissioned a protective earthwork, a dike that
+              stretched the whole length of the Welsh border. He was so strong that
+              he was even able to establish his younger brother as the king of Kent.
+              From relic vocabulary in later, mostly Late West Saxon poetry, we
+              know that vernacular literature was developed to a high art under the
+              Mercian kings. Even the more substantial literate achievements of King
+              Alfred's reign drew on the strong base of Mercian scholarship; his
+              intellectual advisers were predominantly Mercian, and Alfred ac-
+              knowledged his debt to the (good) laws of Offa in his own legislation.
+                 The Tribal Hidage, a document (ca AD 700) which dates from the
+              Mercian hegemony, is an important resource for understanding the
+              political and social structure of early Anglo-Saxon England. It contains
+
+
+                          418
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+              c€y/                                                J                                                    Archdioceses
+                                                                                                               •       Diocese
+                                                                                                                   ~ Major roads
+                                                                                                                   — Navigable rivers
+
+                                                                                     i^Lindisfarne
+
+                              )
+                                               ^ ~ ^ =                     'HexhanrA
+
+                              N
+                                0                             r                                 ®York          \
+
+                                                         z'                     \               \     ' LINDES
+                                                         V.                          \              Y FARONAVI
+                                                                                                                   \
+                                       ^ " ^             A                                 Lindsey*        ^
+
+
+
+
+                                                                                                  Y'                       • - » \ EAST'j
+                                           C                 '.       •\"' 1         ^V/Leicester\ Q                           I J " xxx      J
+                                                                                                                   i       ,A y    Dunwichv
+                                      _/                  .Worcester^                     j y / \g.                \ ^                        7
+                                                                                                                           E
+                                                        Hereford               ,/-       */.'              j)c         1   AST
+                                                                                                                       • SAXONS
+                                                                                                                                         >
+                                                                                                                                        S ^
+                                                                                                                       1   XXXI   <*1
+                                                                                                                       •            >
+                                                                                                                   ^London         >
+                              ZrT*
+                                                              f            /                        ^.r^       - ^ ..:         (JanterburW
+                                        ,—          "                      X!
+                                                                  LONOONJi^^            .--*    "KENTXXXII/^
+                                       •L                -    ^ -    . /   * • Winchester               v j
+                                      /                  ^ ^
+                                                         rf - ^ • f               SOUTH SAXONS XXXIII ^ y ^
+
+
+
+                              J       WEST SAXONS XXXIV
+                                                k/
+                                                        Shelborne /
+
+                                                           N/—--)
+                                                                           ^ o a ' o A,—-—>—^/—
+                                                                    • ^ . c t - V - , <~^cli._,
+                                                                             ^vy
+
+
+
+                                                                                                           0                      100
+                                                                                                               Kilometres
+
+
+
+                          Figure 6.3 Map of early Anglo-Saxon England
+
+
+
+
+                          419
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             a list of the names of some thirty tribal groups (see Figure 6.3 in which
+             the tribes are listed by Roman numeral) of various sizes, whose size is
+             indicated in hides. As the term hide originally designated a nuclear family
+             or the land needed to support a nuclear family (fixed in the later
+             medieval period at 120 acres), it is clear that the Hidage is some sort of
+             census list. Since it includes none of the people north of the Humber and
+             begins with the Mercians, it was no doubt made for a Mercian king.' No
+             one in the seventh or eighth century can be imagined compiling such a
+             document out of mere curiosity. It only becomes intelligible when it is
+             regarded as an attempt to guide a king's ministers in the exaction of his
+             dues from subject provinces' (Stenton 1971:297). It is notable that the
+             census is organised not according to strict geographical divisions but
+             tribally; territory is viewed in terms of inhabitants rather than in terms
+             of boundaries. Importantly, three major classifications of peoples
+             emerge: the very large - the Mercians (30,000), the East Anglian
+             (30,000), the Kentish (15,000), the West Saxons (100,000); the medium
+             sized - the Hwicca (7,000), the Lindesfarona (7,000), the East Saxons
+             (7,000), the South Saxons (7,000), the Nox gaga (5,000), the Chilterns
+             (4,000), the Hendrica (3,500), the Oht gaga (2,000); the small - about 20
+             units with hidages from 300 to 1,200, in multiples of 300. The largest are
+             easily identifiable as the major groups who vied for control of southern
+             England, groups whose kings were powerful enough to grant land and
+             privilege in their own right. The middle groups were still substantial,
+             but dependent. Their leaders might call themselves kings, but are
+             known to us from documents in which they are designated ministri to or
+             subreguli of their (in this case) Mercian overlords. The leaders of the
+             smallest tribes constitute the comites, the principes, the duces and the
+             ealdormenn of the major documents.
+                From the hidage, an administrative hierarchy is clear. The Mercians
+             exerted control directly over the intermediate and smaller units. The
+             Mercian hegemony took advantage of the basically tribal fabric of
+             Anglo-Saxon society. Since many small groups and a number of
+             medium sized ones clearly played an important role in an overlord's
+             political and economic base, we should be cautioned against over-
+             dependence on a view of political organisation which emphasised the
+             so-called heptarchy. The Hwicca and the Lindesfarona, for example, are
+             equal in size to the East Saxons and the South Saxons, but they are
+             ignored in the traditional view of the kingdoms. Further, information
+             from the Tribal Hidage, emphasising inhabitants rather than region,
+             argues that a purely geographical dialectology oversimplifies the facts.
+
+
+                          420
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             Tribal diversity should also lead us to expect diversity of speech among
+             the inhabitants of Anglo-Saxon England. Even though only a few of the
+             tribes left written records, we should not assume that Old English
+             dialects were limited to Northumbrian, Mercian, West Saxon and
+             Kentish. Since groups of varying size were in constant contact (not to
+             say, combat) with each other, we should assume a mixture of linguistic
+             influence and expect variation in speech rather than the sort of
+             uniformity that comes from well established social and educational
+             traditions.
+                 Chief among the tribes of the hidage are the West Saxons at 100,000
+             hides — a number approximately equal to that assigned to the rest of
+             southern England. Although the early West Saxon kings did not hold
+             the Mercians in check, they were always a force to be reckoned with.
+             Mercia certainly never dominated its southern neighbour in the way it
+             controlled the east and southeast. The telling factor in the resolution of
+             Anglo-Saxon hegemony was not in the end internal competition but the
+             effects of long years of Viking raids. The northern and eastern kingdoms
+             were decimated. The Anglo-Saxons were only able to muster a
+             successful defence under Alfred the Great, and geography played a
+             significant role in those events. Alfred and his successors built on the
+             Mercian traditions, establishing a royal line that came close to modern
+             standards for kingship. All manner of civil, cultural, political and liberal
+             arts flourished as a result of the perfection of the burghal system of
+             individually fortified and defended towns. The result was a tight
+             network of locally governed burghs whose ealdormen were directly
+              responsible to the king. For literate products, this stability meant a
+             dramatic increase in the number of texts, prolific and identifiable scribal
+             centres, and a steady progression towards a standard written variety.
+                 The early history of Kent is more closely tied with the history of the
+              English church than with the politics of its own kings. The success of
+              Pope Gregory's hope to convert all of the English was ultimately
+              determined when ^Ethelbert of Kent received the faith. The royal town
+              of Canterbury became Augustine's base and eventually the archi-
+              episcopal see. Under a series of strong archbishops, Canterbury became
+             a religious and cultural centre of Europe. As Christianity spread
+              through England, literacy spread with it, along with a very successful
+              Roman model for administration. England was unified under one faith
+              (and two archbishops - Canterbury and York), long before any single
+              tribal overlord could claim to be the source of such unity. In the decades
+              before Bede, Archbishop Theodore of Kent established the practice of
+
+
+                          421
+
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             regular councils of the bishops and set diocesan structure in place. As we
+             can tell from the Tribal Hidage, the Kentish kings simply did not have
+             the resources to extend their influence beyond their borders. It became
+             the special talent of the Northumbrian and Mercian kings to make the
+             event of their conversions an occasion to join the forces of church and
+             state. Certainly no king could rule,' though the grace of God', without
+             the support of the church. In addition the church offered to the aspiring
+             overlord the stability which comes from written histories, laws and
+             charters. As the first primate of the English church, the archbishop of
+             Canterbury was an necessary ally, even at those times when the Kentish
+             kings were easy prey to their stronger Mercian and then West Saxon
+             overlords.
+                For the first centuries of the Anglo-Saxon migration and settlement,
+             we have little direct information about the language of Germanic
+             invaders. Our first clues come from names found in seventh and eighth
+             century Latin manuscripts, especially of Bede's Historia ecclesiastica
+             (Bede), with their English personal and place names. These manuscripts
+             also contain snatches of vernacular poetry - Caedmon's Hymn (Cad)
+             and Bede's Death Song (BDS). The earliest of the Bede manuscripts are
+             all clearly of northern origin; the 6,000 or so names and fourteen lines
+             of poetry found in them are thus thought to represent Northumbrian
+             varieties of Old English. That assumption is further supported by
+             linguistic features shared with the runic inscriptions on the Ruthwell
+             Cross (RuthCr). Several other minor witnesses join this small but rather
+             consistent corpus of data. A fourteen line poem - the Leiden Riddle
+             (LRid), the fifty word inscription on the Franks Casket (RuneAu^pn),
+             and nineteen Old English words in a Vatican manuscript (PsScholia) are
+             all harder to date or localise precisely, but their linguistic similarities
+             point clearly to an early Northumbrian origin. A series of late tenth-
+             century glosses to older manuscripts abundantly attest northern varieties
+             of Old English. These manuscripts additions are unusual among Anglo-
+             Saxon texts because we have direct internal evidence about the date and
+             place of their production. We even know the names of three of these
+             scribes. A scribe called Owun copied a continuous interlinear gloss to
+             much of the Rushworth Gospels (Ru2). His colleague, Farmon
+             (probably not a northerner) glossed the Gospel of Matthew and small
+             parts of Mark and John (Ru\). Aldred, a priest from Chester-le-Street,
+             added the gloss between the lines of the Lindisfarne Gospels (hi) and
+             probably produced the glosses to the Durham Ritual (DurRit).
+
+
+
+                        •422
+
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                         Old English dialects
+
+
+             Unfortunately, we have a textual gap for the ninth century, which
+             witnessed continual Viking raids in the North of England.
+                The nature of non-northern varieties of Old English is attested by a
+             rather wider range of sources. Although there are no northern
+             counterparts, a substantial number of official documents (loosely termed
+             ' charters' (Ch)) survive which give insight into the political activities of
+             midlands and southern kings and subkings over several centuries. We
+             also have data of another sort because the scribes who wrote and used
+             the Latin manuscripts of the day often found their texts troublesome in
+             some way. When scribes encountered difficulties they regularly added a
+             note (usually in Latin, occasionally in Old English) between the lines or
+             in the margins. Apparently these glosses were useful since they were
+             often collected from a number of sources and then compiled into
+             extensive Latin—Latin glossaries. Many glossed manuscripts survive, as
+             do a handful of glossaries which also contain Old English inter-
+             pretations — notably the Epinal (EpGt), Erfurt (Er/Gl) and Corpus
+             glossaries {CorpGt). Unfortunately, of these very important early texts,
+             only CorpGl is unambiguously an English product. EpGl was written
+             either in England or in an English centre on the continent; ErfGl was
+             clearly written by a German who knew little or no Old English. The
+             touchstone for the study of early midlands varieties of Old English is
+             found in the Vespasian Psalter (VPs). Although the book was produced
+             at Canterbury in the eighth century, the language of the gloss is
+             strikingly different from the Northumbrian texts, very regular in its
+             features, and closely related to a series of Middle English texts which
+             can be placed with certainty in the West Midlands. In a fuller discussion
+             below, we will explore the linguistic relations between the VPs, the
+             charters, the glossaries and a number of other related texts, now
+             generally regarded as representing Mercian or Mercian influenced
+             varieties of Old English. Those texts include some ninth century glosses
+             to the Blickling Psalter (BIGl), the Lorica Prayer (LorPr) and glosses
+             (LorG/) in the ninth century Book of Cerne, tenth century glosses to
+             London, British Library, Royal 2. A. XX (RqyG/), and Farmon's tenth
+             century additions to the Rushworth Gospels (Ral). As is the case for
+             Northumbria, no East Midland texts apparently survive the period of
+             the Viking invasions of England.
+               Since the texts of the period of the Mercian hegemony play an
+             important role in the discussion below, some additional comment is
+             warranted. The foregoing summary of facts about these texts fails to
+
+
+
+                         423
+
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             account for them in one critically important way: they are often art
+             historical monuments of exquisite beauty. Although they were written
+             at a time when book production was costly indeed, we regularly find the
+             best of materials, wide margins, spacious (and uneconomical) hands,
+             and illuminated capitals of subtle and intricate design. The presence of
+             English glosses in these texts suggests that the addition of the vernacular
+             was considered a further adornment to these deluxe productions -
+             powerful testimony to the privileged position of the written (English)
+             word in Anglo-Saxon culture. Such books could only be produced at
+             times of plenty and relative social and political stability. They were most
+             likely produced at centres enjoying royal patronage, where political
+             influences would also be most strongly felt. These books may even have
+             been produced at royal command or as presentation copies to royal
+             persons. After all, a psalter is a quintessentially royal book; the songs of
+             a king make a fitting prayer book for a king. In the VPs painting of
+             King David playing his conspicuously Anglo-Saxon harp, we may be
+             invited to see the type of a perfect Anglo-Saxon king. A late ninth-
+             century charter specifies the way in which royal patrons are to be
+             remembered:
+                         At every matins and at every vespers and at every tierce, the De
+                         profundis as long as they live, and after their death Laudate Dominum;
+                         and every Saturday in St Peter's church thirty psalms and a Mass for
+                         them...
+                                                                                              (Whitelock, 1955:598)
+             A deluxe psalter would be an appropriate production for such a
+             community as received this charge. Because of its references to Mercian
+             supremacy in the south, (as well as its admonition on Christian
+             kingship) a copy oiBede would be an especially fitting gift for a Mercian
+             king. The Mercian Bede, copied in the time of ^EQelbald and Offa, unlike
+             the other early Bede manuscripts, is a highly decorated volume. We
+             know independently that King Offa possessed his own copy of Bede's
+             Historia, and might wonder if the Mercian Bede was made for him. At
+             any rate the nature and style of these texts reinforces our sense of the
+             inter-relatedness of literacy and the coalition of church and state.
+                Figure 6.4 summarises the historical, political, social and intellectual
+             context within which the texts of the Mercian hegemony appeared. The
+             construction of the Tribal Hidage was among the first Mercian acts of
+             literacy. The text formalised the economic base for the Mercian
+             hegemony. The revenue derived from the Hidage made possible the
+             construction of Offa's dyke; the ability to assess taxes no doubt
+             encouraged the production of coins and the regulation of their integrity.
+
+                          424
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                         Old English dialects
+
+
+             650
+                                                                                         X Charters
+                             Wulfhere                                                    ® Charters with Mercian
+             660
+                                                                                           letter forms
+
+             670
+
+             680
+                                 /Eftelred
+             690
+
+             700                                                                                  Epinal Glossary
+
+                                   Ceolred
+             710
+
+             720
+                                      yEoelbald
+             730                                                                    X
+
+                                                                                    X
+             740
+                                                                                    X             Erfurt Glossary
+             750
+                                                                                                  Mercian Copy
+             760                                                                                  of Bede
+
+             770
+                                        Offa              a
+
+             780
+                                                                        43
+             790
+                                                                                                  Corpus Glossary
+             800
+                                             Cenwulf
+             810
+
+             820
+
+             830
+                                                                                                  Vespasian
+                                               Wiglaf                                             Psalter Gloss
+             840                                                                                  Book of Cerne
+
+             850
+                         Figure 6.4 The products of literacy in their political context
+
+
+             The resultant political stability enabled the solidification of the powers
+             of the Mercian kings, and charters were drawn up to define and confirm
+             royal prerogative. Royal support for the major religious houses made
+             possible the extensive production of fine manuscripts. The expansion of
+
+                          42 5
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                         Thomas E. Toon
+
+
+             libraries reinforced the Mercian renaissance of Latin learning. As
+             literacy flourished in the Roman mode, attention was directed to the
+             writing of genealogies and the codification of laws. With the es-
+             tablishment of a royal scriptorium, peculiarly Mercian orthographic
+             practices developed and the production of charters mushroomed. (Note
+             the dramatic hiatus in charter production during the 820s, the date of
+             a quarrel between the Mercian king and the archbishop of Canterbury.)
+             From the same period in which all charters exhibit Mercian letter forms,
+             we find the VP gloss, replete with the same letter forms. The writing of
+             the most thoroughly Mercian text coincides with the apex of Mercian
+             influence on literacy. The consolidation of Anglo-Saxon politics and
+             culture was the development of English politics and culture as a result of
+             the acts of English kings writing a language that deserves to be called the
+             English language.
+                 The best attested of all Old English varieties is the standard literary
+             language associated with the West Saxon hegemony of the late tenth
+             century and onwards until the Norman conquest. That is the language
+             of the majority of Anglo-Saxon texts, the variety usually taught in
+             introductory Old English courses, and the subject of chapters three and
+             four of this volume. There are several witnesses of Early West Saxon
+             varieties which are of particular interest in providing a sense of the
+             literary dialect during its formative period. A few charters survive from
+             the end of the eighth century, but we have a comparatively large number
+             of texts which were products of the intellectual renaissance fostered by
+             King Alfred the Great. Two versions of the Alfredian translation of
+             Pope Gregory's Cura pastoralis (CP) can be dated to the last decade of
+             the ninth century; a translation of Orosius (Or) belongs to the early
+             tenth. In addition we have entries to the Anglo-Saxon Chronicle that
+             range from the end of the ninth to the middle of the tenth centuries. Like
+             the late tenth-century productions of Northumbria, each of these texts
+             offers a large body of data. Several smaller texts, which are comparable
+             in length to all of what survives during earlier periods, comprise the
+             minor witnesses for this variety: late ninth century - Royal genealogies
+             (Gn), martyrology fragments (Mart); early tenth century — medicinal
+             recipes (Med).
+                 Several early texts can be related to the southeast (mostly to the
+             subkingdom of Kent), but none of these texts exhibits the same sort of
+             regularity as found for the Mercian VPs, the Northumbrian Li (as well
+             as DurKit, and R#2) or especially the later texts from Wessex. We have
+             a few charters from the eighth and ninth centuries, but each of these
+             contains records of affairs with either Mercian or West Saxon overlords.
+
+                          426
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             Two poetic texts, the Kentish Psalm (KtPs) and the Kentish Hymn
+             (KtHy) are found in London, British Library, Cotton Vespasian D. vi,
+             along with some glosses to Proverbs (KtGI). Because the language of
+             these texts shares features with Middle English texts which are very
+             clearly Kentish, we are able to reconstruct more about southeastern
+             varieties of Old English than these sparse sources might otherwise
+             allow. In addition, the Codex Aureus (CA) contains an inscription
+             recording that' aldormon' Alfred gave it to Christ Church, Canterbury;
+             the text can be dated to ca 850 and localised in Surrey. Even if we had
+             several extensive texts which we could localise at Canterbury and date
+             with certainty, we would still have to be cautious about accepting them
+             uncritically as 'Kentish'. The religious community at Canterbury was
+             representative of all England. In fact, during the Mercian hegemony
+             and after, the archbishop of Canterbury was often a man of Mercian
+             origins. We need to remember that kings appointed bishops and were
+             the major source of support for the establishment and maintenance of
+             religious communities. Further contemporary accounts tell that mem-
+             bers of religious orders were rather more mobile than we might expect.
+             Records of travel usually include references to large numbers of books
+             that moved with the travellers as loans from monastery to monastery.
+                The following table summarises the major sources that survive,
+             arranged chronologically and by general geographical area. Minor texts
+             are indicated by parentheses; key texts are in bold face. Probable dates
+             are for the language and are not necessarily the manuscripts, which are
+             often later.
+
+
+              Date     North                        Midlands                    Southwest             Southeast
+              675      {KuneAu^pn)
+              700      {PsScholia, KuthCr)          {Ch), EpGl
+              725      Bede, {Cad, BDS)             {Ch)
+              750      {LRid)                       Bede, {Ch)                                        {Ch)
+              775                                   {Ch, BIGl), ErfGl                                 {Ch)
+              800                                   Corp
+              825                                   VPs, LorPr, LorGl                                 {Ch)
+              850                                                               {Ch)                  Ch, {Med)
+              875                                                               {Ch, Gn, Mart)
+              900                                                               CP, ASC
+              925                                                               Or, ASC
+              950                                   RoyGI                       ASC, (AW)             Ch, KtHy,
+                                                                                                      KtGl, KtPs
+              975      Ru2, Li, DurRit              Rul
+
+
+
+                          427
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+                 Such a display emphasises some of the limits which must be placed on
+              the sorts of pronouncements we are able to make about the nature of
+              early Old English dialects. Firstly, the period is clearly sparsely attested;
+              about a dozen fairly extensive texts spread over nearly three centuries,
+              leaving most of the country unattested most of the time. Only after the
+              middle of the tenth century do we find several varieties represented
+              simultaneously. Secondly, the geographical designations which we
+              invoke must be read in very general terms. When we speak of northern
+              (or Northumbrian) texts, we can not mean a specific area, neither do we
+              speak of a single, homogeneous, or well-defined variety. It is far too
+              easy to assume that when we say something about what northern
+              varieties were like, we are saying something about what southern and
+              southeastern varieties were not. Silence is the best response to the total
+              absence of information about, say, Early East Anglian. Unfortunately
+              our expectations about dialect are too seriously informed by the myth of
+              the 'heptarchy'. While we expect that we should have something to say
+              about Kentish or South Saxon, we have no similar expectation about the
+              tribes that the notion of heptarchy ignores.
+                 As is clear from the table, our statements about English before
+              AD 800 are essentially reconstructions informed by a smattering of
+              information. Even for the best attested periods, the limited number of
+              'informants' does not make it possible to draw convincing isoglosses.
+              By contrast, the Linguistic Atlas of Late Medieval English, which
+              covers the period AD 1450-1550, has several texts within each of the
+              counties of England. (Mclntosh & Samuels, 1986). The mobility of the
+              religious and the lack of precise information for most texts obviate that
+              traditional aspect of dialectology. On the other hand, we can note a clear
+              convergence between the production and survival of texts and political
+              and/or ecclesiastical importance. Since strong kings and strong
+              religious centres yielded the fruits of literacy, we ought to expect that
+              the texts reflect the facts of hegemony and religious influence rather than
+              being merely geographically representative. All in all, the regularities of
+              texts like the VPs and Li are probably well considered to be nascent
+              moves towards standard written varieties, so clearly well-developed in
+              the Late West Saxon texts.
+
+
+
+
+                          428
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+
+             6.3          Orthographic and phonological variation
+             There is one advantage for the historical linguist that comes from the
+             paucity of texts. The writing of English in these early times was not so
+             well established that we should assume conventionalised or normalised
+             spelling practices, such as those which currently all but mask differences
+             in pronunciation among the speakers of standard written English. The
+             scribes were not, of course, trained linguists, but their spelling in the
+             absence of the pressures of a standard would be roughly phonetic
+             'transcriptions' of speech patterns.
+                By 1900, the study of these texts, and the comparison of them to texts
+             from other Germanic languages, had already resulted in significant
+             patterns of consistency (and difference) among the texts. The data are
+             spelling variants from which historical linguists are able to deduce large
+             scale patterns of pronunciation. Hogg has laid out the overall
+             phonological pattern for Late West Saxon in chapter three above, but
+             a quick summary will be convenient. Orthographic consistencies allow
+             us to assume a system of contrastive vowels based on high/mid/low,
+             front/back, rounded/spread, quantitative long/short distinctions. Sim-
+             ilarly, widespread confusion in the spelling of weakly stressed vowels,
+             especially in inflections, suggests the existence of a [a]-like unstressed
+             vowel.
+                        i: (y:)                     u:
+                         i (y)                      u
+                        e: (ce:)         a          o:
+                         e(ce)                      o
+                                £e:                                 a:
+                              ae/a                                 a/o
+             The phonetic and phonemic status of the long and short diphthongs
+             (spelled <ea, io, e o > ) is one of the most controversial subjects in Old
+             English phonology. Clearly six contrasts (depending on the height and
+             length of the first element) were possible: /ae:a, aea, i:o, io, e:o, e o / .
+             Phonetically, Old English may have preserved a height harmony in the
+             second element of the diphthong (as the phonemic values suggest), but
+             wide spread confusion of the second element again suggests [a]: [se: a,
+             aea, i:a, ia, e:a, ea] (note that < e a > is a rather unusual spelling
+             convention for /aea/).
+                All of the early Old English dialects had contrasts which drew (but
+             not completely) from this basic set of phonemes. Differences among
+             texts have to do both with chronology and with regional/political
+
+
+                          429
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             influences. Chronologically, for example, the front round vowels slowly
+             disappeared from most dialects (surviving longest in the west) during
+             the period, with the mid vowels going before the high ones. That means
+             that an early text would tend to show some/all of them; while we would
+             expect the unrounded < i > and < e > , or backed < u > , in a late text.
+             The incidence or absence of other vowels often allows a safe guess about
+             provenance. The West Saxon influenced varieties, for example, were
+             distinct in having the vowels written < ie > , representing a series of
+             developments from several sources. In a southeastern text < y > ,
+              < oe > and < ae > would be rare, since several processes acted on the
+             sounds written by those graphs to produce sounds regularly spelled
+              < e > . An < o > before a nasal consonant <m, n, ng> is a fairly safe
+             indication of Anglian (Northumbrian or Mercian origin or influence).
+                Other features are not so easily diagnostic, since they involve a rather
+             complicated interaction of sources, processes and results. Although it
+             may seem complicated at first, what follows is an over-simplification
+             and over-generalization of a great deal of textual diversity. We will
+             shortly have occasion to make some sense of the sort of heterogeneous
+             mix of forms one encounters in the sources. Only seven processes
+             account for most of the phonological differences between the early
+             texts:
+              (1)     West Germanic */a:/ became prehistoric Old English */ae:/,
+                      which remained /ae:/ (and is known traditionally as ae1) in West
+                      Saxon but was raised to / e : / in all other dialects.
+              (2) (a) West Germanic */a/ regularly developed to /ae/, but remained
+                      / a / in open syllables followed by a back vowel. Since we find
+                      dagas (nom. pi for 'day'), we assume that < a > itself was a
+                      back vowel, / a / .
+                  (b) In Mercian and Kentish influenced texts, we regularly find this
+                      /ae/ raised to / e / , spelled < e > . This latter process is usually
+                      called ' the second fronting', even though it involves a raising
+                      rather than fronting. Mercian texts also exhibit the effects of a
+                      change which is an actual fronting of / a / to / a / or /ae/. Since
+                      the sound so formed always undergoes a further change, it will
+                      be considered below along with other instances of 'velar
+                      umlaut'.
+                  (c) Fronted /ae/ was retracted to / a / in general Anglian texts
+                      before [1 + C] (not geminated [11]), and in Northumbrian also
+                      before [r + C].
+
+
+
+                          43°
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+                 (d) When the consonant closing the syllable was a nasal or nasal + C
+                     cluster, the West Germanic * / a / was written < o > in Anglian
+                     (and Anglian influenced) texts (see pp. 438-9 below for a
+                     fuller discussion).
+             (3)     The front vowels, /i:, i, e:, e, as:, ae/, became diphthongs
+                     (spelled < io > , < eo > , and < ea > - an orthographic con-
+                     vention for /aea/) when they occurred before [x], variously
+                     spelled <c, g, h > , or when they occurred before [1 + C,
+                     r + C].
+             (4)     In the Anglian varieties (including Anglian influenced Early
+                     West Saxon and Kentish texts), the diphthongs so produced
+                     were monophthongised, i.e. underwent what is known as
+                     'smoothing'. (See pp. 440—2 below for a fuller discussion of
+                     this change.)
+             (5)     The short, front vowels [i, e, ae] were diphthongised to [ia, ea,
+                     aea], written <io, eo, e a > , when they were found in closed
+                     syllables before a back vowel, hence the change is known as
+                     velar (or back) umlaut. The change is most general in Anglian
+                     (especially Mercian) varieties, but common in all late texts (see
+                     pp. 440-2 below). West Saxon texts also show velar umlaut
+                     of / e / before labials and liquids and non-low back vowels
+                     ( < heofon > ) , but the change is rare before other consonants or
+                     before a low back vowel (<nefa>). In Northumbrian texts,
+                     /eo/ was commonly written < ea > , whereas in Kentish texts
+                     it was often written < io > .
+             (6)     The unrounding of/y:, y/ usually resulted in < i > , except in the
+                     southeast where < e > was the usual graph. In the southwest
+                     the sound often remained rounded but was apparently backed
+                     as it was written < u > .
+             (7)     West Saxon texts (and to some extent, Anglian and Kentish
+                     texts of the period of West Saxon hegemony) exhibit a further
+                     change. Under the influence of an initial palatal consonant [j, J]
+                      — spelled < g > and < sc > , the mid and low front vowels /e:,
+                     e, ae:, se/ were diphthongised to < i e > and < e a > . This
+                     process, common in Northumbrian texts for /ae/ after < s c > ,
+                     is called palatal diphthongisation.
+
+               The following table summarises the effects of the general tendencies
+             by giving possible representative examples:
+
+
+
+                          43 1
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                            Thomas E. Toon
+
+
+                                  West Saxon          Northumbrian            Mercian             Kentish
+             1 'broke'            br&con              brecon                  brecon              brecon
+             2a ' vessel'         faet/fatas          fset/fatas                                  faet/fatas
+             2b                                                               fet/(featas)
+             2c 'old'             eald                aid                     aid                 eald
+             2d 'land'            land                lond                    lond                land
+             3 'light'            leoht                                                           leoht
+             4                                        leht                    leht
+             5    'seat'          setol               seatol                  seotul              (K/G/)setol
+             6    ' evil'         yfel                yfel                    yfel                efel
+             7    'yet'           glet                get                     get                 get
+
+
+
+
+                 Certain inflectional characteristics are related to general dialect
+              associations. In the north, inflectional n is lost in infinitives, while third
+              person singular present forms are distinctive in the West Saxon bint, as
+              opposed to general binded. The first and second person accusative
+              pronouns are regularly mec, usic, Pec and eowic in Anglian varieties,
+              against West Saxon me, us, pe, eow.
+                 These dialectal features are demonstrated in the following three
+              versions of the Lord's Prayer - the West Saxon version (late eleventh
+              century) is taken from Cambridge, Corpus Christi College 140, the
+              Northumbrian version (late tenth century) from the Lindisfarne Gospel,
+              the Mercian version (early tenth century) from London, British Library,
+              Royal 2. A. XX. The word order in this example does not follow that
+              of the original interlinear glosses but has been rearranged for ease of
+              comparison:
+
+
+                            WS fe'der ure fu f e ea*rt     on h«o3fonu(m)
+                            No fader urer 6u a rt / du bist in heo3fnu(m) / in heofnas
+                                               4
+
+                            Mer f«5der ure fu ea2rt         in hfo'fenum
+                            WS si fin na'ma gehalgod
+                            No sie1 6in no8ma gehalgad
+                            Mer se fin no8ma is gehalgad
+                            WS to bec»9me >in rice gewurfe 6in willa
+                            No to cyme6 Sin rlc sie        3in willo
+                            Mer to cyme   fin rice sie     fin willa
+                            WS on «olor6an swa swa on h«o3fonu(m)
+                            No in «o10r6o suae is in h«o3fne
+                            Mer on eolorfan swe    in hw3fenum
+
+
+
+                            432
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                         Old English dialects
+
+                         WS urne gedaeghwamlican hlaf syle us to da>'g
+                         No userne13 [ofet wistlic] hlaf sel us tods'g
+                         Met ur     de6ghweamlice hlaf sele us to d«6g
+                         WS & forg/'f us ure gyltas
+                         No & f(or)gef us usra13 scylda
+                         Mer & forgef us ussa scylda
+                         WS swa swa we forgyfad urum gyltendum
+                         No suar1   uoe12 f(or)gefon usum scyldgum
+                                5
+                         Mer sw« & us for gef        ure scylde
+                         WS & ne gel£d y>u us      on costnunge
+                         No & ne inlaed    usib13 in costunge
+                         Mer & nu in laede is    in costunge
+                         WS ac alys us       of     yfele (Skeat 1874:54)
+                         No ah gefrig usicb13 fro8(m yfle (Skeat 1874:55)
+                         Mer   ales us       fro8(m yfele (Zupitza 1889:60)
+             1
+                General fronting of West Germanic */a/
+             2
+                General breaking of /ae/ before /rC/
+             3
+                Velar umlaut of / e /
+             4
+                Northumbrian retraction of /ze/ before /rC/
+             6
+                Mercian second fronting
+             6
+                Non-Anglian development of West Germanic */a/ before nasals
+             7
+                Non-West Saxon failure of contraction of / i : e/
+             8
+                Anglian development of West Germanic */a/ before nasals
+             9
+                West Saxon retraction of early front round / y / from i-umlaut
+             10
+                 Breaking of / e / before /rC/
+             11
+                West Saxon /ie/ written < y >
+             12
+                Northumbrian tendency to round / e / after / w /
+             13
+                Anglian forms of the personal pronouns
+
+
+             6.4          Variation and dialectology
+
+             From the data presented so far, this much is clear: some thirteen
+             hundred years ago, Anglo-Saxon scribes began to experiment with
+             writing their own language. Before that, they had only ever written
+             Latin. From those initial experiments, vernacular literacy flourished and
+             developed to the point that it is now a commonplace in English
+             speaking communities. A byproduct of those facts is that contemporary
+             historical linguists have a nearly continuous documentary record of the
+             English language on which to base studies of earlier periods and with
+             which to trace historical developments through an unusually long
+             period of time. Although the later periods of the history of the English
+             language are generally well understood, the critical first periods of
+             literate history remain understudied (especially Pre-Alfredian West
+
+
+                          433
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+              Saxon varieties). Part of the explanation lies with the nature of the data;
+              the documentary record of the first uses of literacy in English is
+              fragmentary. We must rely on a corpus of several thousand words
+              which occur in a wide variety of sources: occasional English names in
+              Latin manuscripts and on coins, English boundaries in Latin charters
+              and wills, sparse interlinear glosses (not extensive before AD 825) in
+              Latin texts, or in the first attempts at making Latin-Old English
+              glossaries. The attestations of English are sporadic, and the survival of
+              manuscripts from those violent times is fortuitous. While the manu-
+              scripts themselves survive, their histories are documented for only the
+              last few, most recent centuries. We simply do not know, for example,
+              what percentage of the manuscripts produced have managed to survive.
+              Additionally, we cannot be sure of such facts as when and where a
+              manuscript was written; at whose command, by whom and for what
+              explicit purpose; when, where, and why the English glosses were
+              added. That is, we are bound to have difficulty interpreting these data
+              until we more fully understand the sources of data in relation to their
+              impelling contexts - textual, intellectual, social and political.
+                 Further, our understanding of the earliest varieties of English has
+              been obscured in a large part by some of the analytical methods which
+              have been applied to the data. No practising sociolinguist would be
+              surprised to learn that the earliest English texts reflect extensive
+              linguistic heterogeneity. What would come as a surprise is how that
+              linguistically significant variation has been treated (or, closer to the
+              facts, left untreated). As a consequence of the conflict between narrow
+              assumptions about linguistic regularity and the facts of heterogeneity of
+              living languages, an unnecessary asymmetry exists between the rigid
+              traditional view of the state of early English dialects and the nature of
+              the data found in the texts. The following pages are an attempt to
+              account for and to correct that asymmetry through a review and re-
+              evaluation of the methodological assumptions that determined the
+              direction of previous studies of the earliest Old English dialects. The
+              examples will be drawn from my own work at accounting for
+              linguistically significant variation during the period of the Mercian
+              hegemony. I will offer an alternative interpretation of the earliest non-
+              Northumbrian data, an interpretation which demonstrates patterns of
+              linguistically significant variation and takes into account what we can
+              know of contexts in which the texts were produced.
+                 The first full scale linguistic studies of Old English were philological
+              in method and were attempts to understand the language of individual
+
+
+                          434
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             texts. Each text was reviewed as reflecting a linguistic variety of its own,
+             named by reference to the host manuscript and (when possible) a rough
+             geographical provenance. As Campbell (1959:4n) notes,
+
+                          Hick's (Thesaarusi., 1705, pp. 87-88) already isolated Northumbrian],
+                          for he distinguished the language of the Lindisfarne and Rushworth
+                          MS from that of the bulk of the OE texts he knew, and said that the
+                          former was used chiefly in the north during the 270 years preceding
+                          the Norman Conquest.
+
+             The titles of early studies reflect assumptions about the relationship
+             between linguistic variety and source: LindeloPs Die siidnorthumbrische
+             Mundart des 10. Jarhhunderts: die Sprache der sog. Glosse Kushworth^, or
+             Zeuner's Die Sprache des kentischen Psalters.
+                While the neogrammarians had a well developed sense of individual
+             dialects, a dialect like Northumbrian was largely thought of as a loose
+             conglomerate of individual varieties as attested in the extant manu-
+             scripts. The tendency was to treat the language of the DurKit
+             separately from the language of the Lindisfarne gloss or that of the first
+             part of the gloss to Rushworth. In content, these studies were elaborate,
+             careful and exhaustive catalogues of the early development of each
+             sound which had independently been posited in the reconstruction of
+             the primitive Germanic parent. For example, a whole series of Old
+             English spellings (and presumably sounds) would be described as the
+             development of West Germanic */a/ in the various phonetic envir-
+             onments in which it occurred: OE < ae > (Mercian < e > as the general
+             development in closed syllables); OE < ae > (Mercian < e > ) in open
+             syllables before front vowels; OE < a > (Anglian < o > ) as the de-
+             velopment before < n > , before < m > , and clusters with < m > and
+              < n > , Anglian OE < a > as the retracted form of fronted /ae/ found
+             before consonant clusters beginning with <1> ('broken', that is
+             diphthongised) to < e a > in West Saxon and Kentish); Northumbrian
+              < a > before < r + C > (elsewhere 'broken' to < e a > ) ; OE < a >
+             (Mercian < e a > ) as the restored form of fronted /ae/ before back
+             vowels. No unfairness is intended in the summary; I mean only to
+             highlight the fact that this careful proliferation of detail resulted in a
+             highly complex description which made generalisation difficult. This is
+             especially true since even the most minor of deviations (some obviously
+             scribal errors) were noted, and because the nature of the complex
+             relationship between spelling and pronunciation was never investigated
+             in detail. In fact, the major directions of early sound developments are
+
+
+                          43 5
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             often obscured as simple opening statements to be followed by pages of
+             exceptions. As a consequence, the focus was on sounds as individual
+             units; little regard was paid to the over-all pattern of the system or to
+             patterns of alternation within the system. The very richness of the data,
+             however, was a kind of embarrassment to scholars committed to a
+             theory of perfectly regular sound change. Dialect mixture and analogy
+             were the only terms in which to explain the profusion of variation to be
+             found in Old English texts.
+                From this rich foundation of data, such scholars as Luick (1914-40),
+             Sievers (1898) and Sweet (1888) — the first great synthesisers in English
+             historical linguistics - built their grammars of Old English. The
+             profound debt of modern Anglo-Saxon scholarship to these pioneer
+             efforts can nowhere more clearly be seen than in Campbell's standard
+             reference work Old English Grammar, a careful summary of a century of
+             neogrammarian research. Structural and generative linguists continued
+             the work of synthesis, while focusing their attention on the best attested
+             and most regular varieties of Old English - Late West Saxon (Brunner
+             1955, Chatman 1958, Hockett 1959, Wagner 1969), Mercian (Kuhn
+             1939, Dresher 1978, 1980), and general (Kuhn 1961, 1970). Except for
+             Kuhn, these studies are based on summary data drawn from grammars
+             rather than on texts. Since these linguists were also principally
+             concerned with capturing the facts of linguistic homogeneity, these
+             accounts quite understandably do not reflect the facts of prolific
+             variation actually found in the earliest texts. The continued prominence
+             of Campbell's work as the main reference work for Old English
+             phonology is testimony both to his solid achievement and the field's
+             general resistance to innovations in linguistic science. Further the
+             inability of more modern theories to reflect the richness of variation in
+             the data for Old English dialects renders those accounts less than
+             satisfying for the community of Anglo-Saxon scholars.
+                 Current interest in variation is enabling a new generation of linguists
+              to broaden the base of study, to move from the exclusive study of what
+              Anderson (1972) has termed diachronic correspondences to include a
+              closer study of the mechanisms of phonetic change. Historical Germanic
+              philology which began as close attention to detail has come full circle.
+              The energy of our Germanic forbears derived from the discovery of the
+              regularity of sound change; ours, from the correlation of patterns in the
+              ubiquitous variation of living languages to the processes of linguistic
+              change. Some scholars, of course, maintained an interest in phonetic
+              change. Chadwick (1894-99) and Kuhn (1939, 1945, 1961, 1970) are
+
+
+                           436
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                         Old English dialects
+
+
+             notable among Anglo-Saxonists. As a prelude to contemporary studies,
+             Weinreich, Labov and Herzog (1968) articulated under four general
+             headings the theoretical problems to be considered in the study of
+             language change: the transition problem, the constraints problem, the
+             embedding problem and the actuation riddle. They will serve as useful
+             divisions of the following examples from the variationist analysis of Old
+             English data.
+                The transition problem: This issue centres on the traditional questions
+             of the regularity and gradualness of sound change. All of the changes to
+             be considered involve alternation and variation within a phonetic class.
+             In addition most have a phonetic environment as at least one of their
+             conditioning factors. That is to say that the changes hold true to at least
+             part of the neogrammarian hypothesis, but they also present interesting
+             questions. Is sound change abrupt or gradual? Several misleading
+             answers to this question have been proposed - especially in the case
+             where writers have been to ready to lump together all varieties of sound
+             change and have failed to discriminate between the ways in which a
+             sound change may be abrupt or gradual. There are at least four levels at
+             which the rate of sound change should be considered: phonological,
+             phonetic, statistical, and lexical. Change of the phonological level is
+             discrete and necessarily abrupt. Additions of surface forms, underlying
+             representations, loss or additions of variable or obligatory rules, etc.,
+             cannot be other than abrupt.
+                Phonetic change can be abrupt or gradual. Old English offers an
+             example of a change that was probably phonetically abrupt. During the
+             Old English period, morpheme initial /hn, hr, hi, hw/ were reduced to
+             initial /n, r, 1, (h)w/ with /hw/ remaining in the north and / w /
+             prevailing in the south (see Toon 1976b). Thus Old English bnutu, hldf,
+              hrsefn, hweol have the modern reflexes nut, loaf, raven and wheel, the last
+              with a continuingly variable pronunciation. The loss of such a phonetic
+              segment might have been abrupt. The modern situation would be an
+              example of phonetic abruptness: the [h] is either pronounced or not (or
+              the / w / is either voiced or voiceless. That is, we do not see a partially
+              devoiced / w / or some sort of reduced [h]. On the other hand, the
+              phonetic processes reflected in < o > spellings of / a / before nasal
+              consonants were probably not abrupt. The raising and rounding of /a/
+              could have been, and probably was, a gradual development through a
+              continuum of vowel space (see Toon 1976a).
+                 There is strong textual evidence that both sound changes were
+              statistically gradual. We can, for example, write the following variable
+
+
+                          437
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             rules to capture the development of / h / loss in two Anglian texts, the
+             Mercian gloss made by Farmon in the Rushworth Gospels and the
+             Northumbrian gloss to the Lindisfarne gospels. The first rule states the
+             generalisation that [h] is lost variably (-> < < 0 > >), in the en-
+             vironment (/       ) of a following [n, r, 1, w]. Then, it is lost all of the
+             time before [n]; 17 per cent of the time before [r, w], and 25 per cent of
+             the time before [1].                          *n J.QQ
+                       Ru     h     -*      <<0>>/         r 0-17
+                                                           1 0-25
+                                                           w 0-17
+                                                           n 0-33
+                       Li     h     ->• <<&>>/             r 0-12
+                                                           1 0-07
+              Statistical graduality (and regularity) can be seen by comparing the
+              following three developments in the nasalised vowel (Ch) is a
+              homorganic consonant. The makers of the Corpus Glossary drew upon
+              many of the same textual traditions as the assemblers of the closely
+              related Epinal and Erfurt Glossaries did. As a result the glosses which
+              CorpGl shares with EpGl and ErfGl ate likely to exhibit forms which
+              reflect an older, more conservative state of the language. For these
+              reasons, compare the development as seen in ErfGl with both the
+             glosses shared with CorpGl and the material unique to CorpGl.
+                                           Erfurt - ca AD 750
+                                                                       rj    0-60
+                                                                       n     0-55
+                          a        ->        <<o>>/                    m 0-50
+                                                                   nC h      0-50
+                                                                   mC h      0-30
+
+                                    Corpus - ca AD 800 (shared)
+                                                            n 0-85
+                                                           m 0-85
+                          a       -*•    < < o> > /      nC h 0-50
+                                                           rj 0-33
+                                                         mC h 0-0
+
+                                    Corpus - ca AD 800 (unique)
+                                                          *m
+                                                            n 0-75
+                          a       -»•    < < o> > /      nC h 0-75
+                                                           rj 0-66
+                                                         mC h 0-66
+
+
+
+                           438
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                         Old English dialects
+
+
+             Of the latter sound change Campbell (1959:51) felt it sufficient to say,
+             'Erf. and Cp. have both a and o'. While true, the statement typically
+             regulates heterogeneity to free variation. On the other hand, it is
+             possible to see a frozen reflection of an early phonetic change in
+             progress. That interpretation is strongly supported by the phonetic
+             regularity of the change; we can see the same implicational hierarchy of
+             phonetic environments (excluding the sparsely attested / r j / : n > m
+              > nCh > mCh. The fact that a single variable rule predicts the output
+             for both early texts further argues for the close relationship between
+             them:
+                         a        -y        <<o>>                 I [+nasal]        <+apical> < - s e g >
+             That rule captures the generalisation that [a] variably raises to [o] when
+             nasalised. The raising is favoured by a combination of factors — when
+             followed by a consonant made with the tip of the tongue ([n] is favoured
+             over [m] and [13]) and when the nasal does not occur in clusters.
+                Wang (1969) has proposed that sound changes can diffuse gradually
+             through the lexicon - a serious challenge to the neogrammarian
+             hypothesis that sound changes are sensitive only to phonetic en-
+             vironment. The Northumbrian development of West Germanic * / a /
+             before nasals offers an extremely important case in point. In all three
+             tenth century Northumbrian glosses to Li, Ru1 and the DurRit, the
+             sound is always spelled < o > except in the preterite singular of class III
+             Strong verbs, where it is spelled < a > without exception. This is an
+             important example of constrained lexical diffusion. A single grammatical
+             class accounts for the entire residue of an otherwise completed sound
+             change. But this residue is not unrelated to the earlier resistance, as seen
+             above, to the sound change before homorganic clusters with a nasal.
+             Most of the verbs of strong class III contain a homorganic consonant
+             cluster. We have a lexical class based both on a shared ablaut alternation
+             and a shared phonological environment. The resistance to sound change
+             has been transferred from the phonological environment to the
+             grammatical class. Even the verbs of class III which do not contain a
+             homorganic cluster are resistant to the change {warm, blann, ingann, etc.)
+             while the cluster outside of this grammatical class is subject to the
+             phonological regularity. The resistance has not spread to the other
+             strong verbs; we find the regular phonological development in class VI
+             and preterite present verbs which contain West Germanic */a/ before
+             a nasal, even a nasal homorganic consonant cluster.
+                 The constraints problem: A strong theory of language change would
+
+
+                         439
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             predict the direction of sound change after having established a set of
+             possible changes and having described the sorts of pressures which
+             apply to languages in flux. No such theory, of course, exists, although
+             some work has been done in characterising the types of sound systems
+             which exist in natural languages and in noting the sorts of changes
+             which languages undergo. The results of these attempts to typify the
+             natural and the universal aspects of human language must be taken into
+             consideration when attempting to reconstruct from manuscript data a
+             viable linguistic system. It is worth noting that front rounded vowels,
+             and especially back spread vowels, are much rarer than front spread and
+             back rounded vowels among the languages of the world, though not
+             uncommon among Germanic languages. Languages, however, fre-
+             quently do unexpected things. English, after all, added a set of high and
+             mid front round vowels resulting in a more highly marked and less
+             natural system (and proceeded to lose them in the next centuries).
+                 The sound changes discussed above can profitably be considered in
+             terms of the general constraints in question. We can notice that / h / was
+             lost first before / n / (complete oral closure), next before / r / and / I /
+             (substantial lateral and central closure), and only variably before / w /
+             (minimal oral closure). That is, the loss of / h / , a consonant produced
+             with the oral tract maximally open, is favoured before consonants
+             produced with substantial oral closure. Further, the raising to Germanic
+             * / a / follows the long observed tendency of nasalised vowels to rise.
+             This raising can be seen as the last stage in a chain shift which began in
+             Germanic times and had already affected Germanic * / e / and * / o / and
+             resulted in niman and cuman by Primitive Old English times.
+                 Old English studies can add to as well as benefit from study of natural
+             and universal tendencies in language. Much of the history of English
+             vowels involves the struggle between the opposing processes of
+             monophthongisation and diphthongisation. Anglian smoothing (a
+             monophthongisation) and velar umlaut (a diphthongisation) have long
+             been documented, but a close examination of the variation in the
+             manuscript data can refine our knowledge of the processes (see Toon
+             1978a). The velar spirant plays a major role in the operation of these two
+             competing sound changes; it triggers smoothing and inhibits velar
+             umlaut. Labov, Yaeger and Steiner (1972) have identified velar
+             consonants as among those which can change vowel peripherality. Since
+             peripherality is associated with rising and in-gliding vowels, the
+             monophthongising effect of the velar spirant is of interest to historical
+             linguists and students of contemporary sound change alike. The inter-
+
+
+                          440
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+              relationships of the various elements of smoothing and velar umlaut are
+              summarised in the following table:
+
+                                                            Epinal       Erfurt         Corpus         VPs
+                                                            ca700        ca750          ca800          ca825
+                          Smoothing of / i : 0/             +             +              +             +
+                          Smoothing of / i o /              +             +              +             +
+                          Smoothing of / e o /              80           90              +             +
+                          Smoothing of /sea/                60            +              +             +
+                          Smoothing of /ae:a/               60           80              +             +
+                          Velar umlaut of /ae/              50           50             80             +
+                          Smoothing o f / e : o /            0            0             70             +      •
+                          Velar umlaut of /e, i/             0            0             90             +
+
+
+                It is apparent that smoothing was complete by the time of Corpus and
+             well progressed in Epinal, and the differences are, in addition,
+             quantifiable and can be explained chronologically. Further, two general
+             tendencies, of interest to natural phonologists, emerge. Short diph-
+             thongs were smoothed before the long ones. Among the short
+             diphthongs, a height hierarchy is to be observed /io > eo >sea/. Such
+             phonetic regularity is hardly random and cannot be dismissed as
+             unmotivated orthographic convention.
+                Further examination of the data for the short diphthongs shows more
+             clearly the combined effects of environment and vowel height. An
+             intervening consonant diluted the effects of the velar spirant. In Corpus
+             we find only /aea/ unsmoothed and then only unsmoothed in precisely
+             the environment we would have predicted on the basis of the Epinal
+             data, strong evidence that the two texts are closely related linguistically:
+
+             Smoothing by environment
+
+                                                       I         Cx /         x
+
+                          Epinal         /eo/         60
+                                         /sea/        30
+                          Corpus         /eo/          +
+                                                       55
+
+
+
+             Again a single variable rule accounts for data from both texts; (the off-
+             glide is variably lost before velar sounds in a process favoured by the
+
+
+                          441
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             high vowels and the absence of a consonant between the diphthong and
+             the velar consonant):
+                          V3        -> < V >            / <+hl>            < - s e g > [ +velar]
+                Except for the velar umlaut of /ae/, the product of the second
+             fronting of /a/, the earliest glossaries fail to show evidence of velar
+             umlaut. The sound change, on the other hand, is nearly complete in
+             CorpGl. While both /e, i/ undergo velar umlaut at the same overall rate
+             (0-75), significant differences emerge when the data are broken down by
+             environment:
+
+              Velar umlaut
+
+                                                 N          N          /«/
+                          /       labials        0-85       1-00       1-00
+                          /       sibilants      080        1-00       1-00
+                          /       resonants      075        085        1-00
+                          /       dentals        0-70       0-65       1-00
+
+
+
+                 F o r b o t h / e / and /[/, the same hierarchy h o l d s : labials > sibilants >
+             dentals. T h e highest weighted e n v i r o n m e n t is, of course, also one of the
+             e n v i r o n m e n t s for which the s o u n d change was most general in O l d
+             English. T h e lowest weighted e n v i r o n m e n t was that e n v i r o n m e n t in
+             which velar umlaut developed only in n o n - W e s t Saxon dialects. It is
+             n o t e w o r t h y , in view of the resistance of /aea/ to s m o o t h i n g , that velar
+             umlaut began in the E p i n a l - E r f u r t Glossaries with / a e / and is complete
+             for / a e / in the CorpGl but still in progress for the higher vowels. Velar
+             umlaut was hindered in the Epinal-Erfurt material before / x / . T h e same
+             constraint is evident in Corpus for / e , i / ; / a e / , however, is diph-
+             thongised to /aea/ before the velar spirant in that text. T h e relaxing of
+             the constraint can also be seen in the VPs in which velar umlaut of all
+             front vowels is the rule. A l t h o u g h velar umlaut and s m o o t h i n g were
+             synchronic forces in the same texts, s m o o t h i n g began earlier and was
+             complete before velar umlaut. It is further advanced than velar umlaut
+             in EpGl and Er/Gl. It was ceasing to be a p r o d u c t i v e force in the
+             language of the CorpGl: /aea/ could develop before the velar spirant. It
+             was obviously n o t a p r o d u c t i v e rule in the p h o n o l o g y of the VPs scribe,
+             where the newly forced d i p h t h o n g is never s m o o t h e d .
+                  The embedding problem: This aspect of the study of sound change is
+
+
+
+                          442
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             concerned with the possible loci of linguistic change (see Labov, Yaeger
+             and Steiner 1972): At what abstract level of derivation are innovations
+             implemented? Is linguistic innovation a change in competence or can
+             performance effect changes in competence? Do changes occur in
+             individuals or in communities? Although the larger issues of com-
+             petence/performance and individual/community are beyond the scope
+             of this study, the sound changes considered here do offer some evidence
+             of the level at which they were embedded into the phonological system
+             of Old English.
+                 Because / o / when it occurred before nasals had been raised to / u / in
+             Germanic times, Old English / a / and / o / could not be contrastive in
+             prenasal positions. The raising of /a/ to / o / then involves a
+             subphonemic change; an allophone of / a / is becoming an allophone of
+             / o / . At the stage of uncertainty between < a > and < o > , the scribes were
+             recording suballophonic variation.
+                 Numerous minimal pairs (see Kuhn 1970) attest a potential Old
+             English phonemic contrast between /n, r, 1, w/ and /hn, hi, hr, hw/.
+             Loss of / h / from hlaf 'loaf, for example, would result in [laf]
+             homophonous with laf 'remainder'. Hlaf and laf indeed both occur for
+             'loaf, and because of scribal uncertainty /a/is found in the same text as
+             Hlaf with an excrescent (etymologically unjustified) / h / . Aldred, the
+             conservative scribe of the Lindisfarne Gospels, gives strong evidence
+             for the phonetic reality of / h / loss in his speech by writing an incredible
+             number of excrescent < h > 's before / r / and / I / ; for example, rip is
+             spelled Hrip in all eleven occurrences and laetmest is spelled Hlaetmest
+             twenty-seven of the thirty-two times it appears. The destruction of
+             minimal pairs and the creation of what ought to be minimal pairs attest
+             that the scribe is representing a subphonemic level in his orthographic
+             habits.
+                  The actuation riddle: Although we can usually come up with a plausible
+             explanation of change after the fact, linguists have not as yet been able
+             to predict precisely when a possible change is going to occur. This
+             generalisation is, of course, particularly applicable to the slow, regular
+             internal sort of change which is typical of language isolation. Change
+             caused by external pressure is quite a different matter. Because of the
+             loose political structure of early Anglo-Saxon England early English
+             dialects must have been in constant contact (and conflict). We can in fact
+             see evidence of the actuation of a linguistic innovation by examining the
+             development of West Germanic * / a / before nasals as reflected in the
+             extant original charters made in Kent (or with Kentish connection)
+
+
+                          443
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             before, during and after the period of Mercian political ascendancy in
+             England (AD 750-825). Four charters antedate Mercian control. The
+             data are scant but unanimous in a forms. Seven texts document the
+             period from AD 800 to 825, and they exhibit only < o > spellings
+             (sixty-four in all), also the predominant form in Mercian charters. Six of
+             these seven manuscripts also contain letter forms unique to VPs and
+             other Mercian texts (see Kuhn 1943). Three charters (AD 833-50) attest
+             the state of the language during the first years of the decay of Mercian
+             influence:
+
+                         Date          Charter                 a        o
+                         833X9         BL, Aug. ii 64          11       40
+                         845X53        BL, Aug. ii 42           0       13
+                         850           BL, Aug. ii 52          10        4
+
+
+
+                Since the transition was not cataclysmic, these data are what one
+             would expect. Mercian religious would continue to live in Kent, and
+             native Kentish scribes trained under Mercian domination would
+             continue to exert an influence for about one generation (until ca 850),
+             just as similar timelags can be observed after the Norman Conquest. In
+             the late Kentish charters, we find a return to the < a > spelling for West
+             Germanic * / a / before nasals in fully stressed words. Since the change
+             of < a > to < o > is demonstrably tied to Mercian political fortunes and
+             the change is concomitant with the appearance of Mercian orthographic
+             influence, we ought not to dismiss the manuscript heterogeneity as mere
+             dialect mixture. We can, on the other hand, reinterpret this structured
+             variation as an intersection of two separate aspects of the actuation and
+             implementation of a phonetic change: a perhaps natural tendency of a
+             nasalised low vowel to rise (a possible change) and social and political
+             pressure (a reason to change).
+                Our knowledge of Old English (except for patterns discernable by
+             the methods of comparative and internal reconstruction) is, necessarily,
+             based on the vernacular records which survive. Since the nineteenth
+             century period of extensive close analysis of the early manuscripts, the
+             general linguistic patterns of Old English (mostly phonological) have
+             been codified, and traditional, structuralist and generative study of the
+             language have been based on those abstractions. Thus, after a lifetime of
+             studying Old English, Campbell could still claim (1959:106):
+
+
+
+                         444
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                         Old English dialects
+
+
+                         It is accordingly not possible to date any of these sound changes
+                         [including the nasal development of a, velar umlaut, and smoothing]
+                         by observing their gradual appearance in texts and we can establish
+                         their approximate date and arrange them in chronological order by
+                         theoretical means only.
+
+             Variation abounds in the early texts, and it is the contemporary
+             historical linguist's responsibility to determine if that variation is
+             regular (and consequently meaningful) or sporadic and rightly to be
+             ignored.
+                By now, my position on this question will be clear, but some
+             additional justification is necessary. First, it must be recalled that the
+             texts on which this study is based consist of the first experiments in
+             writing English; scribes of the period were not trained in a system of
+             standardised spellings. Scribes did not, however, invent a writing
+             system in vacuo. Indeed, they were familiar with the orthograph-
+             ic/phonological correspondences of Latin and they transferred those
+             habits to the transcription of English. The exercise would be similar in
+             kind to reducing the sounds of American English to a very broad
+             International Phonetics Association transcription; except that the
+             weight of traditional spellings would be absent. Would Americans
+             (especially naive spellers) spell water and butter phonemically with a
+             medial / t / rather than noticing the [d]-like quality of the allophone (the
+             same sound which is an allophone of [r] in berry for some speakers of
+             RP)? Linguistic contrast is an important fact about how languages
+             operate, and a writing system must be able to convey the important
+             linguistically significant contrasts of its language. But linguistic
+             significance does not reside exclusively in contrasts, and it is not
+             unreasonable to suppose that scribes (unconsciously) recorded their
+             phonetic habits, just as New Yorkers unconsciously monitor the level of
+             [r] loss.
+                The strongest argument for taking manuscript variation seriously is
+             certainly the facts of the internal structure of that heterogeneity. On
+             those who will reject the orthographic variation as random lies the onus
+             of otherwise explaining those regularities and their close resemblance to
+             kinds of phonetic conditioning being discovered in contemporary
+             studies of sound in progress.
+                An immediate consequence of taking manuscript data seriously
+             involves a reconsideration of the probable order in which the sound
+             changes occurred. The data provide precisely the' gradual appearance in
+
+
+                          445
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             texts' which Campbell demands. Campbell offers a summary of
+             traditional scholarly opinion on the ordering of what he calls the
+             prehistoric changes (Campbell 1959:109).
+             (1)         Anglo-Frisian development of nasal / a : / and / a / ; and of /&2/
+                         and / e : / from West Gmc */a:/
+             (2)         West Gmc */ai/ > / a : /
+             (3)         Fronting of West Gmc * / a / to /ag/
+             (4)         Breaking and the related processes of retraction
+             (5)         Restoration of / a / before back vowels
+             (6)         Second fronting (mainly VP). Palatal diphthongisation of front
+                         vowels, and early diphthongisation of back vowels (mainly
+                         WS and Northumbrian)
+             (7)         /-mutation
+             (8)         Back mutation
+             (9)         Smoothing
+             There are several reasons to challenge this ordering. Consistent
+             variation in the early glossaries argues for a later dating of the second
+             fronting. Of the changes listed, items 1 (except for the development of
+             nasal < a > ) , 2, 3, 4, 5 and 7 are certainly prehistoric; that is, they are
+             represented as complete and without variation in the earliest texts. It has
+             been demonstrated herein that it is an error to lump together all of the
+             smoothing processes. It is further unsatisfactory to suggest a precise
+             linear ordering of the following:
+                         Raising and rounding of / a / before nasals
+                         The various smoothings (usually treated as a unit)
+                         Second Fronting
+                         Velar Umlaut
+             Using EpGl, CorpGl and the VPs as touchstones, the following chart
+             more closely reflects the situation as attested by manuscript variation.
+                                    Epinal                         Corpus                  Vespasian Psalter
+                                                                   ca
+                                    ca 700                            800                      ca 825
+                          smoothing of /io/
+                                smoothing of I to I
+                                smoothing of /aea/
+                                    smoothing of / a : a /
+                                         second fronting and velar umlaut
+                                              nasal influence on [a]
+                                                                   smoothing of /to/
+
+
+                          446
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             The mixture of forms which we find in the glossaries, for example, can
+             now profitably be explained as the residue of competing sound changes
+             rather than dismissed as 'dialect mixture'.
+                 The earliest English texts have been studied independently by a
+             variety of scholars: historians, palaeographers, bibliographers, linguists
+             and art historians. There has, unfortunately, been very little integration
+             of these separate studies, and students of the texts consequently hold
+             widely divergent views of their date, provenance, etc. Historical
+             linguists then have not been able to take full account of the nature and
+             ancient uses of the texts around which their pursuits revolve. The
+             earliest glossaries are an excellent example. Written at a time when
+             manuscript production was very costly indeed, we find the best of
+             materials, wide margins, spacious (an uneconomic) hand, and in the case
+             of the CorpGl exquisite illuminations. The facts, although a mystery,
+             constitute eloquent testimony to the reverence with which these
+             manuscripts and presumably in this case especially their contents were
+             held. Although we know the sources of the glosses, we still have little
+             idea of how and why the glossaries, especially their often mundane
+             vernacular glosses, were collected. Close examination reveals (in the
+             CorpGl) extensive dry point notation and even occasional doodles.
+             Some of the more curious garbled glosses suggest that they were copied
+             from exemplars into which vernacular glosses had been scratched by dry
+             point. The sources, the nature and the purposes of those first attempts
+             to record even occasional words in English are critically important to
+             the study of the state of the language which they record. Why would a
+             literate and learned community benefit from a word-for-word interlinear
+             gloss to the psalms ? Is the regularity of the VPs gloss, which nearly
+             approaches the regularity of the Late West Saxon literary language,
+             related to the fact that it is inserted in one of the finest manuscript
+             productions of Anglo-Saxon England? The questions and their
+             consequences mount. We will better understand the language recorded
+             within the texts when we know more about the texts themselves.
+                Old English dialectology to date has been principally geographical,
+             an attempt to assign texts (and their language) strictly to one of four
+             regional varieties — West Saxon, Mercian, Northumbrian or Kentish.
+             Objections have been of two major sorts. First, it has been claimed that
+             the early texts with their high levels of orthographic variation exhibit a
+             level of dialect mixture which precludes assigning them to any one
+             dialect area. Other objections have centred around scholarly attempts to
+             localise manuscripts and insist that the texts are too scant and too
+
+
+                         447
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+              loosely assignable in terms of provenance to be the basis of a regional
+              dialectology.
+                 Variation admittedly abound in the texts, but differences have been
+              over-emphasised and important similarities have been ignored. Two
+              general observations are to be made. The following summary of
+              synchronically variable data from EpGl, ErfGl, CorpGl and the VPs
+              helps illustrate the first point. Much of variation in the texts can be
+              explained chronologically (see Toon 1975):
+
+                                                             Epinal        Erfurt         Corpus        VPs
+                                                             ca700         ca750          ca800         ca825
+                          Smoothing of/i:o/                  +              +             +             +
+                          Smoothing of /io/                  +              +             +             +
+                          Smoothing of /eo/                  0-8            +             +             +
+                          Smoothing of /sea/                 0-6            +             +             +
+                          Smoothing of/ae:a/                 0-6           0-8            +             +
+                          Smoothing of /eo/                  0             0              +             +
+                          Gmc /ae/ to /e/                    0-8           0-9            0-9           +
+                          PrOE /a/ to / * /        0-3                     0-3            0-3           +
+                          Velar umlaut of /m/      0-5                     0-5            0-8           +
+                          Confusion of /io/, /eo/  0-5                     0-5            0-6           +
+                                                   0-3                     0-3            0-9
+                          Second fronting /ae/     0-2                     0-4            0-2           +
+                          Confusion of/i:o/, /e:o/ 0-2                     0              0-2           +
+                          Raising of nasal /a/     0                       0-5            0-7           +
+                          Velar umlaut of /i, e/   0                       0              0-9           +
+
+
+
+
+                Not only do the sound changes show a general progression toward
+             completion from Epinal to the VPs, but the very similar implicational
+             hierarchy of the progress of the changes attests the close relationship
+             between the texts. The minor divergences can be attributed to the fact
+             that not all sound changes proceed at the same rate. The regular, wave-
+             like diffusion of sound developments into this community cannot be
+             attributed to dialect mixture unless dialect mixture be interpreted as a
+             productive force in linguistic change. The term has been invoked in
+             traditional interpretations of Old English to dismiss rather than to
+             explain variation.
+                This analysis has further demonstrated that the close relationship
+             between these texts can be made even clearer when the synchronic
+             variation in the texts is subjected to close scrutiny. While it is important
+             that the sound changes when viewed abstractly can be seen to be
+
+
+                          448
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+              Sound changes in the minor texts
+
+                                         Blick. Leyden Lorica Lorica Bede Codes Royal                        Omont
+                                         Psalter Gloss Gloss Prayer Gloss Aur. Gloss                         Leaf
+
+              Smoothing
+                of io                     —        +          —        —         -      +         +          —
+                of io                     —        —          —        —         —      —         —          —
+                 of eo                    —        +          +        —         +       -        +          —
+                 of eta                   —        +          -        —         -      +         +       +
+                 of sea                   —        +          +        —         +      +         +       —
+                 of lo                    -        -         (0/2)     (1/1)     -       -          (1/2) +
+              Gmc a to I                  -        +         —         -         +       -        0       +
+              Velar umlaut of ec          -        0          +        +         +      +         +       +
+              io to eo                    —        0          +        +         —      +         +       +
+                                                   +                   +         -      +         -       0
+              Second fronting            (1/2)     0-6       0         1/1       +       -        +       0
+              io to co                    —        0         0         +         +      0         +       +
+                                          +        0-7        +        +         +      +         +
+              Velar umlaut of /', e       —        -         0-7       +         +       -        +       +
+              a to e                      +        —         —         —         —      —         —       0
+              a toe                      (2/3)     —         (0/1)     (0/2)     "      (1/3)     + (2/2) —
+
+              progressing regularly toward completion, it is even more important for
+              a systematic analysis that the language of the individual texts not be
+              dismissed as a random admixture of forms. The variable texts
+              demonstrate the phonetic regularity of the synchronic states. The
+              regularity is especially evident when the rules for the separate texts are
+              placed together. The interaction of second fronting of Primitive Old
+              English * / a / and its subsequent velar umlaut both follow a progression
+              which logically would culminate in the language of the VPs, then, form
+              a continuum against which the remaining texts of this study may be
+              viewed. The table above, arranged roughly chronologically from
+              left to right, summarises the developments in the Minora of the sound
+              changes which are synchronic in the early texts. The data from these
+              sources are, of course, extremely scant, and there are large gaps in this
+              table. They do however offer a glimpse into an otherwise unrecorded
+              period. Of these texts, BIG I, LorPr and RoyGl do not depart from the
+              language of VPs. Since both LorPr and RqyGl derive from manuscripts
+              with western connections, their language argues for a westerly
+              provenance or dominant influence in the scribe of the VPs gloss. The
+              only other clearly localisable text is the Codex Aureus (CA) inscription;
+              it shows the variety of Mercian Old English to have been found in
+
+
+                          449
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Thomas E. Toon
+
+
+             Surrey. The Leiden Glossary is a Germanised corruption of the
+             continental glossary tradition best preserved in the EpGl and ErfGl.
+             The remaining texts, to varying degrees, exhibit some of the changes
+             which are synchronic in the major Mercian texts. Because of the very
+             nature of Mercian political control (overlords ruling subkings), one
+             would not expect to find total diffusion of Mercian speech charac-
+             teristics throughout all of England. It is certainly telling that Mercian
+             features are most heavily concentrated in western manuscripts.
+                R. M. Wilson (1959), while agreeing that the psalter (and its related
+             texts) 'shows no distinctively Northumbrian, Kentish, or West Saxon
+             forms', claims 'it does not follow from this that it must be Mercian'.
+             For him, our knowledge of early Old English dialects is too scant to
+             make any such designation. The texts, he argues, cannot be precisely
+             located and might be from East Anglia, Essex or Sussex rather than
+             from Mercia. His argument fails on several points. First, even if the texts
+             did originate outside of Mercia proper, they were certainly produced
+             during the period of Mercian political ascendancy. Some sociolinguistic
+             perspective is needed at this point. All of the early Old English texts
+             (including the charters) were produced by a small subsegment of the
+             linguistic population. We will never know how the non-literate Anglo-
+             Saxons spoke, but we do have an accurate record of how changes in
+             speech influenced those who experimented in writing English. Not only
+             were the educated a small minority, they were also all products of (or
+             closely related with) the great religious houses of Anglo-Saxon England.
+             One need only look at the lists of abbots and bishops to discover that
+             Mercian kings appointed Mercians to positions of authority. It is likely
+             therefore that the speech of the religious tended towards the prestigious
+             variety of the Mercian overlords, abbots and bishops. The presence of
+             Mercian letter forms and linguistic forms has been abundantly
+             documented in the so-called 'Kentish' charters of the Mercian period.
+             Wilson further rejects the term 'Mercian' because he expects there to be
+             only one variety of Mercian. He demands a linguistic homogeneity
+             atypical of viable speech communities, especially communities which
+             are joined by loose political bonds. If a text is non-Northumbrian, non-
+             West Saxon and non-Kentish and written when Mercian kings were in
+             control, it seems sensible to consider its language to represent part of the
+             Mercian linguistic continuum. In addition, the very similar EpGl,
+             ErfGl, CorpGl and VPs are extremely close linguistically to both the
+             LorPr and RqyGl the texts of which have clear associations with the
+             West Midlands. Since the occurrence of Mercian features (phonological
+
+
+
+                          45°
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+                          Old English dialects
+
+
+             and orthographic) rises and falls in the charters with Mercian political
+             fortunes, one has every reason to consider the texts representative of
+             heterogeneity in the Mercian speech community.
+                If we can accept the notion of a political, social, roughly chrono-
+             logically sensitive Old English dialectology, early manuscript variation
+             will cease to be a source of confusion. More importantly, that variation
+             and the data provided by twelve hundred years of nearly continuously
+             attested language variation and change can become an important tool
+             from which modern linguistic science can learn more of the nature of
+             language change and language variation and with which it can test the
+             theories which it proposes to relate the two.
+
+
+                          FURTHER READING
+
+             There is, unfortunately, no full-scale study of Old English dialects such as
+             exists for Middle English and present-day English. The standard handbooks
+             such as Campbell (1959) and Brunner (1965) give an overview of the situation
+             in each dialect as it pertains to phonology and morphology. Of these Brunner
+             is particularly full, whilst Campbell has an extremely useful bibliography of
+             individual studies of dialect material. For the study of dialect variation in
+             vocabulary the most important recent study is Wenisch (1979), a monograph
+             more wide-ranging than its title suggests. Syntactic variation between dialects
+             has scarcely been studied and in any event the material is relatively meagre.
+                Current linguistic theory has yet had little impact on Old English dialect
+             study, although Toon (1983) is a substantial monograph and Hogg (1988) a
+             shorter article, both attempting to present a revised view of the dialect situation
+             in the light of recent sociolinguistic theory.
+
+
+
+
+                          45 1
+Downloaded from https://www.cambridge.org/core. University of Groningen, on 05 May 2018 at 12:55:47, subject to the Cambridge Core
+terms of use, available at https://www.cambridge.org/core/terms.
+                                   Cambridge Histories Online ©https://doi.org/10.1017/CHOL9780521264747.007
+                                                                 Cambridge University Press, 2008
+

@@ -1,7 +1,7 @@
 # SC034 OE Aw Long Diphthong — chronology evidence card
 
-## Current position
-- current_order: `34`
+## Position at experiment time
+- order_at_experiment_time: `34`
 - rule_name: `OEAwLongDiphthong`
 - safe computational window: `32-42`
 - status: `first_break_complete`

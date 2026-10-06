@@ -1,7 +1,7 @@
 # SC063 OE High Vowel Apocope — chronology evidence card
 
-## Current position
-- current_order: `63`
+## Position at experiment time
+- order_at_experiment_time: `63`
 - rule_name: `OEHighVowelApocope`
 - safe computational window: `56-71`
 - status: `first_break_complete`

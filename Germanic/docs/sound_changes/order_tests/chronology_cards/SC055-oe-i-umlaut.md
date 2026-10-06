@@ -1,7 +1,7 @@
 # SC055 OE I Umlaut — chronology evidence card
 
-## Current position
-- current_order: `55`
+## Position at experiment time
+- order_at_experiment_time: `55`
 - rule_name: `OEIUmlaut`
 - safe computational window: `53-55`
 - status: `first_break_complete`

@@ -28,7 +28,7 @@ Checked against `docs/refs.bib`:
 
 - `BrightCassidyRingler1971`
 - `Campbell1959`
-- `Hogg1992`
+- `HoggPhonology1992`
 - `Kroonen2013`
 - `Orel2003`
 - `SieversBrunner1965`

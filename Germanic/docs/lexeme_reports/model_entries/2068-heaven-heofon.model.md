@@ -78,7 +78,7 @@ The northern-WGmc / pre-OE → Old English development `*xébun` > `heofon`
 is regular and is the exact structural parallel of the independently regular
 numeral *seven*, `*sébun` > `seofon` (row 2174, `DERIVATION_CLASS` regular).
 Both have a medial *u* and a labial, and both undergo West Saxon back umlaut of
-*e* before *u* across that labial [@RingeTaylor2014, 324; @Hogg1992]. The live
+*e* before *u* across that labial [@RingeTaylor2014, 324; @HoggGrammar1992]. The live
 traces run in lock-step (medial `u`-lowering, labial spirantization, back
 mutation, orthography). Ringe and Taylor explicitly treat *heaven* and *seven*
 as parallel back-umlaut examples, which is why *seven* is retained here as the

@@ -23,7 +23,7 @@ unstressed-vowel and weak-tail environment, but not as one of its major
 handbook centers. Hogg is useful because he keeps apocope, syncope, and later
 cluster simplification in the same late zone while warning against turning
 every internal CAPR step into a separate large historical law
-[@Hogg1992, pp. 120--121]. Ringe and Taylor provide the clearest staged late
+[@HoggPhonology1992, p. 121]. Ringe and Taylor provide the clearest staged late
 framework, but their strongest emphasis falls on the shortening/apocope core
 rather than on this narrower medial-lowering bridge
 [@RingeTaylor2014, §§6.7.3--6.8.4, 6.9.1--6.9.3]. Luick likewise supports the

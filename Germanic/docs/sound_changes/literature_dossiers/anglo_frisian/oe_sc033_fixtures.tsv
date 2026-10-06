@@ -1,0 +1,4 @@
+fixture_id	row_id	probe	baseline_prediction	variant_prediction	recipe	source_key	printed_pages
+knee-singleton	2085	after_sc033	*k*n*ēo*w*ą	*k*n*é*w*ą	sc033-singleton-short	RingeTaylor2014	187-188,387
+knee-short-breaking	2085	after_breaking	*k*n*ēo*w*ą	*k*n*éo*w*ą	sc033-singleton-short	RingeTaylor2014	187-188,387
+hue-j-created-control	2332	after_sc033	*x*ēo*w*w*j*ą	*x*ēo*w*w*j*ą	sc033-singleton-short	Campbell1959	46

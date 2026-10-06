@@ -23,7 +23,7 @@ Modelling what the field genuinely holds:
   placed at the **old SC004 head position**.
 - **SC004** = the general component, `*ai/*ái > *ā` (EAF / North Sea Germanic,
   later), placed in the **EAF corridor: immediately after SC028
-  `PNWGmcPreconsonantalXLoss`, before SC029 `OEAwjGlideFormation`**.
+  `PNWGmcPreconsonantalXLoss`, before SC029 `OEAwwjResolution`**.
 - The old SC014 `{*ăi} -> {*ē}` no-op is removed (a documented remnant, DEV_NOTES
   §17.12; `*ăi` occurs in 0 corpus rows).
 

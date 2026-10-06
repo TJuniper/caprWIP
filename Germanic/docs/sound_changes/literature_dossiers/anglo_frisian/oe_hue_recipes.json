@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "baseline_fst_sha256": "235fb9cf07cf40d0e00181c2959b7ada5c2852c85d231b6c1caa3dccad3074f9",
+  "baseline_corpus_sha256": "0c3646e37e872bb0f386bf988b1ef032f2104546ad3dde8d43113ec87201bc89",
+  "baseline_context_sha256": "6a69a8d450a0ad5898bed7150136dc70e5731422c29803608825cdefc6b0f914",
+  "baseline_context_helper_sha256": "b770b83ffc2bd863c9cd5dec6bcae67ecda60efe8ce0af7fa8cdf136e077b961",
+  "fixture_file": "oe_hue_fixtures.tsv",
+  "recipes": [
+    {
+      "id": "identity",
+      "description": "Released post-knee full-wrapper identity.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [],
+      "assumptions": "Technical identity control.",
+      "limitations": "Output identity does not establish historical correctness."
+    },
+    {
+      "id": "hue-inherited-i",
+      "description": "Isolate Ringe-Taylor's explicit PGmc i input from all downstream component corrections.",
+      "definitions": "",
+      "insert_after": "",
+      "insert_rule": "",
+      "replace": {},
+      "sources": [
+        {"key": "RingeTaylor2014", "pages": "250"},
+        {"key": "Ringe2017", "pages": "151-153"},
+        {"key": "Fulk2018", "pages": "59"},
+        {"key": "Kroonen2013", "pages": "224"},
+        {"key": "Orel2003", "pages": "171-172"}
+      ],
+      "assumptions": "Ringe-Taylor explicitly prints PGmc hiwja with nasal final a. CAPR normalizes the dorsal to x and adds lexical stress, giving *xiwja with acute i. Orel's xewjan and Kroonen's heuja remain competing author reconstructions, not silently reclassified pre-PGmc forms.",
+      "limitations": "Input-only diagnostic. The incumbent later long eo representation remains; matching hiew does not validate it or authorize an input/citation/baseline edit.",
+      "input_overrides": [
+        {"row_id": "2332", "baseline_input": "*xéwją", "variant_input": "*xíwją", "input_stage": "pgmc"}
+      ],
+      "component_checks": [
+        {"id": "i-geminates", "component": "PWGmcJGemination", "input": "*x*í*w*j*ą", "expected": "*x*í*w*w*j*ą"},
+        {"id": "incumbent-long-eo-proxy", "component": "OEEwLongDiphthong", "input": "*x*í*w*w*j*ą", "expected": "*x*ēo*w*w*j*ą"}
+      ],
+      "staged_checks": [
+        {"id": "input-only-native", "stage": "EnglishProtoInput", "side": "after", "input": "*x*í*w*j*ą", "expected": "hīew", "evidence": "RingeTaylor2014 p.250 gives PGmc hiwja and early WS hiew; this diagnostic retains the acknowledged incumbent long-eo proxy."}
+      ]
+    },
+    {
+      "id": "hue-source-chain",
+      "description": "Inherited PGmc i, j-created iww-to-iuw reanalysis and conditioned long-io realization, using existing diphthong mutation.",
+      "definitions": "define AFJW [\n {*i} {*w} {*w} -> {*iu} {*w} || _ {*j},\n {*í} {*w} {*w} -> {*íu} {*w} || _ {*j}\n];\ndefine AFReal [\n [ [{*iu}|{*íu}] -> {*īo} || _ {*w} {*j} ]\n .o. OEDiphthongLeveling\n];\ndefine AFNoop [ ?* ];",
+      "insert_after": "OEEwLongDiphthong",
+      "insert_rule": "AFNoop",
+      "replace": {"OEEwLongDiphthong": "AFJW", "OEDiphthongLeveling": "AFReal"},
+      "sources": [
+        {"key": "RingeTaylor2014", "pages": "53,171-175,250"},
+        {"key": "Ringe2017", "pages": "151-153"},
+        {"key": "Campbell1959", "pages": "42,46"},
+        {"key": "Fulk2018", "pages": "59,71-72"},
+        {"key": "Kroonen2013", "pages": "224"},
+        {"key": "Orel2003", "pages": "171-172"}
+      ],
+      "assumptions": "Defended Ringe-Taylor working chain at p.250: PGmc hiwja, PWGmc palatalized iww, iuw, pre-OE long iow, WS long iew. CAPR ww+j and w+j serialize the source's palatalized geminate/semivowel conditioning; they do not assert its uncertain phonemic analysis. The distinct j-created reanalysis precedes a specifically conditioned long-io realization; ordinary inherited au/eu/iu consumers remain unchanged.",
+      "limitations": "Private candidate, not adopted production or corpus fields. Fulk pp.71-72 disputes conventional j-created geminate dismantling, illustrated by strew/new; this is a substantive alternative, not erased by preserved finals. E-input dictionary conventions and their claimed PGmc stage remain explicit disagreement. SC106 stays composed for domain comparison although the candidate hue no longer feeds it. No general endingless or analogy repair is claimed.",
+      "input_overrides": [
+        {"row_id": "2332", "baseline_input": "*xéwją", "variant_input": "*xíwją", "input_stage": "pgmc"}
+      ],
+      "component_checks": [
+        {"id": "i-geminates", "component": "PWGmcJGemination", "input": "*x*í*w*j*ą", "expected": "*x*í*w*w*j*ą"},
+        {"id": "j-created-i-reanalysis", "component": "AFJW", "input": "*x*í*w*w*j*ą", "expected": "*x*íu*w*j*ą"},
+        {"id": "unmarked-i-reanalysis", "component": "AFJW", "input": "*x*i*w*w*j*ą", "expected": "*x*iu*w*j*ą"},
+        {"id": "mirth-component-reanalysis", "component": "AFJW", "input": "*g*l*i*w*w*j*a", "expected": "*g*l*iu*w*j*a"},
+        {"id": "unraised-e-not-invented", "component": "AFJW", "input": "*x*é*w*w*j*ą", "expected": "*x*é*w*w*j*ą"},
+        {"id": "awj-separate", "component": "AFJW", "input": "*x*á*w*w*j*ą", "expected": "*x*á*w*w*j*ą"},
+        {"id": "singleton-iwj-negative", "component": "AFJW", "input": "*b*í*w*j*a", "expected": "*b*í*w*j*a"},
+        {"id": "nonpalatal-iww-negative", "component": "AFJW", "input": "*b*í*w*w*a", "expected": "*b*í*w*w*a"},
+        {"id": "inherited-iu-glide-negative", "component": "AFJW", "input": "*b*íu*w*a", "expected": "*b*íu*w*a"},
+        {"id": "conditioned-long-io", "component": "AFReal", "input": "*x*íu*w*j*ą", "expected": "*x*īo*w*j*ą"},
+        {"id": "unmarked-long-io", "component": "AFReal", "input": "*x*iu*w*j*ą", "expected": "*x*īo*w*j*ą"},
+        {"id": "ordinary-inherited-iu-control", "component": "AFReal", "input": "*b*íu*w*a", "expected": "*b*ēo*w*a"},
+        {"id": "ordinary-eu-control", "component": "AFReal", "input": "*b*éu*w*a", "expected": "*b*ēo*w*a"},
+        {"id": "ordinary-aeu-control", "component": "AFReal", "input": "*b*áeu*w*a", "expected": "*b*ēa*w*a"},
+        {"id": "split-short-eu-control", "component": "AFReal", "input": "*b*é*u*w*a", "expected": "*b*éo*w*a"},
+        {"id": "split-short-iu-control", "component": "AFReal", "input": "*b*i*u*w*a", "expected": "*b*eo*w*a"},
+        {"id": "short-io-not-lengthened", "component": "AFReal", "input": "*b*io*w*j*a", "expected": "*b*io*w*j*a"},
+        {"id": "existing-long-io-mutation", "component": "OEIUmlaut", "input": "*x*īo*w*j", "expected": "*x*īe*w*j"},
+        {"id": "existing-short-io-mutation", "component": "OEIUmlaut", "input": "*b*io*w*j", "expected": "*b*ie*w*j"}
+      ],
+      "staged_checks": [
+        {"id": "pgmc-native-hue", "stage": "EnglishProtoInput", "side": "after", "input": "*x*í*w*j*ą", "expected": "hīew", "evidence": "RingeTaylor2014 p.250: explicit inherited PGmc i and early WS long hiew. Encoded input begins after the standard input parser."},
+        {"id": "j-created-preoe-long-io", "stage": "OEEwLongDiphthong", "side": "before", "stop_after": "OEDiphthongLeveling", "input": "*x*í*w*w*j*ą", "expected": "*x*īo*w*j*ą", "evidence": "RingeTaylor2014 p.250: iww with palatalized w becomes iuw, then pre-OE long iow with a still-palatalizing semivowel; w+j is CAPR's explicit conditioning carrier."},
+        {"id": "j-created-native-hue", "stage": "OEEwLongDiphthong", "side": "before", "input": "*x*í*w*w*j*ą", "expected": "hīew", "evidence": "Campbell1959 p.46 and RingeTaylor2014 p.250: selected early WS target with long ie and retained w."},
+        {"id": "knee-native-protected", "stage": "EnglishProtoInput", "side": "after", "input": "*k*n*é*w*ai", "expected": "cneowe", "evidence": "Released regular dative: HoggGrammar2011 pp.21-22,86; Fulk2018 p.147. No renewed singleton lengthening."}
+      ]
+    }
+  ],
+  "probes": [
+    {"id": "after_gemination", "stage": "PWGmcJGemination", "side": "after"},
+    {"id": "after_sc033", "stage": "OEEwLongDiphthong", "side": "after"},
+    {"id": "after_sc106", "stage": "OEJWWSimplification", "side": "after"},
+    {"id": "after_realization", "stage": "OEDiphthongLeveling", "side": "after"},
+    {"id": "after_fronting", "stage": "EAFBrightening", "side": "after"},
+    {"id": "after_breaking", "stage": "OEBreaking", "side": "after"},
+    {"id": "after_palatal", "stage": "OEVelarPalatalization", "side": "after"},
+    {"id": "after_mutation", "stage": "OEIUmlaut", "side": "after"}
+  ]
+}

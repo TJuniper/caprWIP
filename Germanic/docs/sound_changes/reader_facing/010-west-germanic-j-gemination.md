@@ -9,7 +9,7 @@ The change applies specifically after a short vowel before \emph{*j}, not to gem
 ## SC010. West Germanic j-gemination (`PWGmcJGemination`) {#rule-PWGmcJGemination}
 
 ```foma
-define PWGmcJGemination [
+define PWGmcJGemination Ctx([
     {*p} -> {*p} {*p} || EnglishStarShortVowel _ {*j},
     {*b} -> {*b} {*b} || EnglishStarShortVowel _ {*j},
     {*t} -> {*t} {*t} || EnglishStarShortVowel _ {*j},
@@ -23,7 +23,7 @@ define PWGmcJGemination [
     {*l} -> {*l} {*l} || EnglishStarShortVowel _ {*j},
     {*ŋ} -> {*ŋ} {*ŋ} || EnglishStarShortVowel _ {*j},
     {*x} -> {*x} {*x} || EnglishStarShortVowel _ {*j}
-];
+]);
 ```
 
 OE *nett* 'net' fixes the order because the syllabic-\emph{j} development would remove the glide that conditions gemination. If [SC011 PWGmcSyllabicJ](#rule-PWGmcSyllabicJ) precedes [SC010 PWGmcJGemination](#rule-PWGmcJGemination), PGmc [nátją]{.recon} ‘net’ yields [*nete*]{.pred} rather than expected OE *nett* 'net'. Earlier movement of gemination changes no output.

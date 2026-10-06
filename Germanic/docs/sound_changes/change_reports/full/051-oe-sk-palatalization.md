@@ -9,7 +9,7 @@ palatal *sc*. That is a real and recognizable historical development in the
 handbook tradition, even though it is usually presented as part of the broader
 Old English palatalization complex rather than as a wholly independent headline
 chapter [@Campbell1959, §170; @Campbell1959, §§440--441;
-@Hogg1992, pp. 106--107; @RingeTaylor2014, §6.4.1; @Luick1914, §168;
+@HoggPhonology1992, pp. 106--108; @RingeTaylor2014, §6.4.1; @Luick1914, §168;
 @Fulk2018, p. 28; @SieversBrunner1965, §91.a].
 
 This report is therefore deliberately narrow. It treats SC051 as its own
@@ -27,8 +27,7 @@ assibilation, distinguishing the broad initial development from medial and final
 environments that still resist palatalization after back vowels
 [@Campbell1959, §170; @Campbell1959, §§440--441]. Hogg is especially clear that the cluster
 *sk* undergoes a parallel change to palatal *sc* and that this should be kept
-separate from later palatal diphthongization [@Hogg1992, pp. 106--107,
-111--112]. Ringe and Taylor are the sharpest guide to the chapter boundary:
+separate from later palatal diphthongization [@HoggPhonology1992, pp. 112--113]. Ringe and Taylor are the sharpest guide to the chapter boundary:
 they distinguish *sk* palatalization from later West Saxon diphthongization
 after initial palatals, which is exactly the distinction this report needs
 [@RingeTaylor2014, §§6.4.1, 6.5.1].
@@ -82,7 +81,7 @@ outputs such as *flæsce* and *wæscan* instead of the live back-vowel forms
 are *shaft*, *shear*, *sheath*, *sheep*, and *shield*, where delaying SC051
 beyond West Saxon palatal diphthongization removes the live *sċea-* / *sċie-*
 outcomes [@Campbell1959, §170; @Campbell1959, §§440--441;
-@Hogg1992, pp. 106--107; @Hogg1992, pp. 111--112;
+@HoggPhonology1992, p. 112; @HoggPhonology1992, pp. 112--113;
 @RingeTaylor2014, §6.4.1; @RingeTaylor2014, §6.5.1; @Fulk2018, p. 28;
 @Fulk2018, §4.13].
 
@@ -112,7 +111,7 @@ This report should stay narrow. It does not exhaust Old English palatalization,
 and it should not absorb SC052 or SC056 into a larger chapter by implication.
 The handbooks support SC051 as a real process, but they often discuss it inside
 the wider palatalization complex rather than as a fully isolated law
-[@Campbell1959, §170; @Campbell1959, §§440--441; @Hogg1992, pp. 106--107;
+[@Campbell1959, §170; @Campbell1959, §§440--441; @HoggPhonology1992, pp. 106--108;
 @RingeTaylor2014, §6.4.1; @Luick1914, §168].
 
 The chapter must also avoid duplicating the earlier SC052 hinge report

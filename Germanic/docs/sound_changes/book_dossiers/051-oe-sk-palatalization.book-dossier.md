@@ -128,3 +128,107 @@ the whole region into one promoted multi-change chapter.
 5. **Why `SC051` should stay narrower than the whole `SC049-SC052` cluster**
 6. **How the chapter relates to SC052 and SC056**
 7. **What remains unresolved in the surrounding palatalization/fronting region**
+
+## 11. P-sk component packet: consonant change is not later vowel treatment
+
+### Identity and question
+
+SOURCE-only research packet, 2026-10-03, branch `update`, base `67a18cfb`;
+prepared SC051 route, no new canonical decision. The comparative authority
+is the Anglo-Frisian synthesis §8.6. The falsifiable question is whether
+the current sk clauses represent one fully conditioned early sound change.
+Source distinctions between initial extension and medial/final restrictions,
+or a mismatch in back-vowel environments, would refute that identity claim
+without refuting the existence of OE sk palatalization.
+
+### Current state and literal incumbent
+
+Prepared characterization: OE, English-specific, unadjudicated.
+`OESkPalatalization` is five **serially composed** replacement blocks:
+
+```text
+s k -> ʃ || .#. _
+s k -> ʃ || EnglishStarFrontVowel _ (EnglishStarConsonant | .#.)
+s k -> ʃ || (EnglishStarConsonant | .#.) _ EnglishStarFrontVowel
+s k -> ʃ || _ j
+s k -> ʃ || j _
+```
+
+Parenthesized foma context members are optional, not required. Consequently
+the literal medial/final implementation is not equivalent to a prose
+requirement for flanking consonants or boundaries. The initial block is
+unconditional, including before back vowels. The marker ʃ represents an
+eventual reflex, not a measured date for the source's [sc]/[sç] articulation
+or subsequent sibilant outcome. Later sc-triggered vowel diphthongization
+is a distinct SC056 question.
+
+### Diagnosis: complete current firing census
+
+Fresh serial `SC051 --evidence` on 2026-10-03, with healthy backend,
+rebuilt stage bins and 387-row production/sandbox equality, changes
+**18/387** selected rows:
+
+```text
+2014 fish; 2020 flesh; 2175 shaft; 2176 shame; 2177 shear;
+2178 sheath; 2179 sheep; 2180 shield; 2181 shilling; 2182 shine;
+2183 shoulder; 2184 shove; 2185 shovel; 2186 show; 2187 shower;
+2253 thrash; 2317 show (iptv.2sg); 2318 show (3sg).
+```
+
+Fifteen are word-initial sk replacements; fish2014, flesh2020 and
+thrash2253 are noninitial applications. These are literal class membership,
+not fifteen independent observations of the early extension's date.
+All eighteen belong to the frozen legacy-380 population too.
+Sheath2178 passes `*skāθi > *ʃāθi`: the front vowel is created later
+by mutation. Sheep2179 passes `*skǣp > *ʃǣp`; shield2180 passes
+`*skéldu > *ʃéldu`. Wash2272 and flask2016 are unchanged here after
+restoration. They are negative interface controls, not live applications.
+An initial back-vowel preservation claim in the older scaffold above is
+therefore not the literal initial rule.
+
+### Literature and historical analysis
+
+Direct OE specification comes from Ringe–Taylor: initial sk originally
+before fronts; medial unless a back vowel follows; final unless a back vowel
+precedes; initial generalization before all vowels by about 900; a separate
+later sibilant realization and still later extension before r
+[@RingeTaylor2014, p. 204]. This establishes distinct layers and
+conditioned positions, not CAPR's exact five contexts as a single early event.
+The current unconditional initial block can be a corpus proxy for the
+generalized outcome; it cannot date that extension from sheep alone.
+
+Hogg explicitly excludes sk from his investigation
+[@Hogg1979, p. 112 n. 2]. Bremmer's Frisian sk nonpalatalization is
+comparative evidence, not the specification of an OE rewrite
+[@Bremmer2009, p. 30]. Laker's layered palatal analysis prevents equating
+articulation with merger/assibilation [@Laker2007, pp. 167–168, 175–184].
+The ordinary and later sc vowel histories have their own source constraints
+[@RingeTaylor2014, pp. 215–217, 235; @Campbell1959, pp. 68–69].
+
+### Recommendation, exact tests and boundary
+
+**RETAIN incumbent as the outcome control; DEFER a production split or
+restriction into early conditioning and later initial extension.**
+Exact proposed diff: **none**. No new chronology edge is inferred from
+the composite displacement relation to SC056.
+
+Prerequisites:
+
+1. Full 387-row identity/determinism assay, keeping all eighteen IDs
+   and the seven existing mismatch rows visible.
+2. Initial front-positive sheep2179/shield2180 versus initial
+   back-vowel sheath2178/shoulder2183/shovel2185, with separate
+   early-articulation and generalized-outcome checkpoints.
+3. Medial/final positive fish2014/flesh2020/thrash2253 versus
+   restored wash2272/flask2016 and a source-verified following-back
+   fixture. Inspect foma optional contexts explicitly; do not
+   silently turn a syntax repair into an approved scientific law.
+4. Preserve ordinary shaft2175/shear2177/sheep2179 PD inputs and
+   later sheath2178 mutation-product input. A PD success cannot date
+   consonantal sk articulation or initial extension.
+
+Each component/date/condition or marker change needs exact approval with
+row-level consequences; corpus fixtures remain non-corpus, with no approved
+admissions. No reader/registry/FST edit is made here; parent regenerates.
+Residue: precise early-versus-generalized initial realization and direct
+medial/final negative-input readiness, not an unsourced Frisian analogy.

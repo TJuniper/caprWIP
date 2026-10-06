@@ -90,7 +90,7 @@ The later failure set is broad and is best read as failed derivations. It does n
 
 ## Historical discussion of the West Saxon diphthong sequence
 
-The four rules gathered here belong to one West Saxon diphthongal zone, but they do not all arise from a single historical event. Campbell discusses inherited \emph{aw}/\emph{ew} outcomes, palatal-triggered diphthongization, and later Anglian smoothing in connected but separate parts of the vowel history, and Hogg likewise treats the palatal-diphthong side as real yet uneven [@Campbell1959, pp. 46, 53--54, 65--70, 95--96, §§120, 135--136, 170--176, 185, 223--227; @Hogg1992, pp. 106--107, 111--112].
+The four rules gathered here belong to one West Saxon diphthongal zone, but they do not all arise from a single historical event. Campbell discusses inherited \emph{aw}/\emph{ew} outcomes, palatal-triggered diphthongization, and later Anglian smoothing in connected but separate parts of the vowel history, and Hogg likewise treats the palatal-diphthong side as real yet uneven [@Campbell1959, pp. 46, 53--54, 65--70, 95--96, §§120, 135--136, 170--176, 185, 223--227; @HoggPhonology1992, p. 112].
 
 The closest interaction inside the sequence is between [SC031 OEWWSimplification](#rule-OEWWSimplification) and [SC034 OEAwLongDiphthong](#rule-OEAwLongDiphthong), which together shape *dēaw* ‘dew’ and *hēawan* ‘hew’. [SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling) and [SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong) still belong here, but they point to different parts of the same history: [SC032 OEDiphthongLeveling](#rule-OEDiphthongLeveling) regularizes a wider diphthongal field, while [SC033 OEEwLongDiphthong](#rule-OEEwLongDiphthong) carries the long \emph{ēow} side into the later environment of [SC044 OEBreaking](#rule-OEBreaking).
 
@@ -336,7 +336,7 @@ The earlier boundary reaches across a wide stretch of the cascade and is best re
 
 ## Historical discussion
 
-This is a narrow prefatory rule. The handbooks do not isolate one large independent sound change under exactly this label. Still, the surviving bimoric \emph{*ō} pathway behind forms such as *ræste* ‘rest’ needs to be stated explicitly if the sequence is to begin cleanly before [SC043 AngloFrisianBrightening](#rule-AngloFrisianBrightening). Campbell, Hogg, and Ringe and Taylor all make the surrounding fronting and restoration region historically intelligible even when this particular feeder step remains model-shaped [@Campbell1959, pp. 52, 60, §§131, 157--158; @Hogg1992, pp. 101, 119; @RingeTaylor2014, pp. 157--158, 189--190].
+This is a narrow prefatory rule. The handbooks do not isolate one large independent sound change under exactly this label. Still, the surviving bimoric \emph{*ō} pathway behind forms such as *ræste* ‘rest’ needs to be stated explicitly if the sequence is to begin cleanly before [SC043 AngloFrisianBrightening](#rule-AngloFrisianBrightening). Campbell, Hogg, and Ringe and Taylor all make the surrounding fronting and restoration region historically intelligible even when this particular feeder step remains model-shaped [@Campbell1959, pp. 52, 60, §§131, 157--158; @HoggPhonology1992, pp. 102, 105; @RingeTaylor2014, pp. 157--158, 189--190].
 
 That is enough for a short reader-facing note. The rule belongs here because it closes a small architectural seam on the left side of the brightening chapter, not because it should rival the broader historical weight of the chapters that follow.
 
@@ -362,7 +362,7 @@ The rule is therefore real, but still best treated as a short feeder note. Its e
 
 ## Historical discussion
 
-This chapter carries more historical weight than the narrow note before it. The change usually called Anglo-Frisian Brightening or First Fronting turns low \emph{*a} into fronted \emph{*æ}-type outcomes outside nasal environments, and later Old English developments repeatedly presuppose that fronted stage even when they partly conceal it. Campbell gives the classical statement of the fronting itself, Hogg supplies the standard modern label pair, and Ringe and Taylor make the local chronology with breaking and restoration unusually clear [@Campbell1959, p. 52, §131; @Hogg1992, pp. 101, 119; @RingeTaylor2014, pp. 157--158, 189--190; @Fulk2018, pp. 73--74, §§4.12--4.13].
+This chapter carries more historical weight than the narrow note before it. The change usually called Anglo-Frisian Brightening or First Fronting turns low \emph{*a} into fronted \emph{*æ}-type outcomes outside nasal environments, and later Old English developments repeatedly presuppose that fronted stage even when they partly conceal it. Campbell gives the classical statement of the fronting itself, Hogg supplies the standard modern label pair, and Ringe and Taylor make the local chronology with breaking and restoration unusually clear [@Campbell1959, p. 52, §131; @HoggPhonology1992, pp. 102, 105; @RingeTaylor2014, pp. 157--158, 189--190; @Fulk2018, pp. 73--74, §§4.12--4.13].
 
 That is why the chapter is more than a general handbook excursus. The finite-state evidence shows that the rule fronts a vowel and also creates the input that [SC044 OEBreaking](#rule-OEBreaking) must read and that [SC046 OEARestoration](#rule-OEARestoration) later partly reverses before back vowels.
 
@@ -507,7 +507,7 @@ That combination explains the chapter’s internal hierarchy. [SC046 OEARestorat
 The first change is the positional alternation of Germanic \emph{*b}. Hogg
 states the Old English distribution clearly: /b/ is a stop initially, after
 nasals, and in gemination, while the same segment is otherwise realized as a
-voiced bilabial fricative [@Hogg1992, pp. 101--102]. Ringe and Taylor support
+voiced bilabial fricative [@HoggPhonology1992, p. 108]. Ringe and Taylor support
 the broader West Germanic background by treating Proto-West-Germanic \emph{*b} as a
 segment whose stop and fricative values depend on position
 [@RingeTaylor2014, p. 121], and Luick's spelling evidence shows the same labial
@@ -596,7 +596,7 @@ cluster from plain velars when he remarks that \emph{*sk} is especially prone to
 palatalization and assibilation [@Campbell1959, p. 278, §440]. Hogg gives the
 same change a clearer structural place by treating \emph{*sk} beside the palatalization
 of plain velars and before the later West Saxon diphthongal developments
-[@Hogg1992, pp. 106--107, 111--112]. Ringe and Taylor make the same sequence
+[@HoggPhonology1992, pp. 107, 112]. Ringe and Taylor make the same sequence
 explicit when they distinguish the earlier palatalization of velars and \emph{*sk} from
 the later diphthongization after already palatal consonants
 [@RingeTaylor2014, pp. 213--216, §§6.4.1, 6.5.1].
@@ -682,7 +682,7 @@ into one process [@Campbell1959, pp. 69--72, 89, §§170, 190--191].
 
 Hogg makes the conditioning sharper still. He states that the change takes place
 when the velar consonant is adjacent to and in the same syllable as a front
-vowel or the palatal consonant `j` [@Hogg1992, pp. 103--104]. This formulation
+vowel or the palatal consonant `j` [@HoggPhonology1992, p. 106]. This formulation
 is important because it moves the discussion from a broad list of palatal
 outcomes to a more precise phonological environment involving adjacency and
 syllable structure.
@@ -912,11 +912,11 @@ system, including forms such as *giest* ‘guest’, *giefan* ‘give’, *hierd
 ‘shepherd’, and *ieldra* ‘older’ [@Campbell1959, pp. 69--72, §§190--197].
 
 Hogg continues in the same vein: “we come now to a change which is almost as
-uncontroversial as it is important” [@Hogg1992, p. 112]. His examples, such as
+uncontroversial as it is important” [@HoggPhonology1992, p. 113]. His examples, such as
 *bryd* ‘bride’, *trymman* ‘strengthen’, *bedd* ‘bed’, *ciest* ‘chest’, and
 *wiersa* ‘worse’, likewise emphasize that the change is a broad redistribution
-of vowel quality across the Old English vowel system [@Hogg1992,
-pp. 112--114].
+of vowel quality across the Old English vowel system [@HoggPhonology1992,
+pp. 113--114].
 
 The narrower palatal-diphthongal material is described differently. Ringe and
 Taylor treat West-Saxon diphthongization after initial palatals as a distinct
@@ -1022,7 +1022,7 @@ This narrower subrule matters because the sources do not describe umlaut as
 simple fronting alone. Campbell explicitly notes that the low front vowel
 changes again before `m` and `n` in most dialects [@Campbell1959, p. 69, §190],
 and Hogg likewise treats short front vowels as part of the same assimilatory
-system [@Hogg1992, p. 112].
+system [@HoggPhonology1992, p. 112].
 
 ## SC055. Diphthongal outcomes under i-umlaut (`OEIUmlautDiphthong`) {#rule-OEIUmlautDiphthong}
 
@@ -1055,7 +1055,7 @@ shaped differently.
 The relevant examples are the recurring West-Saxon `ie` forms cited in the
 handbooks, including *giest* ‘guest’, *giefan* ‘give’, and *hierde*
 ‘shepherd’ in Campbell and *ciest* ‘chest’ in Hogg
-[@Campbell1959, pp. 69--72, 78--80, §§190--191, 248--251; @Hogg1992,
+[@Campbell1959, pp. 69--72, 78--80, §§190--191, 248--251; @HoggPhonology1992,
 pp. 112--114]. The present formalization keeps those diphthongal outcomes
 visible as a distinct part of the general umlautal development and does not
 leave them implicit under the broad description of fronting.
@@ -1136,7 +1136,7 @@ illustrate the rule with forms such as *gieldan* ‘pay’, *scield* ‘shield�
 *scieppan* ‘create’, where an already palatal consonant triggers the diphthongal
 outcome [@RingeTaylor2014, pp. 215--216, §6.5.1]. Hogg’s *giefan* ‘give’ and
 *sceap* ‘sheep’ material belongs to the same phonological zone
-[@Hogg1992, pp. 108--109], while Fulk distinguishes this
+[@HoggPhonology1992, p. 112], while Fulk distinguishes this
 palatal-consonant-triggered diphthongization from the broad front-mutation
 process [@Fulk2018, p. 74, §4.13].
 
@@ -1225,7 +1225,7 @@ spelling *enitre* in his text) without isolating a separate law around them
 in a discussion of suffixal variation and does not set them off in any special
 section on nasal dissimilation [@Campbell1959, p. 155]. Hogg mentions *heofon*
 ‘heaven’ in the course of his account of back mutation, again without isolating
-a separate law [@Hogg1992, p. 112].
+a separate law [@HoggPhonology1992, p. 112].
 
 Fulk supplies the clearest general formulation: “In the cluster mn, the first
 consonant tends to lose its nasality by dissimilation, though the results are
@@ -1268,7 +1268,7 @@ illustrates it with *heofon* ‘heaven’ and *fæstenn* ‘fasting’
 in *enetre* ‘yearling’ [@RingeTaylor2014, p. 282]. Campbell’s “heofon is for
 older hefzen” and Hogg’s sequence \emph{*hefon > heofon} preserve outcomes
 of the same kind as those modeled here [@Campbell1959, p. 155;
-@Hogg1992, p. 112]. The formal rule is therefore narrower than the total set of
+@HoggPhonology1992, p. 112]. The formal rule is therefore narrower than the total set of
 handbook remarks: it models one plausible recurrent environment and does not
 claim to exhaust every dissimilatory development involving nasals.
 
@@ -1287,7 +1287,7 @@ Even so, the rule has real interpretative consequences. It provides a place in
 the implementation for outcomes of the *heofon* ‘heaven’, *fæstenn* ‘fasting’,
 and *enetre* ‘yearling’ type discussed in the literature [@Fulk2018, p. 121,
 §6.11; @RingeTaylor2014, p. 282; @Campbell1959, p. 155; @Luick1914, p. 166;
-@Hogg1992, p. 112]. Without an explicit rule, those outcomes would be left to
+@HoggPhonology1992, p. 112]. Without an explicit rule, those outcomes would be left to
 diffuse analogy or to unexplained exception lists.
 
 The evidence points to a narrow dissimilatory tendency, especially in `mn`-type
@@ -1307,7 +1307,7 @@ it as a later Old English diphthongizing development before following back
 vowels, and his examples already show why forms such as *heofon* ‘heaven’ are
 historically legible outcomes in their own right
 [@Campbell1959, p. 86, §207]. Hogg treats the same development as a later change with
-clear parallels to breaking [@Hogg1992, p. 112]. Ringe and Taylor sharpen the
+clear parallels to breaking [@HoggPhonology1992, p. 112]. Ringe and Taylor sharpen the
 picture by distinguishing West Saxon forms such as *giefan* ‘give’ and *wefan*
 ‘weave’ from non-West-Saxon forms such as *geofad* and *weofan*
 [@RingeTaylor2014, p. 319, §6.9.4]. Fulk likewise treats back mutation as a distinct
@@ -1416,7 +1416,7 @@ boundary is available.
 The development belongs to the narrower end of the later weak-tail sequence. It is historically
 legible through the pathway that leads to *dōn* ‘do’, and the broader late
 weak-tail setting is supported by the usual handbook discussions of apocope and
-related reduction [@Campbell1959, pp. 144--145, §§345--349; @Hogg1992, pp. 120--121;
+related reduction [@Campbell1959, pp. 144--145, §§345--349; @HoggPhonology1992, p. 121;
 @Fulk2018, p. 91, §5.6]. But the decisive lexical tie lies much farther back in the
 sequence, in the older development of \emph{*dōną}. That keeps the note real,
 while also keeping it small.
@@ -1461,7 +1461,7 @@ development.
 
 ## Historical discussion
 
-By this point in the sequence the main palatal and umlautal changes are already in place, but weak-tail reduction is not finished. Final high vowels still survive in many forms until a late apocope removes them after heavy syllables and in the relevant trisyllabic patterns. Campbell, Hogg, Ringe and Taylor, and Fulk all describe this as a real Old English development, even when they differ over how much of the surrounding syncope material should be grouped with it [@Campbell1959, pp. 144--145, §§345--349; @Hogg1992, p. 120; @RingeTaylor2014, pp. 284--303, §§6.8.1, 6.8.4; @Fulk2018, p. 91, §5.6].
+By this point in the sequence the main palatal and umlautal changes are already in place, but weak-tail reduction is not finished. Final high vowels still survive in many forms until a late apocope removes them after heavy syllables and in the relevant trisyllabic patterns. Campbell, Hogg, Ringe and Taylor, and Fulk all describe this as a real Old English development, even when they differ over how much of the surrounding syncope material should be grouped with it [@Campbell1959, pp. 144--145, §§345--349; @HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 284--303, §§6.8.1, 6.8.4; @Fulk2018, p. 91, §5.6].
 
 The rule matters because it makes many familiar Old English forms look abruptly shorter than their earlier stages. It is also a good place to show how finite-state chronology works. The derivation can say exactly which forms fail if apocope is moved too early or too late, so the late weak-tail sequence becomes visible through concrete lexical breakpoints and explicit ordering statements.
 
@@ -1529,7 +1529,7 @@ That placement is historically apt. The rule must come late enough for umlautal 
 
 ## Historical discussion of post-apocope \emph{*n}-loss and medial syncope
 
-After high-vowel apocope the weak tail is still not entirely settled. Hogg, Ringe and Taylor, and Fulk all describe a late region in which further medial reduction and cluster pressure remain active, even though the evidence is much less even than it was for the main apocope rule [@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 264--303, §§6.7.3--6.8.4; @Fulk2018, p. 91, §5.6]. The inherited \emph{*furht-} family adds one especially narrow witness of its own, because it shows that a single surviving nasal can still decide whether the weak-tail output is right or wrong [@Kroonen2013, p. 201].
+After high-vowel apocope the weak tail is still not entirely settled. Hogg, Ringe and Taylor, and Fulk all describe a late region in which further medial reduction and cluster pressure remain active, even though the evidence is much less even than it was for the main apocope rule [@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 264--303, §§6.7.3--6.8.4; @Fulk2018, p. 91, §5.6]. The inherited \emph{*furht-} family adds one especially narrow witness of its own, because it shows that a single surviving nasal can still decide whether the weak-tail output is right or wrong [@Kroonen2013, p. 201].
 
 This chapter is therefore intentionally modest. One rule has real positive chronology on both sides, but only through a single witness family. The other belongs naturally to the same late region without yet producing a comparably sharp first-break result. Keeping both visible makes the weak-tail aftermath more honest than either silence or overstatement would.
 
@@ -1567,7 +1567,7 @@ define OEMedialSyncope [
 ];
 ```
 
-In prose, it deletes medial \emph{*i} before a following dental after a heavy syllable. The broader historical background is secure enough, since the handbooks do treat late medial syncope as part of the same weak-tail region [@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 264--303, §§6.7.3--6.8.4; @Fulk2018, p. 91, §5.6].
+In prose, it deletes medial \emph{*i} before a following dental after a heavy syllable. The broader historical background is secure enough, since the handbooks do treat late medial syncope as part of the same weak-tail region [@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 264--303, §§6.7.3--6.8.4; @Fulk2018, p. 91, §5.6].
 
 The finite-state chronology is much weaker, however. If the rule is moved earlier, the current tests find no real break before the search reaches bundled earlier material. If the rule is delayed, the tests likewise find no real break before the current search boundary. No exact wrong early or late output is currently available, so this section remains boundary-limited and does not claim a sharper relation than the evidence supports.
 
@@ -1579,7 +1579,7 @@ That limitation is worth stating plainly. Late medial syncope belongs in the his
 
 ## Historical discussion of late syncope and degemination
 
-Once later medial syncope begins to bite, the language inherits new consonant clusters that do not always remain stable. Hogg and Ringe and Taylor both describe this connection between vowel loss and later consonant simplification, while Brunner's discussion of *netle* ‘nettle’ beside later *netele* keeps the syncope evidence tied to a concrete lexical type [@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 264--296, §§6.7.3--6.8.2; @SieversBrunner1965, pp. 144--145, §§158--159]. Fulk is especially useful for the larger timing, because he places this syncope after i-umlaut [@Fulk2018, p. 91, §5.6].
+Once later medial syncope begins to bite, the language inherits new consonant clusters that do not always remain stable. Hogg and Ringe and Taylor both describe this connection between vowel loss and later consonant simplification, while Brunner's discussion of *netle* ‘nettle’ beside later *netele* keeps the syncope evidence tied to a concrete lexical type [@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 264--296, §§6.7.3--6.8.2; @SieversBrunner1965, pp. 144--145, §§158--159]. Fulk is especially useful for the larger timing, because he places this syncope after i-umlaut [@Fulk2018, p. 91, §5.6].
 
 The resulting chapter has an uneven center of gravity. Syncope itself is well motivated, one downstream degemination rule has a clear lexical breakpoint, and the dental assimilation step between them is plausible without yet being independently well anchored. That imbalance is part of the point. The sequence shows how the transducer can make a narrow chain of consequences explicit without pretending that every member has the same evidential weight.
 
@@ -1619,7 +1619,7 @@ define OEDentalAssimilation [
 ];
 ```
 
-In prose, it removes \emph{*θ} after \emph{*t} when syncope has created an over-heavy dental cluster. That kind of cluster simplification is historically plausible as part of the same late sequence that follows syncope [@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 279--296, §§6.7.5, 6.8.2].
+In prose, it removes \emph{*θ} after \emph{*t} when syncope has created an over-heavy dental cluster. That kind of cluster simplification is historically plausible as part of the same late sequence that follows syncope [@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 279--296, §§6.7.5, 6.8.2].
 
 The chronology tests, however, do not yet isolate a positive earlier boundary or a positive later boundary for this rule. If the rule is moved earlier, the search reaches bundled earlier material without a real break. If it is delayed, the search likewise reaches the current search boundary without a real break. No exact wrong early or late output is currently available, so the section remains boundary-limited.
 
@@ -1651,7 +1651,7 @@ That one-sided profile is still meaningful. The rule is clearly later than the s
 
 ## Historical discussion
 
-By the time the sequence reaches this point, the language has already undergone the larger palatal and umlautal reorganizations to the left. What now comes into view is a later weak-tail region in which unstressed vowels are shortened, fronted, merged, and in some forms lost altogether. Campbell's discussion of early shortening of unaccented long vowels helps place this material in the larger history, while Hogg, Ringe and Taylor, and Fulk all describe the same late region through the intertwined history of apocope, syncope, shortening, and later reductions [@Campbell1959, p. 148, §355; @Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3; @Fulk2018, pp. 90--96, §§5.6--5.7].
+By the time the sequence reaches this point, the language has already undergone the larger palatal and umlautal reorganizations to the left. What now comes into view is a later weak-tail region in which unstressed vowels are shortened, fronted, merged, and in some forms lost altogether. Campbell's discussion of early shortening of unaccented long vowels helps place this material in the larger history, while Hogg, Ringe and Taylor, and Fulk all describe the same late region through the intertwined history of apocope, syncope, shortening, and later reductions [@Campbell1959, p. 148, §355; @HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3; @Fulk2018, pp. 90--96, §§5.6--5.7].
 
 Early o-shortening belongs at the opening of that region, but it is not its strongest hinge. The evidence is broader and more distant than it is for the rules that follow, especially [SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly) and [SC072 OEUnstressedLongVowelShortening](#rule-OEUnstressedLongVowelShortening). The rule therefore works best as an opening note that makes the chronology legible without pretending that the whole late weak tail begins and ends here.
 
@@ -1677,7 +1677,7 @@ No equally sharp later breakpoint appears within the tested range. The current s
 
 ## Historical discussion of early unstressed fronting and later o-shortening
 
-The next pair forms a clearer local hinge. Campbell's account of shortening of unaccented long vowels is still relevant here, but the real value of the pair lies in the way the finite-state derivation separates an earlier fronting stage from a later shortening stage. Hogg, Ringe and Taylor, and Fulk all place these developments inside the same late weak-tail region in which shortening, syncope, and final-vowel adjustment continue to interact [@Campbell1959, p. 148, §355; @Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3; @Fulk2018, pp. 90--96, §§5.6--5.7].
+The next pair forms a clearer local hinge. Campbell's account of shortening of unaccented long vowels is still relevant here, but the real value of the pair lies in the way the finite-state derivation separates an earlier fronting stage from a later shortening stage. Hogg, Ringe and Taylor, and Fulk all place these developments inside the same late weak-tail region in which shortening, syncope, and final-vowel adjustment continue to interact [@Campbell1959, p. 148, §355; @HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3; @Fulk2018, pp. 90--96, §§5.6--5.7].
 
 The hierarchy inside the pair is not flat. [SC070 OEUnstressedFrontingEarly](#rule-OEUnstressedFrontingEarly) is the stronger hinge because it has an earlier and a later lexical breakpoint. [SC071 OELateOShortening](#rule-OELateOShortening) confirms the same seam from the right, but its later side remains open within the tested range. That imbalance is historically useful: it shows how the late weak tail is held together by small but concrete lexical breakpoints, not by one single undifferentiated rule.
 
@@ -1717,7 +1717,7 @@ This one-sided profile is appropriate to the chapter. [SC071 OELateOShortening](
 
 ## Historical discussion of unstressed long-vowel shortening and ae-merger
 
-This pair is the strongest internal seam in the late weak tail. Campbell's discussion of shortening of unaccented long vowels gives the classical background, while Ringe and Taylor place shortening of unstressed long vowels among the last prehistoric Old English changes and then carry the story forward into the immediately following developments [@Campbell1959, p. 148, §355; @Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3; @Fulk2018, pp. 90--96, §§5.6--5.7]. What the finite-state derivation adds is a very sharp distinction between the shortening itself and the later merger of unstressed \emph{*æ} with \emph{*e}.
+This pair is the strongest internal seam in the late weak tail. Campbell's discussion of shortening of unaccented long vowels gives the classical background, while Ringe and Taylor place shortening of unstressed long vowels among the last prehistoric Old English changes and then carry the story forward into the immediately following developments [@Campbell1959, p. 148, §355; @HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3; @Fulk2018, pp. 90--96, §§5.6--5.7]. What the finite-state derivation adds is a very sharp distinction between the shortening itself and the later merger of unstressed \emph{*æ} with \emph{*e}.
 
 That is why this chapter can be more substantial than the opening note or the earlier pair. [SC072 OEUnstressedLongVowelShortening](#rule-OEUnstressedLongVowelShortening) and [SC073 OEUnstressedAEMerger](#rule-OEUnstressedAEMerger) have a real reciprocal relation in the cards, and the chapter can show both sides of it directly. The pair also keeps its outward relations in view: [SC064 NWGmcInStemNLoss](#rule-NWGmcInStemNLoss) remains the earlier prerequisite for shortening, while [SC085 OEHLoss](#rule-OEHLoss) remains the later outward handoff from the merger.
 
@@ -1761,7 +1761,7 @@ The earlier side is broader than the later side, but both are real. That is why 
 
 ## Historical discussion of medial unstressed-i lowering and \emph{*ng} retention
 
-The next pair belongs to the same late weak-tail region as the shortening and merger chapter to the left, but it is smaller and more locally conditioned. Hogg and Ringe and Taylor both treat the late weakening and merger of unstressed vowels as part of a continuing history, and that background helps explain why the present chapter reads best as a narrow follow-on, not a new center of gravity [@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 327--332, §§6.9.5--6.9.6]. The specific value of the pair is derivational. [SC074 OEMedUnstressedILowering1](#rule-OEMedUnstressedILowering1) generalizes a medial unstressed-\emph{i} lowering, while [SC075 OEMedUnstressedILowering](#rule-OEMedUnstressedILowering) immediately narrows that result by preserving \emph{i} before \emph{*ng} in words of the *sċilling* ‘shilling’ type.
+The next pair belongs to the same late weak-tail region as the shortening and merger chapter to the left, but it is smaller and more locally conditioned. Hogg and Ringe and Taylor both treat the late weakening and merger of unstressed vowels as part of a continuing history, and that background helps explain why the present chapter reads best as a narrow follow-on, not a new center of gravity [@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 327--332, §§6.9.5--6.9.6]. The specific value of the pair is derivational. [SC074 OEMedUnstressedILowering1](#rule-OEMedUnstressedILowering1) generalizes a medial unstressed-\emph{i} lowering, while [SC075 OEMedUnstressedILowering](#rule-OEMedUnstressedILowering) immediately narrows that result by preserving \emph{i} before \emph{*ng} in words of the *sċilling* ‘shilling’ type.
 
 That close interaction is why the two rules still belong in one small chapter. The history is not simply adjacency in the cascade. The second rule directly repairs the overbroad outcome that the first would otherwise leave behind in the \emph{*ng} environment. Even so, the pair remains narrower and more witness-limited than [SC072 OEUnstressedLongVowelShortening](#rule-OEUnstressedLongVowelShortening) and [SC073 OEUnstressedAEMerger](#rule-OEUnstressedAEMerger).
 
@@ -1803,7 +1803,7 @@ That one-sided profile is enough for a follower rule of this kind. It is histori
 
 ## Historical discussion
 
-Late weak-tail reduction does not affect only inflectional endings and medial vowels. Unstressed prefixes also weaken, and that smaller development deserves a visible place in the sequence even though its chronology is much less sharply fixed. Fulk is the clearest source here, since his discussion of vowels in prefixes makes forms like OE \emph{*be-} and \emph{*ne-} historically legible outcomes in their own right [@Fulk2018, p. 97, §5.7]. Hogg and Ringe and Taylor supply the broader late environment in which such weakening belongs, even though they do not isolate this rule as a major center of the late-tail history [@Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 298--332, §§6.8.3--6.9.6].
+Late weak-tail reduction does not affect only inflectional endings and medial vowels. Unstressed prefixes also weaken, and that smaller development deserves a visible place in the sequence even though its chronology is much less sharply fixed. Fulk is the clearest source here, since his discussion of vowels in prefixes makes forms like OE \emph{*be-} and \emph{*ne-} historically legible outcomes in their own right [@Fulk2018, p. 97, §5.7]. Hogg and Ringe and Taylor supply the broader late environment in which such weakening belongs, even though they do not isolate this rule as a major center of the late-tail history [@HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 298--332, §§6.8.3--6.9.6].
 
 That is enough for a short note, but not for a major chronology anchor. Prefix reduction belongs in the late weak tail, yet the current tests do not recover a positive earlier boundary or a positive later boundary for this specific rule.
 
@@ -1829,7 +1829,7 @@ That modest result is still useful. The rule has historical legitimacy from the 
 
 ## Historical discussion
 
-The last rule in the present late weak-tail cluster is stronger than the small prefix note that precedes it. Campbell, Hogg, Ringe and Taylor, and Fulk all support a late region in which apocope, shortening, contraction, and further weak-tail reductions continue to reshape final syllables [@Campbell1959, p. 148, §355; @Hogg1992, pp. 120--121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3; @Fulk2018, pp. 90--91, §5.6]. What makes the present rule stand out is that the finite-state chronology gives it a real boundary on both sides.
+The last rule in the present late weak-tail cluster is stronger than the small prefix note that precedes it. Campbell, Hogg, Ringe and Taylor, and Fulk all support a late region in which apocope, shortening, contraction, and further weak-tail reductions continue to reshape final syllables [@Campbell1959, p. 148, §355; @HoggPhonology1992, p. 121; @RingeTaylor2014, pp. 298--314, §§6.8.3--6.9.3; @Fulk2018, pp. 90--91, §5.6]. What makes the present rule stand out is that the finite-state chronology gives it a real boundary on both sides.
 
 That does not make it a license to absorb later material. The later relation to [SC086 OEContraction](#rule-OEContraction) is meaningful, but it remains a cross-reference to the next cluster, not a reason to pull that cluster into the present chapter.
 

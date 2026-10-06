@@ -1,7 +1,7 @@
 # SC040 OE Med Unstressed U Lowering — chronology evidence card
 
-## Current position
-- current_order: `40`
+## Position at experiment time
+- order_at_experiment_time: `40`
 - rule_name: `OEMedUnstressedULowering`
 - safe computational window: `40-71`
 - status: `first_break_complete`

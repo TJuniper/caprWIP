@@ -68,12 +68,6 @@ def main() -> None:
         action="store_true",
         help="Warn instead of failing when bins are missing or stale",
     )
-    parser.add_argument(
-        "--bin-check-max-skew-seconds",
-        type=int,
-        default=3600,
-        help="Max allowed mtime skew between main and sandbox bins (default: %(default)s)",
-    )
     args = parser.parse_args()
 
     output_dir = Path(args.output_dir)
@@ -103,19 +97,15 @@ def main() -> None:
         subprocess.run(cmd, check=True, env=env)
 
     if not args.skip_bin_check:
-        tools_dir = Path(__file__).resolve().parent
-        check_script = tools_dir / "oe_bin_sync_check.py"
-        check_cmd = [
-            sys.executable,
-            str(check_script),
-            "--max-skew-seconds",
-            str(args.bin_check_max_skew_seconds),
-        ]
-        if args.bin_dir:
-            check_cmd.extend(["--bin-dir", args.bin_dir])
-        if args.bin_check_warn_only:
-            check_cmd.append("--warn-only")
-        subprocess.run(check_cmd, check=True)
+        check_cmd = [sys.executable, str(tools_dir / "oe_bin_sync_check.py")]
+        result = subprocess.run(check_cmd)
+        if result.returncode != 0:
+            if args.bin_check_warn_only:
+                print("WARNING: bin freshness check failed; continuing "
+                      "(--bin-check-warn-only)", file=sys.stderr)
+            else:
+                raise SystemExit("bin freshness check failed; rebuild the bins "
+                                 "or pass --skip-bin-check/--bin-check-warn-only")
 
     run_report(tools_dir / "oe_full_trace_report.py", full_report)
     run_report(tools_dir / "oe_mismatch_report.py", mismatch_report)
