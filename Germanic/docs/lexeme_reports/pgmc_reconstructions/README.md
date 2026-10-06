@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4384 evidence records,1379 actual consultations and4512
-analytical positions, with414 comparisons and171 rationales. The RT
+There are4422 evidence records,1379 actual consultations and4554
+analytical positions, with416 comparisons and183 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Eighty-nine core rows now have individually reconciled, bounded alignment:
-1933-2021. The remaining304 are unreviewed. The second tranche builds on
+Ninety-seven core rows now have individually reconciled, bounded alignment:
+1933-2029. The remaining296 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -137,7 +137,36 @@ none is a settled whole-word equivalence or established whole-case cause.
 Ringe's ask-specific following-j reason and RT's bake following-i/lost-trigger
 reason are position support, not a completed class census.
 
-The eleventh tranche completes fish, fist, flask, flax, flea, flee, flesh
+The twelfth tranche completes fly, foal, fodder, fold, folk, follow,
+forlorn (selected lose infinitive) and four (2022-2029). All87 inherited
+positions have individual decisions;30 literal receipts and eight processes
+add38 records to existing consultations. Four focused positions reuse
+evidence, twelve rationales are added, and eight exact old/new SOURCE
+annotation receipts preserve the corrections. Its129 positions link125
+distinct records. Foal's optional comparative root-u versus proposed
+laryngeal root noun and follow's admitted/rejected Slavic crawling family
+have bounded analyst-inferred explanations, not directly named rebuttals
+of Orel2003 or adopted histories
+[@Orel2003, pp.117-118; @Kroonen2013, pp.158-159].
+
+Fly is not flutter, flight or the insect noun; Fulk's source-glossed
+h-type finite “flies” is identity-limited comparative evidence, not a
+certified match to selected g-type *flēogan*
+[@Fulk2018, pp.270,301-303,307,387; @RingeTaylor2014, pp.130,309].
+The sheath homonym is not selected fodder; explicit PGmc fold and follow
+dates come from their lexical sets, not chapter titles. Folk/follow lower
+despite their labial contexts; RT's unexplained retained-u indeclinables
+are separate comparanda
+[@Orel2003, p.109; @Ringe2017, pp.279,287;
+@RingeTaylor2014, pp.32-33,327].
+Four retains suffix shorthand, reported Stiles cells, preferred versus
+reported routes and actual OE inflections; tentative ordinal dissimilation
+is not proof of rejection of the coronal account
+[@Kroonen2013, p.133; @Fulk2018, pp.224-225].
+All eight whole-row causes remain unestablished. Corpus, stages/contexts,
+FSTs, scientific baselines, introduction and PDF remain unchanged.
+
+The eleventh tranche completed fish, fist, flask, flax, flea, flee, flesh
 and flood (2014-2021). All64 inherited positions have individual
 decisions;26 literal receipts and nine process records add35 records to
 existing consultations. Six focused positions reuse evidence; fifteen

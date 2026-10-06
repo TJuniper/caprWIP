@@ -88,14 +88,14 @@ row_id	status	comparison_ids	alignment_status	alignment_case_ids
 2019	reviewed	core-2019	bounded_limit	core-2019
 2020	reviewed	core-2020	bounded_limit	core-2020
 2021	reviewed	core-2021	bounded_limit	core-2021
-2022	reviewed	core-2022	unreviewed	
-2023	reviewed	core-2023	unreviewed	
-2024	reviewed	core-2024	unreviewed	
-2025	reviewed	core-2025	unreviewed	
-2026	reviewed	core-2026	unreviewed	
-2027	reviewed	core-2027	unreviewed	
-2028	reviewed	core-2028	unreviewed	
-2029	reviewed	core-2029	unreviewed	
+2022	reviewed	core-2022	bounded_limit	core-2022
+2023	reviewed	core-2023	bounded_limit	core-2023
+2024	reviewed	core-2024	bounded_limit	core-2024
+2025	reviewed	core-2025	bounded_limit	core-2025
+2026	reviewed	core-2026	bounded_limit	core-2026
+2027	reviewed	core-2027	bounded_limit	core-2027
+2028	reviewed	core-2028	bounded_limit	core-2028
+2029	reviewed	core-2029	bounded_limit	core-2029
 2030	reviewed	core-2030	unreviewed	
 2031	reviewed	core-2031	unreviewed	
 2032	reviewed	core-2032	unreviewed	

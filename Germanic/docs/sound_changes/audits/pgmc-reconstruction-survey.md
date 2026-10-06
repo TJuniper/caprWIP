@@ -1659,8 +1659,178 @@ released base and current fields exactly. All786 dictionary reviews,
 all source records, the eight selected corpus records and all46
 protected scientific hashes are unchanged. Canonical refresh reports
 CONTROL PLANE CLEAN; bibliography, section-locator and whitespace
-checks pass. This completes the tranche, not the full programme;
-the research remains uncommitted.
+checks pass. This completes the tranche, not the full programme.
+It was subsequently committed and pushed as083934d1, with the remote
+verified identical, before the twelfth continuation below.
+
+## Twelfth bounded alignment: 2022-2029
+
+### Identity
+
+Research-only continuation on branch update from pushed083934d1:
+fly, foal, fodder, fold, folk, follow, forlorn (selected lose infinitive)
+and four. SC id/executable identifier: n/a, a reconstruction survey
+continuation, not a sound-law adjudication. The user requested commit/push
+of the preceding work and continuing in like fashion; the former release
+is complete. This continuation does not imply another release.
+
+### Question
+
+Do actual comparative arguments explain the root/cognate differences,
+and are the quoted words correctly related to the selected etyma/cells?
+Confirmation requires explicit source premises; different English labels,
+dates or strings alone cannot establish a dispute. A same-source explicit
+insect/flight/sheath/alternate-cell identification refutes a selected-cell
+match [@RingeTaylor2014, pp.130,309,327].
+
+### Current state
+
+The immutable released start pins4384 forms,4512 positions,414 cases,
+171 rationales and1379 consultations;89 core rows were bounded.
+Selected targets/inputs are unchanged: fly flēogan, foal fola,
+fodder fōdor, fold fealdan, folk folc, follow fylġan, lose lēosan and
+four fēower. The English concept forlorn does not change the selected
+infinitive. Existing survey commentary, source receipts and this audit
+are the consulted dossiers; no canonical law verdict is reopened.
+
+### Diagnosis
+
+All87 inherited positions receive individual cell, relation, attribution
+and supported feature decisions from the complete relevant arguments,
+paradigms, footnotes and necessary cross-references. No grammar negatives
+are fabricated; Kroonen's folk search retains its bounded negative.
+Firing census, live/feeding/bleeding witness roles, counterfactual Foma
+traces and baseline migrations are n/a: there is no changed law or
+selected input. The scientific-owner hash comparison protects this
+separation rather than simulating a law adjudication.
+
+### Literature
+
+Fly's expected h, adopted g, k and explicitly Pre-Germanic ū variant
+retain the iterative account versus reported deliberate disambiguation.
+The iterative cross-reference was read; RT's flutter/flight/insect
+forms remain separately identified
+[@Kroonen2013, pp.146,149; @Orel2003, pp.106-107;
+@RingeTaylor2014, pp.130,174,308-310].
+Fulk's Norse preterite chain is another cell. His h-type finite “flies”
+remains identity-limited relative to the selected g-type fly; the
+explicit flee paradigm and complete short/long-ending comparison
+prevent a false exact match without rewriting the source gloss
+[@Fulk2018, pp.70,270,301-303,307,387].
+
+Foal's masculine n and Nordic neuter ja are distinct. Optional comparative
+root u versus Welsh-backed root-noun/laryngeal analysis has a bounded
+inferred cause; the named Orel2000 report is not a direct rebuttal of
+the compared2003 entry [@Orel2003, p.118; @Kroonen2013, pp.158-159].
+Fodder, sheath and possible carrying/vessel mergers overlap without
+an exclusive one-root/two-root opposition. RT's actual sheath
+epenthesis is not selected fodder ancestry
+[@Orel2003, p.109; @Kroonen2013, pp.150-152;
+@RingeTaylor2014, pp.326-327].
+
+Fold's local PGmc class-VII set supplies explicit dates and distinct
+reduplicated/Verner principal parts; RT prefers northern dental change
+but retains possible levelling. Generic comparative pel-t is not a
+Germanic e infinitive opposed to an o-grade intensive
+[@Orel2003, p.91; @Kroonen2013, p.126;
+@Ringe2017, p.279; @RingeTaylor2014, pp.155-156].
+Folk/follow lower despite labial contexts, while RT's unexplained
+retained-u indeclinables are separate comparanda. Its conservative
+PNWGmc label is not proof of later innovation
+[@Orel2003, pp.117-118; @RingeTaylor2014, pp.27-29,32-34].
+
+Follow's Slavic crawling family is admitted by Orel and excluded by
+Kroonen on accent/formation grounds; the cited Slavic formations
+are not identical, so the explanation remains bounded analyst
+inference. PGmc weak-III reconstruction and PNWGmc suffix alternatives
+retain qualifications and separate OE forms
+[@Orel2003, p.117; @Kroonen2013, p.159;
+@Ringe2017, pp.205-206,287; @RingeTaylor2014, pp.32-34].
+Lose's reported Hirt proposal, prefixed basic verb, become-lost fientives
+and four prefixed Verner principal parts do not select a participle
+or silently strip prefixes [@Orel2003, p.243; @Kroonen2013, p.334;
+@Ringe2017, p.289; @RingeTaylor2014, pp.342-343].
+
+Four retains cardinal/compound/collective/gender formations, suffix
+shorthand, reported Stiles cells and all five reported traditional-route
+stems beside Fulk's preferred WGmc account. Kroonen's tentative ordinal
+dissimilation does not prove exclusion of the coronal route. OE
+inflected cells and final-vowel quantity histories remain independent
+[@Orel2003, p.96; @Kroonen2013, p.133; @Ringe2017, p.123;
+@Fulk2018, pp.224-225; @RingeTaylor2014, pp.41-42,59-60,173-175].
+
+### Historical analysis
+
+Stage and scope are source-position properties, independent of confidence.
+The fly antecedent at RT130 is explicitly PNWGmc; fold/follow at
+Ringe279,287 are explicitly PGmc lexical sets, not title-derived dates.
+Earlier Norse preterite steps, index cells and unlabelled geminate
+intermediates remain independently undated
+[@RingeTaylor2014, pp.130,41-42; @Ringe2017, pp.279,287;
+@Fulk2018, pp.70,387].
+Relationship to an executable proxy is n/a; this is analytical research.
+No chronology edge is promoted as stage-entailed or independently
+demonstrated. Relative histories and source analogy accounts are reported,
+not adopted as CAPR grammatical conditioning or lexical exceptions.
+
+### Verdict
+
+Scientific SC verdict/registry line: n/a, no registry change.
+Research disposition: complete eight bounded alignments with source-faithful
+annotation repairs and two focused analyst-inferred explanations.
+Optional root u versus laryngeal/root-noun and admitted versus rejected
+Slavic connections have different cited premises; neither proves a
+whole-row cause or selects a production input. All eight whole-row
+causes remain unestablished. Thirty literal receipts and eight processes
+add38 records; four focused positions reuse evidence, twelve rationales
+are added and eight old/new receipts cover inherited SOURCE annotations.
+
+### Propagation
+
+Affected owners: forms, analyses, comparisons, rationales and coverage;
+new occurrence/amendment receipts; README/commentary and this audit;
+the existing survey/analysis regression modules. Source screens, targets,
+source catalogue and all786 dictionary reviews remain intact.
+Baseline/fingerprint effect: none; all46 scientific owners remain protected.
+Derived ledger/map/coverage/provenance follow exclusively
+`adjudicate.py --refresh`.
+
+Measured totals:4422 forms,1379 consultations,4554 positions,
+416 comparisons and183 rationales;97 bounded/296 unreviewed core rows.
+The tranche has129 positions linked to125 distinct records.
+Regressions distinguish actual source identities, optional versus
+mandatory segments, nominative/genitive and n/ja formations, adopted
+versus reported routes, explicit versus unknown dates, receipt spans
+and focused causes versus whole-row limits.
+
+### Residue
+
+The exact foal comparative mapping, Slavic derivative/accent reconciliation,
+fly finite identity, fodder dental/merger premises and selected whole
+endpoints remain named limits. The full393-row alignment, conditioning
+census, aggregate synthesis, watchlist and specialist dispatch remain
+unfinished; RT's conventions verification gap is preserved separately.
+Next alignment begins2030. No scientific adoption, introduction/PDF
+or automatic new release is included. Never rerun or import the persisted
+one-use candidate; current SOURCE, receipts and regressions are authority.
+
+Closeout: all193 focused survey/analysis tests pass. The initial run
+exposed only a regression's inaccurate expected wording for the existing
+“do not prove later innovation” limit; the assertion was corrected without
+rewriting scientific prose. Canonical refresh reports CONTROL PLANE CLEAN;
+bibliography, section-locator, new-prose citation-page and whitespace checks
+pass. Independent read-only queries reproduce97/296,129 positions/125
+records, two two-source inferred focused explanations and eight
+unestablished whole-row causes. Alignment independently refuses296;
+verified reading separately refuses the preserved RT conventions gap.
+
+All4384 inherited evidence records survive except exactly eight receipted
+annotation fields. All4425 outside positions,406 unaffected comparisons,
+171 inherited rationales and1350 outside consultations are unchanged.
+All786 dictionary reviews, source records, selected corpus records,
+unaffected research tables and46 protected scientific hashes survive.
+This completes the twelfth tranche, not the full programme. The research
+remains uncommitted; the eleventh release083934d1 is already pushed.
 
 ## Residue
 

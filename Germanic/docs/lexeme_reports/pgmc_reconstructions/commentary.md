@@ -1598,6 +1598,259 @@ published PDF were unchanged. At that checkpoint the next alignment began2014;
 the full393-row alignment, conditioning census, explanatory synthesis
 and consistency watchlist remain unfinished.
 
+## Twelfth bounded alignment: fly through four
+
+This continuation reconciles all87 inherited positions for fly, foal,
+fodder, fold, folk, follow, forlorn (whose selected cell is the lose
+infinitive) and four, rows2022-2029. Thirty exact literal receipts and
+eight process records add38 evidence records to existing consultations;
+four focused positions reuse evidence, twelve rationales are added and
+eight old/new receipts document SOURCE annotation corrections. All
+inherited diplomatic strings, kinds, row links, confidence and verification
+remain intact. The129 tranche positions link125 distinct records.
+Current totals are4422 records,1379 consultations,4554 positions,
+416 cases and183 rationales;97 bounded and296 unreviewed core rows.
+
+The two focused explanations concern comparative-root analysis in foal
+and Slavic cognate admission in follow. Both are explicitly bounded analyst
+inferences, not directly named rebuttals of the compared Orel2003 edition,
+proved full genealogies or production choices. In particular, a reported
+rejection of Orel2000 must not become a direct citation of Orel2003
+[@Orel2003, pp.117-118; @Kroonen2013, pp.158-159].
+All eight whole-row causes remain unestablished.
+
+### Fly: root consonants, derivatives, cells and source-glossed identity
+
+Kroonen's citation has the voiced velar where the expected outcome would
+have been the voiceless counterpart. He reports Pokorny's deliberate
+disambiguation with flee, but prefers interference from an iterative;
+the secondary k variant and explicitly Pre-Germanic long-u variant belong
+to that argument rather than four interchangeable adopted infinitives.
+The iterative cross-reference actually identifies the flutter verb as an
+iterative of fly. Its relationship is source-supported, but it does not
+automatically identify every later verb glossed ‘flutter’ with that
+particular formation. Orel's Baltic swimming/floating/washing comparison
+does not explicitly reject Kroonen's iterative mechanism
+[@Kroonen2013, pp.146,149; @Orel2003, pp.106-107].
+
+Ringe and Taylor ask whether the flutter/hover formation is derived from
+fly with zero grade or from a flight noun; these remain alternatives.
+Their fly infinitive antecedent in that passage is explicitly PNWGmc,
+while the local derivative and infinitive are PWGmc. Elsewhere their
+PGmc fly infinitive and OE reflex illustrate diphthong tensing. The
+smoothing discussion separately pairs the verb with the insect noun,
+including PWGmc *fleuga*. Neither that noun nor the flight noun is a
+shorter fly infinitive. Repeated citations at different dates or in
+different arguments remain distinct evidence, not duplicate scholarly
+votes [@RingeTaylor2014, pp.130,173-175,308-310].
+
+Fulk's index preterite is supplemented by its actual Norse development:
+native *flauz*, *flauh*, *flōh* and the attested endpoint *fló* ‘flew’.
+The printed chain demonstrates devoicing, velar loss and
+monophthongization in the discussed development; it does not independently
+date every earlier step as PGmc or quote the selected infinitive.
+The index's starless glyph is retained beside the native body quotation
+rather than silently standardized [@Fulk2018, pp.70,387].
+
+The source-glossed finite “flies” at p.307 is more delicate. It has an
+h-type antecedent and a contracted endpoint, whereas the selected
+*flēogan* is g-type. Fulk explicitly supplies the h-type present paradigm
+of *flēon* ‘flee’ elsewhere, and his full inflectional argument contrasts
+short strong endings with long weak endings before loss of intervocalic
+x. This warrants an identity limit, not rewriting the author's English
+gloss or declaring a proved extraction error from spelling alone.
+The index and body remain unresolved comparative evidence rather than
+certified selected fly ancestry
+[@Fulk2018, pp.270,301-303,307,387].
+The completed eleventh-tranche flee positions are unchanged.
+
+### Foal: a deeper root disagreement, not interchangeable n/ja citations
+
+Both dictionaries provide a masculine n formation. Kroonen additionally
+gives Nordic neuter ja forms; the neuter label belongs to that formation,
+not the masculine citation. The corresponding SOURCE cell is corrected
+without changing its previously verified stem or supplying a selected
+whole-word ending. Orel's masculine n word and zero-grade account do not
+exclude every related ja derivative [@Kroonen2013, pp.158-159;
+@Orel2003, p.118].
+
+The useful disagreement lies deeper. Orel's Armenian, Greek and Albanian
+comparison preserves *pō(u)lo-* and *pō(u)lā*, including optional u.
+Kroonen instead excludes a root-u account because of Welsh *ebawl*,
+proposes nominative *pólH-s* and genitive *plH-ós*, and tentatively relates
+this root noun to a birth root. Nominative, genitive and possible verbal
+root now have separate literal receipts. Their formation, laryngeal
+and optional-u features remain explicit rather than hidden by a normalized
+“foal root” string [@Orel2003, p.118; @Kroonen2013, p.158].
+
+The bounded explanation is the difference in comparative admission and
+formation premises: the Welsh exclusion supports Kroonen's alternative,
+whereas Orel retains the optional segment in a different comparative
+presentation. Orel's optionality means this is not an assertion that he
+requires u in every variant. Kroonen's named Orel2000 reference is not a
+direct rebuttal of the compared2003 entry. Neither argument independently
+settles the entire development to the Germanic n/ja formations or certifies
+CAPR's selected circumflex nominative. No nonexistent grammar reviews are
+added [@Orel2003, p.118; @Kroonen2013, pp.158-159].
+
+### Fodder: two origins, tentative mergers and an actual sheath exemplum
+
+Kroonen distinguishes instrumental feed/fodder and protective sheath
+origins. A neighboring load/vessel/fodder entry tentatively invokes
+r dissimilation in a carrying instrumental and allows mergers with
+other nouns. Its carrying causative is family evidence, not another
+selected fodder case. Orel separately labels sheath/casing as homonym I
+and fodder as homonym II, associates the latter with a grazing instrumental
+and food, and reports De Vries's identification bibliographically.
+These overlapping possibilities do not establish a simple exclusive
+“one root versus two roots” dispute
+[@Kroonen2013, pp.150-152; @Orel2003, p.109].
+
+The additional native sheath quotation retains its text's unbarred dental
+beside the independently verified barred dental of the inherited fodder
+record. This is not permission to collapse the glyphs or assign phonemic
+equivalence. Ringe and Taylor's PGmc, PWGmc and OE *fodor* examples
+explicitly concern ‘sheath, case’. All three are comparanda to the selected
+fodder sense; their final-Cr epenthesis does not prove fodder genealogy.
+The separately discussed insertion of b in timber is not fodder's dental
+history [@Orel2003, p.109; @RingeTaylor2014, pp.326-327].
+Exact dental/suffix interpretation, merger history and selected ending
+remain bounded questions.
+
+### Fold: reduplicated principal parts and a qualified dental history
+
+Kroonen's deeper formation is an o-grade intensive with an apparently
+suffixal dental. Orel's *pel-t-* is a comparative base, not an asserted
+Germanic e-grade infinitive competing with the a-grade citation. A focused
+whole-vowel conflict would therefore overstate the units actually compared
+[@Kroonen2013, p.126; @Orel2003, p.91].
+
+Ringe explicitly includes fold among the PGmc-reconstructable class-VII
+verbs without ablaut. The corrected date rests on that local lexical set,
+not on the book title. New receipts preserve the reduplicated default
+past singular *fefalþ*, plural *fefaldun* and participle *faldanaz*.
+The dental alternants and reduplication are independent features; no
+later d infinitive is silently substituted for the present citation
+[@Ringe2017, p.279].
+
+Ringe and Taylor describe internal lþ-to-ld as a northern WGmc change.
+They also allow levelling from past/participle in fold, judging it less
+likely rather than impossible. Their native b/ng spellings in earlier
+quotations remain unrepaired. Neither the uncertain glyph nor the
+alternative levelling supplies a new canonical chronology edge
+[@RingeTaylor2014, pp.155-156]. The selected infinitive is distinct from
+the enclosure noun and compound ‘-fold’ formation.
+
+### Folk: lowering counterexamples and conservative membership labels
+
+Orel admits a Celtic follow/trace connection for the neuter noun; Latin
+multitude and fill proposals are bibliographic reports, not all competing
+endorsed etymologies. The completed Kroonen negative remains a bounded
+search result: people/full/many entries are not folk evidence or a
+rejection of Orel's particular connection
+[@Orel2003, pp.117-118].
+
+Ringe and Taylor first use folk in nonhigh-vowel lowering, then cite
+folk/follow among similarly shaped words that nevertheless lower despite
+the proposed labial protection seen elsewhere. Their explicitly unexplained
+retained-u indeclinables are separate examples, not folk and follow
+themselves. The lack of Gothic/external cognates in their account motivates
+the conservative PNWGmc label, but they expressly say it cannot be
+significant for this argument. It is not proof of a later innovation.
+Orel's external connection and RT's scope claim require comparative
+admission analysis rather than a disagreement inferred from dates alone
+[@RingeTaylor2014, pp.27-29,32-34; @Orel2003, pp.117-118].
+
+### Follow: Slavic admission versus accent and formation objections
+
+Kroonen gives the weak ē citation and a j formation for ON/OE, reconciles
+that formation with a Germanic proceed/go verb, and rejects Breton and
+Slavic crawling connections on different grounds. Orel instead identifies
+follow with a Slavic crawl derivative and its base. The focused Slavic
+comparison preserves the positive identification, the rejection, and the
+accent/formation criterion instead of treating all foreign strings as
+equal supporting cognates [@Kroonen2013, p.159; @Orel2003, p.117].
+
+The analyst-inferred explanation is consequently bounded by the different
+admitted formations and accent criteria. The sources do not cite precisely
+the same Slavic verb forms, and Kroonen does not directly name the compared
+Orel2003 entry as his opponent. Further derivational reconciliation is
+needed before treating this as a same-reflex demonstration. The internal
+proceed/go account is source-supported family evidence, not a quoted
+replacement whole follow input [@Kroonen2013, p.159; @Orel2003, p.117].
+
+Ringe explicitly reconstructs follow among minority PGmc weak-III relics,
+while his fuller class discussion retains difficulties in the prehistory.
+RT gives PNWGmc ja/ai alternatives and both OE *fylgan* and *folgian*.
+The latter has its own receipt; it is not silently equated with the
+selected mutated j formation. Orel's ē citation, these alternants and
+Ringe's qualified class reconstruction are not a blanket exclusive
+morphological conflict [@Ringe2017, pp.205-206,287;
+@RingeTaylor2014, pp.32-34; @Orel2003, p.117].
+
+### Forlorn label: the selected cell is simplex lose
+
+The English label does not override the selected *lēosan* infinitive.
+The dictionaries cite a strong lose family using prefixed daughter
+reflexes. Kroonen describes an s extension of loosen, while Orel's
+bibliography reports Hirt's aoristic-s account; the latter is not silently
+promoted into Orel's independently adopted position
+[@Kroonen2013, p.334; @Orel2003, p.243].
+
+Ringe's prefixed basic verb is a component-bearing comparandum to the
+selected simplex; the explicitly PGmc nō/na fientives mean ‘become lost’
+and are different formations. Their distribution and daughter
+reinterpretation do not quote a strong participle. RT's *forléosan*,
+*forléas*, *forluron* and *forloren* are respectively present infinitive,
+default past singular, past plural and participle, preserving the
+Verner alternants. No prefix removal or infinitive-to-participle
+conversion manufactures a selected attestation
+[@Ringe2017, p.289; @RingeTaylor2014, pp.342-343].
+
+### Four: apparent route opposition is not established exclusion
+
+Kroonen's citation, Gothic collective, Nordic masculine form, and feminine
+and neuter suffix shorthand remain separate. Orel's cardinal and
+compound/Nordic formation likewise are not one repeated full numeral.
+Ringe's explicitly PGmc neuter direct form and five analogy concern
+particular initial/Verner and paradigm premises, not an explanation of
+every root and ending difference
+[@Kroonen2013, p.133; @Orel2003, p.96; @Ringe2017, p.123].
+
+Fulk reports Stiles's PGmc direct, genitive and dative cells and then
+prefers an economical WGmc dental-stem route over the traditional
+pre-Grimm chain. Receipts now retain the reported chain's individual
+stems rather than only its favored endpoint. The preference is Fulk's;
+Stiles is reported and not newly consulted. The actual OE inflected
+direct, genitive and dative forms remain other cells, not an endingless
+selected cardinal [@Fulk2018, pp.224-225].
+
+Kroonen finds regular WGmc derivation difficult and entertains ordinal
+dissimilation, but also points to Stiles's attempt. That tentative
+alternative is not proof that he rejects the route preferred by Fulk.
+The focused history therefore receives descriptive support, not an
+invented exclusive two-author conflict or established divergence cause
+[@Kroonen2013, p.133; @Fulk2018, pp.224-225].
+
+RT orders coronal-fricative assimilation before Vww vocalization and
+distinguishes bimoric unrounding from later shortening before final r.
+The separate geminate intermediates have no independently asserted date;
+PGmc and PWGmc labels remain local. Native o without a quantity sign is
+not restored globally to long ō. Later English tensing is another step,
+not interchangeable with either earlier process
+[@RingeTaylor2014, pp.41-42,59-60,173-175].
+
+### Closeout and limits
+
+The two focused causes do not establish any of the eight whole-row
+causes. All786 dictionary reviews and1379 actual consultations remain;
+there are no invented grammar negatives. Exact occurrence and annotation
+receipts accompany source-sensitive regressions. The independent
+alignment gate still refuses296 rows, separately from the RT conventions
+verification gap. No corpus, input-stage/context, FST, scientific baseline,
+introduction or PDF change is included. The next row is2030; the full
+alignment, class census, synthesis and watchlist remain unfinished.
+
 ## Eleventh bounded alignment: fish through flood
 
 This tranche individually reconciles all64 inherited positions for
@@ -1609,8 +1862,9 @@ old/new annotation receipts cover23 evidence fields and six related
 Fulk applicability, target and consultation fields. Diplomatic strings,
 original kinds, row links, confidence and verification are preserved.
 The resulting105 positions link99 distinct records; the current
-database has4384 records,1379 consultations,4512 positions,414 cases
-and171 rationales, with89 bounded and304 unreviewed core rows.
+database at that checkpoint had4384 records,1379 consultations,
+4512 positions,414 cases and171 rationales, with89 bounded and304
+unreviewed core rows.
 
 The main explanatory gain is an actual disagreement over flee's
 lexical family and initial-cluster diagnosis, rather than a census of
