@@ -470,10 +470,42 @@ class LiveAnalyticalTests(unittest.TestCase):
         for row_id in map(str, range(2006, 2014)):
             self.assertEqual(self.cases["core-" + row_id]["explanation_status"], "unestablished")
 
+    def test_eleventh_tranche_scoped_causes_and_deterministic_queries(self):
+        tables = {"forms": (survey.FORM_COLUMNS, self.forms),
+                  **{name: (analytical.TABLES[name], rows) for name, rows in self.tables.items()}}
+        sql = """
+            SELECT c.comparison_id,c.explanation_status,count(DISTINCT f.source_key) AS sources
+            FROM comparisons c JOIN comparison_analyses ca USING(comparison_id)
+            JOIN analyses p USING(analysis_id) JOIN forms f USING(evidence_id)
+            WHERE c.comparison_id IN ('flee-fly-lexical-connection','flee-initial-cluster-history',
+                                     'flea-citation-formation')
+            GROUP BY c.comparison_id,c.explanation_status ORDER BY c.comparison_id
+        """
+        expected = ("comparison_id\texplanation_status\tsources\n"
+                    "flea-citation-formation\tunestablished\t2\n"
+                    "flee-fly-lexical-connection\tanalyst_inference\t2\n"
+                    "flee-initial-cluster-history\tanalyst_inference\t2\n")
+        self.assertEqual(analytical.query(tables, sql), expected)
+        self.assertEqual(analytical.query(tables, sql), expected)
+        self.assertEqual(analytical.query(tables, """
+            SELECT count(*) AS positions,count(DISTINCT evidence_id) AS evidence
+            FROM analyses WHERE CAST(row_id AS INTEGER) BETWEEN 2014 AND 2021
+        """), "positions\tevidence\n105\t99\n")
+        self.assertEqual(analytical.query(tables, """
+            SELECT p.evidence_id,p.relation_to_row,p.stage_interpretation
+            FROM analyses p WHERE p.row_id='2015' AND p.evidence_id IN
+                ('fulk-complete-index-fist','fulk-complete-index-fist-nasal')
+            ORDER BY p.evidence_id
+        """), "evidence_id\trelation_to_row\tstage_interpretation\n"
+              "fulk-complete-index-fist\tcomparandum\tunspecified\n"
+              "fulk-complete-index-fist-nasal\tcomparandum\tunspecified\n")
+        for row_id in map(str, range(2014, 2022)):
+            self.assertEqual(self.cases["core-" + row_id]["explanation_status"], "unestablished")
+
     def test_core_reading_population_and_supplements(self):
         survey.require_core_complete(self.corpus, self.sources, self.reviews)
         self.assertEqual(sum(form["source_key"] in survey.CORE_SOURCES
-                             for form in self.forms), 1420)
+                             for form in self.forms), 1437)
         self.assertEqual(sum(review["source_key"] in survey.CORE_SOURCES
                              for review in self.reviews), 786)
         self.assertEqual(set(survey.ids(self.evidence["orel-core-1956-01"]["row_ids"])),

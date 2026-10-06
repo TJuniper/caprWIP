@@ -10,11 +10,11 @@ new publication remain subsequent work.
 
 Current held-source reading covers the relevant three comparative accounts:
 192 Ringe,137 Fulk and255 Ringe-Taylor consultations, separately from
-393 applicability screens per source. The database contains4349 evidence
-records,1379 actual consultations,4471 positions,411 comparisons and156
+393 applicability screens per source. The database contains4384 evidence
+records,1379 actual consultations,4512 positions,414 comparisons and171
 rationales. The fully verified reading gate still refuses the named
 Ringe-Taylor convention/typography gap; full feature alignment and
-explanation remain ongoing:81 core rows are bounded and312 unreviewed.
+explanation remain ongoing:89 core rows are bounded and304 unreviewed.
 Earlier measurements below are checkpoint
 history, not current totals or an exhaustive-library workload.
 
@@ -1389,7 +1389,7 @@ than count as new quotations. There are149 analytical positions linked to143
 distinct records in the tranche. Seventeen SOURCE annotation amendments
 retain exact old/new values; diplomatic strings, original form-kind,
 verification, confidence and original row links are preserved. The complete
-survey now has4349 records,1379 actual consultations,4471 positions,411
+At the tenth-tranche checkpoint the survey had4349 records,1379 actual consultations,4471 positions,411
 comparisons and156 rationales. Eighty-one core rows have bounded alignment;
 312 remain unreviewed.
 
@@ -1594,9 +1594,278 @@ ancestors [@RingeTaylor2014, pp.119,225,318].
 All eight whole-row causes remain unestablished. The three focused
 explanations are reusable research results, not scientific adoption.
 The corpus, input stages/contexts, FSTs, baselines, introduction and
-published PDF are unchanged. The next bounded alignment begins2014;
+published PDF were unchanged. At that checkpoint the next alignment began2014;
 the full393-row alignment, conditioning census, explanatory synthesis
 and consistency watchlist remain unfinished.
+
+## Eleventh bounded alignment: fish through flood
+
+This tranche individually reconciles all64 inherited positions for
+fish, fist, flask, flax, flea, flee, flesh and flood (2014-2021).
+Twenty-six literal occurrence receipts and nine process records add35
+records to actual existing consultations. Six focused positions reuse
+source evidence, and fifteen rationales are added. Twenty-nine exact
+old/new annotation receipts cover23 evidence fields and six related
+Fulk applicability, target and consultation fields. Diplomatic strings,
+original kinds, row links, confidence and verification are preserved.
+The resulting105 positions link99 distinct records; the current
+database has4384 records,1379 consultations,4512 positions,414 cases
+and171 rationales, with89 bounded and304 unreviewed core rows.
+
+The main explanatory gain is an actual disagreement over flee's
+lexical family and initial-cluster diagnosis, rather than a census of
+different endings. The main corrective gain is identifying that
+Fulk's supposed fist index exemplum is damp. An extraction/matching
+error is not disagreement between the authors
+[@Orel2003, pp.106-107; @Kroonen2013, pp.146,544;
+@Fulk2018, pp.55,387].
+The eight core cases remain bounded, with no established whole-row
+cause. The two flee explanations are analyst inference; flea has a
+focused descriptive difference without an inferred cause.
+
+### Fish: comparative admission, precursors and a plural trap
+
+The thematic stem and full fish word agree visibly in their root i,
+but their presentation does not by itself prove equivalence of every
+ending or historical endpoint. Kroonen identifies a West IE word,
+retaining very uncertain calf and somewhat more attractive feather
+connections. He explicitly excludes Russian gudgeon because it is a
+derived pipe/squeak-verb formation. Orel's own Latin/Irish connection
+must be distinguished from his bibliography's attributed Mikkola
+report of the Slavic comparison
+[@Kroonen2013, pp.142-143; @Orel2003, p.103].
+A bibliographic report cannot manufacture an endorsed Orel position
+opposing Kroonen's exclusion.
+
+Ringe explicitly contrasts post-PIE *pisk-* with PGmc *fiskaz* in the
+stop-after-s discussion. That locally dated antecedent remains
+independent of Orel's undated Latin/Irish *peiskos*. Their difference
+needs comparative vowel/formation premises, not an automatic mapping
+of ei to i [@Ringe2017, p.117; @Orel2003, p.103].
+The native precursor has its own literal receipt; the already verified
+Germanic word is not overwritten with a new OCR representation.
+
+Ringe-Taylor's *hs* is a metalinguistic cluster, not a reconstructed
+fish singular. His *fixas* versus *fiscas* exemplifies fish-plural
+sk metathesis; the separate hs-to-ks development follows breaking.
+Both plural spellings are now quoted independently, and the label's
+SOURCE annotation is repaired [@RingeTaylor2014, p.188].
+Neither the plural nor the label supplies the selected singular's
+ending or a new PGmc reconstruction.
+
+### Fist: five-family evidence and the correction from fist to damp
+
+Kroonen's feminine *funhsti-* and Orel's *funxwstiz* both refer to
+fist, with different written clusters and citation endings.
+Kroonen's derivation from five is probable; Orel invokes the
+Lithuanian metathesis comparison and Slavic formation, and explicitly
+connects five. Their ti/sti and retained/absent w premises must be
+reconciled before claiming complete phonological equivalence
+[@Kroonen2013, p.160; @Orel2003, pp.118-119].
+The exact native ti preform is receipted without adding a nominative
+ending or modernizing its written kw.
+
+The shared Orel five records are individually classified as family
+evidence on fist, without changing their completed finger decisions.
+A numeral does not become an authored whole finger or fist precursor
+[@Orel2003, pp.98-99,118-119].
+
+The inherited Fulk match was wrong. His index's *fuŋxtaz* and
+*fūⁿxtaz* direct to the body example expressly glossed OE/OHG
+*fūht* 'damp', not fist. The absence of the s and the adjective ending
+must not be repaired by supplying the selected fist formation
+[@Fulk2018, pp.55,387].
+The original starless strings, independently undated index positions,
+glyph verification and stable historical IDs remain intact as
+comparanda. New exact body receipts retain the starred earlier word,
+the native corrupted later quotation, and the OE damp reflex. No new
+image certification or silent restoration of that body corruption is
+claimed.
+
+The actual consultation still supplies the generic PGmc nasal-loss
+and compensatory-lengthening argument, not a quoted fist ancestry.
+The applicability screen now records topical-process scope; its
+locations, finding and limits and the target/consultation assessment
+are corrected with receipts that retain the initial matching error
+[@Fulk2018, pp.55,387].
+This is not a fabricated negative or another source vote. Coverage
+records actual evidence consulted; the analytical relation now
+states precisely why its reconstructed exempla are not fist.
+
+Ringe-Taylor supplies the actual fist examples in his long-vowel
+mutation and final-i-loss discussions. Native *fasti* remains native
+*fasti*, not a newly restored *fūsti*. The front-rounded intermediate
+and actual *fyst* endpoint have separate cells and dates
+[@RingeTaylor2014, pp.224,287].
+The source's long-vowel argument does not turn an unverified OCR
+letter into a diplomatically certified quantity sign.
+
+### Flask and flax: distinct etyma, cells and derivational alternatives
+
+Orel's flask entry offers a flat-family connection or direct
+derivation from the flat adjective; the segmented *flaxt-ska-*
+proposal is reported under Kluge-Seebold in the bibliography, not
+independently endorsed by Orel [@Orel2003, p.105].
+The parenthesized n citation is not automatically a quoted selected
+case.
+
+Ringe-Taylor explicitly dates the first flask n stem to PNWGmc,
+then separately labels the PWGmc citation and oblique stem.
+Subsequent fronted intermediates do not acquire dates from their
+sequence identifiers. Actual OE *flasce* and oblique *flascan* remain
+distinct from late WS *flaxe*, *flaxan*; the precise oblique case and
+number are not invented [@RingeTaylor2014, pp.191-193].
+These spellings are flask, not flax *fleax*. His comparison with
+a-stem singular/plural alternations supplies a retraction argument,
+not a grammatical CAPR sound rule.
+
+For flax, Kroonen explicitly allows the usual braid derivation and
+an equally attractive beat/thresh connection. The beat cross-reference
+distinguishes the relevant iterative from the neighboring flutter
+and swerve homonyms; the braid entry supplies its own extension and
+comparative material [@Kroonen2013, pp.143-144,146].
+Orel identifies the Albanian blanket/rug formation and cross-refers
+to braid [@Orel2003, pp.104,106].
+These positions overlap: Orel does not thereby explicitly reject
+Kroonen's beat alternative. No exclusive conflict or inter-author
+cause is created merely to fill a focused-case quota.
+
+Ringe-Taylor's PWGmc flax and subsequent fronted/broken forms remain
+distinct stages or locally undated intermediates. The written x
+endpoint belongs to the later cluster account, not to flask's n
+paradigm or fish's plural metathesis
+[@RingeTaylor2014, pp.176,188].
+Kroonen's completed bounded negatives for flask and flesh remain
+bounded searches, not endorsements of an alternative or author
+dissent; unrelated club/round-object, skin and meat families cannot
+supply missing quotations.
+
+### Flea: demonstrable formation difference, unestablished cause
+
+Kroonen explicitly cites feminine ō formation; Orel gives a
+masculine/feminine z citation. The focused formation/gender comparison
+therefore has a substantive descriptive result. Orel's entry does not
+independently name a root-stem class, so the earlier SOURCE root-noun
+label is qualified rather than treated as his assertion
+[@Kroonen2013, p.145; @Orel2003, pp.105-106].
+
+Kroonen calls the word inherited IE while attributing its
+original-form uncertainty to tabooistic distortions across the
+languages. Orel describes distant comparative connections and
+possible influence from flee
+[@Kroonen2013, p.145; @Orel2003, pp.105-106].
+These are source explanations faithfully recorded, not adopted
+lexical exceptions, grammatical conditioning or proof of why the
+ō/z citations diverge. The focused cause remains unestablished, and
+there are no fabricated grammar negatives for this dictionary-only
+row.
+
+### Flee: lexical connection and the Gothic initial-cluster diagnosis
+
+Orel calls flee an early lexicalized variant of fly. That comparison
+is explicitly decisive in his proposal for Gothic fl-to-þl, whose
+phonological conditions he leaves unknown
+[@Orel2003, pp.106-107].
+Kroonen instead reconstructs initial þl, calls the Gothic fl-to-þl
+proposal doubtful because Gothic flood retains fl, and probably
+excludes the fly connection [@Kroonen2013, p.544].
+These are genuinely different historical premises, not merely
+stem-versus-word spelling.
+
+The focused lexical-connection case records which family is admitted
+or probably excluded. The focused initial-cluster case records the
+different law diagnoses and the flood counterexample. Their
+explanatory link is bounded analyst inference from the source
+arguments, not a directly named rebuttal. Since Orel leaves the
+condition unknown, an unchanged fl does not formally refute every
+possible conditioned rival
+[@Orel2003, p.107; @Kroonen2013, p.544].
+Neither inference dates an otherwise unlabelled dictionary endpoint
+or settles the selected full input.
+
+Kroonen's separate fly entry explains its unexpected voiced velar
+through preferred iterative interference, contrasting a reported
+deliberate-disambiguation account. The quoted fly stem and expected
+unvoiced outcome are comparanda relative to flee, not automatically
+admitted ancestors [@Kroonen2013, pp.146,544].
+Orel's native fly cross-reference retains its written z; Kroonen's
+native comparative flee formula retains its written initial t.
+Neither text receipt silently modernizes or image-certifies the
+source typography.
+
+Ringe-Taylor's paradigm has PGmc/PWGmc infinitive, present indicative
+3PL and present subjunctive 3SG. The preceding thrive example also
+has a participle, but that label cannot be inherited by flee's
+indicative. The reconstructed Gothic subjunctive belongs inside the
+question-marked Gothic correspondence, not among the PGmc cells
+[@RingeTaylor2014, p.315].
+The coordinated PGmc dates and Gothic attribution have exact
+annotation receipts.
+
+Actual WS finite endpoints are now separately quoted beside the
+infinitive. Intervocalic-h loss and contraction follow the
+dialect-specific monophthongization account; later OE principal
+parts distinguish preterite singular, default past plural and past
+participle. The surrounding discussion of other verbs' WS class
+transfers does not say that flee itself changed class
+[@RingeTaylor2014, pp.314-316,345].
+All these cells remain separate from the question of original
+flee/fly identity.
+
+### Flesh: uncertain segmentation, reported reconstruction and membership
+
+Orel prints a neuter citation ending in az while explicitly calling
+the OE word an i-stem. That unusual combination is preserved, not
+corrected to a preferred ending. His origin is uncertain; the
+*flaik-sk-* analysis is a suggestion from the OE comparison.
+Osthoff's competing formation is a bibliographic report, not Orel's
+adopted selected reconstruction [@Orel2003, p.104].
+The previously verified diplomatic initial thorn remains distinct
+from the native OCR representation.
+
+Ringe-Taylor locally labels flesh PWGmc. His method permits
+accidental Gothic/Norse gaps and does not deny possible PGmc
+inheritance; conservative reconstruction of isolated WGmc words
+does not itself prove a conflicting membership claim
+[@RingeTaylor2014, pp.126,128].
+Unknown dictionary dates and Kroonen's bounded negative are not
+votes against PGmc membership. Native OE *fl@sc* is retained rather
+than silently acquiring a certified long-vowel glyph.
+
+### Flood: stem replacements, long root and suffix accent
+
+Kroonen's tu formation retains u on Gothic evidence and the Nordic
+compound genitive despite daughter a/i replacements. Orel preserves
+neuter an, masculine uz and feminine iz alternatives, directly
+attaching OE to the first two; the feminine family is not an
+automatically quoted selected OE cell
+[@Kroonen2013, pp.147-148; @Orel2003, p.107].
+Ringe's masculine tu action-noun discussion supports formation
+without an independently supplied selected-case ending or date from
+the chapter heading alone [@Ringe2017, p.325].
+
+Fulk explicitly gives PGmc *flō-ðú-* with long root and accented tu
+suffix, contrasting the ti formation of deed. Root vocalism is ō;
+the suffix's ú is not a second root vowel. The stem does not
+quote the selected root-accented full-word input
+[@Fulk2018, p.253].
+Stress, quantity, boundary and ending remain independent rather
+than disappearing through a global d/đ/ð or accent normalization.
+
+Orel calls the flow verb a long grade of pleu. Kroonen's flow
+argument instead explicitly discusses hiatus/u loss, the proposed
+alternative root and the ship/stream derivatives used to reject
+that alternative [@Orel2003, p.108; @Kroonen2013, p.147].
+The native comparative formulas are receipted without silently
+restoring their quantity or Cyrillic з. Their deeper reconciliation
+remains a named premise, not an inferred whole-row explanation.
+Flow is derivational-family evidence, not a flood inflection.
+
+Corpus reconstructions/inputs/targets, independent stage/context
+owners, FST semantics/order and scientific baselines are unchanged.
+No new introduction or PDF is included. The next alignment begins
+2022; full alignment, conditioning census, explanatory synthesis
+and non-adopting watchlist remain open.
 
 ## Completed Ringe and Fulk readings: distinctions the alignment must preserve
 

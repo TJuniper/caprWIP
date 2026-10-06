@@ -1492,6 +1492,176 @@ PLANE CLEAN; bibliography, section-locator and whitespace checks pass.
 The user-authorized release contains this completed research tranche,
 not scientific adoption or completion of the full programme.
 
+## Eleventh bounded alignment: 2014-2021
+
+### Identity
+
+Research-only continuation from pushed bcff2e8d: fish, fist, flask,
+flax, flea, flee, flesh and flood. The user requested proceeding in
+like fashion; this completes actual alignment, not preparation alone.
+SC id and executable identifier: n/a, a research-survey continuation
+on branch update, not a rule adjudication.
+
+### Question
+
+Do the quoted words belong to the selected etyma/cells,
+and do the available arguments explain real differences rather than
+merely different strings? The suspected Fulk fist match is refuted
+by the complete body/index argument: its exemplum is damp
+[@Fulk2018, pp.55,387].
+
+### Current state
+
+The immutable start pins4349 forms,4471 positions,411 cases and156
+rationales, with1379 actual consultations and81 bounded core rows.
+Selected targets remain fish fisċ, fist fȳst, flask flasce, flax fleax,
+flea flēah, flee flēon, flesh flǣsċ and flood flōd, with their original
+inputs. Existing survey audit/commentary and completed source receipts
+are the consulted dossiers; no canonical SC verdict is reopened.
+
+### Diagnosis
+
+All64 inherited decisions were individually reconciled against complete
+held arguments and necessary continuations. Dictionary negatives
+retain their actual search bases; no grammar negatives are fabricated.
+Executable census, skip/displacement, Foma compilation and baseline
+migration are n/a: no sound law, scientific input or canonical
+chronology edge is being adjudicated.
+
+### Literature
+
+Fish separates admitted Latin/Irish connections from reported
+Slavic bibliography, explicit post-PIE/PGmc dates, OE plurals and
+the metalinguistic hs cluster
+[@Orel2003, p.103; @Kroonen2013, pp.142-143;
+@Ringe2017, p.117; @RingeTaylor2014, p.188].
+Fist retains five-family morphology and different written clusters.
+Fulk's damp comparanda are not a quoted fist ancestry; the actual
+RT fist mutation/ending-loss examples retain native corruptions
+[@Orel2003, pp.98-99,118-119; @Kroonen2013, p.160;
+@Fulk2018, pp.55,387; @RingeTaylor2014, pp.224,287].
+
+Flask's first n stem is explicitly PNWGmc; citation/oblique,
+retraction and late WS spellings are not flax. Orel's segmented
+Kluge-Seebold report is not his own endorsement. Flax's braid/beat
+alternatives overlap rather than supply an exclusive conflict
+[@Orel2003, pp.104-106; @Kroonen2013, pp.143-144,146;
+@RingeTaylor2014, pp.176,188,191-193].
+Flea's explicit feminine ō versus masculine/feminine z citation
+differs in formation/gender, but source original-form/taboo/flee
+reservations do not establish the cause
+[@Orel2003, pp.105-106; @Kroonen2013, p.145].
+
+Flee's focused lexical connection and initial-cluster diagnoses
+have different cognate/law premises: Orel's fly variant supports
+a Gothic change with unknown conditioning; Kroonen probably
+excludes the connection and doubts the law because flood retains fl.
+The explanatory relation is bounded analyst inference, not a
+direct named rebuttal or universal counterexample proof
+[@Orel2003, pp.106-107; @Kroonen2013, pp.146,544].
+RT's coordinated finite cells and question-marked Gothic
+correspondence are not present participles; later contraction and
+past principal parts remain separate
+[@RingeTaylor2014, pp.314-316,345].
+
+Flesh retains Orel's unusual neuter az citation, conditional
+segmentation and reported Osthoff, versus RT's conservative
+PWGmc membership method rather than denial of PGmc inheritance
+[@Orel2003, p.104; @RingeTaylor2014, pp.126,128].
+Flood retains gender/stem alternatives, derivative flow evidence
+and Fulk's explicitly suffix-accented tu stem, not the selected
+root-accented full word
+[@Orel2003, pp.107-108; @Kroonen2013, pp.147-148;
+@Ringe2017, p.325; @Fulk2018, p.253].
+Source analogy/taboo accounts are reported, not implemented as
+CAPR grammatical conditioning or lexical exceptions.
+
+### Historical analysis
+
+Dates and scopes are assigned per source position, not inherited from
+a title or executable identifier. Explicit PGmc fish/finite flee/flood
+and PNWGmc flask evidence coexist with undated dictionary/index
+citations, PWGmc flesh and conditional Gothic comparanda
+[@Ringe2017, p.117; @Fulk2018, p.253;
+@RingeTaylor2014, pp.126,192,315].
+The relationship to executable proxies is n/a: these are source
+interpretations and analytical cells, not new law semantics.
+Chronology edges, independently demonstrated or stage-entailed,
+are not promoted. Source law/analogy claims remain attributed;
+CAPR's focused explanatory connections are explicitly analyst inference.
+
+### Verdict
+
+Scientific SC verdict and machine-readable registry line: n/a; no
+registry change is authorized or needed. Research disposition:
+correct the proved matching/cell/attribution errors, retain source
+fidelity and complete eight bounded alignments. Whole-word equivalence
+and a shared dated endpoint require additional premises; the focused
+flee disagreements do not establish whole-row causes.
+
+All eight core alignments are completed with precise bounded limits.
+Two focused flee causes are analyst inference; flea's focused
+descriptive difference remains unexplained. All eight whole-row
+causes remain unestablished. Twenty-six exact literal receipts and
+nine processes add35 records to existing consultations; six
+focused positions reuse evidence and fifteen rationales are added.
+Twenty-nine old/new receipts cover23 evidence annotations and six
+Fulk applicability/target/consultation fields. Its historical
+matching error remains visible; original strings, kinds, row links,
+verification and confidence are not overwritten.
+
+### Propagation
+
+Affected owners: forms, analyses, comparisons, rationales and coverage;
+Fulk's applicability screen and review target; occurrence/amendment
+receipts; README/commentary and this audit; the two existing survey
+and analytical regression modules. Derived ledger, comparison map,
+coverage and provenance follow the canonical refresh.
+Baseline/fingerprint effect: none; all scientific owners are protected.
+
+Current totals are4384 forms,1379 consultations,4512 positions,
+414 comparisons and171 rationales;89 bounded/304 unreviewed core
+rows. This tranche has105 positions linked to99 distinct records.
+Regressions cover per-row shared numeral decisions, damp/fist
+identity, fish plural/cluster distinction, flask/flax, original
+glyphs and unknown dates, reported/conditional attribution,
+finite/participial cells, flood root/suffix accent, exact receipts
+and deterministic scoped queries. Canonical propagation is
+exclusively `adjudicate.py --refresh`.
+
+### Residue
+
+Unknown conditioned cluster law, original flea formation,
+selected fist/flood endings and deeper comparative/quantity
+premises remain named. Full393-row alignment, conditioning
+census, synthesis and watchlist remain unfinished; the independent
+RT conventions verification gap is preserved. Next alignment
+begins2022. No corpus, stage/context, FST, scientific-baseline,
+introduction or publication change is included. No new release
+is implied. Never rerun or import the persisted one-use candidate;
+current tables, receipts and regressions are authority.
+
+Closeout: all184 focused survey/analysis tests pass. The original
+applicability regression was updated to distinguish an actual
+topical-only consultation from lexical/family consultations; it
+still prevents manufacturing consultations from the other49
+Fulk topical screens. Repeated read-only queries reproduce89/304,
+105 positions/99 records, two two-source inferred flee explanations,
+the unexplained flea comparison and eight unestablished core causes.
+The independent alignment gate refuses304; the verified-reading
+gate separately refuses the preserved RT conventions gap.
+
+All4349 inherited evidence records are preserved except exactly23
+receipted annotation fields. All4407 outside positions,403 unaffected
+comparisons,156 inherited rationales and1353 outside consultations
+are unchanged. The six additional Fulk owner amendments match the
+released base and current fields exactly. All786 dictionary reviews,
+all source records, the eight selected corpus records and all46
+protected scientific hashes are unchanged. Canonical refresh reports
+CONTROL PLANE CLEAN; bibliography, section-locator and whitespace
+checks pass. This completes the tranche, not the full programme;
+the research remains uncommitted.
+
 ## Residue
 
 The prioritized explanatory audit, full feature/paradigm alignment of

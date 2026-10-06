@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4349 evidence records,1379 actual consultations and4471
-analytical positions, with411 comparisons and156 rationales. The RT
+There are4384 evidence records,1379 actual consultations and4512
+analytical positions, with414 comparisons and171 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Eighty-one core rows now have individually reconciled, bounded alignment:
-1933-2013. The remaining312 are unreviewed. The second tranche builds on
+Eighty-nine core rows now have individually reconciled, bounded alignment:
+1933-2021. The remaining304 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -137,7 +137,35 @@ none is a settled whole-word equivalence or established whole-case cause.
 Ringe's ask-specific following-j reason and RT's bake following-i/lost-trigger
 reason are position support, not a completed class census.
 
-The tenth tranche completes fee, fell (hide), fern, field, fight, find,
+The eleventh tranche completes fish, fist, flask, flax, flea, flee, flesh
+and flood (2014-2021). All64 inherited positions have individual
+decisions;26 literal receipts and nine process records add35 records to
+existing consultations. Six focused positions reuse evidence; fifteen
+rationales are added. Twenty-nine old/new annotation receipts cover23
+evidence fields and six Fulk applicability/target/consultation fields.
+The tranche has105 positions linked to99 distinct evidence records.
+Flee's lexical connection and initial-cluster histories have bounded
+analyst-inferred explanations, not direct rebuttals or adopted histories
+[@Orel2003, pp.106-107; @Kroonen2013, pp.146,544].
+Flea's feminine ō versus masculine/feminine z citation is a substantive
+formation/gender difference whose cause remains unestablished
+[@Orel2003, pp.105-106; @Kroonen2013, p.145].
+
+The formerly matched Fulk fist index examples are actually the damp
+adjective. Preserve their original strings and historical IDs as
+comparanda, not fist reconstructions; the generic nasal-loss argument
+remains a topical consultation. Its applicability and target owners are
+corrected without erasing the initial matching error
+[@Fulk2018, pp.55,387]. Fish plural metathesis is not an hs-label singular;
+flask is not flax; flee's present indicative is not a participle; and
+reported Kluge-Seebold/Osthoff proposals are not Orel endorsements
+[@Orel2003, pp.104-105; @RingeTaylor2014, pp.188,192,315,345].
+Fulk's suffix-accented flood stem does not quote the root-accented
+selected full word [@Fulk2018, p.253].
+All eight whole-row causes remain unestablished. Corpus, stages/contexts,
+FSTs, scientific baselines, introduction and PDF remain unchanged.
+
+The tenth tranche completed fee, fell (hide), fern, field, fight, find,
 finger and fire (2006-2013). All117 inherited positions have individual
 decisions;18 literal receipts and eight process records add26 evidence
 records to existing consultations. Six focused positions reuse evidence;
