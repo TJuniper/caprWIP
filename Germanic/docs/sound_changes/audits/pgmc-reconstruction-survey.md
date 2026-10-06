@@ -1831,6 +1831,167 @@ All786 dictionary reviews, source records, selected corpus records,
 unaffected research tables and46 protected scientific hashes survive.
 This completes the twelfth tranche, not the full programme. The research
 remains uncommitted; the eleventh release083934d1 is already pushed.
+This checkpoint was subsequently released as b4651334, with origin/update
+verified identical, before the thirteenth continuation below.
+
+## Thirteenth bounded alignment: 2030-2037
+
+### Identity
+
+Research-only continuation on update from pushed b4651334: fowl, fox,
+freeze, friend, fright, frost, furrow and gall. SC id/executable identifier:
+n/a, this is a reconstruction survey rather than a sound-law adjudication.
+The preceding release is complete; the user authorized continuing in like
+fashion, not automatic release or scientific adoption of this tranche.
+
+### Question
+
+Does the actual friend argument establish a directly named source dispute,
+and do apparent citation differences concern the selected etymon/cell?
+An explicit challenge to the compared edition confirms a source-explicit
+disagreement; reported bibliography, different daughter formations or a
+class label alone cannot confirm a whole-row cause. Fulk's footnote
+actually names Ringe2017 p.224 [@Fulk2018, p.179, n.1;
+@Ringe2017, p.224].
+
+### Current state
+
+The immutable released snapshot pins4422 forms,4554 positions,416
+comparisons,183 rationales and1379 consultations;97 core rows were
+bounded. All89 inherited positions for the eight rows are retained.
+Selected cells remain fugol, fox, frēosan, frēond, fyrhte, forst, furh
+and ġealla. The fright genitive and gall's selected input versus citation
+are not silently recast as dictionary headwords. Existing survey
+commentary, receipts, actual consultations and this audit are the dossiers
+consulted; no canonical rule verdict is reopened.
+
+### Diagnosis
+
+Every inherited position receives an individual relation, attribution,
+cell, date and supported-feature decision. Twenty-nine literal receipts
+and eight scoped processes supplement existing consultations; no grammar
+negatives or new row/source reviews are fabricated. Twelve annotation
+repairs have exact old/new/page-backed receipts. The complete firing
+census, principal executable traces, skip/displacement experiments and
+live/feeding/bleeding witness roles are n/a: no law, selected input or
+baseline is changed. Hash preservation verifies this boundary.
+
+### Literature
+
+Fowl's dictionaries overlap in fly/dissimilation rather than offering
+exclusive etymologies; RT's retained-u, explicit PWGmc u/o pair and bird
+genitive are distinct from angel, luminary, water, heaven and field
+paradigm comparanda [@Orel2003, pp.116-117; @Kroonen2013, p.157;
+@RingeTaylor2014, pp.32-33,48,329-330,387].
+Fox's masculine/feminine and tail/fluff formation accounts are distinct
+from the Nordic Iranian loan family [@Orel2003, p.117;
+@Kroonen2013, pp.157-158].
+Freeze's ana participle and original to formation, actual four OE
+principal parts and body/index date are separate. Frost's qualified z
+derivative is not another selected to ending
+[@Orel2003, pp.113,116; @Kroonen2013, pp.154-155,157;
+@Ringe2017, pp.246-247; @Fulk2018, pp.73,387;
+@RingeTaylor2014, pp.173,342-343].
+
+Friend's dictionaries prefer participial derivation, with Metzger
+reported rather than endorsed. Ringe's PGmc loving participle and daughter
+lexical nouns remain separate; Fulk directly challenges his noun-class
+caution from shared meaning/nonparticipial inflection. Fulk also admits
+the alternative is possible. OE meter, actual case/number cells, double
+versus single macron, trimoric contraction and the ija class label do not
+become one dating proof [@Orel2003, pp.114-115;
+@Kroonen2013, pp.155-156; @Ringe2017, pp.157,224,228,286,315;
+@Fulk2018, pp.75,178-179,387; @RingeTaylor2014, pp.62,386].
+Fright's ō/īn noun citations differ, while fearful adjective and factitive
+are family evidence, not the selected genitive
+[@Orel2003, p.120; @Kroonen2013, p.161; @Ringe2017, p.283].
+
+Furrow's root-noun cells and Frisian Verner variant coexist with Orel's
+explicit OE root-stem identification despite generic ō citation. Explicit
+PGmc, post-PIE, PCeltic, pre-OE compound and PWGmc/OE dative-plural
+premises remain separately labelled
+[@Orel2003, p.120; @Kroonen2013, p.160; @Ringe2017, p.222;
+@RingeTaylor2014, pp.28-29,202,308].
+Gall's bile/skin homonyms, Nordic neuter and shared gender labels remain
+distinct; Latin-initial and color-influence reservations are not absolute
+rejection or an exclusive etymology [@Orel2003, p.124;
+@Kroonen2013, p.165].
+CAPR's decisions are analytical classification, bounded explanatory
+accountability and source-annotation repair, not selection by output fit.
+
+### Historical analysis
+
+Dates come from the actual statement's scope, not index/title context.
+The PWGmc fowl slash pair and furrow dative plural are explicitly scoped;
+the furrow compound is pre-OE and the Welsh antecedent PCeltic. The
+Ringe zero-grade root belongs to an explicitly PGmc-reconstructable set
+[@RingeTaylor2014, pp.28,202,308,330; @Ringe2017, p.222].
+Unlabelled comparative steps and starless index citations remain
+independently undated. Stage, scope, confidence and verification are
+independent. Relationship to an executable proxy: n/a, unchanged. No
+chronology edges are promoted as stage-entailed or independently
+demonstrated. Authors' analogy accounts are reported, not adopted as
+CAPR lexical exceptions or grammatical sound-law conditioning.
+
+### Verdict
+
+SC verdict and registry line: n/a, no registry change. Research disposition:
+eight completed bounded alignments; a source-explicit focused friend
+disagreement and a scoped substantive fright-formation difference with
+unestablished cause. Friend's directly cited premises explain the
+disagreement in reconstructive warrant, not which complete genealogy is
+proved. All eight whole-row causes remain unestablished. Shared fowl
+derivation, Orel's admitted OE furrow root stem and qualified Latin-gall
+reservations are not converted into exclusive conflicts.
+
+### Propagation
+
+Affected SOURCE owners: forms, analyses, comparisons, rationales and
+coverage; new literal/amendment receipts; README/commentary and this
+audit; survey/analysis regressions. Four focused positions reuse evidence
+and twelve rationales are added. No catalogue, target or reading-scope
+schedule is removed. Canonical ledger/map/coverage/provenance regeneration
+uses exclusively `adjudicate.py --refresh`. Baseline/fingerprint effect:
+none; the46 scientific hashes remain protected.
+
+Measured totals:4459 forms,1379 consultations,4596 positions,
+418 comparisons and195 rationales;105 bounded/288 unreviewed rows.
+The tranche has131 positions linked to126 distinct records. Positive and
+negative controls cover explicit versus undated endpoints, metalinguistic
+labels, shared versus exclusive accounts, same-family versus selected
+cells, direct versus inferred explanations, receipt spans, inherited
+annotation repairs and independent completion gates.
+
+### Residue
+
+The friend noun-lexicalization choice and full selected-cell history,
+fright formation cause/genitive mapping, furrow inherited case and
+gall Latin/color genealogy remain precise limits. All288 remaining core
+alignments, the conditioning census, aggregate synthesis, watchlist and
+specialist dispatch remain unfinished. The RT conventions verification
+gap remains separately visible. No scientific adoption, introduction/PDF,
+automatic commit/push or next tranche is included. Current SOURCE,
+receipts and regressions are authority; never rerun the persisted candidate.
+
+Closeout: all203 focused survey/analysis tests pass. The first run exposed
+only a new regression quoting the separate literal's argument instead of
+the process record's actual wording; the assertion was corrected without
+changing scientific prose. Canonical refresh reports CONTROL PLANE CLEAN;
+bibliography, section-locator, new-prose printed-page and whitespace checks
+pass. Independent read-only queries reproduce105/288,131 positions/126
+records, the two-source source-explicit friend cause, the unexplained
+fright formation comparison and eight unestablished whole-row causes.
+The standalone alignment gate refuses288; verified reading separately
+refuses the preserved RT conventions gap.
+
+All4422 inherited evidence records survive except exactly twelve
+receipted annotation fields. All4465 outside positions,408 unaffected
+comparisons,183 inherited rationales and1352 outside consultations are
+unchanged. All786 dictionary reviews, source records, selected corpus
+records, unaffected research tables and46 scientific hashes survive.
+All29 literal spans independently resolve to the held paragraphs.
+This completes the thirteenth tranche, not the full programme; the
+tranche remains uncommitted. The preceding b4651334 release is pushed.
 
 ## Residue
 

@@ -916,9 +916,9 @@ class ReadingScopeTests(unittest.TestCase):
                 self.assertTrue(case["alignment_limits"])
         self.assertEqual(sum(row["scope"] == "core_triage" and
                              row["alignment_status"] == "bounded_limit"
-                             for row in tables["comparisons"]), 97)
+                             for row in tables["comparisons"]), 105)
         self.assertEqual(len(reviews), 1379)
-        with self.assertRaisesRegex(survey.analytical.AnalysisError, "296"):
+        with self.assertRaisesRegex(survey.analytical.AnalysisError, "288"):
             survey.analytical.require_alignment_complete(corpus, tables["comparisons"])
 
     def test_both_neuter_does_not_absorb_other_genders_three_or_two(self):
@@ -1798,6 +1798,178 @@ class ReadingScopeTests(unittest.TestCase):
         for amendment in amendments:
             self.assertEqual(evidence[amendment["evidence_id"]][amendment["field"]],
                              amendment["new_value"])
+            self.assertTrue(amendment["source_basis"])
+            self.assertNotEqual(amendment["old_value"], amendment["new_value"])
+
+    def test_thirteenth_tranche_individual_decisions_and_independent_causes(self):
+        corpus, _, forms, reviews = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        members = [p for p in tables["analyses"] if 2030 <= int(p["row_id"]) <= 2037]
+        self.assertEqual((len(members), len({p["evidence_id"] for p in members})), (131, 126))
+        for row_id in map(str, range(2030, 2038)):
+            case = next(c for c in tables["comparisons"] if c["comparison_id"] == "core-" + row_id)
+            positions = [p for p in members if p["row_id"] == row_id]
+            with self.subTest(row_id=row_id):
+                self.assertEqual((case["alignment_status"], case["explanation_status"]),
+                                 ("bounded_limit", "unestablished"))
+                self.assertTrue(case["alignment_limits"])
+                self.assertEqual(set(survey.ids(case["analysis_ids"])), {p["analysis_id"] for p in positions})
+                self.assertEqual(set(survey.ids(case["alignment_evidence_ids"])),
+                                 {p["evidence_id"] for p in positions})
+                self.assertTrue(all(p["status"] == "reviewed" and p["attribution_status"] != "unclear"
+                                    for p in positions))
+        self.assertEqual(len(reviews), 1379)
+
+    def test_fowl_comparanda_and_explicit_pwgmc_variant_do_not_collapse(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "2030"}
+        for number in (9, 10, 11, 12, 14, 15, 16):
+            self.assertEqual(positions[f"rt-complete-2030-{number:03d}"]["relation_to_row"], "comparandum")
+        self.assertEqual(positions["rt-complete-2030-007"]["stage_interpretation"], "pwgmc")
+        self.assertEqual(positions["rt-complete-2030-014"]["analytical_form"], "*weeter-")
+        self.assertEqual(positions["alignment-fowl-rt-genitive"]["relation_to_row"], "same_etymon_other_cell")
+        self.assertEqual(positions["orel-core-2030-2"]["attribution_status"], "endorsed")
+
+    def test_fox_tail_and_feminine_are_not_selected_noun_or_nordic_loan(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "2031"}
+        self.assertEqual(positions["orel-core-2031-2"]["relation_to_row"], "same_family")
+        tail = positions["alignment-fox-kroonen-tail-preform"]
+        self.assertEqual((tail["analytical_form"], tail["relation_to_row"]), ("*puk-sk-o-", "comparandum"))
+        argument = next(f for f in forms if f["evidence_id"] == "alignment-fox-tail-and-loan-identity")["argument"]
+        self.assertIn("Iranian loan", argument)
+        self.assertIn("rather than state opposite loan directions", argument)
+
+    def test_freeze_frost_shared_receipt_and_qualified_z_date_are_independent(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        shared = [p for p in tables["analyses"] if p["evidence_id"] == "alignment-freeze-frost-kroonen-to"]
+        self.assertEqual({p["row_id"]: p["relation_to_row"] for p in shared},
+                         {"2032": "same_family", "2035": "same_etymon_other_cell"})
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] in {"2032", "2035"}}
+        self.assertEqual(positions["alignment-freeze-fulk-native"]["analytical_form"], '*freusana"')
+        self.assertEqual(positions["alignment-freeze-fulk-native"]["stage_interpretation"], "pgmc")
+        self.assertEqual(positions["fulk-complete-index-freeze"]["stage_interpretation"], "unspecified")
+        self.assertEqual(positions["ringe-complete-frost-family"]["stage_interpretation"], "unspecified")
+        for label, literal in (("z", "*fruzan"), ("s", "*freusan")):
+            self.assertEqual(positions[f"alignment-frost-orel-{label}-derivative"]["analytical_form"], literal)
+        for number, cell in ((4, "present"), (5, "singular"), (6, "plural"), (7, "participle")):
+            self.assertIn(cell, survey.analytical.feature_values(positions[f"rt-complete-2032-{number:03d}"])["cell"])
+
+    def test_friend_direct_rebuttal_is_not_meter_or_whole_row_cause(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        positions = {p["evidence_id"]: p for p in tables["analyses"]
+                     if p["row_id"] == "2033" and not p["analysis_id"].endswith("friend-pgmc-noun-lexicalization")}
+        cases = {c["comparison_id"]: c for c in tables["comparisons"]}
+        self.assertEqual(cases["friend-pgmc-noun-lexicalization"]["explanation_status"], "source_explicit")
+        self.assertEqual(cases["core-2033"]["explanation_status"], "unestablished")
+        reason = next(r for r in tables["rationales"] if r["rationale_id"] == "r-friend-pgmc-noun-lexicalization")
+        self.assertEqual((reason["reason_target"], reason["support_mode"]),
+                         ("divergence_explanation", "source_explicit"))
+        self.assertIn("Ringe2017 p224", next(f for f in forms if
+                      f["evidence_id"] == "alignment-friend-direct-noun-lexicalization-rebuttal")["argument"])
+        self.assertEqual(positions["orel-core-2033-3"]["attribution_status"], "reported")
+        self.assertEqual(positions["ringe-complete-friend-loving-image"]["stage_interpretation"], "pgmc")
+        for eid in ("ringe-complete-friend-noun-image-228", "ringe-complete-friend-noun-image-315",
+                    "fulk-complete-index-friend-stem", "alignment-friend-fulk-body-stem"):
+            self.assertEqual(positions[eid]["stage_interpretation"], "unspecified")
+        self.assertEqual((positions["rt-complete-2033-004"]["comparison_unit"],
+                          positions["rt-complete-2033-004"]["relation_to_row"]),
+                         ("printed_representation", "process"))
+        self.assertEqual(positions["rt-complete-2033-005"]["stage_interpretation"], "oe")
+        self.assertIn("double-macron", survey.analytical.feature_values(
+                      positions["ringe-complete-friend-noun-image-228"])["quantity"])
+        self.assertIn("single-macron", survey.analytical.feature_values(
+                      positions["ringe-complete-friend-noun-image-315"])["quantity"])
+        self.assertEqual(positions["alignment-friend-fulk-dative"]["analytical_form"], "friend")
+        bridge = next(r for r in tables["rationales"] if r["rationale_id"] == "r-2033-meter-is-not-noun-date")
+        self.assertEqual(bridge["reason_target"], "descriptive_bridge")
+
+    def test_fright_formations_and_genitive_mapping_remain_bounded(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "2034"}
+        self.assertEqual(survey.analytical.feature_values(positions["orel-core-2034-1"])["suffix"], "īn")
+        self.assertEqual(survey.analytical.feature_values(positions["kroonen-core-2034-1"])["suffix"], "ō")
+        for eid in ("ringe-complete-fright-adjective", "alignment-fright-kroonen-verb",
+                    "alignment-fright-ringe-verb"):
+            self.assertEqual(positions[eid]["relation_to_row"], "same_family")
+        self.assertEqual(positions["alignment-fright-orel-nominative"]["relation_to_row"], "same_etymon_other_cell")
+        case = next(c for c in tables["comparisons"] if c["comparison_id"] == "fright-citation-formation")
+        self.assertEqual((case["comparability"], case["explanation_status"]),
+                         ("substantive_difference", "unestablished"))
+        self.assertIn("genitive", case["alignment_limits"])
+
+    def test_furrow_root_cells_celtic_date_and_compound_are_separate(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "2036"}
+        for number in (2, 11):
+            self.assertEqual(positions[f"rt-complete-2036-{number:03d}"]["stage_interpretation"], "pre_germanic")
+        self.assertEqual((positions["rt-complete-2036-003"]["stage_interpretation"],
+                          positions["rt-complete-2036-003"]["relation_to_row"]), ("other", "comparandum"))
+        self.assertEqual(positions["rt-complete-2036-004"]["stage_interpretation"], "unspecified")
+        self.assertEqual(positions["rt-complete-2036-008"]["relation_to_row"], "compound_component")
+        self.assertEqual(positions["rt-complete-2036-008"]["stage_interpretation"], "other")
+        self.assertEqual(positions["ringe-complete-furrow"]["stage_interpretation"], "pgmc")
+        self.assertEqual(positions["rt-complete-2036-013"]["stage_interpretation"], "pwgmc")
+        self.assertEqual(positions["alignment-furrow-kroonen-oe-dative"]["analytical_form"], "fyrh")
+        for label, literal in (("early", "furhum"), ("later", "furum")):
+            p = positions[f"alignment-furrow-rt-{label}-dative-plural"]
+            self.assertEqual((p["analytical_form"], p["stage_interpretation"], p["relation_to_row"]),
+                             (literal, "oe", "same_etymon_other_cell"))
+        self.assertIn("OE root-stem", survey.analytical.feature_values(positions["orel-core-2036-1"])["cell"])
+
+    def test_gall_bile_skin_and_qualified_admission_are_not_exclusive(self):
+        corpus, _, forms, _ = survey.load()
+        tables = survey.load_analysis(survey.ROOT, corpus, forms)
+        positions = {p["evidence_id"]: p for p in tables["analyses"] if p["row_id"] == "2037"}
+        evidence = {f["evidence_id"]: f for f in forms}
+        self.assertIn("Nordic neuter bile", evidence["kroonen-core-2037-2"]["cell"])
+        self.assertEqual(survey.analytical.feature_values(positions["kroonen-core-2037-2"])["gender"], "neuter")
+        self.assertIn("not categorical exclusion", evidence["alignment-gall-color-and-latin-initial"]["argument"])
+        reason = next(r for r in tables["rationales"] if r["rationale_id"] == "r-2037-bile-homonym-and-admission")
+        self.assertEqual(reason["reason_target"], "position_support")
+        self.assertNotIn("gall-latin", {c["comparison_id"] for c in tables["comparisons"]})
+
+    def test_thirteenth_literal_receipts_and_exact_annotation_amendments(self):
+        import hashlib
+        _, _, forms, _ = survey.load()
+        evidence = {f["evidence_id"]: f for f in forms}
+        directory = survey.ROOT / survey.DIRECTORY / "reading_accountability"
+        receipts = survey.read_table(directory / "alignment-2030-2037-occurrences.tsv")
+        self.assertEqual(len(receipts), 29)
+        for receipt in receipts:
+            with self.subTest(evidence_id=receipt["evidence_id"]):
+                record = evidence[receipt["evidence_id"]]
+                text = (survey.ROOT / record["basis"]).read_text()
+                if receipt["holding_sheet"]:
+                    sheet = int(receipt["holding_sheet"])
+                    marker = (rf"### PAGE {sheet}\s*\n" if receipt["source_key"] == "RingeTaylor2014"
+                              else rf"=== page {sheet:03d} ===\s*\n")
+                    block = re.split(marker, text, maxsplit=1)[1]
+                    block = re.split(r"### PAGE \d+|=== page \d+ ===", block, maxsplit=1)[0]
+                    paragraph = [p.strip() for p in re.split(r"\n\s*\n", block)
+                                 if p.strip()][int(receipt["paragraph"]) - 1]
+                else:
+                    start = text.index(receipt["begin_anchor"])
+                    end = text.index(receipt["end_anchor"], start) + len(receipt["end_anchor"])
+                    paragraph = text[start:end]
+                self.assertEqual(paragraph, receipt["paragraph_text"])
+                self.assertEqual(hashlib.sha256(paragraph.encode()).hexdigest(), receipt["paragraph_sha256"])
+                start, end = int(receipt["start_char"]), int(receipt["end_char"])
+                self.assertEqual(paragraph[start:end], record["diplomatic_form"])
+                self.assertEqual(record["verification"], "text_checked")
+                self.assertEqual(record["printed_pages"], receipt["printed_pages"])
+                if receipt["evidence_id"] == "alignment-friend-fulk-dative":
+                    self.assertIn("dat.\nfrijōnd bónda ", paragraph[start - 20:start])
+        amendments = survey.read_table(directory / "alignment-2030-2037-amendments.tsv")
+        self.assertEqual(len(amendments), 12)
+        for amendment in amendments:
+            self.assertEqual(evidence[amendment["evidence_id"]][amendment["field"]], amendment["new_value"])
             self.assertTrue(amendment["source_basis"])
             self.assertNotEqual(amendment["old_value"], amendment["new_value"])
 

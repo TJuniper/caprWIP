@@ -1598,6 +1598,264 @@ published PDF were unchanged. At that checkpoint the next alignment began2014;
 the full393-row alignment, conditioning census, explanatory synthesis
 and consistency watchlist remain unfinished.
 
+## Thirteenth bounded alignment: fowl through gall
+
+This continuation completes the eight rows2030-2037: fowl, fox, freeze,
+friend, fright, frost, furrow and gall. All89 inherited positions are
+individually reconciled against the complete relevant arguments,
+paradigms, footnotes and necessary cross-references. Twenty-nine exact
+literal receipts and eight scoped processes add37 records to existing
+consultations. Four focused positions reuse evidence, twelve rationales
+are added, and twelve old/new annotation receipts account for corrections
+without changing inherited diplomatic forms, kinds, row links, confidence
+or verification. The tranche has131 positions linked to126 distinct
+records. Current totals are4459 records,1379 consultations,4596 positions,
+418 comparisons and195 rationales;105 core rows are bounded and288
+remain unreviewed. These are accountability denominators, not105 proved
+whole-word reconstructions or a percentage of historical resolution.
+
+The principal explanatory result is unusually explicit: Fulk names the
+compared Ringe2017 passage, describes its caution and challenges the
+warrant for calling the PGmc nd-noun reconstruction rash. It is therefore
+a source-explicit disagreement, not a cause inferred merely from different
+dictionary endings. A separate fright comparison records a demonstrable
+citation-formation difference without inventing its cause
+[@Ringe2017, p.224; @Fulk2018, p.179, n.1;
+@Orel2003, p.120; @Kroonen2013, p.161].
+Neither focused result establishes a whole-row cause or licenses a
+production reconstruction change.
+
+### Fowl: shared derivation, retained u and different sonorant paradigms
+
+The dictionaries do not offer two exclusive etymologies simply because
+one prints a stem and the other a full word. Kroonen prefers *fugla-* from
+*flug-la-* by dissimilation and allows derivation from the fly verb; the
+Lithuanian bird comparison is a reported alternative. His deeper
+*pluk-ló-* presentation remains a comparative formation, not the selected
+Germanic nominative. Orel more directly derives his bird from the
+dissimilated older form and the fly verb, invoking the OE adjective
+meaning ‘apt to fly, flying swiftly’. The two preferred directions
+overlap. Their bibliography reports must not all be promoted into
+endorsed competing roots [@Kroonen2013, p.157;
+@Orel2003, pp.116-117].
+
+Ringe and Taylor supply a different problem. Fowl is among the northern
+West Germanic cases retaining u after possible later words and obvious
+levellings have been excluded. The neighborhood of labial consonants
+and l matters to their discussion, but does not constitute an
+exceptionless general explanation of every such word. Their final-ending
+loss account explicitly supplies PGmc *fuglaz* and PWGmc *fugl*. In the
+epenthesis example the PWGmc label scopes the complete *fugl / *fogl*
+pair, not only its first member. The inherited annotation for the lowered
+variant is corrected accordingly, without changing its literal or
+claiming that the selected OE noun descended from every cited variant
+[@RingeTaylor2014, pp.32-33,48,330].
+
+The OE genitive *fugles* adds an actual inflected cell. The heavy-root
+angel and luminary examples, light-root water and nonalternating heaven
+are paradigm comparanda, not missing steps in the bird genealogy.
+Water's written *weeter-* remains the held text's representation, not
+an invitation to silently modernize a quantity sign. The explicit PWGmc
+field stem belongs to later levelling in that comparison. Bird epenthesis,
+water syncope, inherited ending loss and root-vowel lowering require
+different premises; the matching sonorant shapes do not make the words
+one etymon or establish one common date
+[@RingeTaylor2014, pp.48,329-330,387].
+
+### Fox: male noun, feminine counterpart and a separate loan
+
+Orel's masculine s derivative is connected to the feminine she-fox
+formation. The latter's tail, down and animal-hair comparisons are
+comparative lexical evidence, not masculine fox inflections. Kroonen
+likewise gives a feminine counterpart, but distinguishes the later
+vixen formation as secondary derivation from the masculine fox noun.
+The selected masculine word is not interchangeable with either feminine
+citation merely because all can be glossed ‘fox’
+[@Orel2003, p.117; @Kroonen2013, pp.157-158].
+
+Kroonen's reason for connecting the fox to Sanskrit tail is the
+Lithuanian semantic parallel from tail to fox. His comparative
+*puk-so-* and the distinct Sanskrit *puk-sk-o-* are retained separately,
+without manufacturing a shared selected ending or an independently
+dated PGmc tail word. His discussion of the Nordic ref family as an
+Iranian loan concerns another lexical word. It does not make the current
+fox borrowed from Iranian or supply an opposing donor direction for
+the inherited fox/tail account. Orel's related feminine comparisons and
+reported objections require attribution, not a blanket two-author
+borrowing conflict [@Kroonen2013, p.158; @Orel2003, p.117].
+
+### Freeze and frost: inflection and derivation are not one ending axis
+
+Kroonen distinguishes the strong freeze stem from the voiced Verner
+alternant in the ana participle. His original to formation survives as
+the frost noun, rather than another spelling of the later participle.
+The new *prus-to-* receipt is shared across freeze and frost with
+different row relationships: it is a related formation for freeze and
+an earlier frost formation, not two independent author votes.
+The actual OE principal parts in Ringe and Taylor distinguish present
+infinitive, default singular past, plural past and participle, with their
+s/r and vowel alternations intact. No default participle is expanded
+into an attributed selected infinitive
+[@Kroonen2013, pp.154-155,157;
+@RingeTaylor2014, pp.342-343].
+
+Fulk's body explicitly introduces PGmc eu and quotes the freeze
+infinitive before its OE outcome. That is evidence for the body example's
+date, not permission to backdate the independently starless index
+citation. The held body text's ending has a double-quote corruption,
+retained literally in a text-checked receipt rather than restored from
+the index's superscript notation or certified as new image evidence.
+The OE infinitive is separately quoted
+[@Fulk2018, pp.73,387].
+
+For frost, the dictionaries' neuter/masculine alternatives and the
+to formation remain distinct from Ringe's z derivative. Ringe explicitly
+qualifies that noun as `(post-)PGmc`; this is not a precise PGmc endpoint.
+Orel also supplies a z frost noun and the s frost formation associated
+with Gothic frius, alongside his separate frust entry. These now have
+literal receipts, making the derivative-family bridge queryable without
+collapsing to, s and z formations into one chosen word or assuming that
+all authors supply the selected neuter ending
+[@Orel2003, p.116; @Kroonen2013, p.157;
+@Ringe2017, pp.246-247].
+
+### Friend: a direct disagreement about reconstructive warrant
+
+Kroonen calls friend a lexicalized love participle, and Orel endorses
+the participial relation. Orel's report of Metzger's nonparticipial
+derivation is not his own adopted rejection of that account. The free
+adjective, love verb and feminine base are family evidence, not alternative
+friend cases. A parenthesized j in Kroonen or Fulk remains printed
+optionality, not an optional executable sound law
+[@Kroonen2013, pp.155-156; @Orel2003, pp.114-115;
+@Fulk2018, p.75].
+
+Ringe's actual caution is specific. Daughter participles were remodelled
+differently, whereas a relic class of nd nouns survives. He reconstructs
+a PGmc loving participle but regards its already functioning as the noun
+friend as speculative, and projecting the later fossilized noun class
+back into PGmc as rash. His later morphology passages use daughter
+nominalizations as evidence for inherited participial inflection; those
+local noun stems are not independently dated PGmc lexical nouns. His
+PGmc love verb and loving participle can therefore coexist with uncertainty
+about the noun's lexicalization
+[@Ringe2017, pp.157,224,228,286,315].
+
+Fulk179 footnote1 directly cites Ringe2017 p.224, not merely an older
+edition or an unnamed opponent. He accepts that the participle-only
+account is possible, but stresses that the cognates share the meaning
+‘friend’ and none inflect as participles. On those premises, assuming
+a PGmc class of nd nouns cannot justly be called rash. The focused
+comparison's source-explicit cause is this disagreement over how much
+the shared lexical meaning and noun inflection warrant, versus Ringe's
+emphasis on independently changed daughter participles. It does not
+convert Fulk's argument into proof that Ringe rejected the loving
+participle, or establish every selected-cell development
+[@Fulk2018, pp.178-179, especially p.179, n.1;
+@Ringe2017, p.224].
+
+The added OE paradigm cells prevent the inference from resting only
+on a headword. Nominative, genitive, dative, genitive plural and dative
+plural are separate receipts; the a-stem analogical plural is separate
+again. The literal dative *friend* is matched inside the labelled table,
+not to the English gloss ‘friend’ earlier on that page and not restored
+to a modernized quantity spelling. Fulk's earlier metrical claim
+concerns monosyllabic OE scansion, not a primitive noun-lexicalization
+date [@Fulk2018, pp.75,178-179].
+
+Quantity and representation remain a separate axis. Ringe's image-verified
+double-macron forms and his local single-macron noun are all preserved:
+their difference is not automatically historical shortening.
+Ringe and Taylor explicitly call the earlier suffix trimoric and warn
+against generalizing from the unique stressed ijo sequence. Their later
+`*ija-stems` is a metalinguistic formation-class label, not an authored
+friend whole word; their explicit OE noun and its root-noun inflection
+must not be combined with the preceding calf discussion
+[@Ringe2017, pp.157,224,228,315;
+@RingeTaylor2014, pp.62,386].
+
+### Fright: a genuine citation-formation difference, not its explanation
+
+Kroonen's feminine ō noun cites continental reflexes. Orel's feminine
+īn noun directly cites OE *fyrhtu* and Gothic fear. That difference
+supports a focused comparison of noun citations, but not an assertion
+that both authors exclude every other formation or explain the same
+selected genitive by incompatible laws. The quoted OE nominative is
+another cell from selected *fyrhte*; the supplied īn citation is not
+an attributed reconstruction of the selected genitive ending
+[@Kroonen2013, p.161; @Orel2003, p.120].
+
+The adjective and verbs expose why flattening the family would obscure
+the question. Kroonen distinguishes a noun-based denominative from an
+adjective-based factitive. Ringe's factitive likewise stands beside
+the fearful adjective, not an īn noun. Those quoted verbs are useful
+family evidence but cannot supply the missing selected noun ending.
+The citation-formation difference is substantive at the stated scope;
+its cause, daughter mapping and complete chosen genealogy remain
+unestablished [@Kroonen2013, p.161; @Ringe2017, p.283;
+@Orel2003, p.120].
+
+### Furrow: root-noun agreement behind superficially different citations
+
+Kroonen gives an archaic root noun, separately quoted nominative and
+dative, the OE mutated dative and an explicitly Old Frisian voiced
+variant. His deeper nominative, genitive and dative do not all have
+the same grade or accent. Their native representations remain literal;
+syllabicity or quantity is not restored from another author's notation.
+Orel gives a generic feminine ō citation but expressly calls OE *furh*
+a root stem and attaches his i formation to OHG. Thus the apparent
+root-noun/ō opposition does not establish an exclusive disagreement
+about OE membership [@Kroonen2013, p.160; @Orel2003, p.120].
+
+Ringe's date is established by the actual paragraph identifying the
+PGmc-reconstructable consonant-stem set and its generalized grades,
+not by the chapter heading. Ringe and Taylor's post-PIE root and
+explicitly PCeltic Welsh antecedent are separately dated comparative
+units. Their following root-noun lowering discussion admits possible
+paradigm levelling and uncertain chronology. Reporting that account
+does not adopt grammatical conditioning in CAPR's own laws or turn
+the local root-noun label into an exceptionless sound-law environment
+[@Ringe2017, p.222; @RingeTaylor2014, pp.28-29].
+
+The furh(z) extractor clip is retained, but correctly annotated as
+the first member of an explicitly pre-OE compound, not an attested OE
+simplex. Long is its separate PGmc source adjective. In the medial
+h-loss passage the explicitly PWGmc dative plural and actual OE
+*furhum* (EpGl884) before *furum* provide another cell and a relative
+development, not a complete selected nominative. No new historical
+chronology edge follows from this research annotation
+[@RingeTaylor2014, pp.202,308].
+
+### Gall: bile, skin lesions and qualified cognate admission
+
+Orel's bile entry carries a shared neuter/feminine label and two
+formations. The following masculine skin-lesion entry expressly routes
+the homonymous OE bile back to the preceding entry. Its masculine
+label and injury comparisons therefore cannot be attached to selected
+bile. Kroonen similarly keeps the skin-lesion account separate and
+distinguishes Nordic neuter a formation from the masculine/feminine
+n citation [@Orel2003, p.124; @Kroonen2013, p.165].
+
+The color connection is not a resolved whole-row cause. Orel admits
+Latin fel and the color family. Kroonen says the bile word may have
+been influenced by the yellow root rather than derived from it, and
+finds Latin membership problematic because the initial points to a
+different reconstructed consonant. His ad hoc dialectal velar-to-f
+explanation also remains problematic. This is meaningful qualified
+admissibility evidence, but not categorical rejection or a proved
+exclusive cognate genealogy. It consequently receives position-support
+reasoning rather than a manufactured inter-author explanation
+[@Orel2003, p.124; @Kroonen2013, p.165].
+
+All eight core conclusions are bounded, and all eight whole-row causes
+remain unestablished. The source catalogue, actual consultation roster
+and outside-tranche analyses are preserved. Corpus selections,
+input stages/contexts, FSTs, baselines, introduction and PDF are unchanged.
+The independent remaining alignment count is288; the separate RT
+conventions verification gap remains. This completes the thirteenth
+tranche, not the full alignment, conditioning census, aggregate synthesis
+or production-adoption programme.
+
 ## Twelfth bounded alignment: fly through four
 
 This continuation reconciles all87 inherited positions for fly, foal,
@@ -1608,7 +1866,7 @@ four focused positions reuse evidence, twelve rationales are added and
 eight old/new receipts document SOURCE annotation corrections. All
 inherited diplomatic strings, kinds, row links, confidence and verification
 remain intact. The129 tranche positions link125 distinct records.
-Current totals are4422 records,1379 consultations,4554 positions,
+At that checkpoint, totals were4422 records,1379 consultations,4554 positions,
 416 cases and183 rationales;97 bounded and296 unreviewed core rows.
 
 The two focused explanations concern comparative-root analysis in foal

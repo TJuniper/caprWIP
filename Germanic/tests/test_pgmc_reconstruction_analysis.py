@@ -532,10 +532,36 @@ class LiveAnalyticalTests(unittest.TestCase):
         for row_id in map(str, range(2022, 2030)):
             self.assertEqual(self.cases["core-" + row_id]["explanation_status"], "unestablished")
 
+    def test_thirteenth_tranche_direct_cause_and_deterministic_queries(self):
+        tables = {"forms": (survey.FORM_COLUMNS, self.forms),
+                  **{name: (analytical.TABLES[name], rows) for name, rows in self.tables.items()}}
+        sql = """
+            SELECT c.comparison_id,c.explanation_status,count(DISTINCT f.source_key) AS sources
+            FROM comparisons c JOIN comparison_analyses ca USING(comparison_id)
+            JOIN analyses p USING(analysis_id) JOIN forms f USING(evidence_id)
+            WHERE c.comparison_id IN ('friend-pgmc-noun-lexicalization','fright-citation-formation')
+            GROUP BY c.comparison_id,c.explanation_status ORDER BY c.comparison_id
+        """
+        expected = ("comparison_id\texplanation_status\tsources\n"
+                    "friend-pgmc-noun-lexicalization\tsource_explicit\t2\n"
+                    "fright-citation-formation\tunestablished\t2\n")
+        self.assertEqual(analytical.query(tables, sql), expected)
+        self.assertEqual(analytical.query(tables, sql), expected)
+        self.assertEqual(analytical.query(tables, """
+            SELECT count(*) AS positions,count(DISTINCT evidence_id) AS evidence
+            FROM analyses WHERE CAST(row_id AS INTEGER) BETWEEN 2030 AND 2037
+        """), "positions\tevidence\n131\t126\n")
+        self.assertEqual(analytical.query(tables, """
+            SELECT row_id,relation_to_row FROM analyses
+            WHERE evidence_id='alignment-freeze-frost-kroonen-to' ORDER BY row_id
+        """), "row_id\trelation_to_row\n2032\tsame_family\n2035\tsame_etymon_other_cell\n")
+        for row_id in map(str, range(2030, 2038)):
+            self.assertEqual(self.cases["core-" + row_id]["explanation_status"], "unestablished")
+
     def test_core_reading_population_and_supplements(self):
         survey.require_core_complete(self.corpus, self.sources, self.reviews)
         self.assertEqual(sum(form["source_key"] in survey.CORE_SOURCES
-                             for form in self.forms), 1452)
+                             for form in self.forms), 1471)
         self.assertEqual(sum(review["source_key"] in survey.CORE_SOURCES
                              for review in self.reviews), 786)
         self.assertEqual(set(survey.ids(self.evidence["orel-core-1956-01"]["row_ids"])),

@@ -118,8 +118,8 @@ gap. The fully verified three-source gate therefore still refuses
 completion; the held-text reading is finished with named limits, not
 newly image-certified.
 
-There are4422 evidence records,1379 actual consultations and4554
-analytical positions, with416 comparisons and183 rationales. The RT
+There are4459 evidence records,1379 actual consultations and4596
+analytical positions, with418 comparisons and195 rationales. The RT
 occurrence audit removed31 overlapping new extractions before integration;
 genuine repeated forms at different positions/cells/stages remain.
 The persisted occurrence, remap, passage, page and glyph-limit receipts
@@ -127,8 +127,8 @@ document that distinction. Only author attribution and appended notes
 change in the three named inherited RT records; their forms, pages,
 stages and verification remain intact.
 
-Ninety-seven core rows now have individually reconciled, bounded alignment:
-1933-2029. The remaining296 are unreviewed. The second tranche builds on
+One hundred five core rows now have individually reconciled, bounded alignment:
+1933-2037. The remaining288 are unreviewed. The second tranche builds on
 the35 preparatory dictionary decisions rather than treating that preparation
 as finished all-source alignment. Each completed
 alignment retains all available member positions and names its specific
@@ -136,6 +136,38 @@ remaining formation, reflex, representation or selected-cell premise;
 none is a settled whole-word equivalence or established whole-case cause.
 Ringe's ask-specific following-j reason and RT's bake following-i/lost-trigger
 reason are position support, not a completed class census.
+
+The thirteenth tranche completes fowl, fox, freeze, friend, fright,
+frost, furrow and gall (2030-2037). All89 inherited positions have
+individual decisions;29 literal receipts and eight processes add37
+records to existing consultations. Four focused positions reuse evidence,
+twelve rationales are added, and twelve exact old/new SOURCE annotation
+receipts preserve date/cell repairs. Its131 positions link126 distinct
+records. Friend supplies a directly named, source-explicit disagreement:
+Fulk expressly challenges Ringe2017's caution about projecting the
+lexical nd-noun class into PGmc, using shared meaning and nonparticipial
+inflection while admitting the participle-only account remains possible
+[@Ringe2017, p.224; @Fulk2018, p.179, n.1].
+
+Fright's ō/īn citation-formation difference is scoped and substantive,
+but its cause and selected-genitive mapping remain unestablished
+[@Orel2003, p.120; @Kroonen2013, p.161].
+Fowl's fly/dissimilation accounts overlap, and Orel expressly recognizes
+OE furrow as a root stem beside his generic ō citation; neither is made
+an exclusive etymological conflict
+[@Orel2003, pp.116-117,120; @Kroonen2013, pp.157,160].
+Fox's feminine counterpart and distinct Nordic loan, freeze/frost's
+participle and z/to derivatives, and gall's bile/skin homonyms remain
+separate. Kroonen's Latin-fel reservations are not categorical exclusion
+[@Orel2003, pp.113,116-117,124; @Kroonen2013, pp.154-155,157-158,165;
+@Ringe2017, pp.246-247].
+Explicit PWGmc fowl variants and furrow dative plural, post-PIE/PCeltic
+roots, a pre-OE compound member, undated index citations, metalinguistic
+class labels and native glyphs retain their independent scopes
+[@Fulk2018, pp.73,75,178,387;
+@RingeTaylor2014, pp.28,202,308,330,386-387].
+All eight whole-row causes remain unestablished. Corpus, stages/contexts,
+FSTs, scientific baselines, introduction and PDF remain unchanged.
 
 The twelfth tranche completes fly, foal, fodder, fold, folk, follow,
 forlorn (selected lose infinitive) and four (2022-2029). All87 inherited

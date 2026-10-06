@@ -1,0 +1,1564 @@
+evidence_id	source_key	printed_pages	holding_sheet	paragraph	start_char	end_char	diplomatic_form	paragraph_sha256	paragraph_text	begin_anchor	end_anchor
+alignment-fowl-kroonen-preform	Kroonen2013	157	197	1	1728	1737	*pluk-ló-	ec43fdb91b920646f62efae01d9e476778cb05fcf3df51e57810879e07796d85	"*fruman-
+157
+*fruman- num. 'former, first' - Go. fruma num. 'id.', ON frum- pref. 'first,
+oldest', OE forma num. 'id.', E former, OFri. forma num. 'id.', OS formo num.
+'id.' *prH-mH-on- (IE) - OPru. pirmas, Lith. pirmas num. 'first' <
+*prH-mHo-; Gr. Прάµоç m. 'foremost' <*pr-mH-o-.
+It is likely that the numeral contains the comparative suffix PGm. *-uman-
+<*-mH-on-, but the expected outcome of a proto-form *pr-mH-on-would be
+**furman-. Possibly, this form was remodeled into *fruman- on the basis of
+other ordinals ending in *-uman-. A similar remodeling took place in Latin,
+where primus replaced expected *purmus < *pr-mH-o- or *prāmus <
+*prh2-mH-o- due to the productivity of the suffix *-īmus (cf. optimus).
+-
+*fruska- m. 'frog' ON froskr m. 'id.', OE forsc, frox m. 'id.', OHG frosc m.
+'id.', G Frosch m. 'id.' (GM).
+A formation that in all probability continues older *frug-ska- with the
+same root element as in *frug/kkan- 'frog'. The derivation from *frauda-
+'froth' (see *freupan-) was inspired by ON frauor 'frog', but this form is like-
+ly to have developed from *fraugr in view of ON frauki 'id.' <*frauk(k)an-.
+*frusta- m./n. 'frost' - ON frost n. 'id.', OE forst m. 'id.', E frost, OFri. forst m.
+'id.', OS frost m. ‘id.', Du. vorst c. 'id.', OHG frost m. ‘id.', G Frost m. ‘id.' ⇒
+*prus-to- (DRV).
+Derived from *freusan- (q.v.).
+*füan- m. 'mold' - ON fúi m. 'rottenness', Far. fúgvi m. 'id.' ⇒ *puH-on- (IE).
+An n-stem to the PIE root *puH-, for which see *faujan- 1.
+*fugla-m. 'bird' - Go. fugls m. 'id.', ON fogl, fugl m. 'id.', Far. fuglur m. 'id.',
+Elfd. fugel m. 'id.', OE fugol m. 'id.', E fowl, OFri. fugel m. 'id.', OS fugal m. 'id.',
+Du. vogel c. 'id.', OHG fogal, fugal m. 'id.', G Vogel m. ‘id.' ⇒ *pluk-ló- (DRV).
+Some connect Lith. paūkštis 'bird' < *pouk-sti- (e.g. Magnússon 1989:
+214), but the form *fugla- is more likely to have developed from *flug-la-
+(by dissimilation), and may thus have been derived from *fleugan- 'to fly'
+(q.v.).
+*fuhōn- f. 'she-fox' - Go. fauho f. 'id.', ON fóa, fúa f. 'id.', MLG võ f. 'id.', OHG
+voha f. 'id.', MHG vohe f. 'id.' (IE).
+The feminine to *fuhsa- 'fox' (q.v.). Another formation with the same
+meaning is represented by ME fixen(e), vixen, E vixen (with southern v- for
+f-), MHG vühsinne, G Füchsin, but unlike *fuhōn-, this is a secondary deriva-
+tion from *fuhsa-.
+*fuhsa- m. 'fox' - ON fox n. 'deceit', Icel. fox n. 'fox', OE fox m. 'id.', E fox,
+WFri. foks m. 'id.', EFri. foaks m. ‘id.', MLG vos(se) m. ‘id.', MDu. vos m., vosse f."		
+alignment-fowl-kroonen-fly-base	Kroonen2013	157	197	1	1946	1955	*fleugan-	ec43fdb91b920646f62efae01d9e476778cb05fcf3df51e57810879e07796d85	"*fruman-
+157
+*fruman- num. 'former, first' - Go. fruma num. 'id.', ON frum- pref. 'first,
+oldest', OE forma num. 'id.', E former, OFri. forma num. 'id.', OS formo num.
+'id.' *prH-mH-on- (IE) - OPru. pirmas, Lith. pirmas num. 'first' <
+*prH-mHo-; Gr. Прάµоç m. 'foremost' <*pr-mH-o-.
+It is likely that the numeral contains the comparative suffix PGm. *-uman-
+<*-mH-on-, but the expected outcome of a proto-form *pr-mH-on-would be
+**furman-. Possibly, this form was remodeled into *fruman- on the basis of
+other ordinals ending in *-uman-. A similar remodeling took place in Latin,
+where primus replaced expected *purmus < *pr-mH-o- or *prāmus <
+*prh2-mH-o- due to the productivity of the suffix *-īmus (cf. optimus).
+-
+*fruska- m. 'frog' ON froskr m. 'id.', OE forsc, frox m. 'id.', OHG frosc m.
+'id.', G Frosch m. 'id.' (GM).
+A formation that in all probability continues older *frug-ska- with the
+same root element as in *frug/kkan- 'frog'. The derivation from *frauda-
+'froth' (see *freupan-) was inspired by ON frauor 'frog', but this form is like-
+ly to have developed from *fraugr in view of ON frauki 'id.' <*frauk(k)an-.
+*frusta- m./n. 'frost' - ON frost n. 'id.', OE forst m. 'id.', E frost, OFri. forst m.
+'id.', OS frost m. ‘id.', Du. vorst c. 'id.', OHG frost m. ‘id.', G Frost m. ‘id.' ⇒
+*prus-to- (DRV).
+Derived from *freusan- (q.v.).
+*füan- m. 'mold' - ON fúi m. 'rottenness', Far. fúgvi m. 'id.' ⇒ *puH-on- (IE).
+An n-stem to the PIE root *puH-, for which see *faujan- 1.
+*fugla-m. 'bird' - Go. fugls m. 'id.', ON fogl, fugl m. 'id.', Far. fuglur m. 'id.',
+Elfd. fugel m. 'id.', OE fugol m. 'id.', E fowl, OFri. fugel m. 'id.', OS fugal m. 'id.',
+Du. vogel c. 'id.', OHG fogal, fugal m. 'id.', G Vogel m. ‘id.' ⇒ *pluk-ló- (DRV).
+Some connect Lith. paūkštis 'bird' < *pouk-sti- (e.g. Magnússon 1989:
+214), but the form *fugla- is more likely to have developed from *flug-la-
+(by dissimilation), and may thus have been derived from *fleugan- 'to fly'
+(q.v.).
+*fuhōn- f. 'she-fox' - Go. fauho f. 'id.', ON fóa, fúa f. 'id.', MLG võ f. 'id.', OHG
+voha f. 'id.', MHG vohe f. 'id.' (IE).
+The feminine to *fuhsa- 'fox' (q.v.). Another formation with the same
+meaning is represented by ME fixen(e), vixen, E vixen (with southern v- for
+f-), MHG vühsinne, G Füchsin, but unlike *fuhōn-, this is a secondary deriva-
+tion from *fuhsa-.
+*fuhsa- m. 'fox' - ON fox n. 'deceit', Icel. fox n. 'fox', OE fox m. 'id.', E fox,
+WFri. foks m. 'id.', EFri. foaks m. ‘id.', MLG vos(se) m. ‘id.', MDu. vos m., vosse f."		
+alignment-fowl-rt-genitive	RingeTaylor2014	387	402	2	416	422	fugles	8b81959bb7873a0b2fd316e6681e7122c9bcfe2342cd0208c871fcef63433879	"exceptionless alternation between -CVR in endingless forms and -CR- in forms
+with overt endings (e.g. engel ‘angel’, gen. sg. engles < *angil, *angilas, exactly
+like tungol ‘luminary’, gen. sg. tungles < *tungl, *tunglas, cf. ON tungl). Similar
+stems with light root syllables did not undergo syncope if the suffixal vowel
+was *i or *u. Thus there were two light root types, alternating (e.g. fugol
+‘bird’, gen. sg. fugles < *fugl- with epenthesis; weeter ‘water’, gen. sg. weetres
+< *weeter- with syncope of *z after a light syllable) and non-alternating (e.g.
+heofon ‘sky, heaven’, gen. sg. heofones < *hebun-). In early OE the heavy root
+type shows little tendency to level the alternation in the suffix, but the light
+root type has begun to level—not surprisingly, since whether or not there was
+an alternation is lexically determined. Also not surprisingly, the suffixal vowels
+tend to be levelled into the vowelless forms, creating invariant stems; thus we
+find gen. sg. eceres ‘of a field’, nom.-acc. pl. eceras beside inherited cecres,
+ecras (PWGmc *akr-), gen. sg. weeteres beside inherited weetres (see above—
+and nom.-acc. pl. wetru ~ weeteru, see 6.8.2)."		
+alignment-fox-kroonen-fox-preform	Kroonen2013	158	198	1	78	86	*puk-so-	331f549fa0d353829dc0da96cbbd2693caae7b1aefee1f299fa435aec437b04f	"158
+*fuk(k)ōn-
+'id.', Du. vos c. 'id.', OHG fuhs m. ‘id.', G Fuchs m. ‘id.' ⇒ *puk-so- (IE) — Skt.
+púcha- m. 'tail, rod' < *puk-sk-o-.
+Since the semantic link between 'tail' and 'fox' is paralleled by Lith.
+uodegà 'tail' > uodegis 'fox', it is reasonable to compare Germanic *fuhsa- to
+Skt. púcha-. This provides the word with an Indo-European background.
+Note that the Nordic word for 'fox', ON refr, Icel. refur, Far. revur, Nw. rev,
+Sw. räv, Da. ræv (also cf. Fi. repo), was borrowed from Iranian, cf. Oss. ruvas
+| robas (Skt. lopāśá-, Av. raopi-, Sogd. ropas). This is supported by Spa.
+raposo, raposa, apparently a loanword from the same Sarmatian or Alanic
+source (Brøndal 1928: 10). See also *fuhōn- 'she-fox'.
+-
+*fuk(k)ōn- w.v. 'to blow' - Icel. fokka w.v. 'to mess around, rush', MLG
+vucken w.v. 'to rush, scud', MDu. vocken w.v. 'to blow', MHG fochen w.v. 'to
+blow' *pug-néh₂- (EUR?) Either to Latv. pūga f. 'gust of wind' <
+*pug-eh2- or to Arm. p'uk (9 'breath, wind, fart' < *pug-o- (with sound sym-
+bolic aspiration?).
+The different dialects with their vacillation between *fukkōn- and *fukōn-
+point to a formation *pug-néh2-, which could be related to Latv. pūga and
+Arm. p'uk. The sometimes compared Lith. pūkšti (pūkščiù) 'to cough,
+snarl', on the other hand, is a loanword from LG pusten 'to pant, snarl' (with
+klusilspring in the sequence -úš-). See also *feukan- ~ *fūkan-.
+*füla- adj. 'filthy, foul' - Go. fuls adj. 'foul, putrid', ON fúll adj. 'foul, stinking;
+mean', OE fül adj. 'foul, nasty', E foul, OFri. fül adj. ‘foul; vile', OS fulitha f.
+'filth', MLG fül adj. ‘foul, bad', Du. vuil adj. 'dirty', OHG fül adj. ‘rotten, de-
+cayed', G faul adj. 'putrid; lazy'⇒ *púH-lo- (IE) - Lith. púliai m.pl. 'pus' <
+*puH-l-io- and piaulaî m.pl. 'mold' <*peuH-l-io-.
+A lo-stem derived from a PIE root *puH-. See also *faujan- 1.
+*fulan- m. 'foal' - Go. fula m. 'id.', ON foli m. 'id.', Elfd. fuoli m. ‘id.', OE fola
+m. 'id.', E fole, MLG vole m. 'id.', OHG folo m. 'id.', G Fohlen m. 'id.'⇒ *plH-on-
+(IE) — Gr. лwλos m./f. 'foal' < *polH-o-, W ebawl 'id.' < *h₁ekwo-pōlH-o-; Alb.
+pelē 'mare' <*pōlH-neh₂-.
+-
+Also cf. ON, Far., OSw. fyl, Sw. fōl, Nw. føl(1), Da. føl n. 'id.' < *fulja- <
+*plH-io-, the WGm. diminutive MDu. volen, vulen, Du. veulen, OHG vuli, vulīn,
+MHG vüle, vülin, G Füllen n. 'foal' < *ful-lin(a)- and the Franconian feminine
+MHG vülche, MDu. vilke, Du. dial. vulke, vilke f. '(young) mare' <*fulikō(n)-.
+In IE, the word is sometimes reconstructed with a *u in the root, viz.
+*p(ŏ)ul- (cf. Orel 2000: 14), but this seems to be precluded by W ebawl. I
+therefore reconstruct a root noun *pólH-s, gen. *plH-ós (Lubotsky 1988:
+132). This formation may ultimately have been derived from a verbal root
+*pelH- as in Alb. pjell 'to give birth' (cf. Huld 1984: 102)."		
+alignment-fox-kroonen-tail-preform	Kroonen2013	158	198	1	123	133	*puk-sk-o-	331f549fa0d353829dc0da96cbbd2693caae7b1aefee1f299fa435aec437b04f	"158
+*fuk(k)ōn-
+'id.', Du. vos c. 'id.', OHG fuhs m. ‘id.', G Fuchs m. ‘id.' ⇒ *puk-so- (IE) — Skt.
+púcha- m. 'tail, rod' < *puk-sk-o-.
+Since the semantic link between 'tail' and 'fox' is paralleled by Lith.
+uodegà 'tail' > uodegis 'fox', it is reasonable to compare Germanic *fuhsa- to
+Skt. púcha-. This provides the word with an Indo-European background.
+Note that the Nordic word for 'fox', ON refr, Icel. refur, Far. revur, Nw. rev,
+Sw. räv, Da. ræv (also cf. Fi. repo), was borrowed from Iranian, cf. Oss. ruvas
+| robas (Skt. lopāśá-, Av. raopi-, Sogd. ropas). This is supported by Spa.
+raposo, raposa, apparently a loanword from the same Sarmatian or Alanic
+source (Brøndal 1928: 10). See also *fuhōn- 'she-fox'.
+-
+*fuk(k)ōn- w.v. 'to blow' - Icel. fokka w.v. 'to mess around, rush', MLG
+vucken w.v. 'to rush, scud', MDu. vocken w.v. 'to blow', MHG fochen w.v. 'to
+blow' *pug-néh₂- (EUR?) Either to Latv. pūga f. 'gust of wind' <
+*pug-eh2- or to Arm. p'uk (9 'breath, wind, fart' < *pug-o- (with sound sym-
+bolic aspiration?).
+The different dialects with their vacillation between *fukkōn- and *fukōn-
+point to a formation *pug-néh2-, which could be related to Latv. pūga and
+Arm. p'uk. The sometimes compared Lith. pūkšti (pūkščiù) 'to cough,
+snarl', on the other hand, is a loanword from LG pusten 'to pant, snarl' (with
+klusilspring in the sequence -úš-). See also *feukan- ~ *fūkan-.
+*füla- adj. 'filthy, foul' - Go. fuls adj. 'foul, putrid', ON fúll adj. 'foul, stinking;
+mean', OE fül adj. 'foul, nasty', E foul, OFri. fül adj. ‘foul; vile', OS fulitha f.
+'filth', MLG fül adj. ‘foul, bad', Du. vuil adj. 'dirty', OHG fül adj. ‘rotten, de-
+cayed', G faul adj. 'putrid; lazy'⇒ *púH-lo- (IE) - Lith. púliai m.pl. 'pus' <
+*puH-l-io- and piaulaî m.pl. 'mold' <*peuH-l-io-.
+A lo-stem derived from a PIE root *puH-. See also *faujan- 1.
+*fulan- m. 'foal' - Go. fula m. 'id.', ON foli m. 'id.', Elfd. fuoli m. ‘id.', OE fola
+m. 'id.', E fole, MLG vole m. 'id.', OHG folo m. 'id.', G Fohlen m. 'id.'⇒ *plH-on-
+(IE) — Gr. лwλos m./f. 'foal' < *polH-o-, W ebawl 'id.' < *h₁ekwo-pōlH-o-; Alb.
+pelē 'mare' <*pōlH-neh₂-.
+-
+Also cf. ON, Far., OSw. fyl, Sw. fōl, Nw. føl(1), Da. føl n. 'id.' < *fulja- <
+*plH-io-, the WGm. diminutive MDu. volen, vulen, Du. veulen, OHG vuli, vulīn,
+MHG vüle, vülin, G Füllen n. 'foal' < *ful-lin(a)- and the Franconian feminine
+MHG vülche, MDu. vilke, Du. dial. vulke, vilke f. '(young) mare' <*fulikō(n)-.
+In IE, the word is sometimes reconstructed with a *u in the root, viz.
+*p(ŏ)ul- (cf. Orel 2000: 14), but this seems to be precluded by W ebawl. I
+therefore reconstruct a root noun *pólH-s, gen. *plH-ós (Lubotsky 1988:
+132). This formation may ultimately have been derived from a verbal root
+*pelH- as in Alb. pjell 'to give birth' (cf. Huld 1984: 102)."		
+alignment-freeze-fulk-native	Fulk2018	73	90	1	2523	2533	"*freusana"""	1e702eecc0b2ab5bd6748fa6c601c80835a3056eba5b4345546504bc9ee47e28	"§4.12 Stressed vowels in Anglo-Frisian 73
+further conditioning (see below) it remained as such in OE, whereas it is reflected in
+OFris. as e. Examples: OE fæder 'father', dæg 'day', læt 'slow, late', OFris. feder, dei,
+let (cf. Go. fadar, dags, lats). This fronting is commonly referred to as Anglo-Frisian
+Brightening. Except in umlaut environments, PGmc. a remains unchanged in OFris.
+before /x/ (cf. achta ‘eight', sax ‘knife', slā ‘kill' (< *slaxan)), before checked / (cf. salt
+'salt', ald 'old'), between w and checked r (cf. warm ‘warm', swart ‘black'), and in
+some unaccented words, e.g. was 'was'. In Anglo-Frisian a notable
+asymmetry between
+the long and short vowel inventories of WGmc. (with no short vowel corresponding to
+æ, no long vowel corresponding to a) was thus eliminated by the fronting of a to æ,
+whereas elsewhere in WGmc. (and NGmc.) it was eliminated by the backing of a to ā
+(§4.6). See further Kortlandt 2008: 266.
+This fronting of a applied also to the diphthong au in OE, producing ēa, at first a
+diphthong with a rounded off-glide, as shown by early spellings, e.g. (aeodbald) (i.e.
+Eadbald, name) in Bede, with rounding persisting in late Northumbrian. There probably
+was no such fronting in the development of au in OFris., where it produces ā, before
+which there is no palatalization (§6.17; see Kortlandt 2006a). Examples: OE ēac ‘also',
+ēage ‘eye', bēam ‘tree' : OFris. āk, āge, bām (Go. áuk, áugō, OHG boum), but OE geac
+'cuckoo' (with palatal initial) : OFris. gāk. PGmc. ai appears as ā in OE³ and is
+represented by (e) or (a) in OFris., probably [e:] and [æ:], with the cause of the diver-
+gent outcomes still debated (see Goblirsch 1991, Hofmann 1995, with references).
+Examples: OE OFris. gād 'lack', rāp 'rope', fem. & neut. twā 'two' (cf. Go. gáidw,
+-ráips, twái), but also OFris. (n)ān ‘(n)one', hām 'home', klāth ‘garb' beside (n)ēn,
+hēm, klēth.
+1. The evidence of Insular North Frisian shows that in the dialect out of which it developed the sound was
+probably æ, as in WS: see Århammar 2001: 750–3.
+2. Only in the West Midlands did this rounding persist in OE, and to the present day. The vowel appears to
+I have lost any vestige of its nasal quality elsewhere by the end of the OE period (so A. Campbell 1977: §130).
+3. Uncertainty about whether ai became æi in Anglo-Frisian stems from doubts about whether æi could have
+developed to OE ā: so, e.g., A. Campbell 1977: §132.
+4.13 Changes of stressed vowels in early Old English
+PGmc. eu develops to eo in Old English, as in *freusana"" > frēosan ‘freeze' and
+*deuza"" > dēor ‘beast'. This eo develops to io, ia in Kentish.
+Front vowels may become back diphthongs before certain consonants, usually in
+the syllable coda. These are r, l, h, and (by some accounts) w.¹ The standard view is that
+these consonants were velar, as one might expect on the basis of their modern reflexes,
+though this is not the only explanation that has been offered. 2 This so-called breaking
+(which antedates front umlaut, §4.7) takes place before r and I only in closed syllables
+(and not when the sonorant is simply word final), whereas h causes breaking in both
+open and closed syllables. The vowels that undergo breaking are a, e, i, producing what
+were presumably otherwise identical long and short diphthongs, though some of the
+same controversy attends the interpretation of the OE digraphs as in the case of back
+mutation (§4.8). The specific environments and results of breaking are these:
+Before r plus any consonant other than j (and always before rr), the short vowels
+æ and e are broken to ea and eo. Examples are bearn 'child', heard ‘hard', weorð
+'worthy', steorra 'star' (cf. Go. barn, hardus, wairþs, stairnō). In Northumbrian, æ"		
+alignment-freeze-fulk-oe	Fulk2018	73	90	1	2536	2543	frēosan	1e702eecc0b2ab5bd6748fa6c601c80835a3056eba5b4345546504bc9ee47e28	"§4.12 Stressed vowels in Anglo-Frisian 73
+further conditioning (see below) it remained as such in OE, whereas it is reflected in
+OFris. as e. Examples: OE fæder 'father', dæg 'day', læt 'slow, late', OFris. feder, dei,
+let (cf. Go. fadar, dags, lats). This fronting is commonly referred to as Anglo-Frisian
+Brightening. Except in umlaut environments, PGmc. a remains unchanged in OFris.
+before /x/ (cf. achta ‘eight', sax ‘knife', slā ‘kill' (< *slaxan)), before checked / (cf. salt
+'salt', ald 'old'), between w and checked r (cf. warm ‘warm', swart ‘black'), and in
+some unaccented words, e.g. was 'was'. In Anglo-Frisian a notable
+asymmetry between
+the long and short vowel inventories of WGmc. (with no short vowel corresponding to
+æ, no long vowel corresponding to a) was thus eliminated by the fronting of a to æ,
+whereas elsewhere in WGmc. (and NGmc.) it was eliminated by the backing of a to ā
+(§4.6). See further Kortlandt 2008: 266.
+This fronting of a applied also to the diphthong au in OE, producing ēa, at first a
+diphthong with a rounded off-glide, as shown by early spellings, e.g. (aeodbald) (i.e.
+Eadbald, name) in Bede, with rounding persisting in late Northumbrian. There probably
+was no such fronting in the development of au in OFris., where it produces ā, before
+which there is no palatalization (§6.17; see Kortlandt 2006a). Examples: OE ēac ‘also',
+ēage ‘eye', bēam ‘tree' : OFris. āk, āge, bām (Go. áuk, áugō, OHG boum), but OE geac
+'cuckoo' (with palatal initial) : OFris. gāk. PGmc. ai appears as ā in OE³ and is
+represented by (e) or (a) in OFris., probably [e:] and [æ:], with the cause of the diver-
+gent outcomes still debated (see Goblirsch 1991, Hofmann 1995, with references).
+Examples: OE OFris. gād 'lack', rāp 'rope', fem. & neut. twā 'two' (cf. Go. gáidw,
+-ráips, twái), but also OFris. (n)ān ‘(n)one', hām 'home', klāth ‘garb' beside (n)ēn,
+hēm, klēth.
+1. The evidence of Insular North Frisian shows that in the dialect out of which it developed the sound was
+probably æ, as in WS: see Århammar 2001: 750–3.
+2. Only in the West Midlands did this rounding persist in OE, and to the present day. The vowel appears to
+I have lost any vestige of its nasal quality elsewhere by the end of the OE period (so A. Campbell 1977: §130).
+3. Uncertainty about whether ai became æi in Anglo-Frisian stems from doubts about whether æi could have
+developed to OE ā: so, e.g., A. Campbell 1977: §132.
+4.13 Changes of stressed vowels in early Old English
+PGmc. eu develops to eo in Old English, as in *freusana"" > frēosan ‘freeze' and
+*deuza"" > dēor ‘beast'. This eo develops to io, ia in Kentish.
+Front vowels may become back diphthongs before certain consonants, usually in
+the syllable coda. These are r, l, h, and (by some accounts) w.¹ The standard view is that
+these consonants were velar, as one might expect on the basis of their modern reflexes,
+though this is not the only explanation that has been offered. 2 This so-called breaking
+(which antedates front umlaut, §4.7) takes place before r and I only in closed syllables
+(and not when the sonorant is simply word final), whereas h causes breaking in both
+open and closed syllables. The vowels that undergo breaking are a, e, i, producing what
+were presumably otherwise identical long and short diphthongs, though some of the
+same controversy attends the interpretation of the OE digraphs as in the case of back
+mutation (§4.8). The specific environments and results of breaking are these:
+Before r plus any consonant other than j (and always before rr), the short vowels
+æ and e are broken to ea and eo. Examples are bearn 'child', heard ‘hard', weorð
+'worthy', steorra 'star' (cf. Go. barn, hardus, wairþs, stairnō). In Northumbrian, æ"		
+alignment-freeze-frost-kroonen-to	Kroonen2013	155	195	1	488	497	*prus-to-	71df17012f366a58b0fa90d2376c1f52c7b92f8adaff96b7138b758aa4ce5625	"*freupan-
+155
+W rhew m. 'frost, rime' < *preuso-; ?Lat pruina f. 'frost' (< *pruruina <
+*prus-u-iH-neh2, Hamp 1973a?).
+~
+An old strong verb. The Verner alternation *freusan-, ptc. *fruzana- was
+resolved in most modern Germanic languages, cf. E to freeze ~ frozen vs. G
+frieren ~ge-froren, but retained in Du. vriezen ~ ge-vroren and Icel. frjósa ~
+freðinn (< ON frørinn, frerinn with dissimilation of the second r, cf. ON frør,
+frer, Icel. freð- n. 'frost'). The original past participle *prus-to- was preserved
+as *frusta- (q.v.). Further cf. Go. frius* n.(?) 'frost' < *freusa-.
+*freuban- s.v. 'to froth' - OE ȧ-frēoðan s.v. 'id.' ⇒ *préutH-e- (IE) - Skt.
+próthati 'to snort (of horses)' < *préutH-e-; Av. fraō9at.aspa- 'with snorting
+horses'.
+A marginally attested strong verb, the source of some nominal formations
+in Nordic, i.e. ON, Icel. frauð n. 'froth', Far. froyður m. 'id.' < *fraudi/a- <
+*proutH- and ON, Far. froða, Nw. frode f., Da. fråde c. 'id.' < *fruþōn-. The root
+*preutH- may be an extension of PIE *pru-, cf. Skt. vi-pru- 'to spray in all
+directions' < *pru-. Another extension to the same root may be *prus-: Skt.
+prusnóti, OCS prysnoti 'to sprinkle' (with secondary *y) < *prus-ne- and Icel.
+freyr m. 'froth' < *frauza-. A primitive meaning 'to blow' is implied by Nw.
+dial. froe f. (frode) 'gust of wind'.
+*fri(j)a- adj. 'free' - Go. freis adj. 'id.', OE frão, frī adj. 'id.', E free, OFri. frī
+adj. 'id.', OS fri adj. 'id.', Du. vrij adj. 'id.', OHG frī adj. 'id.', G frei adj. 'id.'⇒
+*priH-o- (IE) - Skt. priyá- adj. 'dear' < *priH-o-.
+Also cf. Go. frei-hals, ON frjáls, OE frēols adj. 'free' < *fri(j)a-halsa- and the
+nominalized OHG, OFri. fri-hals m. 'freedom'. The meaning 'free' arose from
+'related', a shift that points to a clan-based societal system. Cognate with
+*fri(j)ōn- (q.v.).
+-
+-
+*fri(j)ōn- w.v. 'to love' Go. frijon w.v. 'to love, like', ON frjá w.v. 'to love',
+Far. fríggja w.v. 'to propose, court', OE frēogan, frigan w.v. 'to love, marry',
+OS frion w.v. 'id.', Du. vrijen s.v. 'to make love' *priH-eh2- (IE) - Close to
+OCS prijati 'to take care of, SCr. prijati 'to please, agree with' < *priH-eh2-;
+further cf. Skt. priyate 'to be pleased' <*priH-ie-.
+An old PIE verbal formation. See also *fri(j)a- and *fri(j)ōnd-.
+-
+*fri(j)ōnd- m. 'friend' Go. frijonds m. 'id.', ON frændi m. 'friend; relative',
+Far. frændi m. 'relative', OE freond m. 'friend, loved one, relative', E friend,
+OFri. friūnd, friōnd m. 'id.', ODu. friunt m. 'id.', Du. vriend c. 'id.', OHG friunt m.
+'friend, loved one', G Freund m. 'friend' (DRV).
+The lexicalized participle of the verb *fri(j)ōn- (q.v.)."		
+alignment-frost-orel-z-derivative	Orel2003	116	155	1	2254	2261	*fruzan	0c0eccc30338e73b590dd6bd0022ea82a4d3c7b92e0225e19c274ca3baadbe09	"frōkniz
+OE frécne 'horrible, savage, audacious',
+OS frokni 'valiant, daring', OHG fruohhan-
+(in prop.). Related to *frekaz. KARSTEN
+NB II 449; FÖRSTER EngS XXXIX
+328-332; TORP-FALK 245; FEIST 136;
+HOLTHAUSEN AEEW 117; POKORNY I
+845; VRIES ANEW 145; LEHMANN GED
+103; LÜHR Expr. 331; HEIDERMANNS
+218-219.
+~
+*frōw(j)az adj.: MLG adv. vrō ‘early',
+OHG adv. fruo id., adj. fruoi id. Identical
+with Gk adj. лpóïoç id. TORP-FALK 233;
+POKORNY I 814; FRISK II 607–608.
+*frumaz *frumōn adj.: Goth fruma
+'first, former', ON frum-burðr 'firstborn',
+OE frum 'original, primitive, first', OFris
+forma 'first one', OS formo id. Related to
+Lith pirmas 'first', OPrus pirmas id. further
+connected with IE *prHuo- id. Cf. also,
+with the same suffix, Gk лpóµoç 'foremost
+man, chief', Lat prīmus ‘first' < *prīsmo-.
+Cf. superlative *frumistaz > Goth frumists
+'first', OE fyrmest id., OFris formest id.
+TORP-FALK 233; HOLTHAUSEN AEEW
+118, 120; FEIST 169-170; WALDE-
+HOFMANN II 362-363; POKORNY I 814-
+815; CHEMODANOV SGGJa I 74; FRAENKEL
+597-598; VRIES ANEW 144; FRISK II 600;
+LEHMANN GED 129-130; BAMMESBERGER
+Nom. 234; Ross-BERNS Numerals 624.
+*frumīn sb.f.: Goth frumei 'beginning', OS
+frumi 'usefulness'. Derived from *frumaz
+*frumōn. FEIST 169; LEHMANN GED 129-
+130.
+*fruskaz sb.m.: ON froskr 'frog', OE frox
+id., MLG vorsch id., OHG frosc id. OE
+frozza, frocza id. is a pet-form of *fruskaz
+similar to docza 'dog'. Cf. also ON fraukr,
+frauki frog. Derived from *frawaz.
+MARSTRANDER Mindeskr. Bugge 242 (to
+*frauþō(n)); UHLENBECK PBB XXII 197;
+TORP-FALK 248; STURTEVANT MP XXVI
+473 (ON frauki from *fraudkōn); HOLT-
+HAUSEN AEEW 113; PORZIG IF XLV 165
+(to Slav *prygati 'to jump'); POKORNY I
+846; VRIES ANEW 140, 144; ZALIZNIAK I
+131; ONIONS 378; KLUGE-SEEBOLD 288;
+ADAMS TB 416-417 (to Toch AB pruk- 'to
+make a leap').
+116
+*frustan
+~
+fuzlaz
+*frustaz sb.m./n.: ON frost
+'frost', OE frost, forst id., OFris forst, frost
+id., OS frost id., OHG frost id. Derived
+from freusanan 'to freeze'. TORP-FALK
+248; HOLTHAUSEN AEEW 113; POKORNY I
+846; VRIES ANEW 144; ZALIZNIAK II 167;
+ONIONS 379; SEEBOLD 211; LEHMANN
+GED 129; BAMMESBERGER Nom. 77;
+KLUGE-SEEBOLD 288.
+*fruwipō sb.f.: ON frygd 'blossoming', Du
+vreugde id. Derived from unattested
+*fruwaz, cf. *frawaz. TORP-FALK 233.
+*fruzan sb.n.: ON frer 'frost', OHG fror id.
+Cf. Goth frius 'coldness, frost' < *freusan.
+Derived from *freusanan. ZUPITZA Gutt.
+9; TORP-FALK 248; FEIST 169; VRIES
+ANEW 145; SEEBOLD 211; BAMMESBERGER
+Nom. 56; LEHMANN GED 129.
+*fudiz sb.f.: ON fuð-flogi ‘runaway from his
+bride', E dial. fud ‘vulva', MHG vut 'cun-
+nus'. Related to Skt púti- 'putrid, stink-
+ing', Av pūiti ‘putrefaction, rottenness',
+Lat puteo 'to stink, to be rotten' (VAN
+HELTEN ZdWf X 195). JOHANSSON KZ
+XXXVI 352-353; BARTHOLOMAE 909;
+WALDE-HOFMANN II 392; MAYRHOFER
+II 321; POKORNY I 849; VRIES ANEW
+145-146; KLUGE-SEEBOLD 281 (to Skt
+dual putau 'buttocks').
+*fuzlaz sb.m.: Goth fugls 'bird', ON fugl
+id., OE fuzol id., OFris fugel id., OS fugal
+id., OHG fogal id. From a dissimilated
+*fluzlaz derived from *fleuzanan (GRAFF III
+434; MEYER Goth. 556), especially in view
+of OE fluzol apt to fly, flying swiftly'
+(see fluzulaz). BOPP Glossarium 224 (to
+Lith paukštis 'bird'); GrienbergER Got. 76;
+BEZZENBERGER ZdWƒ VII 78; BERNEKER
+IF IX 361-362 (to Skt phuka- ‘bird');
+UHLENBECK PBB XXVI 310; SOLMSEN IF
+XIV 482-485 (to *fulōn); ZUPITZA Gutt.
+132; TORP-FALK 243; HOLTHAUSEN IF
+XXV 152 (to Gk лεкεdαvós ‘pine-
+covered'), AEEW 118; FEIST 170 (to Lat
+plūma 'feather'); SOLMSEN IF XXXI 482-
+484 (to *pou ‘small, little'); FEIST 170;
+POKORNY I 837; CHEMODANOV SGGJa I
+74; VRIES ANEW 146 (follows Bopp);
+ZALIZNIAK I 131; ONIONS 374; SEEBOLD"		
+alignment-frost-orel-s-derivative	Orel2003	116	155	1	2334	2342	*freusan	0c0eccc30338e73b590dd6bd0022ea82a4d3c7b92e0225e19c274ca3baadbe09	"frōkniz
+OE frécne 'horrible, savage, audacious',
+OS frokni 'valiant, daring', OHG fruohhan-
+(in prop.). Related to *frekaz. KARSTEN
+NB II 449; FÖRSTER EngS XXXIX
+328-332; TORP-FALK 245; FEIST 136;
+HOLTHAUSEN AEEW 117; POKORNY I
+845; VRIES ANEW 145; LEHMANN GED
+103; LÜHR Expr. 331; HEIDERMANNS
+218-219.
+~
+*frōw(j)az adj.: MLG adv. vrō ‘early',
+OHG adv. fruo id., adj. fruoi id. Identical
+with Gk adj. лpóïoç id. TORP-FALK 233;
+POKORNY I 814; FRISK II 607–608.
+*frumaz *frumōn adj.: Goth fruma
+'first, former', ON frum-burðr 'firstborn',
+OE frum 'original, primitive, first', OFris
+forma 'first one', OS formo id. Related to
+Lith pirmas 'first', OPrus pirmas id. further
+connected with IE *prHuo- id. Cf. also,
+with the same suffix, Gk лpóµoç 'foremost
+man, chief', Lat prīmus ‘first' < *prīsmo-.
+Cf. superlative *frumistaz > Goth frumists
+'first', OE fyrmest id., OFris formest id.
+TORP-FALK 233; HOLTHAUSEN AEEW
+118, 120; FEIST 169-170; WALDE-
+HOFMANN II 362-363; POKORNY I 814-
+815; CHEMODANOV SGGJa I 74; FRAENKEL
+597-598; VRIES ANEW 144; FRISK II 600;
+LEHMANN GED 129-130; BAMMESBERGER
+Nom. 234; Ross-BERNS Numerals 624.
+*frumīn sb.f.: Goth frumei 'beginning', OS
+frumi 'usefulness'. Derived from *frumaz
+*frumōn. FEIST 169; LEHMANN GED 129-
+130.
+*fruskaz sb.m.: ON froskr 'frog', OE frox
+id., MLG vorsch id., OHG frosc id. OE
+frozza, frocza id. is a pet-form of *fruskaz
+similar to docza 'dog'. Cf. also ON fraukr,
+frauki frog. Derived from *frawaz.
+MARSTRANDER Mindeskr. Bugge 242 (to
+*frauþō(n)); UHLENBECK PBB XXII 197;
+TORP-FALK 248; STURTEVANT MP XXVI
+473 (ON frauki from *fraudkōn); HOLT-
+HAUSEN AEEW 113; PORZIG IF XLV 165
+(to Slav *prygati 'to jump'); POKORNY I
+846; VRIES ANEW 140, 144; ZALIZNIAK I
+131; ONIONS 378; KLUGE-SEEBOLD 288;
+ADAMS TB 416-417 (to Toch AB pruk- 'to
+make a leap').
+116
+*frustan
+~
+fuzlaz
+*frustaz sb.m./n.: ON frost
+'frost', OE frost, forst id., OFris forst, frost
+id., OS frost id., OHG frost id. Derived
+from freusanan 'to freeze'. TORP-FALK
+248; HOLTHAUSEN AEEW 113; POKORNY I
+846; VRIES ANEW 144; ZALIZNIAK II 167;
+ONIONS 379; SEEBOLD 211; LEHMANN
+GED 129; BAMMESBERGER Nom. 77;
+KLUGE-SEEBOLD 288.
+*fruwipō sb.f.: ON frygd 'blossoming', Du
+vreugde id. Derived from unattested
+*fruwaz, cf. *frawaz. TORP-FALK 233.
+*fruzan sb.n.: ON frer 'frost', OHG fror id.
+Cf. Goth frius 'coldness, frost' < *freusan.
+Derived from *freusanan. ZUPITZA Gutt.
+9; TORP-FALK 248; FEIST 169; VRIES
+ANEW 145; SEEBOLD 211; BAMMESBERGER
+Nom. 56; LEHMANN GED 129.
+*fudiz sb.f.: ON fuð-flogi ‘runaway from his
+bride', E dial. fud ‘vulva', MHG vut 'cun-
+nus'. Related to Skt púti- 'putrid, stink-
+ing', Av pūiti ‘putrefaction, rottenness',
+Lat puteo 'to stink, to be rotten' (VAN
+HELTEN ZdWf X 195). JOHANSSON KZ
+XXXVI 352-353; BARTHOLOMAE 909;
+WALDE-HOFMANN II 392; MAYRHOFER
+II 321; POKORNY I 849; VRIES ANEW
+145-146; KLUGE-SEEBOLD 281 (to Skt
+dual putau 'buttocks').
+*fuzlaz sb.m.: Goth fugls 'bird', ON fugl
+id., OE fuzol id., OFris fugel id., OS fugal
+id., OHG fogal id. From a dissimilated
+*fluzlaz derived from *fleuzanan (GRAFF III
+434; MEYER Goth. 556), especially in view
+of OE fluzol apt to fly, flying swiftly'
+(see fluzulaz). BOPP Glossarium 224 (to
+Lith paukštis 'bird'); GrienbergER Got. 76;
+BEZZENBERGER ZdWƒ VII 78; BERNEKER
+IF IX 361-362 (to Skt phuka- ‘bird');
+UHLENBECK PBB XXVI 310; SOLMSEN IF
+XIV 482-485 (to *fulōn); ZUPITZA Gutt.
+132; TORP-FALK 243; HOLTHAUSEN IF
+XXV 152 (to Gk лεкεdαvós ‘pine-
+covered'), AEEW 118; FEIST 170 (to Lat
+plūma 'feather'); SOLMSEN IF XXXI 482-
+484 (to *pou ‘small, little'); FEIST 170;
+POKORNY I 837; CHEMODANOV SGGJa I
+74; VRIES ANEW 146 (follows Bopp);
+ZALIZNIAK I 131; ONIONS 374; SEEBOLD"		
+alignment-friend-kroonen-love	Kroonen2013	155	195	1	1798	1808	*fri(j)ōn-	71df17012f366a58b0fa90d2376c1f52c7b92f8adaff96b7138b758aa4ce5625	"*freupan-
+155
+W rhew m. 'frost, rime' < *preuso-; ?Lat pruina f. 'frost' (< *pruruina <
+*prus-u-iH-neh2, Hamp 1973a?).
+~
+An old strong verb. The Verner alternation *freusan-, ptc. *fruzana- was
+resolved in most modern Germanic languages, cf. E to freeze ~ frozen vs. G
+frieren ~ge-froren, but retained in Du. vriezen ~ ge-vroren and Icel. frjósa ~
+freðinn (< ON frørinn, frerinn with dissimilation of the second r, cf. ON frør,
+frer, Icel. freð- n. 'frost'). The original past participle *prus-to- was preserved
+as *frusta- (q.v.). Further cf. Go. frius* n.(?) 'frost' < *freusa-.
+*freuban- s.v. 'to froth' - OE ȧ-frēoðan s.v. 'id.' ⇒ *préutH-e- (IE) - Skt.
+próthati 'to snort (of horses)' < *préutH-e-; Av. fraō9at.aspa- 'with snorting
+horses'.
+A marginally attested strong verb, the source of some nominal formations
+in Nordic, i.e. ON, Icel. frauð n. 'froth', Far. froyður m. 'id.' < *fraudi/a- <
+*proutH- and ON, Far. froða, Nw. frode f., Da. fråde c. 'id.' < *fruþōn-. The root
+*preutH- may be an extension of PIE *pru-, cf. Skt. vi-pru- 'to spray in all
+directions' < *pru-. Another extension to the same root may be *prus-: Skt.
+prusnóti, OCS prysnoti 'to sprinkle' (with secondary *y) < *prus-ne- and Icel.
+freyr m. 'froth' < *frauza-. A primitive meaning 'to blow' is implied by Nw.
+dial. froe f. (frode) 'gust of wind'.
+*fri(j)a- adj. 'free' - Go. freis adj. 'id.', OE frão, frī adj. 'id.', E free, OFri. frī
+adj. 'id.', OS fri adj. 'id.', Du. vrij adj. 'id.', OHG frī adj. 'id.', G frei adj. 'id.'⇒
+*priH-o- (IE) - Skt. priyá- adj. 'dear' < *priH-o-.
+Also cf. Go. frei-hals, ON frjáls, OE frēols adj. 'free' < *fri(j)a-halsa- and the
+nominalized OHG, OFri. fri-hals m. 'freedom'. The meaning 'free' arose from
+'related', a shift that points to a clan-based societal system. Cognate with
+*fri(j)ōn- (q.v.).
+-
+-
+*fri(j)ōn- w.v. 'to love' Go. frijon w.v. 'to love, like', ON frjá w.v. 'to love',
+Far. fríggja w.v. 'to propose, court', OE frēogan, frigan w.v. 'to love, marry',
+OS frion w.v. 'id.', Du. vrijen s.v. 'to make love' *priH-eh2- (IE) - Close to
+OCS prijati 'to take care of, SCr. prijati 'to please, agree with' < *priH-eh2-;
+further cf. Skt. priyate 'to be pleased' <*priH-ie-.
+An old PIE verbal formation. See also *fri(j)a- and *fri(j)ōnd-.
+-
+*fri(j)ōnd- m. 'friend' Go. frijonds m. 'id.', ON frændi m. 'friend; relative',
+Far. frændi m. 'relative', OE freond m. 'friend, loved one, relative', E friend,
+OFri. friūnd, friōnd m. 'id.', ODu. friunt m. 'id.', Du. vriend c. 'id.', OHG friunt m.
+'friend, loved one', G Freund m. 'friend' (DRV).
+The lexicalized participle of the verb *fri(j)ōn- (q.v.)."		
+alignment-friend-fulk-body-stem	Fulk2018	75	92	1	126	137	*fri(j)ōnd-	ee2a9b6802d023b245ebc5cfb11a30bc603d0a91a5077830e7d46fdf6e928d9e	"§4.13 Stressed vowels in early Old English 75
+*sexwana""; slēan ‘strike' < *sleahan < *slæxan < *slaxana"": 5 freond 'friend' <
+*fri(j)ōnd-.6 Compensatory lengthening occurs upon loss of x between voiced sounds,
+even with an intervening liquid consonant, as in gen. sg. mēares (cf. nom. mearh
+'horse'), þweal 'washing' (cf. Go. þwahl), ēored 'troop' < *eoh-rād-. Poetic meter
+sometimes preserves evidence of the state before the application of contraction and
+compensatory lengthening (see Fulk 1992: 92-121).
+In a process referred to as palatal umlaut, e (or eo or io developed from it, where
+Anglian smoothing did not apply) before /x/ plus consonant in absolute finality was
+raised to i, as in cniht ‘boy', riht ‘right', wrixl 'change'. It cannot be determined
+whether the digraph in siex 'six' represents an actual diphthong.
+On front and back umlaut, see §§4.7-8. For further details of OE vowel develop-
+ments (especially changes of the literate period, which are for the most part left uncon-
+sidered here), consult the sources cited in §1.16.
+1. It appears rather that supposed instances of breaking before w can be explained as due to back mutation
+(§4.8): see Fulk 1993b: 350 n. 6, idem 1992: 146 n. 2. On Gmc. breaking in general, see Roelands 1989,
+Liberman 1998, Kostakis 2015. On OE breaking in particular, see H.F. Nielsen 1984 (and the refs. there),
+Strøjer 1984, Kortlandt 1994a, Suzuki 1994; also Hogg 1992: §§5.16–34, with refs.
+2. Howell (1991b) argues on the basis of parallels chiefly in German dialects that breaking in OE is instead
+a consequence of weakening of the relevant consonant. The chief difficulty confronting this view is that /x/
+would appear not to have been weakened in the relevant environments in OE, as shown by later develop-
+ments, including Anglian smoothing and LWS smoothing (see A. Campbell 1977: §§222–33, 312–14), and
+development of [x] to [y] and [f] in ME (Jordan 1974: §§196–7). Lutz 1991 likewise explains various vowel
+developments in the history of English as due to weakening of /x/. Gąsiorowski (2006) argues that the
+articulation of OE /r/ was hardly uniform- -as might be expected on the basis of modern dialects.
+3. At the time of breaking, WS had no ē in the relevant environments and non-WS no æ.
+4. Although WS had a where Anglian had ē at the time of this change, a new ē had arisen by lengthening
+under Prokosch's law (§2.5), hence *3ē ‘you (pl.)' (> Mercian gē) by analogy to we 'we' (§8.3).
+5. It is sometimes assumed that in forms like *seohan and *sleahan the loss of h induced lengthening of the
+preceding vowel before contraction: so, e.g., Hogg 1992: §7.45. Yet there would have been nothing to
+compensate in terms of syllable weight and structure if, as is usually supposed, h in such forms was in the
+syllable onset rather than the coda. See Fulk 1992: § 101. It should be noted that when contracted forms like
+seon demand disyllabic scansion in verse, a heavy initial syllable is never required.
+6. Unlike the other examples, frēond is never disyllabic in verse, and at some places the meter demands a
+monosyllable (i.e., not *frijōnd-), e.g. Beowulf 1385a.
+4.14 Changes of stressed vowels in Old Frisian
+There is breaking of e and i to iu, a rising diphthong, before /x/ + /x, s, t/, as in *texxō-
+> tiuche 'team, parcel of land',
+2 sg.
+*sixist *sixst > siuchst 'see', *fextan > fiuchta
+'fight'. Breaking is prevented by i in the following syllable, as in *plixti- > plecht
+'duty'. Unlike in OE, i-umlaut antecedes breaking in OFris. (see Stiles 1995: 194–5).¹
+As in OE, adjacent vowels contract upon loss of intervocalic h: -a-a- contracts to
+-ā-, as in WGmc. *slaxan> slā ‘strike’; -e-a- contracts to -iā-, as in *sexwan > siā
+'see', and -o-a-, whether in verba pura or due to loss of intervocalic x, yields -uā-, as in
+*do-an (§12.61) > dwā 'do' and WGmc. *xā""xan > *hōxan> hwā ‘hang'.
+PGmc. eu develops to a rising diphthong ia (cf. Kentish OE, §4.13 supra), as in
+PGmc. *leubaz > liāf ‘dear' and *beuðana""> biāda ‘offer'.
+Palatalization of 3 (§6.17) resulted in the rise of a new diphthong ei, as in
+*waznaz> *wæzn> wein 'cart' and *xu3iz> *hy3i> hei 'mind' (§4.7)."		
+alignment-friend-fulk-metrical-oe	Fulk2018	75	92	1	2999	3005	frēond	ee2a9b6802d023b245ebc5cfb11a30bc603d0a91a5077830e7d46fdf6e928d9e	"§4.13 Stressed vowels in early Old English 75
+*sexwana""; slēan ‘strike' < *sleahan < *slæxan < *slaxana"": 5 freond 'friend' <
+*fri(j)ōnd-.6 Compensatory lengthening occurs upon loss of x between voiced sounds,
+even with an intervening liquid consonant, as in gen. sg. mēares (cf. nom. mearh
+'horse'), þweal 'washing' (cf. Go. þwahl), ēored 'troop' < *eoh-rād-. Poetic meter
+sometimes preserves evidence of the state before the application of contraction and
+compensatory lengthening (see Fulk 1992: 92-121).
+In a process referred to as palatal umlaut, e (or eo or io developed from it, where
+Anglian smoothing did not apply) before /x/ plus consonant in absolute finality was
+raised to i, as in cniht ‘boy', riht ‘right', wrixl 'change'. It cannot be determined
+whether the digraph in siex 'six' represents an actual diphthong.
+On front and back umlaut, see §§4.7-8. For further details of OE vowel develop-
+ments (especially changes of the literate period, which are for the most part left uncon-
+sidered here), consult the sources cited in §1.16.
+1. It appears rather that supposed instances of breaking before w can be explained as due to back mutation
+(§4.8): see Fulk 1993b: 350 n. 6, idem 1992: 146 n. 2. On Gmc. breaking in general, see Roelands 1989,
+Liberman 1998, Kostakis 2015. On OE breaking in particular, see H.F. Nielsen 1984 (and the refs. there),
+Strøjer 1984, Kortlandt 1994a, Suzuki 1994; also Hogg 1992: §§5.16–34, with refs.
+2. Howell (1991b) argues on the basis of parallels chiefly in German dialects that breaking in OE is instead
+a consequence of weakening of the relevant consonant. The chief difficulty confronting this view is that /x/
+would appear not to have been weakened in the relevant environments in OE, as shown by later develop-
+ments, including Anglian smoothing and LWS smoothing (see A. Campbell 1977: §§222–33, 312–14), and
+development of [x] to [y] and [f] in ME (Jordan 1974: §§196–7). Lutz 1991 likewise explains various vowel
+developments in the history of English as due to weakening of /x/. Gąsiorowski (2006) argues that the
+articulation of OE /r/ was hardly uniform- -as might be expected on the basis of modern dialects.
+3. At the time of breaking, WS had no ē in the relevant environments and non-WS no æ.
+4. Although WS had a where Anglian had ē at the time of this change, a new ē had arisen by lengthening
+under Prokosch's law (§2.5), hence *3ē ‘you (pl.)' (> Mercian gē) by analogy to we 'we' (§8.3).
+5. It is sometimes assumed that in forms like *seohan and *sleahan the loss of h induced lengthening of the
+preceding vowel before contraction: so, e.g., Hogg 1992: §7.45. Yet there would have been nothing to
+compensate in terms of syllable weight and structure if, as is usually supposed, h in such forms was in the
+syllable onset rather than the coda. See Fulk 1992: § 101. It should be noted that when contracted forms like
+seon demand disyllabic scansion in verse, a heavy initial syllable is never required.
+6. Unlike the other examples, frēond is never disyllabic in verse, and at some places the meter demands a
+monosyllable (i.e., not *frijōnd-), e.g. Beowulf 1385a.
+4.14 Changes of stressed vowels in Old Frisian
+There is breaking of e and i to iu, a rising diphthong, before /x/ + /x, s, t/, as in *texxō-
+> tiuche 'team, parcel of land',
+2 sg.
+*sixist *sixst > siuchst 'see', *fextan > fiuchta
+'fight'. Breaking is prevented by i in the following syllable, as in *plixti- > plecht
+'duty'. Unlike in OE, i-umlaut antecedes breaking in OFris. (see Stiles 1995: 194–5).¹
+As in OE, adjacent vowels contract upon loss of intervocalic h: -a-a- contracts to
+-ā-, as in WGmc. *slaxan> slā ‘strike’; -e-a- contracts to -iā-, as in *sexwan > siā
+'see', and -o-a-, whether in verba pura or due to loss of intervocalic x, yields -uā-, as in
+*do-an (§12.61) > dwā 'do' and WGmc. *xā""xan > *hōxan> hwā ‘hang'.
+PGmc. eu develops to a rising diphthong ia (cf. Kentish OE, §4.13 supra), as in
+PGmc. *leubaz > liāf ‘dear' and *beuðana""> biāda ‘offer'.
+Palatalization of 3 (§6.17) resulted in the rise of a new diphthong ei, as in
+*waznaz> *wæzn> wein 'cart' and *xu3iz> *hy3i> hei 'mind' (§4.7)."		
+alignment-friend-fulk-nominative	Fulk2018	178	195	1	1974	1980	frēond	35f39b2f65e08f79c62288bae81bd3942296ad4230d907bc9803faec2648fa38	"178 A Comparative Grammar of the Early Germanic Languages
+1. For discussion and references, see Boutkan 1992, Hogg & Fulk 2011: §2.99 n. 1, Klein 2013: 171-5.
+Boutkan's analysis, whereby -or(-) always reflects syllabified r, is discounted by Hogg & Fulk (2011: §2.100
+n. 6), who conclude that -or in at least some instances must reflect *-uz-, a conclusion agreed to by Klein,
+though no very convincing explanation as to how *-uz- arose has yet been devised (see Schaffner 2001: 589–
+91, Klein loc. cit.).
+2. This hypothesis could be tested metrically, since nom. acc. pl. dōgor should then be monosyllabic in the
+meter of Beowulf, where, unfortunately, the relevant cases do not occur. Acc. pl. lomber at Guthlac B 1042 is
+disyllabic, but the metrical features of this poem are not conservative enough to ensure that the second
+syllable is not due to parasiting. The Mercian gloss on the Vespasian Psalter perhaps suggests that Bammes-
+berger's explanation is incorrect, since in this text the final sequence PGmc. *-arō yields -eru rather than -ur
+(as in nom. sg. fem. ōderu ‘other'), and this must be the etymological outcome rather than the result of ana-
+logy (see Fulk 2010b). In this text are to be found nom. acc. pl. calfur (3×) and lombur (1×), but also calferu
+and lomberu, once each. It is possible, though, that -r-, later syllabified, originated elsewhere in the paradigm.
+The hypothesis that PIE forms in *-us- and *-Ḥs- should be reconstructed among the s-stems reflected in
+Gmc. is highly questionable: see Fulk 1988: 155–6 for references.
+7.39
+The nd-stems
+These are sometimes categorized under the dental stems (§7.41), which also bore
+athematic inflections in PGmc., though the development of the two types is different.
+The inflections may be illustrated by the paradigms of Go. frijōnds 'friend' (cf. frijōn
+'love') and its WGmc. cognates, along with Olcel. bóndi ‘farmer' (cf. búa ‘settle'):¹
+Go.
+OIcel. OE
+OS
+OHG
+sg.
+acc.
+nom. frijōnds
+frijōnd
+bóndi
+frēond
+friund
+friunt
+bónda
+frēond
+friund
+friunt
+gen.
+frijōndis bónda
+frēondes
+friundes, -as
+friuntes
+dat.
+frijōnd bónda friend
+friunde, -a
+friunt, -e
+VOC.
+frijōnd
+pl.
+nom.
+frijōnds bondr
+friend
+friund
+friunt
+acc.
+frijōnds
+bondr friend
+friund
+friunt
+gen.
+dat.
+frijōndē bónda frēonda
+friundo
+friunto
+friuntum, -un, -on
+frijōndam bóndum frēondum friundun, -on
+In WGmc. there occur also analogical forms. Thus, in the nom. acc. pl. are to be found
+forms analogical to the a-stems, OE frēondas (regularly in Anglian), OS friundos,
+friunda, OHG friuntă. OS OHG dat. sg. -e is also analogical to the a-stem ending (dat.
+sg. friunt is rare in OHG), and beside OE friend there occurs freonde, the ending -e
+being universal in stems of more than one syllable such as dat. sg. hettende ‘enemy'.
+OE polysyllabic stems regularly have genitive plural in -ra and frequently nom. acc. pl.
+in -e, both of which endings are borrowed from adjectives.
+1. Olcel. bóndi is represented here because in frændi ‘kinsman' a single stem vowel has been extended
+throughout the paradigm, though a rare, archaic, uncontracted pl. friendr is also attested.
+7.40
+Origin and development of nd-stem inflections
+These are in origin substantivized polysyllabic present participles in PIE *-nt- (cf. Gk.
+pl. qέpovτɛs ‘bearing'), which in PIE bore consonant-stem inflections (§7.2), as present
+participles still do in Skt., though on a dialectal basis the true participles acquired a-and"		
+alignment-friend-fulk-genitive	Fulk2018	178	195	1	2043	2051	frēondes	35f39b2f65e08f79c62288bae81bd3942296ad4230d907bc9803faec2648fa38	"178 A Comparative Grammar of the Early Germanic Languages
+1. For discussion and references, see Boutkan 1992, Hogg & Fulk 2011: §2.99 n. 1, Klein 2013: 171-5.
+Boutkan's analysis, whereby -or(-) always reflects syllabified r, is discounted by Hogg & Fulk (2011: §2.100
+n. 6), who conclude that -or in at least some instances must reflect *-uz-, a conclusion agreed to by Klein,
+though no very convincing explanation as to how *-uz- arose has yet been devised (see Schaffner 2001: 589–
+91, Klein loc. cit.).
+2. This hypothesis could be tested metrically, since nom. acc. pl. dōgor should then be monosyllabic in the
+meter of Beowulf, where, unfortunately, the relevant cases do not occur. Acc. pl. lomber at Guthlac B 1042 is
+disyllabic, but the metrical features of this poem are not conservative enough to ensure that the second
+syllable is not due to parasiting. The Mercian gloss on the Vespasian Psalter perhaps suggests that Bammes-
+berger's explanation is incorrect, since in this text the final sequence PGmc. *-arō yields -eru rather than -ur
+(as in nom. sg. fem. ōderu ‘other'), and this must be the etymological outcome rather than the result of ana-
+logy (see Fulk 2010b). In this text are to be found nom. acc. pl. calfur (3×) and lombur (1×), but also calferu
+and lomberu, once each. It is possible, though, that -r-, later syllabified, originated elsewhere in the paradigm.
+The hypothesis that PIE forms in *-us- and *-Ḥs- should be reconstructed among the s-stems reflected in
+Gmc. is highly questionable: see Fulk 1988: 155–6 for references.
+7.39
+The nd-stems
+These are sometimes categorized under the dental stems (§7.41), which also bore
+athematic inflections in PGmc., though the development of the two types is different.
+The inflections may be illustrated by the paradigms of Go. frijōnds 'friend' (cf. frijōn
+'love') and its WGmc. cognates, along with Olcel. bóndi ‘farmer' (cf. búa ‘settle'):¹
+Go.
+OIcel. OE
+OS
+OHG
+sg.
+acc.
+nom. frijōnds
+frijōnd
+bóndi
+frēond
+friund
+friunt
+bónda
+frēond
+friund
+friunt
+gen.
+frijōndis bónda
+frēondes
+friundes, -as
+friuntes
+dat.
+frijōnd bónda friend
+friunde, -a
+friunt, -e
+VOC.
+frijōnd
+pl.
+nom.
+frijōnds bondr
+friend
+friund
+friunt
+acc.
+frijōnds
+bondr friend
+friund
+friunt
+gen.
+dat.
+frijōndē bónda frēonda
+friundo
+friunto
+friuntum, -un, -on
+frijōndam bóndum frēondum friundun, -on
+In WGmc. there occur also analogical forms. Thus, in the nom. acc. pl. are to be found
+forms analogical to the a-stems, OE frēondas (regularly in Anglian), OS friundos,
+friunda, OHG friuntă. OS OHG dat. sg. -e is also analogical to the a-stem ending (dat.
+sg. friunt is rare in OHG), and beside OE friend there occurs freonde, the ending -e
+being universal in stems of more than one syllable such as dat. sg. hettende ‘enemy'.
+OE polysyllabic stems regularly have genitive plural in -ra and frequently nom. acc. pl.
+in -e, both of which endings are borrowed from adjectives.
+1. Olcel. bóndi is represented here because in frændi ‘kinsman' a single stem vowel has been extended
+throughout the paradigm, though a rare, archaic, uncontracted pl. friendr is also attested.
+7.40
+Origin and development of nd-stem inflections
+These are in origin substantivized polysyllabic present participles in PIE *-nt- (cf. Gk.
+pl. qέpovτɛs ‘bearing'), which in PIE bore consonant-stem inflections (§7.2), as present
+participles still do in Skt., though on a dialectal basis the true participles acquired a-and"		
+alignment-friend-fulk-dative	Fulk2018	178	195	1	2094	2100	friend	35f39b2f65e08f79c62288bae81bd3942296ad4230d907bc9803faec2648fa38	"178 A Comparative Grammar of the Early Germanic Languages
+1. For discussion and references, see Boutkan 1992, Hogg & Fulk 2011: §2.99 n. 1, Klein 2013: 171-5.
+Boutkan's analysis, whereby -or(-) always reflects syllabified r, is discounted by Hogg & Fulk (2011: §2.100
+n. 6), who conclude that -or in at least some instances must reflect *-uz-, a conclusion agreed to by Klein,
+though no very convincing explanation as to how *-uz- arose has yet been devised (see Schaffner 2001: 589–
+91, Klein loc. cit.).
+2. This hypothesis could be tested metrically, since nom. acc. pl. dōgor should then be monosyllabic in the
+meter of Beowulf, where, unfortunately, the relevant cases do not occur. Acc. pl. lomber at Guthlac B 1042 is
+disyllabic, but the metrical features of this poem are not conservative enough to ensure that the second
+syllable is not due to parasiting. The Mercian gloss on the Vespasian Psalter perhaps suggests that Bammes-
+berger's explanation is incorrect, since in this text the final sequence PGmc. *-arō yields -eru rather than -ur
+(as in nom. sg. fem. ōderu ‘other'), and this must be the etymological outcome rather than the result of ana-
+logy (see Fulk 2010b). In this text are to be found nom. acc. pl. calfur (3×) and lombur (1×), but also calferu
+and lomberu, once each. It is possible, though, that -r-, later syllabified, originated elsewhere in the paradigm.
+The hypothesis that PIE forms in *-us- and *-Ḥs- should be reconstructed among the s-stems reflected in
+Gmc. is highly questionable: see Fulk 1988: 155–6 for references.
+7.39
+The nd-stems
+These are sometimes categorized under the dental stems (§7.41), which also bore
+athematic inflections in PGmc., though the development of the two types is different.
+The inflections may be illustrated by the paradigms of Go. frijōnds 'friend' (cf. frijōn
+'love') and its WGmc. cognates, along with Olcel. bóndi ‘farmer' (cf. búa ‘settle'):¹
+Go.
+OIcel. OE
+OS
+OHG
+sg.
+acc.
+nom. frijōnds
+frijōnd
+bóndi
+frēond
+friund
+friunt
+bónda
+frēond
+friund
+friunt
+gen.
+frijōndis bónda
+frēondes
+friundes, -as
+friuntes
+dat.
+frijōnd bónda friend
+friunde, -a
+friunt, -e
+VOC.
+frijōnd
+pl.
+nom.
+frijōnds bondr
+friend
+friund
+friunt
+acc.
+frijōnds
+bondr friend
+friund
+friunt
+gen.
+dat.
+frijōndē bónda frēonda
+friundo
+friunto
+friuntum, -un, -on
+frijōndam bóndum frēondum friundun, -on
+In WGmc. there occur also analogical forms. Thus, in the nom. acc. pl. are to be found
+forms analogical to the a-stems, OE frēondas (regularly in Anglian), OS friundos,
+friunda, OHG friuntă. OS OHG dat. sg. -e is also analogical to the a-stem ending (dat.
+sg. friunt is rare in OHG), and beside OE friend there occurs freonde, the ending -e
+being universal in stems of more than one syllable such as dat. sg. hettende ‘enemy'.
+OE polysyllabic stems regularly have genitive plural in -ra and frequently nom. acc. pl.
+in -e, both of which endings are borrowed from adjectives.
+1. Olcel. bóndi is represented here because in frændi ‘kinsman' a single stem vowel has been extended
+throughout the paradigm, though a rare, archaic, uncontracted pl. friendr is also attested.
+7.40
+Origin and development of nd-stem inflections
+These are in origin substantivized polysyllabic present participles in PIE *-nt- (cf. Gk.
+pl. qέpovτɛs ‘bearing'), which in PIE bore consonant-stem inflections (§7.2), as present
+participles still do in Skt., though on a dialectal basis the true participles acquired a-and"		
+alignment-friend-fulk-genitive-plural	Fulk2018	178	195	1	2248	2255	frēonda	35f39b2f65e08f79c62288bae81bd3942296ad4230d907bc9803faec2648fa38	"178 A Comparative Grammar of the Early Germanic Languages
+1. For discussion and references, see Boutkan 1992, Hogg & Fulk 2011: §2.99 n. 1, Klein 2013: 171-5.
+Boutkan's analysis, whereby -or(-) always reflects syllabified r, is discounted by Hogg & Fulk (2011: §2.100
+n. 6), who conclude that -or in at least some instances must reflect *-uz-, a conclusion agreed to by Klein,
+though no very convincing explanation as to how *-uz- arose has yet been devised (see Schaffner 2001: 589–
+91, Klein loc. cit.).
+2. This hypothesis could be tested metrically, since nom. acc. pl. dōgor should then be monosyllabic in the
+meter of Beowulf, where, unfortunately, the relevant cases do not occur. Acc. pl. lomber at Guthlac B 1042 is
+disyllabic, but the metrical features of this poem are not conservative enough to ensure that the second
+syllable is not due to parasiting. The Mercian gloss on the Vespasian Psalter perhaps suggests that Bammes-
+berger's explanation is incorrect, since in this text the final sequence PGmc. *-arō yields -eru rather than -ur
+(as in nom. sg. fem. ōderu ‘other'), and this must be the etymological outcome rather than the result of ana-
+logy (see Fulk 2010b). In this text are to be found nom. acc. pl. calfur (3×) and lombur (1×), but also calferu
+and lomberu, once each. It is possible, though, that -r-, later syllabified, originated elsewhere in the paradigm.
+The hypothesis that PIE forms in *-us- and *-Ḥs- should be reconstructed among the s-stems reflected in
+Gmc. is highly questionable: see Fulk 1988: 155–6 for references.
+7.39
+The nd-stems
+These are sometimes categorized under the dental stems (§7.41), which also bore
+athematic inflections in PGmc., though the development of the two types is different.
+The inflections may be illustrated by the paradigms of Go. frijōnds 'friend' (cf. frijōn
+'love') and its WGmc. cognates, along with Olcel. bóndi ‘farmer' (cf. búa ‘settle'):¹
+Go.
+OIcel. OE
+OS
+OHG
+sg.
+acc.
+nom. frijōnds
+frijōnd
+bóndi
+frēond
+friund
+friunt
+bónda
+frēond
+friund
+friunt
+gen.
+frijōndis bónda
+frēondes
+friundes, -as
+friuntes
+dat.
+frijōnd bónda friend
+friunde, -a
+friunt, -e
+VOC.
+frijōnd
+pl.
+nom.
+frijōnds bondr
+friend
+friund
+friunt
+acc.
+frijōnds
+bondr friend
+friund
+friunt
+gen.
+dat.
+frijōndē bónda frēonda
+friundo
+friunto
+friuntum, -un, -on
+frijōndam bóndum frēondum friundun, -on
+In WGmc. there occur also analogical forms. Thus, in the nom. acc. pl. are to be found
+forms analogical to the a-stems, OE frēondas (regularly in Anglian), OS friundos,
+friunda, OHG friuntă. OS OHG dat. sg. -e is also analogical to the a-stem ending (dat.
+sg. friunt is rare in OHG), and beside OE friend there occurs freonde, the ending -e
+being universal in stems of more than one syllable such as dat. sg. hettende ‘enemy'.
+OE polysyllabic stems regularly have genitive plural in -ra and frequently nom. acc. pl.
+in -e, both of which endings are borrowed from adjectives.
+1. Olcel. bóndi is represented here because in frændi ‘kinsman' a single stem vowel has been extended
+throughout the paradigm, though a rare, archaic, uncontracted pl. friendr is also attested.
+7.40
+Origin and development of nd-stem inflections
+These are in origin substantivized polysyllabic present participles in PIE *-nt- (cf. Gk.
+pl. qέpovτɛs ‘bearing'), which in PIE bore consonant-stem inflections (§7.2), as present
+participles still do in Skt., though on a dialectal basis the true participles acquired a-and"		
+alignment-friend-fulk-dative-plural	Fulk2018	178	195	1	2308	2316	frēondum	35f39b2f65e08f79c62288bae81bd3942296ad4230d907bc9803faec2648fa38	"178 A Comparative Grammar of the Early Germanic Languages
+1. For discussion and references, see Boutkan 1992, Hogg & Fulk 2011: §2.99 n. 1, Klein 2013: 171-5.
+Boutkan's analysis, whereby -or(-) always reflects syllabified r, is discounted by Hogg & Fulk (2011: §2.100
+n. 6), who conclude that -or in at least some instances must reflect *-uz-, a conclusion agreed to by Klein,
+though no very convincing explanation as to how *-uz- arose has yet been devised (see Schaffner 2001: 589–
+91, Klein loc. cit.).
+2. This hypothesis could be tested metrically, since nom. acc. pl. dōgor should then be monosyllabic in the
+meter of Beowulf, where, unfortunately, the relevant cases do not occur. Acc. pl. lomber at Guthlac B 1042 is
+disyllabic, but the metrical features of this poem are not conservative enough to ensure that the second
+syllable is not due to parasiting. The Mercian gloss on the Vespasian Psalter perhaps suggests that Bammes-
+berger's explanation is incorrect, since in this text the final sequence PGmc. *-arō yields -eru rather than -ur
+(as in nom. sg. fem. ōderu ‘other'), and this must be the etymological outcome rather than the result of ana-
+logy (see Fulk 2010b). In this text are to be found nom. acc. pl. calfur (3×) and lombur (1×), but also calferu
+and lomberu, once each. It is possible, though, that -r-, later syllabified, originated elsewhere in the paradigm.
+The hypothesis that PIE forms in *-us- and *-Ḥs- should be reconstructed among the s-stems reflected in
+Gmc. is highly questionable: see Fulk 1988: 155–6 for references.
+7.39
+The nd-stems
+These are sometimes categorized under the dental stems (§7.41), which also bore
+athematic inflections in PGmc., though the development of the two types is different.
+The inflections may be illustrated by the paradigms of Go. frijōnds 'friend' (cf. frijōn
+'love') and its WGmc. cognates, along with Olcel. bóndi ‘farmer' (cf. búa ‘settle'):¹
+Go.
+OIcel. OE
+OS
+OHG
+sg.
+acc.
+nom. frijōnds
+frijōnd
+bóndi
+frēond
+friund
+friunt
+bónda
+frēond
+friund
+friunt
+gen.
+frijōndis bónda
+frēondes
+friundes, -as
+friuntes
+dat.
+frijōnd bónda friend
+friunde, -a
+friunt, -e
+VOC.
+frijōnd
+pl.
+nom.
+frijōnds bondr
+friend
+friund
+friunt
+acc.
+frijōnds
+bondr friend
+friund
+friunt
+gen.
+dat.
+frijōndē bónda frēonda
+friundo
+friunto
+friuntum, -un, -on
+frijōndam bóndum frēondum friundun, -on
+In WGmc. there occur also analogical forms. Thus, in the nom. acc. pl. are to be found
+forms analogical to the a-stems, OE frēondas (regularly in Anglian), OS friundos,
+friunda, OHG friuntă. OS OHG dat. sg. -e is also analogical to the a-stem ending (dat.
+sg. friunt is rare in OHG), and beside OE friend there occurs freonde, the ending -e
+being universal in stems of more than one syllable such as dat. sg. hettende ‘enemy'.
+OE polysyllabic stems regularly have genitive plural in -ra and frequently nom. acc. pl.
+in -e, both of which endings are borrowed from adjectives.
+1. Olcel. bóndi is represented here because in frændi ‘kinsman' a single stem vowel has been extended
+throughout the paradigm, though a rare, archaic, uncontracted pl. friendr is also attested.
+7.40
+Origin and development of nd-stem inflections
+These are in origin substantivized polysyllabic present participles in PIE *-nt- (cf. Gk.
+pl. qέpovτɛs ‘bearing'), which in PIE bore consonant-stem inflections (§7.2), as present
+participles still do in Skt., though on a dialectal basis the true participles acquired a-and"		
+alignment-friend-fulk-analogical-plural	Fulk2018	178	195	1	2454	2462	frēondas	35f39b2f65e08f79c62288bae81bd3942296ad4230d907bc9803faec2648fa38	"178 A Comparative Grammar of the Early Germanic Languages
+1. For discussion and references, see Boutkan 1992, Hogg & Fulk 2011: §2.99 n. 1, Klein 2013: 171-5.
+Boutkan's analysis, whereby -or(-) always reflects syllabified r, is discounted by Hogg & Fulk (2011: §2.100
+n. 6), who conclude that -or in at least some instances must reflect *-uz-, a conclusion agreed to by Klein,
+though no very convincing explanation as to how *-uz- arose has yet been devised (see Schaffner 2001: 589–
+91, Klein loc. cit.).
+2. This hypothesis could be tested metrically, since nom. acc. pl. dōgor should then be monosyllabic in the
+meter of Beowulf, where, unfortunately, the relevant cases do not occur. Acc. pl. lomber at Guthlac B 1042 is
+disyllabic, but the metrical features of this poem are not conservative enough to ensure that the second
+syllable is not due to parasiting. The Mercian gloss on the Vespasian Psalter perhaps suggests that Bammes-
+berger's explanation is incorrect, since in this text the final sequence PGmc. *-arō yields -eru rather than -ur
+(as in nom. sg. fem. ōderu ‘other'), and this must be the etymological outcome rather than the result of ana-
+logy (see Fulk 2010b). In this text are to be found nom. acc. pl. calfur (3×) and lombur (1×), but also calferu
+and lomberu, once each. It is possible, though, that -r-, later syllabified, originated elsewhere in the paradigm.
+The hypothesis that PIE forms in *-us- and *-Ḥs- should be reconstructed among the s-stems reflected in
+Gmc. is highly questionable: see Fulk 1988: 155–6 for references.
+7.39
+The nd-stems
+These are sometimes categorized under the dental stems (§7.41), which also bore
+athematic inflections in PGmc., though the development of the two types is different.
+The inflections may be illustrated by the paradigms of Go. frijōnds 'friend' (cf. frijōn
+'love') and its WGmc. cognates, along with Olcel. bóndi ‘farmer' (cf. búa ‘settle'):¹
+Go.
+OIcel. OE
+OS
+OHG
+sg.
+acc.
+nom. frijōnds
+frijōnd
+bóndi
+frēond
+friund
+friunt
+bónda
+frēond
+friund
+friunt
+gen.
+frijōndis bónda
+frēondes
+friundes, -as
+friuntes
+dat.
+frijōnd bónda friend
+friunde, -a
+friunt, -e
+VOC.
+frijōnd
+pl.
+nom.
+frijōnds bondr
+friend
+friund
+friunt
+acc.
+frijōnds
+bondr friend
+friund
+friunt
+gen.
+dat.
+frijōndē bónda frēonda
+friundo
+friunto
+friuntum, -un, -on
+frijōndam bóndum frēondum friundun, -on
+In WGmc. there occur also analogical forms. Thus, in the nom. acc. pl. are to be found
+forms analogical to the a-stems, OE frēondas (regularly in Anglian), OS friundos,
+friunda, OHG friuntă. OS OHG dat. sg. -e is also analogical to the a-stem ending (dat.
+sg. friunt is rare in OHG), and beside OE friend there occurs freonde, the ending -e
+being universal in stems of more than one syllable such as dat. sg. hettende ‘enemy'.
+OE polysyllabic stems regularly have genitive plural in -ra and frequently nom. acc. pl.
+in -e, both of which endings are borrowed from adjectives.
+1. Olcel. bóndi is represented here because in frændi ‘kinsman' a single stem vowel has been extended
+throughout the paradigm, though a rare, archaic, uncontracted pl. friendr is also attested.
+7.40
+Origin and development of nd-stem inflections
+These are in origin substantivized polysyllabic present participles in PIE *-nt- (cf. Gk.
+pl. qέpovτɛs ‘bearing'), which in PIE bore consonant-stem inflections (§7.2), as present
+participles still do in Skt., though on a dialectal basis the true participles acquired a-and"		
+alignment-fright-kroonen-adjective	Kroonen2013	161	201	1	0	8	*furhta-	7f1ba833f4c67de3a24b68e25c8f2cd12fead102548c73bc6aa2ce40d496ccf6	"*furhta-
+161
+An old derivation from the root *perk- 'spotted', for which see *farwa-.
+Note that the root stress prevented Kluge's law from operating: the out-
+come of *prk-néh₂- would have been *furkō-.
+*furhta- adj. 'fearful' - Go. faurhts adj. 'id.', OS for(a)ht adj. 'id.', OHG foraht
+adj. 'id.'⇒ *prk-to- (IE) — TOAB präskā- 'to fear' < *prk-sk-.
+A Tocharian-Germanic isogloss; the proposed connection with Arm. erkn,
+pl. erkun-k' 'labor pains, pang; fear' is formally problematic because the
+form *pergw- as reconstructed by Pedersen 1906: 398-9 would give Arm.
+**herk-. See further *furhtjan-.
+*furhtjan-w.v. 'to fear' - Go. faurhtjan w.v. 'id.', OE fyrhtan, fryhtan w.v. 'to
+frighten; tremble with fear', ME frighten w.v. 'to frighten, become fright-
+ened', OFri. fruchta w.v. 'id.', OHG furihtan w.v. 'to fear', G fürchten w.v. 'id.'
+(DRV).
+The formation *furhtjan- unites two different formations: 1) a simple
+denominative verb 'to fear' created to *furhtō-, and 2) a factitive 'to frighten'
+derived from *furhta- (q.v.).
+*furhtō- f. 'fright'
+-
+OFri. fruchta f. 'id.', OS forhta f. 'id.', OHG forhta f. 'id.',
+MHG vorhte, vorht f. 'id.'*prk-t-eh₂- (DRV).
+See *furhta- and *furhtjan-.
+*furhwōn- f. 'fir' - ON fura f. 'id.', OE furh f. 'id.', OHG voraha, vorha f. 'id.',
+MHG vorhef. 'id.', G Fōrhe f. 'id.' *pŕkw-eh₂- (IE).
+A zero-grade formation related to *ferhwa- 1 'oak' (q.v.).
+*furi adv./prep. 'in front of, for' - Go. faur adv./prep. 'id.', ON fyr prep. 'id.',
+OE for, fore prep. 'id.', E for, OS for, fora prep. 'id.', Du. voor prep./adv. 'for;
+before', OHG furi prep./adv. 'id.', G für prep. 'id.' ⇒ *prh₂-i (IE) — Gr. лάρ,
+ларά, лαрαí adv./prep. 'besides, by, from, next to, alongside', Lat. prae
+adv./prep. 'in front of, before' < *prh₂(-ei).
+-
+*fürjan- w.v. 'to castrate' OE (a-fyran w.v. 'id.', Du. vuren, vieren w.v. 'id.',
+OHG ar-fürian w.v. 'id.' (NEUR) - Lith. pjauti (pjáuju) 'to cut, slaughter', Latv.
+pļaut 'to mow, harvest' < *péuH-e- (cf. OPru. piuclan 'scythe' <*peuH-tlo-).
+A factitive to an unattested adj. *füra-, cf. OHG ur-für m. 'eunuch' < *fūra-
+<*púH-ro-.
+-
+*fursa- m. 'gush(?)' - ON fors, foss n. 'torrent; waterfall', Far. fossur m. 'id.',
+OSw. fors m. 'id.', Elfd. fuoss m. 'id.' ⇒ *pŕs-o- (IE) — Hitt. papparšzi ~
+papparšanzi 'to sprinkle' < *po-pors-ti, *-enti; ToA präsä-, ToB pärsā- ‘id.' <
+*pers-; Skt. pŕsant- adj. 'speckled, spotted'; Lith. puřslas m. 'spatter, spray' <"		
+alignment-fright-kroonen-verb	Kroonen2013	161	201	1	588	598	*furhtjan-	7f1ba833f4c67de3a24b68e25c8f2cd12fead102548c73bc6aa2ce40d496ccf6	"*furhta-
+161
+An old derivation from the root *perk- 'spotted', for which see *farwa-.
+Note that the root stress prevented Kluge's law from operating: the out-
+come of *prk-néh₂- would have been *furkō-.
+*furhta- adj. 'fearful' - Go. faurhts adj. 'id.', OS for(a)ht adj. 'id.', OHG foraht
+adj. 'id.'⇒ *prk-to- (IE) — TOAB präskā- 'to fear' < *prk-sk-.
+A Tocharian-Germanic isogloss; the proposed connection with Arm. erkn,
+pl. erkun-k' 'labor pains, pang; fear' is formally problematic because the
+form *pergw- as reconstructed by Pedersen 1906: 398-9 would give Arm.
+**herk-. See further *furhtjan-.
+*furhtjan-w.v. 'to fear' - Go. faurhtjan w.v. 'id.', OE fyrhtan, fryhtan w.v. 'to
+frighten; tremble with fear', ME frighten w.v. 'to frighten, become fright-
+ened', OFri. fruchta w.v. 'id.', OHG furihtan w.v. 'to fear', G fürchten w.v. 'id.'
+(DRV).
+The formation *furhtjan- unites two different formations: 1) a simple
+denominative verb 'to fear' created to *furhtō-, and 2) a factitive 'to frighten'
+derived from *furhta- (q.v.).
+*furhtō- f. 'fright'
+-
+OFri. fruchta f. 'id.', OS forhta f. 'id.', OHG forhta f. 'id.',
+MHG vorhte, vorht f. 'id.'*prk-t-eh₂- (DRV).
+See *furhta- and *furhtjan-.
+*furhwōn- f. 'fir' - ON fura f. 'id.', OE furh f. 'id.', OHG voraha, vorha f. 'id.',
+MHG vorhef. 'id.', G Fōrhe f. 'id.' *pŕkw-eh₂- (IE).
+A zero-grade formation related to *ferhwa- 1 'oak' (q.v.).
+*furi adv./prep. 'in front of, for' - Go. faur adv./prep. 'id.', ON fyr prep. 'id.',
+OE for, fore prep. 'id.', E for, OS for, fora prep. 'id.', Du. voor prep./adv. 'for;
+before', OHG furi prep./adv. 'id.', G für prep. 'id.' ⇒ *prh₂-i (IE) — Gr. лάρ,
+ларά, лαрαí adv./prep. 'besides, by, from, next to, alongside', Lat. prae
+adv./prep. 'in front of, before' < *prh₂(-ei).
+-
+*fürjan- w.v. 'to castrate' OE (a-fyran w.v. 'id.', Du. vuren, vieren w.v. 'id.',
+OHG ar-fürian w.v. 'id.' (NEUR) - Lith. pjauti (pjáuju) 'to cut, slaughter', Latv.
+pļaut 'to mow, harvest' < *péuH-e- (cf. OPru. piuclan 'scythe' <*peuH-tlo-).
+A factitive to an unattested adj. *füra-, cf. OHG ur-für m. 'eunuch' < *fūra-
+<*púH-ro-.
+-
+*fursa- m. 'gush(?)' - ON fors, foss n. 'torrent; waterfall', Far. fossur m. 'id.',
+OSw. fors m. 'id.', Elfd. fuoss m. 'id.' ⇒ *pŕs-o- (IE) — Hitt. papparšzi ~
+papparšanzi 'to sprinkle' < *po-pors-ti, *-enti; ToA präsä-, ToB pärsā- ‘id.' <
+*pers-; Skt. pŕsant- adj. 'speckled, spotted'; Lith. puřslas m. 'spatter, spray' <"		
+alignment-fright-ringe-verb	Ringe2017	283			1483	1494	*furhtijaną	86a661f138cb6dfe8e0e976d1f493d9ada1e3825ea8d357b734004a77b35904a	"There are also some derived verbs of this shape that seem to differ little in meaning
+from their bases; presumably they reﬂect (as a class) the PIE intensives and iteratives
+which were identical in form with causatives.15 The following seem reasonably clear
+(cf. Meid : ):
+   *draibijaną ‘drive’   *drībaną (cf. Goth. draibjan, ON dreifa, OE drǣfan, OHG
+     treiben);
+   *wagjaną ‘move’     *weganą (cf. Goth. wagjan, OE weċġan, OHG weggen);
+   *waljaną ‘choose’    *wiljaną ‘want’ (cf. Goth. waljan, ON velja, OHG wellen);
+   *wrakjaną ‘drive (out)’    *wrekaną (cf. Goth. wrakjan).
+However, some caution is necessary in judging examples of this type. In Gothic, at
+least, the difference between a basic strong verb and a derived class I verb can be a
+simple matter of transitivity, e.g. gastigqan ‘knock’ vs. gastagqjan ‘knock on’ (Feist
+ s.vv. gastagqjan, stigqan). Other cases are less clear; for instance, the semantic
+relationship between *windaną ‘wind, wrap’ and *wandijaną ‘turn’ (trans.) had
+obviously undergone some sort of idiosyncratic development, but the extra-Gmc
+cognates are not clear enough to allow us to reconstruct it with certainty (see Seebold
+: –).
+   Denominatives of this class were also common and productive. Those derived
+from adjectives were usually factitive, e.g.:
+   *daudijaną ‘kill’    *daudaz ‘dead’ (cf. Goth. dauþjan, ON deyða);
+   *fullijaną ‘ﬁll’   *fullaz ‘full’ (cf. Goth. fulljan, ON fylla, OE fyllan, OHG fullen);
+   *furhtijaną ‘frighten’     *furhtaz ‘afraid’ (cf. Goth. faúrhtjan, OE āfyrhtan, OHG
+      furhten);
+   *garwijaną ‘prepare’ *garwaz ‘ready’ (cf. ON gøra, OE ġierwan, OHG garawen);
+   *hailijaną ‘heal’     *hailaz ‘whole, healthy’ (cf. Goth. hailjan, OE hǣlan, OHG
+      heilen);
+   *lausijaną ‘release’    *lausaz ‘empty, loose, free’ (cf. Goth. lausjan, ON leysa, OE
+      līesan, OHG lōsen);
+   *warmijaną ‘heat, warm’         *warmaz ‘warm’ (cf. Goth. warmjan, ON verma, OE
+      wierman, OHG warmen)."	"There are also some derived verbs of this shape that seem to differ little in meaning
+from their bases; presumably they "	"G lōsen);
+   *warmijaną ‘heat, warm’         *warmaz ‘warm’ (cf. Goth. warmjan, ON verma, OE
+      wierman, OHG warmen)."
+alignment-fright-orel-nominative	Orel2003	120	159	1	1193	1199	fyrhtu	c67c32822b787d4124cb1b2fb856b3fcbe56817cbb07e8d9eef90911338e0c4f	"furxō
+*furxō sb.f.: ON for 'drain, sewer', OE furh
+‘furrow' (root stem), OFris furch id., MLG
+vore id., OHG furh, furuh id. (< *furxiz).
+Identical with Lat porca id., W rhŷch id.
+(FICK III 244; ZUPITZA KZ XXXV
+256-257). ZUPITZA Gutt. 132; PEDERSEN
+Kelt. Gr. I 122; TORP-FALK 244; HOLT-
+HAUSEN AEEW 119; WALDE-HOFMANN II
+340-341; PORZIG Gliederung 125; POKORNY
+I 821; CHEMODANOV SGGJa I 102; VRIES
+ANEW 137; ZALIZNIAK II 207; ONIONS
+382; BAMMESBERGER Nom. 196 (root stem);
+KLUGE-SEEBOLD 291.
+*furxtaz adj.: Goth faurhts 'fearful', OE
+forht id., OS forht, foraht 'afraid, fright-
+ened', OHG got-forht 'fearful of God'.
+Derivative in *-to- related to Toch AB
+pärsk 'to fear, A praski 'fear', B prosko,
+proskye id. (HOLTHAUSEN IF XXXIX 65).
+KIRCHHOFF KZ I 39; Torp-FaLK 244 (to
+Arm erke'nim 'to be afraid'); ZUPITZA Gutt.
+5-6, 190; SÜTTERLIN IF XXV 65 (to Gk
+opioow 'to be rough'); LEWY IF XXXII
+159 (to Lith peršěti 'to hurt, to pain');
+FEIST 146 147; HOLTHAUSEN AEEW 112;
+POKORNY I 820; CHEMODANOV SGGJa I
+111; ONIONS 377; VAN WINDEKENS I 366;
+LEHMANN GED 111; BAMMESBERGER Nom.
+250, JIES XIX 354 (to *frexnanan
+*freznanan); HEIDERMANNS 223–224.
+*furxtīn_sb.f.: Goth faurhtei ‘fright, fear',
+OE fyrhtu id. Cf. also OHG forahta
+id. Derived from *furxtaz. TORP-FALK
+244; HOLTHAUSEN AEEW 120; FEIST
+146; POKORNY I 820; ZALIZNIAK II
+179; ONIONS 377%; LEHMANN GED 111;
+HEIDERMANNS 224; KLUGE-SEEBOLD 291-
+292.
+*furxtjanan wk.vb.: Goth faurhtjan (sik) 'to
+be frightened', OE fyrhtan 'to terrify, to
+frighten', OFris unt-fruchta 'to beware',
+OS forhtian 'to fear', OHG for(a)hten ‘to
+fear, to loathe'. Derived from *furxtaz.
+TORP-FALK 244; HOLTHAUSEN AEEW
+120; FEIST 146; POKORNY I 820; LEHMANN
+GED 111; HEIDERMANNS 224.
+*furxwōn sb.f.: ON fura, fúra ‘fir-tree', OE
+furh-wudu 'fir-tree', OS furia 'pine' (jō-
+stem), OHG foraha ‘pine, fir-tree'. Related
+120
+furskō
+to Lat quercus ‘oak', W perth ‘bush' <
+*k*erk-t-. Cf. *ferxwuz. LOEWE PBB LX
+160-163 (to Gk лέpкη 'perch' rather
+than to Lat quercus); Hoops Waldbäume
+118; ZUPITZA Gutt. 190; TORP-FALK 234;
+HOLTHAUSEN AEEW 119; WALDE-
+HOFMANN II 402-403; PORZIG Gliederung
+147; POKORNY I 822; VRIES ANEW 147
+(to Gk mnt. Пuppatov, Skt parkaṭī ‘Ficus
+infectoria'); ZALIZNIAK II 216; ONIONS
+357; GRIEPENTROG Wurzelnomina 443;
+KLUGE-SEEBOLD 277.
+~
+*furistaz num.: ON fyrstr 'first', OE fyrest,
+fyrst id., OFris ferost id., OS furist, OHG
+furisto 'first'. Superlative formation based.
+on fur(a). TORP-FALK 232; HOLTHAU-
+SEN AEEW 120; POKORNY I 812; VRIES
+ANEW 149; ONIONS 357%; Ross-BERNS
+Numerals 625; KLUGE-SEEBOLD 292.
+*furjaz *fōrjaz adj.: Goth ga-faurs
+'temperate, restrained, well-behaved',
+MHG ge-viere 'fitting, useful'. Derived
+from *faranan with an unaccountable
+divergence in vocalism (GRIENBERGER
+Got. 81). WOOD MLN XVI 310 (to Gk
+лαброç 'small'); UHLENBECK PBB XXX
+279 (to Lat pūrus 'pure'); FEIST 180;
+LEHMANN GED 137.
+*furna-mannz sb.m.: ON forn-maðr 'man
+of the olden time', OE fyrn-mann ‘man of
+yore. Compound of *furnaz and *mannz.
+CARR Nom. comp. 58.
+*furnaz adj.: ON forn 'old', OS adv. forn
+'previously', OHG adv. forn ‘previously'.
+Zero grade of *fernaz. TORP-FALK 231;
+VRIES ANEW 138; LEHMANN GED 106.
+*fursaz sb.m.: ON fors ‘waterfall, stream’.
+Close to Slav *porx 'dust' (MEILLET
+Etudes 285) further related to Skt párṣati
+'to sprinkle', Toch AB pärs- 'to sprinkle'.
+PEDERSEN IF V 54; TORP-FALK 244;
+MAYRHOFER II 230; POKORNY I 823;
+VRIES ANEW 139; VASMER-TRUBACHEV
+III 332-333; ADAMS TB 375.
+*furskō sb.f.: OHG forsca 'question'. An
+archaic zero-grade noun identical with
+Class. Skt prcchā id., Arm harc id. See
+*frexnanan *freznanan. TORP-FALK 246;
+PORZIG IF XLV 156-157; MAYRHOFER II
+~"		
+alignment-furrow-kroonen-nom	Kroonen2013	160	200	1	2313	2320	*pórk-s	5bace3ad49e27ea09034fbf28ddbf5d4a0933adf3251912cba405cb01c477f8d	"160
+*funhsti-
+*funhsti- f. 'fist'
+-
+OE fyst f. 'id.', E fist, MDu. vuust f. 'id.', Du. vuist c. ‘id.',
+OHG füst f. 'id.', G Faust f. 'id.' ⇒ *pnkw-ti- (IE) — Identical to OCS рęstь f. 'fist'.
+Probably a derivation from PIE *pénkwe 'five', for which see *fimfe.
+-
+*funhtu- adj. 'humid, moist' OE füht adj. 'id.', OS füht adj. 'id.', MDu.
+vocht(e), vucht(e) adj. 'id.', Du. vochtig adj. 'id.', OHG füht, fühti adj. 'id.', G
+feucht adj. 'id.' *pnk-tu- (IE?) - Skt. pańka- m. 'mud' <*pe/onk-o-(?).
+A u-stem adjective that became remodeled into a ja-stem in the conti-
+nental WGm. languages. Possibly related to Skt. panka- (if this word is of IE
+origin). The traditional comparison with *fanja- 'bog' is doubtful: it would
+imply that both Skt. and Gm. added a k-suffix, which is rather uncertain.
+*funkōn-w.v. 'to sparkle' - MDu. vonken w.v. 'to smolder; to sparkle', MHG
+vunken w.v. 'to shimmer, shine, sparkle', ent-vunken 'to ignite'⇒*pnk-néh₂-
+(GM).
+The iterative to the strong verb *finkan- as well as the derivational base
+for OHG funko, G Funke(n), MLG vunke, MDu. vonke, Du. vonk, ME funke
+'spark' <*funkan-. The etymon has no extra-Gm. cognates, but it is possible
+that the meaning 'to spark' arose in elliptic use of the verb *fanhan- 'to catch
+(fire)'. The received derivation of the n-stem *funkan- from PIE *ph₂un- 'fire'
+(for which see *för~*fun-) is erroneous (pace Pokorny IEW: 828).
+*furdu- m. 'ford'
+-
+OE ford m. 'id.', OS ford m. 'id.', MDu. vort, voorde m. 'id.'
+⇒ *pr-tú- (IE) — Av. parǝtu- m. 'crossing', MP puhl, NP pul 'bridge', Lat.
+portus m. 'entrance, port, refuge', OW rit, W rhyd m. 'ford' <*pr-tú-.
+Also cf. the full grade ON fjorðr m. 'fjord' < *ferþu- < *pér-tu-.
+*furh-f. 'furrow'
+ON for f. 'id.', OE furh f. 'id.', E furrow, OFri. furch f. 'id.',
+MDu. vore f. 'id.', Du. voor c. 'id.', OHG furh, furuh d. 'id.', G Furche f. 'id.'⇒
+*pŕk- (IE) Skt. párśāna- m. 'rift' < *pe/ork-ono-; Lat. porca f. 'ridge be-
+tween two furrows' < *p(o)rk-eh2-; MIr. etarche, etrige, eitre f. ‘id.' <
+*h₁enter-prk-ieh2-; MW rhych m./ f. 'furrow'?
+-
+An archaic root noun *furh-z, dat. *furh-i (cf. OE fyrh). WFri. furg and Du.
+dial. furg (in the originally Frisian territories) point to a Verner variant OFri.
+*furg (cf. Weijnen 1996: 228), which is in agreement with the reconstruc-
+tion of a root noun *pórk-s, gen. *prk-és, dat. *prk-í. Also cf. the ablauting
+Nw. dial. fere m. 'ridge between two furrows' <*ferhan-.
+*furhnō- f. 'trout' - OE forn(e) f. 'id.', OS forhna, furhnia f. 'id.', MDu. voorne
+f. '?', Du. voorn c. 'roach', OHG forhana f. 'trout', MHG forhen, forhel f. 'id.' ⇒
+*pŕk-neh₂- (IE) — Olr. erc m. 'perch, salmon' < *perk-o-.
+-"		
+alignment-furrow-kroonen-gen	Kroonen2013	160	200	1	2327	2334	*prk-és	5bace3ad49e27ea09034fbf28ddbf5d4a0933adf3251912cba405cb01c477f8d	"160
+*funhsti-
+*funhsti- f. 'fist'
+-
+OE fyst f. 'id.', E fist, MDu. vuust f. 'id.', Du. vuist c. ‘id.',
+OHG füst f. 'id.', G Faust f. 'id.' ⇒ *pnkw-ti- (IE) — Identical to OCS рęstь f. 'fist'.
+Probably a derivation from PIE *pénkwe 'five', for which see *fimfe.
+-
+*funhtu- adj. 'humid, moist' OE füht adj. 'id.', OS füht adj. 'id.', MDu.
+vocht(e), vucht(e) adj. 'id.', Du. vochtig adj. 'id.', OHG füht, fühti adj. 'id.', G
+feucht adj. 'id.' *pnk-tu- (IE?) - Skt. pańka- m. 'mud' <*pe/onk-o-(?).
+A u-stem adjective that became remodeled into a ja-stem in the conti-
+nental WGm. languages. Possibly related to Skt. panka- (if this word is of IE
+origin). The traditional comparison with *fanja- 'bog' is doubtful: it would
+imply that both Skt. and Gm. added a k-suffix, which is rather uncertain.
+*funkōn-w.v. 'to sparkle' - MDu. vonken w.v. 'to smolder; to sparkle', MHG
+vunken w.v. 'to shimmer, shine, sparkle', ent-vunken 'to ignite'⇒*pnk-néh₂-
+(GM).
+The iterative to the strong verb *finkan- as well as the derivational base
+for OHG funko, G Funke(n), MLG vunke, MDu. vonke, Du. vonk, ME funke
+'spark' <*funkan-. The etymon has no extra-Gm. cognates, but it is possible
+that the meaning 'to spark' arose in elliptic use of the verb *fanhan- 'to catch
+(fire)'. The received derivation of the n-stem *funkan- from PIE *ph₂un- 'fire'
+(for which see *för~*fun-) is erroneous (pace Pokorny IEW: 828).
+*furdu- m. 'ford'
+-
+OE ford m. 'id.', OS ford m. 'id.', MDu. vort, voorde m. 'id.'
+⇒ *pr-tú- (IE) — Av. parǝtu- m. 'crossing', MP puhl, NP pul 'bridge', Lat.
+portus m. 'entrance, port, refuge', OW rit, W rhyd m. 'ford' <*pr-tú-.
+Also cf. the full grade ON fjorðr m. 'fjord' < *ferþu- < *pér-tu-.
+*furh-f. 'furrow'
+ON for f. 'id.', OE furh f. 'id.', E furrow, OFri. furch f. 'id.',
+MDu. vore f. 'id.', Du. voor c. 'id.', OHG furh, furuh d. 'id.', G Furche f. 'id.'⇒
+*pŕk- (IE) Skt. párśāna- m. 'rift' < *pe/ork-ono-; Lat. porca f. 'ridge be-
+tween two furrows' < *p(o)rk-eh2-; MIr. etarche, etrige, eitre f. ‘id.' <
+*h₁enter-prk-ieh2-; MW rhych m./ f. 'furrow'?
+-
+An archaic root noun *furh-z, dat. *furh-i (cf. OE fyrh). WFri. furg and Du.
+dial. furg (in the originally Frisian territories) point to a Verner variant OFri.
+*furg (cf. Weijnen 1996: 228), which is in agreement with the reconstruc-
+tion of a root noun *pórk-s, gen. *prk-és, dat. *prk-í. Also cf. the ablauting
+Nw. dial. fere m. 'ridge between two furrows' <*ferhan-.
+*furhnō- f. 'trout' - OE forn(e) f. 'id.', OS forhna, furhnia f. 'id.', MDu. voorne
+f. '?', Du. voorn c. 'roach', OHG forhana f. 'trout', MHG forhen, forhel f. 'id.' ⇒
+*pŕk-neh₂- (IE) — Olr. erc m. 'perch, salmon' < *perk-o-.
+-"		
+alignment-furrow-kroonen-dat	Kroonen2013	160	200	1	2341	2347	*prk-í	5bace3ad49e27ea09034fbf28ddbf5d4a0933adf3251912cba405cb01c477f8d	"160
+*funhsti-
+*funhsti- f. 'fist'
+-
+OE fyst f. 'id.', E fist, MDu. vuust f. 'id.', Du. vuist c. ‘id.',
+OHG füst f. 'id.', G Faust f. 'id.' ⇒ *pnkw-ti- (IE) — Identical to OCS рęstь f. 'fist'.
+Probably a derivation from PIE *pénkwe 'five', for which see *fimfe.
+-
+*funhtu- adj. 'humid, moist' OE füht adj. 'id.', OS füht adj. 'id.', MDu.
+vocht(e), vucht(e) adj. 'id.', Du. vochtig adj. 'id.', OHG füht, fühti adj. 'id.', G
+feucht adj. 'id.' *pnk-tu- (IE?) - Skt. pańka- m. 'mud' <*pe/onk-o-(?).
+A u-stem adjective that became remodeled into a ja-stem in the conti-
+nental WGm. languages. Possibly related to Skt. panka- (if this word is of IE
+origin). The traditional comparison with *fanja- 'bog' is doubtful: it would
+imply that both Skt. and Gm. added a k-suffix, which is rather uncertain.
+*funkōn-w.v. 'to sparkle' - MDu. vonken w.v. 'to smolder; to sparkle', MHG
+vunken w.v. 'to shimmer, shine, sparkle', ent-vunken 'to ignite'⇒*pnk-néh₂-
+(GM).
+The iterative to the strong verb *finkan- as well as the derivational base
+for OHG funko, G Funke(n), MLG vunke, MDu. vonke, Du. vonk, ME funke
+'spark' <*funkan-. The etymon has no extra-Gm. cognates, but it is possible
+that the meaning 'to spark' arose in elliptic use of the verb *fanhan- 'to catch
+(fire)'. The received derivation of the n-stem *funkan- from PIE *ph₂un- 'fire'
+(for which see *för~*fun-) is erroneous (pace Pokorny IEW: 828).
+*furdu- m. 'ford'
+-
+OE ford m. 'id.', OS ford m. 'id.', MDu. vort, voorde m. 'id.'
+⇒ *pr-tú- (IE) — Av. parǝtu- m. 'crossing', MP puhl, NP pul 'bridge', Lat.
+portus m. 'entrance, port, refuge', OW rit, W rhyd m. 'ford' <*pr-tú-.
+Also cf. the full grade ON fjorðr m. 'fjord' < *ferþu- < *pér-tu-.
+*furh-f. 'furrow'
+ON for f. 'id.', OE furh f. 'id.', E furrow, OFri. furch f. 'id.',
+MDu. vore f. 'id.', Du. voor c. 'id.', OHG furh, furuh d. 'id.', G Furche f. 'id.'⇒
+*pŕk- (IE) Skt. párśāna- m. 'rift' < *pe/ork-ono-; Lat. porca f. 'ridge be-
+tween two furrows' < *p(o)rk-eh2-; MIr. etarche, etrige, eitre f. ‘id.' <
+*h₁enter-prk-ieh2-; MW rhych m./ f. 'furrow'?
+-
+An archaic root noun *furh-z, dat. *furh-i (cf. OE fyrh). WFri. furg and Du.
+dial. furg (in the originally Frisian territories) point to a Verner variant OFri.
+*furg (cf. Weijnen 1996: 228), which is in agreement with the reconstruc-
+tion of a root noun *pórk-s, gen. *prk-és, dat. *prk-í. Also cf. the ablauting
+Nw. dial. fere m. 'ridge between two furrows' <*ferhan-.
+*furhnō- f. 'trout' - OE forn(e) f. 'id.', OS forhna, furhnia f. 'id.', MDu. voorne
+f. '?', Du. voorn c. 'roach', OHG forhana f. 'trout', MHG forhen, forhel f. 'id.' ⇒
+*pŕk-neh₂- (IE) — Olr. erc m. 'perch, salmon' < *perk-o-.
+-"		
+alignment-furrow-kroonen-oe-dative	Kroonen2013	160	200	1	2110	2114	fyrh	5bace3ad49e27ea09034fbf28ddbf5d4a0933adf3251912cba405cb01c477f8d	"160
+*funhsti-
+*funhsti- f. 'fist'
+-
+OE fyst f. 'id.', E fist, MDu. vuust f. 'id.', Du. vuist c. ‘id.',
+OHG füst f. 'id.', G Faust f. 'id.' ⇒ *pnkw-ti- (IE) — Identical to OCS рęstь f. 'fist'.
+Probably a derivation from PIE *pénkwe 'five', for which see *fimfe.
+-
+*funhtu- adj. 'humid, moist' OE füht adj. 'id.', OS füht adj. 'id.', MDu.
+vocht(e), vucht(e) adj. 'id.', Du. vochtig adj. 'id.', OHG füht, fühti adj. 'id.', G
+feucht adj. 'id.' *pnk-tu- (IE?) - Skt. pańka- m. 'mud' <*pe/onk-o-(?).
+A u-stem adjective that became remodeled into a ja-stem in the conti-
+nental WGm. languages. Possibly related to Skt. panka- (if this word is of IE
+origin). The traditional comparison with *fanja- 'bog' is doubtful: it would
+imply that both Skt. and Gm. added a k-suffix, which is rather uncertain.
+*funkōn-w.v. 'to sparkle' - MDu. vonken w.v. 'to smolder; to sparkle', MHG
+vunken w.v. 'to shimmer, shine, sparkle', ent-vunken 'to ignite'⇒*pnk-néh₂-
+(GM).
+The iterative to the strong verb *finkan- as well as the derivational base
+for OHG funko, G Funke(n), MLG vunke, MDu. vonke, Du. vonk, ME funke
+'spark' <*funkan-. The etymon has no extra-Gm. cognates, but it is possible
+that the meaning 'to spark' arose in elliptic use of the verb *fanhan- 'to catch
+(fire)'. The received derivation of the n-stem *funkan- from PIE *ph₂un- 'fire'
+(for which see *för~*fun-) is erroneous (pace Pokorny IEW: 828).
+*furdu- m. 'ford'
+-
+OE ford m. 'id.', OS ford m. 'id.', MDu. vort, voorde m. 'id.'
+⇒ *pr-tú- (IE) — Av. parǝtu- m. 'crossing', MP puhl, NP pul 'bridge', Lat.
+portus m. 'entrance, port, refuge', OW rit, W rhyd m. 'ford' <*pr-tú-.
+Also cf. the full grade ON fjorðr m. 'fjord' < *ferþu- < *pér-tu-.
+*furh-f. 'furrow'
+ON for f. 'id.', OE furh f. 'id.', E furrow, OFri. furch f. 'id.',
+MDu. vore f. 'id.', Du. voor c. 'id.', OHG furh, furuh d. 'id.', G Furche f. 'id.'⇒
+*pŕk- (IE) Skt. párśāna- m. 'rift' < *pe/ork-ono-; Lat. porca f. 'ridge be-
+tween two furrows' < *p(o)rk-eh2-; MIr. etarche, etrige, eitre f. ‘id.' <
+*h₁enter-prk-ieh2-; MW rhych m./ f. 'furrow'?
+-
+An archaic root noun *furh-z, dat. *furh-i (cf. OE fyrh). WFri. furg and Du.
+dial. furg (in the originally Frisian territories) point to a Verner variant OFri.
+*furg (cf. Weijnen 1996: 228), which is in agreement with the reconstruc-
+tion of a root noun *pórk-s, gen. *prk-és, dat. *prk-í. Also cf. the ablauting
+Nw. dial. fere m. 'ridge between two furrows' <*ferhan-.
+*furhnō- f. 'trout' - OE forn(e) f. 'id.', OS forhna, furhnia f. 'id.', MDu. voorne
+f. '?', Du. voorn c. 'roach', OHG forhana f. 'trout', MHG forhen, forhel f. 'id.' ⇒
+*pŕk-neh₂- (IE) — Olr. erc m. 'perch, salmon' < *perk-o-.
+-"		
+alignment-furrow-rt-early-dative-plural	RingeTaylor2014	308	323	4	114	120	furhum	6da89f9647073585e68854775e0763f7102966bc16560f32aaa7d7e4ce974f8f	"PGmce *furh- ‘furrow’ (< post-PIE *prk-, cf. Welsh rhych) > PWGmce *furh, dat. pl.
+*furhum (OHG furuh) > OE furh, furhum (the latter attested in EpGI 884) > furum;"		
+alignment-furrow-rt-later-dative-plural	RingeTaylor2014	308	323	4	157	162	furum	6da89f9647073585e68854775e0763f7102966bc16560f32aaa7d7e4ce974f8f	"PGmce *furh- ‘furrow’ (< post-PIE *prk-, cf. Welsh rhych) > PWGmce *furh, dat. pl.
+*furhum (OHG furuh) > OE furh, furhum (the latter attested in EpGI 884) > furum;"		
