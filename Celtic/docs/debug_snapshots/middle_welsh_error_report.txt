@@ -1,0 +1,505 @@
+CELTIC FST ERROR REPORT
+Language: Middle_Welsh
+Data: /usr/app/data/celtic-aligned-final.tsv
+Compiled FST: /usr/app/middle_welsh.bin
+Compared column: IPA (not COUNTERPART, which is orthographic)
+Rows checked: 70
+Exact matches: 42
+Mismatches: 27
+No output: 1
+Rows skipped (missing protoform/IPA): 0
+Match rate: 60.0%
+
+=== ERRORS (NO_OUTPUT and MISMATCH) ===
+
+[MISMATCH] TSV ID 2 (line 3): apple
+  Proto-Celtic input: *abul
+  Input sent to flookup: abul
+  Expected IPA: aual
+  Spelled word (reference only): aual
+  FST output: abul, abuɬ, abu, abūl, abūɬ, abū, abol, aboɬ, abo, abl, abɬ, ab
+
+[MISMATCH] TSV ID 5 (line 6): river
+  Proto-Celtic input: *abū
+  Input sent to flookup: abū
+  Expected IPA: avon
+  Spelled word (reference only): afon
+  FST output: ab
+
+[MISMATCH] TSV ID 93 (line 94): salmon
+  Proto-Celtic input: *esoxs
+  Input sent to flookup: esoxs
+  Expected IPA: eok
+  Spelled word (reference only): ehawc
+  FST output: ēsoχ, ēso, esoχ, eso, soχ, so
+
+[MISMATCH] TSV ID 110 (line 111): goat
+  Proto-Celtic input: *gabros
+  Input sent to flookup: gabros
+  Expected IPA: gauar
+  Spelled word (reference only): gauar
+  FST output: ɣabr, gabr, abr
+
+[MISMATCH] TSV ID 115 (line 116): person
+  Proto-Celtic input: *gdonyos
+  Input sent to flookup: gdonyos
+  Expected IPA: din
+  Spelled word (reference only): dyn
+  FST output: dond, donð, don, dēn, den, tond, tonð, ton, tēn, ten, ond, onð, on, ēn, en
+
+[MISMATCH] TSV ID 122 (line 123): iron
+  Proto-Celtic input: *isarnom
+  Input sent to flookup: isarnom
+  Expected IPA: heiarn
+  Spelled word (reference only): haearn
+  FST output: isarn
+
+[MISMATCH] TSV ID 168 (line 169): drink, beer
+  Proto-Celtic input: *latis
+  Input sent to flookup: latis
+  Expected IPA: ɬaid
+  Spelled word (reference only): llad
+  FST output: lat, lad, la, ɬat, ɬad, ɬa, at, ad, a
+
+[MISMATCH] TSV ID 205 (line 206): delight
+  Proto-Celtic input: *mēnom
+  Input sent to flookup: mēnom
+  Expected IPA: mūin
+  Spelled word (reference only): mwyn
+  FST output: mēn
+
+[MISMATCH] TSV ID 215 (line 216): malt
+  Proto-Celtic input: *mrakis
+  Input sent to flookup: mrakis
+  Expected IPA: brag
+  Spelled word (reference only): brag
+  FST output: mraɣ, mrag, mra
+
+[NO_OUTPUT] TSV ID 218 (line 219): smoke
+  Proto-Celtic input: *muk?
+  Input sent to flookup: muk?
+  Expected IPA: mūg
+  Spelled word (reference only): mwg
+  FST output: +?
+
+[MISMATCH] TSV ID 222 (line 223): serpent
+  Proto-Celtic input: *natrixs
+  Input sent to flookup: natrixs
+  Expected IPA: neidr
+  Spelled word (reference only): neidr
+  FST output: natriχ, natri, nadriχ, nadri, nariχ, nari
+
+[MISMATCH] TSV ID 226 (line 227): boat
+  Proto-Celtic input: *nāwā
+  Input sent to flookup: nāwā
+  Expected IPA: noe
+  Spelled word (reference only): noe
+  FST output: nauu, nauw, nau, naw, na, nou, now, no, nāu, nāw, nā, nu
+
+[MISMATCH] TSV ID 239 (line 240): nine
+  Proto-Celtic input: *nowan
+  Input sent to flookup: nowan
+  Expected IPA: naū
+  Spelled word (reference only): naw
+  FST output: nuan, nūan, noan, nan
+
+[MISMATCH] TSV ID 248 (line 249): lamb
+  Proto-Celtic input: *owignos
+  Input sent to flookup: owignos
+  Expected IPA: oen
+  Spelled word (reference only): oin
+  FST output: uiɣn, uiin, uin, ūiɣn, ūiin, ūin, oiɣn, oiin, oin, iɣn, iin, in
+
+[MISMATCH] TSV ID 264 (line 265): law
+  Proto-Celtic input: *rextus
+  Input sent to flookup: rextus
+  Expected IPA: raiθ
+  Spelled word (reference only): reyth
+  FST output: rēiθ, reiθ, riθ
+
+[MISMATCH] TSV ID 295 (line 296): seven
+  Proto-Celtic input: *sextam
+  Input sent to flookup: sextam
+  Expected IPA: seiθ
+  Spelled word (reference only): seith
+  FST output: hēiθam, heiθam, hiθam
+
+[MISMATCH] TSV ID 309 (line 310): shadow
+  Proto-Celtic input: *skātu
+  Input sent to flookup: skātu
+  Expected IPA: isgād
+  Spelled word (reference only): ysgawd
+  FST output: hkaut, hkaud, hkau, hkat, hkad, hka, hkot, hkod, hko, hkāt, hkād, hkā
+
+[MISMATCH] TSV ID 312 (line 313): tired
+  Proto-Celtic input: *skītos
+  Input sent to flookup: skītos
+  Expected IPA: eskud
+  Spelled word (reference only): escud
+  FST output: hkit, hkid, hki, hkīt, hkīd, hkī
+
+[MISMATCH] TSV ID 319 (line 320): blackberry
+  Proto-Celtic input: *smiyoros
+  Input sent to flookup: smiyoros
+  Expected IPA: muiar
+  Spelled word (reference only): mwyar
+  FST output: mior
+
+[MISMATCH] TSV ID 326 (line 327): love
+  Proto-Celtic input: *sterkā
+  Input sent to flookup: sterkā
+  Expected IPA: serχ
+  Spelled word (reference only): serch
+  FST output: htērχ, htēr, hterχ, hter
+
+[MISMATCH] TSV ID 329 (line 330): valley
+  Proto-Celtic input: *stratos
+  Input sent to flookup: stratos
+  Expected IPA: istrad
+  Spelled word (reference only): ystrad
+  FST output: htrat, htrad, htra
+
+[MISMATCH] TSV ID 335 (line 336): turn, course
+  Proto-Celtic input: *swelos
+  Input sent to flookup: swelos
+  Expected IPA: χwil
+  Spelled word (reference only): chwyl
+  FST output: χuēl, χuēɬ, χuē, χuel, χueɬ, χue, χul, χuɬ, χu, χwēl, χwēɬ, χwē, χwel, χweɬ, χwe, χēl, χēɬ, χē, χel, χeɬ, χe, uēl, uēɬ, uē, uel, ueɬ, ue, ul, uɬ, u, wēl, wēɬ, wē, wel, weɬ, we, ēl, ēɬ, ē, el, eɬ, e
+
+[MISMATCH] TSV ID 355 (line 356): lord
+  Proto-Celtic input: *tigernos
+  Input sent to flookup: tigernos
+  Expected IPA: teern
+  Spelled word (reference only): teern
+  FST output: tiɣērn, tiɣern, tiɣrn, tiiērn, tiiern, tiirn, tiērn, tiern, tirn
+
+[MISMATCH] TSV ID 368 (line 369): beach
+  Proto-Celtic input: *trāgi
+  Input sent to flookup: trāgi
+  Expected IPA: trei
+  Spelled word (reference only): trei
+  FST output: trauɣ, traug, trau, traɣ, trag, tra, troɣ, trog, tro, trāɣ, trāg, trā
+
+[MISMATCH] TSV ID 396 (line 397): poem
+  Proto-Celtic input: *wātus
+  Input sent to flookup: wātus
+  Expected IPA: gūaūd
+  Spelled word (reference only): gwawd
+  FST output: ɣwaut, ɣwaud, ɣwau, ɣwat, ɣwad, ɣwa, ɣwot, ɣwod, ɣwo, ɣwāt, ɣwād, ɣwā, guaut, guaud, guau, guat, guad, gua, guot, guod, guo, guāt, guād, guā, gut, gud, gu, gūaut, gūaud, gūau, gūat, gūad, gūa, gūot, gūod, gūo, gūāt, gūād, gūā, gūt, gūd, gū, gwaut, gwaud, gwau, gwat, gwad, gwa, gwot, gwod, gwo, gwāt, gwād, gwā, waut, waud, wau, wat, wad, wa, wot, wod, wo, wāt, wād, wā, aut, aud, au, at, ad, a, ot, od, o, āt, ād, ā
+
+[MISMATCH] TSV ID 403 (line 404): blood
+  Proto-Celtic input: *wolis
+  Input sent to flookup: wolis
+  Expected IPA: gueli
+  Spelled word (reference only): gweli
+  FST output: ɣwēl, ɣwēɬ, ɣwē, ɣwel, ɣweɬ, ɣwe, guēl, guēɬ, guē, guel, gueɬ, gue, gul, guɬ, gu, gūēl, gūēɬ, gūē, gūel, gūeɬ, gūe, gūl, gūɬ, gū, gwēl, gwēɬ, gwē, gwel, gweɬ, gwe, wēl, wēɬ, wē, wel, weɬ, we, ēl, ēɬ, ē, el, eɬ, e
+
+[MISMATCH] TSV ID 427 (line 428): root
+  Proto-Celtic input: *wridā
+  Input sent to flookup: wridā
+  Expected IPA: gureið
+  Spelled word (reference only): gwreidd
+  FST output: ɣwrēd, ɣwrēð, ɣwrē, ɣwred, ɣwreð, ɣwre, gurēd, gurēð, gurē, gured, gureð, gure, gurd, gurð, gur, gūrēd, gūrēð, gūrē, gūred, gūreð, gūre, gūrd, gūrð, gūr, gwrēd, gwrēð, gwrē, gwred, gwreð, gwre, wrēd, wrēð, wrē, wred, wreð, wre, rēd, rēð, rē, red, reð, re
+
+[MISMATCH] TSV ID 438 (line 439): young
+  Proto-Celtic input: *yuwankos
+  Input sent to flookup: yuwankos
+  Expected IPA: iueank
+  Spelled word (reference only): ieuanc
+  FST output: iuuanχ, iuuan, iuwanχ, iuwan, iuanχ, iuan, iūuanχ, iūuan, iūwanχ, iūwan, iūanχ, iūan, iouanχ, iouan, iowanχ, iowan, ioanχ, ioan, iwanχ, iwan, ianχ, ian, duuanχ, duuan, duwanχ, duwan, duanχ, duan, dūuanχ, dūuan, dūwanχ, dūwan, dūanχ, dūan, douanχ, douan, dowanχ, dowan, doanχ, doan, dwanχ, dwan, danχ, dan, ðuuanχ, ðuuan, ðuwanχ, ðuwan, ðuanχ, ðuan, ðūuanχ, ðūuan, ðūwanχ, ðūwan, ðūanχ, ðūan, ðouanχ, ðouan, ðowanχ, ðowan, ðoanχ, ðoan, ðwanχ, ðwan, ðanχ, ðan, uuanχ, uuan, uwanχ, uwan, uanχ, uan, ūuanχ, ūuan, ūwanχ, ūwan, ūanχ, ūan, ouanχ, ouan, owanχ, owan, oanχ, oan, wanχ, wan, anχ, an
+
+=== MATCHING ENTRIES ===
+
+[MATCH] TSV ID 10 (line 11): hill
+  Proto-Celtic input: *ardwos
+  Input sent to flookup: ardwos
+  Expected IPA: arð
+  Spelled word (reference only): ardd
+  FST output: ard, arð, ar
+
+[MATCH] TSV ID 22 (line 23): strong
+  Proto-Celtic input: *balkos
+  Input sent to flookup: balkos
+  Expected IPA: balχ
+  Spelled word (reference only): balch
+  FST output: balχ, bal, baɬχ, baɬ, baχ, ba
+
+[MATCH] TSV ID 24 (line 25): peak
+  Proto-Celtic input: *bandā
+  Input sent to flookup: bandā
+  Expected IPA: ban
+  Spelled word (reference only): bann
+  FST output: ban
+
+[MATCH] TSV ID 28 (line 29): bard
+  Proto-Celtic input: *bardos
+  Input sent to flookup: bardos
+  Expected IPA: barð
+  Spelled word (reference only): bardd
+  FST output: bard, barð, bar
+
+[MATCH] TSV ID 43 (line 44): alive
+  Proto-Celtic input: *biwos
+  Input sent to flookup: biwos
+  Expected IPA: biu
+  Spelled word (reference only): byw
+  FST output: biu, biw, bi
+
+[MATCH] TSV ID 52 (line 53): sack, stomach
+  Proto-Celtic input: *bolgos
+  Input sent to flookup: bolgos
+  Expected IPA: bol
+  Spelled word (reference only): bol
+  FST output: bolɣ, bolg, bol, boɬɣ, boɬg, boɬ, boɣ, bog, bo
+
+[MATCH] TSV ID 61 (line 62): brother
+  Proto-Celtic input: *brātīr
+  Input sent to flookup: brātīr
+  Expected IPA: braud
+  Spelled word (reference only): brawt
+  FST output: braut, braud, brau, brat, brad, bra, brot, brod, bro, brāt, brād, brā
+
+[MATCH] TSV ID 70 (line 71): assembly
+  Proto-Celtic input: *datlā
+  Input sent to flookup: datlā
+  Expected IPA: dadl
+  Spelled word (reference only): dadl
+  FST output: datl, datɬ, dat, dadl, dadɬ, dad, dal, daɬ, da, tatl, tatɬ, tat, tadl, tadɬ, tad, tal, taɬ, ta, atl, atɬ, at, adl, adɬ, ad, al, aɬ, a
+
+[MATCH] TSV ID 79 (line 80): bad
+  Proto-Celtic input: *drukos
+  Input sent to flookup: drukos
+  Expected IPA: drug
+  Spelled word (reference only): drwg
+  FST output: druɣ, drug, dru, drūɣ, drūg, drū, droɣ, drog, dro, truɣ, trug, tru, trūɣ, trūg, trū, troɣ, trog, tro, ruɣ, rug, ru, rūɣ, rūg, rū, roɣ, rog, ro
+
+[MATCH] TSV ID 83 (line 84): fort
+  Proto-Celtic input: *dūnom
+  Input sent to flookup: dūnom
+  Expected IPA: din
+  Spelled word (reference only): din
+  FST output: din, tin, in
+
+[MATCH] TSV ID 98 (line 99): bird
+  Proto-Celtic input: *ɸetnos
+  Input sent to flookup: ɸetnos
+  Expected IPA: edn
+  Spelled word (reference only): edn
+  FST output: ētn, ēdn, ēn, etn, edn, en
+
+[MATCH] TSV ID 120 (line 121): grain
+  Proto-Celtic input: *grānom
+  Input sent to flookup: grānom
+  Expected IPA: graun
+  Spelled word (reference only): grawn
+  FST output: ɣraun, ɣran, ɣron, ɣrān, graun, gran, gron, grān, raun, ran, ron, rān
+
+[MATCH] TSV ID 137 (line 138): tree
+  Proto-Celtic input: *kʷresnom
+  Input sent to flookup: kʷresnom
+  Expected IPA: pren
+  Spelled word (reference only): prenn
+  FST output: brēn, bren, prēn, pren, rēn, ren
+
+[MATCH] TSV ID 173 (line 174): half, width
+  Proto-Celtic input: *letos
+  Input sent to flookup: letos
+  Expected IPA: ɬed
+  Spelled word (reference only): lled
+  FST output: lēt, lēd, lē, let, led, le, ɬēt, ɬēd, ɬē, ɬet, ɬed, ɬe, ēt, ēd, ē, et, ed, e
+
+[MATCH] TSV ID 176 (line 177): drink, lake
+  Proto-Celtic input: *lindos
+  Input sent to flookup: lindos
+  Expected IPA: ɬin
+  Spelled word (reference only): llynn
+  FST output: lin, ɬin, in
+
+[MATCH] TSV ID 180 (line 181): boat
+  Proto-Celtic input: *longā
+  Input sent to flookup: longā
+  Expected IPA: ɬoŋ
+  Spelled word (reference only): llong
+  FST output: loŋ, ɬoŋ, oŋ
+
+[MATCH] TSV ID 188 (line 189): chief, lord
+  Proto-Celtic input: *maglos
+  Input sent to flookup: maglos
+  Expected IPA: mail
+  Spelled word (reference only): mael
+  FST output: maɣl, maɣɬ, maɣ, mail, maiɬ, mai, mal, maɬ, ma
+
+[MATCH] TSV ID 207 (line 208): month
+  Proto-Celtic input: *mīns
+  Input sent to flookup: mīns
+  Expected IPA: mīs
+  Spelled word (reference only): mis
+  FST output: mis, mīs
+
+[MATCH] TSV ID 243 (line 244): all
+  Proto-Celtic input: *olyos
+  Input sent to flookup: olyos
+  Expected IPA: ol
+  Spelled word (reference only): oll
+  FST output: old, olð, ol, oɬd, oɬð, oɬ, od, oð, o, ēl, ēɬ, ē, el, eɬ, e
+
+[MATCH] TSV ID 252 (line 253): high
+  Proto-Celtic input: *ouxselos
+  Input sent to flookup: ouxselos
+  Expected IPA: uχel
+  Spelled word (reference only): uchel
+  FST output: uχēl, uχēɬ, uχē, uχel, uχeɬ, uχe, uχl, uχɬ, uχ, uēl, uēɬ, uē, uel, ueɬ, ue, ul, uɬ, u, ūχēl, ūχēɬ, ūχē, ūχel, ūχeɬ, ūχe, ūχl, ūχɬ, ūχ, ūēl, ūēɬ, ūē, ūel, ūeɬ, ūe, ūl, ūɬ, ū, oχēl, oχēɬ, oχē, oχel, oχeɬ, oχe, oχl, oχɬ, oχ, oēl, oēɬ, oē, oel, oeɬ, oe, ol, oɬ, o, χēl, χēɬ, χē, χel, χeɬ, χe, ēl, ēɬ, ē, el, eɬ, e
+
+[MATCH] TSV ID 260 (line 261): course
+  Proto-Celtic input: *retus
+  Input sent to flookup: retus
+  Expected IPA: ret
+  Spelled word (reference only): ret
+  FST output: rēt, rēd, rē, ret, red, re
+
+[MATCH] TSV ID 273 (line 274): wheel
+  Proto-Celtic input: *rotos
+  Input sent to flookup: rotos
+  Expected IPA: rot
+  Spelled word (reference only): rot
+  FST output: rot, rod, ro
+
+[MATCH] TSV ID 280 (line 281): secret
+  Proto-Celtic input: *rūnā
+  Input sent to flookup: rūnā
+  Expected IPA: rin
+  Spelled word (reference only): rin
+  FST output: rin
+
+[MATCH] TSV ID 284 (line 285): salt
+  Proto-Celtic input: *saleinos
+  Input sent to flookup: saleinos
+  Expected IPA: halen
+  Spelled word (reference only): halen
+  FST output: halēn, halen, haln, haɬēn, haɬen, haɬn, haēn, haen, han
+
+[MATCH] TSV ID 290 (line 291): path
+  Proto-Celtic input: *sentus
+  Input sent to flookup: sentus
+  Expected IPA: hint
+  Spelled word (reference only): hint
+  FST output: hēnt, hent, hint
+
+[MATCH] TSV ID 299 (line 300): ankle
+  Proto-Celtic input: *sɸerā
+  Input sent to flookup: sɸerā
+  Expected IPA: fer
+  Spelled word (reference only): ffer
+  FST output: fēr, fer
+
+[MATCH] TSV ID 302 (line 303): race, lineage
+  Proto-Celtic input: *sīlom
+  Input sent to flookup: sīlom
+  Expected IPA: hīl
+  Spelled word (reference only): hil
+  FST output: hil, hiɬ, hi, hīl, hīɬ, hī
+
+[MATCH] TSV ID 307 (line 308): story
+  Proto-Celtic input: *skʷetlom
+  Input sent to flookup: skʷetlom
+  Expected IPA: χwedl
+  Spelled word (reference only): chwedl
+  FST output: χuētl, χuētɬ, χuēt, χuēdl, χuēdɬ, χuēd, χuēl, χuēɬ, χuē, χuetl, χuetɬ, χuet, χuedl, χuedɬ, χued, χuel, χueɬ, χue, χutl, χutɬ, χut, χudl, χudɬ, χud, χul, χuɬ, χu, χwētl, χwētɬ, χwēt, χwēdl, χwēdɬ, χwēd, χwēl, χwēɬ, χwē, χwetl, χwetɬ, χwet, χwedl, χwedɬ, χwed, χwel, χweɬ, χwe, χētl, χētɬ, χēt, χēdl, χēdɬ, χēd, χēl, χēɬ, χē, χetl, χetɬ, χet, χedl, χedɬ, χed, χel, χeɬ, χe, uētl, uētɬ, uēt, uēdl, uēdɬ, uēd, uēl, uēɬ, uē, uetl, uetɬ, uet, uedl, uedɬ, ued, uel, ueɬ, ue, utl, utɬ, ut, udl, udɬ, ud, ul, uɬ, u, wētl, wētɬ, wēt, wēdl, wēdɬ, wēd, wēl, wēɬ, wē, wetl, wetɬ, wet, wedl, wedɬ, wed, wel, weɬ, we, ētl, ētɬ, ēt, ēdl, ēdɬ, ēd, ēl, ēɬ, ē, etl, etɬ, et, edl, edɬ, ed, el, eɬ, e
+
+[MATCH] TSV ID 322 (line 323): nose
+  Proto-Celtic input: *srognā
+  Input sent to flookup: srognā
+  Expected IPA: froin
+  Spelled word (reference only): ffroen
+  FST output: froɣn, froin, fron
+
+[MATCH] TSV ID 332 (line 333): desire
+  Proto-Celtic input: *swantos
+  Input sent to flookup: swantos
+  Expected IPA: χwant
+  Spelled word (reference only): chwant
+  FST output: χuant, χwant, χant, uant, want, ant
+
+[MATCH] TSV ID 338 (line 339): six
+  Proto-Celtic input: *swexs
+  Input sent to flookup: swexs
+  Expected IPA: χwēχ
+  Spelled word (reference only): chwech
+  FST output: χuēχ, χuē, χueχ, χue, χuχ, χu, χwēχ, χwē, χweχ, χwe, χēχ, χē, χeχ, χe, uēχ, uē, ueχ, ue, uχ, u, wēχ, wē, weχ, we, ēχ, ē, eχ, e
+
+[MATCH] TSV ID 344 (line 345): time
+  Proto-Celtic input: *tanā
+  Input sent to flookup: tanā
+  Expected IPA: tan
+  Spelled word (reference only): tan
+  FST output: tan
+
+[MATCH] TSV ID 363 (line 364): thunder
+  Proto-Celtic input: *toranos
+  Input sent to flookup: toranos
+  Expected IPA: taran
+  Spelled word (reference only): taran
+  FST output: taran
+
+[MATCH] TSV ID 372 (line 373): three
+  Proto-Celtic input: *trīs
+  Input sent to flookup: trīs
+  Expected IPA: trī
+  Spelled word (reference only): tri
+  FST output: tri, trī
+
+[MATCH] TSV ID 377 (line 378): wave
+  Proto-Celtic input: *tundā
+  Input sent to flookup: tundā
+  Expected IPA: ton
+  Spelled word (reference only): tonn
+  FST output: ton
+
+[MATCH] TSV ID 392 (line 393): weak
+  Proto-Celtic input: *wasnos
+  Input sent to flookup: wasnos
+  Expected IPA: gūan
+  Spelled word (reference only): gwan
+  FST output: ɣwan, guan, gūan, gwan, wan, an
+
+[MATCH] TSV ID 398 (line 399): wild
+  Proto-Celtic input: *weidus
+  Input sent to flookup: weidus
+  Expected IPA: guið
+  Spelled word (reference only): gwydd
+  FST output: ɣwid, ɣwið, ɣwi, ɣwuid, ɣwuið, ɣwui, ɣwoid, ɣwoið, ɣwoi, guid, guið, gui, guuid, guuið, guui, guoid, guoið, guoi, gud, guð, gu, gūid, gūið, gūi, gūuid, gūuið, gūui, gūoid, gūoið, gūoi, gūd, gūð, gū, gwid, gwið, gwi, gwuid, gwuið, gwui, gwoid, gwoið, gwoi, wid, wið, wi, wuid, wuið, wui, woid, woið, woi, id, ið, i, uid, uið, ui, oid, oið, oi
+
+[MATCH] TSV ID 406 (line 407): white
+  Proto-Celtic input: *windos
+  Input sent to flookup: windos
+  Expected IPA: gwin
+  Spelled word (reference only): gwynn
+  FST output: ɣwin, guin, gūin, gwin, win, in
+
+[MATCH] TSV ID 416 (line 417): true
+  Proto-Celtic input: *wīros
+  Input sent to flookup: wīros
+  Expected IPA: guīr
+  Spelled word (reference only): gwir
+  FST output: ɣwir, ɣwīr, guir, guīr, gur, gūir, gūīr, gūr, gwir, gwīr, wir, wīr, ir, īr
+
+[MATCH] TSV ID 431 (line 432): worship
+  Proto-Celtic input: *yālos
+  Input sent to flookup: yālos
+  Expected IPA: iaul
+  Spelled word (reference only): iawl
+  FST output: iaul, iauɬ, iau, ial, iaɬ, ia, iol, ioɬ, io, iāl, iāɬ, iā, il, iɬ, i, daul, dauɬ, dau, dal, daɬ, da, dol, doɬ, do, dāl, dāɬ, dā, ðaul, ðauɬ, ðau, ðal, ðaɬ, ða, ðol, ðoɬ, ðo, ðāl, ðāɬ, ðā, aul, auɬ, au, al, aɬ, a, ol, oɬ, o, āl, āɬ, ā
+
+[MATCH] TSV ID 433 (line 434): jealousy
+  Proto-Celtic input: *yantus
+  Input sent to flookup: yantus
+  Expected IPA: iant
+  Spelled word (reference only): iant
+  FST output: iant, dant, ðant, ant
+
+[MATCH] TSV ID 435 (line 436): ice
+  Proto-Celtic input: *yegis
+  Input sent to flookup: yegis
+  Expected IPA: ia
+  Spelled word (reference only): ia
+  FST output: iiɣ, iig, ii, iaɣ, iag, ia, diɣ, dig, di, ðiɣ, ðig, ði, iɣ, ig, i

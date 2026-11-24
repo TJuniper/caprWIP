@@ -5,7 +5,7 @@ WORKDIR /usr/app
 COPY ./requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN apt-get update -y
+RUN apt-get update -y && apt-get install -y --fix-missing wget unzip graphviz flex bison zlib1g libncurses-dev libreadline-dev
 RUN apt-get install -y wget unzip graphviz flex bison zlib1g libncurses-dev libreadline-dev
 
 # Install this specific commit because it was before Foma broke their install process.

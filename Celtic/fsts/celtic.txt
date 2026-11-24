@@ -2,12 +2,11 @@
 # Proto-Celtic -> daughter-language transducers.
 #
 # Languages:
-#   Old Irish
+#   Old Irish, Middle Irish (= OI at this level of abstraction)
 #   Old Welsh, Middle Welsh
 #   Old Breton, Middle Breton
 #   Old Cornish, Middle Cornish
-#   Gaulish
-#   Celtiberian
+#   Gaulish, Celtiberian
 #
 # ── Architecture overview ────────────────────────────────────────────────────
 #
@@ -36,21 +35,6 @@
 #  * Coverage figures are reported by tests/coverage5.py against
 #    server/data/celtic-aligned-final.tsv.
 
-# ── Academic bibliography ─────────────────────────────────────────────────────
-#
-#  GOI       = Thurneysen, Rudolf. A Grammar of Old Irish. Dublin Institute for
-#              Advanced Studies, 1946. (Trans. D.A. Binchy & O. Bergin.)
-#  McCone    = McCone, Kim. Towards a Relative Chronology of Ancient and
-#              Medieval Celtic Sound Change. Maynooth, 1996.
-#  Schrijver = Schrijver, Peter. Studies in British Celtic Historical Phonology.
-#              Amsterdam: Rodopi, 1995.
-#  Jackson   = Jackson, Kenneth H. Language and History in Early Britain.
-#              Edinburgh University Press, 1953.
-#  Matasović = Matasović, Ranko. Etymological Dictionary of Proto-Celtic.
-#              Leiden: Brill, 2009.
-#  Lambert   = Lambert, Pierre-Yves. La langue gauloise. Paris: Errance, 1994.
-#
-
 ##############################################################
 ## SECTION 1 — Unstarred symbol inventories                 ##
 ##   Used only in the lexicon (PCeltProtoInput) to list     ##
@@ -61,14 +45,14 @@ define PCeltVowel [
     a | ā |
     e | ē |
     i | ī |
-    o |
+    o | ō |
     u | ū |
-    {ei} | {ai} | {au} | {ou} | {ow}
+    {ei} | {ai} | {ay} | {au} | {aw} | {ou} | {ow} | {oy}
 ];
 
 define PCeltConsonant [
-    p | b | t | d | k | g |
-    s | x |
+    p | b | t | d | k | g | c |
+    s | z | x | f | v | h |
     m | n | l | r | y | w | ɸ |
     {kʷ} | {gʷ}
 ];
@@ -85,119 +69,175 @@ define PCeltConsonant [
 ##############################################################
 
 define PCeltProtoInput [
-    a:{*a} b:{*b} u:{*u} l:{*l} |                                        # abul
-    a:{*a} b:{*b} ū:{*ū} |                                               # abū
-    a:{*a} r:{*r} d:{*d} w:{*w} o:{*o} s:{*s} |                         # ardwos
-    a:{*a} r:{*r} g:{*g} a:{*a} n:{*n} t:{*t} o:{*o} m:{*m} |           # argantom
-    a:{*a} r:{*r} y:{*y} o:{*o} s:{*s} |                                 # aryos
-    b:{*b} a:{*a} l:{*l} k:{*k} o:{*o} s:{*s} |                         # balkos
-    b:{*b} a:{*a} n:{*n} d:{*d} ā:{*ā} |                                 # bandā
-    b:{*b} a:{*a} r:{*r} d:{*d} o:{*o} s:{*s} |                         # bardos
-    b:{*b} {au}:{*au} s:{*s} |                                           # baus
-    b:{*b} e:{*e} n:{*n} ā:{*ā} |                                        # benā
-    b:{*b} i:{*i} t:{*t} u:{*u} s:{*s} |                                 # bitus
-    b:{*b} i:{*i} w:{*w} o:{*o} s:{*s} |                                 # biwos
-    b:{*b} l:{*l} {ei}:{*ei} d:{*d} a:{*a} n:{*n} ī:{*ī} |              # bleidanī
-    b:{*b} o:{*o} l:{*l} g:{*g} o:{*o} s:{*s} |                         # bolgos
-    b:{*b} r:{*r} ā:{*ā} t:{*t} u:{*u} s:{*s} |                         # brātus
-    b:{*b} r:{*r} ā:{*ā} t:{*t} ī:{*ī} r:{*r} |                         # brātīr
-    d:{*d} a:{*a} t:{*t} l:{*l} ā:{*ā} |                                 # datlā
-    d:{*d} {ei}:{*ei} w:{*w} o:{*o} s:{*s} |                            # deiwos
-    d:{*d} r:{*r} u:{*u} k:{*k} o:{*o} s:{*s} |                         # drukos
-    d:{*d} ū:{*ū} n:{*n} o:{*o} m:{*m} |                                 # dūnom
-    e:{*e} {kʷ}:{*kʷ} o:{*o} s:{*s} |                                   # ekʷos
-    e:{*e} s:{*s} o:{*o} x:{*x} s:{*s} |                                 # esoxs
-    g:{*g} a:{*a} b:{*b} r:{*r} o:{*o} s:{*s} |                         # gabros
-    g:{*g} d:{*d} o:{*o} n:{*n} y:{*y} o:{*o} s:{*s} |                  # gdonyos
-    g:{*g} r:{*r} ā:{*ā} n:{*n} o:{*o} m:{*m} |                         # grānom
-    i:{*i} s:{*s} a:{*a} r:{*r} n:{*n} o:{*o} m:{*m} |                  # isarnom
-    k:{*k} a:{*a} m:{*m} b:{*b} o:{*o} s:{*s} |                         # kambos
-    k:{*k} a:{*a} n:{*n} t:{*t} o:{*o} m:{*m} |                         # kantom
-    k:{*k} a:{*a} r:{*r} a:{*a} n:{*n} t:{*t} s:{*s} |                  # karants
-    k:{*k} l:{*l} {ou}:{*ou} n:{*n} i:{*i} s:{*s} |                     # klounis
-    k:{*k} o:{*o} r:{*r} y:{*y} o:{*o} s:{*s} |                         # koryos
-    k:{*k} r:{*r} ī:{*ī} {kʷ}:{*kʷ} ā:{*ā} |                           # krīkʷā
-    {kʷ}:{*kʷ} e:{*e} n:{*n} {kʷ}:{*kʷ} e:{*e} |                       # kʷenkʷe
-    {kʷ}:{*kʷ} e:{*e} t:{*t} w:{*w} o:{*o} r:{*r} e:{*e} s:{*s} |      # kʷetwores
-    {kʷ}:{*kʷ} r:{*r} e:{*e} s:{*s} n:{*n} o:{*o} m:{*m} |             # kʷresnom
-    {kʷ}:{*kʷ} ā:{*ā} {kʷ}:{*kʷ} o:{*o} s:{*s} |                       # kʷākʷos
-    l:{*l} a:{*a} n:{*n} d:{*d} ā:{*ā} |                                 # landā
-    l:{*l} a:{*a} t:{*t} i:{*i} s:{*s} |                                 # latis
-    l:{*l} e:{*e} t:{*t} o:{*o} s:{*s} |                                 # letos
-    l:{*l} i:{*i} n:{*n} d:{*d} o:{*o} s:{*s} |                         # lindos
-    l:{*l} o:{*o} n:{*n} g:{*g} ā:{*ā} |                                 # longā
-    l:{*l} u:{*u} g:{*g} u:{*u} s:{*s} |                                 # lugus
-    m:{*m} a:{*a} g:{*g} l:{*l} o:{*o} s:{*s} |                         # maglos
-    m:{*m} a:{*a} {kʷ}:{*kʷ} o:{*o} s:{*s} |                            # makʷos
-    m:{*m} e:{*e} l:{*l} i:{*i} |                                        # meli
-    m:{*m} r:{*r} a:{*a} k:{*k} i:{*i} s:{*s} |                         # mrakis
-    m:{*m} u:{*u} k:{*k} k:{*k} u:{*u} s:{*s} |                         # mukkus
-    m:{*m} ā:{*ā} t:{*t} ī:{*ī} r:{*r} |                                 # mātīr
-    m:{*m} ē:{*ē} n:{*n} o:{*o} m:{*m} |                                 # mēnom
-    m:{*m} ī:{*ī} n:{*n} s:{*s} |                                        # mīns
-    n:{*n} a:{*a} t:{*t} r:{*r} i:{*i} x:{*x} s:{*s} |                  # natrixs
-    n:{*n} e:{*e} m:{*m} o:{*o} s:{*s} |                                 # nemos
-    n:{*n} e:{*e} r:{*r} t:{*t} o:{*o} m:{*m} |                         # nertom
-    n:{*n} {ow}:{*ow} a:{*a} n:{*n} |                                    # nowan
-    n:{*n} ā:{*ā} w:{*w} ā:{*ā} |                                        # nāwā
-    o:{*o} l:{*l} y:{*y} o:{*o} s:{*s} |                                 # olyos
-    {ou}:{*ou} x:{*x} s:{*s} e:{*e} l:{*l} o:{*o} s:{*s} |              # ouxselos
-    {ow}:{*ow} i:{*i} g:{*g} n:{*n} o:{*o} s:{*s} |                     # owignos
-    o:{*o} x:{*x} t:{*t} ū:{*ū} |                                        # oxtū
-    r:{*r} e:{*e} t:{*t} u:{*u} s:{*s} |                                 # retus
-    r:{*r} e:{*e} x:{*x} t:{*t} u:{*u} s:{*s} |                         # rextus
-    r:{*r} ī:{*ī} x:{*x} s:{*s} |                                        # rīxs
-    r:{*r} o:{*o} t:{*t} o:{*o} s:{*s} |                                 # rotos
-    r:{*r} {ow}:{*ow} d:{*d} o:{*o} s:{*s} |                            # rowdos
-    r:{*r} ū:{*ū} n:{*n} ā:{*ā} |                                        # rūnā
-    s:{*s} a:{*a} l:{*l} {ei}:{*ei} n:{*n} o:{*o} s:{*s} |              # saleinos
-    s:{*s} e:{*e} l:{*l} g:{*g} ā:{*ā} |                                 # selgā
-    s:{*s} e:{*e} n:{*n} t:{*t} u:{*u} s:{*s} |                         # sentus
-    s:{*s} e:{*e} x:{*x} t:{*t} a:{*a} m:{*m} |                         # sextam
-    s:{*s} i:{*i} n:{*n} d:{*d} o:{*o} s:{*s} |                         # sindos
-    s:{*s} k:{*k} ā:{*ā} t:{*t} u:{*u} |                                 # skātu
-    s:{*s} k:{*k} ī:{*ī} t:{*t} o:{*o} s:{*s} |                         # skītos
-    s:{*s} {kʷ}:{*kʷ} e:{*e} t:{*t} l:{*l} o:{*o} m:{*m} |             # skʷetlom
-    s:{*s} l:{*l} a:{*a} t:{*t} t:{*t} ā:{*ā} |                         # slattā
-    s:{*s} m:{*m} i:{*i} y:{*y} o:{*o} r:{*r} o:{*o} s:{*s} |          # smiyoros
-    s:{*s} r:{*r} o:{*o} g:{*g} n:{*n} ā:{*ā} |                         # srognā
-    s:{*s} t:{*t} e:{*e} r:{*r} k:{*k} ā:{*ā} |                         # sterkā
-    s:{*s} t:{*t} r:{*r} a:{*a} t:{*t} o:{*o} s:{*s} |                  # stratos
-    s:{*s} w:{*w} a:{*a} n:{*n} t:{*t} o:{*o} s:{*s} |                  # swantos
-    s:{*s} w:{*w} e:{*e} l:{*l} o:{*o} s:{*s} |                         # swelos
-    s:{*s} w:{*w} e:{*e} x:{*x} s:{*s} |                                 # swexs
-    s:{*s} ī:{*ī} l:{*l} o:{*o} m:{*m} |                                 # sīlom
-    s:{*s} ɸ:{*ɸ} e:{*e} r:{*r} ā:{*ā} |                                 # sɸerā
-    t:{*t} a:{*a} n:{*n} {gʷ}:{*gʷ} ā:{*ā} t:{*t} s:{*s} |             # tangʷāts
-    t:{*t} a:{*a} n:{*n} ā:{*ā} |                                        # tanā
-    t:{*t} a:{*a} s:{*s} k:{*k} o:{*o} s:{*s} |                         # taskos
-    t:{*t} e:{*e} g:{*g} o:{*o} s:{*s} |                                 # tegos
-    t:{*t} i:{*i} g:{*g} e:{*e} r:{*r} n:{*n} o:{*o} s:{*s} |          # tigernos
-    t:{*t} o:{*o} r:{*r} a:{*a} n:{*n} o:{*o} s:{*s} |                  # toranos
-    t:{*t} r:{*r} ā:{*ā} g:{*g} i:{*i} |                                 # trāgi
-    t:{*t} r:{*r} ī:{*ī} s:{*s} |                                        # trīs
-    t:{*t} u:{*u} n:{*n} d:{*d} ā:{*ā} |                                 # tundā
-    t:{*t} ī:{*ī} r:{*r} o:{*o} s:{*s} |                                 # tīros
-    u:{*u} ɸ:{*ɸ} e:{*e} r:{*r} |                                        # uɸer
-    u:{*u} ɸ:{*ɸ} o:{*o} |                                               # uɸo
-    w:{*w} a:{*a} s:{*s} n:{*n} o:{*o} s:{*s} |                         # wasnos
-    w:{*w} e:{*e} g:{*g} n:{*n} o:{*o} s:{*s} |                         # wegnos
-    w:{*w} {ei}:{*ei} d:{*d} u:{*u} s:{*s} |                            # weidus
-    w:{*w} i:{*i} n:{*n} d:{*d} o:{*o} s:{*s} |                         # windos
-    w:{*w} i:{*i} r:{*r} o:{*o} s:{*s} |                                 # wiros
-    w:{*w} l:{*l} i:{*i} {kʷ}:{*kʷ} o:{*o} s:{*s} |                     # wlikʷos
-    w:{*w} o:{*o} l:{*l} i:{*i} s:{*s} |                                 # wolis
-    w:{*w} o:{*o} r:{*r} ī:{*ī} n:{*n} ā:{*ā} |                         # worīnā
-    w:{*w} r:{*r} i:{*i} d:{*d} ā:{*ā} |                                 # wridā
-    w:{*w} ā:{*ā} t:{*t} u:{*u} s:{*s} |                                 # wātus
-    w:{*w} ī:{*ī} r:{*r} o:{*o} s:{*s} |                                 # wīros
-    y:{*y} a:{*a} n:{*n} t:{*t} u:{*u} s:{*s} |                         # yantus
-    y:{*y} e:{*e} g:{*g} i:{*i} s:{*s} |                                 # yegis
-    y:{*y} u:{*u} w:{*w} a:{*a} n:{*n} k:{*k} o:{*o} s:{*s} |          # yuwankos
-    y:{*y} ā:{*ā} l:{*l} o:{*o} s:{*s} |                                 # yālos
-    ɸ:{*ɸ} e:{*e} t:{*t} n:{*n} o:{*o} s:{*s} |                         # ɸetnos
-    ɸ:{*ɸ} l:{*l} ā:{*ā} m:{*m} ā:{*ā} |                                 # ɸlāmā
-    ɸ:{*ɸ} r:{*r} a:{*a} t:{*t} i:{*i} s:{*s}                           # ɸratis
+    a:{*a} b:{*b} a:{*a} l:{*l} o:{*o} s:{*s} |
+    a:{*a} b:{*b} ō:{*ō} |
+    a:{*a} d:{*d} b:{*b} e:{*e} r:{*r} t:{*t} ā:{*ā} |
+    a:{*a} g:{*g} e:{*e} t:{*t} i:{*i} |
+    a:{*a} g:{*g} r:{*r} o:{*o} s:{*s} |
+    a:{*a} l:{*l} a:{*a} l:{*l} y:{*y} o:{*o} s:{*s} |
+    a:{*a} l:{*l} b:{*b} i:{*i} y:{*y} o:{*o} s:{*s} |
+    a:{*a} l:{*l} y:{*y} o:{*o} s:{*s} |
+    a:{*a} m:{*m} b:{*b} i:{*i} |
+    a:{*a} m:{*m} b:{*b} i:{*i} r:{*r} ā:{*ā} d:{*d} ī:{*ī} t:{*t} i:{*i} |
+    a:{*a} m:{*m} s:{*s} t:{*t} e:{*e} r:{*r} |
+    a:{*a} n:{*n} g:{*g} u:{*u} s:{*s} |
+    a:{*a} n:{*n} m:{*m} a:{*a} n:{*n} |
+    a:{*a} r:{*r} d:{*d} w:{*w} o:{*o} s:{*s} |
+    a:{*a} r:{*r} e:{*e} b:{*b} e:{*e} r:{*r} e:{*e} t:{*t} i:{*i} |
+    a:{*a} r:{*r} g:{*g} a:{*a} n:{*n} t:{*t} o:{*o} m:{*m} |
+    a:{*a} r:{*r} s:{*s} k:{*k} e:{*e} t:{*t} i:{*i} |
+    a:{*a} r:{*r} t:{*t} k:{*k} o:{*o} s:{*s} |
+    a:{*a} t:{*t} a:{*a} r:{*r} |
+    {aw}:{*aw} o:{*o} |
+    {ay}:{*ay} s:{*s} s:{*s} o:{*o} m:{*m} |
+    b:{*b} a:{*a} d:{*d} y:{*y} o:{*o} s:{*s} |
+    b:{*b} a:{*a} k:{*k} k:{*k} o:{*o} s:{*s} |
+    b:{*b} a:{*a} r:{*r} r:{*r} o:{*o} s:{*s} |
+    b:{*b} e:{*e} n:{*n} ā:{*ā} |
+    b:{*b} i:{*i} b:{*b} u:{*u} d:{*d} s:{*s} |
+    b:{*b} i:{*i} k:{*k} k:{*k} o:{*o} s:{*s} |
+    b:{*b} i:{*i} k:{*k} k:{*k} s:{*s} |
+    b:{*b} i:{*i} s:{*s} l:{*l} i:{*i} s:{*s} |
+    b:{*b} i:{*i} t:{*t} u:{*u} s:{*s} |
+    b:{*b} i:{*i} w:{*w} o:{*o} s:{*s} |
+    b:{*b} l:{*l} ē:{*ē} d:{*d} a:{*a} n:{*n} ī:{*ī} |
+    b:{*b} o:{*o} s:{*s} t:{*t} ā:{*ā} |
+    b:{*b} r:{*r} e:{*e} s:{*s} t:{*t} ā:{*ā} |
+    b:{*b} r:{*r} o:{*o} g:{*g} s:{*s} |
+    b:{*b} r:{*r} o:{*o} k:{*k} k:{*k} o:{*o} s:{*s} |
+    b:{*b} r:{*r} u:{*u} t:{*t} u:{*u} s:{*s} |
+    b:{*b} r:{*r} ā:{*ā} g:{*g} a:{*a} n:{*n} t:{*t} s:{*s} |
+    b:{*b} r:{*r} ā:{*ā} t:{*t} u:{*u} s:{*s} |
+    b:{*b} r:{*r} ī:{*ī} x:{*x} s:{*s} |
+    b:{*b} u:{*u} y:{*y} o:{*o} n:{*n} o:{*o} m:{*m} |
+    b:{*b} ā:{*ā} s:{*s} |
+    d:{*d} a:{*a} s:{*s} t:{*t} i:{*i} s:{*s} |
+    d:{*d} e:{*e} l:{*l} w:{*w} ā:{*ā} |
+    d:{*d} r:{*r} i:{*i} s:{*s} t:{*t} i:{*i} s:{*s} |
+    d:{*d} u:{*u} b:{*b} n:{*n} o:{*o} m:{*m} |
+    d:{*d} u:{*u} b:{*b} r:{*r} o:{*o} s:{*s} |
+    d:{*d} u:{*u} b:{*b} u:{*u} s:{*s} |
+    d:{*d} w:{*w} o:{*o} r:{*r} ā:{*ā} |
+    d:{*d} w:{*w} ā:{*ā} i:{*i} |
+    d:{*d} w:{*w} ā:{*ā} w:{*w} |
+    d:{*d} ā:{*ā} l:{*l} o:{*o} m:{*m} |
+    d:{*d} ā:{*ā} m:{*m} o:{*o} s:{*s} |
+    d:{*d} ē:{*ē} w:{*w} o:{*o} s:{*s} |
+    d:{*d} ī:{*ī} w:{*w} e:{*e} d:{*d} o:{*o} m:{*m} |
+    d:{*d} ī:{*ī} y:{*y} o:{*o} s:{*s} |
+    d:{*d} ī:{*ī} ā:{*ā} k:{*k} u:{*u} s:{*s} |
+    e:{*e} k:{*k} w:{*w} o:{*o} s:{*s} |
+    e:{*e} n:{*n} e:{*e} {kʷ}:{*kʷ} o:{*o} s:{*s} |
+    e:{*e} n:{*n} i:{*i} |
+    e:{*e} n:{*n} t:{*t} e:{*e} r:{*r} |
+    e:{*e} s:{*s} t:{*t} i:{*i} |
+    g:{*g} a:{*a} b:{*b} y:{*y} o:{*o} m:{*m} |
+    g:{*g} e:{*e} n:{*n} o:{*o} s:{*s} |
+    g:{*g} l:{*l} a:{*a} s:{*s} t:{*t} o:{*o} s:{*s} |
+    g:{*g} l:{*l} {oy}:{*oy} w:{*w} o:{*o} s:{*s} |
+    g:{*g} n:{*n} ī:{*ī} m:{*m} u:{*u} s:{*s} |
+    g:{*g} r:{*r} {ow}:{*ow} d:{*d} o:{*o} s:{*s} |
+    g:{*g} u:{*u} s:{*s} t:{*t} u:{*u} s:{*s} |
+    g:{*g} y:{*y} e:{*e} m:{*m} o:{*o} s:{*s} |
+    i:{*i} m:{*m} b:{*b} e:{*e} t:{*t} o:{*o} m:{*m} |
+    i:{*i} s:{*s} a:{*a} r:{*r} n:{*n} o:{*o} m:{*m} |
+    i:{*i} t:{*t} u:{*u} s:{*s} |
+    k:{*k} a:{*a} l:{*l} m:{*m} i:{*i} y:{*y} o:{*o} s:{*s} |
+    k:{*k} a:{*a} m:{*m} b:{*b} o:{*o} s:{*s} |
+    k:{*k} a:{*a} n:{*n} d:{*d} o:{*o} s:{*s} |
+    k:{*k} a:{*a} n:{*n} e:{*e} t:{*t} i:{*i} |
+    k:{*k} a:{*a} n:{*n} t:{*t} o:{*o} m:{*m} |
+    k:{*k} a:{*a} n:{*n} x:{*x} s:{*s} m:{*m} a:{*a} n:{*n} |
+    k:{*k} a:{*a} r:{*r} w:{*w} o:{*o} s:{*s} |
+    k:{*k} a:{*a} r:{*r} y:{*y} ā:{*ā} |
+    k:{*k} a:{*a} s:{*s} n:{*n} i:{*i} n:{*n} ā:{*ā} |
+    k:{*k} a:{*a} s:{*s} s:{*s} i:{*i} s:{*s} |
+    k:{*k} a:{*a} t:{*t} u:{*u} s:{*s} |
+    k:{*k} {ay}:{*ay} l:{*l} o:{*o} m:{*m} |
+    k:{*k} {ay}:{*ay} t:{*t} o:{*o} m:{*m} |
+    k:{*k} e:{*e} n:{*n} e:{*e} t:{*t} l:{*l} o:{*o} m:{*m} |
+    k:{*k} e:{*e} n:{*n} n:{*n} o:{*o} s:{*s} |
+    k:{*k} l:{*l} i:{*i} t:{*t} s:{*s} |
+    k:{*k} l:{*l} {ow}:{*ow} n:{*n} i:{*i} s:{*s} |
+    k:{*k} l:{*l} ā:{*ā} r:{*r} o:{*o} s:{*s} |
+    k:{*k} l:{*l} ē:{*ē} y:{*y} o:{*o} s:{*s} |
+    k:{*k} o:{*o} l:{*l} g:{*g} ā:{*ā} |
+    k:{*k} o:{*o} m:{*m} b:{*b} e:{*e} r:{*r} o:{*o} s:{*s} |
+    k:{*k} o:{*o} m:{*m} o:{*o} x:{*x} t:{*t} i:{*i} s:{*s} |
+    k:{*k} o:{*o} r:{*r} m:{*m} i:{*i} |
+    k:{*k} o:{*o} s:{*s} l:{*l} o:{*o} s:{*s} |
+    k:{*k} {ow}:{*ow} w:{*w} a:{*a} r:{*r} i:{*i} s:{*s} |
+    k:{*k} r:{*r} e:{*e} d:{*d} r:{*r} o:{*o} m:{*m} |
+    k:{*k} r:{*r} i:{*i} s:{*s} s:{*s} u:{*u} s:{*s} |
+    k:{*k} r:{*r} i:{*i} t:{*t} o:{*o} s:{*s} |
+    k:{*k} r:{*r} {ow}:{*ow} k:{*k} o:{*o} s:{*s} |
+    k:{*k} r:{*r} u:{*u} n:{*n} d:{*d} i:{*i} s:{*s} |
+    k:{*k} r:{*r} ē:{*ē} t:{*t} r:{*r} o:{*o} m:{*m} |
+    k:{*k} r:{*r} ī:{*ī} {kʷ}:{*kʷ} ā:{*ā} |
+    k:{*k} r:{*r} ī:{*ī} n:{*n} o:{*o} s:{*s} |
+    k:{*k} u:{*u} l:{*l} o:{*o} s:{*s} |
+    k:{*k} u:{*u} m:{*m} o:{*o} s:{*s} |
+    k:{*k} ū:{*ū} |
+    {kʷ}:{*kʷ} a:{*a} n:{*n} ā:{*ā} |
+    {kʷ}:{*kʷ} e:{*e} n:{*n} {kʷ}:{*kʷ} e:{*e} |
+    {kʷ}:{*kʷ} e:{*e} n:{*n} n:{*n} o:{*o} s:{*s} |
+    {kʷ}:{*kʷ} e:{*e} t:{*t} w:{*w} o:{*o} r:{*r} e:{*e} s:{*s} |
+    {kʷ}:{*kʷ} e:{*e} z:{*z} d:{*d} i:{*i} s:{*s} |
+    {kʷ}:{*kʷ} r:{*r} i:{*i} m:{*m} i:{*i} s:{*s} |
+    {kʷ}:{*kʷ} r:{*r} i:{*i} n:{*n} ā:{*ā} t:{*t} i:{*i} |
+    {kʷ}:{*kʷ} ā:{*ā} {kʷ}:{*kʷ} o:{*o} s:{*s} |
+    {kʷ}:{*kʷ} ē:{*ē} s:{*s} |
+    {kʷ}:{*kʷ} ē:{*ē} s:{*s} l:{*l} ā:{*ā} |
+    l:{*l} e:{*e} s:{*s} t:{*t} r:{*r} o:{*o} m:{*m} |
+    l:{*l} i:{*i} a:{*a} k:{*k} s:{*s} |
+    l:{*l} i:{*i} n:{*n} u:{*u} s:{*s} |
+    l:{*l} i:{*i} r:{*r} o:{*o} s:{*s} |
+    l:{*l} i:{*i} t:{*t} a:{*a} n:{*n} o:{*o} s:{*s} |
+    l:{*l} i:{*i} w:{*w} o:{*o} s:{*s} |
+    l:{*l} o:{*o} k:{*k} s:{*s} |
+    l:{*l} u:{*u} b:{*b} ī:{*ī} |
+    l:{*l} u:{*u} g:{*g} r:{*r} ā:{*ā} |
+    l:{*l} u:{*u} x:{*x} t:{*t} u:{*u} s:{*s} |
+    l:{*l} ā:{*ā} m:{*m} ā:{*ā} |
+    l:{*l} ā:{*ā} r:{*r} o:{*o} m:{*m} |
+    m:{*m} a:{*a} g:{*g} o:{*o} s:{*s} |
+    m:{*m} a:{*a} {kʷ}:{*kʷ} o:{*o} s:{*s} |
+    m:{*m} e:{*e} d:{*d} y:{*y} o:{*o} s:{*s} |
+    m:{*m} e:{*e} n:{*n} e:{*e} t:{*t} s:{*s} |
+    m:{*m} o:{*o} l:{*l} ā:{*ā} |
+    m:{*m} {oy}:{*oy} n:{*n} i:{*i} s:{*s} |
+    m:{*m} ā:{*ā} r:{*r} o:{*o} s:{*s} |
+    m:{*m} ā:{*ā} t:{*t} ī:{*ī} r:{*r} |
+    n:{*n} e:{*e} k:{*k} i:{*i} |
+    n:{*n} e:{*e} m:{*m} e:{*e} t:{*t} o:{*o} m:{*m} |
+    n:{*n} {ow}:{*ow} a:{*a} n:{*n} |
+    n:{*n} {ow}:{*ow} y:{*y} o:{*o} s:{*s} |
+    n:{*n} o:{*o} x:{*x} t:{*t} o:{*o} s:{*s} |
+    o:{*o} {kʷ}:{*kʷ} o:{*o} s:{*s} |
+    o:{*o} l:{*l} ī:{*ī} n:{*n} ā:{*ā} |
+    o:{*o} r:{*r} d:{*d} o:{*o} s:{*s} |
+    {ow}:{*ow} ī:{*ī} k:{*k} ā:{*ā} |
+    r:{*r} a:{*a} n:{*n} n:{*n} ā:{*ā} |
+    r:{*r} a:{*a} t:{*t} o:{*o} m:{*m} |
+    r:{*r} i:{*i} t:{*t} u:{*u} s:{*s} |
+    r:{*r} u:{*u} i:{*i} d:{*d} o:{*o} s:{*s} |
+    r:{*r} ī:{*ī} x:{*x} s:{*s} |
+    s:{*s} e:{*e} n:{*n} o:{*o} s:{*s} |
+    s:{*s} e:{*e} x:{*x} t:{*t} a:{*a} m:{*m} |
+    s:{*s} w:{*w} e:{*e} k:{*k} s:{*s} |
+    s:{*s} w:{*w} e:{*e} s:{*s} o:{*o} r:{*r} |
+    s:{*s} ā:{*ā} w:{*w} e:{*e} l:{*l} |
+    s:{*s} ī:{*ī} r:{*r} o:{*o} s:{*s} |
+    t:{*t} e:{*e} g:{*g} o:{*o} s:{*s} |
+    t:{*t} r:{*r} i:{*i} t:{*t} y:{*y} o:{*o} s:{*s} |
+    t:{*t} r:{*r} ī:{*ī} s:{*s} |
+    w:{*w} i:{*i} n:{*n} t:{*t} o:{*o} s:{*s} |
+    w:{*w} i:{*i} r:{*r} o:{*o} s:{*s} |
+    w:{*w} ī:{*ī} r:{*r} o:{*o} s:{*s} |
+    y:{*y} {ow}:{*ow} a:{*a} n:{*n} k:{*k} o:{*o} s:{*s} |
+    ā:{*ā} w:{*w} y:{*y} o:{*o} m:{*m} |
+    ī:{*ī} s:{*s} s:{*s} e:{*e} l:{*l} o:{*o} s:{*s} |
+    ī:{*ī} s:{*s} s:{*s} u:{*u}
 ];
 
 # Aliases used throughout the rule blocks below.
@@ -218,7 +258,7 @@ define PCeltStarShortVowel [ {*a} | {*e} | {*i} | {*o} | {*u} ];
 define PCeltStarLongVowel  [ {*ā} | {*ē} | {*ī} | {*ō} | {*ū} ];
 
 # Diphthongs (including rule-created ones like *oi, *aw).
-define PCeltStarDiphthong  [ {*ei} | {*ai} | {*au} | {*ou} | {*ow} | {*oi} | {*aw} ];
+define PCeltStarDiphthong  [ {*ei} | {*ai} | {*au} | {*ou} | {*ow} | {*oi} | {*oy} | {*aw} ];
 
 # Any vowel.
 define PCeltStarVowel [
@@ -228,7 +268,7 @@ define PCeltStarVowel [
 # All consonants including rule-created segments (f, v, θ, ð, ɣ, χ, ŋ, h, gw).
 define PCeltStarConsonant [
     {*p} | {*b} | {*t} | {*d} | {*k} | {*g} | {*kʷ} | {*gʷ} |
-    {*s} | {*x} | {*m} | {*n} | {*l} | {*r} | {*y}  | {*w}  | {*ɸ} |
+    {*s} | {*z} | {*x} | {*m} | {*n} | {*l} | {*r} | {*y}  | {*w}  | {*ɸ} |
     {*f} | {*v} | {*θ} | {*ð} | {*ɣ} | {*χ} | {*ŋ}  | {*h}  | {*gw}
 ];
 
@@ -357,29 +397,28 @@ define CeltibSurface CeltibSurfaceSyllable+;
 
 ##############################################################
 ## SECTION 5 — Cross-branch pre-rules                       ##
-##   Rules that apply in every branch before any            ##
-##   language-specific rules fire.                          ##
+##   Two tiny rules that apply in every branch before       ##
+##   any language-specific rules fire.                      ##
 ##############################################################
 
 # 5.1  Initial *u before *ɸ → *w.
 #      In Insular Celtic (OI and Brythonic), *uɸo- develops as *w-ɸo- → *fo-/*gwo-,
 #      not as *u-ɸo-. Applied before any branch's initial-W rule.
-#      Src: GOI §140; McCone 1996:81
+define PCeltMatasovicNorm [
+    {*ō}  -> {*ā},
+    {*ay} -> {*ai},
+    {*oy} -> {*oi},
+    {*f}  -> {*ɸ},
+    {*c}  -> {*k},
+    {*z}  -> {*ð}
+];
+
 define PCeltInitialUPhi [ {*u} -> {*w} || .#. _ {*ɸ} ];
 
 # 5.2  *ɸ → 0 in all daughters.
 #      *ɸ (from PIE *p) is already fricative in Proto-Celtic and is lost
 #      completely in all attested Celtic daughter languages.
-#      Src: GOI §26; McCone 1996:81; universal Celtic
 define PCeltPhiLoss [ {*ɸ} -> 0 ];
-
-# 5.3  Initial *gd- → *d.
-#      Attested in both Goidelic (*gdoniyo- > OI dúine, GOI §207) and Brythonic
-#      (*gdoniyo- > MW din), and implied by Gaulish (cf. Donnotaurus).
-#      The cluster is unnatural in Celtic and its simplification predates the
-#      Goidelic/Brythonic split.
-#      Src: GOI §207; Matasović 2009 s.v. *gdoniyo-; Jackson 1953 LHEB §45
-define PCeltGdCluster [ {*g}{*d} -> {*d} || .#. _ ];
 
 ##############################################################
 ## SECTION 6 — Old Irish rule chain                         ##
@@ -392,101 +431,93 @@ define PCeltGdCluster [ {*g}{*d} -> {*d} || .#. _ ];
 # 6.1  Labiovelars: *kʷ → *k, *gʷ → *g.
 #      Old Irish is Q-Celtic; labiovelars merge with plain velars
 #      (contrast Brythonic where *kʷ → *p).
-#      Src: GOI §26; WP "Phonological history of Old Irish"
 define OILabioVelar [
     {*kʷ} -> {*k},
     {*gʷ} -> {*g}
 ];
 
-# 6.2  Initial *sf- → *s.
-#      Simplifies word-initial *sf- clusters in OI (parallel to BritInitialSClusters).
-#      GOI §139 covers initial consonant cluster simplification in Old Irish.
-#      Src: GOI §139
+# 6.2  Initial *gd- → *d.
+#      The stop cluster simplifies word-initially: *gdonyos > duin.
+define OIGdCluster [ {*g}{*d} -> {*d} || .#. _ ];
+
+# 6.3  Initial *sf- → *s.
+#      *s survives before fricative *f; the *f is dropped: *sɸerā > ser.
 define OISFCluster [ {*s}{*f} -> {*s} || .#. _ ];
 
-# 6.3  Initial *w → *f.
+# 6.4  Initial *w → *f.
 #      *wiros > fer, *windos > find.  Characteristic Goidelic development.
-#      Src: GOI §139
 define OIInitialW [ {*w} -> {*f} || .#. _ ];
 
-# 6.4  Breaking: *ē → *ī*a.
+# 6.5  Breaking: *ē → *ī*a.
 #      Long *ē diphthongizes early in OI: *mēnom > mīan.
 #      Applied before OINasalAnt so breaking does not undo compensatory *ē.
-#      Src: GOI §43–44; McCone 1996:128–133
 define OIEBreaking [ {*ē} -> {*ī}{*a} ];
 
-# 6.5  *iw → *ēu.
+# 6.6  *iw → *ēu.
 #      Diphthong development before W-vocalization: *biwos > bēu.
 #      Must precede OIMedialWDrop and OIMedialWVocal.
-#      Src: GOI §125; McCone 1996
 define OIIWDiphthong [ {*i}{*w} -> {*ē}{*u} ];
 
-# 6.6  Medial *w → 0 after a consonant.
+# 6.7  Medial *w → 0 after a consonant.
 #      *ardwos > ard (the *w between C and V is lost in the consonant-final position).
-#      Src: GOI §139
 define OIMedialWDrop [ {*w} -> 0 || PCeltStarConsonant _ ];
 
 # 6.8  Medial *w → *u after a vowel.
 #      *biwos > beo; *abū > auv (the *w vocalizes in post-vocalic position).
-#      Src: GOI §125
 define OIMedialWVocal [ {*w} -> {*u} || PCeltStarVowel _ ];
 
 # 6.9  *o raising before consonant + *y: *o → *u.
 #      *koryos > kure, *olyos > ule, *gdonyos > dune.
-#      Src: GOI §74 (i-affection)
 define OIORaising [ {*o} -> {*u} || _ PCeltStarConsonant+ {*y} ];
 
 # 6.10 *y vocalization after a consonant before a vowel: *y → *e.
 #      *aryos > are, *koryos > kure.  Must precede OIYDrop.
-#      Src: GOI §118–119
 define OIYVocal [ {*y} -> {*e} || PCeltStarConsonant _ PCeltStarVowel ];
 
 # 6.11 *y → 0 everywhere (remaining word-initial and vowel-flanked glides).
-#      Src: GOI §118
 define OIYDrop [ {*y} -> 0 ];
 
 # 6.12 Nasal-anterior mutations.
-#      Medial *-ant- before vowel → ēd or ad; *-ent- → ēd.
-#      Outputs use unstarred d/g intentionally: the new stops must not be
-#      spirantized by OIMedialD/G (which targets only starred {*d}/{*g}).
-#      Src: GOI §211–213
+#      Word-final *-ants → *-a (paradigm neutralization).
+#      Medial *-ant- before vowel → *-ād- or *-ēd- (with compensatory lengthening).
+#      *-ent- before vowel → *-ēd-.
 define OINasalAnt [
-    {*a}{*n}{*t}     -> [{*ē}d | {*a}d]        || _ PCeltStarVowel,
-    {*a}{*n}{*k}     -> [{*ē}g | {*a}g]        || _ PCeltStarVowel,
-    {*e}{*n}{*t}     -> {*ē}d               || _ PCeltStarVowel
+    {*a}{*n}{*t}{*s} -> {*a}              || _ .#.,
+    {*a}{*n}{*t}     -> ({*ē}d | {*a}d)   || _ PCeltStarVowel,
+    {*a}{*n}{*k}     -> ({*ē}g | {*a}g)   || _ PCeltStarVowel,
+    {*e}{*n}{*t}     -> {*ē}d             || _ PCeltStarVowel
 ];
 
 # 6.13 *mb → *m.
 #      *kambos > cam.
-#      Src: McCone 1996:81–91
 define OIMbSimpl [ {*m}{*b} -> {*m} ];
 
 # 6.14 *nd → *n before *ā.
 #      *tundā > ton, *landā > lan, *bandā > ban.
 #      Runs before A-affection so that *ā is still present to trigger lowering.
-#      Src: McCone 1996:81–91
 define OINdElision [ {*n}{*d} -> {*n} || _ {*ā} ];
 
 # 6.15 A-affection (lowering): *i → *e, *u → *o before a syllable with *a/*ā/*o.
 #      Non-deterministic to avoid over-committing on paradigm-ambiguous forms.
 #      *wiros > fer (*i lowers before *a), *tundā > ton (*u lowers before *ā).
-#      Src: GOI §74 (a-affection)
 define OIAAffection [
-    {*i} -> [{*e}|{*i}] || _ PCeltStarConsonant+ [{*a}|{*ā}|{*o}],
-    {*u} -> [{*o}|{*u}] || _ PCeltStarConsonant+ [{*a}|{*ā}|{*o}]
+    {*i} -> ({*e}|{*i}) || _ PCeltStarConsonant+ [{*a}|{*ā}|{*o}],
+    {*u} -> ({*o}|{*u}) || _ PCeltStarConsonant+ [{*a}|{*ā}|{*o}]
 ];
 
 # 6.16 I-affection (raising): *e → *i, *o → *u before a syllable with *i/*ī/*u/*ū.
 #      Non-deterministic.  *meli > mil, *wolis > ful.
-#      Src: GOI §74 (i-affection)
 define OIIAffection [
-    {*e} -> [{*i}|{*e}] || _ PCeltStarConsonant+ [{*i}|{*ī}|{*u}|{*ū}],
-    {*o} -> [{*u}|{*o}] || _ PCeltStarConsonant+ [{*i}|{*ī}|{*u}|{*ū}]
+    {*e} -> ({*i}|{*e}) || _ PCeltStarConsonant+ [{*i}|{*ī}|{*u}|{*ū}],
+    {*o} -> ({*u}|{*o}) || _ PCeltStarConsonant+ [{*i}|{*ī}|{*u}|{*ū}]
 ];
 
-# 6.17 Intervocalic *s → 0 with compensatory lengthening of preceding vowel.
+# 6.17 *u → *o before *k + following vowel.
+#      *drukos > droch.
+define OIULowering [ {*u} -> {*o} || _ PCeltStarConsonant {*o} ];
+
+# 6.18 Intervocalic *s → 0 with compensatory lengthening of preceding vowel.
 #      *esoxs > ēo.
-#      Src: GOI §131
 define OIMedialSLoss [
     {*a}{*s} -> {*ā} || _ PCeltStarVowel,
     {*e}{*s} -> {*ē} || _ PCeltStarVowel,
@@ -495,29 +526,24 @@ define OIMedialSLoss [
     {*u}{*s} -> {*ū} || _ PCeltStarVowel
 ];
 
-# 6.18 Intervocalic *t → *θ.
+# 6.19 Intervocalic *t → *θ.
 #      *latis > lath, *brātīr > brāθīr.
-#      Src: GOI §116–120
 define OIMedialT [ {*t} -> {*θ} || PCeltStarVowel _ PCeltStarVowel ];
 
-# 6.19 Intervocalic *d → *ð.
-#      Src: GOI §116
+# 6.20 Intervocalic *d → *ð.
 define OIMedialD [ {*d} -> {*ð} || PCeltStarVowel _ PCeltStarVowel ];
 
-# 6.20 Intervocalic *k → *x (spirantization).
+# 6.21 Intervocalic *k → *x (spirantization).
 #      Restricted to non-*a left context: preserves stops in *balkos > balk, *makʷos > mac.
-#      Src: GOI §116
 define OIFinalK [
     {*k} -> {*x} || [PCeltStarVowel - {*a}] _ PCeltStarVowel
 ];
 
-# 6.21 Intervocalic *b → *v.
+# 6.22 Intervocalic *b → *v.
 #      *abū > auv.
-#      Src: GOI §116
 define OIBLenition [ {*b} -> {*v} || PCeltStarVowel _ PCeltStarVowel ];
 
-# 6.7 Diphthong mergers in Old Irish.
-#      Src: GOI §36–44
+# 6.23 Diphthong mergers in Old Irish.
 define OIVowelDiphthongs [
     {*ei} -> {*ī},
     {*ai} -> {*e},
@@ -526,12 +552,11 @@ define OIVowelDiphthongs [
     {*ow} -> {*ū}
 ];
 
-# 6.23 Compensatory lengthening: obstruent (*g/*t/*d/*k) absorbed before *l/*n
+# 6.24 Compensatory lengthening: obstruent (*g/*t/*d/*k) absorbed before *l/*n
 #      with lengthening of the preceding vowel.
 #      *maglos > māl, *datlā > dāl, *ɸetnos > ēn, *srognā > srōn,
 #      *wegnos > fēn, *skʷetlom > skēl.
 #      Runs before OINasalAssimN so *g is consumed before *n can assimilate.
-#      Src: McCone 1996:122–123
 define OICompLengthening [
     {*a}{*g} -> {*ā} || _ [{*l}|{*n}],
     {*e}{*g} -> {*ē} || _ [{*l}|{*n}],
@@ -548,45 +573,41 @@ define OICompLengthening [
     {*e}{*k} -> {*ē} || _ [{*l}|{*n}]
 ];
 
-# 6.24 Nasal assimilation: *n → *ŋ before *g.
+# 6.25 Nasal assimilation: *n → *ŋ before *g.
 #      *longā > loŋg.  Runs after lenition (so *g is present) and before *g
 #      spirantization, so *ŋ is not a licensing context for spirantization.
-#      Src: GOI §207–208
 define OINasalAssimN [ {*n} -> {*ŋ} || _ {*g} ];
 
-# 6.25 Intervocalic *g → *ɣ.
+# 6.26 Intervocalic *g → *ɣ.
 #      *lugus > luɣ, *argantom > arɣad.
-#      *l+g (*bolgos > bolg) does NOT spirantize; *ŋg also does not (6.3).
-#      Src: GOI §116
+#      *l+g (*bolgos > bolg) does NOT spirantize; *ŋg also does not (6.25).
 define OIMedialG [
     {*g} -> {*ɣ} || PCeltStarVowel _ PCeltStarVowel,
     {*g} -> {*ɣ} || {*r}           _ PCeltStarVowel
 ];
 
-# 6.26 Final *g → *ɣ after any vowel.
-#      Src: GOI §116–120
+# 6.27 Final *g → *ɣ after any vowel.
 define OIFinalG [ {*g} -> {*ɣ} || PCeltStarVowel _ .#. ];
 
-# 6.22 Intervocalic *m → *v.
+# 6.28 Final *g → 0 after a long vowel.
+#      *rīxs > rī (via *rīgs > *rīɣ > rī).
+define OIGLossAfterLong [ {*g} -> 0 || PCeltStarLongVowel _ .#. ];
+
+# 6.29 Intervocalic *m → *v.
 #      *nemos > nev.
-#      Src: GOI §116
 define OIMLenition [ {*m} -> {*v} || PCeltStarVowel _ PCeltStarVowel ];
 
-# 6.27 *ā → *a before *u.
-#      *nāwā > nau (not nāu): long vowel shortens before the *u created by
-#      OIMedialWVocal.  GOI §44 discusses OI quantity adjustments in hiatus.
-#      Src: GOI §44
+# 6.30 *ā → *a before *u (diphthong shortening before glide).
+#      *nāwā > nau (not nāu).  Runs after OIMedialWVocal creates *u from *w.
 define OIAUShorten [ {*ā} -> {*a} || _ {*u} ];
 
-# 6.28 Word-final *exs → *ē.
-#      *swexs > sé: the sequence *exs contracts to *ē word-finally.
-#      McCone 1996:123 cites this change explicitly for the numeral six.
-#      Src: McCone 1996:123
+# 6.31 Word-final *exs → *ē (compensatory lengthening).
+#      *swexs > sē via *sexs > *sē.  Runs before OIApocope.
 define OIXsLoss [
     {*e}{*x}{*s} -> {*ē} || _ .#.
 ];
 
-# 6.29 Final-syllable apocope (five sequential passes).
+# 6.32 Final-syllable apocope (five sequential passes).
 #      Pass 1: *-os, *-om, *-am, *-us, *-xs all drop word-finally.
 #      Pass 2: any remaining *s after a vowel drops.
 #      Pass 3: *-ā, *-ū, *-i drop word-finally.
@@ -594,7 +615,6 @@ define OIXsLoss [
 #      Pass 5: *-ns cluster drops.
 #      Note: *-ī is NOT dropped in pass 3 (cf. *trīs > trī where *s drops in
 #            pass 2, leaving *ī safely word-final).
-#      Src: GOI §175–182; McCone 1996
 define OIApocope [
     [{*o}{*s} -> 0, {*o}{*m} -> 0, {*a}{*m} -> 0, {*u}{*s} -> 0, {*x}{*s} -> 0
         || _ .#.]
@@ -608,16 +628,14 @@ define OIApocope [
     [{*n}{*s} -> 0 || _ .#.]
 ];
 
-# 6.30 Word-final cluster simplification: *sn → *n.
+# 6.33 Word-final cluster simplification: *sn → *n.
 #      *wasnos > fan via *fasn > *fan.
-#      Src: GOI §186
 define OIFinalCluster [
     {*s}{*n} -> {*n} || _ .#.
 ];
 
-# 6.31 Degemination.
+# 6.34 Degemination.
 #      *slattā > slat, *mukkus > muk (geminate created by *kk).
-#      Src: GOI §§ cluster simplification after apocope
 define OIDegemination [
     {*b}{*b} -> {*b},  {*d}{*d} -> {*d},  {*g}{*g} -> {*g},
     {*k}{*k} -> {*k},  {*l}{*l} -> {*l},  {*m}{*m} -> {*m},
@@ -625,9 +643,8 @@ define OIDegemination [
     {*s}{*s} -> {*s},  {*t}{*t} -> {*t}
 ];
 
-# 6.32 Remove star notation; map to plain Old Irish surface symbols.
+# 6.35 Remove star notation; map to plain Old Irish surface symbols.
 #      *ī surfaces as either ī (long) or i (where TSV data has short spelling).
-#      Src: internal
 define OIRemoveStars [
     {*a} -> a,      {*ā} -> ā,
     {*e} -> e,      {*ē} -> ē,
@@ -651,16 +668,16 @@ define OIRemoveStars [
 # ── Old Irish rule chain ──────────────────────────────────────────────────────
 
 define OIRules [
-    PCeltInitialUPhi
+    PCeltMatasovicNorm
+    .o. PCeltInitialUPhi
     .o. PCeltPhiLoss
     .o. OILabioVelar
-    .o. PCeltGdCluster
+    .o. OIGdCluster
     .o. OISFCluster
     .o. OIInitialW
     .o. OIEBreaking
     .o. OIIWDiphthong
     .o. OIMedialWDrop
-    .o. OIVowelDiphthongs
     .o. OIMedialWVocal
     .o. OIORaising
     .o. OIYVocal
@@ -670,16 +687,19 @@ define OIRules [
     .o. OINdElision
     .o. OIAAffection
     .o. OIIAffection
+    .o. OIULowering
     .o. OIMedialSLoss
     .o. OIMedialT
     .o. OIMedialD
     .o. OIFinalK
     .o. OIBLenition
-    .o. OIMLenition
+    .o. OIVowelDiphthongs
     .o. OICompLengthening
     .o. OINasalAssimN
     .o. OIMedialG
     .o. OIFinalG
+    .o. OIGLossAfterLong
+    .o. OIMLenition
     .o. OIAUShorten
     .o. OIXsLoss
     .o. OIApocope
@@ -699,92 +719,96 @@ define MiddleIrish OldIrish;
 ##                                                          ##
 ##   All changes from Proto-Celtic to Proto-Brythonic that  ##
 ##   predate the Welsh/Breton/Cornish dialect split.        ##
-##   Rules 7.1–7.4 form a single chain assembled in        ##
-##   Section 9.                                             ##
+##                                                          ##
+##   The chain is deliberately split into two stages:       ##
+##     Stage A  (ProtoBrythPreLenRules) — everything up to  ##
+##              but not including lenition.                 ##
+##     Stage B  (ProtoBrythLenition)   — lenition itself.   ##
+##                                                          ##
+##   This split lets Middle Welsh (and future branches)     ##
+##   insert innovations between apocope and lenition        ##
+##   (e.g. MW *-am apocope must precede lenition so that    ##
+##   the newly word-final *t becomes *θ).                   ##
 ##############################################################
 
-# 7.1  *skʷ- → *χw- (initial cluster).
+# ── 7A. Pre-lenition rules ───────────────────────────────────────────────────
+
+# 7A.1  *skʷ- → *χw- (initial cluster).
 #       Must fire BEFORE BritLabioVelar converts *kʷ → *p, otherwise we would
 #       get *sp- instead of *χw-.
 #       *skʷetlom → *χwetlom → MW chwedl.
-#       The {*w} output is starred; BritMedialWDrop excludes the {*χ}_ context.
-#      Src: Schrijver 1995; Jackson 1953
-define BritSkwCluster [ {*s}{*kʷ} -> {*χ}{*w} || .#. _ ];
+#       Note: the output w is *unstarred* so BritMedialWDrop (rule 7A.9) cannot
+#       delete it.
+define BritSkwCluster [ {*s}{*kʷ} -> {*χ}w || .#. _ ];
 
-# 7.2   Labiovelars: *kʷ → *p, *gʷ → *b.
+# 7A.2  Labiovelars: *kʷ → *p, *gʷ → *b.
 #       The defining P-Celtic innovation shared by Brythonic and Gaulish.
-#      Src: Jackson 1953; Schrijver 1995
 define BritLabioVelar [
     {*kʷ} -> {*p},
     {*gʷ} -> {*b}
 ];
 
-# 7.3   Nasal assimilation: *n → *m before *p (the newly created labial stop).
+# 7A.3  Nasal assimilation: *n → *m before *p (the newly created labial stop).
 #       *kʷenkʷe → *penpe → *pempe → MW pimp/OBret pemp.
-#      Src: Schrijver 1995; Jackson 1953
 define BritNasalAssim [ {*n}{*p} -> {*m}{*p} ];
 
-# 7.4   Initial consonant-cluster simplifications (before remaining *s rules).
+# 7A.4  Initial *gd- → *d.
+#       *gdonyos > din.
+define BritGdCluster [ {*g}{*d} -> {*d} || .#. _ ];
+
+# 7A.5  Initial consonant-cluster simplifications (before remaining *s rules).
 #       *sr- → *fr-: *srognā > froin/frogna (shared with Gaulish).
 #       *sw- → *χw-: *swelos > χwil (MW chwyl), *swexs > χwēχ (MW chwech).
 #       *sf-, *sɸ- → *f-: *sɸerā > fer.
 #       *sm- → *m-, *sl- → *l-.
 #       Note: *sw- produces unstarred w (same convention as BritSkwCluster).
-#      Src: Schrijver 1995; Jackson 1953
 define BritInitialSClusters [
     {*s}{*r} -> {*f}{*r} || .#. _,
-    {*s}{*w} -> {*χ}{*w} || .#. _,
+    {*s}{*w} -> {*χ}w    || .#. _,
     {*s}{*f} -> {*f}     || .#. _,
     {*s}{*ɸ} -> {*f}     || .#. _,
     {*s}{*m} -> {*m}     || .#. _,
     {*s}{*l} -> {*l}     || .#. _
 ];
 
-# 7.5   *ɸ → 0 in Brythonic (shared with 5.3 but applied via PCeltPhiLoss).
-#       Already defined as PCeltPhiLoss; referenced in the chain below.
-#       Src: GOI §26; McCone 1996:81
-
-# 7.6   Remaining initial *s → *h.
+# 7A.6  Remaining initial *s → *h.
 #       All other word-initial *s become *h: *sentus > hint, *sindos > hin.
-#      Src: Schrijver 1995; Jackson 1953 §§ initial s>h
 define BritInitialS [ {*s} -> {*h} || .#. _ ];
 
-# 7.7   Initial *w → *gw.
+# 7A.7  *ɸ → 0 in Brythonic (shared with 5.2 but applied via PCeltPhiLoss).
+#       Already defined as PCeltPhiLoss; referenced in the chain below.
+
+# 7A.8  Initial *w → *gw.
 #       *wiros > gwr, *windos > gwinn.
 #       "gw" surfaces as g+u in the IPA data.
-#      Src: Schrijver 1995; Jackson 1953
 define BritInitialW [ {*w} -> {*gw} || .#. _ ];
 
-# 7.8   Medial *w → 0 after a consonant, except after {*χ}.
-#       *ardwos > arð. Excludes {*χ}_ so that the {*w} from BritSkwCluster
-#       and BritInitialSClusters (*χw- clusters) is preserved.
-#      Src: Jackson 1953
-define BritMedialWDrop [ {*w} -> 0 || [PCeltStarConsonant - {*χ}] _ ];
+# 7A.9  Medial *w → 0 after a consonant.
+#       *ardwos > arð (only targets starred {*w}, not the unstarred w
+#       left by BritSkwCluster/BritInitialSClusters).
+define BritMedialWDrop [ {*w} -> 0 || PCeltStarConsonant _ ];
 
-# 7.9 *y deletion (with conditioned pre-deletion changes).
+# 7A.10 *y deletion (with conditioned pre-deletion changes).
 #       *ye- → *ia- word-initially (*yegis > iâ "ice").
 #       *y- before other vowels → *i- (*yālos > MW iaul).
 #       *y → *ð or 0 when it will be word-final after apocope
 #          (OW korð ← *koryos, MW ol ← *olyos).
 #       *y → 0 everywhere else.
-#      Src: Schrijver 1995
 define BritYDrop [
     {*y}{*e}  -> {*i}{*a} || .#. _,
     {*y}      -> {*i}     || .#. _ PCeltStarVowel,
-    {*y}      -> {*ð}     || PCeltStarConsonant _ PCeltStarShortVowel PCeltStarConsonant .#.,
+    {*y}      -> ({*ð}|0) || PCeltStarConsonant _ PCeltStarShortVowel PCeltStarConsonant .#.,
     {*y}      -> 0
 ];
 
-# 7.10 *mb → *m.
+# 7A.11 *mb → *m.
 #       *kambos > camm/cam.
-#      Src: Jackson 1953; Schrijver 1995
 define BritMbSimpl [ {*m}{*b} -> {*m} ];
 
-# 7.11 Geminate simplification with spirantization.
+# 7A.12 Geminate simplification with spirantization.
 #       *tt → *θ (surface th in Welsh, z in Breton).
 #       *kk → *x (→ *χ word-finally via BritFinalX).
 #       *ll, *nn, *mm → single consonants.
-#      Src: Jackson 1953; Schrijver 1995
 define BritGeminates [
     {*t}{*t} -> {*θ},
     {*k}{*k} -> {*x},
@@ -793,127 +817,63 @@ define BritGeminates [
     {*m}{*m} -> {*m}
 ];
 
-# 7.12 *ei diphthong simplification before nasals: *ei → *e.
+# 7A.13 *ei diphthong simplification before nasals: *ei → *e.
 #       *saleinos > halen/holen: otherwise BritVowelDiphthongs would give *oi
 #       and the surface form would be *halin rather than halen.
 #       Applied BEFORE BritVowelDiphthongs.
-#      Src: Schrijver 1995 §§ diphthong mergers
 define BritEINasalMerge [ {*ei} -> {*e} || _ [{*n}|{*m}] ];
 
-# 7.13 Diphthong mergers.
+# 7A.14 Diphthong mergers.
 #       *ei, *ai → *oi; *au, *ou → *u; *ow → *aw or *u.
-#      Src: Schrijver 1995; Jackson 1953 §§ New Quantity System
 define BritVowelDiphthongs [
     {*ei} -> {*oi},
     {*ai} -> {*oi},
     {*au} -> {*u},
     {*ou} -> {*u},
-    {*ow} -> {*u}
+    {*ow} -> ({*aw} | {*u})
 ];
 
-# 7.14 *oRa → *aRa assimilation (R = single sonorant).
+# 7A.15 *oRa → *aRa assimilation (R = single sonorant).
 #       *toranos > taran (not in Goidelic).
 #       Must precede raisings and A-affection.
-#      Src: Schrijver 1995; Jackson 1953
 define BritORAtoARA [ {*o} -> {*a} || _ PCeltStarSonorant [{*a}|{*ā}] ];
 
-# 7.15 Raising: *e → *i (non-deterministic) before nasal + stop.
+# 7A.16 Raising: *e → *i (non-deterministic) before nasal + stop.
 #       Wikipedia §5.2.2.1.  *sentus > hint/*hins; *kʷenkʷe > pimp/pemp.
 #       Non-deterministic to capture MW/OBret dialect variation.
-#      Src: Schrijver 1995; Jackson 1953
 define BritRaising [
-    {*e} -> [{*i}|{*e}] || _ [{*n}|{*m}] [{*t}|{*d}|{*k}|{*g}|{*p}|{*b}]
+    {*e} -> ({*i}|{*e}) || _ [{*n}|{*m}] [{*t}|{*d}|{*k}|{*g}|{*p}|{*b}]
 ];
 
-# 7.16 A-affection: *u → *o, *i → *e before a syllable ending in *ā.
+# 7A.17 A-affection: *u → *o, *i → *e before a syllable ending in *ā.
 #       Wikipedia §5.2.2.7.  *tundā > ton; *windā > gwen vs *windos > gwyn.
 #       Applied before apocope so the conditioning *ā is still present.
-#      Src: Schrijver 1995; Jackson 1953
 define BritAAffection [
     {*u} -> {*o} || _ PCeltStarConsonant+ {*ā},
     {*i} -> {*e} || _ PCeltStarConsonant+ {*ā}
 ];
 
-# 7.17 O-affection (i-affection of *o): *o → *e before consonant(s) + *i.
+# 7A.18 O-affection (i-affection of *o): *o → *e before consonant(s) + *i.
 #       Applied after BritIAffection so *a → *i affection fires first.
 #       *wolis > *gwoli > *gweli > gueli (MW).
-#      Src: Schrijver 1995; Jackson 1953
 define BritOIAffection [ {*o} -> {*e} || _ PCeltStarConsonant+ {*i} ];
 
-# 7.18 *ū → *i (Brythonic u-raising).
+# 7A.19 *ū → *i (Brythonic u-raising).
 #       *dūnom > din, *rūnā > rin.  Produces short *i (not *ī).
-#      Src: Schrijver 1995 §§ u-raising
 define BritUtoI [ {*ū} -> {*i} ];
 
-# 7.19 I-affection (umlaut): *a → *i in syllable before *ī.
+# 7A.20 I-affection (umlaut): *a → *i in syllable before *ī.
 #       *bleidanī > bloiðin (the *a in *-an- raises before final *-ī).
 #       Applied before apocope so the conditioning *ī is still present.
-#      Src: Jackson 1953; Schrijver 1995
 define BritIAffection [ {*a}{*n}{*ī} -> {*i}{*n}{*ī} ];
 
-# 7.20 *xt → *iθ (*x vocalizes before *t, spirantizing *t).
+# 7A.21 *xt → *iθ (*x vocalizes before *t, spirantizing *t).
 #       Applied after BritUtoI (so *ū is already *i) and before BritApocope.
 #       *oxtū → *ox+ti (UtoI) → *o+iθ+i (XTCluster) → *oiθ (apocope drops final *i).
 #       Surface: OW/OCorn oiθ.
-#      Src: Schrijver 1995; Jackson 1953
 define BritXTCluster [ {*x}{*t} -> {*i}{*θ} ];
 
-# 7.21 *e → *i before *g (vowel raising before velar; *tegos > tig in OW).
-#       Placed before apocope: the raising is conditioned by *g regardless of
-#       whether the *g is word-internal or followed by a case ending.
-#      Src: Jackson 1953; Schrijver 1995
-define BritEtoIBeforeG [ {*e} -> {*i} || _ {*g} ];
-
-# 7.22 Intervocalic *d → *ð (V _ V).
-#       Placed before apocope so that the case-ending vowel (*-ā, *-os etc.)
-#       can condition the lenition: *wridā > *wrið ā > *gwrið (after apocope).
-#       Left context restricted to vowels only (not sonorants) to avoid
-#       spirantizing *d in *n_V environments like *sindos, which needs
-#       BritFinalNDrop (7.32) to work on the intact *nd cluster.
-#      Src: Jackson 1953; Schrijver 1995
-define BritLenInterD [ {*d} -> {*ð} || PCeltStarVowel _ PCeltStarVowel ];
-
-# 7.23 *ī syncope in r-stem kinship terms (*mātīr > *mātr, *brātīr > *brātr).
-#       Placed before apocope (and before BritLenT) because r-stem kinship terms
-#       lack a case-ending vowel in the nominative: *r is already word-final.
-#       Syncope must precede BritLenT so that the resulting *V_t_r cluster
-#       triggers the V_Son lenition (*brātr > *brādr > brawd/braud).
-#      Src: Jackson 1953 LHEB; Schrijver 1995:377
-define BritIRSyncope [ {*ī} -> 0 || PCeltStarVowel PCeltStarConsonant _ {*r} .#. ];
-
-# 7.24 *t → *d before a sonorant after a vowel (*brātīr → *brātr → *brādr → brawd).
-#       Placed before apocope: the case-ending sonorant (*m in *-om, *n in *-ants)
-#       provides the right context where needed.
-#      Src: Jackson 1953; Schrijver 1995
-define BritLenT [ {*t} -> {*d} || PCeltStarVowel _ PCeltStarSonorant ];
-
-# 7.25 *t → *θ after *r or *l (*nertom → nerθ, *slattā → laθ).
-#       Placed before apocope: the case-ending vowel (*-om, *-ā etc.) provides
-#       the following-vowel context.  *nertom: *r+*t+*om → *nerθom → apocope
-#       drops *-om → *nerθ.  No restoration rule needed: *θ word-finally is the
-#       correct Brythonic outcome in all cases.
-#      Src: Jackson 1953; Schrijver 1995
-define BritFinalTSpirRL [ {*t} -> {*θ} || [{*r}|{*l}] _ PCeltStarVowel ];
-
-# 7.26 *k → *χ after a sonorant (*balkos → *balχos → apocope → *balχ → "balχ").
-#       Placed before apocope: the case-ending vowel (*-os, *-ā etc.) conditions
-#       the spirantization.  No restoration rule is needed: word-final *χ from
-#       this rule is the correct Brythonic outcome (cf. MW "balχ").
-#      Src: Schrijver 1995
-define BritLenFinalK [ {*k} -> {*χ} || PCeltStarSonorant _ PCeltStarVowel ];
-
-# 7.27 Intervocalic *g → *ɣ (V _ V).
-#       Placed before apocope: the case-ending vowel conditions the spirantization
-#       of *g in forms like *tigernos (*g between *i and *e).
-#       Forms like *tegos: after 7.21 raises *e → *i, *tigos has *g between *i
-#       and the case-ending *o → *tiɣos → apocope → *tiɣ → BritFinalGammaToG
-#       (7.29) restores word-final *ɣ → *g, giving *tig.
-#       Forms where *g precedes a sonorant (not a vowel), e.g. *maglos (*g_*l),
-#       are unaffected here and handled post-apocope by BritLenGBeforeSon (7.39).
-#      Src: Jackson 1953; Schrijver 1995
-define BritLenInterG [ {*g} -> {*ɣ} || PCeltStarVowel _ PCeltStarVowel ];
-
-# 7.28 Final-syllable apocope.
+# 7A.22 Final-syllable apocope.
 #       Pass 1: *-os, *-om drop.
 #       Pass 2: *s after vowel drops.
 #       Pass 3: *-tu → *-t (drops *u after *t).
@@ -924,7 +884,6 @@ define BritLenInterG [ {*g} -> {*ɣ} || PCeltStarVowel _ PCeltStarVowel ];
 #       Pass 8: *-ants → 0 word-finally.
 #       Pass 9: *m drops after *ā (*ɸlāmā > *lāmā > *lā > lau).
 #       Pass 10: *e drops after consonant (numeral apocope: *kʷenkʷe > pemp).
-#      Src: Jackson 1953 §§ apocope; Schrijver 1995
 define BritApocope [
     [{*o}{*s} -> 0, {*o}{*m} -> 0 || _ .#.]
     .o.
@@ -947,55 +906,83 @@ define BritApocope [
     [{*e} -> 0 || PCeltStarConsonant _ .#.]
 ];
 
-# 7.29 Word-final *ɣ → *g.
-#       After apocope removes the conditioning vowel, *g that was spirantized
-#       by BritLenInterG (7.27) at the V_V boundary of stem+case-ending ends up
-#       word-final (e.g. *tiɣos → apocope → *tiɣ#).  Final *ɣ is not a stable
-#       Brythonic outcome in that position; it reverts to *g, giving *tig → OW/OBret tig.
-#       Word-internal *ɣ (e.g. *tiɣern from *tigernos) is unaffected.
-#      Src: Jackson 1953; Schrijver 1995
-define BritFinalGammaToG [ {*ɣ} -> {*g} || _ .#. ];
+# ── 7B. Lenition rules ───────────────────────────────────────────────────────
+#
+# Each rule is a separate define, composed sequentially below in BritLenition.
+# Separating them avoids foma parallel-replacement / .#. interaction issues.
 
-# 7.30 *sn → *n (*kʷresnom > pren; initial *s drops before nasal in cluster).
-#      Src: Jackson 1953; Schrijver 1995
+# *sn → *n (*kʷresnom > pren; initial *s drops before nasal in cluster).
 define BritSNSimpl [ {*s}{*n} -> {*n} ];
 
-# 7.31 *x → *χ word-finally after a vowel (follows geminate *kk → *x in 7.4).
-#      *mukkus → *mux → *muχ → OW/OCorn moχ.
-#      Src: Schrijver 1995
+# *ī syncope in r-stem kinship terms: *ī → 0 before word-final *r.
+# Only fires when the form has V C+ *ī *r at word end, so that bare
+# *tīros → *tīr is not affected.
+define BritIRSyncope [ {*ī} -> 0 || PCeltStarVowel PCeltStarConsonant _ {*r} .#. ];
+
+# *x → *χ word-finally after a vowel (follows geminate *kk → *x in 7A.12).
+# *mukkus → *mux → *muχ → OW/OCorn moχ.
 define BritFinalX [ {*x} -> {*χ} || PCeltStarVowel _ .#. ];
 
-# 7.32 Medial *xs → *χ before a vowel (*ouxselos > OW/MW uχel 'high', OBret uchel).
-#      Schrijver 1995:342–343 analyses the *xs cluster in Brittonic: *x spirantizes
-#      to *χ and the *s is absorbed before a following vowel.
-#      Src: Schrijver 1995:342–343
+# Medial *xs → *χ before a vowel (*ouxselos > uχel).
 define BritMedialXS [ {*x}{*s} -> {*χ} || _ PCeltStarVowel ];
 
-# 7.33 Final *ng → *ŋ (velar nasal coalescence; *longā > loŋg/ɬoŋ).
-#      Src: Jackson 1953; Schrijver 1995
+# Final *ng → *ŋ (velar nasal coalescence; *longā > loŋg/ɬoŋ).
 define BritFinalNGCoal [ {*n}{*g} -> {*ŋ} || _ .#. ];
 
-# 7.34 Final *nd → *n (*sindos > hin, *landā > lan).
-#      Src: Jackson 1953; Schrijver 1995
+# Final *nd → *n (*sindos > hin, *landā > lan).
 define BritFinalNDrop [ {*n}{*d} -> {*n} || _ .#. ];
 
-# 7.35 Word-final *d → *ð after a vowel or sonorant.
-#      Src: Jackson 1953; Schrijver 1995
+# *e → *i before *g (vowel raising before velar; *tegos > tig in OW).
+define BritEtoIBeforeG [ {*e} -> {*i} || _ {*g} ];
+
+# Intervocalic *d → *ð.
+define BritLenInterD [ {*d} -> {*ð} || PCeltStarLenCtx _ PCeltStarVowel ];
+
+# Word-final *d → *ð after a vowel or sonorant.
 define BritLenFinalD [ {*d} -> {*ð} || PCeltStarLenCtx _ .#. ];
 
-# 7.36 Final *t → *d after any vowel (*bitus → bid; *brātus → braud via 7.4 first).
-#      Src: Jackson 1953; Schrijver 1995
+# *t → *d before a sonorant after a vowel (*brātus → *brādus → braud).
+define BritLenT [ {*t} -> {*d} || PCeltStarVowel _ PCeltStarSonorant ];
+
+# Final *t → *θ after *r or *l (*nertom → nerθ, *slattā → laθ).
+define BritFinalTSpirRL [ {*t} -> {*θ} || [{*r}|{*l}] _ .#. ];
+
+# Final *t → *d after any vowel (*bitus → bid; *brātus → braud via BritLenT first).
 define BritLenFinalT [ {*t} -> {*d} || PCeltStarVowel _ .#. ];
 
-# 7.37 Final *k → *g after a vowel (*drukos → drwg, *mrakis → brag).
-#      Src: Jackson 1953; Schrijver 1995
+# Final *k → *χ after a sonorant (*rīxs → *rīχ).
+define BritLenFinalK [ {*k} -> {*χ} || PCeltStarSonorant _ .#. ];
+
+# Final *k → *g after a vowel (*drukos → drwg, *mrakis → brag).
 define BritVowelFinalK [ {*k} -> {*g} || PCeltStarVowel _ .#. ];
 
-# 7.38 *g → *ɣ after a vowel before a sonorant at word end
-#      (*maglos > mail, *tigernos > teyrn).
-#      *ɣ surfaces as i via BritRemoveStars, creating diphthongs.
-#      Src: Schrijver 1995
+# Intervocalic *g → *ɣ.
+define BritLenInterG [ {*g} -> {*ɣ} || PCeltStarVowel _ PCeltStarVowel ];
+
+# *g → *ɣ after a vowel before a sonorant at word end
+# (*maglos > mail, *tigernos > teyrn).
+# *ɣ surfaces as i via BritRemoveStars, creating diphthongs.
 define BritLenGBeforeSon [ {*g} -> {*ɣ} || PCeltStarVowel _ PCeltStarSonorant .#. ];
+
+# Lenition chain (composed in historical order).
+define BritLenition [
+    BritSNSimpl
+    .o. BritIRSyncope
+    .o. BritFinalX
+    .o. BritMedialXS
+    .o. BritFinalNGCoal
+    .o. BritFinalNDrop
+    .o. BritEtoIBeforeG
+    .o. BritLenInterD
+    .o. BritLenFinalD
+    .o. BritLenT
+    .o. BritFinalTSpirRL
+    .o. BritLenFinalT
+    .o. BritLenFinalK
+    .o. BritVowelFinalK
+    .o. BritLenInterG
+    .o. BritLenGBeforeSon
+];
 
 ##############################################################
 ## SECTION 8 — Brythonic RemoveStars tables                 ##
@@ -1119,13 +1106,14 @@ define OCornRemoveStars [
 ## SECTION 9 — Proto-Brythonic transducer assembly          ##
 ##############################################################
 
-# Full Proto-Brythonic rule chain (rules 7.1–7.37, starred → starred).
-define ProtoBrythRules [
-    PCeltInitialUPhi
+# Stage A: everything up to (but not including) lenition.
+define ProtoBrythPreLenRules [
+    PCeltMatasovicNorm
+    .o. PCeltInitialUPhi
     .o. BritSkwCluster
     .o. BritLabioVelar
     .o. BritNasalAssim
-    .o. PCeltGdCluster
+    .o. BritGdCluster
     .o. BritInitialSClusters
     .o. PCeltPhiLoss
     .o. BritInitialS
@@ -1143,61 +1131,76 @@ define ProtoBrythRules [
     .o. BritUtoI
     .o. BritIAffection
     .o. BritXTCluster
-    .o. BritEtoIBeforeG
-    .o. BritLenInterD
-    .o. BritIRSyncope
-    .o. BritLenT
-    .o. BritFinalTSpirRL
-    .o. BritLenFinalK
-    .o. BritLenInterG
     .o. BritApocope
-    .o. BritFinalGammaToG
-    .o. BritSNSimpl
-    .o. BritFinalX
-    .o. BritMedialXS
-    .o. BritFinalNGCoal
-    .o. BritFinalNDrop
-    .o. BritLenFinalD
-    .o. BritLenFinalT
-    .o. BritVowelFinalK
-    .o. BritLenGBeforeSon
 ];
 
-# Proto-Brythonic transducer: Proto-Celtic → Proto-Brythonic (starred).
-define OWStarred CelticProtoInput .o. ProtoBrythRules;
+# Stage B: shared lenition.
+define ProtoBrythLenition BritLenition;
+
+# Full Proto-Brythonic chain (starred → starred, no surface symbols yet).
+define ProtoBrythRules ProtoBrythPreLenRules .o. ProtoBrythLenition;
+
+# Proto-Brythonic transducer: Proto-Celtic → Proto-Brythonic (still starred).
+define ProtoBrythonic CelticProtoInput .o. ProtoBrythRules;
 
 ##############################################################
 ## SECTION 10 — Welsh branch                                ##
 ##############################################################
 
 # ── 10.1 Old Welsh ───────────────────────────────────────────────────────────
-define OldWelsh OWStarred .o. BritRemoveStars .o. BritSurface;
+# No OW-specific phonological rules are needed beyond the shared Proto-Brythonic
+# chain at this level of abstraction.  This is the hook for future OW-specific
+# innovations (vowel affection details, specific cluster changes, etc.).
+define OldWelsh ProtoBrythonic .o. BritRemoveStars .o. BritSurface;
 
 # ── 10.2 Middle Welsh ────────────────────────────────────────────────────────
-# MW evolved from Old Welsh.  Two innovations postdate OW:
+# MW adds several innovations that postdate Old Welsh.  Because MW1 (final *-am
+# apocope) must precede lenition — so that consonants made word-final by the
+# apocope undergo lenition — the MW chain is built by re-composing the two
+# Proto-Brythonic stages with MW rules inserted between them.
 #
-# MW1  Final *r deletion after *d.
+# MW1  Final *-am → 0.
+#      *sextam > seiθ: the *t is newly word-final after *am drops, so it
+#      undergoes lenition (→ *θ) in Stage B.
+define MWAmApocope [ {*a}{*m} -> 0 || _ .#. ];
+
+# MW2  Final *r deletion after *d: *...dr# → *...d#.
 #      OW/OBret keep *r (*mātīr > OW modr, *brātīr > OBret brotr);
-#      MW loses it (*brātīr > MW brawd).
-#      Src: Jackson 1953 LHEB
+#      MW loses it (*brātīr > MW braud).
+#      Applied AFTER lenition (Stage B has already run BritIRSyncope and
+#      BritLenFinalD, giving *brātīr → *brādr).
 define MWFinalRAfterD [ {*r} -> 0 || {*d} _ .#. ];
 
-# MW2  Final *u deletion after a consonant.
+# MW3  Final *u deletion after a consonant: *Cu# → *C#.
+#      Extends apocope of the high back vowel word-finally.
 #      *weidus > gueið (combined with *oi → i in RemoveStars).
-#      Src: Jackson 1953 §§ final u apocope
 define MWFinalU [ {*u} -> 0 || PCeltStarConsonant _ .#. ];
 
-define MiddleWelsh OWStarred .o. MWFinalRAfterD .o. MWFinalU
-    .o. BritRemoveStars .o. BritSurface;
+# MW4  Raise *e → *i after w before final *l: *...wel# → *...wil#.
+#      *swelos > χwil (chwyl).  BritInitialSClusters produces unstarred w,
+#      so the context here intentionally uses unstarred w (not {*w}).
+define MWEtoIAfterWBeforeL [ {*e} -> {*i} || w _ {*l} .#. ];
+
+# MW rule chain: Stage A → MW1 apocope → Stage B lenition → MW2-4 post-lenition.
+define MWStarred CelticProtoInput
+    .o. ProtoBrythPreLenRules
+    .o. MWAmApocope
+    .o. ProtoBrythLenition
+    .o. MWFinalRAfterD
+    .o. MWFinalU
+    .o. MWEtoIAfterWBeforeL;
+
+define MiddleWelsh MWStarred .o. BritRemoveStars .o. BritSurface;
 
 ##############################################################
 ## SECTION 11 — Breton and Cornish branches                 ##
-##   Both share the full Proto-Brythonic chain; dialect     ##
-##   differences are captured in their RemoveStars tables.  ##
+##   Both currently share the full Proto-Brythonic chain;   ##
+##   dialect-specific differences are captured in their     ##
+##   RemoveStars tables (Section 8).                        ##
 ##############################################################
 
-define OBretReflexes  OWStarred .o. OBretRemoveStars;
-define OCornReflexes  OWStarred .o. OCornRemoveStars;
+define OBretReflexes  CelticProtoInput .o. ProtoBrythRules .o. OBretRemoveStars;
+define OCornReflexes  CelticProtoInput .o. ProtoBrythRules .o. OCornRemoveStars;
 
 define OldBreton     OBretReflexes .o. BritSurface;
 define MiddleBreton  OBretReflexes .o. BritSurface;
@@ -1212,27 +1215,35 @@ define MiddleCornish OCornReflexes .o. BritSurface;
 ##   endings.                                               ##
 ##############################################################
 
-# 12.1 *kʷ → *p, *gʷ → *b (P-Celtic, shared with Brythonic).
-#      Src: Jackson 1953; Schrijver 1995; Matasović 2009
+# 12.1 Initial *u before *ɸ → *v (not *w as in Insular Celtic).
+#      *uɸo > vo, *uɸer > ver.  Applied before PCeltPhiLoss.
+define GaulInitialUPhi [ {*u} -> {*v} || .#. _ {*ɸ} ];
+
+# 12.2 *kʷ → *p, *gʷ → *b (P-Celtic, shared with Brythonic).
 define GaulLabioVelar [
     {*kʷ} -> {*p},
     {*gʷ} -> {*b}
 ];
 
-# 12.2 Initial *sr- → *fr- (*srognā > frogna; shared with Brythonic).
-#      Src: Schrijver 1995; Matasović 2009
+# 12.3 Initial *sr- → *fr- (*srognā > frogna; shared with Brythonic).
 define GaulInitialSR [ {*s}{*r} -> {*f}{*r} || .#. _ ];
 
-# 12.3 *w → *u everywhere (*wiros > uiros, *windos > uindus).
-#      Src: Matasović 2009; Lambert 1994
+# 12.4 *w → *u everywhere (*wiros > uiros, *windos > uindus).
 define GaulWVocal [ {*w} -> {*u} ];
 
-# 12.4 *y → 0.
-#      Src: Matasović 2009
+# 12.5 *y → 0.
 define GaulYDrop [ {*y} -> 0 ];
 
-# 12.5 Remove star notation; macron notation for long vowels.
-#      Src: internal
+# 12.6 Diphthong reductions.
+define GaulVowelDiphthongs [
+    {*ei} -> {*e},
+    {*ai} -> {*e},
+    {*au} -> {*o},
+    {*ou} -> {*u},
+    {*ow} -> {*u}
+];
+
+# 12.7 Remove star notation; macron notation for long vowels.
 define GaulRemoveStars [
     {*a}  -> a,      {*ā}  -> ā,
     {*e}  -> e,      {*ē}  -> ē,
@@ -1247,18 +1258,17 @@ define GaulRemoveStars [
     {*s}  -> s,      {*t}  -> t,
     {*v}  -> v,      {*w}  -> u,
     {*x}  -> x,      {*y}  -> 0,
-    {*ŋ}  -> ŋ,      {*ɣ}  -> ɣ,
-    {*ei} -> {ei},   {*ai} -> {ai},
-    {*au} -> {au},   {*ou} -> {ou},
-    {*ow} -> {ow}
+    {*ŋ}  -> ŋ,      {*ɣ}  -> ɣ
 ];
 
 define GaulRules [
-    PCeltPhiLoss
+    GaulInitialUPhi
+    .o. PCeltPhiLoss
     .o. GaulLabioVelar
     .o. GaulInitialSR
     .o. GaulWVocal
     .o. GaulYDrop
+    .o. GaulVowelDiphthongs
     .o. GaulRemoveStars
 ];
 
@@ -1273,26 +1283,30 @@ define Gaulish      GaulReflexes .o. GaulSurface;
 ##############################################################
 
 # 13.1 *kʷ → *k+*u, *gʷ → *g+*u (labiovelars preserved as clusters).
-#      Src: Matasović 2009; WP "Celtiberian language"
 define CeltibLabioVelar [
     {*kʷ} -> {*k}{*u},
     {*gʷ} -> {*g}{*u}
 ];
 
 # 13.2 *w → *u everywhere.
-#      Src: Matasović 2009
 define CeltibWVocal [ {*w} -> {*u} ];
 
 # 13.3 Initial *d → *t (devoicing; *deiwos > teiuo).
-#      Src: Matasović 2009; WP "Celtiberian language"
 define CeltibInitialD [ {*d} -> {*t} || .#. _ ];
 
-# 13.4 *y → 0.
-#      Src: Matasović 2009
+# 13.4 *x → 0 (*rextus > retu).
+define CeltibXLoss [ {*x} -> 0 ];
+
+# 13.5 *y → 0.
 define CeltibYDrop [ {*y} -> 0 ];
 
-# 13.5 Remove star notation; long vowels surface short (no length marking in TSV).
-#      Src: internal
+# 13.6 Diphthong reductions (*au > *o as in *baus > bo).
+define CeltibDiphthongs [ {*au} -> {*o}, {*ou} -> {*u} ];
+
+# 13.7 Final apocope: *s drops after a vowel (*lugus > lugu, *deiwos > teiuo).
+define CeltibApocope [ {*s} -> 0 || PCeltStarVowel _ .#. ];
+
+# 13.8 Remove star notation; long vowels surface short (no length marking in TSV).
 define CeltibRemoveStars [
     {*a}  -> a,     {*ā}  -> a,
     {*e}  -> e,     {*ē}  -> e,
@@ -1317,7 +1331,10 @@ define CeltibRules [
     .o. CeltibLabioVelar
     .o. CeltibWVocal
     .o. CeltibInitialD
+    .o. CeltibXLoss
     .o. CeltibYDrop
+    .o. CeltibDiphthongs
+    .o. CeltibApocope
     .o. CeltibRemoveStars
 ];
 

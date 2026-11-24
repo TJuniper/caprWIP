@@ -14,10 +14,10 @@ services:
       - 5001:5000
     volumes:
       - ./backend:/usr/app                   # Backend code
-      - ./Germanic/data:/usr/app/data        # Germanic data files
-      - ./Germanic/fsts:/usr/app/fsts        # Germanic FST sources
-      - ./Germanic/tools:/usr/app/tools      # Germanic tools
-      - ./Germanic/docs:/usr/app/docs        # Germanic docs (debug_snapshots)
+      - ./Celtic/data:/usr/app/data
+      - ./Celtic/fsts:/usr/app/fsts
+      - ./Celtic/tools:/usr/app/tools
+      - ./Celtic/docs:/usr/app/docs
     depends_on:
       - frontend
   frontend:
